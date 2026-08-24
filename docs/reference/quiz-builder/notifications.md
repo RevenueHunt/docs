@@ -51,7 +51,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 
-    `Items list snippet` - Lists all the recomended products.
+    `Items list snippet` - Lists all the recommended products.
 
     `Responses by block snippet` - Lists all the customer answers.
 
@@ -149,7 +149,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `image` - URL for the main product image
 
-        `price` - Object with amount and currencyCode
+        `price` - Object with `amount` and `currencyCode`
 
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
 
@@ -502,7 +502,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `image` - URL for the main product image
 
-        `price` - Object with amount and currencyCode
+        `price` - Object with `amount` and `currencyCode`
 
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
 

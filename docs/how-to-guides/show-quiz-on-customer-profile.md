@@ -52,7 +52,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
 
-    Then, [generate an embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz and insert the quiz iframe code (as you can see on line 68):
+    Then, [generate an embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz and insert the quiz iframe code (as you can see on line 68):
 
     ```html
     <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;" />
@@ -68,7 +68,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 === "Magento"
 
@@ -76,7 +76,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 === "BigCommerce"
 
@@ -84,7 +84,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 === "Standalone"
 
@@ -92,7 +92,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 ---
 This guide provides instructions for developers on showing the quiz on a customer profile in Shopify.

@@ -254,7 +254,7 @@ The words this documentation uses, and what each one means.
     | **results page** | The screen a customer sees after the last question. A quiz can have several. |
     | **section** | A band of the results page. Display logic shows and hides whole sections. |
     | **block** | A component inside a section: text, image, video, custom HTML, a products block or a slot block. |
-    | **slot** | One recommendation position inside a products block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a products block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
 
 === "Shopify (Legacy)"
 
@@ -270,7 +270,7 @@ The words this documentation uses, and what each one means.
     |---|---|
     | **Results Page** | The screen a customer sees after the last question. A quiz can have several. |
     | **block** | A component on the Results Page: text, image, video, custom HTML, a Product Block or a Slot Block. Display Logic shows and hides individual blocks. |
-    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
 
 === "WooCommerce"
 
@@ -286,7 +286,7 @@ The words this documentation uses, and what each one means.
     |---|---|
     | **Results Page** | The screen a customer sees after the last question. A quiz can have several. |
     | **block** | A component on the Results Page: text, image, video, custom HTML, a Product Block or a Slot Block. Display Logic shows and hides individual blocks. |
-    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
 
 === "Magento"
 
@@ -302,7 +302,7 @@ The words this documentation uses, and what each one means.
     |---|---|
     | **Results Page** | The screen a customer sees after the last question. A quiz can have several. |
     | **block** | A component on the Results Page: text, image, video, custom HTML, a Product Block or a Slot Block. Display Logic shows and hides individual blocks. |
-    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
 
 === "BigCommerce"
 
@@ -318,7 +318,7 @@ The words this documentation uses, and what each one means.
     |---|---|
     | **Results Page** | The screen a customer sees after the last question. A quiz can have several. |
     | **block** | A component on the Results Page: text, image, video, custom HTML, a Product Block or a Slot Block. Display Logic shows and hides individual blocks. |
-    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
 
 === "Standalone"
 
@@ -334,7 +334,7 @@ The words this documentation uses, and what each one means.
     |---|---|
     | **Results Page** | The screen a customer sees after the last question. A quiz can have several. |
     | **block** | A component on the Results Page: text, image, video, custom HTML, a Product Block or a Slot Block. Display Logic shows and hides individual blocks. |
-    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
 
 ## Recommendation system
 
@@ -468,7 +468,7 @@ display logic     shows or hides          part of the results page
     | Term | What it means |
     |---|---|
     | **product** | An item in your Shopify catalog. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **collection** | A group of products in Shopify. Link choices to collections to upvote every product inside. |
     | **product tag** | A label you put on a product in Shopify. RevenueHunt can include or exclude products by tag, the same way it does with collections, and you can build a smart collection from a tag. Not the same as a customer tag. |
     | **catalog** | The copy of your products that RevenueHunt syncs from your store. |
@@ -478,7 +478,7 @@ display logic     shows or hides          part of the results page
     | Term | What it means |
     |---|---|
     | **product** | An item in your Shopify catalog. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **collection** | A group of products in Shopify. Link choices to collections to upvote every product inside. |
     | **product tag** | A label you put on a product in Shopify. RevenueHunt can include or exclude products by tag, the same way it does with collections. Not the same as a customer tag. |
     | **catalog** | The copy of your products that RevenueHunt syncs from your store. |
@@ -488,7 +488,7 @@ display logic     shows or hides          part of the results page
     | Term | What it means |
     |---|---|
     | **product** | An item in your WooCommerce store. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **category** | A group of products in WooCommerce. Link choices to categories to upvote every product inside. |
     | **product tag** | A label you put on a product in WooCommerce. RevenueHunt can include or exclude products by tag, the same way it does with categories. Not the same as a customer tag. |
     | **catalog** | The copy of your products that RevenueHunt syncs from your store. |
@@ -500,7 +500,7 @@ display logic     shows or hides          part of the results page
     | Term | What it means |
     |---|---|
     | **product** | An item in your Magento store. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **category** | A group of products in Magento. Link choices to categories to upvote every product inside. |
     | **product tag** | A label you put on a product in Magento. RevenueHunt can include or exclude products by tag, the same way it does with categories. Not the same as a customer tag. |
     | **catalog** | The copy of your products that RevenueHunt syncs from your store. |
@@ -512,7 +512,7 @@ display logic     shows or hides          part of the results page
     | Term | What it means |
     |---|---|
     | **product** | An item in your BigCommerce store. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **category** | A group of products in BigCommerce. Link choices to categories to upvote every product inside. |
     | **product tag** | A label you put on a product in BigCommerce. RevenueHunt can include or exclude products by tag, the same way it does with categories. Not the same as a customer tag. |
     | **catalog** | The copy of your products that RevenueHunt syncs from your store. |
@@ -524,7 +524,7 @@ display logic     shows or hides          part of the results page
     | Term | What it means |
     |---|---|
     | **product** | An item you add to your Standalone catalog, or import through a Google Product Feed. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **collection** | A group of products you create in your Standalone account. Link choices to collections to upvote every product inside. |
     | **product tag** | A label on a product in your feed. RevenueHunt can include or exclude products by tag, the same way it does with collections. Not the same as a customer tag. |
     | **catalog** | The products held in your Standalone account. |

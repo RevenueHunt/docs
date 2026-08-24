@@ -84,9 +84,11 @@ VENDORS = [
 ]
 
 DEAD_PHRASING = [
-    # covers allows to, allows you to, allowing the customer to, and so on
+    # covers allows to, allows you to, allowing the customer to, and so on.
+    # us and me are here because allows us to reads as house voice, which
+    # section 4 rules out anyway, and the phrasing is dead either way
     (r'\ballow(?:s|ing)?\s+(?:(?:you|the customer|customers|the merchant|'
-     r'merchants|the user|users)\s+)?to\b',
+     r'merchants|the user|users|us|me|them|him|her|it)\s+)?to\b',
      'lets you, or lets the customer'),
     # covers is possible to, is not possible to, are not possible to
     (r'\b(?:is|are)(?: not)? possible to\b', 'you can, or you cannot'),

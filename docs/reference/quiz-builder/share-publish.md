@@ -233,7 +233,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! warning 
 
-        Most users perfer to place the inline quiz only on a specific page. To do that, check the [On a Specific Page](#on-a-specific-page_1) section below.
+        Most merchants place the inline quiz on one specific page. To do that, see [On a Specific Page](#inline-on-a-specific-page).
 
     1. To add an inline quiz to your website, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
     2. From the `Home page` menu on top, select the `Default page` template. This is a template applied by default to most pages in your store.
@@ -933,7 +933,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    `Popup height` - Adjust the heightof the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing a percentage.
 
     ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
 

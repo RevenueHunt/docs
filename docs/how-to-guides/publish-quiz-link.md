@@ -680,7 +680,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
     !!! note
         Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
         
-    If adjusting the z-index setting doesn't solve the issue, try to **publish the quiz inline with a page instead.** Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    If adjusting the z-index setting doesn't solve the issue, try to **publish the quiz inline with a page instead.** Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 
 === "Shopify (Legacy)"
@@ -696,7 +696,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 === "WooCommerce"
 
@@ -711,7 +711,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 === "Magento"
 
@@ -726,7 +726,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 === "BigCommerce"
 
@@ -741,7 +741,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 === "Standalone"
 
@@ -756,7 +756,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 
 

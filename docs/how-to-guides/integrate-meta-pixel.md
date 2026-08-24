@@ -17,7 +17,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
 
 === "Shopify"
 
@@ -40,7 +40,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
         !!! tip
 
-            Check this article to learn how to publish the quiz on a dedicated landing page: [Publish Quiz Inline](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page)
+            Check this article to learn how to publish the quiz on a dedicated landing page: [Publish Quiz Inline](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)
 
     4. **Connect Quiz to Meta Pixel**: To integrate the Meta Pixel with your quiz:
 
@@ -83,7 +83,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
         !!! tip
 
-            Check this article to learn how to publish the quiz on a dedicated landing page: [Publish Quiz Inline](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page)
+            Check this article to learn how to publish the quiz on a dedicated landing page: [Publish Quiz Inline](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)
 
     4. **Connect Quiz to Meta Pixel**: To integrate the Meta Pixel with your quiz:
 

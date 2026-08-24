@@ -221,7 +221,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
 
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
 
@@ -298,7 +298,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -336,7 +336,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -374,7 +374,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -412,7 +412,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -450,7 +450,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -622,7 +622,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Range` - Select the range of answers a customer can click.
 
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+    `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - *above* - Places the uploaded image above the question, on top of the slide.
     - *below* - Places the uploaded image below the question, above the choices.
@@ -630,7 +630,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
     - *Image Opacity* - A slider which lets you adjust the opacity of the uploaded image.
 
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    `Video` - Click "Add" to upload a featured video to the question. An extra menu appears once activated.
 
     - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
@@ -673,7 +673,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Range` - Select the range of answers a customer can click.
 
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+    `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - *above* - Places the uploaded image above the question, on top of the slide.
         
@@ -685,7 +685,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - *Image Opacity* - A slider which lets you adjust the opacity of the uploaded image.
 
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    `Video` - Click "Add" to upload a featured video to the question. An extra menu appears once activated.
 
     - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
 
@@ -731,7 +731,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Range` - Select the range of answers a customer can click.
 
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+    `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - `above` - Places the uploaded image above the question, on top of the slide.
         
@@ -743,7 +743,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    `Video` - Click "Add" to upload a featured video to the question. An extra menu appears once activated.
 
     - `responsive` - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
 
@@ -789,7 +789,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Range` - Select the range of answers a customer can click.
 
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+    `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - `above` - Places the uploaded image above the question, on top of the slide.
         
@@ -801,7 +801,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    `Video` - Click "Add" to upload a featured video to the question. An extra menu appears once activated.
 
     - `responsive` - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
 
@@ -847,7 +847,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Range` - Select the range of answers a customer can click.
 
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+    `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - `above` - Places the uploaded image above the question, on top of the slide.
         
@@ -859,7 +859,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    `Video` - Click "Add" to upload a featured video to the question. An extra menu appears once activated.
 
     - `responsive` - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
 
@@ -897,7 +897,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
 
-    Each buliding block of your question has individual block settings. To open the block settings, click on the block.
+    Each building block of your question has its own block settings. To open the block settings, click on the block.
 
     `🗑 / bin` - Click on the bin icon to remove the block.
 
@@ -1009,7 +1009,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Height` - You can adjust the image size in the `Image height`dropdown. 
 
-    `Alignment` changes the alignement of the image left, right or center.
+    `Alignment` changes the alignment of the image to left, right or center.
 
     `🗑 Remove block` - Click to delete this block.
 
@@ -1029,7 +1029,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Alt text` - Add a short description of the video (for accessibility).
 
-    `Video aspect ratio` - Choose how the video is sized (e.g., horizotal, vertical, 16:9, 4:3).
+    `Video aspect ratio` - Choose how the video is sized (for example horizontal, vertical, 16:9, 4:3).
 
     `Video alignment` - Set the video position: Left, Center, or Right.
     
@@ -1113,13 +1113,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Error message`, `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.`Error message` - add a message to the user if they select too many options.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Error message`, `Minimum selected` and `Maximum selected` settings. `Minimum selected` - the fewest choices the customer must select to go to the next question. `Maximum selected` - the most choices the customer can select. Above that number, they cannot go on.`Error message` - add a message to the user if they select too many options.
 
     `Advanced settings` - Opens the advanced choice settings menu.
 
     `Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size. 
     
-    If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an additional option for chosing a `Mobile layout` will appear. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
+    If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an extra option for choosing a `Mobile layout` appears. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
 
     `Hide checkbox/radio` - When checked hides the checkbox element from picture choices.
 
@@ -1148,7 +1148,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Optional` - Check if the question can be skipped.
 
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - the fewest choices the customer must select to go to the next question. `Maximum selected` - the most choices the customer can select. Above that number, they cannot go on.
 
     `Enable options search` - Adds a search bar inside the dropdown.
 
@@ -1401,7 +1401,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    `Default Country Code` - Select a default contry code from the dropdown list.
+    `Default Country Code` - Select a default country code from the dropdown list.
 
     `Placeholder` - The default text displayed in the textbox visible to the customer.
 
@@ -1715,7 +1715,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     *None of the above* - If the choice is this type and it is selected, it will disable all the other choices.
 
-    *All of the above* - If the choice is this type and it is selected, it will autoamtically select all the choices in that question.
+    *All of the above* - If the choice is this type and it is selected, it automatically selects every choice in that question.
 
     `🗑 Remove choice` - Click to delete this choice.
 

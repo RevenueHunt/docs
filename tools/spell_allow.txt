@@ -1,0 +1,174 @@
+# Words tools/spell_check.py should accept.
+#
+# One word per line, lowercase. The checker also accepts the plural of any
+# word here, so list the singular.
+#
+# Add a word only when it is genuinely correct English or a genuine product,
+# platform or technical term. If it is a product term, put it in
+# docs/reference/glossary.md first. This file is not a place to silence a
+# typo.
+#
+# Anything inside backticks is already skipped, so an app label that is
+# misspelled on screen does not need an entry here.
+
+# --- RevenueHunt and the product
+revenuehunt
+prq
+quizzes
+upvote
+upvoted
+downvote
+premade
+
+# --- platforms and integrations
+shopify
+woocommerce
+bigcommerce
+magento
+wordpress
+shopware
+prestashop
+squarespace
+klaviyo
+mailchimp
+omnisend
+activecampaign
+hubspot
+zapier
+pagefly
+gmass
+loox
+yotpo
+rivyo
+tiktok
+mkdocs
+
+# --- web and technical
+api
+cdn
+css
+dns
+gdpr
+ccpa
+html
+imap
+javascript
+json
+oauth
+rtl
+sdk
+seo
+smtp
+srgb
+svg
+typescript
+utm
+wcag
+webp
+async
+backend
+frontend
+iframe
+metadata
+namespace
+plaintext
+runtime
+shortcode
+stringified
+stylesheet
+subdomain
+subpage
+templating
+uncomment
+viewport
+webhook
+whitelisting
+
+# --- interface vocabulary
+checkbox
+dropdown
+checkmark
+placeholder
+permalink
+textbox
+tooltip
+uncheck
+untick
+
+# --- ecommerce vocabulary
+ecommerce
+popup
+checkout
+upsell
+upselling
+crm
+saas
+metafield
+signup
+inbox
+retargeting
+walkthrough
+chatbot
+chatgpt
+workflow
+lookup
+analytics
+catalog
+catalogue
+timestamp
+username
+
+# --- American spellings the dictionary is missing
+anonymize
+anonymized
+customizable
+customization
+customize
+customized
+customizing
+personalization
+personalize
+personalized
+
+# --- accessibility
+assistive
+autofill
+talkback
+macos
+programmatically
+
+# --- general English the dictionary is missing
+alt
+app
+admin
+etc
+intro
+multi
+pre
+resize
+playlist
+attaches
+skincare
+haircare
+emailing
+unsubscribe
+unsubscribed
+spammy
+sunsetting
+shareability
+virality
+uncaptured
+undercount
+underperform
+screenshot
+screenshotted
+rollout
+versa
+
+# --- ingredients and brands used in the skincare examples
+hyaluronic
+ceramide
+comedogenic
+neutrogena
+khadi
+organix

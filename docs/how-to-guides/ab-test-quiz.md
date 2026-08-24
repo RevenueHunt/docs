@@ -28,7 +28,7 @@ Deploying both versions of your quiz on your website can be done through simple 
 ### No coding solution: basic A/B testing
 For straightforward A/B testing, we recommend publishing each version of the quiz on separate pages within your store. This approach does not require any coding:
 
-- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) publishing instructions to embed each quiz into its respective page. 
+- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page. 
 
 This method allows you to directly link to each quiz version from different parts of your website or through external marketing channels.
 

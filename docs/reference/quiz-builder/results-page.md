@@ -923,7 +923,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ##### Slot design
 
-    `Slot layout` - Select the layout of the slot block from Stached or Side-by-side.
+    `Slot layout` - Select the layout of the slot block, either `Stacked` or `Side-by-side`.
 
     `Heading alignment` - Select how the slot title should be aligned within the slot block- left, center or right.
 
@@ -994,7 +994,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Vendor` - Adds the product vendor as set up in Shopify Products.
 
-    `Variants dropdown` - Adds a dropdown that dislays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
+    `Variants dropdown` - Adds a dropdown that displays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
 
@@ -1750,7 +1750,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
-    `Cart URL:` - Typeer the cart URL where the customer will be redirected after adding a product to the cart.
+    `Cart URL:` - Type the cart URL that the customer is sent to after they add a product to the cart.
 
     `/cart` - After the products are added to the cart, the customer will proceed to the cart page.
 

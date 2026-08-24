@@ -29,3 +29,4 @@ requests==2.34.0
 six==1.17.0
 urllib3==2.7.0
 watchdog==6.0.0
+pyspellchecker==0.9.0

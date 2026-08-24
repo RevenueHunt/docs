@@ -86,7 +86,7 @@ description: "Information about showing RevenueHunt quiz only to logged-in custo
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 === "Magento"
 
@@ -94,7 +94,7 @@ description: "Information about showing RevenueHunt quiz only to logged-in custo
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 === "BigCommerce"
 
@@ -102,7 +102,7 @@ description: "Information about showing RevenueHunt quiz only to logged-in custo
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 === "Standalone"
 
@@ -110,7 +110,7 @@ description: "Information about showing RevenueHunt quiz only to logged-in custo
 
     !!! tip 
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
 
 ---
 By following this article, developers can learn how to show a quiz to logged-in customers only.

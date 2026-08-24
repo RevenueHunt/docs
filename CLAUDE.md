@@ -8,18 +8,24 @@ Before writing or editing anything in `docs/`, read `STYLE.md` and
 `docs/reference/glossary.md`. Both are binding. They supersede the
 Content Standards section further down this file.
 
-After changing anything in `docs/`, do all four:
+After changing anything in `docs/`, do all five:
 
 1. Check the pages you changed:
    `python tools/style_check.py docs/path/to/page.md`
-2. If you added a page, add it to the `nav` in `mkdocs.yml`. A page that is
+2. Spellcheck the same pages:
+   `python tools/spell_check.py docs/path/to/page.md`
+   The style checker has no dictionary, so a clean style score says nothing
+   about spelling. A correct word the dictionary lacks goes in
+   `tools/spell_allow.txt`, never silence a real typo that way. Anything in
+   backticks is skipped, because an app label is quoted verbatim.
+3. If you added a page, add it to the `nav` in `mkdocs.yml`. A page that is
    not in the nav still renders at its URL but is reachable only by search.
-3. Regenerate the support-bot files and put them in the same commit as the
+4. Regenerate the support-bot files and put them in the same commit as the
    page changes, never a follow-up commit:
    `python generate_platform_docs.py`
    On Windows prefix it with `PYTHONIOENCODING=utf-8`, or the script dies
    partway through and leaves two of the three files stale.
-4. Confirm the site builds: `python -m mkdocs build --strict`
+5. Confirm the site builds: `python -m mkdocs build --strict`
 
 Commit messages must be plain text. Never use a double quote, backtick,
 dollar sign or backslash in them, or the Discord notification workflow fails.

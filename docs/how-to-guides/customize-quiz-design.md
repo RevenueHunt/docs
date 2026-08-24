@@ -10,7 +10,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 !!! info "Quiz Design Options"
 
     - Use the customization options in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab or built-in [Question](/reference/quiz-builder/questions/#question-settings), [Block](/reference/quiz-builder/questions/#block-settings) or [Results Page](/reference/quiz-builder/results-page/) settings
-    - Add your own style with [CSS](#add-custom-css-code) or [JavaScript](/how-to-guides/add-javascript/)
+    - Add your own style with [CSS](#advanced-customizations-css) or [JavaScript](/how-to-guides/add-javascript/)
     - Modify any part of the quiz or results page with custom CSS
     - Include custom images and styles for each question via the [question settings](/reference/quiz-builder/questions/#question-settings)
     - Add videos to the quiz or results page via the [question settings](/reference/quiz-builder/questions/#question-settings)
@@ -720,7 +720,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
 
 === "WooCommerce"
 
@@ -757,7 +757,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
 
 === "Magento"
 
@@ -794,7 +794,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
 
 === "BigCommerce"
 
@@ -831,7 +831,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
 
 === "Standalone"
 
@@ -868,7 +868,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
 
 ## Adding images and videos
 

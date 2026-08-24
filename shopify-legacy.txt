@@ -5489,7 +5489,7 @@ Deploying both versions of your quiz on your website can be done through simple 
 ### No coding solution: basic A/B testing
 For straightforward A/B testing, we recommend publishing each version of the quiz on separate pages within your store. This approach does not require any coding:
 
-- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) publishing instructions to embed each quiz into its respective page. 
+- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page. 
 
 This method allows you to directly link to each quiz version from different parts of your website or through external marketing channels.
 
@@ -6961,7 +6961,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 !!! info "Quiz Design Options"
 
     - Use the customization options in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab or built-in [Question](/reference/quiz-builder/questions/#question-settings), [Block](/reference/quiz-builder/questions/#block-settings) or [Results Page](/reference/quiz-builder/results-page/) settings
-    - Add your own style with [CSS](#add-custom-css-code) or [JavaScript](/how-to-guides/add-javascript/)
+    - Add your own style with [CSS](#advanced-customizations-css) or [JavaScript](/how-to-guides/add-javascript/)
     - Modify any part of the quiz or results page with custom CSS
     - Include custom images and styles for each question via the [question settings](/reference/quiz-builder/questions/#question-settings)
     - Add videos to the quiz or results page via the [question settings](/reference/quiz-builder/questions/#question-settings)
@@ -7058,7 +7058,7 @@ This article explains how to customize the quiz design with built-in app setting
         ```html
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
     You can add images to your quiz in serveral ways. 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
@@ -7702,7 +7702,7 @@ To track quiz performance with Google Analytics in Shopify (legacy), you'll need
         The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
     To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
     To implement custom event tracking for your quiz, follow these steps:
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
@@ -7804,7 +7804,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -7816,7 +7816,7 @@ If you have not implemented a Pixel on your website yet, set one up following [M
             To create a new data set with a unique Pixel ID, go to [https://business.facebook.com/](https://business.facebook.com/) > `Ads Manager` > `Events Manager` > `Data sources` > `Create data source`.
     3. **Publish the Quiz**: Ensure the quiz is published on your online store. It is recommended to have a dedicated page for the quiz to track events accurately.
         !!! tip
-            Check this article to learn how to publish the quiz on a dedicated landing page: [Publish Quiz Inline](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page)
+            Check this article to learn how to publish the quiz on a dedicated landing page: [Publish Quiz Inline](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)
     4. **Connect Quiz to Meta Pixel**: To integrate the Meta Pixel with your quiz:
         1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
         2. Find the Meta Pixel section and hit `connect`.
@@ -8698,7 +8698,7 @@ In short, to add a link popup to your store, you need to:
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
     For Shopify (V1), you can link to specific quizzes by creating different popup links for each quiz.
     1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz.
     2. Navigate to `Link > Show Instructions for legacy themes`.
@@ -8973,7 +8973,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
             Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
         - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - **Use Exclusions**: You can use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
     Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
     <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
@@ -9617,7 +9617,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
         **Optional: Update Marketing Consent**
         If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
         1. Right below the flow trigger, add a `Profile property update` action.
@@ -11350,7 +11350,7 @@ Integrating quiz results into a customer's profile on your Shopify store can per
     ```html
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-    Then, [generate an embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz and insert the quiz iframe code (as you can see on line 68):
+    Then, [generate an embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz and insert the quiz iframe code (as you can see on line 68):
     ```html
     <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;" />
     ```
@@ -13342,7 +13342,7 @@ The words this documentation uses, and what each one means.
     |---|---|
     | **Results Page** | The screen a customer sees after the last question. A quiz can have several. |
     | **block** | A component on the Results Page: text, image, video, custom HTML, a Product Block or a Slot Block. Display Logic shows and hides individual blocks. |
-    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturiser. |
+    | **slot** | One recommendation position inside a Product Block. Use slots when you want a fixed structure, such as a cleanser, then a serum, then a moisturizer. |
     One system. Choices give upvotes to products, and the Results Page shows the most upvoted first.
     | Term | What it means |
     |---|---|
@@ -13354,7 +13354,7 @@ The words this documentation uses, and what each one means.
     | Term | What it means |
     |---|---|
     | **product** | An item in your Shopify catalog. |
-    | **variant** | A version of a product, such as a size or colour. |
+    | **variant** | A version of a product, such as a size or color. |
     | **collection** | A group of products in Shopify. Link choices to collections to upvote every product inside. |
     | **product tag** | A label you put on a product in Shopify. RevenueHunt can include or exclude products by tag, the same way it does with collections. Not the same as a customer tag. |
     | **catalog** | The copy of your products that RevenueHunt syncs from your store. |
@@ -13832,7 +13832,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
     `Yes/No` - Two choices slide which displays choices as a clickable options.
-    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
     `Short-text` - An open question slide where the customer types a short text answer.
     `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
@@ -13853,13 +13853,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
     `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
     `Range` - Select the range of answers a customer can click.
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+    `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
     - *above* - Places the uploaded image above the question, on top of the slide.
     - *below* - Places the uploaded image below the question, above the choices.
     - *background* - Places the uploaded image on the background of the slide (overrides the default quiz background).
     - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
     - *Image Opacity* - A slider which lets you adjust the opacity of the uploaded image.
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    `Video` - Click "Add" to upload a featured video to the question. An extra menu appears once activated.
     - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
@@ -14350,8 +14350,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 --- Shopify (Legacy) Specific Content ---
 
-In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendation Quiz) leads to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
-    !!! info "You'll learn:"
+In this tutorial you will learn how to send quiz leads to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), and how to build a post-quiz email flow there.
+    !!! info "What you will learn"
         - how to add an email question to your quiz
         - how to ask for marketing consent in your quiz
         - how to connect your quiz to Klaviyo
@@ -14359,50 +14359,50 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
         - how to send quiz leads to Klaviyo Lists
         - how to segment customers coming from the quiz in Klaviyo
         - how to create a result email flow in Klaviyo
-        - how to use our built-in Klaviyo email templates
+        - how to use the built-in Klaviyo email templates
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    In this tutorial, you'll learn how to connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and set up a post-quiz email flow.
-    Connecting the quiz to Klaviyo can significantly increase your sales. 
-    RevenueHunt allows you to send all quiz information directly to Klaviyo. This includes the quiz taker's email and name but also all the quiz questions, answers and recommended products.
-    Sending a follow-up email with Klaviyo is very easy. Let's get started.
-    To send contacts to Klaviyo your quiz needs to have an `email question`. 
+    In this tutorial you will learn how to connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and set up a post-quiz email flow.
+    Connecting the quiz to Klaviyo can significantly increase your sales.
+    The RevenueHunt app sends all quiz information straight to Klaviyo. That covers the customer's email and name, and every question, answer and recommended product.
+    The steps below set up a follow-up email in Klaviyo.
+    To send contacts to Klaviyo your quiz needs to have an `email question`.
     1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz. 
+    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
         !!! example "Example"
             - You can inform the customer in the [question description](/how-to-guides/ask-for-marketing-consent#option-1-question-description) that by providing the email address they agree to receive marketing information.
-            - Or you can add a [marketing checkmark](/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
-    To connect the quiz to Klaviyo you'll have to provide your Klaviyo **Public API Key**. 
-    Public API Key is essential because it allows us to send information to Klaviyo Profiles.
+            - Or you can add a [marketing checkmark](/how-to-guides/ask-for-marketing-consent/#option-2-marketing-checkmark) by joining two slides together.
+    To connect the quiz to Klaviyo, provide your Klaviyo **Public API Key**.
+    The Public API Key is what lets the app send information to Klaviyo Profiles.
     1. To find your Public Key login to your Klaviyo account.
     2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-    3. Navigate back to the RevenueHunt app. 
+    3. Navigate back to the RevenueHunt app.
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
     5. Paste your Public API Key and `save`.
     6. Publish the changes with the top-right `Publish` button.
-    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Klaviyo account.
+    7. Take the quiz all the way to the results page. Use an email address that is not already in your Klaviyo account.
     8. To verify the test, open `Klaviyo > Profiles` section.
     9. If a new profile was added the integration was successful.
         !!! tip
-            If a new profile wasn't added to Profiles in Klaviyo, double-check your Public API Key and repeat the process.
+            If no new profile appears in Klaviyo Profiles, check your Public API Key and repeat the process.
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
-    All quiz contacts can be grouped into a **segment** in Klaviyo. 
+    All quiz contacts can be grouped into a **segment** in Klaviyo.
     1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition.
     3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
-    4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
+    4. If the permalink property is not in the dropdown, take a test quiz and try again.
     5. Click `Create a segment`.
     Now all the contacts coming from the quiz will also be added to this specific segment.
-    1. To create an email flow that includes only quiz takers open the `Flows` tab in Klaviyo. 
+    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
-    4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
+    4. Klaviyo then asks you to set up a flow trigger.
+    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
+    If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
-    3. A menu will appear letting up set up the profile property update.
+    3. A menu opens where you set up the profile property update.
     4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
     5. Turn this action `LIVE`.
     1. Grab the `EMAIL` action and drop it below the flow trigger.
@@ -14415,18 +14415,18 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     8. You can then `preview` the email as one of your segment subscribers.
     9. Make sure to `Save` the changes and click `Done`.
     10. Return to your flow and turn your email `LIVE`.
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
+    From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
     1. Add a `Profile property update` action at the end of the flow.
     2. Click `+ Step`.
     3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps. 
+    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
         !!! example "Example"
-            Select `Delete existing property` > `PERMALINK-QuizID`. 
+            Select `Delete existing property` > `PERMALINK-QuizID`.
     5. Save the changes and turn the action `LIVE`.
-    This way, each time a quiz taker takes the quiz again, they will be re-added to the segment and will trigger the email flow again.
-    RevenueHunt app allows you to add contacts from the quiz directly to a **list** in Klaviyo. To do that you'll need to provide a **Private API Key**.
+    Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
+    The RevenueHunt app can add quiz contacts straight to a **list** in Klaviyo. This needs a **Private API Key**.
     1. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
     2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
     3. Allow `Full access`.
@@ -14590,8 +14590,8 @@ description: "Create your first product recommendation quiz with RevenueHunt - r
 
 --- Shopify (Legacy) Specific Content ---
 
-In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
-    !!! info "You'll learn:"
+In this tutorial you will learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+    !!! info "What you will learn"
         - how to build a quiz from scratch
         - different question types and how to use them
         - how to recall information from the previous questions
@@ -14604,51 +14604,51 @@ In this tutorial, you'll learn how to make and publish a short quiz that recomme
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    1. Let's add a new quiz from your [dashboard](/reference/dashboard/).
-    2. [Quiz Builder](/reference/quiz-builder/) is where you'll create your quiz. 
-    3. Click on the `+` plus sign and choose a question type. 
-    4. You can edit the question and you'll see how it looks in the preview.
+    1. Add a new quiz from your [dashboard](/reference/dashboard/).
+    2. [Quiz Builder](/reference/quiz-builder/) is where you create your quiz.
+    3. Click on the `+` plus sign and choose a question type.
+    4. Edit the question and see how it looks in the preview.
     5. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon. Here, you can change things like adding a question description or an image.
-    6. To make the quiz more personal you can add a `Name question` and recall the answer in other parts of the quiz using [information recalls (@)](/how-to-guides/use-information-recalls/).
-    7. To select the best cleanser, you may want to know the client's age, skin type and the environment they live in. `Multiple-choice questions` may be the best way to find out this information. Let's ask about a skin type. 
-    8. Finally, we should find out the environment they live in. To make the quiz more interesting, we'll use a `Picture question` here. 
-    9. Don't forget to add an `email question`! That's how you'll collect valuable leads for your marketing campaigns. In the [question settings](/reference/quiz-builder/questions/#question-settings) you can make this one optional.
-    10. Once you have all your questions you can move them around by drag and drop. 
-    11. Make sure to keep the quiz short. Customers typically drop out after question 8 and almost nobody gets to question 12. There's power in simplicity!
+    6. To make the quiz more personal, add a `Name question`. You can then recall the answer elsewhere in the quiz with an [information recall (@)](/how-to-guides/use-information-recalls/).
+    7. To select the best cleanser, you need the customer's age, skin type and environment. A `Multiple-choice question` is usually the best way to collect that. Start by asking about skin type.
+    8. Finally, find out the environment they live in. Use a `Picture question` here, to make the quiz more interesting.
+    9. Remember to add an `email question`. That is how you collect leads for your marketing campaigns. In the [question settings](/reference/quiz-builder/questions/#question-settings) you can make this one optional.
+    10. Once you have all your questions you can move them around by drag and drop.
+    11. Make sure to keep the quiz short. Customers typically drop out after question 8 and almost nobody gets to question 12. There is power in simplicity.
     1. You can change the look of your quiz in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
-    2. In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you'll see some premade themes that you can choose from.
+    2. In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.
     3. Or you can create your own design by clicking [Edit Theme](/reference/quiz-builder/quiz-design/#edit-theme).
-    4. To make the quiz match the store's style let's:
-        - edit the font, 
-        - change the background color, 
-        - remove or add a background image, 
-        - and change the color of the buttons and choices. 
-    5. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make the quiz unique.
+    4. To make the quiz match your store's style:
+        - edit the font,
+        - change the background color,
+        - remove or add a background image,
+        - and change the color of the buttons and choices.
+    5. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make the quiz unique.
     6. All the changes you make will be saved automatically.
-    7. Once you're done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes). You'll be able to apply it to other quizzes that you create.
-    1. Our [success checklist](/reference/dashboard/#success-checklist) will remind you if there are no products associated with the answers.
+    7. Once you are done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes). You can then apply it to other quizzes that you create.
+    1. The [success checklist](/reference/dashboard/#success-checklist) reminds you if there are no products associated with the answers.
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
-    3. Your synced products will appear as a list. Scroll down to select items or just start typing the name.
+    3. Your synced products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/). 
-        - Products are linked to each choice. 
+    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+        - Products are linked to each choice.
         - When a customer picks that choice, all linked products receive one vote.
         - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
         - If there is a draw in the number of votes, the app will randomize the products.
-    6. Make sure to link products to each question and choice in the quiz. 
-    7. You can test different answering routes and results by clicking on the `Publish` button to update the preview/live quiz and then `Preview`.
-    1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/). 
-    2. Click on a `+` plus sign to select a block type. 
+    6. Make sure to link products to each question and choice in the quiz.
+    7. Click `Publish` to update the preview and the live quiz. Then click `Preview` to test different answering routes and results.
+    1. As in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/).
+    2. Click on a `+` plus sign to select a block type.
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
-        - In the `Products block`, you can select how many products will be recommended. 
-    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
-    4. The [Results Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
-    1. Once your quiz is set up, hit the [`Share`](/reference/quiz-builder/share-publish/) button in the top right-hand corner to see all of the publishing options.
-    2. For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link#link-popup-in-website-menu).
-    3. Adjust the quiz's width and height and generate a code. 
-    4. In your website's menu, you can add a new section and paste the code. 
-    Voila!  You've just created your first Product Recommendation Quiz.
+        - In the `Products block`, you can select how many products will be recommended.
+    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+    4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
+    1. Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner. It shows every publishing option.
+    2. For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).
+    3. Adjust the quiz's width and height and generate a code.
+    4. In your website's menu, you can add a new section and paste the code.
+    You have created your first Product Recommendation Quiz.
 
 
 
@@ -14667,7 +14667,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 --- Shopify (Legacy) Specific Content ---
 
 With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
         - how to use the customization options in the Quiz Design tab or built-in Question, Block or Results Page settings
         - where to add your own style with CSS or JavaScript
         - how to modify any part of the quiz or results page with custom CSS
@@ -14687,7 +14687,7 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
     - **Edit Theme**. Pick a color palette, choose fonts, and add a default background image.
         ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
     **Theme editor fields**
-    - In the Quiz Design tab, you’ll see the name of your current theme displayed at the top.
+    - The Quiz Design tab shows the name of your current theme at the top.
     - Use the **Font** dropdown to change fonts for headings and body text, or select Inherit to automatically match your store theme.
     - Adjust the question **text color** with a color picker, or type in a HEX code for precision.
     - Change the **look of choices** with the built-in color picker. Like other fields, you can paste in a HEX code for an exact match.
@@ -14702,25 +14702,25 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
     - In the Custom CSS section, click `Add` to open the CSS console. This will create an input area where you or your developer can add rules that override the default quiz styles.
     - To find the correct selector, right-click on the element in your browser and choose `Inspect`. Copy the selector from the developer tools.
     !!! tip "Add specificity to your CSS rules"
-        Add specificity to your CSS rules to target the whole quiz or just one question.
+        Add specificity to your CSS rules to target the whole quiz, or only one question.
         `#quiz p {color: red;}` - Changes the color of all paragraphs in the quiz.
-        `#question-AbC7Zde p {color: red;}` - Changes the color of a paragraph only in question AbC7Zde.
+        `#question-AbC7Zde p {color: red;}` - Changes the color of a paragraph only in question `AbC7Zde`.
         You can find the `question ID` in [Quiz Builder > Question settings](/reference/quiz-builder/questions/#question-settings).
-    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide. 
+    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide.
     **Question Settings**
     Click on the `wrench icon` in the bottom-right corner to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    In question setting you'll find many options to customize your question and make it very unique. 
-    - **Show description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    The question settings hold many options to customize a question.
+    - **Show description** - Activates an extra text field on the slide, below the main question field. It lets you add more text to a slide. Toggle to activate.
         !!! info "Show description"
             ![tutorial_legacy_question_description_example](/images/tutorial_legacy_question_description_example.png)
-            Description fields are very useful as they not only allow you to add extra text to the slide but also style it using the [Markdown](/how-to-guides/use-markdown/) language, embed images and videos using [Markdown](/how-to-guides/use-markdown/) or use [information recalls](/how-to-guides/use-information-recalls/) to display the user's previous answers.
-    - **Image** - Click `Add` to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
+            A description field lets you add extra text to the slide. You can style it with [Markdown](/how-to-guides/use-markdown/), embed images and videos, or use an [information recall](/how-to-guides/use-information-recalls/) to show the customer's earlier answers.
+    - **Image** - Click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
         ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
-    - **Video** - Click `Add` to uplaod a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
-    - **Join next question**- Allows you to join the current question with the next one.
+    - **Video** - Click `Add` to upload a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
+    - **Join next question** - Lets you join the current question with the next one.
         !!! example
             ![how_to_join_slides_slides_joined](/images/how_to_join_slides_slides_joined.png)
-    - **Custom JS Code** - Click `Add` to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    - **Custom JS Code** - Click `Add` to open a JavaScript console. It lets you add custom JavaScript to the quiz question.
         !!! tip "Custom JavaScript"
             You can add custom JavaScript to **questions** and the [**results page**](#results-page-tab) to extend behavior and layout.
             **Use cases**
@@ -14732,7 +14732,7 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
             See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
     **Adding Media**
     You can add media into quiz questions in two ways:
-    1. **Per-question media** via [**Question Settings**](/reference/quiz-builder/questions/#question-settings): Upload a unique image per slide (background or split) or add a short **video** block for richer context.
+    1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
         ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_backgroudimagequestion.png)
     2. **Embed via Markdown** in text blocks such as question description or content blocks on the results page:
         !!! example "Markdown"
@@ -14757,8 +14757,8 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
         ```
         **Text styles**
         ```
-        *italic*  
-        **bold**  
+        *italic*
+        **bold**
         ***bold & italic***
         ```
         **Links**
@@ -14774,12 +14774,12 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
     !!! tip "Need brand fonts/colors?"
-        Use [**Custom CSS**](/reference/quiz-builder/quiz-design/#advanced-customizations-css) in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
+        Use [**Custom CSS**](/reference/quiz-builder/quiz-design/#edit-theme) in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     **Picture Choice Slides**
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
+    A Picture Choice question lets you add an image to each choice in a multiple-choice question.
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
-    - Select `Picture choice`. This creates a multiple-choice slide where each option is displayed as a clickable image. You’ll be able to upload your own image for each choice.
+    - Select `Picture choice`. This creates a multiple-choice slide where each option is a clickable image. You can upload your own image for each choice.
         !!! tip "Image size"
             For best results, upload square images up to 400×400px.
             Non-square images will be cropped automatically.
@@ -14788,13 +14788,13 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
     - Click `+ Add choice` to insert a new answer option into the block.
     - For each choice, click `+ Image` to upload an image from your computer.
     - Repeat the process by adding more choices until your picture choice question is complete.
-    The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
+    The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what the customer sees after finishing the quiz.
     You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
     ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
     Each block has its own settings which you can use by clicking on the `wrench icon` in the bottom-right corner.
-    - Click `add` on the **image block** to upload an image to the results page and adjust it's opacity.
-    - **heading and content blocks** allow you to add text to the results page, style it with Markdown language or embed images, links or videos.
-        ??? info "How do I use Markdown lanague?"
+    - Click `add` on the **image block** to upload an image to the results page and adjust its opacity.
+    - **heading and content blocks** let you add text to the results page. Style it with Markdown, or embed images, links or videos.
+        ??? info "How do I use Markdown?"
             **Headings**
             ```
             # H1
@@ -14803,8 +14803,8 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
             ```
             **Text styles**
             ```
-            *italic*  
-            **bold**  
+            *italic*
+            **bold**
             ***bold & italic***
             ```
             **Links**
@@ -14819,14 +14819,14 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
             ```
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
-    - **custom HTML blocks** allow you to add custom HTML to the results page.
-    - **products blocks** allow you to add products to the results page.
-    - **slots blocks** allow you to add products to the results page sorted into slots.
+    - **custom HTML blocks** let you add custom HTML to the results page.
+    - **products blocks** let you add products to the results page.
+    - **slots blocks** let you add products to the results page, sorted into slots.
     **Results Page settings**
     Click on the `gear icon` in the top-right corner to open the [results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     - In the Basic Settings section, you can add a **dedicated background image** for the results page.
         ![manual_quizbuilder_resultspage_settings_basic_stylesettings](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
-    - In the Basic Settings section, you can adjust the **Individual Product Settings** allowing you to show/hide product images, prices, vendors, etc.
+    - In the Basic Settings section, **Individual Product Settings** lets you show or hide product images, prices and vendors.
         ![manual_quizbuilder_resultspage_settings_basic_individualproductsettings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
     - In the Advanced Settings section, you can inject **Custom JavaScript** that affects only the results page.
         ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
@@ -14846,51 +14846,51 @@ icon: material/numeric-5
 description: "Send automated quiz result emails and connect your SMTP email server with the RevenueHunt app for customer notifications."
 ---
 
-# Sedning Emails with RevenueHunt app
+# Sending Emails with RevenueHunt app
 
 --- Shopify (Legacy) Specific Content ---
 
-In these tutorials, you’ll learn how to send emails to quiz respondents and yourself using the RevenueHunt app and how to connect your own email server using SMTP (Simple Mail Transfer Protocol) .
-    !!! info "You’ll learn:"
+In this tutorial you will learn how to send emails to customers and to yourself. It also covers connecting your own email server over SMTP, which stands for Simple Mail Transfer Protocol.
+    !!! info "What you will learn"
         - how to send quiz result emails to customers automatically,
         - how to receive a notification email when someone completes a quiz,
         - how to connect your own email server using SMTP.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. See [How to Send Result Emails from Your Own Server](/how-to-guides/send-result-emails-from-custom-server/) for the setup.
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
         !!! note
             SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
-        ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
+            Once the RevenueHunt app is connected to your SMTP server, the follow-up emails with quiz results are sent from your own email account.
+            **If you are not sure which credentials to use, check your email provider's documentation for "SMTP", or contact their support.**
+    1. **Add Email Question**: Your quiz needs an email question before you set up result emails. Add one in the [Quiz Builder](/reference/quiz-builder/questions/).
+    2. **Activate emails to customers**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
+        ![Emails to respondents setting activated](/images/manual_quizbuilder_notifications_torespondent_active.png)
     3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
+    4. **Email TO**: Choose which email question supplies the address. With only one email question in the quiz, it is selected for you.
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
-    5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
-        - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
-        ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](/how-to-guides/send-result-emails/#editing-email-templates).
-        ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
-    6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    6. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
+        - **Basic text** email template. Type the text you want the customer to see in the `Email Text Message` field. Add dynamic elements with `@`, or with an [Information Recall](/how-to-guides/use-information-recalls/), to pull in the customer name, email, phone number, quiz name, answers and recommended products. The basic template shows no images and no color, and has the best deliverability.
+        ![Basic text email template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+        - **Advanced HTML** email template. Editing it needs HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers). Use quiz response metadata such as `{{first_name}}` to personalize an email, and use Handlebars to loop over recommended products. HTML emails do not render the same way in every email client, so add styles inline rather than as classes. Email clients do not run JavaScript. Read more in [Editing Email Templates](/how-to-guides/send-result-emails/#editing-email-templates).
+        ![Advanced HTML email template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
+    7. **Publish the changes**: Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. See [How to Send Result Emails from Your Own Server](/how-to-guides/send-result-emails-from-custom-server/) for the setup.
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
         !!! note
             SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            **If you are not sure which credentials to use, check your email provider's documentation for "SMTP", or contact their support.**
     1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
-    2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
-        ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
+    2. **Activate Notifications**: Toggle the button to activate the emails. You can get an email for each quiz completion, and for each cart or checkout.
+        ![Emails to self setting activated](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4887d06413b84d0098f2c08c49f8ead9?sid=6eac3370-9976-4ea2-81c3-85a0691669a5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
     2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
         ![how to set up smtp](/images/manual_appsettings_smtp.png)
-    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+    3. **Enter SMTP Details**: Fill in your SMTP server details.
         Fill in the following fields:
         ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
         - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
@@ -14903,8 +14903,8 @@ In these tutorials, you’ll learn how to send emails to quiz respondents and yo
         - Visit [Specific SMTP Configurations](/how-to-guides/send-result-emails-from-custom-server/#specific-smtp-configurations) for common email provider instructions.
         - Contact your email provider's support team for assistance.
         !!! note
-            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
-    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. 
+            If you are not sure what to enter, contact your email service provider or search their documentation for "SMTP".
+    4. **Test and Activate**: Click `test connection & activate`. Once the test passes, all emails are sent from your server.
         If there are errors, please check the [troubleshooting guidelines](/how-to-guides/send-result-emails-from-custom-server/#troubleshooting-common-smtp-connection-issues).
 
 
@@ -14959,8 +14959,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 --- Shopify (Legacy) Specific Content ---
 
-In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
-    !!! info "You’ll learn:"
+In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
+    !!! info "What you will learn"
         - how to build a quiz from scratch
         - different question types and how to use them
         - how to recall information from the previous questions
@@ -14975,86 +14975,86 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     </div>
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
-    Let’s get started.
-    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
-    2. For the slots to work correctly, you’ll have to **create four collections** and include all the corresponding products in them. For example:
-        - a *Cleansers* collection should have all the cleansing products, 
-        - a *Toners* collection should have all the toning products, 
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
+    Get started below.
+    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers.
+    2. For the slots to work correctly, **create four collections** and put the matching products in them. For example:
+        - a *Cleansers* collection should have all the cleansing products,
+        - a *Toners* collection should have all the toning products,
         - a *Serums* collection should have all the serums, etc.
     3. To create a collection, click on the top-right button. Check [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
-    4. Give it a name and a description. 
-    5. Next, you’ll select how to add products to a collection. You can do that **manually**, selecting each product one by one, or you can make an **automatic collection** based on a product tag. 
-    6. To create a *Cleansers* collection, we’ll choose the tag to be equal to the word `cleanser`. Shopify will automatically add all the products with this tag to the collection. 
+    4. Give it a name and a description.
+    5. Next, select how to add products to a collection. Add them **manually**, one product at a time, or make an **automatic collection** based on a product tag.
+    6. To create a *Cleansers* collection, set the tag to `cleanser`. Shopify then adds every product with that tag to the collection.
     7. You can create the toners, serums and moisturizer collections the same way.
     8. You can have more than one collection that includes some of the same products. An *anti-aging* or *oily skin* collection can be composed of several cleansers, serums or moisturizers.
-    Once you’ve made changes to your products and collections, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
+    After you change your products or collections, [sync them](/how-to-guides/sync-catalog/) with the app.
     1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
     2. The sync may take between 30 to 60 minutes.
-    3. Once it’s finished, all your products and collections will be up to date in the app.
+    3. When the sync finishes, your products and collections are up to date in the app.
     !!! info
         Your store is also fully synced every 24 hours.
-    Now you can build your quiz. 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+    Now you can build your quiz.
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            To learn how to use the [Quiz Builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
         - Use a `Name question` to make the quiz personal.
-        - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-        - Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+        - `Multiple-choice questions` can be useful in finding out the customer's age, skin type, skin concerns or the environment they live in.
+        - Add a skin sensitivity question as well. [Exclude products](/how-to-guides/set-up-funnel-quiz/#exclusion) explains how to keep products containing allergens out of the recommendations.
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
     Once your quiz is built and styled, you should add products and collections to individual choices.
-    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
+    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
-    3. Then, let’s link the *skin type* collections/categories.
+    3. Then link the *skin type* collections and categories.
     4. You can link one or more collections/categories to the same choice.
-    5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
+    5. Continue until every choice in the quiz has products, collections or categories linked. A choice with nothing linked produces empty results.
     !!! info "Product recommendation algorithm"
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
-    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
-    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
-    2. Tap on the greyed `exclude products` text and a white bar will appear. 
-    3. Simply add the products that contain an allergen.
-    Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
+    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
+    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question.
+    2. Tap on the greyed `exclude products` text and a white bar will appear.
+    3. Add the products that contain an allergen.
+    When a customer says they are sensitive to *aloe vera*, every product that contains it is excluded from the recommendations.
     !!! warning
-        ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+        Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
+    Now edit the [Results Page](/reference/quiz-builder/results-page/).
     1. Add a heading, a logo or a content block to customize the page.
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
-    The page is almost done. 
-    Now let’s add a space for products.
-    1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
-    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+    2. Add a `content block` to describe every step in the beauty routine.
+    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text.
+    The page is almost done.
+    Now add a space for products.
+    1. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
+    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products.
     3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot.
-    4. Slots won’t work unless you `include collections/categories` to each of them. It’s how they know which products to choose.
+    4. Slots need collections. `include collections/categories` in each slot, so that it knows which products to choose.
         - Include the *Cleansers* collection/category in the Cleansers Slot
         - Include the *Toners* collection/category in the Toners Slot
         - Include the *Serums* collection/category in the Serum Slot, etc.
-    5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+    5. Make sure that the products in these collections/categories are [linked to the answers](#upvote-collectionscategories) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
-    Et voila! You’ve just created a dynamic results page for your beauty quiz!
+    You have created a dynamic results page for your beauty quiz.
     1. Update the preview/live quiz with the top-right `Publish` button.
     2. You can test the quiz by clicking the `Preview`/`Test Quiz` button.
     3. Take the quiz a few times to check if the correct products are recommended.
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
     1. To do that, go to the [`Share`](/reference/quiz-builder/share-publish/) tab and select the `Inline` publish option.
     2. Click `Show Instructions for Legacy Themes`.
-    3. Adjust the quiz’s width and height and click `Get code` to generate a code. 
-    3. Copy the code and navigate to your `Online Store > Pages` in Shopify. 
-    4. Add a new page and give it a name. 
+    3. Adjust the quiz’s width and height and click `Get code` to generate a code.
+    3. Copy the code and navigate to your `Online Store > Pages` in Shopify.
+    4. Add a new page and give it a name.
     5. Click the `Show HTML` button and paste the code copied from the app.
     6. Make sure to `save` the changes.
 
@@ -15075,11 +15075,11 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 --- Shopify (Legacy) Specific Content ---
 
 Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. For this reason building a personality-type quiz or a scoring quiz like this one is not possible with the off-the-shelf solution.
-    Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
-    !!! tip 
-        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
-    !!! tip 
-        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Your developer can implement a custom scoring system with JavaScript on the Results Page instead.
+    !!! tip
+        To recommend products based on the number of choices a customer makes, see [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz). That section covers this version.
+    !!! tip
+        To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 

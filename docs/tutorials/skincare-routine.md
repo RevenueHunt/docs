@@ -9,9 +9,9 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Shopify"
 
 
-    In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
+    In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
 
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
 
         - how to build a funnel quiz based on a product matrix
         - how to build a quiz that recommends product based on multiple criteria
@@ -30,9 +30,9 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
-    In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
+    In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
 
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
 
         - how to build a quiz from scratch
         - different question types and how to use them
@@ -48,12 +48,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "WooCommerce"	
+=== "WooCommerce"
 
 
-    In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
+    In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
 
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
 
         - how to build a quiz from scratch
         - different question types and how to use them
@@ -72,9 +72,9 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Magento"
 
 
-    In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
+    In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
 
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
 
         - how to build a quiz from scratch
         - different question types and how to use them
@@ -93,9 +93,9 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "BigCommerce"
 
 
-    In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
+    In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
 
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
 
         - how to build a quiz from scratch
         - different question types and how to use them
@@ -114,9 +114,9 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Standalone"
 
 
-    In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
+    In this tutorial you will learn how to make and publish a short quiz. It recommends the best skincare products for a customer, organized into clear categories.
 
-    !!! info "You’ll learn:"
+    !!! info "What you will learn"
 
         - how to build a quiz from scratch
         - different question types and how to use them
@@ -133,16 +133,16 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     </div>
 
 
-## Intro 
+## Intro
 
 === "Shopify"
 
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
 
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
 
     - The quiz recommends a tailored skincare routine including a cleanser, toner, serum, and moisturizer.
     - Recommendations are based on two key factors: age group and skin type.
@@ -164,11 +164,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
 
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
 
-    Let’s get started.
+    Get started below.
 
 
 === "WooCommerce"
@@ -177,11 +177,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
 
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
 
-    Let’s get started.
+    Get started below.
 
 === "Magento"
 
@@ -189,11 +189,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
 
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
 
-    Let’s get started.
+    Get started below.
 
 === "BigCommerce"
 
@@ -201,11 +201,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
 
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
 
-    Let’s get started.
+    Get started below.
 
 === "Standalone"
 
@@ -213,11 +213,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
-        Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
+        Take the quiz on the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site to see an example.
 
-    **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
+    **Objective**: Build a quiz that recommends a four-step skincare routine to your customers.
 
-    Let’s get started.
+    Get started below.
 
 
 
@@ -226,9 +226,9 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
-    1. For the quiz to work as a funnel and filter products based on the age and skin type, you need to create collections for each age group and skin type and product type.
+    1. The quiz works as a funnel. To filter products by age and skin type, create a collection for each age group, skin type and product type.
 
-    2. **Create Manual Collections for Age Groups:** Go to `Shopify > Products > Collections > Add collection`. Create a `Manual` collection for each age group that includes only the products that are relevant to that age group for all skin types.
+    2. **Create Manual Collections for Age Groups:** Go to `Shopify > Products > Collections > Add collection`. For each age group, create a `Manual` collection. Include only the products relevant to that age group, across all skin types.
 
         ??? example "--Teens-- Collection should include the following products:"
 
@@ -281,7 +281,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
             | 30–50     | Morning Cleanser; Aloe Soothing Toner; The Ordinary "Buffet" + Copper Peptides 1%; Relaxing Night Cream | **Redness-Relief Cleansing Lotion; Balancing Force Oil Control Toner; Vitamin C Serum; Oil-Free Moisture Lotion** | Neutrogena Oil-Free Acne Face Wash; United State Balancing Tonic; Super Antioxidant Serum; Oil-Free Moisture-Combination Skin |
             | 50+       | Foaming Cream Cleanser; Ultra Facial Toner; Khadi Global Natural Hyaluronic Acid Serum; Relaxing Night Cream | **Redness-Relief Cleansing Lotion; United State Balancing Tonic; The Ordinary "Buffet" + Copper Peptides 1%; Oil-Free Moisture Lotion** | Morning Cleanser; Balancing Force Oil Control Toner; Super Antioxidant Serum; Moisturizing Cream-Gel |
 
-        ??? example "--Combination Skin Type-- Collection should include the following products:" 
+        ??? example "--Combination Skin Type-- Collection should include the following products:"
 
 
             | Age Group | Dry or Normal | Oily | 🌟Combination |
@@ -322,7 +322,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-        ??? example "--Moisturizers Quiz-- Collection should include the following products:"            
+        ??? example "--Moisturizers Quiz-- Collection should include the following products:"
 
 
 
@@ -338,73 +338,73 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
-    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
-    2. For the slots to work correctly, you’ll have to **create four collections** and include all the corresponding products in them. For example:
-        - a *Cleansers* collection should have all the cleansing products, 
-        - a *Toners* collection should have all the toning products, 
+    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers.
+    2. For the slots to work correctly, **create four collections** and put the matching products in them. For example:
+        - a *Cleansers* collection should have all the cleansing products,
+        - a *Toners* collection should have all the toning products,
         - a *Serums* collection should have all the serums, etc.
     3. To create a collection, click on the top-right button. Check [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
-    4. Give it a name and a description. 
-    5. Next, you’ll select how to add products to a collection. You can do that **manually**, selecting each product one by one, or you can make an **automatic collection** based on a product tag. 
-    6. To create a *Cleansers* collection, we’ll choose the tag to be equal to the word `cleanser`. Shopify will automatically add all the products with this tag to the collection. 
+    4. Give it a name and a description.
+    5. Next, select how to add products to a collection. Add them **manually**, one product at a time, or make an **automatic collection** based on a product tag.
+    6. To create a *Cleansers* collection, set the tag to `cleanser`. Shopify then adds every product with that tag to the collection.
     7. You can create the toners, serums and moisturizer collections the same way.
     8. You can have more than one collection that includes some of the same products. An *anti-aging* or *oily skin* collection can be composed of several cleansers, serums or moisturizers.
 
 === "WooCommerce"
 
-    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
-    2. For the slots to work correctly, you’ll have to **create four categories** and include all the corresponding products in them. For example:
-        - a *Cleansers* category should have all the cleansing products, 
-        - a *Toners* category should have all the toning products, 
+    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers.
+    2. For the slots to work correctly, **create four categories** and put the matching products in them. For example:
+        - a *Cleansers* category should have all the cleansing products,
+        - a *Toners* category should have all the toning products,
         - a *Serums* category should have all the serums, etc.
     3. To create a category, check [create a category in your WooCommerce store](https://woocommerce.com/document/managing-product-taxonomies/#product-categories) for detailed instructions on managing categories in WooCommerce.
 
 === "Magento"
 
-    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
-    2. For the slots to work correctly, you’ll have to **create four categories** and include all the corresponding products in them. For example:
-        - a *Cleansers* category should have all the cleansing products, 
-        - a *Toners* category should have all the toning products, 
+    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers.
+    2. For the slots to work correctly, **create four categories** and put the matching products in them. For example:
+        - a *Cleansers* category should have all the cleansing products,
+        - a *Toners* category should have all the toning products,
         - a *Serums* category should have all the serums, etc.
     3. To create a category, check [create a category in your Magento store](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories) for detailed instructions on managing categories in Magento.
 
 === "BigCommerce"
 
-    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
-    2. For the slots to work correctly, you’ll have to **create four categories** and include all the corresponding products in them. For example:
-        - a *Cleansers* category should have all the cleansing products, 
-        - a *Toners* category should have all the toning products, 
+    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers.
+    2. For the slots to work correctly, **create four categories** and put the matching products in them. For example:
+        - a *Cleansers* category should have all the cleansing products,
+        - a *Toners* category should have all the toning products,
         - a *Serums* category should have all the serums, etc.
     3. To create a category, check [create a category in your BigCommerce store](https://support.bigcommerce.com/s/article/Product-Categories?language=en_US) for detailed instructions on managing categories in BigCommerce.
 
 === "Standalone"
 
-    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
-    2. For the slots to work correctly, you’ll have to **create four collections** and include all the corresponding products in them. For example:
-        - a *Cleansers* collection should have all the cleansing products, 
-        - a *Toners* collection should have all the toning products, 
+    1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers.
+    2. For the slots to work correctly, **create four collections** and put the matching products in them. For example:
+        - a *Cleansers* collection should have all the cleansing products,
+        - a *Toners* collection should have all the toning products,
         - a *Serums* collection should have all the serums, etc.
-    3. To create a collection, go to the [Success Checklist](/reference/dashboard/#success-checklist) and open the `Catalogue` by clicking `view products`. For each category, create a collection in your Standalone account via the Catalogue tab or a Google Product Feed with the right products.
+    3. To create a collection, go to the [Success Checklist](/reference/dashboard/#success-checklist) and click `view products` to open the `Catalogue`. Create a collection for each category, either in the Catalogue tab or through a Google Product Feed.
 
 ## Sync
 
 === "Shopify"
 
 
-    Once you’ve made changes to your products and collections in Shopify, product data (names, prices, images) is automatically up to date — it’s pulled live from Shopify.
+    Product data such as names, prices and images is pulled live from Shopify. It stays up to date on its own after you change a product or a collection.
 
     !!! tip
 
-        If you don't see new tags, collections, or vendors in the quiz builder, run a quick catalogue import from the [App settings > Catalogue](/reference/app-settings/#catalogue) page.
+        If new tags, collections or vendors do not appear in the quiz builder, run a quick catalogue import from the [App settings > Catalogue](/reference/app-settings/#catalogue) page.
 
 
 === "Shopify (Legacy)"
 
-    Once you’ve made changes to your products and collections, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
+    After you change your products or collections, [sync them](/how-to-guides/sync-catalog/) with the app.
 
     1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
     2. The sync may take between 30 to 60 minutes.
-    3. Once it’s finished, all your products and collections will be up to date in the app.
+    3. When the sync finishes, your products and collections are up to date in the app.
 
     !!! info
         Your store is also fully synced every 24 hours.
@@ -413,11 +413,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "WooCommerce"
 
 
-    Once you’ve made changes to your products and collections/categories, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
+    After you change your products or collections and categories, [sync them](/how-to-guides/sync-catalog/) with the app.
 
     1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
     2. The sync may take between 30 to 60 minutes.
-    3. Once it’s finished, all your products and collections will be up to date in the app.
+    3. When the sync finishes, your products and collections are up to date in the app.
 
     !!! info
         Your store is also fully synced every 24 hours.
@@ -425,11 +425,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Magento"
 
 
-    Once you’ve made changes to your products and collections/categories, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
+    After you change your products or collections and categories, [sync them](/how-to-guides/sync-catalog/) with the app.
 
     1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
     2. The sync may take between 30 to 60 minutes.
-    3. Once it’s finished, all your products and collections will be up to date in the app.
+    3. When the sync finishes, your products and collections are up to date in the app.
 
     !!! info
         Your store is also fully synced every 24 hours.
@@ -437,22 +437,22 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "BigCommerce"
 
 
-    Once you’ve made changes to your products and collections/categories, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
+    After you change your products or collections and categories, [sync them](/how-to-guides/sync-catalog/) with the app.
 
     1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
     2. The sync may take between 30 to 60 minutes.
-    3. Once it’s finished, all your products and collections will be up to date in the app.
+    3. When the sync finishes, your products and collections are up to date in the app.
 
     !!! info
         Your store is also fully synced every 24 hours.
 
 === "Standalone"
 
-    Once you’ve made changes to your products and collections/categories, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
+    After you change your products or collections and categories, [sync them](/how-to-guides/sync-catalog/) with the app.
 
     1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
     2. The sync may take between 30 to 60 minutes.
-    3. Once it’s finished, all your products and collections will be up to date in the app.
+    3. When the sync finishes, your products and collections are up to date in the app.
 
     !!! info
         Your store is also fully synced every 24 hours.
@@ -463,52 +463,52 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
-    Now you can build your quiz. 
+    Now you can build your quiz.
 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
 
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz builder](/reference/quiz-builder/).
+            To learn how to use the [Quiz builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
 
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
 
-        - Use a [`Multiple-choice question`](/reference/quiz-builder/questions/#multiple-choice) to find out the client’s **age** and **skin type**.
+        - Use a [`Multiple-choice question`](/reference/quiz-builder/questions/#multiple-choice) to find out the customer's **age** and **skin type**.
         - Use a [`Name question`](/reference/quiz-builder/questions/#name) to make the quiz personal.
         - Finish the quiz with an [`Email question`](/reference/quiz-builder/questions/#email-address). Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
 === "Shopify (Legacy)"
 
-    Now you can build your quiz. 
+    Now you can build your quiz.
 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
-    
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
-    
+            To learn how to use the [Quiz Builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
+
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
-    
+
         - Use a `Name question` to make the quiz personal.
-        - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-        - Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+        - `Multiple-choice questions` can be useful in finding out the customer's age, skin type, skin concerns or the environment they live in.
+        - Add a skin sensitivity question as well. [Exclude products](/how-to-guides/set-up-funnel-quiz/#exclusion) explains how to keep products containing allergens out of the recommendations.
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
 === "WooCommerce"
 
 
-    Now you can build your quiz. 
+    Now you can build your quiz.
 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
-    
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
-    
+            To learn how to use the [Quiz Builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
+
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
-    
+
         - Use a `Name question` to make the quiz personal.
-        - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-        - Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+        - `Multiple-choice questions` can be useful in finding out the customer's age, skin type, skin concerns or the environment they live in.
+        - Add a skin sensitivity question as well. [Exclude products](/how-to-guides/set-up-funnel-quiz/#exclusion) explains how to keep products containing allergens out of the recommendations.
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
@@ -516,54 +516,54 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Magento"
 
 
-    Now you can build your quiz. 
+    Now you can build your quiz.
 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
-    
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
-    
+            To learn how to use the [Quiz Builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
+
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
-    
+
         - Use a `Name question` to make the quiz personal.
-        - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-        - Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+        - `Multiple-choice questions` can be useful in finding out the customer's age, skin type, skin concerns or the environment they live in.
+        - Add a skin sensitivity question as well. [Exclude products](/how-to-guides/set-up-funnel-quiz/#exclusion) explains how to keep products containing allergens out of the recommendations.
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
 === "BigCommerce"
 
 
-    Now you can build your quiz. 
+    Now you can build your quiz.
 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
-    
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
-    
+            To learn how to use the [Quiz Builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
+
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
-    
+
         - Use a `Name question` to make the quiz personal.
-        - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-        - Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+        - `Multiple-choice questions` can be useful in finding out the customer's age, skin type, skin concerns or the environment they live in.
+        - Add a skin sensitivity question as well. [Exclude products](/how-to-guides/set-up-funnel-quiz/#exclusion) explains how to keep products containing allergens out of the recommendations.
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
 === "Standalone"
 
 
-    Now you can build your quiz. 
+    Now you can build your quiz.
 
-    1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
-    
+    1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
+
         !!! tip
-            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
-    
+            To learn how to use the [Quiz Builder](/reference/quiz-builder/), see [Making Your First Product Recommendation Quiz](/tutorials/making-first-quiz/).
+
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
-    
+
         - Use a `Name question` to make the quiz personal.
-        - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-        - Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+        - `Multiple-choice questions` can be useful in finding out the customer's age, skin type, skin concerns or the environment they live in.
+        - Add a skin sensitivity question as well. [Exclude products](/how-to-guides/set-up-funnel-quiz/#exclusion) explains how to keep products containing allergens out of the recommendations.
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
@@ -575,37 +575,37 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
     1. In the [Quiz design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
 
 
 === "Shopify (Legacy)"
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
 
 === "WooCommerce"
 
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
 
 === "Magento"
 
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
 
 === "BigCommerce"
 
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
 
 === "Standalone"
 
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
-    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+    2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.
 
 
 
@@ -617,11 +617,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     Once your quiz is built and styled, you should add products or collections to individual choices.
 
     !!! warning
-        It's recommended to either link products **or** a collection to each choice. Don't mix them. 
-        
-        If a product is upvoted in a choice but it is also in a collection that is linked to that choice, it **will receive 2 votes from the same choice**, which can skew the results. 
-        
-        For that reason, we recommend either linking individual products to a choice or a dedicated **single** collection to a choice.
+        Link either products **or** a collection to each choice. Do not mix them.
+
+        A product can be upvoted in a choice and also sit in a collection linked to that choice. It then **receives 2 votes from the same choice**, which skews the results.
+
+        So link either individual products to a choice, or one dedicated collection to a choice.
 
     1. To do that, go to the [Questions](/reference/quiz-builder/questions/) tab and select a choice. This will open the Choice settings.
     2. Under [Choice settings](/reference/quiz-builder/questions/#choice-settings), find the `Upvoting` section and click `Upvote > Collections`.
@@ -630,11 +630,11 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
 
         - Products/Collections of products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
@@ -643,19 +643,19 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     Once your quiz is built and styled, you should add products and collections to individual choices.
 
-    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
+    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
-    3. Then, let’s link the *skin type* collections/categories.
+    3. Then link the *skin type* collections and categories.
     4. You can link one or more collections/categories to the same choice.
-    5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
+    5. Continue until every choice in the quiz has products, collections or categories linked. A choice with nothing linked produces empty results.
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
@@ -664,19 +664,19 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
 
-    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
+    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
-    3. Then, let’s link the *skin type* collections/categories.
+    3. Then link the *skin type* collections and categories.
     4. You can link one or more collections/categories to the same choice.
-    5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
+    5. Continue until every choice in the quiz has products, collections or categories linked. A choice with nothing linked produces empty results.
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
@@ -686,19 +686,19 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
 
-    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
+    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
-    3. Then, let’s link the *skin type* collections/categories.
+    3. Then link the *skin type* collections and categories.
     4. You can link one or more collections/categories to the same choice.
-    5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
+    5. Continue until every choice in the quiz has products, collections or categories linked. A choice with nothing linked produces empty results.
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
@@ -708,19 +708,19 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
 
-    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
+    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
-    3. Then, let’s link the *skin type* collections/categories.
+    3. Then link the *skin type* collections and categories.
     4. You can link one or more collections/categories to the same choice.
-    5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
-    
+    5. Continue until every choice in the quiz has products, collections or categories linked. A choice with nothing linked produces empty results.
+
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
@@ -730,19 +730,19 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
 
-    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
+    1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
-    3. Then, let’s link the *skin type* collections/categories.
+    3. Then link the *skin type* collections and categories.
     4. You can link one or more collections/categories to the same choice.
-    5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
-    
+    5. Continue until every choice in the quiz has products, collections or categories linked. A choice with nothing linked produces empty results.
+
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
+        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
         - When a customer picks that choice all the linked products receive one vote.
-        - This includes all the products inside the linked collection. 
+        - This includes all the products inside the linked collection.
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
@@ -758,81 +758,81 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
-    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
+    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
-    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
-    2. Tap on the greyed `exclude products` text and a white bar will appear. 
-    3. Simply add the products that contain an allergen.
+    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question.
+    2. Tap on the greyed `exclude products` text and a white bar will appear.
+    3. Add the products that contain an allergen.
 
-    Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
+    When a customer says they are sensitive to *aloe vera*, every product that contains it is excluded from the recommendations.
 
     !!! warning
 
-        ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
+        Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
 
 === "WooCommerce"
 
 
 
-    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
+    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
-    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
-    2. Tap on the greyed `exclude products` text and a white bar will appear. 
-    3. Simply add the products that contain an allergen.
+    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question.
+    2. Tap on the greyed `exclude products` text and a white bar will appear.
+    3. Add the products that contain an allergen.
 
-    Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
+    When a customer says they are sensitive to *aloe vera*, every product that contains it is excluded from the recommendations.
 
     !!! warning
 
-        ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
+        Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
 
 
 === "Magento"
 
 
-    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
+    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
-    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
-    2. Tap on the greyed `exclude products` text and a white bar will appear. 
-    3. Simply add the products that contain an allergen.
+    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question.
+    2. Tap on the greyed `exclude products` text and a white bar will appear.
+    3. Add the products that contain an allergen.
 
-    Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
+    When a customer says they are sensitive to *aloe vera*, every product that contains it is excluded from the recommendations.
 
     !!! warning
 
-        ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
+        Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
 
 
 === "BigCommerce"
 
 
-    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
+    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
-    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
-    2. Tap on the greyed `exclude products` text and a white bar will appear. 
-    3. Simply add the products that contain an allergen.
+    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question.
+    2. Tap on the greyed `exclude products` text and a white bar will appear.
+    3. Add the products that contain an allergen.
 
-    Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
+    When a customer says they are sensitive to *aloe vera*, every product that contains it is excluded from the recommendations.
 
     !!! warning
 
-        ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
+        Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
 
 
 === "Standalone"
 
 
-    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
+    Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
-    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
-    2. Tap on the greyed `exclude products` text and a white bar will appear. 
-    3. Simply add the products that contain an allergen.
+    1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question.
+    2. Tap on the greyed `exclude products` text and a white bar will appear.
+    3. Add the products that contain an allergen.
 
-    Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
+    When a customer says they are sensitive to *aloe vera*, every product that contains it is excluded from the recommendations.
 
     !!! warning
 
-        ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
+        Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
 
 
 
@@ -841,85 +841,85 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Shopify"
 
 
-    It’s time to edit the [Results page](/reference/quiz-builder/results-page/). 
+    Now edit the [Results page](/reference/quiz-builder/results-page/).
 
     1. Add a heading, a logo or a text block to customize the page. For example, you can add a text block to include more information about the recommended skincare routine.
 
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. **Add Product block**: Include a `Product Block` to display the recommended routine. In `Slot settings` set the `Max. recommended items` to four.
-    3. **Preview the quiz**: Update the preview/with the top-right `Save` button and click `Preview` to test the quiz. Take the quiz a few times to check if the recommended products are displayed in accordance with the product matrix.
+    3. **Preview the quiz**: Click the top-right `Save` button to update the preview, then click `Preview`. Take the quiz a few times and check the recommendations against the product matrix.
 
 
 === "Shopify (Legacy)"
 
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+    Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
     1. Add a heading, a logo or a content block to customize the page.
 
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    
-    2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
 
-    The page is almost done. 
+    2. Add a `content block` to describe every step in the beauty routine.
+    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text.
+
+    The page is almost done.
 
 === "WooCommerce"
 
 
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+    Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
-    1. Add a heading, a logo or a content block to customize the page.  
+    1. Add a heading, a logo or a content block to customize the page.
 
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
+    2. Add a `content block` to describe every step in the beauty routine.
+    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text.
 
-    The page is almost done. 
+    The page is almost done.
 
 === "Magento"
 
 
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+    Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
     1. Add a heading, a logo or a content block to customize the page.
-    
+
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
+    2. Add a `content block` to describe every step in the beauty routine.
+    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text.
 
-    The page is almost done. 
+    The page is almost done.
 
 === "BigCommerce"
 
 
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+    Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
     1. Add a heading, a logo or a content block to customize the page.
-    
+
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
+    2. Add a `content block` to describe every step in the beauty routine.
+    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text.
 
-    The page is almost done. 
+    The page is almost done.
 
 === "Standalone"
 
 
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+    Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
     1. Add a heading, a logo or a content block to customize the page.
-    
+
         !!! tip
             Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
+    2. Add a `content block` to describe every step in the beauty routine.
+    3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text.
 
-    The page is almost done. 
+    The page is almost done.
 
 
 
@@ -932,14 +932,14 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Shopify"
 
 
-    Now let’s sort the recommended products into clear steps/categories. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
+    Now sort the recommended products into clear steps. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
 
-    1. Use `+ Add slot` to add extra slots to your Product block on the Results page. You'll need 4 slots in total.    
+    1. Use `+ Add slot` to add slots to the Product block on the Results page. You need four slots in total.
     2. In [Slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot. Set the `Max. recommended items` to 1 for each slot.
-    3. Slots won’t work as expected unless you `Add segments` to each of them. It’s how they know which products to choose. 
+    3. Slots need segments. `Add segments` to each slot, so that it knows which products to choose.
 
         Open the [Slot settings](/reference/quiz-builder/questions/#block-settings), scroll down to the `Add segments` section and click `Add > Collection`.
 
@@ -953,108 +953,108 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
-    Now let’s add a space for products.
+    Now add a space for products.
 
-    1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
-    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+    1. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
+    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products.
     3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot.
-    4. Slots won’t work unless you `include collections/categories` to each of them. It’s how they know which products to choose.
+    4. Slots need collections. `include collections/categories` in each slot, so that it knows which products to choose.
         - Include the *Cleansers* collection/category in the Cleansers Slot
         - Include the *Toners* collection/category in the Toners Slot
         - Include the *Serums* collection/category in the Serum Slot, etc.
-    5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+    5. Make sure that the products in these collections/categories are [linked to the answers](#upvote-collectionscategories) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic results page for your beauty quiz!
+    You have created a dynamic results page for your beauty quiz.
 
 === "WooCommerce"
 
 
-    Now let’s add a space for products.
+    Now add a space for products.
 
-    1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
-    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+    1. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
+    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products.
     3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot.
-    4. Slots won’t work unless you `include collections/categories` to each of them. It’s how they know which products to choose.
+    4. Slots need collections. `include collections/categories` in each slot, so that it knows which products to choose.
         - Include the *Cleansers* collection/category in the Cleansers Slot
         - Include the *Toners* collection/category in the Toners Slot
         - Include the *Serums* collection/category in the Serum Slot, etc.
-    5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+    5. Make sure that the products in these collections/categories are [linked to the answers](#upvote-collectionscategories) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic results page for your beauty quiz!
+    You have created a dynamic results page for your beauty quiz.
 
 
 
 === "Magento"
 
 
-    Now let’s add a space for products.
+    Now add a space for products.
 
-    1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
-    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+    1. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
+    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products.
     3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot.
-    4. Slots won’t work unless you `include collections/categories` to each of them. It’s how they know which products to choose.
+    4. Slots need collections. `include collections/categories` in each slot, so that it knows which products to choose.
         - Include the *Cleansers* collection/category in the Cleansers Slot
         - Include the *Toners* collection/category in the Toners Slot
         - Include the *Serums* collection/category in the Serum Slot, etc.
-    5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+    5. Make sure that the products in these collections/categories are [linked to the answers](#upvote-collectionscategories) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic results page for your beauty quiz!
+    You have created a dynamic results page for your beauty quiz.
 
 
 
 === "BigCommerce"
 
 
-    Now let’s add a space for products.
+    Now add a space for products.
 
-    1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
-    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+    1. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
+    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products.
     3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot.
-    4. Slots won’t work unless you `include collections/categories` to each of them. It’s how they know which products to choose.
+    4. Slots need collections. `include collections/categories` in each slot, so that it knows which products to choose.
         - Include the *Cleansers* collection/category in the Cleansers Slot
         - Include the *Toners* collection/category in the Toners Slot
         - Include the *Serums* collection/category in the Serum Slot, etc.
-    5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+    5. Make sure that the products in these collections/categories are [linked to the answers](#upvote-collectionscategories) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic results page for your beauty quiz!
+    You have created a dynamic results page for your beauty quiz.
 
 
 
 === "Standalone"
 
 
-    Now let’s add a space for products.
+    Now add a space for products.
 
-    1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
-    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+    1. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
+    2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products.
     3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
-        - Edit the slot name, 
+        - Edit the slot name,
         - Add a description,
         - And select how many products should be recommended in each slot.
-    4. Slots won’t work unless you `include collections/categories` to each of them. It’s how they know which products to choose.
+    4. Slots need collections. `include collections/categories` in each slot, so that it knows which products to choose.
         - Include the *Cleansers* collection/category in the Cleansers Slot
         - Include the *Toners* collection/category in the Toners Slot
         - Include the *Serums* collection/category in the Serum Slot, etc.
-    5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+    5. Make sure that the products in these collections/categories are [linked to the answers](#upvote-collectionscategories) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic results page for your beauty quiz!
+    You have created a dynamic results page for your beauty quiz.
 
 
 ## Preview the quiz
@@ -1107,43 +1107,43 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Shopify"
 
 
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. Go to the [`Publish`](/reference/quiz-builder/share-publish/) section and check the instructions for `Add the quiz to a dedicated landing page`.
-    2. **Create a new page template**: 
-        - In Shopify go to `Online Store > Theme > Customize`. 
-        - Under Home page top menu select `Pages > Add new page template`. Give the template a name. 
-        - In the page template editor, add a section. From `Apps` menu select the `Inline Quiz` by RevenueHunt. 
-        - In the Inline Quiz settings, select the quiz formatting (for example, you can make the quiz full width). 
+    2. **Create a new page template**:
+        - In Shopify go to `Online Store > Theme > Customize`.
+        - Under Home page top menu select `Pages > Add new page template`. Give the template a name.
+        - In the page template editor, add a section. From `Apps` menu select the `Inline Quiz` by RevenueHunt.
+        - In the Inline Quiz settings, select the quiz formatting (for example, you can make the quiz full width).
         - Save the template with the top-right `Save` button.
-    3. **Create a new page**: 
+    3. **Create a new page**:
         - Next, go to Shopify `Online Store > Pages` and create a new page.
         - Apply the quiz template to the page.
-        - Set the page visibility to `Visibe
-    4. **Add the quiz to the menu**: 
-        - Next open Shopify `Content > Menus`. 
-        - Select the Main menu and add a new item. 
-        Give it a name (for example `New Quiz Page`) and add a link to the page created in the previous step.
+        - Set the page visibility to `Visible`.
+    4. **Add the quiz to the menu**:
+        - Next open Shopify `Content > Menus`.
+        - Select the Main menu and add a new item.
+        - Give it a name, for example `New Quiz Page`, and link it to the page you created in the previous step.
         - Save the changes with the top-right `Save` button.
     5. From now on, the inline quiz will be visible on that page.
 
 
 === "Shopify (Legacy)"
 
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. To do that, go to the [`Share`](/reference/quiz-builder/share-publish/) tab and select the `Inline` publish option.
     2. Click `Show Instructions for Legacy Themes`.
-    3. Adjust the quiz’s width and height and click `Get code` to generate a code. 
-    3. Copy the code and navigate to your `Online Store > Pages` in Shopify. 
-    4. Add a new page and give it a name. 
+    3. Adjust the quiz’s width and height and click `Get code` to generate a code.
+    3. Copy the code and navigate to your `Online Store > Pages` in Shopify.
+    4. Add a new page and give it a name.
     5. Click the `Show HTML` button and paste the code copied from the app.
     6. Make sure to `save` the changes.
 
 === "WooCommerce"
 
 
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
@@ -1156,34 +1156,34 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Magento"
 
 
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-    4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page`.
-    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page`.
+    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that page.
 
 === "BigCommerce"
 
 
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page`.
@@ -1194,13 +1194,13 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Standalone"
 
 
-    Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+    Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the `Pages` menu and create a new page.
@@ -1209,7 +1209,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     7. From now on, the inline quiz will be visible on that page.
 
 
-Congratulations! You’ve just created and published your first skincare routine quiz!
+You have created and published your first skincare routine quiz.
 
 ---
-This article explains provides a step by step video tutorial on how to create a skincare routine quiz with the Revenue Hunt app.
+This article has a step-by-step video tutorial. It shows how to create a skincare routine quiz with the RevenueHunt app.
