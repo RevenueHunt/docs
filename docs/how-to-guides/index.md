@@ -2,39 +2,34 @@
 description: "Step-by-step guides for RevenueHunt quiz setup, customization, product recommendations, integrations, publishing, and troubleshooting."
 ---
 
-# Welcome to Our How-to Guides!
+# How-to Guides
 
-Whether you're here to craft your very first quiz or looking to fine-tune the experience with advanced customization, you've arrived at the right place. Our collection of how-to guides is designed to assist you at every step of your journey, from initial setup to detailed customization and optimization.
-
-RevenueHunt app offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
+Each guide covers one task. Between them they cover building and publishing a quiz, recommending the right products, and customizing the design. Others handle result emails, CRM and analytics integrations, revenue tracking, custom JavaScript, and troubleshooting.
 
 ## Getting started
 
-For those new to our platform or looking to create a quiz for the first time, we recommend starting with these essential guides:
+New to the app, or building a quiz for the first time? Start here:
 
-- [:material-pencil: Create Your First Quiz](/how-to-guides/create-first-quiz/): Learn the basics of quiz creation, from conceptualizing your quiz to setting up questions.
-- [:material-cards: Recommend Products](/how-to-guides/recommend-products/): Boost sales by learning how to recommend products based on quiz answers.
-- [:material-palette-outline: Customize Quiz Design](/how-to-guides/customize-quiz-design/): Dive into customization options to ensure your quiz matches your brand's look and feel.
-- [:material-monitor-share: Publish the Quiz on Your Website](/how-to-guides/publish-quiz/): Get step-by-step instructions on how to seamlessly integrate your quiz into your website.
+- [:material-pencil: Create Your First Quiz](/how-to-guides/create-first-quiz/): The basics of quiz creation, from planning the quiz to setting up the questions.
+- [:material-cards: Recommend Products](/how-to-guides/recommend-products/): How to recommend products based on the answers a customer gives.
+- [:material-palette-outline: Customize Quiz Design](/how-to-guides/customize-quiz-design/): The design options that make the quiz match your brand.
+- [:material-monitor-share: Publish the Quiz on Your Website](/how-to-guides/publish-quiz/): Step-by-step instructions for adding the quiz to your website.
 
-## Enhancing your quizzes
+## Do more with your quiz
 
-Once you're comfortable with the basics, enhance your quizzes and user experience with these advanced features:
+Once the basics are in place, these guides cover what comes next:
 
-- [:material-email-heart-outline: Send Result Emails](/how-to-guides/send-result-emails/): Engage your participants by sending personalized emails with their quiz results.
-- [:material-cash-multiple: Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): Gain insights into how your quizzes contribute to your bottom line by tracking revenue generated directly from quiz interactions.
-- [:material-account-filter: Send Leads to Your CRM](/how-to-guides/send-leads-to-crm/): Connect your quiz to one of our many integrations and send all the quiz data there for segmented retargeting.
-- [:material-cellphone-link: Fix Viewport Issue on Mobile](/how-to-guides/fix-viewport-issue-on-mobile/): Ensure a smooth user experience on mobile devices by fixing viewport issues that cause the form to move.
+- [:material-email-heart-outline: Send Result Emails](/how-to-guides/send-result-emails/): Send each customer a personalized email with their quiz results.
+- [:material-cash-multiple: Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): Measure the revenue your quizzes generate.
+- [:material-account-filter: Send Leads to Your CRM](/how-to-guides/send-leads-to-crm/): Connect the quiz to an integration and send the quiz data there for segmented retargeting.
 
 ## Advanced customization
 
-For those looking to dive deeper into customization and integration:
+For deeper customization and integration:
 
-- [:material-language-javascript: Add JavaScript](/how-to-guides/add-javascript/): Learn how to add custom JavaScript for advanced quiz interactions.
-- [:material-code-json: Use Callback Function](/how-to-guides/use-callback-function/): Discover how to use a callback function to execute custom code based on quiz outcomes or user actions.
+- [:material-language-javascript: Add JavaScript](/how-to-guides/add-javascript/): Add custom JavaScript for advanced quiz interactions.
+- [:material-code-json: Use Callback Function](/how-to-guides/use-callback-function/): Run your own code when a customer finishes the quiz.
 
 ## Need more help?
 
-Browse through our collection for detailed instructions on every feature we offer. If you have specific questions or need further assistance, [our support team is here to help](/how-to-guides/contact-customer-support/)
-
-Welcome aboard, and happy quizzing!
+Every feature in the app has a guide here. For anything the guides do not answer, see [How to Contact Customer Support](/how-to-guides/contact-customer-support/).

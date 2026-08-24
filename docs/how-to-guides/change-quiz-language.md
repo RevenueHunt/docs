@@ -283,7 +283,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
         Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
 
-    **Step 3: Redirect to Translated Product URL**
+    **Step 3: Redirect to Translated Product URL**{ #legacy-redirect-to-translated-product-url }
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
 
@@ -376,7 +376,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
         Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
 
-    **Step 3: Redirect to Translated Product URL**
+    **Step 3: Redirect to Translated Product URL**{ #woocommerce-redirect-to-translated-product-url }
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
 
@@ -469,7 +469,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
         Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
 
-    **Step 3: Redirect to Translated Product URL**
+    **Step 3: Redirect to Translated Product URL**{ #magento-redirect-to-translated-product-url }
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
 
@@ -562,7 +562,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
         Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
 
-    **Step 3: Redirect to Translated Product URL**
+    **Step 3: Redirect to Translated Product URL**{ #bigcommerce-redirect-to-translated-product-url }
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
 
@@ -655,7 +655,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
         Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
 
-    **Step 3: Redirect to Translated Product URL**
+    **Step 3: Redirect to Translated Product URL**{ #standalone-redirect-to-translated-product-url }
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
 

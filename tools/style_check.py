@@ -493,13 +493,19 @@ def check_file(path, root):
                 bare = bare.replace(_ph, ' ')
             # all-caps category headings are an accepted house pattern, used to
             # group the block types in the questions reference
-            if bare.strip() and bare.strip() == bare.strip().upper():
-                ws = []
-            else:
-                ws = [w for w in bare.split() if w.isalpha() and len(w) > 3]
-            if len(ws) >= 2:
-                caps = [w for w in ws[1:] if w[0].isupper() and w.lower() not in PROPER]
-                if level == 1 and not caps and len(ws) > 2:
+            all_caps = bool(bare.strip()) and bare.strip() == bare.strip().upper()
+            if not all_caps:
+                # judge on the words after the first, because the first word is
+                # capitalised in sentence case and Title Case alike. skip short
+                # words, which are lowercase in Title Case too, and skip proper
+                # nouns, which are capitalised whatever the heading style is.
+                # with nothing judgeable left there is no evidence either way,
+                # so say nothing rather than guess.
+                hwords = [w for w in bare.split() if w.isalpha()]
+                rest = [w for w in hwords[1:]
+                        if len(w) > 3 and w.lower() not in PROPER]
+                caps = [w for w in rest if w[0].isupper()]
+                if level == 1 and rest and not caps:
                     findings.append(Finding(i, 'heading-case',
                                             'H1 should be Title Case', 'warn'))
                 if level >= 2 and caps:

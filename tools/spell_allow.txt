@@ -32,10 +32,13 @@ squarespace
 klaviyo
 mailchimp
 omnisend
+seguno
 activecampaign
 hubspot
 zapier
 pagefly
+cpanel
+dropbox
 gmass
 loox
 yotpo
@@ -53,6 +56,10 @@ ccpa
 html
 imap
 javascript
+jquery
+vue
+devtools
+workaround
 json
 oauth
 rtl
@@ -69,6 +76,7 @@ async
 backend
 frontend
 iframe
+deduplication
 metadata
 namespace
 plaintext
@@ -87,6 +95,8 @@ whitelisting
 # --- interface vocabulary
 checkbox
 dropdown
+flyout
+minicart
 checkmark
 placeholder
 permalink
@@ -103,6 +113,7 @@ upsell
 upselling
 crm
 saas
+grundpreis
 metafield
 signup
 inbox
@@ -111,6 +122,7 @@ walkthrough
 chatbot
 chatgpt
 workflow
+lifecycle
 lookup
 analytics
 catalog

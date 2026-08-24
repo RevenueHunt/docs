@@ -5,7 +5,7 @@ icon: material/language-javascript
 
 # How to Add JavaScript to the Quiz
 
-Unlock the full potential of your RevenueHunt Product Recommendation Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+Custom JavaScript extends the RevenueHunt app. A developer can read the quiz response and get the individual answers, the triggered tags and the recommended products.
 
 !!! info "With custom JavaScript, you can:"
 
@@ -16,14 +16,14 @@ Unlock the full potential of your RevenueHunt Product Recommendation Quiz by int
     - add tracking codes to specific questions (Google Analytics, Meta Pixel)
     - and more
 
-This guide will walk you through adding JavaScript to quiz questions and the results page. 
+This guide will walk you through adding JavaScript to quiz questions and the results page.
 
 !!! warning "For developers and Shopify Partners"
-    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
+    This article is for developers and Shopify Partners. If you do not know the basics of JavaScript and the Vue.js framework, ask a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
 ## Understanding JavaScript, HTML, and Liquid
 
-Before diving into the implementation, it's important to understand the different technologies you can use to customize your quiz. The available technologies vary by platform.
+Several technologies can customize a quiz, and which ones are available depends on your platform.
 
 | Technology | Description | What you can use it for |
 |------------|-------------|-------------------------|
@@ -35,37 +35,37 @@ Before diving into the implementation, it's important to understand the differen
 
 === "Shopify"
 
-    **Available**: JavaScript + HTML + Liquid  
+    **Available**: JavaScript + HTML + Liquid
     Use Liquid when you need Shopify data or server-rendered dynamic content. Use JavaScript for interactivity and logic.
 
 === "Shopify (Legacy)"
 
-    **Available**: JavaScript + HTML  
+    **Available**: JavaScript + HTML
     Liquid is not available in Shopify (Legacy).
 
 === "WooCommerce"
 
-    **Available**: JavaScript + HTML  
+    **Available**: JavaScript + HTML
     Liquid is not available in WooCommerce.
 
 === "Magento"
 
-    **Available**: JavaScript + HTML  
+    **Available**: JavaScript + HTML
     Liquid is not available in Magento.
 
 === "BigCommerce"
 
-    **Available**: JavaScript + HTML  
+    **Available**: JavaScript + HTML
     Liquid is not available in BigCommerce.
 
 === "Standalone"
 
-    **Available**: JavaScript + HTML  
+    **Available**: JavaScript + HTML
     Liquid is not available in Standalone.
 
 ## Access the custom JavaScript console
 
-You can add custom JavaScirpt to the quiz results page and the quiz questions.
+You can add custom JavaScript to the quiz results page and to the quiz questions.
 
 ### Results page
 
@@ -88,7 +88,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
 
-    3. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    3. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
 
         !!! tip "Run the custom code"
 
@@ -105,7 +105,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "WooCommerce"
@@ -113,7 +113,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Magento"
@@ -121,7 +121,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "BigCommerce"
@@ -129,7 +129,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Standalone"
@@ -137,7 +137,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 ### Quiz questions
@@ -162,7 +162,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
 
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
 
         !!! tip "Run the custom code"
 
@@ -179,7 +179,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "WooCommerce"
@@ -187,7 +187,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Magento"
@@ -195,7 +195,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "BigCommerce"
@@ -203,15 +203,15 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
-      
+
 === "Standalone"
 
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 ### Via custom HTML block
@@ -221,9 +221,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     - You want JavaScript to run in a **specific location** in your layout
     - You need to **combine HTML, Liquid, and JavaScript** together
     - You want **different scripts for different content blocks**
-    - You're adding **small, context-specific scripts** (like tracking a specific element)
+    - You are adding **a small script for one context**, such as tracking a single element
     - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
-    
+
 === "Shopify"
 
     You can also add custom JavaScript directly in HTML blocks throughout your quiz. These blocks support both JavaScript and Liquid templating for dynamic content.
@@ -345,20 +345,20 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    Before you start writing custom JavaScript, you'll need to know how to find the IDs (references) for your questions and blocks. These IDs are used to access specific answers and elements in your quiz.
+    Custom JavaScript needs the IDs, also called references, of your questions and blocks. They are how the code reaches a specific answer or element.
 
     !!! info "How to Find Block and Question IDs"
 
         **Method 1: Copy from Quiz builder (Recommended)**
-        
+
         1. Open your quiz in the Quiz builder
         2. Click on any question or block element
-        3. Look for the block ID in the settings panel - it's usually displayed at the top
+        3. Look for the block ID in the settings panel. It is usually at the top
         4. Click the copy icon next to the ID to copy it to your clipboard
         5. Use this ID in your JavaScript (e.g., `quiz.answers.byBlock['your-block-id']`)
 
         **Method 2: Inspect Element in Browser**
-        
+
         1. Open your quiz in preview or on your live site
         2. Right-click on the question or element you want to reference
         3. Select "Inspect" or "Inspect Element" from the context menu
@@ -366,7 +366,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         5. The value of these attributes is your block reference
 
         **Example IDs you might see:**
-        
+
         - `qbc-skintype` (question block choice)
         - `qbi-email` (question block input)
         - `q-concerns` (question)
@@ -384,16 +384,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             console.log('All answers by block:', quiz.answers.byBlock);
             ```
 
-            Then open your browser's Console (F12 → Console tab) and take the quiz. You'll see all the block IDs and their corresponding values.
-            
+            Then open your browser Console (F12 → Console tab) and take the quiz. It lists every block ID and its value.
+
 === "Shopify (Legacy)"
 
-    In Shopify Legacy, you'll need to find the **Slide ID** for each question to access its value with `prq.getSlideValue(slideId)`.
+    In Shopify Legacy, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 
     !!! tip "How to Find Slide IDs"
 
         **Inspect in Browser Console**
-        
+
         1. Open your quiz in preview or live
         2. Press F12 to open Developer Tools → Console tab
         3. Type `prq.quizSlides()` and press Enter
@@ -401,7 +401,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         5. Look for the `id` property of each slide
 
         **Method 3: Inspect Element**
-        
+
         1. Right-click on the question element
         2. Select "Inspect Element"
         3. Look for `data-slide-id` or similar attributes in the HTML
@@ -410,12 +410,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "WooCommerce"
 
-    In WooCommerce, you'll need to find the **Slide ID** for each question to access its value with `prq.getSlideValue(slideId)`.
+    In WooCommerce, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 
     !!! tip "How to Find Slide IDs"
 
         **Inspect in Browser Console**
-        
+
         1. Open your quiz in preview or live
         2. Press F12 to open Developer Tools → Console tab
         3. Type `prq.quizSlides()` and press Enter
@@ -423,7 +423,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         5. Look for the `id` property of each slide
 
         **Method 3: Inspect Element**
-        
+
         1. Right-click on the question element
         2. Select "Inspect Element"
         3. Look for `data-slide-id` or similar attributes in the HTML
@@ -433,12 +433,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Magento"
 
-    In Magento, you'll need to find the **Slide ID** for each question to access its value with `prq.getSlideValue(slideId)`.
+    In Magento, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 
     !!! tip "How to Find Slide IDs"
 
         **Inspect in Browser Console**
-        
+
         1. Open your quiz in preview or live
         2. Press F12 to open Developer Tools → Console tab
         3. Type `prq.quizSlides()` and press Enter
@@ -446,7 +446,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         5. Look for the `id` property of each slide
 
         **Method 3: Inspect Element**
-        
+
         1. Right-click on the question element
         2. Select "Inspect Element"
         3. Look for `data-slide-id` or similar attributes in the HTML
@@ -456,12 +456,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "BigCommerce"
 
-    In BigCommerce, you'll need to find the **Slide ID** for each question to access its value with `prq.getSlideValue(slideId)`.
+    In BigCommerce, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 
     !!! tip "How to Find Slide IDs"
 
         **Inspect in Browser Console**
-        
+
         1. Open your quiz in preview or live
         2. Press F12 to open Developer Tools → Console tab
         3. Type `prq.quizSlides()` and press Enter
@@ -469,7 +469,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         5. Look for the `id` property of each slide
 
         **Method 3: Inspect Element**
-        
+
         1. Right-click on the question element
         2. Select "Inspect Element"
         3. Look for `data-slide-id` or similar attributes in the HTML
@@ -480,12 +480,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Standalone"
 
-    In Standalone, you'll need to find the **Slide ID** for each question to access its value with `prq.getSlideValue(slideId)`.
+    In Standalone, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 
     !!! tip "How to Find Slide IDs"
 
         **Inspect in Browser Console**
-        
+
         1. Open your quiz in preview or live
         2. Press F12 to open Developer Tools → Console tab
         3. Type `prq.quizSlides()` and press Enter
@@ -493,7 +493,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         5. Look for the `id` property of each slide
 
         **Method 3: Inspect Element**
-        
+
         1. Right-click on the question element
         2. Select "Inspect Element"
         3. Look for `data-slide-id` or similar attributes in the HTML
@@ -675,7 +675,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
       'hidden-full-url': window.location.href
     });
     ```
-    These synthetic answers will appear in your webhook's `answersByBlock` payload, allowing you to track attribution data alongside quiz responses.
+    These synthetic answers appear in the `answersByBlock` payload of your webhook, so attribution data travels with the quiz response.
 
     **Use Shopify AJAX cart APIs, then sync the quiz UI (Results page):**
     ```javascript
@@ -769,7 +769,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     }
     ```
 
-    If you need to add products from one specific slot only, prefer placing that logic in the slot's Custom HTML / Slot Item Composition so the code is already scoped to the intended item(s).
+    To add products from one slot only, put that logic in the Custom HTML or Slot Item Composition of the slot. The code is then already scoped to the right item.
 
     **Compact Shopify cart recipes:**
 
@@ -824,7 +824,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     // Your code goes here
     ```
 
-    When you view the quiz in your browser with Developer Tools open (F12), the code execution will pause at the debugger statement. In the Sources tab, you'll see the `quiz` and `actions` parameters:
+    Open the quiz in your browser with Developer Tools open (F12). Execution pauses at the debugger statement, and the Sources tab shows the `quiz` and `actions` parameters:
 
     ![debugger statement in browser](/images/how_to_shopifyv2_debugger_browser.png)
 
@@ -853,35 +853,35 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     This will help you understand the structure of these objects so you can access the specific properties you need in your custom JavaScript.
 
     !!! tip "Finding Block References"
-    
-        Not sure what block reference to use? See [Finding Your Block and Question References](#finding-your-block-and-question-references) above for detailed instructions.
+
+        For how to find a block reference, see [Find block and question IDs](#find-block-and-question-ids).
 
 
 === "Shopify (Legacy)"
 
-    To begin, let's log the quiz response object to the console:
+    Start by logging the quiz response object to the console:
 
     ```javascript
     console.log(prq);
     console.log(prq.quizSlides()); // See all slides and their IDs
     ```
 
-    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
+    This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
     **Custom JavaScript Capabilities**
 
-    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
+    The `prq` object is how you customize the quiz. Use it like this:
 
     **Quiz Data Manipulation**
 
     - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
     - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
 
-    **Participant Information Retrieval**
+    **Customer information**
 
-    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
 
     **Results Page Customization**
 
@@ -942,33 +942,33 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     dbqHqN is the quiz ID
     ```
 
-    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
+    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 === "WooCommerce"
 
-    To begin, let's log the quiz response object to the console:
+    Start by logging the quiz response object to the console:
 
     ```javascript
     console.log(prq);
     console.log(prq.quizSlides()); // See all slides and their IDs
     ```
 
-    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
+    This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
     **Custom JavaScript Capabilities**
 
-    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
+    The `prq` object is how you customize the quiz. Use it like this:
 
     **Quiz Data Manipulation**
 
     - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
     - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
 
-    **Participant Information Retrieval**
+    **Customer information**
 
-    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
 
     **Results Page Customization**
 
@@ -1029,33 +1029,33 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     dbqHqN is the quiz ID
     ```
 
-    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
+    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 === "Magento"
 
-    To begin, let's log the quiz response object to the console:
+    Start by logging the quiz response object to the console:
 
     ```javascript
     console.log(prq);
     console.log(prq.quizSlides()); // See all slides and their IDs
     ```
 
-    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
+    This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
     **Custom JavaScript Capabilities**
 
-    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
+    The `prq` object is how you customize the quiz. Use it like this:
 
     **Quiz Data Manipulation**
 
     - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
     - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
 
-    **Participant Information Retrieval**
+    **Customer information**
 
-    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
 
     **Results Page Customization**
 
@@ -1116,33 +1116,33 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     dbqHqN is the quiz ID
     ```
 
-    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
+    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 === "BigCommerce"
 
-    To begin, let's log the quiz response object to the console:
+    Start by logging the quiz response object to the console:
 
     ```javascript
     console.log(prq);
     console.log(prq.quizSlides()); // See all slides and their IDs
     ```
 
-    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
+    This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
     **Custom JavaScript Capabilities**
 
-    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
+    The `prq` object is how you customize the quiz. Use it like this:
 
     **Quiz Data Manipulation**
 
     - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
     - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
 
-    **Participant Information Retrieval**
+    **Customer information**
 
-    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
 
     **Results Page Customization**
 
@@ -1203,33 +1203,33 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     dbqHqN is the quiz ID
     ```
 
-    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
+    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 === "Standalone"
 
-    To begin, let's log the quiz response object to the console:
+    Start by logging the quiz response object to the console:
 
     ```javascript
     console.log(prq);
     console.log(prq.quizSlides()); // See all slides and their IDs
     ```
 
-    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
+    This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
     **Custom JavaScript Capabilities**
 
-    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
+    The `prq` object is how you customize the quiz. Use it like this:
 
     **Quiz Data Manipulation**
 
     - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
     - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
 
-    **Participant Information Retrieval**
+    **Customer information**
 
-    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
 
     **Results Page Customization**
 
@@ -1290,7 +1290,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     dbqHqN is the quiz ID
     ```
 
-    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
+    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 
 ## Customization examples
@@ -1303,7 +1303,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
-    
+
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
@@ -1349,7 +1349,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify (Legacy)"
 
-    You can do it two ways: 
+    You can do it two ways:
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
@@ -1372,7 +1372,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
+    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1395,7 +1395,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "WooCommerce"
 
-    You can do it two ways: 
+    You can do it two ways:
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
@@ -1418,7 +1418,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
+    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1440,7 +1440,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
 === "Magento"
-    You can do it two ways: 
+    You can do it two ways:
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
@@ -1463,7 +1463,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
+    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1486,7 +1486,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "BigCommerce"
 
-    You can do it two ways: 
+    You can do it two ways:
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
@@ -1509,7 +1509,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
+    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1531,7 +1531,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
 === "Standalone"
-    You can do it two ways: 
+    You can do it two ways:
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
@@ -1554,7 +1554,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
+    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1579,7 +1579,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, you can access the answers from the `answers` object to perform calculations. Here's how to create a BMI calculator:
+    In the `💎Built for Shopify` version of the RevenueHunt app, the `answers` object holds the answers, and you can calculate from them. This example builds a BMI calculator:
 
     !!! example "Create a BMI calculator"
 
@@ -1662,7 +1662,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         var bmi = weight / (height * height);
 
         // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2); 
+        element.innerHTML = bmi.toFixed(2);
         ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
@@ -1700,7 +1700,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         var bmi = weight / (height * height);
 
         // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2); 
+        element.innerHTML = bmi.toFixed(2);
         ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
@@ -1739,7 +1739,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         var bmi = weight / (height * height);
 
         // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2); 
+        element.innerHTML = bmi.toFixed(2);
         ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
@@ -1778,7 +1778,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         var bmi = weight / (height * height);
 
         // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2); 
+        element.innerHTML = bmi.toFixed(2);
         ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
@@ -1818,7 +1818,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         var bmi = weight / (height * height);
 
         // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2); 
+        element.innerHTML = bmi.toFixed(2);
         ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
@@ -1828,12 +1828,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    You can make question choice become select all / selectnone via the [Multiple-Choice settings](/reference/quiz-builder/questions/#multiple-choice). 
+    A choice can act as select all or select none. Set that in the [Multiple-Choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
 
 === "Shopify (Legacy)"
 
-    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    Custom JavaScript can make a multiple-choice question select every answer, or none of them. It works as long as one choice contains the word "All" and one contains the word "None". The order and the question number do not matter.
 
     ??? example "Select all, select none"
 
@@ -1863,16 +1863,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         // Defines the logic to update choice selections based on user interaction.
         function refresh(id) {
           var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-          
+
           // Logic to deselect a choice if it's already selected.
           if (valuesIncludes(values, choice)) {
             values = removeChoice(values, choice);
-          } 
+          }
           // Logic to select all choices except "none" when "all" is clicked.
           else if (isAll(choice)) {
             const cs = [...choices].filter((c) => !isNone(c));
             values = cs.map((c) => choiceId(c));
-          } 
+          }
           // Logic to handle "none" selection, deselecting all other choices or selecting none only.
           else if (isNone(choice)) {
             if (valuesIncludes(values, choice)) {
@@ -1881,7 +1881,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
               const cs = [...choices].filter((c) => !isNone(c));
               values = [choiceId(choice)];
             }
-          } 
+          }
           // General logic for ticking a choice and unticking "none".
           else {
             addChoice(values, choice);
@@ -1939,7 +1939,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "WooCommerce"
 
-    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    Custom JavaScript can make a multiple-choice question select every answer, or none of them. It works as long as one choice contains the word "All" and one contains the word "None". The order and the question number do not matter.
 
     ??? example "Select all, select none"
 
@@ -1969,16 +1969,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         // Defines the logic to update choice selections based on user interaction.
         function refresh(id) {
           var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-          
+
           // Logic to deselect a choice if it's already selected.
           if (valuesIncludes(values, choice)) {
             values = removeChoice(values, choice);
-          } 
+          }
           // Logic to select all choices except "none" when "all" is clicked.
           else if (isAll(choice)) {
             const cs = [...choices].filter((c) => !isNone(c));
             values = cs.map((c) => choiceId(c));
-          } 
+          }
           // Logic to handle "none" selection, deselecting all other choices or selecting none only.
           else if (isNone(choice)) {
             if (valuesIncludes(values, choice)) {
@@ -1987,7 +1987,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
               const cs = [...choices].filter((c) => !isNone(c));
               values = [choiceId(choice)];
             }
-          } 
+          }
           // General logic for ticking a choice and unticking "none".
           else {
             addChoice(values, choice);
@@ -2045,7 +2045,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Magento"
 
-    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    Custom JavaScript can make a multiple-choice question select every answer, or none of them. It works as long as one choice contains the word "All" and one contains the word "None". The order and the question number do not matter.
 
     ??? example "Select all, select none"
 
@@ -2075,16 +2075,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         // Defines the logic to update choice selections based on user interaction.
         function refresh(id) {
           var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-          
+
           // Logic to deselect a choice if it's already selected.
           if (valuesIncludes(values, choice)) {
             values = removeChoice(values, choice);
-          } 
+          }
           // Logic to select all choices except "none" when "all" is clicked.
           else if (isAll(choice)) {
             const cs = [...choices].filter((c) => !isNone(c));
             values = cs.map((c) => choiceId(c));
-          } 
+          }
           // Logic to handle "none" selection, deselecting all other choices or selecting none only.
           else if (isNone(choice)) {
             if (valuesIncludes(values, choice)) {
@@ -2093,7 +2093,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
               const cs = [...choices].filter((c) => !isNone(c));
               values = [choiceId(choice)];
             }
-          } 
+          }
           // General logic for ticking a choice and unticking "none".
           else {
             addChoice(values, choice);
@@ -2151,7 +2151,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "BigCommerce"
 
-    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    Custom JavaScript can make a multiple-choice question select every answer, or none of them. It works as long as one choice contains the word "All" and one contains the word "None". The order and the question number do not matter.
 
     ??? example "Select all, select none"
 
@@ -2181,16 +2181,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         // Defines the logic to update choice selections based on user interaction.
         function refresh(id) {
           var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-          
+
           // Logic to deselect a choice if it's already selected.
           if (valuesIncludes(values, choice)) {
             values = removeChoice(values, choice);
-          } 
+          }
           // Logic to select all choices except "none" when "all" is clicked.
           else if (isAll(choice)) {
             const cs = [...choices].filter((c) => !isNone(c));
             values = cs.map((c) => choiceId(c));
-          } 
+          }
           // Logic to handle "none" selection, deselecting all other choices or selecting none only.
           else if (isNone(choice)) {
             if (valuesIncludes(values, choice)) {
@@ -2199,7 +2199,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
               const cs = [...choices].filter((c) => !isNone(c));
               values = [choiceId(choice)];
             }
-          } 
+          }
           // General logic for ticking a choice and unticking "none".
           else {
             addChoice(values, choice);
@@ -2257,7 +2257,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Standalone"
 
-    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    Custom JavaScript can make a multiple-choice question select every answer, or none of them. It works as long as one choice contains the word "All" and one contains the word "None". The order and the question number do not matter.
 
     ??? example "Select all, select none"
 
@@ -2287,16 +2287,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         // Defines the logic to update choice selections based on user interaction.
         function refresh(id) {
           var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-          
+
           // Logic to deselect a choice if it's already selected.
           if (valuesIncludes(values, choice)) {
             values = removeChoice(values, choice);
-          } 
+          }
           // Logic to select all choices except "none" when "all" is clicked.
           else if (isAll(choice)) {
             const cs = [...choices].filter((c) => !isNone(c));
             values = cs.map((c) => choiceId(c));
-          } 
+          }
           // Logic to handle "none" selection, deselecting all other choices or selecting none only.
           else if (isNone(choice)) {
             if (valuesIncludes(values, choice)) {
@@ -2305,7 +2305,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
               const cs = [...choices].filter((c) => !isNone(c));
               values = [choiceId(choice)];
             }
-          } 
+          }
           // General logic for ticking a choice and unticking "none".
           else {
             addChoice(values, choice);
@@ -2365,38 +2365,38 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    In this version of the Revenuehunt app you can direct users to different markets via the [App settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
+    In this version of the RevenueHunt app, the [App settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) sends a customer to the right market. The product then shows in the right language and currency.
 
 
 === "Shopify (Legacy)"
 
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
+    The app syncs only the base products from your store. A translated product has no unique ID to sync against. You can change the quiz language, but product names and descriptions stay in the original language.
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#legacy-redirect-to-translated-product-url) covers that approach.
 
 === "WooCommerce"
 
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
+    The app syncs only the base products from your store. A translated product has no unique ID to sync against. You can change the quiz language, but product names and descriptions stay in the original language.
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#woocommerce-redirect-to-translated-product-url) covers that approach.
 
 === "Magento"
 
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
+    The app syncs only the base products from your store. A translated product has no unique ID to sync against. You can change the quiz language, but product names and descriptions stay in the original language.
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#magento-redirect-to-translated-product-url) covers that approach.
 
 === "BigCommerce"
 
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
+    The app syncs only the base products from your store. A translated product has no unique ID to sync against. You can change the quiz language, but product names and descriptions stay in the original language.
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#bigcommerce-redirect-to-translated-product-url) covers that approach.
 
 === "Standalone"
 
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
+    The app syncs only the base products from your store. A translated product has no unique ID to sync against. You can change the quiz language, but product names and descriptions stay in the original language.
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#standalone-redirect-to-translated-product-url) covers that approach.
 
 ### Other examples
 
@@ -2444,7 +2444,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
           ```
 
 
-      
+
     **Results page**
 
 
@@ -2602,4 +2602,4 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 === "Standalone"
 
 ---
-This guide outlines the foundational steps and examples for integrating custom JavaScript into your RevneuHunt Product Recommendation Quiz. 
+This article explains how to add custom JavaScript to a RevenueHunt quiz, with worked examples. 

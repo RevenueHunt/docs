@@ -5,61 +5,61 @@ icon: material/ab-testing
 
 # How to A/B Test Your Product Recommendation Quiz
 
-A/B testing, or split testing, allows you to compare two versions of your quizzes to see which one performs better. 
+A/B testing, also called split testing, lets you compare two versions of a quiz to see which performs better.
 
-This guide will walk you through the process of setting up A/B testing manually using your ability to create, duplicate, and edit quizzes in the RevenueHunt app.
+This article sets up an A/B test by hand, using the create, duplicate and edit features of the RevenueHunt app.
 
 Ensure you have:
 
 - Access to the RevenueHunt app where you can create and edit quizzes.
 - Basic understanding of [how to publish quizzes](/how-to-guides/publish-quiz/) on your website.
-- Access to your website’s backend or a platform that allows you to edit HTML/JavaScript for traffic distribution (optional for advanced routing).
-- Analytics tools or integration such as  [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/). to measure quiz performance.
+- Access to your website backend, or a platform that lets you edit HTML and JavaScript for traffic distribution. This is optional, and only for advanced routing.
+- An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/), to measure quiz performance.
 
 ## Step 1: create two versions of your quiz
 
-- **Design Your Original Quiz**: Create your quiz (Version A) in the RevenueHunt app, focusing on the content and design that you currently believe will perform best.
-- **Duplicate and Modify for Version B**: Use the duplication feature on the dashboard to make a copy of Version A. Alter one or more elements (e.g., title, color scheme, question order) to create Version B. Ensure only one key variable is different to accurately measure the effect of that change. Remember to publish the changes with the top-right Publish button.
+- **Design Your Original Quiz**: Create your quiz, Version A, in the RevenueHunt app. Use the content and design you expect to perform best.
+- **Duplicate and Modify for Version B**: Use the duplicate feature on the dashboard to copy Version A. Change one element, such as the title, the color scheme or the question order. Keep every other element the same, so the test measures that one change. Publish with the top-right `Publish` button.
 
 ## Step 2: publish both versions on your website
 
-Deploying both versions of your quiz on your website can be done through simple or advanced methods, depending on your ability to modify your site’s code and the level of precision you require in your A/B testing.
+There are two ways to put both versions on your website. Which one suits you depends on whether you can edit your site code, and on how precise the test needs to be.
 
 ### No coding solution: basic A/B testing
-For straightforward A/B testing, we recommend publishing each version of the quiz on separate pages within your store. This approach does not require any coding:
 
-- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page. 
+The simplest A/B test publishes each version on its own page in your store. This needs no code:
 
-This method allows you to directly link to each quiz version from different parts of your website or through external marketing channels.
+- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page.
+
+You can then link to each version from anywhere on your website, or from an external marketing channel.
 
 ### Coding solution: advanced A/B testing
-If you’re aiming for a more sophisticated A/B testing setup that involves randomizing which quiz version a visitor sees, you’ll need some coding:
 
-- **Link Popup**: Implement a Link Popup method by creating a single entry point (like a button or link) that dynamically directs visitors to either Version A or Version B of the quiz. You will need to work with a developer to program the logic that decides which link to the quiz is shown to each visitor. Follow the [Link Popup Publishing Instructions](/how-to-guides/publish-quiz-link/) for detailed steps on how to implement this solution.
+To randomize which version each customer sees, you need some code:
 
-By choosing the appropriate method based on your needs and capabilities, you can effectively publish and test different quiz versions on your website to gather insights and improve engagement.
+- **Link Popup**: Create one entry point, such as a button or a link, that sends the customer to either Version A or Version B. A developer has to write the logic that picks the link for each customer. For the setup steps, see [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
 
 ## Step 3: evenly distribute traffic between quizzes
 
 To manually distribute traffic:
 
-- For Basic Routing: Use two separate URLs for each quiz version and direct users randomly via your website’s links or promotions.
-- For Advanced Routing: Implement a JavaScript snippet or server-side logic on your landing page that randomly serves Version A or Version B of the quiz to each new visitor.
+- For Basic Routing: Give each version its own URL, and send customers to one or the other from your website links and promotions.
+- For Advanced Routing: Add a JavaScript snippet or server-side logic to your landing page. It serves Version A or Version B at random to each new customer.
 
 ## Step 4: track and analyze results
 
-- **Set Up Analytics**: Ensure each quiz version has tracking set up. By default, we track the quiz starts, completions, conversion rate, and drop-off in the [Metrics](/reference/quiz-builder/metrics/) panel. For more advanced analytics, you can connect your quizzes to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
-- **Analyze Performance**: After a significant amount of traffic has interacted with both versions, analyze the data to identify which version achieved better performance based on your predefined goals (e.g., higher completion rates).
+- **Set Up Analytics**: Give each version its own tracking. The [Metrics](/reference/quiz-builder/metrics/) panel already records quiz starts, completions, conversion rate and drop-off. For more, connect each quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+- **Analyze Performance**: Once enough traffic has reached both versions, compare the data against the goal you set, such as a higher completion rate.
 
 ## Step 5: implement improvements
 
-Based on the analysis, decide which version of the quiz is more effective. Implement the winning elements in your standard quiz and consider new variables to test in future A/B testing cycles.
+Decide which version performs better. Put the winning elements into your main quiz, and pick a new variable for the next test.
 
 ## Tips for effective A/B testing
 
 - Test one variable at a time to understand its impact clearly.
-- Ensure you have a statistically significant sample size before drawing conclusions.
+- Collect a large enough sample before you draw a conclusion.
 
 
 ---
-A/B testing for quizzes is entirely feasible with the RevenueHunt app. By following this guide, you can uncover valuable insights into what resonates with your audience, leading to better engagement and conversion rates over time.
+This article explains how to A/B test a quiz in the RevenueHunt app. It covers creating two versions, publishing both, splitting traffic between them and comparing the results.

@@ -5,9 +5,9 @@ icon: material/sitemap
 
 # Automate Quiz Completions with Shopify Flow
 
-Shopify Flow can run an automation every time someone completes your quiz, so you can follow up, segment, or update your store based on what they answered.
+Shopify Flow can run an automation every time a customer completes your quiz. Follow up, segment, or update your store based on the answers.
 
-How the workflow starts depends on which version of the app you use. The Built for Shopify version provides a **Quiz Completed** trigger that carries the whole completion with it, so your actions can use the response, answers, customer tags, recommendations and variable scores. On the legacy version you build the same kind of automation on Shopify's **Customer created** trigger with a condition on customer tags.
+How the workflow starts depends on your version of the app. The Built for Shopify version has a **Quiz Completed** trigger that carries the whole completion. Your actions can use the response, answers, customer tags, recommendations and variable scores. On the legacy version you build the same automation on Shopify's **Customer created** trigger, with a condition on customer tags.
 
 === "Shopify"
 
@@ -15,10 +15,10 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=yEPUcXlyNLd0ecug" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    The trigger runs on a Shopify customer record, not on an anonymous quiz session. RevenueHunt matches a respondent to that record using the email address they type into the quiz, which is why the first two steps below matter.
+    The trigger runs on a Shopify customer record, not on an anonymous quiz session. RevenueHunt matches the customer to that record by the email address they type into the quiz. That is why the next two steps matter.
 
-    1. **Add an email question to your quiz.** Without one, no customer record is created or updated and the trigger never fires. A phone number is not enough. Make the question required if you want every completion to start a workflow run.
-    2. **Turn on customer syncing.** In RevenueHunt, go to **App settings > Shopify Customers**, turn on **Enable pushing quiz leads to Shopify Customers**, and save. The **Shopify Flow** section sits on the same page, directly below that checkbox.
+    1. **Add an email question to your quiz.** Without one, no customer record is created, and the trigger never fires. A phone number is not enough. Make the question required to start a workflow run on every completion.
+    2. **Turn on customer syncing.** In RevenueHunt, open **App settings > Shopify Customers**. Turn on **Enable pushing quiz leads to Shopify Customers** and save. The **Shopify Flow** section sits on the same page, under that checkbox.
     3. **Install [Shopify Flow](https://admin.shopify.com/apps/flow)** if your store does not have it. It is free.
     4. **Publish the quiz.**
 
@@ -39,7 +39,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     !!! tip
 
-        If you are not sure how to assemble a workflow, describe what you want in plain language and let Shopify Sidekick draft it for you in Flow.
+        If you are not sure how to assemble a workflow, describe what you want in plain language. Shopify Sidekick can draft it for you in Flow.
 
     ## What data is sent
 
@@ -47,10 +47,10 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     When a customer completes a quiz, RevenueHunt sends a structured payload to Shopify Flow using the `quiz-completed` trigger. The payload has two top level fields:
 
-    - `customer_id`, the numeric Shopify customer ID; and
+    - `customer_id`, the numeric Shopify customer ID
     - `Quiz completion`, an object holding everything about the completion.
 
-    Under **Add variable** in any action, the quiz data is nested under `Quiz completion`. The fields you actually see depend on what the respondent submitted and how the quiz is configured.
+    Under **Add variable** in any action, the quiz data is nested under `Quiz completion`. Which fields you see depends on what the customer submitted and on how the quiz is configured.
 
     ### Completion fields
 
@@ -63,7 +63,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     | `completedAt` | ISO 8601 UTC timestamp of the completion |
     | `email` | The customer's email address. Always present, since the trigger requires it |
     | `phone`, `firstName`, `lastName`, `fullName` | Contact details, when the quiz captured them |
-    | `resultRef`, `resultName` | Identifiers for the specific quiz result the respondent reached |
+    | `resultRef`, `resultName` | Identifiers for the quiz result the customer reached |
     | `tags` | A list of all customer tags associated with the response |
     | `marketId` | The market identifier |
     | `highestVariableRef` | The reference of the variable with the highest score |
@@ -104,14 +104,14 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     !!! warning "Limits and eligibility"
 
-        - **The trigger fires only when the response has an email address and the Shopify customer was created or updated successfully.** Completions without an email produce no workflow run.
-        - **The payload is capped at 45 KB**, to stay inside Shopify's 50 KB limit. If a completion would exceed that, data is pruned automatically in this order: first the recommendation metadata (URLs and prices), then the oldest answers, and finally `recommendationsIncomplete` is set to `true`. A long quiz with many recommendations is the usual cause, so do not rely on every optional field being present in every run.
+        - **The trigger needs an email address in the response, and a Shopify customer record.** A completion without an email produces no workflow run.
+        - **The payload is capped at 45 KB**, to stay inside Shopify's 50 KB limit. A completion over that size is pruned in order: the recommendation metadata such as URLs and prices, then the oldest answers. `recommendationsIncomplete` is then set to `true`. A long quiz with many recommendations is the usual cause. Do not rely on every optional field being present in every run.
 
     ## Example 1: email your team after every quiz completion
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=DWLjT4VJK--eRFyR&amp;start=188" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    This is the fastest way to prove the whole chain works, because you control both ends and you see the quiz data arrive in your inbox.
+    This is the fastest way to prove the chain works. You control both ends, and you see the quiz data arrive in your inbox.
 
     1. Create a workflow with the **Quiz Completed** trigger.
     2. Under the trigger, select the **+** button and choose **Action**.
@@ -120,11 +120,11 @@ How the workflow starts depends on which version of the app you use. The Built f
 
         !!! warning
 
-            The recipient must be a fixed address. Shopify does not let you insert a variable here, so you cannot use this action to email the quiz respondent. It is built for notifying staff.
+            The recipient must be a fixed address. Shopify does not let you insert a variable here, so this action cannot email the customer. It is built for notifying staff.
 
     5. In **Subject**, type the static part of your subject line, for example `Quiz completed by`.
-    6. Place your cursor where the dynamic part should go, select **Add variable**, and pick the field you want. To identify the respondent and the quiz, insert the customer's first name and the quiz name.
-    7. In **Message**, write the body of the email the same way, mixing text with **Add variable**. This is where the quiz completion data is worth using, for example the product recommendations, so the email lists the recommended product titles with their price or URL.
+    6. Place your cursor where the dynamic part goes, select **Add variable**, and pick the field you want. To identify the customer and the quiz, insert the customer's first name and the quiz name.
+    7. In **Message**, write the body the same way, mixing text with **Add variable**. The quiz completion data is worth using here. Insert the product recommendations, so the email lists the recommended titles with their price or URL.
     8. Select **Turn on workflow**.
     9. Complete your published quiz with a real email address and check your inbox.
 
@@ -138,7 +138,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=HhUhmbUvsSC7awe4&amp;start=233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    Most workflows should not treat every respondent the same. Use a condition to split the workflow based on what someone answered, then run a different action on each side.
+    Most workflows should not treat every customer the same. Use a condition to split the workflow on what they answered, then run a different action on each side.
 
     The cleanest thing to branch on is a [customer tag](/reference/quiz-builder/customer-tags/), because you decide in the quiz builder exactly which answers produce which tag.
 
@@ -148,10 +148,10 @@ How the workflow starts depends on which version of the app you use. The Built f
     2. Click the choice you want to tag to open its settings.
     3. Under [Customer tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one. For example, tag the dry skin choice with `dry skin`.
     4. Repeat for the other choices you want to identify later.
-    5. Add a common tag such as `quiz` to every choice in one of the questions, so that all participants carry it.
+    5. Add a common tag such as `quiz` to every choice in one of the questions, so that every customer carries it.
     6. Click `Save`.
 
-    Every tag attached to the choices a respondent picks is written to their Shopify customer profile, and arrives with the trigger.
+    Every tag attached to the choices a customer picks is written to their Shopify customer profile, and arrives with the trigger.
 
     **Then build the condition**
 
@@ -159,7 +159,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     2. Select **Add variable**.
     3. Search for `tags` and select the tags field belonging to the quiz completion. Flow lists variables in dot notation, so read the full path before selecting, since several unrelated `tags` fields exist.
     4. Because tags are a list, set the list operator to **At least one of**.
-    5. Leave the field operator as **Equal to** and type the tag exactly as you named it in the quiz builder, for example `dry skin`.
+    5. Leave the field operator as **Equal to**. Type the tag exactly as you named it in the quiz builder, for example `dry skin`.
 
         !!! note
 
@@ -172,13 +172,13 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     To test both sides, complete the quiz twice, once choosing the answer that carries the tag and once choosing an answer that does not.
 
-    ## Send a marketing email to the respondent
+    ## Send a marketing email to the customer
 
-    **Send internal email** cannot email the person who took the quiz. To do that you need a marketing email action, and that action is not built into Shopify Flow. It is contributed by whichever email app you have installed, so the name you search for depends on your setup, for example Shopify Messaging, Klaviyo, or Seguno.
+    **Send internal email** cannot email the customer who took the quiz. That needs a marketing email action, which Shopify Flow does not provide. Your email app contributes it, so the name you search for depends on your setup, for example Shopify Messaging, Klaviyo or Seguno.
 
     !!! warning
 
-        Marketing emails only reach customers who are subscribed to marketing. If the respondent is not subscribed, the action fails for that run. Quiz leads are marked as subscribed by default, as described in [Change subscribed/consent status for email and phone questions](/how-to-guides/send-leads-to-shopify-customers/#change-subscribedconsent-status-for-email-and-phone-questions).
+        A marketing email only reaches a customer who is subscribed to marketing. For anyone who is not subscribed, the action fails on that run. Quiz leads are marked as subscribed by default, as [Change subscribed/consent status for email and phone questions](/how-to-guides/send-leads-to-shopify-customers/#change-subscribedconsent-status-for-email-and-phone-questions) describes.
 
     !!! info "Shopify's own email automations moved"
 
@@ -206,7 +206,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     !!! note
 
-        Storing the recommendations in a metafield makes them available to your theme, but displaying them on the storefront is theme work that Flow itself does not do.
+        Storing the recommendations in a metafield makes them available to your theme. Displaying them on the storefront is theme work, which Flow does not do.
 
     ## Check the connection in RevenueHunt
 
@@ -228,7 +228,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     2. In Shopify Flow, open the workflow and review its recent runs.
     3. Confirm that the expected conditions and actions completed successfully.
 
-    If no run appears, one of the setup steps is usually the cause. Check, in this order, that you filled in the email question during the test, that customer syncing is on, and that the workflow itself is turned on. Then complete the quiz again.
+    If no run appears, a setup step is usually the cause. Check in this order: the email question was filled in during the test, customer syncing is on, and the workflow is turned on. Then complete the quiz again.
 
     !!! note
 
@@ -240,7 +240,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
         The **Quiz Completed** trigger is **not available** in the legacy version of the app. It is provided by the Built for Shopify version of RevenueHunt only.
 
-    You can still automate what happens after a quiz, using Shopify's own `Customer created` trigger with a condition on customer tags. The workflow starts when the quiz creates a new customer, rather than on the quiz completion itself, so quiz answers, recommendations and variable scores are not available inside the actions.
+    You can still automate what happens after a quiz, with Shopify's own `Customer created` trigger and a condition on customer tags. The workflow starts when the quiz creates a new customer, not on the quiz completion. Quiz answers, recommendations and variable scores are not available inside the actions.
 
     <iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=YGAUsV3-zNMjQZWK&amp;start=279" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
 
@@ -258,7 +258,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     1. Open your quiz and navigate to the [Customer Tags](/reference/quiz-builder/customer-tags/) section.
     2. Create a tag for each choice you want to identify later. For example, create a tag called `teen` and assign it to the relevant choice.
-    3. Add a common tag such as `quiz` to all choices in one of the questions, so that everyone who takes the quiz carries it.
+    3. Add a common tag such as `quiz` to every choice in one of the questions, so that every customer carries it.
     4. Click `Publish` to save your changes.
 
     !!! note
@@ -275,7 +275,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
         !!! warning
 
-            This fires only for brand new customers. A respondent who already exists in your Shopify Customers list is updated rather than created, so the automation does not run for them.
+            This fires only for a brand new customer. Anyone already in your Shopify Customers list is updated rather than created, so the automation does not run for them.
     4. **Select a condition**: Add a `Condition` action after the trigger. Click `Add variable` and from the list look for `customer` and then `tags`. Then, set up the condition as follows:
 
         **At least one customer / tags** `includes` tags_item  `prq_quiz`.
@@ -288,45 +288,53 @@ How the workflow starts depends on which version of the app you use. The Built f
 
         ![how to send leads to shopify customers automation4](/images/how_to_send_leads_to_shopify_customers_automation4.png)
 
-    5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the `prq_ tag` (right after the tag is added to their profile), click `Then > Action` and from the list select `Send marketing email`. Next, select the email template you want to use.
+    5. **Set up an email**: Click `Then > Action` and select `Send marketing email`. Then pick the email template. This sends a follow-up to every quiz contact carrying the `prq_ tag`, as soon as the tag is added.
         ![how to send leads to shopify customers automation6](/images/how_to_shopify_customers_flow_add_email.gif)
-    6. **Save**: Remember to `Turn on workflow` once you're done with making the changes.
+    6. **Save**: Click `Turn on workflow` once you are done.
         ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 
     **Step 4: Test it**
 
-    Complete your published quiz with an email address that does not exist in your Shopify Customers list yet, then open the automation and check its recent runs.
+    Complete your published quiz with an email address that is not yet in your Shopify Customers list. Then open the automation and check its recent runs.
 
-    Now, all the quiz takers with a specific `prq_ tag` will be sent the marketing email.
+    Every customer carrying that `prq_ tag` is then sent the marketing email.
 
     To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
 
     !!! tip
 
-        Upgrading to the Built for Shopify version of the app gives you the **Quiz Completed** trigger, drops the `prq_` prefix from your tags, and makes the full quiz completion available to your workflow actions. See [Migrate a Legacy Quiz to Built for Shopify](/how-to-guides/migrate-shopify-legacy-quiz/).
+        The Built for Shopify version gives you the **Quiz Completed** trigger. It also drops the `prq_` prefix from your tags, and makes the full quiz completion available to your actions. See [Migrate a Legacy Quiz to Built for Shopify](/how-to-guides/migrate-shopify-legacy-quiz/).
 
     For the same walkthrough in context, see the **Shopify (Legacy)** tab of [Set up Shopify Flow](/how-to-guides/send-leads-to-shopify-customers/#set-up-shopify-flow).
 
 === "WooCommerce"
 
-    Not applicable. Shopify Flow is a Shopify product.
+    !!! note "Platform Availability"
 
-    To automate follow-ups on WooCommerce, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Flow is a Shopify product, so this does not apply to WooCommerce.
+
+        To automate follow-ups, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
-    Not applicable. Shopify Flow is a Shopify product.
+    !!! note "Platform Availability"
 
-    To automate follow-ups on Magento, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Flow is a Shopify product, so this does not apply to Magento.
+
+        To automate follow-ups, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
-    Not applicable. Shopify Flow is a Shopify product.
+    !!! note "Platform Availability"
 
-    To automate follow-ups on BigCommerce, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Flow is a Shopify product, so this does not apply to BigCommerce.
+
+        To automate follow-ups, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
-    Not applicable. Shopify Flow is a Shopify product.
+    !!! note "Platform Availability"
 
-    To automate follow-ups on a Standalone quiz, connect it to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Flow is a Shopify product, so this does not apply to Standalone.
+
+        To automate follow-ups, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).

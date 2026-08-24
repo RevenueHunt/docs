@@ -5,11 +5,11 @@ icon: material/page-layout-header
 
 # How to Add a Welcome Screen to Your Quiz
 
-The welcome screen is the first slide of your quiz: a short headline, a line of supporting text and a button that starts the quiz. Merchants also call it the welcome page, the welcome slide or the start screen. In the Quiz Builder it is a question type called `Welcome Message`.
+The welcome screen is the first slide of your quiz: a short headline, a line of supporting text and a button that starts the quiz. Merchants also call it the welcome page, the welcome slide or the start screen. In the Quiz builder it is a question type called `Welcome Message`.
 
-A welcome screen is optional. If your quiz doesn't have one, it opens directly on your first question.
+A welcome screen is optional. Without one, the quiz opens on your first question.
 
-!!! tip "Why it's worth adding"
+!!! tip "Why it is worth adding"
 
     The welcome screen is where customers decide whether the quiz is worth their time. Tell them what they get and how long it takes. See [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/) for what to put on it.
 
@@ -17,7 +17,7 @@ A welcome screen is optional. If your quiz doesn't have one, it opens directly o
 
 === "Shopify"
 
-    1. Open your quiz in the **Quiz Builder**.
+    1. Open your quiz in the **Quiz builder**.
     2. Click `+ Add question`.
     3. Under **Messages**, choose `Welcome Message`.
 
@@ -176,25 +176,19 @@ A welcome screen is optional. If your quiz doesn't have one, it opens directly o
     3. Choose the placement: `above`, `below`, `background` or `split`.
     4. Use `Image Opacity` to fade the image back so your copy stays readable.
 
-## Change the Start button text
+## Change the start button text
 
 === "Shopify"
 
     Click the `Button` block on the slide and edit `Button text`. Use `Alignment` to move it left, right or center.
 
-    Write the button as the action the customer is taking - "Find my match" or "Start the quiz" - rather than a bare "Next".
-
 === "Shopify (Legacy)"
 
     Click the slide, open `question settings` / the `wrench icon`, and edit `Button Text`.
 
-    Write the button as the action the customer is taking - "Find my match" or "Start the quiz" - rather than a bare "Next".
-
 === "WooCommerce"
 
     Click the slide, open `question settings` / the `wrench icon`, and edit `Button Text`.
-
-    Write the button as the action the customer is taking - "Find my match" or "Start the quiz" - rather than a bare "Next".
 
 === "Magento"
 
@@ -207,6 +201,10 @@ A welcome screen is optional. If your quiz doesn't have one, it opens directly o
 === "Standalone"
 
     Click the slide, open `question settings` / the `wrench icon`, and edit `Button Text`.
+
+!!! tip "Name the action, not the step"
+
+    Write the button as the action the customer is taking, such as "Find my match" or "Start the quiz", rather than a bare "Next".
 
 ## Remove the welcome screen
 
