@@ -5,397 +5,371 @@ icon: material/loading
 
 # How to Check Quiz Loading Speed
 
-When integrating a quiz into your online store, it's crucial to ensure it loads efficiently to maintain a smooth user experience. If you're encountering slow loading times for your quiz, the issue might not stem from the quiz itself but from other resources on your site affecting its performance. 
+A quiz on your store has to load quickly. If yours is slow, the cause is often not the quiz but another resource on the same page.
 
-This guide outlines steps to diagnose and resolve quiz loading issues by optimizing the loading process.
+This article explains how to find what is slowing the quiz down, and how to fix it.
 
 
 
 
 === "Shopify"
 
-    **Step 1: Verify Direct Quiz Link Performance**
+    1. **Verify direct quiz link performance**
 
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
 
-    1. **Locate Your Quiz Link**: In the app, go to your quiz and open the `Share -> External` tab to copy its direct link. With the Built for Shopify version the quiz runs natively inside your theme, so the link is your own storefront URL plus the quiz hash.
-        - The link should look something like [https://your-store.com/#quiz-rkHm6Y](https://your-store.com/#quiz-rkHm6Y), where `your-store.com` is your storefront domain and `rkHm6Y` is your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of the rest of your store. Ideally, the quiz should load in less than one second.
+        - **Locate Your Quiz Link**: In the app, go to your quiz and open the `Share -> External` tab to copy its direct link. With the Built for Shopify version the quiz runs natively inside your theme, so the link is your own storefront URL plus the quiz hash.
+            - The link should look something like [https://your-store.com/#quiz-rkHm6Y](https://your-store.com/#quiz-rkHm6Y), where `your-store.com` is your storefront domain and `rkHm6Y` is your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of the rest of your store. Ideally, the quiz should load in less than one second.
 
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-
-
-    !!! tip
-
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    !!! info
-        The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
-
-    !!! note "About the large inline quiz configuration"
-
-        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, conditional logic, results pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
-
-        That uncompressed size looks alarming, but it isn't the bottleneck:
-
-        - **It's compressed on the wire.** Shopify serves your pages gzip/brotli compressed, so a ~150 KB config typically ships at **10-15 KB** to the browser, often less than a single product thumbnail.
-        - **It's not rendered DOM.** It lives inside a `<script>` tag, so it adds no layout or paint cost.
-        - **It loads asynchronously.** It never blocks your page from rendering.
-
-        You can confirm the real transferred size in your browser's `Network` tab (look at the `Size` column, not `Content` size).
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
-    !!! tip
+        !!! tip
 
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
-    
 
-    ---
+    2. **Analyze your website's loading order**
 
-    **Step 3: Optimize Your Website's Resources**
+        !!! info
+            The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
 
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+        !!! note "About the large inline quiz configuration"
 
-    - **Optimize Third-Party Widgets**: Review any third-party widgets or scripts (e.g., marketing, chat tools) on your site. Ensure that they are loaded asynchronously or deferred to load after the quiz.
+            When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, conditional logic, results pages, recommendation rules, design and translations. It is embedded in the page so the quiz opens at once, with no extra network request when the customer interacts.
 
-    - **Check Shopify Performance Reports**: Use [Shopify’s built-in tools](https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance) to check for any resources that might be blocking the quiz from loading quickly.
+            That uncompressed size looks alarming, but it is not the bottleneck:
+
+            - **It is compressed on the wire.** Shopify serves your pages gzip or brotli compressed. A 150 KB configuration usually ships at **10-15 KB**, less than one product thumbnail.
+            - **It is not rendered DOM.** It sits inside a `<script>` tag, so it adds no layout or paint cost.
+            - **It loads asynchronously.** It never blocks the page from rendering.
+
+            You can confirm the real transferred size in your browser's `Network` tab (look at the `Size` column, not `Content` size).
+
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+
+
+        !!! tip
+
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
 
 
 
 
+    3. **Optimize your website's resources**
+
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
+
+        - **Optimize Third-Party Widgets**: Review any third-party widgets or scripts (e.g., marketing, chat tools) on your site. Ensure that they are loaded asynchronously or deferred to load after the quiz.
+
+        - **Check Shopify Performance Reports**: Use [Shopify’s built-in tools](https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance) to check for any resources that might be blocking the quiz from loading quickly.
 
 === "Shopify (Legacy)"
 
     !!! note "Raw size vs. transferred size"
 
-        The byte sizes you see in your page source are uncompressed. Shopify serves your pages gzip/brotli compressed, and the quiz script is served compressed too, so the browser downloads far less than the raw numbers suggest (a ~150 KB payload typically ships at 10-15 KB). Check the real transferred size in your browser's `Network` tab (the `Size` column, not the `Content` size) before deciding something is heavy.
+        The byte sizes in your page source are uncompressed. Shopify serves your pages gzip or brotli compressed, and the quiz script too, so the browser downloads far less than those numbers suggest. A 150 KB payload usually ships at 10-15 KB. Check the real transferred size in the `Network` tab of your browser, in the `Size` column rather than `Content`, before deciding something is heavy.
 
-    **Step 1: Verify Direct Quiz Link Performance**
+    1. **Verify direct quiz link performance**
 
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
 
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
 
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-
-
-    !!! tip
-
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
-    !!! tip
+        !!! tip
 
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
-
-    ---
-
-    **Step 3: Try Direct iFrame Embedding**
-
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
-
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
-
-    Replace this code:
-
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
-
-    With this:
-
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
-
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
-
-    ---
-
-    **Step 4: Optimize Your Website's Resources**
-
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
 
+    2. **Analyze your website's loading order**
+
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+
+
+        !!! tip
+
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
+
+
+    3. **Try direct iframe embedding**
+
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
+
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+
+        Replace this code:
+
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+
+        With this:
+
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+
+
+    4. **Optimize your website's resources**
+
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
 
 === "WooCommerce"
 
-    
-    **Step 1: Verify Direct Quiz Link Performance**
 
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+    1. **Verify direct quiz link performance**
 
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
 
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
 
-
-    !!! tip
-
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
-    !!! tip
+        !!! tip
 
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
-    ---
 
-    **Step 3: Try Direct iFrame Embedding**
+    2. **Analyze your website's loading order**
 
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
 
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
 
-    Replace this code:
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
 
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
 
-    With this:
+        !!! tip
 
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
 
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
 
-    ---
+    3. **Try direct iframe embedding**
 
-    **Step 4: Optimize Your Website's Resources**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
 
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
 
+        Replace this code:
+
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+
+        With this:
+
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+
+
+    4. **Optimize your website's resources**
+
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
 
 === "Magento"
 
-    
-    **Step 1: Verify Direct Quiz Link Performance**
 
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+    1. **Verify direct quiz link performance**
 
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
 
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
 
-
-    !!! tip
-
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
-    !!! tip
+        !!! tip
 
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
-    ---
 
-    **Step 3: Try Direct iFrame Embedding**
+    2. **Analyze your website's loading order**
 
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
 
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
 
-    Replace this code:
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
 
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
 
-    With this:
+        !!! tip
 
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
 
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
 
-    ---
+    3. **Try direct iframe embedding**
 
-    **Step 4: Optimize Your Website's Resources**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
 
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+
+        Replace this code:
+
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+
+        With this:
+
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+
+
+    4. **Optimize your website's resources**
+
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
 
 === "BigCommerce"
 
-    
-    **Step 1: Verify Direct Quiz Link Performance**
 
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+    1. **Verify direct quiz link performance**
 
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
 
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
 
-
-    !!! tip
-
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
-    !!! tip
+        !!! tip
 
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
-    ---
 
-    **Step 3: Try Direct iFrame Embedding**
+    2. **Analyze your website's loading order**
 
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
 
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
 
-    Replace this code:
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
 
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
 
-    With this:
+        !!! tip
 
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
 
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
 
-    ---
+    3. **Try direct iframe embedding**
 
-    **Step 4: Optimize Your Website's Resources**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
 
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
 
+        Replace this code:
+
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+
+        With this:
+
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+
+
+    4. **Optimize your website's resources**
+
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
 
 === "Standalone"
 
-    
-    **Step 1: Verify Direct Quiz Link Performance**
 
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+    1. **Verify direct quiz link performance**
 
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
 
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
 
-
-    !!! tip
-
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
-    !!! tip
+        !!! tip
 
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
-    ---
 
-    **Step 3: Try Direct iFrame Embedding**
+    2. **Analyze your website's loading order**
 
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
 
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
 
-    Replace this code:
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
 
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
 
-    With this:
+        !!! tip
 
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
 
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
 
-    ---
+    3. **Try direct iframe embedding**
 
-    **Step 4: Optimize Your Website's Resources**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
 
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+
+        Replace this code:
+
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+
+        With this:
+
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+
+
+    4. **Optimize your website's resources**
+
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
 
 
 
 
 
----
-This article explains how to check and improve the loading speed of your quiz.
+    This article explains how to check and improve the loading speed of your quiz.

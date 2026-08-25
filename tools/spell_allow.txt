@@ -36,7 +36,10 @@ seguno
 activecampaign
 hubspot
 zapier
+fiverr
+upwork
 pagefly
+pagespeed
 cpanel
 dropbox
 gmass
@@ -79,6 +82,9 @@ iframe
 deduplication
 metadata
 namespace
+brotli
+gzip
+natively
 plaintext
 runtime
 shortcode
@@ -101,6 +107,7 @@ checkmark
 placeholder
 permalink
 textbox
+strikethrough
 tooltip
 uncheck
 untick

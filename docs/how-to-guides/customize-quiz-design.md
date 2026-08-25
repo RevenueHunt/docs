@@ -5,7 +5,7 @@ icon: material/palette-outline
 
 # How to Customize the Quiz Design
 
-You can change the quiz's appearance to fit your store's style. This guide explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
+You can change how the quiz looks, to fit your store. This article covers the built-in design settings, the question and choice settings, and custom CSS and JavaScript.
 
 !!! info "Quiz Design Options"
 
@@ -51,20 +51,20 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
-    In the [Quiz design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
-    
+    In the [Quiz design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look.
+
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
 
     Switch between previews of the quiz questions and the results page to see your customizations in action as you edit.
 
-    Choose from a selection of predefined color schemes for your quiz or click `Change` to pick a new scheme. 
-    
+    Choose from a selection of predefined color schemes for your quiz or click `Change` to pick a new scheme.
+
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
-    
-    This allows you to set a tone that resonates with your brand’s identity.
+
+    That sets a tone to match your brand.
 
     The Quiz design section is divided into two main customization categories: **`Basic`** and **`Advanced`**.
- 
+
     `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
@@ -75,7 +75,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     !!! note
 
-        In the `💎Built for Shopify` version of the RevenueHunt app, the font for the headings and body of the quiz is inherited from the store Shopify theme if the font is set to `Inherit`.
+        In the `💎Built for Shopify` version, setting the font to `Inherit` takes the heading and body fonts from your Shopify theme.
 
     `Primary Colors` - Click on the color to change it.
 
@@ -93,7 +93,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
 
-    `Background` - Change the background color by clicking on the color. Adjust thje background opacity with the slider or upload a background image by clicking `Select image`.
+    `Background` - Change the background color by clicking on the color. Adjust the background opacity with the slider or upload a background image by clicking `Select image`.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
 
@@ -107,7 +107,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     `Opacity` - Adjust the opacity of the background image.
 
-    `Navigation` - Change the colors of the Navigation bar background, text and border by cliking on the color. 
+    `Navigation` - Change the colors of the Navigation bar background, text and border by clicking a color.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
 
@@ -131,110 +131,110 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Shopify (Legacy)"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
 === "WooCommerce"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
 === "Magento"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
 === "BigCommerce"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
 === "Standalone"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
@@ -243,29 +243,29 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Shopify"
 
-    For those with coding knowledge, the `Advanced` customization panel within the [Quiz design](/reference/quiz-builder/quiz-design/) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
+    The `Advanced` panel in [Quiz design](/reference/quiz-builder/quiz-design/) takes custom CSS, so a developer can you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 
     !!! tip "Get help with custom CSS"
 
         Click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
-    
 
-    Once you've made your changes, click the `Save` button at the top right to apply them to your live or preview quiz.
 
-    To add custom CSS code to a **speciifc quiz section only**, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings).
-    
+    Click `Save` at the top right to apply your changes to the live and preview quiz.
+
+    To add custom CSS code to one **quiz section only**, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings).
+
     To add custom CSS code to a **specific results page only**, go to [`Results Page Settings`](/reference/quiz-builder/results-page/).
 
     !!! tip "Tips for using CSS"
 
         - **Check the App CSS Structure**: For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure](/reference/css-structure/) reference.
 
-        - **Find an Element Selector**: To target a specific element in your quiz, right-click on it in your browser and select `Inspect` to view the element’s selector.
+        - **Find an Element Selector**: Right-click the element in your browser and select `Inspect` to see its selector.
 
-        - **Add Specificity to CSS Rules**: Use specific selectors to apply styles only to particular parts of your quiz. 
-        
+        - **Add Specificity to CSS Rules**: Use specific selectors to apply styles only to particular parts of your quiz.
+
             !!! example "Example: Add Specificity to CSS Rules"
 
                 ```css
@@ -305,7 +305,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz design > CSS console**: Navigate to the Quiz design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 
@@ -316,7 +316,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -354,7 +354,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "WooCommerce"
@@ -364,7 +364,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -402,7 +402,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "Magento"
@@ -412,7 +412,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -450,7 +450,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "BigCommerce"
@@ -460,7 +460,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -498,7 +498,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "Standalone"
@@ -508,7 +508,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -546,14 +546,14 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 ## Advanced customizations (JavaScript)
 
 === "Shopify"
 
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
 
     !!! info "With custom JavaScript, you can:"
 
@@ -564,12 +564,12 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 === "Shopify (Legacy)"
 
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
 
     !!! info "With custom JavaScript, you can:"
 
@@ -579,13 +579,13 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 
 === "WooCommerce"
 
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
 
     !!! info "With custom JavaScript, you can:"
 
@@ -596,12 +596,12 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 === "Magento"
 
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
 
     !!! info "With custom JavaScript, you can:"
 
@@ -612,12 +612,12 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 === "BigCommerce"
 
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
 
     !!! info "With custom JavaScript, you can:"
 
@@ -628,12 +628,12 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 === "Standalone"
 
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
 
     !!! info "With custom JavaScript, you can:"
 
@@ -644,24 +644,24 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 ## Styling quiz text
 
 === "Shopify"
 
-    To personalize the text within each question, open the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for each content block. 
-    
-    Each block type — Heading, Text, or Button —has unique customization options that let you control the styling and positioning of text elements.
+    To personalize the text within each question, open the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for each content block.
+
+    Each block type, Heading, Text and Button, has its own options for styling and positioning the text.
 
     **Heading Block**
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
 
-    To add a heading to your question, select the `Heading` block. The `Block Settings` for the heading allow you to:
+    To add a heading to your question, select the `Heading` block. Its `Block Settings` let you:
 
-    - **Style Text**: You can bold, italicize, underline, or strikethrough text within the heading, as well as insert links and pull content dynamically from other parts of the quiz.
+    - **Style Text**: Make the heading text bold, italic, underlined or struck through. You can also insert links, and pull in content from elsewhere in the quiz.
     - **Size and Alignment**: Adjust the heading size and choose from alignment options (left, center, or right) to fit your design needs.
 
     **Text Block**
@@ -677,7 +677,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png){width="300"}
 
-    To include a button within your question, select the `Button` block. The [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for buttons allow you to:
+    To add a button to your question, select the `Button` block. Its [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) let you:
 
     - **Button Text**: Customize the default text displayed on the button to reflect the action you want users to take.
     - **Button Alignment**: Adjust the button's position (left, center, or right) for a balanced layout within the quiz.
@@ -687,11 +687,11 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Shopify (Legacy)"
 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
 
     ??? question "What is Markdown Language?"
-            
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
@@ -703,9 +703,9 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -717,18 +717,18 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
 
 === "WooCommerce"
 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
 
     ??? question "What is Markdown Language?"
-            
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
@@ -740,9 +740,9 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -754,18 +754,18 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
 
 === "Magento"
 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
 
     ??? question "What is Markdown Language?"
-            
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
@@ -777,9 +777,9 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -791,18 +791,18 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
 
 === "BigCommerce"
 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
 
     ??? question "What is Markdown Language?"
-            
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
@@ -814,9 +814,9 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -828,18 +828,18 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
 
 === "Standalone"
 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
 
     ??? question "What is Markdown Language?"
-            
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
@@ -851,9 +851,9 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -865,27 +865,27 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
 
 ## Adding images and videos
 
 === "Shopify"
 
-    Enhance your quiz with visual elements by using the **Image** and **Picture Choice** blocks. These options allow you to add standalone images or offer picture-based answer choices, making your quiz more engaging and visually appealing.
+    The **Image** and **Picture Choice** blocks add pictures to your quiz. One places a standalone image, the other turns the answer choices into pictures, making your quiz more engaging and visually appealing.
 
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
 
         The article explain in details different ways you can add images to your quiz. Including:
 
-        - **Quiz Background image** - You can uplaod a background image for the whole quiz via the Quiz design tab.
+        - **Quiz Background image** - Upload a background image for the whole quiz in the Quiz design tab.
         - **Question Background/Split image** - You can upload a background image to each question in the quiz via the question settings.
         - **Image Block** - You can upload an individual image via an Image Block directly into one of the quiz questions or results page.
-        - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
-        - **Product Image** - You can also add a Product/Variants/Collection Block to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
+        - **Picture Choice** - A Picture Choice block gives each choice in a multiple-choice question its own image.
+        - **Product Image** - A Product/Variants/Collection Block shows a product, variant or collection image on the results page.
 
 
     **Image Block**
@@ -913,7 +913,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     The `Picture Choice` block lets you offer visual choices for multiple-choice questions, enhancing interactivity. [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for picture choices include:
 
-    - **Picture Size/Ratio**: Choose the size and aspect ratio of the images in this block, from Tiny icon (24px), Small icon (48px), Medium (1:1), or Large (4:3).
+    - **Picture Size/Ratio**: Choose the size and aspect ratio for this block: Tiny icon (24px), Small icon (48px), Medium (1:1) or Large (4:3).
     - **Hide Checkbox/Radio**: Hide the checkbox or radio selection indicator for picture choices.
     - **Hide Image Label**: Hide the text label displayed under each picture choice for a cleaner design.
 
@@ -928,27 +928,27 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     To add a background image to a specific question go to the [**`Question Settings`**](/reference/quiz-builder/questions/#question-settings):
 
     - **Select a Background image**: Click `Select image` in the question management settings, then click `Add image` to upload a background image from your computer. Alternatively, choose an existing image from your quiz gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
-    - **Background Position**: Set the image to cover the entire background or split the screen, displaying the image on one half and content on the other.
+    - **Background Position**: Cover the whole background with the image, or split the screen between the image and the content.
     - **Background Opacity**: Adjust the opacity of the background image using the slider to control transparency and blend it with the quiz content.
 
     To add a background image to the whole quiz open the [Quiz design](#quiz-design-tab) tab.
 
-    These settings allow you to control how images appear and interact within your quiz, making it visually engaging.
+    These settings control how an image appears and behaves in the quiz.
 
 
 === "Shopify (Legacy)"
 
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
 
@@ -957,17 +957,17 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "WooCommerce"
 
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
     !!! tip
@@ -975,35 +975,35 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Magento"
 
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
-   
+
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
 
 === "BigCommerce"
 
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
     !!! tip
@@ -1012,17 +1012,17 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Standalone"
 
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
     !!! tip
@@ -1037,7 +1037,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
 
-    The question settings also allow you to incorporate unique [custom CSS code](how-to-guides/customize-quiz-design/#advanced-customizations-css/) and [custom JavaScript](/how-to-guides/add-javascript/) into your question design.
+    The question settings also take [custom CSS code](#advanced-customizations-css) and [custom JavaScript](/how-to-guides/add-javascript/) into your question design.
 
 
 
@@ -1047,7 +1047,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
 
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
 
 
 === "WooCommerce"
@@ -1056,7 +1056,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
 
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
 
 
 === "Magento"
@@ -1065,7 +1065,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
 
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
 
 
 === "BigCommerce"
@@ -1074,7 +1074,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
 
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
 
 
 === "Standalone"
@@ -1083,12 +1083,12 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
 
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
 
 
 ## Results page design
 
-The Results Page also has its own customization options. 
+The Results Page also has its own customization options.
 
 !!! tip
 
@@ -1096,7 +1096,7 @@ The Results Page also has its own customization options.
 
 In addition to the basic elements, you can set a unique background image for each results page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 
-If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
+If the default results page is too restrictive, **build your own** on your site. Send the quiz data to it with the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 
 ## Customization examples
 
@@ -1107,7 +1107,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 === "Shopify"
 
     !!! tip "Get help with custom CSS"
-    
+
         Click `✨Get help with custom CSS` in [Question settings](/reference/quiz-builder/questions/#question-settings) or [Results page settings](/reference/quiz-builder/results-page/) to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
 
     !!! info "App CSS Structure"
@@ -1162,7 +1162,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
     ??? example "Adding a custom font"
 
-        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+        Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
         ```html
         @font-face {
@@ -1263,7 +1263,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    ??? example "Muliptle choice questions: change the selected options background"
+    ??? example "Multiple choice questions: change the selected option background"
 
         ```html
         /* Muliptle choice questions: change the selected options background */
@@ -1351,7 +1351,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
     ??? example "Adding a custom font"
 
-        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+        Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
         ```html
         @font-face {
@@ -1452,7 +1452,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    ??? example "Muliptle choice questions: change the selected options background"
+    ??? example "Multiple choice questions: change the selected option background"
 
         ```html
         /* Muliptle choice questions: change the selected options background */
@@ -1540,7 +1540,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
     ??? example "Adding a custom font"
 
-        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+        Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
         ```html
         @font-face {
@@ -1641,7 +1641,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    ??? example "Muliptle choice questions: change the selected options background"
+    ??? example "Multiple choice questions: change the selected option background"
 
         ```html
         /* Muliptle choice questions: change the selected options background */
@@ -1729,7 +1729,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
     ??? example "Adding a custom font"
 
-        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+        Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
         ```html
         @font-face {
@@ -1830,7 +1830,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    ??? example "Muliptle choice questions: change the selected options background"
+    ??? example "Multiple choice questions: change the selected option background"
 
         ```html
         /* Muliptle choice questions: change the selected options background */
@@ -1918,7 +1918,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
     ??? example "Adding a custom font"
 
-        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+        Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
         ```html
         @font-face {
@@ -2019,7 +2019,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    ??? example "Muliptle choice questions: change the selected options background"
+    ??? example "Multiple choice questions: change the selected option background"
 
         ```html
         /* Muliptle choice questions: change the selected options background */
@@ -2063,4 +2063,4 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 
 ---
-This article explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
+This article explains how to customize the quiz design with the built-in settings, and how to add custom CSS and JavaScript.

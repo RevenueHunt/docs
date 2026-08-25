@@ -134,6 +134,15 @@ MARKETING = ['powerful', 'seamless', 'seamlessly', 'effortless', 'amazing',
              'perfect', 'comprehensive', 'unlock', 'robust', 'streamline',
              'supercharge']
 
+# section 12 warns that a bare word boundary misses inflected forms, and it
+# did: streamlines, streamlined and perfectly all passed while streamline was
+# caught. these match their inflections too.
+#
+# unlock is the exception and matches exactly. It has a literal meaning in
+# these docs, because a quiz is locked when the plan limit is reached and
+# unlocked again when the responses reset.
+MARKETING_EXACT = {'unlock'}
+
 # filler immediately before an imperative verb, anywhere on the line. the
 # earlier version only matched the first word of a list item, which missed
 # indented continuation lines inside platform tabs.
@@ -467,8 +476,11 @@ def check_file(path, root):
 
         if tier == 'STRICT' and in_example is None:
             for w in MARKETING:
-                if re.search(r'\b' + w + r'\b', prose, re.I):
-                    findings.append(Finding(i, 'marketing', f'{w!r} in a STRICT page'))
+                tail = '' if w in MARKETING_EXACT else r'(?:s|d|es|ed|ing|ly)?'
+                mm = re.search(r'\b' + w + tail + r'\b', prose, re.I)
+                if mm:
+                    findings.append(Finding(i, 'marketing',
+                                            f'{mm.group(0)!r} in a STRICT page'))
             fm = FILLER_BEFORE_INSTRUCTION.search(prose)
             if fm:
                 findings.append(Finding(i, 'filler',

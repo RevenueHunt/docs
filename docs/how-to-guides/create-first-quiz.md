@@ -17,7 +17,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     !!! tip "Ask Quiz Copilot"
 
-        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
+        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It can take you through the whole process.
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/oL1DnBd6N1U?si=TjqNJqj2cve_Uz7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,19 +40,19 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>          
+    </div>
 
 === "BigCommerce"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>          
+    </div>
 
 === "Standalone"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>          
+    </div>
 
 ## Step 1: create a new quiz
 
@@ -64,93 +64,93 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     2. **Choose a template**: Choose a pre-defined template, generate with AI or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz builder**: After that, you'll be redirected to the [Quiz builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz builder**: The [Quiz builder](/reference/quiz-builder/) then opens.
 
     !!! tip "Ask Quiz Copilot"
 
-        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
+        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It can take you through the whole process.
 
 === "Shopify (Legacy)"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
 
 === "WooCommerce"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
 
-=== "Magento"   
+=== "Magento"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
 
 === "BigCommerce"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
 
-=== "Standalone"        
+=== "Standalone"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
 
 
 ## Step 2: manage questions
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
-
-    1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
-    2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
-
-=== "Shopify"        
-
-    In [Quiz builder > Questions](/reference/quiz-builder/questions/) you'll be able to add questions to your quiz.
+    [Quiz builder > Questions](/reference/quiz-builder/questions/) is where you add questions to your quiz.
 
     1. **Add questions**: To add a question, click the `+ Add question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
 
         ![Question types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
 
-    2. **Add blocks**: You can add multiple different blocks to a single question slide such as text, images, videos, etc.
+    2. **Add blocks**: One question slide can hold several blocks, such as text, images and videos.
     3. **Delete slides**: To delete a question, click the `🗑 Remove question` button in [question settings](/reference/quiz-builder/questions/#question-settings).
 
 
-=== "WooCommerce"
+=== "Shopify (Legacy)"
 
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
 
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
 
-=== "Magento"   
+=== "WooCommerce"
 
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
+
+    1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
+    2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
+
+=== "Magento"
+
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
 
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
 
 === "BigCommerce"
 
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
 
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
 
-=== "Standalone"        
+=== "Standalone"
 
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
 
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
@@ -160,17 +160,17 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Shopify"
 
-    Once you have your questions, you'll have to decide [how to set up product recommendations](/how-to-guides/set-up-recommendations/) that should be shown at the end of the quiz. 
-    
+    With the questions in place, decide [how to set up product recommendations](/how-to-guides/set-up-recommendations/) for the end of the quiz.
+
     You can choose to:
 
     **Option 1**: Recommend most voted products based on the customer's answers *(recommended for most quizzes)*
 
     ![Recommend Most Voted Products](/images/how_to_shopify_v2_recommendations_funnel.png){: width="500"}
 
-    In this setup, you'll have to:
-    
-    - Link products or collections to each choice in the quiz. 
+    In this setup:
+
+    - Link products or collections to each choice in the quiz.
     - On the Results page, add a product block that will recommend the most voted products based on the customer's answers.
     - You can also sort recommendations into multiple product slots to show a complete product routine.
 
@@ -178,30 +178,30 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     ![Scoring Quiz](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){: width="500"}
 
-    In this setup, you'll have to:
+    In this setup:
 
-    - Create a custom variable or a score for each choices in the quiz. 
+    - Create a custom variable or a score for each choices in the quiz.
     - On the Results page, set up multiple sections with fixed recommendations and content.
-    - To each section, add display logic to tell it when to be shown or hidden based on the final score or variable with the most votes. 
-    - *For example, show Section 1 if the varaibkle with the highest score is "blue" and Section 2 if the varaibkle with the highest score is "red".*
+    - Give each section display logic, so it shows or hides on the final score, or on the variable with the most votes.
+    - *For example, show Section 1 when the highest scoring variable is "blue", and Section 2 when it is "red".*
 
-    **Option 3**: Set up a complex logic tree or add display logic to sections on the results page that will determine what recommendations should be shown *(recommended for quizzes with complex logic and recommendations matrix)*
+    **Option 3**: Build a logic tree, or give the results page sections display logic that decides which recommendations appear. *Best for a quiz with complex logic and a recommendations matrix.*
 
     ![Recommendations Matrix](/images/how_to_shopify_v2_recommendations_logic.png){: width="500"}
 
-    In this setup, you'll have to either:
+    In this setup, either:
 
-    - Create complex logic branching in the quiz that leads the user to different results pages with fixed recomemendations and text 
-    - Create one results page with multiple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
+    - Branch the quiz so that each path leads to its own results page, with fixed recommendations and text
+    - Build one results page with several sections, and use display logic to show or hide each one on the answers.
 
     !!! tip
-        If you're not sure which option to choose, check out our [How to Set Up Recommendations guide](/how-to-guides/set-up-recommendations/) that contains a decision tree to help you choose the best option for your quiz.
+        If you are not sure which option to choose, see [How to Set Up Recommendations](/how-to-guides/set-up-recommendations/). It has a decision tree for picking one.
 
 
 
 === "Shopify (Legacy)"
 
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
@@ -215,7 +215,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
@@ -226,7 +226,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "WooCommerce"
 
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
@@ -240,7 +240,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
@@ -251,7 +251,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Magento"
 
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
@@ -265,7 +265,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
@@ -276,7 +276,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "BigCommerce"
 
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
@@ -290,7 +290,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
@@ -301,10 +301,10 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Standalone"
 
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
 
     !!! tip "How do I add products to Standalone RevenueHunt App?"
-    
+
         Check this how-to article to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
@@ -319,7 +319,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
@@ -336,68 +336,68 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Shopify"
 
-    To test the quiz, you'll have to save the changes and preview it.
+    To test the quiz, save your changes and preview it.
 
-    1. **Save the changes**: Click [`Save`](/reference/quiz-builder/questions/) on the top menu. Don't worry, clicking `Save` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
+    1. **Save the changes**: Click [`Save`](/reference/quiz-builder/questions/) on the top menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
 
         ![Unsaved Changes](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
 
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
 
         ![Preview](/images/manual_shopifyV2_quizbuilder_preview.png)
 
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 
 === "Shopify (Legacy)"
 
-    To test the quiz, you'll have to save the changes and preview it.
+    To test the quiz, save your changes and preview it.
 
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
 
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 === "WooCommerce"
 
-    To test the quiz, you'll have to save the changes and preview it.
+    To test the quiz, save your changes and preview it.
 
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
 
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 === "Magento"
 
-    To test the quiz, you'll have to save the changes and preview it.
+    To test the quiz, save your changes and preview it.
 
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
 
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 === "BigCommerce"
 
-    To test the quiz, you'll have to save the changes and preview it.
+    To test the quiz, save your changes and preview it.
 
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
 
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 === "Standalone"
 
-    To test the quiz, you'll have to save the changes and preview it.
+    To test the quiz, save your changes and preview it.
 
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
 
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 
@@ -406,10 +406,10 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Shopify"
 
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
 
     1. **Publish the quiz**: To add the quiz to your store, go the [Publish tab](/reference/quiz-builder/share-publish/) from your [Dashboard](/reference/dashboard/) side menu.
-    2. **Pick a publishing method**: Pick a publishing method such as a quiz embeded on a new page, homepage or a link popup in the website menu and follow the instructions provided.
+    2. **Pick a publishing method**: Choose how the quiz appears. It can sit on a new page or the homepage, or open as a link popup from the website menu. Then follow the instructions shown.
 
         ![Publish Page](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
@@ -419,34 +419,34 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Shopify (Legacy)"
 
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
 
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
 === "WooCommerce"
 
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
 
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
 
 === "Magento"
 
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
 
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
 
 === "BigCommerce"
 
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
 
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
 
 === "Standalone"
 
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
 
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 

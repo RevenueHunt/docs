@@ -21,7 +21,7 @@ This article explains how to add product metafields/attributes to products on yo
     [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Metafields make that possible. The `💎Built for Shopify` version of the RevenueHunt app also has a `Unit price` setting under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition).
 
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, the process for adding and displaying metafields is streamlined. Follow the steps outlined below to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
+    The `💎Built for Shopify` version of the RevenueHunt app has fewer steps for adding and displaying metafields. Follow these steps to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
 
     **Step 1: Enable Metafields Display**
 

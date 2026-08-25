@@ -5,17 +5,17 @@ icon: material/content-copy
 
 # How to Copy the Quiz from One Store to Another
 
-Transferring a quiz from one store to another with the RevenueHunt app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
+You can copy a quiz from one store to another. The design, questions, tags and results page all come across, but **products and collections do not**, because the new store gives them different product IDs.
 
 !!! warning
-    Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
+    Install the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) on both stores before you start.
 
 
 !!! warning
 
     To migrate a quiz from the legacy app into the `💎Built for Shopify` version of RevenueHunt app, use the [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) option instead.
 
-This article will guide you through the process of copying a quiz from one store to another.
+These steps copy a quiz from one store to another.
 
 ## Copying the quiz
 
@@ -23,81 +23,65 @@ This article will guide you through the process of copying a quiz from one store
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/KQlWuEbHHXQ?si=uMw8HqQ156H8SMGb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Step 1: Generate Export Quiz Code**
+    1. **Generate export quiz code**
 
+        - Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
+        - Find **Export quiz to another store** and click `Copy quiz code`. It generates a piece of JSON that carries the whole quiz. The code does not expire, but it holds the quiz exactly as it was when you copied it.
 
-    First, navigate to the quiz you wish to export:
+            ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    1. Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
-    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. The code does not expire, but it only reflects the quiz as it was when you copied it.
+            !!! tip
 
-        ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+                To prevent loss, save the export quiz code in a text file.
 
-        !!! tip
-            
-            To prevent loss, save the export quiz code in a text file.
+    2. **Log in to the other store**
 
-    **Step 2: Log in to the Other Store**
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
 
-    Ensure you're logged into the destination store:
+    3. **Import the quiz**
 
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
 
-    **Step 3: Import the Quiz**
+            ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
 
-    Finally, import the quiz into your new store:
+        - Choose **Import quiz** and paste the previously generated code.
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+            ![Import Quiz Step](/images/manual_shopifyV2_createquiz_importquiz.png)
 
-        ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
-
-    3. Choose **Import quiz** and paste the previously generated code.
-
-        ![Import Quiz Step](/images/manual_shopifyV2_createquiz_importquiz.png)
-
-    After completing these steps, the imported quiz will appear in your dashboard with a `- imported from QUIZID` suffix in its name.
-
-
+        The imported quiz then appears in your dashboard, with a `- imported from QUIZID` suffix in its name.
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Step 1: Generate Export Quiz Code**
+    1. **Generate export quiz code**
 
-    First, navigate to the quiz you wish to export:
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
 
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
 
-        !!! tip
-            
-            To prevent loss, save the export quiz code in a text file.
+                To prevent loss, save the export quiz code in a text file.
 
-    **Step 2: Log in to the Other Store**
+    2. **Log in to the other store**
 
-    Ensure you're logged into the destination store:
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
 
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
 
-    **Step 3: Import the Quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
 
-    Finally, import the quiz into your new store:
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
-
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 === "WooCommerce"
 
@@ -105,38 +89,32 @@ This article will guide you through the process of copying a quiz from one store
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    **Step 1: Generate Export Quiz Code**
+    1. **Generate export quiz code**
 
-    First, navigate to the quiz you wish to export:
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
 
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
 
-        !!! tip
-            
-            To prevent loss, save the export quiz code in a text file.
+                To prevent loss, save the export quiz code in a text file.
 
-    **Step 2: Log in to the Other Store**
+    2. **Log in to the other store**
 
-    Ensure you're logged into the destination store:
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
 
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
 
-    **Step 3: Import the Quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
 
-    Finally, import the quiz into your new store:
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 === "Magento"
 
@@ -144,38 +122,32 @@ This article will guide you through the process of copying a quiz from one store
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    **Step 1: Generate Export Quiz Code**
+    1. **Generate export quiz code**
 
-    First, navigate to the quiz you wish to export:
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
 
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
 
-        !!! tip
-            
-            To prevent loss, save the export quiz code in a text file.
+                To prevent loss, save the export quiz code in a text file.
 
-    **Step 2: Log in to the Other Store**
+    2. **Log in to the other store**
 
-    Ensure you're logged into the destination store:
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
 
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
 
-    **Step 3: Import the Quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
 
-    Finally, import the quiz into your new store:
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 === "BigCommerce"
 
@@ -183,38 +155,32 @@ This article will guide you through the process of copying a quiz from one store
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    **Step 1: Generate Export Quiz Code**
+    1. **Generate export quiz code**
 
-    First, navigate to the quiz you wish to export:
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
 
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
 
-        !!! tip
-            
-            To prevent loss, save the export quiz code in a text file.
+                To prevent loss, save the export quiz code in a text file.
 
-    **Step 2: Log in to the Other Store**
+    2. **Log in to the other store**
 
-    Ensure you're logged into the destination store:
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
 
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
 
-    **Step 3: Import the Quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
 
-    Finally, import the quiz into your new store:
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 === "Standalone"
 
@@ -222,40 +188,32 @@ This article will guide you through the process of copying a quiz from one store
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    **Step 1: Generate Export Quiz Code**
+    1. **Generate export quiz code**
 
-    First, navigate to the quiz you wish to export:
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
 
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
 
-        !!! tip
-            
-            To prevent loss, save the export quiz code in a text file.
+                To prevent loss, save the export quiz code in a text file.
 
-    **Step 2: Log in to the Other Store**
+    2. **Log in to the other store**
 
-    Ensure you're logged into the destination store:
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
 
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
 
-    **Step 3: Import the Quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
 
-    Finally, import the quiz into your new store:
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
-
-
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 ## Changing domains
 
@@ -263,44 +221,44 @@ Follow these steps if you plan to change the domain on which the RevenueHunt app
 
 === "Shopify"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The `.myshopify.com` address stays the same, so this is safe.
 
-    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    If the `.myshopify` account changes, follow [Copying the quiz](#copying-the-quiz). After the copy, link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two Shopify accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
 
 
 === "Shopify (Legacy)"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The `.myshopify.com` address stays the same, so this is safe.
 
-    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    If the `.myshopify` account changes, follow [Copying the quiz](#copying-the-quiz). After the copy, link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two Shopify accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
 
 === "WooCommerce"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The WordPress account stays the same, so this is safe.
 
-    When changing the domain accounts in WordPress, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two WordPress accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    When the WordPress account changes, copy your quiz from the old domain to the new one first, as [Copying the quiz](#copying-the-quiz) explains. Then link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two WordPress accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
 
 === "Magento"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The Magento account stays the same, so this is safe.
 
-    When changing the domain accounts in Magento, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Magento accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    When the Magento account changes, copy your quiz from the old domain to the new one first, as [Copying the quiz](#copying-the-quiz) explains. Then link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two Magento accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
 
 === "BigCommerce"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The BigCommerce account stays the same, so this is safe.
 
-    When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    When the BigCommerce account changes, copy your quiz from the old domain to the new one first, as [Copying the quiz](#copying-the-quiz) explains. Then link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two BigCommerce accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
 
 === "Standalone"
 
-    Standalone solution is independent of your domain and can be used on multiple domains simultaneously. Make sure to change your product links in your in-app [Catalogue](/reference/dashboard/#__tabbed_3_5) or Google Product Feed.
+    The Standalone version does not depend on your domain, and you can use it on several domains at once. Update your product links in the [in-app Catalogue](https://admin.revenuehunt.com/catalogue) or in your Google Product Feed.
 
-If you have any issues or doubts about changing domains, please [contact support](/how-to-guides/contact-customer-support/).
+!!! tip
+
+    If you are unsure about changing domains, [contact support](/how-to-guides/contact-customer-support/).
 
 ---
 
-This article explains how to copy the quiz from one store to another.
-
-By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.
+This article explains how to copy a quiz from one store to another, and what happens to the app when you change domains.
 

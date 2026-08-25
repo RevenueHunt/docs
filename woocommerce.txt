@@ -8163,64 +8163,64 @@ icon: material/cart-arrow-right
 
 # How to Change Checkout Settings on Your Results Page
 
-Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. 
+The checkout settings decide where the customer goes from the results page: the cart, the checkout, or the product page.
 
-Follow the instructions below to change your checkout settings:
+To change your checkout settings:
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
-    2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
+    1. **Access Results Page Settings**: Open the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Click the cog icon to open the [Results Page settings](/reference/quiz-builder/results-page/).
+    2. **Locate Checkout Settings**: In the settings menu, open the `Basic` section and find `Checkout Settings`.
         ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png)
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    3. This is where you set how products are added to the cart and where the customer goes next. There are two options:
         1. **Add Product to Cart**:
-            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
-            - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
+            ![Add Product to Cart selected](/images/how_to_change_checkout_settings_add_to_cart.png)
+            - Adds the selected products straight to the customer's cart, so they can go on to checkout.
             - After enabling this option, you can further specify what URL customers should be sent to in the **Cart URL**:
                 -  `/cart` and be directed to the shopping cart page to review their selections or if they should
-                - `/checkout` and be taken directly to the checkout page, bypassing the cart. 
-            This decision should align with your sales strategy and consideration of the customer's convenience.
+                - `/checkout` and be taken directly to the checkout page, bypassing the cart.
+            Pick the one that suits your sales strategy.
         2. **Link to Product**:
-            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
-            - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
-            - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
+            ![Link to Product selected](/images/how_to_change_checkout_settings_view_product.png)
+            - Replaces the 'add to cart' action with a `view product` link, so the customer can read more about a product before buying.
+            - The `view product` link opens the product page rather than adding the item to the cart. The customer sees the full description, the images and any reviews before they decide.
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
-    2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
-        ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    1. **Access Results Page Settings**: Open the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Click the cog icon to open the [Results Page settings](/reference/quiz-builder/results-page/).
+    2. **Locate Checkout Settings**: In the settings menu, open the `Basic` section and find `Checkout Settings`.
+        ![Checkout Settings in the Basic section](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    3. This is where you set how products are added to the cart and where the customer goes next. There are two options:
         1. **Add Product to Cart**:
-            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
-            - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
-            This decision should align with your sales strategy and consideration of the customer's convenience.
+            ![Add Product to Cart selected](/images/how_to_change_checkout_settings_add_to_cart.png)
+            - Adds the selected products straight to the customer's cart, so they can go on to checkout.
+            Pick the one that suits your sales strategy.
         2. **Link to Product**:
-            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
-            - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
-            - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
+            ![Link to Product selected](/images/how_to_change_checkout_settings_view_product.png)
+            - Replaces the 'add to cart' action with a `view product` link, so the customer can read more about a product before buying.
+            - The `view product` link opens the product page rather than adding the item to the cart. The customer sees the full description, the images and any reviews before they decide.
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
-    2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
-        ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    1. **Access Results Page Settings**: Open the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Click the cog icon to open the [Results Page settings](/reference/quiz-builder/results-page/).
+    2. **Locate Checkout Settings**: In the settings menu, open the `Basic` section and find `Checkout Settings`.
+        ![Checkout Settings in the Basic section](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    3. This is where you set how products are added to the cart and where the customer goes next. There are two options:
         1. **Add Product to Cart**:
-            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
-            - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
-            This decision should align with your sales strategy and consideration of the customer's convenience.
+            ![Add Product to Cart selected](/images/how_to_change_checkout_settings_add_to_cart.png)
+            - Adds the selected products straight to the customer's cart, so they can go on to checkout.
+            Pick the one that suits your sales strategy.
         2. **Link to Product**:
-            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
-            - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
-            - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
+            ![Link to Product selected](/images/how_to_change_checkout_settings_view_product.png)
+            - Replaces the 'add to cart' action with a `view product` link, so the customer can read more about a product before buying.
+            - The `view product` link opens the product page rather than adding the item to the cart. The customer sees the full description, the images and any reviews before they decide.
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-    It is **not possible to add the products to cart** with the Standalone version of the Product Recommendation Quiz app. Instead, customers are sent directly to the product page.
-    ![manual_standalone_quizbuilder_resultspage_checkoutsettings](/images/manual_standalone_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    The Standalone version **cannot add products to the cart**. The customer is sent to the product page instead.
+    ![Link to product is the only option in the Standalone version](/images/manual_standalone_quizbuilder_resultspage_checkoutsettings.png){width="500"}
     **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
     !!! tip
-        If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](/how-to-guides/use-callback-function/).
+        To add a product to the cart, build your own results page in your store and send the quiz data to it with the [Callback function](/how-to-guides/use-callback-function/).
 ---
-By following these steps, you can edit the checkout settings on your RevenueHunt ecommerce quiz.
+This article explains how to set where a customer goes from the results page: to the cart, to the checkout, or to the product page.
 
 
 
@@ -8236,7 +8236,7 @@ icon: material/currency-usd
 
 # How to Change Quiz Currency
 
-This guide explains how to change the currency of your quiz and how to handle multi-currency setups based on Shopify Markets.
+This article explains how to change the currency of your quiz, and how to handle a multi-currency setup based on Shopify Markets.
 
 ## Change the quiz currency
 
@@ -8245,79 +8245,79 @@ This guide explains how to change the currency of your quiz and how to handle mu
 To change the quiz currency:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
-        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
+        ![Quiz Settings General tab](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
-    !!! info
-        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
+    !!! tip
+        If a currency is missing from the list, [contact support](/how-to-guides/contact-customer-support/).
     To change the quiz currency:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
-        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
+        ![Quiz Settings General tab](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
-    !!! info
-        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
+    !!! tip
+        If a currency is missing from the list, [contact support](/how-to-guides/contact-customer-support/).
     To change the quiz currency:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
-        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
+        ![Quiz Settings General tab](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
-    !!! info
-        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
+    !!! tip
+        If a currency is missing from the list, [contact support](/how-to-guides/contact-customer-support/).
     To change the quiz currency:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
-        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
+        ![Quiz Settings General tab](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
-    !!! info
-        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
+    !!! tip
+        If a currency is missing from the list, [contact support](/how-to-guides/contact-customer-support/).
 ## Multi-currency quizzes
-    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
-    If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
+    The RevenueHunt app does not support multi-currency stores. It pulls your store’s **base currency** and uses the original prices set in your store. With a base currency of USD, only the US dollar prices are synced.
+    There is a workaround for a multi-currency shop. Hide the price on the results page and set the checkout option to view the product. The customer then goes to the product page, where the right price applies.
     Follow these steps to apply this workaround:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
     3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
-    5. Scroll down to `Individual Product Settings`. 
-    5. Search for `Show price` and click the toggle to deactivate it. 
+    5. Scroll down to `Individual Product Settings`.
+    6. Find `Show price` and click the toggle to turn it off.
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
-    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
-    If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
+    The RevenueHunt app does not support multi-currency stores. It pulls your store’s **base currency** and uses the original prices set in your store. With a base currency of USD, only the US dollar prices are synced.
+    There is a workaround for a multi-currency shop. Hide the price on the results page and set the checkout option to view the product. The customer then goes to the product page, where the right price applies.
     Follow these steps to apply this workaround:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
     3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
-    5. Scroll down to `Individual Product Settings`. 
-    5. Search for `Show price` and click the toggle to deactivate it. 
+    5. Scroll down to `Individual Product Settings`.
+    6. Find `Show price` and click the toggle to turn it off.
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
-    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
-    If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
+    The RevenueHunt app does not support multi-currency stores. It pulls your store’s **base currency** and uses the original prices set in your store. With a base currency of USD, only the US dollar prices are synced.
+    There is a workaround for a multi-currency shop. Hide the price on the results page and set the checkout option to view the product. The customer then goes to the product page, where the right price applies.
     Follow these steps to apply this workaround:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
     3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
-    5. Scroll down to `Individual Product Settings`. 
-    5. Search for `Show price` and click the toggle to deactivate it. 
+    5. Scroll down to `Individual Product Settings`.
+    6. Find `Show price` and click the toggle to turn it off.
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
-    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
-    If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
+    The RevenueHunt app does not support multi-currency stores. It pulls your store’s **base currency** and uses the original prices set in your store. With a base currency of USD, only the US dollar prices are synced.
+    There is a workaround for a multi-currency shop. Hide the price on the results page and set the checkout option to view the product. The customer then goes to the product page, where the right price applies.
     Follow these steps to apply this workaround:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
     3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
-    5. Scroll down to `Individual Product Settings`. 
-    5. Search for `Show price` and click the toggle to deactivate it. 
+    5. Scroll down to `Individual Product Settings`.
+    6. Find `Show price` and click the toggle to turn it off.
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
 ---
 This article explains how to change quiz currency and how to handle multi-currency setup based on Shopify Markets.
@@ -8336,290 +8336,294 @@ icon: material/translate-variant
 
 # How to Change the Language of Your Quiz
 
-This guide will help you change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
+This article explains how to change the language of your quiz, translate it into other languages, and set up Shopify Markets. The quiz can then follow the market and language preference.
 
 --- WooCommerce Specific Content ---
 
 ## Change quiz language in settings
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
-    2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
+    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
+    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
-    2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
+    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
+    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
-    2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
+    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
+    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
-    2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
+    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
+    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
 ## Set up multilingual quizzes
-    While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
+    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
     How does it work?
-    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#woocommerce-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
-    - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
-    - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
-    **Step 1: Create Quizzes in Different Languages**
-    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
-    **Step 2: Display the Correct Quiz Based on Browser Language**
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-    Script sample code:
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-    !!! warning
-        Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
-    **Step 3: Redirect to Translated Product URL**{ #woocommerce-redirect-to-translated-product-url }
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript.
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-            var links = document.querySelectorAll(".lq-product a");
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
+    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#woocommerce-display-the-correct-quiz) popup depending on the browser language.
+    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#woocommerce-redirect-to-translated-product-url).
+    To set this up:
+    1. **Create quizzes in different languages**{ #woocommerce-create-quizzes-in-different-languages }
+        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+    2. **Display the correct quiz based on browser language**{ #woocommerce-display-the-correct-quiz }
+        Use JavaScript to show the right quiz for the browser language. The script should:
+        - Detect the browser's language.
+        - Map this language to the corresponding quiz ID.
+        - Update quiz links and iframes on your site to point to the correct quiz version.
+        Script sample code:
+        ```javascript
+        document.addEventListener("DOMContentLoaded", function() {
+          // Check browser's preferred language (get the first two characters to ignore region)
+          const language = navigator.language.substring(0,2);
+          // Your mapping of languages to quiz IDs
+          const quizMapping = {
+            'en': 'abc123',
+            'fr': 'dfg456',
+            'de': 'xyz423'
+          };
+          // Default language (fallback to English if not found)
+          const defaultQuizId = quizMapping[language] || quizMapping['en'];
+          // Find all quiz links and update the href
+          const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+          quizLinks.forEach(link => {
+            link.setAttribute('href', '#quiz-' + defaultQuizId);
+          });
+          // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          quizIframes.forEach(iframe => {
+            const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+            iframe.src = newSrc;
+            // If the parent div has the data-url attribute, update it as well
+            const parentDiv = iframe.parentElement;
+            if (parentDiv && parentDiv.hasAttribute('data-url')) {
+              const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+              parentDiv.setAttribute('data-url', newDataUrl);
             }
-            ```
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-    While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
+          });
+        });
+        ```
+        !!! warning
+            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+    3. **Redirect to translated product URL**{ #woocommerce-redirect-to-translated-product-url }
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
+        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
+        4. To redirect to an English translation of a product, one can use:
+                ```javascript
+                let shopURL = "https://www.example.com";
+                var links = document.querySelectorAll(".lq-product a");
+                for (let i = 0; i < links.length; i++) {
+                var href = links[i].href;
+                links[i].href = href.replace(shopURL,shopURL+"/en");
+                }
+                ```
+        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
     How does it work?
-    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#magento-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
-    - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
-    - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
-    **Step 1: Create Quizzes in Different Languages**
-    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
-    **Step 2: Display the Correct Quiz Based on Browser Language**
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-    Script sample code:
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-    !!! warning
-        Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
-    **Step 3: Redirect to Translated Product URL**{ #magento-redirect-to-translated-product-url }
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript.
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-            var links = document.querySelectorAll(".lq-product a");
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
+    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#magento-display-the-correct-quiz) popup depending on the browser language.
+    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#magento-redirect-to-translated-product-url).
+    To set this up:
+    1. **Create quizzes in different languages**{ #magento-create-quizzes-in-different-languages }
+        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+    2. **Display the correct quiz based on browser language**{ #magento-display-the-correct-quiz }
+        Use JavaScript to show the right quiz for the browser language. The script should:
+        - Detect the browser's language.
+        - Map this language to the corresponding quiz ID.
+        - Update quiz links and iframes on your site to point to the correct quiz version.
+        Script sample code:
+        ```javascript
+        document.addEventListener("DOMContentLoaded", function() {
+          // Check browser's preferred language (get the first two characters to ignore region)
+          const language = navigator.language.substring(0,2);
+          // Your mapping of languages to quiz IDs
+          const quizMapping = {
+            'en': 'abc123',
+            'fr': 'dfg456',
+            'de': 'xyz423'
+          };
+          // Default language (fallback to English if not found)
+          const defaultQuizId = quizMapping[language] || quizMapping['en'];
+          // Find all quiz links and update the href
+          const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+          quizLinks.forEach(link => {
+            link.setAttribute('href', '#quiz-' + defaultQuizId);
+          });
+          // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          quizIframes.forEach(iframe => {
+            const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+            iframe.src = newSrc;
+            // If the parent div has the data-url attribute, update it as well
+            const parentDiv = iframe.parentElement;
+            if (parentDiv && parentDiv.hasAttribute('data-url')) {
+              const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+              parentDiv.setAttribute('data-url', newDataUrl);
             }
-            ```
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-    While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
+          });
+        });
+        ```
+        !!! warning
+            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+    3. **Redirect to translated product URL**{ #magento-redirect-to-translated-product-url }
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
+        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
+        4. To redirect to an English translation of a product, one can use:
+                ```javascript
+                let shopURL = "https://www.example.com";
+                var links = document.querySelectorAll(".lq-product a");
+                for (let i = 0; i < links.length; i++) {
+                var href = links[i].href;
+                links[i].href = href.replace(shopURL,shopURL+"/en");
+                }
+                ```
+        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
     How does it work?
-    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#bigcommerce-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
-    - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
-    - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
-    **Step 1: Create Quizzes in Different Languages**
-    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
-    **Step 2: Display the Correct Quiz Based on Browser Language**
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-    Script sample code:
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-    !!! warning
-        Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
-    **Step 3: Redirect to Translated Product URL**{ #bigcommerce-redirect-to-translated-product-url }
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript.
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-            var links = document.querySelectorAll(".lq-product a");
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
+    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#bigcommerce-display-the-correct-quiz) popup depending on the browser language.
+    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#bigcommerce-redirect-to-translated-product-url).
+    To set this up:
+    1. **Create quizzes in different languages**{ #bigcommerce-create-quizzes-in-different-languages }
+        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+    2. **Display the correct quiz based on browser language**{ #bigcommerce-display-the-correct-quiz }
+        Use JavaScript to show the right quiz for the browser language. The script should:
+        - Detect the browser's language.
+        - Map this language to the corresponding quiz ID.
+        - Update quiz links and iframes on your site to point to the correct quiz version.
+        Script sample code:
+        ```javascript
+        document.addEventListener("DOMContentLoaded", function() {
+          // Check browser's preferred language (get the first two characters to ignore region)
+          const language = navigator.language.substring(0,2);
+          // Your mapping of languages to quiz IDs
+          const quizMapping = {
+            'en': 'abc123',
+            'fr': 'dfg456',
+            'de': 'xyz423'
+          };
+          // Default language (fallback to English if not found)
+          const defaultQuizId = quizMapping[language] || quizMapping['en'];
+          // Find all quiz links and update the href
+          const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+          quizLinks.forEach(link => {
+            link.setAttribute('href', '#quiz-' + defaultQuizId);
+          });
+          // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          quizIframes.forEach(iframe => {
+            const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+            iframe.src = newSrc;
+            // If the parent div has the data-url attribute, update it as well
+            const parentDiv = iframe.parentElement;
+            if (parentDiv && parentDiv.hasAttribute('data-url')) {
+              const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+              parentDiv.setAttribute('data-url', newDataUrl);
             }
-            ```
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-    While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
+          });
+        });
+        ```
+        !!! warning
+            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+    3. **Redirect to translated product URL**{ #bigcommerce-redirect-to-translated-product-url }
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
+        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
+        4. To redirect to an English translation of a product, one can use:
+                ```javascript
+                let shopURL = "https://www.example.com";
+                var links = document.querySelectorAll(".lq-product a");
+                for (let i = 0; i < links.length; i++) {
+                var href = links[i].href;
+                links[i].href = href.replace(shopURL,shopURL+"/en");
+                }
+                ```
+        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
     How does it work?
-    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#standalone-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
-    - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
-    - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
-    **Step 1: Create Quizzes in Different Languages**
-    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
-    **Step 2: Display the Correct Quiz Based on Browser Language**
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-    Script sample code:
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-    !!! warning
-        Make sure that you don't publish two quizzes on the same page, as this may lead to unwanted behavior.
-    **Step 3: Redirect to Translated Product URL**{ #standalone-redirect-to-translated-product-url }
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language.
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript.
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-            var links = document.querySelectorAll(".lq-product a");
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
+    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#standalone-display-the-correct-quiz) popup depending on the browser language.
+    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#standalone-redirect-to-translated-product-url).
+    To set this up:
+    1. **Create quizzes in different languages**{ #standalone-create-quizzes-in-different-languages }
+        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+    2. **Display the correct quiz based on browser language**{ #standalone-display-the-correct-quiz }
+        Use JavaScript to show the right quiz for the browser language. The script should:
+        - Detect the browser's language.
+        - Map this language to the corresponding quiz ID.
+        - Update quiz links and iframes on your site to point to the correct quiz version.
+        Script sample code:
+        ```javascript
+        document.addEventListener("DOMContentLoaded", function() {
+          // Check browser's preferred language (get the first two characters to ignore region)
+          const language = navigator.language.substring(0,2);
+          // Your mapping of languages to quiz IDs
+          const quizMapping = {
+            'en': 'abc123',
+            'fr': 'dfg456',
+            'de': 'xyz423'
+          };
+          // Default language (fallback to English if not found)
+          const defaultQuizId = quizMapping[language] || quizMapping['en'];
+          // Find all quiz links and update the href
+          const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+          quizLinks.forEach(link => {
+            link.setAttribute('href', '#quiz-' + defaultQuizId);
+          });
+          // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          quizIframes.forEach(iframe => {
+            const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+            iframe.src = newSrc;
+            // If the parent div has the data-url attribute, update it as well
+            const parentDiv = iframe.parentElement;
+            if (parentDiv && parentDiv.hasAttribute('data-url')) {
+              const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+              parentDiv.setAttribute('data-url', newDataUrl);
             }
-            ```
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
----
-This article explains how to change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
+          });
+        });
+        ```
+        !!! warning
+            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+    3. **Redirect to translated product URL**{ #standalone-redirect-to-translated-product-url }
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
+        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
+        4. To redirect to an English translation of a product, one can use:
+                ```javascript
+                let shopURL = "https://www.example.com";
+                var links = document.querySelectorAll(".lq-product a");
+                for (let i = 0; i < links.length; i++) {
+                var href = links[i].href;
+                links[i].href = href.replace(shopURL,shopURL+"/en");
+                }
+                ```
+        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+    ---
+    This article explains how to change the language of your quiz, translate it into other languages, and set up Shopify Markets. The quiz can then follow the market and language preference.
 
 
 
@@ -8635,142 +8639,129 @@ icon: material/loading
 
 # How to Check Quiz Loading Speed
 
-When integrating a quiz into your online store, it's crucial to ensure it loads efficiently to maintain a smooth user experience. If you're encountering slow loading times for your quiz, the issue might not stem from the quiz itself but from other resources on your site affecting its performance. 
+A quiz on your store has to load quickly. If yours is slow, the cause is often not the quiz but another resource on the same page.
 
-This guide outlines steps to diagnose and resolve quiz loading issues by optimizing the loading process.
+This article explains how to find what is slowing the quiz down, and how to fix it.
 
 --- WooCommerce Specific Content ---
 
-**Step 1: Verify Direct Quiz Link Performance**
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-    !!! tip
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-    ---
-    **Step 2: Analyze Your Website's Loading Order**
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
-    !!! tip
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
-    ---
-    **Step 3: Try Direct iFrame Embedding**
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
-    Replace this code:
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
-    With this:
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
-    ---
-    **Step 4: Optimize Your Website's Resources**
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
-    **Step 1: Verify Direct Quiz Link Performance**
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-    !!! tip
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-    ---
-    **Step 2: Analyze Your Website's Loading Order**
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
-    !!! tip
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
-    ---
-    **Step 3: Try Direct iFrame Embedding**
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
-    Replace this code:
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
-    With this:
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
-    ---
-    **Step 4: Optimize Your Website's Resources**
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
-    **Step 1: Verify Direct Quiz Link Performance**
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-    !!! tip
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-    ---
-    **Step 2: Analyze Your Website's Loading Order**
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
-    !!! tip
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
-    ---
-    **Step 3: Try Direct iFrame Embedding**
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
-    Replace this code:
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
-    With this:
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
-    ---
-    **Step 4: Optimize Your Website's Resources**
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
-    **Step 1: Verify Direct Quiz Link Performance**
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-    !!! tip
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-    ---
-    **Step 2: Analyze Your Website's Loading Order**
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
-    !!! tip
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
-    ---
-    **Step 3: Try Direct iFrame Embedding**
-    To circumvent slow loading caused by external scripts, directly embed the quiz using an iFrame.
-    **Replace Embed Code**: Instead of using the standard embed code generated from the `Share` tab, which loads the quiz via a JavaScript file (embed.js), use an iFrame embed code. This allows the quiz to load independently of other scripts on your site.
-    Replace this code:
-    ```html
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
-    ```
-    With this:
-    ```html
-    <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
-    ```
-    This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
-    ---
-    **Step 4: Optimize Your Website's Resources**
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
----
-This article explains how to check and improve the loading speed of your quiz.
+1. **Verify direct quiz link performance**
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        !!! tip
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
+    2. **Analyze your website's loading order**
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        !!! tip
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
+    3. **Try direct iframe embedding**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+        Replace this code:
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+        With this:
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+    4. **Optimize your website's resources**
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
+    1. **Verify direct quiz link performance**
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        !!! tip
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
+    2. **Analyze your website's loading order**
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        !!! tip
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
+    3. **Try direct iframe embedding**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+        Replace this code:
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+        With this:
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+    4. **Optimize your website's resources**
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
+    1. **Verify direct quiz link performance**
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        !!! tip
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
+    2. **Analyze your website's loading order**
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        !!! tip
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
+    3. **Try direct iframe embedding**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+        Replace this code:
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+        With this:
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+    4. **Optimize your website's resources**
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
+    1. **Verify direct quiz link performance**
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
+        - **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform.
+            - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        !!! tip
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
+    2. **Analyze your website's loading order**
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        !!! tip
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
+    3. **Try direct iframe embedding**
+        An iFrame keeps the quiz clear of the external scripts that slow your page down.
+        **Replace Embed Code**: The standard embed code from the `Share` tab loads the quiz through a JavaScript file, `embed.js`. Use an iFrame embed code instead. The quiz then loads independently of the other scripts on your site.
+        Replace this code:
+        ```html
+        <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."></div>
+        ```
+        With this:
+        ```html
+        <div class="rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/rkHm6Y" style="..."><iframe src="https://admin.revenuehunt.com/public/quiz/rkHm6Y" id="DPIyZ" style="..."></iframe></div>
+        ```
+        This second block of code includes the quiz iFrame directly. This will start rendering the quiz before the embed.js code is loaded.
+    4. **Optimize your website's resources**
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
+    This article explains how to check and improve the loading speed of your quiz.
 
 
 
@@ -8786,69 +8777,69 @@ icon: material/face-agent
 
 # How to Contact Customer Support
 
-Our sharpest and friendliest support team in the ecommerce sector can be reached via the quiz below:
+Reach our support team through this quiz:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
 <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
-You can also send your inquiries via email to `team@revenuehunt.com`.
+You can also email `team@revenuehunt.com`.
 
 !!! info "Contact Hours"
 
     **Availability**: Our support team is available Monday through Friday, from 7am to 11pm (GMT).
-    
+
     **Response Time**: Expect a reply within 2-3 hours during business hours.
 
 ## Check app status
 
-Before reaching out, you can view our [app status page](https://status.revenuehunt.com/) to see if there are any ongoing issues affecting our services.
+Check our [app status page](https://status.revenuehunt.com/) first, to see whether a known issue is affecting the app.
 
 
 ## What level of support is offered
 
-We offer email support to all our users, whether they’re free or paid.
+We offer email support on every plan, free and paid.
 
-Live chat is reserved for merchants on any of our paid plans, and video calls are available to merchants on the Pro plan and above. We only have a chat available for merchants using our Built for Shopify app.
+Live chat is for merchants on a paid plan, and video calls for merchants on Pro and above. Chat is available only in the Built for Shopify app.
 
-### What our support team **can** help you with:
+### What our support team **can** help you with
 
-- Using the Quiz Builder  
-- Customizing the quiz design with our built-in tools  
-- Understanding the recommendation algorithm  
-- Integrating the quiz with other apps  
-- Interpreting quiz metrics and analytics  
-- Troubleshooting why certain products are (or aren’t) recommended in the results  
+- Using the Quiz Builder
+- Customizing the quiz design with our built-in tools
+- Understanding the recommendation algorithm
+- Integrating the quiz with other apps
+- Interpreting quiz metrics and analytics
+- Troubleshooting why a product is or is not recommended in the results
 
-We respond to every query within **2–3 hours on the same business day**. If your question needs more in-depth assistance, our team will offer to schedule a live one-on-one call.
+We answer every query within **2-3 hours on the same business day**. If your question needs more than that, we offer a live one-to-one call.
 
-### What we **cannot** do for you:
+### What we **cannot** do for you
 
-- Add custom behaviors with JavaScript (your developer should handle this)  
-- Add custom styles with CSS (your developer should handle this)  
-- Debug your WooCommerce store setup or configuration (your developer should handle this)  
-- Debug issues related to your Shopify theme (your developer or the theme’s developer should handle this)  
+- Add custom behaviors with JavaScript (your developer should handle this)
+- Add custom styles with CSS (your developer should handle this)
+- Debug your WooCommerce store setup or configuration (your developer should handle this)
+- Debug issues related to your Shopify theme (your developer or the theme’s developer should handle this)
 - Create or edit Klaviyo templates (please contact a [Klaviyo template developer](https://www.fiverr.com/gigs/klaviyo-template) for this)
 
-**Please note:** while our app lets you include custom JavaScript and CSS in your quiz, we’re a small team and can’t supply or maintain those code snippets. Any advanced customization must be handled by your developer. If you don’t have an in-house developer you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/).
- 
+**Please note:** the app lets you add custom JavaScript and CSS to your quiz. We are a small team and cannot supply or maintain that code. Your developer has to handle it. Without an in-house developer, you can hire a freelancer on [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/).
+
 ## Can you build a quiz for me?
 
-**No.** Our support team can help you understand how the app works, and point you to helpful support articles and videos, but we do not offer quiz-building services. 
+**No.** Our support team explains how the app works and points you to the right articles and videos. We do not build quizzes.
 
-If you need help building & styling your dream quiz, you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/). Any front-end developer should be able to help you with queries regarding quiz building and styling. You can also search for quiz-building experts on these platforms by typing `quiz` in the search bar.
+To have a quiz built and styled for you, hire a freelancer on [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/). Any front-end developer can handle quiz building and styling. Search those platforms for `quiz` to find someone who has done it before.
 
 
 ## Not sure where to start?
 
-Feeling unsure about where to begin? We've curated resources to jump-start your journey:
+Start with one of these:
 
-- [Video Tutorials](/tutorials/): Our concise and informative tutorials are great for learning the basics of building your quiz.
-- [How To Articles](/how-to-guides/create-first-quiz/): Explore detailed articles for in-depth guidance on specific features and troubleshooting steps.
+- [Video Tutorials](/tutorials/): Short videos covering the basics of building a quiz.
+- [How to Create Your First Quiz](/how-to-guides/create-first-quiz/): A walkthrough of building your first quiz, start to finish.
 
 
 ## Troubleshooting quiz results
 
-Encountering unexpected quiz outcomes? We have a tool designed to help you diagnose and resolve such issues efficiently. Discover how to troubleshoot your quiz for insights on recommendations or missing products by visiting our [troubleshooting guide](/how-to-guides/troubleshoot-product-results/).
+If the quiz recommends the wrong products, or none at all, the app has a tool that shows why. See [How to Troubleshoot Product Results](/how-to-guides/troubleshoot-product-results/).
 
 
 
@@ -8864,115 +8855,103 @@ icon: material/content-copy
 
 # How to Copy the Quiz from One Store to Another
 
-Transferring a quiz from one store to another with the RevenueHunt app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
+You can copy a quiz from one store to another. The design, questions, tags and results page all come across, but **products and collections do not**, because the new store gives them different product IDs.
 
 !!! warning
-    Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
+    Install the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) on both stores before you start.
 
 
 !!! warning
 
     To migrate a quiz from the legacy app into the `💎Built for Shopify` version of RevenueHunt app, use the [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) option instead.
 
-This article will guide you through the process of copying a quiz from one store to another.
+These steps copy a quiz from one store to another.
 
 ## Copying the quiz
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    **Step 1: Generate Export Quiz Code**
-    First, navigate to the quiz you wish to export:
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
-        !!! tip
-            To prevent loss, save the export quiz code in a text file.
-    **Step 2: Log in to the Other Store**
-    Ensure you're logged into the destination store:
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
-    **Step 3: Import the Quiz**
-    Finally, import the quiz into your new store:
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+    1. **Generate export quiz code**
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
+                To prevent loss, save the export quiz code in a text file.
+    2. **Log in to the other store**
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    **Step 1: Generate Export Quiz Code**
-    First, navigate to the quiz you wish to export:
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
-        !!! tip
-            To prevent loss, save the export quiz code in a text file.
-    **Step 2: Log in to the Other Store**
-    Ensure you're logged into the destination store:
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
-    **Step 3: Import the Quiz**
-    Finally, import the quiz into your new store:
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+    1. **Generate export quiz code**
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
+                To prevent loss, save the export quiz code in a text file.
+    2. **Log in to the other store**
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    **Step 1: Generate Export Quiz Code**
-    First, navigate to the quiz you wish to export:
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
-        !!! tip
-            To prevent loss, save the export quiz code in a text file.
-    **Step 2: Log in to the Other Store**
-    Ensure you're logged into the destination store:
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
-    **Step 3: Import the Quiz**
-    Finally, import the quiz into your new store:
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+    1. **Generate export quiz code**
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
+                To prevent loss, save the export quiz code in a text file.
+    2. **Log in to the other store**
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    **Step 1: Generate Export Quiz Code**
-    First, navigate to the quiz you wish to export:
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
-    2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for 24 hours.
-        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
-        !!! tip
-            To prevent loss, save the export quiz code in a text file.
-    **Step 2: Log in to the Other Store**
-    Ensure you're logged into the destination store:
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
-    **Step 3: Import the Quiz**
-    Finally, import the quiz into your new store:
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-    3. Choose **import a quiz from another store** and paste the previously generated code.
-        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
-    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+    1. **Generate export quiz code**
+        - Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
+        - Click on **Export quiz to another store**. A popup will display a unique code.
+        - **Copy this code** immediately. It remains valid for 24 hours.
+            ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
+            !!! tip
+                To prevent loss, save the export quiz code in a text file.
+    2. **Log in to the other store**
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+        - Choose **import a quiz from another store** and paste the previously generated code.
+            ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
+        After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 ## Changing domains
 Follow these steps if you plan to change the domain on which the RevenueHunt app is installed.
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
-    When changing the domain accounts in WordPress, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two WordPress accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
-    When changing the domain accounts in Magento, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Magento accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
-    When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
-    Standalone solution is independent of your domain and can be used on multiple domains simultaneously. Make sure to change your product links in your in-app [Catalogue](/reference/dashboard/#__tabbed_3_5) or Google Product Feed.
-If you have any issues or doubts about changing domains, please [contact support](/how-to-guides/contact-customer-support/).
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The WordPress account stays the same, so this is safe.
+    When the WordPress account changes, copy your quiz from the old domain to the new one first, as [Copying the quiz](#copying-the-quiz) explains. Then link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two WordPress accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The Magento account stays the same, so this is safe.
+    When the Magento account changes, copy your quiz from the old domain to the new one first, as [Copying the quiz](#copying-the-quiz) explains. Then link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two Magento accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The BigCommerce account stays the same, so this is safe.
+    When the BigCommerce account changes, copy your quiz from the old domain to the new one first, as [Copying the quiz](#copying-the-quiz) explains. Then link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two BigCommerce accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
+    The Standalone version does not depend on your domain, and you can use it on several domains at once. Update your product links in the [in-app Catalogue](https://admin.revenuehunt.com/catalogue) or in your Google Product Feed.
+!!! tip
+    If you are unsure about changing domains, [contact support](/how-to-guides/contact-customer-support/).
 ---
-This article explains how to copy the quiz from one store to another.
-By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.
+This article explains how to copy a quiz from one store to another, and what happens to the app when you change domains.
 
 
 
@@ -9002,45 +8981,45 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     </div>
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>          
+    </div>
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>          
+    </div>
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>          
+    </div>
 ## Step 1: create a new quiz
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz Builder**: The [Quiz Builder](/reference/quiz-builder/) then opens.
 ## Step 2: manage questions
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
-    In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
+    The [Quiz Builder](/reference/quiz-builder/) is where you add questions to your quiz.
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
 ## Step 3: set up product recommendations
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
@@ -9050,12 +9029,12 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
         If you want to make the results ultra-precise, you can also:
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
@@ -9065,12 +9044,12 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
         If you want to make the results ultra-precise, you can also:
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
@@ -9080,12 +9059,12 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
         If you want to make the results ultra-precise, you can also:
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
-    Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
+    With the questions in place, link products to choices so the customer gets recommendations.
     !!! tip "How do I add products to Standalone RevenueHunt App?"
         Check this how-to article to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
@@ -9097,40 +9076,40 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If there's a draw in the number of votes, the app will randomize the order of products.
+        - If two products draw on votes, the app randomizes their order.
         If you want to make the results ultra-precise, you can also:
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 ## Step 4: publish & preview the quiz
-    To test the quiz, you'll have to save the changes and preview it.
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
-        !!! tip    
+    To test the quiz, save your changes and preview it.
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-    To test the quiz, you'll have to save the changes and preview it.
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
-        !!! tip    
+    To test the quiz, save your changes and preview it.
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-    To test the quiz, you'll have to save the changes and preview it.
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
-        !!! tip    
+    To test the quiz, save your changes and preview it.
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-    To test the quiz, you'll have to save the changes and preview it.
-    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
-        !!! tip    
+    To test the quiz, save your changes and preview it.
+    1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 ## Step 5: publish the quiz on your website
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 ## After publishing
     If changes are made post-publishing, click `Publish` again to update the live quiz.
@@ -9154,7 +9133,7 @@ icon: material/palette-outline
 
 # How to Customize the Quiz Design
 
-You can change the quiz's appearance to fit your store's style. This guide explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
+You can change how the quiz looks, to fit your store. This article covers the built-in design settings, the question and choice settings, and custom CSS and JavaScript.
 
 !!! info "Quiz Design Options"
 
@@ -9166,7 +9145,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 
 ---
-This article explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
+This article explains how to customize the quiz design with the built-in settings, and how to add custom CSS and JavaScript.
 
 --- WooCommerce Specific Content ---
 
@@ -9176,68 +9155,68 @@ This article explains how to customize the quiz design with built-in app setting
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XU08ZCm3ZHM?si=uMjK1QDajv44pcYp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ## Quiz design tab
 ### Basic customizations
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
-    3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
+    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
+    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
+    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
         - ***Wine*** - Displays the name of your current theme.
         - **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-        - **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-        - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+        - **Question** - Opens a color menu for the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Choices** - Opens a color menu for the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Button** - Opens a color menu for the quiz buttons, such as next, start quiz and add to cart.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+        - **Background** - Opens a color menu for the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-        - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
-    4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
+        - **Background Opacity** - A slider that sets the opacity of the uploaded background image.
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    4. **My Themes**: Every theme you create or edit appears in the `My Themes` tab.
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 ### Advanced customizations (CSS)
@@ -9245,7 +9224,7 @@ This article explains how to customize the quiz design with built-in app setting
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -9272,13 +9251,13 @@ This article explains how to customize the quiz design with built-in app setting
                 font-family: 'Quicksand', sans-serif ;
                 }
                 ```
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -9305,13 +9284,13 @@ This article explains how to customize the quiz design with built-in app setting
                 font-family: 'Quicksand', sans-serif ;
                 }
                 ```
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -9338,13 +9317,13 @@ This article explains how to customize the quiz design with built-in app setting
                 font-family: 'Quicksand', sans-serif ;
                 }
                 ```
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
-    4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
+    4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
         ```html
         #quiz  p {color: red;}
         ```
@@ -9371,45 +9350,45 @@ This article explains how to customize the quiz design with built-in app setting
                 font-family: 'Quicksand', sans-serif ;
                 }
                 ```
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 ## Advanced customizations (JavaScript)
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
     !!! info "With custom JavaScript, you can:"
         - add custom behavior, images, texts or logic
         - change quiz layout
         - display custom product recommendations
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
     !!! info "With custom JavaScript, you can:"
         - add custom behavior, images, texts or logic
         - change quiz layout
         - display custom product recommendations
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
     !!! info "With custom JavaScript, you can:"
         - add custom behavior, images, texts or logic
         - change quiz layout
         - display custom product recommendations
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
     !!! info "With custom JavaScript, you can:"
         - add custom behavior, images, texts or logic
         - change quiz layout
         - display custom product recommendations
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 ## Styling quiz text
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
     ??? question "What is Markdown Language?"
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
     - **Headings**
         ```html
@@ -9419,9 +9398,9 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -9433,12 +9412,12 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
     ??? question "What is Markdown Language?"
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
     - **Headings**
         ```html
@@ -9448,9 +9427,9 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -9462,12 +9441,12 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
     ??? question "What is Markdown Language?"
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
     - **Headings**
         ```html
@@ -9477,9 +9456,9 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -9491,12 +9470,12 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
-    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
     ??? question "What is Markdown Language?"
-        Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
     - **Headings**
         ```html
@@ -9506,9 +9485,9 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Text Styling**
         ```html
-        *italic text*  
-        **bold text**  
-        ***italic & bold text***  
+        *italic text*
+        **bold text**
+        ***italic & bold text***
         ```
     - **Links**
         ```html
@@ -9520,81 +9499,81 @@ This article explains how to customize the quiz design with built-in app setting
         ```
     - **Videos**
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
-    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that. 
+    If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#advanced-customizations-css) code for that.
 ## Adding images and videos
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
-    You can add images to your quiz in serveral ways. 
+    You can add images to your quiz in several ways.
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
+    - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
         ```html
-        ![](https://youtu.be/0_tO8HgJiLQ)  
+        ![](https://youtu.be/0_tO8HgJiLQ)
         ```
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
 ## Individual question design
     In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
     In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
     In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
     In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
-    The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
+    The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
 ## Results page design
-The Results Page also has its own customization options. 
+The Results Page also has its own customization options.
 !!! tip
     Check [How to Edit Your Product Recommendation Quiz Results Page](/how-to-guides/edit-results-page/) to learn more about styling your results page.
 In addition to the basic elements, you can set a unique background image for each results page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
-If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
+If the default results page is too restrictive, **build your own** on your site. Send the quiz data to it with the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 ## Customization examples
 We offer complete flexibility to developers for personalizing both the quiz and the results page. Take a look at [these examples](https://revenuehunt.com/templates/#customization) to discover the various designs you can achieve with our app using some creativity and CSS code.
 ## Useful CSS codes
@@ -9639,7 +9618,7 @@ Here are a few popular CSS selectors and codes to style elements in the quiz:
     }
     ```
 ??? example "Adding a custom font"
-    Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+    Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
     ```html
     @font-face {
     font-family: "Morion";
@@ -9725,7 +9704,7 @@ Here are a few popular CSS selectors and codes to style elements in the quiz:
     }
     }
     ```
-??? example "Muliptle choice questions: change the selected options background"
+??? example "Multiple choice questions: change the selected option background"
     ```html
     /* Muliptle choice questions: change the selected options background */
     li.lq-selected .lq-letter {

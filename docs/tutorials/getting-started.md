@@ -311,7 +311,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     1. Go to [`Design`](/reference/quiz-builder/quiz-design/). In the [Theme Gallery](/reference/quiz-builder/quiz-design/#my-themes) you will find ready-made themes to choose from, or you can [create your own](/reference/quiz-builder/quiz-design/#edit-theme).
     2. Update fonts, button colors, and background images. 
-    3. Customize animations and transitions, or go further with your own custom CSS to perfectly match your store's branding. 
+    3. Customize animations and transitions, or add your own custom CSS to match your store's branding. 
     4. When you are done, click `Save` to apply your changes.
 
 

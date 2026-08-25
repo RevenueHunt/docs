@@ -6507,7 +6507,7 @@ This article explains how to add product metafields/attributes to products on yo
         The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
         In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
     [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Metafields make that possible. The `💎Built for Shopify` version of the RevenueHunt app also has a `Unit price` setting under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition).
-    In the `💎Built for Shopify` version of the RevenueHunt app, the process for adding and displaying metafields is streamlined. Follow the steps outlined below to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
+    The `💎Built for Shopify` version of the RevenueHunt app has fewer steps for adding and displaying metafields. Follow these steps to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
     **Step 1: Enable Metafields Display**
     To enable the display of metafields for individual products:
     1. Navigate to the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.
@@ -6887,27 +6887,27 @@ icon: material/cart-arrow-right
 
 # How to Change Checkout Settings on Your Results Page
 
-Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. 
+The checkout settings decide where the customer goes from the results page: the cart, the checkout, or the product page.
 
-Follow the instructions below to change your checkout settings:
+To change your checkout settings:
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/GffASG1dDQo?si=2N3Hmmq_PMgqSaUx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+    ![Results Page settings with the Checkout options section](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
     1. Open the [Results page](/reference/quiz-builder/results-page/).
     2. Open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     3. Find the `Checkout options` section and open it.
     4. Select the `Bar options` you want to use.
         `Show bar` - Uncheck to hide the checkout bar.
-        `Show "retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
+        `Show "retake quiz" button` - Uncheck to hide the "retake quiz" button.
         `Show cart/checkout options` - Select the settings of the cart/checkout options.
         Cart/checkout options:
-        `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
-        Next destination for users - Choose where customers go after the results page.
-        `Proceed to checkout` - After adding the products to cart, the customer will be redirected directly to checkout.
-        `Proceed to cart` - After adding the products to cart, the customer will be redirected to the cart page.
-    4. Click the top-right `Save` button to update the preview/live quiz.
+        `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. When checked, the button appears only while none of the recommended products are in the cart.
+        `Next destination` - Choose where the customer goes after the results page.
+        `Proceed to checkout` - The customer goes straight to checkout after the products are added to the cart.
+        `Proceed to cart` - The customer goes to the cart page after the products are added.
+    5. Click the top-right `Save` button to update the preview and the live quiz.
 
 
 
@@ -6923,46 +6923,46 @@ icon: material/currency-usd
 
 # How to Change Quiz Currency
 
-This guide explains how to change the currency of your quiz and how to handle multi-currency setups based on Shopify Markets.
+This article explains how to change the currency of your quiz, and how to handle a multi-currency setup based on Shopify Markets.
 
 ## Change the quiz currency
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=ZRyxw2Tqaul1tzlj&amp;start=239" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
+    The `💎Built for Shopify` version of the RevenueHunt app supports Shopify Markets. The quiz shows the default currency of the market it is assigned to.
     !!! tip "Tutorial"
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+        For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
     !!! warning
-        If you don't have Shopify Markets set up yet, you can create them by following the instructions for [Shopify Markets](https://help.shopify.com/en/manual/international/managing).
+        If you do not have Shopify Markets set up yet, follow the Shopify instructions for [Shopify Markets](https://help.shopify.com/en/manual/international/managing).
     To assign a quiz to a specific Shopify Market and show prices in the currency of that market, follow the instructions below.
     1. Open the [App settings](/reference/app-settings/).
-    2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
-        ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
-    3. Find a market and click the `dropdown list` to select the quiz that should be default for this market. 
-        ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
+    2. Open the [Shopify Markets](/reference/app-settings/#shopify-markets) tab.
+        ![Shopify Markets tab in App settings](/images/manual_shopifyV2_appsettings_markets.png)
+    3. Find a market and use the `dropdown list` to pick its default quiz.
+        ![Choosing the default quiz for a market](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
     4. Once assigned, the quiz will show the product prices in the currency set up for that market.
-    5. If you want to change the currency format, use the `Currency` field to set up the format you want. Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
-        ![how_to_shopifyv2_change_currency](/images/manual_shopifyV2_appsettings_markets_showall.png)   
+    5. To change the currency format, use the `Currency` field. Type `{{amount}} EUR` or `${{amount}}` to set how the price reads on the results page.
+        ![Currency format field in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=ZRyxw2Tqaul1tzlj&amp;start=239" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. +
+    The `💎Built for Shopify` version of the RevenueHunt app supports Shopify Markets. The quiz shows the default currency of the market it is assigned to.
     !!! tip "Tutorial"
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+        For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
     !!! warning
-        If you don't have Shopify Markets set up yet, you can create them by following the instructions for [Shopify Markets](https://help.shopify.com/en/manual/international/managing).
+        If you do not have Shopify Markets set up yet, follow the Shopify instructions for [Shopify Markets](https://help.shopify.com/en/manual/international/managing).
     To assign a quiz to a specific Shopify Market and show prices in the currency of that market, follow the instructions below.
     To change the currency format:
     1. Go to the [App settings](/reference/app-settings/)
-    2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
-    3. Find the market you want to change the currency format for and click on the `Currency` field to set up the format you want.  Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
-        ![how_to_shopifyv2_change_currency](/images/manual_shopifyV2_appsettings_markets_showall.png)  
-    4. Once assigned, the quiz will show the product prices in the currency set up for that market. 
+    2. Open the [Shopify Markets](/reference/app-settings/#shopify-markets) tab.
+    3. Find the market you want to change, then click its `Currency` field. Type `{{amount}} EUR` or `${{amount}}` to set how the price reads on the results page.
+        ![Currency format field in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
+    4. Once assigned, the quiz will show the product prices in the currency set up for that market.
     !!! warning "Why the Compare-at Price May Not Show on the Results page"
-        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
-        How to Fix It:
-        Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
-        ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
-        You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
+        A **compare-at price** that is missing, or shows as `null` on the results page, usually comes from **Shopify Markets settings**. Shopify can hide compare-at prices for customers in some regions, in particular the **European Economic Area (EEA)**, because of local pricing or legal rules.
+        To fix it:
+        Go to **Shopify Admin → Settings → Markets → Preferences** and enable compare-at prices for that market, such as Germany or the EEA.
+        ![Compare-at price preference in Shopify Markets](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
+        To test it, preview the quiz on your live store while simulating a customer in the affected country.
 
 
 
@@ -6978,79 +6978,57 @@ icon: material/translate-variant
 
 # How to Change the Language of Your Quiz
 
-This guide will help you change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
+This article explains how to change the language of your quiz, translate it into other languages, and set up Shopify Markets. The quiz can then follow the market and language preference.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=tuNPV9eOsXRLRKi-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip "Tutorial"
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+        For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=X5ULbSjqG7wQ2Izd&amp;start=106" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Before assigning quizzes to specific markets and languages, you'll need to create and customize the quiz versions for each language. Here's how:
-    **Step 1: Create Your Initial Quiz:**
-    - Start by creating a [`new quiz`](/reference/dashboard/#new-quiz) with the basic content and questions you want to include.
-    - Save this quiz as your base version, which you'll use to duplicate for different languages.
-    **Step 2: Duplicate the Quiz for Each Language:**
-    - From the [Dashbaord](/reference/dashboard/), select the option to `Duplicate` your original quiz or ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a new translated quiz copy for you.
-      ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
-    !!! tip
-        [Quiz Copilot](/how-to-guides/use-quiz-copilot/) can be used to translate and duplicate quizzes. Just open a chat with it and ask it to duplicate the main quiz for you in a different language.
-    - For each duplicate quiz, go into the [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) and update the language for all buttons, popups, and other interface elements.
-      ![/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
-    **Step 3: Translate Questions and Choices Separately:**
-    Unless you've used [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to translate the quiz, the questions and answer choices won't automatically translate; you'll need to manually update these for each language version.
-    - Go through each question and answer choice to ensure they are accurately translated and culturally relevant for each target language.
-    **Step 4: Change Translations for Buttons and Helpers:**
-    - Go to the [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    - Change the translations for buttons and helpers for each language version.
-    **Step 5: Assign the Quiz to the Right Market and Language:**
-    !!! tip "Tutorial"
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-    - Once each quiz version is ready, go to [App settings > Shopify Markets](/reference/app-settings/#markets).
-    - Select the appropriate market and language, and link each translated quiz to its respective locale. This will ensure that visitors see the correct quiz based on their market and language settings.
-    By following these steps, you'll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Shopify Markets tab of your app settings.
+    Before you assign quizzes to markets and languages, create a quiz version for each language:
+    1. Create a [`new quiz`](/reference/dashboard/#new-quiz) with the content and questions you want. This is your base version.
+    2. From the [Dashboard](/reference/dashboard/), click `Duplicate` on that quiz, once for each language.
+        ![Quiz management options on the Dashboard](/images/manual_shopifyV2_quizmanagementoptions.png)
+        !!! tip
+            [Quiz Copilot](/how-to-guides/use-quiz-copilot/) can translate and duplicate a quiz in one go. Open a chat with it and ask it to duplicate the main quiz in another language.
+    3. In each duplicate, open [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) and translate the buttons, popups and other interface text.
+        ![Quiz content tab in Quiz settings](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+    4. Translate the questions and answer choices. Duplicating a quiz does not translate them, so edit each one by hand or ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to translate them for you.
+    5. Go to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). Link each translated quiz to its market and language, so every customer gets the right one.
+        !!! tip "Tutorial"
+            For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+    Each market and language now has its own quiz, and you manage them all in the Shopify Markets tab of your app settings.
     ## Automatic product translation
-    !!! success "Translated Product Titles & Descriptions"
-        The `💎 Built for Shopify` version of the RevenueHunt app **automatically displays translated product titles, descriptions, and prices** on the quiz results page based on the customer's market and language.
-        This works through Shopify's Storefront API `@inContext` directive — when a customer views the quiz in a specific market/language, the app fetches product data in that locale directly from Shopify.
+    !!! info "Translated product titles and descriptions"
+        The `💎 Built for Shopify` version of the RevenueHunt app shows **translated product titles, descriptions and prices** on the quiz results page based on the customer's market and language.
+        This works through the `@inContext` directive of the Shopify Storefront API. When a customer views the quiz in a given market and language, the app fetches product data in that locale directly from Shopify.
     **How it works:**
     1. The theme extension detects the customer's **country** and **language** from the Shopify storefront context.
-    2. When the results page loads, product data (titles, descriptions, prices, URLs) is fetched via the Shopify Storefront API using the detected locale.
-    3. If you have translated your products using Shopify's **Translate & Adapt** app (or a third-party translation app), those translations will appear automatically in the quiz results.
+    2. When the results page loads, the app fetches the product titles, descriptions, prices and URLs for that locale.
+    3. Translations made with the Shopify **Translate & Adapt** app, or a third-party translation app, appear automatically in the quiz results.
     **Requirements:**
     - Your store must have the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app (or equivalent) installed and configured with product translations.
     - [Shopify Markets](/how-to-guides/show-quiz-based-on-markets/) must be set up with the appropriate languages and regions.
     - Product translations must be published for the relevant locales in your Shopify store.
     !!! note
-        This automatic product translation applies only to the **results page** where recommended products are displayed. The quiz **questions, choices, and UI text** still need to be translated manually or via [Quiz Copilot](/how-to-guides/use-quiz-copilot/) as described above.
+        Automatic product translation applies to the **results page** only, where the recommended products appear. It does not cover the quiz itself. Translate the quiz **questions, choices and UI text** yourself, or with [Quiz Copilot](/how-to-guides/use-quiz-copilot/), as [Change quiz language in settings](#change-quiz-language-in-settings) describes.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=e_mX9xdaiB24xXaT&amp;start=175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip "Tutorial"
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-    Our RevenueHunt app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here's a step-by-step guide to help you change your quiz language based on the visitor's location and language preference.
-    **Step 1: Navigate to the Shopify Markets Settings**
-    - Log in to your Shopify Admin Panel.
-    - In the left-hand menu, go to Apps and select `RevenueHunt`.
-    - Once in the app, look for [App settings](/reference/app-settings/) and select the [Shopify Markets](/reference/app-settings/#markets) tab.
-    **Step 2: Assign a Quiz to a Specific Shopify Market**
-    - In the [Shopify Markets](/reference/app-settings/#markets) tab, you'll see a `dropdown list` that shows all available quizzes.
-    - From the Shopify Markets section, select the Shopify Market where you'd like to assign a quiz.
-      ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-    - Choose the default quiz you want displayed to visitors in this Market from the dropdown.
-    **Step 3: Show All Locales for Language Customization**
-    If you want to customize quizzes based on both market and language:
-    - Toggle the `Show All Locales` option to display a detailed list of markets and associated languages.
-    - You'll now be able to assign different quizzes for each language within the same market:
-      *Example: For the United States market, you can set one quiz for English-speaking customers and another for Spanish-speaking customers.*
-    **Step 4: Select the Quiz for Each Locale**
-    - With all locales shown, go to the specific language you want to adjust.
-    - From the dropdown menu for that locale, pick the quiz that best matches the needs of that language group.
-    - Save your changes to ensure the new language-specific quiz assignments are applied.
-    **Step 5: Hide All Locales for Simplified View**
-    If you'd like to revert to a single quiz for a Market regardless of language:
-    ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
-    - Click the `Hide All Locales` option. This will simplify the view by removing language-specific distinctions.
-    - The default quiz you've selected for that Market will now display to all visitors from that region, regardless of their language.
-    By following these steps, you'll be able to customize your quizzes by Market and language, ensuring each visitor has a tailored experience that feels relevant and engaging.
+        For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+    The RevenueHunt app lets you pick a quiz for each Shopify Market and its languages. These steps set the quiz language from the market and language preference.
+    1. In Shopify Admin, go to Apps and select `RevenueHunt`.
+    2. Open [App settings > Shopify Markets](/reference/app-settings/#shopify-markets).
+        ![Shopify Markets tab in App settings](/images/manual_shopifyV2_appsettings_markets.png)
+    3. Select the market you want to assign a quiz to, then pick its default quiz from the `dropdown list`.
+        ![Choosing the default quiz for a market](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
+    4. To set a quiz per language as well, toggle `Show All Locales`. Each market then expands into its languages.
+        !!! example "One market, two languages"
+            In the United States market, set one quiz for English-speaking customers and another for Spanish-speaking customers.
+    5. For each locale, pick the quiz from its dropdown and save.
+    6. To go back to one quiz per market, whatever the language, click `Hide All Locales`. The default quiz is then shown to every customer in that region.
+        ![Show all locales in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
+    Your quizzes are now set per market and language.
 
 
 
@@ -7066,42 +7044,40 @@ icon: material/loading
 
 # How to Check Quiz Loading Speed
 
-When integrating a quiz into your online store, it's crucial to ensure it loads efficiently to maintain a smooth user experience. If you're encountering slow loading times for your quiz, the issue might not stem from the quiz itself but from other resources on your site affecting its performance. 
+A quiz on your store has to load quickly. If yours is slow, the cause is often not the quiz but another resource on the same page.
 
-This guide outlines steps to diagnose and resolve quiz loading issues by optimizing the loading process.
+This article explains how to find what is slowing the quiz down, and how to fix it.
 
 --- Shopify Specific Content ---
 
-**Step 1: Verify Direct Quiz Link Performance**
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
-    1. **Locate Your Quiz Link**: In the app, go to your quiz and open the `Share -> External` tab to copy its direct link. With the Built for Shopify version the quiz runs natively inside your theme, so the link is your own storefront URL plus the quiz hash.
-        - The link should look something like [https://your-store.com/#quiz-rkHm6Y](https://your-store.com/#quiz-rkHm6Y), where `your-store.com` is your storefront domain and `rkHm6Y` is your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of the rest of your store. Ideally, the quiz should load in less than one second.
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-    !!! tip
-        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
-    ---
-    **Step 2: Analyze Your Website's Loading Order**
-    !!! info
-        The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
-    !!! note "About the large inline quiz configuration"
-        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, conditional logic, results pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
-        That uncompressed size looks alarming, but it isn't the bottleneck:
-        - **It's compressed on the wire.** Shopify serves your pages gzip/brotli compressed, so a ~150 KB config typically ships at **10-15 KB** to the browser, often less than a single product thumbnail.
-        - **It's not rendered DOM.** It lives inside a `<script>` tag, so it adds no layout or paint cost.
-        - **It loads asynchronously.** It never blocks your page from rendering.
-        You can confirm the real transferred size in your browser's `Network` tab (look at the `Size` column, not `Content` size).
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
-    !!! tip
-        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
-    ---
-    **Step 3: Optimize Your Website's Resources**
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
-    - **Optimize Third-Party Widgets**: Review any third-party widgets or scripts (e.g., marketing, chat tools) on your site. Ensure that they are loaded asynchronously or deferred to load after the quiz.
-    - **Check Shopify Performance Reports**: Use [Shopify’s built-in tools](https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance) to check for any resources that might be blocking the quiz from loading quickly.
+1. **Verify direct quiz link performance**
+        Isolate the quiz from the rest of your site, to see whether the quiz or the site is slow.
+        - **Locate Your Quiz Link**: In the app, go to your quiz and open the `Share -> External` tab to copy its direct link. With the Built for Shopify version the quiz runs natively inside your theme, so the link is your own storefront URL plus the quiz hash.
+            - The link should look something like [https://your-store.com/#quiz-rkHm6Y](https://your-store.com/#quiz-rkHm6Y), where `your-store.com` is your storefront domain and `rkHm6Y` is your unique `quiz ID`.
+        - **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of the rest of your store. Ideally, the quiz should load in less than one second.
+        If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+        !!! tip
+            Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
+    2. **Analyze your website's loading order**
+        !!! info
+            The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
+        !!! note "About the large inline quiz configuration"
+            When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, conditional logic, results pages, recommendation rules, design and translations. It is embedded in the page so the quiz opens at once, with no extra network request when the customer interacts.
+            That uncompressed size looks alarming, but it is not the bottleneck:
+            - **It is compressed on the wire.** Shopify serves your pages gzip or brotli compressed. A 150 KB configuration usually ships at **10-15 KB**, less than one product thumbnail.
+            - **It is not rendered DOM.** It sits inside a `<script>` tag, so it adds no layout or paint cost.
+            - **It loads asynchronously.** It never blocks the page from rendering.
+            You can confirm the real transferred size in your browser's `Network` tab (look at the `Size` column, not `Content` size).
+        The loading sequence of your own resources shows what is slowing the quiz down on your site.
+        - **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+        - **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+        Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+        !!! tip
+            Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The report lists the heaviest items, usually images, fonts and third-party scripts, with the time each one costs.
+    3. **Optimize your website's resources**
+        Ask your developer to compress the images, minify the CSS and JavaScript, and remove any plugin or widget you do not need.
+        - **Optimize Third-Party Widgets**: Review any third-party widgets or scripts (e.g., marketing, chat tools) on your site. Ensure that they are loaded asynchronously or deferred to load after the quiz.
+        - **Check Shopify Performance Reports**: Use [Shopify’s built-in tools](https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance) to check for any resources that might be blocking the quiz from loading quickly.
 
 
 
@@ -7117,69 +7093,69 @@ icon: material/face-agent
 
 # How to Contact Customer Support
 
-Our sharpest and friendliest support team in the ecommerce sector can be reached via the quiz below:
+Reach our support team through this quiz:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
 <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
-You can also send your inquiries via email to `team@revenuehunt.com`.
+You can also email `team@revenuehunt.com`.
 
 !!! info "Contact Hours"
 
     **Availability**: Our support team is available Monday through Friday, from 7am to 11pm (GMT).
-    
+
     **Response Time**: Expect a reply within 2-3 hours during business hours.
 
 ## Check app status
 
-Before reaching out, you can view our [app status page](https://status.revenuehunt.com/) to see if there are any ongoing issues affecting our services.
+Check our [app status page](https://status.revenuehunt.com/) first, to see whether a known issue is affecting the app.
 
 
 ## What level of support is offered
 
-We offer email support to all our users, whether they’re free or paid.
+We offer email support on every plan, free and paid.
 
-Live chat is reserved for merchants on any of our paid plans, and video calls are available to merchants on the Pro plan and above. We only have a chat available for merchants using our Built for Shopify app.
+Live chat is for merchants on a paid plan, and video calls for merchants on Pro and above. Chat is available only in the Built for Shopify app.
 
-### What our support team **can** help you with:
+### What our support team **can** help you with
 
-- Using the Quiz Builder  
-- Customizing the quiz design with our built-in tools  
-- Understanding the recommendation algorithm  
-- Integrating the quiz with other apps  
-- Interpreting quiz metrics and analytics  
-- Troubleshooting why certain products are (or aren’t) recommended in the results  
+- Using the Quiz Builder
+- Customizing the quiz design with our built-in tools
+- Understanding the recommendation algorithm
+- Integrating the quiz with other apps
+- Interpreting quiz metrics and analytics
+- Troubleshooting why a product is or is not recommended in the results
 
-We respond to every query within **2–3 hours on the same business day**. If your question needs more in-depth assistance, our team will offer to schedule a live one-on-one call.
+We answer every query within **2-3 hours on the same business day**. If your question needs more than that, we offer a live one-to-one call.
 
-### What we **cannot** do for you:
+### What we **cannot** do for you
 
-- Add custom behaviors with JavaScript (your developer should handle this)  
-- Add custom styles with CSS (your developer should handle this)  
-- Debug your WooCommerce store setup or configuration (your developer should handle this)  
-- Debug issues related to your Shopify theme (your developer or the theme’s developer should handle this)  
+- Add custom behaviors with JavaScript (your developer should handle this)
+- Add custom styles with CSS (your developer should handle this)
+- Debug your WooCommerce store setup or configuration (your developer should handle this)
+- Debug issues related to your Shopify theme (your developer or the theme’s developer should handle this)
 - Create or edit Klaviyo templates (please contact a [Klaviyo template developer](https://www.fiverr.com/gigs/klaviyo-template) for this)
 
-**Please note:** while our app lets you include custom JavaScript and CSS in your quiz, we’re a small team and can’t supply or maintain those code snippets. Any advanced customization must be handled by your developer. If you don’t have an in-house developer you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/).
- 
+**Please note:** the app lets you add custom JavaScript and CSS to your quiz. We are a small team and cannot supply or maintain that code. Your developer has to handle it. Without an in-house developer, you can hire a freelancer on [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/).
+
 ## Can you build a quiz for me?
 
-**No.** Our support team can help you understand how the app works, and point you to helpful support articles and videos, but we do not offer quiz-building services. 
+**No.** Our support team explains how the app works and points you to the right articles and videos. We do not build quizzes.
 
-If you need help building & styling your dream quiz, you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/). Any front-end developer should be able to help you with queries regarding quiz building and styling. You can also search for quiz-building experts on these platforms by typing `quiz` in the search bar.
+To have a quiz built and styled for you, hire a freelancer on [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/). Any front-end developer can handle quiz building and styling. Search those platforms for `quiz` to find someone who has done it before.
 
 
 ## Not sure where to start?
 
-Feeling unsure about where to begin? We've curated resources to jump-start your journey:
+Start with one of these:
 
-- [Video Tutorials](/tutorials/): Our concise and informative tutorials are great for learning the basics of building your quiz.
-- [How To Articles](/how-to-guides/create-first-quiz/): Explore detailed articles for in-depth guidance on specific features and troubleshooting steps.
+- [Video Tutorials](/tutorials/): Short videos covering the basics of building a quiz.
+- [How to Create Your First Quiz](/how-to-guides/create-first-quiz/): A walkthrough of building your first quiz, start to finish.
 
 
 ## Troubleshooting quiz results
 
-Encountering unexpected quiz outcomes? We have a tool designed to help you diagnose and resolve such issues efficiently. Discover how to troubleshoot your quiz for insights on recommendations or missing products by visiting our [troubleshooting guide](/how-to-guides/troubleshoot-product-results/).
+If the quiz recommends the wrong products, or none at all, the app has a tool that shows why. See [How to Troubleshoot Product Results](/how-to-guides/troubleshoot-product-results/).
 
 
 
@@ -7195,44 +7171,41 @@ icon: material/content-copy
 
 # How to Copy the Quiz from One Store to Another
 
-Transferring a quiz from one store to another with the RevenueHunt app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
+You can copy a quiz from one store to another. The design, questions, tags and results page all come across, but **products and collections do not**, because the new store gives them different product IDs.
 
 !!! warning
-    Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
+    Install the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) on both stores before you start.
 
 
 !!! warning
 
     To migrate a quiz from the legacy app into the `💎Built for Shopify` version of RevenueHunt app, use the [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) option instead.
 
-This article will guide you through the process of copying a quiz from one store to another.
+These steps copy a quiz from one store to another.
 
 ## Copying the quiz
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/KQlWuEbHHXQ?si=uMw8HqQ156H8SMGb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    **Step 1: Generate Export Quiz Code**
-    First, navigate to the quiz you wish to export:
-    1. Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
-    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. The code does not expire, but it only reflects the quiz as it was when you copied it.
-        ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
-        !!! tip
-            To prevent loss, save the export quiz code in a text file.
-    **Step 2: Log in to the Other Store**
-    Ensure you're logged into the destination store:
-    1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-    2. Open the RevenueHunt app from the store's dashboard.
-    **Step 3: Import the Quiz**
-    Finally, import the quiz into your new store:
-    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
-    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
-        ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
-    3. Choose **Import quiz** and paste the previously generated code.
-        ![Import Quiz Step](/images/manual_shopifyV2_createquiz_importquiz.png)
-    After completing these steps, the imported quiz will appear in your dashboard with a `- imported from QUIZID` suffix in its name.
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
-    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    1. **Generate export quiz code**
+        - Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
+        - Find **Export quiz to another store** and click `Copy quiz code`. It generates a piece of JSON that carries the whole quiz. The code does not expire, but it holds the quiz exactly as it was when you copied it.
+            ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+            !!! tip
+                To prevent loss, save the export quiz code in a text file.
+    2. **Log in to the other store**
+        - Sign in to the new store in a private or incognito window. That keeps you from being signed in to two accounts in one browser, which causes caching issues.
+        - Open the RevenueHunt app from the store's dashboard.
+    3. **Import the quiz**
+        - In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+        - Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
+            ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
+        - Choose **Import quiz** and paste the previously generated code.
+            ![Import Quiz Step](/images/manual_shopifyV2_createquiz_importquiz.png)
+        The imported quiz then appears in your dashboard, with a `- imported from QUIZID` suffix in its name.
+    Changing only the domain name, from `example.com` to `example-two.com`, does not disturb the app or your quizzes. The `.myshopify.com` address stays the same, so this is safe.
+    If the `.myshopify` account changes, follow [Copying the quiz](#copying-the-quiz). After the copy, link your products to the choices again, because the new store gives them different product IDs. Do **not** sign in to two Shopify accounts in one browser, as that causes caching issues. Use a private or incognito window for the second account.
 
 
 
@@ -7258,7 +7231,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 --- Shopify Specific Content ---
 
 !!! tip "Ask Quiz Copilot"
-        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
+        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It can take you through the whole process.
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/oL1DnBd6N1U?si=TjqNJqj2cve_Uz7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -7266,46 +7239,46 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         ![Create Quiz](/images/manual_shopifyV2_createquiz.png)
     2. **Choose a template**: Choose a pre-defined template, generate with AI or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz builder**: After that, you'll be redirected to the [Quiz builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz builder**: The [Quiz builder](/reference/quiz-builder/) then opens.
     !!! tip "Ask Quiz Copilot"
-        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
-    In [Quiz builder > Questions](/reference/quiz-builder/questions/) you'll be able to add questions to your quiz.
+        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It can take you through the whole process.
+    [Quiz builder > Questions](/reference/quiz-builder/questions/) is where you add questions to your quiz.
     1. **Add questions**: To add a question, click the `+ Add question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
         ![Question types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
-    2. **Add blocks**: You can add multiple different blocks to a single question slide such as text, images, videos, etc.
+    2. **Add blocks**: One question slide can hold several blocks, such as text, images and videos.
     3. **Delete slides**: To delete a question, click the `🗑 Remove question` button in [question settings](/reference/quiz-builder/questions/#question-settings).
-    Once you have your questions, you'll have to decide [how to set up product recommendations](/how-to-guides/set-up-recommendations/) that should be shown at the end of the quiz. 
+    With the questions in place, decide [how to set up product recommendations](/how-to-guides/set-up-recommendations/) for the end of the quiz.
     You can choose to:
     **Option 1**: Recommend most voted products based on the customer's answers *(recommended for most quizzes)*
     ![Recommend Most Voted Products](/images/how_to_shopify_v2_recommendations_funnel.png){: width="500"}
-    In this setup, you'll have to:
-    - Link products or collections to each choice in the quiz. 
+    In this setup:
+    - Link products or collections to each choice in the quiz.
     - On the Results page, add a product block that will recommend the most voted products based on the customer's answers.
     - You can also sort recommendations into multiple product slots to show a complete product routine.
     **Option 2**: Set up a custom variable or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
     ![Scoring Quiz](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){: width="500"}
-    In this setup, you'll have to:
-    - Create a custom variable or a score for each choices in the quiz. 
+    In this setup:
+    - Create a custom variable or a score for each choices in the quiz.
     - On the Results page, set up multiple sections with fixed recommendations and content.
-    - To each section, add display logic to tell it when to be shown or hidden based on the final score or variable with the most votes. 
-    - *For example, show Section 1 if the varaibkle with the highest score is "blue" and Section 2 if the varaibkle with the highest score is "red".*
-    **Option 3**: Set up a complex logic tree or add display logic to sections on the results page that will determine what recommendations should be shown *(recommended for quizzes with complex logic and recommendations matrix)*
+    - Give each section display logic, so it shows or hides on the final score, or on the variable with the most votes.
+    - *For example, show Section 1 when the highest scoring variable is "blue", and Section 2 when it is "red".*
+    **Option 3**: Build a logic tree, or give the results page sections display logic that decides which recommendations appear. *Best for a quiz with complex logic and a recommendations matrix.*
     ![Recommendations Matrix](/images/how_to_shopify_v2_recommendations_logic.png){: width="500"}
-    In this setup, you'll have to either:
-    - Create complex logic branching in the quiz that leads the user to different results pages with fixed recomemendations and text 
-    - Create one results page with multiple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
+    In this setup, either:
+    - Branch the quiz so that each path leads to its own results page, with fixed recommendations and text
+    - Build one results page with several sections, and use display logic to show or hide each one on the answers.
     !!! tip
-        If you're not sure which option to choose, check out our [How to Set Up Recommendations guide](/how-to-guides/set-up-recommendations/) that contains a decision tree to help you choose the best option for your quiz.
-    To test the quiz, you'll have to save the changes and preview it.
-    1. **Save the changes**: Click [`Save`](/reference/quiz-builder/questions/) on the top menu. Don't worry, clicking `Save` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
+        If you are not sure which option to choose, see [How to Set Up Recommendations](/how-to-guides/set-up-recommendations/). It has a decision tree for picking one.
+    To test the quiz, save your changes and preview it.
+    1. **Save the changes**: Click [`Save`](/reference/quiz-builder/questions/) on the top menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
         ![Unsaved Changes](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
-    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
+    2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz.
         ![Preview](/images/manual_shopifyV2_quizbuilder_preview.png)
-        !!! tip    
+        !!! tip
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-    Once you're satisfied with your quiz, you can put it on your website. 
+    Once the quiz is ready, put it on your website.
     1. **Publish the quiz**: To add the quiz to your store, go the [Publish tab](/reference/quiz-builder/share-publish/) from your [Dashboard](/reference/dashboard/) side menu.
-    2. **Pick a publishing method**: Pick a publishing method such as a quiz embeded on a new page, homepage or a link popup in the website menu and follow the instructions provided.
+    2. **Pick a publishing method**: Choose how the quiz appears. It can sit on a new page or the homepage, or open as a link popup from the website menu. Then follow the instructions shown.
         ![Publish Page](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
         !!! tip
             Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added to your website.
@@ -7326,7 +7299,7 @@ icon: material/palette-outline
 
 # How to Customize the Quiz Design
 
-You can change the quiz's appearance to fit your store's style. This guide explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
+You can change how the quiz looks, to fit your store. This article covers the built-in design settings, the question and choice settings, and custom CSS and JavaScript.
 
 !!! info "Quiz Design Options"
 
@@ -7338,25 +7311,25 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 
 ---
-This article explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
+This article explains how to customize the quiz design with the built-in settings, and how to add custom CSS and JavaScript.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/u7y2G5KfEB8?si=CknzZhgEmXUn4MVF" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
-    In the [Quiz design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
+    In the [Quiz design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
     Switch between previews of the quiz questions and the results page to see your customizations in action as you edit.
-    Choose from a selection of predefined color schemes for your quiz or click `Change` to pick a new scheme. 
+    Choose from a selection of predefined color schemes for your quiz or click `Change` to pick a new scheme.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
-    This allows you to set a tone that resonates with your brand’s identity.
+    That sets a tone to match your brand.
     The Quiz design section is divided into two main customization categories: **`Basic`** and **`Advanced`**.
     `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
     `Typography` - Pick a font for your quiz from the list.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
     !!! note
-        In the `💎Built for Shopify` version of the RevenueHunt app, the font for the headings and body of the quiz is inherited from the store Shopify theme if the font is set to `Inherit`.
+        In the `💎Built for Shopify` version, setting the font to `Inherit` takes the heading and body fonts from your Shopify theme.
     `Primary Colors` - Click on the color to change it.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
     Select a color from the picker to change it.
@@ -7365,14 +7338,14 @@ This article explains how to customize the quiz design with built-in app setting
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices.png)
     `Inputs` - Click the color to change it.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
-    `Background` - Change the background color by clicking on the color. Adjust thje background opacity with the slider or upload a background image by clicking `Select image`.
+    `Background` - Change the background color by clicking on the color. Adjust the background opacity with the slider or upload a background image by clicking `Select image`.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
     Once the background image is uploaded, you can adjust the opacity with the slider.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
     `Change` - Click to change the background image.
     `Remove` - Click to remove the background image.
     `Opacity` - Adjust the opacity of the background image.
-    `Navigation` - Change the colors of the Navigation bar background, text and border by cliking on the color. 
+    `Navigation` - Change the colors of the Navigation bar background, text and border by clicking a color.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
     `Show progress bar` - Uncheck to hide the progress bar.
     `Show progress percentage` - Uncheck to hide the % text from the progress bar.
@@ -7382,17 +7355,17 @@ This article explains how to customize the quiz design with built-in app setting
     ![manual_shopifyv2_quizdesign_transitions](/images/manual_shopifyv2_quizdesign_transitions.png)
     `Slide up/down` - Select this option to make the quiz slide up and down.
     `Slide left/right` - Select this option to make the quiz slide left and right.
-    For those with coding knowledge, the `Advanced` customization panel within the [Quiz design](/reference/quiz-builder/quiz-design/) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
+    The `Advanced` panel in [Quiz design](/reference/quiz-builder/quiz-design/) takes custom CSS, so a developer can you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
     !!! tip "Get help with custom CSS"
         Click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
-    Once you've made your changes, click the `Save` button at the top right to apply them to your live or preview quiz.
-    To add custom CSS code to a **speciifc quiz section only**, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings).
+    Click `Save` at the top right to apply your changes to the live and preview quiz.
+    To add custom CSS code to one **quiz section only**, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings).
     To add custom CSS code to a **specific results page only**, go to [`Results Page Settings`](/reference/quiz-builder/results-page/).
     !!! tip "Tips for using CSS"
         - **Check the App CSS Structure**: For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure](/reference/css-structure/) reference.
-        - **Find an Element Selector**: To target a specific element in your quiz, right-click on it in your browser and select `Inspect` to view the element’s selector.
-        - **Add Specificity to CSS Rules**: Use specific selectors to apply styles only to particular parts of your quiz. 
+        - **Find an Element Selector**: Right-click the element in your browser and select `Inspect` to see its selector.
+        - **Add Specificity to CSS Rules**: Use specific selectors to apply styles only to particular parts of your quiz.
             !!! example "Example: Add Specificity to CSS Rules"
                 ```css
                 #quiz p { color: red; }
@@ -7420,22 +7393,22 @@ This article explains how to customize the quiz design with built-in app setting
                 font-family: 'Quicksand', sans-serif ;
                 }
                 ```
-        5. **Paste the code in Quiz design > CSS console**: Navigate to the Quiz design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code**: Open Quiz design > Custom CSS. Paste the code at the top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
-    You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+    Custom JavaScript on the results page and on the questions makes the quiz more customizable still. A developer can reach into the quiz structure or the response. It carries everything they need: the individual answers to questions, triggered tags and recommended products.
     !!! info "With custom JavaScript, you can:"
         - add custom behavior, images, texts or logic
         - change quiz layout
         - display custom product recommendations
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
-    Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
-    To personalize the text within each question, open the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for each content block. 
-    Each block type — Heading, Text, or Button —has unique customization options that let you control the styling and positioning of text elements.
+    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    To personalize the text within each question, open the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for each content block.
+    Each block type, Heading, Text and Button, has its own options for styling and positioning the text.
     **Heading Block**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
-    To add a heading to your question, select the `Heading` block. The `Block Settings` for the heading allow you to:
-    - **Style Text**: You can bold, italicize, underline, or strikethrough text within the heading, as well as insert links and pull content dynamically from other parts of the quiz.
+    To add a heading to your question, select the `Heading` block. Its `Block Settings` let you:
+    - **Style Text**: Make the heading text bold, italic, underlined or struck through. You can also insert links, and pull in content from elsewhere in the quiz.
     - **Size and Alignment**: Adjust the heading size and choose from alignment options (left, center, or right) to fit your design needs.
     **Text Block**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
@@ -7444,19 +7417,19 @@ This article explains how to customize the quiz design with built-in app setting
     - **Size and Alignment**: Change the text size and alignment to suit the layout and readability of your quiz.
     **Button Block**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png){width="300"}
-    To include a button within your question, select the `Button` block. The [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for buttons allow you to:
+    To add a button to your question, select the `Button` block. Its [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) let you:
     - **Button Text**: Customize the default text displayed on the button to reflect the action you want users to take.
     - **Button Alignment**: Adjust the button's position (left, center, or right) for a balanced layout within the quiz.
     By adjusting these settings, you can tailor the styling of each text element to enhance user experience and reinforce your brand’s design.
-    Enhance your quiz with visual elements by using the **Image** and **Picture Choice** blocks. These options allow you to add standalone images or offer picture-based answer choices, making your quiz more engaging and visually appealing.
+    The **Image** and **Picture Choice** blocks add pictures to your quiz. One places a standalone image, the other turns the answer choices into pictures, making your quiz more engaging and visually appealing.
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
         The article explain in details different ways you can add images to your quiz. Including:
-        - **Quiz Background image** - You can uplaod a background image for the whole quiz via the Quiz design tab.
+        - **Quiz Background image** - Upload a background image for the whole quiz in the Quiz design tab.
         - **Question Background/Split image** - You can upload a background image to each question in the quiz via the question settings.
         - **Image Block** - You can upload an individual image via an Image Block directly into one of the quiz questions or results page.
-        - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
-        - **Product Image** - You can also add a Product/Variants/Collection Block to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
+        - **Picture Choice** - A Picture Choice block gives each choice in a multiple-choice question its own image.
+        - **Product Image** - A Product/Variants/Collection Block shows a product, variant or collection image on the results page.
     **Image Block**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
     To add an image within a question, use the `Image` block. The [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for images offer the following customization options:
@@ -7471,7 +7444,7 @@ This article explains how to customize the quiz design with built-in app setting
     **Picture Choice Block**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png){width="300"}
     The `Picture Choice` block lets you offer visual choices for multiple-choice questions, enhancing interactivity. [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for picture choices include:
-    - **Picture Size/Ratio**: Choose the size and aspect ratio of the images in this block, from Tiny icon (24px), Small icon (48px), Medium (1:1), or Large (4:3).
+    - **Picture Size/Ratio**: Choose the size and aspect ratio for this block: Tiny icon (24px), Small icon (48px), Medium (1:1) or Large (4:3).
     - **Hide Checkbox/Radio**: Hide the checkbox or radio selection indicator for picture choices.
     - **Hide Image Label**: Hide the text label displayed under each picture choice for a cleaner design.
     To upload an image to each choice, open the [**`Choice Settings`**](/reference/quiz-builder/questions/#choice-settings).
@@ -7480,13 +7453,13 @@ This article explains how to customize the quiz design with built-in app setting
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
     To add a background image to a specific question go to the [**`Question Settings`**](/reference/quiz-builder/questions/#question-settings):
     - **Select a Background image**: Click `Select image` in the question management settings, then click `Add image` to upload a background image from your computer. Alternatively, choose an existing image from your quiz gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
-    - **Background Position**: Set the image to cover the entire background or split the screen, displaying the image on one half and content on the other.
+    - **Background Position**: Cover the whole background with the image, or split the screen between the image and the content.
     - **Background Opacity**: Adjust the opacity of the background image using the slider to control transparency and blend it with the quiz content.
     To add a background image to the whole quiz open the [Quiz design](#quiz-design-tab) tab.
-    These settings allow you to control how images appear and interact within your quiz, making it visually engaging.
+    These settings control how an image appears and behaves in the quiz.
     In addition to the overall Quiz design options, you can add a unique image to every question through the Quiz builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
-    The question settings also allow you to incorporate unique [custom CSS code](how-to-guides/customize-quiz-design/#advanced-customizations-css/) and [custom JavaScript](/how-to-guides/add-javascript/) into your question design.
+    The question settings also take [custom CSS code](#advanced-customizations-css) and [custom JavaScript](/how-to-guides/add-javascript/) into your question design.
     !!! tip "Get help with custom CSS"
         Click `✨Get help with custom CSS` in [Question settings](/reference/quiz-builder/questions/#question-settings) or [Results page settings](/reference/quiz-builder/results-page/) to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
     !!! info "App CSS Structure"
@@ -18663,7 +18636,7 @@ In this tutorial you will see an overview of the most important features of the 
     This is where you can customize your quiz design.
     1. Go to [`Design`](/reference/quiz-builder/quiz-design/). In the [Theme Gallery](/reference/quiz-builder/quiz-design/#my-themes) you will find ready-made themes to choose from, or you can [create your own](/reference/quiz-builder/quiz-design/#edit-theme).
     2. Update fonts, button colors, and background images. 
-    3. Customize animations and transitions, or go further with your own custom CSS to perfectly match your store's branding. 
+    3. Customize animations and transitions, or add your own custom CSS to match your store's branding. 
     4. When you are done, click `Save` to apply your changes.
     On the left you also see the [Success checklist](/reference/dashboard/#success-checklist). It helps you track your progress and make sure everything is set up correctly.
     - Click the `Save` button to save your changes.
