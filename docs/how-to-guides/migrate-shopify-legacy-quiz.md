@@ -4,7 +4,7 @@ icon: material/transfer
 
 # How to Migrate a Legacy Quiz to the 💎Built for Shopify App
 
-If you have quizzes built in the original RevenueHunt app (Legacy), you can now import them directly into the `💎Built for Shopify` version of RevenueHunt app instead of rebuilding them from scratch. The migration tool copies your questions, results pages, logic, and design settings in one click.
+You can import a quiz from the legacy RevenueHunt app into the `💎Built for Shopify` version, instead of rebuilding it. The migration tool copies your questions, results pages, logic, and design settings in one click.
 
 !!! info "Shopify only"
 
@@ -14,8 +14,8 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ## Before you begin
 
-- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you haven't switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
-- Your legacy quizzes remain untouched — the migration creates a **copy** in the `💎Built for Shopify` app. Nothing is deleted from the legacy version.
+- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you have not switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
+- Your legacy quizzes remain untouched. The migration creates a **copy** in the `💎Built for Shopify` app, and nothing is deleted from the legacy version.
 
 ---
 
@@ -34,8 +34,8 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
 
 - **Name** and basic stats (number of questions, results pages, last updated date)
-- **What will migrate** — a green checkmark confirms that questions, results, logic, and design are included
-- **Warnings** — yellow notices flag anything that cannot be migrated automatically
+- **What will migrate** - a green checkmark confirms that questions, results, logic, and design are included
+- **Warnings** - yellow notices flag anything that cannot be migrated automatically
 
     ![Migrate from Legacy App dialog showing quiz list with status indicators](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
 
@@ -53,7 +53,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What gets migrated — and what doesn't
+## What gets migrated, and what does not
 
 | What migrates | Status |
 |---|---|
@@ -61,10 +61,10 @@ Review your questions, results pages, and logic to make sure everything looks co
 | Results pages and content | ✅ Fully migrated |
 | Conditional logic | ✅ Fully migrated |
 | Quiz design and styling | ✅ Fully migrated |
-| Custom CSS | ⚠️ Not adapted automatically — see below |
-| Custom JavaScript | ⚠️ Will not migrate — see below |
+| Custom CSS | ⚠️ Not adapted automatically - see [Custom CSS](#custom-css) |
+| Custom JavaScript | ⚠️ Will not migrate - see [Custom JavaScript](#custom-javascript) |
 | Special third-party integrations | ⚠️ Needs review after import |
-| Product mappings | ⚠️ May need re-linking — see below |
+| Product mappings | ⚠️ May need re-linking - see [Product mappings](#product-mappings) |
 
 ---
 
@@ -74,11 +74,11 @@ Most quizzes migrate cleanly, but some advanced configurations require a manual 
 
 ### Custom CSS
 
-If your legacy quiz used custom CSS, the styles are carried over as-is, but the **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
+If your legacy quiz used custom CSS, the styles are carried over as they are. The **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
 
 !!! warning "Review your design after import"
 
-    Check the quiz preview after importing. If something looks off — wrong colors, broken layouts, missing fonts — you will need to update the CSS selectors to match the new structure, or rebuild the style using the [Design editor](/how-to-guides/customize-quiz-design/).
+    Check the quiz preview after importing. Wrong colors, broken layouts or missing fonts mean the CSS selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
 
 ### Custom JavaScript
 
@@ -86,15 +86,15 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
 !!! warning "Rebuild JS customizations manually"
 
-    If your legacy quiz relied on custom JavaScript (e.g., custom events, DOM manipulation, or callback functions), you will need to rewrite those using the [JavaScript API](/how-to-guides/add-javascript/).
+    If your legacy quiz relied on custom JavaScript, for example custom events, DOM manipulation or callback functions, rewrite those with the [JavaScript API](/how-to-guides/add-javascript/).
 
 ### Product mappings
 
-Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+Questions, answer choices and results pages migrate. Product links are tied to Shopify product IDs, which are the same in both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
 !!! tip
 
-    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them using the [Results Page editor](/reference/quiz-builder/results-page/).
+    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them in the [Results Page](/reference/quiz-builder/results-page/).
 
 ### Special integrations
 
@@ -104,18 +104,18 @@ Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not au
 
 ## After the import
 
-Once you've reviewed the quiz and fixed any warnings:
+Once you have reviewed the quiz and fixed any warnings:
 
 1. **Test the quiz end-to-end** using the Preview button before publishing.
 2. **Reconnect integrations** (email platforms, CRMs, pixels) in Quiz Settings.
 3. **Publish the quiz** using your preferred [publishing method](/how-to-guides/publish-quiz/).
-4. When you're happy with the result, you can safely archive or delete the legacy version.
+4. When you are happy with the result, archive or delete the legacy version.
 
 ---
 
-!!! success "The base quiz is always importable"
+!!! info "The base quiz is always importable"
 
-    Even if your legacy quiz has custom CSS, JavaScript, or unusual configurations, the core content — questions, logic, and results — will always import successfully. The warnings only indicate which advanced features need a manual finishing touch, not that the import will fail.
+    Even if your legacy quiz has custom CSS, JavaScript or unusual configurations, the core content always imports: questions, logic and results. A warning tells you which advanced feature needs manual work, not that the import will fail.
 
 ---
 

@@ -239,7 +239,7 @@ This article explains how to change the language of your quiz, translate it into
 
     3. **Redirect to translated product URL**{ #legacy-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
 
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
 
@@ -334,7 +334,7 @@ This article explains how to change the language of your quiz, translate it into
 
     3. **Redirect to translated product URL**{ #woocommerce-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
 
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
 
@@ -429,7 +429,7 @@ This article explains how to change the language of your quiz, translate it into
 
     3. **Redirect to translated product URL**{ #magento-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
 
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
 
@@ -524,7 +524,7 @@ This article explains how to change the language of your quiz, translate it into
 
     3. **Redirect to translated product URL**{ #bigcommerce-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
 
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
 
@@ -619,7 +619,7 @@ This article explains how to change the language of your quiz, translate it into
 
     3. **Redirect to translated product URL**{ #standalone-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
 
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
 

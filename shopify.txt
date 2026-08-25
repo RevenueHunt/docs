@@ -5598,7 +5598,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - A [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) lets you add an image to each choice in a multiple-choice question.
 
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) on the results page displays a product, variant or collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) displays a product, variant or collection image on the results page.
 
 
 ### Quiz background image
@@ -7355,7 +7355,7 @@ This article explains how to customize the quiz design with the built-in setting
     ![manual_shopifyv2_quizdesign_transitions](/images/manual_shopifyv2_quizdesign_transitions.png)
     `Slide up/down` - Select this option to make the quiz slide up and down.
     `Slide left/right` - Select this option to make the quiz slide left and right.
-    The `Advanced` panel in [Quiz design](/reference/quiz-builder/quiz-design/) takes custom CSS, so a developer can you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
+    The `Advanced` panel in [Quiz design](/reference/quiz-builder/quiz-design/) takes custom CSS, so a developer can override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
     !!! tip "Get help with custom CSS"
         Click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
@@ -7459,7 +7459,7 @@ This article explains how to customize the quiz design with the built-in setting
     These settings control how an image appears and behaves in the quiz.
     In addition to the overall Quiz design options, you can add a unique image to every question through the Quiz builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
-    The question settings also take [custom CSS code](#advanced-customizations-css) and [custom JavaScript](/how-to-guides/add-javascript/) into your question design.
+    The question settings also take [custom CSS code](#advanced-customizations-css) and [custom JavaScript](/how-to-guides/add-javascript/).
     !!! tip "Get help with custom CSS"
         Click `✨Get help with custom CSS` in [Question settings](/reference/quiz-builder/questions/#question-settings) or [Results page settings](/reference/quiz-builder/results-page/) to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
     !!! info "App CSS Structure"
@@ -7965,15 +7965,16 @@ description: "Step-by-step guide to install the RevenueHunt app on your Shopify 
 icon: material/download
 ---
 
-## How to install the app
+# How to Install the App
 
 --- Shopify Specific Content ---
 
 1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
-    2. Grant permissions to connect our app to your Shopify.
+    2. Grant permissions to connect the app to your Shopify store.
     3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-    4. Confirm app access and permissions. 
-    5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app.
+    4. Confirm app access and permissions.
+    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
+    6. Drive traffic to your quiz and start getting sales and leads.
     !!! info "For Shopify legacy app users"
         You can switch to the new Built for Shopify version of the app by following these steps:
         1. Open the **RevenueHunt** app in your Shopify dashboard.
@@ -7999,19 +8000,19 @@ icon: material/google-analytics
 
 --- Shopify Specific Content ---
 
-Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates. 
-    The `💎 Built for Shopify` version of RevenueHunt app includes native GA4 integration for comprehensive event tracking.
+Google Analytics shows you how customers use your quizzes. Linking the two can give you data on customer interactions, pinpoint engagement issues, and help minimize abandonment rates.
+    The `💎 Built for Shopify` version of the RevenueHunt app has native GA4 event tracking built in.
     This article will guide you through the process of connecting your quiz to Google Analytics and tracking quiz events.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/8P-kANzya2g?si=L-rMRoSRsdbwSgof" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
-    1. Make sure you have set up the GA4 tracking on your website. 
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. Make sure you have set up the GA4 tracking on your website.
         !!! tip
-            Don't know how to connect your website to Google Analytics or find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
+            To connect your website to Google Analytics, or to find your GA tracking code, see the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
     1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `Activate` button in the Google Analytics section.
         ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
@@ -8020,7 +8021,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     ??? tip "Optional: Add Custom Trackers"
         The native integration above already sends the standard events (quiz started, question viewed, choice answered, results viewed, product clicked, add to cart, and so on). To track **custom** events on top of those, use the quiz's built-in **Custom JS** section. It runs plain JavaScript (no `<script>` tags) and gives you a global `window.quiz` object.
         !!! warning
-            The legacy `prqQuizCallback` / `prqSlideCallback` callbacks do **not** exist in the `💎 Built for Shopify` version. Use `window.quiz` instead, as shown below. Custom JS only runs in the preview or live quiz, not inside the builder.
+            The legacy `prqQuizCallback` and `prqSlideCallback` callbacks do **not** exist in the `💎 Built for Shopify` version. Use `window.quiz` instead. Custom JS only runs in the preview or live quiz, not inside the builder.
         **Prerequisite:** GA4 (`gtag.js`) must already be installed on your store, the same requirement as the native integration above.
         **Track every answer.** Open the **first question** in the quiz builder, expand its **Custom JS** section, and assign a handler to `window.quiz.onChange`. It fires after every answer and stays registered for the rest of the quiz:
         ```javascript
@@ -8040,11 +8041,11 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
         gtag('event', 'quiz_completed', { event_category: 'quiz' });
         ```
         **Monitor and adjust.** Check `Reports → Engagement → Events` (or `Realtime`) in GA4 to confirm your custom events are coming through.
-    You'll be able to see quiz usage and customer behavior in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    Quiz usage and customer behavior then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
     ![how to ga events](/images/how_to_shopifyv2_events.png)
     !!! warning "Data may take up to 72 hours to appear"
-        If you don't see the events, check the `View realtime` tab in GA4 or wait a day or two for the data to appear. Google Analytics can take up to 72 hours to process the data.
-    Events are triggered every time a customer starts a quiz, views a question, picks a choice, gets to the results page, adds a product to the cart, and proceeds to the cart/checkout. You can check more data about unique events by clicking on the specific Event name.
+        If the events do not appear, check the `View realtime` tab in GA4. Google Analytics can take up to 72 hours to process the data.
+    An event fires at each step: quiz start, question view, choice, results page, add to cart, and cart or checkout. For more on a single event, click on the specific Event name.
     | Trigger                                                             | Event Name | Event Parameters    |
     |---------------------------------------------------------------------|------------|-----------------|
     | User starts a quiz (clicks on the button of the first question or the welcome question) | quiz_started_{quiz_name} | quiz_name |
@@ -8058,7 +8059,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     | Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | product_added_to_cart_{product_name} | product_name |
     | Customer proceeds to cart/checkout                                  | proceed_to_checkout_{quiz_name} | quiz_name |
     | Customer retakes quiz                                               | quiz_retake_quiz_{quiz_name} | quiz_name |
-    GA4 doesn’t “automatically” tie custom events to purchases. But you can segment/filter by those events and then look at purchase revenue. 
+    GA4 does not tie custom events to purchases on its own. You can segment or filter by those events, then look at the purchase revenue.
     Here are some options:
     ### Option 1 - create free form exploration
     You can measure how much revenue your quiz generates directly in GA4 using an **Exploration**. This walkthrough shows how to build a Free form table comparing **quiz users** with **all users**.
@@ -8077,25 +8078,25 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
         - `Filters`: `Event name contains quiz_started`
         - `Visualization`: `Table` (or Bar chart)
         - `Date range`: e.g. `Last 28 days`
-        You’ll now see a table showing revenue and purchases from quiz users (people who triggered a quiz_started event) compared to all users.
+        The table then shows revenue and purchases from customers who triggered a `quiz_started` event, next to the figures for everyone.
     5. **Save and Reuse**. Rename your exploration (e.g. `Quiz Revenue`). Use the star or share option so teammates can find it easily.
         !!! tip "Optional Variations"
-            - Compare specific quizzes: Use `Filters` → `Event name` contains your quiz ID/text  
+            - Compare specific quizzes: Use `Filters` → `Event name` contains your quiz ID/text
                 (e.g., `quiz_started_skincare_quiz_usa`).
             - If your quiz is on a dedicated page: Create a **Session/User segment**: include users where **Page location contains `/pages/skin-quiz`**.
                 This shows revenue for anyone visiting that quiz page.
     ### Option 2 – attribution via source/medium
-    If you’re tagging quiz entry points with UTM parameters (like `utm_source=quiz` or `utm_campaign=quiz_name`), GA4’s `Advertising → Attribution → Model comparison` will show revenue attributed to those.
-    You'll see revenue attributed to the quiz in `Engagement > Conversions > Event name > purchase`. Click on the `purchase` event.
+    If you tag quiz entry points with UTM parameters such as `utm_source=quiz` or `utm_campaign=quiz_name`, the GA4 `Advertising → Attribution → Model comparison` report shows revenue attributed to those.
+    Revenue attributed to the quiz appears in `Engagement > Conversions > Event name > purchase`. Click the `purchase` event.
     ![how to ga revenue2](/images/how_to_ga_revenue2.png)
     Add a `Source` column next to the default channel grouping and look for the rows which include the `revenuehunt` source.
     ![how to ga events](/images/how_to_ga_events.png)
-    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
     With Explorations, you can:
-    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
+    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
     - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
     - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
-    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
+    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
     - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
     ### Example 1: most clicked choices
@@ -8104,16 +8105,16 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     1. Go to `Explore → + → Free form`.
     2. Add Dimensions and Metrics. In the Variables panel:
         - `Dimensions` → `+` → add: `Event name`
-        - `Metrics` → `+` → add: `Event count`  
+        - `Metrics` → `+` → add: `Event count`
     3. Configure the Tab Settings. In the Tab Settings panel:
-        - `Segments`: select `All Users` (or add `Quiz Users` if you want to limit results to quiz participants)
+        - `Segments`: select `All Users`, or add `Quiz Users` to limit the results to customers who took a quiz.
         - `Rows`: `Event name`
         - `Columns`: leave empty
         - `Values`: `Event count`
         - `Filters`: `Event name contains block_answered`
         - `Visualization`: `Table` (or Bar chart)
         - `Date range`: e.g. `Last 28 days`
-        You’ll now see a table showing which quiz answers (`block_answered` events) were clicked most often, giving you a clear view of the most popular choices.
+        The table then shows which quiz answers, the `block_answered` events, were clicked most often.
     5. **Save and Reuse**. Rename your exploration (e.g. `Most Clicked Choices`). Use the star or share option so teammates can find it easily.
     ### Example 2: track revenue from quizzes
     You can measure how much revenue your quiz generates directly in GA4 using an **Exploration**. This walkthrough shows how to build a Free form table comparing **quiz users** with **all users**.
@@ -8132,10 +8133,10 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
         - `Filters`: `Event name contains quiz_started`
         - `Visualization`: `Table` (or Bar chart)
         - `Date range`: e.g. `Last 28 days`
-        You’ll now see a table showing revenue and purchases from quiz users (people who triggered a quiz_started event) compared to all users.
+        The table then shows revenue and purchases from customers who triggered a `quiz_started` event, next to the figures for everyone.
     5. **Save and Reuse**. Rename your exploration (e.g. `Quiz Revenue`). Use the star or share option so teammates can find it easily.
         !!! tip "Optional Variations"
-            - Compare specific quizzes: Use `Filters` → `Event name` contains your quiz ID/text  
+            - Compare specific quizzes: Use `Filters` → `Event name` contains your quiz ID/text
                 (e.g., `quiz_started_skincare_quiz_usa`).
             - If your quiz is on a dedicated page: Create a **Session/User segment**: include users where **Page location contains `/pages/skin-quiz`**.
                 This shows revenue for anyone visiting that quiz page.
@@ -8156,24 +8157,24 @@ icon: material/facebook
 
 The Meta Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
 
-This article explains how to integrate the Meta Pixel with your quiz application and how to use the Meta Events Manager to track user interactions with your quiz.
+This article explains how to connect the Meta Pixel to your quiz, and how to use the Meta Events Manager to see what customers do.
 
 ??? question "What is Meta Pixel?"
 
-    This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
+    This small piece of code on your website tracks conversions from ads, improves later campaigns, and builds targeted audiences from past interactions with your website.
 
 ## Setting up your Meta Pixel
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=to_CqE57FATovIPS" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     If you have not implemented a Pixel on your website yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, add it to your website.
     1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook-and-instagram-meta-app) for integration.
-    2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
+    2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking.
         ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
         !!! tip
             To create a new data set, go to [https://business.facebook.com/](https://business.facebook.com/) > `Ads Manager` > `Events Manager` > `Data sources` > `Create data source`.
@@ -8186,18 +8187,18 @@ This article explains how to integrate the Meta Pixel with your quiz application
             ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_integrate_fb_pixel_shopify_v2.png)
         - Click `Save` to confirm the changes.
         - Once activated the quiz will connect to the Meta Pixel already present on your website.
-    4. **Test the Integration**: In Shopify admin, go to Facebook and Instagram app > `settings`, and open the data set to access Meta Events Manager. Use the `Test events` feature to confirm that events are being tracked correctly by interacting with the quiz. Provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    4. **Test the Integration**: In Shopify admin, open the Facebook and Instagram app > `settings`. Open the data set to reach Meta Events Manager, then use `Test events` while you interact with the quiz. Provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
         If events are visible, the pixel integration is functioning correctly.
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
-    6. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+        For the full list, see [Tracked events](#tracked-events).
+    6. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -8205,8 +8206,8 @@ This article explains how to integrate the Meta Pixel with your quiz application
         }
         </script>
         ```
-    3. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    4. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    3. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    4. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 
 
@@ -8222,25 +8223,22 @@ icon: material/music-note-outline
 
 # How to Integrate TikTok Pixel with Quiz
 
-The TikTok Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your TikTok ads.
-
-This article explains how to integrate the TikTok Pixel with your quiz application and how to use the TikTok Events Manager to track user interactions with your quiz.
-
+This article explains how to connect the TikTok Pixel to your quiz, and measure how your TikTok ads perform.
 
 ??? question "What is TikTok Pixel?"
 
-    The TikTok Pixel is a piece of code that you place on your website to track user interactions with your quiz and measure the success of your TikTok ads.
+    The TikTok Pixel is a piece of code that you place on your website. It tracks what customers do in your quiz, and measures the success of your TikTok ads.
 
 ## Link quiz to your TikTok Pixel
 
 --- Shopify Specific Content ---
 
 !!! warning
-        This feature is currently in beta and is not available for all stores. Please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) if you'd like to use it.
-    To connect tiktok pixel to your quiz, follow the instructions below: 
-    1. **Connect TikTok to Shopify**: To connect your TikTok Pixel with your quiz, you need to first set it up in your Shopify store and make sure it is integrated with your website. Follow the instructions in [TikTok Shopify setup guide](https://ads.tiktok.com/help/article/shopify-set-up-guide) to set it up.
-    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
-    3. **Reach out to Support**: Then, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to connect your TikTok Pixel with your quiz.
+        This feature is in beta and is not available for all stores. [Contact support](/how-to-guides/contact-customer-support/) if you want to use it.
+    To connect the TikTok Pixel to your quiz:
+    1. **Connect TikTok to Shopify**: Set up the TikTok Pixel in your Shopify store, and connect it to your website. Follow the [TikTok Shopify setup guide](https://ads.tiktok.com/help/article/shopify-set-up-guide).
+    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best on a dedicated page in your store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    3. **Contact Support**: Ask [RevenueHunt support](/how-to-guides/contact-customer-support/) to connect your TikTok Pixel to your quiz.
 
 
 
@@ -8256,19 +8254,19 @@ icon: material/playlist-plus
 
 # How to Display Multiple Questions per Slide in Your Quiz
 
-This guide will walk you through the process of combining questions into a single slide using the [Quiz Builder](/reference/quiz-builder/).
+This article explains how to combine questions into a single slide with the [Quiz Builder](/reference/quiz-builder/).
 
-The ability to display multiple questions on a single slide can help reduce the overall length of your quiz and keep participants engaged. 
+Several questions on one slide make the quiz shorter, and keep the customer engaged.
 
-To combine two or more questions into one slide, follow these steps:
+To combine two or more questions into one slide:
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/C927w-0ZRl4?si=5j8Uwb7CLT-n-m7A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. Open the [Quiz builder](/reference/quiz-builder/).
     2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
-    3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list. 
-    4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a different block type from the list. 
+    3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list.
+    4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a different block type from the list.
     5. Both questions will now appear on the same slide.
     ![joined slides example in built for shopify revenuehunt app](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
 
@@ -8285,7 +8283,7 @@ icon: material/transfer
 
 # How to Migrate a Legacy Quiz to the 💎Built for Shopify App
 
-If you have quizzes built in the original RevenueHunt app (Legacy), you can now import them directly into the `💎Built for Shopify` version of RevenueHunt app instead of rebuilding them from scratch. The migration tool copies your questions, results pages, logic, and design settings in one click.
+You can import a quiz from the legacy RevenueHunt app into the `💎Built for Shopify` version, instead of rebuilding it. The migration tool copies your questions, results pages, logic, and design settings in one click.
 
 !!! info "Shopify only"
 
@@ -8295,8 +8293,8 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ## Before you begin
 
-- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you haven't switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
-- Your legacy quizzes remain untouched — the migration creates a **copy** in the `💎Built for Shopify` app. Nothing is deleted from the legacy version.
+- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you have not switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
+- Your legacy quizzes remain untouched. The migration creates a **copy** in the `💎Built for Shopify` app, and nothing is deleted from the legacy version.
 
 ---
 
@@ -8315,8 +8313,8 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
 
 - **Name** and basic stats (number of questions, results pages, last updated date)
-- **What will migrate** — a green checkmark confirms that questions, results, logic, and design are included
-- **Warnings** — yellow notices flag anything that cannot be migrated automatically
+- **What will migrate** - a green checkmark confirms that questions, results, logic, and design are included
+- **Warnings** - yellow notices flag anything that cannot be migrated automatically
 
     ![Migrate from Legacy App dialog showing quiz list with status indicators](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
 
@@ -8334,7 +8332,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What gets migrated — and what doesn't
+## What gets migrated, and what does not
 
 | What migrates | Status |
 |---|---|
@@ -8342,10 +8340,10 @@ Review your questions, results pages, and logic to make sure everything looks co
 | Results pages and content | ✅ Fully migrated |
 | Conditional logic | ✅ Fully migrated |
 | Quiz design and styling | ✅ Fully migrated |
-| Custom CSS | ⚠️ Not adapted automatically — see below |
-| Custom JavaScript | ⚠️ Will not migrate — see below |
+| Custom CSS | ⚠️ Not adapted automatically - see [Custom CSS](#custom-css) |
+| Custom JavaScript | ⚠️ Will not migrate - see [Custom JavaScript](#custom-javascript) |
 | Special third-party integrations | ⚠️ Needs review after import |
-| Product mappings | ⚠️ May need re-linking — see below |
+| Product mappings | ⚠️ May need re-linking - see [Product mappings](#product-mappings) |
 
 ---
 
@@ -8355,11 +8353,11 @@ Most quizzes migrate cleanly, but some advanced configurations require a manual 
 
 ### Custom CSS
 
-If your legacy quiz used custom CSS, the styles are carried over as-is, but the **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
+If your legacy quiz used custom CSS, the styles are carried over as they are. The **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
 
 !!! warning "Review your design after import"
 
-    Check the quiz preview after importing. If something looks off — wrong colors, broken layouts, missing fonts — you will need to update the CSS selectors to match the new structure, or rebuild the style using the [Design editor](/how-to-guides/customize-quiz-design/).
+    Check the quiz preview after importing. Wrong colors, broken layouts or missing fonts mean the CSS selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
 
 ### Custom JavaScript
 
@@ -8367,15 +8365,15 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
 !!! warning "Rebuild JS customizations manually"
 
-    If your legacy quiz relied on custom JavaScript (e.g., custom events, DOM manipulation, or callback functions), you will need to rewrite those using the [JavaScript API](/how-to-guides/add-javascript/).
+    If your legacy quiz relied on custom JavaScript, for example custom events, DOM manipulation or callback functions, rewrite those with the [JavaScript API](/how-to-guides/add-javascript/).
 
 ### Product mappings
 
-Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+Questions, answer choices and results pages migrate. Product links are tied to Shopify product IDs, which are the same in both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
 !!! tip
 
-    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them using the [Results Page editor](/reference/quiz-builder/results-page/).
+    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them in the [Results Page](/reference/quiz-builder/results-page/).
 
 ### Special integrations
 
@@ -8385,18 +8383,18 @@ Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not au
 
 ## After the import
 
-Once you've reviewed the quiz and fixed any warnings:
+Once you have reviewed the quiz and fixed any warnings:
 
 1. **Test the quiz end-to-end** using the Preview button before publishing.
 2. **Reconnect integrations** (email platforms, CRMs, pixels) in Quiz Settings.
 3. **Publish the quiz** using your preferred [publishing method](/how-to-guides/publish-quiz/).
-4. When you're happy with the result, you can safely archive or delete the legacy version.
+4. When you are happy with the result, archive or delete the legacy version.
 
 ---
 
-!!! success "The base quiz is always importable"
+!!! info "The base quiz is always importable"
 
-    Even if your legacy quiz has custom CSS, JavaScript, or unusual configurations, the core content — questions, logic, and results — will always import successfully. The warnings only indicate which advanced features need a manual finishing touch, not that the import will fail.
+    Even if your legacy quiz has custom CSS, JavaScript or unusual configurations, the core content always imports: questions, logic and results. A warning tells you which advanced feature needs manual work, not that the import will fail.
 
 ---
 
@@ -8422,11 +8420,11 @@ icon: material/image-off
 
 # How to Fix Product Images Not Showing
 
-This guide explains how to fix product images not showing in your quiz.
+This article explains how to fix product images that do not appear in your quiz.
 
 --- Shopify Specific Content ---
 
-Product or Collection images are displayed directly from your Shopify catalog. If you don't see product images, please check your Shopify Products/Collections.
+Product and Collection images come directly from your Shopify catalog. If an image is missing, check the product or collection in Shopify.
 
 
 
@@ -8442,29 +8440,29 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Votes or More
 
-You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
+You can limit the recommendations on the results page to products that received X votes or more. This filter lets you show only the strongest matches.
 
-To activate this setting in your quiz follow the instructions below.
+To activate this setting in your quiz:
 
 --- Shopify Specific Content ---
 
-1. Make sure that you have a **Product block** or a **Product Slot block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
-    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
+1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product block** or a **Product Slot block**.
+    2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
         ??? question "How do I get the right recommendations?"
-            Our product recommendation algorithm works like a voting system:
+            The recommendation algorithm works like a voting system:
             - Products are linked to each choice
             - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-            - If no products have been linked or all the products have been excluded, the results page will appear empty
-            - If there's a draw in the number of votes, the app will randomize the order of products.
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results page](/reference/quiz-builder/results-page/).
-    2. Open the [Product block Settings](/reference/quiz-builder/results-page/#block-settings).
-    3. Scroll down to find the `Minimum number of votes` setting.
-        ![how to only recommend product with min votes results page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-    4. Click on a dropdown or use the slider to select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
+            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - If no products are linked, or all products are excluded, the results page is empty
+            - If there is a draw in the number of votes, the app randomizes the order of the products.
+    3. Open the [Results page](/reference/quiz-builder/results-page/).
+    4. Open the [Product block Settings](/reference/quiz-builder/results-page/#block-settings).
+    5. Scroll down to the `Minimum number of votes` setting.
+        ![Minimum number of votes in the product block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
+    6. Click the dropdown, or use the slider, to select a number. You can change the minimum to whatever suits your quiz.
         !!! example
-            For example, if you have 4 questions in your quiz and you select 4 as a min. number of votes, only products that receive **4 votes or more** (aka match the answers in all questions) will be shown. If a product receives 3 votes, it will not be shown. If a product receives 5 votes it will be shown.
-    5. Update the preview/live quiz with these new settings by clicking `Save` in the top-right corner.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+    7. Click `Save` in the top-right corner to update the preview and the live quiz.
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
 
 
@@ -18389,7 +18387,7 @@ In this tutorial you will learn how to use [Jump logic](#jump-logic), [Skip logi
             Select answers that correspond to a specific skin type (e.g., mostly dry skin). Verify that the correct results section is displayed based on the selected answers.
     ### Based on total score
     !!! example "Example: Show a different section on a Results page based on the total score"
-        You are building a custom scoring or personality type quiz. You want different text and different product recommendations for each score band. A customer scoring above 50 sees a section with different text and product recommendations is shown.
+        You are building a custom scoring or personality type quiz. You want different text and different product recommendations for each score band. A customer scoring above 50 sees a section with different text and product recommendations.
     1. Open the [Questions](/reference/quiz-builder/questions/) tab and add Questions and Choices.
         !!! example "Example: Quiz with five questions, each with five choices"
             The quiz has five questions, each with five choices. Each question and choice helps work out the skin type of the customer.

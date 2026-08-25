@@ -7,17 +7,17 @@ icon: material/facebook
 
 The Meta Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
 
-This article explains how to integrate the Meta Pixel with your quiz application and how to use the Meta Events Manager to track user interactions with your quiz.
+This article explains how to connect the Meta Pixel to your quiz, and how to use the Meta Events Manager to see what customers do.
 
 ??? question "What is Meta Pixel?"
 
-    This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
+    This small piece of code on your website tracks conversions from ads, improves later campaigns, and builds targeted audiences from past interactions with your website.
 
 ## Setting up your Meta Pixel
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
 
 === "Shopify"
 
@@ -28,7 +28,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 
     1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook-and-instagram-meta-app) for integration.
-    2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
+    2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
 
@@ -50,18 +50,18 @@ This article explains how to integrate the Meta Pixel with your quiz application
         - Click `Save` to confirm the changes.
         - Once activated the quiz will connect to the Meta Pixel already present on your website.
 
-    4. **Test the Integration**: In Shopify admin, go to Facebook and Instagram app > `settings`, and open the data set to access Meta Events Manager. Use the `Test events` feature to confirm that events are being tracked correctly by interacting with the quiz. Provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    4. **Test the Integration**: In Shopify admin, open the Facebook and Instagram app > `settings`. Open the data set to reach Meta Events Manager, then use `Test events` while you interact with the quiz. Provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
-        
+
         If events are visible, the pixel integration is functioning correctly.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
+        For the full list, see [Tracked events](#tracked-events).
 
-    6. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+    6. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 
 
 
@@ -71,7 +71,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 
     1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook) for integration.
-    2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
+    2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
 
@@ -89,100 +89,100 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
         1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
         2. Find the Meta Pixel section and hit `connect`.
-        3. Enter your unique `Meta Pixel ID`. Make sure that this pixel ID is the same as the one you used to set up the data set in the Facebook and Instagram app.
+        3. Enter your `Meta Pixel ID`. It has to match the one you used for the data set in the Facebook and Instagram app.
 
-    5. **Test the Integration**: In Shopify admin, go to Facebook and Instagram app > `settings`, and open the data set to access Meta Events Manager. Use the `Test events` feature to confirm that events are being tracked correctly by interacting with the quiz. Provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    5. **Test the Integration**: In Shopify admin, open the Facebook and Instagram app > `settings`. Open the data set to reach Meta Events Manager, then use `Test events` while you interact with the quiz. Provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
-        
+
         If events are visible, the pixel integration is functioning correctly.
-        
-        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)  
 
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
-    6. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+        For the full list, see [Tracked events](#tracked-events).
+
+    6. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 
 === "WooCommerce"
 
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
-        
+
         If events are visible, the pixel integration is functioning correctly.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
+        For the full list, see [Tracked events](#tracked-events).
 
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 
 === "Magento"
 
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
-        
+
         If events are visible, the pixel integration is functioning correctly.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
+        For the full list, see [Tracked events](#tracked-events).
 
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 
 === "BigCommerce"
 
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.    
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
-        
+
         If events are visible, the pixel integration is functioning correctly.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
+        For the full list, see [Tracked events](#tracked-events).
 
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.    
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 
 === "Standalone"
 
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
-        
+
         If events are visible, the pixel integration is functioning correctly.
 
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
+        For the full list, see [Tracked events](#tracked-events).
 
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 
 ## Tracking engagement with Meta events manager
 
@@ -211,7 +211,7 @@ Besides the `viewContent` events, the Pixel will also track when a user:
 - Answers an email question
 - Answers a phone question
 
-Here’s a list of all the tracked events:
+These events are tracked:
 
 | **Trigger** | **fbq_action** | **fbq_event** | **fbq_params** |
 |---------------------------|--------------|-------------|-----------------------------------------------|
@@ -234,24 +234,24 @@ Here’s a list of all the tracked events:
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=s1XW819N9ub_Gv0j&amp;start=227" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-This section outlines the process for managing custom events in Metapixel after connecting it to your quiz application. It details the steps to review, acknowledge, and confirm the use of custom events for advertising features.
+This section outlines the process for managing custom events in Meta Pixel after connecting it to your quiz application. It details the steps to review, acknowledge, and confirm the use of custom events for advertising features.
 
-1. After connecting Metapixel to your quiz, new custom events will start appearing in your app.
+1. Once the Meta Pixel is connected, new custom events start appearing in your app.
 
-    Standard events include: 
+    Standard events include:
 
     - `View Content`
     - `Page View`
     - `Lead`
 
-    Custom events include: 
+    Custom events include:
 
     - `Retake Quiz Action`
     - `Email Lead Action`
-    
-    These custom events by default can't be used with ads features but you can enable them to be used with ads features by reviewing them.
 
-2. In your Metapixel data sources, you will see a notification `Custom events can't be used with ads features.` regarding custom events.
+    A custom event cannot be used in an ads feature until you review it.
+
+2. Your Meta Pixel data sources show the notification `Custom events can't be used with ads features.`
 
     ![how to integrate fb pixel review custom events](/images/how_to_shopifyv2_integrate_meta_pixel_reviewcustomevents.png)
 
@@ -270,8 +270,8 @@ This section outlines the process for managing custom events in Metapixel after 
 
         ![how to integrate fb pixel review custom events 3](https://loom.com/i/89174c089c514d7abc80f0e506581bbc?workflows_screenshot=true)
 
-4. Refresh your Metapixel dashboard to ensure the notification is gone.
-5. Your data should now flow correctly, allowing you to use the custom events in your ads and audiences.
+4. Refresh your Meta Pixel dashboard and check that the notification is gone.
+5. The data then flows through, and you can use the custom events in your ads and audiences.
 
 ## Adding a custom pixel
 
@@ -281,8 +281,8 @@ This section outlines the process for managing custom events in Metapixel after 
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -291,8 +291,8 @@ This section outlines the process for managing custom events in Metapixel after 
         </script>
 
         ```
-    3. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    4. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    3. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    4. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 
 === "Shopify (Legacy)"
@@ -301,9 +301,9 @@ This section outlines the process for managing custom events in Metapixel after 
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -312,8 +312,8 @@ This section outlines the process for managing custom events in Metapixel after 
         </script>
 
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 === "WooCommerce"
 
@@ -321,9 +321,9 @@ This section outlines the process for managing custom events in Metapixel after 
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -332,8 +332,8 @@ This section outlines the process for managing custom events in Metapixel after 
         </script>
 
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 === "Magento"
 
@@ -341,9 +341,9 @@ This section outlines the process for managing custom events in Metapixel after 
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -352,8 +352,8 @@ This section outlines the process for managing custom events in Metapixel after 
         </script>
 
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 === "BigCommerce"
 
@@ -361,9 +361,9 @@ This section outlines the process for managing custom events in Metapixel after 
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -372,8 +372,8 @@ This section outlines the process for managing custom events in Metapixel after 
         </script>
 
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 === "Standalone"
 
@@ -381,9 +381,9 @@ This section outlines the process for managing custom events in Metapixel after 
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -392,9 +392,9 @@ This section outlines the process for managing custom events in Metapixel after 
         </script>
 
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 
 ---
-This article explains how to integrate the Meta Pixel with your quiz application and how to use the Meta Events Manager to track user interactions with your quiz.
+This article explains how to connect the Meta Pixel to your quiz, and how to use the Meta Events Manager to see what customers do.
 

@@ -243,7 +243,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 === "Shopify"
 
-    The `Advanced` panel in [Quiz design](/reference/quiz-builder/quiz-design/) takes custom CSS, so a developer can you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
+    The `Advanced` panel in [Quiz design](/reference/quiz-builder/quiz-design/) takes custom CSS, so a developer can override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 
@@ -1037,7 +1037,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
 
-    The question settings also take [custom CSS code](#advanced-customizations-css) and [custom JavaScript](/how-to-guides/add-javascript/) into your question design.
+    The question settings also take [custom CSS code](#advanced-customizations-css) and [custom JavaScript](/how-to-guides/add-javascript/).
 
 
 

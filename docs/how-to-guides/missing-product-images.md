@@ -5,64 +5,57 @@ icon: material/image-off
 
 # How to Fix Product Images Not Showing
 
-This guide explains how to fix product images not showing in your quiz.
+This article explains how to fix product images that do not appear in your quiz.
 
 === "Shopify"
 
-    Product or Collection images are displayed directly from your Shopify catalog. If you don't see product images, please check your Shopify Products/Collections.
-
-
+    Product and Collection images come directly from your Shopify catalog. If an image is missing, check the product or collection in Shopify.
 
 === "Shopify (Legacy)"
 
-    Product or Collection images are displayed directly from your Shopify catalog. If you don't see product images, please check your Shopify Products/Collections.
+    Product and Collection images come directly from your Shopify catalog. If an image is missing, check the product or collection in Shopify.
 
 === "WooCommerce"
 
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
 
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
 
     **Enable hotlinking in WordPress**
 
-    Hotlinking in WordPress is usually enabled by default. WordPress allows you to use direct image URLs in your content, which can be hotlinked by other websites.
+    Hotlinking in WordPress is usually enabled by default. WordPress lets you use direct image URLs in your content, which other websites can hotlink.
 
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
 
-    [guide to disabling image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/) can guide you on how to enable hotlinking on your WordPress site by disabling hotlinking protection.
+    For how to turn hotlinking protection off, see this [guide to image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/).
 
 === "Magento"
 
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
 
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
+
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
 
 === "BigCommerce"
 
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
 
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
+
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
 
 === "Standalone"
 
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
 
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
+
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
 
     !!! tip
 
-        If you've created your own products or uploaded your Google Product Feed and still don't see product images, please double-check your product feed.
+        If you created your own products or uploaded your Google Product Feed and still do not see product images, check the product feed.
 
 ---
-This guide explains how to fix product images not showing in your quiz.
+This article explains how to fix product images that do not appear in your quiz.

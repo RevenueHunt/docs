@@ -24,7 +24,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - A [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) lets you add an image to each choice in a multiple-choice question.
 
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) on the results page displays a product, variant or collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) displays a product, variant or collection image on the results page.
 
 
 ### Quiz background image

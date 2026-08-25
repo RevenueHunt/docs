@@ -1029,7 +1029,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     !!! example "Example: Show a different section on a Results page based on the total score"
 
-        You are building a custom scoring or personality type quiz. You want different text and different product recommendations for each score band. A customer scoring above 50 sees a section with different text and product recommendations is shown.
+        You are building a custom scoring or personality type quiz. You want different text and different product recommendations for each score band. A customer scoring above 50 sees a section with different text and product recommendations.
 
     1. Open the [Questions](/reference/quiz-builder/questions/) tab and add Questions and Choices.
 

@@ -27,6 +27,8 @@ bigcommerce
 magento
 wordpress
 shopware
+odoo
+wix
 prestashop
 squarespace
 klaviyo
@@ -50,6 +52,7 @@ tiktok
 mkdocs
 
 # --- web and technical
+instagram
 api
 cdn
 css
@@ -58,6 +61,7 @@ gdpr
 ccpa
 html
 imap
+github
 javascript
 jquery
 vue
@@ -65,6 +69,7 @@ devtools
 workaround
 json
 oauth
+onboarding
 rtl
 sdk
 seo
@@ -77,9 +82,14 @@ wcag
 webp
 async
 backend
+fbq
 frontend
+hotlink
+hotlinked
+hotlinking
 iframe
 deduplication
+devdocs
 metadata
 namespace
 brotli
@@ -90,12 +100,14 @@ runtime
 shortcode
 stringified
 stylesheet
+sitewide
 subdomain
 subpage
 templating
 uncomment
 viewport
 webhook
+whitelist
 whitelisting
 
 # --- interface vocabulary
@@ -104,6 +116,7 @@ dropdown
 flyout
 minicart
 checkmark
+params
 placeholder
 permalink
 textbox
@@ -124,6 +137,7 @@ grundpreis
 metafield
 signup
 inbox
+remarketing
 retargeting
 walkthrough
 chatbot

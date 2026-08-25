@@ -5965,7 +5965,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - A [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) lets you add an image to each choice in a multiple-choice question.
 
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) on the results page displays a product, variant or collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) displays a product, variant or collection image on the results page.
 
 
 ### Quiz background image
@@ -8412,7 +8412,7 @@ This article explains how to change the language of your quiz, translate it into
         !!! warning
             Do not publish two quizzes on the same page. That leads to unwanted behavior.
     3. **Redirect to translated product URL**{ #woocommerce-redirect-to-translated-product-url }
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
         1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
         2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
@@ -8477,7 +8477,7 @@ This article explains how to change the language of your quiz, translate it into
         !!! warning
             Do not publish two quizzes on the same page. That leads to unwanted behavior.
     3. **Redirect to translated product URL**{ #magento-redirect-to-translated-product-url }
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
         1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
         2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
@@ -8542,7 +8542,7 @@ This article explains how to change the language of your quiz, translate it into
         !!! warning
             Do not publish two quizzes on the same page. That leads to unwanted behavior.
     3. **Redirect to translated product URL**{ #bigcommerce-redirect-to-translated-product-url }
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
         1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
         2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
@@ -8607,7 +8607,7 @@ This article explains how to change the language of your quiz, translate it into
         !!! warning
             Do not publish two quizzes on the same page. That leads to unwanted behavior.
     3. **Redirect to translated product URL**{ #standalone-redirect-to-translated-product-url }
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. You can change the quiz language, product names and descriptions will be displayed in the original language.
+        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
         A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
         1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
         2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
@@ -10666,79 +10666,81 @@ description: "Step-by-step guide to install the RevenueHunt app on your Shopify 
 icon: material/download
 ---
 
-## How to install the app
+# How to Install the App
 
 --- WooCommerce Specific Content ---
 
-1. Install and activate [WooCommerce](https://woocommerce.com/) if you haven’t already done so.
-    2. Install and activate our **Product Recommendation Quiz** plugin from the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/). It’s also available on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free and install you on our **Free plan**, which allows up to 100 quiz responses per month. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
+1. Install and activate [WooCommerce](https://woocommerce.com/) if you have not already.
+    2. Install and activate our **Product Recommendation Quiz** plugin from the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/). It is also available on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free and put you on the **Free plan**, which covers up to 100 quiz responses a month. Above that you are asked to upgrade to a Basic plan, billed monthly.
     3. In your WordPress dashboard, navigate to the `Product Quiz` tab.
-    4. Grant permission to connect our app to your WooCommerce.
+    4. Grant permission to connect the app to your WooCommerce store.
     5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    6. Drive traffic to your quiz and start getting sales and leads!
+    6. Drive traffic to your quiz and start getting sales and leads.
     If you have any issues with your WooCommerce installation please check [WooCommerce troubleshooting FAQ](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
     1. Download and install the **Product Recommendation Quiz** module. Get the latest version from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
         ??? question "How to install the module?"
             Type 1: Zip file
-            - Unzip the zip file in app/code/Revenuehunt
-            - Enable the module by running php bin/magento module:enable Revenuehunt_ProductQuiz
-            - Apply database updates by running php bin/magento setup:upgrade*
-            - Flush the cache by running php bin/magento cache:flush
+            - Unzip the file into `app/code/Revenuehunt`.
+            - Enable the module: `php bin/magento module:enable Revenuehunt_ProductQuiz`
+            - Apply the database updates: `php bin/magento setup:upgrade`
+            - Flush the cache: `php bin/magento cache:flush`
             Type 2: Composer
-           - Make the module available in a composer repository for example:
-                - private repository repo.magento.com
-                - public repository packagist.org
-                - public github repository as vcs
-            - Add the composer repository to the configuration by running composer config repositories.repo.magento.com composer https://repo.magento.com/
-            - Install the module composer by running composer require Revenuehunt/module-productquiz
-            - enable the module by running php bin/magento module:enable Revenuehunt_ProductQuiz
-            - apply database updates by running php bin/magento setup:upgrade*
-            - Flush the cache by running php bin/magento cache:flush
-    2. In your Magento dashboard, navigate to `STORES > Stores > Settings > Configuration > SERVICES > Magento Web API > Web API Security > Allow Anonymous Guest Access : Yes` [See Devdocs Reference](https://devdocs.magento.com/guides/v2.3/rest/anonymous-api-security.html)
-        ??? "Configuration details"
-            Api URL Test (product_quiz/general/prq_api_url_test)
-            prq_admin_url_test (product_quiz/general/prq_admin_url_test)
-            Is Test mode (product_quiz/general/prq_is_test)
-            API URL (product_quiz/general/prq_api_url)
-            Admin URL (product_quiz/general/prq_admin_url)
-            RH Domain (product_quiz/hidden/rh_domain)
-            rh_api_key (product_quiz/hidden/rh_api_key)
-            rh_token (product_quiz/hidden/rh_token)
-            rh_shop_hashid (product_quiz/hidden/rh_shop_hashid)
-    2. In your Magento dashboard, navigate to the Marketing tab and open `Product Recommendation Quiz`.
-    3. Grant permission to connect our app to your Magento store.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads!
+            - Make the module available in a composer repository, for example:
+                - the private repository `repo.magento.com`
+                - the public repository `packagist.org`
+                - a public GitHub repository, as `vcs`
+            - Add that repository to your configuration: `composer config repositories.repo.magento.com composer https://repo.magento.com/`
+            - Install the module: `composer require Revenuehunt/module-productquiz`
+            - Enable the module: `php bin/magento module:enable Revenuehunt_ProductQuiz`
+            - Apply the database updates: `php bin/magento setup:upgrade`
+            - Flush the cache: `php bin/magento cache:flush`
+    2. In your Magento dashboard, navigate to `STORES > Stores > Settings > Configuration > SERVICES > Magento Web API > Web API Security > Allow Anonymous Guest Access : Yes` See the Magento documentation on [anonymous API security](https://devdocs.magento.com/guides/v2.3/rest/anonymous-api-security.html).
+        ??? info "Configuration details"
+            | Setting | Configuration path |
+            |---|---|
+            | Api URL Test | `product_quiz/general/prq_api_url_test` |
+            | Admin URL Test | `product_quiz/general/prq_admin_url_test` |
+            | Is Test mode | `product_quiz/general/prq_is_test` |
+            | API URL | `product_quiz/general/prq_api_url` |
+            | Admin URL | `product_quiz/general/prq_admin_url` |
+            | RH Domain | `product_quiz/hidden/rh_domain` |
+            | API key | `product_quiz/hidden/rh_api_key` |
+            | Token | `product_quiz/hidden/rh_token` |
+            | Shop hash id | `product_quiz/hidden/rh_shop_hashid` |
+    3. In your Magento dashboard, go to the Marketing tab and open `Product Recommendation Quiz`.
+    4. Grant permission to connect the app to your Magento store.
+    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
+    6. Drive traffic to your quiz and start getting sales and leads.
     If you have any issues, follow the instructions in the [Magento module repository on GitHub](https://github.com/RevenueHunt/product-recommendation-quiz-for-magento).
     !!! warning "Technical Specifications"
-        - You website must have a valid HTTPS/SSL certificate installed.
-        - Does not work on local/development environments. `revenuehunt/module-productquiz`
+        - Your website must have a valid HTTPS or SSL certificate installed.
+        - Does not work on a local or development environment. The package is `revenuehunt/module-productquiz`.
         - API Endpoint
-            - POST - Revenuehunt\ProductQuiz\Api\PrqSetTokenManagementInterface > Revenuehunt\ProductQuiz\Model\PrqSetTokenManagement
+            - POST - `Revenuehunt\ProductQuiz\Api\PrqSetTokenManagementInterface` > `Revenuehunt\ProductQuiz\Model\PrqSetTokenManagement`
         - Controller `adminhtml > prqfw/index/index`
-        - The MiniCart integration is disabled by default. If your theme uses MiniCart, you can uncomment the code in the modeule file: `view/frontend/layout/default.xml`
+        - The MiniCart integration is disabled by default. If your theme uses MiniCart, uncomment the code in the module file: `view/frontend/layout/default.xml`
             ```html
             <block class="Magento\Framework\View\Element\Template" name="revenuehunt-script" template="Revenuehunt_ProductQuiz::head/js.phtml" />
             ```
     1. Navigate to our [BigCommerce Marketplace listing](https://admin.revenuehunt.com/bc/affiliate_code), find **Product Recommendation Quiz** and click on `get this app`.
-    2. Grant permission to connect our app to your BigCommerce store. 
+    2. Grant permission to connect the app to your BigCommerce store.
     3. In your BigCommerce dashboard, go to `Apps` and click on our app.
     4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads!
-    Is your store build on Wix, Squarespace Commerce, Odoo, or others? We got you covered!
-    RevenueHunt grants you the option to install a “standalone” version of our Product Recommendation Quiz app in a custom-built ecommerce. This comes at a cost, though:
+    5. Drive traffic to your quiz and start getting sales and leads.
+    Is your store built on Wix, Squarespace Commerce, Odoo or something else?
+    You can install a “standalone” version of the RevenueHunt app on a custom-built store. Two things do not work:
     - products have to be added manually to the app or via Google Product Feed
-    - the add to cart and proceed to checkout functionalities won’t work. After the user takes the quiz, they’ll see a results page where they can click on the products to view them.
+    - add to cart and proceed to checkout are not available. After the quiz, the customer sees a results page and clicks a product to view it.
     To install the app:
     1. Sign up for the standalone version of the **RevenueHunt Product Recommendation Quiz** on the [RevenueHunt registration page](https://admin.revenuehunt.com/register). All you need is an email and a password.
-    2. Once registered, you can [log in to your account](https://admin.revenuehunt.com/login).
-    2. Add products and collections. See the [Success Checklist](/reference/dashboard/#success-checklist). You can access your in-app Product [Catalogue](https://admin.revenuehunt.com/catalogue) at all times.
-    3. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    4. Drive traffic to your quiz and start getting sales and leads!
+    2. Once registered, [log in to your account](https://admin.revenuehunt.com/login).
+    3. Add products and collections. Your in-app [Catalogue](https://admin.revenuehunt.com/catalogue) is available at any time.
+    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
+    5. Drive traffic to your quiz and start getting sales and leads.
     !!! tip "How do I add products to Standalone RevenueHunt App?"
-        Check this how-to article to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+        To add products and collections to the Standalone version, see [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
     !!! note
-        If you want to change the username or password, please [contact support](/how-to-guides/contact-customer-support/).
+        To change the username or password, [contact support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -10756,37 +10758,37 @@ icon: material/google-analytics
 
 --- WooCommerce Specific Content ---
 
-To track quiz performance with Google Analytics in WooCommerce, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
-    This article explains how to track quiz events and performance in Google Analytics. 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-    To track quiz performance with Google Analytics in Magento, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
+To track quiz performance with Google Analytics in WooCommerce, add custom JavaScript tracking. It reports quiz events and customer interactions.
     This article explains how to track quiz events and performance in Google Analytics.
     !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-    To track quiz performance with Google Analytics in BigCommerce, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
+    To track quiz performance with Google Analytics in Magento, add custom JavaScript tracking. It reports quiz events and customer interactions.
     This article explains how to track quiz events and performance in Google Analytics.
     !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-    To track quiz performance with Google Analytics in a Standalone version of RevenueHunt app, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
+    To track quiz performance with Google Analytics in BigCommerce, add custom JavaScript tracking. It reports quiz events and customer interactions.
     This article explains how to track quiz events and performance in Google Analytics.
     !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+    To track quiz performance with Google Analytics in a Standalone version of RevenueHunt app, add custom JavaScript tracking. It reports quiz events and customer interactions.
+    This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 ## Connect quiz to Google Analytics
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
-    To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
     To implement custom event tracking for your quiz, follow these steps:
-    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
-    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
+    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
         ```html
         <script>
         // Fires once, when the customer reaches the results page
@@ -10799,7 +10801,7 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         }
         </script>
         ```
-    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
+    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
         ```html
         <script>
         // Fires each time a customer answers a question
@@ -10825,11 +10827,11 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         ```
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
-    To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
     To implement custom event tracking for your quiz, follow these steps:
-    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
-    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
+    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
         ```html
         <script>
         // Fires once, when the customer reaches the results page
@@ -10842,7 +10844,7 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         }
         </script>
         ```
-    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
+    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
         ```html
         <script>
         // Fires each time a customer answers a question
@@ -10868,11 +10870,11 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         ```
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
-    To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
     To implement custom event tracking for your quiz, follow these steps:
-    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
-    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
+    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
         ```html
         <script>
         // Fires once, when the customer reaches the results page
@@ -10885,7 +10887,7 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         }
         </script>
         ```
-    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
+    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
         ```html
         <script>
         // Fires each time a customer answers a question
@@ -10911,11 +10913,11 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         ```
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
-    To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
     To implement custom event tracking for your quiz, follow these steps:
-    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
-    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
+    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
         ```html
         <script>
         // Fires once, when the customer reaches the results page
@@ -10928,7 +10930,7 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
         }
         </script>
         ```
-    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
+    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
         ```html
         <script>
         // Fires each time a customer answers a question
@@ -10955,12 +10957,12 @@ To track quiz performance with Google Analytics in WooCommerce, you'll need to i
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
 ## Complete custom tracking script (GA4)
 !!! info "For the Shopify (Legacy), WooCommerce, Magento, BigCommerce and Standalone versions"
-    This script uses the [callback functions](/how-to-guides/use-callback-function/). The `💎 Built for Shopify` quiz doesn't use callbacks; use its results page **Custom JS** / `window.quiz` object instead.
-If you'd rather send your own cleanly-named GA4 events than rely on the built-in `view` / `click` events, the script below is a complete, working reference. It tracks **quiz start**, **every answer** (question + chosen labels), the **results page**, each **recommended product**, and **add to cart**, each as its own GA4 event with descriptive parameters.
+    This script uses the [callback functions](/how-to-guides/use-callback-function/). The `💎 Built for Shopify` quiz does not use callbacks. Use its results page **Custom JS** and `window.quiz` object instead.
+To send your own clearly named GA4 events rather than the built-in `view` and `click` events, use the script below. It tracks **quiz start**, **every answer**, the **results page**, each **recommended product**, and **add to cart**, each as its own GA4 event with descriptive parameters.
 **Before you start:**
 - Your GA4 `gtag.js` snippet must load **before** RevenueHunt's `embed.js`.
 - Place the script on the page where the quiz is embedded (or sitewide in your theme).
-- The built-in tracking and this script both fire if your GA Measurement ID is saved in the quiz backend. To avoid double-counting, either leave the Measurement ID **out** of the quiz backend and rely solely on this script, or remove the events you don't want below.
+- The built-in tracking and this script both fire when your GA Measurement ID is saved in the quiz backend. To avoid double counting, either leave the Measurement ID out and use this script alone, or remove the events you do not want.
 ```html
 <script>
 (function () {
@@ -11035,8 +11037,8 @@ If you'd rather send your own cleanly-named GA4 events than rely on the built-in
     A results page can recommend more than one product. Firing the results event once (with `result_name`) and a separate per-product event keeps your "reached results" count accurate. If you instead fire a single combined event per product, your results count multiplies by the number of products shown.
 The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, and so on) are standard GA4 event parameters. To use them in GA4 reports and Explorations, register the ones you need as **custom dimensions** under `Admin → Custom definitions`.
 ## Track customer behavior (events)
-    Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
     | Trigger | Event Name | Event Parameters |
     |---------|------------|------------------|
     | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
@@ -11055,10 +11057,10 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
     !!! info "`generate_lead` is a standard GA4 conversion event"
         Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
     !!! warning "Question titles may contain a recall token"
-        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
-    If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
-    Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
     | Trigger | Event Name | Event Parameters |
     |---------|------------|------------------|
     | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
@@ -11077,10 +11079,10 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
     !!! info "`generate_lead` is a standard GA4 conversion event"
         Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
     !!! warning "Question titles may contain a recall token"
-        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
-    If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
-    Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
     | Trigger | Event Name | Event Parameters |
     |---------|------------|------------------|
     | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
@@ -11099,10 +11101,10 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
     !!! info "`generate_lead` is a standard GA4 conversion event"
         Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
     !!! warning "Question titles may contain a recall token"
-        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
-    If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
-    Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
     | Trigger | Event Name | Event Parameters |
     |---------|------------|------------------|
     | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
@@ -11121,48 +11123,48 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
     !!! info "`generate_lead` is a standard GA4 conversion event"
         Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
     !!! warning "Question titles may contain a recall token"
-        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
-    If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 ## Track quiz revenue
-    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
-    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
-    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
-    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 ## Use GA4 explorations
-    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
     With Explorations, you can:
-    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
+    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
     - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
     - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
-    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
+    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
     - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
-    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
     With Explorations, you can:
-    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
+    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
     - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
     - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
-    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
+    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
     - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
-    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
     With Explorations, you can:
-    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
+    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
     - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
     - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
-    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
+    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
     - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
-    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
     With Explorations, you can:
-    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
+    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
     - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
     - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
-    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
+    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
     - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
 ---
@@ -11184,68 +11186,68 @@ icon: material/facebook
 
 The Meta Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
 
-This article explains how to integrate the Meta Pixel with your quiz application and how to use the Meta Events Manager to track user interactions with your quiz.
+This article explains how to connect the Meta Pixel to your quiz, and how to use the Meta Events Manager to see what customers do.
 
 ??? question "What is Meta Pixel?"
 
-    This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
+    This small piece of code on your website tracks conversions from ads, improves later campaigns, and builds targeted audiences from past interactions with your website.
 
 ## Setting up your Meta Pixel
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
 
 --- WooCommerce Specific Content ---
 
-If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
         If events are visible, the pixel integration is functioning correctly.
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+        For the full list, see [Tracked events](#tracked-events).
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
         If events are visible, the pixel integration is functioning correctly.
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+        For the full list, see [Tracked events](#tracked-events).
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.    
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
         If events are visible, the pixel integration is functioning correctly.
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.    
-    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+        For the full list, see [Tracked events](#tracked-events).
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
+    If you do not have a Pixel yet, set one up with the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, connect it to your quiz:
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
-    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as: 
+    3. Enter your `Meta Pixel ID`. If you have not created one yet, follow the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a Pixel in Meta.
+    4. **Test events**: Go to the [Events Manager](https://business.facebook.com/events/manager/), `Test events` and provide your website URL to test the integration. Then navigate to your website and interact with the quiz. After completing the quiz, check the Events Manager for tracked events such as:
         - Retake quiz
         - View content page
         - Lead submissions (name and email)
         If events are visible, the pixel integration is functioning correctly.
         ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
-        For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
-    5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
+        For the full list, see [Tracked events](#tracked-events).
+    5. **Review Custom Events**: To use the custom events in your ads and audiences, review them first. See [Review custom events](#review-custom-events).
 ## Tracking engagement with Meta events manager
 With the Pixel activated, the Meta **Events Manager dashboard** becomes a window into how users interact with your quiz. This data is vital for crafting [Custom Audiences](https://www.facebook.com/business/learn/lessons/custom-audience-tips-with-facebook-pixel) and [Lookalike Audiences](https://www.facebook.com/business/help/164749007013531?id=401668390442328) to refine your marketing strategies.
 ![how to integrate fb pixel events](/images/how_to_fb_pixel_events.png)
@@ -11263,7 +11265,7 @@ Besides the `viewContent` events, the Pixel will also track when a user:
 - Goes to the cart or checkout
 - Answers an email question
 - Answers a phone question
-Here’s a list of all the tracked events:
+These events are tracked:
 | **Trigger** | **fbq_action** | **fbq_event** | **fbq_params** |
 |---------------------------|--------------|-------------|-----------------------------------------------|
 | User starts a quiz | `track` | `ViewContent` | `{ content_name: quiz_name, content_category: 'quiz' }` |
@@ -11279,17 +11281,17 @@ Here’s a list of all the tracked events:
 | Customer retakes the quiz | `trackCustom` | `RetakeQuiz` | `{ content_name: quiz_name, content_category: 'quiz' }` |
 ## Review custom events
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=s1XW819N9ub_Gv0j&amp;start=227" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-This section outlines the process for managing custom events in Metapixel after connecting it to your quiz application. It details the steps to review, acknowledge, and confirm the use of custom events for advertising features.
-1. After connecting Metapixel to your quiz, new custom events will start appearing in your app.
-    Standard events include: 
+This section outlines the process for managing custom events in Meta Pixel after connecting it to your quiz application. It details the steps to review, acknowledge, and confirm the use of custom events for advertising features.
+1. Once the Meta Pixel is connected, new custom events start appearing in your app.
+    Standard events include:
     - `View Content`
     - `Page View`
     - `Lead`
-    Custom events include: 
+    Custom events include:
     - `Retake Quiz Action`
     - `Email Lead Action`
-    These custom events by default can't be used with ads features but you can enable them to be used with ads features by reviewing them.
-2. In your Metapixel data sources, you will see a notification `Custom events can't be used with ads features.` regarding custom events.
+    A custom event cannot be used in an ads feature until you review it.
+2. Your Meta Pixel data sources show the notification `Custom events can't be used with ads features.`
     ![how to integrate fb pixel review custom events](/images/how_to_shopifyv2_integrate_meta_pixel_reviewcustomevents.png)
 3. To remove this notification, you must review the custom events. Click on `Review` to proceed with the acknowledgment process.
     ![how to integrate fb pixel review custom events 2](/images/how_to_shopifyv2_integrate_meta_pixel_reviewcustomevents2.png)
@@ -11300,14 +11302,14 @@ This section outlines the process for managing custom events in Metapixel after 
     - Confirming allows the custom events to be used with ad features, including custom and lookalike audiences.
     - Click 'Confirm' to finalize your acceptance and review of the custom events.
         ![how to integrate fb pixel review custom events 3](https://loom.com/i/89174c089c514d7abc80f0e506581bbc?workflows_screenshot=true)
-4. Refresh your Metapixel dashboard to ensure the notification is gone.
-5. Your data should now flow correctly, allowing you to use the custom events in your ads and audiences.
+4. Refresh your Meta Pixel dashboard and check that the notification is gone.
+5. The data then flows through, and you can use the custom events in your ads and audiences.
 ## Adding a custom pixel
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -11315,13 +11317,13 @@ This section outlines the process for managing custom events in Metapixel after 
         }
         </script>
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -11329,13 +11331,13 @@ This section outlines the process for managing custom events in Metapixel after 
         }
         </script>
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -11343,13 +11345,13 @@ This section outlines the process for managing custom events in Metapixel after 
         }
         </script>
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
-    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-    3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
+    1. **Deactivate Meta Pixel**: If you already connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, deactivate it and publish the changes.
+    2. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    3. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it into `theme.liquid`:
         ```html
         <script>
         function prqQuizCallback(quizResponse){
@@ -11357,10 +11359,10 @@ This section outlines the process for managing custom events in Metapixel after 
         }
         </script>
         ```
-    4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
-    5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+    4. **Customize Your Event Tracking**: In the script, set the event name, the action and the params you want to track. That lets you monitor specific user actions on your website.
+    5. **Monitor and Adjust**: Once the script is live, check the data to confirm the events arrive. Be ready to make adjustments to the script or event definitions as needed.
 ---
-This article explains how to integrate the Meta Pixel with your quiz application and how to use the Meta Events Manager to track user interactions with your quiz.
+This article explains how to connect the Meta Pixel to your quiz, and how to use the Meta Events Manager to see what customers do.
 
 
 
@@ -11376,25 +11378,26 @@ icon: material/music-note-outline
 
 # How to Integrate TikTok Pixel with Quiz
 
-The TikTok Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your TikTok ads.
-
-This article explains how to integrate the TikTok Pixel with your quiz application and how to use the TikTok Events Manager to track user interactions with your quiz.
-
+This article explains how to connect the TikTok Pixel to your quiz, and measure how your TikTok ads perform.
 
 ??? question "What is TikTok Pixel?"
 
-    The TikTok Pixel is a piece of code that you place on your website to track user interactions with your quiz and measure the success of your TikTok ads.
+    The TikTok Pixel is a piece of code that you place on your website. It tracks what customers do in your quiz, and measures the success of your TikTok ads.
 
 ## Link quiz to your TikTok Pixel
 
 --- WooCommerce Specific Content ---
 
-TikTok Pixel is not supported in WooCommerce version of the RevenueHunt app.
-    TikTok Pixel is not supported in Magento version of the RevenueHunt app.
-    TikTok Pixel is not supported in BigCommerce version of the RevenueHunt app.
-    TikTok Pixel is not supported in Standalone version of the RevenueHunt app.
+!!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for Magento stores.
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for BigCommerce stores.
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 ---
-This article explains how to integrate the TikTok Pixel with your RevenueHunt Product Recommendation Quiz.
+This article explains how to connect the TikTok Pixel to your quiz, and measure how your TikTok ads perform.
 
 
 
@@ -11410,58 +11413,54 @@ icon: material/playlist-plus
 
 # How to Display Multiple Questions per Slide in Your Quiz
 
-This guide will walk you through the process of combining questions into a single slide using the [Quiz Builder](/reference/quiz-builder/).
+This article explains how to combine questions into a single slide with the [Quiz Builder](/reference/quiz-builder/).
 
-The ability to display multiple questions on a single slide can help reduce the overall length of your quiz and keep participants engaged. 
+Several questions on one slide make the quiz shorter, and keep the customer engaged.
 
-To combine two or more questions into one slide, follow these steps:
+To combine two or more questions into one slide:
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/651d6cb1573c4a53981b971cf9eefaa6?sid=b1ca7d15-e169-4acb-87b4-c994a0146c8b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Your Questions**: First, ensure that you have your questions ready in your Product Recommendation Quiz. Adding questions is the preliminary step before you can begin merging them into a single slide.
-    2. **Open Question Settings**: Click on the first question (the one you wish to appear at the top of the slide) to select it, then click on the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. **Join Next Question**: Within the question settings menu, look for the option labeled `Join next question` and activate it.
+    1. **Add Your Questions**: Add the questions you want to merge to your quiz.
+    2. **Open Question Settings**: Select the first question, the one you want at the top of the slide. Click the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. **Join Next Question**: In the question settings, turn on `Join next question`.
         ![how to join slides setting](/images/how_to_join_slides_setting.png)
-        Once activated, the selected question will automatically merge with the next one, displaying both on the same slide.
-    4. **Merge Additional Questions**: If you wish to merge more than two questions you can continue the process.
-    5. **Select the Joined Questions:** Click on the last question of the already merged set.
-    6. **Repeat the Join Process:** Activate the `Join next question` option again. You can repeat this process to combine as many questions as you like, creating a comprehensive slide that houses multiple queries.
+        The question then merges with the next one, and both appear on the same slide.
+    4. **Select the Joined Questions**: Click the last question in the merged set.
+    5. **Repeat the Join Process**: Turn on `Join next question` again. Repeat this for as many questions as you want on one slide.
     ![how to join slides slides joined](/images/how_to_join_slides_slides_joined.png)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/651d6cb1573c4a53981b971cf9eefaa6?sid=b1ca7d15-e169-4acb-87b4-c994a0146c8b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Your Questions**: First, ensure that you have your questions ready in your Product Recommendation Quiz. Adding questions is the preliminary step before you can begin merging them into a single slide.
-    2. **Open Question Settings**: Click on the first question (the one you wish to appear at the top of the slide) to select it, then click on the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. **Join Next Question**: Within the question settings menu, look for the option labeled `Join next question` and activate it.
+    1. **Add Your Questions**: Add the questions you want to merge to your quiz.
+    2. **Open Question Settings**: Select the first question, the one you want at the top of the slide. Click the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. **Join Next Question**: In the question settings, turn on `Join next question`.
         ![how to join slides setting](/images/how_to_join_slides_setting.png)
-        Once activated, the selected question will automatically merge with the next one, displaying both on the same slide.
-    4. **Merge Additional Questions**: If you wish to merge more than two questions you can continue the process.
-    5. **Select the Joined Questions:** Click on the last question of the already merged set.
-    6. **Repeat the Join Process:** Activate the `Join next question` option again. You can repeat this process to combine as many questions as you like, creating a comprehensive slide that houses multiple queries.
+        The question then merges with the next one, and both appear on the same slide.
+    4. **Select the Joined Questions**: Click the last question in the merged set.
+    5. **Repeat the Join Process**: Turn on `Join next question` again. Repeat this for as many questions as you want on one slide.
     ![how to join slides slides joined](/images/how_to_join_slides_slides_joined.png)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/651d6cb1573c4a53981b971cf9eefaa6?sid=b1ca7d15-e169-4acb-87b4-c994a0146c8b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Your Questions**: First, ensure that you have your questions ready in your Product Recommendation Quiz. Adding questions is the preliminary step before you can begin merging them into a single slide.
-    2. **Open Question Settings**: Click on the first question (the one you wish to appear at the top of the slide) to select it, then click on the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. **Join Next Question**: Within the question settings menu, look for the option labeled `Join next question` and activate it.
+    1. **Add Your Questions**: Add the questions you want to merge to your quiz.
+    2. **Open Question Settings**: Select the first question, the one you want at the top of the slide. Click the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. **Join Next Question**: In the question settings, turn on `Join next question`.
         ![how to join slides setting](/images/how_to_join_slides_setting.png)
-        Once activated, the selected question will automatically merge with the next one, displaying both on the same slide.
-    4. **Merge Additional Questions**: If you wish to merge more than two questions you can continue the process.
-    5. **Select the Joined Questions:** Click on the last question of the already merged set.
-    6. **Repeat the Join Process:** Activate the `Join next question` option again. You can repeat this process to combine as many questions as you like, creating a comprehensive slide that houses multiple queries.
+        The question then merges with the next one, and both appear on the same slide.
+    4. **Select the Joined Questions**: Click the last question in the merged set.
+    5. **Repeat the Join Process**: Turn on `Join next question` again. Repeat this for as many questions as you want on one slide.
     ![how to join slides slides joined](/images/how_to_join_slides_slides_joined.png)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/651d6cb1573c4a53981b971cf9eefaa6?sid=b1ca7d15-e169-4acb-87b4-c994a0146c8b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Your Questions**: First, ensure that you have your questions ready in your Product Recommendation Quiz. Adding questions is the preliminary step before you can begin merging them into a single slide.
-    2. **Open Question Settings**: Click on the first question (the one you wish to appear at the top of the slide) to select it, then click on the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. **Join Next Question**: Within the question settings menu, look for the option labeled `Join next question` and activate it.
+    1. **Add Your Questions**: Add the questions you want to merge to your quiz.
+    2. **Open Question Settings**: Select the first question, the one you want at the top of the slide. Click the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. **Join Next Question**: In the question settings, turn on `Join next question`.
         ![how to join slides setting](/images/how_to_join_slides_setting.png)
-        Once activated, the selected question will automatically merge with the next one, displaying both on the same slide.
-    4. **Merge Additional Questions**: If you wish to merge more than two questions you can continue the process.
-    5. **Select the Joined Questions:** Click on the last question of the already merged set.
-    6. **Repeat the Join Process:** Activate the `Join next question` option again. You can repeat this process to combine as many questions as you like, creating a comprehensive slide that houses multiple queries.
+        The question then merges with the next one, and both appear on the same slide.
+    4. **Select the Joined Questions**: Click the last question in the merged set.
+    5. **Repeat the Join Process**: Turn on `Join next question` again. Repeat this for as many questions as you want on one slide.
     ![how to join slides slides joined](/images/how_to_join_slides_slides_joined.png)
-!!! info
-    Please note that currently, merging two `file upload` questions into a single slide is not supported. If your quiz includes file upload questions, you must keep them separated to ensure the upload functionality works correctly.
+!!! info "File upload questions"
+    You cannot merge two `file upload` questions into one slide. Keep each file upload question on its own slide.
 ---
-Follow the steps outlined above to easily integrate multiple questions per slide into your quizzes.
+This article explains how to combine two or more questions into a single slide.
 
 
 
@@ -11476,7 +11475,7 @@ icon: material/transfer
 
 # How to Migrate a Legacy Quiz to the 💎Built for Shopify App
 
-If you have quizzes built in the original RevenueHunt app (Legacy), you can now import them directly into the `💎Built for Shopify` version of RevenueHunt app instead of rebuilding them from scratch. The migration tool copies your questions, results pages, logic, and design settings in one click.
+You can import a quiz from the legacy RevenueHunt app into the `💎Built for Shopify` version, instead of rebuilding it. The migration tool copies your questions, results pages, logic, and design settings in one click.
 
 !!! info "Shopify only"
 
@@ -11486,8 +11485,8 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ## Before you begin
 
-- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you haven't switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
-- Your legacy quizzes remain untouched — the migration creates a **copy** in the `💎Built for Shopify` app. Nothing is deleted from the legacy version.
+- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you have not switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
+- Your legacy quizzes remain untouched. The migration creates a **copy** in the `💎Built for Shopify` app, and nothing is deleted from the legacy version.
 
 ---
 
@@ -11506,8 +11505,8 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
 
 - **Name** and basic stats (number of questions, results pages, last updated date)
-- **What will migrate** — a green checkmark confirms that questions, results, logic, and design are included
-- **Warnings** — yellow notices flag anything that cannot be migrated automatically
+- **What will migrate** - a green checkmark confirms that questions, results, logic, and design are included
+- **Warnings** - yellow notices flag anything that cannot be migrated automatically
 
     ![Migrate from Legacy App dialog showing quiz list with status indicators](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
 
@@ -11525,7 +11524,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What gets migrated — and what doesn't
+## What gets migrated, and what does not
 
 | What migrates | Status |
 |---|---|
@@ -11533,10 +11532,10 @@ Review your questions, results pages, and logic to make sure everything looks co
 | Results pages and content | ✅ Fully migrated |
 | Conditional logic | ✅ Fully migrated |
 | Quiz design and styling | ✅ Fully migrated |
-| Custom CSS | ⚠️ Not adapted automatically — see below |
-| Custom JavaScript | ⚠️ Will not migrate — see below |
+| Custom CSS | ⚠️ Not adapted automatically - see [Custom CSS](#custom-css) |
+| Custom JavaScript | ⚠️ Will not migrate - see [Custom JavaScript](#custom-javascript) |
 | Special third-party integrations | ⚠️ Needs review after import |
-| Product mappings | ⚠️ May need re-linking — see below |
+| Product mappings | ⚠️ May need re-linking - see [Product mappings](#product-mappings) |
 
 ---
 
@@ -11546,11 +11545,11 @@ Most quizzes migrate cleanly, but some advanced configurations require a manual 
 
 ### Custom CSS
 
-If your legacy quiz used custom CSS, the styles are carried over as-is, but the **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
+If your legacy quiz used custom CSS, the styles are carried over as they are. The **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
 
 !!! warning "Review your design after import"
 
-    Check the quiz preview after importing. If something looks off — wrong colors, broken layouts, missing fonts — you will need to update the CSS selectors to match the new structure, or rebuild the style using the [Design editor](/how-to-guides/customize-quiz-design/).
+    Check the quiz preview after importing. Wrong colors, broken layouts or missing fonts mean the CSS selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
 
 ### Custom JavaScript
 
@@ -11558,15 +11557,15 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
 !!! warning "Rebuild JS customizations manually"
 
-    If your legacy quiz relied on custom JavaScript (e.g., custom events, DOM manipulation, or callback functions), you will need to rewrite those using the [JavaScript API](/how-to-guides/add-javascript/).
+    If your legacy quiz relied on custom JavaScript, for example custom events, DOM manipulation or callback functions, rewrite those with the [JavaScript API](/how-to-guides/add-javascript/).
 
 ### Product mappings
 
-Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+Questions, answer choices and results pages migrate. Product links are tied to Shopify product IDs, which are the same in both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
 !!! tip
 
-    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them using the [Results Page editor](/reference/quiz-builder/results-page/).
+    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them in the [Results Page](/reference/quiz-builder/results-page/).
 
 ### Special integrations
 
@@ -11576,18 +11575,18 @@ Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not au
 
 ## After the import
 
-Once you've reviewed the quiz and fixed any warnings:
+Once you have reviewed the quiz and fixed any warnings:
 
 1. **Test the quiz end-to-end** using the Preview button before publishing.
 2. **Reconnect integrations** (email platforms, CRMs, pixels) in Quiz Settings.
 3. **Publish the quiz** using your preferred [publishing method](/how-to-guides/publish-quiz/).
-4. When you're happy with the result, you can safely archive or delete the legacy version.
+4. When you are happy with the result, archive or delete the legacy version.
 
 ---
 
-!!! success "The base quiz is always importable"
+!!! info "The base quiz is always importable"
 
-    Even if your legacy quiz has custom CSS, JavaScript, or unusual configurations, the core content — questions, logic, and results — will always import successfully. The warnings only indicate which advanced features need a manual finishing touch, not that the import will fail.
+    Even if your legacy quiz has custom CSS, JavaScript or unusual configurations, the core content always imports: questions, logic and results. A warning tells you which advanced feature needs manual work, not that the import will fail.
 
 ---
 
@@ -11613,33 +11612,29 @@ icon: material/image-off
 
 # How to Fix Product Images Not Showing
 
-This guide explains how to fix product images not showing in your quiz.
+This article explains how to fix product images that do not appear in your quiz.
 
 --- WooCommerce Specific Content ---
 
-Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
+The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
     **Enable hotlinking in WordPress**
-    Hotlinking in WordPress is usually enabled by default. WordPress allows you to use direct image URLs in your content, which can be hotlinked by other websites.
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
-    [guide to disabling image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/) can guide you on how to enable hotlinking on your WordPress site by disabling hotlinking protection.
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
-    Our quiz is served through an iFrame on your website but it’s hosted on our server. Your developer will have to disable hotlinking protection on your website for the product images (which are pulled from your store) to appear on the results page.
-    Hotlinking means displaying an image on a website by linking to the website hosting the image:
-    [https://simple.wikipedia.org/wiki/Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking)
-    If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
+    Hotlinking in WordPress is usually enabled by default. WordPress lets you use direct image URLs in your content, which other websites can hotlink.
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
+    For how to turn hotlinking protection off, see this [guide to image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/).
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
+    The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
+    Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
+    To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
     !!! tip
-        If you've created your own products or uploaded your Google Product Feed and still don't see product images, please double-check your product feed.
+        If you created your own products or uploaded your Google Product Feed and still do not see product images, check the product feed.
 ---
-This guide explains how to fix product images not showing in your quiz.
+This article explains how to fix product images that do not appear in your quiz.
 
 
 
@@ -11655,108 +11650,108 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Votes or More
 
-You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
+You can limit the recommendations on the results page to products that received X votes or more. This filter lets you show only the strongest matches.
 
-To activate this setting in your quiz follow the instructions below.
+To activate this setting in your quiz:
 
 --- WooCommerce Specific Content ---
 
-1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
-    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
+1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product Block** or a **Product Slot Block**.
+    2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
         ??? question "How do I get the right recommendations?"
-            Our product recommendation algorithm works like a voting system:
+            The recommendation algorithm works like a voting system:
             - Products are linked to each choice
             - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-            - If no products have been linked or all the products have been excluded, the results page will appear empty
-            - If there's a draw in the number of votes, the app will randomize the order of products.
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
-        ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
-    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
-    6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
-        ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
+            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - If no products are linked, or all products are excluded, the results page is empty
+            - If there is a draw in the number of votes, the app randomizes the order of the products.
+    3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
+    4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
+    5. Scroll down to the `Minimum number of votes` setting and turn the toggle on.
+        ![Minimum number of votes in the Advanced Settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
+    6. The **Products Block**, or a **Slots Block**, on your results page now shows an extra setting in the [Block Settings](/reference/quiz-builder/results-page/#block-settings).
+    7. Open the [Product/Slot Block settings](/reference/quiz-builder/results-page/#block-settings) and find `Min. number of votes`.
+    8. Click the dropdown and select a number. You can change the minimum to whatever suits your quiz.
+        ![Min. number of votes in the block settings](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
         !!! example
-            For example, if you have 4 questions in your quiz and you select 4 as a min. number of votes, only products that receive **4 votes or more** (aka match the answers in all questions) will be shown. If a product receives 3 votes, it will not be shown. If a product receives 5 votes it will be shown.
-    7. Update the preview/live quiz with these new settings by clicking `Publish` in the top-right corner.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+    9. Click `Publish` in the top-right corner to update the preview and the live quiz.
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
     !!! warning
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
-        ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
-    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
+        The `Minimum number of votes` setting is available only if you choose not to recommend products when the results are empty. That option is in [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
+        ![Show random products in the Recommendation Settings](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
+    1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product Block** or a **Product Slot Block**.
+    2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
         ??? question "How do I get the right recommendations?"
-            Our product recommendation algorithm works like a voting system:
+            The recommendation algorithm works like a voting system:
             - Products are linked to each choice
             - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-            - If no products have been linked or all the products have been excluded, the results page will appear empty
-            - If there's a draw in the number of votes, the app will randomize the order of products.
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
-        ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
-    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
-    6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
-        ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
+            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - If no products are linked, or all products are excluded, the results page is empty
+            - If there is a draw in the number of votes, the app randomizes the order of the products.
+    3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
+    4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
+    5. Scroll down to the `Minimum number of votes` setting and turn the toggle on.
+        ![Minimum number of votes in the Advanced Settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
+    6. The **Products Block**, or a **Slots Block**, on your results page now shows an extra setting in the [Block Settings](/reference/quiz-builder/results-page/#block-settings).
+    7. Open the [Product/Slot Block settings](/reference/quiz-builder/results-page/#block-settings) and find `Min. number of votes`.
+    8. Click the dropdown and select a number. You can change the minimum to whatever suits your quiz.
+        ![Min. number of votes in the block settings](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
         !!! example
-            For example, if you have 4 questions in your quiz and you select 4 as a min. number of votes, only products that receive **4 votes or more** (aka match the answers in all questions) will be shown. If a product receives 3 votes, it will not be shown. If a product receives 5 votes it will be shown.
-    7. Update the preview/live quiz with these new settings by clicking `Publish` in the top-right corner.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+    9. Click `Publish` in the top-right corner to update the preview and the live quiz.
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
     !!! warning
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
-        ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
-    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
+        The `Minimum number of votes` setting is available only if you choose not to recommend products when the results are empty. That option is in [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
+        ![Show random products in the Recommendation Settings](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
+    1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product Block** or a **Product Slot Block**.
+    2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
         ??? question "How do I get the right recommendations?"
-            Our product recommendation algorithm works like a voting system:
+            The recommendation algorithm works like a voting system:
             - Products are linked to each choice
             - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-            - If no products have been linked or all the products have been excluded, the results page will appear empty
-            - If there's a draw in the number of votes, the app will randomize the order of products.
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
-        ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
-    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
-    6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
-        ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
+            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - If no products are linked, or all products are excluded, the results page is empty
+            - If there is a draw in the number of votes, the app randomizes the order of the products.
+    3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
+    4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
+    5. Scroll down to the `Minimum number of votes` setting and turn the toggle on.
+        ![Minimum number of votes in the Advanced Settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
+    6. The **Products Block**, or a **Slots Block**, on your results page now shows an extra setting in the [Block Settings](/reference/quiz-builder/results-page/#block-settings).
+    7. Open the [Product/Slot Block settings](/reference/quiz-builder/results-page/#block-settings) and find `Min. number of votes`.
+    8. Click the dropdown and select a number. You can change the minimum to whatever suits your quiz.
+        ![Min. number of votes in the block settings](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
         !!! example
-            For example, if you have 4 questions in your quiz and you select 4 as a min. number of votes, only products that receive **4 votes or more** (aka match the answers in all questions) will be shown. If a product receives 3 votes, it will not be shown. If a product receives 5 votes it will be shown.
-    7. Update the preview/live quiz with these new settings by clicking `Publish` in the top-right corner.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+    9. Click `Publish` in the top-right corner to update the preview and the live quiz.
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
     !!! warning
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
-        ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
-    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
+        The `Minimum number of votes` setting is available only if you choose not to recommend products when the results are empty. That option is in [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
+        ![Show random products in the Recommendation Settings](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
+    1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product Block** or a **Product Slot Block**.
+    2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
         ??? question "How do I get the right recommendations?"
-            Our product recommendation algorithm works like a voting system:
+            The recommendation algorithm works like a voting system:
             - Products are linked to each choice
             - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-            - If no products have been linked or all the products have been excluded, the results page will appear empty
-            - If there's a draw in the number of votes, the app will randomize the order of products.
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
-        ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
-    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
-    6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
-        ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
+            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - If no products are linked, or all products are excluded, the results page is empty
+            - If there is a draw in the number of votes, the app randomizes the order of the products.
+    3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
+    4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
+    5. Scroll down to the `Minimum number of votes` setting and turn the toggle on.
+        ![Minimum number of votes in the Advanced Settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
+    6. The **Products Block**, or a **Slots Block**, on your results page now shows an extra setting in the [Block Settings](/reference/quiz-builder/results-page/#block-settings).
+    7. Open the [Product/Slot Block settings](/reference/quiz-builder/results-page/#block-settings) and find `Min. number of votes`.
+    8. Click the dropdown and select a number. You can change the minimum to whatever suits your quiz.
+        ![Min. number of votes in the block settings](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
         !!! example
-            For example, if you have 4 questions in your quiz and you select 4 as a min. number of votes, only products that receive **4 votes or more** (aka match the answers in all questions) will be shown. If a product receives 3 votes, it will not be shown. If a product receives 5 votes it will be shown.
-    7. Update the preview/live quiz with these new settings by clicking `Publish` in the top-right corner.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+    9. Click `Publish` in the top-right corner to update the preview and the live quiz.
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
     !!! warning
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
-        ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
+        The `Minimum number of votes` setting is available only if you choose not to recommend products when the results are empty. That option is in [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
+        ![Show random products in the Recommendation Settings](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 ---
 By following this guide, you can easily filter your recommendations by minimum number of votes.
 
