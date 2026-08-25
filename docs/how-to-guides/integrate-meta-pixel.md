@@ -207,7 +207,7 @@ Each `viewContent` event is distinguished by a specific "category" tag, allowing
 Besides the `viewContent` events, the Pixel will also track when a user:
 
 - Adds a product to their cart
-- Heads to the cart or checkout
+- Goes to the cart or checkout
 - Answers an email question
 - Answers a phone question
 

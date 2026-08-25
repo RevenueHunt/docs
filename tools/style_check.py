@@ -98,9 +98,14 @@ DEAD_PHRASING = [
 # idiom. a non-native reader has to translate these twice, and they survive
 # badly once a page is flattened for the support bot.
 IDIOM = [
+    # head to and check out stay exact on purpose. heading is the Heading
+    # block, which appears in the docs far more often than the idiom, and
+    # checks out is what a customer does at the checkout. widening either one
+    # would report those as idiom.
     (r'\bhead (?:over )?to\b', 'go to'),
     (r'\bcheck (?:it )?out\b', 'see'),
-    (r'\breach out to\b', 'contact'),
+    # every form of this one is the idiom
+    (r'\breach(?:es|ed|ing)? out to\b', 'contact'),
 ]
 
 RETIRED_TERMS = [

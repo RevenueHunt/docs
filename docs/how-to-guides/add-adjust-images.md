@@ -116,7 +116,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -181,7 +181,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -246,7 +246,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -311,7 +311,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -376,7 +376,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -513,7 +513,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -584,7 +584,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -653,7 +653,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -722,7 +722,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -792,7 +792,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         Sample code:
 
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;

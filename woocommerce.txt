@@ -5992,7 +5992,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         You can use [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background image for the whole quiz in a desired resolution.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6029,7 +6029,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         You can use [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background image for the whole quiz in a desired resolution.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6066,7 +6066,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         You can use [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background image for the whole quiz in a desired resolution.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6103,7 +6103,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         You can use [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background image for the whole quiz in a desired resolution.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6143,7 +6143,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         Use the [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background or split image for the whole quiz at the resolution you want.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6182,7 +6182,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         Use the [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background or split image for the whole quiz at the resolution you want.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6221,7 +6221,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         Use the [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background or split image for the whole quiz at the resolution you want.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -6260,7 +6260,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
     !!! tip "Higher resolution images"
         Use the [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background or split image for the whole quiz at the resolution you want.
         Sample code:
-        ```html
+        ```css
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image.jpg');
             background-size: cover;
@@ -9599,7 +9599,7 @@ Here are a few popular CSS selectors and codes to style elements in the quiz:
     }
     ```
 ??? example "Place the footer bar at the top, for more visibility"
-    ```html
+    ```css
     .lq-footer, .lq-footer{
     position: absolute;
     width: 100%;
@@ -9755,7 +9755,7 @@ icon: material/table-arrow-down
 
 # How to Download Quiz Responses
 
-This guide outlines the process for downloading quiz responses from your quiz, allowing you to analyze individual responses in detail.
+This article explains how to read a single quiz response, and how to download all of them as a CSV file.
 
 --- WooCommerce Specific Content ---
 
@@ -9764,44 +9764,43 @@ This guide outlines the process for downloading quiz responses from your quiz, a
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/344009da83db4522b31bf593684ed913?sid=d153421b-4d58-4052-a6ce-784646f0333a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/344009da83db4522b31bf593684ed913?sid=d153421b-4d58-4052-a6ce-784646f0333a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ## Check individual responses
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-        ![how to download responses](/images/manual_woo_quizbuilder_metrics_responses.png)
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
+        ![Responses tab in Metrics](/images/manual_woo_quizbuilder_metrics_responses.png)
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
+        ![Responses tab in Metrics](/images/manual_standalone_quizbuilder_metrics_responses.png)
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
+        ![Responses tab in Metrics](/images/manual_standalone_quizbuilder_metrics_responses.png)
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
+        ![Responses tab in Metrics](/images/manual_standalone_quizbuilder_metrics_responses.png)
 ## Download all responses
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
+    You can download every response from the past 90 days as a `.CSV file`.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
+    You can download every response from the past 90 days as a `.CSV file`.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
+    You can download every response from the past 90 days as a `.CSV file`.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
+    You can download every response from the past 90 days as a `.CSV file`.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
 !!! tip
-    `.CSV files` can be opened in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) for analysis.
+    Open a `.CSV file` in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel).
 ---
-This article explains how to download quiz responses from the Revenue Hunt app.
-By following these steps, you access and analyze your quiz data for insights into user engagement and performance.
+This article explains how to read a single quiz response in the RevenueHunt app, and how to download every response as a CSV file.
 
 
 
@@ -9817,14 +9816,14 @@ icon: material/playlist-edit
 
 # How to Edit Your Product Recommendation Quiz Results Page
 
-You can customize your quiz design as well as the look of your quiz's [Results Page](/reference/quiz-builder/results-page/). 
+You can customize your quiz design as well as the look of your quiz's [Results Page](/reference/quiz-builder/results-page/).
 
-This guide will walk you through adding elements to your results page using a variety of content blocks and creating of dynamic results page with Display logic.
+This article explains how to add content blocks to your results page, and how to make the page respond to the answers with Display logic.
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>  
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ## Build your results page
@@ -9833,29 +9832,29 @@ This guide will walk you through adding elements to your results page using a va
     2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
     3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
     4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
+    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
     2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
     3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
     4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
+    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
     2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
     3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
     4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
+    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
     2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, as needed.
     3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
     4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
+    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
 ## Add content
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
+    Start by adding content to your results page. These are the elements you can use.
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
     1. **Heading Block**: Use for adding titles or headings.
@@ -9865,11 +9864,11 @@ This guide will walk you through adding elements to your results page using a va
     5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
     6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
     Dynamic elements of the results page:
-    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
     - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
+    Start by adding content to your results page. These are the elements you can use.
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
     1. **Heading Block**: Use for adding titles or headings.
@@ -9879,11 +9878,11 @@ This guide will walk you through adding elements to your results page using a va
     5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
     6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
     Dynamic elements of the results page:
-    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
     - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
+    Start by adding content to your results page. These are the elements you can use.
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
     1. **Heading Block**: Use for adding titles or headings.
@@ -9893,11 +9892,11 @@ This guide will walk you through adding elements to your results page using a va
     5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
     6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
     Dynamic elements of the results page:
-    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
     - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
+    Start by adding content to your results page. These are the elements you can use.
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
     1. **Heading Block**: Use for adding titles or headings.
@@ -9907,107 +9906,107 @@ This guide will walk you through adding elements to your results page using a va
     5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
     6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
     Dynamic elements of the results page:
-    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
     - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 ## Adjust results page settings
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
+    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
         !!! tip
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
         !!! info
-            We currently support these review apps for Shopify: 
-            - Product Reviews by Shopify, 
-            - Stamped Product Reviews & UGC, 
-            - Judge.me Product Reviews, 
+            These review apps for Shopify are supported:
+            - Product Reviews by Shopify,
+            - Stamped Product Reviews & UGC,
+            - Judge.me Product Reviews,
             - Rivyo Product Reviews.
             And WooCommerce Product Reviews.
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
     - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
+    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
         !!! tip
             Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
+    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
         !!! tip
             Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
     - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
+    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
         !!! tip
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
         !!! info
-            We currently support these review apps for Shopify: 
-            - Product Reviews by Shopify, 
-            - Stamped Product Reviews & UGC, 
-            - Judge.me Product Reviews, 
+            These review apps for Shopify are supported:
+            - Product Reviews by Shopify,
+            - Stamped Product Reviews & UGC,
+            - Judge.me Product Reviews,
             - Rivyo Product Reviews.
             And WooCommerce Product Reviews.
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
     - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
+    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
         !!! tip
             Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
+    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
         !!! tip
             Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
     - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
+    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
         !!! tip
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
         !!! info
-            We currently support these review apps for Shopify: 
-            - Product Reviews by Shopify, 
-            - Stamped Product Reviews & UGC, 
-            - Judge.me Product Reviews, 
+            These review apps for Shopify are supported:
+            - Product Reviews by Shopify,
+            - Stamped Product Reviews & UGC,
+            - Judge.me Product Reviews,
             - Rivyo Product Reviews.
             And WooCommerce Product Reviews.
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
     - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
+    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
         !!! tip
             Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
+    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
         !!! tip
             Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
     - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
+    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
         !!! tip
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
         !!! info
-            We currently support these review apps for Shopify: 
-            - Product Reviews by Shopify, 
-            - Stamped Product Reviews & UGC, 
-            - Judge.me Product Reviews, 
+            These review apps for Shopify are supported:
+            - Product Reviews by Shopify,
+            - Stamped Product Reviews & UGC,
+            - Judge.me Product Reviews,
             - Rivyo Product Reviews.
             And WooCommerce Product Reviews.
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
     - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
+    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
         !!! tip
             Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
+    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
         !!! tip
             Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
     - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 ---
-By following this guide, you'll learn how to edit the results page, add visual elements, product blocks and create dynamic results page with Display logic.
+This article explains how to edit the results page. It covers content and product blocks, and using Display logic to make the page respond to the answers.
 
 
 
@@ -10025,16 +10024,16 @@ icon: material/filter
 
 --- WooCommerce Specific Content ---
 
-This guide explains how to filter recommendations by price in your quiz results page. 
-    It explains how to implement a price filtering feature in a quiz using WooCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+This article explains how to filter the recommendations on your results page by price.
+    It explains how to filter quiz recommendations by price in WooCommerce. It covers creating categories for each price range, and configuring the quiz to filter recommendations on them.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
         !!! example "Price Filtering Question"
-            Provide three options: 
+            Provide three options:
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
-    2. **Creating Price-Based Categories in WooCommerce** : Go to **Products → Categories** in your WooCommerce admin and create a product category for each price range.
+    2. **Creating Price-Based Categories in WooCommerce**: In your WooCommerce admin, go to **Products → Categories**. Create one product category per price range.
         - Name the category (for example, **Under 20 euros**).
         - Save the category.
         - Edit your products and assign them to the corresponding price category:
@@ -10047,26 +10046,26 @@ This guide explains how to filter recommendations by price in your quiz results 
             - Category: **Over 50 euros** → all products with a price `> 50`.
         - Repeat the process until every product you want to recommend is assigned to the correct price category.
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the Revenue Hunt Quizzes app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
         !!! example "Configuring the Quiz to Filter Recommendations"
             - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
             - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
             - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
-            ![filter by collection example](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
-    4. **Testing the Price Filter Functionality**: Preview the quiz to test the filtering functionality. Select the option for products over 50 euros to verify that only those products are displayed. Repeat the test for the other price ranges to ensure accurate filtering. Confirm that the recommendations reflect the selected price range correctly.
+            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
         !!! tip "Troubleshooting"
             Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
             It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
-    This guide explains how to filter recommendations by price in your quiz results page. 
-    It explains how to implement a price filtering feature in a quiz using Magento and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    This article explains how to filter the recommendations on your results page by price.
+    It explains how to filter quiz recommendations by price in Magento. It covers creating categories for each price range, and configuring the quiz to filter recommendations on them.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
         !!! example "Price Filtering Question"
-            Provide three options: 
+            Provide three options:
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
-    2. **Creating Price-Based Categories in Magento** : In your Magento admin, go to **Catalog → Categories** and create a product category for each price range you want to use in the quiz.
+    2. **Creating Price-Based Categories in Magento**: In your Magento admin, go to **Catalog → Categories**. Create one product category per price range.
         - Click **Add Subcategory** under the relevant parent category (for example, under your main “Skincare” category).
         - Name the category (for example, **Under 20 euros**) and save it.
         - In the **Products in Category** section, assign products to the corresponding price category:
@@ -10080,26 +10079,26 @@ This guide explains how to filter recommendations by price in your quiz results 
             - Category: **Over 50 euros** → all products with a price `> 50`.
         - Repeat this process until all products you want to recommend through the quiz are assigned to the correct price category.
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the Revenue Hunt Quizzes app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
         !!! example "Configuring the Quiz to Filter Recommendations"
             - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
             - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
             - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
-            ![filter by collection example](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
-    4. **Testing the Price Filter Functionality**: Preview the quiz to test the filtering functionality. Select the option for products over 50 euros to verify that only those products are displayed. Repeat the test for the other price ranges to ensure accurate filtering. Confirm that the recommendations reflect the selected price range correctly.
+            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
         !!! tip "Troubleshooting"
             Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
             It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
-    This guide explains how to filter recommendations by price in your quiz results page. 
-    It explains how to implement a price filtering feature in a quiz using BigCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    This article explains how to filter the recommendations on your results page by price.
+    It explains how to filter quiz recommendations by price in BigCommerce. It covers creating categories for each price range, and configuring the quiz to filter recommendations on them.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
         !!! example "Price Filtering Question"
-            Provide three options: 
+            Provide three options:
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
-    2. **Creating Price-Based Categories in BigCommerce** : In your BigCommerce control panel, go to **Products → Product Categories** and create a product category for each price range you want to use in the quiz.
+    2. **Creating Price-Based Categories in BigCommerce**: In your BigCommerce control panel, go to **Products → Product Categories**. Create one product category per price range.
         - Click **Add a Category**.
         - Name the category (for example, **Under 20 euros**) and save it.
         - Edit your products and assign them to the corresponding price category:
@@ -10113,36 +10112,36 @@ This guide explains how to filter recommendations by price in your quiz results 
             - Category: **Over 50 euros** → all products with a price `> 50`.
         - Repeat this process until all products you want to recommend through the quiz are assigned to the correct price category.
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the Revenue Hunt Quizzes app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
         !!! example "Configuring the Quiz to Filter Recommendations"
             - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
             - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
             - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
-            ![filter by collection example](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
-    4. **Testing the Price Filter Functionality**: Preview the quiz to test the filtering functionality. Select the option for products over 50 euros to verify that only those products are displayed. Repeat the test for the other price ranges to ensure accurate filtering. Confirm that the recommendations reflect the selected price range correctly.
+            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
         !!! tip "Troubleshooting"
             Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
             It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
-    This guide explains how to filter recommendations by price in your quiz results page. 
-    It explains how to implement a price filtering feature in a quiz using WooCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    This article explains how to filter the recommendations on your results page by price.
+    It explains how to filter quiz recommendations by price in the Standalone version. It covers creating collections for each price range, and configuring the quiz to filter recommendations on them.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
         !!! example "Price Filtering Question"
-            Provide three options: 
+            Provide three options:
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
-    2. **Creating Price-Based Collections in Standalone** : Go to Standalone app, [Success Checklist](/reference/dashboard/#success-checklist) and create collections for each price range. 
+    2. **Creating Price-Based Collections in Standalone**: Go to Standalone app, [Success Checklist](/reference/dashboard/#success-checklist) and create collections for each price range.
         !!! tip "How do I add products to Standalone RevenueHunt App?"
             Follow this guide to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/)
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the Revenue Hunt Quizzes app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
         !!! example "Configuring the Quiz to Filter Recommendations"
             - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
             - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
             - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
-            ![filter by collection example](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
-    4. **Testing the Price Filter Functionality**: Preview the quiz to test the filtering functionality. Select the option for products over 50 euros to verify that only those products are displayed. Repeat the test for the other price ranges to ensure accurate filtering. Confirm that the recommendations reflect the selected price range correctly.
+            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
         !!! tip "Troubleshooting"
             Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
             It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
@@ -10163,17 +10162,15 @@ icon: material/cellphone-link
 
 # Fixing Viewport Issue on Mobile
 
-## Introduction
-
-This guide addresses a common issue where the form on mobile devices is not fixed and moves from side to side, causing a poor user experience. This problem can be resolved by adjusting the meta viewport tag in the store's HTML.
+On a mobile device, the quiz can zoom in slightly when the customer taps a text input. The page then shifts from left to right, and the quiz no longer sits still.
 
 ## Problem description
 
-Users have reported that on mobile devices, the form page slightly zooms in when focusing on a text input, causing the page to move from left to right and resulting in a poor user experience. This issue needs to be addressed to ensure the form remains fixed on mobile devices.
+The cause is the meta viewport tag in your store theme. Without a maximum scale, the browser zooms in on a focused input, and the page moves with it.
 
 ## Solution
 
-To fix this issue, the developer needs to modify the meta viewport tag in the store's HTML. The tag should include `maximum-scale=1.0` and `user-scalable=0` to prevent the page from moving.
+Your developer edits the meta viewport tag in the store theme to add `maximum-scale=1.0` and `user-scalable=0`. Those two values stop the page from moving.
 
 ### Step-by-step guide
 
@@ -10191,16 +10188,16 @@ To fix this issue, the developer needs to modify the meta viewport tag in the st
 
 3. If the meta viewport tag is missing, add the modified tag to the `<head>` section of your HTML.
 
-![Fix viewport issue mobile](/images/fix_viewport_issue_mobile.png)
+![Meta viewport tag in a store theme](/images/fix_viewport_issue_mobile.png)
 
 ## Testing
 
-After making these changes, test the form on a mobile device to ensure it remains fixed and does not move from side to side.
+Test the quiz on a mobile device. Tap a text input and check that the page stays still.
 
 ## Additional notes
 
-- Ensure that the changes are applied to the correct HTML file in your store.
-- If you encounter any issues, consider reaching out to your web developer for assistance.
+- Apply the change to the theme your store is actually using.
+- If the problem continues, ask your web developer for help.
 
 ## Platform-specific instructions
 
@@ -10210,6 +10207,23 @@ After making these changes, test the form on a mobile device to ensure it remain
     2. Go to **Appearance** > **Theme Editor**.
     3. In the **Theme Files** section, find and open the `header.php` file of your active theme.
     4. Locate the `<head>` section in this file to modify the meta viewport tag.
+    Magento builds the `<head>` from a layout file rather than from a template you can edit in the admin, so this is a developer task.
+    1. In your theme, open or create `Magento_Theme/layout/default_head_blocks.xml`.
+    2. Add the meta viewport tag to the `<head>` section of that file.
+    3. Deploy the static content and flush the cache.
+    !!! tip
+        For the file layout and an example, see the Adobe Commerce documentation on [managing layouts](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage).
+    A Stencil theme defines the `<head>` in its base layout, so this is a developer task.
+    1. In your Stencil theme, open `templates/layout/base.html`.
+    2. Find the `<head>` section and edit the meta viewport tag there.
+    3. Push the theme to your store.
+    !!! tip
+        For how a Stencil theme is put together, see the BigCommerce documentation on [page composition and styling](https://developer.bigcommerce.com/docs/storefront/stencil/themes/style/composition-and-styling).
+    The Standalone quiz runs on your own page, so the meta viewport tag is in your own HTML.
+    1. Open the page that holds the quiz.
+    2. Find the `<head>` section and edit the meta viewport tag there.
+    !!! note "Platform Availability"
+        A quiz opened through a RevenueHunt hosted link is not affected. This applies only to a quiz you embed on your own page.
 
 
 
@@ -10225,9 +10239,9 @@ icon: material/eye-off
 
 # How to Show or Hide Content Based on Quiz Answers
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to hide or show certain questions or sections based on customer answers to quiz questions. This includes conditionally hiding certain questions or statements within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and showing or hiding blocks/sections on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
+This article explains how to use `IF-THEN` conditional logic to show or hide a question or a section, based on what the customer answered. That covers hiding a question or a statement in the quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and showing or hiding blocks/sections on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
 
-Using a skincare routine quiz as an example, we'll show how custom text and result can be displayed based on the customer’s skin type.
+The examples use a skincare routine quiz, and show custom text and results chosen by the customer’s skin type.
 
 --- WooCommerce Specific Content ---
 
@@ -10246,180 +10260,180 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 ## Jump logic: how to show custom text in the quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 ## Display logic: how to show custom text on the results page
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        !!! tip    
+        !!! tip
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        !!! tip    
+        !!! tip
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        !!! tip    
+        !!! tip
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        !!! tip    
+        !!! tip
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 ## Skip logic: how to show custom text in the quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
         !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 ---
@@ -10440,72 +10454,53 @@ icon: material/basket-off-outline
 
 # How to Hide Out-Of-Stock or Draft Products from Recommendations
 
-In this guide, you'll learn how to hide out-of-stock or draft products from your quiz recommendations.
+This article explains how to keep out-of-stock and draft products out of your quiz recommendations.
 
 ## Hide Out-of-stock products
-
-This guide explains how to hide out-of-stock products from your quiz recommendations.
 
 --- WooCommerce Specific Content ---
 
 You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
+    1. Open the [Results Page](/reference/quiz-builder/results-page/) and click the cog icon to open the [Results Page Settings](/reference/quiz-builder/results-page/).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab.
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
+    4. Toggle it off, so unavailable and out-of-stock products are not recommended.
+        ![Show unavailable products in Advanced Settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    5. Click the top-right `Publish` button to update the preview and the live quiz.
     You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
+    1. Open the [Results Page](/reference/quiz-builder/results-page/) and click the cog icon to open the [Results Page Settings](/reference/quiz-builder/results-page/).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab.
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
+    4. Toggle it off, so unavailable and out-of-stock products are not recommended.
+        ![Show unavailable products in Advanced Settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    5. Click the top-right `Publish` button to update the preview and the live quiz.
     You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
+    1. Open the [Results Page](/reference/quiz-builder/results-page/) and click the cog icon to open the [Results Page Settings](/reference/quiz-builder/results-page/).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab.
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
+    4. Toggle it off, so unavailable and out-of-stock products are not recommended.
+        ![Show unavailable products in Advanced Settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    5. Click the top-right `Publish` button to update the preview and the live quiz.
     You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
+    1. Open the [Results Page](/reference/quiz-builder/results-page/) and click the cog icon to open the [Results Page Settings](/reference/quiz-builder/results-page/).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab.
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
+    4. Toggle it off, so unavailable and out-of-stock products are not recommended.
+        ![Show unavailable products in Advanced Settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    5. Click the top-right `Publish` button to update the preview and the live quiz.
 ## Hide draft products
-This guide explains how to hide draft products from your quiz recommendations.
-    You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
-    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
-    You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
-    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
-    You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
-    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
-    You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
-    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
+    !!! note "Platform Availability"
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
+    !!! note "Platform Availability"
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
+    !!! note "Platform Availability"
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
+    !!! note "Platform Availability"
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 ---
 By following this guide you can disable showing out-of-stock or draft products on your results page.
 
@@ -10521,48 +10516,48 @@ description: "Learn how to hide product variants dropdown in your RevenueHunt qu
 icon: material/sort-variant-off
 ---
 
-# How to Hide Product Variants 
+# How to Hide Product Variants
 
-In Product Recommendation Quiz you can hide the product variants dropdown on the results page.
+You can hide the product variants dropdown on the results page.
 
-![how to hide product variants image1](/images/how_to_hide_product_variants_image1.png)
+![Product variants dropdown on the results page](/images/how_to_hide_product_variants_image1.png)
 
 
 ## Recommend a specific product variant instead
 
 --- WooCommerce Specific Content ---
 
-You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
-    ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
+You can recommend a specific product variant instead of the main product by changing your Results Page settings.
+    ![Results Page with a single variant recommended](/images/how_to_hide_product_variants_image2.png)
     1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
-        ![how to hide product variants image2](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    2. Deactivate the `Group product variants` option. 
-    3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-    You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
-    ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
+        ![Group product variants in Advanced settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    2. Deactivate the `Group product variants` option.
+    3. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
+    You can recommend a specific product variant instead of the main product by changing your Results Page settings.
+    ![Results Page with a single variant recommended](/images/how_to_hide_product_variants_image2.png)
     1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
-        ![how to hide product variants image2](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    2. Deactivate the `Group product variants` option. 
-    3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-    You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
-    ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
+        ![Group product variants in Advanced settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    2. Deactivate the `Group product variants` option.
+    3. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
+    You can recommend a specific product variant instead of the main product by changing your Results Page settings.
+    ![Results Page with a single variant recommended](/images/how_to_hide_product_variants_image2.png)
     1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
-        ![how to hide product variants image2](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    2. Deactivate the `Group product variants` option. 
-    3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-    You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
-    ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
+        ![Group product variants in Advanced settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    2. Deactivate the `Group product variants` option.
+    3. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
+    You can recommend a specific product variant instead of the main product by changing your Results Page settings.
+    ![Results Page with a single variant recommended](/images/how_to_hide_product_variants_image2.png)
     1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
-        ![how to hide product variants image2](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    2. Deactivate the `Group product variants` option. 
-    3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+        ![Group product variants in Advanced settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    2. Deactivate the `Group product variants` option.
+    3. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
 ## Hide the dropdown with custom CSS code
-    It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
-    ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
+    You can also recommend the main product and hide the dropdown with custom CSS:
+    ![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
     1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. Scroll to the `Custom CSS` section and click `add`.
     3. Paste the following code into the CSS console:
-        ```html
+        ```css
         .no-variants-dropdown {
         display: none;
         }
@@ -10570,13 +10565,13 @@ You can recommend a specific product variant instead of the main product by chan
         display: none;
         }
         ```
-    4. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-    It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
-    ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
+    4. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
+    You can also recommend the main product and hide the dropdown with custom CSS:
+    ![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
     1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. Scroll to the `Custom CSS` section and click `add`.
     3. Paste the following code into the CSS console:
-        ```html
+        ```css
         .no-variants-dropdown {
         display: none;
         }
@@ -10584,13 +10579,13 @@ You can recommend a specific product variant instead of the main product by chan
         display: none;
         }
         ```
-    4. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-    It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
-    ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
+    4. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
+    You can also recommend the main product and hide the dropdown with custom CSS:
+    ![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
     1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. Scroll to the `Custom CSS` section and click `add`.
     3. Paste the following code into the CSS console:
-        ```html
+        ```css
         .no-variants-dropdown {
         display: none;
         }
@@ -10598,13 +10593,13 @@ You can recommend a specific product variant instead of the main product by chan
         display: none;
         }
         ```
-    4. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-    It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
-    ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
+    4. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
+    You can also recommend the main product and hide the dropdown with custom CSS:
+    ![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
     1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. Scroll to the `Custom CSS` section and click `add`.
     3. Paste the following code into the CSS console:
-        ```html
+        ```css
         .no-variants-dropdown {
         display: none;
         }
@@ -10612,7 +10607,7 @@ You can recommend a specific product variant instead of the main product by chan
         display: none;
         }
         ```
-    4. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    4. Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
 ---
 By using this method you can hide the product variants from quiz recommendations.
 
@@ -11265,7 +11260,7 @@ Each `viewContent` event is distinguished by a specific "category" tag, allowing
 ### Tracked events
 Besides the `viewContent` events, the Pixel will also track when a user:
 - Adds a product to their cart
-- Heads to the cart or checkout
+- Goes to the cart or checkout
 - Answers an email question
 - Answers a phone question
 Here’s a list of all the tracked events:

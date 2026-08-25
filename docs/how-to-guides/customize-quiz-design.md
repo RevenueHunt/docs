@@ -1141,7 +1141,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Place the footer bar at the top, for more visibility"
-        ```html
+        ```css
         .lq-footer, .lq-footer{
         position: absolute;
         width: 100%;
@@ -1330,7 +1330,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Place the footer bar at the top, for more visibility"
-        ```html
+        ```css
         .lq-footer, .lq-footer{
         position: absolute;
         width: 100%;
@@ -1519,7 +1519,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Place the footer bar at the top, for more visibility"
-        ```html
+        ```css
         .lq-footer, .lq-footer{
         position: absolute;
         width: 100%;
@@ -1708,7 +1708,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Place the footer bar at the top, for more visibility"
-        ```html
+        ```css
         .lq-footer, .lq-footer{
         position: absolute;
         width: 100%;
@@ -1897,7 +1897,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Place the footer bar at the top, for more visibility"
-        ```html
+        ```css
         .lq-footer, .lq-footer{
         position: absolute;
         width: 100%;

@@ -5,7 +5,7 @@ icon: material/table-arrow-down
 
 # How to Download Quiz Responses
 
-This guide outlines the process for downloading quiz responses from your quiz, allowing you to analyze individual responses in detail.
+This article explains how to read a single quiz response, and how to download all of them as a CSV file.
 
 === "Shopify"
 
@@ -44,54 +44,54 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=GSIjUwiBie6TwF1u&amp;start=15" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. To view the last 100 individual responses, navigate to the [Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
+    1. Open the [Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
 
-        ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
-    2. On the left-hand side menu, you'll find the responses the quiz received organized by date/timestamp. Click on `View` to open a specific response.
+        ![Responses tab in the quiz builder](/images/manual_shopifyV2_quizbuilder_openresponses.png)
+    2. The left-hand menu lists the responses by date and time. Click `View` to open one.
 
-        !!! warning "Test responses removal"    
+        !!! warning "Test responses removal"
 
-            Admin responses and quiz previews are removed from the list after 24 hours to don't add to your plan's limits.
+            Admin responses and quiz previews drop off the list after 24 hours, so they do not count toward your plan limits.
 
-        ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
+        ![Response list with the Export CSV button](/images/manual_shopifyV2_quizbuilder_responses.png)
 
-        ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
+        ![A single quiz response opened](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
 
 
 === "Shopify (Legacy)"
 
-    1. To view the individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
 
-        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
+        ![Responses tab in Metrics](/images/manual_quizbuilder_metrics_responses.png)
 
 === "WooCommerce"
 
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
 
-        ![how to download responses](/images/manual_woo_quizbuilder_metrics_responses.png)
+        ![Responses tab in Metrics](/images/manual_woo_quizbuilder_metrics_responses.png)
 
 === "Magento"
 
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
 
-        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+        ![Responses tab in Metrics](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
 === "BigCommerce"
 
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
 
-        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+        ![Responses tab in Metrics](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
 === "Standalone"
 
-    1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+    2. The left-hand menu lists the 100 most recent responses by date and time. Click a date to open one.
 
-        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+        ![Responses tab in Metrics](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
 ## Download all responses
 
@@ -100,37 +100,37 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=3vpVqYvtnBunRReL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+    You can download every response from the past 90 days as a `.CSV file`.
 
-    1. Navigate to the [Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, click the `Export CSV` button.
+    1. Open the [Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export CSV`.
 
-        ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
-    3. A popup will appear that allows you to select an email address to send the CSV file to. 
+        ![Response list with the Export CSV button](/images/manual_shopifyV2_quizbuilder_responses.png)
+    3. A popup opens where you pick the email address to send the CSV file to.
 
-        ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
-    
+        ![Choosing the email address for the CSV export](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
+
         !!! note "Security"
-        
+
             For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
-    4. The .CSV file will be sent to the email address you provided.
-    5. Open the .CSV file on your device for further analysis.
+    4. The .CSV file is sent to that address.
+    5. Open it on your device.
 
 
 === "Shopify (Legacy)"
 
-    If you need to review your quiz responses in bulk, you can download them as a `.CSV file` and pick how far back the export goes: the last 1, 3 or 6 months.
+    You can download your responses as a `.CSV file`. Pick how far back the export goes: 1, 3 or 6 months.
 
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, click the button for the period you need: `Export CSV - 1 month`, `Export CSV - 3 months` or `Export CSV - 6 months`.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click the button for the period you need: `Export CSV - 1 month`, `Export CSV - 3 months` or `Export CSV - 6 months`.
 
-        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
+        ![Responses tab in Metrics](/images/manual_quizbuilder_metrics_responses.png)
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
 
     !!! warning "Export size limit"
 
-        Exports are capped at 100,000 responses. If the range you picked contains more than that, the export is stopped and you're asked to choose a shorter range. [Contact support](/how-to-guides/contact-customer-support/) if you need a larger export.
+        Exports are capped at 100,000 responses. Above that the export stops and asks you for a shorter range. [Contact support](/how-to-guides/contact-customer-support/) if you need a larger one.
 
     !!! note "Requesting another export"
 
@@ -138,44 +138,43 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 === "WooCommerce"
 
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+    You can download every response from the past 90 days as a `.CSV file`.
 
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
 
 === "Magento"
 
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+    You can download every response from the past 90 days as a `.CSV file`.
 
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
 
 === "BigCommerce"
 
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+    You can download every response from the past 90 days as a `.CSV file`.
 
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
 
 === "Standalone"
 
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+    You can download every response from the past 90 days as a `.CSV file`.
 
-    1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
-    3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
-    4. Click on the download link to save the CSV file to your device for further analysis.
+    1. Open the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
+    2. Click `Export all as CSV`.
+    3. Once the file is ready, a download link appears on your [dashboard](/reference/dashboard/).
+    4. Click the download link to save the CSV file.
 
 !!! tip
 
-    `.CSV files` can be opened in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) for analysis.
+    Open a `.CSV file` in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel).
 
 ---
-This article explains how to download quiz responses from the Revenue Hunt app.
-By following these steps, you access and analyze your quiz data for insights into user engagement and performance.
+This article explains how to read a single quiz response in the RevenueHunt app, and how to download every response as a CSV file.
