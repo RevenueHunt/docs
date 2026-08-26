@@ -294,6 +294,9 @@ def prose_of(line):
     s = re.sub(r'https?://\S+', ' ', s)
     s = re.sub(r':[a-z0-9_+-]+:', ' ', s)
     s = re.sub(r'<[^>]+>', ' ', s)
+    # an html entity is markup, not punctuation. the semicolon that closes
+    # &nbsp; was being read as a semicolon in the prose
+    s = re.sub(r'&[a-zA-Z]+;|&#[0-9]+;', ' ', s)
     return s
 
 

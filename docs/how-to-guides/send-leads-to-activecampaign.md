@@ -8,19 +8,16 @@ icon: material/bullhorn-outline
 === "Shopify"
 
 
-    While the new Built for Shopify version of the RevenueHunt app **does not** yet integrate directly with ActiveCampaign, it is still possible to send quiz leads to ActiveCampaign.
+    The Built for Shopify version of the RevenueHunt app does not connect to ActiveCampaign directly yet. There are two ways around it.
 
-    One option includes using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration to send quiz leads to ActiveCampaign. Another, includes manually adding the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz.
-
-    This guide explain how you can send quiz data to ActiveCampaign with a workaround.
-
+    You can forward the quiz data through the [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration, or you can export your responses as a CSV file and upload that file to ActiveCampaign. This article covers both.
 
 
 === "Shopify (Legacy)"
 
-    Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+    Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
+    This article explains how to make that connection, and how to use the answers to follow up by email.
 
     Before you begin, ensure you have:
 
@@ -29,15 +26,15 @@ icon: material/bullhorn-outline
 
     !!! note
 
-        The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
+        The integration sends the raw quiz data to ActiveCampaign. Build the flows and the custom events from that data in ActiveCampaign itself.
 
 
 === "WooCommerce"
 
 
-    Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+    Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
+    This article explains how to make that connection, and how to use the answers to follow up by email.
 
     Before you begin, ensure you have:
 
@@ -46,15 +43,15 @@ icon: material/bullhorn-outline
 
     !!! note
 
-        The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
+        The integration sends the raw quiz data to ActiveCampaign. Build the flows and the custom events from that data in ActiveCampaign itself.
 
 
 === "Magento"
 
 
-    Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+    Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
+    This article explains how to make that connection, and how to use the answers to follow up by email.
 
     Before you begin, ensure you have:
 
@@ -63,15 +60,15 @@ icon: material/bullhorn-outline
 
     !!! note
 
-        The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
+        The integration sends the raw quiz data to ActiveCampaign. Build the flows and the custom events from that data in ActiveCampaign itself.
 
 
 === "BigCommerce"
 
 
-    Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+    Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
+    This article explains how to make that connection, and how to use the answers to follow up by email.
 
     Before you begin, ensure you have:
 
@@ -80,15 +77,15 @@ icon: material/bullhorn-outline
 
     !!! note
 
-        The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
+        The integration sends the raw quiz data to ActiveCampaign. Build the flows and the custom events from that data in ActiveCampaign itself.
 
 
 === "Standalone"
 
 
-    Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+    Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
+    This article explains how to make that connection, and how to use the answers to follow up by email.
 
     Before you begin, ensure you have:
 
@@ -97,17 +94,16 @@ icon: material/bullhorn-outline
 
     !!! note
 
-        The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
+        The integration sends the raw quiz data to ActiveCampaign. Build the flows and the custom events from that data in ActiveCampaign itself.
 
 
 ## Link quiz to ActiveCampaign
 
 === "Shopify"
 
-    It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to ActiveCampaign.
+    You cannot link a quiz to ActiveCampaign from the Built for Shopify version of the app yet.
 
-    Check [Alternative Ways to Send Quiz leads to ActiveCampaign](#alternative-ways-to-send-quiz-leads-to-activecampaign) to learn how you can send quiz leads to ActiveCampaign anyway.
-
+    See [Alternative ways to send quiz leads to ActiveCampaign](#alternative-ways-to-send-quiz-leads-to-activecampaign) for the two ways around it.
 
 
 === "Shopify (Legacy)"
@@ -115,39 +111,39 @@ icon: material/bullhorn-outline
     To integrate your quiz with ActiveCampaign:
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Click on the [Connect](/reference/quiz-builder/connect-integrations/) tab located at the top of the screen to access the integration settings.
-    3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
+    2. Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    3. In the integration options, find ActiveCampaign and copy the `API Token`. You will need it later.
         ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
-    4. Click the `Connect` button within the ActiveCampaign section.
-    4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account`.
+    4. Click the `Connect` button in the ActiveCampaign section.
+    5. ActiveCampaign opens a configuration page. Click `Add an account`.
         ![how to send leads to activecampaign step1](/images/how_to_send_leads_to_activecampaign_step1.png)
 
-    5. Enter your `API Token` when prompted.
+    6. Enter your `API Token` when prompted.
         ![how to send leads to activecampaign step2](/images/how_to_send_leads_to_activecampaign_step2.png)
 
-    5. Select the specific quiz you wish to integrate and proceed by clicking `Continue`.
+    7. Select the quiz you want to integrate, then click `Continue`.
         ![how to send leads to activecampaign step3](/images/how_to_send_leads_to_activecampaign_step3.png)
 
-    6. Map your quiz responses to the corresponding fields in ActiveCampaign to ensure data is correctly synchronized. This may involve adding new field mappings if necessary.
+    8. Map your quiz responses to the matching fields in ActiveCampaign. You may need to add new field mappings.
         ![how to activecampaign connect](/images/how_to_activecampaign_connect.png)
 
-    Once configured, your quiz will be connected, and you can modify settings or update the integration directly from this interface.
+    Your quiz is now connected. Change the settings or update the integration from the same screen.
 
     ![how to send leads to activecampaign step final](/images/how_to_send_leads_to_activecampaign_step_final.png)
 
-    Alternatively, you can initiate the connection from within ActiveCampaign:
+    You can also start the connection from inside ActiveCampaign:
 
     1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
 
         !!! warning
 
-            If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
+            If you cannot see the Apps page, ActiveCampaign branding is probably turned off for your account. In your account settings, turn the ActiveCampaign branding setting off and then back on. Then check whether the Apps page appears.
 
-    2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
+    2. Select the quiz icon and follow the setup instructions. You will be asked for your `ActiveCampaign API Token`, which links the quiz data to your ActiveCampaign account. Find it in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
 
     !!! note
 
-        Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
+        The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 
 === "WooCommerce"
 
@@ -155,41 +151,39 @@ icon: material/bullhorn-outline
     To integrate your quiz with ActiveCampaign:
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Click on the [Connect](/reference/quiz-builder/connect-integrations/) tab located at the top of the screen to access the integration settings.
-    3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
+    2. Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    3. In the integration options, find ActiveCampaign and copy the `API Token`. You will need it later.
         ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
-    4. Click the `Connect` button within the ActiveCampaign section.
-    4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account`.
+    4. Click the `Connect` button in the ActiveCampaign section.
+    5. ActiveCampaign opens a configuration page. Click `Add an account`.
         ![how to send leads to activecampaign step1](/images/how_to_send_leads_to_activecampaign_step1.png)
 
-    5. Enter your `API Token` when prompted.
+    6. Enter your `API Token` when prompted.
         ![how to send leads to activecampaign step2](/images/how_to_send_leads_to_activecampaign_step2.png)
 
-    5. Select the specific quiz you wish to integrate and proceed by clicking `Continue`.
+    7. Select the quiz you want to integrate, then click `Continue`.
         ![how to send leads to activecampaign step3](/images/how_to_send_leads_to_activecampaign_step3.png)
 
-    6. Map your quiz responses to the corresponding fields in ActiveCampaign to ensure data is correctly synchronized. This may involve adding new field mappings if necessary.
+    8. Map your quiz responses to the matching fields in ActiveCampaign. You may need to add new field mappings.
         ![how to activecampaign connect](/images/how_to_activecampaign_connect.png)
 
-    Once configured, your quiz will be connected, and you can modify settings or update the integration directly from this interface.
+    Your quiz is now connected. Change the settings or update the integration from the same screen.
 
     ![how to send leads to activecampaign step final](/images/how_to_send_leads_to_activecampaign_step_final.png)
 
-    Alternatively, you can initiate the connection from within ActiveCampaign:
+    You can also start the connection from inside ActiveCampaign:
 
     1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
 
         !!! warning
 
-            If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
+            If you cannot see the Apps page, ActiveCampaign branding is probably turned off for your account. In your account settings, turn the ActiveCampaign branding setting off and then back on. Then check whether the Apps page appears.
 
-    2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
+    2. Select the quiz icon and follow the setup instructions. You will be asked for your `ActiveCampaign API Token`, which links the quiz data to your ActiveCampaign account. Find it in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
 
     !!! note
 
-        Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
-
-
+        The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 
 
 === "Magento"
@@ -198,39 +192,39 @@ icon: material/bullhorn-outline
     To integrate your quiz with ActiveCampaign:
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Click on the [Connect](/reference/quiz-builder/connect-integrations/) tab located at the top of the screen to access the integration settings.
-    3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
+    2. Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    3. In the integration options, find ActiveCampaign and copy the `API Token`. You will need it later.
         ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
-    4. Click the `Connect` button within the ActiveCampaign section.
-    4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account`.
+    4. Click the `Connect` button in the ActiveCampaign section.
+    5. ActiveCampaign opens a configuration page. Click `Add an account`.
         ![how to send leads to activecampaign step1](/images/how_to_send_leads_to_activecampaign_step1.png)
 
-    5. Enter your `API Token` when prompted.
+    6. Enter your `API Token` when prompted.
         ![how to send leads to activecampaign step2](/images/how_to_send_leads_to_activecampaign_step2.png)
 
-    5. Select the specific quiz you wish to integrate and proceed by clicking `Continue`.
+    7. Select the quiz you want to integrate, then click `Continue`.
         ![how to send leads to activecampaign step3](/images/how_to_send_leads_to_activecampaign_step3.png)
 
-    6. Map your quiz responses to the corresponding fields in ActiveCampaign to ensure data is correctly synchronized. This may involve adding new field mappings if necessary.
+    8. Map your quiz responses to the matching fields in ActiveCampaign. You may need to add new field mappings.
         ![how to activecampaign connect](/images/how_to_activecampaign_connect.png)
 
-    Once configured, your quiz will be connected, and you can modify settings or update the integration directly from this interface.
+    Your quiz is now connected. Change the settings or update the integration from the same screen.
 
     ![how to send leads to activecampaign step final](/images/how_to_send_leads_to_activecampaign_step_final.png)
 
-    Alternatively, you can initiate the connection from within ActiveCampaign:
+    You can also start the connection from inside ActiveCampaign:
 
     1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
 
         !!! warning
 
-            If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
+            If you cannot see the Apps page, ActiveCampaign branding is probably turned off for your account. In your account settings, turn the ActiveCampaign branding setting off and then back on. Then check whether the Apps page appears.
 
-    2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
+    2. Select the quiz icon and follow the setup instructions. You will be asked for your `ActiveCampaign API Token`, which links the quiz data to your ActiveCampaign account. Find it in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
 
     !!! note
 
-        Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
+        The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 
 === "BigCommerce"
 
@@ -238,39 +232,39 @@ icon: material/bullhorn-outline
     To integrate your quiz with ActiveCampaign:
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Click on the [Connect](/reference/quiz-builder/connect-integrations/) tab located at the top of the screen to access the integration settings.
-    3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
+    2. Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    3. In the integration options, find ActiveCampaign and copy the `API Token`. You will need it later.
         ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
-    4. Click the `Connect` button within the ActiveCampaign section.
-    4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account`.
+    4. Click the `Connect` button in the ActiveCampaign section.
+    5. ActiveCampaign opens a configuration page. Click `Add an account`.
         ![how to send leads to activecampaign step1](/images/how_to_send_leads_to_activecampaign_step1.png)
 
-    5. Enter your `API Token` when prompted.
+    6. Enter your `API Token` when prompted.
         ![how to send leads to activecampaign step2](/images/how_to_send_leads_to_activecampaign_step2.png)
 
-    5. Select the specific quiz you wish to integrate and proceed by clicking `Continue`.
+    7. Select the quiz you want to integrate, then click `Continue`.
         ![how to send leads to activecampaign step3](/images/how_to_send_leads_to_activecampaign_step3.png)
 
-    6. Map your quiz responses to the corresponding fields in ActiveCampaign to ensure data is correctly synchronized. This may involve adding new field mappings if necessary.
+    8. Map your quiz responses to the matching fields in ActiveCampaign. You may need to add new field mappings.
         ![how to activecampaign connect](/images/how_to_activecampaign_connect.png)
 
-    Once configured, your quiz will be connected, and you can modify settings or update the integration directly from this interface.
+    Your quiz is now connected. Change the settings or update the integration from the same screen.
 
     ![how to send leads to activecampaign step final](/images/how_to_send_leads_to_activecampaign_step_final.png)
 
-    Alternatively, you can initiate the connection from within ActiveCampaign:
+    You can also start the connection from inside ActiveCampaign:
 
     1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
 
         !!! warning
 
-            If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
+            If you cannot see the Apps page, ActiveCampaign branding is probably turned off for your account. In your account settings, turn the ActiveCampaign branding setting off and then back on. Then check whether the Apps page appears.
 
-    2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
+    2. Select the quiz icon and follow the setup instructions. You will be asked for your `ActiveCampaign API Token`, which links the quiz data to your ActiveCampaign account. Find it in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
 
     !!! note
 
-        Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
+        The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 
 === "Standalone"
 
@@ -278,96 +272,94 @@ icon: material/bullhorn-outline
     To integrate your quiz with ActiveCampaign:
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Click on the [Connect](/reference/quiz-builder/connect-integrations/) tab located at the top of the screen to access the integration settings.
-    3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
+    2. Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    3. In the integration options, find ActiveCampaign and copy the `API Token`. You will need it later.
         ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
-    4. Click the `Connect` button within the ActiveCampaign section.
-    4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account`.
+    4. Click the `Connect` button in the ActiveCampaign section.
+    5. ActiveCampaign opens a configuration page. Click `Add an account`.
         ![how to send leads to activecampaign step1](/images/how_to_send_leads_to_activecampaign_step1.png)
 
-    5. Enter your `API Token` when prompted.
+    6. Enter your `API Token` when prompted.
         ![how to send leads to activecampaign step2](/images/how_to_send_leads_to_activecampaign_step2.png)
 
-    5. Select the specific quiz you wish to integrate and proceed by clicking `Continue`.
+    7. Select the quiz you want to integrate, then click `Continue`.
         ![how to send leads to activecampaign step3](/images/how_to_send_leads_to_activecampaign_step3.png)
 
-    6. Map your quiz responses to the corresponding fields in ActiveCampaign to ensure data is correctly synchronized. This may involve adding new field mappings if necessary.
+    8. Map your quiz responses to the matching fields in ActiveCampaign. You may need to add new field mappings.
         ![how to activecampaign connect](/images/how_to_activecampaign_connect.png)
 
-    Once configured, your quiz will be connected, and you can modify settings or update the integration directly from this interface.
+    Your quiz is now connected. Change the settings or update the integration from the same screen.
 
     ![how to send leads to activecampaign step final](/images/how_to_send_leads_to_activecampaign_step_final.png)
 
-    Alternatively, you can initiate the connection from within ActiveCampaign:
+    You can also start the connection from inside ActiveCampaign:
 
     1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
 
         !!! warning
 
-            If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
+            If you cannot see the Apps page, ActiveCampaign branding is probably turned off for your account. In your account settings, turn the ActiveCampaign branding setting off and then back on. Then check whether the Apps page appears.
 
-    2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
+    2. Select the quiz icon and follow the setup instructions. You will be asked for your `ActiveCampaign API Token`, which links the quiz data to your ActiveCampaign account. Find it in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
 
     !!! note
 
-        Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
-
+        The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 
 
 ## Alternative ways to send quiz leads to ActiveCampaign
 
 === "Shopify"
 
-    Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
+    To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
-    - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
-
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 
 === "Shopify (Legacy)"
 
-    Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
+    To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
-    - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
-    
+    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
+
 === "WooCommerce"
 
-    Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
+    To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
-    - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 
 === "Magento"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
+    To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
-    - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 === "BigCommerce"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
+    To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
-    - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 === "Standalone"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
+    To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
-    - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 
 ## Adding custom information to the contact profile
@@ -375,9 +367,9 @@ icon: material/bullhorn-outline
 === "Shopify"
 
 
-    With the quiz integrated via [one of our alternative methods](/how-to-guides/send-leads-to-activecampaign/#alternative-ways-to-send-quiz-leads-to-activecampaign), you should be able to tag contact profiles with additional custom information derived from quiz results.
+    Once the quiz is connected through [one of the methods above](#alternative-ways-to-send-quiz-leads-to-activecampaign), you can add quiz data to each contact profile.
 
-    Here’s a list of additional custom information that can be added to your contact profile:
+    These are the fields you can add:
 
     - Email
     - First Name
@@ -392,25 +384,24 @@ icon: material/bullhorn-outline
 
     !!! warning
 
-        Since you are using one of our alternative methods to connect to ActiveCampaign, you will have full control over the data that is sent to ActiveCampaign. The data provided above are only a list of the most common fields that are sent to ActiveCampaign.
+        These methods give you full control over what reaches ActiveCampaign. The list above holds only the most common fields.
 
         The exact payload is the one carried by the method you pick, so see [What Data is Sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [What Data is Sent to Webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
 
-        For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
+        For more about using this data on a contact profile, see the [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
 
-    To set up a redirection of selected data to ActiveCampaign, you can use our Webhooks integration. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, check [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) for more information on how to set up a redirection of selected data to ActiveCampaign.
-
+    To forward only the data you want, connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then read [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) to set up the forwarding on their side.
 
 
 === "Shopify (Legacy)"
 
-    With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
+    Once the quiz is connected, you can add the quiz data to each contact profile.
 
     Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
     !!! warning "Create the custom fields in ActiveCampaign first"
 
-        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+        ActiveCampaign does not create fields for you. Add each field in your ActiveCampaign dashboard first, or the sync has nowhere to write. The field's **Personalization Tag**, which is its unique key, must match the internal name in the field table. For an answer field, that is the slide hash ID.
 
     | Field | Value |
     | --- | --- |
@@ -431,23 +422,23 @@ icon: material/bullhorn-outline
         Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
 
     !!! info "Answer keys and date questions"
-        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+        Answer fields are keyed by the slide's internal hash ID, not by the question title, so renaming a question does not break your field mapping. Answers to date questions are sent in ISO8601 format.
 
     !!! warning "Products are sent as IDs only"
         The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
-    1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
+    1. In ActiveCampaign, go to `Lists -> Manage fields` and click `Add Field`.
         ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-    2. Name each field appropriately. These fields will be categorized under `General Details`.
+    2. Give each field a name.
         ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-    3. These fields will be categorized under `General Details`.
+    3. ActiveCampaign files the new fields under `General Details`.
         ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-    3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
+    4. Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields. Every later contact from the quiz then carries this data.
         ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
 
-    After that, all the new contacts from the quiz will receive more custom information.
+    From then on, every new contact from the quiz carries the extra fields.
 
     ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
 
@@ -455,13 +446,13 @@ icon: material/bullhorn-outline
 === "WooCommerce"
 
 
-    With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
+    Once the quiz is connected, you can add the quiz data to each contact profile.
 
     Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
     !!! warning "Create the custom fields in ActiveCampaign first"
 
-        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+        ActiveCampaign does not create fields for you. Add each field in your ActiveCampaign dashboard first, or the sync has nowhere to write. The field's **Personalization Tag**, which is its unique key, must match the internal name in the field table. For an answer field, that is the slide hash ID.
 
     | Field | Value |
     | --- | --- |
@@ -482,40 +473,37 @@ icon: material/bullhorn-outline
         Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
 
     !!! info "Answer keys and date questions"
-        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+        Answer fields are keyed by the slide's internal hash ID, not by the question title, so renaming a question does not break your field mapping. Answers to date questions are sent in ISO8601 format.
 
     !!! warning "Products are sent as IDs only"
         The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
-    1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
+    1. In ActiveCampaign, go to `Lists -> Manage fields` and click `Add Field`.
         ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-    2. Name each field appropriately. These fields will be categorized under `General Details`.
+    2. Give each field a name.
         ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-    3. These fields will be categorized under `General Details`.
+    3. ActiveCampaign files the new fields under `General Details`.
         ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-    3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
+    4. Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields. Every later contact from the quiz then carries this data.
         ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
 
-    After that, all the new contacts from the quiz will receive more custom information.
+    From then on, every new contact from the quiz carries the extra fields.
 
     ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
-
-
-
 
 
 === "Magento"
 
 
-    With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
+    Once the quiz is connected, you can add the quiz data to each contact profile.
 
     Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
     !!! warning "Create the custom fields in ActiveCampaign first"
 
-        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+        ActiveCampaign does not create fields for you. Add each field in your ActiveCampaign dashboard first, or the sync has nowhere to write. The field's **Personalization Tag**, which is its unique key, must match the internal name in the field table. For an answer field, that is the slide hash ID.
 
     | Field | Value |
     | --- | --- |
@@ -536,40 +524,37 @@ icon: material/bullhorn-outline
         Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
 
     !!! info "Answer keys and date questions"
-        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+        Answer fields are keyed by the slide's internal hash ID, not by the question title, so renaming a question does not break your field mapping. Answers to date questions are sent in ISO8601 format.
 
     !!! warning "Products are sent as IDs only"
         The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
-    1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
+    1. In ActiveCampaign, go to `Lists -> Manage fields` and click `Add Field`.
         ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-    2. Name each field appropriately. These fields will be categorized under `General Details`.
+    2. Give each field a name.
         ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-    3. These fields will be categorized under `General Details`.
+    3. ActiveCampaign files the new fields under `General Details`.
         ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-    3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
+    4. Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields. Every later contact from the quiz then carries this data.
         ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
 
-    After that, all the new contacts from the quiz will receive more custom information.
+    From then on, every new contact from the quiz carries the extra fields.
 
     ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
-
-
-
 
 
 === "BigCommerce"
 
 
-    With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
+    Once the quiz is connected, you can add the quiz data to each contact profile.
 
     Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
     !!! warning "Create the custom fields in ActiveCampaign first"
 
-        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+        ActiveCampaign does not create fields for you. Add each field in your ActiveCampaign dashboard first, or the sync has nowhere to write. The field's **Personalization Tag**, which is its unique key, must match the internal name in the field table. For an answer field, that is the slide hash ID.
 
     | Field | Value |
     | --- | --- |
@@ -590,40 +575,37 @@ icon: material/bullhorn-outline
         Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
 
     !!! info "Answer keys and date questions"
-        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+        Answer fields are keyed by the slide's internal hash ID, not by the question title, so renaming a question does not break your field mapping. Answers to date questions are sent in ISO8601 format.
 
     !!! warning "Products are sent as IDs only"
         The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
-    1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
+    1. In ActiveCampaign, go to `Lists -> Manage fields` and click `Add Field`.
         ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-    2. Name each field appropriately. These fields will be categorized under `General Details`.
+    2. Give each field a name.
         ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-    3. These fields will be categorized under `General Details`.
+    3. ActiveCampaign files the new fields under `General Details`.
         ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-    3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
+    4. Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields. Every later contact from the quiz then carries this data.
         ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
 
-    After that, all the new contacts from the quiz will receive more custom information.
+    From then on, every new contact from the quiz carries the extra fields.
 
     ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
-
-
-
 
 
 === "Standalone"
 
 
-    With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
+    Once the quiz is connected, you can add the quiz data to each contact profile.
 
     Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
     !!! warning "Create the custom fields in ActiveCampaign first"
 
-        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+        ActiveCampaign does not create fields for you. Add each field in your ActiveCampaign dashboard first, or the sync has nowhere to write. The field's **Personalization Tag**, which is its unique key, must match the internal name in the field table. For an answer field, that is the slide hash ID.
 
     | Field | Value |
     | --- | --- |
@@ -644,28 +626,25 @@ icon: material/bullhorn-outline
         Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
 
     !!! info "Answer keys and date questions"
-        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+        Answer fields are keyed by the slide's internal hash ID, not by the question title, so renaming a question does not break your field mapping. Answers to date questions are sent in ISO8601 format.
 
     !!! warning "Products are sent as IDs only"
         The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
-    1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
+    1. In ActiveCampaign, go to `Lists -> Manage fields` and click `Add Field`.
         ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-    2. Name each field appropriately. These fields will be categorized under `General Details`.
+    2. Give each field a name.
         ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-    3. These fields will be categorized under `General Details`.
+    3. ActiveCampaign files the new fields under `General Details`.
         ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-    3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
+    4. Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields. Every later contact from the quiz then carries this data.
         ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
 
-    After that, all the new contacts from the quiz will receive more custom information.
+    From then on, every new contact from the quiz carries the extra fields.
 
     ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
-
-
-
 
 
 ## Sending follow-up emails with ActiveCampaign
@@ -673,78 +652,66 @@ icon: material/bullhorn-outline
 === "Shopify"
 
 
-    To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
+    To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
 
-    To automate email communications based on quiz participation:
-
-    1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the custom properties you added to the contact profile via Webhooks.
-    3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
+    1. In ActiveCampaign, open the `Automations` menu and create a new automation.
+    2. Set a trigger on one of the custom properties that Webhooks added to the contact profile.
+    3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
 
 === "Shopify (Legacy)"
 
-    To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
+    To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
 
-    To automate email communications based on quiz participation:
-
-    1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the Product Recommendation Quiz by selecting the appropriate quiz under `Apps`.
+    1. In ActiveCampaign, open the `Automations` menu and create a new automation.
+    2. Set the trigger by selecting your quiz under `Apps`.
         ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
-    3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
+    3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
 === "WooCommerce"
 
 
-    To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
+    To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
 
-    To automate email communications based on quiz participation:
-
-    1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the Product Recommendation Quiz by selecting the appropriate quiz under `Apps`.
+    1. In ActiveCampaign, open the `Automations` menu and create a new automation.
+    2. Set the trigger by selecting your quiz under `Apps`.
         ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
-    3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
+    3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
 === "Magento"
 
 
-    To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
+    To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
 
-    To automate email communications based on quiz participation:
-
-    1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the Product Recommendation Quiz by selecting the appropriate quiz under `Apps`.
+    1. In ActiveCampaign, open the `Automations` menu and create a new automation.
+    2. Set the trigger by selecting your quiz under `Apps`.
         ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
-    3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
+    3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
 === "BigCommerce"
 
 
-    To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
+    To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
 
-    To automate email communications based on quiz participation:
-
-    1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the Product Recommendation Quiz by selecting the appropriate quiz under `Apps`.
+    1. In ActiveCampaign, open the `Automations` menu and create a new automation.
+    2. Set the trigger by selecting your quiz under `Apps`.
         ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
-    3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
+    3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
 === "Standalone"
 
 
-    To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
+    To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
 
-    To automate email communications based on quiz participation:
-
-    1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the Product Recommendation Quiz by selecting the appropriate quiz under `Apps`.
+    1. In ActiveCampaign, open the `Automations` menu and create a new automation.
+    2. Set the trigger by selecting your quiz under `Apps`.
         ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
-    3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
+    3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
 ### Adding recommended products to emails
@@ -752,57 +719,48 @@ icon: material/bullhorn-outline
 === "Shopify"
 
 
-    Unfortunately, for now, the only information about the recommended products we were able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
 
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
-
-
-=== "Shopify (Legacy)" 
+    To show any product in an ActiveCampaign email, first connect ActiveCampaign to Shopify. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
 
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+=== "Shopify (Legacy)"
 
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+
+    The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
+
+    To show any product in an ActiveCampaign email, first connect ActiveCampaign to Shopify. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
 
 === "WooCommerce"
 
 
+    The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
-
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to WooCommerce first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any product in an ActiveCampaign email, first connect ActiveCampaign to WooCommerce. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
 
 === "Magento"
 
 
+    The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
-
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Magento first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any product in an ActiveCampaign email, first connect ActiveCampaign to Magento. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
 
 === "BigCommerce"
 
 
+    The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
-
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to BigCommerce first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any product in an ActiveCampaign email, first connect ActiveCampaign to BigCommerce. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
 
 === "Standalone"
 
 
+    The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
-
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to your Google Product Catalog first.
+    To show any product in an ActiveCampaign email, first connect ActiveCampaign to your Google Product Catalog.
 
 
 ---
-This article explaina how to connect the quiz to ActiveCampaign, send leads to ActiveCampaign and send follow-up emails with ActiveCampaign.
-
-
-
- 
-
+This article explains how to connect a quiz to ActiveCampaign, send quiz leads there, and set up follow-up emails.
 
 

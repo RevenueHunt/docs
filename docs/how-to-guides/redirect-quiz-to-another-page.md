@@ -1,6 +1,6 @@
 ---
 icon: material/directions
-description: "Learn how to redirect quiz takers to another page after completing a RevenueHunt quiz."
+description: "Learn how to redirect a customer to another page after they finish a RevenueHunt quiz."
 ---
 
 # How to Redirect Quiz to Another Page

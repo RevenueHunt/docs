@@ -68,6 +68,7 @@ def prose_of(text):
     s = re.sub(r'^---\n.*?\n---\n', blank, s, flags=re.S)   # front matter
     s = re.sub(r'```.*?```', blank, s, flags=re.S)          # fenced code
     s = re.sub(r'<[^>]+>', blank, s, flags=re.S)            # raw html
+    s = re.sub(r'&[a-zA-Z]+;|&#[0-9]+;', ' ', s)            # html entities
     # confined to one line on purpose. a single stray backtick anywhere in a
     # page would otherwise flip the pairing for everything after it, and the
     # spans that then match are the prose between two labels

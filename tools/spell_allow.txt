@@ -112,6 +112,8 @@ viewport
 webhook
 whitelist
 whitelisting
+Django
+Unix
 
 # --- interface vocabulary
 checkbox
@@ -201,6 +203,7 @@ screenshot
 screenshotted
 rollout
 versa
+lowercased
 
 # --- ingredients and brands used in the skincare examples
 dosha
