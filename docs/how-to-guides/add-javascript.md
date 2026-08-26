@@ -1319,7 +1319,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
             // add the onclick function to the element
             element.onclick = function() {
-                // You'll need to implement retake functionality using V2 objects
+                // Implement retake with the window.quiz object
                 // For example, you could redirect to the quiz URL
                 window.location.href = window.location.href.split('#')[0] + '#quiz';
             }

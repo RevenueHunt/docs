@@ -234,6 +234,13 @@ LISTING_EXEMPT = 'install-app.md'
 # typo in one ships as a live 404. internal links must be relative.
 DOCS_HOST = 'https://docs.revenuehunt.com'
 
+# V2 and V1 are the internal names for the Built for Shopify app and the
+# legacy app. A merchant never sees either string, so neither belongs in a
+# published page. Imported from V1 is the one exception, because that is the
+# literal suffix the app writes into a migrated quiz name.
+INTERNAL_VERSION_RE = re.compile(r'\bV[12]\b')
+INTERNAL_VERSION_OK = ('Imported from V1',)
+
 COMPANY_RE = re.compile(r'\bRevenue\s?Hunt\b', re.I)
 COMPANY_SKIP = set('/\\.@-')
 # transposed or dropped letters, such as RevneuHunt, which COMPANY_RE misses
@@ -444,6 +451,16 @@ def check_file(path, root):
                 continue
             findings.append(Finding(i, 'company-name',
                                     got + " - the company is RevenueHunt"))
+
+        # the internal version names
+        for m in INTERNAL_VERSION_RE.finditer(prose):
+            window = prose[max(0, m.start() - 16):m.end()]
+            if any(ok in window for ok in INTERNAL_VERSION_OK):
+                continue
+            findings.append(Finding(
+                i, 'internal-name',
+                m.group(0) + ' is internal - name the app, such as the '
+                'Built for Shopify version or the legacy app'))
 
         # marketplace listing names belong only in the install article
         if not rel.endswith(LISTING_EXEMPT):

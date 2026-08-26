@@ -4574,7 +4574,7 @@ A discount gives customers a reason to act immediately after the quiz. It's simp
 
 A great quiz that's hard to find won't convert. Put it where customers already are. The most successful quizzes are published in **at least two locations**.
 
-☐ Add the quiz as an [**inline block**](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page) on your homepage or a dedicated landing page
+☐ Add the quiz as an [**inline block**](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) on your homepage or a dedicated landing page
 
 ☐ Set up an [**automatic popup**](/how-to-guides/publish-quiz-automatic-popup/) for first-time visitors
 
@@ -11771,30 +11771,30 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 --- WooCommerce Specific Content ---
 
-With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
-    - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
-    - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
+With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
+    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
+    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
     This feature can be implemented in two ways:
-    - either declaring JavaScript variables in your store’s source code (note: developer needed)
-    - passing URL parameters on a link to your store.
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
-    - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
-    - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
+    - Declare JavaScript variables in your store source code. This needs a developer.
+    - Pass URL parameters on a link to your store.
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
+    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
+    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
     This feature can be implemented in two ways:
-    - either declaring JavaScript variables in your store’s source code (note: developer needed)
-    - passing URL parameters on a link to your store.
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
-    - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
-    - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
+    - Declare JavaScript variables in your store source code. This needs a developer.
+    - Pass URL parameters on a link to your store.
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
+    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
+    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
     This feature can be implemented in two ways:
-    - either declaring JavaScript variables in your store’s source code (note: developer needed)
-    - passing URL parameters on a link to your store.
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
-    - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
-    - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
+    - Declare JavaScript variables in your store source code. This needs a developer.
+    - Pass URL parameters on a link to your store.
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
+    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
+    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
     This feature can be implemented in two ways:
-    - either declaring JavaScript variables in your store’s source code (note: developer needed)
-    - passing URL parameters on a link to your store.
+    - Declare JavaScript variables in your store source code. This needs a developer.
+    - Pass URL parameters on a link to your store.
 ## Option 1: declare window.prq_vars
     You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
     ```html
@@ -11808,19 +11808,19 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     </script>
     ```
     ### Example
-    **Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
-    **Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
-    1. You will first need to create a `Short Text` question to store the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy that question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Then in your main product page include the following script, so you can add some script like this to your product page:
+    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
+    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
+    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. Add this script to your product page:
     ```html
     <script>
-    window.prq_vars = {}; 
+    window.prq_vars = {};
     window.prq_vars.questionID = 'productID';
     </script>
     ```
-    That question will be automatically skipped if parameters have been passed, but note that if you use the quiz outside your product page you will need to also pass some “empty” parameter to that questionID otherwise it will be shown in the quiz.
-    This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
+    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
+    The `productID` parameter then tells you where the quiz was taken.
     You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
     ```html
     <script>
@@ -11833,19 +11833,19 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     </script>
     ```
     ### Example
-    **Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
-    **Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
-    1. You will first need to create a `Short Text` question to store the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy that question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Then in your main product page include the following script, so you can add some script like this to your product page:
+    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
+    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
+    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. Add this script to your product page:
     ```html
     <script>
-    window.prq_vars = {}; 
+    window.prq_vars = {};
     window.prq_vars.questionID = 'productID';
     </script>
     ```
-    That question will be automatically skipped if parameters have been passed, but note that if you use the quiz outside your product page you will need to also pass some “empty” parameter to that questionID otherwise it will be shown in the quiz.
-    This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
+    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
+    The `productID` parameter then tells you where the quiz was taken.
     You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
     ```html
     <script>
@@ -11858,19 +11858,19 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     </script>
     ```
     ### Example
-    **Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
-    **Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
-    1. You will first need to create a `Short Text` question to store the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy that question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Then in your main product page include the following script, so you can add some script like this to your product page:
+    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
+    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
+    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. Add this script to your product page:
     ```html
     <script>
-    window.prq_vars = {}; 
+    window.prq_vars = {};
     window.prq_vars.questionID = 'productID';
     </script>
     ```
-    That question will be automatically skipped if parameters have been passed, but note that if you use the quiz outside your product page you will need to also pass some “empty” parameter to that questionID otherwise it will be shown in the quiz.
-    This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
+    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
+    The `productID` parameter then tells you where the quiz was taken.
     You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
     ```html
     <script>
@@ -11883,22 +11883,22 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     </script>
     ```
     ### Example
-    **Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
-    **Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
-    1. You will first need to create a `Short Text` question to store the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy that question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Then in your main product page include the following script, so you can add some script like this to your product page:
+    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
+    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
+    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. Add this script to your product page:
     ```html
     <script>
-    window.prq_vars = {}; 
+    window.prq_vars = {};
     window.prq_vars.questionID = 'productID';
     </script>
     ```
-    That question will be automatically skipped if parameters have been passed, but note that if you use the quiz outside your product page you will need to also pass some “empty” parameter to that questionID otherwise it will be shown in the quiz.
-    This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
+    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
+    The `productID` parameter then tells you where the quiz was taken.
 ## Option 2: pass URL parameters
     URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-    In order to pre-fill certain quiz responses, you can pass the following URL parameters when linking to your store (eg. linking from a newsletter):
+    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
     ```html
     prq_name=John Doe
     prq_email=john.doe@gmail.com
@@ -11906,15 +11906,15 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     prq_cdRDCc=xDAwDe;aSEfBq
     // question ID - choices IDs separated by ;
     ```
-    In case of differences in the values declared in the `window.prq_vars` and the values passed via URL parameters, the URL parameters will prevail.
+    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
     ### Example
-    Here’s a link to our demo store **without passing parameters**. You’ll see that you have to fill in all the questions, including the name and email. Click on the following link and take the quiz:
+    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
-    On the other hand, in this other link we are passing URL parameters:
+    This link passes URL parameters:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
-    You’ll notice that if you take the quiz now, the “name” and “email” questions are pre-filled and skipped.
+    Take the quiz now, and the name and email questions are pre-filled and skipped.
     URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-    In order to pre-fill certain quiz responses, you can pass the following URL parameters when linking to your store (eg. linking from a newsletter):
+    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
     ```html
     prq_name=John Doe
     prq_email=john.doe@gmail.com
@@ -11922,15 +11922,15 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     prq_cdRDCc=xDAwDe;aSEfBq
     // question ID - choices IDs separated by ;
     ```
-    In case of differences in the values declared in the `window.prq_vars` and the values passed via URL parameters, the URL parameters will prevail.
+    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
     ### Example
-    Here’s a link to our demo store **without passing parameters**. You’ll see that you have to fill in all the questions, including the name and email. Click on the following link and take the quiz:
+    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
-    On the other hand, in this other link we are passing URL parameters:
+    This link passes URL parameters:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
-    You’ll notice that if you take the quiz now, the “name” and “email” questions are pre-filled and skipped.
+    Take the quiz now, and the name and email questions are pre-filled and skipped.
     URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-    In order to pre-fill certain quiz responses, you can pass the following URL parameters when linking to your store (eg. linking from a newsletter):
+    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
     ```html
     prq_name=John Doe
     prq_email=john.doe@gmail.com
@@ -11938,15 +11938,15 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     prq_cdRDCc=xDAwDe;aSEfBq
     // question ID - choices IDs separated by ;
     ```
-    In case of differences in the values declared in the `window.prq_vars` and the values passed via URL parameters, the URL parameters will prevail.
+    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
     ### Example
-    Here’s a link to our demo store **without passing parameters**. You’ll see that you have to fill in all the questions, including the name and email. Click on the following link and take the quiz:
+    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
-    On the other hand, in this other link we are passing URL parameters:
+    This link passes URL parameters:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
-    You’ll notice that if you take the quiz now, the “name” and “email” questions are pre-filled and skipped.
+    Take the quiz now, and the name and email questions are pre-filled and skipped.
     URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-    In order to pre-fill certain quiz responses, you can pass the following URL parameters when linking to your store (eg. linking from a newsletter):
+    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
     ```html
     prq_name=John Doe
     prq_email=john.doe@gmail.com
@@ -11954,13 +11954,13 @@ With the RevenueHunt app you can pre-fill the responses to certain questions in 
     prq_cdRDCc=xDAwDe;aSEfBq
     // question ID - choices IDs separated by ;
     ```
-    In case of differences in the values declared in the `window.prq_vars` and the values passed via URL parameters, the URL parameters will prevail.
+    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
     ### Example
-    Here’s a link to our demo store **without passing parameters**. You’ll see that you have to fill in all the questions, including the name and email. Click on the following link and take the quiz:
+    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
-    On the other hand, in this other link we are passing URL parameters:
+    This link passes URL parameters:
     [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
-    You’ll notice that if you take the quiz now, the “name” and “email” questions are pre-filled and skipped.
+    Take the quiz now, and the name and email questions are pre-filled and skipped.
 ---
 This article explains how to pass parameters to pre-fill quiz responses in the RevenueHunt quiz app.
 
@@ -11978,14 +11978,18 @@ icon: material/view-quilt-outline
 
 # How to Publish Quiz on GemPages Page
 
-GemPages lets you embed a RevenueHunt quiz directly into your landing pages and product pages through the built-in **Shopify App** element and the Shopify theme editor.
+GemPages lets you embed a RevenueHunt quiz into your landing pages and product pages. It uses the built-in **Shopify App** element and the Shopify theme editor.
 
 --- WooCommerce Specific Content ---
 
-Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
+!!! note "Platform Availability"
+        GemPages is a Shopify page builder, so this does not apply to WooCommerce.
+    !!! note "Platform Availability"
+        GemPages is a Shopify page builder, so this does not apply to Magento.
+    !!! note "Platform Availability"
+        GemPages is a Shopify page builder, so this does not apply to BigCommerce.
+    !!! note "Platform Availability"
+        GemPages is a Shopify page builder, so this does not apply to Standalone.
 ---
 This article explains how to publish a RevenueHunt quiz on a GemPages page in Shopify.
 
@@ -12005,12 +12009,16 @@ icon: material/butterfly-outline
 
 --- WooCommerce Specific Content ---
 
-Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
+!!! note "Platform Availability"
+        PageFly is a Shopify page builder, so this does not apply to WooCommerce.
+    !!! note "Platform Availability"
+        PageFly is a Shopify page builder, so this does not apply to Magento.
+    !!! note "Platform Availability"
+        PageFly is a Shopify page builder, so this does not apply to BigCommerce.
+    !!! note "Platform Availability"
+        PageFly is a Shopify page builder, so this does not apply to Standalone.
 ---
-This article explains how to publish a Revenue Hunt quiz on a PageFly page in Shopify.
+This article explains how to publish a RevenueHunt quiz on a PageFly page in Shopify.
 
 
 
@@ -12026,10 +12034,11 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This guide walks you through setting up automatic popups on your ecommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
+This article explains how to set up automatic popups on your store. It covers popups on the homepage, on a specific page and on all pages, exit intent, and how often a popup can appear.
 
-!!! info "What's an Automatic Popup?"
-    It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings. Automatic popups can significantly enhance user engagement by presenting timely content or interactive elements like quizzes. 
+!!! info "What is an Automatic Popup?"
+
+    It is a quiz popup that appears after X seconds. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 !!! warning
 
@@ -12037,14 +12046,15 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
 !!! note "Before you start"
 
-    Before you start ensure you have a quiz created with the RevenueHunt app, access to the theme editor and (optional) basic understanding of HTML for editing themes.
+    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor. A basic understanding of HTML helps when you edit a theme.
 
     *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
 
 ## Auto-popup on the main page
 
-!!! info "What's an Automatic Popup Quiz on the Main Page?"
-    It's a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
+!!! info "What is an Automatic Popup Quiz on the Main Page?"
+
+    It is a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 --- WooCommerce Specific Content ---
 
@@ -12059,22 +12069,22 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
-    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the automatic popup quiz will be visible on the main page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
@@ -12085,7 +12095,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the main page.
@@ -12093,8 +12103,8 @@ This guide walks you through setting up automatic popups on your ecommerce store
     6. Save the changes.
     7. From now on, the automatic popup quiz will be visible on the main page.
 ## Auto-popup on a specific page
-!!! info "What's an Automatic Popup Quiz on a Specific Page?"
-    It's a quiz popup that appears after X seconds on a specifc page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
+!!! info "What is an Automatic Popup Quiz on a Specific Page?"
+    It is a quiz popup that appears after X seconds on a specific page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
     1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     3. In WordPress, open `Pages` and find the page where you want the popup to show. Click `Edit` to open the page.
@@ -12106,22 +12116,22 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page` or open an existing page.
-    5. Edit the Page and open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page` or open an existing page.
+    5. Edit the Page and open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the automatic popup quiz will be visible on that page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page` or pen an existing page.
@@ -12132,7 +12142,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the page you want the quiz to show on.
@@ -12140,9 +12150,9 @@ This guide walks you through setting up automatic popups on your ecommerce store
     6. Save the changes.
     7. From now on, the automatic popup quiz will be visible on that page.
 ## Auto-popup on all pages
-!!! info "What's an Automatic Popup Quiz on All Pages?"
-    It's a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
-    1. **Install a Popup Plugin**: First, you'll need a plugin that can create and manage popups. Popular options include 'Popup Maker' or 'Elementor' if you're looking for something with more design flexibility. Install and activate your chosen plugin through the WordPress dashboard.
+!!! info "What is an Automatic Popup Quiz on All Pages?"
+    It is a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
+    1. **Install a Popup Plugin**: You need a plugin that creates and manages popups, such as Popup Maker or Elementor. Install and activate it from the WordPress dashboard.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     4. **Create a New Popup**: Navigate to the popup plugin's section in your WordPress dashboard. Select the option to create a new popup. Name your popup and start designing it. Most popup plugins offer a visual editor to customize the look and layout.
@@ -12153,21 +12163,21 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     1. **Find and Install a Popup Extension**: Search the Magento Marketplace for a popup extension that fits your needs. Extensions like "Magento 2 Popup Extension" by Mageplaza or similar can be used. Download and install the extension via Composer or by uploading it to your server.
     2. **Configure the Extension**: Once installed, navigate to the backend of your Magento store. Go to the extension settings via the admin panel. Here you can create a new popup and configure its settings.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Embed the Quiz**: In the popup configuration, insert the HTML or JavaScript code for your quiz. This could will be the code generated from your "Product Recommendation Quiz".
-    4. **Set Display Rules**: Configure the extension to show the popup on all pages. You might also set additional conditions like display timing, animation effects, and user interaction triggers (e.g., exit intent, time on site).
-    5. **Save and Test**: After setting up everything, save your changes and test the popup on your live site to ensure it works correctly across different pages and devices.
+    4. **Set Display Rules**: Configure the extension to show the popup on all pages. You can also set conditions such as display timing, animation, and triggers like exit intent or time on site.
+    5. **Save and Test**: Save your changes. Test the popup on your live site, on different pages and devices.
     **Using Script Manager**
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    1. **Access the Script Manager**: Log into your BigCommerce admin dashboard. Navigate to `Storefront` > `Script Manager`. 
+        Without it, the quiz does not load on your website.
+    1. **Access the Script Manager**: Log into your BigCommerce admin dashboard. Navigate to `Storefront` > `Script Manager`.
     2. **Create a New Script**: Click on `Create a Script`. Fill in the details:
     - Name: Give your script a name, e.g., "Product Recommendation Quiz".
     - Location on Page: Choose Footer to ensure the script loads at the end of the page, which is typical for popups.
@@ -12182,7 +12192,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     1. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Access the Theme Files**: Navigate to `Storefront` > `My Themes`. Click on `Advanced` > `Edit Theme Files`.
@@ -12193,7 +12203,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the option to edit your store's theme.
@@ -12201,85 +12211,85 @@ This guide walks you through setting up automatic popups on your ecommerce store
     6. Save the changes.
 ## FAQs
 ### Open a specific quiz
-    To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
 ### Show popup on exit intent
     1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    3. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).
+    3. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).      
+    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).  
+    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).      
+    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
 ### Repeated popup displays per session
     1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
+    3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).     
+    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
+    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
-    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).     
+    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
+    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
-    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).    
+    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
+    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
-    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).    
+    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
 ### The quiz you are looking for does not exist
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
@@ -12287,7 +12297,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     4. Save the changes and refresh the page.
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
@@ -12295,7 +12305,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     4. Save the changes and refresh the page.
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
@@ -12303,14 +12313,14 @@ This guide walks you through setting up automatic popups on your ecommerce store
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     4. Save the changes and refresh the page.
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
     1. Make sure you have added our embed.js script to the page via a custom HTML element.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     2. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     3. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    4. Save the changes and refresh the page.   
+    4. Save the changes and refresh the page.
 ---
 By following these steps, you can enhance your ecommerce store's interactivity and user engagement through well-timed automatic popups.
 
@@ -12328,19 +12338,21 @@ icon: material/chat-outline
 
 # How to Add a Quiz Popup via a Chat-Like Button on Your Store
 
-This guide provides step-by-step instructions on how to implement a chat button that opens the quiz feature, offering both theme-based and manual methods.
+This article explains how to add a chat button that opens the quiz. It covers both the theme-based method and the manual one.
 
-!!! info "What's a Chat Button?"
-    It's a button that opens the quiz popup when clicked. You can improve your Shopify / ecommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
+!!! info "What is a Chat Button?"
+
+    It is a button that opens the quiz popup when a customer clicks it.
 
 !!! note "Before you start"
 
-    Before you start ensure you have a quiz created with the RevenueHunt app and access to the theme editor.
+    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor.
 
 ## Chat button on the homepage
 
-!!! info "What's a Chat Button on the Homepage?"
-    It's a chat-like button that shows up on the homepage of your store and when clicked opens the quiz popup.
+!!! info "What is a Chat Button on the Homepage?"
+
+    It is a chat-like button that appears on the homepage of your store. Clicking it opens the quiz popup.
 
 --- WooCommerce Specific Content ---
 
@@ -12355,24 +12367,24 @@ This guide provides step-by-step instructions on how to implement a chat button 
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
-    3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.  
+    3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.
     4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
-    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the chat icon popup quiz will be visible on the main page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
-    3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.  
+    3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
     5. Switch to the `HTML` editor. Paste the HTML code copied from the app.
     6. Save the changes.
@@ -12381,23 +12393,23 @@ This guide provides step-by-step instructions on how to implement a chat button 
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
-    3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.  
+    3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.
     4. In your store customization options find the main page.
     5. Find a `Custom HTML` element. In the element settings paste the code copied from the app.
     6. Save the changes.
     7. From now on, the chat icon popup quiz will be visible on the main page.
 ## Chat button on all pages
-!!! info "What's a Chat Button on All Pages?"
-    It's a chat-like button that shows up on all pages of your store and when clicked opens the quiz popup.
-    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
-    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
-    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
-    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+!!! info "What is a Chat Button on All Pages?"
+    It is a chat-like button that appears on all pages of your store. Clicking it opens the quiz popup.
+    To show the chat button across your whole store, follow [Option 2: manual](#option-2-manual). Insert the code before the `</body>` closing tag in your theme.
+    To show the chat button across your whole store, follow [Option 2: manual](#option-2-manual). Insert the code before the `</body>` closing tag in your theme.
+    To show the chat button across your whole store, follow [Option 2: manual](#option-2-manual). Insert the code before the `</body>` closing tag in your theme.
+    To show the chat button across your whole store, follow [Option 2: manual](#option-2-manual). Insert the code before the `</body>` closing tag in your theme.
 ## Chat button on a specific page
-!!! info "What's a Chat Button on a Specific Page?"
-    It's a chat-like button that shows up on a specific page of your store and when clicked opens the quiz popup.
+!!! info "What is a Chat Button on a Specific Page?"
+    It is a chat-like button that appears on a specific page of your store. Clicking it opens the quiz popup.
     1. **Obtain Chat Button Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     2. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     3. In WordPress, open `Pages` and find the page where you want the popup to show. Click `Edit` to open the page.
@@ -12409,22 +12421,22 @@ This guide provides step-by-step instructions on how to implement a chat button 
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Chat Button Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     3. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page` or open an existing page.
-    5. Edit the Page and open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page` or open an existing page.
+    5. Edit the Page and open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the chat button will be visible on that page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Chat Button Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     3. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page` or pen an existing page.
@@ -12435,7 +12447,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Chat Button Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     3. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the page you want the quiz to show on.
@@ -12444,13 +12456,13 @@ This guide provides step-by-step instructions on how to implement a chat button 
     7. From now on, the chat button will be visible on that page.
 ## FAQs
 ### Open a specific quiz
-    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+    To open a specific quiz as a chat button, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To open a specific quiz as a chat button, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To open a specific quiz as a chat button, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To open a specific quiz as a chat button, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
 ### The quiz you are looking for does not exist
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
@@ -12458,7 +12470,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     4. Save the changes and refresh the page.
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
@@ -12466,7 +12478,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     4. Save the changes and refresh the page.
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
@@ -12474,14 +12486,14 @@ This guide provides step-by-step instructions on how to implement a chat button 
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     4. Save the changes and refresh the page.
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
     1. Make sure you have added our embed.js script to the page via a custom HTML element.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     2. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     3. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    4. Save the changes and refresh the page.   
+    4. Save the changes and refresh the page.
 ---
 By following these instructions, you can successfully add a chat-like button to your Shopify/ecommerce store that opens a quiz popup.
 
@@ -12499,29 +12511,27 @@ icon: material/email-fast-outline
 
 # How to Get an External Quiz Link for Emails and Newsletters
 
-This guide walks you through the process of creating an external quiz link that can be embedded in emails and newsletters. This is an effective way to engage your subscribers by incorporating interactive content directly into your email marketing campaigns.
+This article explains how to create an external quiz link for emails and newsletters.
 
-!!! info "What's an Email Link?"
-    It's a direct link to the quiz for emails.
-    
+!!! info "What is an Email Link?"
+
+    It is a direct link to the quiz, for use in an email.
 
 There are two ways to create an external link to your quiz for emails and newsletters:
 
 - [Link to Dedicated Quiz Page](#quiz-on-a-dedicated-landing-page) ⬅️ recommended for most marketing campaigns
 
-    A quiz is embeded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`). 
-    
-    Embeded quizzes allow better tracking and analytics.
+    A quiz is embedded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`).
+
+    An embedded quiz gives you better tracking and analytics.
 
 - [Link Popup](#link-popup-for-emails)
 
     A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
 
-
-
 ## Quiz on a dedicated landing page
 
-!!! info "What's an inline quiz on a dedicated landing page?"
+!!! info "What is an inline quiz on a dedicated landing page?"
 
     An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
 
@@ -12538,22 +12548,22 @@ There are two ways to create an external link to your quiz for emails and newsle
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-    4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page`.
-    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page`.
+    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page`.
@@ -12564,7 +12574,7 @@ There are two ways to create an external link to your quiz for emails and newsle
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the `Pages` menu and create a new page.
@@ -12574,9 +12584,9 @@ There are two ways to create an external link to your quiz for emails and newsle
 !!! tip
     You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
 ## Link popup for emails
-!!! info "What's a Link Popup?"
-    It's a direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
+!!! info "What is a Link Popup?"
+    It is a direct link, such as `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile.
     2. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
@@ -12584,8 +12594,8 @@ There are two ways to create an external link to your quiz for emails and newsle
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile.
     3. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     5. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
@@ -12593,8 +12603,8 @@ There are two ways to create an external link to your quiz for emails and newsle
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile.
     3. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     5. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
@@ -12602,55 +12612,55 @@ There are two ways to create an external link to your quiz for emails and newsle
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile.
     3. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. Edit the link URL to add your website URL. It should look like this `https://yourwebsite.com/#quiz-QUIZID/`. This link is now ready to be shared via email.
     5. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
 ## FAQs
 ### Open a specific quiz
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
 ### The quiz you are looking for does not exist
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*        
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*                     
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-    1. Ensure you've added the following embed.js script to your website. Without it, the quiz won't be loaded on your website.
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
+    1. Add the embed.js script below to your website. Without it, the quiz does not load.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    4. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
+    4. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
 ---
 This article explains how to share a quiz created with RevenueHunt Quizzes app within your emails and newsletters.
 
@@ -12668,28 +12678,27 @@ icon: material/share-variant
 
 # How to Get an External Quiz Link for Social Media
 
-This guide will show you how to generate an external quiz link suitable for sharing your quizon social media platforms like TikTok, X, Instagram, and Facebook.
+This article explains how to create an external quiz link that you can share on social media, such as TikTok, X, Instagram and Facebook.
 
-!!! info "What's an External Quiz Link?"
+!!! info "What is an External Quiz Link?"
 
-    It's a link that opens the quiz on your website when clicked.
+    It is a link that opens the quiz on your website.
 
 There are two ways to create an external link to your quiz for social media:
 
 - [Link to Dedicated Quiz Page](#quiz-on-a-dedicated-landing-page) ⬅️ recommended for most marketing campaigns
 
-    A quiz is embeded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`). 
-    
-    Embeded quizzes allow better tracking and analytics.
+    A quiz is embedded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`).
+
+    An embedded quiz gives you better tracking and analytics.
 
 - [Link Popup](#link-popup-for-socials)
 
     A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
 
-
 ## Quiz on a dedicated landing page
 
-!!! info "What's an inline quiz on a dedicated landing page?"
+!!! info "What is an inline quiz on a dedicated landing page?"
 
     An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
 
@@ -12706,22 +12715,22 @@ There are two ways to create an external link to your quiz for social media:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-    4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page`.
-    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page`.
+    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page`.
@@ -12732,7 +12741,7 @@ There are two ways to create an external link to your quiz for social media:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the `Pages` menu and create a new page.
@@ -12742,83 +12751,83 @@ There are two ways to create an external link to your quiz for social media:
 !!! tip
     You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
 ## Link popup for socials
-!!! info "What's a Link Popup?"
-    It's a direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile. 
-    2. **Customize Popup Dimensions**: Set the width and height according to your preference or the requirements of the social media platform you intend to use.
-    3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared to your social media.
-    4. **Share on Social Media**: Copy the generated link. Paste this link into your social media posts on Twitter, Instagram, Facebook, or any other platform you wish to use.
+!!! info "What is a Link Popup?"
+    It is a direct link, such as `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile.
+    2. **Customize Popup Dimensions**: Set the width and height to suit the social media platform you plan to use.
+    3. **Generate popup link**: Click `Get the code` to create your quiz link. The link is then ready to share.
+    4. **Share on Social Media**: Copy the link. Paste it into your posts on X, Instagram, Facebook or any other platform.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile. 
-    3. **Customize Popup Dimensions**: Set the width and height according to your preference or the requirements of the social media platform you intend to use.
-    4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared to your social media.
-    5. **Share on Social Media**: Copy the generated link. Paste this link into your social media posts on Twitter, Instagram, Facebook, or any other platform you wish to use.
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile.
+    3. **Customize Popup Dimensions**: Set the width and height to suit the social media platform you plan to use.
+    4. **Generate popup link**: Click `Get the code` to create your quiz link. The link is then ready to share.
+    5. **Share on Social Media**: Copy the link. Paste it into your posts on X, Instagram, Facebook or any other platform.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile. 
-    3. **Customize Popup Dimensions**: Set the width and height according to your preference or the requirements of the social media platform you intend to use.
-    4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared to your social media.
-    5. **Share on Social Media**: Copy the generated link. Paste this link into your social media posts on Twitter, Instagram, Facebook, or any other platform you wish to use.
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile.
+    3. **Customize Popup Dimensions**: Set the width and height to suit the social media platform you plan to use.
+    4. **Generate popup link**: Click `Get the code` to create your quiz link. The link is then ready to share.
+    5. **Share on Social Media**: Copy the link. Paste it into your posts on X, Instagram, Facebook or any other platform.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile. 
-    3. **Customize Popup Dimensions**: Set the width and height according to your preference or the requirements of the social media platform you intend to use.
-    4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. Edit the link URL to add your website URL. It should look like this `https://yourwebsite.com/#quiz-QUIZID/`. This link is now ready to be shared to your social media.
-    5. **Share on Social Media**: Copy the generated link. Paste this link into your social media posts on Twitter, Instagram, Facebook, or any other platform you wish to use.
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile.
+    3. **Customize Popup Dimensions**: Set the width and height to suit the social media platform you plan to use.
+    4. **Generate popup link**: Click `Get the code` to create your quiz link. Add your own website URL, so it reads `https://yourwebsite.com/#quiz-QUIZID/`. The link is then ready to share.
+    5. **Share on Social Media**: Copy the link. Paste it into your posts on X, Instagram, Facebook or any other platform.
 ## FAQs
 ### Open a specific quiz
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
-    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
+    For example, `https://yourstore.myshopify.com/#quiz-123` opens one quiz, and `https://yourstore.myshopify.com/#quiz-456` opens another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
-    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
+    For example, `https://yourstore.myshopify.com/#quiz-123` opens one quiz, and `https://yourstore.myshopify.com/#quiz-456` opens another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
-    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
+    For example, `https://yourstore.myshopify.com/#quiz-123` opens one quiz, and `https://yourstore.myshopify.com/#quiz-456` opens another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
-    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
+    For example, `https://yourstore.myshopify.com/#quiz-123` opens one quiz, and `https://yourstore.myshopify.com/#quiz-456` opens another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
 ### The quiz you are looking for does not exist
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*        
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*                     
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-    1. Ensure you've added the following embed.js script to your website. Without it, the quiz won't be loaded on your website.
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+    If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
+    1. Add the embed.js script below to your website. Without it, the quiz does not load.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    4. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
+    4. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
 ---
 This article explains how to share a quiz created with RevenueHunt Quizzes app within your social media posts.
 
@@ -12836,9 +12845,9 @@ icon: material/page-layout-body
 
 # How to Embed an Inline Quiz on Your Store
 
-This guide provides step-by-step instructions for embedding an inline quiz on various sections of your store, including the homepage, a new page, a specific collection page, and how to manage the quiz's size and autoscroll behavior.
+This article explains how to embed an inline quiz on your store: on the homepage, on a dedicated landing page, or on a collection page. It also covers the size of the quiz and its auto-scroll behavior.
 
-!!! info "What's an Inline Quiz?"
+!!! info "What is an Inline Quiz?"
 
     An inline quiz is a quiz embedded directly into a page (an element on the page).
 
@@ -12864,12 +12873,12 @@ In short, to embed an inline quiz on your store, you need to:
     - Generate an embed code from the `Share` section of the app
     - Paste the embed code into  an HTML element of the page where you want the quiz to show.
 ## Embed an inline quiz on the homepage
-!!! info "What's an inline quiz on the homepage?"
-    An inline quiz on the homepage is a quiz embedded directly into the homepage. Place the quiz on your homepage to start collecting leads from first-time visitors.
+!!! info "What is an inline quiz on the homepage?"
+    An inline quiz on the homepage is a quiz embedded directly into the homepage. Place the quiz on your homepage to collect leads from a first-time customer.
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
-    4. In the editor, find a `Custom HTML` element and add it to the page in a place where you want the quiz to show.
+    4. In the editor, add a `Custom HTML` element where you want the quiz to appear.
     5. In the element, paste the code copied from the app.
     6. Save the changes and `update` the page.
     7. From now on, the inline quiz will be visible on the main page.
@@ -12877,22 +12886,22 @@ In short, to embed an inline quiz on your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
-    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on the main page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
@@ -12903,7 +12912,7 @@ In short, to embed an inline quiz on your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the main page.
@@ -12911,7 +12920,7 @@ In short, to embed an inline quiz on your store, you need to:
     6. Save the changes.
     7. From now on, the inline quiz will be visible on the main page.
 ## Embed an inline quiz on a dedicated landing page
-!!! info "What's an inline quiz on a dedicated landing page?"
+!!! info "What is an inline quiz on a dedicated landing page?"
     An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
@@ -12924,22 +12933,22 @@ In short, to embed an inline quiz on your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-    4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page`.
-    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page`.
+    5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page`.
@@ -12950,7 +12959,7 @@ In short, to embed an inline quiz on your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the `Pages` menu and create a new page.
@@ -12960,39 +12969,39 @@ In short, to embed an inline quiz on your store, you need to:
 !!! tip
     You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
 ## Embed an inline quiz on a specific collection/category
-!!! info "What's an inline quiz on a specific collection/category?"
+!!! info "What is an inline quiz on a specific collection/category?"
     An inline quiz on a specific collection/category is a quiz widget embedded directly into a specific collection/category page in your store.
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-    3. Follow [these instructions](https://woocommerce.com/document/allow-html-in-term-category-tag-descriptions/) to enable HTML in category descriptions. 
-    3. Go back to your WordPress dashboard. Open `WooCommerce`> `Products`> `Categories`. 
+    3. Follow [these instructions](https://woocommerce.com/document/allow-html-in-term-category-tag-descriptions/) to enable HTML in category descriptions.
+    3. Go back to your WordPress dashboard. Open `WooCommerce`> `Products`> `Categories`.
     4. Select a category and click `Edit`. Paste the code copied from the app in the description field.
-    5. Save the changes. 
+    5. Save the changes.
     6. From now on, the inline quiz will be visible on that category page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-    4. In your Magento dashbaord go to `Catalog` > `Categories`. Select a category.
-    5. Open the `Content` tab. Click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Catalog` > `Categories`. Select a category.
+    5. Open the `Content` tab. Click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
     8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
+    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that category page.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Products` > `Product Categories`. Select a category and open it.
-    5. Under `Category Details` > `Description` switch to the `HTML` editor. 
+    5. Under `Category Details` > `Description` switch to the `HTML` editor.
     6. Paste the HTML code copied from the app.
     7. Save the changes.
     8. From now on, the inline quiz will be visible on that category page.
@@ -13000,7 +13009,7 @@ In short, to embed an inline quiz on your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the `Product Categories` menu and open the category settings.
@@ -13010,87 +13019,87 @@ In short, to embed an inline quiz on your store, you need to:
     7. From now on, the inline quiz will be visible on that category page.
 ## FAQs
 ### Embed a specific quiz
-    To embed a specific quiz, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To embed a specific quiz, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To embed a specific quiz, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    To embed a specific quiz, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+    To embed a specific quiz, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To embed a specific quiz, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To embed a specific quiz, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    To embed a specific quiz, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
 ### Fixing the size of the inline quiz
 To prevent the quiz from adjusting size based on content, manually set a fixed width and height in the quiz settings or embed code.
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. **Configure Quiz Settings**: Set a desired quiz height and check the `Fixed size` option.
     3. **Get new code**: Click `Get code` and copy the new HTML embed code.
-    4. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
+    4. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. **Configure Quiz Settings**: Set a desired quiz height and check the `Fixed size` option.
     4. **Get new code**: Click `Get code` and copy the new HTML embed code.
-    5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).    
+    5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. **Configure Quiz Settings**: Set a desired quiz height and check the `Fixed size` option.
     4. **Get new code**: Click `Get code` and copy the new HTML embed code.
-    5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).    
+    5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. **Configure Quiz Settings**: Set a desired quiz height and check the `Fixed size` option.
     4. **Get new code**: Click `Get code` and copy the new HTML embed code.
-    5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
-### Preventing autoscroll in inline quiz
+    5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
+### Preventing auto-scroll in inline quiz
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. **Get new code**: Click `Get code` and copy the new HTML embed code.
     3. **Adjust Embed Code**: Add `data-autoscroll="false"` to the quiz's embed code to prevent automatic scrolling when the quiz is interacted with. For example:
         ```html
         <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/dbqHqN" data-autoscroll="false" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
         ```
-    4. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
+    4. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. **Get new code**: Click `Get code` and copy the new HTML embed code.
     4. **Adjust Embed Code**: Add `data-autoscroll="false"` to the quiz's embed code to prevent automatic scrolling when the quiz is interacted with. For example:
         ```html
         <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/dbqHqN" data-autoscroll="false" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
         ```
-    5. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
+    5. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. **Get new code**: Click `Get code` and copy the new HTML embed code.
     4. **Adjust Embed Code**: Add `data-autoscroll="false"` to the quiz's embed code to prevent automatic scrolling when the quiz is interacted with. For example:
         ```html
         <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/dbqHqN" data-autoscroll="false" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
         ```
-    5. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
+    5. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
+        Without it, the quiz does not load on your website.
     2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. **Get new code**: Click `Get code` and copy the new HTML embed code.
     4. **Adjust Embed Code**: Add `data-autoscroll="false"` to the quiz's embed code to prevent automatic scrolling when the quiz is interacted with. For example:
         ```html
         <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/dbqHqN" data-autoscroll="false" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
         ```
-    5. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
+    5. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
 ### The quiz you are looking for does not exist
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
     If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
@@ -13124,7 +13133,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
         ```
     2. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     3. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    4. Save the changes and refresh the page.   
+    4. Save the changes and refresh the page.
 ---
 By following these steps, you can successfully integrate an interactive inline quiz into your Shopify store.
 
@@ -13142,35 +13151,34 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This guide will walk you through the process of setting up a **Quiz Link Popup** on your ecommerce store. 
+This guide will walk you through the process of setting up a **Quiz Link Popup** on your ecommerce store.
 
-!!! info "What's a Link Popup?"
+!!! info "What is a Link Popup?"
 
-    Link Popup allows your customers to access a quiz through a popup by clicking on a link within your site's navigation menu, a button, a banner or any page or blog post. It's a great way to engage visitors and collect valuable data.
+    A Link Popup opens the quiz in a popup when a customer clicks a link. The link can sit in your navigation menu, on a button, a banner, a page or a blog post.
 
-
-!!! note 
+!!! note
     Before you start, ensure you have a quiz created and the necessary permissions to edit themes, pages and navigation settings
 
 --- WooCommerce Specific Content ---
 
 In short, to add a link popup to your store, you need to:
     - Generate a link popup code from the `Share` section of the app
-    - Paste the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
+    - Paste the link into a navigation menu item, a button, a banner, a page or a blog post.
     In short, to add a link popup to your store, you need to:
     - Generate a link popup code from the `Share` section of the app
-    - Paste the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
+    - Paste the link into a navigation menu item, a button, a banner, a page or a blog post.
     In short, to add a link popup to your store, you need to:
     - Generate a link popup code from the `Share` section of the app
-    - Paste the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
+    - Paste the link into a navigation menu item, a button, a banner, a page or a blog post.
     In short, to add a link popup to your store, you need to:
     - Generate a link popup code from the `Share` section of the app
-    - Paste the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
+    - Paste the link into a navigation menu item, a button, a banner, a page or a blog post.
 ## Link popup in website menu
 ### On every page
-!!! info "What's a Link Popup in menu that opens on every page?"
-    It's a link that will open the quiz as a popup over any page in your store when a link in the navigation menu is clicked.
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+!!! info "What is a Link Popup in menu that opens on every page?"
+    It is a link in the navigation menu that opens the quiz as a popup, over any page in your store.
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     2.  Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     3. Go to the `Appearance` tab and open the `Menus`.
     4. Pick a menu and add a `Custom Link`. Paste the copied link into the `URL` section and edit the link text, for example, you can call it "Coffee Quiz".
@@ -13180,20 +13188,20 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your `Catalog > Categories` and follow [Adobe instructions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) to create a new menu level or a custom menu item. Use the link copied from the app to create this menu item.
-    5. Remember to save the changes. 
+    5. Remember to save the changes.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your `Storefront > Web Pages` menu and click `Create a Web Page`.
-    5. Under `Page Type` select that This Page Will `Link to Another website or document`. 
+    5. Under `Page Type` select that This Page Will `Link to Another website or document`.
     6. Under `Web Page Details` use the Quiz Name as `Page Name` then paste the link copied from the app in the `Link` field.
     7. Under `Navigation Menu Options` tick the box to show this web page on the navigation menu. Choose a Parent Page if you like or leave with No Parent Page.
     5. Remember to save the changes with `Save & Exit`.
@@ -13201,20 +13209,20 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your ecommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 ### On a specific page
-!!! info "What's a Link Popup in menu that opens on a specific page?"
-    It's a link that will open the quiz as a popup over a specific page **only** (or any page that carries the same template) when a link in the navigation menu is clicked.
+!!! info "What is a Link Popup in menu that opens on a specific page?"
+    It is a link in the navigation menu that opens the quiz as a popup, over one page **only**. Any page on the same template also counts.
     1. Add the following embed.js script to a specific page template in your store.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     2.  Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     3. Go to the `Appearance` tab and open the `Menus`.
     4. Pick a menu and add a `Custom Link`. Paste the copied link into the `URL` section and edit the link text, for example, you can call it "Coffee Quiz".
@@ -13224,20 +13232,20 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your `Catalog > Categories` and follow [Adobe instructions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) to create a new menu level or a custom menu item. Use the link copied from the app to create this menu item.
-    5. Remember to save the changes. 
+    5. Remember to save the changes.
     1. Add the following embed.js script to a specific page template in your store.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your `Storefront > Web Pages` menu and click `Create a Web Page`.
-    5. Under `Page Type` select that This Page Will `Link to Another website or document`. 
+    5. Under `Page Type` select that This Page Will `Link to Another website or document`.
     6. Under `Web Page Details` use the Quiz Name as `Page Name` then paste the link copied from the app in the `Link` field.
     7. Under `Navigation Menu Options` tick the box to show this web page on the navigation menu. Choose a Parent Page if you like or leave with No Parent Page.
     5. Remember to save the changes with `Save & Exit`.
@@ -13245,16 +13253,16 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your ecommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 ## Link popup as "take the quiz" button
 ### On home page
-!!! info "What's a Link Popup that opens via a button on every page?"
-    It's a link that will open the quiz as a popup over every page in your store when a button is clicked.
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+!!! info "What is a Link Popup that opens via a button on every page?"
+    It is a button that opens the quiz as a popup, over every page in your store.
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     2. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     3. In WordPress, go to `Pages` and find the page that corresponds to the Front Page. Click 'Edit'.
     4. In the WordPress Page Builder add a `Buttons` block. This will automatically add one button to your page builder.
@@ -13266,23 +13274,23 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-    4. In your Magento dashbaord go to `Content` > `Blocks`. Click `Add New Block`.
-    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
+    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Buttons`. Drag the button onto the Row.
     8. Edit the Button Text and click the gear icon to open `button settings`.
-    9. Under `Button Link` paste the link copied from the app. 
+    9. Under `Button Link` paste the link copied from the app.
     10. Remember to save the changes.
     11. From now on, whenever someone clicks on the button, a quiz popup will open.
     1. Add the following embed.js script before the `</head>` close tag in the header.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
     5. Switch to the `HTML` editor. Find the place where you want to add the button and add the following HTML code. Remember to replace the `#quiz-QUIZID` with the link copied from the app.
@@ -13295,8 +13303,8 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In your store customization options find the main page.
     5. Find the place where you want to add the button and find the button element. Add button text and paste the link copied from the app.
@@ -13307,14 +13315,14 @@ In short, to add a link popup to your store, you need to:
     6. Save the changes.
     7. From now on, whenever someone clicks on the button, a quiz popup will open.
 ### On a specific page
-!!! info "What's a Link Popup that opens via a button on a specific page?"
-    It's a link that will open the quiz as a popup over a specific page (only) when a button is clicked.
+!!! info "What is a Link Popup that opens via a button on a specific page?"
+    It is a button that opens the quiz as a popup, over one page only.
     1. Add the following embed.js script to a specific page template in your store.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     2. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     3. In WordPress, go to `Pages` and find the page that corresponds to the Front Page. Click 'Edit'.
     4. In the WordPress Page Builder add a `Buttons` block. This will automatically add one button to your page builder.
@@ -13326,23 +13334,23 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-    4. In your Magento dashbaord go to `Content` > `Blocks`. Click `Add New Block`.
-    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
-    6. Select `Elements` > `Rows` and drag a row into the canvas. 
+    4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
+    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`.
+    6. Select `Elements` > `Rows` and drag a row into the canvas.
     7. Next open `Buttons`. Drag the button onto the Row.
     8. Edit the Button Text and click the gear icon to open `button settings`.
-    9. Under `Button Link` paste the link copied from the app. 
+    9. Under `Button Link` paste the link copied from the app.
     10. Remember to save the changes.
     11. From now on, whenever someone clicks on the button, a quiz popup will open.
     1. Add the following embed.js script to a specific page template in your store.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
     5. Switch to the `HTML` editor. Find the place where you want to add the button and add the following HTML code. Remember to replace the `#quiz-QUIZID` with the link copied from the app.
@@ -13355,8 +13363,8 @@ In short, to add a link popup to your store, you need to:
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
+        Without it, the quiz does not load on your website.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In your store customization options find the main page.
     5. Find the place where you want to add the button and find the button element. Add button text and paste the link copied from the app.
@@ -13368,31 +13376,31 @@ In short, to add a link popup to your store, you need to:
     7. From now on, whenever someone clicks on the button, a quiz popup will open.
 ## FAQs
 ### Open a specific quiz
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
     For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
     !!! info "Quiz ID"
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
         Keep in mind that the Quiz ID is case-sensitive.
 ### Popup displays behind website header
-If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This can be fixed either from the app settings or from your website's theme.
+The quiz popup can appear behind your website header, or the `X` closing button can be hidden. That usually means the header has an unusually high z-index. Fix it in the app settings, or in your theme.
     If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
     - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML block on the page where the quiz popup is shown. Here's a sample code:
+    - **Move the `X` closing sign lower.** Custom HTML and CSS can move the `X` lower on the popup. Add it to your theme, or to an empty HTML block on the page that shows the popup. Here is a sample:
         ```html
         <style>
         .rh-widget span {
@@ -13400,10 +13408,10 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    - **Publish the quiz inline with a page instead.** Publish the quiz inline on a new page in your store. The quiz is then part of that page, and you can link to it from anywhere on your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
     If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
     - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme. Here's a sample code:
+    - **Move the `X` closing sign lower.** Custom HTML and CSS can move the `X` lower on the popup. Add it to your theme. Here is a sample:
         ```html
         <style>
         .rh-widget span {
@@ -13411,10 +13419,10 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    - **Publish the quiz inline with a page instead.** Publish the quiz inline on a new page in your store. The quiz is then part of that page, and you can link to it from anywhere on your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
     If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
     - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme. Here's a sample code:
+    - **Move the `X` closing sign lower.** Custom HTML and CSS can move the `X` lower on the popup. Add it to your theme. Here is a sample:
         ```html
         <style>
         .rh-widget span {
@@ -13422,10 +13430,10 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    - **Publish the quiz inline with a page instead.** Publish the quiz inline on a new page in your store. The quiz is then part of that page, and you can link to it from anywhere on your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
     If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
     - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme. Here's a sample code:
+    - **Move the `X` closing sign lower.** Custom HTML and CSS can move the `X` lower on the popup. Add it to your theme. Here is a sample:
         ```html
         <style>
         .rh-widget span {
@@ -13433,27 +13441,27 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    - **Publish the quiz inline with a page instead.** Publish the quiz inline on a new page in your store. The quiz is then part of that page, and you can link to it from anywhere on your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 ### Linking to multiple quizzes
 In some cases, you might want to have links to different quizzes on the same page. This section explains how to set up multiple quiz links for different platforms.
     For WooCommerce, each quiz has its own unique link code:
     1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
-    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    2. Open the [`Link` tab](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
     3. Click on `Get the code` to copy the unique link for each quiz.
     4. Add these links to different menu items, buttons, or page elements as needed.
     For Magento, each quiz has its own unique link code:
     1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
-    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    2. Open the [`Link` tab](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
     3. Click on `Get the code` to copy the unique link for each quiz.
     4. Add each unique link to different menu items, buttons, or page elements.
     For BigCommerce, each quiz has its own unique link code:
     1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
-    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    2. Open the [`Link` tab](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
     3. Click on `Get the code` to copy the unique link for each quiz.
     4. Add these links to different web pages, menu items, buttons, or other elements as needed.
     For standalone implementations, each quiz has its own unique link code:
     1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
-    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    2. Open the [`Link` tab](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
     3. Click on `Get the code` to copy the unique link for each quiz.
     4. Add these links to different menu items, buttons, or page elements as needed.
 ### The quiz you are looking for does not exist
@@ -13461,23 +13469,23 @@ In some cases, you might want to have links to different quizzes on the same pag
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*        
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
     1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    3. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*                     
+    3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-    1. Ensure you've added the following embed.js script to your website. Without it, the quiz won't be loaded on your website.
+    1. Add the embed.js script below to your website. Without it, the quiz does not load.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-    4. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   
+    4. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
 ---
 This article explains how to publish a quiz created with RevenueHunt Quizzes app as a Link Popup on your website.
 
@@ -13495,55 +13503,135 @@ description: "Comprehensive guide to publishing your RevenueHunt quiz via popups
 
 # How to Publish a Quiz on Your Website
 
-After you've prepared your quiz, connected product collections to responses and customized its design to match your store's branding, you're ready to make it live. 
+You have prepared your quiz, connected product collections to responses and matched its design to your store. Now you can make it live.
 
-This guide will walk you through the process of sharing your quiz with your customers in a manner that aligns with your store's style and enhances their shopping experience.
+This article explains the ways you can share your quiz with your customers.
 
-## Select your display option
+<svg viewBox="0 0 440 584" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:440px; height:auto; display:block; margin:1.5em auto;" role="img" aria-labelledby="pqt pqd" preserveAspectRatio="xMidYMid meet">
+  <title id="pqt">The six ways to publish a quiz</title>
+  <desc id="pqd">Four options put the quiz on your store. Inline sits in the page. A link popup opens on a click. A chat button popup opens from a floating button. An automatic popup opens on a timer. Two more options give you a link to share elsewhere: a social media link and an email link.</desc>
+  <g font-family="system-ui, sans-serif">
+    <text x="10" y="16" font-size="12" font-weight="700" letter-spacing="1.2" fill="#904E95">ON YOUR STORE</text>
+    <g transform="translate(0 28)">
+      <rect x="10" y="0" width="420" height="76" rx="12" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"/>
+      <g transform="translate(30 18)">
+        <rect x="2" y="2" width="30" height="36" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"/>
+        <rect x="7" y="9" width="20" height="3" rx="1.5" fill="currentColor" fill-opacity=".3"/>
+        <rect x="7" y="16" width="20" height="10" rx="2" fill="#904E95"/>
+        <rect x="7" y="30" width="20" height="3" rx="1.5" fill="currentColor" fill-opacity=".3"/>
+      </g>
+      <text x="90" y="32" font-size="17" font-weight="700" fill="currentColor">Inline</text>
+      <text x="90" y="56" font-size="13.5" fill="currentColor" fill-opacity=".7">part of the page</text>
+    </g>
+    <g transform="translate(0 114)">
+      <rect x="10" y="0" width="420" height="76" rx="12" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"/>
+      <g transform="translate(30 18)">
+        <rect x="2" y="2" width="30" height="36" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"/>
+        <rect x="7" y="7" width="12" height="2.5" rx="1.25" fill="#904E95"/>
+        <rect x="9" y="14" width="26" height="20" rx="3" fill="none" stroke="#904E95" stroke-width="2"/>
+      </g>
+      <text x="90" y="32" font-size="17" font-weight="700" fill="currentColor">Link popup</text>
+      <text x="90" y="56" font-size="13.5" fill="currentColor" fill-opacity=".7">opens on a click</text>
+    </g>
+    <g transform="translate(0 200)">
+      <rect x="10" y="0" width="420" height="76" rx="12" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"/>
+      <g transform="translate(30 18)">
+        <rect x="2" y="2" width="30" height="36" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"/>
+        <circle cx="28" cy="31" r="7.5" fill="#904E95"/>
+      </g>
+      <text x="90" y="32" font-size="17" font-weight="700" fill="currentColor">Chat button popup</text>
+      <text x="90" y="56" font-size="13.5" fill="currentColor" fill-opacity=".7">opens from a floating button</text>
+    </g>
+    <g transform="translate(0 286)">
+      <rect x="10" y="0" width="420" height="76" rx="12" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"/>
+      <g transform="translate(30 18)">
+        <rect x="2" y="2" width="30" height="36" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"/>
+        <circle cx="27" cy="13" r="9" fill="none" stroke="#904E95" stroke-width="2"/>
+        <path d="M27 8 v5.5 l4 2.5" fill="none" stroke="#904E95" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text x="90" y="32" font-size="17" font-weight="700" fill="currentColor">Automatic popup</text>
+      <text x="90" y="56" font-size="13.5" fill="currentColor" fill-opacity=".7">opens on a timer</text>
+    </g>
+    <text x="10" y="396" font-size="12" font-weight="700" letter-spacing="1.2" fill="#904E95">SHARE A LINK</text>
+    <g transform="translate(0 408)">
+      <rect x="10" y="0" width="420" height="76" rx="12" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"/>
+      <g transform="translate(30 18)">
+        <circle cx="9" cy="20" r="5" fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="1.5"/>
+        <circle cx="28" cy="9" r="5" fill="#904E95"/>
+        <circle cx="28" cy="31" r="5" fill="#904E95"/>
+        <line x1="13.5" y1="17.5" x2="23.5" y2="11.5" stroke="currentColor" stroke-opacity=".5" stroke-width="1.5"/>
+        <line x1="13.5" y1="22.5" x2="23.5" y2="28.5" stroke="currentColor" stroke-opacity=".5" stroke-width="1.5"/>
+      </g>
+      <text x="90" y="32" font-size="17" font-weight="700" fill="currentColor">Social media link</text>
+      <text x="90" y="56" font-size="13.5" fill="currentColor" fill-opacity=".7">paste into a post</text>
+    </g>
+    <g transform="translate(0 494)">
+      <rect x="10" y="0" width="420" height="76" rx="12" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.5"/>
+      <g transform="translate(30 18)">
+        <rect x="3" y="9" width="30" height="22" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"/>
+        <path d="M4 12 L18 23 L32 12" fill="none" stroke="#904E95" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      </g>
+      <text x="90" y="32" font-size="17" font-weight="700" fill="currentColor">Email link</text>
+      <text x="90" y="56" font-size="13.5" fill="currentColor" fill-opacity=".7">paste into a newsletter</text>
+    </g>
+  </g>
+</svg>
 
-Your quiz can be presented on your store in several ways, each with its advantages:
+## On your store
+
+These four options put the quiz in front of a customer who is already browsing.
+
+### Inline
+
+The quiz sits in the content of a page, like any other section.
+
+**Pick this when** you want a dedicated landing page to send paid traffic to.
+
+[How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/)
 
 ### Link popup
 
-A clickable link that opens the quiz in a popup overlay on your page.
+A link in your navigation menu, or on any page, opens the quiz in an overlay.
 
-- **Purpose**: For engaging users through clickable links on navigation menus or any page.
-- **Implementation Guide**: [Adding a Quiz Link Popup](/how-to-guides/publish-quiz-link/).
+**Pick this when** you want the quiz reachable from anywhere without giving it space on the page.
 
-### Embedded inline
-
-Directly embed the quiz within a page's content. Ideal for a dedicated landing page.
-
-- **Purpose**: Ideal for a dedicated landing page to attract traffic via paid ads.
-- **Implementation Guide**: [Embedding the Quiz Inline](/how-to-guides/publish-quiz-inline/).
-
-### Automatic popup
-
-The quiz automatically appears as a popup after a visitor spends a certain amount of time on a page.
-
-- **Purpose**: To capture attention after visitors spend a preset time on a page.
-- **Implementation Guide**: [Setting Up an Automatic Quiz Popup](/how-to-guides/publish-quiz-automatic-popup/).
-
-### External quiz link
-
-Share a direct link to the quiz on social media platforms.
-
-- **Purpose**: For social media posts to engage users.
-- **Implementation Guide**: [Creating an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/).
-
-### Email quiz link
-
-Incorporate a quiz link in your emails or newsletters.
-
-- **Purpose**: To engage users directly through email marketing.
-- **Implementation Guide**: [Generating an Email Popup Link](/how-to-guides/publish-quiz-email-link/).
+[How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/)
 
 ### Chat button popup
 
-Trigger a quiz popup through a chat-like button interaction.
+A small floating button sits in the corner of every page and opens the quiz in an overlay.
 
-- **Purpose**: To interactively engage visitors through a chat-like interface.
-- **Implementation Guide**: [Adding a Chat Button Popup](/how-to-guides/publish-quiz-chat-button/).
+**Pick this when** you want a standing invitation that does not interrupt.
+
+[How to Add a Quiz Popup via a Chat-Like Button on Your Store](/how-to-guides/publish-quiz-chat-button/)
+
+### Automatic popup
+
+The quiz opens by itself after a customer spends a set time on a page.
+
+**Pick this when** you want to catch attention without waiting for a click.
+
+[How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/)
+
+## Share a link
+
+These two options give you a link that sends a customer to the quiz from somewhere else.
+
+### Social media link
+
+A direct link to the quiz that you paste into a post or a profile.
+
+**Pick this when** you drive traffic from TikTok, X, Instagram or Facebook.
+
+[How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/)
+
+### Email link
+
+A link to the quiz that you paste into an email or a newsletter.
+
+**Pick this when** you want subscribers to take the quiz from their inbox.
+
+[How to Get an External Quiz Link for Emails and Newsletters](/how-to-guides/publish-quiz-email-link/)
 
 
 

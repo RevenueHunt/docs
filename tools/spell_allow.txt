@@ -40,6 +40,9 @@ hubspot
 zapier
 fiverr
 upwork
+elementor
+mageplaza
+gempages
 pagefly
 pagespeed
 cpanel

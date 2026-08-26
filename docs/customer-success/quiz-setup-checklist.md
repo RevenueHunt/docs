@@ -135,7 +135,7 @@ A discount gives customers a reason to act immediately after the quiz. It's simp
 
 A great quiz that's hard to find won't convert. Put it where customers already are. The most successful quizzes are published in **at least two locations**.
 
-☐ Add the quiz as an [**inline block**](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page) on your homepage or a dedicated landing page
+☐ Add the quiz as an [**inline block**](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) on your homepage or a dedicated landing page
 
 ☐ Set up an [**automatic popup**](/how-to-guides/publish-quiz-automatic-popup/) for first-time visitors
 

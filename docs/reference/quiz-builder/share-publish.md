@@ -476,7 +476,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
 
-        Follow the step by step instructions provided in our [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#on-a-specific-page) to add an automatic popup to your website.
+        Follow the step by step instructions provided in our [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#auto-popup-on-a-specific-page) to add an automatic popup to your website.
 
     !!! warning "Note"
 
@@ -884,7 +884,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
 
-        Follow the step by step instructions provided in our [How to Set Up Chat Button Popups on a Specific Page](/how-to-guides/publish-quiz-chat-button/#on-a-specific-page) to add a chat popup to your website.
+        Follow the step by step instructions provided in our [How to Set Up Chat Button Popups on a Specific Page](/how-to-guides/publish-quiz-chat-button/#chat-button-on-a-specific-page) to add a chat popup to your website.
 
 
 === "Shopify (Legacy)" 

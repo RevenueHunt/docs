@@ -119,6 +119,15 @@ or when the legacy version must be distinguished:
 Inside a platform tab the qualifier is usually redundant, because the reader
 already knows which platform they are in. Do not repeat it in every tab.
 
+**Never write V2 or V1.** They are internal names for the two app versions and
+a merchant never sees either string. Write **the `💎Built for Shopify` version
+of the RevenueHunt app** and **the legacy app**. When a sentence has already
+named the version, "this integration" or "the app" carries it.
+
+The one exception is `(Imported from V1)`, the literal suffix the app writes
+into the name of a migrated quiz. That is what the merchant sees on screen, so
+it is quoted, not our terminology.
+
 **Never use a marketplace listing name as the subject of a sentence.** Listing
 names are marketplace search strings, they change without notice, and
 *Quiz Builder for WooCommerce* collides with **Quiz builder**, our own term for
