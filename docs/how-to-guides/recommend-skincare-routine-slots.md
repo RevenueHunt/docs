@@ -5,9 +5,9 @@ description: "Learn how to recommend personalized skincare routines using Revenu
 
 # How to Recommend a Skincare Routine with Slots
 
-With RevenueHunt Product Recommendation Quiz, you can group products into slots and recommend a product for each step in a beauty routine.
+The RevenueHunt app can group products into slots, and recommend a product for each step in a beauty routine.
 
-This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations. 
+This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
 
 === "Shopify"
 
@@ -51,35 +51,35 @@ A personalized skincare routine recommendation quiz was chosen as an example to 
 
 ## Step 1: understand recommendation mechanism
 
-Make sure that you're familiar with [how the recommendations work](/how-to-guides/recommend-products/) in RevenueHunt app.
+Make sure you are familiar with [how the recommendations work](/how-to-guides/recommend-products/) in RevenueHunt app.
 
 ??? question "How do I get the right recommendations?"
 
-    Our product recommendation algorithm works like a voting system:
+    The recommendation algorithm works like a voting system:
 
     - Products are linked to each choice
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products.
+    - If there is a draw in the number of votes, the app will randomize the order of products.
 
     If you want to make the results ultra-precise, you can also:
 
     - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-    - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+    - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-It's advised to familiarize yourself with this [voting system](/how-to-guides/recommend-products/#voting-system) before working with Product Slots.
+Familiarize yourself with the [voting system](/how-to-guides/set-up-funnel-quiz/#voting-system) before you work with Product Slots.
 
 ## Step 2: organize products into collections/categories
 
 === "Shopify"
 
-    To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
+    To group products into slots, create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example, 
-        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products, 
-        - a *Serums* collection should have all the serums, etc. 
+    2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example,
+        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products,
+        - a *Serums* collection should have all the serums, etc.
         - You can have more than one collection that includes some of the same products.
 
         ![how to recommend slots cleansers collection](/images/how_to_recommend_slots_cleansers_collection.png)
@@ -87,75 +87,75 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
 
 === "Shopify (Legacy)"
 
-    To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
+    To group products into slots, create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example, 
-        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products, 
-        - a *Serums* collection should have all the serums, etc. 
+    2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example,
+        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products,
+        - a *Serums* collection should have all the serums, etc.
         - You can have more than one collection that includes some of the same products.
 
         ![how to recommend slots cleansers collection](/images/how_to_recommend_slots_cleansers_collection.png)
 
-    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update the RevenueHunt app with the latest product collections.
 
 === "WooCommerce"
 
-    To group products into slots, you’ll need to create new categories in your WooCommerce store. These categories will be used to group your products on the results page.
+    To group products into slots, create new categories in your WooCommerce store. These categories will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Categories**: For each category, [create a category in your WooCommerce store](https://woocommerce.com/document/managing-product-taxonomies/#product-categories) with the right products. Each category should only contain products relevant to its category. For example, 
-        - a *Cleansers* category should have all the cleansing products, 
-        - a *Toners* category should have all the toning products, 
-        - a *Serums* category should have all the serums, etc. 
+    2. **Create Categories**: For each category, [create a category in your WooCommerce store](https://woocommerce.com/document/managing-product-taxonomies/#product-categories) with the right products. Each category should only contain products relevant to its category. For example,
+        - a *Cleansers* category should have all the cleansing products,
+        - a *Toners* category should have all the toning products,
+        - a *Serums* category should have all the serums, etc.
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update the RevenueHunt app with the latest product collections.
 
 === "Magento"
 
-    To group products into slots, you’ll need to create new categories in your Magento store. These categories will be used to group your products on the results page.
+    To group products into slots, create new categories in your Magento store. These categories will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Categories**: For each category, [create a category in your Magento store](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories) with the right products. Each category should only contain products relevant to its category. For example, 
-        - a *Cleansers* category should have all the cleansing products, 
-        - a *Toners* category should have all the toning products, 
-        - a *Serums* category should have all the serums, etc. 
+    2. **Create Categories**: For each category, [create a category in your Magento store](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories) with the right products. Each category should only contain products relevant to its category. For example,
+        - a *Cleansers* category should have all the cleansing products,
+        - a *Toners* category should have all the toning products,
+        - a *Serums* category should have all the serums, etc.
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update the RevenueHunt app with the latest product collections.
 
 === "BigCommerce"
 
-    To group products into slots, you’ll need to create new categories in your BigCommerce store. These categories will be used to group your products on the results page.
+    To group products into slots, create new categories in your BigCommerce store. These categories will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Categories**: For each category, [create a category in your BigCommerce store](https://support.bigcommerce.com/s/article/Product-Categories?language=en_US) with the right products. Each category should only contain products relevant to its category. For example, 
-        - a *Cleansers* category should have all the cleansing products, 
-        - a *Toners* category should have all the toning products, 
-        - a *Serums* category should have all the serums, etc. 
+    2. **Create Categories**: For each category, [create a category in your BigCommerce store](https://support.bigcommerce.com/s/article/Product-Categories?language=en_US) with the right products. Each category should only contain products relevant to its category. For example,
+        - a *Cleansers* category should have all the cleansing products,
+        - a *Toners* category should have all the toning products,
+        - a *Serums* category should have all the serums, etc.
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update the RevenueHunt app with the latest product collections.
 
 === "Standalone"
 
-    To group products into slots, you’ll need to create new collections in your Standalone account's [Catalogue](/reference/dashboard/#success-checklist). These collections will be used to group your products on the results page.
+    To group products into slots, create new collections in your Standalone account's [Catalogue](/reference/dashboard/#success-checklist). These collections will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Collections**: For each category, create a collection in your Standalone account via the [Catalogue](/reference/dashboard/#success-checklist) tab or a Google Product Feed with the right products. Each collection should only contain products relevant to its category. For example, 
-        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products, 
-        - a *Serums* collection should have all the serums, etc. 
+    2. **Create Collections**: For each category, create a collection in your Standalone account. Use the [Catalogue](/reference/dashboard/#success-checklist) tab or a Google Product Feed. Each collection should only contain products relevant to its category. For example,
+        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products,
+        - a *Serums* collection should have all the serums, etc.
         - You can have more than one collection that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update the RevenueHunt app with the latest product collections.
 
 ## Step 3: build the quiz
 
 1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz).
-2. **Choose a template**: Choose a pre-defined template or start from scratch. *Tip: There’s are Basic and Advanced Skincare Quiz templates already available.*
+2. **Choose a template**: Choose a pre-defined template or start from scratch. *Tip: There are Basic and Advanced Skincare Quiz templates already available.*
 3. **Name your quiz**: The name can be edited later.
-4.  **Add slides**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/). Add questions to your quiz that will help the customer determine their skincare routine. To add a question, click the `+ Add question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown/menu.
+4. **Add slides**: The [Quiz Builder](/reference/quiz-builder/) then opens. Add questions to your quiz that will help the customer determine their skincare routine. To add a question, click the `+ Add question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown/menu.
 
 ## Step 4: link products to choices
 
@@ -163,7 +163,7 @@ Once your quiz is set up, you should add products and collections to the choices
 
 === "Shopify"
 
-    1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
+    1. **Go to Link Products/Collections tab**: Open [Questions](/reference/quiz-builder/questions/) and select a multiple-choice question. Pick a choice, then open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
@@ -212,74 +212,74 @@ Once your quiz is set up, you should add products and collections to the choices
 
     1. **Edit the Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product block**: Use the `+` button to add a `Product Block` to the Results page.
-    3. **Add Slots**: Open the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Product Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection that's added in the segment field.
+    5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. That is what displays recommendations. A slot can only show the most-voted products from the collection added in the segment field.
 
         ![how to recommend slots slot block](/images/how_to_shopifyV2_recommend_routine_with_slots.png)
-    6. **Choose Product number**: In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Product Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 
 === "Shopify (Legacy)"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
-    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 === "WooCommerce"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
-    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 === "Magento"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
-    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 === "BigCommerce"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
-    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 === "Standalone"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
-    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 ## Step 6: test and troubleshoot
 
-Now that the slots are built and product/collections are linked to each choice, you can test the quiz. To test the quiz, you'll have to save the changes and preview it.
+Now that the slots are built and the products are linked to each choice, you can test the quiz. Save the changes, then preview it.
 
 1. **Publish the changes**: Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz.
-2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-3. **Troubleshoot results**: Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in the `Metrics > Responses` section to understand why specific products were recommended or missing from the recommendations. 
+2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
+3. **Troubleshoot results**: Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in the `Metrics > Responses` section to understand why specific products were recommended or missing from the recommendations.
 
     !!! tip
         Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
 
 ---
-This article explains how to set up a quiz that recommends products organized into different categories on the results page, for example, a skincare routine based on the customer's answers.
+This article explains how to set up a quiz that recommends products in steps on the results page, such as a skincare routine.

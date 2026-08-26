@@ -6751,7 +6751,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 !!! tip "Tutorial"
 
- 	Follow our [introduction video tutorial](/tutorials/getting-started/) to get a quick overview of the app.
+ 	Follow the [introduction video tutorial](/tutorials/getting-started/) to get a quick overview of the app.
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -6770,7 +6770,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
     ??? question "How do I get the right recommendations?"
-        Our product recommendation algorithm works like a voting system:
+        The recommendation algorithm works like a voting system:
         - Products are linked to each choice
         - When a customer picks a choice, all linked products receive one vote
         - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
@@ -6778,7 +6778,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - If two products draw on votes, the app randomizes their order.
         If you want to make the results ultra-precise, you can also:
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
     To test the quiz, save your changes and preview it.
     1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. This does not add the quiz to your website. It saves your changes so you can preview the quiz.
@@ -8484,7 +8484,7 @@ In short, to add a link popup to your store, you need to:
         ![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take the quiz".
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field and then click on `Save`.
         ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Click `Save` to apply the changes to your navigation menu.
@@ -8698,56 +8698,56 @@ description: "Learn how to create a RevenueHunt product matrix to recommend prod
 icon: material/grid
 ---
 
-# How to recommend products that match multiple criteria (matrix)
+# How to Recommend Products That Match Multiple Criteria
 
-This article outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
+This article outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations.
 
-It describes a step-by-step process involving creating product collections, linking products, and using a voting system algorithm to prioritize product suggestions, catering to complex customer profiles and ensuring personalized recommendations.
+It covers creating product collections, linking products to choices, and the voting system that ranks the recommendations.
 
 ## Simple product matrix
 
 --- Shopify (Legacy) Specific Content ---
 
-Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+Say you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
     This means that your product matrix looks something like this:
     | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
     |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
     | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
-    You can start building your quiz. 
-    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
-    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
-    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+    You can start building your quiz.
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`.
+    2. **Name the quiz**: Name the quiz. The [Quiz Builder](/reference/quiz-builder/) then opens.
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer.
         - The first question is about the client’s age.
         ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
         - The second question is about client’s skin type.
         ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
-    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+    Link the collections you made in [Step 2: create collections/categories](#step-2-create-collectionscategories) to the choices in the quiz.
     1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to choices as shown below.
+    2. **Link Collections/Categories to choices**: Link each collection or category to a choice.
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
-    For the products to show on the Results Page, you need to add a `Products Block`. 
+    For the products to show on the Results Page, you need to add a `Products Block`.
     1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
-    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
-    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
-    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+    2. **Add a Product Block**: Click `+` to add a block. Select `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: This matrix needs a limit of 4. Open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations. Look at the matrix below.
     ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
     The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
-    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
-    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+    For this complex matrix, creating separate collections for each outcome is possible, but there is also an alternative. Instead, pick one of the factors and branch the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). That lets you show the customer the same questions, and link different products to each branch, therefore resulting in different outcomes.
+    Here is an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branching factor:
     ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
-    The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
+    The Jump Logic for branching is applied to *Question 2*, the skin type question.
     ![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
     ![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
     And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
     ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
-    This setup allows you to link different products to the same questions leading to different results, while maintaining the same customer experience.
+    This setup lets you link different products to the same questions, so the results differ while the customer experience stays the same.
     !!! tip
         Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
     !!! warning
-        A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
-        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
-        In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+        A lot of conditional logic slows down the quiz builder app. It does not affect the quiz as the customer sees it.
+        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There is no limit to how many quizzes can be published on your website.
+        In the example above, you can create 4 quizzes, one per skin type. You can also create a quiz for each age group.
 
 
 
@@ -8763,38 +8763,28 @@ icon: material/checkbox-multiple-marked-outline
 
 # How to Recommend Products Based on Number of User Choices
 
-??? question "Do I need advanced technical skills to set this up?"
+This article explains how to recommend a different group of products depending on how many choices the user selects.
 
-    While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+The quiz cannot do this on its own. The method below adds a hidden choice for each possible outcome, then uses custom JavaScript to pick the right one.
 
-## How do I recommend products based on the number of user choices?
+!!! note "Before you start"
 
-The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+    This is not plug-and-play. If you are not familiar with JavaScript and CSS, ask a developer for help.
 
-1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
-2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
-3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+## Set up the recommendations
 
-## How can I ensure that users don’t see the choices in the last question?
+--- Shopify (Legacy) Specific Content ---
 
-You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-
-## Where do I input the custom JavaScript code?
-
-[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
-
-![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
-
-The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
-
-## How can I identify the selected choices from each slide or question with JavaScript?
-
-To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
-
-![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
-
----
-This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
+1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per collection.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+        ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    6. **Click `Publish`** to update the preview and the live quiz.
+    To see the choice IDs selected for each slide, open the JavaScript console and search for them:
+    ![Choice IDs for a slide in the JavaScript console](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+    Type `prq.quizSlides()` in the console to list every slide with its ID. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
 
 
 
@@ -8814,12 +8804,12 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 --- Shopify (Legacy) Specific Content ---
 
-Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
+An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
     ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
     To make recommendations work, **use multiple choice or dropdown questions**. Instead of asking for a number, offer predefined numbers or ranges.
     !!! example "Example - Age Ranges"
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
         - Under 20
         - 21–30
         - 31–40
@@ -8836,9 +8826,10 @@ Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#
     - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
     This helps users select a range easily while ensuring you offer relevant products.
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 
 
@@ -8854,7 +8845,7 @@ description: "Learn how RevenueHunt product recommendation algorithm works and h
 
 # How to Recommend Products
 
-Our solution takes into account your customer's choices to offer highly personalized product recommendations. 
+The RevenueHunt app takes into account your customer's choices to offer highly personalized product recommendations.
 
 This guide explains how to recommend products with the RevenueHunt app, the underlying algorithm and proposes solutions for complex quizzes.
 
@@ -8862,40 +8853,38 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 --- Shopify (Legacy) Specific Content ---
 
-RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**. 
-    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](/how-to-guides/recommend-skincare-routine-slots/).
-    Follow these steps to set up product recommendations in your Product Recommendation Quiz:
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
+The RevenueHunt app can show on the results page **product variants**, **main products** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**.
+    The RevenueHunt app **cannot recommend collections** of products, though you can [only recommend products from a specific collection](/how-to-guides/recommend-skincare-routine-slots/).
+    Follow these steps to set up product recommendations in your quiz:
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products.
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block.
         !!! tip
             Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
-    3. **Add a Product Block**: Products can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
+    3. **Add a Product Block**: A `Product Block` shows products as a list. A `Product Slot Block` shows them in steps. For a first quiz, use a `Product Block`.
         - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
             ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
-        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        - **Product Slot Blocks** show the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.*
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz.
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you created in a new window.
             !!! note
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section. It shows why a product was recommended, or why it was missing.
         !!! tip
             Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
         - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
-    By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
+    Link product variants and collections to quiz choices, and understand the inclusion and exclusion logic. The algorithm then offers precise recommendations.
     Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
     <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
-    If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
+    If you use a legacy version of the RevenueHunt app for Shopify with Recharge Subscriptions, see [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/).
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
     For other subscription apps check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
-    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
-    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
-    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
+    That makes a "personality-type" quiz hard to build in the legacy app.
+    For a legacy version of the RevenueHunt app, on any platform, see the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
 
 
@@ -8913,11 +8902,11 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 --- Shopify (Legacy) Specific Content ---
 
-Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
     To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
     !!! example "Example - Bra Size Quiz"
         Instead of "Enter your underbust measurement", use a dropdown:
@@ -8932,20 +8921,20 @@ Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear
     Once you use finite answer choices, you can:
     - [Upvote](/reference/quiz-builder/link-products/) specific products, variants, or collections to each choice
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the customer's selection
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
     Before opening the quiz builder:
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
     !!! tip "Use an AI assistant to generate the mapping"
         If you carry many size variants, mapping them manually is tedious. Share your full product list with an AI assistant (like ChatGPT, Claude, or Gemini) and ask it to generate the mapping for you.
         Try a prompt like:
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
     **A tiebreaker question must have two properties:**
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
     !!! example "Example - Body Frame as a Tiebreaker"
         For a bra quiz, "How would you describe your overall body frame?" works well:
         - Petite / small frame → votes for all 28, 30, 32 band sizes
@@ -8954,9 +8943,9 @@ Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear
         - Plus / fuller frame → votes for all 38, 40, 42, 44 band sizes
         These lists are written in advance and never change. The question is answerable without knowing anything about the customer's measurements.
     !!! warning "Avoid questions whose answers depend on other questions"
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 
 
@@ -8973,7 +8962,7 @@ description: "Learn how to recommend personalized skincare routines using Revenu
 
 # How to Recommend a Skincare Routine with Slots
 
-With RevenueHunt Product Recommendation Quiz, you can group products into slots and recommend a product for each step in a beauty routine.
+The RevenueHunt app can group products into slots, and recommend a product for each step in a beauty routine.
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
 
@@ -8982,24 +8971,24 @@ This guide is designed to help merchants effectively use [Product Slot Blocks](/
 <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
+    To group products into slots, create new collections in your Shopify store. These collections will be used to group your products on the results page.
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-    2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example, 
-        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products, 
-        - a *Serums* collection should have all the serums, etc. 
+    2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example,
+        - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products,
+        - a *Serums* collection should have all the serums, etc.
         - You can have more than one collection that includes some of the same products.
         ![how to recommend slots cleansers collection](/images/how_to_recommend_slots_cleansers_collection.png)
-    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update the RevenueHunt app with the latest product collections.
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
-    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
+    3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
+    6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
 
 
@@ -9015,48 +9004,43 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 # How to Recommend Subscription Products
 
-This guide explains how to integrate and recommend subscription products with RevenueHunt app.
+This article explains how to recommend subscription products, so a customer can subscribe straight from the results page.
 
-Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your ecommerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
+On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign). On WooCommerce it works with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
 
-However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
+![A recommended subscription product on the results page](/images/how_to_recommend_subscription_products_sample_product.png)
 
-If you're using a subscription app that is not supported, you can still recommend subscription products to your users by sending them to a single-time payment product page from the quiz results using [this workaround](#other-subscriptions). This will allow your users to subscribe to the product from the product page.
+!!! note "Platform Availability"
 
-![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png)
+    BigCommerce and Magento cannot show subscription products on the results page. The same applies to any Shopify or WooCommerce subscription app that is not on the list above. See [Other subscriptions](#other-subscriptions) for a workaround.
 
-
-!!! warning
-
-    RevenueHunt app currently integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
-
-## ReCharge subscriptions
+## Shopify and Recharge subscriptions
 
 --- Shopify (Legacy) Specific Content ---
 
 !!! warning "Before you start"
-        - Ensure you are using the [Recharge Plus version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Plus version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
+        - Ensure you are using the [Recharge Plus version](https://getrecharge.com/pricing/) to access the Storefront API. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
         - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
-    Here’s how to connect your ReCharge subscriptions to your RevenueHunt app:
+    To connect your ReCharge subscriptions to the RevenueHunt app:
     1. **Open the RevenueHunt App:** Start by accessing your account on the app.
     2. **Navigate and Connect:** In your quiz dashboard, select the [Connect](/reference/quiz-builder/connect-integrations/) tab. Scroll down to the **ReCharge** section and click on the `connect` button.
-    3. **Sync the store**: Go to your dashboard > [success checklist](/reference/dashboard/#success-checklist) and run a [catalog sync](/how-to-guides/sync-catalog/). The sync can take up to 30 - 60 minutes.
-    4. **Link Products to Quiz Choices:** In the [Link Products](/reference/quiz-builder/link-products/) tab, associate your ReCharge subscription products with the corresponding choices. 
-    5. **Publish Your Changes:** After linking the products, don’t forget to hit the `Publish` button to update the preview/live quiz.
+    3. **Sync the store**: Go to your dashboard > [success checklist](/reference/dashboard/#success-checklist) and run a [catalog sync](/how-to-guides/sync-catalog/). The sync can take 30 to 60 minutes.
+    4. **Link Products to Quiz Choices:** In the [Link Products](/reference/quiz-builder/link-products/) tab, associate your ReCharge subscription products with the corresponding choices.
+    5. **Publish Your Changes:** Click `Publish` to update the preview and the live quiz.
     Integrating ReCharge with Shopify enhances your ability to recommend subscription products, but there are limitations and best practices to consider:
-    - It is not possible to add all products to the cart with a single button; each subscription has to be chosen and added separately.
-    - The subscription duration can only be chosen on the results page. It is not possible to recommend a specific subscription duration.
+    - You cannot add all products to the cart with one button. Each subscription has to be chosen and added separately.
+    - The subscription duration is chosen on the results page. You cannot recommend a specific duration.
     - The customer needs to proceed to the cart first and cannot proceed to checkout directly with subscription products. You can change this in the [checkout settings](/how-to-guides/change-checkout-settings/).
-    - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [ReCharge migration guide](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
+    - The app works with the **new Shopify Checkout** only. The old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [ReCharge migration guide](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
     Not applicable.
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
     **Step 1: Link One-Time Payment Products to Quiz Choices**
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. A choice that used to lead to a subscription product then matches its one-time equivalent.
     **Step 2: Adjust Checkout Settings**
     1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
-    2. **Change Checkout Settings**: Change the [Checkout Settings](/how-to-guides/change-checkout-settings/) from “Add to cart” to “Link to product.” This adjustment ensures that instead of adding the product directly to their shopping cart, customers will be directed to the product page on your website.
+    2. **Change Checkout Settings**: In [Checkout Settings](/how-to-guides/change-checkout-settings/), change “Add to cart” to “Link to product”. The customer is then sent to the product page rather than to the cart.
     As a result, the buyers will go directly to the product page and can subscribe there.
 
 
@@ -9073,24 +9057,24 @@ description: "Learn how to redirect quiz takers to another page after completing
 
 # How to Redirect Quiz to Another Page
 
-In this guide, we'll explore several methods to redirect your customers to another page following the completion of a quiz. Below, you'll find detailed steps for implementing page redirection using various techniques within a quiz environment.
+This article explains three ways to send a customer to another page after they finish a quiz.
 
 ## Using jump logic for conditional redirection
 
-[Jump Logic](/how-to-guides/use-jump-logic/) offers a dynamic way to direct customers to specific URLs based on their quiz interactions. Here's how to implement it:
+[Jump Logic](/how-to-guides/use-jump-logic/) sends a customer to a specific URL, based on the answers they gave. To set it up:
 
 --- Shopify (Legacy) Specific Content ---
 
-1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
+1. **Open the Conditional Logic tab**: In the [Quiz Builder](/reference/quiz-builder/), open [Conditional Logic](/reference/quiz-builder/conditional-logic/). Select the last question, or whichever question should trigger the redirect. In the menu that opens, go to the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab.
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
-    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection works correctly.
     Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
     !!! warning
-          To do this, you'll need basic knowledge of JavaScript and handling JSON data.
+        To do this, you need basic knowledge of JavaScript and JSON.
     1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
-    2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
-    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
+    2. **Store and Redirect**: Store the results locally, in the browser local storage or cookies. Then redirect the customer to your custom Results Page.
+    3. **Access the Results Page First**: The callback fires when the results page is reached. The page has to load, even for a fraction of a second, for the data to transfer. The callback then saves the quiz response as JSON in local storage or cookies, before any redirect.
     4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
     For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
       Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
@@ -9116,29 +9100,29 @@ description: "Learn how to restore a previous version of your RevenueHunt quiz u
 
 # How to Restore Quiz Progress
 
-Accidentally losing progress or facing unintended changes made by a colleague can be frustrating. Fortunately, if you find yourself in such a situation with your quiz, there is a way to recover a previous stable version of your Product Recommendation Quiz. 
+You can recover an earlier version of a quiz, after lost progress or an unwanted change by a colleague.
 
-This guide will walk you through the process of using the [Version History](/reference/quiz-builder/quiz-settings/#version-history) feature to recover an earlier version of your quiz, ensuring your hard work isn't lost.
+This article explains how to use [Version History](/reference/quiz-builder/quiz-settings/#version-history) to restore that version.
 
 --- Shopify (Legacy) Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
-    1. **Open Your Quiz**: Navigate to the quiz you're working on.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    1. **Open Your Quiz**: Open the quiz you are working on.
     2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-    3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
     If you need to recover a previous version of the quiz:
     1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
     3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+    4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
     !!! warning
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
+        You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
 
 
 

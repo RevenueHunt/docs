@@ -11,75 +11,66 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+=== "Shopify (Legacy)"
 
-=== "Shopify (Legacy)" 
+=== "WooCommerce"
 
+=== "Magento"
 
-=== "WooCommerce" 
+=== "BigCommerce"
 
-
-=== "Magento" 
-
-
-=== "BigCommerce" 
-
-
-=== "Standalone" 
-
+=== "Standalone"
 
 
 ## Why you need a structured approach
 
 === "Shopify"
 
-    Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
+    An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
 
     ![open-ended numerical question](https://loom.com/i/934b3a724c0346829baf78e6261f22e4?workflows_screenshot=true)
 
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
 
+=== "Shopify (Legacy)"
 
-=== "Shopify (Legacy)" 
-
-    Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
-
-    ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
-
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
-
-
-=== "WooCommerce" 
-
-    Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
+    An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
 
     ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
 
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
 
+=== "WooCommerce"
 
-=== "Magento" 
-
-    Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
-
-    ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
-
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
-
-=== "BigCommerce" 
-
-    Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
+    An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
 
     ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
 
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
 
-=== "Standalone" 
+=== "Magento"
 
-    Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
+    An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
 
     ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
 
-    Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
+
+=== "BigCommerce"
+
+    An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
+
+    ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
+
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
+
+=== "Standalone"
+
+    An open-ended numerical question, such as [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date), lets the customer enter any value. **You cannot link a recommendation to an answer like that.** A structured approach is needed instead.
+
+    ![open-ended numerical question](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_agequestion_number.png)
+
+    A question such as "What is your age?" or "How big is your room?" looks useful. Because the customer can type any number, you cannot tie a product recommendation to the answer.
 
 ## Use finite choices instead
 
@@ -89,7 +80,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Age Ranges"
 
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
 
         - Under 20
         - 21–30
@@ -102,7 +93,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Year of Birth"
 
-        Change "What's your year of birth?" from an input field to a dropdown with:
+        Change "What is your year of birth?" from an input field to a dropdown with:
 
         - 1990
         - 1991
@@ -114,7 +105,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
         This lets you assign relevant products to each year.
 
-        ![use dropdown question to ask year of birth](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_yearbirthquestion_dropdown.png) 
+        ![use dropdown question to ask year of birth](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_yearbirthquestion_dropdown.png)
 
     Once you switch to finite answers, you can:
 
@@ -123,26 +114,22 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     This is how to make sure that the product recommendation logic works in your quiz.
 
+    !!! tip "Use Quiz Copilot to Help"
 
-    !!! tip "Use Quiz Co-Pilot to Help"
-
-        If you’re working with broader questions like “What’s your room size?”, use Quiz Co-Pilot to break it down into more useful options. It can suggest follow-up questions or ranges without you having to write them all manually.
+        For a broader question such as “What is your room size?”, use Quiz Copilot to break it down into more useful options. It can suggest follow-up questions or ranges without you having to write them all manually.
 
         !!! example "Example - Room Size Ranges"
 
             Create a dropdown for room sizes like:
 
-            - Less than 50 sqft
-            - 51–100 sqft
-            - 101–150 sqft
-            - More than 150 sqft
+            - Less than 50 sq ft
+            - 51–100 sq ft
+            - 101–150 sq ft
+            - More than 150 sq ft
 
-            Quiz Co-Pilot can generate these for you automatically and help match them to recommendations.
+            Quiz Copilot can generate these for you automatically and help match them to recommendations.
 
             ![use quiz copilot to generate room size ranges](https://loom.com/i/8f81da1d43544435a45e5709b01fb436?workflows_screenshot=true)
-
-
-
 
 === "Shopify (Legacy)"
 
@@ -150,7 +137,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Age Ranges"
 
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
 
         - Under 20
         - 21–30
@@ -174,7 +161,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Age Ranges"
 
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
 
         - Under 20
         - 21–30
@@ -198,7 +185,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Age Ranges"
 
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
 
         - Under 20
         - 21–30
@@ -222,7 +209,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Age Ranges"
 
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
 
         - Under 20
         - 21–30
@@ -246,7 +233,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     !!! example "Example - Age Ranges"
 
-        Change "What's your age?" from an input field to a dropdown with:
+        Change "What is your age?" from an input field to a dropdown with:
 
         - Under 20
         - 21–30
@@ -264,7 +251,6 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     This is how to make sure that the product recommendation logic works in your quiz.
 
-
 ## Finalize the setup
 
 === "Shopify"
@@ -277,7 +263,6 @@ Recommending products based on numerical answers (like age or room size) can be 
     - Set up [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.
-
 
 === "Shopify (Legacy)"
 
@@ -316,7 +301,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     After generating options, you can:
 
-    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
+    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/questions/#block-settings)
     - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
@@ -338,52 +323,63 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 === "Shopify"
 
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
 
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 === "Shopify (Legacy)"
 
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
+
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 === "WooCommerce"
 
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
+
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 === "Magento"
 
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
+
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 === "BigCommerce"
 
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
+
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 === "Standalone"
 
-    RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
+    The RevenueHunt app cannot calculate a result from a numerical input on its own.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
+    Your developer can use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. That covers a quiz that needs a calculation from a precise number, such as BMI or a dosage.
 
-    In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
+    The script reads the quiz answers with `console.log()`, works out the result in JavaScript, then prints it into an HTML element.
+
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has an example of a BMI calculator on the results page.
 
 ---
 This article explains how to recommend products based on numerical inputs in your quiz.

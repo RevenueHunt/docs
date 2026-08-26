@@ -234,6 +234,14 @@ LISTING_EXEMPT = 'install-app.md'
 # typo in one ships as a live 404. internal links must be relative.
 DOCS_HOST = 'https://docs.revenuehunt.com'
 
+# section 4: address the reader as you, never as we. the docs describe what
+# the app does, not what the company does, so first person is almost always a
+# sentence that should have been about the app or about the reader.
+FIRST_PERSON_RE = re.compile(r'\b(we|our|ours|us)\b', re.I)
+# the support article is the one place the company really is the actor: our
+# support team, we offer a call. rewriting those to the support team is worse.
+FIRST_PERSON_EXEMPT = ('contact-customer-support.md',)
+
 # V2 and V1 are the internal names for the Built for Shopify app and the
 # legacy app. A merchant never sees either string, so neither belongs in a
 # published page. Imported from V1 is the one exception, because that is the
@@ -451,6 +459,14 @@ def check_file(path, root):
                 continue
             findings.append(Finding(i, 'company-name',
                                     got + " - the company is RevenueHunt"))
+
+        # first person, section 4
+        if not rel.endswith(FIRST_PERSON_EXEMPT):
+            for m in FIRST_PERSON_RE.finditer(prose):
+                findings.append(Finding(
+                    i, 'first-person',
+                    repr(m.group(0)).strip(chr(39))
+                    + ' - address the reader as you, and name the app'))
 
         # the internal version names
         for m in INTERNAL_VERSION_RE.finditer(prose):

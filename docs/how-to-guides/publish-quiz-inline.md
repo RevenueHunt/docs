@@ -624,7 +624,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
+    3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
@@ -636,7 +636,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
+    3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
@@ -648,7 +648,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
+    3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
@@ -658,7 +658,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
 
-    1. Make sure you have added our embed.js script to the page via a custom HTML element.
+    1. Make sure you have added the embed.js script to the page via a custom HTML element.
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```

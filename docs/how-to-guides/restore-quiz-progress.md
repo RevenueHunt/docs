@@ -5,9 +5,9 @@ description: "Learn how to restore a previous version of your RevenueHunt quiz u
 
 # How to Restore Quiz Progress
 
-Accidentally losing progress or facing unintended changes made by a colleague can be frustrating. Fortunately, if you find yourself in such a situation with your quiz, there is a way to recover a previous stable version of your Product Recommendation Quiz. 
+You can recover an earlier version of a quiz, after lost progress or an unwanted change by a colleague.
 
-This guide will walk you through the process of using the [Version History](/reference/quiz-builder/quiz-settings/#version-history) feature to recover an earlier version of your quiz, ensuring your hard work isn't lost.
+This article explains how to use [Version History](/reference/quiz-builder/quiz-settings/#version-history) to restore that version.
 
 
 
@@ -45,61 +45,61 @@ This guide will walk you through the process of using the [Version History](/ref
 
 === "Shopify"
 
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
     1. **Go to Quiz settings**: Look for the [Quiz settings](/reference/quiz-builder/quiz-settings/) option within the Quiz builder or the Dashboard.
-    2. **Find the Version History Tab**: Within the Quiz settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    2. **Find the Version History Tab**: In the Quiz settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
 
     ![Built for Shopify revenuehunt app Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
 
 === "Shopify (Legacy)"
 
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
-    1. **Open Your Quiz**: Navigate to the quiz you're working on.
+    1. **Open Your Quiz**: Open the quiz you are working on.
     2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-    3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
-    
+    3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
+
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
 === "WooCommerce"
 
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
-    1. **Open Your Quiz**: Navigate to the quiz you're working on.
+    1. **Open Your Quiz**: Open the quiz you are working on.
     2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-    3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
 
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
 === "Magento"
 
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
-    1. **Open Your Quiz**: Navigate to the quiz you're working on.
+    1. **Open Your Quiz**: Open the quiz you are working on.
     2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-    3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
 
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
 === "BigCommerce"
 
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
-    1. **Open Your Quiz**: Navigate to the quiz you're working on.
+    1. **Open Your Quiz**: Open the quiz you are working on.
     2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-    3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
 
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
 === "Standalone"
 
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+    [Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
-    1. **Open Your Quiz**: Navigate to the quiz you're working on.
+    1. **Open Your Quiz**: Open the quiz you are working on.
     2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-    3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
 
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
@@ -107,51 +107,51 @@ This guide will walk you through the process of using the [Version History](/ref
 
 === "Shopify"
 
-    Version History does not track every minor edit. Instead, it captures a new version each time you save changes to your quiz with the top-right `Save` button. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you save changes to your quiz with the top-right `Save` button.
 
-    - A new version is saved only when you click `Save` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - A new version is saved only when you click `Save` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you can click on `Show more details` to expand the version change details and see where exactly the changes were made.
 
 
 === "Shopify (Legacy)"
 
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
 
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
 === "WooCommerce"
 
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
 
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
 === "Magento"
 
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
 
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
 === "BigCommerce"
 
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
 
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
 === "Standalone"
 
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
 
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
+    - Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
 ## Recovering a quiz version
@@ -164,16 +164,16 @@ This guide will walk you through the process of using the [Version History](/ref
     If multiple slides or questions are missing, follow the steps below to recover a previously published version.
 
     1. **Navigate to the Quiz settings**: Go to the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
-    2. **Go to the Version History Tab**: Within the Quiz settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    2. **Go to the Version History Tab**: In the Quiz settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
     3. **Click Show More Details**: Click on `Show More Details` to view specific changes made in each version. Note that each version is created when you save the quiz. Only saved changes are shown in the version history.
     4. **Select the Version**: Select the version corresponding to the date of the changes you want to recover.
     5. **Use the Three Dots Menu**: Click on the three dots next to the version to see options: `   Create a New Quiz` or `Restore This Version`.
 
-        - `Create new quiz using this version` generates a new quiz with a new ID, while 
+        - `Create new quiz using this version` generates a new quiz with a new ID, while
         - `Restore This Version` replaces the current quiz with the selected version without changing the quiz ID.
-        - `Copy quiz code` copies the quiz code (JSON) of this version to clipboard. This allows you to transfer this quiz version to another store.
+        - `Copy quiz code` copies the quiz code (JSON) of this version to clipboard. Use it to move this version to another store.
 
-    
+
         !!! tip
 
             If unsure about which version to restore, create a new quiz using the selected version to review its content.
@@ -185,66 +185,66 @@ This guide will walk you through the process of using the [Version History](/ref
     If you need to recover a previous version of the quiz:
 
     1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
     3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+    4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
 
     !!! warning
 
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
+        You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
 
 === "WooCommerce"
 
     If you need to recover a previous version of the quiz:
 
     1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
     3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+    4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
 
     !!! warning
 
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
+        You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
 
 === "Magento"
 
     If you need to recover a previous version of the quiz:
 
     1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
     3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+    4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
 
     !!! warning
 
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
+        You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
 
 === "BigCommerce"
 
     If you need to recover a previous version of the quiz:
 
     1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
     3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+    4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
 
 
     !!! warning
 
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
+        You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
 
 === "Standalone"
 
     If you need to recover a previous version of the quiz:
 
     1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
     3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+    4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
 
     !!! warning
 
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
+        You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
 
 
 ---

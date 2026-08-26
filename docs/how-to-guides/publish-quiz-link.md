@@ -113,7 +113,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     3. Click on `Save` to save the changes.
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take the quiz".
     6. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
         ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
 
@@ -138,7 +138,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
         ![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take the quiz".
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field and then click on `Save`.
         ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Click `Save` to apply the changes to your navigation menu.
@@ -225,7 +225,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     5. Click on `Save` to save the changes.
     6. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    7. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
+    7. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take the quiz".
     8. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
         ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
 

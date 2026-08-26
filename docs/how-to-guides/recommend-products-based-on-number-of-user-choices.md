@@ -5,35 +5,135 @@ icon: material/checkbox-multiple-marked-outline
 
 # How to Recommend Products Based on Number of User Choices
 
-??? question "Do I need advanced technical skills to set this up?"
+This article explains how to recommend a different group of products depending on how many choices the user selects.
 
-    While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+The quiz cannot do this on its own. The method below adds a hidden choice for each possible outcome, then uses custom JavaScript to pick the right one.
 
-## How do I recommend products based on the number of user choices?
+!!! note "Before you start"
 
-The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+    This is not plug-and-play. If you are not familiar with JavaScript and CSS, ask a developer for help.
 
-1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
-2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
-3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+## Set up the recommendations
 
-## How can I ensure that users don’t see the choices in the last question?
+=== "Shopify"
 
-You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per collection.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-## Where do I input the custom JavaScript code?
+        ![Custom JavaScript field in the question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
+    6. **Click `Save`** to update the preview and the live quiz.
 
-[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+=== "Shopify (Legacy)"
 
-![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per collection.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+        ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    6. **Click `Publish`** to update the preview and the live quiz.
 
-## How can I identify the selected choices from each slide or question with JavaScript?
+=== "WooCommerce"
 
-To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+    1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per category.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its category.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+        ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    6. **Click `Publish`** to update the preview and the live quiz.
+
+=== "Magento"
+
+    1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per category.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its category.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+
+        ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    6. **Click `Publish`** to update the preview and the live quiz.
+
+=== "BigCommerce"
+
+    1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per category.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its category.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+
+        ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    6. **Click `Publish`** to update the preview and the live quiz.
+
+=== "Standalone"
+
+    1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
+    2. **Add one hidden choice per collection.** In the final question, add a multiple-choice option for each one.
+    3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+
+        ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
+    6. **Click `Publish`** to update the preview and the live quiz.
+
+## FAQs
+
+### How do I identify the selected choices with JavaScript?
+
+=== "Shopify"
+
+    Add this to the Custom JavaScript section of a question, then take the quiz with the browser console open (F12):
+
+    ```javascript
+    console.log('All answers by block:', quiz.answers.byBlock);
+    ```
+
+    It lists every block ID and its value. Each answer carries a `.choicesRefs` array holding the selected choice IDs. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
+
+=== "Shopify (Legacy)"
+
+    To see the choice IDs selected for each slide, open the JavaScript console and search for them:
+
+    ![Choice IDs for a slide in the JavaScript console](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+    Type `prq.quizSlides()` in the console to list every slide with its ID. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
+
+=== "WooCommerce"
+
+    To see the choice IDs selected for each slide, open the JavaScript console and search for them:
+
+    ![Choice IDs for a slide in the JavaScript console](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+    Type `prq.quizSlides()` in the console to list every slide with its ID. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
+
+=== "Magento"
+
+    To see the choice IDs selected for each slide, open the JavaScript console and search for them:
+
+    ![Choice IDs for a slide in the JavaScript console](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+    Type `prq.quizSlides()` in the console to list every slide with its ID. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
+
+=== "BigCommerce"
+
+    To see the choice IDs selected for each slide, open the JavaScript console and search for them:
+
+    ![Choice IDs for a slide in the JavaScript console](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+    Type `prq.quizSlides()` in the console to list every slide with its ID. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
+
+=== "Standalone"
+
+    To see the choice IDs selected for each slide, open the JavaScript console and search for them:
+
+    ![Choice IDs for a slide in the JavaScript console](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+    Type `prq.quizSlides()` in the console to list every slide with its ID. See [Find block and question IDs](/how-to-guides/add-javascript/#find-block-and-question-ids).
 
 ---
-This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
+This article explains how to recommend products based on the number of choices the user selects.

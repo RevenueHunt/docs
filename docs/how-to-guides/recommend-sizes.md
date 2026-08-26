@@ -7,44 +7,44 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Shopify"
 
-    Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
+    Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
 
 === "Shopify (Legacy)"
 
-    Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
+    Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
 
 === "WooCommerce"
 
-    Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
+    Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
 
 === "Magento"
 
-    Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
+    Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
 
 === "BigCommerce"
 
-    Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
+    Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
 
 === "Standalone"
 
-    Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
+    Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear, or any fit-based product) requires a structured approach. This article explains why an open-ended measurement input does not work. It covers how to design questions that give accurate size recommendations, and what to do when you need a precise calculation.
 
 
-## Why Open-ended questions won't work
+## Why open-ended questions do not work
 
 === "Shopify"
 
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
 
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
 
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
 
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
-    ??? info "Why can't I use open-ended inputs for size recommendations?"
+    ??? info "Why can I not use open-ended inputs for size recommendations?"
 
-        Open-ended number fields let customers type any value, so it's impossible to link those answers to specific products. You need predefined choices instead. Learn more in [Recommend Products Based on Numerical Inputs](https://docs.revenuehunt.com/how-to-guides/recommend-products-based-on-numerical-inputs/).
+        An open-ended number field lets a customer type any value, so those answers cannot be linked to specific products. Use predefined choices instead. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/).
 
         <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -52,53 +52,53 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Shopify (Legacy)"
 
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
 
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
 
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
 
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
 === "WooCommerce"
 
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
 
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
 
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
 
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
 === "Magento"
 
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
 
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
 
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
 
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
 === "BigCommerce"
 
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
 
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
 
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
 
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
 === "Standalone"
 
-    It might seem natural to ask customers to type in their exact measurements - "Enter your underbust measurement in inches" - and use that number to return a size. But open-ended [Number](/reference/quiz-builder/questions/#number) questions don't support product recommendations.
+    You might ask customers to type an exact measurement: "Enter your underbust measurement in inches". Using that number to return a size does not work, because an open-ended [Number](/reference/quiz-builder/questions/#number) question does not support product recommendations.
 
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
 
-    **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
+    **A typed number cannot be linked to anything in advance**. A customer can enter any value, so there is no product list to attach to it. The voting system has nothing to count.
 
-    This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
+    This applies to any question where the answer is unpredictable: exact measurements, dates and free text. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
 
 ## Use ranges instead of exact numbers
@@ -260,12 +260,12 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Shopify"
 
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
 
@@ -275,16 +275,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
         Try a prompt like:
 
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 === "Shopify (Legacy)"
 
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
 
@@ -294,16 +294,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
         Try a prompt like:
 
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 === "WooCommerce"
 
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
 
@@ -313,16 +313,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
         Try a prompt like:
 
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 === "Magento"
 
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
 
@@ -332,16 +332,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
         Try a prompt like:
 
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 === "BigCommerce"
 
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
 
@@ -351,16 +351,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
         Try a prompt like:
 
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 === "Standalone"
 
-    Because every answer choice needs a pre-written list of product variants, **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time - not at the moment a customer responds. There is no way to assign products to an answer you haven't defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns votes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
-    2. Identify the attributes that determine size for your product (for bras: band and cup; for clothing: waist and hip; for shoes: length and width)
+    2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
     3. Design one question per attribute, with dropdown options covering the full range of your catalogue
     4. For each answer option, write out which product variants it should vote for
 
@@ -370,19 +370,19 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
         Try a prompt like:
 
-        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
+        > "I sell bras in these sizes: [paste your size list]. I have two quiz questions: underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 
 ## Add a tiebreaker question
 
 === "Shopify"
 
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
 
     **A tiebreaker question must have two properties:**
 
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
 
     !!! example "Example - Body Frame as a Tiebreaker"
 
@@ -397,16 +397,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     !!! warning "Avoid questions whose answers depend on other questions"
 
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 === "Shopify (Legacy)"
 
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
 
     **A tiebreaker question must have two properties:**
 
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
 
     !!! example "Example - Body Frame as a Tiebreaker"
 
@@ -421,16 +421,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     !!! warning "Avoid questions whose answers depend on other questions"
 
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 === "WooCommerce"
 
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
 
     **A tiebreaker question must have two properties:**
 
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
 
     !!! example "Example - Body Frame as a Tiebreaker"
 
@@ -445,16 +445,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     !!! warning "Avoid questions whose answers depend on other questions"
 
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 === "Magento"
 
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
 
     **A tiebreaker question must have two properties:**
 
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
 
     !!! example "Example - Body Frame as a Tiebreaker"
 
@@ -469,16 +469,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     !!! warning "Avoid questions whose answers depend on other questions"
 
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 === "BigCommerce"
 
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
 
     **A tiebreaker question must have two properties:**
 
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
 
     !!! example "Example - Body Frame as a Tiebreaker"
 
@@ -493,16 +493,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     !!! warning "Avoid questions whose answers depend on other questions"
 
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 === "Standalone"
 
-    Two well-designed measurement questions will produce a clear winner in most cases - but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
+    Two well-designed measurement questions will produce a clear winner in most cases, but not always. When a customer's measurements sit exactly at the boundary between two sizes, two products can end up with the same vote count. Without a tiebreaker, the result is arbitrary.
 
     **A tiebreaker question must have two properties:**
 
     - Its answer is **independent** of every other question - it describes something about the customer that is true regardless of their measurements
-    - Its product list is **fixed and absolute** - it never changes based on what the customer answered elsewhere
+    - Its product list is **fixed and absolute**: it never changes based on what the customer answered elsewhere
 
     !!! example "Example - Body Frame as a Tiebreaker"
 
@@ -517,16 +517,16 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     !!! warning "Avoid questions whose answers depend on other questions"
 
-        A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
+        A question like "Does your current bra band feel too tight?" seems useful. Acting on it, by adding a vote to the next band size up, needs to know what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 
 ## Alternative: custom JavaScript calculation
 
 === "Shopify"
 
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
 
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
 
     !!! info "Custom JavaScript is available on paid plans only"
 
@@ -536,51 +536,51 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
     ??? tip "Already on a paid plan? Copilot can write the code for you"
 
-        If you have your product size mapping ready, you don't need to write the JavaScript yourself. Open Quiz Copilot from the quiz editor and share your product list and sizing logic. Ask it to generate a JavaScript block that takes the customer's measurement inputs and returns the correct size recommendation.
+        If your product size mapping is ready, you do not need to write the JavaScript yourself. Open Quiz Copilot from the quiz editor and share your product list and sizing logic. Ask it to generate a JavaScript block that takes the customer's measurement inputs and returns the correct size recommendation.
 
-        Copilot will produce ready-to-paste code. You can ask it to handle edge cases, out-of-stock fallbacks, or sister size suggestions - all in plain language.
+        Copilot will produce ready-to-paste code. You can ask it to handle edge cases, out-of-stock fallbacks, or sister size suggestions, all in plain language.
 
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 
 === "Shopify (Legacy)"
 
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
 
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
 
 
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 
 === "WooCommerce"
 
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
 
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
 
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 
 === "Magento"
 
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
 
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
 
 
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 
 === "BigCommerce"
 
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
 
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
 
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 
 === "Standalone"
 
-    If your sizing logic requires precise numerical inputs - for example, applying exact measurement formulas to calculate a result - the voting approach may not be precise enough for your use case. You can instead use [Custom JavaScript](/how-to-guides/add-javascript/) to perform calculations directly on the results page.
+    The voting approach may not be precise enough when your sizing logic needs exact measurement formulas. Use [Custom JavaScript](/how-to-guides/add-javascript/) to calculate the result on the results page instead.
 
-    With JavaScript you can accept typed measurements from [Number](/reference/quiz-builder/questions/#number) questions, apply any formula or conditional logic, and display a calculated result - including a recommended product - without relying on votes at all.
+    JavaScript can take typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, apply any formula or condition, and show a calculated result. That includes a recommended product, with no votes involved.
 
     See the [Custom JavaScript guide](/how-to-guides/add-javascript/) for full documentation, including a worked example of a calculation-based result.
 

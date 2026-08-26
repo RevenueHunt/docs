@@ -10,7 +10,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 !!! tip "Tutorial"
 
- 	Follow our [introduction video tutorial](/tutorials/getting-started/) to get a quick overview of the app.
+ 	Follow the [introduction video tutorial](/tutorials/getting-started/) to get a quick overview of the app.
 
 
 === "Shopify"
@@ -209,7 +209,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     ??? question "How do I get the right recommendations?"
 
-        Our product recommendation algorithm works like a voting system:
+        The recommendation algorithm works like a voting system:
 
         - Products are linked to each choice
         - When a customer picks a choice, all linked products receive one vote
@@ -220,7 +220,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         If you want to make the results ultra-precise, you can also:
 
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
@@ -234,7 +234,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     ??? question "How do I get the right recommendations?"
 
-        Our product recommendation algorithm works like a voting system:
+        The recommendation algorithm works like a voting system:
 
         - Products are linked to each choice
         - When a customer picks a choice, all linked products receive one vote
@@ -245,7 +245,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         If you want to make the results ultra-precise, you can also:
 
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
@@ -259,7 +259,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     ??? question "How do I get the right recommendations?"
 
-        Our product recommendation algorithm works like a voting system:
+        The recommendation algorithm works like a voting system:
 
         - Products are linked to each choice
         - When a customer picks a choice, all linked products receive one vote
@@ -270,7 +270,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         If you want to make the results ultra-precise, you can also:
 
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
@@ -284,7 +284,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     ??? question "How do I get the right recommendations?"
 
-        Our product recommendation algorithm works like a voting system:
+        The recommendation algorithm works like a voting system:
 
         - Products are linked to each choice
         - When a customer picks a choice, all linked products receive one vote
@@ -295,7 +295,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         If you want to make the results ultra-precise, you can also:
 
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
@@ -313,7 +313,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     ??? question "How do I get the right recommendations?"
 
-        Our product recommendation algorithm works like a voting system:
+        The recommendation algorithm works like a voting system:
 
         - Products are linked to each choice
         - When a customer picks a choice, all linked products receive one vote
@@ -324,7 +324,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         If you want to make the results ultra-precise, you can also:
 
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+        - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
