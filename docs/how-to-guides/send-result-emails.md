@@ -5,79 +5,79 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 # Setting Up Result Emails with Product Recommendation Quiz
 
-Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With the RevenueHunt app you can set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
+A result email brings the customer back to their recommendations, which recovers sales that would otherwise be lost. The RevenueHunt app sends these emails itself, so you do not need an external CRM service, though you can use one.
 
-This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending results emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
+This article covers the email your [customer receives](#email-quiz-results-via-shop-quiz-app), the notification your [administrators receive](#activate-email-notifications-to-admin), and sending result emails through an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
-!!! tip "With RevenueHunt app you can:"
+!!! tip "Two kinds of email"
 
-    - Send emails to quiz respondents with their quiz answers and results directly from the app.
-    - Send emails to a specific email address with notifications about each new quiz completion.
+    The app sends two kinds of email:
+
+    - The result email your customer receives, holding their answers and recommendations.
+    - A notification to an address you choose, on every quiz completion.
 
 
-!!! warning
+!!! tip "Recommended: send from your own address"
 
-    We recently encountered issues with our previous email provider and switched to a new service. Unfortunately, some emails were affected by this change, and not all messages have been going through as expected. 
-
-    Starting on <b>November 29th, 2024</b>, we kindly ask you to [configure your SMTP settings](/how-to-guides/send-result-emails-from-custom-server/) to continue sending result emails through the app. Notification emails will now be sent from your email address ensuring deliverabilty and consistent branding.
+    Result emails leave from the RevenueHunt servers by default. [Connect your own SMTP server](/how-to-guides/send-result-emails-from-custom-server/) to send them from your own address instead. Deliverability improves, and the email carries your branding.
 
 
 
 ## Email quiz results via RevenueHunt app
 
-Result emails can be sent directly from the RevenueHunt app to the email provided by the customer. 
+Result emails can be sent directly from the RevenueHunt app to the email provided by the customer.
 
-Follow the step by step instructions below to active and edit the result emails sent with the app:
+Follow the instructions below to activate and edit the result emails the app sends:
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/3AWbHe1aTac?si=vBYdeOUlrVtb5m6H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
+    1. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz builder](/reference/quiz-builder/questions/).
+    2. **Activate the customer email**: go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
-    3. **Email TO**: Choose an answer to which email question should be used to send the result emails to.
-    4. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    5. **Email Subject**: Edit the title of the email that customers will receive. 
-    6. **Edit Email Content**: Configure the email template of the email that your customers will receive. 
+    3. **Email TO**: choose which email question supplies the address to send to.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email Subject**: Edit the title of the email that customers will receive.
+    6. **Edit Email Content**: set up the template for that email.
 
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
 
         !!! warning
-            Email template requires the knowledge of HTML and liquid to be edited. 
+            Editing the email template takes HTML and Liquid.
 
-        - Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use liquid code to loop through and display recommended products or customize content based on quiz outcomes. 
+        - Personalize the email with quiz metadata such as `{{first_name}}`. Liquid can loop through the recommended products, or change the content based on the quiz outcome.
 
-        - The email liquid template uses metadata (such as response ID, quiz name, user's name and email, answers to quiz questions, tags and recommended products, content from the results page) to recall information from the quiz.
+        - The template reads the quiz metadata: the response ID, the quiz name, the customer's details, their answers, tags, recommended products and results page content.
 
             !!! tip
 
-                To learn more about the metadata, check out the [Quiz Response Metadata Structure](#editing-email-templates).
-        
-        - You can find *useful code snippets* under the `Email Liquid Template` field and use them to insert specific data into the email template (e.g., 'Responses by Block' snippet to list user answers).
-    
+                See [Quiz Response Metadata Structure](#editing-email-templates) for the full list.
+
+        - Ready-made snippets sit under the `Email Liquid Template` field. Use `Responses by Block`, for example, to list the answers.
+
             !!! tip
 
-                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
-        
+                Paste a snippet into a large language model such as ChatGPT or Gemini and ask it to style the Liquid template for you.
+
 
         !!! note
-            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email templates](#editing-email-templates).
+            Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
 
 
-    7. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    7. **Add your SMTP credentials (recommended)**: result emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
         !!! note
 
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
 
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+            Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
-    8. **Save the changes**: Remember to save the changes with the top-right `Save` button to update the preview/live quiz.
-    9. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+    8. **Save the changes**: click the top-right `Save` button to update the preview and the live quiz.
+    9. **Preview the quiz**: take it through to the results page, which triggers the email.
 
 
 
@@ -85,30 +85,30 @@ Follow the step by step instructions below to active and edit the result emails 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
         !!! note
 
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
 
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+            Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
+    2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
+    3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
-    5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
-    5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
-        - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email TO**: with more than one email question in the quiz, choose which one supplies the address. With only one, it is selected for you.
+    6. **Email Subject**: edit the subject line your customer sees. Type `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name.
+    7. **Edit Email Content**: set up the email your customer receives. Choose either the **Basic (text)** or the **Advanced (HTML)** format, and switch between them with `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
+        - The **Basic text** template is the simpler one. Type what the customer should read into the `Email Text Message` field. Type `@` to pull in [recalled information](/how-to-guides/use-information-recalls/): the customer name, email, phone number, quiz name, their answers, the recommended products and more. It cannot show images or colors, but it has the best deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
+        - The **Advanced HTML** template takes HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to edit. Personalize it with quiz metadata such as `{{first_name}}`, and use Handlebars to loop through the recommended products or change the content by quiz outcome. Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
-    6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    8. **Publish the changes**: click the top-right `Publish` button to update the preview and the live quiz.
 
 
 === "WooCommerce"
@@ -116,30 +116,30 @@ Follow the step by step instructions below to active and edit the result emails 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
         !!! note
 
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
 
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+            Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
+    2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
+    3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
-    5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
-    5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
-        - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email TO**: with more than one email question in the quiz, choose which one supplies the address. With only one, it is selected for you.
+    6. **Email Subject**: edit the subject line your customer sees. Type `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name.
+    7. **Edit Email Content**: set up the email your customer receives. Choose either the **Basic (text)** or the **Advanced (HTML)** format, and switch between them with `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
+        - The **Basic text** template is the simpler one. Type what the customer should read into the `Email Text Message` field. Type `@` to pull in [recalled information](/how-to-guides/use-information-recalls/): the customer name, email, phone number, quiz name, their answers, the recommended products and more. It cannot show images or colors, but it has the best deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
+        - The **Advanced HTML** template takes HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to edit. Personalize it with quiz metadata such as `{{first_name}}`, and use Handlebars to loop through the recommended products or change the content by quiz outcome. Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
-    6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    8. **Publish the changes**: click the top-right `Publish` button to update the preview and the live quiz.
 
 
 === "Magento"
@@ -147,30 +147,30 @@ Follow the step by step instructions below to active and edit the result emails 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
         !!! note
 
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
 
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+            Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
+    2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
+    3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
-    5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
-    5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
-        - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email TO**: with more than one email question in the quiz, choose which one supplies the address. With only one, it is selected for you.
+    6. **Email Subject**: edit the subject line your customer sees. Type `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name.
+    7. **Edit Email Content**: set up the email your customer receives. Choose either the **Basic (text)** or the **Advanced (HTML)** format, and switch between them with `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
+        - The **Basic text** template is the simpler one. Type what the customer should read into the `Email Text Message` field. Type `@` to pull in [recalled information](/how-to-guides/use-information-recalls/): the customer name, email, phone number, quiz name, their answers, the recommended products and more. It cannot show images or colors, but it has the best deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
+        - The **Advanced HTML** template takes HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to edit. Personalize it with quiz metadata such as `{{first_name}}`, and use Handlebars to loop through the recommended products or change the content by quiz outcome. Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
-    6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    8. **Publish the changes**: click the top-right `Publish` button to update the preview and the live quiz.
 
 
 === "BigCommerce"
@@ -178,30 +178,30 @@ Follow the step by step instructions below to active and edit the result emails 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
         !!! note
 
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
 
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+            Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
+    2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
+    3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
-    5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
-    5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
-        - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email TO**: with more than one email question in the quiz, choose which one supplies the address. With only one, it is selected for you.
+    6. **Email Subject**: edit the subject line your customer sees. Type `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name.
+    7. **Edit Email Content**: set up the email your customer receives. Choose either the **Basic (text)** or the **Advanced (HTML)** format, and switch between them with `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
+        - The **Basic text** template is the simpler one. Type what the customer should read into the `Email Text Message` field. Type `@` to pull in [recalled information](/how-to-guides/use-information-recalls/): the customer name, email, phone number, quiz name, their answers, the recommended products and more. It cannot show images or colors, but it has the best deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
+        - The **Advanced HTML** template takes HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to edit. Personalize it with quiz metadata such as `{{first_name}}`, and use Handlebars to loop through the recommended products or change the content by quiz outcome. Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
-    6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    8. **Publish the changes**: click the top-right `Publish` button to update the preview and the live quiz.
 
 
 === "Standalone"
@@ -209,61 +209,59 @@ Follow the step by step instructions below to active and edit the result emails 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
         !!! note
 
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
 
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+            Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
+    2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
+    3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
-    5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
-    5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
-        - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email TO**: with more than one email question in the quiz, choose which one supplies the address. With only one, it is selected for you.
+    6. **Email Subject**: edit the subject line your customer sees. Type `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name.
+    7. **Edit Email Content**: set up the email your customer receives. Choose either the **Basic (text)** or the **Advanced (HTML)** format, and switch between them with `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
+        - The **Basic text** template is the simpler one. Type what the customer should read into the `Email Text Message` field. Type `@` to pull in [recalled information](/how-to-guides/use-information-recalls/): the customer name, email, phone number, quiz name, their answers, the recommended products and more. It cannot show images or colors, but it has the best deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
+        - The **Advanced HTML** template takes HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to edit. Personalize it with quiz metadata such as `{{first_name}}`, and use Handlebars to loop through the recommended products or change the content by quiz outcome. Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
-    6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
+    8. **Publish the changes**: click the top-right `Publish` button to update the preview and the live quiz.
 
 ## Sending result emails with your CRM
 
-You can automate the process of sending quiz result emails using your own CRM platform. Connect your quiz to one of our [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data will be transmitted to your CRM as soon as the customer completes the quiz and reaches the results page. This allows you to set up your own email sequences directly within your CRM. For guidance on connecting the quiz to our integrations, refer to the [documentation provided for each integration](/how-to-guides/send-leads-to-crm/).
+Your own CRM can send the result emails instead. Connect your quiz to one of the [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data reaches your CRM as soon as the customer sees the results page. You then build the email sequence in the CRM itself. Each integration has [its own article](/how-to-guides/send-leads-to-crm/) covering the connection.
 
 ## Activate email notifications to admin
 
-You can receive an email notification every time someone completes the quiz or proceeds to checkout to your specified email address. This allows the quiz admin/responsible to stay up to date with quiz engagments. 
+The app can email you every time someone completes the quiz or goes through to the checkout. Send it to whichever address should track the quiz.
 
-!!! warning
+!!! tip "Recommended: send from your own address"
 
-    We recently encountered issues with our previous email provider and switched to a new service. Unfortunately, some emails were affected by this change, and not all TO-SELF notifications have been going through as expected. 
-
-    Starting on <b>November 29th, 2024</b>, we kindly ask you to [configure your SMTP settings](/how-to-guides/send-result-emails-from-custom-server/) to continue receiving notification emails through the app. Notification emails will now be sent from your email address ensuring deliverabilty.
+    Notification emails leave from the RevenueHunt servers by default. [Connect your own SMTP server](/how-to-guides/send-result-emails-from-custom-server/) to send them from your own address instead, which improves deliverability.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XdPgnR8W4fg?si=TivtkA2wCiHaFQYg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
+    1. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
-    3. **Edit Email to**: Choose what email address should receive the notification (e.g., company or personal email).
-    4. **Edit Email Subject**: Edit the title of the email notifications will receive. 
-    5. **Edit Email Content**: Configure the email your customers will receive. Edit the liquid email template. 
-    
+    2. **Edit Email to**: choose which address receives the notification, such as a company or a personal one.
+    3. **Edit Email Subject**: edit the subject line of the notification.
+    4. **Edit Email Content**: edit the Liquid template for the notification you receive.
+
         - The default liquid template includes all customer answers from the quiz. You can edit this template to include additional information.
         - Use provided `useful code snippets` to add personal information from users. To add personal information, click to copy the template snippet and paste it at the top of your email liquid template.
 
         - You can always reset the email template to default settings.
 
-    6. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    5. **Add your SMTP credentials (recommended)**: notification emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
@@ -273,16 +271,16 @@ You can receive an email notification every time someone completes the quiz or p
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
-    7. **Save the changes**: Remember to save the changes with the top `Save` button.
-    8. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+    6. **Save the changes**: click the top `Save` button.
+    7. **Preview the quiz**: take it through to the results page, which triggers the notification.
 
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -292,20 +290,20 @@ You can receive an email notification every time someone completes the quiz or p
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
-    2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
+    2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
+    3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
-    4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
+    4. **Publish the changes**: click the top-right `Publish` button.
 
 === "WooCommerce"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -315,20 +313,20 @@ You can receive an email notification every time someone completes the quiz or p
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
-    2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
+    2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
+    3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
-    4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
+    4. **Publish the changes**: click the top-right `Publish` button.
 
 === "Magento"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -338,20 +336,20 @@ You can receive an email notification every time someone completes the quiz or p
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
-    2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
+    2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
+    3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
-    4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
+    4. **Publish the changes**: click the top-right `Publish` button.
 
 === "BigCommerce"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -361,20 +359,20 @@ You can receive an email notification every time someone completes the quiz or p
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
-    2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
+    2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
+    3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
-    4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
+    4. **Publish the changes**: click the top-right `Publish` button.
 
 === "Standalone"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -384,13 +382,13 @@ You can receive an email notification every time someone completes the quiz or p
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
 
-    1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
-    2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
+    2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
+    3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
-    4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
+    4. **Publish the changes**: click the top-right `Publish` button.
 
 
 ## Editing email templates
@@ -419,12 +417,12 @@ You can receive an email notification every time someone completes the quiz or p
     - `resultContentByBlock`: dynamic text, tips, and headings from the results page
 
 
-    
+
     !!! info "Quiz Response Metadata Structure"
 
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
+
+        This object holds everything a quiz completion generates: the answers, the product recommendations and the result content. It drives the results page, the follow-up emails and any custom workflow.
 
         ---
 
@@ -469,7 +467,7 @@ You can receive an email notification every time someone completes the quiz or p
         `choicesRefs` - List of selected choice references (used internally)
 
         Example: `qbc-485600ce` → `type: picture_choice`, `value: "Dry and tight all over"`, `choicesRefs: ["qbcc-30928613"]`
-    
+
         ---
 
         **Tags**
@@ -478,7 +476,7 @@ You can receive an email notification every time someone completes the quiz or p
         "tags": []
         ```
 
-        `tags` - A list of tags to assign to the respondent. Often used for segmentation. Empty if unused.
+        `tags` - The tags assigned to the customer, often used for segmentation. Empty when none are set.
 
         ---
 
@@ -502,7 +500,7 @@ You can receive an email notification every time someone completes the quiz or p
 
         `image` - URL for the main product image
 
-        `price` - Object with amount and currencyCode
+        `price` - Object with `amount` and `currencyCode`
 
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
 
@@ -516,7 +514,7 @@ You can receive an email notification every time someone completes the quiz or p
 
         Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
 
-        --- 
+        ---
 
         **Result Sections (`resultSections`)**
 
@@ -549,7 +547,7 @@ You can receive an email notification every time someone completes the quiz or p
         "rsbh-273d9ef6": {
         "type": "heading",
         "content": "<p>Here's what your skin wants!</p>"
-        }       
+        }
         ```
 
         A lookup table of rendered content for each block (used in external templates like email).
@@ -577,7 +575,7 @@ You can receive an email notification every time someone completes the quiz or p
         {% endfor %}
         ```
 
-    Show an link to the quiz results page: Use the `responseId` to create a link to the quiz results page. Just add `#response-{{ responseId }}` to the end of your results page URL in any link.
+    Show a link to the quiz results page: add `#response-{{ responseId }}` to the end of your results page URL.
 
     ```liquid
     <a href="https://yourwebsite.com/#response-{{ responseId }}">View your quiz results</a>
@@ -622,7 +620,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For example:
 
-    - **Show Customer Name**: If you wish to display the respondent’s name, you can use the `{{first_name}}` handlebar in your code.
+    - **Show Customer Name**: use the `{{first_name}}` handlebar to display the customer's name.
         ```html
         <p>Hello {{first_name}},</p>
         ```
@@ -632,7 +630,7 @@ You can receive an email notification every time someone completes the quiz or p
         ```
         Hello Alex,
         ```
-        
+
     - **Recommended Products in Metadata**: The most recommended products are listed within the metadata JSON under the `products` property.
 
     **Using Handlebars**
@@ -707,7 +705,7 @@ You can receive an email notification every time someone completes the quiz or p
         {{/each}}
         ```
 
-    - **List recommended products separated by Slot Blocks**: If you want to recommend a Morning and Night slot routine separately you can use the following code. Make sure to change the block IDs (“A4TeY9” and “PPT2PG”) to the ones in your quiz.
+    - **List recommended products separated by Slot Blocks**: use this code to recommend a Morning and a Night routine separately. Change the block IDs `A4TeY9` and `PPT2PG` to the ones in your quiz.
         ```html
         <h3>Let’s start with your morning routine</h3>
         {{#each blocks as |block|}}
@@ -721,7 +719,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -738,7 +736,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -757,7 +755,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For example:
 
-    - **Show Customer Name**: If you wish to display the respondent’s name, you can use the `{{first_name}}` handlebar in your code.
+    - **Show Customer Name**: use the `{{first_name}}` handlebar to display the customer's name.
         ```html
         <p>Hello {{first_name}},</p>
         ```
@@ -767,7 +765,7 @@ You can receive an email notification every time someone completes the quiz or p
         ```
         Hello Alex,
         ```
-        
+
     - **Recommended Products in Metadata**: The most recommended products are listed within the metadata JSON under the `products` property.
 
     **Using Handlebars**
@@ -842,7 +840,7 @@ You can receive an email notification every time someone completes the quiz or p
         {{/each}}
         ```
 
-    - **List recommended products separated by Slot Blocks**: If you want to recommend a Morning and Night slot routine separately you can use the following code. Make sure to change the block IDs (“A4TeY9” and “PPT2PG”) to the ones in your quiz.
+    - **List recommended products separated by Slot Blocks**: use this code to recommend a Morning and a Night routine separately. Change the block IDs `A4TeY9` and `PPT2PG` to the ones in your quiz.
         ```html
         <h3>Let’s start with your morning routine</h3>
         {{#each blocks as |block|}}
@@ -856,7 +854,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -873,7 +871,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -891,7 +889,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For example:
 
-    - **Show Customer Name**: If you wish to display the respondent’s name, you can use the `{{first_name}}` handlebar in your code.
+    - **Show Customer Name**: use the `{{first_name}}` handlebar to display the customer's name.
         ```html
         <p>Hello {{first_name}},</p>
         ```
@@ -901,7 +899,7 @@ You can receive an email notification every time someone completes the quiz or p
         ```
         Hello Alex,
         ```
-        
+
     - **Recommended Products in Metadata**: The most recommended products are listed within the metadata JSON under the `products` property.
 
     **Using Handlebars**
@@ -976,7 +974,7 @@ You can receive an email notification every time someone completes the quiz or p
         {{/each}}
         ```
 
-    - **List recommended products separated by Slot Blocks**: If you want to recommend a Morning and Night slot routine separately you can use the following code. Make sure to change the block IDs (“A4TeY9” and “PPT2PG”) to the ones in your quiz.
+    - **List recommended products separated by Slot Blocks**: use this code to recommend a Morning and a Night routine separately. Change the block IDs `A4TeY9` and `PPT2PG` to the ones in your quiz.
         ```html
         <h3>Let’s start with your morning routine</h3>
         {{#each blocks as |block|}}
@@ -990,7 +988,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -1007,7 +1005,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -1026,7 +1024,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For example:
 
-    - **Show Customer Name**: If you wish to display the respondent’s name, you can use the `{{first_name}}` handlebar in your code.
+    - **Show Customer Name**: use the `{{first_name}}` handlebar to display the customer's name.
         ```html
         <p>Hello {{first_name}},</p>
         ```
@@ -1036,7 +1034,7 @@ You can receive an email notification every time someone completes the quiz or p
         ```
         Hello Alex,
         ```
-        
+
     - **Recommended Products in Metadata**: The most recommended products are listed within the metadata JSON under the `products` property.
 
     **Using Handlebars**
@@ -1111,7 +1109,7 @@ You can receive an email notification every time someone completes the quiz or p
         {{/each}}
         ```
 
-    - **List recommended products separated by Slot Blocks**: If you want to recommend a Morning and Night slot routine separately you can use the following code. Make sure to change the block IDs (“A4TeY9” and “PPT2PG”) to the ones in your quiz.
+    - **List recommended products separated by Slot Blocks**: use this code to recommend a Morning and a Night routine separately. Change the block IDs `A4TeY9` and `PPT2PG` to the ones in your quiz.
         ```html
         <h3>Let’s start with your morning routine</h3>
         {{#each blocks as |block|}}
@@ -1125,7 +1123,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -1142,7 +1140,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -1161,7 +1159,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For example:
 
-    - **Show Customer Name**: If you wish to display the respondent’s name, you can use the `{{first_name}}` handlebar in your code.
+    - **Show Customer Name**: use the `{{first_name}}` handlebar to display the customer's name.
         ```html
         <p>Hello {{first_name}},</p>
         ```
@@ -1171,7 +1169,7 @@ You can receive an email notification every time someone completes the quiz or p
         ```
         Hello Alex,
         ```
-        
+
     - **Recommended Products in Metadata**: The most recommended products are listed within the metadata JSON under the `products` property.
 
     **Using Handlebars**
@@ -1246,7 +1244,7 @@ You can receive an email notification every time someone completes the quiz or p
         {{/each}}
         ```
 
-    - **List recommended products separated by Slot Blocks**: If you want to recommend a Morning and Night slot routine separately you can use the following code. Make sure to change the block IDs (“A4TeY9” and “PPT2PG”) to the ones in your quiz.
+    - **List recommended products separated by Slot Blocks**: use this code to recommend a Morning and a Night routine separately. Change the block IDs `A4TeY9` and `PPT2PG` to the ones in your quiz.
         ```html
         <h3>Let’s start with your morning routine</h3>
         {{#each blocks as |block|}}
@@ -1260,7 +1258,7 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
@@ -1277,11 +1275,11 @@ You can receive an email notification every time someone completes the quiz or p
         <a href="{{product.url}}" target="_blank">{{product.name}}</a>
         <br>{{product.price}} USD</span>
         </div>
-        {{/each}} 
+        {{/each}}
         {{/each}}
         {{/eq}}
         {{/each}}
         ```
 
 ---
-This article explains how to send result emails to quiz respondents and to a specific email address with RevenueHunt app.
+This article explains how the RevenueHunt app sends result emails to your customers, and notifications to an address you choose.

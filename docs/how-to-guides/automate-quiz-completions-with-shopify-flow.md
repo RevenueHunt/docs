@@ -299,7 +299,7 @@ How the workflow starts depends on your version of the app. The Built for Shopif
 
     Every customer carrying that `prq_ tag` is then sent the marketing email.
 
-    To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
+    To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/create-marketing-automations).
 
     !!! tip
 

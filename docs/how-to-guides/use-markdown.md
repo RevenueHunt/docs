@@ -12,7 +12,7 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify (Legacy)"
 
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
+    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
 
     This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
 
@@ -26,7 +26,7 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 === "WooCommerce"
 
 
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
+    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
 
     This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
 
@@ -38,7 +38,7 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 === "Magento"
 
 
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
+    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
 
     This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
 
@@ -50,7 +50,7 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 === "BigCommerce"
 
 
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
+    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
 
     This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
 
@@ -62,7 +62,7 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 === "Standalone"
 
 
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
+    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
 
     This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
 
@@ -117,7 +117,9 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
 
 
 === "Shopify (Legacy)"
@@ -182,7 +184,9 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
 
 
 === "Shopify (Legacy)"
@@ -245,7 +249,9 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
 
 
 === "Shopify (Legacy)"
@@ -300,7 +306,9 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
 
 
 === "Shopify (Legacy)"
@@ -365,7 +373,9 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
 
 
 === "Shopify (Legacy)"

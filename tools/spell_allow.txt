@@ -34,6 +34,7 @@ squarespace
 klaviyo
 mailchimp
 omnisend
+mailerlite
 seguno
 activecampaign
 hubspot
@@ -114,6 +115,7 @@ whitelist
 whitelisting
 Django
 Unix
+jsonlint
 
 # --- interface vocabulary
 checkbox

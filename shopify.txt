@@ -9805,7 +9805,8 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
     6. Verify that the subscription item is added correctly to the cart.
     !!! warning "Quiz Preview"
         The subscription options will not be available in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
-    Not applicable.
+    !!! note "Not available on this platform"
+        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
     **Step 1: Link One-Time Payment Products to Quiz Choices**
@@ -10691,15 +10692,15 @@ icon: simple/mailchimp
 
 # How to Send Leads to Mailchimp
 
-Apart from giving your customers personalized product recommendations, you can connect your quiz to Mailchimp. This way all the contacts coming from the quiz are added to your Mailchimp audience, where you can segment them and follow up with targeted campaigns.
+Connect your quiz to Mailchimp and every contact from the quiz is added to your Mailchimp audience. You can then segment those contacts and follow up by email.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=9MBKK4JCdMCrlx9y" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    This article explains how to connect your RevenueHunt account to Mailchimp, send quiz taker contacts to your audience, tag them based on their answers and build segments and automations around those tags.
+    This article explains how to connect your RevenueHunt account to Mailchimp and send each contact to your audience. It also covers tagging them by their answers, and building segments and automations from those tags.
     !!! warning "Before you begin"
-        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email-address) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
-        **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. This lets quiz takers agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and look for an [email question](/reference/quiz-builder/questions/#email-address) block. If there is none, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
+        **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. A customer can then agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
     !!! info "What data is sent to Mailchimp"
         Mailchimp receives the contact's **email**, **first name**, **last name** and **phone number** when provided. Quiz [customer tags](/reference/quiz-builder/customer-tags/) and result tags are also synced to the contact's profile in Mailchimp as contact tags.
         Full quiz answers and product recommendations are **not** synced to Mailchimp directly. To learn more about how Mailchimp handles contact data fields, see the [Mailchimp merge fields documentation](https://mailchimp.com/help/manage-audience-signup-form-fields/).
@@ -10719,56 +10720,56 @@ Apart from giving your customers personalized product recommendations, you can c
     2. Find the Mailchimp section and check the `Send Quiz Leads to Mailchimp` checkbox.
     3. Click the top `Save` button to save your changes.
     !!! tip "Stop sending data from a single quiz"
-        If you want to stop data from a specific quiz flowing to Mailchimp, simply uncheck the `Send Quiz Leads to Mailchimp` checkbox in that quiz and save. You do not need to disconnect Mailchimp entirely. See [Disconnect Mailchimp](#disconnect-mailchimp) for the account-level option.
+        To stop one quiz sending data to Mailchimp, uncheck its `Send Quiz Leads to Mailchimp` checkbox and save. You do not need to disconnect Mailchimp entirely. See [Disconnect Mailchimp](#disconnect-mailchimp) for the account-level option.
     **Test the connection**
     1. `Preview` your quiz and complete it with a test name and email address, all the way through to the results page.
     2. Go to Mailchimp and open `Audience`, then search for your test email. It may take a moment to appear, so refresh the page if needed.
-    3. You should see the new contact with any tags that were applied based on the answer choices they selected. If you tagged all answers in one question with a general tag like `revenuehunt` or `quiz`, you should see that tag on the profile as well.
+    3. The new contact appears, carrying the tags from the answers they chose. A general tag such as `revenuehunt` is there too, if you applied one to every answer in a question.
     !!! tip
         You can use your real email with a `+test1`, `+test2` suffix to test different answering routes. For example, `youremail+test1@email.com` or `youremail+test2@email.com`.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=rX05ADDlIhLWPAbb&amp;start=185" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Once your account is connected, you can choose which Mailchimp **audience** quiz takers are added to. The audience selector lives inside the email question block.
+    Once your account is connected, you choose which Mailchimp **audience** each customer is added to. The audience selector sits inside the email question block.
     1. Make sure your account is [connected to Mailchimp](#link-quiz-to-mailchimp) and that the `Send Quiz Leads to Mailchimp` checkbox is enabled for the quiz.
     2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email-address) block to open its settings.
-    3. Under the `Mailchimp Audience` dropdown, select the audience you want quiz takers added to.
+    3. Under the `Mailchimp Audience` dropdown, select the audience to add each customer to.
     4. Click the top `Save` button to save your changes.
     !!! tip "Per-quiz audiences"
-        If you have multiple quizzes and want each to feed a different audience, open the email question block of each quiz individually and select the appropriate audience there.
+        To feed a different audience from each quiz, set the audience on the email question block of each quiz separately.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=K9vLKxpsVk1Ugva9&amp;start=257" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Because full quiz answers don't sync to Mailchimp, we recommend using the [Customer tags](/reference/quiz-builder/customer-tags/) field on each quiz answer choice. When a quiz taker selects an answer, that choice's customer tag is sent to Mailchimp as a contact tag, which you can then use to build your own segmentation rules.
+    Full quiz answers do not sync to Mailchimp, so use the [Customer tags](/reference/quiz-builder/customer-tags/) field on each answer choice instead. When a customer picks that answer, the choice's customer tag reaches Mailchimp as a contact tag. Build your segments from those tags.
     **Tag your answer choices**
     1. Open your quiz in the [Quiz builder](/reference/quiz-builder/) and click on an answer choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     2. Under `Customer tags`, create a tag that describes that choice. For example, if a question asks about skin type, tag the `Oily` choice with `skin-oily` and the `Dry` choice with `skin-dry`.
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
     3. Repeat for the remaining choices you want to segment on.
-    4. Tag **every** answer in at least one question with a general tag like `revenuehunt` or `quiz`. This creates a universal tag for every person who completed the quiz, making it easy to build a Mailchimp segment for all quiz takers.
+    4. Tag **every** answer in at least one question with a general tag such as `revenuehunt` or `quiz`. Everyone who finishes the quiz then carries that tag, so a segment holding all of them is easy to build.
     5. Click the top `Save` button to save your changes.
     **Build a segment in Mailchimp**
     Once contacts start arriving with tags, you can build segments in Mailchimp based on those tags.
     1. In Mailchimp, go to `Audience`, then `Segments`, and click `Create Segment`.
     2. Set the condition to `Contact Tag` and select the tag you want to target.
     3. Save the segment.
-    You can create one segment for all quiz takers using your general `revenuehunt` tag, and additional segments for specific answer combinations.
-    To override Mailchimp's limitation on pushing detailed custom quiz data, you can use `customer tags` to represent customer responses.
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    Build one segment from the general `revenuehunt` tag to reach everyone, and more segments for particular answer combinations.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=Rb0FoVucJgbOscRf&amp;start=294" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    To send follow-up emails to quiz takers, build an automation in Mailchimp that is triggered by the tags coming from the quiz.
+    To send a follow-up email after the quiz, build a Mailchimp automation that triggers on the tags the quiz sends.
     1. **Connect and tag.** Make sure your quiz is [connected to Mailchimp](#link-quiz-to-mailchimp) and that your answer choices are [tagged with customer tags](#use-customer-tags-for-segmentation-in-mailchimp).
     2. **Create the automation.** In Mailchimp, go to `Automations` and create a new flow.
     3. **Set the trigger.** Set the flow to trigger when a contact receives one of the tags applied through the quiz.
     4. **Add an email step.** Add an email step and design your message.
-    5. **Personalize with tags.** Because full quiz answers and product recommendations do not sync to Mailchimp, email personalization is based on the tags added to each contact's profile. Use Mailchimp's dynamic content visibility settings to display different text depending on the tags assigned to each contact.
+    5. **Personalize with tags.** Full quiz answers and product recommendations do not sync to Mailchimp. Personalize on the tags on each contact's profile instead. Mailchimp's dynamic content visibility settings show different text for different tags.
     6. **Publish.** Continue building your automation, then publish it once it is ready.
     !!! example
         Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
         In Mailchimp, you create an email series targeting these tags. For instance:
-        - Day 1: Introduction to products suitable for oily skin. 
-        - Day 3: Customer testimonials and reviews for oily skin products. 
+        - Day 1: Introduction to products suitable for oily skin.
+        - Day 3: Customer testimonials and reviews for oily skin products.
         - Day 7: Special discount on recommended products for oily skin.
     !!! tip
-        Remember to preview the quiz leaving a sample email address in order to send the first data to Mailchimp and test the flow. You can use your real email with a `+test1`, `+test2` suffix to test different answering routes. For example, `youremail+test1@email.com` or `youremail+test2@email.com`.
+        Preview the quiz and leave a sample email address, to send the first data to Mailchimp and test the flow. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
     **Stop sending data from one quiz**
     Uncheck the `Send Quiz Leads to Mailchimp` checkbox in that specific quiz's [`Quiz Settings > Integrations`](/reference/quiz-builder/connect-integrations/) tab and click `Save`. Other quizzes in the account keep sending data to Mailchimp.
     **Disconnect Mailchimp from your account**
@@ -10776,10 +10777,9 @@ Apart from giving your customers personalized product recommendations, you can c
     2. Scroll to the Mailchimp card and click `Disconnect`.
     3. Confirm the action.
     No more quiz data will flow to Mailchimp from any quiz in the account.
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp, for example to pass full quiz answers or recommended products, which the native integration doesn't sync. In that case there are a few alternatives you can use.
-    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
+    The built-in integration does not send the full quiz answers or the recommended products. To pass those to Mailchimp, use one of these methods instead.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 
 
@@ -10795,22 +10795,19 @@ description: "Step-by-step guide to connect RevenueHunt quiz with MailerLite ema
 
 # How to Send Leads to MailerLite
 
-MailerLite is a powerful email marketing platform that allows you to send email campaigns to your leads.
-
-This article explains how to send leads to MailerLite from your product recommendation quiz.
+MailerLite is an email marketing platform. The RevenueHunt app has no built-in MailerLite integration, so this article explains the ways you can send your quiz leads there.
 
 ## Connecting your MailerLite account
 
 --- Shopify Specific Content ---
 
-!!! warning
-        This feature is currently in beta and is not available for all stores. Please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) if you'd like to use it.
-    MailerLite is not yet integrated with the `💎 Built for Shopify` version of the RevenueHunt app.
-    If you are looking to send leads to MailerLite, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to get help.
-    Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
-    - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+The `💎 Built for Shopify` version of the RevenueHunt app has no built-in MailerLite integration.
+    !!! warning "Beta"
+        A MailerLite beta is available to some stores. To ask whether yours can use it, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+    With no built-in integration, these are the ways to get your quiz leads into MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 
 
@@ -10828,31 +10825,31 @@ icon: material/cellphone-message
 
 --- Shopify Specific Content ---
 
-Apart from giving your customers a personalized product recommendation, you can connect Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
+Connect your quiz to Omnisend and every quiz result is sent to your mailing list. You can then segment those contacts on their answers, and follow up with a campaign for each group.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=2rzG2V0Y8gio6CKx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    This article explains how to connect your quiz to Omnisend, create a segment for quiz participants and how to send the quiz results to your mailing list.
+    This article explains how to connect your quiz to Omnisend, build a segment from the customers who finished it, and send them their quiz results.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=IIwZgRhppkbtGW_d&amp;start=37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
-    2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
+    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
         - Log in to your Omnisend account.
         - Go to **Store Settings** > **API** and create a new API key.
-        - Name the key (e.g., 'Skincare Basic API Key for Quiz', 'RevenueHunt API Key', etc.) and grant all permissions.
+        - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
         ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
-    3. **Connect to Omnisend**: Access the [Quiz builder](/reference/quiz-builder/) and navigate to **Settings** > **Integrations** and select the **Omnisend** tab. In the field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `Save`.
-    4. **Preview your quiz**: After connecting to Omnisend, preview your quiz all the way to the results page to send the first contact. Use a sample email (e.g., 'alexa@example.com') and provide sample answers to populate properties in Omnisend.
-    5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (e.g., 'Alexa RevenueHunt / alexa@example.com') has been added. Click on the profile to view all custom properties from the quiz, including: 
+    3. **Connect to Omnisend**: open the [Quiz builder](/reference/quiz-builder/), go to **Settings** > **Integrations** and select the **Omnisend** tab. Paste your `Omnisend API Key` into the field, then click `Save`.
+    4. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
+    5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
         - Quiz answers
         - Recommended products
         - Quiz name
         - Product links, names, and images.
-    Following these steps ensures that every time a customer completes your quiz, their contact details, quiz responses, and product recommendations are automatically sent to your Omnisend account. 
-    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Omnisend profile. This information will appear in the customer’s profile as `custom properties`.
+    From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
+    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
     ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
-    If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](#use-quiz-data-in-omnisend-email-templates).
+    To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
     Property names use the quiz **Short ID** (`[SQID]`) and the internal **references** (`[REF]`) of your questions, choices, tags and slots.
     !!! info "Hyphens become underscores"
-        Omnisend doesn't accept hyphens in property names, so every ID is converted. A block reference of `qbc-485600ce` appears in Omnisend as `qbc_485600ce`.
+        Omnisend does not accept a hyphen in a property name, so every ID is converted. A block reference of `qbc-485600ce` appears in Omnisend as `qbc_485600ce`.
     | Property | Value |
     | --- | --- |
     | `quiz_[SQID]_response_id` | Unique ID of that quiz session. |
@@ -10877,67 +10874,67 @@ Apart from giving your customers a personalized product recommendation, you can 
     !!! info "Identifiers and consent"
         The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=zJTtTF4AcwpfJ18y&amp;start=135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    It’s possible to set up a post-quiz email campaign in Omnisend to send the product recommendations or other offers to the quiz participants. 
-    Below you’ll find some basic instructions that you can follow to set up an email flow in Omnisend. It covers creating a segment for quiz takers, setting up an automation workflow, and customizing email content with quiz results.
+    You can set up a post-quiz email campaign in Omnisend. It sends the product recommendations, or any other offer, to everyone who finished the quiz.
+    The instructions below cover building the segment, setting up an automation workflow, and putting the quiz results into the email.
     !!! warning
-        Email templates and flows are not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Omnisend.
-        Once the quiz is connected to Omnisend (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Omnisend.
+        Email templates and flows are not a one-click setup. Someone who knows Omnisend has to build them.
+        The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
     1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
-    2. **Create a Segment for Quiz Participants**: In Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) specifically for users who have completed the quiz. This can be done by filtering for a `custom property` that only quiz participants will have, such as `quiz_QUIZID_quiz_name`.
+    2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `quiz_QUIZID_quiz_name`.
         ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
-        - Use the custom properties to create a segment for users who took the quiz. Select a property (e.g., `quiz_QUIZID_quiz_name`) and copy it.
-        - Go to 'Audience' > 'Segments' and create a new segment from scratch.
+        - Pick a property that only these contacts carry, such as `quiz_QUIZID_quiz_name`, and copy its name.
+        - Go to `Audience` > `Segments` and create a new segment from scratch.
         - Add a filter using the copied property.
-        - Name the segment something recognizable, e.g., 'Skincare Quiz Basic Segment' and save it.
+        - Name the segment something recognizable, for example `Skincare Quiz Basic Segment`, and save it.
         - Omnisend will automatically add profiles with this property to the segment.
-    3. **Set Up an Automated Workflow**: Develop an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) in Omnisend that triggers when someone is added to the newly created segment of quiz participants. This step involves configuring Omnisend to automatically start the email campaign sequence for users in this segment.
+    3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
-        - Navigate to the 'Automation' section in Omnisend.
+        - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
-        - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
+        - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
-    4. **Customize the Email template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the email template**: putting the quiz results and product recommendations into an email takes HTML, CSS and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/). Start from one of Omnisend’s templates, add the quiz data as custom properties, and restyle it to match your brand.
         - Drag and drop an email action below the trigger in the workflow.
-        - Set the email subject (e.g., 'Your Quiz results') and add a subheader.
+        - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
-    5. **Include Quiz results in the Email**: To include quiz results in the email, add an HTML element to the email builder.
-        - In the quiz builder, navigate to 'Settings' > 'Integrations' and generate an Omnisend email template.
+    5. **Include the quiz results**: add an `HTML` element to the email builder.
+        - In the quiz builder, go to `Settings` > `Integrations` and generate an Omnisend email template.
             ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template.png){:width="500px"}
         - Copy the generated code and paste it into the HTML block of your email template in Omnisend.
             ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template_copy.png)
-        - This code will create a pre-formatted email with quiz results and recommended products, which can be further edited as needed.
+        - The code builds a ready-made email holding the quiz results and the recommended products. Edit it as you like.
         !!! warning "Omnisend email template"
-            Some users have reported that the generated email template is not working as expected. If you are experiencing this issue, please [contact support](/how-to-guides/contact-support/).
-    6. **Preview and test the email**: Preview and test the email as one of the segment subscribers. Complete any additional follow-up steps in the workflow.
-    7. **Save all changes and start the workflow**: Save all changes and start the workflow to activate the automation for quiz takers.
-    You can use the quiz data in your Omnisend email templates by using the `custom properties` that are passed from the quiz to your Omnisend account.
+            Some merchants have reported that the generated email template does not work as expected. If you hit this, please [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+    6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
+    7. **Save and start the workflow**: save your changes, then start the workflow.
+    Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
     ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=PsgLwM2IkSiXHkUV&amp;start=300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
+    Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
     1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
+    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
     5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
         ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
-    6. Insert the custom property into your text element. You can optionally provide default text. 
+    6. Insert the custom property into your text element. You can optionally provide default text.
         ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
     7. Save your changes to the email template.
-    8. Use the preview feature to test the template with a specific profile (e.g., Alexa Revenue Hunt). Confirm that the custom property is correctly displayed in the email content, reflecting the user's quiz response.
+    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
     9. Save the email template.
-    Use the `quiz_QUIZID_response_id` to create a link to the quiz results page. Just add `#response-{{ person|lookup:'quiz_QUIZID_response_id' }}` to the end of your results page href attribute in any link or URL. 
+    Use `quiz_QUIZID_response_id` to build a link to the quiz results page. Add `#response-{{ contact.custom.quiz_QUIZID_response_id }}` to the end of the `href` on any link to that page.
     !!! example
-        `<a href="https://yourwebsite.com/#response-{{ contact.custom.quiz_lBJ9bk_response_id }}">View your quiz results</a>` 
+        `<a href="https://yourwebsite.com/#response-{{ contact.custom.quiz_lBJ9bk_response_id }}">View your quiz results</a>`
         where `lBJ9bk` is the quiz ID and
-        - `{{ contact.custom.quiz_lBJ9bk_response_id }}` fetches the dynamic response ID (e.g., eVgV0Y).
-    In the [Integrations](/reference/quiz-builder/connect-integrations/) section, under `Omnisend`, you can find the `omnisend template`. 
+        - `{{ contact.custom.quiz_lBJ9bk_response_id }}` fetches the response ID, for example `eVgV0Y`.
+    In the [Integrations](/reference/quiz-builder/connect-integrations/) section, under `Omnisend`, you can find the `omnisend template`.
     ![how to shopifyv2 omnisend template](/images/how_to_shopifyv2_omnisend_template.png)
     Click on the button to receive and copy an HTML email template specifically tailored for the quiz.
     ![how to shopifyv2 omnisend template copy](/images/how_to_shopifyv2_omnisend_template_copy.png)
     You can use this template as a reference to create your own.
     !!! warning "Omnisend email template"
-        Some users have reported that the generated email template is not working as expected. If you are experiencing this issue, please [contact support](/how-to-guides/contact-support/).
+        Some merchants have reported that the generated email template does not work as expected. If you hit this, please [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
 
 
 
@@ -10955,7 +10952,7 @@ icon: simple/shopify
 
 You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
-This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
+This article explains how to connect your quiz to Shopify Customers and tag each customer by their answers. It also covers building a Shopify Flow that acts on those tags.
 
 ## Link quiz to Shopify customers
 
@@ -10963,12 +10960,12 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=73adkkO2JrAX-wY0&amp;start=75" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Before you begin"
-        **Ensure your quiz has an email question.** Without an email question the app won't be able to send any data to Shopify Customers or Shopify Flow.
-        **(optional) Tag choices with customer tags.** Customer tags get trasfered into the Shopify Customer profile and can be used for further retargeting.
+        **Make sure your quiz has an email question.** Without one, the app cannot send anything to Shopify Customers or Shopify Flow.
+        **(optional) Tag choices with customer tags.** Customer tags are copied to the Shopify Customer profile, where you can use them for retargeting.
     1. Navigate to [App settings](/reference/app-settings/) from the side menu.
     2. Click on the `Shopify Customers` tab.
     3. Toggle the `Enable pushing quiz leads to Shopify Customers` switch to enable the integration.
-        ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)   
+        ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)
     4. Click the `Save` button to save the changes.
     Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/customer-tags/) added to their profile.
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
@@ -10991,31 +10988,31 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     !!! info "Opt-in level"
         Whether the subscription is recorded as single or confirmed opt-in depends on your settings in the quiz editor. See [Change subscribed/consent status](#change-subscribedconsent-status-for-email-and-phone-questions) and [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
     !!! tip "Shopify Flow receives much more"
-        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the full response: every answer with its question title, block reference and choice references, the variable scores, the results page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
-    By default, all the contacts added to the Shopify Customers list via the quiz **will be marked as subscribed** and their consent to receiving marketing information was given. It is not possible to change the default consent state.
-    However, there are many ways you can ask the customer for marketing consent directly in the quiz. 
+        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the whole response. That means every answer with its question title, block reference and choice references. It also carries the variable scores, the results page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
+    Every contact the quiz adds to the Shopify Customers list is **marked as subscribed**, with consent to marketing recorded. You cannot change that default.
+    You can still ask the customer for marketing consent inside the quiz.
     !!! tip
         Check [How to Ask for Marketing/Data Processing Consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=Bpvc82ZhqPbLf5kL&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    You can use [Customer tags](/reference/quiz-builder/customer-tags/) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
+    Use [Customer tags](/reference/quiz-builder/customer-tags/) to carry a customer's answers onto their Shopify Customer profile.
     Follow these steps to add tags to your quiz choices and test the setup:
     1. **Adding Tags to Quiz Choices**: To add tags to your quiz choices, follow these steps:
-        - Open the Revenue Hunt Quizzes app and select your quiz.
+        - Open the RevenueHunt app and select your quiz.
         - Navigate to the choice settings section.
         - Under [Customer tags](/reference/quiz-builder/customer-tags/), create new tags for each choice. For example, create a tag called `teen` and assign it to the relevant choice.
-        - Repeat this process for other choices, adding appropriate tags as needed (e.g., `30s`).
-        - Additionally, add a common tag (e.g., `quiz`) to all choices in one of the questions to identify participants from the product recommendation quiz. Anyone who takes the quiz will be tagged with this common tag.
+        - Repeat for the other choices, for example tagging another with `30s`.
+        - Add one common tag, such as `quiz`, to every choice in a single question. Everyone who finishes the quiz then carries that tag.
     2. **Saving Changes**: After adding the desired tags, click `Save` to save your changes.
     3. **Test the quiz**: `Preview` the quiz using the same or a new email to test the tagging functionality.
-    4. **Refresh the Shopify Customers list**: Once participants complete the quiz, refresh the Shopify Customers list to see the leads being added.
-    5. **View the customer tags**: Open the profile of a participant to view their name, email, and the associated customer tags from the quiz.
+    4. **Refresh the Shopify Customers list**: refresh it to see the new leads arrive.
+    5. **View the customer tags**: open a customer's profile to see their name, email and the tags from the quiz.
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
     You can then use these tags to [create a Shopify email Flow](#set-up-shopify-flow).
     Shopify Flow runs an automation after someone takes your quiz. There are two ways to start that workflow.
     ### Start from the quiz completion (recommended)
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=pPXKYHlVQqxMywSt&amp;start=132" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>    
-    The `Quiz Completed` trigger from Product Recommendation Quiz starts a workflow every time a respondent finishes the quiz and leaves their email address. It carries the quiz data with it, so your conditions and actions can use the answers, the recommended products, the customer tags and the quiz variable scores.
-    1. Make sure your quiz has an email question and that `Enable pushing quiz leads to Shopify Customers` is turned on, as described [above](#link-quiz-to-shopify-customers). Without both of these, nothing reaches Flow.
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=pPXKYHlVQqxMywSt&amp;start=132" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    The `Quiz Completed` trigger starts a workflow every time a customer finishes the quiz and leaves an email address. It carries the quiz data with it. Your conditions and actions can therefore read the answers, the recommended products, the customer tags and the variable scores.
+    1. Make sure your quiz has an email question, and that `Enable pushing quiz leads to Shopify Customers` is turned on. See [Link quiz to Shopify Customers](#link-quiz-to-shopify-customers). Without both, nothing reaches Flow.
     2. Install [Shopify Flow](https://admin.shopify.com/apps/flow) if your store does not have it yet. It is free.
     3. Open Shopify Flow and click `Create workflow`.
     4. Click `Select a trigger`, choose `Product Recommendation Quiz`, then `Quiz Completed`.
@@ -11026,32 +11023,32 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     7. Complete your published quiz with an email address, then reopen the workflow and check its recent runs.
     RevenueHunt reports whether Shopify has seen an active workflow in `App Settings > Shopify Customers > Shopify Flow`.
     !!! tip
-        For worked examples, including how to email your team with the quiz results inside the message and how to branch on a customer tag, see [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
+        For worked examples, see [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/). It covers emailing your team with the quiz results in the message, and branching on a customer tag.
     ### Start from a customer tag (alternative)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=XKMU11jhdcuCgDYc&amp;start=280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
-    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/customer-tags/), so it only runs for brand new customers and it cannot read quiz answers or recommendations. Use it when you deliberately want to act on first time customers only, or if you already have an automation built this way and it still does what you need.
+    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/customer-tags/). It therefore runs only for brand new customers, and it cannot read the quiz answers or recommendations. Use it to act on first-time customers only, or when you already have an automation built this way that still does what you need.
     1. **Open the automations list**: go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
     2. Select a `Create custom automation` automation:
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
     3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
         ![how to send leads to shopify customers automation2](/images/how_to_send_leads_to_shopify_customers_automation2.png)
-        Remember that this fires only for brand new customers. A respondent who already exists in your Shopify Customers list is updated rather than created, so the automation does not run for them.
-    4. **Select a condition**: Add a `Condition` action after the trigger. Click `Add variable` and from the list look for `customer` and then `tags`. Then, set up the condition as follows: 
-        **At least one customer / tags** `includes` tags_item  `quiz`.
+        This fires only for brand new customers. A customer who already exists in your Shopify Customers list is updated rather than created, so the automation does not run for them.
+    4. **Select a condition**: Add a `Condition` action after the trigger. Click `Add variable` and from the list look for `customer` and then `tags`. Then, set up the condition as follows:
+        **At least one customer / tags** `includes` `tags_item` `quiz`.
         ![how to send leads to shopify customers automation3](/images/how_to_shopify_customers_flow_add_conditon.gif)
         Type the tag exactly as you named it in the quiz builder.
         ![how to send leads to shopify customers automation4](/images/how_to_shopifyv2_send_leads_to_shopify_customers_automation4.png)
-    5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the tag (right after the tag is added to their profile), click `Then > Action` and from the list select `Send marketing email`. Next, select the email template you want to use.
+    5. **Set up an email**: click `Then > Action` and select `Send marketing email`. Then pick the email template you want. The email goes to every contact carrying the tag, as soon as the tag lands on their profile.
         ![how to send leads to shopify customers automation6](/images/how_to_shopify_customers_flow_add_email.gif)
-    6. **Save**: Remember to `Turn on workflow` once you're done with making the changes.
+    6. **Save**: click `Turn on workflow` when you have finished.
         ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
-    7. **Test it**: complete your published quiz with an email address that does not exist in your Shopify Customers list yet, then open the automation and check its recent runs.
-    Now, all the quiz takers with a specific `tag` like `quiz` will be sent the marketing email.
+    7. **Test it**: complete your published quiz with an email address that is not yet in your Shopify Customers list. Then open the automation and check its recent runs.
+    Every customer carrying that tag is then sent the marketing email.
     !!! note
         Since 24 March 2026, marketing automations that use Shopify Messaging emails are managed in the **Shopify Messaging** app, under `Apps > Messaging > Automations`. Automations whose marketing action comes from another email app, such as Klaviyo or Seguno, remain in the **Shopify Flow** app. Existing automations kept working through the move, so you do not need to rebuild anything.
-        `Send marketing email` is not a built-in Shopify Flow action. It is provided by the email app you have installed, and it only delivers to customers who are subscribed to marketing. Quiz leads are marked as subscribed by default, as described [above](#change-subscribedconsent-status-for-email-and-phone-questions).
-    To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
+        `Send marketing email` is not a built-in Shopify Flow action. Your installed email app provides it, and it reaches only customers subscribed to marketing. Quiz leads are subscribed by default. See [Change subscribed and consent status](#change-subscribedconsent-status-for-email-and-phone-questions).
+    To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/create-marketing-automations).
 
 
 
@@ -11067,41 +11064,43 @@ icon: material/webhook
 
 # How to Send Leads to Webhooks
 
-Integrating thw quiz with webhooks allows you to automatically send all quiz data, including responses, recommended products, and participant information, to your specified endpoints. 
+A webhook sends the full quiz data to any endpoint you choose: the answers, the recommended products and the customer's contact details.
 
-This guide will walk you through the steps to link your quiz to custom webhooks, enabling instant data integration for further processing or analysis.
+This article explains how to link your quiz to a custom webhook, so another system can act on each response as it arrives.
 
-Before you start, ensure you have:
+!!! note "Before you start"
 
-- A RevenueHunt Product Recommendation Quiz from which you want to send data.
-- A valid webhook URL to receive the data. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
+    You need:
+
+    - A quiz in the RevenueHunt app to send the data from.
+    - A webhook URL to receive the data. To test the feature, generate a temporary endpoint with a service such as [Webhook.site](https://webhook.site).
 
 ## Link quiz to webhooks
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/VE314AzvTbY?si=jCWb9ok0xAJAbTis" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Prepare Your Quiz**. Ensure your quiz is fully set up with all the questions you want. Open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
-    2. **Access the Webhooks Integration**. Scroll down to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section. Click on **Webhooks** to open the integration panel.
-    3. **Add a New Webhook**. Click `+ Add Webhook`. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
+    1. **Prepare your quiz**. Add every question you want, then open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
+    2. **Open the Webhooks integration**. Scroll to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section and click **Webhooks**.
+    3. **Add a webhook**. Click `+ Add Webhook`. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
         ![how to webhook add](/images/how_to_shopifyv2_webhooks_add_webhook.png)
-    4. **Enter the Webhook URL**. Paste the generated URL into the input field. Assign a name to the webhook (e.g., "Skin Care Test Quiz").
+    4. **Enter the webhook URL**. Paste the generated URL into the field, and give the webhook a name such as `Skin Care Test Quiz`.
         ![how to webhook add](/images/how_to_shopifyv2_webhooks_connection.png)
-    5. **Configure Webhook Settings**. Select the quiz data you want to send by toggling the available options. (Optional) Add HTTP headers by entering key-value pairs. 
-    6. **Save Your Changes**. Click `Save` to apply the webhook configuration.
-    7. **Send a Test Webhook**. Click `Send Test` to trigger a sample payload. This helps verify that your webhook is receiving data correctly.
+    5. **Configure the webhook**. Toggle the options to choose which quiz data to send. You can also add HTTP headers as key-value pairs.
+    6. **Save your changes**. Click `Save`.
+    7. **Send a test webhook**. Click `Send Test` to trigger a sample payload, and check that your webhook receives it.
         ![how to webhook settings](/images/how_to_shopifyv2_webhooks_connection_successful.png)
-    8. **Verify Delivery**. Open your endpoint (e.g., Webhook.site) and confirm that a POST request has been received. Review the JSON payload to ensure it contains the correct quiz and customer data.
+    8. **Verify delivery**. Open your endpoint, such as Webhook.site, and confirm a POST request arrived. Check the JSON payload for the right quiz and customer data.
         ![how to webhook settings](/images/how_to_shopifyv2_webhooks_test_connection_result_post.png)
-    9. **(Optional) Add More Webhooks**. Click `+ Add Webhook` again to enter additional URLs. Repeat the setup steps for each additional webhook.
-    Webhooks will receive all data from the quiz, incluiding:
-    - Participant's name, email, and phone number.
+    9. **(Optional) Add more webhooks**. Click `+ Add Webhook` again for each extra URL, and repeat these steps.
+    A webhook receives all of the quiz data:
+    - The customer's name, email address and phone number.
     - Details of recommended products.
     - Quiz questions and their respective answers.
     - Tags, quiz permalink, and the permalink to individual quiz responses.
-    You can select which data to send by toggling the checking the available options while setting up the webhook.
+    While setting up the webhook, toggle the available options to choose which data to send.
     ![how to webhook add](/images/how_to_shopifyv2_webhooks_connection.png)
-    This data is packaged and sent as a JSON payload in a POST request, ensuring a structured and accessible format for automated processing or integration into other systems.
+    The data is sent as a JSON payload in a POST request, so another system can read it directly.
     ![how to webhook settings](/images/how_to_shopifyv2_webhooks_test_connection_result_post.png)
     !!! tip "Capture URL parameters in webhooks"
         Want to include UTM parameters or other URL data in your webhook? Use [custom JavaScript](/how-to-guides/add-javascript/) to set synthetic answers:
@@ -11113,76 +11112,89 @@ Before you start, ensure you have:
         });
         ```
         These values will appear in `answersByBlock` in your webhook payload.
-    Below is a sample JSON payload sent on the POST request for a skincare quiz:
-    ```html
-    {
-      "responseId": "uB38Vp",
-      "resultRef": "r-08450c04",
-      "quizId": "3yS9Ky",
-      "quizName": "Skincare Quiz (Basic)",
-      "firstName": "Alex",
-      "fullName": "Alex",
-      "email": "alexa@revenuehunt.com",
-      "answersByBlock": {
-        "qbi-6c4248f5": {
-          "type": "first_name",
-          "value": "Alex",
-          "choicesRefs": []
-        },
-        "qbc-dd744cf3": {
-          "type": "multiple_choice",
-          "value": "30's",
-          "choicesRefs": [
-            "qbcc-6671ad61"
-          ]
-        },
-        "qbc-485600ce": {
-          "type": "picture_choice",
-          "value": "Not too oily and not too dry",
-          "choicesRefs": [
-            "qbcc-d6eca8f5"
-          ]
-        },
-        "qbc-e8cf3180": {
-          "type": "multiple_choice",
-          "value": "Tight, flaky and dry skin, Fine lines and wrinkles and Hyperpigmentation and discoloration",
-          "choicesRefs": [
-            "qbcc-4b757ee6",
-            "qbcc-f8ee8050",
-            "qbcc-c9063062"
-          ]
-        },
-        "qbc-329aaeff": {
-          "type": "multiple_choice",
-          "value": "Citrus Oils",
-          "choicesRefs": [
-            "qbcc-21ece637"
-          ]
-        },
-        "qbi-29f016cf": {
-          "type": "email",
-          "value": "alexa@revenuehunt.com",
-          "choicesRefs": []
-        },
-        "qbc-cb601cf6": {
-          "type": "multiple_choice",
-          "value": "I want to receive exclusive promos, custom skin and skincare tips and and more.",
-          "choicesRefs": [
-            "qbcc-102a66fc"
-          ]
-        }
-      },
-      "tags": [],
-      "recommendationsBySlot": {
-        "rsbss-bfeeade4": [
-          {
-            "id": "gid://shopify/Product/9207072948530",
-            "title": "Organix Facial Moisturizer",
-            "handle": "organix-facial-moisturizer",
-            "vendor": "skincarequizstore",
-            "variants": [
+    ??? example "Sample JSON payload for a skincare quiz"
+        ```json
+        {
+          "responseId": "uB38Vp",
+          "resultRef": "r-08450c04",
+          "quizId": "3yS9Ky",
+          "quizName": "Skincare Quiz (Basic)",
+          "firstName": "Alex",
+          "fullName": "Alex",
+          "email": "alexa@revenuehunt.com",
+          "answersByBlock": {
+            "qbi-6c4248f5": {
+              "type": "first_name",
+              "value": "Alex",
+              "choicesRefs": []
+            },
+            "qbc-dd744cf3": {
+              "type": "multiple_choice",
+              "value": "30's",
+              "choicesRefs": [
+                "qbcc-6671ad61"
+              ]
+            },
+            "qbc-485600ce": {
+              "type": "picture_choice",
+              "value": "Not too oily and not too dry",
+              "choicesRefs": [
+                "qbcc-d6eca8f5"
+              ]
+            },
+            "qbc-e8cf3180": {
+              "type": "multiple_choice",
+              "value": "Tight, flaky and dry skin, Fine lines and wrinkles and Hyperpigmentation and discoloration",
+              "choicesRefs": [
+                "qbcc-4b757ee6",
+                "qbcc-f8ee8050",
+                "qbcc-c9063062"
+              ]
+            },
+            "qbc-329aaeff": {
+              "type": "multiple_choice",
+              "value": "Citrus Oils",
+              "choicesRefs": [
+                "qbcc-21ece637"
+              ]
+            },
+            "qbi-29f016cf": {
+              "type": "email",
+              "value": "alexa@revenuehunt.com",
+              "choicesRefs": []
+            },
+            "qbc-cb601cf6": {
+              "type": "multiple_choice",
+              "value": "I want to receive exclusive promos, custom skin and skincare tips and and more.",
+              "choicesRefs": [
+                "qbcc-102a66fc"
+              ]
+            }
+          },
+          "tags": [],
+          "recommendationsBySlot": {
+            "rsbss-bfeeade4": [
               {
-                "id": "gid://shopify/ProductVariant/48355413492018",
+                "id": "gid://shopify/Product/9207072948530",
+                "title": "Organix Facial Moisturizer",
+                "handle": "organix-facial-moisturizer",
+                "vendor": "skincarequizstore",
+                "variants": [
+                  {
+                    "id": "gid://shopify/ProductVariant/48355413492018",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
+                      "altText": null
+                    },
+                    "price": {
+                      "amount": 30,
+                      "currencyCode": "USD"
+                    },
+                    "title": "Default Title"
+                  }
+                ],
+                "dynamicMetafields": [],
+                "type": "products",
                 "image": {
                   "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
                   "altText": null
@@ -11190,29 +11202,35 @@ Before you start, ensure you have:
                 "price": {
                   "amount": 30,
                   "currencyCode": "USD"
-                },
-                "title": "Default Title"
-              }
-            ],
-            "dynamicMetafields": [],
-            "type": "products",
-            "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
-              "altText": null
-            },
-            "price": {
-              "amount": 30,
-              "currencyCode": "USD"
-            }
-          },
-          {
-            "id": "gid://shopify/Product/9207079534898",
-            "title": "Vitamin C Serum",
-            "handle": "vitamin-c-serum",
-            "vendor": "skincarequizstore",
-            "variants": [
+                }
+              },
               {
-                "id": "gid://shopify/ProductVariant/48355422863666",
+                "id": "gid://shopify/Product/9207079534898",
+                "title": "Vitamin C Serum",
+                "handle": "vitamin-c-serum",
+                "vendor": "skincarequizstore",
+                "variants": [
+                  {
+                    "id": "gid://shopify/ProductVariant/48355422863666",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
+                      "altText": null
+                    },
+                    "price": {
+                      "amount": 42,
+                      "currencyCode": "USD"
+                    },
+                    "title": "Default Title"
+                  }
+                ],
+                "dynamicMetafields": [
+                  {
+                    "key": "description",
+                    "value": "This is a description",
+                    "namespace": "custom"
+                  }
+                ],
+                "type": "products",
                 "image": {
                   "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
                   "altText": null
@@ -11220,35 +11238,29 @@ Before you start, ensure you have:
                 "price": {
                   "amount": 42,
                   "currencyCode": "USD"
-                },
-                "title": "Default Title"
-              }
-            ],
-            "dynamicMetafields": [
+                }
+              },
               {
-                "key": "description",
-                "value": "This is a description",
-                "namespace": "custom"
-              }
-            ],
-            "type": "products",
-            "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
-              "altText": null
-            },
-            "price": {
-              "amount": 42,
-              "currencyCode": "USD"
-            }
-          },
-          {
-            "id": "gid://shopify/Product/9207069933874",
-            "title": "The Ordinary \"Buffet\" + Copper Peptides 1%",
-            "handle": "the-ordinary-buffet-copper-peptides-1",
-            "vendor": "skincarequizstore",
-            "variants": [
-              {
-                "id": "gid://shopify/ProductVariant/48355410510130",
+                "id": "gid://shopify/Product/9207069933874",
+                "title": "The Ordinary \"Buffet\" + Copper Peptides 1%",
+                "handle": "the-ordinary-buffet-copper-peptides-1",
+                "vendor": "skincarequizstore",
+                "variants": [
+                  {
+                    "id": "gid://shopify/ProductVariant/48355410510130",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
+                      "altText": null
+                    },
+                    "price": {
+                      "amount": 36,
+                      "currencyCode": "USD"
+                    },
+                    "title": "Default Title"
+                  }
+                ],
+                "dynamicMetafields": [],
+                "type": "products",
                 "image": {
                   "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
                   "altText": null
@@ -11256,101 +11268,259 @@ Before you start, ensure you have:
                 "price": {
                   "amount": 36,
                   "currencyCode": "USD"
+                }
+              },
+              {
+                "id": "gid://shopify/Product/9083881423154",
+                "title": "Aloe Soothing Toner",
+                "handle": "aloe-soothing-moist-toner",
+                "vendor": "skincarequizstore",
+                "variants": [
+                  {
+                    "id": "gid://shopify/ProductVariant/47940967334194",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-green-lg_1024x1024_2x_ac1c442d-01b1-46aa-85d8-5bd28cb8434b.jpg?v=1709729891",
+                      "altText": null
+                    },
+                    "price": {
+                      "amount": 24,
+                      "currencyCode": "USD"
+                    },
+                    "title": "Green"
+                  },
+                  {
+                    "id": "gid://shopify/ProductVariant/47940967366962",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-red-lg_1024x1024_2x_9c6061c1-7214-42e4-8dc7-bbb3a2f4ef4e.jpg?v=1709729901",
+                      "altText": null
+                    },
+                    "price": {
+                      "amount": 24,
+                      "currencyCode": "USD"
+                    },
+                    "title": "Red"
+                  },
+                  {
+                    "id": "gid://shopify/ProductVariant/47940967399730",
+                    "image": {
+                      "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_18d2fc63-3f85-4660-bd56-8725ae651a77.jpg?v=1709729914",
+                      "altText": null
+                    },
+                    "price": {
+                      "amount": 24,
+                      "currencyCode": "USD"
+                    },
+                    "title": "Blue"
+                  }
+                ],
+                "dynamicMetafields": [],
+                "type": "products",
+                "image": {
+                  "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_b5666a02-7579-445c-aec3-6edd0eb0e909.jpg?v=1709729938",
+                  "altText": null
                 },
-                "title": "Default Title"
+                "price": {
+                  "amount": 24,
+                  "currencyCode": "USD"
+                }
               }
-            ],
-            "dynamicMetafields": [],
-            "type": "products",
-            "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
-              "altText": null
-            },
-            "price": {
-              "amount": 36,
-              "currencyCode": "USD"
-            }
+            ]
           },
-          {
-            "id": "gid://shopify/Product/9083881423154",
-            "title": "Aloe Soothing Toner",
-            "handle": "aloe-soothing-moist-toner",
-            "vendor": "skincarequizstore",
-            "variants": [
-              {
-                "id": "gid://shopify/ProductVariant/47940967334194",
-                "image": {
-                  "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-green-lg_1024x1024_2x_ac1c442d-01b1-46aa-85d8-5bd28cb8434b.jpg?v=1709729891",
-                  "altText": null
-                },
-                "price": {
-                  "amount": 24,
-                  "currencyCode": "USD"
-                },
-                "title": "Green"
-              },
-              {
-                "id": "gid://shopify/ProductVariant/47940967366962",
-                "image": {
-                  "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-red-lg_1024x1024_2x_9c6061c1-7214-42e4-8dc7-bbb3a2f4ef4e.jpg?v=1709729901",
-                  "altText": null
-                },
-                "price": {
-                  "amount": 24,
-                  "currencyCode": "USD"
-                },
-                "title": "Red"
-              },
-              {
-                "id": "gid://shopify/ProductVariant/47940967399730",
-                "image": {
-                  "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_18d2fc63-3f85-4660-bd56-8725ae651a77.jpg?v=1709729914",
-                  "altText": null
-                },
-                "price": {
-                  "amount": 24,
-                  "currencyCode": "USD"
-                },
-                "title": "Blue"
-              }
-            ],
-            "dynamicMetafields": [],
-            "type": "products",
-            "image": {
-              "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_b5666a02-7579-445c-aec3-6edd0eb0e909.jpg?v=1709729938",
-              "altText": null
-            },
-            "price": {
-              "amount": 24,
-              "currencyCode": "USD"
-            }
-          }
-        ]
-      },
-      "variableScores": {
-        "score": 0
-      },
-      "createdAt": "2025-07-10 14:22:34 UTC",
-      "resultSections": [
-        {
-          "ref": "rs-f8409d3d",
-          "blocks": [
+          "variableScores": {
+            "score": 0
+          },
+          "createdAt": "2025-07-10 14:22:34 UTC",
+          "resultSections": [
             {
-              "ref": "rsbh-9829ca60",
+              "ref": "rs-f8409d3d",
+              "blocks": [
+                {
+                  "ref": "rsbh-9829ca60",
+                  "type": "heading",
+                  "content": "<p>Your results are in!</p>"
+                },
+                {
+                  "ref": "rsbt-ee9d95f5",
+                  "type": "text",
+                  "content": "<p>Please write a brief introductory text to explain why these recommended products are the perfect match for them.</p>"
+                },
+                {
+                  "ref": "rsbs-023d3ae5",
+                  "type": "products",
+                  "slots": [
+                    {
+                      "ref": "rsbss-bfeeade4",
+                      "items": [
+                        {
+                          "id": "gid://shopify/Product/9207072948530",
+                          "title": "Organix Facial Moisturizer",
+                          "handle": "organix-facial-moisturizer",
+                          "vendor": "skincarequizstore",
+                          "variants": [
+                            {
+                              "id": "gid://shopify/ProductVariant/48355413492018",
+                              "image": {
+                                "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
+                                "altText": null
+                              },
+                              "price": {
+                                "amount": 30,
+                                "currencyCode": "USD"
+                              },
+                              "title": "Default Title"
+                            }
+                          ],
+                          "dynamicMetafields": [],
+                          "type": "products",
+                          "image": {
+                            "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
+                            "altText": null
+                          },
+                          "price": {
+                            "amount": 30,
+                            "currencyCode": "USD"
+                          }
+                        },
+                        {
+                          "id": "gid://shopify/Product/9207079534898",
+                          "title": "Vitamin C Serum",
+                          "handle": "vitamin-c-serum",
+                          "vendor": "skincarequizstore",
+                          "variants": [
+                            {
+                              "id": "gid://shopify/ProductVariant/48355422863666",
+                              "image": {
+                                "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
+                                "altText": null
+                              },
+                              "price": {
+                                "amount": 42,
+                                "currencyCode": "USD"
+                              },
+                              "title": "Default Title"
+                            }
+                          ],
+                          "dynamicMetafields": [
+                            {
+                              "key": "description",
+                              "value": "This is a description",
+                              "namespace": "custom"
+                            }
+                          ],
+                          "type": "products",
+                          "image": {
+                            "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
+                            "altText": null
+                          },
+                          "price": {
+                            "amount": 42,
+                            "currencyCode": "USD"
+                          }
+                        },
+                        {
+                          "id": "gid://shopify/Product/9207069933874",
+                          "title": "The Ordinary \"Buffet\" + Copper Peptides 1%",
+                          "handle": "the-ordinary-buffet-copper-peptides-1",
+                          "vendor": "skincarequizstore",
+                          "variants": [
+                            {
+                              "id": "gid://shopify/ProductVariant/48355410510130",
+                              "image": {
+                                "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
+                                "altText": null
+                              },
+                              "price": {
+                                "amount": 36,
+                                "currencyCode": "USD"
+                              },
+                              "title": "Default Title"
+                            }
+                          ],
+                          "dynamicMetafields": [],
+                          "type": "products",
+                          "image": {
+                            "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
+                            "altText": null
+                          },
+                          "price": {
+                            "amount": 36,
+                            "currencyCode": "USD"
+                          }
+                        },
+                        {
+                          "id": "gid://shopify/Product/9083881423154",
+                          "title": "Aloe Soothing Toner",
+                          "handle": "aloe-soothing-moist-toner",
+                          "vendor": "skincarequizstore",
+                          "variants": [
+                            {
+                              "id": "gid://shopify/ProductVariant/47940967334194",
+                              "image": {
+                                "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-green-lg_1024x1024_2x_ac1c442d-01b1-46aa-85d8-5bd28cb8434b.jpg?v=1709729891",
+                                "altText": null
+                              },
+                              "price": {
+                                "amount": 24,
+                                "currencyCode": "USD"
+                              },
+                              "title": "Green"
+                            },
+                            {
+                              "id": "gid://shopify/ProductVariant/47940967366962",
+                              "image": {
+                                "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-red-lg_1024x1024_2x_9c6061c1-7214-42e4-8dc7-bbb3a2f4ef4e.jpg?v=1709729901",
+                                "altText": null
+                              },
+                              "price": {
+                                "amount": 24,
+                                "currencyCode": "USD"
+                              },
+                              "title": "Red"
+                            },
+                            {
+                              "id": "gid://shopify/ProductVariant/47940967399730",
+                              "image": {
+                                "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_18d2fc63-3f85-4660-bd56-8725ae651a77.jpg?v=1709729914",
+                                "altText": null
+                              },
+                              "price": {
+                                "amount": 24,
+                                "currencyCode": "USD"
+                              },
+                              "title": "Blue"
+                            }
+                          ],
+                          "dynamicMetafields": [],
+                          "type": "products",
+                          "image": {
+                            "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_b5666a02-7579-445c-aec3-6edd0eb0e909.jpg?v=1709729938",
+                            "altText": null
+                          },
+                          "price": {
+                            "amount": 24,
+                            "currencyCode": "USD"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "resultContentByBlock": {
+            "rsbh-9829ca60": {
               "type": "heading",
               "content": "<p>Your results are in!</p>"
             },
-            {
-              "ref": "rsbt-ee9d95f5",
+            "rsbt-ee9d95f5": {
               "type": "text",
               "content": "<p>Please write a brief introductory text to explain why these recommended products are the perfect match for them.</p>"
             },
-            {
-              "ref": "rsbs-023d3ae5",
+            "rsbs-023d3ae5": {
               "type": "products",
-              "slots": [
-                {
-                  "ref": "rsbss-bfeeade4",
+              "slots": {
+                "rsbss-bfeeade4": {
                   "items": [
                     {
                       "id": "gid://shopify/Product/9207072948530",
@@ -11504,182 +11674,11 @@ Before you start, ensure you have:
                     }
                   ]
                 }
-              ]
-            }
-          ]
-        }
-      ],
-      "resultContentByBlock": {
-        "rsbh-9829ca60": {
-          "type": "heading",
-          "content": "<p>Your results are in!</p>"
-        },
-        "rsbt-ee9d95f5": {
-          "type": "text",
-          "content": "<p>Please write a brief introductory text to explain why these recommended products are the perfect match for them.</p>"
-        },
-        "rsbs-023d3ae5": {
-          "type": "products",
-          "slots": {
-            "rsbss-bfeeade4": {
-              "items": [
-                {
-                  "id": "gid://shopify/Product/9207072948530",
-                  "title": "Organix Facial Moisturizer",
-                  "handle": "organix-facial-moisturizer",
-                  "vendor": "skincarequizstore",
-                  "variants": [
-                    {
-                      "id": "gid://shopify/ProductVariant/48355413492018",
-                      "image": {
-                        "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
-                        "altText": null
-                      },
-                      "price": {
-                        "amount": 30,
-                        "currencyCode": "USD"
-                      },
-                      "title": "Default Title"
-                    }
-                  ],
-                  "dynamicMetafields": [],
-                  "type": "products",
-                  "image": {
-                    "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/age-moisturizer_1024x1024_2x_40012e11-78a7-408e-a10d-a839b05adcae.jpg?v=1713172689",
-                    "altText": null
-                  },
-                  "price": {
-                    "amount": 30,
-                    "currencyCode": "USD"
-                  }
-                },
-                {
-                  "id": "gid://shopify/Product/9207079534898",
-                  "title": "Vitamin C Serum",
-                  "handle": "vitamin-c-serum",
-                  "vendor": "skincarequizstore",
-                  "variants": [
-                    {
-                      "id": "gid://shopify/ProductVariant/48355422863666",
-                      "image": {
-                        "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
-                        "altText": null
-                      },
-                      "price": {
-                        "amount": 42,
-                        "currencyCode": "USD"
-                      },
-                      "title": "Default Title"
-                    }
-                  ],
-                  "dynamicMetafields": [
-                    {
-                      "key": "description",
-                      "value": "This is a description",
-                      "namespace": "custom"
-                    }
-                  ],
-                  "type": "products",
-                  "image": {
-                    "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/Screenshot2024-04-15112220.png?v=1713172967",
-                    "altText": null
-                  },
-                  "price": {
-                    "amount": 42,
-                    "currencyCode": "USD"
-                  }
-                },
-                {
-                  "id": "gid://shopify/Product/9207069933874",
-                  "title": "The Ordinary \"Buffet\" + Copper Peptides 1%",
-                  "handle": "the-ordinary-buffet-copper-peptides-1",
-                  "vendor": "skincarequizstore",
-                  "variants": [
-                    {
-                      "id": "gid://shopify/ProductVariant/48355410510130",
-                      "image": {
-                        "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
-                        "altText": null
-                      },
-                      "price": {
-                        "amount": 36,
-                        "currencyCode": "USD"
-                      },
-                      "title": "Default Title"
-                    }
-                  ],
-                  "dynamicMetafields": [],
-                  "type": "products",
-                  "image": {
-                    "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/oily-serum_1024x1024_2x_d2d2cf84-cb98-4a86-b14c-9982d2b244a7.jpg?v=1713172560",
-                    "altText": null
-                  },
-                  "price": {
-                    "amount": 36,
-                    "currencyCode": "USD"
-                  }
-                },
-                {
-                  "id": "gid://shopify/Product/9083881423154",
-                  "title": "Aloe Soothing Toner",
-                  "handle": "aloe-soothing-moist-toner",
-                  "vendor": "skincarequizstore",
-                  "variants": [
-                    {
-                      "id": "gid://shopify/ProductVariant/47940967334194",
-                      "image": {
-                        "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-green-lg_1024x1024_2x_ac1c442d-01b1-46aa-85d8-5bd28cb8434b.jpg?v=1709729891",
-                        "altText": null
-                      },
-                      "price": {
-                        "amount": 24,
-                        "currencyCode": "USD"
-                      },
-                      "title": "Green"
-                    },
-                    {
-                      "id": "gid://shopify/ProductVariant/47940967366962",
-                      "image": {
-                        "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-red-lg_1024x1024_2x_9c6061c1-7214-42e4-8dc7-bbb3a2f4ef4e.jpg?v=1709729901",
-                        "altText": null
-                      },
-                      "price": {
-                        "amount": 24,
-                        "currencyCode": "USD"
-                      },
-                      "title": "Red"
-                    },
-                    {
-                      "id": "gid://shopify/ProductVariant/47940967399730",
-                      "image": {
-                        "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_18d2fc63-3f85-4660-bd56-8725ae651a77.jpg?v=1709729914",
-                        "altText": null
-                      },
-                      "price": {
-                        "amount": 24,
-                        "currencyCode": "USD"
-                      },
-                      "title": "Blue"
-                    }
-                  ],
-                  "dynamicMetafields": [],
-                  "type": "products",
-                  "image": {
-                    "url": "https://cdn.shopify.com/s/files/1/0856/7652/3826/files/aloe-blue-lg_1024x1024_2x_b5666a02-7579-445c-aec3-6edd0eb0e909.jpg?v=1709729938",
-                    "altText": null
-                  },
-                  "price": {
-                    "amount": 24,
-                    "currencyCode": "USD"
-                  }
-                }
-              ]
+              }
             }
           }
         }
-      }
-    }   
-    ```
+        ```
 
 
 
@@ -11695,62 +11694,64 @@ icon: simple/zapier
 
 # How to Send Leads to Zapier
 
+Zapier connects to thousands of apps, including most CRMs and mailing lists. Send your quiz leads to Zapier, and Zapier passes them on to any service it supports.
+
+This article explains how to connect your quiz to Zapier, what data is sent, and how to build a sample Zap.
+
 --- Shopify Specific Content ---
 
-The `💎 Built for Shopify` version of the RevenueHunt app integrates directly with Zapier. 
+The `💎 Built for Shopify` version of the RevenueHunt app integrates directly with Zapier.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Us6QCQpfFf0?si=mvOj4x8rnRRdiT0-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    !!! info "Connecting the Quiz to Zapier allows you to:"
-        - Connect the quiz to other apps (that RevenueHunt does not yet integrate with) and send quiz data to there automatically.
-        - Send quiz leads to Zapier.
+    !!! info "What connecting the quiz to Zapier gives you"
+        - Send quiz data to an app the RevenueHunt app does not integrate with directly.
         - Send quiz leads to Google Sheets.
         - Send follow-up emails directly from Zapier.
-    This guide explain how you can send quiz data to Zapier, what data is sent and how to set up a sample Zap using RevenueHunt as a trigger.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Us6QCQpfFf0?si=mvOj4x8rnRRdiT0-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Prepare your quiz**: Before connecting to Zapier, you may want to add a `Name`, `Phone Number`, or `Email` question to your quiz in order to identify your leads. 
-        - To do this, use the `+Add Question`or `+Add Block` options in the [Questions](/reference/quiz-builder/questions/) section of the Quiz builder.
-        - Once you’ve added your lead fields, click `Save` to save the changes.
+    1. **Prepare your quiz**: add a `Name`, `Phone Number` or `Email` question, so you can identify each lead.
+        - To do this, use the `+Add Question` or `+Add Block` options in the [Questions](/reference/quiz-builder/questions/) section of the Quiz builder.
+        - Click `Save` when you have added them.
     2. **Connecting to Zapier**: From the dashboard, navigate to [`quiz settings`](/reference/quiz-builder/quiz-settings/).
-        - Go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) section and find 'Zapier Integration'.
-        - Click `Connect`to be directed to the Zapier login page.
+        - Go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) section and find `Zapier Integration`.
+        - Click `Connect` to open the Zapier login page.
         - Log in with your credentials.
-    3. **Find RevenueHunt API Key**: On the authentication page, provide your Revenue Hunt API key. 
+    3. **Find your RevenueHunt API key**: the authentication page asks for it.
         ![how_to_shopifyv2_send_leads_to_zapier_provide_api_key](/images/how_to_shopifyv2_send_leads_to_zapier_provide_api_key.png)
         - Go back to the app and click `Copy Zapier API Key`. Copy the key to your clipboard.
         ![zapier api key](https://loom.com/i/4b7c034e3028417784d5cc5090caff21?workflows_screenshot=true)
-    4. **Paste API Key**: Paste the key into the authentication page and select `Yes, Continue to Revenue Hunt 2.0.0`. If successful, you will be redirected back to the integrations page with Zapier connected to your quiz.
-    5. **Test the connection**: `Preview` the quiz from the dashboard and complete it with sample information, including an email address. After reaching the results page, close the quiz.
+    4. **Paste the API key**: paste it into the authentication page and select `Yes, Continue to Revenue Hunt 2.0.0`. Zapier returns you to the integrations page, now connected.
+    5. **Test the connection**: `Preview` the quiz and complete it with sample answers, including an email address. Close the quiz once you reach the results page.
     6. **Create a New Zap**: Log in to Zapier and click `+ Create Zap` to create a new Zap.
         - Select `RevenueHunt 2.0.0` as App.
         - Select `New Response` as the trigger event.
         - Select `RevenueHunt 2.0.0` as Account.
         - Click `Continue`.
-        - Choose the quiz from which to receive responses (e.g., 'Skincare Quiz').
+        - Choose the quiz to receive responses from, for example `Skincare Quiz`.
         ![how_to_shopifyv2_send_leads_to_zapier_create_new_zap](/images/how_to_shopifyv2_send_leads_to_zapier_create_new_zap.png)
-    7. **Test the trigger**: Test the trigger to ensure data is sent correctly: 
+    7. **Test the trigger**: check that the data arrives correctly:
         - Zapier will retrieve the latest quiz responses.
         - Verify that all relevant information (response ID, quiz ID, answers) is populated correctly.
         ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
         !!! info "What data is sent to Zapier?"
             Check [What data is sent to Zapier?](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
-    8. **Set up what happends to Quiz leads**: After confirming the integration is successful, you can decide how to use the data. Zapier offers plenty of integrations including:
+    8. **Decide what happens to the quiz leads**: with the integration working, choose what Zapier does with the data. It offers many integrations, including:
         - Sending responses to a Google Sheet.
         - Filtering responses based on specific conditions.
-        - Sending emails through Zapier'snative  email integration.
-        !!! tip 
+        - Sending emails through Zapier's own email integration.
+        !!! tip
             Explore various options available in Zapier to utilize the quiz data effectively.
             ![zapier integrations](https://loom.com/i/116796e9e4aa4cba96bb555a3b890beb?workflows_screenshot=true)
-        After you're done, make sure to **Publish** the zap.
-    9. After successfully creating and publishing your Zap in Zapier, you can view the active Zaps connected to your quiz by following these steps:
+        When you have finished, **Publish** the Zap.
+    9. To see the active Zaps connected to your quiz:
         - Navigate to the app's [`Integrations`](/reference/quiz-builder/connect-integrations/) page.
-        - Look for the section labeled 'Zapier'.
+        - Find the `Zapier` section.
         - Here, you will find a list of all active Zaps associated with the quiz.
         ![how_to_shopifyv2_send_leads_to_zapier_active_zaps](/images/how_to_shopifyv2_send_leads_to_zapier_active_zaps.png)
-    Sometimes, you would like a bit more control over the data that is sent to Zapier. In that case there are a few alternatives you can use to send quiz leads to Zapier.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
-    - **Manually adding the quiz leads to Zapier**: You can manually add the quiz leads to Zapier by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
-    Once you've [Linked your quiz to Zapier](#link-quiz-to-zapier), your Zap will recevie the all the response information after each quiz completion. 
+    To control exactly which data reaches Zapier, use one of these methods instead.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
+    Once you have [linked your quiz to Zapier](#link-quiz-to-zapier), your Zap receives the full response after every quiz completion.
     ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
-    Zapier receives a structured JSON object, the same payload our [Webhooks integration](/how-to-guides/send-leads-to-webhooks/) sends. Each trigger contains:
+    Zapier receives a JSON object, the same payload the [Webhooks integration](/how-to-guides/send-leads-to-webhooks/) sends. Each trigger contains:
     | Field | Value |
     | --- | --- |
     | `responseId` | Unique ID of the response. |
@@ -11772,7 +11773,7 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
     !!! info "Inside `recommendationsBySlot`"
         Each recommended item carries: `id`, `handle`, `title`, `description`, `price`, `image`, `onlineStoreUrl` and `vendor`.
     !!! tip "Map your Zap to block references"
-        Answers are keyed by the block reference (for example `qbc-123`), not by the question title, so you can rename questions in the Quiz builder without breaking your Zap. You'll find each reference under the `Advanced` tab of the block in the Quiz builder.
+        Answers are keyed by the block reference, such as `qbc-123`, not by the question title. You can therefore rename a question without breaking your Zap. Each reference sits under the `Advanced` tab of its block in the Quiz builder.
     ??? example "Example User Data"
         ```json
         "responseId": "DFaJbO",
@@ -11808,7 +11809,7 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
         ```
         You can use them to segment leads or filter automations in Zapier.
     ??? example "Product Recommendations"
-        If your quiz includes product recommendation logic, these are sent in the recommendationsBySlot field, grouped by result sections or slots:
+        If your quiz includes product recommendation logic, these are sent in the `recommendationsBySlot` field, grouped by result sections or slots:
         ```json
         "recommendationsBySlot": {
         "rsbs-520511f2": [
@@ -11830,7 +11831,7 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
         ]
         }
         ```
-    Once you have connected your quiz to Zapier you can build an email flow directly in Zapier to send customized follow-up emails right after the customer completes the quiz.
+    With the quiz connected, you can build an email flow in Zapier. It sends a follow-up email as soon as the customer finishes the quiz.
     ![how_to_shopifyv2_send_leads_to_zapier_example_flow](/images/how_to_shopifyv2_send_leads_to_zapier_example_flow.png)
     !!! tip
         Check [this Zapier article](https://zapier.com/help/create/email-and-text-messages/send-emails-in-zaps) for more information.
@@ -11849,42 +11850,43 @@ description: "Learn how to send RevenueHunt result emails from your own SMTP ser
 
 # How to Send Result Emails from Your Server Using SMTP
 
-SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails across the internet. By connecting your Product Recommendation Quiz created with Revenuehunt app to an SMTP server, emails are sent from your account instead of revenuehunt, enhancing brand consistency and trust.
+SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email across the internet. Connect your quiz to your own SMTP server and the result emails leave from your address rather than RevenueHunt, so they carry your branding.
 
-!!! tip "Connect your SMTP server to your quiz if:"
-    - You're sending result emails to quiz respondents.
-    - You're sending emails to a specific email address with notifications about each new quiz completion.
+!!! tip "Which emails this affects"
 
-    Connecting your SMTP server to your quiz will allow you to send emails from your own email servers instead of Revenuehunt email servers and is a recommended practice.
+    Connecting an SMTP server changes where both kinds of quiz email come from:
+
+    - The result email your customer receives.
+    - The notification you receive on each quiz completion.
 
 ## Setting up SMTP server connection
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i5eUNaSdET4?si=0WMwUXM-CTzcqHkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Access Settings**: Navigate to your quiz dashboard and open the [App settings](/reference/app-settings/).
-    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
-    3. **Enter SMTP Details**: Fill in your SMTP server details. 
-        SMTP credentials vary by email provider. To find yours: 
-        - Check your email provider's documentation by searching for 'SMTP'.
-        - Refer to the Revenue Hunt documentation for links to common email providers.
+    1. **Open the app settings**: go to your quiz dashboard and open [App settings](/reference/app-settings/).
+    2. **Open the SMTP tab**: select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter your SMTP details**: fill in your SMTP server details.
+        SMTP credentials differ by email provider. To find yours:
+        - Search your email provider's documentation for `SMTP`.
+        - See [Specific SMTP configurations](#specific-smtp-configurations) for the common email providers.
         - Contact your email provider's support team for assistance.
         Fill in the following fields:
         ![how to set up smtp](/images/manual_shopifyV2_appsettings_smtp.png)
-        - **SMTP From**: Enter the name (e.g., 'Revenue Hunt') and the provided email address.
-        - **SMTP Server**: Copy the SMTP server address from your email provider's configuration (usually in the format `smtp.something`).
-        - **SMTP Username**: Use the email address provided by your email provider.
-        - **SMTP Password**: Copy the password provided by your email provider.
-        - **SMTP Port**: Enter the correct SMTP port number from your email provider's configuration.
-        - **SMTP Authentication**: Select 'Plain' for authentication method.
-        - **Security Settings**: Adjust as necessary based on your service's requirements (e.g., uncheck options that are not needed).
+        - **SMTP From**: enter your sender name, such as your store name, and the email address your provider gave you.
+        - **SMTP Server**: copy the server address from your provider's configuration. It usually looks like `smtp.something`.
+        - **SMTP Username**: the email address your provider gave you.
+        - **SMTP Password**: the password your provider gave you.
+        - **SMTP Port**: the port number from your provider's configuration.
+        - **SMTP Authentication**: select `Plain`.
+        - **Security Settings**: adjust these to your provider's requirements. Uncheck anything it does not need.
         !!! note
-            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
-    4. **Test and Activate**: After filling out the SMTP settings, click `Save` to test the connection. 
-        If the connection fails, double-check all credentials, especially the SMTP port. 
+            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+    4. **Test and activate**: click `Save` to test the connection.
+        If the connection fails, check every credential again, the SMTP port first.
         !!! tip
-            If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).       
-        Once successful, emails will be sent from your email server instead of Revenue Hunt's server.
+            If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).
+        From then on, emails leave your own server rather than the RevenueHunt one.
         ![how to set up smtp success](/images/how_to_shopifyv2_smtp_success.png)
 
 
@@ -11901,77 +11903,77 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 # Setting Up Result Emails with Product Recommendation Quiz
 
-Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With the RevenueHunt app you can set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
+A result email brings the customer back to their recommendations, which recovers sales that would otherwise be lost. The RevenueHunt app sends these emails itself, so you do not need an external CRM service, though you can use one.
 
-This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending results emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
+This article covers the email your [customer receives](#email-quiz-results-via-shop-quiz-app), the notification your [administrators receive](#activate-email-notifications-to-admin), and sending result emails through an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
-!!! tip "With RevenueHunt app you can:"
+!!! tip "Two kinds of email"
 
-    - Send emails to quiz respondents with their quiz answers and results directly from the app.
-    - Send emails to a specific email address with notifications about each new quiz completion.
+    The app sends two kinds of email:
+
+    - The result email your customer receives, holding their answers and recommendations.
+    - A notification to an address you choose, on every quiz completion.
 
 
-!!! warning
+!!! tip "Recommended: send from your own address"
 
-    We recently encountered issues with our previous email provider and switched to a new service. Unfortunately, some emails were affected by this change, and not all messages have been going through as expected. 
-
-    Starting on <b>November 29th, 2024</b>, we kindly ask you to [configure your SMTP settings](/how-to-guides/send-result-emails-from-custom-server/) to continue sending result emails through the app. Notification emails will now be sent from your email address ensuring deliverabilty and consistent branding.
+    Result emails leave from the RevenueHunt servers by default. [Connect your own SMTP server](/how-to-guides/send-result-emails-from-custom-server/) to send them from your own address instead. Deliverability improves, and the email carries your branding.
 
 
 
 ## Email quiz results via RevenueHunt app
 
-Result emails can be sent directly from the RevenueHunt app to the email provided by the customer. 
+Result emails can be sent directly from the RevenueHunt app to the email provided by the customer.
 
-Follow the step by step instructions below to active and edit the result emails sent with the app:
+Follow the instructions below to activate and edit the result emails the app sends:
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/3AWbHe1aTac?si=vBYdeOUlrVtb5m6H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz builder](/reference/quiz-builder/questions/).
-    2. **Activate Respondent Emails**: Go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
+    1. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz builder](/reference/quiz-builder/questions/).
+    2. **Activate the customer email**: go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
-    3. **Email TO**: Choose an answer to which email question should be used to send the result emails to.
-    4. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    5. **Email Subject**: Edit the title of the email that customers will receive. 
-    6. **Edit Email Content**: Configure the email template of the email that your customers will receive. 
+    3. **Email TO**: choose which email question supplies the address to send to.
+    4. **Edit REPLY-TO**: choose the address your customer replies to.
+    5. **Email Subject**: Edit the title of the email that customers will receive.
+    6. **Edit Email Content**: set up the template for that email.
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
         !!! warning
-            Email template requires the knowledge of HTML and liquid to be edited. 
-        - Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use liquid code to loop through and display recommended products or customize content based on quiz outcomes. 
-        - The email liquid template uses metadata (such as response ID, quiz name, user's name and email, answers to quiz questions, tags and recommended products, content from the results page) to recall information from the quiz.
+            Editing the email template takes HTML and Liquid.
+        - Personalize the email with quiz metadata such as `{{first_name}}`. Liquid can loop through the recommended products, or change the content based on the quiz outcome.
+        - The template reads the quiz metadata: the response ID, the quiz name, the customer's details, their answers, tags, recommended products and results page content.
             !!! tip
-                To learn more about the metadata, check out the [Quiz Response Metadata Structure](#editing-email-templates).
-        - You can find *useful code snippets* under the `Email Liquid Template` field and use them to insert specific data into the email template (e.g., 'Responses by Block' snippet to list user answers).
+                See [Quiz Response Metadata Structure](#editing-email-templates) for the full list.
+        - Ready-made snippets sit under the `Email Liquid Template` field. Use `Responses by Block`, for example, to list the answers.
             !!! tip
-                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
+                Paste a snippet into a large language model such as ChatGPT or Gemini and ask it to style the Liquid template for you.
         !!! note
-            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email templates](#editing-email-templates).
-    7. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+            Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
+    7. **Add your SMTP credentials (recommended)**: result emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
         !!! note
-            SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
-            When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
-    8. **Save the changes**: Remember to save the changes with the top-right `Save` button to update the preview/live quiz.
-    9. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
+            SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
+            Connect the app to your SMTP server and the result emails leave from your own account.
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+    8. **Save the changes**: click the top-right `Save` button to update the preview and the live quiz.
+    9. **Preview the quiz**: take it through to the results page, which triggers the email.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XdPgnR8W4fg?si=TivtkA2wCiHaFQYg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
+    1. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
-    3. **Edit Email to**: Choose what email address should receive the notification (e.g., company or personal email).
-    4. **Edit Email Subject**: Edit the title of the email notifications will receive. 
-    5. **Edit Email Content**: Configure the email your customers will receive. Edit the liquid email template. 
+    2. **Edit Email to**: choose which address receives the notification, such as a company or a personal one.
+    3. **Edit Email Subject**: edit the subject line of the notification.
+    4. **Edit Email Content**: edit the Liquid template for the notification you receive.
         - The default liquid template includes all customer answers from the quiz. You can edit this template to include additional information.
         - Use provided `useful code snippets` to add personal information from users. To add personal information, click to copy the template snippet and paste it at the top of your email liquid template.
         - You can always reset the email template to default settings.
-    6. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    5. **Add your SMTP credentials (recommended)**: notification emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
         !!! note
             SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
-            <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
-    7. **Save the changes**: Remember to save the changes with the top `Save` button.
-    8. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
+            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+    6. **Save the changes**: click the top `Save` button.
+    7. **Preview the quiz**: take it through to the results page, which triggers the notification.
     **Using Metadata**
     !!! note
         This guide explains how to use quiz metadata like `answersByBlock`, `recommendationsBySlot`, and `resultContentByBlock` in a Liquid-compatible email template.
@@ -11986,7 +11988,7 @@ Follow the step by step instructions below to active and edit the result emails 
     - `resultContentByBlock`: dynamic text, tips, and headings from the results page
     !!! info "Quiz Response Metadata Structure"
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
+        This object holds everything a quiz completion generates: the answers, the product recommendations and the result content. It drives the results page, the follow-up emails and any custom workflow.
         ---
         **Basic Information**
         `responseId` - Unique ID for this specific quiz response
@@ -12018,7 +12020,7 @@ Follow the step by step instructions below to active and edit the result emails 
         ```json
         "tags": []
         ```
-        `tags` - A list of tags to assign to the respondent. Often used for segmentation. Empty if unused.
+        `tags` - The tags assigned to the customer, often used for segmentation. Empty when none are set.
         ---
         **Product Recommendations (`recommendationsBySlot`)**
         ```json
@@ -12033,7 +12035,7 @@ Follow the step by step instructions below to active and edit the result emails 
         `variants` - Variant ID, price, and image per product
         `slotHeading / slotDescription` - Rich text HTML displayed on results pages
         `image` - URL for the main product image
-        `price` - Object with amount and currencyCode
+        `price` - Object with `amount` and `currencyCode`
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
         ---
         **Variable Scores (`variableScores`)**
@@ -12041,7 +12043,7 @@ Follow the step by step instructions below to active and edit the result emails 
         "variableScores": { "score": 0 }
         ```
         Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
-        --- 
+        ---
         **Result Sections (`resultSections`)**
         ```json
         "resultSections": [
@@ -12063,7 +12065,7 @@ Follow the step by step instructions below to active and edit the result emails 
         "rsbh-273d9ef6": {
         "type": "heading",
         "content": "<p>Here's what your skin wants!</p>"
-        }       
+        }
         ```
         A lookup table of rendered content for each block (used in external templates like email).
         Each entry is keyed by the block reference and contains:
@@ -12079,7 +12081,7 @@ Follow the step by step instructions below to active and edit the result emails 
         <p><strong>Answer:</strong> {{ block.value }}</p>
         {% endfor %}
         ```
-    Show an link to the quiz results page: Use the `responseId` to create a link to the quiz results page. Just add `#response-{{ responseId }}` to the end of your results page URL in any link.
+    Show a link to the quiz results page: add `#response-{{ responseId }}` to the end of your results page URL.
     ```liquid
     <a href="https://yourwebsite.com/#response-{{ responseId }}">View your quiz results</a>
     ```
@@ -13190,8 +13192,10 @@ icon: material/folder-sync-outline
 
 --- Shopify Specific Content ---
 
-Not applicable.
-    Not applicable.
+!!! note "Not available on this platform"
+        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalogue to trim. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+    !!! note "Not available on this platform"
+        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalogue to trim. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
 
 
 
@@ -14274,11 +14278,16 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
     The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
-    Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
+    !!! note "Not available on this platform"
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
+    !!! note "Not available on this platform"
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
+    !!! note "Not available on this platform"
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
+    !!! note "Not available on this platform"
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
+    !!! note "Not available on this platform"
+        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
 
 
 

@@ -106,31 +106,43 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
 
 === "WooCommerce"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "Magento"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "BigCommerce"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "Standalone"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 ## WooCommerce subscriptions
 
 === "Shopify"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 
 
 === "Shopify (Legacy)"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "WooCommerce"
 
@@ -142,15 +154,21 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
 
 === "Magento"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "BigCommerce"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "Standalone"
 
-    Not applicable.
+    !!! note "Not available on this platform"
+
+        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 ## Other subscriptions
 

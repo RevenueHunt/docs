@@ -5,19 +5,19 @@ icon: simple/mailchimp
 
 # How to Send Leads to Mailchimp
 
-Apart from giving your customers personalized product recommendations, you can connect your quiz to Mailchimp. This way all the contacts coming from the quiz are added to your Mailchimp audience, where you can segment them and follow up with targeted campaigns.
+Connect your quiz to Mailchimp and every contact from the quiz is added to your Mailchimp audience. You can then segment those contacts and follow up by email.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=9MBKK4JCdMCrlx9y" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    This article explains how to connect your RevenueHunt account to Mailchimp, send quiz taker contacts to your audience, tag them based on their answers and build segments and automations around those tags.
+    This article explains how to connect your RevenueHunt account to Mailchimp and send each contact to your audience. It also covers tagging them by their answers, and building segments and automations from those tags.
 
     !!! warning "Before you begin"
 
-        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email-address) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
+        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and look for an [email question](/reference/quiz-builder/questions/#email-address) block. If there is none, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
 
-        **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. This lets quiz takers agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+        **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. A customer can then agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
 
     !!! info "What data is sent to Mailchimp"
 
@@ -35,18 +35,18 @@ Apart from giving your customers personalized product recommendations, you can c
 
     This article explains how to send leads to Mailchimp from your quiz.
 
-    Automating the transfer of quiz leads to your Mailchimp account can help you improve your email marketing campaigns by segmenting your audience and sending them personalized follow-up emails. 
+    Send your quiz leads to Mailchimp and you can segment your audience on what each customer answered. Each group then gets the email that suits it.
 
     !!! warning "Important Considerations"
 
-        - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-        - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) are recommended. These services offer more robust integration options for personalized follow-ups.
+        - **Limited data transfer**: the Mailchimp integration sends only the email, the name and the customer tags. If you need more than that, such as the recommended products, use a different service.
+        - **Alternative services**: [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/) carry the full quiz data, so they personalize a follow-up email much further.
 
     Before you begin, ensure you have:
 
     - An active Mailchimp account.
-    - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
-    
+    - A quiz in the RevenueHunt app that you want to connect to Mailchimp.
+
 === "WooCommerce"
 
 
@@ -54,17 +54,17 @@ Apart from giving your customers personalized product recommendations, you can c
 
     This article explains how to send leads to Mailchimp from your quiz.
 
-    Automating the transfer of quiz leads to your Mailchimp account can help you improve your email marketing campaigns by segmenting your audience and sending them personalized follow-up emails. 
+    Send your quiz leads to Mailchimp and you can segment your audience on what each customer answered. Each group then gets the email that suits it.
 
     !!! warning "Important Considerations"
 
-        - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-        - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) are recommended. These services offer more robust integration options for personalized follow-ups.
+        - **Limited data transfer**: the Mailchimp integration sends only the email, the name and the customer tags. If you need more than that, such as the recommended products, use a different service.
+        - **Alternative services**: [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/) carry the full quiz data, so they personalize a follow-up email much further.
 
     Before you begin, ensure you have:
 
     - An active Mailchimp account.
-    - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
+    - A quiz in the RevenueHunt app that you want to connect to Mailchimp.
 
 === "Magento"
 
@@ -74,17 +74,17 @@ Apart from giving your customers personalized product recommendations, you can c
 
     This article explains how to send leads to Mailchimp from your quiz.
 
-    Automating the transfer of quiz leads to your Mailchimp account can help you improve your email marketing campaigns by segmenting your audience and sending them personalized follow-up emails. 
+    Send your quiz leads to Mailchimp and you can segment your audience on what each customer answered. Each group then gets the email that suits it.
 
     !!! warning "Important Considerations"
 
-        - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-        - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) are recommended. These services offer more robust integration options for personalized follow-ups.
+        - **Limited data transfer**: the Mailchimp integration sends only the email, the name and the customer tags. If you need more than that, such as the recommended products, use a different service.
+        - **Alternative services**: [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/) carry the full quiz data, so they personalize a follow-up email much further.
 
     Before you begin, ensure you have:
 
     - An active Mailchimp account.
-    - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
+    - A quiz in the RevenueHunt app that you want to connect to Mailchimp.
 
 === "BigCommerce"
 
@@ -92,17 +92,17 @@ Apart from giving your customers personalized product recommendations, you can c
 
     This article explains how to send leads to Mailchimp from your quiz.
 
-    Automating the transfer of quiz leads to your Mailchimp account can help you improve your email marketing campaigns by segmenting your audience and sending them personalized follow-up emails. 
+    Send your quiz leads to Mailchimp and you can segment your audience on what each customer answered. Each group then gets the email that suits it.
 
     !!! warning "Important Considerations"
 
-        - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-        - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) are recommended. These services offer more robust integration options for personalized follow-ups.
+        - **Limited data transfer**: the Mailchimp integration sends only the email, the name and the customer tags. If you need more than that, such as the recommended products, use a different service.
+        - **Alternative services**: [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/) carry the full quiz data, so they personalize a follow-up email much further.
 
     Before you begin, ensure you have:
 
     - An active Mailchimp account.
-    - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
+    - A quiz in the RevenueHunt app that you want to connect to Mailchimp.
 
 === "Standalone"
 
@@ -111,17 +111,17 @@ Apart from giving your customers personalized product recommendations, you can c
 
     This article explains how to send leads to Mailchimp from your quiz.
 
-    Automating the transfer of quiz leads to your Mailchimp account can help you improve your email marketing campaigns by segmenting your audience and sending them personalized follow-up emails. 
+    Send your quiz leads to Mailchimp and you can segment your audience on what each customer answered. Each group then gets the email that suits it.
 
     !!! warning "Important Considerations"
 
-        - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-        - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) are recommended. These services offer more robust integration options for personalized follow-ups.
+        - **Limited data transfer**: the Mailchimp integration sends only the email, the name and the customer tags. If you need more than that, such as the recommended products, use a different service.
+        - **Alternative services**: [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/) carry the full quiz data, so they personalize a follow-up email much further.
 
     Before you begin, ensure you have:
 
     - An active Mailchimp account.
-    - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
+    - A quiz in the RevenueHunt app that you want to connect to Mailchimp.
 
 ## Link quiz to Mailchimp
 
@@ -151,13 +151,13 @@ Apart from giving your customers personalized product recommendations, you can c
 
     !!! tip "Stop sending data from a single quiz"
 
-        If you want to stop data from a specific quiz flowing to Mailchimp, simply uncheck the `Send Quiz Leads to Mailchimp` checkbox in that quiz and save. You do not need to disconnect Mailchimp entirely. See [Disconnect Mailchimp](#disconnect-mailchimp) for the account-level option.
+        To stop one quiz sending data to Mailchimp, uncheck its `Send Quiz Leads to Mailchimp` checkbox and save. You do not need to disconnect Mailchimp entirely. See [Disconnect Mailchimp](#disconnect-mailchimp) for the account-level option.
 
     **Test the connection**
 
     1. `Preview` your quiz and complete it with a test name and email address, all the way through to the results page.
     2. Go to Mailchimp and open `Audience`, then search for your test email. It may take a moment to appear, so refresh the page if needed.
-    3. You should see the new contact with any tags that were applied based on the answer choices they selected. If you tagged all answers in one question with a general tag like `revenuehunt` or `quiz`, you should see that tag on the profile as well.
+    3. The new contact appears, carrying the tags from the answers they chose. A general tag such as `revenuehunt` is there too, if you applied one to every answer in a question.
 
     !!! tip
 
@@ -165,97 +165,97 @@ Apart from giving your customers personalized product recommendations, you can c
 
 === "Shopify (Legacy)"
 
-    Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
+    To connect your quiz to Mailchimp:
 
-    1. Locate your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the interface.
-    2. Find the Mailchimp section and click on the `Connect` button. This action will redirect you to a Mailchimp login page in a new tab.
+    1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    2. Find the Mailchimp section and click `Connect`. A Mailchimp login page opens in a new tab.
         ![how to send leads to mailchimp authorize1](/images/how_to_send_leads_to_mailchimp_authorize1.png)
 
-    3. Log into your Mailchimp account and authorize the app by clicking on `Allow`.
+    3. Log in to your Mailchimp account and click `Allow` to authorize the app.
         ![how to send leads to mailchimp authorize2](/images/how_to_send_leads_to_mailchimp_authorize2.png)
 
-    4. If the connection was successful, you'll see a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
-    4. After authorization, your quiz is connected to Mailchimp, and you can proceed to link it to a specific mailing list.
+    4. If the connection worked, Mailchimp shows a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
+    5. Your quiz is now connected, and you can link it to a mailing list.
         ![how to send leads to mailchimp settings](/images/how_to_send_leads_to_mailchimp_settings.png)
 
-    5. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz platform. You may need to refresh the page to update the connection status.
-    6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
+    6. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz. You may need to refresh the page to update the connection status.
+    7. From the dropdown, select the Mailchimp list to send your quiz results to.
 
 === "WooCommerce"
 
 
-    Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
+    To connect your quiz to Mailchimp:
 
-    1. Locate your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the interface.
-    2. Find the Mailchimp section and click on the `Connect` button. This action will redirect you to a Mailchimp login page in a new tab.
+    1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    2. Find the Mailchimp section and click `Connect`. A Mailchimp login page opens in a new tab.
         ![how to send leads to mailchimp authorize1](/images/how_to_send_leads_to_mailchimp_authorize1.png)
 
-    3. Log into your Mailchimp account and authorize the app by clicking on `Allow`.
+    3. Log in to your Mailchimp account and click `Allow` to authorize the app.
         ![how to send leads to mailchimp authorize2](/images/how_to_send_leads_to_mailchimp_authorize2.png)
 
-    4. If the connection was successful, you'll see a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
-    4. After authorization, your quiz is connected to Mailchimp, and you can proceed to link it to a specific mailing list.
+    4. If the connection worked, Mailchimp shows a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
+    5. Your quiz is now connected, and you can link it to a mailing list.
         ![how to send leads to mailchimp settings](/images/how_to_send_leads_to_mailchimp_settings.png)
 
-    5. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz platform. You may need to refresh the page to update the connection status.
-    6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
+    6. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz. You may need to refresh the page to update the connection status.
+    7. From the dropdown, select the Mailchimp list to send your quiz results to.
 
 === "Magento"
 
 
-    Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
+    To connect your quiz to Mailchimp:
 
-    1. Locate your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the interface.
-    2. Find the Mailchimp section and click on the `Connect` button. This action will redirect you to a Mailchimp login page in a new tab.
+    1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    2. Find the Mailchimp section and click `Connect`. A Mailchimp login page opens in a new tab.
         ![how to send leads to mailchimp authorize1](/images/how_to_send_leads_to_mailchimp_authorize1.png)
 
-    3. Log into your Mailchimp account and authorize the app by clicking on `Allow`.
+    3. Log in to your Mailchimp account and click `Allow` to authorize the app.
         ![how to send leads to mailchimp authorize2](/images/how_to_send_leads_to_mailchimp_authorize2.png)
 
-    4. If the connection was successful, you'll see a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
-    4. After authorization, your quiz is connected to Mailchimp, and you can proceed to link it to a specific mailing list.
+    4. If the connection worked, Mailchimp shows a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
+    5. Your quiz is now connected, and you can link it to a mailing list.
         ![how to send leads to mailchimp settings](/images/how_to_send_leads_to_mailchimp_settings.png)
 
-    5. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz platform. You may need to refresh the page to update the connection status.
-    6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
+    6. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz. You may need to refresh the page to update the connection status.
+    7. From the dropdown, select the Mailchimp list to send your quiz results to.
 
 === "BigCommerce"
 
 
-    Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
+    To connect your quiz to Mailchimp:
 
-    1. Locate your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the interface.
-    2. Find the Mailchimp section and click on the `Connect` button. This action will redirect you to a Mailchimp login page in a new tab.
+    1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    2. Find the Mailchimp section and click `Connect`. A Mailchimp login page opens in a new tab.
         ![how to send leads to mailchimp authorize1](/images/how_to_send_leads_to_mailchimp_authorize1.png)
 
-    3. Log into your Mailchimp account and authorize the app by clicking on `Allow`.
+    3. Log in to your Mailchimp account and click `Allow` to authorize the app.
         ![how to send leads to mailchimp authorize2](/images/how_to_send_leads_to_mailchimp_authorize2.png)
 
-    4. If the connection was successful, you'll see a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
-    4. After authorization, your quiz is connected to Mailchimp, and you can proceed to link it to a specific mailing list.
+    4. If the connection worked, Mailchimp shows a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
+    5. Your quiz is now connected, and you can link it to a mailing list.
         ![how to send leads to mailchimp settings](/images/how_to_send_leads_to_mailchimp_settings.png)
 
-    5. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz platform. You may need to refresh the page to update the connection status.
-    6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
+    6. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz. You may need to refresh the page to update the connection status.
+    7. From the dropdown, select the Mailchimp list to send your quiz results to.
 
 === "Standalone"
 
 
-    Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
+    To connect your quiz to Mailchimp:
 
-    1. Locate your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the interface.
-    2. Find the Mailchimp section and click on the `Connect` button. This action will redirect you to a Mailchimp login page in a new tab.
+    1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
+    2. Find the Mailchimp section and click `Connect`. A Mailchimp login page opens in a new tab.
         ![how to send leads to mailchimp authorize1](/images/how_to_send_leads_to_mailchimp_authorize1.png)
 
-    3. Log into your Mailchimp account and authorize the app by clicking on `Allow`.
+    3. Log in to your Mailchimp account and click `Allow` to authorize the app.
         ![how to send leads to mailchimp authorize2](/images/how_to_send_leads_to_mailchimp_authorize2.png)
 
-    4. If the connection was successful, you'll see a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
-    4. After authorization, your quiz is connected to Mailchimp, and you can proceed to link it to a specific mailing list.
+    4. If the connection worked, Mailchimp shows a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
+    5. Your quiz is now connected, and you can link it to a mailing list.
         ![how to send leads to mailchimp settings](/images/how_to_send_leads_to_mailchimp_settings.png)
 
-    5. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz platform. You may need to refresh the page to update the connection status.
-    6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
+    6. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz. You may need to refresh the page to update the connection status.
+    7. From the dropdown, select the Mailchimp list to send your quiz results to.
 
 
 ## Add quiz contacts to a Mailchimp audience
@@ -265,16 +265,16 @@ Apart from giving your customers personalized product recommendations, you can c
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=rX05ADDlIhLWPAbb&amp;start=185" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    Once your account is connected, you can choose which Mailchimp **audience** quiz takers are added to. The audience selector lives inside the email question block.
+    Once your account is connected, you choose which Mailchimp **audience** each customer is added to. The audience selector sits inside the email question block.
 
     1. Make sure your account is [connected to Mailchimp](#link-quiz-to-mailchimp) and that the `Send Quiz Leads to Mailchimp` checkbox is enabled for the quiz.
     2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email-address) block to open its settings.
-    3. Under the `Mailchimp Audience` dropdown, select the audience you want quiz takers added to.
+    3. Under the `Mailchimp Audience` dropdown, select the audience to add each customer to.
     4. Click the top `Save` button to save your changes.
 
     !!! tip "Per-quiz audiences"
 
-        If you have multiple quizzes and want each to feed a different audience, open the email question block of each quiz individually and select the appropriate audience there.
+        To feed a different audience from each quiz, set the audience on the email question block of each quiz separately.
 
 === "Shopify (Legacy)"
 
@@ -303,7 +303,7 @@ Apart from giving your customers personalized product recommendations, you can c
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=K9vLKxpsVk1Ugva9&amp;start=257" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    Because full quiz answers don't sync to Mailchimp, we recommend using the [Customer tags](/reference/quiz-builder/customer-tags/) field on each quiz answer choice. When a quiz taker selects an answer, that choice's customer tag is sent to Mailchimp as a contact tag, which you can then use to build your own segmentation rules.
+    Full quiz answers do not sync to Mailchimp, so use the [Customer tags](/reference/quiz-builder/customer-tags/) field on each answer choice instead. When a customer picks that answer, the choice's customer tag reaches Mailchimp as a contact tag. Build your segments from those tags.
 
     **Tag your answer choices**
 
@@ -312,7 +312,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
     3. Repeat for the remaining choices you want to segment on.
-    4. Tag **every** answer in at least one question with a general tag like `revenuehunt` or `quiz`. This creates a universal tag for every person who completed the quiz, making it easy to build a Mailchimp segment for all quiz takers.
+    4. Tag **every** answer in at least one question with a general tag such as `revenuehunt` or `quiz`. Everyone who finishes the quiz then carries that tag, so a segment holding all of them is easy to build.
     5. Click the top `Save` button to save your changes.
 
     **Build a segment in Mailchimp**
@@ -323,129 +323,129 @@ Apart from giving your customers personalized product recommendations, you can c
     2. Set the condition to `Contact Tag` and select the tag you want to target.
     3. Save the segment.
 
-    You can create one segment for all quiz takers using your general `revenuehunt` tag, and additional segments for specific answer combinations.
+    Build one segment from the general `revenuehunt` tag to reach everyone, and more segments for particular answer combinations.
 
 === "Shopify (Legacy)"
 
     With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
-    1. Make sure the quiz is connected to Mailchimp. 
+    1. Make sure the quiz is connected to Mailchimp.
     2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
-    5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
+    5. Use the customer tags to build segmented lists or groups, so each campaign matches the quiz outcome.
 
 === "WooCommerce"
 
 
     With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
-    1. Make sure the quiz is connected to Mailchimp. 
+    1. Make sure the quiz is connected to Mailchimp.
     2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
-    5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
+    5. Use the customer tags to build segmented lists or groups, so each campaign matches the quiz outcome.
 
 === "Magento"
 
 
     With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
-    1. Make sure the quiz is connected to Mailchimp. 
+    1. Make sure the quiz is connected to Mailchimp.
     2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
-    5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
+    5. Use the customer tags to build segmented lists or groups, so each campaign matches the quiz outcome.
 
 === "BigCommerce"
 
 
     With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
-    1. Make sure the quiz is connected to Mailchimp. 
+    1. Make sure the quiz is connected to Mailchimp.
     2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
-    5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
+    5. Use the customer tags to build segmented lists or groups, so each campaign matches the quiz outcome.
 
 === "Standalone"
 
 
     With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
-    1. Make sure the quiz is connected to Mailchimp. 
+    1. Make sure the quiz is connected to Mailchimp.
     2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
-    5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
+    5. Use the customer tags to build segmented lists or groups, so each campaign matches the quiz outcome.
 
 
 ### Hack: send quiz answers to Mailchimp
 
 === "Shopify"
 
-    To override Mailchimp's limitation on pushing detailed custom quiz data, you can use `customer tags` to represent customer responses.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
 
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
 
 
 === "Shopify (Legacy)"
 
-    To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
 
 === "WooCommerce"
 
-    To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
 
 === "Magento"
 
-    To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
 
 === "BigCommerce"
 
-    To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
 
 === "Standalone"
 
-    To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
+    Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
-    2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+    2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
 
 ## Set up Post-quiz email flow with Mailchimp
 
@@ -454,13 +454,13 @@ Apart from giving your customers personalized product recommendations, you can c
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=Rb0FoVucJgbOscRf&amp;start=294" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    To send follow-up emails to quiz takers, build an automation in Mailchimp that is triggered by the tags coming from the quiz.
+    To send a follow-up email after the quiz, build a Mailchimp automation that triggers on the tags the quiz sends.
 
     1. **Connect and tag.** Make sure your quiz is [connected to Mailchimp](#link-quiz-to-mailchimp) and that your answer choices are [tagged with customer tags](#use-customer-tags-for-segmentation-in-mailchimp).
     2. **Create the automation.** In Mailchimp, go to `Automations` and create a new flow.
     3. **Set the trigger.** Set the flow to trigger when a contact receives one of the tags applied through the quiz.
     4. **Add an email step.** Add an email step and design your message.
-    5. **Personalize with tags.** Because full quiz answers and product recommendations do not sync to Mailchimp, email personalization is based on the tags added to each contact's profile. Use Mailchimp's dynamic content visibility settings to display different text depending on the tags assigned to each contact.
+    5. **Personalize with tags.** Full quiz answers and product recommendations do not sync to Mailchimp. Personalize on the tags on each contact's profile instead. Mailchimp's dynamic content visibility settings show different text for different tags.
     6. **Publish.** Continue building your automation, then publish it once it is ready.
 
     !!! example
@@ -469,40 +469,40 @@ Apart from giving your customers personalized product recommendations, you can c
 
         In Mailchimp, you create an email series targeting these tags. For instance:
 
-        - Day 1: Introduction to products suitable for oily skin. 
-        - Day 3: Customer testimonials and reviews for oily skin products. 
+        - Day 1: Introduction to products suitable for oily skin.
+        - Day 3: Customer testimonials and reviews for oily skin products.
         - Day 7: Special discount on recommended products for oily skin.
 
     !!! tip
 
-        Remember to preview the quiz leaving a sample email address in order to send the first data to Mailchimp and test the flow. You can use your real email with a `+test1`, `+test2` suffix to test different answering routes. For example, `youremail+test1@email.com` or `youremail+test2@email.com`.
+        Preview the quiz and leave a sample email address, to send the first data to Mailchimp and test the flow. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
 
 === "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    
-    If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    To set up a post-quiz email flow with Mailchimp:
+
+    1. **Connect your quiz to Mailchimp.** Follow [Link quiz to Mailchimp](#link-quiz-to-mailchimp).
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-    
+            Take a test quiz and leave a sample email address, to send the first data to Mailchimp and test the connection. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
+    2. **Use customer tags for segmentation.** Decide what the quiz should send to Mailchimp. For example:
+
         - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
-        - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+        - When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
-            Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
-        
-        - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
+            The Mailchimp API accepts only the email, the name and the customer tags from the quiz. Mailchimp cannot receive the full quiz data, so use customer tags to carry the answers instead.
+    3. **Design email campaigns.** Once every answer carries a customer tag, that data starts arriving in Mailchimp. You can then build your campaigns.
+
+        - Set up an Automation, which is an automated email flow, to trigger on a specific tag or on quiz completion.
+        - Then build one Mailchimp email template per quiz outcome or flow.
 
         !!! example
 
@@ -510,38 +510,38 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. 
-            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 1: Introduction to products suitable for oily skin.
+            - Day 3: Customer testimonials and reviews for oily skin products.
             - Day 7: Special discount on recommended products for oily skin.
 
-    4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
+    4. **Test and improve.** Send yourself a test email, then adjust the campaigns based on what you see.
 
 === "WooCommerce"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    
-    If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    To set up a post-quiz email flow with Mailchimp:
+
+    1. **Connect your quiz to Mailchimp.** Follow [Link quiz to Mailchimp](#link-quiz-to-mailchimp).
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-    
+            Take a test quiz and leave a sample email address, to send the first data to Mailchimp and test the connection. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
+    2. **Use customer tags for segmentation.** Decide what the quiz should send to Mailchimp. For example:
+
         - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
-        - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+        - When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
-            Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
-        
-        - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
+            The Mailchimp API accepts only the email, the name and the customer tags from the quiz. Mailchimp cannot receive the full quiz data, so use customer tags to carry the answers instead.
+    3. **Design email campaigns.** Once every answer carries a customer tag, that data starts arriving in Mailchimp. You can then build your campaigns.
+
+        - Set up an Automation, which is an automated email flow, to trigger on a specific tag or on quiz completion.
+        - Then build one Mailchimp email template per quiz outcome or flow.
 
         !!! example
 
@@ -549,39 +549,39 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. 
-            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 1: Introduction to products suitable for oily skin.
+            - Day 3: Customer testimonials and reviews for oily skin products.
             - Day 7: Special discount on recommended products for oily skin.
 
-    4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
+    4. **Test and improve.** Send yourself a test email, then adjust the campaigns based on what you see.
 
 
 === "Magento"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    
-    If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    To set up a post-quiz email flow with Mailchimp:
+
+    1. **Connect your quiz to Mailchimp.** Follow [Link quiz to Mailchimp](#link-quiz-to-mailchimp).
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-    
+            Take a test quiz and leave a sample email address, to send the first data to Mailchimp and test the connection. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
+    2. **Use customer tags for segmentation.** Decide what the quiz should send to Mailchimp. For example:
+
         - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
-        - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+        - When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
-            Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
-        
-        - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
+            The Mailchimp API accepts only the email, the name and the customer tags from the quiz. Mailchimp cannot receive the full quiz data, so use customer tags to carry the answers instead.
+    3. **Design email campaigns.** Once every answer carries a customer tag, that data starts arriving in Mailchimp. You can then build your campaigns.
+
+        - Set up an Automation, which is an automated email flow, to trigger on a specific tag or on quiz completion.
+        - Then build one Mailchimp email template per quiz outcome or flow.
 
         !!! example
 
@@ -589,39 +589,39 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. 
-            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 1: Introduction to products suitable for oily skin.
+            - Day 3: Customer testimonials and reviews for oily skin products.
             - Day 7: Special discount on recommended products for oily skin.
 
-    4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
+    4. **Test and improve.** Send yourself a test email, then adjust the campaigns based on what you see.
 
 
 === "BigCommerce"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    
-    If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    To set up a post-quiz email flow with Mailchimp:
+
+    1. **Connect your quiz to Mailchimp.** Follow [Link quiz to Mailchimp](#link-quiz-to-mailchimp).
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-    
+            Take a test quiz and leave a sample email address, to send the first data to Mailchimp and test the connection. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
+    2. **Use customer tags for segmentation.** Decide what the quiz should send to Mailchimp. For example:
+
         - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
-        - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+        - When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
-            Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
-        
-        - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
+            The Mailchimp API accepts only the email, the name and the customer tags from the quiz. Mailchimp cannot receive the full quiz data, so use customer tags to carry the answers instead.
+    3. **Design email campaigns.** Once every answer carries a customer tag, that data starts arriving in Mailchimp. You can then build your campaigns.
+
+        - Set up an Automation, which is an automated email flow, to trigger on a specific tag or on quiz completion.
+        - Then build one Mailchimp email template per quiz outcome or flow.
 
         !!! example
 
@@ -629,39 +629,39 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. 
-            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 1: Introduction to products suitable for oily skin.
+            - Day 3: Customer testimonials and reviews for oily skin products.
             - Day 7: Special discount on recommended products for oily skin.
 
-    4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
+    4. **Test and improve.** Send yourself a test email, then adjust the campaigns based on what you see.
 
 
 === "Standalone"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    
-    If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    To set up a post-quiz email flow with Mailchimp:
+
+    1. **Connect your quiz to Mailchimp.** Follow [Link quiz to Mailchimp](#link-quiz-to-mailchimp).
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-    
+            Take a test quiz and leave a sample email address, to send the first data to Mailchimp and test the connection. Add a `+test1` or `+test2` suffix to your own address to test different routes through the quiz, for example `youremail+test1@email.com`.
+    2. **Use customer tags for segmentation.** Decide what the quiz should send to Mailchimp. For example:
+
         - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
-        - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
+        - When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
-            Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
-        
-        - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
+            The Mailchimp API accepts only the email, the name and the customer tags from the quiz. Mailchimp cannot receive the full quiz data, so use customer tags to carry the answers instead.
+    3. **Design email campaigns.** Once every answer carries a customer tag, that data starts arriving in Mailchimp. You can then build your campaigns.
+
+        - Set up an Automation, which is an automated email flow, to trigger on a specific tag or on quiz completion.
+        - Then build one Mailchimp email template per quiz outcome or flow.
 
         !!! example
 
@@ -669,11 +669,11 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. 
-            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 1: Introduction to products suitable for oily skin.
+            - Day 3: Customer testimonials and reviews for oily skin products.
             - Day 7: Special discount on recommended products for oily skin.
 
-    4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
+    4. **Test and improve.** Send yourself a test email, then adjust the campaigns based on what you see.
 
 
 ## Disconnect Mailchimp
@@ -716,56 +716,49 @@ Apart from giving your customers personalized product recommendations, you can c
 
 === "Shopify"
 
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp, for example to pass full quiz answers or recommended products, which the native integration doesn't sync. In that case there are a few alternatives you can use.
+    The built-in integration does not send the full quiz answers or the recommended products. To pass those to Mailchimp, use one of these methods instead.
 
-    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "Shopify (Legacy)"
 
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
+    To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
-    
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
+
 === "WooCommerce"
 
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
+    To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 
 === "Magento"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
+    To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "BigCommerce"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
+    To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "Standalone"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
+    To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
-    - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 ---
 This article explains how to send leads to Mailchimp from your quiz created in the RevenueHunt app.
