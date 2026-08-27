@@ -260,13 +260,13 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Shopify"
 
-    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns upvotes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalog before building a single question**. The quiz engine assigns upvotes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
 
     Before opening the quiz builder:
 
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
     2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
-    3. Design one question per attribute, with dropdown options covering the full range of your catalogue
+    3. Design one question per attribute, with dropdown options covering the full range of your catalog
     4. For each answer option, write out which product variants it should upvote for
 
     !!! tip "Use an AI assistant to generate the mapping"

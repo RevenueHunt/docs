@@ -6103,7 +6103,7 @@ This article explains how to add product metafields/attributes to products on yo
     3. Activate the `show metafields` toggle.
     ![Enable Metafields Display](/images/how_to_add_metafields_step_1.gif)
     **Step 2: Open App Settings**
-    Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
     **Step 3: Select Metafields**
     Select the Metafields namespaces you want to sync with the app by clicking the toggle icon next to each.
     ![Select Metafields](/images/how_to_add_metafields_step_3.gif)
@@ -6184,9 +6184,9 @@ This article explains how to add products in the Standalone version of the Reven
 --- Shopify (Legacy) Specific Content ---
 
 !!! note "Not available on this platform"
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -7393,7 +7393,7 @@ You can exclude all out-of-stock items from your recommendations in the [Results
         ![Show unavailable products in Advanced Settings](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Click the top-right `Publish` button to update the preview and the live quiz.
     !!! note "Platform Availability"
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 
 
@@ -10892,7 +10892,7 @@ Product recommendation algorithm works like an upvoting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one upvote.
-- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.*
+- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalog mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.*
 - You can limit recommendations to a specific number of products or a minimum upvote threshold.
 
 !!! tip "How to set this up?"
@@ -11418,7 +11418,7 @@ icon: material/sync
 description: "Learn how to import and sync your product catalog with RevenueHunt quiz builder."
 ---
 
-# How to Import Your Catalogue
+# How to Import Your Catalog
 
 --- Shopify (Legacy) Specific Content ---
 

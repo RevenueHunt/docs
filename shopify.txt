@@ -6524,8 +6524,8 @@ This article explains how to add product metafields/attributes to products on yo
     The selected metafield then appears in the product block, as part of the recommended product.
     !!! tip
         If a custom metafield is missing from the list, force a catalog sync:
-        1. Go to [App settings > Catalogue](/reference/app-settings/#catalogue).
-        2. Click the `Import catalogue` button to trigger a manual sync.
+        1. Go to [App settings > Catalog](/reference/app-settings/#catalog).
+        2. Click the `Import catalog` button to trigger a manual sync.
     Shopify lets you use **product metafields** as conditions in a **smart collection**.
     !!! info "Smart collections from metafields"
         For more, see the Shopify documentation on [Smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
@@ -6575,9 +6575,9 @@ This article explains how to add products in the Standalone version of the Reven
 --- Shopify Specific Content ---
 
 !!! note "Not available on this platform"
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -7627,7 +7627,7 @@ icon: material/filter
     4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
         !!! tip "Troubleshooting"
             Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
-            It may also be necessary to run a quick [catalogue import](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+            It may also be necessary to run a quick [catalog import](/how-to-guides/sync-catalog/) in case of wrong recommendations.
 
 
 
@@ -7841,10 +7841,10 @@ This article explains how to keep out-of-stock and draft products out of your qu
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=8wvx1m28KyRQRdR3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Exclude out-of-stock items from your recommendations in **App settings** under the **Catalogue** tab.
-    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalogue`](/reference/app-settings/#catalogue) from the left menu.
+    Exclude out-of-stock items from your recommendations in **App settings** under the **Catalog** tab.
+    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) from the left menu.
     2. In the `Inventory filter` section, check the box labeled `Filter products by inventory level` and set the `Minimum stock level` (can be negative).
-        ![Catalogue tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
+        ![Catalog tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
     3. Any product below that stock level, including an out-of-stock one, is then left out of the recommendations.
     4. Save the changes.
     !!! note "Products with multiple variants"
@@ -7855,12 +7855,12 @@ This article explains how to keep out-of-stock and draft products out of your qu
         - When a product variant is out of stock, the "Add to cart" button reads "Sold out" and is disabled.
         - A customer cannot add an out-of-stock variant to their cart.
         - Change the sold out text in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
-        - To hide sold out products instead, enable the inventory filter in [App settings > Catalogue > Low inventory filter](/reference/app-settings/#catalogue).
+        - To hide sold out products instead, enable the inventory filter in [App settings > Catalog > Low inventory filter](/reference/app-settings/#catalog).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=NeS6OBRV63_RLPeu&amp;start=64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Exclude draft items from your recommendations in **App settings** under the **Catalogue** tab.
-    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalogue`](/reference/app-settings/#catalogue) from the left menu.
+    Exclude draft items from your recommendations in **App settings** under the **Catalog** tab.
+    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) from the left menu.
     2. In the `Draft products` section, uncheck the box labeled `Include draft products in recommendations`.
-        ![Catalogue tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
+        ![Catalog tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
     3. Draft products are then left out of the recommendations.
     4. Save the changes with the top-right `Save` button.
 
@@ -9672,11 +9672,11 @@ Recommending the right size in a RevenueHunt quiz (for bras, clothing, footwear,
         If you are working with a large number of size variants, you can use [Quiz CoPilot](/how-to-guides/use-quiz-copilot/) to generate the choices for you.
         Open Quiz Copilot from the quiz editor and share your product list and sizing logic. Ask it to generate the choices for you.
         Copilot will generate the choices for you automatically and help match them to recommendations.
-    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalogue before building a single question**. The quiz engine assigns upvotes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
+    Every answer choice needs a pre-written list of product variants, so **you must know your full size catalog before building a single question**. The quiz engine assigns upvotes at setup time, not when a customer answers. You cannot assign products to an answer you have not defined yet.
     Before opening the quiz builder:
     1. List every size variant you carry (e.g. 28A, 28B … 44DD)
     2. Identify the attributes that determine size for your product. Bras use band and cup, clothing uses waist and hip, shoes use length and width.
-    3. Design one question per attribute, with dropdown options covering the full range of your catalogue
+    3. Design one question per attribute, with dropdown options covering the full range of your catalog
     4. For each answer option, write out which product variants it should upvote for
     !!! tip "Use an AI assistant to generate the mapping"
         If you carry many size variants, mapping them manually is tedious. Share your full product list with an AI assistant (like ChatGPT, Claude, or Gemini) and ask it to generate the mapping for you.
@@ -12287,7 +12287,7 @@ Two settings refine the list:
 --- Shopify Specific Content ---
 
 By default the app randomizes their order.
-    To use your own order instead, set `Catalogue mode` to `Preserve collection order` in [Settings > Catalogue](/reference/app-settings/#catalogue). Products then appear in the order you arranged them in your Shopify collections.
+    To use your own order instead, set `Catalog mode` to `Preserve collection order` in [Settings > Catalog](/reference/app-settings/#catalog). Products then appear in the order you arranged them in your Shopify collections.
     Click `Import now` after you change the setting. The new order applies only after a fresh import.
     To link products or collections to choices, open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Upvotes` section.
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
@@ -12545,7 +12545,7 @@ Product recommendation algorithm works like an upvoting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one upvote.
-- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.*
+- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalog mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.*
 - You can limit recommendations to a specific number of products or a minimum upvote threshold.
 
 !!! tip "How to set this up?"
@@ -12898,7 +12898,7 @@ This article explains how to show product reviews on the results page on your qu
     6. You can move the reviews section to a different position within the product component layout, such as right below the product title. 
     7. Once satisfied with the layout, save your changes with the top-right `Save` button.
     8. **Previewing the Quiz**: To check if the reviews are displayed correctly, click on `Preview` to preview the quiz.
-    9. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
+    9. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalog) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
     !!! info
         If issues persist with reviews not being pulled, contact the support team for assistance.
     ## Enabling storefront API access for review apps
@@ -12937,7 +12937,7 @@ This article explains how to show product reviews on the results page on your qu
     If reviews still don't appear after enabling Storefront API access:
     1. **Verify the product has reviews**: Check the product in your review app to confirm it has collected reviews.
     2. **Check metafield values**: In Shopify Admin, go to **Products** > select a product > scroll to **Metafields** section to verify the review data exists.
-    3. **Run a catalog sync**: Go to [App settings > Catalog](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/).
+    3. **Run a catalog sync**: Go to [App settings > Catalog](/reference/app-settings/#catalog) and perform a quick [catalog import](/how-to-guides/sync-catalog/).
     4. **Wait for cache**: Shopify's edge cache can take 5-30 seconds to update after changes.
     5. **Contact support**: If issues persist, contact our support team or your review app's support for assistance.
 
@@ -13137,30 +13137,30 @@ icon: material/sync
 description: "Learn how to import and sync your product catalog with RevenueHunt quiz builder."
 ---
 
-# How to Import Your Catalogue
+# How to Import Your Catalog
 
 --- Shopify Specific Content ---
 
-If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalogue import from the app settings.
-    This article explains what the catalogue import does and how to trigger it.
+If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app settings.
+    This article explains what the catalog import does and how to trigger it.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4-MTXwFFwtU?si=M-wK6Gi4b0XXWEkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
-    The catalogue import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalogue sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
+    The catalog import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
     To run a manual import:
-    1. **Navigate to App settings:** Go to [App settings > Catalogue](/reference/app-settings/#catalogue).
+    1. **Navigate to App settings:** Go to [App settings > Catalog](/reference/app-settings/#catalog).
     2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
         ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
     3. The catalog will be processed and the *Imported* timestamp will be updated. If you see the timestamp is not updated after the catalog import finishes, click the `Refresh` button to update the import status.
-    !!! info "What does the catalogue import do?"
-        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalogue sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
-    - The catalogue import runs **automatically every 24 hours**.
+    !!! info "What does the catalog import do?"
+        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
+    - The catalog import runs **automatically every 24 hours**.
     - Only products marked as **active** are included in the import. **Archived products are excluded**.
-    - **Draft products are included** in the import unless you change your [Catalogue Settings](/reference/app-settings/#catalogue) to exclude them.
+    - **Draft products are included** in the import unless you change your [Catalog Settings](/reference/app-settings/#catalog) to exclude them.
     - You typically don't need to run a manual import. It's only necessary when you've added new tags, collections, or vendors in Shopify and they haven't appeared in the quiz builder yet.
-    - To run a manual import, use the `Import now` button in [App settings > Catalogue](/reference/app-settings/#catalogue).
-    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalogue](/reference/app-settings/#catalogue) by clicking `Import now`. New items should appear within a few minutes.
+    - To run a manual import, use the `Import now` button in [App settings > Catalog](/reference/app-settings/#catalog).
+    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalog](/reference/app-settings/#catalog) by clicking `Import now`. New items should appear within a few minutes.
     - **Products not showing up?** Check that they are set to "Active" status in your Shopify store. Archived products are excluded from the import.
-    - **Import stuck or failed?** Check the import status in [App settings > Catalogue](/reference/app-settings/#catalogue). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
+    - **Import stuck or failed?** Check the import status in [App settings > Catalog](/reference/app-settings/#catalog). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
     This feature is not needed. The app only imports data for the products and collections you use in your quizzes.
 
 
@@ -13180,9 +13180,9 @@ icon: material/folder-sync-outline
 --- Shopify Specific Content ---
 
 !!! note "Not available on this platform"
-        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalogue to trim. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalogue to trim. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -14757,7 +14757,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
         You can add multiple contact emails by separating them with a comma.
     `Shopify Markets` - Assign quizzes to different markets and languages via the [Shopify Markets](#shopify-markets) tab.
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
-    `Catalogue` - Import tags, collections, vendors, and metafields from the [Catalogue](#catalogue) tab or check the import status.
+    `Catalog` - Import tags, collections, vendors, and metafields from the [Catalog](#catalog) tab or check the import status.
     `SMTP settings` - Provide your email [SMTP settings](#smtp) to send result emails from your email provider.
     `Plans and pricing` - Manage your current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
     `Newsletter` - Subscribe to the newsletter to get notified about new features, updates and important announcements.
@@ -14796,9 +14796,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
         Check [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) for the full setup and the list of data the trigger provides.
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
     Product names, descriptions, prices and images shown in your quiz results are pulled live from Shopify, so they are always up to date.
-    The catalogue import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
+    The catalog import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
     **Import tags, collections, vendors & metafields** - Shows the current import status and how many items were imported. It also holds the `Import now` button. Expand the import history to see past imports.
-    `Import now` - Start a new catalogue import. This typically takes a few minutes depending on your catalog size.
+    `Import now` - Start a new catalog import. This typically takes a few minutes depending on your catalog size.
     `Refresh` - Refresh the import status and tag/vendors/variants/metafields quantities.
     `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
     **When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
@@ -14808,8 +14808,8 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `Draft products` - this setting lets you control which products are eligible to be recommended in the quiz results based on draft status.
     `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products can be recommended, and they appear in the `Quiz preview` and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). Use this to build and test a quiz with draft products before you publish them. Draft products are not shown in the live quiz until they are published.
     `Collection product order` - Control how products are ordered within collections for recommendations.
-    `Catalogue mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
-    `Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalogue faster. 
+    `Catalog mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
+    `Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalog faster. 
     `Preserve collection order` - When products have equal upvotes, they appear in the same order as arranged in your Shopify collections. Products placed earlier in your collection appear first in recommendations.
     !!! warning "After changing this setting"
         You must click `Import now` to apply the change. The new ordering takes effect only after a fresh import.
@@ -17659,11 +17659,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Remove` - Deletes the current block from the results page.
     #### Cart/checkout
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
-    `Alignment` - Select the button alignment left, right or center.
-    `Next destination for users` - Select either Checkout or Cart as the next destination for users.
+    `Next destination for customers` - Select either Checkout or Cart as the next destination for customers.
     Cart/checkout options
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
-    `Add all to cart button text` - Set the text to be displayed on the "Add all to cart" button.
     Click `...` to open the more options menu. 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
     `Duplicate` - Duplicates the current block.
@@ -17684,7 +17682,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Show cart/checkout options` - Select the settings of the cart/checkout options.
     Cart/checkout options
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
-    `Next destination for users` - Choose where customers go after the results page either Checkout or Cart.
+    `Next destination for customers` - Choose where customers go after the results page either Checkout or Cart.
     ### Discount code
     `Discount code` - Add a discount code to the results page. The discount code will be applied at checkout. The code must be a valid discount code in your Shopify store.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
@@ -18848,7 +18846,7 @@ In this tutorial you will learn how to make and publish a short quiz that recomm
         - Products are linked to each choice.
         - When a customer picks that choice, all linked products receive one upvote.
         - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
-        - If there is a draw in the number of upvotes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+        - If there is a draw in the number of upvotes, the order depends on your Catalog mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.
     6. Make sure to link products to each question and choice in the quiz.
     7. You can test different answering routes and results by clicking on the `Save` button to update your changes and then `Preview`.
     1. As in the Quiz builder, you can add multiple sections to your [Results page](/reference/quiz-builder/results-page/) by clicking on the `Results Page` tab.
@@ -19274,7 +19272,7 @@ In this tutorial you will learn how to make and publish a short quiz. It recomme
             | 50+       | Foaming Cream Cleanser; Ultra Facial Toner; Khadi Global Natural Hyaluronic Acid Serum; **Relaxing Night Cream** | Redness-Relief Cleansing Lotion; United State Balancing Tonic; The Ordinary "Buffet" + Copper Peptides 1%; **Oil-Free Moisture Lotion** | Morning Cleanser; Balancing Force Oil Control Toner; Super Antioxidant Serum; **Moisturizing Cream-Gel** |
     Product data such as names, prices and images is pulled live from Shopify. It stays up to date on its own after you change a product or a collection.
     !!! tip
-        If new tags, collections or vendors do not appear in the quiz builder, run a quick catalogue import from the [App settings > Catalogue](/reference/app-settings/#catalogue) page.
+        If new tags, collections or vendors do not appear in the quiz builder, run a quick catalog import from the [App settings > Catalog](/reference/app-settings/#catalog) page.
     Now you can build your quiz.
     1. Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
         !!! tip

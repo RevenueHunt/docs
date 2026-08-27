@@ -22,7 +22,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
 
-    `Catalogue` - Import tags, collections, vendors, and metafields from the [Catalogue](#catalogue) tab or check the import status.
+    `Catalog` - Import tags, collections, vendors, and metafields from the [Catalog](#catalog) tab or check the import status.
 
     `SMTP settings` - Provide your email [SMTP settings](#smtp) to send result emails from your email provider.
 
@@ -244,7 +244,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 
 
-## Catalogue
+## Catalog
 
 === "Shopify"
 
@@ -252,11 +252,11 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     Product names, descriptions, prices and images shown in your quiz results are pulled live from Shopify, so they are always up to date.
 
-    The catalogue import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
+    The catalog import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
 
     **Import tags, collections, vendors & metafields** - Shows the current import status and how many items were imported. It also holds the `Import now` button. Expand the import history to see past imports.
 
-    `Import now` - Start a new catalogue import. This typically takes a few minutes depending on your catalog size.
+    `Import now` - Start a new catalog import. This typically takes a few minutes depending on your catalog size.
 
     `Refresh` - Refresh the import status and tag/vendors/variants/metafields quantities.
 
@@ -276,9 +276,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Collection product order` - Control how products are ordered within collections for recommendations.
 
-    `Catalogue mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
+    `Catalog mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
     
-    `Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalogue faster. 
+    `Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalog faster. 
     
     `Preserve collection order` - When products have equal upvotes, they appear in the same order as arranged in your Shopify collections. Products placed earlier in your collection appear first in recommendations.
 

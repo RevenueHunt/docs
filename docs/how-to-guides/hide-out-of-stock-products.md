@@ -13,12 +13,12 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=8wvx1m28KyRQRdR3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    Exclude out-of-stock items from your recommendations in **App settings** under the **Catalogue** tab.
+    Exclude out-of-stock items from your recommendations in **App settings** under the **Catalog** tab.
 
-    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalogue`](/reference/app-settings/#catalogue) from the left menu.
+    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) from the left menu.
     2. In the `Inventory filter` section, check the box labeled `Filter products by inventory level` and set the `Minimum stock level` (can be negative).
 
-        ![Catalogue tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
+        ![Catalog tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
     3. Any product below that stock level, including an out-of-stock one, is then left out of the recommendations.
     4. Save the changes.
 
@@ -35,7 +35,7 @@ This article explains how to keep out-of-stock and draft products out of your qu
         - When a product variant is out of stock, the "Add to cart" button reads "Sold out" and is disabled.
         - A customer cannot add an out-of-stock variant to their cart.
         - Change the sold out text in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
-        - To hide sold out products instead, enable the inventory filter in [App settings > Catalogue > Low inventory filter](/reference/app-settings/#catalogue).
+        - To hide sold out products instead, enable the inventory filter in [App settings > Catalog > Low inventory filter](/reference/app-settings/#catalog).
 
 === "Shopify (Legacy)"
 
@@ -105,12 +105,12 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=NeS6OBRV63_RLPeu&amp;start=64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    Exclude draft items from your recommendations in **App settings** under the **Catalogue** tab.
+    Exclude draft items from your recommendations in **App settings** under the **Catalog** tab.
 
-    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalogue`](/reference/app-settings/#catalogue) from the left menu.
+    1. Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) from the left menu.
     2. In the `Draft products` section, uncheck the box labeled `Include draft products in recommendations`.
 
-        ![Catalogue tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
+        ![Catalog tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
     3. Draft products are then left out of the recommendations.
     4. Save the changes with the top-right `Save` button.
 
@@ -119,7 +119,7 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     !!! note "Platform Availability"
 
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
 
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -127,7 +127,7 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     !!! note "Platform Availability"
 
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
 
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -135,7 +135,7 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     !!! note "Platform Availability"
 
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
 
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -143,7 +143,7 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     !!! note "Platform Availability"
 
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
 
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -151,7 +151,7 @@ This article explains how to keep out-of-stock and draft products out of your qu
 
     !!! note "Platform Availability"
 
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
 
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 

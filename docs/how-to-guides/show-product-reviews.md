@@ -42,7 +42,7 @@ This article explains how to show product reviews on the results page on your qu
     6. You can move the reviews section to a different position within the product component layout, such as right below the product title. 
     7. Once satisfied with the layout, save your changes with the top-right `Save` button.
     8. **Previewing the Quiz**: To check if the reviews are displayed correctly, click on `Preview` to preview the quiz.
-    9. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
+    9. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalog) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
 
     !!! info
 
@@ -110,7 +110,7 @@ This article explains how to show product reviews on the results page on your qu
 
     1. **Verify the product has reviews**: Check the product in your review app to confirm it has collected reviews.
     2. **Check metafield values**: In Shopify Admin, go to **Products** > select a product > scroll to **Metafields** section to verify the review data exists.
-    3. **Run a catalog sync**: Go to [App settings > Catalog](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/).
+    3. **Run a catalog sync**: Go to [App settings > Catalog](/reference/app-settings/#catalog) and perform a quick [catalog import](/how-to-guides/sync-catalog/).
     4. **Wait for cache**: Shopify's edge cache can take 5-30 seconds to update after changes.
     5. **Contact support**: If issues persist, contact our support team or your review app's support for assistance.
 

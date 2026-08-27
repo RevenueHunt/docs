@@ -1340,15 +1340,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
 
-    `Alignment` - Select the button alignment left, right or center.
-
-    `Next destination for users` - Select either Checkout or Cart as the next destination for users.
+    `Next destination for customers` - Select either Checkout or Cart as the next destination for customers.
 
     Cart/checkout options
 
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
-
-    `Add all to cart button text` - Set the text to be displayed on the "Add all to cart" button.
 
     Click `...` to open the more options menu. 
 
@@ -1576,7 +1572,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
 
-    `Next destination for users` - Choose where customers go after the results page either Checkout or Cart.
+    `Next destination for customers` - Choose where customers go after the results page either Checkout or Cart.
 
     ### Discount code
 

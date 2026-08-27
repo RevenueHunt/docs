@@ -36,7 +36,7 @@ Two settings refine the list:
 
     By default the app randomizes their order.
 
-    To use your own order instead, set `Catalogue mode` to `Preserve collection order` in [Settings > Catalogue](/reference/app-settings/#catalogue). Products then appear in the order you arranged them in your Shopify collections.
+    To use your own order instead, set `Catalog mode` to `Preserve collection order` in [Settings > Catalog](/reference/app-settings/#catalog). Products then appear in the order you arranged them in your Shopify collections.
 
     Click `Import now` after you change the setting. The new order applies only after a fresh import.
 

@@ -3,14 +3,14 @@ icon: material/sync
 description: "Learn how to import and sync your product catalog with RevenueHunt quiz builder."
 ---
 
-# How to Import Your Catalogue
+# How to Import Your Catalog
 
 === "Shopify"
 
 
-    If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalogue import from the app settings.
+    If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app settings.
 
-    This article explains what the catalogue import does and how to trigger it.
+    This article explains what the catalog import does and how to trigger it.
 
 
 === "Shopify (Legacy)"
@@ -47,7 +47,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
 
 
-## Import your catalogue
+## Import your catalog
 
 === "Shopify"
 
@@ -55,11 +55,11 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
     In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
 
-    The catalogue import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalogue sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
+    The catalog import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
 
     To run a manual import:
 
-    1. **Navigate to App settings:** Go to [App settings > Catalogue](/reference/app-settings/#catalogue).
+    1. **Navigate to App settings:** Go to [App settings > Catalog](/reference/app-settings/#catalog).
     2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
 
         ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
@@ -111,14 +111,14 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
 === "Shopify"
 
-    !!! info "What does the catalogue import do?"
-        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalogue sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
+    !!! info "What does the catalog import do?"
+        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
 
-    - The catalogue import runs **automatically every 24 hours**.
+    - The catalog import runs **automatically every 24 hours**.
     - Only products marked as **active** are included in the import. **Archived products are excluded**.
-    - **Draft products are included** in the import unless you change your [Catalogue Settings](/reference/app-settings/#catalogue) to exclude them.
+    - **Draft products are included** in the import unless you change your [Catalog Settings](/reference/app-settings/#catalog) to exclude them.
     - You typically don't need to run a manual import. It's only necessary when you've added new tags, collections, or vendors in Shopify and they haven't appeared in the quiz builder yet.
-    - To run a manual import, use the `Import now` button in [App settings > Catalogue](/reference/app-settings/#catalogue).
+    - To run a manual import, use the `Import now` button in [App settings > Catalog](/reference/app-settings/#catalog).
 
 
 === "Shopify (Legacy)"
@@ -175,9 +175,9 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
 === "Shopify"
 
-    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalogue](/reference/app-settings/#catalogue) by clicking `Import now`. New items should appear within a few minutes.
+    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalog](/reference/app-settings/#catalog) by clicking `Import now`. New items should appear within a few minutes.
     - **Products not showing up?** Check that they are set to "Active" status in your Shopify store. Archived products are excluded from the import.
-    - **Import stuck or failed?** Check the import status in [App settings > Catalogue](/reference/app-settings/#catalogue). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
+    - **Import stuck or failed?** Check the import status in [App settings > Catalog](/reference/app-settings/#catalog). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
 
 
 === "Shopify (Legacy)"
@@ -237,6 +237,6 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     This feature is not available.
 
 ---
-This article explains how to import your catalogue data into the RevenueHunt app.
+This article explains how to import your catalog data into the RevenueHunt app.
 
 By following these steps, you can ensure your tags, collections, vendors, and metafields are up to date in the quiz builder.

@@ -98,7 +98,7 @@ First of all, you should understand that the recommendations algorithm works lik
 
         By default the app randomizes their order.
 
-        To use your own order instead, set `Catalogue mode` to `Preserve collection order` in [Settings > Catalogue](/reference/app-settings/#catalogue). Products then appear in the order you arranged them in your Shopify collections.
+        To use your own order instead, set `Catalog mode` to `Preserve collection order` in [Settings > Catalog](/reference/app-settings/#catalog). Products then appear in the order you arranged them in your Shopify collections.
 
         Click `Import now` after you change the setting. The new order applies only after a fresh import.
 
@@ -405,7 +405,7 @@ If you do not get the expected results, see [How to Troubleshoot Product Recomme
 
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
-    When products receive the same amount of upvotes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+    When products receive the same amount of upvotes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.
 
 To organize the products in a specific order, create `Product Slots` on the Results Page. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 

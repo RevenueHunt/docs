@@ -395,7 +395,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! tip
 
-        If new tags, collections or vendors do not appear in the quiz builder, run a quick catalogue import from the [App settings > Catalogue](/reference/app-settings/#catalogue) page.
+        If new tags, collections or vendors do not appear in the quiz builder, run a quick catalog import from the [App settings > Catalog](/reference/app-settings/#catalog) page.
 
 
 === "Shopify (Legacy)"

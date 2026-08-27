@@ -330,7 +330,7 @@ Once you are happy with the design, add products to each question. This step mat
         - Products are linked to each choice.
         - When a customer picks that choice, all linked products receive one upvote.
         - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
-        - If there is a draw in the number of upvotes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+        - If there is a draw in the number of upvotes, the order depends on your Catalog mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.
     6. Make sure to link products to each question and choice in the quiz.
     7. You can test different answering routes and results by clicking on the `Save` button to update your changes and then `Preview`.
 

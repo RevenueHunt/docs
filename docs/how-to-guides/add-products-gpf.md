@@ -13,31 +13,31 @@ This article explains how to add products in the Standalone version of the Reven
 
     !!! note "Not available on this platform"
 
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "Shopify (Legacy)"
 
     !!! note "Not available on this platform"
 
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "Standalone"
 
@@ -92,31 +92,31 @@ This article explains how to add products in the Standalone version of the Reven
 
     !!! note "Not available on this platform"
 
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "Shopify (Legacy)"
 
     !!! note "Not available on this platform"
 
-        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 === "Standalone"
 

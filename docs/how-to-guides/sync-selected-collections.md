@@ -9,7 +9,7 @@ icon: material/folder-sync-outline
 
     !!! note "Not available on this platform"
 
-        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalogue to trim. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 === "Shopify (Legacy)"
@@ -61,7 +61,7 @@ icon: material/folder-sync-outline
 
     !!! note "Not available on this platform"
 
-        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalogue to trim. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 === "Shopify (Legacy)"

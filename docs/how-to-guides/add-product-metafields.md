@@ -46,8 +46,8 @@ This article explains how to add product metafields/attributes to products on yo
 
         If a custom metafield is missing from the list, force a catalog sync:
 
-        1. Go to [App settings > Catalogue](/reference/app-settings/#catalogue).
-        2. Click the `Import catalogue` button to trigger a manual sync.
+        1. Go to [App settings > Catalog](/reference/app-settings/#catalog).
+        2. Click the `Import catalog` button to trigger a manual sync.
 
 
 
@@ -73,7 +73,7 @@ This article explains how to add product metafields/attributes to products on yo
 
     **Step 2: Open App Settings**
 
-    Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
 
     **Step 3: Select Metafields**
 
@@ -135,7 +135,7 @@ This article explains how to add product metafields/attributes to products on yo
 
     **Step 2: Open App Settings**
 
-    Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
 
     **Step 3: Select  Attributes**
 
@@ -299,7 +299,7 @@ This article explains how to add product metafields/attributes to products on yo
 
     To do that:
 
-    1. Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    1. Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
     2. Activate the `Use attributes as categories` setting by clicking the toggle.
 
       ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)

@@ -7675,7 +7675,7 @@ This article explains how to add product metafields/attributes to products on yo
     2. Open the `Individual Product Settings` section.
     3. Activate the `show metafields` toggle.
     **Step 2: Open App Settings**
-    Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
     **Step 3: Select  Attributes**
     Activate the `Pass attribute information to result page` setting by clicking the toggle.
     ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
@@ -7714,7 +7714,7 @@ This article explains how to add product metafields/attributes to products on yo
 ## How to use metafields as smart collections
     You can use attributes as categories in the RevenueHunt app for WooCommerce.
     To do that:
-    1. Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    1. Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
     2. Activate the `Use attributes as categories` setting by clicking the toggle.
       ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
     3. Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
@@ -7750,11 +7750,11 @@ This article explains how to add products in the Standalone version of the Reven
 --- WooCommerce Specific Content ---
 
 !!! note "Not available on this platform"
-        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     These steps add products and collections to your quiz by hand, through the RevenueHunt catalogue.
     **Step 1: Access the Success Checklist**:
     1. In your RevenueHunt dashboard, look for any of these icons: ❓❗✅ 🔄
@@ -7785,11 +7785,11 @@ This article explains how to add products in the Standalone version of the Reven
     - [Customize your quiz design](/how-to-guides/customize-quiz-design/)
 ## Add products via Google Merchant Center
     !!! note "Not available on this platform"
-        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from Magento. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     !!! note "Not available on this platform"
-        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalogue](/how-to-guides/sync-catalog/).
+        Your products come from BigCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
     <div style="position: relative; padding-bottom: 56.289308176100626%; height: 0;"><iframe src="https://www.loom.com/embed/5817998bfddb47c7a13d1adb28beeb05?sid=584e70a7-c306-407a-a76e-7b370108c0c8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     These steps import your products from Google Merchant Center into the RevenueHunt app.
     **Step 1: Access the Success Checklist**:
@@ -10490,16 +10490,16 @@ You can exclude all out-of-stock items from your recommendations in the [Results
     5. Click the top-right `Publish` button to update the preview and the live quiz.
 ## Hide draft products
     !!! note "Platform Availability"
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
     !!! note "Platform Availability"
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
     !!! note "Platform Availability"
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
     !!! note "Platform Availability"
-        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalogue](/how-to-guides/sync-catalog/) explains.
+        There is no setting for this, because a draft product is never recommended. Only products marked as **active** are synced, and draft or archived products are left out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
         This does not depend on `Show unavailable products`. That setting covers out-of-stock products only. Turning it on brings back out-of-stock products, never draft or archived ones.
 ---
 By following this guide you can disable showing out-of-stock or draft products on your results page.
@@ -13690,7 +13690,7 @@ First of all, you should understand that the recommendations algorithm works lik
     **When two products have the same number of upvotes**
     === "Shopify"
         By default the app randomizes their order.
-        To use your own order instead, set `Catalogue mode` to `Preserve collection order` in [Settings > Catalogue](/reference/app-settings/#catalogue). Products then appear in the order you arranged them in your Shopify collections.
+        To use your own order instead, set `Catalog mode` to `Preserve collection order` in [Settings > Catalog](/reference/app-settings/#catalog). Products then appear in the order you arranged them in your Shopify collections.
         Click `Import now` after you change the setting. The new order applies only after a fresh import.
     === "Shopify (Legacy)"
         The app randomizes their order.
@@ -13814,7 +13814,7 @@ If you do not get the expected results, see [How to Troubleshoot Product Recomme
         ![how to recommend products matrix table2](/images/how_to_recommend_products_table3.png)
     These products received the most amount of upvotes (2) so they were recommended.
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
-    When products receive the same amount of upvotes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+    When products receive the same amount of upvotes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.
 To organize the products in a specific order, create `Product Slots` on the Results Page. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 ## Complex product matrix
     If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations. Look at the matrix below.
@@ -20615,7 +20615,7 @@ Product recommendation algorithm works like an upvoting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one upvote.
-- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.*
+- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalog mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.*
 - You can limit recommendations to a specific number of products or a minimum upvote threshold.
 
 !!! tip "How to set this up?"
@@ -21480,7 +21480,7 @@ icon: material/sync
 description: "Learn how to import and sync your product catalog with RevenueHunt quiz builder."
 ---
 
-# How to Import Your Catalogue
+# How to Import Your Catalog
 
 --- WooCommerce Specific Content ---
 
@@ -21492,7 +21492,7 @@ If you're missing products or collections from the list in the [Link Products](/
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
     If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
-## Import your catalogue
+## Import your catalog
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -21551,7 +21551,7 @@ If you're missing products or collections from the list in the [Link Products](/
     This feature is not available.
     This feature is not available.
 ---
-This article explains how to import your catalogue data into the RevenueHunt app.
+This article explains how to import your catalog data into the RevenueHunt app.
 By following these steps, you can ensure your tags, collections, vendors, and metafields are up to date in the quiz builder.
 
 
@@ -24654,7 +24654,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
         Shopify Customers is not available on this platform.
     !!! note "Shopify Customers is a Built for Shopify feature"
         Shopify Customers is not available on this platform.
-## Catalogue
+## Catalog
     ![manual_appsettings_catalogue_woo](/images/manual_appsettings_catalogue_woo.png)
     **What information to pull from your products** - Choose custom settings for your products within the app.
     `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
