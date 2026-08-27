@@ -985,7 +985,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             - **Dynamic Recommendations:** Upvote products in the choice settings to steer the recommendation algorithm.
             - **Fixed Recommendations:** Set the recommendation system to fixed and pick the items for each block. The same products then always show in that skin type section. Do this for every section.
 
-            Set the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to suit your quiz. A personality type quiz works best with `Fixed Recommendations` and products selected per section.
+            Set the `Recommendation system` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to suit your quiz. A personality type quiz works best with `Fixed Recommendations` and products selected per section.
 
     5. To display the correct section based on the highest scoring variable, go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
     6. Add Display logic to the Section. Set up the rule like this:
@@ -1072,7 +1072,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             - **Dynamic Recommendations:** Upvote products in the choice settings to steer the recommendation algorithm.
             - **Fixed Recommendations:** Set the recommendation system to fixed and pick the items for each block. The same products then always show in that skin type section. Do this for every section.
 
-            Set the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to suit your quiz. A personality type quiz works best with `Fixed Recommendations` and products selected per section.
+            Set the `Recommendation system` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to suit your quiz. A personality type quiz works best with `Fixed Recommendations` and products selected per section.
     5. Come up with score ranges that should determine the visibility of the sections.
 
         !!! example "Example: Score ranges"

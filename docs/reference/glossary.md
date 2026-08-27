@@ -352,6 +352,7 @@ The words this documentation uses, and what each one means.
     | **upvote** | The signal a choice gives a product, variant or collection. The products block sorts by upvote count, most upvoted first. |
     | **variable** | A named bucket you create, such as `dry_skin`, that collects scores as a customer answers. |
     | **score** | The number a choice adds to a variable. The variable with the highest total is the **winning variable**, which display logic and jump logic use to decide what to show. |
+    | **Min. number of upvotes** | A setting that hides products which did not receive enough upvotes. |
 
 === "Shopify (Legacy)"
 

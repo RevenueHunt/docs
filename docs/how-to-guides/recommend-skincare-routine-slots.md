@@ -55,20 +55,20 @@ Make sure you are familiar with [how the recommendations work](/how-to-guides/re
 
 ??? question "How do I get the right recommendations?"
 
-    The recommendation algorithm works like a voting system:
+    The recommendation algorithm works like an upvoting system:
 
     - Products are linked to each choice
-    - When a customer picks a choice, all linked products receive one vote
-    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - When a customer picks a choice, all linked products receive one upvote
+    - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there is a draw in the number of votes, the app will randomize the order of products.
+    - If there is a draw in the number of upvotes, the app will randomize the order of products.
 
     If you want to make the results ultra-precise, you can also:
 
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+    - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
     - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-Familiarize yourself with the [voting system](/how-to-guides/set-up-funnel-quiz/#voting-system) before you work with Product Slots.
+Familiarize yourself with the [upvoting system](/how-to-guides/set-up-funnel-quiz/#upvoting-system) before you work with Product Slots.
 
 ## Step 2: organize products into collections/categories
 
@@ -166,7 +166,7 @@ Once your quiz is set up, you should add products and collections to the choices
     1. **Go to Link Products/Collections tab**: Open [Questions](/reference/quiz-builder/questions/) and select a multiple-choice question. Pick a choice, then open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
-    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
+    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one upvote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_shopify_v2_link_products.png)
 
@@ -174,35 +174,35 @@ Once your quiz is set up, you should add products and collections to the choices
 === "Shopify (Legacy)"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
-    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
+    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one upvote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "WooCommerce"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
-    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
+    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one upvote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "Magento"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
-    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
+    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one upvote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "BigCommerce"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
-    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
+    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one upvote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "Standalone"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
-    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
+    2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one upvote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
@@ -214,7 +214,7 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product block**: Use the `+` button to add a `Product Block` to the Results page.
     3. **Add Slots**: Open the [`Product Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. That is what displays recommendations. A slot can only show the most-voted products from the collection added in the segment field.
+    5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. That is what displays recommendations. A slot can only show the most-upvoted products from the collection added in the segment field.
 
         ![how to recommend slots slot block](/images/how_to_shopifyV2_recommend_routine_with_slots.png)
     6. **Choose Product number**: In the [`Product Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
@@ -226,7 +226,7 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
     3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-upvoted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
@@ -236,7 +236,7 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
     3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-upvoted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
@@ -246,7 +246,7 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
     3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-upvoted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
@@ -256,7 +256,7 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
     3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-upvoted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 
@@ -266,7 +266,7 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
     3. **Add Slots**: Open the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-voted products from the collection or category you included.
+    5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. That is what displays recommendations. A slot can only show the most-upvoted products from the collection or category you included.
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/results-page/#block-settings) you can choose how many products should be recommended per step. *Tip: the most successful quizzes recommend a single product per slot.*
 

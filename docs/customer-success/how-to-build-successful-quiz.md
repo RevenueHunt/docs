@@ -90,7 +90,7 @@ The **sweet spot is 6-12 questions**, long enough to feel personalized, short en
 
 !!! info "Flexible recommendation system"
 
-    - **Dynamic recommendations**: products are recommended from customer responses using the voting system
+    - **Dynamic recommendations**: products are recommended from customer responses using the upvoting system
     - **Fixed recommendations**: manually choose specific products for certain answer combinations
     - **Collection recommendations**: recommend a whole collection instead of single products
     - **Recommendation slots**: build structured routines by assigning products to slots (e.g., cleanser, toner, moisturizer)

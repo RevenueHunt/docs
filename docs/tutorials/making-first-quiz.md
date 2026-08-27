@@ -326,11 +326,11 @@ Once you are happy with the design, add products to each question. This step mat
     2. To add a product, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and click on the [Upvote](/reference/quiz-builder/link-products/) section.
     3. Your store's products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+    5. Product Recommendation Quiz works like a [upvoting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
-        - When a customer picks that choice, all linked products receive one vote.
-        - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+        - When a customer picks that choice, all linked products receive one upvote.
+        - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
+        - If there is a draw in the number of upvotes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
     6. Make sure to link products to each question and choice in the quiz.
     7. You can test different answering routes and results by clicking on the `Save` button to update your changes and then `Preview`.
 
@@ -341,11 +341,11 @@ Once you are happy with the design, add products to each question. This step mat
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
     3. Your synced products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+    5. Product Recommendation Quiz works like a [upvoting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
-        - When a customer picks that choice, all linked products receive one vote.
-        - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the app will randomize the products.
+        - When a customer picks that choice, all linked products receive one upvote.
+        - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
+        - If there is a draw in the number of upvotes, the app will randomize the products.
     6. Make sure to link products to each question and choice in the quiz.
     7. Click `Publish` to update the preview and the live quiz. Then click `Preview` to test different answering routes and results.
 
@@ -355,11 +355,11 @@ Once you are happy with the design, add products to each question. This step mat
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
     3. Your synced products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+    5. Product Recommendation Quiz works like a [upvoting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
-        - When a customer picks that choice, all linked products receive one vote.
-        - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the app will randomize the products.
+        - When a customer picks that choice, all linked products receive one upvote.
+        - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
+        - If there is a draw in the number of upvotes, the app will randomize the products.
     6. Make sure to link products to each question and choice in the quiz.
     7. Click `Publish` to update the preview and the live quiz. Then click `Preview` to test different answering routes and results.
 
@@ -369,11 +369,11 @@ Once you are happy with the design, add products to each question. This step mat
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
     3. Your synced products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+    5. Product Recommendation Quiz works like a [upvoting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
-        - When a customer picks that choice, all linked products receive one vote.
-        - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the app will randomize the products.
+        - When a customer picks that choice, all linked products receive one upvote.
+        - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
+        - If there is a draw in the number of upvotes, the app will randomize the products.
     6. Make sure to link products to each question and choice in the quiz.
     7. Click `Publish` to update the preview and the live quiz. Then click `Preview` to test different answering routes and results.
 
@@ -383,11 +383,11 @@ Once you are happy with the design, add products to each question. This step mat
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
     3. Your synced products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+    5. Product Recommendation Quiz works like a [upvoting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
-        - When a customer picks that choice, all linked products receive one vote.
-        - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the app will randomize the products.
+        - When a customer picks that choice, all linked products receive one upvote.
+        - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
+        - If there is a draw in the number of upvotes, the app will randomize the products.
     6. Make sure to link products to each question and choice in the quiz.
     7. Click `Publish` to update the preview and the live quiz. Then click `Preview` to test different answering routes and results.
 
@@ -397,11 +397,11 @@ Once you are happy with the design, add products to each question. This step mat
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
     3. Your synced products will appear as a list. Scroll down to select items, or start typing a name.
     4. Multiple products can be assigned to the same answer.
-    5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/).
+    5. Product Recommendation Quiz works like a [upvoting system](/how-to-guides/recommend-products/).
         - Products are linked to each choice.
-        - When a customer picks that choice, all linked products receive one vote.
-        - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the app will randomize the products.
+        - When a customer picks that choice, all linked products receive one upvote.
+        - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
+        - If there is a draw in the number of upvotes, the app will randomize the products.
     6. Make sure to link products to each question and choice in the quiz.
     7. Click `Publish` to update the preview and the live quiz. Then click `Preview` to test different answering routes and results.
 

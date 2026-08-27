@@ -336,7 +336,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most upvoted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -357,7 +357,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most upvoted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -377,7 +377,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most upvoted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -397,7 +397,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most upvoted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -417,7 +417,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most upvoted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -915,9 +915,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Remove` - Deletes the current block from the results page.
 
-    `Recommendations system` - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
+    `Recommendation system` - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
 
-    `Min. number of votes` - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
+    `Min. number of upvotes` - Select what minimum number of upvotes a product or a variants should receive in order to be displayed in this product block. If a product receives less upvotes than specified here at the end of the quiz, it will not be shown.
 
     `No recommendations message` - Add a message to be displayed if there are no recommendations. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for personalized empty states (e.g., `Sorry {{ quiz.answers.byBlock['qbi-name'].value }}, we couldn't find matching products.`). If left empty, no message will be shown when there are no recommendations.
 
@@ -1050,7 +1050,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     
     ??? info "How slots work"
 
-        Slots display products based on the `Recommendations system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
+        Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
         
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
@@ -1082,7 +1082,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? info "How slots work"
 
-        Slots display products based on the `Recommendations system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
+        Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
         
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
@@ -1390,9 +1390,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most upvoted products from the collection linked to it.
 
-    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received upvotes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1426,9 +1426,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most upvoted products from the collection linked to it.
 
-    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received upvotes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1462,9 +1462,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most upvoted products from the collection linked to it.
 
-    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received upvotes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1498,9 +1498,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most upvoted products from the collection linked to it.
 
-    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received upvotes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1534,9 +1534,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most upvoted products from the collection linked to it.
 
-    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received upvotes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -2048,17 +2048,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
-    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any upvotes.
 
-    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of upvotes they received at the end of the quiz. If variants receive the same number of upvotes, the order in which they are displayed on the results page will be random.
 
     `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X upvotes or more. Toggle to activate.
 
-    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+    ![quiz builder results page results page settings min upvotes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
@@ -2076,17 +2076,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
-    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any upvotes.
 
-    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of upvotes they received at the end of the quiz. If variants receive the same number of upvotes, the order in which they are displayed on the results page will be random.
 
     `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X upvotes or more. Toggle to activate.
 
-    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+    ![quiz builder results page results page settings min upvotes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
@@ -2104,17 +2104,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
-    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any upvotes.
 
-    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of upvotes they received at the end of the quiz. If variants receive the same number of upvotes, the order in which they are displayed on the results page will be random.
 
     `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X upvotes or more. Toggle to activate.
 
-    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+    ![quiz builder results page results page settings min upvotes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
@@ -2132,17 +2132,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
-    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any upvotes.
 
-    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of upvotes they received at the end of the quiz. If variants receive the same number of upvotes, the order in which they are displayed on the results page will be random.
 
     `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X upvotes or more. Toggle to activate.
 
-    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+    ![quiz builder results page results page settings min upvotes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
@@ -2160,17 +2160,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
-    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any upvotes.
 
-    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of upvotes they received at the end of the quiz. If variants receive the same number of upvotes, the order in which they are displayed on the results page will be random.
 
     `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X upvotes or more. Toggle to activate.
 
-    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+    ![quiz builder results page results page settings min upvotes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 

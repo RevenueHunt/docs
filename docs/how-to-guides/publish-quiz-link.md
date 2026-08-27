@@ -5,7 +5,7 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This guide will walk you through the process of setting up a **Quiz Link Popup** on your ecommerce store.
+This article explains how to set up a **Quiz Link Popup** on your ecommerce store.
 
 !!! info "What is a Link Popup?"
 

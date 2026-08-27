@@ -5,20 +5,20 @@ description: "Learn how to set up multiple results pages in RevenueHunt to show 
 
 # How to Set Up Multiple Results Pages
 
-With the RevenueHunt app you can set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
+A quiz can show more than one results page, with different content on each. Follow the instructions below to add one.
 
 !!! warning
 
-    Adding multiple results pages increases complexity, may lead to unexpected product recommendations, and can impact quiz loading speed. **For maximum conversions and sales, we recommend using only one results page.**
+    A second results page adds complexity, can produce unexpected product recommendations, and slows the quiz down. **One results page sells best.**
 
-    However, multiple results pages can be beneficial in certain scenarios:
+    A second page is worth adding in a few cases:
 
     - Personalized discounts: Show different discounts (or no discount) based on customer preferences or responses.
     - Email collection strategies: Offer unique results based on whether the customer leaves their email address or not.
-    - Simplifying conditional logic: If you have a long list of similar conditional blocks, using multiple results pages can make it easier to organize and manage logic by giving each page a clear name.
-    - Special cases: Some businesses, like medical & supplements companies, might use separate results pages to inform customers when they are not eligible for certain products, e.g., "You're not qualified for X due to [specific reason]."
+    - Simpler conditional logic: a long list of similar conditional blocks is easier to manage as several named pages.
+    - Special cases: a medical or supplements company may need a page telling the customer they are not eligible for a product, and why.
 
-    Carefully consider your quiz goals before enabling this feature to ensure it aligns with your business objectives.
+    Weigh that against your quiz goals before you turn this on.
 
 === "Shopify"
 
@@ -26,19 +26,19 @@ With the RevenueHunt app you can set up Multiple Results Pages. To add an extra 
 
     1. Open the [Quiz builder](/reference/quiz-builder/).
     2. Go to the [Results page](/reference/quiz-builder/results-page/) tab.
-    3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
+    3. Scroll down and click `+ Add results page`. A second page appears below the first.
 
         ![multi results pages built for shopify revenuehunt app activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
-    4. Once you've added your results pages **you'll need to add [**Jump logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz builder. 
+    4. With the pages added, **you need [Jump logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz builder.
 
         ![how_to_shopifyV2_multiple_result_pages_jumplogic](/images/how_to_shopifyV2_multiple_result_pages_jumplogic.png)
-    5. Scroll down the list of questions and find the last question before the results. Open the question and add Jump logic rules that will redirect the user to a specific results page. 
-    
+    5. Find the last question before the results. Open it and add Jump logic rules that send the customer to a particular results page.
+
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
 
-        To learn more about using Jump logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-    6. Once Jump logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+    6. Click the top-right `Publish` button to update the preview and the live quiz.
 
 
 === "Shopify (Legacy)"
@@ -47,25 +47,25 @@ With the RevenueHunt app you can set up Multiple Results Pages. To add an extra 
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
-    4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
-    5. In the menu, you will see all the results pages created in this quiz.
+    3. On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to **Multiple Results Pages** and click `activate`.
+    4. Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab to open the menu.
+    5. The menu lists every results page in this quiz.
 
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional results page click the `Create new Results Page` button.
-    8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    6. `Results Page 1` is the default, marked `This is currently the default Results Page`. Click that text to rename the page.
+    7. Click `Create new Results Page` to add another.
+    8. A second page appears. Click `set` to make it the default, or `edit` to change its contents. The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
+    9. With the pages added, **you need [Jump Logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder.
 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-    10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
-    
+    10. Find the last question before the results. Open it and add Jump Logic rules that send the customer to a particular results page.
+
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-    11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+    11. Click the top-right `Publish` button to update the preview and the live quiz.
 
 === "WooCommerce"
 
@@ -73,25 +73,25 @@ With the RevenueHunt app you can set up Multiple Results Pages. To add an extra 
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
-    4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
-    5. In the menu, you will see all the results pages created in this quiz.
+    3. On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to **Multiple Results Pages** and click `activate`.
+    4. Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab to open the menu.
+    5. The menu lists every results page in this quiz.
 
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional results page click the `Create new Results Page` button.
-    8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
-    
+    6. `Results Page 1` is the default, marked `This is currently the default Results Page`. Click that text to rename the page.
+    7. Click `Create new Results Page` to add another.
+    8. A second page appears. Click `set` to make it the default, or `edit` to change its contents. The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
+    9. With the pages added, **you need [Jump Logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder.
+
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-    10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
-    
+    10. Find the last question before the results. Open it and add Jump Logic rules that send the customer to a particular results page.
+
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-    11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+    11. Click the top-right `Publish` button to update the preview and the live quiz.
 
 === "Magento"
 
@@ -99,25 +99,25 @@ With the RevenueHunt app you can set up Multiple Results Pages. To add an extra 
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
-    4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
-    5. In the menu, you will see all the results pages created in this quiz.
+    3. On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to **Multiple Results Pages** and click `activate`.
+    4. Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab to open the menu.
+    5. The menu lists every results page in this quiz.
 
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional results page click the `Create new Results Page` button.
-    8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    6. `Results Page 1` is the default, marked `This is currently the default Results Page`. Click that text to rename the page.
+    7. Click `Create new Results Page` to add another.
+    8. A second page appears. Click `set` to make it the default, or `edit` to change its contents. The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
+    9. With the pages added, **you need [Jump Logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder.
 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-    10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
-    
+    10. Find the last question before the results. Open it and add Jump Logic rules that send the customer to a particular results page.
+
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-    11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+    11. Click the top-right `Publish` button to update the preview and the live quiz.
 
 === "BigCommerce"
 
@@ -125,25 +125,25 @@ With the RevenueHunt app you can set up Multiple Results Pages. To add an extra 
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
-    4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
-    5. In the menu, you will see all the results pages created in this quiz.
+    3. On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to **Multiple Results Pages** and click `activate`.
+    4. Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab to open the menu.
+    5. The menu lists every results page in this quiz.
 
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional results page click the `Create new Results Page` button.
-    8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    6. `Results Page 1` is the default, marked `This is currently the default Results Page`. Click that text to rename the page.
+    7. Click `Create new Results Page` to add another.
+    8. A second page appears. Click `set` to make it the default, or `edit` to change its contents. The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
+    9. With the pages added, **you need [Jump Logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder.
 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-    10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
-    
+    10. Find the last question before the results. Open it and add Jump Logic rules that send the customer to a particular results page.
+
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-    11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+    11. Click the top-right `Publish` button to update the preview and the live quiz.
 
 === "Standalone"
 
@@ -151,25 +151,25 @@ With the RevenueHunt app you can set up Multiple Results Pages. To add an extra 
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
-    4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
-    5. In the menu, you will see all the results pages created in this quiz.
+    3. On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to **Multiple Results Pages** and click `activate`.
+    4. Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab to open the menu.
+    5. The menu lists every results page in this quiz.
 
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional results page click the `Create new Results Page` button.
-    8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    6. `Results Page 1` is the default, marked `This is currently the default Results Page`. Click that text to rename the page.
+    7. Click `Create new Results Page` to add another.
+    8. A second page appears. Click `set` to make it the default, or `edit` to change its contents. The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
+    9. With the pages added, **you need [Jump Logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder.
 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-    10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
-    
+    10. Find the last question before the results. Open it and add Jump Logic rules that send the customer to a particular results page.
+
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-    11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+    11. Click the top-right `Publish` button to update the preview and the live quiz.
 
 ---
 This article explains how to set up multiple results pages in the RevenueHunt app.

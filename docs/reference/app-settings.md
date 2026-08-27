@@ -278,9 +278,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Catalogue mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
     
-    `Default (faster imports)` - When products have equal votes, they appear in random order. This mode imports your catalogue faster. 
+    `Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalogue faster. 
     
-    `Preserve collection order` - When products have equal votes, they appear in the same order as arranged in your Shopify collections. Products placed earlier in your collection appear first in recommendations.
+    `Preserve collection order` - When products have equal upvotes, they appear in the same order as arranged in your Shopify collections. Products placed earlier in your collection appear first in recommendations.
 
     !!! warning "After changing this setting"
 
@@ -290,7 +290,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
         Enable this if you have arranged products by hand in your Shopify collections. For example, best-sellers first, or new arrivals at the top. The same order is then used in quiz recommendations.
 
-        With `Preserve collection order` enabled, products are imported in the order they appear in your Shopify collections. When two products have equal votes, the one placed earlier in the collection appears first. This works with manual sorting and with Shopify's automatic collection sorting.
+        With `Preserve collection order` enabled, products are imported in the order they appear in your Shopify collections. When two products have equal upvotes, the one placed earlier in the collection appears first. This works with manual sorting and with Shopify's automatic collection sorting.
 
         For example: Imagine you have a "Best Sellers" collection with products arranged by sales:
 
@@ -298,7 +298,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
         2. Product B (second best)
         3. Product C (third best)
 
-        If Products A and C both receive 3 votes in a quiz:
+        If Products A and C both receive 3 upvotes in a quiz:
 
         - **With Default mode**: Either could appear first (random)
         - **With Preserve collection order**: Product A appears first (position 1 beats position 3)

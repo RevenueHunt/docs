@@ -7,7 +7,7 @@ icon: material/grid
 
 This article outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations.
 
-It covers creating product collections, linking products to choices, and the voting system that ranks the recommendations.
+It covers creating product collections, linking products to choices, and the upvoting system that ranks the recommendations.
 
 ## Simple product matrix
 
@@ -81,21 +81,51 @@ It covers creating product collections, linking products to choices, and the vot
 
 ### Step 1: understand the algorithm
 
-First of all, you should understand that the recommendations algorithm works like a [voting system](#step-1-understand-the-algorithm).
+First of all, you should understand that the recommendations algorithm works like a [upvoting system](#step-1-understand-the-algorithm).
 
 ??? question "How do I get the right recommendations?"
 
-    The recommendation algorithm works like a voting system:
+    The recommendation algorithm works like an upvoting system:
 
     - Products are linked to each choice
-    - When a customer picks a choice, all linked products receive one vote
-    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - When a customer picks a choice, all linked products receive one upvote
+    - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there is a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+
+    **When two products have the same number of upvotes**
+
+    === "Shopify"
+
+        By default the app randomizes their order.
+
+        To use your own order instead, set `Catalogue mode` to `Preserve collection order` in [Settings > Catalogue](/reference/app-settings/#catalogue). Products then appear in the order you arranged them in your Shopify collections.
+
+        Click `Import now` after you change the setting. The new order applies only after a fresh import.
+
+    === "Shopify (Legacy)"
+
+        The app randomizes their order.
+
+    === "WooCommerce"
+
+        The app randomizes their order.
+
+    === "Magento"
+
+        The app randomizes their order.
+
+    === "BigCommerce"
+
+        The app randomizes their order.
+
+    === "Standalone"
+
+        The app randomizes their order.
+
 
     If you want to make the results ultra-precise, you can also:
 
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 ### Step 2: create collections/categories
@@ -357,25 +387,25 @@ If you do not get the expected results, see [How to Troubleshoot Product Recomme
 
 ??? question "Why were these products recommended?"
 
-    To understand the quiz results, recall how the voting system works. Every product linked to a choice receives one vote when clicked on. In the end, the products with the most votes will be recommended first on the Results Page.
+    To understand the quiz results, recall how the upvoting system works. Every product linked to a choice receives one upvote when clicked on. In the end, the products with the most upvotes will be recommended first on the Results Page.
 
-    - In this example, if the user selects “30’s and above” in the first question, the following 8 products will receive 1 vote each:
+    - In this example, if the user selects “30’s and above” in the first question, the following 8 products will receive 1 upvote each:
 
         ![how to recommend products matrix table1](/images/how_to_recommend_products_table1.png)
 
-    - Next, if the user selects “Oily”, the following 8 products will receive 1 vote each:
+    - Next, if the user selects “Oily”, the following 8 products will receive 1 upvote each:
 
         ![how to recommend products matrix table2](/images/how_to_recommend_products_table2.png)
 
-    - After the two questions, the following 4 products will already have 2 votes each, because they were part of both collections:
+    - After the two questions, the following 4 products will already have 2 upvotes each, because they were part of both collections:
 
         ![how to recommend products matrix table2](/images/how_to_recommend_products_table3.png)
 
-    These products received the most amount of votes (2) so they were recommended.
+    These products received the most amount of upvotes (2) so they were recommended.
 
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
-    When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
+    When products receive the same amount of upvotes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
 
 To organize the products in a specific order, create `Product Slots` on the Results Page. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 

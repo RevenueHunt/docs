@@ -188,7 +188,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `Minimum Upvotes` - The minimum number of upvotes a product must receive to be shown in the block.
 
-    `Recommendation System` - `Fixed recommendations` or `Based on customer responses` - This explains if the recommendations are fixed or dynamic.
+    `Recommendation system` - `Fixed recommendations` or `Based on customer responses` - This explains if the recommendations are fixed or dynamic.
 
     **Segments in Detail** - Displays the segments in detail. Each block contains one or more segments, which define which products are shown and how they are selected:
 

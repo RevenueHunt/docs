@@ -58,10 +58,10 @@ The "type" changes by catalog, but the format travels everywhere:
 
 A personality quiz is a **scoring quiz**, and it works differently from a standard product-recommendation quiz:
 
-- A **product-recommendation quiz** ranks *products* by the votes each answer gives them, and shows the top products.
+- A **product-recommendation quiz** ranks *products* by the upvotes each answer gives them, and shows the top products.
 - A **scoring (personality) quiz** routes the shopper by the *pattern of their answers*. You attach **variables and scores** to each answer (for example, each choice adds a point to `dry`, `oily`, or `combination`). The quiz tallies them, and the shopper sees the result for their winning outcome.
 
-Those are two separate mechanisms. A personality quiz is built on scoring, not on product votes.
+Those are two separate mechanisms. A personality quiz is built on scoring, not on product upvotes.
 
 <div style="margin:24px auto; max-width:420px;">
 <svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="sct scd" preserveAspectRatio="xMidYMid meet">
@@ -149,7 +149,7 @@ A personality quiz earns its keep on two fronts, so track both:
 - **Do** keep it to 5-8 questions. Completion is where the value is: a longer quiz collects more data points from far fewer people, so you end up with *less* usable data, not more.
 - **Do** name the type and invite the share. The shareable result is the free traffic engine that sets this format apart.
 - **Do** tag and sync every outcome. The shareable quiz is nice, but the segment is what keeps selling for months afterward. Skip this and you've built entertainment, not a revenue engine.
-- **Don't** confuse it with a product-recommendation quiz. If your real goal is "show the right product," a vote-based [recommendation quiz](/customer-success/what-data-to-collect/) gets there faster. Reach for scoring only when the *type itself* is the point.
+- **Don't** confuse it with a product-recommendation quiz. If your real goal is "show the right product," an upvote-based [recommendation quiz](/customer-success/what-data-to-collect/) gets there faster. Reach for scoring only when the *type itself* is the point.
 - **Don't** ask questions that don't change the result. Every extra question costs you completions, so an answer that doesn't move someone toward a type is leaking leads for nothing.
 - **Don't** let a type be a dead end. An outcome with no recommendation, no follow-up, and no segment is a sale you paid to acquire and then walked away from.
 
@@ -171,7 +171,7 @@ Assigning scores and surfacing the right result is configured in the app, and th
 
 ### What's the difference between a personality quiz and a product-recommendation quiz?
 
-A personality (scoring) quiz routes the shopper by the pattern of their answers, using variables and scores. A product-recommendation quiz ranks products by the votes each answer gives them. They are two separate mechanisms.
+A personality (scoring) quiz routes the shopper by the pattern of their answers, using variables and scores. A product-recommendation quiz ranks products by the upvotes each answer gives them. They are two separate mechanisms.
 
 ### How many outcomes should a personality quiz have?
 

@@ -78,7 +78,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
         - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most upvoted products from a collection that's linked to the slot.
 
 === "WooCommerce"
 
@@ -91,7 +91,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
         - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most upvoted products from a collection that's linked to the slot.
 
 === "Magento"
 
@@ -104,7 +104,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
         - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most upvoted products from a collection that's linked to the slot.
 
 === "BigCommerce"
 
@@ -117,7 +117,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
         - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most upvoted products from a collection that's linked to the slot.
 
 === "Standalone"
 
@@ -130,7 +130,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
         - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most upvoted products from a collection that's linked to the slot.
 
 ## Add display logic to block / section
 
@@ -779,7 +779,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
     - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
 
-    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
+    Change the `Recommendation system` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
 
     **Step 3: Add Display logic to the Sections**
 
@@ -913,7 +913,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
     - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
 
-    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
+    Change the `Recommendation system` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
 
     **Step 3: Add Display logic to the Sections**
 

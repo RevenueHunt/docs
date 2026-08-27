@@ -17,6 +17,8 @@ prq
 quizzes
 upvote
 upvoted
+upvotes
+upvoting
 downvote
 premade
 

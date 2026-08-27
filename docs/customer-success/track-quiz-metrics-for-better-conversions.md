@@ -102,7 +102,7 @@ This view tells you whether your recommendations are working and which products 
 
 | Issue | What to do |
 |-------|------------|
-| **The same products always win** | Use the [responses troubleshooter](/how-to-guides/troubleshoot-product-results/) to check whether some products get more votes by default, then diversify by adding a question or mapping more products to choices. |
+| **The same products always win** | Use the [responses troubleshooter](/how-to-guides/troubleshoot-product-results/) to check whether some products get more upvotes by default, then diversify by adding a question or mapping more products to choices. |
 | **Customers get empty recommendations** | Confirm the results page has a product or slot block, that choices are mapped to products or collections, and that you aren't excluding too many products. |
 
 ---

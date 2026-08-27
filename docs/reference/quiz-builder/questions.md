@@ -1641,7 +1641,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Choice image` - Shows the image displayed in this picture choice. CLick `Select image` to upload an image for this choice or choose from the in-app image gallery.
 
-    `Upvotes weighting` - Sets a default weight of this choice. If the weight is set to 2, all the upvoted products will receive x2 (double) votes from this choice.
+    `Upvotes weighting` - Sets a default weight of this choice. If the weight is set to 2, all the upvoted products will receive x2 (double) upvotes from this choice.
 
     ### Upvotes
 

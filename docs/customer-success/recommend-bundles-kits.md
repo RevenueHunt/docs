@@ -43,7 +43,7 @@ The quiz is the perfect place to do this. You've just learned exactly what the s
 |---------|------------|----------|----------------|
 | **Routine** | A sequence used together (step 1, 2, 3) | Skincare, haircare, supplements | One [slot](/how-to-guides/recommend-skincare-routine-slots/) per step, each ranked by fit |
 | **Kit or bundle** | A fixed set sold as one item at one price | Starter kits, gift sets, "the essentials" | Recommend the bundle product or a [collection](/how-to-guides/set-up-recommendations/) |
-| **Build-your-own** | The shopper assembles a set from matched options | Variety packs, mix-and-match, coffee | Multiple slots with alternatives ranked by [votes](/how-to-guides/recommend-products/) |
+| **Build-your-own** | The shopper assembles a set from matched options | Variety packs, mix-and-match, coffee | Multiple slots with alternatives ranked by [upvotes](/how-to-guides/recommend-products/) |
 | **Subscription** | A recurring order of the recommended set | Consumables, refills | [Recharge or WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/) |
 
 !!! tip "Cross-sell and upsell both raise AOV"
@@ -56,7 +56,7 @@ The quiz is the perfect place to do this. You've just learned exactly what the s
 A results page can show several recommendations at once, each in its own **slot**. For a skincare brand that means cleanser + serum + moisturizer; for coffee it means grinder + beans + filters. Build the set so it sells itself:
 
 - **Use one slot per step of the routine.** See **[Recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/)** and the broader **[Set up recommendations](/how-to-guides/set-up-recommendations/)** guide.
-- **Rank each slot by fit.** The app ranks products in each slot by [votes](/how-to-guides/recommend-products/), so every slot shows the best match for *this* shopper, not a generic pick.
+- **Rank each slot by fit.** The app ranks products in each slot by [upvotes](/how-to-guides/recommend-products/), so every slot shows the best match for *this* shopper, not a generic pick.
 - **Give every item a reason.** A one-line "why this is in your set," tied to an answer, turns a product grid into a recommendation the shopper believes.
 - **Make it one action.** A single "add the whole set to cart" (or a pre-loaded cart they can edit) converts far better than asking the shopper to add each item one at a time.
 

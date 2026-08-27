@@ -222,11 +222,11 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the quiz design, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) > [Upvote](/reference/quiz-builder/link-products/#upvote) to add products and collections to each question.
 
-    Product Recommendation Quiz works like a voting system:
+    Product Recommendation Quiz works like an upvoting system:
 
     - Products are linked to each choice. 
-    - Every time a customer selects an answer, those linked products get a vote.
-    - At the end of the quiz, the [Results page](/reference/quiz-builder/results-page/) shows the top-voted products first, sorted by the number of votes.
+    - Every time a customer selects an answer, those linked products get an upvote.
+    - At the end of the quiz, the [Results page](/reference/quiz-builder/results-page/) shows the top-upvoted products first, sorted by the number of upvotes.
 
     Alternatively, you can use [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to set up conditions for when certain fixed content or products should be visible on the Results page.
 
@@ -237,11 +237,11 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like a voting system:
+    Product Recommendation Quiz works like an upvoting system:
 
     - Products are linked to each choice. 
-    - When a customer picks that choice, all linked products receive one vote.
-    - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
+    - When a customer picks that choice, all linked products receive one upvote.
+    - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
 
     Make sure to also edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -251,11 +251,11 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like a voting system:
+    Product Recommendation Quiz works like an upvoting system:
 
     - Products are linked to each choice. 
-    - When a customer picks that choice, all linked products receive one vote.
-    - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
+    - When a customer picks that choice, all linked products receive one upvote.
+    - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
 
     Make sure to also edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -265,11 +265,11 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like a voting system:
+    Product Recommendation Quiz works like an upvoting system:
 
     - Products are linked to each choice. 
-    - When a customer picks that choice, all linked products receive one vote.
-    - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
+    - When a customer picks that choice, all linked products receive one upvote.
+    - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
 
     Make sure to also edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -279,11 +279,11 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like a voting system:
+    Product Recommendation Quiz works like an upvoting system:
 
     - Products are linked to each choice. 
-    - When a customer picks that choice, all linked products receive one vote.
-    - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
+    - When a customer picks that choice, all linked products receive one upvote.
+    - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
 
     Make sure to also edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -293,11 +293,11 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like a voting system:
+    Product Recommendation Quiz works like an upvoting system:
 
     - Products are linked to each choice. 
-    - When a customer picks that choice, all linked products receive one vote.
-    - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
+    - When a customer picks that choice, all linked products receive one upvote.
+    - After the customer takes the quiz, the results page will show the products sorted by the number of upvotes.
 
     Make sure to also edit the [Results Page](/reference/quiz-builder/results-page/).
 

@@ -106,6 +106,25 @@ IDIOM = [
     (r'\bcheck (?:it )?out\b', 'see'),
     # every form of this one is the idiom
     (r'\breach(?:es|ed|ing)? out to\b', 'contact'),
+    # a three-entry list only catches idioms someone already thought of, so
+    # these were found by sweeping the docs rather than by recall. each one
+    # is figurative in every use on this site, with no literal reading to
+    # protect the way heading and checkout needed protecting above.
+    (r'\bwalks? you through\b', 'explains, or shows you'),
+    (r'\bearn(?:s|ed)? (?:its|their) place\b', 'is worth adding'),
+    (r'\bkeep(?:s|ing)? an eye on\b', 'check, or watch'),
+    (r'\bstacks? up\b', 'compares'),
+    (r'\bpays? off\b', 'is worth it'),
+    (r'\bat a glance\b', 'quickly'),
+    (r'\bup and running\b', 'working'),
+    (r'\bhands? over\b|\bhanded over\b', 'gives, or sends'),
+    (r'\bin a nutshell\b', 'in short'),
+    (r'\bout of the box\b', 'by default'),
+    (r'\bunder the hood\b', 'internally'),
+    (r'\brule of thumb\b', 'a good guide'),
+    (r'\bheavy lifting\b', 'the work'),
+    (r'\bboils? down to\b', 'comes to'),
+    (r'\bon the fly\b', 'as you go'),
 ]
 
 RETIRED_TERMS = [

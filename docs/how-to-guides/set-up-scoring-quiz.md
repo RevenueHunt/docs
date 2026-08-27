@@ -5,7 +5,7 @@ icon: material/scoreboard-outline
 
 # How to Set Up Scoring Quiz
 
-Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaibl or a score.
+Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most upvoted varaibl or a score.
 
 !!! info "Use this method for:"
 
@@ -95,7 +95,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 ## Winning variable quiz 
 
-Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted variable.
+Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most upvoted variable.
 
 ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width=500}
 
@@ -147,7 +147,7 @@ Follow these steps to set up a winning variable quiz:
 
             Section 5: Sensitive Skin
 
-    4. **Add a Product block to Each Section**: Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to each section on your Results page. In the Product block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
+    4. **Add a Product block to Each Section**: Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to each section on your Results page. In the Product block settings set the `Recommendation system` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
 
     5. **Add Display logic**: Add a [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section on your Results page to tell it when to be shown or hidden based on the winning variable.
 
@@ -417,7 +417,7 @@ Follow these steps to set up a scoring quiz with one results page:
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation system` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
             
@@ -542,7 +542,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-        Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+        Make sure to add product blocks to each results page and set the `Recommendation system` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
 
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)

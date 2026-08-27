@@ -619,7 +619,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     !!! warning
         Link either products **or** a collection to each choice. Do not mix them.
 
-        A product can be upvoted in a choice and also sit in a collection linked to that choice. It then **receives 2 votes from the same choice**, which skews the results.
+        A product can be upvoted in a choice and also sit in a collection linked to that choice. It then **receives 2 upvotes from the same choice**, which skews the results.
 
         So link either individual products to a choice, or one dedicated collection to a choice.
 
@@ -630,12 +630,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
+        The product recommendation algorithm works like a [upvoting system](/how-to-guides/recommend-products/).
 
         - Products/Collections of products are linked to each choice.
-        - When a customer picks that choice all the linked products receive one vote.
+        - When a customer picks that choice all the linked products receive one upvote.
         - This includes all the products inside the linked collection.
-        - At the end, the results page will show slots with products sorted by the number of votes.
+        - At the end, the results page will show slots with products sorted by the number of upvotes.
 
 
 
@@ -651,12 +651,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
+        The product recommendation algorithm works like a [upvoting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
-        - When a customer picks that choice all the linked products receive one vote.
+        - When a customer picks that choice all the linked products receive one upvote.
         - This includes all the products inside the linked collection.
-        - At the end, the results page will show slots with products sorted by the number of votes.
+        - At the end, the results page will show slots with products sorted by the number of upvotes.
 
 
 === "WooCommerce"
@@ -672,12 +672,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
+        The product recommendation algorithm works like a [upvoting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
-        - When a customer picks that choice all the linked products receive one vote.
+        - When a customer picks that choice all the linked products receive one upvote.
         - This includes all the products inside the linked collection.
-        - At the end, the results page will show slots with products sorted by the number of votes.
+        - At the end, the results page will show slots with products sorted by the number of upvotes.
 
 
 
@@ -694,12 +694,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
+        The product recommendation algorithm works like a [upvoting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
-        - When a customer picks that choice all the linked products receive one vote.
+        - When a customer picks that choice all the linked products receive one upvote.
         - This includes all the products inside the linked collection.
-        - At the end, the results page will show slots with products sorted by the number of votes.
+        - At the end, the results page will show slots with products sorted by the number of upvotes.
 
 
 
@@ -716,12 +716,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
+        The product recommendation algorithm works like a [upvoting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
-        - When a customer picks that choice all the linked products receive one vote.
+        - When a customer picks that choice all the linked products receive one upvote.
         - This includes all the products inside the linked collection.
-        - At the end, the results page will show slots with products sorted by the number of votes.
+        - At the end, the results page will show slots with products sorted by the number of upvotes.
 
 
 
@@ -738,12 +738,12 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! info "Product recommendation algorithm"
 
-        The product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/).
+        The product recommendation algorithm works like a [upvoting system](/how-to-guides/recommend-products/).
 
         - Products are linked to each choice.
-        - When a customer picks that choice all the linked products receive one vote.
+        - When a customer picks that choice all the linked products receive one upvote.
         - This includes all the products inside the linked collection.
-        - At the end, the results page will show slots with products sorted by the number of votes.
+        - At the end, the results page will show slots with products sorted by the number of upvotes.
 
 
 

@@ -12,7 +12,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     Choose the weight of this choice:
 
-    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collection receive x2 (double) votes from this choice.
+    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collection receive x2 (double) upvotes from this choice.
 
     **Upvote**
 
@@ -73,7 +73,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.
 
-    Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.
+    Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 upvote.
 
     To link a collection to a choice click on the white dropdown bar and start typing the name.
 
@@ -83,7 +83,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that collection.
 
-    You can link several collections to the same choice, but be careful. A product in two collections linked to the same choice gets 2 votes, one from each collection.
+    You can link several collections to the same choice, but be careful. A product in two collections linked to the same choice gets 2 upvotes, one from each collection.
 
     ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
 
@@ -103,7 +103,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     In the Link Categories tab, you can link entire categories of products from your store to choices. This includes WooCommerce categories, tags and attributes.
 
-    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 upvote.
 
     To link a category to a choice click on the white dropdown bar and start typing the name.
 
@@ -113,7 +113,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 upvotes, one from each category.
 
     ![quiz builder woo link categories linked](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
 
@@ -133,7 +133,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     In the Link Categories tab, you can link entire categories of products from your store to choices.
 
-    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 upvote.
 
     To link a category to a choice click on the white dropdown bar and start typing the name.
 
@@ -143,7 +143,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 upvotes, one from each category.
 
     ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
@@ -163,7 +163,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     In the Link Categories tab, you can link entire categories of products from your store to choices.
 
-    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 upvote.
 
     To link a category to a choice click on the white dropdown bar and start typing the name.
 
@@ -173,7 +173,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 upvotes, one from each category.
 
     ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
@@ -197,7 +197,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     In the Link Categories tab, you can link entire categories of products from your store to choices.
 
-    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 upvote.
 
     To link a category to a choice click on the white dropdown bar and start typing the name.
 
@@ -207,7 +207,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 upvotes, one from each category.
 
     ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 

@@ -16,7 +16,7 @@ Custom JavaScript extends the RevenueHunt app. A developer can read the quiz res
     - add tracking codes to specific questions (Google Analytics, Meta Pixel)
     - and more
 
-This guide will walk you through adding JavaScript to quiz questions and the results page.
+This article explains how to add JavaScript to quiz questions and the results page.
 
 !!! warning "For developers and Shopify Partners"
     This article is for developers and Shopify Partners. If you do not know the basics of JavaScript and the Vue.js framework, ask a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).

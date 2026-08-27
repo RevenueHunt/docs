@@ -1,11 +1,11 @@
 ---
-description: "Step-by-step guide to limit RevenueHunt product recommendations by showing only products with minimum votes."
+description: "Step-by-step guide to limit RevenueHunt product recommendations by showing only products with a minimum number of upvotes."
 icon: material/vote-outline
 ---
 
-# How to Only Recommend Products with X Votes or More
+# How to Only Recommend Products with X Upvotes or More
 
-You can limit the recommendations on the results page to products that received X votes or more. This filter lets you show only the strongest matches.
+You can limit the recommendations on the results page to products that received X upvotes or more. This filter lets you show only the strongest matches.
 
 To activate this setting in your quiz:
 
@@ -16,28 +16,28 @@ To activate this setting in your quiz:
 
         ??? question "How do I get the right recommendations?"
 
-            The recommendation algorithm works like a voting system:
+            The recommendation algorithm works like an upvoting system:
 
             - Products are linked to each choice
-            - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - When a customer picks a choice, all linked products receive one upvote
+            - After the customer takes the quiz, the results page shows the products with the most upvotes first
             - If no products are linked, or all products are excluded, the results page is empty
-            - If there is a draw in the number of votes, the app randomizes the order of the products.
+            - If there is a draw in the number of upvotes, the app randomizes the order of the products.
 
     3. Open the [Results page](/reference/quiz-builder/results-page/).
     4. Open the [Product block Settings](/reference/quiz-builder/results-page/#block-settings).
-    5. Scroll down to the `Minimum number of votes` setting.
-        ![Minimum number of votes in the product block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
+    5. Scroll down to the `Min. number of upvotes` setting.
+        ![Min. number of upvotes in the product block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
     6. Click the dropdown, or use the slider, to select a number. You can change the minimum to whatever suits your quiz.
 
         !!! example
 
-            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
 
     7. Click `Save` in the top-right corner to update the preview and the live quiz.
 
-    From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
+    From now on, only products that receive this minimum number of upvotes will show up as a recommendation on the results page.
 
 === "Shopify (Legacy)"
 
@@ -46,13 +46,13 @@ To activate this setting in your quiz:
 
         ??? question "How do I get the right recommendations?"
 
-            The recommendation algorithm works like a voting system:
+            The recommendation algorithm works like an upvoting system:
 
             - Products are linked to each choice
-            - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - When a customer picks a choice, all linked products receive one upvote
+            - After the customer takes the quiz, the results page shows the products with the most upvotes first
             - If no products are linked, or all products are excluded, the results page is empty
-            - If there is a draw in the number of votes, the app randomizes the order of the products.
+            - If there is a draw in the number of upvotes, the app randomizes the order of the products.
 
     3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
     4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
@@ -66,7 +66,7 @@ To activate this setting in your quiz:
 
         !!! example
 
-            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
 
     9. Click `Publish` in the top-right corner to update the preview and the live quiz.
 
@@ -84,13 +84,13 @@ To activate this setting in your quiz:
 
         ??? question "How do I get the right recommendations?"
 
-            The recommendation algorithm works like a voting system:
+            The recommendation algorithm works like an upvoting system:
 
             - Products are linked to each choice
-            - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - When a customer picks a choice, all linked products receive one upvote
+            - After the customer takes the quiz, the results page shows the products with the most upvotes first
             - If no products are linked, or all products are excluded, the results page is empty
-            - If there is a draw in the number of votes, the app randomizes the order of the products.
+            - If there is a draw in the number of upvotes, the app randomizes the order of the products.
 
     3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
     4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
@@ -104,7 +104,7 @@ To activate this setting in your quiz:
 
         !!! example
 
-            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
 
     9. Click `Publish` in the top-right corner to update the preview and the live quiz.
 
@@ -122,13 +122,13 @@ To activate this setting in your quiz:
 
         ??? question "How do I get the right recommendations?"
 
-            The recommendation algorithm works like a voting system:
+            The recommendation algorithm works like an upvoting system:
 
             - Products are linked to each choice
-            - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - When a customer picks a choice, all linked products receive one upvote
+            - After the customer takes the quiz, the results page shows the products with the most upvotes first
             - If no products are linked, or all products are excluded, the results page is empty
-            - If there is a draw in the number of votes, the app randomizes the order of the products.
+            - If there is a draw in the number of upvotes, the app randomizes the order of the products.
 
     3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
     4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
@@ -142,7 +142,7 @@ To activate this setting in your quiz:
 
         !!! example
 
-            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
 
     9. Click `Publish` in the top-right corner to update the preview and the live quiz.
 
@@ -160,13 +160,13 @@ To activate this setting in your quiz:
 
         ??? question "How do I get the right recommendations?"
 
-            The recommendation algorithm works like a voting system:
+            The recommendation algorithm works like an upvoting system:
 
             - Products are linked to each choice
-            - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - When a customer picks a choice, all linked products receive one upvote
+            - After the customer takes the quiz, the results page shows the products with the most upvotes first
             - If no products are linked, or all products are excluded, the results page is empty
-            - If there is a draw in the number of votes, the app randomizes the order of the products.
+            - If there is a draw in the number of upvotes, the app randomizes the order of the products.
 
     3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
     4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
@@ -180,7 +180,7 @@ To activate this setting in your quiz:
 
         !!! example
 
-            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
 
     9. Click `Publish` in the top-right corner to update the preview and the live quiz.
 
@@ -198,13 +198,13 @@ To activate this setting in your quiz:
 
         ??? question "How do I get the right recommendations?"
 
-            The recommendation algorithm works like a voting system:
+            The recommendation algorithm works like an upvoting system:
 
             - Products are linked to each choice
-            - When a customer picks a choice, all linked products receive one vote
-            - After the customer takes the quiz, the results page shows the products with the most votes first
+            - When a customer picks a choice, all linked products receive one upvote
+            - After the customer takes the quiz, the results page shows the products with the most upvotes first
             - If no products are linked, or all products are excluded, the results page is empty
-            - If there is a draw in the number of votes, the app randomizes the order of the products.
+            - If there is a draw in the number of upvotes, the app randomizes the order of the products.
 
     3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
     4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
@@ -218,7 +218,7 @@ To activate this setting in your quiz:
 
         !!! example
 
-            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 votes or more** are shown, so a product has to match the answer to every question. A product with 3 votes is not shown. A product with 5 votes is shown.
+            Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
 
     9. Click `Publish` in the top-right corner to update the preview and the live quiz.
 

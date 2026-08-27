@@ -11,7 +11,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
 !!! warning "Understanding the basics"
 
-    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/set-up-funnel-quiz/#voting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
+    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [upvoting system](/how-to-guides/set-up-funnel-quiz/#upvoting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
 
 ## Step-by-step process to check recommendations
 
@@ -46,9 +46,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
         **Understanding Product Status Colors**
 
-        - **Green**: Indicates products that received votes through the quiz choices.
+        - **Green**: Indicates products that received upvotes through the quiz choices.
         - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
+        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
 
     6. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
@@ -57,8 +57,8 @@ This guide will walk you through the process of troubleshooting product recommen
         Information such as:
 
         - The collections/categories the product belongs to.
-        - The number of votes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
+        - The number of upvotes it received and the reasons for its recommendation or absence.
+        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results page and Slots or Product blocks that facilitated its recommendation.
 
     7. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
@@ -85,9 +85,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
         **Understanding Product Status Colors**
 
-        - **Green**: Indicates products that received votes through the quiz choices.
+        - **Green**: Indicates products that received upvotes through the quiz choices.
         - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
+        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
@@ -96,8 +96,8 @@ This guide will walk you through the process of troubleshooting product recommen
         Information such as:
 
         - The collections/categories the product belongs to.
-        - The number of votes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
+        - The number of upvotes it received and the reasons for its recommendation or absence.
+        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
     8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
@@ -127,9 +127,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
         **Understanding Product Status Colors**
 
-        - **Green**: Indicates products that received votes through the quiz choices.
+        - **Green**: Indicates products that received upvotes through the quiz choices.
         - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
+        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
@@ -138,8 +138,8 @@ This guide will walk you through the process of troubleshooting product recommen
         Information such as:
 
         - The collections/categories the product belongs to.
-        - The number of votes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
+        - The number of upvotes it received and the reasons for its recommendation or absence.
+        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
     8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
@@ -169,9 +169,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
         **Understanding Product Status Colors**
 
-        - **Green**: Indicates products that received votes through the quiz choices.
+        - **Green**: Indicates products that received upvotes through the quiz choices.
         - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
+        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
@@ -180,8 +180,8 @@ This guide will walk you through the process of troubleshooting product recommen
         Information such as:
 
         - The collections/categories the product belongs to.
-        - The number of votes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
+        - The number of upvotes it received and the reasons for its recommendation or absence.
+        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
     8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
@@ -211,9 +211,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
         **Understanding Product Status Colors**
 
-        - **Green**: Indicates products that received votes through the quiz choices.
+        - **Green**: Indicates products that received upvotes through the quiz choices.
         - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
+        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
@@ -222,8 +222,8 @@ This guide will walk you through the process of troubleshooting product recommen
         Information such as:
 
         - The collections/categories the product belongs to.
-        - The number of votes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
+        - The number of upvotes it received and the reasons for its recommendation or absence.
+        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
     8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
@@ -253,9 +253,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
         **Understanding Product Status Colors**
 
-        - **Green**: Indicates products that received votes through the quiz choices.
+        - **Green**: Indicates products that received upvotes through the quiz choices.
         - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
+        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
@@ -264,8 +264,8 @@ This guide will walk you through the process of troubleshooting product recommen
         Information such as:
 
         - The collections/categories the product belongs to.
-        - The number of votes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
+        - The number of upvotes it received and the reasons for its recommendation or absence.
+        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
     8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 

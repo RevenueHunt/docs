@@ -12,7 +12,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     Choose the weight of this choice:
 
-    `Upvotes weighting` - Sets a default weight for this choice. For example, if the weight is set to 2, every product upvoted from a collection receives double votes from this choice.
+    `Upvotes weighting` - Sets a default weight for this choice. For example, if the weight is set to 2, every product upvoted from a collection receives double upvotes from this choice.
 
     **Upvote**
 
@@ -64,7 +64,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one upvote.
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
@@ -92,7 +92,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one upvote.
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
@@ -120,7 +120,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one upvote.
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
@@ -148,7 +148,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one upvote.
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
@@ -176,7 +176,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     In the Link Products tab, you can link individual product variants from your catalog to choices.
 
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one upvote.
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 

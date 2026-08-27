@@ -164,14 +164,14 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     You can choose to:
 
-    **Option 1**: Recommend most voted products based on the customer's answers *(recommended for most quizzes)*
+    **Option 1**: Recommend most upvoted products based on the customer's answers *(recommended for most quizzes)*
 
-    ![Recommend Most Voted Products](/images/how_to_shopify_v2_recommendations_funnel.png){: width="500"}
+    ![Recommend Most Upvoted Products](/images/how_to_shopify_v2_recommendations_funnel.png){: width="500"}
 
     In this setup:
 
     - Link products or collections to each choice in the quiz.
-    - On the Results page, add a product block that will recommend the most voted products based on the customer's answers.
+    - On the Results page, add a product block that will recommend the most upvoted products based on the customer's answers.
     - You can also sort recommendations into multiple product slots to show a complete product routine.
 
     **Option 2**: Set up a custom variable or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
@@ -182,7 +182,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     - Create a custom variable or a score for each choices in the quiz.
     - On the Results page, set up multiple sections with fixed recommendations and content.
-    - Give each section display logic, so it shows or hides on the final score, or on the variable with the most votes.
+    - Give each section display logic, so it shows or hides on the final score, or on the variable with the most upvotes.
     - *For example, show Section 1 when the highest scoring variable is "blue", and Section 2 when it is "red".*
 
     **Option 3**: Build a logic tree, or give the results page sections display logic that decides which recommendations appear. *Best for a quiz with complex logic and a recommendations matrix.*
@@ -204,22 +204,22 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
-    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
+    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of upvotes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
 
     ??? question "How do I get the right recommendations?"
 
-        The recommendation algorithm works like a voting system:
+        The recommendation algorithm works like an upvoting system:
 
         - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one vote
-        - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+        - When a customer picks a choice, all linked products receive one upvote
+        - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If two products draw on votes, the app randomizes their order.
+        - If two products draw on upvotes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
-        - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
@@ -229,22 +229,22 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
-    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
+    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of upvotes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
 
     ??? question "How do I get the right recommendations?"
 
-        The recommendation algorithm works like a voting system:
+        The recommendation algorithm works like an upvoting system:
 
         - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one vote
-        - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+        - When a customer picks a choice, all linked products receive one upvote
+        - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If two products draw on votes, the app randomizes their order.
+        - If two products draw on upvotes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
-        - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
@@ -254,22 +254,22 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
-    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
+    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of upvotes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
 
     ??? question "How do I get the right recommendations?"
 
-        The recommendation algorithm works like a voting system:
+        The recommendation algorithm works like an upvoting system:
 
         - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one vote
-        - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+        - When a customer picks a choice, all linked products receive one upvote
+        - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If two products draw on votes, the app randomizes their order.
+        - If two products draw on upvotes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
-        - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
@@ -279,22 +279,22 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     With the questions in place, link products to choices so the customer gets recommendations.
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
-    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
+    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of upvotes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
 
     ??? question "How do I get the right recommendations?"
 
-        The recommendation algorithm works like a voting system:
+        The recommendation algorithm works like an upvoting system:
 
         - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one vote
-        - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+        - When a customer picks a choice, all linked products receive one upvote
+        - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If two products draw on votes, the app randomizes their order.
+        - If two products draw on upvotes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
-        - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
@@ -308,22 +308,22 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         Check this how-to article to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
 
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
-    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
+    2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of upvotes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).
 
     ??? question "How do I get the right recommendations?"
 
-        The recommendation algorithm works like a voting system:
+        The recommendation algorithm works like an upvoting system:
 
         - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one vote
-        - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+        - When a customer picks a choice, all linked products receive one upvote
+        - After the customer takes the quiz, the results page will show the most upvoted products sorted by the number of upvotes
         - If no products have been linked or all the products have been excluded, the results page will appear empty
-        - If two products draw on votes, the app randomizes their order.
+        - If two products draw on upvotes, the app randomizes their order.
 
         If you want to make the results ultra-precise, you can also:
 
-        - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - Limit the recommendations to only show products that received X upvotes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     Read more in [How to Recommend Products](/how-to-guides/recommend-products/).

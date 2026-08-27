@@ -345,7 +345,7 @@ A customer viewed a recommended product but never added it to the cart. This is 
 
 **Recommended for:** Skincare, Haircare, Supplements, Food & drink, Pets, and any product a customer uses up on a predictable schedule.
 
-If you sell a product that runs out, this flow earns the most. It brings the customer back just before they need more.
+If you sell a product that runs out, this flow returns the most revenue. It brings the customer back just before they need more.
 
 - **Trigger:** metric `Placed Order`.
 - **Trigger filter:** the ordered item is the consumable product (or in a product tag/collection). This reads the order event, so it belongs in the trigger filter.
