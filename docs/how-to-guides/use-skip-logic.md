@@ -5,975 +5,898 @@ icon: material/skip-next-outline
 
 # How to Use Skip Logic
 
-[Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. 
+[Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) drops a question when the customer's earlier answers have made it irrelevant. The quiz keeps one path, and each customer walks a shorter version of it.
 
-!!! info "Use Skip Logic to:"
+!!! info "Use skip logic to"
 
-    - Skip questions based on the user's answers.
-    - Show different follow-up questions based on the user's answers to multiple-choice questions that allow multiple selections. For example, if you want to show different follow-up questions based on the (skin, health) concerns the user selects.
+    - Skip a question that does not apply to this customer.
+    - Show only the follow-up questions that match what the customer selected.
 
+!!! example "What this looks like in a quiz"
 
-In this article, we will show you how to set up and use Skip Logic in your quiz, including specific use-cases and step-by-step instructions.
+    A skincare quiz asks about skin concerns and lets the customer pick several. Only the follow-up questions for the concerns they picked are asked, and the rest are skipped.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+=== "Shopify (Legacy)"
 
-=== "Shopify (Legacy)"   
-
-    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
-    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Magento"
 
-    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "BigCommerce"
 
-    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Standalone"
 
-    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-??? question "What's Skip Logic?"
+!!! warning "Do not mix skip logic and jump logic in one quiz"
 
-    Skip Logic uses IF-AND statements to determine if a question should be skipped based on the user's answers.
+    Each of them rewrites the order of the questions. Together they produce paths that neither rule intended. See [Skip logic and jump logic](#skip-logic-and-jump-logic).
 
-
-!!! warning
-
-    It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
-
-
-## Conditional logic
+## The conditional logic tab
 
 === "Shopify"
 
     ![quiz builder conditional logic](/images/how_to_use_skip_logic_cond_logic_intro.png)
 
-    In the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    The [Conditional logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the right, and the tree on the left redraws itself as you add them.
 
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
 
-    ??? question "How to navigate the Conditional logic tab?"
+    ??? question "Moving around the logic tree"
 
         ![quiz builder conditional logic preview options](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
 
-        **+** - Zoom in on the logic tree preview.
+        | Control | What it does |
+        |---|---|
+        | `+` | Zooms in |
+        | `-` | Zooms out |
+        | `[]` | Centers the tree and fits it to the view |
+        | `lock` | Locks the preview, so a stray drag cannot move it |
 
-        **-** - Zoom out on the logic tree preview.
-
-        **[]** - Center the logic tree preview and fit into view.
-
-        🔒 - Toggle interactivity. Lock or unlock the interactivaity of hte preview.
-
-        Drag the logic tree with your mouse left button to navigate to specific branches.
-
+        Drag the tree with the left mouse button to reach a particular branch.
 
 === "Shopify (Legacy)"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    The [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the left, and the tree on the right redraws itself as you add them.
 
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
 
-    ??? question "How to navigate the Conditional Logic tab?"
+    ??? question "Moving around the logic tree"
 
         ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
 
-        **+** - Zoom in on the logic tree preview.
+        | Control | What it does |
+        |---|---|
+        | `+` | Zooms in |
+        | `-` | Zooms out |
+        | `[]` | Centers the tree and fits it to the view |
 
-        **-** - Zoom out on the logic tree preview.
-
-        **[]** - Center the logic tree preview and fit into view.
-
-        Drag the logic tree with your mouse left button to navigate to specific branches.
+        Drag the tree with the left mouse button to reach a particular branch.
 
         ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
 
-        The top menu allows you to switch between questions.
-
-        **arrow up** - Takes you to the question higher.
-
-        **arrow down** - Take you to the question lower.
+        The arrows in the top menu move you to the question above or the question below.
 
 === "WooCommerce"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    The [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the left, and the tree on the right redraws itself as you add them.
 
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
 
-    ??? question "How to navigate the Conditional Logic tab?"
+    ??? question "Moving around the logic tree"
 
         ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
 
-        **+** - Zoom in on the logic tree preview.
+        | Control | What it does |
+        |---|---|
+        | `+` | Zooms in |
+        | `-` | Zooms out |
+        | `[]` | Centers the tree and fits it to the view |
 
-        **-** - Zoom out on the logic tree preview.
-
-        **[]** - Center the logic tree preview and fit into view.
-
-        Drag the logic tree with your mouse left button to navigate to specific branches.
+        Drag the tree with the left mouse button to reach a particular branch.
 
         ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
 
-        The top menu allows you to switch between questions.
-
-        **arrow up** - Takes you to the question higher.
-
-        **arrow down** - Take you to the question lower.
+        The arrows in the top menu move you to the question above or the question below.
 
 === "Magento"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    The [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the left, and the tree on the right redraws itself as you add them.
 
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
 
-    ??? question "How to navigate the Conditional Logic tab?"
+    ??? question "Moving around the logic tree"
 
         ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
 
-        **+** - Zoom in on the logic tree preview.
+        | Control | What it does |
+        |---|---|
+        | `+` | Zooms in |
+        | `-` | Zooms out |
+        | `[]` | Centers the tree and fits it to the view |
 
-        **-** - Zoom out on the logic tree preview.
-
-        **[]** - Center the logic tree preview and fit into view.
-
-        Drag the logic tree with your mouse left button to navigate to specific branches.
+        Drag the tree with the left mouse button to reach a particular branch.
 
         ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
 
-        The top menu allows you to switch between questions.
-
-        **arrow up** - Takes you to the question higher.
-
-        **arrow down** - Take you to the question lower.
+        The arrows in the top menu move you to the question above or the question below.
 
 === "BigCommerce"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    The [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the left, and the tree on the right redraws itself as you add them.
 
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
 
-    ??? question "How to navigate the Conditional Logic tab?"
+    ??? question "Moving around the logic tree"
 
         ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
 
-        **+** - Zoom in on the logic tree preview.
+        | Control | What it does |
+        |---|---|
+        | `+` | Zooms in |
+        | `-` | Zooms out |
+        | `[]` | Centers the tree and fits it to the view |
 
-        **-** - Zoom out on the logic tree preview.
-
-        **[]** - Center the logic tree preview and fit into view.
-
-        Drag the logic tree with your mouse left button to navigate to specific branches.
+        Drag the tree with the left mouse button to reach a particular branch.
 
         ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
 
-        The top menu allows you to switch between questions.
-
-        **arrow up** - Takes you to the question higher.
-
-        **arrow down** - Take you to the question lower.
+        The arrows in the top menu move you to the question above or the question below.
 
 === "Standalone"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    The [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the left, and the tree on the right redraws itself as you add them.
 
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
 
-    ??? question "How to navigate the Conditional Logic tab?"
+    ??? question "Moving around the logic tree"
 
         ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
 
-        **+** - Zoom in on the logic tree preview.
+        | Control | What it does |
+        |---|---|
+        | `+` | Zooms in |
+        | `-` | Zooms out |
+        | `[]` | Centers the tree and fits it to the view |
 
-        **-** - Zoom out on the logic tree preview.
-
-        **[]** - Center the logic tree preview and fit into view.
-
-        Drag the logic tree with your mouse left button to navigate to specific branches.
+        Drag the tree with the left mouse button to reach a particular branch.
 
         ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
 
-        The top menu allows you to switch between questions.
+        The arrows in the top menu move you to the question above or the question below.
 
-        **arrow up** - Takes you to the question higher.
+## Add a skip logic rule
 
-        **arrow down** - Take you to the question lower.
-
-## Add skip logic to questions
-
-Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
-
-!!! info
-
-    All the Skip Logic rules follow the same format:
-
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN this question is skipped**
+Every rule reads the same way: **IF** the response to an earlier question **is**, or **is not**, a certain choice, **THEN this question is skipped**. A question carrying no rule is always asked.
 
 === "Shopify"
 
-    1. You can introduce Skip logic into your quiz by opening the [Quiz builder > Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
-    2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown.
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
+
+    2. **Select the question you want to skip.**
+
+    3. **Open the [`Skip logic`](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown in the menu on the right.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
-    3. **Add Skip logic**: From here, click `+ Add another rule (OR)`. You can create a new Skip logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
 
-        !!! example
+    4. **Click `+ Add another rule (OR)`.**
+
+    5. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+
+        !!! example "One rule"
 
             ![quiz builder conditional logic skip logic rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
 
-            In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
+            A customer who answers `Too shiny` to Question 9, SKIN CONCERNS, is never asked Question 10, `ALERGIES`.
 
-    4. Multiple Skip logic rules can be added to any question if needed.
+    6. **Click the top-right `Save` button, then preview the quiz and answer it as a customer would.**
 
-        - **+ Add another rule (OR)** - Adds another Skip logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Skip logic rule.
-        - **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    ??? info "The buttons in the Skip logic panel"
 
-    5. **Preview and Adjust:** Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
+        | Button | What it does |
+        |---|---|
+        | `+ Add another rule (OR)` | Adds another rule to the question. Any one of them can skip it |
+        | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
+        | `bin` | Deletes the current rule |
 
+        Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 
 === "Shopify (Legacy)"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
-    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
-    3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question you want to skip.**
 
-        !!! example
+    2. **Open the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) tab.**
+
+    3. **Click `Add Skip Logic`.**
+
+    4. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+
+        !!! example "One rule"
 
             ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+            A customer who answers `A gift` to Question 1, Who are you shopping for?, is never asked Question 2, What is your skin type?.
 
-    4. All slides that contain Skip Logic will be marked with `"skip logic"` text.
-    5. Multiple Skip Logic rules can be added to any question if needed.
+    5. **Click the top-right `Publish` button, then preview the quiz and answer it as a customer would.**
 
-        - **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Skip Logic rule.
-        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    Every slide carrying a rule is marked `skip logic` in the builder, so you can see which questions are conditional.
 
-    5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
+    ??? info "The buttons in the Skip Logic panel"
+
+        | Button | What it does |
+        |---|---|
+        | `+` | Adds another rule to the question. Any one of them can skip it |
+        | `+ add concurrent logic` | Adds a second test to the current rule. Both tests must be true |
+        | `bin` | Deletes the current rule |
+
+        Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 
 === "WooCommerce"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
-    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
-    3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question you want to skip.**
 
-        !!! example
+    2. **Open the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) tab.**
+
+    3. **Click `Add Skip Logic`.**
+
+    4. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+
+        !!! example "One rule"
 
             ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+            A customer who answers `A gift` to Question 1, Who are you shopping for?, is never asked Question 2, What is your skin type?.
 
-    4. All slides that contain Skip Logic will be marked with `"skip logic"` text.
-    5. Multiple Skip Logic rules can be added to any question if needed.
+    5. **Click the top-right `Publish` button, then preview the quiz and answer it as a customer would.**
 
-        - **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Skip Logic rule.
-        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    Every slide carrying a rule is marked `skip logic` in the builder, so you can see which questions are conditional.
 
-    5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
+    ??? info "The buttons in the Skip Logic panel"
+
+        | Button | What it does |
+        |---|---|
+        | `+` | Adds another rule to the question. Any one of them can skip it |
+        | `+ add concurrent logic` | Adds a second test to the current rule. Both tests must be true |
+        | `bin` | Deletes the current rule |
+
+        Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 
 === "Magento"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
-    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
-    3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question you want to skip.**
 
-        !!! example
+    2. **Open the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) tab.**
+
+    3. **Click `Add Skip Logic`.**
+
+    4. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+
+        !!! example "One rule"
 
             ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+            A customer who answers `A gift` to Question 1, Who are you shopping for?, is never asked Question 2, What is your skin type?.
 
-    4. All slides that contain Skip Logic will be marked with `"skip logic"` text.
-    5. Multiple Skip Logic rules can be added to any question if needed.
+    5. **Click the top-right `Publish` button, then preview the quiz and answer it as a customer would.**
 
-        - **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Skip Logic rule.
-        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    Every slide carrying a rule is marked `skip logic` in the builder, so you can see which questions are conditional.
 
-    5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
+    ??? info "The buttons in the Skip Logic panel"
+
+        | Button | What it does |
+        |---|---|
+        | `+` | Adds another rule to the question. Any one of them can skip it |
+        | `+ add concurrent logic` | Adds a second test to the current rule. Both tests must be true |
+        | `bin` | Deletes the current rule |
+
+        Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 
 === "BigCommerce"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
-    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
-    3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question you want to skip.**
 
-        !!! example
+    2. **Open the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) tab.**
+
+    3. **Click `Add Skip Logic`.**
+
+    4. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+
+        !!! example "One rule"
 
             ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+            A customer who answers `A gift` to Question 1, Who are you shopping for?, is never asked Question 2, What is your skin type?.
 
-    4. All slides that contain Skip Logic will be marked with `"skip logic"` text.
-    5. Multiple Skip Logic rules can be added to any question if needed.
+    5. **Click the top-right `Publish` button, then preview the quiz and answer it as a customer would.**
 
-        - **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Skip Logic rule.
-        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    Every slide carrying a rule is marked `skip logic` in the builder, so you can see which questions are conditional.
 
-    5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
+    ??? info "The buttons in the Skip Logic panel"
+
+        | Button | What it does |
+        |---|---|
+        | `+` | Adds another rule to the question. Any one of them can skip it |
+        | `+ add concurrent logic` | Adds a second test to the current rule. Both tests must be true |
+        | `bin` | Deletes the current rule |
+
+        Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 
 === "Standalone"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
-    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
-    3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question you want to skip.**
 
-        !!! example
+    2. **Open the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) tab.**
+
+    3. **Click `Add Skip Logic`.**
+
+    4. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+
+        !!! example "One rule"
 
             ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+            A customer who answers `A gift` to Question 1, Who are you shopping for?, is never asked Question 2, What is your skin type?.
 
-    4. All slides that contain Skip Logic will be marked with `"skip logic"` text.
-    5. Multiple Skip Logic rules can be added to any question if needed.
+    5. **Click the top-right `Publish` button, then preview the quiz and answer it as a customer would.**
 
-        - **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Skip Logic rule.
-        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    Every slide carrying a rule is marked `skip logic` in the builder, so you can see which questions are conditional.
 
-    5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
+    ??? info "The buttons in the Skip Logic panel"
 
-## Examples and applications
+        | Button | What it does |
+        |---|---|
+        | `+` | Adds another rule to the question. Any one of them can skip it |
+        | `+ add concurrent logic` | Adds a second test to the current rule. Both tests must be true |
+        | `bin` | Deletes the current rule |
 
-### Skip questions based on user's answers
+        Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
+
+## Examples
+
+### Show only the statement that matches the answer
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=WauBIBFSMPIlFNtm&amp;start=9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Scenario**
-
-    You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip logic, which then continues the quiz based on the participant's specific path.
+    A skincare quiz asks for the skin type in question 4, and carries one statement slide per type. Skip logic hides the three that do not apply.
 
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-    **Implementation**
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+        !!! tip "Help the customer answer"
 
-        !!! tip
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
+    2. **Add one `Statement` slide per skin type.**
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+        !!! example "Four statements, one per skin type"
 
-        !!! example
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+    3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the dry skin statement.**
 
-    3. **Add Skip logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
-    
-        To add [skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the quesiton that should be skipped.  
-    
-        Next, in the right-hand menu locte the `Skip Logic` section.
-    
-        Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide. 
+    4. **Find `Skip logic` in the menu on the right, and click `+ Add another rule (OR)`.**
 
-        For example:
+    5. **Set the rule to `IF the response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic shopifyv2 skip logic rule](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_rule.png)
 
-        If the response for Question 4 **is not** "Dry and tight all over" then this question will be skipped. Meaning that if any other answer than "Dry and thight all over" is selected, then this question will be skipped.
-    
-        Use similar skip logic rules on the other statements to ensure that only relevant statement questions appear based on the customer's skin type selection.
+        The statement is then skipped for every answer except that one.
 
-    4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+    6. **Repeat for the other three statements, each reading its own choice.**
 
-
+    7. **Click the top-right `Save` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Scenario**
-
-    You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+    A skincare quiz asks for the skin type, and carries one statement slide per type. Skip Logic hides the three that do not apply.
 
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    **Implementation**
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+        !!! tip "Help the customer answer"
 
-        !!! tip
+            Describe each skin type in `Question Settings -> Show Description`, so the customer can tell which one fits.
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+    2. **Add one `Statement` slide per skin type.**
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+        !!! example "Four statements, one per skin type"
 
-        !!! example
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
+
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
 === "WooCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-    **Scenario**
-
-    You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+    A skincare quiz asks for the skin type, and carries one statement slide per type. Skip Logic hides the three that do not apply.
 
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    **Implementation**
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+        !!! tip "Help the customer answer"
 
-        !!! tip
+            Describe each skin type in `Question Settings -> Show Description`, so the customer can tell which one fits.
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+    2. **Add one `Statement` slide per skin type.**
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+        !!! example "Four statements, one per skin type"
 
-        !!! example
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
 
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
 === "Magento"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-    **Scenario**
-
-    You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+    A skincare quiz asks for the skin type, and carries one statement slide per type. Skip Logic hides the three that do not apply.
 
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    **Implementation**
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+        !!! tip "Help the customer answer"
 
-        !!! tip
+            Describe each skin type in `Question Settings -> Show Description`, so the customer can tell which one fits.
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+    2. **Add one `Statement` slide per skin type.**
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+        !!! example "Four statements, one per skin type"
 
-        !!! example
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
 
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
 === "BigCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-    **Scenario**
-
-    You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+    A skincare quiz asks for the skin type, and carries one statement slide per type. Skip Logic hides the three that do not apply.
 
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    **Implementation**
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+        !!! tip "Help the customer answer"
 
-        !!! tip
+            Describe each skin type in `Question Settings -> Show Description`, so the customer can tell which one fits.
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+    2. **Add one `Statement` slide per skin type.**
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+        !!! example "Four statements, one per skin type"
 
-        !!! example
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
 
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
 === "Standalone"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-    **Scenario**
-
-    You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+    A skincare quiz asks for the skin type, and carries one statement slide per type. Skip Logic hides the three that do not apply.
 
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    **Implementation**
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+        !!! tip "Help the customer answer"
 
-        !!! tip
+            Describe each skin type in `Question Settings -> Show Description`, so the customer can tell which one fits.
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+    2. **Add one `Statement` slide per skin type.**
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+        !!! example "Four statements, one per skin type"
 
-        !!! example
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
 
+    6. **Repeat for the other three statements, each reading its own choice.**
 
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
-
-### Show different Follow-up questions after Multiple-selection question
+### Ask only the follow-up questions the customer needs
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=8mMuIlNk_TnNkKnD&amp;start=62" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Scenario**
+    A beauty quiz lets the customer pick several skin concerns at once, then asks a follow-up question about each concern they picked.
 
-    You want to create a beauty quiz where customers can select multiple areas of concern (acne, flaky skin, wrinkles, etc.) and then only see follow-up questions relevant to their selections. The goal is to display only the follow-up questions that are relevant to the user's selections. For example, if a user selects 'acne' as a skin concern, only questions related to acne should be displayed.
+    1. **Add a multiple-choice question and allow several selections.** The setting sits in the [Multiple Choice block settings](/reference/quiz-builder/questions/#multiple-choice).
 
-    **Implementation**
+    2. **Add one follow-up question per choice, in the same order as the choices.**
 
-    1. **Setting Up Follow-Up Questions**: Use the [Quiz builder](/reference/quiz-builder/) to add a multiple-choice question that allows multiple selections (this can be done via the [Multiple Choice Block settings](/reference/quiz-builder/questions/#multiple-choice)) and create several follow-up questions that match the choices in the initial question.
+        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/how_to_shopifyV2_skiplogic_example_logic_multipleselection_questions.png)
 
-        !!! example
+        !!! warning "Keep the two lists in the same order"
 
-            For example, if my Skin Concerns question has the following choices:
+            A follow-up question has to sit in the same position as its choice. If `Acne` is the first choice, its follow-up has to be the first follow-up question.
 
-            - Acne
-            - Flaky Skin
-            - Wrinkles
+    3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question.**
 
-            I can create the following follow-up questions:
+    4. **Set the rule to `IF the response to` the concerns question `is not` that question's own concern.**
 
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/how_to_shopifyV2_skiplogic_example_logic_multipleselection_questions.png)
+        !!! example "The acne follow-up"
 
-        !!! warning
-
-            Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
-
-    2. **Configuring Skip logic Rules**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped. For each follow-up question, establish a skip logic rule: 
-
-        Skip logic Rules will follow the following format:
-
-        !!! example
-
-            **IF** the response to the question... `Q9: Skin Concerns` **is not** `acne`, then this question will be skipped.
+            `IF the response to the question Q9: Skin Concerns is not acne, then this question is skipped.`
 
             ![how_to_shopifyV2_skiplogic_example_logic_rule_multipleselection](/images/how_to_shopifyV2_skiplogic_example_logic_rule_multipleselection.png)
 
-        Similar rules must be applied for the other skin concern follow-up questions.
+    5. **Repeat for every other follow-up question.**
 
-    3. **Testing Skip logic Functionality**: After setting up the skip logic, make sure to save the changes with the top-right `Save` button. Then, ` Preview` the quiz and test the functionality by selecting different options in the quiz. 
-    
-        *For instance, selecting 'acne' and 'wrinkles' should display only the relevant follow-up questions while skipping others. If 'tight flaky skin' is selected, only questions related to flaky skin should appear, confirming that the skip logic is functioning correctly.*
+    6. **Click the top-right `Save` button, then answer the quiz picking two concerns.** Only the follow-up questions for those two should appear.
 
+    !!! tip "Why the rule reads `is not`"
 
+        A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 
 === "Shopify (Legacy)"
 
+    A beauty quiz lets the customer pick several areas to focus on at once, then asks the follow-up questions for each area they picked.
 
-    **Scenario**
+    1. **Add a question asking which areas the customer wants to focus on.** For example nails, skin, hair and makeup.
 
-    You want to create a beauty quiz where customers can select multiple areas of concern (nails, skin, hair, etc.) and then only see follow-up questions relevant to their selections.
+        !!! tip "Allow several selections"
 
-    **Implementation**
+            The setting sits in [block settings, multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
-    1. **Create a Multiple Selection Question**: Start with a question that allows customers to select multiple options, such as "Which areas would you like to focus on?" with choices like "Nails", "Skin", "Hair", and "Makeup".
+    2. **Add the follow-up questions for each area, grouped together and in the order of the choices.**
 
-        !!! tip
+        | Questions | Area |
+        |---|---|
+        | 2 and 3 | Nails |
+        | 4 and 5 | Skin |
+        | 6 and 7 | Hair |
+        | 8 and 9 | Makeup |
 
-            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
+    3. **Add a skip logic rule to every follow-up question, reading its own area.**
 
-    2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
+        !!! example "The nail questions"
 
-        - Questions 2-3: Nail-related questions
-        - Questions 4-5: Skin-related questions
-        - Questions 6-7: Hair-related questions
-        - Questions 8-9: Makeup-related questions
+            `IF response to Question 1 is not Nails, then this question is skipped.`
 
-    3. **Apply Skip Logic to Each Follow-up Question**:
+        Questions 4 and 5 read `Skin`, questions 6 and 7 read `Hair`, and questions 8 and 9 read `Makeup`.
 
-        - For each nail-related question (2-3), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Nails' THEN this question is skipped"
-        - For each skin-related question (4-5), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Skin' THEN this question is skipped"
-        - For each hair-related question (6-7), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Hair' THEN this question is skipped"
-        - For each makeup-related question (8-9), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Makeup' THEN this question is skipped"
+    4. **Click the top-right `Publish` button, then answer the quiz picking two areas.** Only the questions for those two areas should appear.
 
-        !!! example
+    !!! tip "Why the rule reads `is not`"
 
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
-
-            In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
-
-
-    4. **Result**: When a customer selects multiple areas (e.g., "Nails" and "Skin"), they will only see the follow-up questions for those specific areas, skipping all others. This creates a personalized experience while maintaining a linear quiz structure.
-
-    !!! tip
-
-        This approach works best with a linear quiz structure (no branching). The key is to use the "IS NOT" condition in your Skip Logic rules, which ensures that questions are only shown when the customer has selected the relevant option in the main question.
-
+        A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 
 === "WooCommerce"
 
+    A beauty quiz lets the customer pick several areas to focus on at once, then asks the follow-up questions for each area they picked.
 
+    1. **Add a question asking which areas the customer wants to focus on.** For example nails, skin, hair and makeup.
 
-    **Scenario**
+        !!! tip "Allow several selections"
 
-    You want to create a beauty quiz where customers can select multiple areas of concern (nails, skin, hair, etc.) and then only see follow-up questions relevant to their selections.
+            The setting sits in [block settings, multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
-    **Implementation**
+    2. **Add the follow-up questions for each area, grouped together and in the order of the choices.**
 
-    1. **Create a Multiple Selection Question**: Start with a question that allows customers to select multiple options, such as "Which areas would you like to focus on?" with choices like "Nails", "Skin", "Hair", and "Makeup".
+        | Questions | Area |
+        |---|---|
+        | 2 and 3 | Nails |
+        | 4 and 5 | Skin |
+        | 6 and 7 | Hair |
+        | 8 and 9 | Makeup |
 
-        !!! tip
+    3. **Add a skip logic rule to every follow-up question, reading its own area.**
 
-            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
+        !!! example "The nail questions"
 
-    2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
+            `IF response to Question 1 is not Nails, then this question is skipped.`
 
-        - Questions 2-3: Nail-related questions
-        - Questions 4-5: Skin-related questions
-        - Questions 6-7: Hair-related questions
-        - Questions 8-9: Makeup-related questions
+        Questions 4 and 5 read `Skin`, questions 6 and 7 read `Hair`, and questions 8 and 9 read `Makeup`.
 
-    3. **Apply Skip Logic to Each Follow-up Question**:
+    4. **Click the top-right `Publish` button, then answer the quiz picking two areas.** Only the questions for those two areas should appear.
 
-        - For each nail-related question (2-3), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Nails' THEN this question is skipped"
-        - For each skin-related question (4-5), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Skin' THEN this question is skipped"
-        - For each hair-related question (6-7), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Hair' THEN this question is skipped"
-        - For each makeup-related question (8-9), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Makeup' THEN this question is skipped"
+    !!! tip "Why the rule reads `is not`"
 
-        !!! example
-
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
-
-            In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
-
-
-    4. **Result**: When a customer selects multiple areas (e.g., "Nails" and "Skin"), they will only see the follow-up questions for those specific areas, skipping all others. This creates a personalized experience while maintaining a linear quiz structure.
-
-    !!! tip
-
-        This approach works best with a linear quiz structure (no branching). The key is to use the "IS NOT" condition in your Skip Logic rules, which ensures that questions are only shown when the customer has selected the relevant option in the main question.
-
-
+        A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 
 === "Magento"
 
+    A beauty quiz lets the customer pick several areas to focus on at once, then asks the follow-up questions for each area they picked.
 
+    1. **Add a question asking which areas the customer wants to focus on.** For example nails, skin, hair and makeup.
 
-    **Scenario**
+        !!! tip "Allow several selections"
 
-    You want to create a beauty quiz where customers can select multiple areas of concern (nails, skin, hair, etc.) and then only see follow-up questions relevant to their selections.
+            The setting sits in [block settings, multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
-    **Implementation**
+    2. **Add the follow-up questions for each area, grouped together and in the order of the choices.**
 
-    1. **Create a Multiple Selection Question**: Start with a question that allows customers to select multiple options, such as "Which areas would you like to focus on?" with choices like "Nails", "Skin", "Hair", and "Makeup".
+        | Questions | Area |
+        |---|---|
+        | 2 and 3 | Nails |
+        | 4 and 5 | Skin |
+        | 6 and 7 | Hair |
+        | 8 and 9 | Makeup |
 
-        !!! tip
+    3. **Add a skip logic rule to every follow-up question, reading its own area.**
 
-            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
+        !!! example "The nail questions"
 
-    2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
+            `IF response to Question 1 is not Nails, then this question is skipped.`
 
-        - Questions 2-3: Nail-related questions
-        - Questions 4-5: Skin-related questions
-        - Questions 6-7: Hair-related questions
-        - Questions 8-9: Makeup-related questions
+        Questions 4 and 5 read `Skin`, questions 6 and 7 read `Hair`, and questions 8 and 9 read `Makeup`.
 
-    3. **Apply Skip Logic to Each Follow-up Question**:
+    4. **Click the top-right `Publish` button, then answer the quiz picking two areas.** Only the questions for those two areas should appear.
 
-        - For each nail-related question (2-3), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Nails' THEN this question is skipped"
-        - For each skin-related question (4-5), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Skin' THEN this question is skipped"
-        - For each hair-related question (6-7), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Hair' THEN this question is skipped"
-        - For each makeup-related question (8-9), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Makeup' THEN this question is skipped"
+    !!! tip "Why the rule reads `is not`"
 
-        !!! example
-
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
-
-            In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
-
-
-    4. **Result**: When a customer selects multiple areas (e.g., "Nails" and "Skin"), they will only see the follow-up questions for those specific areas, skipping all others. This creates a personalized experience while maintaining a linear quiz structure.
-
-    !!! tip
-
-        This approach works best with a linear quiz structure (no branching). The key is to use the "IS NOT" condition in your Skip Logic rules, which ensures that questions are only shown when the customer has selected the relevant option in the main question.
-
-
+        A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 
 === "BigCommerce"
 
+    A beauty quiz lets the customer pick several areas to focus on at once, then asks the follow-up questions for each area they picked.
 
+    1. **Add a question asking which areas the customer wants to focus on.** For example nails, skin, hair and makeup.
 
-    **Scenario**
+        !!! tip "Allow several selections"
 
-    You want to create a beauty quiz where customers can select multiple areas of concern (nails, skin, hair, etc.) and then only see follow-up questions relevant to their selections.
+            The setting sits in [block settings, multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
-    **Implementation**
+    2. **Add the follow-up questions for each area, grouped together and in the order of the choices.**
 
-    1. **Create a Multiple Selection Question**: Start with a question that allows customers to select multiple options, such as "Which areas would you like to focus on?" with choices like "Nails", "Skin", "Hair", and "Makeup".
+        | Questions | Area |
+        |---|---|
+        | 2 and 3 | Nails |
+        | 4 and 5 | Skin |
+        | 6 and 7 | Hair |
+        | 8 and 9 | Makeup |
 
-        !!! tip
+    3. **Add a skip logic rule to every follow-up question, reading its own area.**
 
-            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
+        !!! example "The nail questions"
 
-    2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
+            `IF response to Question 1 is not Nails, then this question is skipped.`
 
-        - Questions 2-3: Nail-related questions
-        - Questions 4-5: Skin-related questions
-        - Questions 6-7: Hair-related questions
-        - Questions 8-9: Makeup-related questions
+        Questions 4 and 5 read `Skin`, questions 6 and 7 read `Hair`, and questions 8 and 9 read `Makeup`.
 
-    3. **Apply Skip Logic to Each Follow-up Question**:
+    4. **Click the top-right `Publish` button, then answer the quiz picking two areas.** Only the questions for those two areas should appear.
 
-        - For each nail-related question (2-3), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Nails' THEN this question is skipped"
-        - For each skin-related question (4-5), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Skin' THEN this question is skipped"
-        - For each hair-related question (6-7), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Hair' THEN this question is skipped"
-        - For each makeup-related question (8-9), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Makeup' THEN this question is skipped"
+    !!! tip "Why the rule reads `is not`"
 
-        !!! example
-
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
-
-            In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
-
-
-    4. **Result**: When a customer selects multiple areas (e.g., "Nails" and "Skin"), they will only see the follow-up questions for those specific areas, skipping all others. This creates a personalized experience while maintaining a linear quiz structure.
-
-    !!! tip
-
-        This approach works best with a linear quiz structure (no branching). The key is to use the "IS NOT" condition in your Skip Logic rules, which ensures that questions are only shown when the customer has selected the relevant option in the main question.
-
-
+        A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 
 === "Standalone"
 
+    A beauty quiz lets the customer pick several areas to focus on at once, then asks the follow-up questions for each area they picked.
 
+    1. **Add a question asking which areas the customer wants to focus on.** For example nails, skin, hair and makeup.
 
-    **Scenario**
+        !!! tip "Allow several selections"
 
-    You want to create a beauty quiz where customers can select multiple areas of concern (nails, skin, hair, etc.) and then only see follow-up questions relevant to their selections.
+            The setting sits in [block settings, multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
-    **Implementation**
+    2. **Add the follow-up questions for each area, grouped together and in the order of the choices.**
 
-    1. **Create a Multiple Selection Question**: Start with a question that allows customers to select multiple options, such as "Which areas would you like to focus on?" with choices like "Nails", "Skin", "Hair", and "Makeup".
+        | Questions | Area |
+        |---|---|
+        | 2 and 3 | Nails |
+        | 4 and 5 | Skin |
+        | 6 and 7 | Hair |
+        | 8 and 9 | Makeup |
 
-        !!! tip
+    3. **Add a skip logic rule to every follow-up question, reading its own area.**
 
-            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
+        !!! example "The nail questions"
 
-    2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
+            `IF response to Question 1 is not Nails, then this question is skipped.`
 
-        - Questions 2-3: Nail-related questions
-        - Questions 4-5: Skin-related questions
-        - Questions 6-7: Hair-related questions
-        - Questions 8-9: Makeup-related questions
+        Questions 4 and 5 read `Skin`, questions 6 and 7 read `Hair`, and questions 8 and 9 read `Makeup`.
 
-    3. **Apply Skip Logic to Each Follow-up Question**:
+    4. **Click the top-right `Publish` button, then answer the quiz picking two areas.** Only the questions for those two areas should appear.
 
-        - For each nail-related question (2-3), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Nails' THEN this question is skipped"
-        - For each skin-related question (4-5), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Skin' THEN this question is skipped"
-        - For each hair-related question (6-7), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Hair' THEN this question is skipped"
-        - For each makeup-related question (8-9), add a Skip Logic rule: "IF response to Question 1 IS NOT 'Makeup' THEN this question is skipped"
+    !!! tip "Why the rule reads `is not`"
 
-        !!! example
+        A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
+!!! info "A quiz built entirely on skipped slides"
 
-            In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
+    See [Funnel Quiz that Skips Slides](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides).
 
-
-    4. **Result**: When a customer selects multiple areas (e.g., "Nails" and "Skin"), they will only see the follow-up questions for those specific areas, skipping all others. This creates a personalized experience while maintaining a linear quiz structure.
-
-    !!! tip
-
-        This approach works best with a linear quiz structure (no branching). The key is to use the "IS NOT" condition in your Skip Logic rules, which ensures that questions are only shown when the customer has selected the relevant option in the main question.
-
-
-
-
-!!! info
-
-    Also check our guide to setting up a [Funnel Quiz that Skips Slides](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides).
-
-
-
-### Filtering email collection based on interest
+### Ask for an email only when the customer offers one
 
 === "Shopify"
 
-
-    **Scenario**
-
-    You want to collect emails from interested customers without deterring others.
-
     ![how to use skip logic example2](/images/how_to_shopifyV2_skiplogic_example_logic_email_question_skipped.png)
 
-    **Implementation**
+    1. **Add a [`Yes/No question`](/reference/quiz-builder/questions/#yesno) asking whether the customer will leave an email address.**
 
-    - Start with a [`Yes/No question`](/reference/quiz-builder/questions/#yesno) asking if the customer is willing to leave their email.
-    - Follow up with an [`email` input question](/reference/quiz-builder/questions/#email-address).
-    - Apply Skip logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+    2. **Add an [`Email address` question](/reference/quiz-builder/questions/#email-address) after it.**
 
+    3. **Add a skip logic rule to the email question, reading `IF the response to` the yes or no question `is` `No`.**
 
+    A customer who declines goes straight on to the results page, and is never asked for an address.
 
 === "Shopify (Legacy)"
 
-    **Scenario**
-
-    You want to collect emails from interested customers without deterring others.
-
     ![how to use skip logic example2](/images/how_to_use_skip_logic_example2.png)
 
-    **Implementation**
+    1. **Add a `Yes/No question` asking whether the customer will leave an email address.**
 
-    - Start with a `Yes/No question` asking if the customer is willing to leave their email.
-    - Follow up with an `email` input question.
-    - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+    2. **Add an `email` input question after it.**
+
+    3. **Add a Skip Logic rule to the email question, reading `IF response to` the yes or no question `is` `No`.**
+
+    A customer who declines goes straight on to the Results Page, and is never asked for an address.
 
 === "WooCommerce"
 
-
-    **Scenario**
-
-    You want to collect emails from interested customers without deterring others.
-
     ![how to use skip logic example2](/images/how_to_use_skip_logic_example2.png)
 
-    **Implementation**
+    1. **Add a `Yes/No question` asking whether the customer will leave an email address.**
 
-    - Start with a `Yes/No question` asking if the customer is willing to leave their email.
-    - Follow up with an `email` input question.
-    - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+    2. **Add an `email` input question after it.**
 
+    3. **Add a Skip Logic rule to the email question, reading `IF response to` the yes or no question `is` `No`.**
+
+    A customer who declines goes straight on to the Results Page, and is never asked for an address.
 
 === "Magento"
 
-
-    **Scenario**
-
-    You want to collect emails from interested customers without deterring others.
-
     ![how to use skip logic example2](/images/how_to_use_skip_logic_example2.png)
 
-    **Implementation**
+    1. **Add a `Yes/No question` asking whether the customer will leave an email address.**
 
-    - Start with a `Yes/No question` asking if the customer is willing to leave their email.
-    - Follow up with an `email` input question.
-    - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+    2. **Add an `email` input question after it.**
 
+    3. **Add a Skip Logic rule to the email question, reading `IF response to` the yes or no question `is` `No`.**
+
+    A customer who declines goes straight on to the Results Page, and is never asked for an address.
 
 === "BigCommerce"
 
-
-    **Scenario**
-
-    You want to collect emails from interested customers without deterring others.
-
     ![how to use skip logic example2](/images/how_to_use_skip_logic_example2.png)
 
-    **Implementation**
+    1. **Add a `Yes/No question` asking whether the customer will leave an email address.**
 
-    - Start with a `Yes/No question` asking if the customer is willing to leave their email.
-    - Follow up with an `email` input question.
-    - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+    2. **Add an `email` input question after it.**
 
+    3. **Add a Skip Logic rule to the email question, reading `IF response to` the yes or no question `is` `No`.**
+
+    A customer who declines goes straight on to the Results Page, and is never asked for an address.
 
 === "Standalone"
 
-
-    **Scenario**
-
-    You want to collect emails from interested customers without deterring others.
-
     ![how to use skip logic example2](/images/how_to_use_skip_logic_example2.png)
 
-    **Implementation**
+    1. **Add a `Yes/No question` asking whether the customer will leave an email address.**
 
-    - Start with a `Yes/No question` asking if the customer is willing to leave their email.
-    - Follow up with an `email` input question.
-    - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+    2. **Add an `email` input question after it.**
 
+    3. **Add a Skip Logic rule to the email question, reading `IF response to` the yes or no question `is` `No`.**
 
+    A customer who declines goes straight on to the Results Page, and is never asked for an address.
 
+## Skip logic and jump logic
 
-### Skip logic vs. jump logic
+Both rules change which question comes next, and they go about it differently.
 
-The new app interface gives the option to use Jump Logic and Skip Logic. You shouldn’t combine both types of logic in the same quiz.
+| Rule | What it does |
+|---|---|
+| Skip logic | Leaves the path alone, and drops the questions that do not apply |
+| Jump logic | Sends the customer to a named destination, so the quiz splits into separate paths |
 
-- **Jump Logic** creates diverging paths within a quiz based on respondent answers, allowing for a branched experience.
-- **Skip Logic**, in contrast, customizes the path by omitting certain questions based on previous answers, keeping the overall sequence intact but personalized.
+Use skip logic when there is one path, and some questions on it are irrelevant to some customers. Use [jump logic](/how-to-guides/use-jump-logic/) when the paths diverge and stay apart.
 
-
+Do not use both in one quiz.
 
 ## Additional resources
 
-Understanding conditional logic, the foundation of Skip Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
+Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
+
+See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
-This guide explains how to use Skip Logic in your quiz to hide follow-up questions based on the user's answers and includes specific use-cases and step-by-step instructions.
 
+This article explains how to write skip logic rules, and how to hide the questions a customer does not need.

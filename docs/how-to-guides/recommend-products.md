@@ -202,7 +202,7 @@ Keep a product on the Results Page whatever the customer answers.
 
 === "WooCommerce"
 
-    If you use WooCommerce Subscriptions, see [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions).
+    If you use WooCommerce Subscriptions, see [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/).
 
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 

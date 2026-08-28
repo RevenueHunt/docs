@@ -170,7 +170,7 @@ Upvote inclusion and exclusion decide which products can be recommended at all. 
 
     !!! tip "Using custom fields as tags"
 
-        See [How to Use Custom Fields as Tags](/how-to-guides/use-custom-fields-as-tags/).
+        See [BigCommerce: Use Custom Fields as Tags](/how-to-guides/use-custom-fields-as-tags/).
 
 === "Standalone"
 
@@ -871,7 +871,7 @@ This method uses the [upvoting system](#upvoting-system).
     16. **Check the recommendations with the [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses`.**
 ## Funnel quiz that skips slides
 
-Skip Logic hides the follow-up questions that do not apply to a customer. Ask about skin concerns first, then show only the questions that match the concerns the customer selected.
+Skip logic hides the follow-up questions that do not apply to a customer. Ask about skin concerns first, then show only the questions that match the concerns the customer selected.
 
 This method uses the [upvoting system](#upvoting-system).
 
@@ -1119,7 +1119,7 @@ This method uses the [upvoting system](#upvoting-system).
 
 ## Funnel quiz with branching
 
-Jump Logic sends the customer down a different path depending on their answers. Each branch asks its own questions, and the recommendations still come from the upvotes collected along the way.
+Jump logic sends the customer down a different path depending on their answers. Each branch asks its own questions, and the recommendations still come from the upvotes collected along the way.
 
 This method uses the [upvoting system](#upvoting-system).
 
@@ -1381,7 +1381,7 @@ This method uses the [upvoting system](#upvoting-system).
 
 ## Funnel quiz that shows custom text based on choices
 
-Display Logic shows and hides individual blocks on the results page, so the text can change with the answers. Every customer answers the same questions, and every answer combination needs its own rule.
+Display logic shows and hides individual blocks on the results page, so the text can change with the answers. Every customer answers the same questions, and every answer combination needs its own rule.
 
 This method uses the [upvoting system](#upvoting-system).
 

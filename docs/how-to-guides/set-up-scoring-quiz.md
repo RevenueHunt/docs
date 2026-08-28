@@ -5,26 +5,54 @@ icon: material/scoreboard-outline
 
 # How to Set Up a Scoring Quiz
 
-Give each choice a score, a variable, or both. The quiz adds them up as the customer answers. Logic then decides which text and which products appear at the end.
+=== "Shopify"
 
-!!! info "Use this method for:"
+    Give each choice a score, a variable, or both. The quiz adds them up as the customer answers. Logic then decides which text and which products appear at the end.
 
-    - Personality type quizzes, Dosha quizzes
-    - Quizzes that show different results based on how many choices the customer picked (for example if the customer chooses most As, Bs, Cs, etc.)
-    - Quizzes that show different text results based on choices
-    - Quizzes that need to calculate scores that show different products
+    !!! info "Use this method for:"
 
-!!! note "Scoring is a Built for Shopify feature"
+        - Personality type quizzes, Dosha quizzes
+        - Quizzes that show different results based on how many choices the customer picked (for example if the customer chooses most As, Bs, Cs, etc.)
+        - Quizzes that show different text results based on choices
+        - Quizzes that need to calculate scores that show different products
 
-    Only the `💎Built for Shopify` version of the RevenueHunt app has the scoring system. In every other version a developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    There are three ways to use a score once you have one.
 
-There are three ways to use a score once you have one.
+    | Method | Use it when |
+    |---|---|
+    | [Winning variable quiz](#winning-variable-quiz) | The outcome is a type, such as a skin type or a personality. The variable chosen most often wins |
+    | [Scoring quiz with one results page](#scoring-quiz-with-one-results-page) | One results page holds a section per outcome, and display logic shows the one that matches the total |
+    | [Scoring quiz with multiple results pages](#scoring-quiz-with-multiple-results-pages) | Each score range gets its own results page, and jump logic sends the customer there |
 
-| Method | Use it when |
-|---|---|
-| [Winning variable quiz](#winning-variable-quiz) | The outcome is a type, such as a skin type or a personality. The variable chosen most often wins |
-| [Scoring quiz with one results page](#scoring-quiz-with-one-results-page) | One results page holds a section per outcome, and display logic shows the one that matches the total |
-| [Scoring quiz with multiple results pages](#scoring-quiz-with-multiple-results-pages) | Each score range gets its own results page, and jump logic sends the customer there |
+=== "Shopify (Legacy)"
+
+    !!! note "Not available on this platform"
+
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "WooCommerce"
+
+    !!! note "Not available on this platform"
+
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Magento"
+
+    !!! note "Not available on this platform"
+
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "BigCommerce"
+
+    !!! note "Not available on this platform"
+
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Standalone"
+
+    !!! note "Not available on this platform"
+
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 ## How to add scores or variables to choices
 

@@ -7,559 +7,608 @@ description: "Learn about using callback functions for custom integrations with 
 
 === "Shopify"
 
-    !!! warning
+    This version has no callback functions. The results page does the same work inside the app.
 
-        The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app.
+    - Show or hide sections with [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic), based on answers, variables or a score.
+    - Pin the products for an outcome with [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/).
+    - Run your own code on the results page with [Custom JavaScript](/how-to-guides/add-javascript/), where the `window.quiz` object holds the response.
 
-    The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
-
-
-=== "Shopify (Legacy)"
-
-      Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
-
-      This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
-
-
-=== "WooCommerce"
-
-    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
-
-    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
-
-
-=== "Magento"
-
-    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
-
-    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
-
-
-=== "BigCommerce"
-
-    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
-
-    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
-
-
-=== "Standalone"
-
-    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
-
-    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
-
-
-## What are callback functions?
-
-A **callback function** is a piece of JavaScript code that executes in response to an event - in this case, the completion of a quiz. You add this callback function to your website and a listener that will be triggered when the quiz is completed. Then you will have access to all the data from quiz responses.
-
-By tapping into the quiz responses, developers can access a wealth of information including individual answers, customer tags, and recommended products. This data is delivered in a **JSON format** via a JavaScript Callback Function, enabling you to add it directly to your website.
-
-The JSON with the quiz response includes:
-
-- The complete set of questions that were asked
-- The responses your customer gave
-- The customer tags that were assigned to that customer
-- The products that were recommended
-- The layout and logic of the results page blocks 
-
-!!! note
-
-    Note that this callback function will also be triggered if your customers reach the results page via [follow-up emails](/how-to-guides/send-result-emails/) you send your customers with a link to their results.
-
-
-## Implementing the callback function
-
-=== "Shopify"
-
-    !!! warning
-
-        Not supported in this version of the RevenueHunt app. 
-
-    Not supported in this version of the RevenueHunt app.  However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
-
-
+    Between them you can build a fully custom results page, without sending the customer to a page of your own.
 
 === "Shopify (Legacy)"
 
-    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
-      ```html
-      <script>
-        function prqQuizCallback(quizResponse){
-          console.log(quizResponse);
-        }
-      </script>
-      ```
-        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
-    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
-        ```javascript
-        function prqQuizCallback(quizResponse) {
-        // Code to map or save the data...
+    A callback function is JavaScript that runs when the quiz fires an event, such as a customer finishing the quiz. You define the function on your site, the quiz calls it, and everything the customer did arrives as JSON.
 
-        // Then, redirect the user to the desired page:
-        window.location.href = 'yourTargetURLHere';
-        }
-        ```
-        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+    That gives a developer the material to build a results page of their own, save the answers, or send the customer somewhere specific.
 
-    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
-    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
-        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
-          ```html
-          prqStartCallback(event);
-          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+    The response JSON holds:
 
-          prqSlideCallback(event);
-          // triggered when customer responds to a question (slide)
+    - Every question that was asked
+    - The answers the customer gave
+    - The customer tags that were assigned
+    - The products that were recommended
+    - The layout and logic of the results page blocks
 
-          prqAddOneToCartCallback(event);
-          // triggered when customer adds one product to cart 
+    !!! note "Follow-up email links fire the callback too"
 
-          prqAddedOneToCartCallback(event);
-          // triggered when the product has already been added to the cart 
-        
-          prqRemoveOneFromCartCallback(event);
-          // triggered when customer removes one product from cart 
-
-          prqRemovedOneFromCartCallback(event);
-          // triggered when the product has already been removed from the cart (only Shopify) 
-
-          prqAddAllToCartCallback(event); 
-          // triggered when customer adds all products to cart 
-
-          prqAddedAllToCartCallback(event);
-          // triggered when all the products have already been added to the cart 
-
-          prqAppLoadedCallback();
-          // triggered when the Product Recommendation Quiz app has been loaded 
-          ```
+        The callback runs whenever the results page is reached, including when a customer opens their results from a [follow-up email](/how-to-guides/send-result-emails/).
 
 === "WooCommerce"
 
+    A callback function is JavaScript that runs when the quiz fires an event, such as a customer finishing the quiz. You define the function on your site, the quiz calls it, and everything the customer did arrives as JSON.
 
-    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
-      ```html
-      <script>
-        function prqQuizCallback(quizResponse){
-          console.log(quizResponse);
-        }
-      </script>
-      ```
-        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
-    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
-        ```javascript
-        function prqQuizCallback(quizResponse) {
-        // Code to map or save the data...
+    That gives a developer the material to build a results page of their own, save the answers, or send the customer somewhere specific.
 
-        // Then, redirect the user to the desired page:
-        window.location.href = 'yourTargetURLHere';
-        }
-        ```
-        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+    The response JSON holds:
 
-    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
-    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
-        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
-          ```html
-          prqStartCallback(event);
-          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+    - Every question that was asked
+    - The answers the customer gave
+    - The customer tags that were assigned
+    - The products that were recommended
+    - The layout and logic of the results page blocks
 
-          prqSlideCallback(event);
-          // triggered when customer responds to a question (slide)
+    !!! note "Follow-up email links fire the callback too"
 
-          prqAddOneToCartCallback(event);
-          // triggered when customer adds one product to cart 
-
-          prqAddedOneToCartCallback(event);
-          // triggered when the product has already been added to the cart 
-        
-          prqRemoveOneFromCartCallback(event);
-          // triggered when customer removes one product from cart 
-
-          prqRemovedOneFromCartCallback(event);
-          // triggered when the product has already been removed from the cart (only Shopify) 
-
-          prqAddAllToCartCallback(event); 
-          // triggered when customer adds all products to cart 
-
-          prqAddedAllToCartCallback(event);
-          // triggered when all the products have already been added to the cart 
-
-          prqAppLoadedCallback();
-          // triggered when the Product Recommendation Quiz app has been loaded 
-          ```
+        The callback runs whenever the results page is reached, including when a customer opens their results from a [follow-up email](/how-to-guides/send-result-emails/).
 
 === "Magento"
 
+    A callback function is JavaScript that runs when the quiz fires an event, such as a customer finishing the quiz. You define the function on your site, the quiz calls it, and everything the customer did arrives as JSON.
 
-    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
-      ```html
-      <script>
-        function prqQuizCallback(quizResponse){
-          console.log(quizResponse);
-        }
-      </script>
-      ```
-        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
-    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
-        ```javascript
-        function prqQuizCallback(quizResponse) {
-        // Code to map or save the data...
+    That gives a developer the material to build a results page of their own, save the answers, or send the customer somewhere specific.
 
-        // Then, redirect the user to the desired page:
-        window.location.href = 'yourTargetURLHere';
-        }
-        ```
-        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+    The response JSON holds:
 
-    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
-    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
-        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
-          ```html
-          prqStartCallback(event);
-          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+    - Every question that was asked
+    - The answers the customer gave
+    - The customer tags that were assigned
+    - The products that were recommended
+    - The layout and logic of the results page blocks
 
-          prqSlideCallback(event);
-          // triggered when customer responds to a question (slide)
+    !!! note "Follow-up email links fire the callback too"
 
-          prqAddOneToCartCallback(event);
-          // triggered when customer adds one product to cart 
-
-          prqAddedOneToCartCallback(event);
-          // triggered when the product has already been added to the cart 
-        
-          prqRemoveOneFromCartCallback(event);
-          // triggered when customer removes one product from cart 
-
-          prqRemovedOneFromCartCallback(event);
-          // triggered when the product has already been removed from the cart (only Shopify) 
-
-          prqAddAllToCartCallback(event); 
-          // triggered when customer adds all products to cart 
-
-          prqAddedAllToCartCallback(event);
-          // triggered when all the products have already been added to the cart 
-
-          prqAppLoadedCallback();
-          // triggered when the Product Recommendation Quiz app has been loaded 
-          ```
+        The callback runs whenever the results page is reached, including when a customer opens their results from a [follow-up email](/how-to-guides/send-result-emails/).
 
 === "BigCommerce"
 
+    A callback function is JavaScript that runs when the quiz fires an event, such as a customer finishing the quiz. You define the function on your site, the quiz calls it, and everything the customer did arrives as JSON.
 
-    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
-      ```html
-      <script>
-        function prqQuizCallback(quizResponse){
-          console.log(quizResponse);
-        }
-      </script>
-      ```
-        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
-    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
-        ```javascript
-        function prqQuizCallback(quizResponse) {
-        // Code to map or save the data...
+    That gives a developer the material to build a results page of their own, save the answers, or send the customer somewhere specific.
 
-        // Then, redirect the user to the desired page:
-        window.location.href = 'yourTargetURLHere';
-        }
-        ```
-        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+    The response JSON holds:
 
-    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
-    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
-        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
-          ```html
-          prqStartCallback(event);
-          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+    - Every question that was asked
+    - The answers the customer gave
+    - The customer tags that were assigned
+    - The products that were recommended
+    - The layout and logic of the results page blocks
 
-          prqSlideCallback(event);
-          // triggered when customer responds to a question (slide)
+    !!! note "Follow-up email links fire the callback too"
 
-          prqAddOneToCartCallback(event);
-          // triggered when customer adds one product to cart 
-
-          prqAddedOneToCartCallback(event);
-          // triggered when the product has already been added to the cart 
-        
-          prqRemoveOneFromCartCallback(event);
-          // triggered when customer removes one product from cart 
-
-          prqRemovedOneFromCartCallback(event);
-          // triggered when the product has already been removed from the cart (only Shopify) 
-
-          prqAddAllToCartCallback(event); 
-          // triggered when customer adds all products to cart 
-
-          prqAddedAllToCartCallback(event);
-          // triggered when all the products have already been added to the cart 
-
-          prqAppLoadedCallback();
-          // triggered when the Product Recommendation Quiz app has been loaded 
-          ```
+        The callback runs whenever the results page is reached, including when a customer opens their results from a [follow-up email](/how-to-guides/send-result-emails/).
 
 === "Standalone"
 
-    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
-      ```html
-      <script>
-        function prqQuizCallback(quizResponse){
-          console.log(quizResponse);
-        }
-      </script>
-      ```
-        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
-    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
-        ```javascript
-        function prqQuizCallback(quizResponse) {
-        // Code to map or save the data...
+    A callback function is JavaScript that runs when the quiz fires an event, such as a customer finishing the quiz. You define the function on your site, the quiz calls it, and everything the customer did arrives as JSON.
 
-        // Then, redirect the user to the desired page:
-        window.location.href = 'yourTargetURLHere';
-        }
-        ```
-        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+    That gives a developer the material to build a results page of their own, save the answers, or send the customer somewhere specific.
 
-    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
-    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
-        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
-          ```html
-          prqStartCallback(event);
-          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+    The response JSON holds:
 
-          prqSlideCallback(event);
-          // triggered when customer responds to a question (slide)
+    - Every question that was asked
+    - The answers the customer gave
+    - The customer tags that were assigned
+    - The products that were recommended
+    - The layout and logic of the results page blocks
 
-          prqAddOneToCartCallback(event);
-          // triggered when customer adds one product to cart 
+    !!! note "Follow-up email links fire the callback too"
 
-          prqAddedOneToCartCallback(event);
-          // triggered when the product has already been added to the cart 
-        
-          prqRemoveOneFromCartCallback(event);
-          // triggered when customer removes one product from cart 
+        The callback runs whenever the results page is reached, including when a customer opens their results from a [follow-up email](/how-to-guides/send-result-emails/).
 
-          prqRemovedOneFromCartCallback(event);
-          // triggered when the product has already been removed from the cart (only Shopify) 
-
-          prqAddAllToCartCallback(event); 
-          // triggered when customer adds all products to cart 
-
-          prqAddedAllToCartCallback(event);
-          // triggered when all the products have already been added to the cart 
-
-          prqAppLoadedCallback();
-          // triggered when the Product Recommendation Quiz app has been loaded 
-          ```
-
-
-## Callback function reference
-
-!!! info "Not available in the Built for Shopify version"
-
-    These callbacks apply to the **Shopify (Legacy)**, **WooCommerce**, **Magento**, **BigCommerce** and **Standalone** versions. The `💎 Built for Shopify` quiz has no callbacks; it uses the results page **Custom JS** / `window.quiz` object instead.
-
-Each callback is a global function you define on the page where the quiz is embedded (or sitewide in your theme). The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
-
-| Callback | Fires when | Argument |
-|----------|------------|----------|
-| `prqQuizCallback(response)` | The customer reaches the **results page** (also when they open their results via a [follow-up email](/how-to-guides/send-result-emails/) link) | The full response object (see below) |
-| `prqSlideCallback(event)` | The customer **answers a question** and advances to the next slide | `event.quiz` and `event.slide` (the answered question, with its `attributes.values` and `attributes.choices`) |
-| `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product / event |
-| `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product / event |
-| `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product / event |
-| `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart (Shopify only) | the product / event |
-| `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products / event |
-| `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products / event |
-| `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
-
-!!! note "There is no quiz-start callback"
-
-    `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to customer activity is `prqSlideCallback`, which fires when they answer the first question.
-
-### The response object (`prqQuizCallback`)
-
-The argument passed to `prqQuizCallback` has this top-level shape:
-
-- `quiz` — the quiz definition. Includes `quiz.attributes.name` and `quiz.attributes.slides.data[]` (every question and its `attributes.choices` / selected `attributes.values`).
-- `quizid` — the ID of the quiz.
-- `response` — the customer's submission:
-    - `response.attributes.recommended_products` — the products recommended on the results page.
-    - `response.attributes.selected_result.data` — the result (the "profile" / outcome) the customer landed on.
-
-The full object carries much more (theme, logic, layout blocks). The quickest way to see everything is to `console.log(response)` inside `prqQuizCallback` and complete the quiz once.
-
-## Seeing callback function in action
+## Set up the callback
 
 === "Shopify"
 
-
+    Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
 
 === "Shopify (Legacy)"
 
-    For a practical demonstration of the callback function at work, visit the demo store at [https://skincarequiz.myshopify.com/](https://skincarequiz.myshopify.com/). Here, you can witness how the quiz responses are handled in a live environment, providing a clearer understanding of the process.
+    1. **Add the callback to your theme, just before the closing `</head>` tag.**
 
-    ![how use callback function example](/images/how_use_callback_function_example.png)
+        ```html
+        <script>
+          function prqQuizCallback(quizResponse){
+            console.log(quizResponse);
+          }
+        </script>
+        ```
+
+        This logs the whole response JSON to the console. It is a starting point: replace the body with whatever your integration needs.
+
+    2. **Store the response before anything else happens.** Wrap any redirect inside the callback, so the data is saved first.
+
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+          // Code to map or save the data...
+
+          // Then, redirect the user to the desired page:
+          window.location.href = 'yourTargetURLHere';
+        }
+        ```
+
+        Cookies, local storage or query parameters all work. Pick whichever suits the data.
+
+    3. **Let the customer reach the results page.** The callback only fires there. Even a fraction of a second is enough. A redirect that skips the results page skips the callback too.
+
+    4. **Add the other callbacks you need.** Each one is a global function the quiz calls when its event happens.
+
+        ```javascript
+        function prqAddOneToCartCallback(event) {
+          // runs when a customer adds one product to the cart
+        }
+        ```
 
 === "WooCommerce"
 
-    For a practical demonstration of the callback function at work, visit the demo store at [https://skincarequiz.myshopify.com/](https://skincarequiz.myshopify.com/). Here, you can witness how the quiz responses are handled in a live environment, providing a clearer understanding of the process.
+    1. **Add the callback to your theme, just before the closing `</head>` tag.**
 
-    ![how use callback function example](/images/how_use_callback_function_example.png)
+        ```html
+        <script>
+          function prqQuizCallback(quizResponse){
+            console.log(quizResponse);
+          }
+        </script>
+        ```
+
+        This logs the whole response JSON to the console. It is a starting point: replace the body with whatever your integration needs.
+
+    2. **Store the response before anything else happens.** Wrap any redirect inside the callback, so the data is saved first.
+
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+          // Code to map or save the data...
+
+          // Then, redirect the user to the desired page:
+          window.location.href = 'yourTargetURLHere';
+        }
+        ```
+
+        Cookies, local storage or query parameters all work. Pick whichever suits the data.
+
+    3. **Let the customer reach the results page.** The callback only fires there. Even a fraction of a second is enough. A redirect that skips the results page skips the callback too.
+
+    4. **Add the other callbacks you need.** Each one is a global function the quiz calls when its event happens.
+
+        ```javascript
+        function prqAddOneToCartCallback(event) {
+          // runs when a customer adds one product to the cart
+        }
+        ```
 
 === "Magento"
 
-    For a practical demonstration of the callback function at work, visit the demo store at [https://skincarequiz.myshopify.com/](https://skincarequiz.myshopify.com/). Here, you can witness how the quiz responses are handled in a live environment, providing a clearer understanding of the process.
+    1. **Add the callback to your theme, just before the closing `</head>` tag.**
 
-    ![how use callback function example](/images/how_use_callback_function_example.png)
+        ```html
+        <script>
+          function prqQuizCallback(quizResponse){
+            console.log(quizResponse);
+          }
+        </script>
+        ```
+
+        This logs the whole response JSON to the console. It is a starting point: replace the body with whatever your integration needs.
+
+    2. **Store the response before anything else happens.** Wrap any redirect inside the callback, so the data is saved first.
+
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+          // Code to map or save the data...
+
+          // Then, redirect the user to the desired page:
+          window.location.href = 'yourTargetURLHere';
+        }
+        ```
+
+        Cookies, local storage or query parameters all work. Pick whichever suits the data.
+
+    3. **Let the customer reach the results page.** The callback only fires there. Even a fraction of a second is enough. A redirect that skips the results page skips the callback too.
+
+    4. **Add the other callbacks you need.** Each one is a global function the quiz calls when its event happens.
+
+        ```javascript
+        function prqAddOneToCartCallback(event) {
+          // runs when a customer adds one product to the cart
+        }
+        ```
 
 === "BigCommerce"
 
-    For a practical demonstration of the callback function at work, visit the demo store at [https://skincarequiz.myshopify.com/](https://skincarequiz.myshopify.com/). Here, you can witness how the quiz responses are handled in a live environment, providing a clearer understanding of the process.
+    1. **Add the callback to your theme, just before the closing `</head>` tag.**
 
-    ![how use callback function example](/images/how_use_callback_function_example.png)
+        ```html
+        <script>
+          function prqQuizCallback(quizResponse){
+            console.log(quizResponse);
+          }
+        </script>
+        ```
+
+        This logs the whole response JSON to the console. It is a starting point: replace the body with whatever your integration needs.
+
+    2. **Store the response before anything else happens.** Wrap any redirect inside the callback, so the data is saved first.
+
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+          // Code to map or save the data...
+
+          // Then, redirect the user to the desired page:
+          window.location.href = 'yourTargetURLHere';
+        }
+        ```
+
+        Cookies, local storage or query parameters all work. Pick whichever suits the data.
+
+    3. **Let the customer reach the results page.** The callback only fires there. Even a fraction of a second is enough. A redirect that skips the results page skips the callback too.
+
+    4. **Add the other callbacks you need.** Each one is a global function the quiz calls when its event happens.
+
+        ```javascript
+        function prqAddOneToCartCallback(event) {
+          // runs when a customer adds one product to the cart
+        }
+        ```
 
 === "Standalone"
 
-    For a practical demonstration of the callback function at work, visit the demo store at [https://skincarequiz.myshopify.com/](https://skincarequiz.myshopify.com/). Here, you can witness how the quiz responses are handled in a live environment, providing a clearer understanding of the process.
+    1. **Add the callback to your theme, just before the closing `</head>` tag.**
 
-    ![how use callback function example](/images/how_use_callback_function_example.png)
+        ```html
+        <script>
+          function prqQuizCallback(quizResponse){
+            console.log(quizResponse);
+          }
+        </script>
+        ```
 
+        This logs the whole response JSON to the console. It is a starting point: replace the body with whatever your integration needs.
 
+    2. **Store the response before anything else happens.** Wrap any redirect inside the callback, so the data is saved first.
 
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+          // Code to map or save the data...
 
-## Making sense of the callback’s JSON object
+          // Then, redirect the user to the desired page:
+          window.location.href = 'yourTargetURLHere';
+        }
+        ```
+
+        Cookies, local storage or query parameters all work. Pick whichever suits the data.
+
+    3. **Let the customer reach the results page.** The callback only fires there. Even a fraction of a second is enough. A redirect that skips the results page skips the callback too.
+
+    4. **Add the other callbacks you need.** Each one is a global function the quiz calls when its event happens.
+
+        ```javascript
+        function prqAddOneToCartCallback(event) {
+          // runs when a customer adds one product to the cart
+        }
+        ```
+
+## Callback reference
 
 === "Shopify"
+
+    Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
 
 === "Shopify (Legacy)"
 
-    You will find some of the most important data points on the object within the following locations:
+    Each callback is a global function you define on the page where the quiz is embedded, or sitewide in your theme. The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
+
+    | Callback | Fires when | Argument |
+    |----------|------------|----------|
+    | `prqQuizCallback(response)` | The customer reaches the **results page**, including through a [follow-up email](/how-to-guides/send-result-emails/) link | The full response object |
+    | `prqSlideCallback(event)` | The customer **answers a question** and moves to the next slide | `event.quiz` and `event.slide`, the answered question with its `attributes.values` and `attributes.choices` |
+    | `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product or event |
+    | `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product or event |
+    | `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product or event |
+    | `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart, Shopify only | the product or event |
+    | `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products or event |
+    | `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products or event |
+    | `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
+
+    !!! note "There is no quiz-start callback"
+
+        `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to what the customer does is `prqSlideCallback`, which fires when they answer the first question.
+
+    The argument passed to `prqQuizCallback` has this top-level shape:
+
+    - `quiz` is the quiz definition. It includes `quiz.attributes.name` and `quiz.attributes.slides.data[]`, every question with its `attributes.choices` and its selected `attributes.values`.
+    - `quizid` is the ID of the quiz.
+    - `response` is the customer's submission:
+        - `response.attributes.recommended_products` holds the products recommended on the results page.
+        - `response.attributes.selected_result.data` holds the result the customer landed on.
+
+    The object carries much more, including theme, logic and layout blocks. The quickest way to see all of it is to `console.log(response)` inside `prqQuizCallback` and take the quiz once.
 
 === "WooCommerce"
 
-    You will find some of the most important data points on the object within the following locations:
+    Each callback is a global function you define on the page where the quiz is embedded, or sitewide in your theme. The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
+
+    | Callback | Fires when | Argument |
+    |----------|------------|----------|
+    | `prqQuizCallback(response)` | The customer reaches the **results page**, including through a [follow-up email](/how-to-guides/send-result-emails/) link | The full response object |
+    | `prqSlideCallback(event)` | The customer **answers a question** and moves to the next slide | `event.quiz` and `event.slide`, the answered question with its `attributes.values` and `attributes.choices` |
+    | `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product or event |
+    | `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product or event |
+    | `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product or event |
+    | `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart, Shopify only | the product or event |
+    | `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products or event |
+    | `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products or event |
+    | `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
+
+    !!! note "There is no quiz-start callback"
+
+        `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to what the customer does is `prqSlideCallback`, which fires when they answer the first question.
+
+    The argument passed to `prqQuizCallback` has this top-level shape:
+
+    - `quiz` is the quiz definition. It includes `quiz.attributes.name` and `quiz.attributes.slides.data[]`, every question with its `attributes.choices` and its selected `attributes.values`.
+    - `quizid` is the ID of the quiz.
+    - `response` is the customer's submission:
+        - `response.attributes.recommended_products` holds the products recommended on the results page.
+        - `response.attributes.selected_result.data` holds the result the customer landed on.
+
+    The object carries much more, including theme, logic and layout blocks. The quickest way to see all of it is to `console.log(response)` inside `prqQuizCallback` and take the quiz once.
 
 === "Magento"
 
-    You will find some of the most important data points on the object within the following locations:
+    Each callback is a global function you define on the page where the quiz is embedded, or sitewide in your theme. The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
+
+    | Callback | Fires when | Argument |
+    |----------|------------|----------|
+    | `prqQuizCallback(response)` | The customer reaches the **results page**, including through a [follow-up email](/how-to-guides/send-result-emails/) link | The full response object |
+    | `prqSlideCallback(event)` | The customer **answers a question** and moves to the next slide | `event.quiz` and `event.slide`, the answered question with its `attributes.values` and `attributes.choices` |
+    | `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product or event |
+    | `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product or event |
+    | `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product or event |
+    | `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart, Shopify only | the product or event |
+    | `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products or event |
+    | `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products or event |
+    | `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
+
+    !!! note "There is no quiz-start callback"
+
+        `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to what the customer does is `prqSlideCallback`, which fires when they answer the first question.
+
+    The argument passed to `prqQuizCallback` has this top-level shape:
+
+    - `quiz` is the quiz definition. It includes `quiz.attributes.name` and `quiz.attributes.slides.data[]`, every question with its `attributes.choices` and its selected `attributes.values`.
+    - `quizid` is the ID of the quiz.
+    - `response` is the customer's submission:
+        - `response.attributes.recommended_products` holds the products recommended on the results page.
+        - `response.attributes.selected_result.data` holds the result the customer landed on.
+
+    The object carries much more, including theme, logic and layout blocks. The quickest way to see all of it is to `console.log(response)` inside `prqQuizCallback` and take the quiz once.
 
 === "BigCommerce"
 
-    You will find some of the most important data points on the object within the following locations:
+    Each callback is a global function you define on the page where the quiz is embedded, or sitewide in your theme. The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
+
+    | Callback | Fires when | Argument |
+    |----------|------------|----------|
+    | `prqQuizCallback(response)` | The customer reaches the **results page**, including through a [follow-up email](/how-to-guides/send-result-emails/) link | The full response object |
+    | `prqSlideCallback(event)` | The customer **answers a question** and moves to the next slide | `event.quiz` and `event.slide`, the answered question with its `attributes.values` and `attributes.choices` |
+    | `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product or event |
+    | `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product or event |
+    | `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product or event |
+    | `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart, Shopify only | the product or event |
+    | `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products or event |
+    | `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products or event |
+    | `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
+
+    !!! note "There is no quiz-start callback"
+
+        `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to what the customer does is `prqSlideCallback`, which fires when they answer the first question.
+
+    The argument passed to `prqQuizCallback` has this top-level shape:
+
+    - `quiz` is the quiz definition. It includes `quiz.attributes.name` and `quiz.attributes.slides.data[]`, every question with its `attributes.choices` and its selected `attributes.values`.
+    - `quizid` is the ID of the quiz.
+    - `response` is the customer's submission:
+        - `response.attributes.recommended_products` holds the products recommended on the results page.
+        - `response.attributes.selected_result.data` holds the result the customer landed on.
+
+    The object carries much more, including theme, logic and layout blocks. The quickest way to see all of it is to `console.log(response)` inside `prqQuizCallback` and take the quiz once.
 
 === "Standalone"
 
-    You will find some of the most important data points on the object within the following locations:
+    Each callback is a global function you define on the page where the quiz is embedded, or sitewide in your theme. The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
 
-### General data
+    | Callback | Fires when | Argument |
+    |----------|------------|----------|
+    | `prqQuizCallback(response)` | The customer reaches the **results page**, including through a [follow-up email](/how-to-guides/send-result-emails/) link | The full response object |
+    | `prqSlideCallback(event)` | The customer **answers a question** and moves to the next slide | `event.quiz` and `event.slide`, the answered question with its `attributes.values` and `attributes.choices` |
+    | `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product or event |
+    | `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product or event |
+    | `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product or event |
+    | `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart, Shopify only | the product or event |
+    | `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products or event |
+    | `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products or event |
+    | `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
+
+    !!! note "There is no quiz-start callback"
+
+        `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to what the customer does is `prqSlideCallback`, which fires when they answer the first question.
+
+    The argument passed to `prqQuizCallback` has this top-level shape:
+
+    - `quiz` is the quiz definition. It includes `quiz.attributes.name` and `quiz.attributes.slides.data[]`, every question with its `attributes.choices` and its selected `attributes.values`.
+    - `quizid` is the ID of the quiz.
+    - `response` is the customer's submission:
+        - `response.attributes.recommended_products` holds the products recommended on the results page.
+        - `response.attributes.selected_result.data` holds the result the customer landed on.
+
+    The object carries much more, including theme, logic and layout blocks. The quickest way to see all of it is to `console.log(response)` inside `prqQuizCallback` and take the quiz once.
+
+## Read the JSON object
 
 === "Shopify"
 
+    Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
 
 === "Shopify (Legacy)"
 
+    !!! tip "See it running first"
+
+        The [RevenueHunt demo store](https://skincarequiz.myshopify.com/) handles quiz responses live, which is the fastest way to understand the shape of the data.
+
+        ![how use callback function example](/images/how_use_callback_function_example.png)
+
+    The most useful data points sit in these places.
 
     ![how to callback image1](/images/how_to_callback_image1.png)
 
-    On the Quiz section, you will find the following entries:
+    The `Quiz` section holds:
 
-    - **Attributes**: You can find most of the quiz information within this object. Some interesting data points include:
-    - **ID**: You can see/copy the ID of the quiz here.
-    - **Type**: Quiz
+    - **Attributes**: most of the quiz information.
+    - **ID**: the ID of the quiz.
+    - **Type**: Quiz.
 
 === "WooCommerce"
 
+    !!! tip "See it running first"
+
+        The [RevenueHunt demo store](https://skincarequiz.myshopify.com/) handles quiz responses live, which is the fastest way to understand the shape of the data.
+
+        ![how use callback function example](/images/how_use_callback_function_example.png)
+
+    The most useful data points sit in these places.
 
     ![how to callback image1](/images/how_to_callback_image1.png)
 
-    On the Quiz section, you will find the following entries:
+    The `Quiz` section holds:
 
-    - **Attributes**: You can find most of the quiz information within this object. Some interesting data points include:
-    - **ID**: You can see/copy the ID of the quiz here.
-    - **Type**: Quiz
-
+    - **Attributes**: most of the quiz information.
+    - **ID**: the ID of the quiz.
+    - **Type**: Quiz.
 
 === "Magento"
 
+    !!! tip "See it running first"
+
+        The [RevenueHunt demo store](https://skincarequiz.myshopify.com/) handles quiz responses live, which is the fastest way to understand the shape of the data.
+
+        ![how use callback function example](/images/how_use_callback_function_example.png)
+
+    The most useful data points sit in these places.
 
     ![how to callback image1](/images/how_to_callback_image1.png)
 
-    On the Quiz section, you will find the following entries:
+    The `Quiz` section holds:
 
-    - **Attributes**: You can find most of the quiz information within this object. Some interesting data points include:
-    - **ID**: You can see/copy the ID of the quiz here.
-    - **Type**: Quiz
+    - **Attributes**: most of the quiz information.
+    - **ID**: the ID of the quiz.
+    - **Type**: Quiz.
 
 === "BigCommerce"
 
+    !!! tip "See it running first"
+
+        The [RevenueHunt demo store](https://skincarequiz.myshopify.com/) handles quiz responses live, which is the fastest way to understand the shape of the data.
+
+        ![how use callback function example](/images/how_use_callback_function_example.png)
+
+    The most useful data points sit in these places.
 
     ![how to callback image1](/images/how_to_callback_image1.png)
 
-    On the Quiz section, you will find the following entries:
+    The `Quiz` section holds:
 
-    - **Attributes**: You can find most of the quiz information within this object. Some interesting data points include:
-    - **ID**: You can see/copy the ID of the quiz here.
-    - **Type**: Quiz
+    - **Attributes**: most of the quiz information.
+    - **ID**: the ID of the quiz.
+    - **Type**: Quiz.
 
 === "Standalone"
 
+    !!! tip "See it running first"
+
+        The [RevenueHunt demo store](https://skincarequiz.myshopify.com/) handles quiz responses live, which is the fastest way to understand the shape of the data.
+
+        ![how use callback function example](/images/how_use_callback_function_example.png)
+
+    The most useful data points sit in these places.
 
     ![how to callback image1](/images/how_to_callback_image1.png)
 
-    On the Quiz section, you will find the following entries:
+    The `Quiz` section holds:
 
-    - **Attributes**: You can find most of the quiz information within this object. Some interesting data points include:
-    - **ID**: You can see/copy the ID of the quiz here.
-    - **Type**: Quiz
+    - **Attributes**: most of the quiz information.
+    - **ID**: the ID of the quiz.
+    - **Type**: Quiz.
 
-### ⤵ Attributes object
+### The attributes object
 
 === "Shopify"
+
+    Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
 
 === "Shopify (Legacy)"
 
     ![how to callback image2](/images/how_to_callback_image2.png)
 
-    !!! note
+    !!! note "Some entries carry more than others"
 
-        Some of the data points have more properties than others, for example, logic, messages, preferences…
+        Logic, messages and preferences hold far more data than the rest.
 
-    - **Logic**: The conditional logic rules you’ve used on the quiz slides.
-    - **Messages**: The text contained within buttons (for example, proceed to cart or see product).
-    - **Name**: Name of the Quiz.
-    - **Preferences**: The preferences/settings of the Quiz.
-    - **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
-      ![how to callback image3](/images/how_to_callback_image3.png)
-      
-        One entry in the data array for each block you add:
+    - **Logic**: the conditional logic rules you used on the quiz slides.
+    - **Messages**: the text inside buttons, such as proceed to cart or see product.
+    - **Name**: the name of the quiz.
+    - **Preferences**: the settings of the quiz.
+    - **Results**: the blocks on the results page.
+
+        ![how to callback image3](/images/how_to_callback_image3.png)
+
+        The data array holds one entry per block you added.
+
         ![how to callback image4](/images/how_to_callback_image4.png)
 
-    - **⤵ Slides**: One of the most interesting sections:
-      ![how to callback image5](/images/how_to_callback_image5.png)
+    - **Slides**: the questions themselves.
 
-        In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
+        ![how to callback image5](/images/how_to_callback_image5.png)
+
+        `data` holds every slide, and each slide object carries everything about it.
+
         ![how to callback image6](/images/how_to_callback_image6.png)
-        
-        ID of the slide and the **⤵ attribute** object with more data. 
-        
-        Let’s open the **⤵ attributes** to better understand which information is contained in it:
+
+        That is the ID of the slide, plus an `attributes` object holding the rest.
+
         ![how to callback image7](/images/how_to_callback_image7.png)
 
-        **⤵ Slides >  ⤵ attributes**
+        Inside `slides > attributes`:
 
-        - **Choices**: You can find all the possible choices a respondent can choose here.
-        - **Description**: If you [add a description](/reference/quiz-builder/questions/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
-        - **Preferences**: All preferences related to how your respondents select your choices.
-        - **Slide type**: The type of slide.
-        - **Title**: The text you’ve written as the title of the slide.
-        - **Validations**: More settings of the question, such as if it's an optional question or not, and how many items/choices they were allowed to select.
-        - **Values**: One of the most important data points, **which answers were selected**. You will note they’re expressed in IDs.
+        - **Choices**: every choice a customer can pick.
+        - **Description**: the text from [question settings](/reference/quiz-builder/questions/#question-settings), under `question settings → Show description`.
+        - **Preferences**: how the customer selects the choices.
+        - **Slide type**: the type of slide.
+        - **Title**: the title you wrote for the slide.
+        - **Validations**: further settings, such as whether the question is optional, and how many choices can be selected.
+        - **Values**: which answers were selected, expressed as IDs.
 
-    !!! question "How to Know Which Choice the ID(s) Represent?"
+    - **Theme**: the look and feel of the quiz.
 
-        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+        - **Background Image**: the image, if you added one, and its opacity.
+        - **Colors**: the colors used through the quiz.
+        - **Custom CSS**: your custom CSS, including custom fonts.
+        - **Font**: the main font, or the fallback if the embedded font fails.
+        - **Name**: the name of the theme.
+
+        ![how to callback image9](/images/how_to_callback_image9.png)
+
+    ??? question "How do I know which choice an ID represents?"
+
+        No separate lookup is needed, because the labels are already in the callback object. Each slide carries its possible choices in `slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`, and the selected answer IDs in `slide.attributes.values`. Match one against the other to read the label:
 
         ```javascript
         var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
@@ -569,68 +618,69 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
         });
         ```
 
-        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
+        To read an ID straight off the page instead, inspect the choice element and take the value after `#choice-`.
+
         ![how to callback image8](/images/how_to_callback_image8.png)
 
-        *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
+        The ID of that one is `36HzG42`.
 
-    - **⤵ Theme**
-
-      On the Theme, you will find all attributes of the quiz look & feel:
-
-      - **Background Image**: (if you added one) and its opacity.
-      - **Colors**: The colors used throughout the quiz.
-      - **Custom CSS**: If you’ve done so; custom fonts will appear here.
-      - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
-      - **Name**: Name of the theme used.
-
-    ![how to callback image9](/images/how_to_callback_image9.png)
-
-    More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
+    The callback carries more than this. You or your developer can copy the object into a JSON viewer to explore the rest.
 
 === "WooCommerce"
 
-
     ![how to callback image2](/images/how_to_callback_image2.png)
 
-    !!! note
+    !!! note "Some entries carry more than others"
 
-        Some of the data points have more properties than others, for example, logic, messages, preferences…
+        Logic, messages and preferences hold far more data than the rest.
 
-    - **Logic**: The conditional logic rules you’ve used on the quiz slides.
-    - **Messages**: The text contained within buttons (for example, proceed to cart or see product).
-    - **Name**: Name of the Quiz.
-    - **Preferences**: The preferences/settings of the Quiz.
-    - **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
-      ![how to callback image3](/images/how_to_callback_image3.png)
-      
-        One entry in the data array for each block you add:
+    - **Logic**: the conditional logic rules you used on the quiz slides.
+    - **Messages**: the text inside buttons, such as proceed to cart or see product.
+    - **Name**: the name of the quiz.
+    - **Preferences**: the settings of the quiz.
+    - **Results**: the blocks on the results page.
+
+        ![how to callback image3](/images/how_to_callback_image3.png)
+
+        The data array holds one entry per block you added.
+
         ![how to callback image4](/images/how_to_callback_image4.png)
 
-    - **⤵ Slides**: One of the most interesting sections:
-      ![how to callback image5](/images/how_to_callback_image5.png)
+    - **Slides**: the questions themselves.
 
-        In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
+        ![how to callback image5](/images/how_to_callback_image5.png)
+
+        `data` holds every slide, and each slide object carries everything about it.
+
         ![how to callback image6](/images/how_to_callback_image6.png)
-        
-        ID of the slide and the **⤵ attribute** object with more data. 
-        
-        Let’s open the **⤵ attributes** to better understand which information is contained in it:
+
+        That is the ID of the slide, plus an `attributes` object holding the rest.
+
         ![how to callback image7](/images/how_to_callback_image7.png)
 
-        **⤵ Slides >  ⤵ attributes**
+        Inside `slides > attributes`:
 
-        - **Choices**: You can find all the possible choices a respondent can choose here.
-        - **Description**: If you [add a description](/reference/quiz-builder/questions/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
-        - **Preferences**: All preferences related to how your respondents select your choices.
-        - **Slide type**: The type of slide.
-        - **Title**: The text you’ve written as the title of the slide.
-        - **Validations**: More settings of the question, such as if it's an optional question or not, and how many items/choices they were allowed to select.
-        - **Values**: One of the most important data points, **which answers were selected**. You will note they’re expressed in IDs.
+        - **Choices**: every choice a customer can pick.
+        - **Description**: the text from [question settings](/reference/quiz-builder/questions/#question-settings), under `question settings → Show description`.
+        - **Preferences**: how the customer selects the choices.
+        - **Slide type**: the type of slide.
+        - **Title**: the title you wrote for the slide.
+        - **Validations**: further settings, such as whether the question is optional, and how many choices can be selected.
+        - **Values**: which answers were selected, expressed as IDs.
 
-    !!! question "How to Know Which Choice the ID(s) Represent?"
+    - **Theme**: the look and feel of the quiz.
 
-        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+        - **Background Image**: the image, if you added one, and its opacity.
+        - **Colors**: the colors used through the quiz.
+        - **Custom CSS**: your custom CSS, including custom fonts.
+        - **Font**: the main font, or the fallback if the embedded font fails.
+        - **Name**: the name of the theme.
+
+        ![how to callback image9](/images/how_to_callback_image9.png)
+
+    ??? question "How do I know which choice an ID represents?"
+
+        No separate lookup is needed, because the labels are already in the callback object. Each slide carries its possible choices in `slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`, and the selected answer IDs in `slide.attributes.values`. Match one against the other to read the label:
 
         ```javascript
         var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
@@ -640,69 +690,69 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
         });
         ```
 
-        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
+        To read an ID straight off the page instead, inspect the choice element and take the value after `#choice-`.
+
         ![how to callback image8](/images/how_to_callback_image8.png)
 
-        *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
+        The ID of that one is `36HzG42`.
 
-    - **⤵ Theme**
-
-      On the Theme, you will find all attributes of the quiz look & feel:
-
-      - **Background Image**: (if you added one) and its opacity.
-      - **Colors**: The colors used throughout the quiz.
-      - **Custom CSS**: If you’ve done so; custom fonts will appear here.
-      - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
-      - **Name**: Name of the theme used.
-
-    ![how to callback image9](/images/how_to_callback_image9.png)
-
-    More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
-
+    The callback carries more than this. You or your developer can copy the object into a JSON viewer to explore the rest.
 
 === "Magento"
 
-
     ![how to callback image2](/images/how_to_callback_image2.png)
 
-    !!! note
+    !!! note "Some entries carry more than others"
 
-        Some of the data points have more properties than others, for example, logic, messages, preferences…
+        Logic, messages and preferences hold far more data than the rest.
 
-    - **Logic**: The conditional logic rules you’ve used on the quiz slides.
-    - **Messages**: The text contained within buttons (for example, proceed to cart or see product).
-    - **Name**: Name of the Quiz.
-    - **Preferences**: The preferences/settings of the Quiz.
-    - **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
-      ![how to callback image3](/images/how_to_callback_image3.png)
-      
-        One entry in the data array for each block you add:
+    - **Logic**: the conditional logic rules you used on the quiz slides.
+    - **Messages**: the text inside buttons, such as proceed to cart or see product.
+    - **Name**: the name of the quiz.
+    - **Preferences**: the settings of the quiz.
+    - **Results**: the blocks on the results page.
+
+        ![how to callback image3](/images/how_to_callback_image3.png)
+
+        The data array holds one entry per block you added.
+
         ![how to callback image4](/images/how_to_callback_image4.png)
 
-    - **⤵ Slides**: One of the most interesting sections:
-      ![how to callback image5](/images/how_to_callback_image5.png)
+    - **Slides**: the questions themselves.
 
-        In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
+        ![how to callback image5](/images/how_to_callback_image5.png)
+
+        `data` holds every slide, and each slide object carries everything about it.
+
         ![how to callback image6](/images/how_to_callback_image6.png)
-        
-        ID of the slide and the **⤵ attribute** object with more data. 
-        
-        Let’s open the **⤵ attributes** to better understand which information is contained in it:
+
+        That is the ID of the slide, plus an `attributes` object holding the rest.
+
         ![how to callback image7](/images/how_to_callback_image7.png)
 
-        **⤵ Slides >  ⤵ attributes**
+        Inside `slides > attributes`:
 
-        - **Choices**: You can find all the possible choices a respondent can choose here.
-        - **Description**: If you [add a description](/reference/quiz-builder/questions/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
-        - **Preferences**: All preferences related to how your respondents select your choices.
-        - **Slide type**: The type of slide.
-        - **Title**: The text you’ve written as the title of the slide.
-        - **Validations**: More settings of the question, such as if it's an optional question or not, and how many items/choices they were allowed to select.
-        - **Values**: One of the most important data points, **which answers were selected**. You will note they’re expressed in IDs.
+        - **Choices**: every choice a customer can pick.
+        - **Description**: the text from [question settings](/reference/quiz-builder/questions/#question-settings), under `question settings → Show description`.
+        - **Preferences**: how the customer selects the choices.
+        - **Slide type**: the type of slide.
+        - **Title**: the title you wrote for the slide.
+        - **Validations**: further settings, such as whether the question is optional, and how many choices can be selected.
+        - **Values**: which answers were selected, expressed as IDs.
 
-    !!! question "How to Know Which Choice the ID(s) Represent?"
+    - **Theme**: the look and feel of the quiz.
 
-        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+        - **Background Image**: the image, if you added one, and its opacity.
+        - **Colors**: the colors used through the quiz.
+        - **Custom CSS**: your custom CSS, including custom fonts.
+        - **Font**: the main font, or the fallback if the embedded font fails.
+        - **Name**: the name of the theme.
+
+        ![how to callback image9](/images/how_to_callback_image9.png)
+
+    ??? question "How do I know which choice an ID represents?"
+
+        No separate lookup is needed, because the labels are already in the callback object. Each slide carries its possible choices in `slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`, and the selected answer IDs in `slide.attributes.values`. Match one against the other to read the label:
 
         ```javascript
         var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
@@ -712,69 +762,69 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
         });
         ```
 
-        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
+        To read an ID straight off the page instead, inspect the choice element and take the value after `#choice-`.
+
         ![how to callback image8](/images/how_to_callback_image8.png)
 
-        *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
+        The ID of that one is `36HzG42`.
 
-    - **⤵ Theme**
+    The callback carries more than this. You or your developer can copy the object into a JSON viewer to explore the rest.
 
-      On the Theme, you will find all attributes of the quiz look & feel:
-
-      - **Background Image**: (if you added one) and its opacity.
-      - **Colors**: The colors used throughout the quiz.
-      - **Custom CSS**: If you’ve done so; custom fonts will appear here.
-      - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
-      - **Name**: Name of the theme used.
-
-    ![how to callback image9](/images/how_to_callback_image9.png)
-
-    More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
-
-
-=== "BigCommerce"	
-
+=== "BigCommerce"
 
     ![how to callback image2](/images/how_to_callback_image2.png)
 
-    !!! note
+    !!! note "Some entries carry more than others"
 
-        Some of the data points have more properties than others, for example, logic, messages, preferences…
+        Logic, messages and preferences hold far more data than the rest.
 
-    - **Logic**: The conditional logic rules you’ve used on the quiz slides.
-    - **Messages**: The text contained within buttons (for example, proceed to cart or see product).
-    - **Name**: Name of the Quiz.
-    - **Preferences**: The preferences/settings of the Quiz.
-    - **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
-      ![how to callback image3](/images/how_to_callback_image3.png)
-      
-        One entry in the data array for each block you add:
+    - **Logic**: the conditional logic rules you used on the quiz slides.
+    - **Messages**: the text inside buttons, such as proceed to cart or see product.
+    - **Name**: the name of the quiz.
+    - **Preferences**: the settings of the quiz.
+    - **Results**: the blocks on the results page.
+
+        ![how to callback image3](/images/how_to_callback_image3.png)
+
+        The data array holds one entry per block you added.
+
         ![how to callback image4](/images/how_to_callback_image4.png)
 
-    - **⤵ Slides**: One of the most interesting sections:
-      ![how to callback image5](/images/how_to_callback_image5.png)
+    - **Slides**: the questions themselves.
 
-        In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
+        ![how to callback image5](/images/how_to_callback_image5.png)
+
+        `data` holds every slide, and each slide object carries everything about it.
+
         ![how to callback image6](/images/how_to_callback_image6.png)
-        
-        ID of the slide and the **⤵ attribute** object with more data. 
-        
-        Let’s open the **⤵ attributes** to better understand which information is contained in it:
+
+        That is the ID of the slide, plus an `attributes` object holding the rest.
+
         ![how to callback image7](/images/how_to_callback_image7.png)
 
-        **⤵ Slides >  ⤵ attributes**
+        Inside `slides > attributes`:
 
-        - **Choices**: You can find all the possible choices a respondent can choose here.
-        - **Description**: If you [add a description](/reference/quiz-builder/questions/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
-        - **Preferences**: All preferences related to how your respondents select your choices.
-        - **Slide type**: The type of slide.
-        - **Title**: The text you’ve written as the title of the slide.
-        - **Validations**: More settings of the question, such as if it's an optional question or not, and how many items/choices they were allowed to select.
-        - **Values**: One of the most important data points, **which answers were selected**. You will note they’re expressed in IDs.
+        - **Choices**: every choice a customer can pick.
+        - **Description**: the text from [question settings](/reference/quiz-builder/questions/#question-settings), under `question settings → Show description`.
+        - **Preferences**: how the customer selects the choices.
+        - **Slide type**: the type of slide.
+        - **Title**: the title you wrote for the slide.
+        - **Validations**: further settings, such as whether the question is optional, and how many choices can be selected.
+        - **Values**: which answers were selected, expressed as IDs.
 
-    !!! question "How to Know Which Choice the ID(s) Represent?"
+    - **Theme**: the look and feel of the quiz.
 
-        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+        - **Background Image**: the image, if you added one, and its opacity.
+        - **Colors**: the colors used through the quiz.
+        - **Custom CSS**: your custom CSS, including custom fonts.
+        - **Font**: the main font, or the fallback if the embedded font fails.
+        - **Name**: the name of the theme.
+
+        ![how to callback image9](/images/how_to_callback_image9.png)
+
+    ??? question "How do I know which choice an ID represents?"
+
+        No separate lookup is needed, because the labels are already in the callback object. Each slide carries its possible choices in `slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`, and the selected answer IDs in `slide.attributes.values`. Match one against the other to read the label:
 
         ```javascript
         var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
@@ -784,69 +834,69 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
         });
         ```
 
-        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
+        To read an ID straight off the page instead, inspect the choice element and take the value after `#choice-`.
+
         ![how to callback image8](/images/how_to_callback_image8.png)
 
-        *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
+        The ID of that one is `36HzG42`.
 
-    - **⤵ Theme**
-
-      On the Theme, you will find all attributes of the quiz look & feel:
-
-      - **Background Image**: (if you added one) and its opacity.
-      - **Colors**: The colors used throughout the quiz.
-      - **Custom CSS**: If you’ve done so; custom fonts will appear here.
-      - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
-      - **Name**: Name of the theme used.
-
-    ![how to callback image9](/images/how_to_callback_image9.png)
-
-    More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
-
+    The callback carries more than this. You or your developer can copy the object into a JSON viewer to explore the rest.
 
 === "Standalone"
 
-
     ![how to callback image2](/images/how_to_callback_image2.png)
 
-    !!! note
+    !!! note "Some entries carry more than others"
 
-        Some of the data points have more properties than others, for example, logic, messages, preferences…
+        Logic, messages and preferences hold far more data than the rest.
 
-    - **Logic**: The conditional logic rules you’ve used on the quiz slides.
-    - **Messages**: The text contained within buttons (for example, proceed to cart or see product).
-    - **Name**: Name of the Quiz.
-    - **Preferences**: The preferences/settings of the Quiz.
-    - **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
-      ![how to callback image3](/images/how_to_callback_image3.png)
-      
-        One entry in the data array for each block you add:
+    - **Logic**: the conditional logic rules you used on the quiz slides.
+    - **Messages**: the text inside buttons, such as proceed to cart or see product.
+    - **Name**: the name of the quiz.
+    - **Preferences**: the settings of the quiz.
+    - **Results**: the blocks on the results page.
+
+        ![how to callback image3](/images/how_to_callback_image3.png)
+
+        The data array holds one entry per block you added.
+
         ![how to callback image4](/images/how_to_callback_image4.png)
 
-    - **⤵ Slides**: One of the most interesting sections:
-      ![how to callback image5](/images/how_to_callback_image5.png)
+    - **Slides**: the questions themselves.
 
-        In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
+        ![how to callback image5](/images/how_to_callback_image5.png)
+
+        `data` holds every slide, and each slide object carries everything about it.
+
         ![how to callback image6](/images/how_to_callback_image6.png)
-        
-        ID of the slide and the **⤵ attribute** object with more data. 
-        
-        Let’s open the **⤵ attributes** to better understand which information is contained in it:
+
+        That is the ID of the slide, plus an `attributes` object holding the rest.
+
         ![how to callback image7](/images/how_to_callback_image7.png)
 
-        **⤵ Slides >  ⤵ attributes**
+        Inside `slides > attributes`:
 
-        - **Choices**: You can find all the possible choices a respondent can choose here.
-        - **Description**: If you [add a description](/reference/quiz-builder/questions/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
-        - **Preferences**: All preferences related to how your respondents select your choices.
-        - **Slide type**: The type of slide.
-        - **Title**: The text you’ve written as the title of the slide.
-        - **Validations**: More settings of the question, such as if it's an optional question or not, and how many items/choices they were allowed to select.
-        - **Values**: One of the most important data points, **which answers were selected**. You will note they’re expressed in IDs.
+        - **Choices**: every choice a customer can pick.
+        - **Description**: the text from [question settings](/reference/quiz-builder/questions/#question-settings), under `question settings → Show description`.
+        - **Preferences**: how the customer selects the choices.
+        - **Slide type**: the type of slide.
+        - **Title**: the title you wrote for the slide.
+        - **Validations**: further settings, such as whether the question is optional, and how many choices can be selected.
+        - **Values**: which answers were selected, expressed as IDs.
 
-    !!! question "How to Know Which Choice the ID(s) Represent?"
+    - **Theme**: the look and feel of the quiz.
 
-        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+        - **Background Image**: the image, if you added one, and its opacity.
+        - **Colors**: the colors used through the quiz.
+        - **Custom CSS**: your custom CSS, including custom fonts.
+        - **Font**: the main font, or the fallback if the embedded font fails.
+        - **Name**: the name of the theme.
+
+        ![how to callback image9](/images/how_to_callback_image9.png)
+
+    ??? question "How do I know which choice an ID represents?"
+
+        No separate lookup is needed, because the labels are already in the callback object. Each slide carries its possible choices in `slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`, and the selected answer IDs in `slide.attributes.values`. Match one against the other to read the label:
 
         ```javascript
         var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
@@ -856,25 +906,14 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
         });
         ```
 
-        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
+        To read an ID straight off the page instead, inspect the choice element and take the value after `#choice-`.
+
         ![how to callback image8](/images/how_to_callback_image8.png)
 
-        *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
+        The ID of that one is `36HzG42`.
 
-    - **⤵ Theme**
-
-      On the Theme, you will find all attributes of the quiz look & feel:
-
-      - **Background Image**: (if you added one) and its opacity.
-      - **Colors**: The colors used throughout the quiz.
-      - **Custom CSS**: If you’ve done so; custom fonts will appear here.
-      - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
-      - **Name**: Name of the theme used.
-
-    ![how to callback image9](/images/how_to_callback_image9.png)
-
-    More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
-
+    The callback carries more than this. You or your developer can copy the object into a JSON viewer to explore the rest.
 
 ---
-By following the steps outlined in this guide, you can effectively tap into quiz responses, offering personalized content and interactions based on user inputs.
+
+This article explains how to use the quiz callback functions, and what arrives in the response JSON.

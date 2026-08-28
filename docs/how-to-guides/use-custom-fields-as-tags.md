@@ -3,17 +3,30 @@ description: "Learn how to use BigCommerce custom fields to organize and bulk-li
 icon: material/tag-multiple-outline
 ---
 
-# BigCommerce: Use Custom Fields as tags
+# BigCommerce: Use Custom Fields as Tags
 
-You can create a Custom Field called “tags” within your BigCommerce store and use it to automaticaly group products within the Product Recommendation Quiz. These Custom Fields/tags can be then used to link products in bulk to choices or slots in the quiz.
+A BigCommerce custom field called `tags` groups products for you inside the quiz. Once the products are tagged, you can link a whole group to a choice or a slot at once. That saves picking the products one at a time.
 
-Here’s how it works:
+1. **Open a product in BigCommerce and go to the `Custom Fields` menu.**
 
-1. Navigate to your product page in BigCommerce and add open the `Custom Fields` menu.
     ![Use_Custom_Fields_as_tags_image1.jpg](/images/Use_Custom_Fields_as_tags_image1.jpg)
-2. Next, select `+ Add custom fields` to create a new entry.
+
+2. **Click `+ Add custom fields`.**
+
     ![Use_Custom_Fields_as_tags_image2.jpg](/images/Use_Custom_Fields_as_tags_image2.jpg)
-3. In the Custom Field Name type “tags” and under Custom Field Value add the tags separated by a coma.
+
+3. **Set the Custom Field Name to `tags`, and list the tags in Custom Field Value, separated by commas.**
+
     ![Use_Custom_Fields_as_tags_image3.jpg](/images/Use_Custom_Fields_as_tags_image3.jpg)
-4. Make sure to save the changes. You can tag many products in your store this way. 
-5. Once you’re done tagging the products with the custom field called “tags”, simply run a [manual sync](/how-to-guides/sync-catalog/) of the app to make sure the Product Recommendation Quiz catalog is up to date. Products with the same tags will be automatically grouped together within the app and you’ll be able to link them to choices in the quiz within the [Link Categories/Tags](/reference/quiz-builder/link-collections/) section.
+
+4. **Save the product.**
+
+5. **Repeat for every product you want to tag.**
+
+6. **Run a [manual sync](/how-to-guides/sync-catalog/) of the app.** The quiz catalog is only up to date once the sync finishes.
+
+Products that share a tag are then grouped together in the app, and you can link the group to a choice from the [Link Categories/Tags](/reference/quiz-builder/link-collections/) section.
+
+---
+
+This article explains how to tag BigCommerce products with a custom field, so the quiz can link them in bulk.

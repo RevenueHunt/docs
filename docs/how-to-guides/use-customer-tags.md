@@ -5,396 +5,292 @@ description: "Learn how to use customer tags in RevenueHunt for audience segment
 
 # How to Add and Use Customer Tags
 
-Effective audience segmentation can dramatically improve the results of your marketing campaigns, and **customer tags** are a powerful tool for achieving this. 
+A customer tag is a label the quiz attaches to a customer when they select a certain choice. The tags travel with the quiz response to your mailing list or CRM.
 
-This article will guide you through adding customer tags to choices, using customer tags to segment your audience, and improving your marketing strategies. 
+Once the tags arrive there, you can group your contacts by what they answered, and write to each group separately.
 
-By adding customer tags into your quizzes, you can automatically send quiz results to your mailing list or CRM, enabling precise segmentation based on customer responses.
+This article explains how to add tags to choices, send them to a CRM, build segments from them, and write campaigns for those segments.
 
+!!! info "Why segment your audience"
 
-!!! tip "Why Use Customer Tags?"
+    A long email list is worth little on its own. What it is worth depends on how much you know about the people on it.
 
-    Understanding the value of each member of your audience is crucial. While accumulating a large following on social media or a lengthy email list may seem beneficial, its true value comes into question if you know nothing about the individuals that make up those numbers.
+    - A highly segmented campaign can earn more than three times the revenue per recipient of an unsegmented one.
+    - A healthy list earns around $1 per subscriber per month. Much less than that usually means the list needs finer segments.
 
-    **The Importance of Segmentation**
+    Customer tags give you that detail without asking anyone to fill in a profile. The customer answers the quiz, and the answers become tags.
 
-    - **FACT 1:** Campaigns that are **highly segmented** can yield more than three times the revenue per recipient compared to unsegmented campaigns.
-    - **FACT 2:** Ideally, your business should earn at least $1 per month for each subscriber. If this isn't the case, it indicates that your email list isn't segmented sufficiently.
-
-    Segmentation allows for more personalized marketing strategies. By segmenting your audience based on specific criteria like specific customer tags, you can target them more effectively with tailored content and offers.
-
-    By adding customer tags into your quizzes, you can automatically send quiz results to your mailing list or CRM, enabling precise segmentation based on customer responses.
-
-
-## How to add customer tags to your quiz
+## Add customer tags to your quiz
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Navigate to the Quiz builder**: Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
-    2. **Access choice settings**: Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) by clicking on any choice in your quiz.
-    3. **Add customer tags**: In the choice settings, find the `Customer Tags` section.
+    1. **Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/).** Click `Customize` on the quiz you want to tag.
+
+    2. **Click a choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
+
+    3. **Find the `Customer Tags` section.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
-    
-        - Use the search bar to search for existing tags or create new ones. 
+
+    4. **Use the search bar to find a tag you already created.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
 
-        - Type the tag name and press `Create new tag` to create it. 
-        - You can add multiple tags to a single choice.
+    5. **To add a new tag, type the name and click `Create new tag`.** One choice can carry several tags.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
 
-        !!! tip
-            If you want all the quiz takers to have a specific tag, you can add it to the all the choices in one of the questions in the quiz. This way no matter which choice they select, they will have the tag.
+        !!! tip "Give every customer the same tag"
 
-    4. **Save changes**: Click the "Save" button to apply your changes. Tags will be automatically applied to customers when they select the corresponding choice.
-    5. **Preview the quiz**: Preview the quiz to verify that the tags have been added correctly to the quiz responses.
+            To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
 
-        !!! note
-            Tags sent to responses will also be forwarded to any connected [integrations](/reference/quiz-builder/connect-integrations/).
+    6. **Click `Save`.** The quiz adds the tag whenever a customer selects that choice.
 
-            For example, if integrated with Shopify Customers List, customer tags will be sent to customer profiles in Shopify. If quiz is integrated with Klaviyo, customer tags will be sent to Klaviyo, etc.
+    7. **Preview the quiz, and check that the tags appear on the response.**
 
+        !!! note "The tags reach your integrations too"
+
+            Every tag on a response is forwarded to the services connected in the [Integrations](/reference/quiz-builder/connect-integrations/) tab. Connect Shopify Customers and the tags land on the Shopify customer profile. Connect Klaviyo and they land on the Klaviyo profile.
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
+    1. **Open the [`Customer Tags`](/reference/quiz-builder/customer-tags/) tab in the Quiz Builder.**
+
+    2. **Type a tag name next to a choice and confirm with `Enter`.**
+
         ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+
+    3. **Link that tag to any other choice that calls for it.** A tag you created once stays available for every choice in the quiz.
+
+        !!! tip "Give every customer the same tag"
+
+            To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz. From then on, a customer who selects the choice is tagged.
+
+        !!! note "The tags reach your integrations too"
+
+            Every tag on a response is forwarded to the services connected in the [Connect](/reference/quiz-builder/connect-integrations/) tab. Connect Shopify Customers and the tags land on the Shopify customer profile. Connect Klaviyo and they land on the Klaviyo profile.
 
 === "WooCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
+    1. **Open the [`Customer Tags`](/reference/quiz-builder/customer-tags/) tab in the Quiz Builder.**
+
+    2. **Type a tag name next to a choice and confirm with `Enter`.**
+
         ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+
+    3. **Link that tag to any other choice that calls for it.** A tag you created once stays available for every choice in the quiz.
+
+        !!! tip "Give every customer the same tag"
+
+            To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz. From then on, a customer who selects the choice is tagged.
+
+        !!! note "The tags reach your integrations too"
+
+            Every tag on a response is forwarded to the services connected in the [Connect](/reference/quiz-builder/connect-integrations/) tab. Connect Klaviyo and the tags land on the Klaviyo profile. Connect HubSpot and they land on the HubSpot contact.
 
 === "Magento"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
+    1. **Open the [`Customer Tags`](/reference/quiz-builder/customer-tags/) tab in the Quiz Builder.**
+
+    2. **Type a tag name next to a choice and confirm with `Enter`.**
+
         ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+
+    3. **Link that tag to any other choice that calls for it.** A tag you created once stays available for every choice in the quiz.
+
+        !!! tip "Give every customer the same tag"
+
+            To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz. From then on, a customer who selects the choice is tagged.
+
+        !!! note "The tags reach your integrations too"
+
+            Every tag on a response is forwarded to the services connected in the [Connect](/reference/quiz-builder/connect-integrations/) tab. Connect Klaviyo and the tags land on the Klaviyo profile. Connect HubSpot and they land on the HubSpot contact.
 
 === "BigCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
+    1. **Open the [`Customer Tags`](/reference/quiz-builder/customer-tags/) tab in the Quiz Builder.**
+
+    2. **Type a tag name next to a choice and confirm with `Enter`.**
+
         ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+
+    3. **Link that tag to any other choice that calls for it.** A tag you created once stays available for every choice in the quiz.
+
+        !!! tip "Give every customer the same tag"
+
+            To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz. From then on, a customer who selects the choice is tagged.
+
+        !!! note "The tags reach your integrations too"
+
+            Every tag on a response is forwarded to the services connected in the [Connect](/reference/quiz-builder/connect-integrations/) tab. Connect Klaviyo and the tags land on the Klaviyo profile. Connect HubSpot and they land on the HubSpot contact.
 
 === "Standalone"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
+    1. **Open the [`Customer Tags`](/reference/quiz-builder/customer-tags/) tab in the Quiz Builder.**
+
+    2. **Type a tag name next to a choice and confirm with `Enter`.**
+
         ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
 
+    3. **Link that tag to any other choice that calls for it.** A tag you created once stays available for every choice in the quiz.
 
-### How to send customer tags to CRMs
+        !!! tip "Give every customer the same tag"
+
+            To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz. From then on, a customer who selects the choice is tagged.
+
+        !!! note "The tags reach your integrations too"
+
+            Every tag on a response is forwarded to the services connected in the [Connect](/reference/quiz-builder/connect-integrations/) tab. Connect Klaviyo and the tags land on the Klaviyo profile. Connect HubSpot and they land on the HubSpot contact.
+
+## Send the tags to your CRM
 
 === "Shopify"
 
-    1. **Connecting Your Quiz:** Within the [Quiz settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.**
 
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
+    2. **Find the service you use and connect it.** The quiz connects directly to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/), [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
 
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
+        !!! info "Any other service"
 
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
+    3. **Follow the instructions the service shows on screen.**
 
-=== "Shopify (Legacy)"
-
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-
-=== "WooCommerce"
-
-
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-
-=== "Magento"
-
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-
-=== "BigCommerce"
-
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-
-
-=== "Standalone"
-
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-
-
-### Creating segments in your CRM
-
-=== "Shopify"
-
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
-
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
-
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
-
-    !!! example "Example of a segment definition"
-
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
-
-    Any profile that has a tag will be included in the segment automatically.
-
-    !!! warning
-
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
-
+    Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
 === "Shopify (Legacy)"
 
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
 
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
+    2. **Find the service you use and connect it.** The quiz connects directly to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/), [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
 
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
+        !!! info "Any other service"
 
-    !!! example "Example of a segment definition"
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
+    3. **Follow the instructions the service shows on screen.**
 
-    Any profile that has a tag will be included in the segment automatically.
-    !!! warning
-
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
-
+    Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
 === "WooCommerce"
 
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
 
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
+    2. **Find the service you use and connect it.** The quiz connects directly to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
 
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
+        !!! info "Any other service"
 
-    !!! example "Example of a segment definition"
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
+    3. **Follow the instructions the service shows on screen.**
 
-    Any profile that has a tag will be included in the segment automatically.
-
-    !!! warning
-
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
+    Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
 === "Magento"
 
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
 
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
+    2. **Find the service you use and connect it.** The quiz connects directly to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
 
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
+        !!! info "Any other service"
 
-    !!! example "Example of a segment definition"
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
+    3. **Follow the instructions the service shows on screen.**
 
-    Any profile that has a tag will be included in the segment automatically.
-
-    !!! warning
-
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
+    Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
 === "BigCommerce"
 
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
 
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
+    2. **Find the service you use and connect it.** The quiz connects directly to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
 
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
+        !!! info "Any other service"
 
-    !!! example "Example of a segment definition"
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
+    3. **Follow the instructions the service shows on screen.**
 
-        ![example klaviyo segment](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
-
-    Any profile that has a tag will be included in the segment automatically.
-
-    !!! warning
-
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
+    Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
 === "Standalone"
 
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
 
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
+    2. **Find the service you use and connect it.** The quiz connects directly to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
 
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
+        !!! info "Any other service"
 
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
-    !!! example "Example of a segment definition"
+    3. **Follow the instructions the service shows on screen.**
 
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
+    Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
-    Any profile that has a tag will be included in the segment automatically.
+## Create segments in your CRM
 
-    !!! warning
+Your CRM now holds a list of tags for every contact who finished the quiz. A segment is a rule over those tags, and the CRM keeps it up to date on its own.
 
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
+For example, contacts tagged `dry_skin` can receive a campaign for a moisturizing product, and contacts tagged `oily_skin` a campaign for a cleanser.
 
+!!! example "A segment definition"
 
-### Using segmented data
+    If the custom property `tags` contains `dry_skin`, include the contact in the segment.
 
+    ![example klaviyo segment](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
 
-!!! tip 
+The wording differs from one CRM to the next, but the shape of the rule is the same everywhere. Every profile carrying the tag joins the segment on its own, including the profiles that arrive later.
 
-    Check out [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) to learn more about how to use customer tags to segment your audience and send targeted emails to your customers.
+!!! warning "A retake replaces the earlier tags"
 
+    In most integrations, a customer who takes the quiz again overwrites the tags from the previous attempt. To keep the tags from every attempt, [contact support](/how-to-guides/contact-customer-support/).
 
-=== "Shopify"    
+## Send targeted emails
 
-    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+A segment earns nothing until something is sent to it. Build one flow or campaign per segment, and write it around what that group told you.
 
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
+1. **Read the tags in a segment and name what the group wants.** The tags come from the customer's own answers, so they say it plainly.
 
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
+2. **Write the email around that need.** Personalize the subject line and the body, and feature the products the quiz recommends for those tags.
 
-        !!! example
+3. **Plan the schedule.** Keep the group engaged, but not so often that people unsubscribe.
 
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
+4. **Automate the sends.** Let the CRM trigger each email from what the customer does, instead of sending them by hand.
 
-    3. Use automation to send timely, relevant emails based on their behavior.
+!!! example "Two segments, two campaigns"
 
-=== "Shopify (Legacy)"
+    - **Curly hair.** Curl-enhancing shampoos, conditioners and styling creams, with tips on maintaining curls and an offer on a curl care bundle.
+    - **Dry hair.** Moisturizing shampoos, conditioners and deep-conditioning treatments, with tips on treating dry hair and a discount on a hydrating set.
 
-    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+!!! tip "More on the strategy"
 
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
+    [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) covers how to plan the segments and the campaigns around them.
 
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
+---
 
-        !!! example
-
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-
-    3. Use automation to send timely, relevant emails based on their behavior.
-
-
-=== "WooCommerce"
-
-    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
-
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-
-        !!! example
-
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-
-    3. Use automation to send timely, relevant emails based on their behavior.
-
-=== "Magento"
-
-    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
-
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-
-        !!! example
-
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-
-    3. Use automation to send timely, relevant emails based on their behavior.
-
-=== "BigCommerce"
-
-    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
-
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-
-        !!! example
-
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-
-    3. Use automation to send timely, relevant emails based on their behavior.
-
-=== "Standalone"
-
-    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
-
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-
-        !!! example
-
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-
-    3. Use automation to send timely, relevant emails based on their behavior.
-
-
-
-
----    
-
-This article explains how to add customer tags to your quizzes and use them to segment your audience and send targeted emails to your customers.
-
-
-
-
-
-
-
+This article explains how to add customer tags to a quiz, and how to use them to segment your audience and send targeted emails.

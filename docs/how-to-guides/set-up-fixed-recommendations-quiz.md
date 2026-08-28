@@ -56,7 +56,7 @@ A fixed section shows the same products on the results page, whatever the custom
 
     !!! note "This version has no fixed recommendations"
 
-        The legacy version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
+        This version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
 
     **Option 1: show the same products to everyone**
 
@@ -103,7 +103,7 @@ A fixed section shows the same products on the results page, whatever the custom
 
     !!! note "This version has no fixed recommendations"
 
-        The WooCommerce version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
+        This version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
 
     **Option 1: show the same products to everyone**
 
@@ -150,7 +150,7 @@ A fixed section shows the same products on the results page, whatever the custom
 
     !!! note "This version has no fixed recommendations"
 
-        The Magento version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
+        This version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
 
     **Option 1: show the same products to everyone**
 
@@ -197,7 +197,7 @@ A fixed section shows the same products on the results page, whatever the custom
 
     !!! note "This version has no fixed recommendations"
 
-        The BigCommerce version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
+        This version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
 
     **Option 1: show the same products to everyone**
 
@@ -244,7 +244,7 @@ A fixed section shows the same products on the results page, whatever the custom
 
     !!! note "This version has no fixed recommendations"
 
-        The Standalone version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
+        This version of the app cannot pin products to the Results Page. Two workarounds get the same result. Use whichever fits your quiz.
 
     **Option 1: show the same products to everyone**
 
@@ -342,7 +342,7 @@ One results page holds the text and the products for every outcome. Display Logi
 
 === "Shopify (Legacy)"
 
-    !!! note "Fixed products are a Built for Shopify feature"
+    !!! note "This version cannot pin products"
 
         This version cannot pin products to a block. Use Display Logic for the text, and one of the workarounds in [Always the same recommendations](#always-the-same-recommendations) for the products.
 
@@ -387,7 +387,7 @@ One results page holds the text and the products for every outcome. Display Logi
 
 === "WooCommerce"
 
-    !!! note "Fixed products are a Built for Shopify feature"
+    !!! note "This version cannot pin products"
 
         This version cannot pin products to a block. Use Display Logic for the text, and one of the workarounds in [Always the same recommendations](#always-the-same-recommendations) for the products.
 
@@ -432,7 +432,7 @@ One results page holds the text and the products for every outcome. Display Logi
 
 === "Magento"
 
-    !!! note "Fixed products are a Built for Shopify feature"
+    !!! note "This version cannot pin products"
 
         This version cannot pin products to a block. Use Display Logic for the text, and one of the workarounds in [Always the same recommendations](#always-the-same-recommendations) for the products.
 
@@ -477,7 +477,7 @@ One results page holds the text and the products for every outcome. Display Logi
 
 === "BigCommerce"
 
-    !!! note "Fixed products are a Built for Shopify feature"
+    !!! note "This version cannot pin products"
 
         This version cannot pin products to a block. Use Display Logic for the text, and one of the workarounds in [Always the same recommendations](#always-the-same-recommendations) for the products.
 
@@ -522,7 +522,7 @@ One results page holds the text and the products for every outcome. Display Logi
 
 === "Standalone"
 
-    !!! note "Fixed products are a Built for Shopify feature"
+    !!! note "This version cannot pin products"
 
         This version cannot pin products to a block. Use Display Logic for the text, and one of the workarounds in [Always the same recommendations](#always-the-same-recommendations) for the products.
 

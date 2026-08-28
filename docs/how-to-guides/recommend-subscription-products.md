@@ -7,17 +7,13 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 This article explains how to recommend subscription products, so a customer can subscribe straight from the results page.
 
-On Shopify the app works with Shopify Subscriptions and [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign). On WooCommerce it works with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
-
 ![A recommended subscription product on the results page](/images/how_to_recommend_subscription_products_sample_product.png)
 
-!!! note "Platform Availability"
-
-    BigCommerce and Magento cannot show subscription products on the results page. The same applies to any Shopify or WooCommerce subscription app that is not one of those named here. See [Other subscriptions](#other-subscriptions) for a workaround.
-
-## Shopify and Recharge subscriptions
+## Set up subscriptions
 
 === "Shopify"
+
+    The app works with Shopify Subscriptions and [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign).
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X_beZcbcwG4?si=CSBT9I08vEh0Cs4U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -74,6 +70,8 @@ On Shopify the app works with Shopify Subscriptions and [Recharge Subscriptions]
 
 === "Shopify (Legacy)"
 
+    The app works with [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign).
+
     !!! warning "Before you start"
 
         - Recharge exposes the Storefront API on the [Recharge Plus plan](https://getrecharge.com/pricing/) only. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
@@ -98,45 +96,9 @@ On Shopify the app works with Shopify Subscriptions and [Recharge Subscriptions]
 
 === "WooCommerce"
 
-    !!! note "Not available on this platform"
+    The app works with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
 
-        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
-
-=== "Magento"
-
-    !!! note "Not available on this platform"
-
-        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
-
-=== "BigCommerce"
-
-    !!! note "Not available on this platform"
-
-        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
-
-=== "Standalone"
-
-    !!! note "Not available on this platform"
-
-        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
-
-## WooCommerce subscriptions
-
-=== "Shopify"
-
-    !!! note "Not available on this platform"
-
-        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
-
-=== "Shopify (Legacy)"
-
-    !!! note "Not available on this platform"
-
-        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
-
-=== "WooCommerce"
-
-    Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync to the app on their own once the plugin is installed. They appear under the [Link Products](/reference/quiz-builder/link-products/) tab in the [Quiz Builder](/reference/quiz-builder/).
+    Products created with that plugin sync to the app on their own once it is installed. They appear under the [Link Products](/reference/quiz-builder/link-products/) tab in the [Quiz Builder](/reference/quiz-builder/).
 
     !!! tip "If a subscription product is missing from the list"
 
@@ -146,19 +108,19 @@ On Shopify the app works with Shopify Subscriptions and [Recharge Subscriptions]
 
     !!! note "Not available on this platform"
 
-        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        This version cannot recommend subscription products directly. See [Other subscriptions](#other-subscriptions) for a workaround that sends the customer to the product page to subscribe.
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        This version cannot recommend subscription products directly. See [Other subscriptions](#other-subscriptions) for a workaround that sends the customer to the product page to subscribe.
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        This version cannot recommend subscription products directly. See [Other subscriptions](#other-subscriptions) for a workaround that sends the customer to the product page to subscribe.
 
 ## Other subscriptions
 

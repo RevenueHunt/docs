@@ -10942,17 +10942,9 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 This article explains how to recommend subscription products, so a customer can subscribe straight from the results page.
 
-On Shopify the app works with Shopify Subscriptions and [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign). On WooCommerce it works with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
-
 ![A recommended subscription product on the results page](/images/how_to_recommend_subscription_products_sample_product.png)
 
-!!! note "Platform Availability"
-
-    BigCommerce and Magento cannot show subscription products on the results page. The same applies to any Shopify or WooCommerce subscription app that is not one of those named here. See [Other subscriptions](#other-subscriptions) for a workaround.
-
-## Shopify and Recharge subscriptions
-
-## WooCommerce subscriptions
+## Set up subscriptions
 
 ## Other subscriptions
 
@@ -10964,6 +10956,7 @@ This article explains how to recommend subscription products, and what to do whe
 
 --- Shopify Specific Content ---
 
+The app works with Shopify Subscriptions and [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X_beZcbcwG4?si=CSBT9I08vEh0Cs4U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Before you start"
     - Recharge exposes the Storefront API on the [Recharge Plus plan](https://getrecharge.com/pricing/) only. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
@@ -10992,8 +10985,6 @@ This article explains how to recommend subscription products, and what to do whe
     !!! warning "The subscription options never appear in the preview"
         Testing this needs a published quiz on a page of your website. The quiz preview cannot show the subscription options.
 10. **Add a subscription product to the cart, then check the cart holds it correctly.**
-!!! note "Not available on this platform"
-    [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 1. **Pick the subscription products you want the quiz to promote.**
 2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
@@ -14248,7 +14239,7 @@ This method uses the [upvoting system](#upvoting-system).
 
 ## Funnel quiz that skips slides
 
-Skip Logic hides the follow-up questions that do not apply to a customer. Ask about skin concerns first, then show only the questions that match the concerns the customer selected.
+Skip logic hides the follow-up questions that do not apply to a customer. Ask about skin concerns first, then show only the questions that match the concerns the customer selected.
 
 This method uses the [upvoting system](#upvoting-system).
 
@@ -14258,7 +14249,7 @@ This method uses the [upvoting system](#upvoting-system).
 
 ## Funnel quiz with branching
 
-Jump Logic sends the customer down a different path depending on their answers. Each branch asks its own questions, and the recommendations still come from the upvotes collected along the way.
+Jump logic sends the customer down a different path depending on their answers. Each branch asks its own questions, and the recommendations still come from the upvotes collected along the way.
 
 This method uses the [upvoting system](#upvoting-system).
 
@@ -14266,7 +14257,7 @@ This method uses the [upvoting system](#upvoting-system).
 
 ## Funnel quiz that shows custom text based on choices
 
-Display Logic shows and hides individual blocks on the results page, so the text can change with the answers. Every customer answers the same questions, and every answer combination needs its own rule.
+Display logic shows and hides individual blocks on the results page, so the text can change with the answers. Every customer answers the same questions, and every answer combination needs its own rule.
 
 This method uses the [upvoting system](#upvoting-system).
 
@@ -14618,27 +14609,6 @@ icon: material/scoreboard-outline
 
 # How to Set Up a Scoring Quiz
 
-Give each choice a score, a variable, or both. The quiz adds them up as the customer answers. Logic then decides which text and which products appear at the end.
-
-!!! info "Use this method for:"
-
-    - Personality type quizzes, Dosha quizzes
-    - Quizzes that show different results based on how many choices the customer picked (for example if the customer chooses most As, Bs, Cs, etc.)
-    - Quizzes that show different text results based on choices
-    - Quizzes that need to calculate scores that show different products
-
-!!! note "Scoring is a Built for Shopify feature"
-
-    Only the `💎Built for Shopify` version of the RevenueHunt app has the scoring system. In every other version a developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-
-There are three ways to use a score once you have one.
-
-| Method | Use it when |
-|---|---|
-| [Winning variable quiz](#winning-variable-quiz) | The outcome is a type, such as a skin type or a personality. The variable chosen most often wins |
-| [Scoring quiz with one results page](#scoring-quiz-with-one-results-page) | One results page holds a section per outcome, and display logic shows the one that matches the total |
-| [Scoring quiz with multiple results pages](#scoring-quiz-with-multiple-results-pages) | Each score range gets its own results page, and jump logic sends the customer there |
-
 ## How to add scores or variables to choices
 
 ## Winning variable quiz
@@ -14663,6 +14633,18 @@ Give each choice a number of points, then build one results page per outcome. Ju
 
 --- Shopify Specific Content ---
 
+Give each choice a score, a variable, or both. The quiz adds them up as the customer answers. Logic then decides which text and which products appear at the end.
+!!! info "Use this method for:"
+    - Personality type quizzes, Dosha quizzes
+    - Quizzes that show different results based on how many choices the customer picked (for example if the customer chooses most As, Bs, Cs, etc.)
+    - Quizzes that show different text results based on choices
+    - Quizzes that need to calculate scores that show different products
+There are three ways to use a score once you have one.
+| Method | Use it when |
+|---|---|
+| [Winning variable quiz](#winning-variable-quiz) | The outcome is a type, such as a skin type or a personality. The variable chosen most often wins |
+| [Scoring quiz with one results page](#scoring-quiz-with-one-results-page) | One results page holds a section per outcome, and display logic shows the one that matches the total |
+| [Scoring quiz with multiple results pages](#scoring-quiz-with-multiple-results-pages) | Each score range gets its own results page, and jump logic sends the customer there |
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hoAcDUqp9u4?si=BW3HNCCZasjFUVal" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 A score is a number a choice adds to a running total. A variable is a named bucket, such as `dry skin`, that keeps a total of its own. A choice can carry either, or both.
 1. **Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions`.** For a quiz that works out a skin type, ask about age, skin condition, and so on.
@@ -14960,18 +14942,13 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 # How to Show a Quiz Based on Shopify Markets
 
-Show a different quiz to customers in different markets and languages. You build one quiz per language, then tell the app which quiz belongs to which Shopify market.
-
-!!! note "Platform Availability"
-
-    This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
-
 ---
 
 This article explains how to show a RevenueHunt quiz based on Shopify Markets.
 
 --- Shopify Specific Content ---
 
+Show a different quiz to customers in different markets and languages. You build one quiz per language, then tell the app which quiz belongs to which Shopify market.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=qKfPEBhJ2RvMlgBz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! tip "A worked walkthrough"
     [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/) covers the same ground as a tutorial, step by step.
@@ -15689,82 +15666,29 @@ description: "Learn about using callback functions for custom integrations with 
 
 # How to Use Callback Function for Custom Integrations
 
-## What are callback functions?
+## Set up the callback
 
-A **callback function** is a piece of JavaScript code that executes in response to an event - in this case, the completion of a quiz. You add this callback function to your website and a listener that will be triggered when the quiz is completed. Then you will have access to all the data from quiz responses.
+## Callback reference
 
-By tapping into the quiz responses, developers can access a wealth of information including individual answers, customer tags, and recommended products. This data is delivered in a **JSON format** via a JavaScript Callback Function, enabling you to add it directly to your website.
+## Read the JSON object
 
-The JSON with the quiz response includes:
-
-- The complete set of questions that were asked
-- The responses your customer gave
-- The customer tags that were assigned to that customer
-- The products that were recommended
-- The layout and logic of the results page blocks 
-
-!!! note
-
-    Note that this callback function will also be triggered if your customers reach the results page via [follow-up emails](/how-to-guides/send-result-emails/) you send your customers with a link to their results.
-
-
-## Implementing the callback function
-
-## Callback function reference
-
-!!! info "Not available in the Built for Shopify version"
-
-    These callbacks apply to the **Shopify (Legacy)**, **WooCommerce**, **Magento**, **BigCommerce** and **Standalone** versions. The `💎 Built for Shopify` quiz has no callbacks; it uses the results page **Custom JS** / `window.quiz` object instead.
-
-Each callback is a global function you define on the page where the quiz is embedded (or sitewide in your theme). The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
-
-| Callback | Fires when | Argument |
-|----------|------------|----------|
-| `prqQuizCallback(response)` | The customer reaches the **results page** (also when they open their results via a [follow-up email](/how-to-guides/send-result-emails/) link) | The full response object (see below) |
-| `prqSlideCallback(event)` | The customer **answers a question** and advances to the next slide | `event.quiz` and `event.slide` (the answered question, with its `attributes.values` and `attributes.choices`) |
-| `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product / event |
-| `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product / event |
-| `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product / event |
-| `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart (Shopify only) | the product / event |
-| `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products / event |
-| `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products / event |
-| `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
-
-!!! note "There is no quiz-start callback"
-
-    `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to customer activity is `prqSlideCallback`, which fires when they answer the first question.
-
-### The response object (`prqQuizCallback`)
-
-The argument passed to `prqQuizCallback` has this top-level shape:
-
-- `quiz` — the quiz definition. Includes `quiz.attributes.name` and `quiz.attributes.slides.data[]` (every question and its `attributes.choices` / selected `attributes.values`).
-- `quizid` — the ID of the quiz.
-- `response` — the customer's submission:
-    - `response.attributes.recommended_products` — the products recommended on the results page.
-    - `response.attributes.selected_result.data` — the result (the "profile" / outcome) the customer landed on.
-
-The full object carries much more (theme, logic, layout blocks). The quickest way to see everything is to `console.log(response)` inside `prqQuizCallback` and complete the quiz once.
-
-## Seeing callback function in action
-
-## Making sense of the callback’s JSON object
-
-### General data
-
-### ⤵ Attributes object
+### The attributes object
 
 ---
-By following the steps outlined in this guide, you can effectively tap into quiz responses, offering personalized content and interactions based on user inputs.
+
+This article explains how to use the quiz callback functions, and what arrives in the response JSON.
 
 --- Shopify Specific Content ---
 
-!!! warning
-    The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app.
-The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
-!!! warning
-    Not supported in this version of the RevenueHunt app. 
-Not supported in this version of the RevenueHunt app.  However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
+This version has no callback functions. The results page does the same work inside the app.
+- Show or hide sections with [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic), based on answers, variables or a score.
+- Pin the products for an outcome with [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/).
+- Run your own code on the results page with [Custom JavaScript](/how-to-guides/add-javascript/), where the `window.quiz` object holds the response.
+Between them you can build a fully custom results page, without sending the customer to a page of your own.
+Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
+Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
+Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
+Use [Custom JavaScript](/how-to-guides/add-javascript/) on the results page. The `window.quiz` object holds the quiz, the answers and the recommended products.
 
 
 
@@ -15780,59 +15704,64 @@ description: "Master conditional logic in RevenueHunt to branch quizzes and cust
 
 # How to Use Conditional Logic in Product Recommendation Quiz
 
-[Conditional Logic](/reference/quiz-builder/conditional-logic/) allows you to branch the quiz or hide content based on customer answers.
+[Conditional Logic](/reference/quiz-builder/conditional-logic/) is the tab holding **jump logic** and **skip logic**. Display logic is not part of it: you set that on the results page itself.
 
-## [How to show or hide content based on quiz answers](/how-to-guides/hide-content-with-logic/)
+All three decide what a customer sees, from what they answered.
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and displaying custom text on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
+```
+conditional logic
+├── jump logic    sends the customer to   a question, a results page, or an external URL
+└── skip logic    skips                   a question
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/hide-content-with-logic/)
+display logic     shows or hides          part of the results page
+```
 
+## Show or hide content
 
-## [How to use jump logic](/how-to-guides/use-jump-logic/)
+`IF-THEN` rules put custom text in front of the right customer. Inside the quiz that is Jump Logic or Skip Logic, and on the results page it is Display Logic.
 
-Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [How to Use Jump Logic](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
+[How to Show or Hide Content Based on Quiz Answers](/how-to-guides/hide-content-with-logic/)
+
+## Jump logic
+
+Jump Logic sends each customer down a different path, from the answer they gave.
 
 !!! info "Use Jump Logic to:"
 
-    - Send users to different follow-up questions or content based on their answers.
-    - Branch the quiz based on the user's answers.
-    - Send users to different results pages based on their answers.
-    - Send users to an external URL based on their answers.
+    - Send the customer to a different follow-up question, from their answer.
+    - Branch the quiz.
+    - Send the customer to a different results page.
+    - Send the customer to an external URL.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-jump-logic/)
+[How to Use Jump Logic](/how-to-guides/use-jump-logic/)
 
+## Skip logic
 
-## [How to use skip logic](/how-to-guides/use-skip-logic/)
-
-Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [How to Use Skip Logic](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
+Skip Logic changes which questions come next, so a customer only answers the ones that apply to them.
 
 !!! info "Use Skip Logic to:"
 
-    - Skip questions based on the user's answers.
-    - Show different follow-up questions based on the user's answers to multiple-choice questions that allow multiple selections. For example, if you want to show different follow-up questions based on the (skin, health) concerns the user selects.
+    - Skip questions the customer's earlier answers have made irrelevant.
+    - Show different follow-up questions after a multiple-choice question that allows several selections. A customer who picks two skin concerns then answers only the questions for those two.
 
+[How to Use Skip Logic](/how-to-guides/use-skip-logic/)
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-skip-logic/)
+## Display logic
 
+Display Logic shows or hides individual elements on the results page.
 
-## [How to use display logic](/how-to-guides/use-display-logic/)
-
-Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [How to use Display Logic](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
-
-
-!!! info "Use Display Logic to:"
-
-    - Show or hide content on the results page based on customer's responses to questions.
-    - Show or hide content on the results page based on the score of a variable (custom scoring quiz, personality-type quiz).
-    - Show or hide content on the results page based on the variable with the highest score (personality-type quiz).
-
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-display-logic/)
-
+[How to Use Display Logic](/how-to-guides/use-display-logic/)
 
 ---
-This article explains different types of conditional logic in a quiz. It redirects you to other articles that explain how to use conditional logic in more detail.
+
+This article explains the kinds of conditional logic a quiz can use, and points to the guide for each one.
+
+--- Shopify Specific Content ---
+
+!!! info "Use Display logic to:"
+    - Show or hide content from the customer's answers.
+    - Show or hide content from the score of a variable, for a scoring quiz or a personality-type quiz.
+    - Show or hide content from the variable with the highest score, for a personality-type quiz.
 
 
 
@@ -15846,20 +15775,33 @@ description: "Learn how to use BigCommerce custom fields to organize and bulk-li
 icon: material/tag-multiple-outline
 ---
 
-# BigCommerce: Use Custom Fields as tags
+# BigCommerce: Use Custom Fields as Tags
 
-You can create a Custom Field called “tags” within your BigCommerce store and use it to automaticaly group products within the Product Recommendation Quiz. These Custom Fields/tags can be then used to link products in bulk to choices or slots in the quiz.
+A BigCommerce custom field called `tags` groups products for you inside the quiz. Once the products are tagged, you can link a whole group to a choice or a slot at once. That saves picking the products one at a time.
 
-Here’s how it works:
+1. **Open a product in BigCommerce and go to the `Custom Fields` menu.**
 
-1. Navigate to your product page in BigCommerce and add open the `Custom Fields` menu.
     ![Use_Custom_Fields_as_tags_image1.jpg](/images/Use_Custom_Fields_as_tags_image1.jpg)
-2. Next, select `+ Add custom fields` to create a new entry.
+
+2. **Click `+ Add custom fields`.**
+
     ![Use_Custom_Fields_as_tags_image2.jpg](/images/Use_Custom_Fields_as_tags_image2.jpg)
-3. In the Custom Field Name type “tags” and under Custom Field Value add the tags separated by a coma.
+
+3. **Set the Custom Field Name to `tags`, and list the tags in Custom Field Value, separated by commas.**
+
     ![Use_Custom_Fields_as_tags_image3.jpg](/images/Use_Custom_Fields_as_tags_image3.jpg)
-4. Make sure to save the changes. You can tag many products in your store this way. 
-5. Once you’re done tagging the products with the custom field called “tags”, simply run a [manual sync](/how-to-guides/sync-catalog/) of the app to make sure the Product Recommendation Quiz catalog is up to date. Products with the same tags will be automatically grouped together within the app and you’ll be able to link them to choices in the quiz within the [Link Categories/Tags](/reference/quiz-builder/link-collections/) section.
+
+4. **Save the product.**
+
+5. **Repeat for every product you want to tag.**
+
+6. **Run a [manual sync](/how-to-guides/sync-catalog/) of the app.** The quiz catalog is only up to date once the sync finishes.
+
+Products that share a tag are then grouped together in the app, and you can link the group to a choice from the [Link Categories/Tags](/reference/quiz-builder/link-collections/) section.
+
+---
+
+This article explains how to tag BigCommerce products with a custom field, so the quiz can link them in bulk.
 
 
 
@@ -15875,83 +15817,92 @@ description: "Learn how to use customer tags in RevenueHunt for audience segment
 
 # How to Add and Use Customer Tags
 
-Effective audience segmentation can dramatically improve the results of your marketing campaigns, and **customer tags** are a powerful tool for achieving this. 
+A customer tag is a label the quiz attaches to a customer when they select a certain choice. The tags travel with the quiz response to your mailing list or CRM.
 
-This article will guide you through adding customer tags to choices, using customer tags to segment your audience, and improving your marketing strategies. 
+Once the tags arrive there, you can group your contacts by what they answered, and write to each group separately.
 
-By adding customer tags into your quizzes, you can automatically send quiz results to your mailing list or CRM, enabling precise segmentation based on customer responses.
+This article explains how to add tags to choices, send them to a CRM, build segments from them, and write campaigns for those segments.
 
+!!! info "Why segment your audience"
 
-!!! tip "Why Use Customer Tags?"
+    A long email list is worth little on its own. What it is worth depends on how much you know about the people on it.
 
-    Understanding the value of each member of your audience is crucial. While accumulating a large following on social media or a lengthy email list may seem beneficial, its true value comes into question if you know nothing about the individuals that make up those numbers.
+    - A highly segmented campaign can earn more than three times the revenue per recipient of an unsegmented one.
+    - A healthy list earns around $1 per subscriber per month. Much less than that usually means the list needs finer segments.
 
-    **The Importance of Segmentation**
+    Customer tags give you that detail without asking anyone to fill in a profile. The customer answers the quiz, and the answers become tags.
 
-    - **FACT 1:** Campaigns that are **highly segmented** can yield more than three times the revenue per recipient compared to unsegmented campaigns.
-    - **FACT 2:** Ideally, your business should earn at least $1 per month for each subscriber. If this isn't the case, it indicates that your email list isn't segmented sufficiently.
+## Add customer tags to your quiz
 
-    Segmentation allows for more personalized marketing strategies. By segmenting your audience based on specific criteria like specific customer tags, you can target them more effectively with tailored content and offers.
+## Send the tags to your CRM
 
-    By adding customer tags into your quizzes, you can automatically send quiz results to your mailing list or CRM, enabling precise segmentation based on customer responses.
+## Create segments in your CRM
 
+Your CRM now holds a list of tags for every contact who finished the quiz. A segment is a rule over those tags, and the CRM keeps it up to date on its own.
 
-## How to add customer tags to your quiz
+For example, contacts tagged `dry_skin` can receive a campaign for a moisturizing product, and contacts tagged `oily_skin` a campaign for a cleanser.
 
-### How to send customer tags to CRMs
+!!! example "A segment definition"
 
-### Creating segments in your CRM
+    If the custom property `tags` contains `dry_skin`, include the contact in the segment.
 
-### Using segmented data
+    ![example klaviyo segment](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
 
+The wording differs from one CRM to the next, but the shape of the rule is the same everywhere. Every profile carrying the tag joins the segment on its own, including the profiles that arrive later.
 
-!!! tip 
+!!! warning "A retake replaces the earlier tags"
 
-    Check out [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) to learn more about how to use customer tags to segment your audience and send targeted emails to your customers.
+    In most integrations, a customer who takes the quiz again overwrites the tags from the previous attempt. To keep the tags from every attempt, [contact support](/how-to-guides/contact-customer-support/).
 
+## Send targeted emails
 
----    
+A segment earns nothing until something is sent to it. Build one flow or campaign per segment, and write it around what that group told you.
 
-This article explains how to add customer tags to your quizzes and use them to segment your audience and send targeted emails to your customers.
+1. **Read the tags in a segment and name what the group wants.** The tags come from the customer's own answers, so they say it plainly.
+
+2. **Write the email around that need.** Personalize the subject line and the body, and feature the products the quiz recommends for those tags.
+
+3. **Plan the schedule.** Keep the group engaged, but not so often that people unsubscribe.
+
+4. **Automate the sends.** Let the CRM trigger each email from what the customer does, instead of sending them by hand.
+
+!!! example "Two segments, two campaigns"
+
+    - **Curly hair.** Curl-enhancing shampoos, conditioners and styling creams, with tips on maintaining curls and an offer on a curl care bundle.
+    - **Dry hair.** Moisturizing shampoos, conditioners and deep-conditioning treatments, with tips on treating dry hair and a discount on a hydrating set.
+
+!!! tip "More on the strategy"
+
+    [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) covers how to plan the segments and the campaigns around them.
+
+---
+
+This article explains how to add customer tags to a quiz, and how to use them to segment your audience and send targeted emails.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Navigate to the Quiz builder**: Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
-2. **Access choice settings**: Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) by clicking on any choice in your quiz.
-3. **Add customer tags**: In the choice settings, find the `Customer Tags` section.
+1. **Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/).** Click `Customize` on the quiz you want to tag.
+2. **Click a choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
+3. **Find the `Customer Tags` section.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
-    - Use the search bar to search for existing tags or create new ones. 
+4. **Use the search bar to find a tag you already created.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
-    - Type the tag name and press `Create new tag` to create it. 
-    - You can add multiple tags to a single choice.
+5. **To add a new tag, type the name and click `Create new tag`.** One choice can carry several tags.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
-    !!! tip
-        If you want all the quiz takers to have a specific tag, you can add it to the all the choices in one of the questions in the quiz. This way no matter which choice they select, they will have the tag.
-4. **Save changes**: Click the "Save" button to apply your changes. Tags will be automatically applied to customers when they select the corresponding choice.
-5. **Preview the quiz**: Preview the quiz to verify that the tags have been added correctly to the quiz responses.
-    !!! note
-        Tags sent to responses will also be forwarded to any connected [integrations](/reference/quiz-builder/connect-integrations/).
-        For example, if integrated with Shopify Customers List, customer tags will be sent to customer profiles in Shopify. If quiz is integrated with Klaviyo, customer tags will be sent to Klaviyo, etc.
-1. **Connecting Your Quiz:** Within the [Quiz settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
-For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
-Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
-!!! example "Example of a segment definition"
-    If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
-Any profile that has a tag will be included in the segment automatically.
-!!! warning
-    In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
-Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
-1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-    !!! example
-        - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-        - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-3. Use automation to send timely, relevant emails based on their behavior.
+    !!! tip "Give every customer the same tag"
+        To put one shared tag on every customer, add it to all the choices of a single question. Whichever choice they select, the tag follows.
+6. **Click `Save`.** The quiz adds the tag whenever a customer selects that choice.
+7. **Preview the quiz, and check that the tags appear on the response.**
+    !!! note "The tags reach your integrations too"
+        Every tag on a response is forwarded to the services connected in the [Integrations](/reference/quiz-builder/connect-integrations/) tab. Connect Shopify Customers and the tags land on the Shopify customer profile. Connect Klaviyo and they land on the Klaviyo profile.
+1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.**
+2. **Find the service you use and connect it.** The quiz connects directly to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/), [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
+    !!! info "Any other service"
+        [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+3. **Follow the instructions the service shows on screen.**
+Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
 
 
@@ -15965,238 +15916,168 @@ description: "Step-by-step guide to using display logic in RevenueHunt to show/h
 icon: material/eye-check-outline
 ---
 
-# How to use Display Logic
+# How to Use Display Logic
 
-[Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make elements visible or hidden on the results page based on conditional logic rules.
+[Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides part of the [results page](/reference/quiz-builder/results-page/), from what the customer answered.
 
-!!! info "Use Display Logic to:"
+You build one results page that holds the content for every outcome. Display logic then decides which parts of it each customer sees.
 
-    - Show or hide content on the results page based on customer's responses to questions.
-    - Show or hide content on the results page based on the score of a variable (custom scoring quiz, personality-type quiz).
-    - Show or hide content on the results page based on the variable with the highest score (personality-type quiz).
+## Write a display logic rule
 
-In this article, we provide a clear, step-by-step guide on how to use Display Logic, its workings, and examples to illustrate its functionality.
+## Add scores and variables to choices
 
-## Results page
+## Examples
 
-In the [Results Page](/reference/quiz-builder/results-page/) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+### Show content from an answer
 
-## Add display logic to block / section
+### Show content from the winning variable
 
-## How to add scores or variables to choices
-
-
-## Examples and applications
-
-### Display logic based on customer answers
-
-### Display logic based on winning variable
-
-### Display logic based on custom score
+### Show content from a score
 
 ## Additional resources
 
-Understanding conditional logic can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
+Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
+
+See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the logic that runs inside the quiz itself, rather than on the results page.
 
 ---
-This guide explains what is Display Logic and how to use it in Product Recommendation Quiz to show or hide content based on customer's responses to questions, the score of a variable (custom scoring quiz, personality-type quiz), or the variable with the highest score (personality-type quiz).
+
+This article explains how to write display logic rules, and works through the answer, variable and score examples.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=3YY9lVuHYozbUYVq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-??? question "What content be added to the Results page?"
-    You can add different types of building blocks to your results page:
-    - **Section** - Adds a new section to your page, ideal for grouping content together.
-    In each section, you can add the following blocks:
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
-    - **Text Block** - Adds a new text block to your page, ideal for adding and formatting text, lists, and links.
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-    - **Video Block** - Adds a video block into your page. You can upload your own video from the Shopify ContentLibrary.
-    - **Button Block** - Adds a button block into your page. You can add a link to the button.
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products, product variants or product collections.
-With Display logic you can make sections visible or hidden based on customer's responses.
-1. **Find a section**: Start by identifying or adding the section you wish to add Display logic to. 
-2. **Open Display logic settings**: Click on the section and on the right-hand side identify the `Display logic`.
+A rule sits on a section, so it controls every block in that section at once.
+!!! info "A rule can read"
+    - The answer a customer gave to a question.
+    - The score of a variable, in a scoring quiz or a personality-type quiz.
+    - The variable with the highest score, in a personality-type quiz.
+This article explains how to write a rule, how to score the choices a rule reads, and works through three examples.
+1. **Open the [Results page](/reference/quiz-builder/results-page/) and select the section you want to control.** Add the section first if it does not exist yet.
+2. **Find `Display logic` in the section settings on the right.**
     ![quiz builder results page block menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
-3. Next, select `+ Add logic condition (OR)` to set up the first Display logic rule.
-    ---
-    **Display logic operators**
-    `+ Add condition (OR)` - Adds a new OR display logic rule.
-    `+ Add condtion (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-    `bin` - Delete the current Logic rule.
-    `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
-    `Default` - Select whether this section should be `Shown` or `Hidden` by default.
-    ---
-    There are three types of Display logic rules you can choose from:
-    ---
-    **Type 1: IF The response to the question...**
-    Then the Display logic rules follow the following format:
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN section is Visible** 
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-    !!! example "Example 1"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
-        In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
-    ---
-    **Type 2: IF The score of the variable...**
-    Then the Display logic rules follow the following format:
-    - **IF The score of the variable** 
-    - **score** pick the variable from a dropdown list
-    - **is equal to**/ **is not equal to** / **is greater than**/ **is less than** / **is greater than or equal to** / **is less than or equal to** pick a choice from the dropdown list
-    - **Number** / **Another variable** pick a choice from the dropdown list
-    - **0** / **1** / **2** / **other numerical value** type a value in the input field
-    - **THEN section is Visible** 
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-    !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
-    !!! example "Example 2"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
-        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
-    ---
-    **Type 3: IF the variable with the highest score...**
-    Then the Display logic rules follow the following format:
-    - **IF the variable with the highest score** 
-    - **score** pick the variable from a dropdown list
-    - **THEN section is Visible**
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-    !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
-    !!! example "Example 3"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
-        In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
-4. **Preview and Adjust**: Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
+3. **Click `+ Add logic condition (OR)`.**
+4. **Pick what the condition reads.** The dropdown offers the response to a question, the score of a variable, or the variable with the highest score.
+5. **Complete the condition and leave the rule set to `THEN section is Visible`.**
+6. **Set `Default visibility` to `Hidden`.** The section then appears only when the rule is true.
+7. **Click the top-right `Save` button, then preview the quiz and answer it as a customer would.**
+??? info "The buttons in the Display logic panel"
+    | Button | What it does |
+    |---|---|
+    | `+ Add condition (OR)` | Adds another rule. The section shows when any one rule is true |
+    | `+ Add condition (AND)` | Adds a second test to the current rule. Both tests must be true |
+    | `bin` | Deletes the current rule |
+    | `Default` | Sets the section to `Shown` or `Hidden` before any rule is true |
+    Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
+!!! example "A rule on an answer"
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+    `IF the response to` **Question 4, SKIN TYPE**, `is` **Oily all over**, `THEN section is Visible`. `Default visibility` is `Hidden`.
+    The section appears for customers who chose `Oily all over`, and stays hidden for everyone else.
+!!! example "A rule on the score of a variable"
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
+    `IF the score of the variable` **dry** `is greater than or equal to` **5**, `AND IF the score of the variable` **dry** `is less than or equal to` **7**, `THEN section is Visible`.
+    The section appears for a `dry` score of 5, 6 or 7, and stays hidden otherwise.
+!!! example "A rule on the winning variable"
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
+    `IF the variable with the highest score` `is` **dry**, `THEN section is Visible`.
+    The section appears for customers whose highest score is `dry`, and stays hidden otherwise.
+!!! note "Where the scores come from"
+    A score belongs to a choice. You set it in the [Questions](/reference/quiz-builder/questions/) tab, under [Choice settings](/reference/quiz-builder/questions/#choice-settings). See [Add scores and variables to choices](#add-scores-and-variables-to-choices).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=EoRzoYJ04e48VsJu&amp;start=96" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
-To add scores or variables to choices, follow these steps:
-1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-2. Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
-3. Find the `Scores and calculations` section.
-4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
+A variable turns the choices a customer makes into a number. Display logic reads that number, which is how a scoring quiz and a personality-type quiz work.
+1. **Open the [Quiz builder](/reference/quiz-builder/) and add the `Multiple-choice questions` your quiz needs.** For a skin type quiz, ask about age, skin condition and concerns.
+2. **Click a choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
+3. **Find the `Scores and calculations` section.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
-    !!! example
+4. **Set the value of the built-in `score` variable with the up and down arrows.** Negative values are allowed.
+    !!! example "Scoring one question"
         ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
-        - For choice one, set the score to 1.
-        - For choice two, set the score to 2.
-        - For choice three, set the score to 3.
-5. To create a new variable, click on the `Search or create variable` search bar and start typing the name of the variable you want to create (e.g. `dry skin` or `variable1`). 
-6. Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
-     ![how to add scores or variables to choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
-7. Once a new variable is created, you can assign a score to it.
-8. Repeat the process for each choice in that question and move on to the next question in your quiz.
-!!! tip
-    To learn how to use these variables to set up a personality type quiz, dosha quiz, scoring quiz, etc. check out the following articles:
-    - [How to Use Display logic](/how-to-guides/use-display-logic/)
+        The first choice scores 1, the second scores 2, and the third scores 3.
+5. **To add a variable of your own, type its name in the `Search or create variable` bar.** For example `dry skin` or `variable1`.
+6. **Click `Create a new variable "xxx"` in the dropdown below the bar.**
+    ![how to add scores or variables to choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
+7. **Give the new variable a score on this choice.**
+8. **Repeat for every choice in the question, then move on to the next question.**
+!!! tip "Quizzes built on scores"
     - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
     - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=w8QWpvi3Ga5dbtxl&amp;start=11" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-**Scenario**
-You want to show a section based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results page. This individualized response is made possible by Display logic.
-**Implementation**
-**Step 1: Add sections to the Results page**
-The quiz has four sections on the Results page for different skin types: Dry Skin, Normal Skin, Oily Skin, and Combination Skin. Without display logic, all sections would be visible at once.To show only one section based on user responses, display logic must be applied to each section.
-**Step 2: Configuring Display logic for Dry Skin Section**
-1. *Find the Dry Skin Section*: Locate the section on the Results page that corresponds to Dry Skin.
-2. *Open Display logic Settings*: Click the `conditional logic / tree icon` button to open the Display logic menu.
-3. *Add Display logic Rule*: Select `+ Add logic condition (OR)` to create a new Display logic rule.
-4. *Set Up the Rule*:
-    - **If** `The response to question` - Choose the `question` that determines the skin type.
-    - **is** - Select the choice that corresponds to `Dry Skin`.
-    - **THEN section is VISIBLE**
-    - Choose `Default visibility` to be `Hidden`.
+A skincare quiz asks for the skin type in question 4, and the results page holds one section per type: dry, normal, oily and combination. Without display logic, all four appear at once.
+1. **Add one section per skin type to the [Results page](/reference/quiz-builder/results-page/).** Give each one its own heading, text and product block.
+2. **Select the dry skin section and find `Display logic`.**
+3. **Click `+ Add logic condition (OR)`.**
+4. **Set the rule to `IF the response to` the skin type question `is` the dry skin choice.**
+5. **Leave `THEN section is Visible` and set `Default visibility` to `Hidden`.**
     ![display logic example](/images/how_to_shopifyv2_use_display_logic_based_on_answers_example1.png)
-**Step 3: Repeat the process for other skin types:** 
-- Normal Skin: Visible if the response is "not too oily and not too dry".
-- Oily Skin: Visible if the response is "oily all over".
-- Combination Skin: Visible if the response is "oily in certain spots".
-**Step 4: Preview and Adjust**
-Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup. Test by selecting different skin types to ensure only the relevant section is displayed.
-**Advanced Display logic Conditions**
-You can set multiple conditions for display logic: 
-- Example: A section can be visible if the skin type is "dry and tight" or if the age group is "teens".
-- Another example: A section can be visible if both conditions are met: skin type is "dry and tight" and skin concerns include "acne".
+6. **Repeat for the other three sections, each on its own choice.**
+    | Section | Shown when the answer is |
+    |---|---|
+    | Normal skin | not too oily and not too dry |
+    | Oily skin | oily all over |
+    | Combination skin | oily in certain spots |
+7. **Click `Save`, then preview the quiz and answer it once per skin type.** Only the matching section should appear each time.
+!!! tip "Rules that read more than one answer"
+    A section can react to several answers. Show it when the skin type is `dry and tight` OR the age group is `teens`. Or show it only when the skin type is `dry and tight` AND the concerns include `acne`.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=G0PM__FcEyQJDtBp&amp;start=189" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-**Scenario**
-You're building a personality-type or Dosha quiz. You want to show a different text and product recommendations based on the winning variable. For examples, if the user chooses mostly A's, B's, C's, etc. a different section with different text and product recommendations is shown.
-**Implementation**
-**Step 1: Add Questions, Choices and Custom Variables**
-The quiz consists of five questions, each with five choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
-!!! tip
-    To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/use-display-logic/#how-to-add-scores-or-variables-to-choices).
-Each answer contributes a score of +1 to the corresponding skin type variable: 
-- Dry skin: `dry +1`    
+A personality-type or dosha quiz sorts the customer into one type. Five questions carry five choices each, and every choice adds a point to one skin type variable.
+- Dry skin: `dry +1`
 - Normal skin: `normal +1`
 - Oily skin: `oily +1`
 - Combination skin: `combination +1`
 - Sensitive skin: `sensitive +1`
 ![how to shopifyv2 use display logic based on variable example1 scores](/images/how_to_shopifyv2_use_display_logic_based_on_variable_example1_scores.png)
-This scoring will help determine the user's skin type based on their responses.
-**Step 2: Add Sections to the Results page**
-The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
-Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
-- **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
-- **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
-Change the `Recommendation system` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
-**Step 3: Add Display logic to the Sections**
-To display the correct section based on the highest scoring variable, follow these steps: 
-1. Go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
-2. Set up the rule like this:
-    - **If** `The variable with the highest score` 
-    - `is` - `dry` 
-    - **THEN this section is VISIBLE**
-    - Set the `Default visibility` to `Hidden`.
+The variable with the most points at the end is the customer's skin type.
+1. **Give every choice its variable and score in [Choice settings](/reference/quiz-builder/questions/#choice-settings).** See [Add scores and variables to choices](#add-scores-and-variables-to-choices).
+2. **Add one section per skin type to the [Results page](/reference/quiz-builder/results-page/).** Each holds a heading, text and a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections).
+3. **Decide how each product block picks its products.**
+    !!! info "Two recommendation systems"
+        - **Fixed Recommendations** show the products you select for that section, whatever the customer answered. This suits a personality-type quiz.
+        - **Dynamic Recommendations** rank the products by the upvotes you set in the choice settings.
+        Set this in `Recommendation system`, in the [Product Block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+4. **Open `Display Logic` on the dry skin section and click `+ Add condition (OR)`.**
+5. **Set the rule to `IF the variable with the highest score` `is` `dry`.**
+6. **Leave `THEN this section is VISIBLE` and set `Default visibility` to `Hidden`.**
     ![how to shopifyv2 use display logic based on variable example1 display logic](/images/how_to_shopifyv2_use_display_logic_based_on_variable_example1.png)
-3. For each skin type, set a similar rule for the visibility condition: 
-    - If the highest score is `dry`, show the dry skin section.
-    - If the highest score is `normal`, show the normal skin section.
-    - If the highest score is `oily`, show the oily skin section.
-    - If the highest score is `combination`, show the combination section.
-    - If the highest score is `sensitive`, show the sensitive skin section.
-**Step 4: Save and Test the Setup**
-Publish the changes with the top-right `Save` button to update the preview/live quiz and click `Preview` to test the setup. Select answers that correspond to a specific skin type (e.g., mostly dry skin). Verify that the correct results section is displayed based on the selected answers.
+7. **Repeat for the other four sections, one variable each.**
+    | Section | Shown when the highest score is |
+    |---|---|
+    | Normal skin | `normal` |
+    | Oily skin | `oily` |
+    | Combination skin | `combination` |
+    | Sensitive skin | `sensitive` |
+8. **Click `Save`, then preview the quiz and answer it as one clear type.** Answer mostly dry, and only the dry skin section should appear.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=JG9rNnYpv1aqcdvO&amp;start=269" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-**Scenario**
-You're building a custom scoring or presonality-type quiz. You want to show a different text and product recommendations based on the score of a variable. For examples, if the user's score is above 50, a different section with different text and product recommendations is shown.
-**Implementation**
-**Step 1: Add Questions, Choices and Custom Variables**
-The quiz consists of five questions, each with five choices. Each choice is associated with a [custom score](/how-to-guides/use-display-logic/#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
-!!! tip
-    To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/use-display-logic/#how-to-add-scores-or-variables-to-choices).
-Each answer contributes a score of +1 to the corresponding skin type variable: 
+A scoring quiz adds the choices up into one number, and each band of the total gets its own section. Five questions carry five choices each, worth 1 to 5 points.
 - First choice: 1 point
 - Second choice: 2 points
 - Third choice: 3 points
 - Fourth choice: 4 points
 - Fifth choice: 5 points
-The total score helps determine the user's skin type based on their selections.
 ![how_to_shopifyv2_use_display_logic_based_on_score_example1](/images/how_to_shopifyv2_use_display_logic_based_on_score_example1.png)
-**Step 2: Add Sections to the Results page**
-The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
-Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
-- **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
-- **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
-Change the `Recommendation system` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
-**Step 3: Add Display logic to the Sections**
-To display the correct section based on the total score, follow these steps: 
-1. Go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
-2. Set up the rule like this:
-    - **If** `The score of a variable`  select the variable `score` 
-    - `is greater than or equal to` - `5`
-    - **AND**
-    - **IF** `The score of a variable`  select the variable `score` 
-    - `is less than or equal to` - `7`
-    - **THEN this section is VISIBLE**
-    - Set the `Default visibility` to `Hidden`.
+The total runs from 5 to 25, and the band it lands in is the customer's skin type.
+1. **Give every choice its points in [Choice settings](/reference/quiz-builder/questions/#choice-settings).** See [Add scores and variables to choices](#add-scores-and-variables-to-choices).
+2. **Add one section per band to the [Results page](/reference/quiz-builder/results-page/).** Each holds a heading, text and a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections).
+3. **Decide how each product block picks its products.**
+    !!! info "Two recommendation systems"
+        - **Fixed Recommendations** show the products you select for that section, whatever the customer answered. This suits a personality-type quiz.
+        - **Dynamic Recommendations** rank the products by the upvotes you set in the choice settings.
+        Set this in `Recommendation system`, in the [Product Block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+4. **Open `Display Logic` on the dry skin section and click `+ Add condition (OR)`.**
+5. **Set the first test to `IF the score of a variable` `score` `is greater than or equal to` `5`.**
+6. **Click `+ Add condition (AND)`, then set the second test to `is less than or equal to` `7`.**
+7. **Leave `THEN this section is VISIBLE` and set `Default visibility` to `Hidden`.**
     ![how_to_shopifyv2_use_display_logic_based_on_score_example1_logic](/images/how_to_shopifyv2_use_display_logic_based_on_score_example1_logic.png)
-3. For each skin type, set a similar rule for the visibility condition: 
-    - Show  dry skin section if score is between 5 and 7 (inclusive). Condition: `score >= 5 && score <= 7`
-    - Show normal skin section if score is between 8 and 12 (inclusive). Condition: `score >= 8 && score <= 12`
-    - Show oily skin section if score is between 13 and 17 (inclusive). Condition: `score >= 13 && score <= 17`
-    - Show combination skin section if score is between 18 and 22 (inclusive). Condition: `score >= 18 && score <= 22`
-    - Show sensitive skin section if score is between 23 and 25 (inclusive). Condition: `score >= 23 && score <= 25`
-**Step 4: Save and Test the Setup**
-Publish the changes with the top-right `Save` button to update the preview/live quiz and click `Preview` to test the setup. Select answers that correspond to a specific skin type (e.g., mostly dry skin). Verify that the correct results section is displayed based on the selected answers.
+8. **Repeat for the other four bands.**
+    | Section | Shown when |
+    |---|---|
+    | Dry skin | `score >= 5 && score <= 7` |
+    | Normal skin | `score >= 8 && score <= 12` |
+    | Oily skin | `score >= 13 && score <= 17` |
+    | Combination skin | `score >= 18 && score <= 22` |
+    | Sensitive skin | `score >= 23 && score <= 25` |
+9. **Click `Save`, then preview the quiz and answer it to land in each band.** Only the matching section should appear each time.
+!!! warning "Leave no gap between the bands"
+    Every possible total needs a band, or a customer lands on a results page with nothing on it. Run the lowest band down to the lowest score the quiz can produce, and the highest band up to the highest.
 
 
 
@@ -16210,48 +16091,48 @@ icon: material/at
 description: "Learn how to use information recalls to personalize RevenueHunt quiz with dynamic content."
 ---
 
-# How to Use Information Recalls / Content Dynamic Source
+# How to Use Information Recalls
 
-Information recalls / Content Dynamic Source allow you to reuse participants' previously entered responses, such as their name or quiz answers, in subsequent questions, results pages, or follow-up communications. This personalizes the quiz experience by making it more relevant and engaging for the participant.
+An information recall pulls an answer the customer already gave into text shown later. The quiz can then greet them by name, or repeat back what they told you.
 
 ![how to use information recalls example filled](/images/how_to_use_information_recalls_example_filled.png)
 
-## Adding information recalls / content dynamic source
+## Add a recall
 
-## Where to add information recalls
+## Where a recall can go
 
 ---
-This article explains how to use information recalls / Content Dynamic Source in your quiz to recall user's answers and personalize the quiz experience for your customers.
+
+This article explains how to recall an answer the customer already gave, and where in a quiz a recall can go.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/59yJg2sC9Gg?si=FDiFuWq6fG1ED2t8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-Content Dynamic Source allow you to recall any answer the customer provided in the quiz and used in any Text Block or a Heading Block on the results page.
-1. **Initiate Content Dynamic Source**: While crafting your quiz questions, results page or setting up follow-up communications, open the text or heading [`block settings`](/reference/quiz-builder/questions/#block-settings).
-2. To add an dynamic content source open a Text or a Headign block and click the Dynamic content source icon.
+In this version the feature is called `Dynamic content source`. It works in any Text block or Heading block, in a question and on the results page.
+1. **Open the Text block or Heading block you want to personalize.** Its [block settings](/reference/quiz-builder/questions/#block-settings) open on the right.
+2. **Click the `Dynamic content source` icon.**
     ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
-    - Information Recalls cannot be added to the first question in the quiz.
-2. **Select From Available Data**: Upon triggering the dynamic source feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
+3. **Pick a question from the dropdown.** It lists every question the customer has answered up to that point in the quiz.
     ![how to use information recalls clicked](/images/how_to_resultspage_dynamiccontent2.png)
-3. **Implement Dynamic Source**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-    ![how to use information recalls example](/images/how_to_information_recalls_shopify_v2_example.png)
-Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
-- **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
-- **Results page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
-- **Choice Labels:** Personalize answer options based on previous responses (e.g., "Hi {{ name }}, which option suits you best?").
-- **Slot Titles & Descriptions:** Customize product recommendation headers with quiz data.
-- **No Recommendations Message:** Create personalized fallback messages when no products match.
-!!! tip "Advanced: Liquid Templates"
-    For more advanced personalization, you can use **Liquid templates** directly in your content. Liquid gives you access to all quiz answers, variable scores, and more through the `quiz` object.
-    **Example:**
+4. **Click the top-right `Save` button.**
+The block now shows a placeholder. The customer sees their own answer in its place.
+![how to use information recalls example](/images/how_to_information_recalls_shopify_v2_example.png)
+!!! note "The first question cannot hold a recall"
+    A recall shows an answer the customer has already given, and on the first question there is nothing yet to show.
+- **A later question.** Greet the customer by name, or put an earlier answer into the wording of the next one.
+- **The results page.** Write the recommendation around what the customer told you.
+- **A choice label.** Personalize the options themselves, such as `Hi {{ name }}, which of these suits you best?`.
+- **A slot title or description.** Head a group of recommendations with the customer's own answer.
+- **The no recommendations message.** Say something specific when nothing matched.
+!!! tip "Liquid goes further than a recall"
+    A recall inserts one answer. A [Liquid template](/reference/quiz-builder/questions/#liquid-templates) reads every answer and every variable score through the `quiz` object, and changes the text on what it finds.
     ```liquid
     {% if quiz.variables.highest == 'dry' %}
       Perfect for your dry skin type!
     {% endif %}
     ```
-    For a complete reference of all available variables and examples, see:
-    - [Questions - Dynamic Content & JavaScript Reference](/reference/quiz-builder/questions/#dynamic-content-javascript-reference)
-    - [Results page - Dynamic Content & JavaScript Reference](/reference/quiz-builder/results-page/#dynamic-content-javascript-reference)
+    - [Questions: dynamic content and JavaScript reference](/reference/quiz-builder/questions/#dynamic-content-javascript-reference)
+    - [Results page: dynamic content and JavaScript reference](/reference/quiz-builder/results-page/#dynamic-content-javascript-reference)
 
 
 
@@ -16267,157 +16148,144 @@ icon: material/directions-fork
 
 # How to Use Jump Logic
 
-[Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. 
+[Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) sends a customer somewhere other than the next question, from the answer they just gave. One quiz can hold several routes, and each customer travels only their own.
 
-!!! info "Use Jump Logic to:"
+!!! info "Use jump logic to"
 
-    - Send users to different follow-up questions or content based on their answers.
-    - Branch the quiz based on the user's answers.
-    - Send users to different results pages based on their answers.
-    - Send users to an external URL based on their answers.
+    - Send the customer to a different follow-up question.
+    - Branch the quiz into separate paths.
+    - Send the customer to a different results page.
+    - Send the customer to an external URL.
 
-In this article, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
+!!! example "What this looks like in a quiz"
 
+    A skincare quiz opens by asking the skin type: dry, normal, combination or oily. Jump logic sends each answer on to the questions that matter for that skin type, and past the ones that do not.
 
-??? question "What is Jump Logic?"
+!!! warning "Do not mix jump logic and skip logic in one quiz"
 
-    Jump Logic operates on conditional statements, similar to the `IF-THEN-ELSE` logic found in programming. It enables the quiz creator to direct participants to different follow-up questions or content based on their responses to previous questions. This is particularly useful in creating quizzes that adapt to the user's input, offering a personalized path through the quiz.
+    Each of them rewrites the order of the questions. Together they produce paths that neither rule intended. See [Jump logic and skip logic](#jump-logic-and-skip-logic).
 
-    For instance, in a skincare consult quiz, you may start with a question about the participant's skin type (Dry, Normal, Combination, or Oily). Based on the answer, Jump Logic can direct the participant to questions specifically relevant to their skin type, thereby skipping irrelevant questions and tailoring the quiz experience.
+## The conditional logic tab
 
-!!! warning
+## Add a jump logic rule
 
-    It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
+Every rule reads the same way: **IF** the response to a question **is** a certain choice, **THEN go to** a destination. A destination is another question, a results page or a URL.
 
-## Conditional logic
+## Examples
 
-## Add jump logic to questions
+### Branch the quiz
 
-Jump Logic allows you to route customers to different questions based on their responses.
+### Send customers to different results pages
 
-!!! info
+### Send customers to an external URL
 
-    All the Jump Logic rules follow the same format:
+## Jump logic and skip logic
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN go to:** pick a slide from the dropdown list or add a URL 
+Both rules change which question comes next, and they go about it differently.
 
-## Examples and applications
+| Rule | What it does |
+|---|---|
+| Jump logic | Sends the customer to a named destination, so the quiz splits into separate paths |
+| Skip logic | Leaves the path alone, and drops the questions that do not apply |
 
-### Branching the quiz
+Use jump logic when the paths diverge and stay apart. Use [skip logic](/how-to-guides/use-skip-logic/) when there is one path, and some questions on it are irrelevant to some customers.
 
-### Sending users to different results pages
-
-### Sending users to an external URL
-
-### Jump logic vs. skip logic
-
-While Jump Logic and Skip Logic may seem similar, they serve distinct purposes. **Jump Logic** creates separate, divergent paths for participants based on their answers, effectively jumping to different questions or content. **Skip Logic**, on the other hand, determines if a question should be presented or skipped, maintaining a single path but customizing the questions seen by the participant. 
-
-!!! warning
-
-    It's not recommended to use both Jump Logic and Skip Logic on one quiz.
+Do not use both in one quiz.
 
 ## Additional resources
 
-Understanding conditional logic, the foundation of Jump Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
+Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
+
+See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
-This article explains how to use Jump Logic in the quiz to send users to different follow-up questions, results pages or external URLs based on their answers.
+
+This article explains how to write jump logic rules, and how to branch a quiz with them.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=hcgIntH-XecaQxua" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ![quiz builder conditional logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
-In the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
-??? question "How to navigate the Conditional logic tab?"
+The [Conditional logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the right, and the tree on the left redraws itself as you add them.
+Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
+??? question "Moving around the logic tree"
     ![quiz builder conditional logic preview options](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
-    **+** - Zoom in on the logic tree preview.
-    **-** - Zoom out on the logic tree preview.
-    **[]** - Center the logic tree preview and fit into view.
-    🔒 - Toggle interactivity. Lock or unlock the interactivaity of hte preview.
-    Drag the logic tree with your mouse left button to navigate to specific branches.
-1. Open the [Quiz builder](/reference/quiz-builder/).
-2. **Open Jump logic**: Navigate to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
-3.  **Add Jump logic**: Click `+ Add another rule` to add a new Jump logic rule for the selected question. Here, you'll define your conditional statement using the template:
-    - IF the response to `question X`
-    - IS EQUAL TO `choice Y`
-    - THEN go to `question Z`
-    !!! example
+    | Control | What it does |
+    |---|---|
+    | `+` | Zooms in |
+    | `-` | Zooms out |
+    | `[]` | Centers the tree and fits it to the view |
+    | `lock` | Locks the preview, so a stray drag cannot move it |
+    Drag the tree with the left mouse button to reach a particular branch.
+1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
+2. **Select the question the rule starts from.**
+3. **Open the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.**
+4. **Click `+ Add another rule (OR)`.**
+5. **Pick the choice the rule reads, then pick the destination under `THEN go to`.**
+    !!! example "One rule"
         ![quiz builder conditional logic jump logic rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
-        In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY".
-4. **Multiple Conditions:** You can add more than one Jump logic rule to a single question by clicking on the big `+ Add another rule (OR)` button in the bottom right corner. This allows for complex paths that can direct participants to various follow-up questions based on their specific answers.
-    - **+ Add another rule (OR)** - Add another Jump logic rule. Adds a new OR logical rule.
-        !!! example
-            ![quiz builder conditional logic jump logic OR rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
-            In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY" but if the user chooses a choice "Oily in certain spots" in Question 4 "SKIN TYPE" then they will be redirected to Question 6 "SKIN TYPE: COMBINATION".
-    - **bin** - Delete the current Jump logic rule.
-    - **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-        !!! example
-            ![quiz builder conditional logic jump logic AND rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
-            In the example, **only if** a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" **and** a choice "Teens and 20's" in Question 3 "AGE GROUP" they will be redirected to Question 8 "SKIN TYPE: OILY".
-    - **Default destination** - Select a slide or URL where the user will be always redirected after this slide.
-        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
-5. **Preview and Adjust:** Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
+        A customer who answers `Oily all over` to Question 4, SKIN TYPE, goes to Question 8, SKIN TYPE: OILY.
+6. **Add a rule for every other answer that needs its own destination.**
+    !!! example "Two rules on one question"
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
+        `Oily all over` sends the customer to Question 8, SKIN TYPE: OILY. `Oily in certain spots` sends them to Question 6, SKIN TYPE: COMBINATION.
+7. **Set a `Default destination` for the customers no rule catches.**
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
+8. **Click the top-right `Save` button, then preview the quiz and answer it as a customer would.**
+??? info "The buttons in the Jump logic panel"
+    | Button | What it does |
+    |---|---|
+    | `+ Add another rule (OR)` | Adds another rule to the question, with its own condition and destination |
+    | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
+    | `bin` | Deletes the current rule |
+    | `Default destination` | The destination for a customer that no rule catches |
+    Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
+    !!! example "An AND rule"
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
+        The customer reaches Question 8, SKIN TYPE: OILY, only by answering `Oily all over` to Question 4 and `Teens and 20's` to Question 3.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=Ud8s2dtSN0uJECkC&amp;start=13" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-Jump logic allows you to branch the quiz based on the participant's responses.
-For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different question or content.
+A skincare quiz asks for the skin type, shows one statement of four, and then carries on with the rest of the questions.
 ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_default_destination.png)
-**How to set this up?**
-**Step 1: Add Questions and Follow-up Statements** Create a quiz with a main question and follow-up questions or statement. For example, a skincare quiz with a skin type question and four different texts based on user responses.
-![how to use jump logic](https://loom.com/i/11c8cff2e27a451a8c8b40b348de4a42?workflows_screenshot=true)
-**Step 2: Add Jump logic** Add Jump logic to the main question. Navigate to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab. Select the main question, in this example it's the skin type question (Question 4).
-Add Jump logic rules for each skin type response, like the following example:
-![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png){width="300"}
-- Dry and tight all over → Dry skin type statement
-- Not too oily, not too dry → Normal skin type
-- Oily in certain spots → Combination skin type
-- Oily all over → Oily skin type.
-**Step 3: Adjust Default Destinations for Each Statement** Change default destinations for each skin type text.
-![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule2.png){width="300"}
-- Dry skin type → Next question (skin concerns)
-- Combination skin type → Next question (skin concerns)
-- Normal skin type → Next question (skin concerns)
-- Oily skin type → Next question (skin concerns).
-**Step 4: Save & Test the Logic** Save changes with the top-right `Save` button and `Preview` the quiz. Test each skin type option to ensure correct text is displayed.
+1. **Add the skin type question, and one statement slide per skin type.**
+    ![how to use jump logic](https://loom.com/i/11c8cff2e27a451a8c8b40b348de4a42?workflows_screenshot=true)
+2. **Open the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
+3. **Add one rule per answer, each pointing at its own statement.**
+    ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png){width="300"}
+    | Answer | Destination |
+    |---|---|
+    | Dry and tight all over | Dry skin statement |
+    | Not too oily, not too dry | Normal skin statement |
+    | Oily in certain spots | Combination skin statement |
+    | Oily all over | Oily skin statement |
+4. **Select each statement in turn, and set its `Default destination` to the next question.**
+    ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule2.png){width="300"}
+    Without this the branches never rejoin, and a customer who read the dry skin statement carries on into the normal skin statement.
+5. **Click the top-right `Save` button, then answer the quiz once per skin type.**
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-With Jump logic, you can send users to different results pages based on their answers.
-**Implementation**
-1. Set up Multiple Results pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
-2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
-3. Pick the question you want to add redirect logic to.
-4. Click on that question and open the `Jump Logic` tab.
-5. Click `+ Add another rule(OR)` and set up a redirection rule.
-    !!! example
-        IF the response to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
-        OR
-        IF the response to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
-        OR
-        IF the response to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
-        OR
-        IF the response to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
-6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.   
+1. **Create the results pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+2. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
+3. **Open the `Jump Logic` section and click `+ Add another rule (OR)`.**
+4. **Point each answer at its own results page.**
+    !!! example "One results page per skin type"
+        | Answer to `Q1: What is your skin type?` | Destination |
+        |---|---|
+        | Dry | Results page 1 |
+        | Oily | Results page 2 |
+        | Normal | Results page 3 |
+        | Combination | Results page 4 |
+5. **Click the top-right `Save` button.**
 ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
-!!! tip
-    Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=M8ps59EfgFulqM9z&amp;start=123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-With Jump logic, you can send users to an external URL based on their answers.
-**Implementation**
-1. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
-2. Pick the question you want to add redirect logic to.
-3. Click on that question and open the `Jump Logic` tab.
-4. Click `+ Add another rule(OR)` and set up a redirection rule.
-    !!! example
-        IF the answer to the question `Q1: What is your skin type?` is `Dry`, then redirect the user to the URL `https://yourstore.com/dry-skin`.
-5. To always redirect users to a specific page after a certain question, you can set up a `Default destination` rule.
-    !!! example
-        IF the answer to the question `Q1: What is your skin type?` is `Dry`, then `Link to URL` and paste the desired URL, for example `https://yourstore.com/dry-skin`.
-6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.
+1. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the destination.**
+2. **Open the `Jump Logic` section and click `+ Add another rule (OR)`.**
+3. **Pick the choice the rule reads, then choose `Link to URL` and paste the address.**
+    !!! example "One rule"
+        A customer who answers `Dry` to `Q1: What is your skin type?` goes to `https://yourstore.com/dry-skin`.
+4. **To send every customer to one page after this question, set the `Default destination` to `Link to URL` instead.**
+5. **Click the top-right `Save` button.**
 ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
-!!! tip
-    Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+!!! tip "Other ways to redirect a quiz"
+    See [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection).
 
 
 
@@ -16433,35 +16301,21 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 # How to Use Markdown Language
 
-## Markdown in Product Recommendation Quiz
-
-### Headings
-
-### Text styling
-
-### Links
-
-### Images
-
-### Videos
-
 ---
-This article explains how to use Markdown language to style your quiz content.
+
+This article explains how to style the text in a quiz, and which Markdown syntax the app understands.
 
 --- Shopify Specific Content ---
 
-The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
-The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
-!!! note "Not available on this platform"
-    The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-!!! note "Not available on this platform"
-    The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-!!! note "Not available on this platform"
-    The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-!!! note "Not available on this platform"
-    The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-!!! note "Not available on this platform"
-    The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
+This version does not use Markdown. Text is styled in the block that holds it, and pictures and videos have blocks of their own.
+| What you want | Where to do it |
+|---|---|
+| Bold, italic, underline or strikethrough | The toolbar of a Heading block or a Text block |
+| A link inside a sentence | The same toolbar |
+| A picture | An [Image block](/how-to-guides/customize-quiz-design/#adding-images-and-videos) |
+| A video | A [Video block](/how-to-guides/customize-quiz-design/#adding-images-and-videos) |
+| Text size and alignment | The [block settings](/reference/quiz-builder/questions/#block-settings) |
+See [Styling quiz text](/how-to-guides/customize-quiz-design/#styling-quiz-text) for every option a block offers.
 
 
 
@@ -16478,145 +16332,86 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 # How to Use Quiz Copilot
 
 ---
-This article explains how to use the Quiz Copilot feature in RevenueHunt app for Shopify.
+
+This article explains how to open Quiz Copilot, and what to ask it for.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=7AmBxgHLFOsQTYP-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-This article explains how to use the Quiz Copilot feature in RevenueHunt. It covers the process of building quizzes, customizing templates, and publishing quizzes on your website with the help of Quiz Copilot.
-Quiz Copilot is an AI-assistant that is based on our RevenueHunt documentation. 
-!!! info "Quiz Copilot can help you with:"
+Quiz Copilot is an AI assistant inside the app. It has read the RevenueHunt documentation, so it can answer questions about the app, and it can change your quiz for you.
+!!! info "Quiz Copilot can help you with"
     - Setting up your first quiz with recommendations
-    - Explaining how to use the quiz builder and its features
+    - Explaining the quiz builder and its features
     - Explaining how to publish the quiz on your website
-    - Creating a quiz from a copy/pasted text
+    - Creating a quiz from text you paste in
     - Creating and editing a Klaviyo email template
     - Linking products to choices in the quiz
-    - Analyzing & updating quiz logic
-    - Analyzing & updating product recommendations
-    - Analyzing & updating quiz flow
+    - Analyzing and updating quiz logic
+    - Analyzing and updating product recommendations
+    - Analyzing and updating quiz flow
     - Improving engagement
-    - Improving quiz completion rate
-    - Translating a quiz to another language
-    - Styling the quiz with Custom CSS code
-    - Styling the quiz with Custom JavaScript code
-    - Styling Result Emails send via the RevenueHunt app
-    - and more!
+    - Improving the quiz completion rate
+    - Translating a quiz into another language
+    - Styling the quiz with custom CSS
+    - Styling the quiz with custom JavaScript
+    - Styling the result emails the app sends
+    - and more
 !!! warning "Quiz Copilot is still being improved"
-    If you have any suggestions or feedback, please let our [support team](/how-to-guides/contact-customer-support/) know.
-## Opening Quiz Copilot
-1. To open Quiz Copilot, go to the [Get support](/reference/dashboard/#support) page.
-2. Click on the `Chat with Quiz Copilot` button.
-3. A new popup window will open for you to type your first message to Quiz Copilot.
-![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
-## Use cases
-Quiz Copilot can help you with many tasks related to quiz creation and publishing. Here are some examples:
-### Example 1: creating a quiz
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. You can request Quiz Copilot to create a quiz. *For example, to determine customer's skin type.*
-3. Quiz Copilot will process your request and may ask additional questions for clarification.
-4. It will then generate a new quiz and provide more information about the quiz it created.
-5. Click 'Preview Quiz' to view the quiz created by Quiz Copilot.
+    Send your suggestions and feedback to the [support team](/how-to-guides/contact-customer-support/).
+**Open Quiz Copilot**
+1. **Go to the [Get support](/reference/dashboard/#support) page.**
+2. **Click `Chat with Quiz Copilot`.**
+3. **Type your first message into the popup window that opens.**
+    ![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
+To drop the current thread and start over, click `New conversation` in the top-right corner of the popup.
+**How a request usually goes**
+Whatever you ask for, the exchange takes the same shape.
+1. **Describe what you want, in your own words.**
+2. **Answer anything Quiz Copilot asks back.** It asks whenever a request could go more than one way.
+3. **Review what it produced, then apply or reject the changes.**
+4. **Keep talking to it, or edit the quiz by hand.** Both work, and you can move between them.
+5. **Click the top-right `Save` button once the quiz is right.** The quiz then appears on your [Dashboard](/reference/dashboard/).
+**What to ask for**
+??? example "Create a quiz"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask for a quiz by what it should work out, such as a customer's skin type. Quiz Copilot writes the questions, the choices and the contents of the results page.
+    Click `Preview Quiz` to open the result in the Quiz builder.
     ![QuizCopilot Preview Quiz](https://loom.com/i/fb247001de6f4b718ce5a073fab8865d?workflows_screenshot=true)
-5. You will be taken to the Quiz builder page, where the newly created quiz will be displayed. You will see the questions, choices and the contents of the results page it created.
-6. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-7. If satisfied with the quiz, save the changes with the `Save` button.
-8. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
-### Example 2: adding recommended products to the quiz
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=H5x9gmYq-jOq2qgP&amp;start=93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can ask Quiz Copilot to add recommended products to the quiz.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to add recommended products to the quiz.
-3. Quiz Copilot will generate a new quiz with the recommended products.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
-### Example 3: styling the quiz
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=KQYqq-uDJHFadH85&amp;start=137" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
-You can ask Quiz Copilot to style the quiz with Custom CSS code.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to make changes to the quiz design.
-3. Quiz Copilot will generate changes and allow you to apply or reject the changes.
-### Example 4: analyze quiz
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=vRzH7pU7Tc5yKzT7&amp;start=25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can ask Quiz Copilot to analyze the quiz and provide insights on how to improve it.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to analyze the quiz.
-3. Quiz Copilot will analyze the quiz and provide insights on how to improve it.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
-### Example 5: ask Copilot about publishing the quiz
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=WP0EOlWlls7XcGE0&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can ask Quiz Copilot to explain how to publish the quiz on your website.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask for instructions on how to publish the quiz.
-3. Quiz Copilot will read our documentation and provide step-by-step guidance and relevant documentation links.
-![QuizCopilot Publishing Quiz](https://loom.com/i/19c8ed7dfe6641e3a4185a53a08a74dd?workflows_screenshot=true)
-### Example 6: building email / Klaviyo template
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-QuizCopilot can assist in creating email or Klaviyo email templates for your quiz email flow.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or go to the [Quiz settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
-2. Paste your desired layout message, and Quiz Copilot will generate the template code.
-    ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
-3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
-4. Paste the generated code directly into an HTML block in your Klaviyo email template.
-### Example 7: translating quiz to another language
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
-Quiz Copilot can also be used to translate a quiz to another language.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to translate your main  quiz to another language.
-3. Quiz Copilot will generate a new quiz copy in the desired language.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-### Example 8: styling the quiz with custom CSS code
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
-**Styling Questions**
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to style the quiz with Custom CSS code.
-3. Quiz Copilot will generate a new CSS code for the quiz.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-OR
-1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
-**Styling Results page**
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to style the results page with Custom CSS code.
-3. Quiz Copilot will generate a new CSS code for the results page.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-OR
-1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
-### Example 9: styling the quiz with custom JavaScript code
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
-**Styling Questions**   
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to style the questions with Custom JavaScript code.
-3. Quiz Copilot will generate a new JavaScript code for the questions.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-OR
-1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
-**Styling Results page**
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to style the results page with Custom JavaScript code.
-3. Quiz Copilot will generate a new JavaScript code for the results page.
-4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-5. If satisfied with the quiz, save the changes with the `Save` button.
-6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-OR
-1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
-### Example 10: analyze quiz response
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=C3dEBqx3SEFfZokm&amp;start=305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can ask Quiz Copilot to analyze a quiz response and provide insights on why certain products were recommended or not.
-1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-2. Ask Quiz Copilot to analyze a quiz response.
-3. Quiz Copilot will analyze the quiz response and provide insights on why certain products were recommended or not.
+??? example "Add recommended products"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=H5x9gmYq-jOq2qgP&amp;start=93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask it to add recommended products to the quiz. It links products to the choices, so the answers drive what the results page shows.
+??? example "Analyze and improve a quiz"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=vRzH7pU7Tc5yKzT7&amp;start=25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask it to analyze the quiz. It reports on the logic, the recommendations and the flow, and suggests what to change. Ask it to make any change you agree with.
+??? example "Analyze one quiz response"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=C3dEBqx3SEFfZokm&amp;start=305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask it to analyze a quiz response. It explains why each product was recommended, and why the others were not.
+??? example "Ask how to publish the quiz"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=WP0EOlWlls7XcGE0&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask how to publish the quiz on your website. Quiz Copilot reads the documentation and answers with the steps and the relevant links.
+    ![QuizCopilot Publishing Quiz](https://loom.com/i/19c8ed7dfe6641e3a4185a53a08a74dd?workflows_screenshot=true)
+??? example "Build a Klaviyo email template"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    1. **Open Quiz Copilot, or go to [Quiz settings](/reference/quiz-builder/quiz-settings/) and then [Integrations](/reference/quiz-builder/quiz-settings/#integrations).** Find the `Klaviyo` integration and click `Edit template with AI`.
+    2. **Paste in the layout you want, and let Quiz Copilot write the template code.**
+        ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
+    3. **Click the `Copy` icon.**
+    4. **Paste the code into an HTML block in your Klaviyo email template.**
+??? example "Translate a quiz"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask it to translate your quiz into another language. It creates a copy of the quiz in that language, and the copy appears on your [Dashboard](/reference/dashboard/) once you save.
+??? example "Style the quiz with custom CSS"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=KQYqq-uDJHFadH85&amp;start=137" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask Quiz Copilot to restyle the quiz, or one part of it, and it writes the CSS. This covers the questions and the results page.
+    There is a second way into the same assistant:
+    - In [Question settings](/reference/quiz-builder/questions/#question-settings), click `✨Get help with custom CSS`.
+    - In [Results page settings](/reference/quiz-builder/results-page/), click `✨Get help with custom CSS`.
+??? example "Style the quiz with custom JavaScript"
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Ask Quiz Copilot to change how the quiz behaves, and it writes the JavaScript.
+    There is a second way into the same assistant:
+    - In [Question settings](/reference/quiz-builder/questions/#question-settings), click `✨Get help with custom JavaScript`.
+    - In [Results page settings](/reference/quiz-builder/results-page/), click `✨Get help with custom JavaScript`.
 
 
 
@@ -16632,147 +16427,134 @@ icon: material/skip-next-outline
 
 # How to Use Skip Logic
 
-[Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. 
+[Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) drops a question when the customer's earlier answers have made it irrelevant. The quiz keeps one path, and each customer walks a shorter version of it.
 
-!!! info "Use Skip Logic to:"
+!!! info "Use skip logic to"
 
-    - Skip questions based on the user's answers.
-    - Show different follow-up questions based on the user's answers to multiple-choice questions that allow multiple selections. For example, if you want to show different follow-up questions based on the (skin, health) concerns the user selects.
+    - Skip a question that does not apply to this customer.
+    - Show only the follow-up questions that match what the customer selected.
 
+!!! example "What this looks like in a quiz"
 
-In this article, we will show you how to set up and use Skip Logic in your quiz, including specific use-cases and step-by-step instructions.
+    A skincare quiz asks about skin concerns and lets the customer pick several. Only the follow-up questions for the concerns they picked are asked, and the rest are skipped.
 
-??? question "What's Skip Logic?"
+!!! warning "Do not mix skip logic and jump logic in one quiz"
 
-    Skip Logic uses IF-AND statements to determine if a question should be skipped based on the user's answers.
+    Each of them rewrites the order of the questions. Together they produce paths that neither rule intended. See [Skip logic and jump logic](#skip-logic-and-jump-logic).
 
+## The conditional logic tab
 
-!!! warning
+## Add a skip logic rule
 
-    It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
+Every rule reads the same way: **IF** the response to an earlier question **is**, or **is not**, a certain choice, **THEN this question is skipped**. A question carrying no rule is always asked.
 
+## Examples
 
-## Conditional logic
+### Show only the statement that matches the answer
 
-## Add skip logic to questions
+### Ask only the follow-up questions the customer needs
 
-Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+!!! info "A quiz built entirely on skipped slides"
 
-!!! info
+    See [Funnel Quiz that Skips Slides](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides).
 
-    All the Skip Logic rules follow the same format:
+### Ask for an email only when the customer offers one
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN this question is skipped**
+## Skip logic and jump logic
 
-## Examples and applications
+Both rules change which question comes next, and they go about it differently.
 
-### Skip questions based on user's answers
+| Rule | What it does |
+|---|---|
+| Skip logic | Leaves the path alone, and drops the questions that do not apply |
+| Jump logic | Sends the customer to a named destination, so the quiz splits into separate paths |
 
-### Show different Follow-up questions after Multiple-selection question
+Use skip logic when there is one path, and some questions on it are irrelevant to some customers. Use [jump logic](/how-to-guides/use-jump-logic/) when the paths diverge and stay apart.
 
-!!! info
-
-    Also check our guide to setting up a [Funnel Quiz that Skips Slides](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides).
-
-
-
-### Filtering email collection based on interest
-
-### Skip logic vs. jump logic
-
-The new app interface gives the option to use Jump Logic and Skip Logic. You shouldn’t combine both types of logic in the same quiz.
-
-- **Jump Logic** creates diverging paths within a quiz based on respondent answers, allowing for a branched experience.
-- **Skip Logic**, in contrast, customizes the path by omitting certain questions based on previous answers, keeping the overall sequence intact but personalized.
-
-
+Do not use both in one quiz.
 
 ## Additional resources
 
-Understanding conditional logic, the foundation of Skip Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
+Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
+
+See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
-This guide explains how to use Skip Logic in your quiz to hide follow-up questions based on the user's answers and includes specific use-cases and step-by-step instructions.
+
+This article explains how to write skip logic rules, and how to hide the questions a customer does not need.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ![quiz builder conditional logic](/images/how_to_use_skip_logic_cond_logic_intro.png)
-In the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
-??? question "How to navigate the Conditional logic tab?"
+The [Conditional logic](/reference/quiz-builder/conditional-logic/) tab is where you branch a quiz. Rules go in the menu on the right, and the tree on the left redraws itself as you add them.
+Without a rule, the quiz runs through the questions in order. Every rule you write is an exception to that order.
+??? question "Moving around the logic tree"
     ![quiz builder conditional logic preview options](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
-    **+** - Zoom in on the logic tree preview.
-    **-** - Zoom out on the logic tree preview.
-    **[]** - Center the logic tree preview and fit into view.
-    🔒 - Toggle interactivity. Lock or unlock the interactivaity of hte preview.
-    Drag the logic tree with your mouse left button to navigate to specific branches.
-1. You can introduce Skip logic into your quiz by opening the [Quiz builder > Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
-2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown.
+    | Control | What it does |
+    |---|---|
+    | `+` | Zooms in |
+    | `-` | Zooms out |
+    | `[]` | Centers the tree and fits it to the view |
+    | `lock` | Locks the preview, so a stray drag cannot move it |
+    Drag the tree with the left mouse button to reach a particular branch.
+1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
+2. **Select the question you want to skip.**
+3. **Open the [`Skip logic`](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown in the menu on the right.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
-3. **Add Skip logic**: From here, click `+ Add another rule (OR)`. You can create a new Skip logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
-    !!! example
+4. **Click `+ Add another rule (OR)`.**
+5. **Pick the earlier question the rule reads, then pick `is` or `is not` and the choice.**
+    !!! example "One rule"
         ![quiz builder conditional logic skip logic rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
-        In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
-4. Multiple Skip logic rules can be added to any question if needed.
-    - **+ Add another rule (OR)** - Adds another Skip logic rule. Adds a new OR logical rule.
-    - **bin** - Delete the current Skip logic rule.
-    - **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-5. **Preview and Adjust:** Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
+        A customer who answers `Too shiny` to Question 9, SKIN CONCERNS, is never asked Question 10, `ALERGIES`.
+6. **Click the top-right `Save` button, then preview the quiz and answer it as a customer would.**
+??? info "The buttons in the Skip logic panel"
+    | Button | What it does |
+    |---|---|
+    | `+ Add another rule (OR)` | Adds another rule to the question. Any one of them can skip it |
+    | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
+    | `bin` | Deletes the current rule |
+    Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=WauBIBFSMPIlFNtm&amp;start=9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-**Scenario**
-You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip logic, which then continues the quiz based on the participant's specific path.
+A skincare quiz asks for the skin type in question 4, and carries one statement slide per type. Skip logic hides the three that do not apply.
 ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
-**Implementation**
-1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
-    !!! tip
-        Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
-2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
-    !!! example
-        - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-        - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-3. **Add Skip logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
-    To add [skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the quesiton that should be skipped.  
-    Next, in the right-hand menu locte the `Skip Logic` section.
-    Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide. 
-    For example:
+1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+    !!! tip "Help the customer answer"
+        Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+2. **Add one `Statement` slide per skin type.**
+    !!! example "Four statements, one per skin type"
+        - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+        - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+        - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the dry skin statement.**
+4. **Find `Skip logic` in the menu on the right, and click `+ Add another rule (OR)`.**
+5. **Set the rule to `IF the response to` the skin type question `is not` the dry skin choice.**
     ![how to hide content with logic shopifyv2 skip logic rule](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_rule.png)
-    If the response for Question 4 **is not** "Dry and tight all over" then this question will be skipped. Meaning that if any other answer than "Dry and thight all over" is selected, then this question will be skipped.
-    Use similar skip logic rules on the other statements to ensure that only relevant statement questions appear based on the customer's skin type selection.
-4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+    The statement is then skipped for every answer except that one.
+6. **Repeat for the other three statements, each reading its own choice.**
+7. **Click the top-right `Save` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=8mMuIlNk_TnNkKnD&amp;start=62" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-**Scenario**
-You want to create a beauty quiz where customers can select multiple areas of concern (acne, flaky skin, wrinkles, etc.) and then only see follow-up questions relevant to their selections. The goal is to display only the follow-up questions that are relevant to the user's selections. For example, if a user selects 'acne' as a skin concern, only questions related to acne should be displayed.
-**Implementation**
-1. **Setting Up Follow-Up Questions**: Use the [Quiz builder](/reference/quiz-builder/) to add a multiple-choice question that allows multiple selections (this can be done via the [Multiple Choice Block settings](/reference/quiz-builder/questions/#multiple-choice)) and create several follow-up questions that match the choices in the initial question.
-    !!! example
-        For example, if my Skin Concerns question has the following choices:
-        - Acne
-        - Flaky Skin
-        - Wrinkles
-        I can create the following follow-up questions:
-        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/how_to_shopifyV2_skiplogic_example_logic_multipleselection_questions.png)
-    !!! warning
-        Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
-2. **Configuring Skip logic Rules**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped. For each follow-up question, establish a skip logic rule: 
-    Skip logic Rules will follow the following format:
-    !!! example
-        **IF** the response to the question... `Q9: Skin Concerns` **is not** `acne`, then this question will be skipped.
+A beauty quiz lets the customer pick several skin concerns at once, then asks a follow-up question about each concern they picked.
+1. **Add a multiple-choice question and allow several selections.** The setting sits in the [Multiple Choice block settings](/reference/quiz-builder/questions/#multiple-choice).
+2. **Add one follow-up question per choice, in the same order as the choices.**
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/how_to_shopifyV2_skiplogic_example_logic_multipleselection_questions.png)
+    !!! warning "Keep the two lists in the same order"
+        A follow-up question has to sit in the same position as its choice. If `Acne` is the first choice, its follow-up has to be the first follow-up question.
+3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question.**
+4. **Set the rule to `IF the response to` the concerns question `is not` that question's own concern.**
+    !!! example "The acne follow-up"
+        `IF the response to the question Q9: Skin Concerns is not acne, then this question is skipped.`
         ![how_to_shopifyV2_skiplogic_example_logic_rule_multipleselection](/images/how_to_shopifyV2_skiplogic_example_logic_rule_multipleselection.png)
-    Similar rules must be applied for the other skin concern follow-up questions.
-3. **Testing Skip logic Functionality**: After setting up the skip logic, make sure to save the changes with the top-right `Save` button. Then, ` Preview` the quiz and test the functionality by selecting different options in the quiz. 
-    *For instance, selecting 'acne' and 'wrinkles' should display only the relevant follow-up questions while skipping others. If 'tight flaky skin' is selected, only questions related to flaky skin should appear, confirming that the skip logic is functioning correctly.*
-**Scenario**
-You want to collect emails from interested customers without deterring others.
+5. **Repeat for every other follow-up question.**
+6. **Click the top-right `Save` button, then answer the quiz picking two concerns.** Only the follow-up questions for those two should appear.
+!!! tip "Why the rule reads `is not`"
+    A rule phrased as `is not` skips the question for everyone who did not pick that choice, and shows it to everyone who did. The quiz keeps one straight path, however many choices the customer makes.
 ![how to use skip logic example2](/images/how_to_shopifyV2_skiplogic_example_logic_email_question_skipped.png)
-**Implementation**
-- Start with a [`Yes/No question`](/reference/quiz-builder/questions/#yesno) asking if the customer is willing to leave their email.
-- Follow up with an [`email` input question](/reference/quiz-builder/questions/#email-address).
-- Apply Skip logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
+1. **Add a [`Yes/No question`](/reference/quiz-builder/questions/#yesno) asking whether the customer will leave an email address.**
+2. **Add an [`Email address` question](/reference/quiz-builder/questions/#email-address) after it.**
+3. **Add a skip logic rule to the email question, reading `IF the response to` the yes or no question `is` `No`.**
+A customer who declines goes straight on to the results page, and is never asked for an address.
 
 
 

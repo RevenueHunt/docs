@@ -202,7 +202,9 @@ webhook
 webp
 whitelist
 whitelisting
+vimeo
 wix
+wolframalpha
 woocommerce
 wordpress
 workaround

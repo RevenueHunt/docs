@@ -5,56 +5,92 @@ description: "Master conditional logic in RevenueHunt to branch quizzes and cust
 
 # How to Use Conditional Logic in Product Recommendation Quiz
 
-[Conditional Logic](/reference/quiz-builder/conditional-logic/) allows you to branch the quiz or hide content based on customer answers.
+[Conditional Logic](/reference/quiz-builder/conditional-logic/) is the tab holding **jump logic** and **skip logic**. Display logic is not part of it: you set that on the results page itself.
 
-## [How to show or hide content based on quiz answers](/how-to-guides/hide-content-with-logic/)
+All three decide what a customer sees, from what they answered.
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and displaying custom text on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
+```
+conditional logic
+├── jump logic    sends the customer to   a question, a results page, or an external URL
+└── skip logic    skips                   a question
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/hide-content-with-logic/)
+display logic     shows or hides          part of the results page
+```
 
+## Show or hide content
 
-## [How to use jump logic](/how-to-guides/use-jump-logic/)
+`IF-THEN` rules put custom text in front of the right customer. Inside the quiz that is Jump Logic or Skip Logic, and on the results page it is Display Logic.
 
-Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [How to Use Jump Logic](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
+[How to Show or Hide Content Based on Quiz Answers](/how-to-guides/hide-content-with-logic/)
+
+## Jump logic
+
+Jump Logic sends each customer down a different path, from the answer they gave.
 
 !!! info "Use Jump Logic to:"
 
-    - Send users to different follow-up questions or content based on their answers.
-    - Branch the quiz based on the user's answers.
-    - Send users to different results pages based on their answers.
-    - Send users to an external URL based on their answers.
+    - Send the customer to a different follow-up question, from their answer.
+    - Branch the quiz.
+    - Send the customer to a different results page.
+    - Send the customer to an external URL.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-jump-logic/)
+[How to Use Jump Logic](/how-to-guides/use-jump-logic/)
 
+## Skip logic
 
-## [How to use skip logic](/how-to-guides/use-skip-logic/)
-
-Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [How to Use Skip Logic](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
+Skip Logic changes which questions come next, so a customer only answers the ones that apply to them.
 
 !!! info "Use Skip Logic to:"
 
-    - Skip questions based on the user's answers.
-    - Show different follow-up questions based on the user's answers to multiple-choice questions that allow multiple selections. For example, if you want to show different follow-up questions based on the (skin, health) concerns the user selects.
+    - Skip questions the customer's earlier answers have made irrelevant.
+    - Show different follow-up questions after a multiple-choice question that allows several selections. A customer who picks two skin concerns then answers only the questions for those two.
 
+[How to Use Skip Logic](/how-to-guides/use-skip-logic/)
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-skip-logic/)
+## Display logic
 
+Display Logic shows or hides individual elements on the results page.
 
-## [How to use display logic](/how-to-guides/use-display-logic/)
+=== "Shopify"
 
-Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [How to use Display Logic](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
+    !!! info "Use Display logic to:"
 
+        - Show or hide content from the customer's answers.
+        - Show or hide content from the score of a variable, for a scoring quiz or a personality-type quiz.
+        - Show or hide content from the variable with the highest score, for a personality-type quiz.
 
-!!! info "Use Display Logic to:"
+=== "Shopify (Legacy)"
 
-    - Show or hide content on the results page based on customer's responses to questions.
-    - Show or hide content on the results page based on the score of a variable (custom scoring quiz, personality-type quiz).
-    - Show or hide content on the results page based on the variable with the highest score (personality-type quiz).
+    !!! info "Use Display Logic to:"
 
+        - Show or hide content on the Results Page, from the customer's answers.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-display-logic/)
+=== "WooCommerce"
 
+    !!! info "Use Display Logic to:"
+
+        - Show or hide content on the Results Page, from the customer's answers.
+
+=== "Magento"
+
+    !!! info "Use Display Logic to:"
+
+        - Show or hide content on the Results Page, from the customer's answers.
+
+=== "BigCommerce"
+
+    !!! info "Use Display Logic to:"
+
+        - Show or hide content on the Results Page, from the customer's answers.
+
+=== "Standalone"
+
+    !!! info "Use Display Logic to:"
+
+        - Show or hide content on the Results Page, from the customer's answers.
+
+[How to Use Display Logic](/how-to-guides/use-display-logic/)
 
 ---
-This article explains different types of conditional logic in a quiz. It redirects you to other articles that explain how to use conditional logic in more detail.
+
+This article explains the kinds of conditional logic a quiz can use, and points to the guide for each one.

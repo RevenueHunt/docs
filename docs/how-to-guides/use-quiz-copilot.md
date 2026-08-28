@@ -9,231 +9,177 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=7AmBxgHLFOsQTYP-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    This article explains how to use the Quiz Copilot feature in RevenueHunt. It covers the process of building quizzes, customizing templates, and publishing quizzes on your website with the help of Quiz Copilot.
+    Quiz Copilot is an AI assistant inside the app. It has read the RevenueHunt documentation, so it can answer questions about the app, and it can change your quiz for you.
 
-
-    Quiz Copilot is an AI-assistant that is based on our RevenueHunt documentation. 
-    
-        
-    !!! info "Quiz Copilot can help you with:"
+    !!! info "Quiz Copilot can help you with"
 
         - Setting up your first quiz with recommendations
-        - Explaining how to use the quiz builder and its features
+        - Explaining the quiz builder and its features
         - Explaining how to publish the quiz on your website
-        - Creating a quiz from a copy/pasted text
+        - Creating a quiz from text you paste in
         - Creating and editing a Klaviyo email template
         - Linking products to choices in the quiz
-        - Analyzing & updating quiz logic
-        - Analyzing & updating product recommendations
-        - Analyzing & updating quiz flow
+        - Analyzing and updating quiz logic
+        - Analyzing and updating product recommendations
+        - Analyzing and updating quiz flow
         - Improving engagement
-        - Improving quiz completion rate
-        - Translating a quiz to another language
-        - Styling the quiz with Custom CSS code
-        - Styling the quiz with Custom JavaScript code
-        - Styling Result Emails send via the RevenueHunt app
-        - and more!
+        - Improving the quiz completion rate
+        - Translating a quiz into another language
+        - Styling the quiz with custom CSS
+        - Styling the quiz with custom JavaScript
+        - Styling the result emails the app sends
+        - and more
 
     !!! warning "Quiz Copilot is still being improved"
 
-        If you have any suggestions or feedback, please let our [support team](/how-to-guides/contact-customer-support/) know.
+        Send your suggestions and feedback to the [support team](/how-to-guides/contact-customer-support/).
 
-    ## Opening Quiz Copilot
+    **Open Quiz Copilot**
 
-    1. To open Quiz Copilot, go to the [Get support](/reference/dashboard/#support) page.
-    2. Click on the `Chat with Quiz Copilot` button.
-    3. A new popup window will open for you to type your first message to Quiz Copilot.
+    1. **Go to the [Get support](/reference/dashboard/#support) page.**
 
-    ![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
+    2. **Click `Chat with Quiz Copilot`.**
 
-    ## Use cases
+    3. **Type your first message into the popup window that opens.**
 
-    Quiz Copilot can help you with many tasks related to quiz creation and publishing. Here are some examples:
+        ![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
 
-    ### Example 1: creating a quiz
+    To drop the current thread and start over, click `New conversation` in the top-right corner of the popup.
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    **How a request usually goes**
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. You can request Quiz Copilot to create a quiz. *For example, to determine customer's skin type.*
-    3. Quiz Copilot will process your request and may ask additional questions for clarification.
-    4. It will then generate a new quiz and provide more information about the quiz it created.
-    5. Click 'Preview Quiz' to view the quiz created by Quiz Copilot.
+    Whatever you ask for, the exchange takes the same shape.
+
+    1. **Describe what you want, in your own words.**
+
+    2. **Answer anything Quiz Copilot asks back.** It asks whenever a request could go more than one way.
+
+    3. **Review what it produced, then apply or reject the changes.**
+
+    4. **Keep talking to it, or edit the quiz by hand.** Both work, and you can move between them.
+
+    5. **Click the top-right `Save` button once the quiz is right.** The quiz then appears on your [Dashboard](/reference/dashboard/).
+
+    **What to ask for**
+
+    ??? example "Create a quiz"
+
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+        Ask for a quiz by what it should work out, such as a customer's skin type. Quiz Copilot writes the questions, the choices and the contents of the results page.
+
+        Click `Preview Quiz` to open the result in the Quiz builder.
 
         ![QuizCopilot Preview Quiz](https://loom.com/i/fb247001de6f4b718ce5a073fab8865d?workflows_screenshot=true)
-    5. You will be taken to the Quiz builder page, where the newly created quiz will be displayed. You will see the questions, choices and the contents of the results page it created.
-    6. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    7. If satisfied with the quiz, save the changes with the `Save` button.
-    8. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
 
-    ### Example 2: adding recommended products to the quiz
+    ??? example "Add recommended products"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=H5x9gmYq-jOq2qgP&amp;start=93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=H5x9gmYq-jOq2qgP&amp;start=93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    You can ask Quiz Copilot to add recommended products to the quiz.
+        Ask it to add recommended products to the quiz. It links products to the choices, so the answers drive what the results page shows.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to add recommended products to the quiz.
-    3. Quiz Copilot will generate a new quiz with the recommended products.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
+    ??? example "Analyze and improve a quiz"
 
-    ### Example 3: styling the quiz
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=vRzH7pU7Tc5yKzT7&amp;start=25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=KQYqq-uDJHFadH85&amp;start=137" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
+        Ask it to analyze the quiz. It reports on the logic, the recommendations and the flow, and suggests what to change. Ask it to make any change you agree with.
 
-    You can ask Quiz Copilot to style the quiz with Custom CSS code.
+    ??? example "Analyze one quiz response"
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to make changes to the quiz design.
-    3. Quiz Copilot will generate changes and allow you to apply or reject the changes.
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=C3dEBqx3SEFfZokm&amp;start=305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    ### Example 4: analyze quiz
+        Ask it to analyze a quiz response. It explains why each product was recommended, and why the others were not.
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=vRzH7pU7Tc5yKzT7&amp;start=25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    ??? example "Ask how to publish the quiz"
 
-    You can ask Quiz Copilot to analyze the quiz and provide insights on how to improve it.
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=WP0EOlWlls7XcGE0&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to analyze the quiz.
-    3. Quiz Copilot will analyze the quiz and provide insights on how to improve it.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
+        Ask how to publish the quiz on your website. Quiz Copilot reads the documentation and answers with the steps and the relevant links.
 
-    ### Example 5: ask Copilot about publishing the quiz
+        ![QuizCopilot Publishing Quiz](https://loom.com/i/19c8ed7dfe6641e3a4185a53a08a74dd?workflows_screenshot=true)
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=WP0EOlWlls7XcGE0&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    ??? example "Build a Klaviyo email template"
 
-    You can ask Quiz Copilot to explain how to publish the quiz on your website.
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask for instructions on how to publish the quiz.
-    3. Quiz Copilot will read our documentation and provide step-by-step guidance and relevant documentation links.
+        1. **Open Quiz Copilot, or go to [Quiz settings](/reference/quiz-builder/quiz-settings/) and then [Integrations](/reference/quiz-builder/quiz-settings/#integrations).** Find the `Klaviyo` integration and click `Edit template with AI`.
 
-    ![QuizCopilot Publishing Quiz](https://loom.com/i/19c8ed7dfe6641e3a4185a53a08a74dd?workflows_screenshot=true)
+        2. **Paste in the layout you want, and let Quiz Copilot write the template code.**
 
-    ### Example 6: building email / Klaviyo template
+            ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        3. **Click the `Copy` icon.**
 
-    QuizCopilot can assist in creating email or Klaviyo email templates for your quiz email flow.
+        4. **Paste the code into an HTML block in your Klaviyo email template.**
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or go to the [Quiz settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
-    2. Paste your desired layout message, and Quiz Copilot will generate the template code.
+    ??? example "Translate a quiz"
 
-        ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
-    3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
-    4. Paste the generated code directly into an HTML block in your Klaviyo email template.
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    ### Example 7: translating quiz to another language
+        Ask it to translate your quiz into another language. It creates a copy of the quiz in that language, and the copy appears on your [Dashboard](/reference/dashboard/) once you save.
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
+    ??? example "Style the quiz with custom CSS"
 
-    Quiz Copilot can also be used to translate a quiz to another language.
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=KQYqq-uDJHFadH85&amp;start=137" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to translate your main  quiz to another language.
-    3. Quiz Copilot will generate a new quiz copy in the desired language.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+        Ask Quiz Copilot to restyle the quiz, or one part of it, and it writes the CSS. This covers the questions and the results page.
 
-    ### Example 8: styling the quiz with custom CSS code
+        There is a second way into the same assistant:
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
+        - In [Question settings](/reference/quiz-builder/questions/#question-settings), click `✨Get help with custom CSS`.
+        - In [Results page settings](/reference/quiz-builder/results-page/), click `✨Get help with custom CSS`.
 
-    **Styling Questions**
+    ??? example "Style the quiz with custom JavaScript"
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to style the quiz with Custom CSS code.
-    3. Quiz Copilot will generate a new CSS code for the quiz.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    OR
+        Ask Quiz Copilot to change how the quiz behaves, and it writes the JavaScript.
 
-    1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
+        There is a second way into the same assistant:
 
-
-    **Styling Results page**
-
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to style the results page with Custom CSS code.
-    3. Quiz Copilot will generate a new CSS code for the results page.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-
-    OR
-
-    1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
-
-
-    ### Example 9: styling the quiz with custom JavaScript code
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
-
-    **Styling Questions**   
-
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to style the questions with Custom JavaScript code.
-    3. Quiz Copilot will generate a new JavaScript code for the questions.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-
-    OR
-
-    1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
-
-    **Styling Results page**
-
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to style the results page with Custom JavaScript code.
-    3. Quiz Copilot will generate a new JavaScript code for the results page.
-    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
-    5. If satisfied with the quiz, save the changes with the `Save` button.
-    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
-
-    OR
-
-    1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
-
-    ### Example 10: analyze quiz response
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=C3dEBqx3SEFfZokm&amp;start=305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    You can ask Quiz Copilot to analyze a quiz response and provide insights on why certain products were recommended or not.
-
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
-    2. Ask Quiz Copilot to analyze a quiz response.
-    3. Quiz Copilot will analyze the quiz response and provide insights on why certain products were recommended or not.
+        - In [Question settings](/reference/quiz-builder/questions/#question-settings), click `✨Get help with custom JavaScript`.
+        - In [Results page settings](/reference/quiz-builder/results-page/), click `✨Get help with custom JavaScript`.
 
 === "Shopify (Legacy)"
 
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for Shopify.
+    !!! note "Not part of this version"
+
+        This version of the app has no Quiz Copilot.
+
+        You can [migrate your quiz to the 💎Built for Shopify app](/how-to-guides/migrate-shopify-legacy-quiz/), which has one. For help with the quiz you are running now, ask the [support team](/how-to-guides/contact-customer-support/).
 
 === "WooCommerce"
 
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for WooCommerce.
+    !!! note "Not part of this version"
+
+        This version of the app has no Quiz Copilot.
+
+        For help building, fixing or styling a quiz, ask the [support team](/how-to-guides/contact-customer-support/).
 
 === "Magento"
 
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for Magento.
+    !!! note "Not part of this version"
+
+        This version of the app has no Quiz Copilot.
+
+        For help building, fixing or styling a quiz, ask the [support team](/how-to-guides/contact-customer-support/).
 
 === "BigCommerce"
 
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for BigCommerce.
+    !!! note "Not part of this version"
+
+        This version of the app has no Quiz Copilot.
+
+        For help building, fixing or styling a quiz, ask the [support team](/how-to-guides/contact-customer-support/).
 
 === "Standalone"
 
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the Standalone version of the RevenueHunt app for Headless ecommerce.
+    !!! note "Not part of this version"
 
+        This version of the app has no Quiz Copilot.
 
-
+        For help building, fixing or styling a quiz, ask the [support team](/how-to-guides/contact-customer-support/).
 
 ---
-This article explains how to use the Quiz Copilot feature in RevenueHunt app for Shopify.
+
+This article explains how to open Quiz Copilot, and what to ask it for.

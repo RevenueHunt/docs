@@ -7,475 +7,208 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 === "Shopify"
 
-    The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
+    This version does not use Markdown. Text is styled in the block that holds it, and pictures and videos have blocks of their own.
 
+    | What you want | Where to do it |
+    |---|---|
+    | Bold, italic, underline or strikethrough | The toolbar of a Heading block or a Text block |
+    | A link inside a sentence | The same toolbar |
+    | A picture | An [Image block](/how-to-guides/customize-quiz-design/#adding-images-and-videos) |
+    | A video | A [Video block](/how-to-guides/customize-quiz-design/#adding-images-and-videos) |
+    | Text size and alignment | The [block settings](/reference/quiz-builder/questions/#block-settings) |
 
-=== "Shopify (Legacy)"
-
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
-
-    This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
-
-    ??? question "What is Markdown Language?"
-
-        Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
-
-
-
-
-=== "WooCommerce"
-
-
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
-
-    This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
-
-    ??? question "What is Markdown Language?"
-
-        Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
-
-
-=== "Magento"
-
-
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
-
-    This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
-
-    ??? question "What is Markdown Language?"
-
-        Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
-
-
-=== "BigCommerce"
-
-
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
-
-    This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
-
-    ??? question "What is Markdown Language?"
-
-        Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
-
-
-=== "Standalone"
-
-
-    Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax.
-
-    This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
-
-    ??? question "What is Markdown Language?"
-
-        Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
-
-
-
-## Markdown in Product Recommendation Quiz
-
-=== "Shopify"
-
-    The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
-
-
+    See [Styling quiz text](/how-to-guides/customize-quiz-design/#styling-quiz-text) for every option a block offers.
 
 === "Shopify (Legacy)"
 
-    RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+    Markdown styles text through a few plain characters typed around it. Write `**bold text**` and the customer reads **bold text**.
+
+    The app supports part of Markdown in questions, in choices and on the Results Page.
 
     ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
+    | What you want | What you type |
+    |---|---|
+    | A heading, largest first | `# H1`, `## H2`, `### H3` |
+    | Italic | `*italic text*` |
+    | Bold | `**bold text**` |
+    | Bold and italic | `***bold and italic text***` |
+    | A link | `[link title](https://www.example.com)` |
+    | A picture | `![alt text](https://www.example.com/image.jpg)` |
+    | A video | `![](https://youtu.be/0_tO8HgJiLQ)` |
+
+    Underscores do the same work as asterisks, so `_italic text_` is italic as well.
+
+    !!! info "Videos take the picture syntax"
+
+        Paste a YouTube or Vimeo address where the picture address would go, and the app embeds a player. All four of these forms work.
+
+        ```markdown
+        ![](https://youtu.be/0_tO8HgJiLQ)
+        ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
+        ![](https://vimeo.com/142172484)
+        ![](https://player.vimeo.com/video/142172484)
+        ```
+
+        A video fills the width of whatever holds it, and its height follows a 16:9 ratio. To set a different ratio, or a fixed size, add an attribute after the link.
+
+        ```markdown
+        ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
+        ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
+        ```
+
 === "WooCommerce"
 
+    Markdown styles text through a few plain characters typed around it. Write `**bold text**` and the customer reads **bold text**.
 
-    RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+    The app supports part of Markdown in questions, in choices and on the Results Page.
 
     ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
+    | What you want | What you type |
+    |---|---|
+    | A heading, largest first | `# H1`, `## H2`, `### H3` |
+    | Italic | `*italic text*` |
+    | Bold | `**bold text**` |
+    | Bold and italic | `***bold and italic text***` |
+    | A link | `[link title](https://www.example.com)` |
+    | A picture | `![alt text](https://www.example.com/image.jpg)` |
+    | A video | `![](https://youtu.be/0_tO8HgJiLQ)` |
+
+    Underscores do the same work as asterisks, so `_italic text_` is italic as well.
+
+    !!! info "Videos take the picture syntax"
+
+        Paste a YouTube or Vimeo address where the picture address would go, and the app embeds a player. All four of these forms work.
+
+        ```markdown
+        ![](https://youtu.be/0_tO8HgJiLQ)
+        ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
+        ![](https://vimeo.com/142172484)
+        ![](https://player.vimeo.com/video/142172484)
+        ```
+
+        A video fills the width of whatever holds it, and its height follows a 16:9 ratio. To set a different ratio, or a fixed size, add an attribute after the link.
+
+        ```markdown
+        ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
+        ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
+        ```
+
 === "Magento"
 
-    RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+    Markdown styles text through a few plain characters typed around it. Write `**bold text**` and the customer reads **bold text**.
+
+    The app supports part of Markdown in questions, in choices and on the Results Page.
 
     ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
+    | What you want | What you type |
+    |---|---|
+    | A heading, largest first | `# H1`, `## H2`, `### H3` |
+    | Italic | `*italic text*` |
+    | Bold | `**bold text**` |
+    | Bold and italic | `***bold and italic text***` |
+    | A link | `[link title](https://www.example.com)` |
+    | A picture | `![alt text](https://www.example.com/image.jpg)` |
+    | A video | `![](https://youtu.be/0_tO8HgJiLQ)` |
+
+    Underscores do the same work as asterisks, so `_italic text_` is italic as well.
+
+    !!! info "Videos take the picture syntax"
+
+        Paste a YouTube or Vimeo address where the picture address would go, and the app embeds a player. All four of these forms work.
+
+        ```markdown
+        ![](https://youtu.be/0_tO8HgJiLQ)
+        ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
+        ![](https://vimeo.com/142172484)
+        ![](https://player.vimeo.com/video/142172484)
+        ```
+
+        A video fills the width of whatever holds it, and its height follows a 16:9 ratio. To set a different ratio, or a fixed size, add an attribute after the link.
+
+        ```markdown
+        ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
+        ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
+        ```
+
 === "BigCommerce"
 
+    Markdown styles text through a few plain characters typed around it. Write `**bold text**` and the customer reads **bold text**.
 
-    RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+    The app supports part of Markdown in questions, in choices and on the Results Page.
 
     ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
+    | What you want | What you type |
+    |---|---|
+    | A heading, largest first | `# H1`, `## H2`, `### H3` |
+    | Italic | `*italic text*` |
+    | Bold | `**bold text**` |
+    | Bold and italic | `***bold and italic text***` |
+    | A link | `[link title](https://www.example.com)` |
+    | A picture | `![alt text](https://www.example.com/image.jpg)` |
+    | A video | `![](https://youtu.be/0_tO8HgJiLQ)` |
+
+    Underscores do the same work as asterisks, so `_italic text_` is italic as well.
+
+    !!! info "Videos take the picture syntax"
+
+        Paste a YouTube or Vimeo address where the picture address would go, and the app embeds a player. All four of these forms work.
+
+        ```markdown
+        ![](https://youtu.be/0_tO8HgJiLQ)
+        ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
+        ![](https://vimeo.com/142172484)
+        ![](https://player.vimeo.com/video/142172484)
+        ```
+
+        A video fills the width of whatever holds it, and its height follows a 16:9 ratio. To set a different ratio, or a fixed size, add an attribute after the link.
+
+        ```markdown
+        ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
+        ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
+        ```
+
 === "Standalone"
 
-    RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+    Markdown styles text through a few plain characters typed around it. Write `**bold text**` and the customer reads **bold text**.
+
+    The app supports part of Markdown in questions, in choices and on the Results Page.
 
     ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
-
-### Headings
-
-=== "Shopify"
-
-    !!! note "Not available on this platform"
-
-        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-
-
-=== "Shopify (Legacy)"
-
-    Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
-
-    ```markdown
-    # H1
-    ## H2
-    ### H3
-    ```
-
-=== "WooCommerce"
-
-
-    Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
-
-    ```markdown
-    # H1
-    ## H2
-    ### H3
-    ```
-
-=== "Magento"
-
-
-    Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
-
-    ```markdown
-    # H1
-    ## H2
-    ### H3
-    ```
-
-=== "BigCommerce"
-
-
-    Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
-
-    ```markdown
-    # H1
-    ## H2
-    ### H3
-    ```
-
-=== "Standalone"
-
-
-    Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
-
-    ```markdown
-    # H1
-    ## H2
-    ### H3
-    ```
-
-
-
-
-
-### Text styling
-
-=== "Shopify"
-
-    !!! note "Not available on this platform"
-
-        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-
-
-=== "Shopify (Legacy)"
-
-
-    To emphasize text, you can make it italic or bold. Markdown uses asterisks (*) or underscores (_) to create italic or bold text. Here's how you can style your text:
-
-    ```markdown
-    *italic text*
-    **bold text**
-    ***italic & bold text***
-    ```
-
-=== "WooCommerce"
-
-
-
-    To emphasize text, you can make it italic or bold. Markdown uses asterisks (*) or underscores (_) to create italic or bold text. Here's how you can style your text:
-
-    ```markdown
-    *italic text*
-    **bold text**
-    ***italic & bold text***
-    ```
-
-=== "Magento"
-
-
-    To emphasize text, you can make it italic or bold. Markdown uses asterisks (*) or underscores (_) to create italic or bold text. Here's how you can style your text:
-
-    ```markdown
-    *italic text*
-    **bold text**
-    ***italic & bold text***
-    ```
-
-=== "BigCommerce"
-
-
-    To emphasize text, you can make it italic or bold. Markdown uses asterisks (*) or underscores (_) to create italic or bold text. Here's how you can style your text:
-
-    ```markdown
-    *italic text*
-    **bold text**
-    ***italic & bold text***
-    ```
-
-=== "Standalone"
-
-
-    To emphasize text, you can make it italic or bold. Markdown uses asterisks (*) or underscores (_) to create italic or bold text. Here's how you can style your text:
-
-    ```markdown
-    *italic text*
-    **bold text**
-    ***italic & bold text***
-    ```
-
-### Links
-
-=== "Shopify"
-
-    !!! note "Not available on this platform"
-
-        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-
-
-=== "Shopify (Legacy)"
-
-    Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
-
-    ```markdown
-    [link title](https://www.example.com)
-    ```
-
-=== "WooCommerce"
-
-
-    Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
-
-    ```markdown
-    [link title](https://www.example.com)
-    ```
-
-=== "Magento"
-
-
-    Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
-
-    ```markdown
-    [link title](https://www.example.com)
-    ```
-
-=== "BigCommerce"
-
-
-    Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
-
-    ```markdown
-    [link title](https://www.example.com)
-    ```
-
-=== "Standalone"
-
-
-    Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
-
-    ```markdown
-    [link title](https://www.example.com)
-    ```
-
-
-
-
-
-### Images
-
-=== "Shopify"
-
-    !!! note "Not available on this platform"
-
-        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-
-
-=== "Shopify (Legacy)"
-
-
-    Images can enhance your content visually, making it more engaging. To add an image, you use an exclamation mark followed by square brackets for the alt text and parentheses for the image URL:
-
-    ```markdown
-    ![alt text](https://www.example.com/path/to/image.jpg)
-    ```
-
-=== "WooCommerce"
-
-
-
-    Images can enhance your content visually, making it more engaging. To add an image, you use an exclamation mark followed by square brackets for the alt text and parentheses for the image URL:
-
-    ```markdown
-    ![alt text](https://www.example.com/path/to/image.jpg)
-    ```
-
-
-=== "Magento"
-
-
-
-    Images can enhance your content visually, making it more engaging. To add an image, you use an exclamation mark followed by square brackets for the alt text and parentheses for the image URL:
-
-    ```markdown
-    ![alt text](https://www.example.com/path/to/image.jpg)
-    ```
-
-
-=== "BigCommerce"
-
-
-
-    Images can enhance your content visually, making it more engaging. To add an image, you use an exclamation mark followed by square brackets for the alt text and parentheses for the image URL:
-
-    ```markdown
-    ![alt text](https://www.example.com/path/to/image.jpg)
-    ```
-
-
-=== "Standalone"
-
-
-
-    Images can enhance your content visually, making it more engaging. To add an image, you use an exclamation mark followed by square brackets for the alt text and parentheses for the image URL:
-
-    ```markdown
-    ![alt text](https://www.example.com/path/to/image.jpg)
-    ```
-
-
-
-
-
-
-
-### Videos
-
-=== "Shopify"
-
-    !!! note "Not available on this platform"
-
-        The `💎Built for Shopify` version does not use Markdown. Style your text with the [built-in text editors](/how-to-guides/customize-quiz-design/) instead.
-
-
-=== "Shopify (Legacy)"
-
-
-    Including videos can make your content even more interactive and informative. Videos hosted on YouTube or Vimeo can be embedded using the standard Markdown image syntax, with the video URL in the parentheses:
-
-    ```markdown
-    ![](https://youtu.be/0_tO8HgJiLQ)
-    ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
-    ![](https://vimeo.com/142172484)
-    ![](https://player.vimeo.com/video/142172484)
-    ```
-
-    Videos are displayed responsively at 100% of their container’s width, with the height automatically determined based on a 16:9 aspect ratio. You can customize the aspect ratio or specify a fixed width and height using additional attributes in the Markdown:
-
-    ```markdown
-    ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
-    ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
-    ```
-
-=== "WooCommerce"
-
-
-
-    Including videos can make your content even more interactive and informative. Videos hosted on YouTube or Vimeo can be embedded using the standard Markdown image syntax, with the video URL in the parentheses:
-
-    ```markdown
-    ![](https://youtu.be/0_tO8HgJiLQ)
-    ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
-    ![](https://vimeo.com/142172484)
-    ![](https://player.vimeo.com/video/142172484)
-    ```
-
-    Videos are displayed responsively at 100% of their container’s width, with the height automatically determined based on a 16:9 aspect ratio. You can customize the aspect ratio or specify a fixed width and height using additional attributes in the Markdown:
-
-    ```markdown
-    ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
-    ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
-    ```
-
-=== "Magento"
-
-
-
-    Including videos can make your content even more interactive and informative. Videos hosted on YouTube or Vimeo can be embedded using the standard Markdown image syntax, with the video URL in the parentheses:
-
-    ```markdown
-    ![](https://youtu.be/0_tO8HgJiLQ)
-    ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
-    ![](https://vimeo.com/142172484)
-    ![](https://player.vimeo.com/video/142172484)
-    ```
-
-    Videos are displayed responsively at 100% of their container’s width, with the height automatically determined based on a 16:9 aspect ratio. You can customize the aspect ratio or specify a fixed width and height using additional attributes in the Markdown:
-
-    ```markdown
-    ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
-    ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
-    ```
-
-=== "BigCommerce"
-
-
-
-    Including videos can make your content even more interactive and informative. Videos hosted on YouTube or Vimeo can be embedded using the standard Markdown image syntax, with the video URL in the parentheses:
-
-    ```markdown
-    ![](https://youtu.be/0_tO8HgJiLQ)
-    ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
-    ![](https://vimeo.com/142172484)
-    ![](https://player.vimeo.com/video/142172484)
-    ```
-
-    Videos are displayed responsively at 100% of their container’s width, with the height automatically determined based on a 16:9 aspect ratio. You can customize the aspect ratio or specify a fixed width and height using additional attributes in the Markdown:
-
-    ```markdown
-    ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
-    ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
-    ```
-
-=== "Standalone"
-
-
-
-    Including videos can make your content even more interactive and informative. Videos hosted on YouTube or Vimeo can be embedded using the standard Markdown image syntax, with the video URL in the parentheses:
-
-    ```markdown
-    ![](https://youtu.be/0_tO8HgJiLQ)
-    ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
-    ![](https://vimeo.com/142172484)
-    ![](https://player.vimeo.com/video/142172484)
-    ```
-
-    Videos are displayed responsively at 100% of their container’s width, with the height automatically determined based on a 16:9 aspect ratio. You can customize the aspect ratio or specify a fixed width and height using additional attributes in the Markdown:
-
-    ```markdown
-    ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
-    ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
-    ```
+    | What you want | What you type |
+    |---|---|
+    | A heading, largest first | `# H1`, `## H2`, `### H3` |
+    | Italic | `*italic text*` |
+    | Bold | `**bold text**` |
+    | Bold and italic | `***bold and italic text***` |
+    | A link | `[link title](https://www.example.com)` |
+    | A picture | `![alt text](https://www.example.com/image.jpg)` |
+    | A video | `![](https://youtu.be/0_tO8HgJiLQ)` |
+
+    Underscores do the same work as asterisks, so `_italic text_` is italic as well.
+
+    !!! info "Videos take the picture syntax"
+
+        Paste a YouTube or Vimeo address where the picture address would go, and the app embeds a player. All four of these forms work.
+
+        ```markdown
+        ![](https://youtu.be/0_tO8HgJiLQ)
+        ![](https://www.youtube.com/watch?v=0_tO8HgJiLQ)
+        ![](https://vimeo.com/142172484)
+        ![](https://player.vimeo.com/video/142172484)
+        ```
+
+        A video fills the width of whatever holds it, and its height follows a 16:9 ratio. To set a different ratio, or a fixed size, add an attribute after the link.
+
+        ```markdown
+        ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
+        ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
+        ```
 
 ---
-This article explains how to use Markdown language to style your quiz content.
+
+This article explains how to style the text in a quiz, and which Markdown syntax the app understands.

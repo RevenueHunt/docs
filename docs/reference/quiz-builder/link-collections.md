@@ -189,7 +189,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     !!! tip
 
-        You can also use custom fields as tags. See [Use Custom Fields as tags](/how-to-guides/use-custom-fields-as-tags/).
+        You can also use custom fields as tags. See [BigCommerce: Use Custom Fields as Tags](/how-to-guides/use-custom-fields-as-tags/).
 
 === "Standalone"
 

@@ -5,13 +5,9 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 # How to Show a Quiz Based on Shopify Markets
 
-Show a different quiz to customers in different markets and languages. You build one quiz per language, then tell the app which quiz belongs to which Shopify market.
-
-!!! note "Platform Availability"
-
-    This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
-
 === "Shopify"
+
+    Show a different quiz to customers in different markets and languages. You build one quiz per language, then tell the app which quiz belongs to which Shopify market.
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=qKfPEBhJ2RvMlgBz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -91,33 +87,43 @@ Show a different quiz to customers in different markets and languages. You build
 
 === "Shopify (Legacy)"
 
-    !!! note "Platform Availability"
+    !!! note "Not available on this platform"
 
-        This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
+        This version cannot assign a quiz to a market or a language.
+
+        To run a quiz in another language, build a separate quiz for it and [publish that quiz](/how-to-guides/publish-quiz/) on the pages for that language.
 
 === "WooCommerce"
 
-    !!! note "Platform Availability"
+    !!! note "Not available on this platform"
 
-        This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
+        This version cannot assign a quiz to a market or a language.
+
+        To run a quiz in another language, build a separate quiz for it and [publish that quiz](/how-to-guides/publish-quiz/) on the pages for that language.
 
 === "Magento"
 
-    !!! note "Platform Availability"
+    !!! note "Not available on this platform"
 
-        This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
+        This version cannot assign a quiz to a market or a language.
+
+        To run a quiz in another language, build a separate quiz for it and [publish that quiz](/how-to-guides/publish-quiz/) on the pages for that language.
 
 === "BigCommerce"
 
-    !!! note "Platform Availability"
+    !!! note "Not available on this platform"
 
-        This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
+        This version cannot assign a quiz to a market or a language.
+
+        To run a quiz in another language, build a separate quiz for it and [publish that quiz](/how-to-guides/publish-quiz/) on the pages for that language.
 
 === "Standalone"
 
-    !!! note "Platform Availability"
+    !!! note "Not available on this platform"
 
-        This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
+        This version cannot assign a quiz to a market or a language.
+
+        To run a quiz in another language, build a separate quiz for it and [publish that quiz](/how-to-guides/publish-quiz/) on the pages for that language.
 
 ---
 
