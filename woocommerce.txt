@@ -119,7 +119,7 @@ Once your translated quizzes are ready:
 1. Go to `App Settings > Shopify Markets`
 2. You'll see a list of all your Shopify Markets
 3. Use the dropdown next to each market to assign the correct default quiz
-4. Click `Show all locales` to assign quizzes at the language level within a market (e.g., French quiz for French-speaking visitors in the EU market, Spanish quiz for Spanish-speaking visitors)
+4. Click the `>` arrow on a market to assign quizzes at the language level within it (e.g., French quiz for French-speaking visitors in the EU market, Spanish quiz for Spanish-speaking visitors)
 5. Save your changes
 
 ![Shopify Markets quiz assignment](/images/manual_shopifyV2_appsettings_markets_showall.png)
@@ -12844,20 +12844,24 @@ description: "Learn how to display RevenueHunt quiz answers in Shopify orders an
 icon: material/receipt-text-outline
 ---
 
-# How to Show Quiz Answers in the Shopify Orders
+# How to Show Quiz Answers in Shopify Orders
 
-It's possible to know exactly which orders in your Shopify Orders tab come from the quiz.
+You can see exactly which orders in your Shopify Orders tab came from the quiz, and what the customer answered to get there.
+
+## Pass the answers to Shopify
 
 ## Testing the connection
 
 ---
 
-This article explains how to show quiz answers in the Shopify Orders.
+This article explains how to show quiz answers in Shopify Orders.
 
 --- WooCommerce Specific Content ---
 
-This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
-This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
+!!! note "Not available on this platform"
+    Quiz answers reach orders in the Shopify versions of the app only.
+!!! note "Not available on this platform"
+    Quiz answers reach orders in the Shopify versions of the app only.
 
 
 
@@ -12873,33 +12877,20 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 # How to Show a Quiz Based on Shopify Markets
 
-## Step 1: configure Shopify Markets
+Show a different quiz to customers in different markets and languages. You build one quiz per language, then tell the app which quiz belongs to which Shopify market.
 
-## Step 2: create different quizzes for different markets
+!!! note "Platform Availability"
 
-## Step 3: configure In-app Shopify Markets
-
-## Step 4: save the changes
-
-## Step 5: test the quiz
+    This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
 
 ---
-This article explains how to show a RevenueHunt Quizzes app quiz based on Shopify Markets.
+
+This article explains how to show a RevenueHunt quiz based on Shopify Markets.
 
 --- WooCommerce Specific Content ---
 
 !!! note "Platform Availability"
-    This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
-!!! note "Platform Availability"
-    This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
-!!! note "Platform Availability"
-    This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
-!!! note "Platform Availability"
-    This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
-!!! note "Platform Availability"
-    This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
-!!! note "Platform Availability"
-    This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
+    This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
 
 
 
@@ -12913,16 +12904,20 @@ icon: material/account-file-text-outline
 description: "Information about showing RevenueHunt quiz on Shopify customer profile pages."
 ---
 
-# How to Show Quiz on a Customer Profile
+# How to Show a Quiz on a Customer Profile
+
+Showing a customer their own quiz results inside their account page keeps the recommendation available long after they took the quiz.
 
 ---
-This guide provides instructions for developers on showing the quiz on a customer profile in Shopify.
+
+This guide explains how to show a quiz on a customer profile in Shopify.
 
 --- WooCommerce Specific Content ---
 
-It is **not possible yet** to directly show the quiz on a customer profile using the RevenueHunt app for WooCommerce.
-!!! tip 
-    Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+!!! note "Not available on this platform"
+    The app cannot show the quiz on a customer profile in this version.
+!!! tip "A developer can try it anyway"
+    Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 
 
@@ -12936,16 +12931,20 @@ icon: material/login
 description: "Information about showing RevenueHunt quiz only to logged-in customers in Shopify."
 ---
 
-# How to Show Quiz Only to Logged-in Customers
+# How to Show a Quiz Only to Logged-in Customers
+
+Put the quiz on a page that only signed-in customers can use. A customer who already took it sees their own results instead, and everyone else is asked to log in.
 
 ---
-By following this article, developers can learn how to show a quiz to logged-in customers only.
+
+This guide explains how to show a quiz only to logged-in customers in Shopify.
 
 --- WooCommerce Specific Content ---
 
-It is **not possible yet** to directly show the quiz to logged-in customers using the RevenueHunt app for WooCommerce.
-!!! tip 
-    Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+!!! note "Not available on this platform"
+    The app cannot show the quiz to logged-in customers only in this version.
+!!! tip "A developer can try it anyway"
+    Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 
 
@@ -12961,95 +12960,63 @@ description: "Learn how to display custom explanations for why products were rec
 
 # How to Show Results Explanation
 
+The [recommendation algorithm](/how-to-guides/recommend-products/) picks the products. It does not explain **why** it picked them, and it does not change the results page text to match them.
+
+Writing that explanation is your job, and how you do it depends on the version of the app.
+
 ---
+
 This article explains how to show why a certain product was recommended to the customer.
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
-RevenueHunt app **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
-If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
-1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
-2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
-    !!! tip
-        For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
-    ??? question "How to Build a Personality-Type Quiz?"
-        Imagine you want to determine a customer’s skin type. You might ask them specific questions about their skin to narrow down their unique characteristics. Here’s an example:
-        ---
-        **Step 1: Add Questions to the Quiz**
-        **Question 1: Oiliness**  
-        *"How does your skin usually feel by the middle of the day?"*  
-        - **Very oily, shiny all over.** *(Oily skin)*  
-        - **Oily in the T-zone (forehead, nose, chin), but dry elsewhere.** *(Combination skin)*  
-        - **Balanced, not too oily or dry.** *(Normal skin)*  
-        - **Dry and tight all over.** *(Dry skin)*  
-        **Question 2: Sensitivity**  
-        *"How does your skin react to new products or environmental changes?"*  
-        - **Easily irritated, red, or itchy.** *(Sensitive skin)*  
-        - **Rarely reacts, even to strong products.** *(Normal or Oily skin)*  
-        - **Reacts sometimes, but not consistently.** *(Combination skin)*  
-        **Question 3: Hydration**  
-        *"Does your skin often feel dehydrated, regardless of oiliness?"*  
-        - **Yes, it feels tight and flaky.** *(Dry or Dehydrated skin)*  
-        - **Sometimes, especially in colder months.** *(Combination or Normal skin)*  
-        - **Rarely or never.** *(Oily skin)*  
-        ---
-        **Step 2: Link Products to Choices**
-        Associate each answer option with the most appropriate products. For example:  
-        - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
-        - Answers suggesting **Oily Skin** link to products designed for oily skin.  
-        This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
-        *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
-        ---
-        **Step 3: Displaying Skin Type Text Results with Display Logic**
-        If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
-        **Example Setup:**
-        1️⃣ **Add Content Blocks to Results Page**  
-        Create content blocks on your results page for each skin type. For example:  
-        - *You have Dry Skin*  
-        - *You have Oily Skin*  
-        - *You have Combination Skin*  
-        - *You have Normal Skin*  
-        ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
-        2️⃣ **Configure Display Logic Rules**  
-        Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
-        **For Dry Skin:**  
-        - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
-        - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-        - AND the answer to **Question 3: Hydration** is *Yes, it feels tight and flaky*.  
-        Then this block will be **Visible**; otherwise, it remains hidden.  
-        ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
-        **For Combination Skin:**  
-        Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
-        - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-        - AND the answer to **Question 2: Sensitivity** is *Reacts sometimes, but not consistently*.  
-        - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-        **OR**
-        - If the answer to **Question 1: Oiliness** is *Very oily, shiny all over*.  
-        - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-        - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-        **OR**
-        - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-        - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-        - AND the answer to **Question 3: Hydration** is *Sometimes, but not consistently*.         
-        Then this block will be **Visible**; otherwise, it remains hidden.  
-        ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
-        ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
-        ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
-        3️⃣ **Repeat this process for all other possible combinations of answers.**
-        You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
-        ---
-        **Simplifying the Process**
-        If configuring logic for all combinations feels overwhelming, you can try alternatives highlighted in this article, for example:  
-        1. Base your logic on a single question (e.g., Question 1).  
-        2. Use JavaScript to dynamically determine the skin type and display the result text.  
-        ---
-        This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
-3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
-    !!! tip
-        See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+!!! note "No linear scoring in this version"
+    This version of the RevenueHunt app has no linear score yet. A choice cannot add one point to a running total that then picks a results page.
+    That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
+- **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
+- **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    ??? question "A worked personality-type quiz"
+        Say the quiz works out a customer's skin type.
+        1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
+            - Very oily, shiny all over *(oily skin)*
+            - Oily in the T-zone, but dry elsewhere *(combination skin)*
+            - Balanced, not too oily or dry *(normal skin)*
+            - Dry and tight all over *(dry skin)*
+        2. **Ask about sensitivity.** "How does your skin react to new products or environmental changes?"
+            - Easily irritated, red or itchy *(sensitive skin)*
+            - Rarely reacts, even to strong products *(normal or oily skin)*
+            - Reacts sometimes, but not consistently *(combination skin)*
+        3. **Ask about hydration.** "Does your skin often feel dehydrated, whatever its oiliness?"
+            - Yes, it feels tight and flaky *(dry or dehydrated skin)*
+            - Sometimes, especially in colder months *(combination or normal skin)*
+            - Rarely or never *(oily skin)*
+        4. **Link products to every choice.** Answers that point at dry skin link to the products for dry skin, and so on. The [recommendation algorithm](/how-to-guides/recommend-products/) then handles the products on its own.
+        5. **Add one content block per skin type to the Results Page.** One saying *You have Dry Skin*, one *You have Oily Skin*, and so on.
+            ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
+        6. **Give each block a [Display Logic](/how-to-guides/use-display-logic/) rule that makes it visible for its own answers.**
+            !!! example "The rule for dry skin"
+                Question 1 is *Dry and tight all over*, **AND** Question 2 is *Easily irritated, red, or itchy*, **AND** Question 3 is *Yes, it feels tight and flaky*.
+                The block is then **Visible**. Otherwise it stays hidden.
+            ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
+        7. **Add a rule for every route to an outcome.** Some outcomes are reached several ways, so they need several rules joined with **OR**.
+            !!! example "Combination skin, reached three ways"
+                Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Reacts sometimes*, **AND** Question 3 is *Sometimes, especially in colder months*.
+                **OR** Question 1 is *Very oily, shiny all over*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, especially in colder months*.
+                **OR** Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, but not consistently*.
+            ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
+            ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
+            ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
+        8. **Repeat until every content block has its rules.**
+            !!! warning "Every combination needs a rule"
+                This method asks you to predict every route a customer can take. A combination with no rule shows no text.
+        !!! tip "If the combinations get out of hand"
+            - Base the logic on one question rather than all three.
+            - Use custom JavaScript to work the skin type out, and write the text from there.
+    !!! tip "For a longer quiz, write the logic in code"
+        Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
+- **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+- **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 
 
@@ -13074,29 +13041,28 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 ## Selectively import product collections/categories
 
 ---
-This article explains how to import your catalog data into the RevenueHunt app.
 
-By following these steps, you can ensure your tags, collections, vendors, and metafields are up to date in the quiz builder.
+This article explains how to import your catalog data into the RevenueHunt app.
 
 --- WooCommerce Specific Content ---
 
-If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
-This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
+Products and collections reach the [Link Products](/reference/quiz-builder/link-products/) and [Link Collections/Categories](/reference/quiz-builder/link-collections/) tabs through a catalog sync. Run the sync when something is missing from those lists.
+This article explains what the sync covers, how to trigger it, and what to do when it does not finish.
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
-2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
-!!! info "Important"
-    Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
-- If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
-- Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-- You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
-- For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
-- **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
-- **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
-For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, RevenueHunt app offers a targeted solution: the `categories-first` feature. 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/sync-selected-collections/)
+1. **Go to your [Dashboard](/reference/dashboard/) and find the [Success Checklist](/reference/dashboard/#success-checklist).**
+2. **Click `run manual sync` under `SYNC PRODUCTS FROM YOUR STORE`.** The sync takes 30 to 60 minutes, depending on the size of your catalog.
+!!! info "The app syncs on its own"
+    The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
+- The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
+- Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
+- You can run a manual sync **once an hour**.
+- Make your store changes before you run a manual sync, so that the sync picks them up.
+- **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
+- **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
+A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature imports only the categories you choose.
+[How to Selectively Sync Product Collections](/how-to-guides/sync-selected-collections/)
 
 
 
@@ -13110,27 +13076,29 @@ description: "Learn how to selectively sync product collections with RevenueHunt
 icon: material/folder-sync-outline
 ---
 
-# How to Selectively Sync Product Collections with RevenueHunt app
+# How to Selectively Sync Product Collections
 
 ## Selecting collections/categories for synchronization
 
 ---
-This article explains how to use the `collection-first`/`categories-first` feature in RevenueHunt app.
+
+This article explains how to sync only the collections or categories your quiz needs.
 
 --- WooCommerce Specific Content ---
 
-For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, RevenueHunt app offers a targeted solution: the `collections/categories first` feature.
-The `collections/categories first` feature allows you to prioritize which collections you want to sync with the Product Recommendation Quiz, enhancing the quiz's performance and avoiding potential technical issues.
-!!! info
-    To activate this feature in your account, please [contact support](/how-to-guides/contact-customer-support/).
-This guide outlines the steps to select specific collections for synchronization with the RevenueHunt app.
-1. **Access the Success Checklist**: To select the collections/categories to sync, go to the [Success Checklist](/reference/dashboard/#success-checklist) panel in the `Dashboard`.
-2. **Initiate Collection/Categories Selection**: Under `Sync Products from your store` click `Choose Active Collections/Categories`.
-3. **Choose Your Collections/Categories**: Next, select the collections/categories you want to sync with the app. The number in brackets `()` shows how many products are currently in the collection/category. Activate or deactivate a collection/category by clicking on the toggle icon.
+A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature syncs only the categories you pick.
+That keeps the quiz fast, and keeps a large catalog from running into technical trouble.
+!!! info "Ask support to switch it on"
+    This feature is enabled per account. [Contact support](/how-to-guides/contact-customer-support/) to have it turned on for yours.
+1. **Go to the [Success Checklist](/reference/dashboard/#success-checklist) in the `Dashboard`.**
+2. **Click `Choose Active Collections/Categories` under `Sync Products from your store`.**
+3. **Toggle on each category you want in the quiz.** The number in brackets is how many products that category holds.
     ![how to sync selected collections](/images/how_to_sync_selected_collections.gif)
-4. **Monitor Your Product Limit**: Keep an eye on the product limit associated with your current plan. Once this limit is reached, you will not be able to activate additional collections/categories for synchronization.
-5. **Sync Your Selections**: Once you’re done selecting collections/categories, click `run manual sync` to sync them with your store.
-6. **Automatic Updates**: RevenueHunt app automatically updates the products from the synced collections/categories once a day, ensuring your quiz always features up-to-date information and product availability.
+    !!! warning "Your plan sets a product limit"
+        Once the products you have selected reach the limit of your plan, no further categories can be activated.
+4. **Click `run manual sync`.**
+    !!! info "What happens from then on"
+        The app refreshes the products in the synced categories once a day, so the quiz keeps current prices and availability.
 
 
 

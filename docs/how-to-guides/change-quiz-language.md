@@ -154,7 +154,7 @@ This article explains how to change the language of your quiz, translate it into
 
         ![Choosing the default quiz for a market](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    4. To set a quiz per language as well, toggle `Show All Locales`. Each market then expands into its languages.
+    4. To set a quiz per language as well, click the `>` arrow on a market. It then expands into its languages.
 
         !!! example "One market, two languages"
 
@@ -163,7 +163,7 @@ This article explains how to change the language of your quiz, translate it into
     5. For each locale, pick the quiz from its dropdown and save.
     6. To go back to one quiz per market, whatever the language, click `Hide All Locales`. The default quiz is then shown to every customer in that region.
 
-        ![Show all locales in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
+        ![A market expanded into its languages in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
     Your quizzes are now set per market and language.
 

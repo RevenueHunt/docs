@@ -247,7 +247,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
     1. To assign a quiz to a specific language within a market, go to [`App settings`](/reference/app-settings/).
     2. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-    3. Click `Show all locales` and every market listing will expand with extra dropdown field for languages available in your Shopify store.
+    3. Click the `>` arrow on a market. It expands with a dropdown for the languages available in your Shopify store.
 
         !!! info
             The list of languages available in the RevenueHunt app is synced directly from your `Shopify Settings > Languages` and is managed in Shopify via the **Translate & Adapt** app.
@@ -305,7 +305,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     To change the format for a specific market:
 
     1. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-    2. Click `Show all locales`. Each market then expands to show a language dropdown and a `Currency` field.
+    2. Click the `>` arrow on a market. It then expands to show a language dropdown and a `Currency` field.
     3. In the `Currency` field, enter your preferred format.
 
         !!! example

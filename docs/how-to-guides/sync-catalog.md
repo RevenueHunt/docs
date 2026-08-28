@@ -7,45 +7,39 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
 === "Shopify"
 
+    Tags, collections, vendors and metafields reach the quiz builder through a catalog import. Run the import when one of them is missing from a dropdown.
 
-    If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app settings.
-
-    This article explains what the catalog import does and how to trigger it.
-
+    This article explains what the import covers and how to trigger it.
 
 === "Shopify (Legacy)"
 
-    If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
+    Products and collections reach the [Link Products](/reference/quiz-builder/link-products/) and [Link Collections/Categories](/reference/quiz-builder/link-collections/) tabs through a catalog sync. Run the sync when something is missing from those lists.
 
-    This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
+    This article explains what the sync covers, how to trigger it, and what to do when it does not finish.
 
 === "WooCommerce"
 
+    Products and collections reach the [Link Products](/reference/quiz-builder/link-products/) and [Link Collections/Categories](/reference/quiz-builder/link-collections/) tabs through a catalog sync. Run the sync when something is missing from those lists.
 
-    If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
-
-    This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
+    This article explains what the sync covers, how to trigger it, and what to do when it does not finish.
 
 === "Magento"
 
-    If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
+    Products and collections reach the [Link Products](/reference/quiz-builder/link-products/) and [Link Collections/Categories](/reference/quiz-builder/link-collections/) tabs through a catalog sync. Run the sync when something is missing from those lists.
 
-    This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
+    This article explains what the sync covers, how to trigger it, and what to do when it does not finish.
 
 === "BigCommerce"
 
+    Products and collections reach the [Link Products](/reference/quiz-builder/link-products/) and [Link Collections/Categories](/reference/quiz-builder/link-collections/) tabs through a catalog sync. Run the sync when something is missing from those lists.
 
-    If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
-
-    This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
+    This article explains what the sync covers, how to trigger it, and what to do when it does not finish.
 
 === "Standalone"
 
+    Products and collections reach the [Link Products](/reference/quiz-builder/link-products/) and [Link Collections/Categories](/reference/quiz-builder/link-collections/) tabs through a catalog sync. Run the sync when something is missing from those lists.
 
-    If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
-
-    This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
-
+    This article explains what the sync covers, how to trigger it, and what to do when it does not finish.
 
 ## Import your catalog
 
@@ -53,18 +47,21 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4-MTXwFFwtU?si=M-wK6Gi4b0XXWEkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
+    !!! info "What the import does, and does not do"
 
-    The catalog import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
+        Product names, descriptions, prices and images are pulled live from Shopify through the Storefront API every time a results page renders. They are never part of the import, and they are never out of date.
 
-    To run a manual import:
+        The import brings in **tags, collections, vendors, variants and metafields**, so that they appear in the quiz builder dropdowns. It runs on its own every 24 hours.
 
-    1. **Navigate to App settings:** Go to [App settings > Catalog](/reference/app-settings/#catalog).
-    2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
+    A manual import is only needed when you have just added tags, collections or metafields in Shopify and they are not in the builder yet.
+
+    1. **Go to [App settings > Catalog](/reference/app-settings/#catalog).**
+
+    2. **Click `Import now` in the `Import tags, collections, vendors & metafields` section.**
 
         ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
-    3. The catalog will be processed and the *Imported* timestamp will be updated. If you see the timestamp is not updated after the catalog import finishes, click the `Refresh` button to update the import status.
 
+    3. **Wait for the `Imported` timestamp to change.** Click `Refresh` if it still shows the old time once the import has finished.
 
 === "Shopify (Legacy)"
 
@@ -72,8 +69,9 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
-    2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
+    1. **Go to your [Dashboard](/reference/dashboard/) and find the [Success Checklist](/reference/dashboard/#success-checklist).**
+
+    2. **Click `run manual sync` under `SYNC PRODUCTS FROM YOUR STORE`.** The sync takes 30 to 60 minutes, depending on the size of your catalog.
 
 === "WooCommerce"
 
@@ -81,8 +79,9 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
-    2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
+    1. **Go to your [Dashboard](/reference/dashboard/) and find the [Success Checklist](/reference/dashboard/#success-checklist).**
+
+    2. **Click `run manual sync` under `SYNC PRODUCTS FROM YOUR STORE`.** The sync takes 30 to 60 minutes, depending on the size of your catalog.
 
 === "Magento"
 
@@ -90,8 +89,9 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
-    2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
+    1. **Go to your [Dashboard](/reference/dashboard/) and find the [Success Checklist](/reference/dashboard/#success-checklist).**
+
+    2. **Click `run manual sync` under `SYNC PRODUCTS FROM YOUR STORE`.** The sync takes 30 to 60 minutes, depending on the size of your catalog.
 
 === "BigCommerce"
 
@@ -99,144 +99,158 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
-    2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
+    1. **Go to your [Dashboard](/reference/dashboard/) and find the [Success Checklist](/reference/dashboard/#success-checklist).**
+
+    2. **Click `run manual sync` under `SYNC PRODUCTS FROM YOUR STORE`.** The sync takes 30 to 60 minutes, depending on the size of your catalog.
 
 === "Standalone"
 
-    1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
-    2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
+    1. **Go to your [Dashboard](/reference/dashboard/) and find the [Success Checklist](/reference/dashboard/#success-checklist).**
+
+    2. **Click `run manual sync` under `SYNC PRODUCTS FROM YOUR STORE`.** The sync takes 30 to 60 minutes, depending on the size of your catalog.
 
 ## Import details
 
 === "Shopify"
 
-    !!! info "What does the catalog import do?"
-        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
+    - The import runs **automatically every 24 hours**.
+    - Only products marked **active** are included. **Archived products are excluded.**
+    - **Draft products are included**, unless you exclude them in your [Catalog Settings](/reference/app-settings/#catalog).
+    - A manual import is rarely needed. Run one when new tags, collections or vendors have not reached the quiz builder yet.
+    - The `Import now` button lives in [App settings > Catalog](/reference/app-settings/#catalog).
 
-    - The catalog import runs **automatically every 24 hours**.
-    - Only products marked as **active** are included in the import. **Archived products are excluded**.
-    - **Draft products are included** in the import unless you change your [Catalog Settings](/reference/app-settings/#catalog) to exclude them.
-    - You typically don't need to run a manual import. It's only necessary when you've added new tags, collections, or vendors in Shopify and they haven't appeared in the quiz builder yet.
-    - To run a manual import, use the `Import now` button in [App settings > Catalog](/reference/app-settings/#catalog).
+    !!! warning "A metafield in the dropdown is not the whole story"
 
+        Finding a metafield during the import only puts it in the dropdown list. Showing that metafield on a live quiz also needs Storefront API access for its definition in Shopify.
+
+        See [How to enable storefront API access](/how-to-guides/show-product-reviews/#how-to-enable-storefront-api-access) for the steps.
 
 === "Shopify (Legacy)"
 
-    !!! info "Important"
-        Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
+    !!! info "The app syncs on its own"
 
-    - If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
-    - Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-    - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
-    - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
+        The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
+
+    - The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
+    - Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
+    - You can run a manual sync **once an hour**.
+    - Make your store changes before you run a manual sync, so that the sync picks them up.
 
 === "WooCommerce"
 
-    !!! info "Important"
-        Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
+    !!! info "The app syncs on its own"
 
-    - If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
-    - Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-    - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
-    - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
+        The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
+
+    - The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
+    - Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
+    - You can run a manual sync **once an hour**.
+    - Make your store changes before you run a manual sync, so that the sync picks them up.
 
 === "Magento"
 
-    !!! info "Important"
-        Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
+    !!! info "The app syncs on its own"
 
-    - If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
-    - Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-    - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
-    - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
+        The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
+
+    - The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
+    - Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
+    - You can run a manual sync **once an hour**.
+    - Make your store changes before you run a manual sync, so that the sync picks them up.
 
 === "BigCommerce"
 
-    !!! info "Important"
-        Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
+    !!! info "The app syncs on its own"
 
-    - If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
-    - Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-    - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
-    - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
+        The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
+
+    - The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
+    - Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
+    - You can run a manual sync **once an hour**.
+    - Make your store changes before you run a manual sync, so that the sync picks them up.
 
 === "Standalone"
 
-    !!! info "Important"
-        Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
+    !!! info "The app syncs on its own"
 
-    - If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
-    - Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-    - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
-    - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
+        The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
+
+    - The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
+    - Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
+    - You can run a manual sync **once an hour**.
+    - Make your store changes before you run a manual sync, so that the sync picks them up.
 
 ## Troubleshooting import issues
 
 === "Shopify"
 
-    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalog](/reference/app-settings/#catalog) by clicking `Import now`. New items should appear within a few minutes.
-    - **Products not showing up?** Check that they are set to "Active" status in your Shopify store. Archived products are excluded from the import.
-    - **Import stuck or failed?** Check the import status in [App settings > Catalog](/reference/app-settings/#catalog). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
-
+    - **Tags, collections or vendors missing from the builder?** Run a manual import from [App settings > Catalog](/reference/app-settings/#catalog) with `Import now`. New items appear within a few minutes.
+    - **A product missing?** Check that it is set to `Active` in your Shopify store. Archived products are excluded from the import.
+    - **Import stuck, or failed?** Check the import status in [App settings > Catalog](/reference/app-settings/#catalog). Click `Import now` to retry a failed import. If it keeps failing, [contact the support team](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 
-    - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
-    - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
+    - **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
+    - **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
 
 === "WooCommerce"
 
-    - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
-    - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
+    - **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
+    - **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
 
 === "Magento"
 
-    - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
-    - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
+    - **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
+    - **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
 
 === "BigCommerce"
 
-    - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
-    - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
+    - **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
+    - **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
 
 === "Standalone"
 
-    - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
-    - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
+    - **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
+    - **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
 
 ## Selectively import product collections/categories
 
 === "Shopify"
 
-    This feature is not needed. The app only imports data for the products and collections you use in your quizzes.
+    !!! note "Not needed on this platform"
 
+        The app imports data only for the products and collections your quizzes use.
 
 === "Shopify (Legacy)"
 
-    For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately,RevenueHunt app offers a targeted solution: the `collections-first` feature. 
+    A catalog above roughly 5,000 items does not have to go into the quiz whole. The `collections-first` feature imports only the collections you choose.
 
-    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/sync-selected-collections/)
+    [How to Selectively Sync Product Collections](/how-to-guides/sync-selected-collections/)
 
 === "WooCommerce"
 
-    For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, RevenueHunt app offers a targeted solution: the `categories-first` feature. 
+    A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature imports only the categories you choose.
 
-    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/sync-selected-collections/)
+    [How to Selectively Sync Product Collections](/how-to-guides/sync-selected-collections/)
 
 === "Magento"
 
-    This feature is not available.
+    !!! note "Not available on this platform"
+
+        This version imports the whole catalog.
 
 === "BigCommerce"
 
-    This feature is not available.
+    !!! note "Not available on this platform"
+
+        This version imports the whole catalog.
 
 === "Standalone"
 
-    This feature is not available.
+    !!! note "Not available on this platform"
+
+        This version imports the whole catalog.
 
 ---
-This article explains how to import your catalog data into the RevenueHunt app.
 
-By following these steps, you can ensure your tags, collections, vendors, and metafields are up to date in the quiz builder.
+This article explains how to import your catalog data into the RevenueHunt app.

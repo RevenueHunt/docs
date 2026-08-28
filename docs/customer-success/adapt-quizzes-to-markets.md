@@ -107,7 +107,7 @@ Once your translated quizzes are ready:
 1. Go to `App Settings > Shopify Markets`
 2. You'll see a list of all your Shopify Markets
 3. Use the dropdown next to each market to assign the correct default quiz
-4. Click `Show all locales` to assign quizzes at the language level within a market (e.g., French quiz for French-speaking visitors in the EU market, Spanish quiz for Spanish-speaking visitors)
+4. Click the `>` arrow on a market to assign quizzes at the language level within it (e.g., French quiz for French-speaking visitors in the EU market, Spanish quiz for Spanish-speaking visitors)
 5. Save your changes
 
 ![Shopify Markets quiz assignment](/images/manual_shopifyV2_appsettings_markets_showall.png)

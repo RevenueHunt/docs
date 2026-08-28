@@ -119,7 +119,7 @@ Once your translated quizzes are ready:
 1. Go to `App Settings > Shopify Markets`
 2. You'll see a list of all your Shopify Markets
 3. Use the dropdown next to each market to assign the correct default quiz
-4. Click `Show all locales` to assign quizzes at the language level within a market (e.g., French quiz for French-speaking visitors in the EU market, Spanish quiz for Spanish-speaking visitors)
+4. Click the `>` arrow on a market to assign quizzes at the language level within it (e.g., French quiz for French-speaking visitors in the EU market, Spanish quiz for Spanish-speaking visitors)
 5. Save your changes
 
 ![Shopify Markets quiz assignment](/images/manual_shopifyV2_appsettings_markets_showall.png)
@@ -7470,12 +7470,12 @@ The RevenueHunt app lets you pick a quiz for each Shopify Market and its languag
     ![Shopify Markets tab in App settings](/images/manual_shopifyV2_appsettings_markets.png)
 3. Select the market you want to assign a quiz to, then pick its default quiz from the `dropdown list`.
     ![Choosing the default quiz for a market](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-4. To set a quiz per language as well, toggle `Show All Locales`. Each market then expands into its languages.
+4. To set a quiz per language as well, click the `>` arrow on a market. It then expands into its languages.
     !!! example "One market, two languages"
         In the United States market, set one quiz for English-speaking customers and another for Spanish-speaking customers.
 5. For each locale, pick the quiz from its dropdown and save.
 6. To go back to one quiz per market, whatever the language, click `Hide All Locales`. The default quiz is then shown to every customer in that region.
-    ![Show all locales in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
+    ![A market expanded into its languages in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
 Your quizzes are now set per market and language.
 
 
@@ -14891,56 +14891,60 @@ description: "Learn how to display RevenueHunt quiz answers in Shopify orders an
 icon: material/receipt-text-outline
 ---
 
-# How to Show Quiz Answers in the Shopify Orders
+# How to Show Quiz Answers in Shopify Orders
 
-It's possible to know exactly which orders in your Shopify Orders tab come from the quiz.
+You can see exactly which orders in your Shopify Orders tab came from the quiz, and what the customer answered to get there.
+
+## Pass the answers to Shopify
 
 ## Testing the connection
 
 ---
 
-This article explains how to show quiz answers in the Shopify Orders.
+This article explains how to show quiz answers in Shopify Orders.
 
 --- Shopify Specific Content ---
 
-In the `💎Built for Shopify` version of the app, quiz data can be passed to Shopify orders using **custom JavaScript**. This gives you full control over which values are saved to the cart and carried through to the order.
-1. Add your custom code to the relevant [question](/reference/quiz-builder/questions/#question-settings) or [results page](/reference/quiz-builder/results-page/#custom-js-code) using the [How to Add JavaScript](/how-to-guides/add-javascript/) guide.
-2. Use `actions.updateCartAttributes({...})` to write the values you want to store on the cart.
-3. Click `Save` to update the live quiz.
-4. Test the flow on your storefront by taking the quiz, adding products to the cart, and placing a test order.
-!!! info "Choose exactly what to save"
-    The `💎Built for Shopify` version does **not** automatically write every quiz answer into Shopify order notes.
-    Instead, you choose which values to pass through checkout. This is useful when you only want to save a result name, score, response ID, campaign tag, or a few selected answers.
-**Example:** save the response ID, result reference, and a custom segment tag on the results page.
-```javascript
-if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
-  await actions.updateCartAttributes({
-    __quiz_response_id: quiz.metadata.responseId,
-    __result_ref: quiz.currentResult?.ref || '',
-    skincare_segment: quiz.variables.highest || ''
-  });
-}
-```
-!!! tip "Hidden and visible cart attributes"
-    Use the `__` prefix when you want to save an internal value on the cart without showing it as a normal storefront cart attribute.
-    Leave the prefix off when you want the value to stay visible in Shopify cart or order surfaces.
-!!! warning
-    Cart attributes are written only when the shopper reaches the page where your custom JavaScript runs. If you need the data before checkout, add the code to the question or results page that appears before the shopper goes to the cart.
-!!! warning
-    Shopify Revenue Tracking and cart-based order tagging only work if the customer adds products to the cart directly from the quiz results page **AND** then proceeds through checkout without breaking the flow. If they purchase later, the order may no longer be attributed to the quiz.
-    Make sure your Results page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
-If the cart or order tagging is not working as expected, try the following:
-1. Open the question or results page where you added the custom JavaScript and confirm the code is saved.
-2. Make sure the code uses `actions.updateCartAttributes({...})` and runs before the customer leaves for the cart or checkout.
-3. Open the **live storefront quiz** in a different browser or incognito window (don't test on preview/admin.revenuehunt).
-4. Add a temporary `console.log('tagging cart')` line to your code and check the browser console to confirm the script runs.
-5. Take the quiz, add products to cart, and place a valid [Shopify test order](https://help.shopify.com/en/manual/checkout-settings/test-orders).
-6. Check the created order in Shopify and review which cart/order attributes were passed through checkout.
-If you're still having issues, please reach out to our [support team](/how-to-guides/contact-customer-support/) and include:
+In the `💎Built for Shopify` version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
+!!! info "You choose exactly what to save"
+    This version does **not** write every quiz answer into Shopify order notes on its own.
+    You pass the values you want instead. That suits saving a result name, a score, a response ID, a campaign tag, or a handful of answers.
+1. **Add your custom code to the relevant [question](/reference/quiz-builder/questions/#question-settings) or [results page](/reference/quiz-builder/results-page/#custom-js-code).** See [How to Add JavaScript](/how-to-guides/add-javascript/).
+2. **Write the values you want to keep with `actions.updateCartAttributes({...})`.**
+    ```javascript
+    if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+      await actions.updateCartAttributes({
+        __quiz_response_id: quiz.metadata.responseId,
+        __result_ref: quiz.currentResult?.ref || '',
+        skincare_segment: quiz.variables.highest || ''
+      });
+    }
+    ```
+    That example saves the response ID, the result reference and a custom segment tag from the results page.
+    !!! tip "Hidden and visible cart attributes"
+        Prefix a name with `__` to keep the value internal to the cart, rather than showing it as a normal storefront cart attribute.
+        Leave the prefix off when the value should stay visible on Shopify cart and order screens.
+3. **Click `Save`.** This updates the live quiz.
+4. **Take the quiz on your storefront and add the products to the cart.**
+5. **Place a test order, then check that the values arrived on it.**
+!!! warning "The code has to run before the customer leaves for the cart"
+    Cart attributes are written only when the customer reaches the page your custom JavaScript runs on. Put the code on a question or results page that comes before the cart.
+!!! warning "Attribution needs an unbroken flow"
+    Shopify Revenue Tracking and cart-based order tagging need an unbroken flow. The customer has to add products to the cart from the results page, then complete the checkout. An order placed later may no longer be attributed to the quiz.
+    Set the Checkout settings on your results page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+Work through these when the cart or order tagging does not behave.
+1. **Open the question or results page holding your custom JavaScript, and confirm the code is saved.**
+2. **Check that the code uses `actions.updateCartAttributes({...})`.** It has to run before the customer leaves for the cart or the checkout.
+3. **Open the live storefront quiz in another browser, or in an incognito window.** Do not test on the preview or on admin.revenuehunt.com.
+4. **Add a temporary `console.log('tagging cart')` line and watch the browser console.** It tells you whether the script runs at all.
+5. **Take the quiz and add the products to the cart.**
+6. **Place a valid [Shopify test order](https://help.shopify.com/en/manual/checkout-settings/test-orders).**
+7. **Open that order in Shopify and check which cart attributes came through the checkout.**
+If the values are still missing, [contact the support team](/how-to-guides/contact-customer-support/) with:
 - your quiz URL
 - the custom JavaScript you used
-- which values you expected to save
-- a screenshot of the order or cart result
+- the values you expected to save
+- a screenshot of the order or the cart
 
 
 
@@ -14956,66 +14960,59 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 # How to Show a Quiz Based on Shopify Markets
 
-## Step 1: configure Shopify Markets
+Show a different quiz to customers in different markets and languages. You build one quiz per language, then tell the app which quiz belongs to which Shopify market.
 
-## Step 2: create different quizzes for different markets
+!!! note "Platform Availability"
 
-## Step 3: configure In-app Shopify Markets
-
-## Step 4: save the changes
-
-## Step 5: test the quiz
+    This feature is in the `💎Built for Shopify` version of the RevenueHunt app only.
 
 ---
-This article explains how to show a RevenueHunt Quizzes app quiz based on Shopify Markets.
+
+This article explains how to show a RevenueHunt quiz based on Shopify Markets.
 
 --- Shopify Specific Content ---
 
-This article explains how to show a quiz based on Shopify Markets.
-With RevenueHunt Quizzes app, you can show a different quiz to users from different markets and languages.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=qKfPEBhJ2RvMlgBz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! tip "Tutorial"
-    Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and configured in your Shopify store. In order to show a quiz in a different currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
-!!! example "Example"
-    If you have a market configured for Europe with the `EUR` currency, you can show a quiz in that market. 
-    If you have a market configured for the US with the `USD` currency, you can show a quiz in that market.
-    If you have a market in Spanish with the `ES` language, you can show a quiz in Spanish for that market.
-    If you market in France with the `FR` language, you can show a quiz in French for that market.
-Go to the [Quiz builder](/reference/quiz-builder/) and create a new quiz. 
-To create a quiz in a different language, duplicate the quiz from the dashbaord and edit the quiz. 
-![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
-The quiz doesn't have an automatic translstaion option, so you will have to transalte all the questions and answers manually. The text of buttons and admin messages can be translated in the [Quiz settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) section.  
-![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
-You can create as many quizzes as you want, each in a different language.
-Once all your quizzes in different languages are created, go to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
-![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
-Select which quiz should be the default quiz shown for each market.
-![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-Click on `Show ALL locales` to set up a different default quiz for each language and market specifically.
-![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
-In there, you can also change format of how the price currency on recommended product is displayed. If you don't change the default, the price will be displayed as set up in your Shopify Market. If you want to change the format type the currency in the format you want, for example `${{amount}}` or `{{amount}}€` can be used to replace the default `{{amount}}USD` or `{{amount}}EUR`.
-!!! success "Automatic Product Translation"
-    When Shopify Markets are configured, the quiz results page will **automatically display translated product titles, descriptions, and localized prices** based on the customer's market and language. This works through Shopify's Storefront API — if you have product translations set up via the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app, they will appear automatically in quiz results. No extra configuration is needed in the RevenueHunt app.
-Save the changes. From now on, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that specific market will be shown instead.
-To test that the right quiz is shown for the right market, ensure that the quiz is published on your website by following the instructions in the [Publish](/reference/quiz-builder/share-publish/) tab of the app or [this how to article](https://docs.revenuehunt.com/how-to-guides/publish-quiz/).
-Once the default quiz is published and markets set up, you can preview your store and test the setup on different markets and languages.
-1. In Shopify, go to `Online store` and click the `👁️` eye icon to preview the store. Your store will open in a new window. 
-2. Click on a link that opens the quiz or navigate to the page where the quiz is published. 
-3. Test by switching markets and languages to verify the correct quizzes load (e.g., US quiz for the United States, EU quiz for Belgium).
-4. Confirm that the correct quiz loads for each market and language.
-5. Check that prices are displayed in the correct format.
-    !!! example "Example Test Scenarios"
-        Market change: Switch to the United States → US quiz appears.
-        Market change: Switch to Belgium → EU quiz appears.
-        Language change: Change to French → French quiz appears.
-        Language change: Change to Spanish → Spanish quiz appears.
+!!! tip "A worked walkthrough"
+    [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/) covers the same ground as a tutorial, step by step.
+1. **Enable and configure [Shopify Markets](https://help.shopify.com/en/manual/international/managing) in your Shopify store.** A quiz can only follow a market that exists there already.
+    !!! example "Markets you might set up"
+        - Europe, with the `EUR` currency
+        - The United States, with the `USD` currency
+        - A Spanish market, with the `ES` language
+        - A French market, with the `FR` language
+2. **Create your quiz in the [Quiz builder](/reference/quiz-builder/).**
+3. **Duplicate it from the dashboard, once for each extra language.**
+    ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
+4. **Translate the questions and choices in each copy by hand.** The quiz has no automatic translation.
+5. **Translate the buttons and app messages in [Quiz settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).**
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+6. **Go to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets).** It lists every market and language from your Shopify store.
+    ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
+7. **Pick the default quiz for each market.**
+    ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
+8. **Click the `>` arrow on a market to set a different quiz per language.** The market expands to show its languages.
+    ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
+9. **Set the price format, if the market default is not the one you want.** Type the format you need, such as `${{amount}}` or `{{amount}}€`, in place of `{{amount}}USD` or `{{amount}}EUR`.
+10. **Save the changes.**
+11. **Publish the quiz.** See the [Publish](/reference/quiz-builder/share-publish/) tab in the app, or [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+12. **In Shopify, go to `Online store` and click the `👁️` eye icon.** Your store opens in a new window.
+13. **Open the page the quiz is published on.**
+14. **Switch market and language, and check that the right quiz loads each time.**
+    !!! example "What to try"
+        - Switch to the United States, and the US quiz appears
+        - Switch to Belgium, and the EU quiz appears
+        - Change the language to French, and the French quiz appears
+        - Change the language to Spanish, and the Spanish quiz appears
         ![sample test](https://loom.com/i/6893314457ef4219a293e28708f91ba1?workflows_screenshot=true)
-!!! tip
-    You can also preview a specific quiz results page within the `Preview` option in the app. 
+15. **Check that prices appear in the format you set.**
+!!! info "Product translations come across on their own"
+    With Shopify Markets configured, the results page shows translated product titles and descriptions, and localized prices, for the customer's own market and language. This runs through Shopify's Storefront API.
+    Translations you made with the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app appear automatically. Nothing extra is needed in the RevenueHunt app.
+!!! tip "Preview the results page as a market"
     1. Open the [Quiz builder](/reference/quiz-builder/).
-    2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
-    3. There, you'll have the option to preview the results page as different markets and languages.
+    2. Click `Preview` in the top-right corner and go through to the results page.
+    3. Pick the market and language to preview it as.
     ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 
 
@@ -15030,15 +15027,19 @@ icon: material/account-file-text-outline
 description: "Information about showing RevenueHunt quiz on Shopify customer profile pages."
 ---
 
-# How to Show Quiz on a Customer Profile
+# How to Show a Quiz on a Customer Profile
+
+Showing a customer their own quiz results inside their account page keeps the recommendation available long after they took the quiz.
 
 ---
-This guide provides instructions for developers on showing the quiz on a customer profile in Shopify.
+
+This guide explains how to show a quiz on a customer profile in Shopify.
 
 --- Shopify Specific Content ---
 
-The new Built for Shopify version of the RevenueHunt app does not have an app embed to show the quiz on a customer profile yet. It is **not possible yet** to directly show the quiz on a customer profile using the new Built for Shopify version of the RevenueHunt app.
-If you're interested in this feature, please let us know by [contacting support](/how-to-guides/contact-customer-support/).
+!!! note "Not available on this platform"
+    The `💎Built for Shopify` version has no app embed for the customer profile yet, so the quiz cannot be shown there.
+    To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -15052,15 +15053,19 @@ icon: material/login
 description: "Information about showing RevenueHunt quiz only to logged-in customers in Shopify."
 ---
 
-# How to Show Quiz Only to Logged-in Customers
+# How to Show a Quiz Only to Logged-in Customers
+
+Put the quiz on a page that only signed-in customers can use. A customer who already took it sees their own results instead, and everyone else is asked to log in.
 
 ---
-By following this article, developers can learn how to show a quiz to logged-in customers only.
+
+This guide explains how to show a quiz only to logged-in customers in Shopify.
 
 --- Shopify Specific Content ---
 
-The new Built for Shopify version of the RevenueHunt app does not have a way to show the quiz to logged-in customers yet. It is **not possible yet** to directly show the quiz to logged-in customers using the new Built for Shopify version of the RevenueHunt app.
-If you're interested in this feature, please let us know by [contacting support](/how-to-guides/contact-customer-support/).
+!!! note "Not available on this platform"
+    The `💎Built for Shopify` version has no way to show the quiz to logged-in customers only.
+    To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -15076,20 +15081,31 @@ description: "Learn how to display custom explanations for why products were rec
 
 # How to Show Results Explanation
 
+The [recommendation algorithm](/how-to-guides/recommend-products/) picks the products. It does not explain **why** it picked them, and it does not change the results page text to match them.
+
+Writing that explanation is your job, and how you do it depends on the version of the app.
+
 ---
+
 This article explains how to show why a certain product was recommended to the customer.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=fSucoCguqxHBr3j8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation text of **why** a certain product was recommended. It also won’t *automatically* display custom text depending on the recommended product. 
-However, there are a few easy ways to show such a custom result text/explanation with the new Built for Shopify version of the RevenueHunt app.
-- The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
-- You can then use the [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
-- For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
-!!! info
-    To learn how to **use Display logic** to show different sections on the results page, check [How to use Display Logic](/how-to-guides/use-display-logic/).
-    You can also check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
+This version builds the explanation out of results page sections.
+- Add one section per outcome, each with its own text and its own product recommendations.
+- Give every section a [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) rule that decides when it appears, from an answer, a variable or a score.
+That makes a **personality-type** or **Dosha** quiz straightforward to build here.
+!!! info "Where to read the setup"
+    - [How to Use Display logic](/how-to-guides/use-display-logic/) covers showing and hiding sections.
+    - [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) decides the outcome from the variable chosen most often.
+    - [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) decides it from a total score.
+    The last two are the usual routes to a personality-type quiz.
+There are other ways to explain a recommendation, and some need much less setup.
+- **Content Dynamic Source.** [A Content Dynamic Source](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Text Block` or a `Heading Block`. One block then adapts to everyone who takes the quiz. A single line such as *"Your dry, sensitive skin needs..."* can stand in for a section per outcome. That removes most of the display logic you would otherwise write.
+- **Product descriptions.** Add a `Description` component to the product slot, under `Product components layout`. The text comes straight from your Shopify catalog, so the reason lives with the product rather than in the quiz.
+- **Metafields.** A `Metafield` component shows a custom product field. A short "why this suits you" note kept on the product in Shopify reaches the results page without any quiz logic at all.
+- **Custom JavaScript.** A developer can write the text from the recommended product ID, or from a score. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 
 
@@ -15114,33 +15130,35 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 ## Selectively import product collections/categories
 
 ---
-This article explains how to import your catalog data into the RevenueHunt app.
 
-By following these steps, you can ensure your tags, collections, vendors, and metafields are up to date in the quiz builder.
+This article explains how to import your catalog data into the RevenueHunt app.
 
 --- Shopify Specific Content ---
 
-If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app settings.
-This article explains what the catalog import does and how to trigger it.
+Tags, collections, vendors and metafields reach the quiz builder through a catalog import. Run the import when one of them is missing from a dropdown.
+This article explains what the import covers and how to trigger it.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4-MTXwFFwtU?si=M-wK6Gi4b0XXWEkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
-The catalog import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
-To run a manual import:
-1. **Navigate to App settings:** Go to [App settings > Catalog](/reference/app-settings/#catalog).
-2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
+!!! info "What the import does, and does not do"
+    Product names, descriptions, prices and images are pulled live from Shopify through the Storefront API every time a results page renders. They are never part of the import, and they are never out of date.
+    The import brings in **tags, collections, vendors, variants and metafields**, so that they appear in the quiz builder dropdowns. It runs on its own every 24 hours.
+A manual import is only needed when you have just added tags, collections or metafields in Shopify and they are not in the builder yet.
+1. **Go to [App settings > Catalog](/reference/app-settings/#catalog).**
+2. **Click `Import now` in the `Import tags, collections, vendors & metafields` section.**
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
-3. The catalog will be processed and the *Imported* timestamp will be updated. If you see the timestamp is not updated after the catalog import finishes, click the `Refresh` button to update the import status.
-!!! info "What does the catalog import do?"
-    The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalog sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
-- The catalog import runs **automatically every 24 hours**.
-- Only products marked as **active** are included in the import. **Archived products are excluded**.
-- **Draft products are included** in the import unless you change your [Catalog Settings](/reference/app-settings/#catalog) to exclude them.
-- You typically don't need to run a manual import. It's only necessary when you've added new tags, collections, or vendors in Shopify and they haven't appeared in the quiz builder yet.
-- To run a manual import, use the `Import now` button in [App settings > Catalog](/reference/app-settings/#catalog).
-- **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalog](/reference/app-settings/#catalog) by clicking `Import now`. New items should appear within a few minutes.
-- **Products not showing up?** Check that they are set to "Active" status in your Shopify store. Archived products are excluded from the import.
-- **Import stuck or failed?** Check the import status in [App settings > Catalog](/reference/app-settings/#catalog). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
-This feature is not needed. The app only imports data for the products and collections you use in your quizzes.
+3. **Wait for the `Imported` timestamp to change.** Click `Refresh` if it still shows the old time once the import has finished.
+- The import runs **automatically every 24 hours**.
+- Only products marked **active** are included. **Archived products are excluded.**
+- **Draft products are included**, unless you exclude them in your [Catalog Settings](/reference/app-settings/#catalog).
+- A manual import is rarely needed. Run one when new tags, collections or vendors have not reached the quiz builder yet.
+- The `Import now` button lives in [App settings > Catalog](/reference/app-settings/#catalog).
+!!! warning "A metafield in the dropdown is not the whole story"
+    Finding a metafield during the import only puts it in the dropdown list. Showing that metafield on a live quiz also needs Storefront API access for its definition in Shopify.
+    See [How to enable storefront API access](/how-to-guides/show-product-reviews/#how-to-enable-storefront-api-access) for the steps.
+- **Tags, collections or vendors missing from the builder?** Run a manual import from [App settings > Catalog](/reference/app-settings/#catalog) with `Import now`. New items appear within a few minutes.
+- **A product missing?** Check that it is set to `Active` in your Shopify store. Archived products are excluded from the import.
+- **Import stuck, or failed?** Check the import status in [App settings > Catalog](/reference/app-settings/#catalog). Click `Import now` to retry a failed import. If it keeps failing, [contact the support team](/how-to-guides/contact-customer-support/).
+!!! note "Not needed on this platform"
+    The app imports data only for the products and collections your quizzes use.
 
 
 
@@ -15154,18 +15172,19 @@ description: "Learn how to selectively sync product collections with RevenueHunt
 icon: material/folder-sync-outline
 ---
 
-# How to Selectively Sync Product Collections with RevenueHunt app
+# How to Selectively Sync Product Collections
 
 ## Selecting collections/categories for synchronization
 
 ---
-This article explains how to use the `collection-first`/`categories-first` feature in RevenueHunt app.
+
+This article explains how to sync only the collections or categories your quiz needs.
 
 --- Shopify Specific Content ---
 
-!!! note "Not available on this platform"
+!!! note "Not needed on this platform"
     The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
-!!! note "Not available on this platform"
+!!! note "Not needed on this platform"
     The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
@@ -21894,7 +21913,7 @@ Once the quizzes for different markets and languages are created, you can assign
 You can also assign a quiz to a specific language within a market.
 1. To assign a quiz to a specific language within a market, go to [`App settings`](/reference/app-settings/).
 2. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-3. Click `Show all locales` and every market listing will expand with extra dropdown field for languages available in your Shopify store.
+3. Click the `>` arrow on a market. It expands with a dropdown for the languages available in your Shopify store.
     !!! info
         The list of languages available in the RevenueHunt app is synced directly from your `Shopify Settings > Languages` and is managed in Shopify via the **Translate & Adapt** app.
 4. Click on a dropdown next to each language name to set a default quiz for each language.
@@ -21910,7 +21929,7 @@ By default, quiz result prices follow the currency format in your Shopify Market
     If `USD` is your default currency format for US market, prices on the results page of the quiz will be displayed as `25 USD`.
 To change the format for a specific market:
 1. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-2. Click `Show all locales`. Each market then expands to show a language dropdown and a `Currency` field.
+2. Click the `>` arrow on a market. It then expands to show a language dropdown and a `Currency` field.
 3. In the `Currency` field, enter your preferred format.
     !!! example
         - `${{amount}}` > This will display prices as $25.00 instead of 25 USD.

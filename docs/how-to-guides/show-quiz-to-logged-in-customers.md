@@ -3,114 +3,118 @@ icon: material/login
 description: "Information about showing RevenueHunt quiz only to logged-in customers in Shopify."
 ---
 
-# How to Show Quiz Only to Logged-in Customers
+# How to Show a Quiz Only to Logged-in Customers
+
+Put the quiz on a page that only signed-in customers can use. A customer who already took it sees their own results instead, and everyone else is asked to log in.
 
 === "Shopify"
 
-    The new Built for Shopify version of the RevenueHunt app does not have a way to show the quiz to logged-in customers yet. It is **not possible yet** to directly show the quiz to logged-in customers using the new Built for Shopify version of the RevenueHunt app.
+    !!! note "Not available on this platform"
 
-    If you're interested in this feature, please let us know by [contacting support](/how-to-guides/contact-customer-support/).
+        The `💎Built for Shopify` version has no way to show the quiz to logged-in customers only.
 
+        To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 
-    It’s possible to use the customer metafields to render quiz results onto different elements of your Shopify Theme liquids. This article explains how to show the quiz only to logged-in customers in Shopify.
+    Customer metafields can render quiz results into any part of your Shopify theme. This section uses them to build a page that behaves differently for a logged-in customer.
 
-    !!! warning
+    !!! warning "This one is for a developer"
 
-        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
+        The steps below need Shopify Liquid. If you do not write Liquid, ask a professional to do it. You can find or hire one through [Shopify Experts](https://experts.shopify.com/).
 
-    !!! note
+    1. **Go to `Online Store` > `Themes`, then `Actions` > `Edit Code`.**
 
-        This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to do this in WooCommerce, Magento or BigCommerce.
+    2. **Create a new page template.** Set the template type to `liquid` and the name to `quiz`.
 
-    **Step 1: Create a New Page Template**
+        ![how to show quiz to logged in customers template](/images/how_to_show_quiz_to_logged_in_customers_template.png)
 
-    1. In your `Online Store > Themes` section, go to `Actions > Edit Code`.
-    2. Create a new Page template. 
-        - Template type: `liquid`. 
-        - Template name: `quiz`.
+    3. **Replace the contents of `page.quiz.liquid` with this code.**
 
-    ![how to show quiz to logged in customers template](/images/how_to_show_quiz_to_logged_in_customers_template.png)
+        ```html
+        <div class="page-width">
+          <div class="grid">
+            <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+              <div class="section-header text-center">
+                <h1>{{ page.title }}</h1>
+              </div>
+              <div class="grid myaccount">
+                {% if customer %}
+                  <div class="grid__item rh-inline" style="margin: 60px 0 120px;">
+                    <script src="https://admin.revenuehunt.com/embed.js" async></script>
+                    {% if customer.metafields.prq.response_permalink %}
+                      <h2>Your Profile</h2>
+                      <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;"></iframe>
+                    {% else %}
+                      <h2>Take our Quiz to determine your skincare routine</h2>
+                      <iframe src="https://admin.revenuehunt.com/public/quiz/dbqHqN" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;"></iframe>
+                    {% endif %}
+                  </div>
+                {% else %}
+                  <div class="w-100"><h3>You're not logged in.</h3></div>
+                  <div class="w-100"><p>Please <a href="https://skincarequiz.myshopify.com/account/login">log in</a> or <a href="https://skincarequiz.myshopify.com/account/register">sign up</a> to take the quiz.</p></div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        ```
 
-    **Step 2: Add New Page Code**
+    4. **Replace the quiz URL and the two account URLs with your own.** Adapt the headings and the copy to your store as well.
 
-    Replace your new `page.quiz.liquid` code for the following code and adapt the texts to your store:
+    5. **Go to `Online Store` > `Pages` and click `Add Page`.**
 
-    ```html
-    <div class="page-width">
-    <div class="grid">
-    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
-    <div class="section-header text-center">
-    <h1>{{ page.title }}</h1>
-    </div><div class="grid myaccount">
-    {% if customer %}
-    <div class="grid__item rh-inline" style="margin: 60px 0 120px;">
-    <script src="https://admin.revenuehunt.com/embed.js" async></script>
-    {% if customer.metafields.prq.response_permalink %}
-    <h2>Your Profile</h2>
-    <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;" />
-    {% else %}
-    <h2>Take our Quiz to determine your skincare routine</h2>
-    <iframe src="https://admin.revenuehunt.com/public/quiz/dbqHqN" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;" />
-    {% endif %}
-    </div>
-    {% else %}
-    <div class="w-100"><h3>You're not logged in.</h3></div>
-    <div class="w-100"><p>Please <a href="https://skincarequiz.myshopify.com/account/login">log in</a> or <a href="https://skincarequiz.myshopify.com/account/register">sign up</a> to take the quiz.</p></div>
-    {% endif %}
-    </div>
-    </div>
-    </div>
-    </div>
-    ```
+    6. **Give the page a title, then select the `quiz` theme template.**
 
-    Remember to replace the URL sections in the code with the correct URLs to the quiz and your website, respectively.
-
-    **Step 3: Apply the theme to the page**
-
-    1. Go to `Online Store > Pages` and click on the `Add Page` button. 
-    2. Add the title, then select the `quiz` Theme template.
         ![how to show quiz to logged in customers new page](/images/how_to_show_quiz_to_logged_in_customers_new_page.png)
 
-    3. Click on `Save`.
+    7. **Click `Save`.**
 
-    The result should look something like this: [https://skincarequiz.myshopify.com/pages/logged-in-quiz](https://skincarequiz.myshopify.com/pages/logged-in-quiz). 
+    The page then behaves like [this demo page](https://skincarequiz.myshopify.com/pages/logged-in-quiz):
 
-    - If you’re not logged in, you’re prompted to log in or sign up. 
-    - If you’re logged in, you’re either shown the results page (if you already took the quiz) or the quiz’s start page.
+    - A customer who is not logged in is asked to log in or sign up.
+    - A customer who is logged in sees their results page, or the start of the quiz if they have not taken it yet.
 
 === "WooCommerce"
 
-    It is **not possible yet** to directly show the quiz to logged-in customers using the RevenueHunt app for WooCommerce.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz to logged-in customers only in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 === "Magento"
 
-    It is **not possible yet** to directly show the quiz to logged-in customers using the RevenueHunt app for Magento.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz to logged-in customers only in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 === "BigCommerce"
 
-    It is **not possible yet** to directly show the quiz to logged-in customers using the RevenueHunt app for BigCommerce.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz to logged-in customers only in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 === "Standalone"
 
-    It is **not possible yet** to directly show the quiz to logged-in customers using the Standalone RevenueHunt app for Headless ecommerce.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz to logged-in customers only in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 ---
-By following this article, developers can learn how to show a quiz to logged-in customers only.
+
+This guide explains how to show a quiz only to logged-in customers in Shopify.

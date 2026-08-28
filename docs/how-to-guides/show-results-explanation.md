@@ -5,765 +5,479 @@ description: "Learn how to display custom explanations for why products were rec
 
 # How to Show Results Explanation
 
+The [recommendation algorithm](/how-to-guides/recommend-products/) picks the products. It does not explain **why** it picked them, and it does not change the results page text to match them.
+
+Writing that explanation is your job, and how you do it depends on the version of the app.
+
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=fSucoCguqxHBr3j8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation text of **why** a certain product was recommended. It also won’t *automatically* display custom text depending on the recommended product. 
-    
-    However, there are a few easy ways to show such a custom result text/explanation with the new Built for Shopify version of the RevenueHunt app.
+    This version builds the explanation out of results page sections.
 
-    - The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
-    
-    - You can then use the [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
-    
-    - For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
+    - Add one section per outcome, each with its own text and its own product recommendations.
+    - Give every section a [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) rule that decides when it appears, from an answer, a variable or a score.
 
-    !!! info
-    
-        To learn how to **use Display logic** to show different sections on the results page, check [How to use Display Logic](/how-to-guides/use-display-logic/).
+    That makes a **personality-type** or **Dosha** quiz straightforward to build here.
 
-        You can also check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
+    !!! info "Where to read the setup"
 
+        - [How to Use Display logic](/how-to-guides/use-display-logic/) covers showing and hiding sections.
+        - [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) decides the outcome from the variable chosen most often.
+        - [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) decides it from a total score.
+
+        The last two are the usual routes to a personality-type quiz.
+
+    There are other ways to explain a recommendation, and some need much less setup.
+
+    - **Content Dynamic Source.** [A Content Dynamic Source](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Text Block` or a `Heading Block`. One block then adapts to everyone who takes the quiz. A single line such as *"Your dry, sensitive skin needs..."* can stand in for a section per outcome. That removes most of the display logic you would otherwise write.
+
+    - **Product descriptions.** Add a `Description` component to the product slot, under `Product components layout`. The text comes straight from your Shopify catalog, so the reason lives with the product rather than in the quiz.
+
+    - **Metafields.** A `Metafield` component shows a custom product field. A short "why this suits you" note kept on the product in Shopify reaches the results page without any quiz logic at all.
+
+    - **Custom JavaScript.** A developer can write the text from the recommended product ID, or from a score. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+    !!! note "No linear scoring in this version"
 
-    The legacy version of the RevenueHunt app **doesn't** have a linear score feature (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
+        The legacy version of the RevenueHunt app has no linear score. A choice cannot add one point to a running total that then picks a results page.
 
-    If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
+        That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
 
-    1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
+    - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
 
-        !!! tip
-        
-            For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
+        ??? question "A worked personality-type quiz"
 
+            Say the quiz works out a customer's skin type.
 
+            1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
 
-        ??? question "How to Build a Personality-Type Quiz?"
+                - Very oily, shiny all over *(oily skin)*
+                - Oily in the T-zone, but dry elsewhere *(combination skin)*
+                - Balanced, not too oily or dry *(normal skin)*
+                - Dry and tight all over *(dry skin)*
 
+            2. **Ask about sensitivity.** "How does your skin react to new products or environmental changes?"
 
-            Imagine you want to determine a customer’s skin type. You might ask them specific questions about their skin to narrow down their unique characteristics. Here’s an example:
+                - Easily irritated, red or itchy *(sensitive skin)*
+                - Rarely reacts, even to strong products *(normal or oily skin)*
+                - Reacts sometimes, but not consistently *(combination skin)*
 
-            ---
+            3. **Ask about hydration.** "Does your skin often feel dehydrated, whatever its oiliness?"
 
-            **Step 1: Add Questions to the Quiz**
+                - Yes, it feels tight and flaky *(dry or dehydrated skin)*
+                - Sometimes, especially in colder months *(combination or normal skin)*
+                - Rarely or never *(oily skin)*
 
-            **Question 1: Oiliness**  
-            *"How does your skin usually feel by the middle of the day?"*  
-            - **Very oily, shiny all over.** *(Oily skin)*  
-            - **Oily in the T-zone (forehead, nose, chin), but dry elsewhere.** *(Combination skin)*  
-            - **Balanced, not too oily or dry.** *(Normal skin)*  
-            - **Dry and tight all over.** *(Dry skin)*  
+            4. **Link products to every choice.** Answers that point at dry skin link to the products for dry skin, and so on. The [recommendation algorithm](/how-to-guides/recommend-products/) then handles the products on its own.
 
-            **Question 2: Sensitivity**  
-            *"How does your skin react to new products or environmental changes?"*  
-            - **Easily irritated, red, or itchy.** *(Sensitive skin)*  
-            - **Rarely reacts, even to strong products.** *(Normal or Oily skin)*  
-            - **Reacts sometimes, but not consistently.** *(Combination skin)*  
+            5. **Add one content block per skin type to the Results Page.** One saying *You have Dry Skin*, one *You have Oily Skin*, and so on.
 
-            **Question 3: Hydration**  
-            *"Does your skin often feel dehydrated, regardless of oiliness?"*  
-            - **Yes, it feels tight and flaky.** *(Dry or Dehydrated skin)*  
-            - **Sometimes, especially in colder months.** *(Combination or Normal skin)*  
-            - **Rarely or never.** *(Oily skin)*  
+                ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
-            ---
+            6. **Give each block a [Display Logic](/how-to-guides/use-display-logic/) rule that makes it visible for its own answers.**
 
-            **Step 2: Link Products to Choices**
+                !!! example "The rule for dry skin"
 
-            Associate each answer option with the most appropriate products. For example:  
-            - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
-            - Answers suggesting **Oily Skin** link to products designed for oily skin.  
+                    Question 1 is *Dry and tight all over*, **AND** Question 2 is *Easily irritated, red, or itchy*, **AND** Question 3 is *Yes, it feels tight and flaky*.
 
-            This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
+                    The block is then **Visible**. Otherwise it stays hidden.
 
-            *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
+                ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
 
-            ---
+            7. **Add a rule for every route to an outcome.** Some outcomes are reached several ways, so they need several rules joined with **OR**.
 
-            **Step 3: Displaying Skin Type Text Results with Display Logic**
+                !!! example "Combination skin, reached three ways"
 
-            If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
+                    Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Reacts sometimes*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            **Example Setup:**
+                    **OR** Question 1 is *Very oily, shiny all over*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            1️⃣ **Add Content Blocks to Results Page**  
+                    **OR** Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, but not consistently*.
 
-            Create content blocks on your results page for each skin type. For example:  
+                ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
 
-            - *You have Dry Skin*  
-            - *You have Oily Skin*  
-            - *You have Combination Skin*  
-            - *You have Normal Skin*  
+                ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
 
-            ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
+                ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
 
-            2️⃣ **Configure Display Logic Rules**  
+            8. **Repeat until every content block has its rules.**
 
-            Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
+                !!! warning "Every combination needs a rule"
 
-            **For Dry Skin:**  
-            - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Yes, it feels tight and flaky*.  
+                    This method asks you to predict every route a customer can take. A combination with no rule shows no text.
 
-            Then this block will be **Visible**; otherwise, it remains hidden.  
+            !!! tip "If the combinations get out of hand"
 
-            ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
+                - Base the logic on one question rather than all three.
+                - Use custom JavaScript to work the skin type out, and write the text from there.
 
-            **For Combination Skin:**  
-            Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
+        !!! tip "For a longer quiz, write the logic in code"
 
-            
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Reacts sometimes, but not consistently*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
+            Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-            **OR**
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-            - If the answer to **Question 1: Oiliness** is *Very oily, shiny all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-
-            **OR**
-
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, but not consistently*.         
-
-            Then this block will be **Visible**; otherwise, it remains hidden.  
-
-            ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
-            ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
-            ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
-
-
-
-
-            3️⃣ **Repeat this process for all other possible combinations of answers.**
-            
-            You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
-
-            ---
-
-            **Simplifying the Process**
-
-            If configuring logic for all combinations feels overwhelming, you can try alternatives highlighted in this article, for example:  
-            1. Base your logic on a single question (e.g., Question 1).  
-            2. Use JavaScript to dynamically determine the skin type and display the result text.  
-
-            ---
-
-            This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
-
-
-
-    3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
-
-        !!! tip
-
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-
-    4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+    - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 === "WooCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+    !!! note "No linear scoring in this version"
 
-    RevenueHunt app **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
+        This version of the RevenueHunt app has no linear score yet. A choice cannot add one point to a running total that then picks a results page.
 
-    If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
+        That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
 
-    1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
+    - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
 
-        !!! tip
-        
-            For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
+        ??? question "A worked personality-type quiz"
 
+            Say the quiz works out a customer's skin type.
 
+            1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
 
-        ??? question "How to Build a Personality-Type Quiz?"
+                - Very oily, shiny all over *(oily skin)*
+                - Oily in the T-zone, but dry elsewhere *(combination skin)*
+                - Balanced, not too oily or dry *(normal skin)*
+                - Dry and tight all over *(dry skin)*
 
+            2. **Ask about sensitivity.** "How does your skin react to new products or environmental changes?"
 
-            Imagine you want to determine a customer’s skin type. You might ask them specific questions about their skin to narrow down their unique characteristics. Here’s an example:
+                - Easily irritated, red or itchy *(sensitive skin)*
+                - Rarely reacts, even to strong products *(normal or oily skin)*
+                - Reacts sometimes, but not consistently *(combination skin)*
 
-            ---
+            3. **Ask about hydration.** "Does your skin often feel dehydrated, whatever its oiliness?"
 
-            **Step 1: Add Questions to the Quiz**
+                - Yes, it feels tight and flaky *(dry or dehydrated skin)*
+                - Sometimes, especially in colder months *(combination or normal skin)*
+                - Rarely or never *(oily skin)*
 
-            **Question 1: Oiliness**  
-            *"How does your skin usually feel by the middle of the day?"*  
-            - **Very oily, shiny all over.** *(Oily skin)*  
-            - **Oily in the T-zone (forehead, nose, chin), but dry elsewhere.** *(Combination skin)*  
-            - **Balanced, not too oily or dry.** *(Normal skin)*  
-            - **Dry and tight all over.** *(Dry skin)*  
+            4. **Link products to every choice.** Answers that point at dry skin link to the products for dry skin, and so on. The [recommendation algorithm](/how-to-guides/recommend-products/) then handles the products on its own.
 
-            **Question 2: Sensitivity**  
-            *"How does your skin react to new products or environmental changes?"*  
-            - **Easily irritated, red, or itchy.** *(Sensitive skin)*  
-            - **Rarely reacts, even to strong products.** *(Normal or Oily skin)*  
-            - **Reacts sometimes, but not consistently.** *(Combination skin)*  
+            5. **Add one content block per skin type to the Results Page.** One saying *You have Dry Skin*, one *You have Oily Skin*, and so on.
 
-            **Question 3: Hydration**  
-            *"Does your skin often feel dehydrated, regardless of oiliness?"*  
-            - **Yes, it feels tight and flaky.** *(Dry or Dehydrated skin)*  
-            - **Sometimes, especially in colder months.** *(Combination or Normal skin)*  
-            - **Rarely or never.** *(Oily skin)*  
+                ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
-            ---
+            6. **Give each block a [Display Logic](/how-to-guides/use-display-logic/) rule that makes it visible for its own answers.**
 
-            **Step 2: Link Products to Choices**
+                !!! example "The rule for dry skin"
 
-            Associate each answer option with the most appropriate products. For example:  
-            - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
-            - Answers suggesting **Oily Skin** link to products designed for oily skin.  
+                    Question 1 is *Dry and tight all over*, **AND** Question 2 is *Easily irritated, red, or itchy*, **AND** Question 3 is *Yes, it feels tight and flaky*.
 
-            This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
+                    The block is then **Visible**. Otherwise it stays hidden.
 
-            *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
+                ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
 
-            ---
+            7. **Add a rule for every route to an outcome.** Some outcomes are reached several ways, so they need several rules joined with **OR**.
 
-            **Step 3: Displaying Skin Type Text Results with Display Logic**
+                !!! example "Combination skin, reached three ways"
 
-            If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
+                    Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Reacts sometimes*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            **Example Setup:**
+                    **OR** Question 1 is *Very oily, shiny all over*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            1️⃣ **Add Content Blocks to Results Page**  
+                    **OR** Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, but not consistently*.
 
-            Create content blocks on your results page for each skin type. For example:  
+                ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
 
-            - *You have Dry Skin*  
-            - *You have Oily Skin*  
-            - *You have Combination Skin*  
-            - *You have Normal Skin*  
+                ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
 
-            ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
+                ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
 
-            2️⃣ **Configure Display Logic Rules**  
+            8. **Repeat until every content block has its rules.**
 
-            Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
+                !!! warning "Every combination needs a rule"
 
-            **For Dry Skin:**  
-            - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Yes, it feels tight and flaky*.  
+                    This method asks you to predict every route a customer can take. A combination with no rule shows no text.
 
-            Then this block will be **Visible**; otherwise, it remains hidden.  
+            !!! tip "If the combinations get out of hand"
 
-            ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
+                - Base the logic on one question rather than all three.
+                - Use custom JavaScript to work the skin type out, and write the text from there.
 
-            **For Combination Skin:**  
-            Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
+        !!! tip "For a longer quiz, write the logic in code"
 
-            
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Reacts sometimes, but not consistently*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
+            Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-            **OR**
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-            - If the answer to **Question 1: Oiliness** is *Very oily, shiny all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-
-            **OR**
-
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, but not consistently*.         
-
-            Then this block will be **Visible**; otherwise, it remains hidden.  
-
-            ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
-            ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
-            ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
-
-
-
-
-            3️⃣ **Repeat this process for all other possible combinations of answers.**
-            
-            You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
-
-            ---
-
-            **Simplifying the Process**
-
-            If configuring logic for all combinations feels overwhelming, you can try alternatives highlighted in this article, for example:  
-            1. Base your logic on a single question (e.g., Question 1).  
-            2. Use JavaScript to dynamically determine the skin type and display the result text.  
-
-            ---
-
-            This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
-
-
-
-    3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
-
-        !!! tip
-
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-
-    4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+    - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 === "Magento"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+    !!! note "No linear scoring in this version"
 
-    RevenueHunt app **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
+        This version of the RevenueHunt app has no linear score yet. A choice cannot add one point to a running total that then picks a results page.
 
-    If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
+        That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
 
-    1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
+    - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
 
-        !!! tip
-        
-            For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
+        ??? question "A worked personality-type quiz"
 
+            Say the quiz works out a customer's skin type.
 
+            1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
 
-        ??? question "How to Build a Personality-Type Quiz?"
+                - Very oily, shiny all over *(oily skin)*
+                - Oily in the T-zone, but dry elsewhere *(combination skin)*
+                - Balanced, not too oily or dry *(normal skin)*
+                - Dry and tight all over *(dry skin)*
 
+            2. **Ask about sensitivity.** "How does your skin react to new products or environmental changes?"
 
-            Imagine you want to determine a customer’s skin type. You might ask them specific questions about their skin to narrow down their unique characteristics. Here’s an example:
+                - Easily irritated, red or itchy *(sensitive skin)*
+                - Rarely reacts, even to strong products *(normal or oily skin)*
+                - Reacts sometimes, but not consistently *(combination skin)*
 
-            ---
+            3. **Ask about hydration.** "Does your skin often feel dehydrated, whatever its oiliness?"
 
-            **Step 1: Add Questions to the Quiz**
+                - Yes, it feels tight and flaky *(dry or dehydrated skin)*
+                - Sometimes, especially in colder months *(combination or normal skin)*
+                - Rarely or never *(oily skin)*
 
-            **Question 1: Oiliness**  
-            *"How does your skin usually feel by the middle of the day?"*  
-            - **Very oily, shiny all over.** *(Oily skin)*  
-            - **Oily in the T-zone (forehead, nose, chin), but dry elsewhere.** *(Combination skin)*  
-            - **Balanced, not too oily or dry.** *(Normal skin)*  
-            - **Dry and tight all over.** *(Dry skin)*  
+            4. **Link products to every choice.** Answers that point at dry skin link to the products for dry skin, and so on. The [recommendation algorithm](/how-to-guides/recommend-products/) then handles the products on its own.
 
-            **Question 2: Sensitivity**  
-            *"How does your skin react to new products or environmental changes?"*  
-            - **Easily irritated, red, or itchy.** *(Sensitive skin)*  
-            - **Rarely reacts, even to strong products.** *(Normal or Oily skin)*  
-            - **Reacts sometimes, but not consistently.** *(Combination skin)*  
+            5. **Add one content block per skin type to the Results Page.** One saying *You have Dry Skin*, one *You have Oily Skin*, and so on.
 
-            **Question 3: Hydration**  
-            *"Does your skin often feel dehydrated, regardless of oiliness?"*  
-            - **Yes, it feels tight and flaky.** *(Dry or Dehydrated skin)*  
-            - **Sometimes, especially in colder months.** *(Combination or Normal skin)*  
-            - **Rarely or never.** *(Oily skin)*  
+                ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
-            ---
+            6. **Give each block a [Display Logic](/how-to-guides/use-display-logic/) rule that makes it visible for its own answers.**
 
-            **Step 2: Link Products to Choices**
+                !!! example "The rule for dry skin"
 
-            Associate each answer option with the most appropriate products. For example:  
-            - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
-            - Answers suggesting **Oily Skin** link to products designed for oily skin.  
+                    Question 1 is *Dry and tight all over*, **AND** Question 2 is *Easily irritated, red, or itchy*, **AND** Question 3 is *Yes, it feels tight and flaky*.
 
-            This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
+                    The block is then **Visible**. Otherwise it stays hidden.
 
-            *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
+                ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
 
-            ---
+            7. **Add a rule for every route to an outcome.** Some outcomes are reached several ways, so they need several rules joined with **OR**.
 
-            **Step 3: Displaying Skin Type Text Results with Display Logic**
+                !!! example "Combination skin, reached three ways"
 
-            If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
+                    Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Reacts sometimes*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            **Example Setup:**
+                    **OR** Question 1 is *Very oily, shiny all over*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            1️⃣ **Add Content Blocks to Results Page**  
+                    **OR** Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, but not consistently*.
 
-            Create content blocks on your results page for each skin type. For example:  
+                ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
 
-            - *You have Dry Skin*  
-            - *You have Oily Skin*  
-            - *You have Combination Skin*  
-            - *You have Normal Skin*  
+                ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
 
-            ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
+                ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
 
-            2️⃣ **Configure Display Logic Rules**  
+            8. **Repeat until every content block has its rules.**
 
-            Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
+                !!! warning "Every combination needs a rule"
 
-            **For Dry Skin:**  
-            - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Yes, it feels tight and flaky*.  
+                    This method asks you to predict every route a customer can take. A combination with no rule shows no text.
 
-            Then this block will be **Visible**; otherwise, it remains hidden.  
+            !!! tip "If the combinations get out of hand"
 
-            ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
+                - Base the logic on one question rather than all three.
+                - Use custom JavaScript to work the skin type out, and write the text from there.
 
-            **For Combination Skin:**  
-            Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
+        !!! tip "For a longer quiz, write the logic in code"
 
-            
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Reacts sometimes, but not consistently*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
+            Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-            **OR**
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-            - If the answer to **Question 1: Oiliness** is *Very oily, shiny all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-
-            **OR**
-
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, but not consistently*.         
-
-            Then this block will be **Visible**; otherwise, it remains hidden.  
-
-            ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
-            ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
-            ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
-
-
-
-
-            3️⃣ **Repeat this process for all other possible combinations of answers.**
-            
-            You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
-
-            ---
-
-            **Simplifying the Process**
-
-            If configuring logic for all combinations feels overwhelming, you can try alternatives highlighted in this article, for example:  
-            1. Base your logic on a single question (e.g., Question 1).  
-            2. Use JavaScript to dynamically determine the skin type and display the result text.  
-
-            ---
-
-            This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
-
-
-
-    3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
-
-        !!! tip
-
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-
-    4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+    - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 === "BigCommerce"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+    !!! note "No linear scoring in this version"
 
-    RevenueHunt app **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
+        This version of the RevenueHunt app has no linear score yet. A choice cannot add one point to a running total that then picks a results page.
 
-    If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
+        That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
 
-    1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
+    - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
 
-        !!! tip
-        
-            For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
+        ??? question "A worked personality-type quiz"
 
+            Say the quiz works out a customer's skin type.
 
+            1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
 
-        ??? question "How to Build a Personality-Type Quiz?"
+                - Very oily, shiny all over *(oily skin)*
+                - Oily in the T-zone, but dry elsewhere *(combination skin)*
+                - Balanced, not too oily or dry *(normal skin)*
+                - Dry and tight all over *(dry skin)*
 
+            2. **Ask about sensitivity.** "How does your skin react to new products or environmental changes?"
 
-            Imagine you want to determine a customer’s skin type. You might ask them specific questions about their skin to narrow down their unique characteristics. Here’s an example:
+                - Easily irritated, red or itchy *(sensitive skin)*
+                - Rarely reacts, even to strong products *(normal or oily skin)*
+                - Reacts sometimes, but not consistently *(combination skin)*
 
-            ---
+            3. **Ask about hydration.** "Does your skin often feel dehydrated, whatever its oiliness?"
 
-            **Step 1: Add Questions to the Quiz**
+                - Yes, it feels tight and flaky *(dry or dehydrated skin)*
+                - Sometimes, especially in colder months *(combination or normal skin)*
+                - Rarely or never *(oily skin)*
 
-            **Question 1: Oiliness**  
-            *"How does your skin usually feel by the middle of the day?"*  
-            - **Very oily, shiny all over.** *(Oily skin)*  
-            - **Oily in the T-zone (forehead, nose, chin), but dry elsewhere.** *(Combination skin)*  
-            - **Balanced, not too oily or dry.** *(Normal skin)*  
-            - **Dry and tight all over.** *(Dry skin)*  
+            4. **Link products to every choice.** Answers that point at dry skin link to the products for dry skin, and so on. The [recommendation algorithm](/how-to-guides/recommend-products/) then handles the products on its own.
 
-            **Question 2: Sensitivity**  
-            *"How does your skin react to new products or environmental changes?"*  
-            - **Easily irritated, red, or itchy.** *(Sensitive skin)*  
-            - **Rarely reacts, even to strong products.** *(Normal or Oily skin)*  
-            - **Reacts sometimes, but not consistently.** *(Combination skin)*  
+            5. **Add one content block per skin type to the Results Page.** One saying *You have Dry Skin*, one *You have Oily Skin*, and so on.
 
-            **Question 3: Hydration**  
-            *"Does your skin often feel dehydrated, regardless of oiliness?"*  
-            - **Yes, it feels tight and flaky.** *(Dry or Dehydrated skin)*  
-            - **Sometimes, especially in colder months.** *(Combination or Normal skin)*  
-            - **Rarely or never.** *(Oily skin)*  
+                ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
-            ---
+            6. **Give each block a [Display Logic](/how-to-guides/use-display-logic/) rule that makes it visible for its own answers.**
 
-            **Step 2: Link Products to Choices**
+                !!! example "The rule for dry skin"
 
-            Associate each answer option with the most appropriate products. For example:  
-            - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
-            - Answers suggesting **Oily Skin** link to products designed for oily skin.  
+                    Question 1 is *Dry and tight all over*, **AND** Question 2 is *Easily irritated, red, or itchy*, **AND** Question 3 is *Yes, it feels tight and flaky*.
 
-            This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
+                    The block is then **Visible**. Otherwise it stays hidden.
 
-            *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
+                ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
 
-            ---
+            7. **Add a rule for every route to an outcome.** Some outcomes are reached several ways, so they need several rules joined with **OR**.
 
-            **Step 3: Displaying Skin Type Text Results with Display Logic**
+                !!! example "Combination skin, reached three ways"
 
-            If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
+                    Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Reacts sometimes*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            **Example Setup:**
+                    **OR** Question 1 is *Very oily, shiny all over*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            1️⃣ **Add Content Blocks to Results Page**  
+                    **OR** Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, but not consistently*.
 
-            Create content blocks on your results page for each skin type. For example:  
+                ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
 
-            - *You have Dry Skin*  
-            - *You have Oily Skin*  
-            - *You have Combination Skin*  
-            - *You have Normal Skin*  
+                ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
 
-            ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
+                ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
 
-            2️⃣ **Configure Display Logic Rules**  
+            8. **Repeat until every content block has its rules.**
 
-            Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
+                !!! warning "Every combination needs a rule"
 
-            **For Dry Skin:**  
-            - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Yes, it feels tight and flaky*.  
+                    This method asks you to predict every route a customer can take. A combination with no rule shows no text.
 
-            Then this block will be **Visible**; otherwise, it remains hidden.  
+            !!! tip "If the combinations get out of hand"
 
-            ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
+                - Base the logic on one question rather than all three.
+                - Use custom JavaScript to work the skin type out, and write the text from there.
 
-            **For Combination Skin:**  
-            Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
+        !!! tip "For a longer quiz, write the logic in code"
 
-            
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Reacts sometimes, but not consistently*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
+            Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-            **OR**
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-            - If the answer to **Question 1: Oiliness** is *Very oily, shiny all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-
-            **OR**
-
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, but not consistently*.         
-
-            Then this block will be **Visible**; otherwise, it remains hidden.  
-
-            ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
-            ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
-            ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
-
-
-
-
-            3️⃣ **Repeat this process for all other possible combinations of answers.**
-            
-            You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
-
-            ---
-
-            **Simplifying the Process**
-
-            If configuring logic for all combinations feels overwhelming, you can try alternatives highlighted in this article, for example:  
-            1. Base your logic on a single question (e.g., Question 1).  
-            2. Use JavaScript to dynamically determine the skin type and display the result text.  
-
-            ---
-
-            This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
-
-
-
-    3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
-
-        !!! tip
-
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-
-    4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+    - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 === "Standalone"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+    !!! note "No linear scoring in this version"
 
-    RevenueHunt app **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
+        This version of the RevenueHunt app has no linear score yet. A choice cannot add one point to a running total that then picks a results page.
 
-    If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
+        That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
 
-    1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
+    - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
 
-        !!! tip
-        
-            For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
+        ??? question "A worked personality-type quiz"
 
+            Say the quiz works out a customer's skin type.
 
+            1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
 
-        ??? question "How to Build a Personality-Type Quiz?"
+                - Very oily, shiny all over *(oily skin)*
+                - Oily in the T-zone, but dry elsewhere *(combination skin)*
+                - Balanced, not too oily or dry *(normal skin)*
+                - Dry and tight all over *(dry skin)*
 
+            2. **Ask about sensitivity.** "How does your skin react to new products or environmental changes?"
 
-            Imagine you want to determine a customer’s skin type. You might ask them specific questions about their skin to narrow down their unique characteristics. Here’s an example:
+                - Easily irritated, red or itchy *(sensitive skin)*
+                - Rarely reacts, even to strong products *(normal or oily skin)*
+                - Reacts sometimes, but not consistently *(combination skin)*
 
-            ---
+            3. **Ask about hydration.** "Does your skin often feel dehydrated, whatever its oiliness?"
 
-            **Step 1: Add Questions to the Quiz**
+                - Yes, it feels tight and flaky *(dry or dehydrated skin)*
+                - Sometimes, especially in colder months *(combination or normal skin)*
+                - Rarely or never *(oily skin)*
 
-            **Question 1: Oiliness**  
-            *"How does your skin usually feel by the middle of the day?"*  
-            - **Very oily, shiny all over.** *(Oily skin)*  
-            - **Oily in the T-zone (forehead, nose, chin), but dry elsewhere.** *(Combination skin)*  
-            - **Balanced, not too oily or dry.** *(Normal skin)*  
-            - **Dry and tight all over.** *(Dry skin)*  
+            4. **Link products to every choice.** Answers that point at dry skin link to the products for dry skin, and so on. The [recommendation algorithm](/how-to-guides/recommend-products/) then handles the products on its own.
 
-            **Question 2: Sensitivity**  
-            *"How does your skin react to new products or environmental changes?"*  
-            - **Easily irritated, red, or itchy.** *(Sensitive skin)*  
-            - **Rarely reacts, even to strong products.** *(Normal or Oily skin)*  
-            - **Reacts sometimes, but not consistently.** *(Combination skin)*  
+            5. **Add one content block per skin type to the Results Page.** One saying *You have Dry Skin*, one *You have Oily Skin*, and so on.
 
-            **Question 3: Hydration**  
-            *"Does your skin often feel dehydrated, regardless of oiliness?"*  
-            - **Yes, it feels tight and flaky.** *(Dry or Dehydrated skin)*  
-            - **Sometimes, especially in colder months.** *(Combination or Normal skin)*  
-            - **Rarely or never.** *(Oily skin)*  
+                ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
-            ---
+            6. **Give each block a [Display Logic](/how-to-guides/use-display-logic/) rule that makes it visible for its own answers.**
 
-            **Step 2: Link Products to Choices**
+                !!! example "The rule for dry skin"
 
-            Associate each answer option with the most appropriate products. For example:  
-            - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
-            - Answers suggesting **Oily Skin** link to products designed for oily skin.  
+                    Question 1 is *Dry and tight all over*, **AND** Question 2 is *Easily irritated, red, or itchy*, **AND** Question 3 is *Yes, it feels tight and flaky*.
 
-            This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
+                    The block is then **Visible**. Otherwise it stays hidden.
 
-            *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
+                ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
 
-            ---
+            7. **Add a rule for every route to an outcome.** Some outcomes are reached several ways, so they need several rules joined with **OR**.
 
-            **Step 3: Displaying Skin Type Text Results with Display Logic**
+                !!! example "Combination skin, reached three ways"
 
-            If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
+                    Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Reacts sometimes*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            **Example Setup:**
+                    **OR** Question 1 is *Very oily, shiny all over*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, especially in colder months*.
 
-            1️⃣ **Add Content Blocks to Results Page**  
+                    **OR** Question 1 is *Oily in the T-zone*, **AND** Question 2 is *Easily irritated*, **AND** Question 3 is *Sometimes, but not consistently*.
 
-            Create content blocks on your results page for each skin type. For example:  
+                ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
 
-            - *You have Dry Skin*  
-            - *You have Oily Skin*  
-            - *You have Combination Skin*  
-            - *You have Normal Skin*  
+                ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
 
-            ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
+                ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
 
-            2️⃣ **Configure Display Logic Rules**  
+            8. **Repeat until every content block has its rules.**
 
-            Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
+                !!! warning "Every combination needs a rule"
 
-            **For Dry Skin:**  
-            - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Yes, it feels tight and flaky*.  
+                    This method asks you to predict every route a customer can take. A combination with no rule shows no text.
 
-            Then this block will be **Visible**; otherwise, it remains hidden.  
+            !!! tip "If the combinations get out of hand"
 
-            ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
+                - Base the logic on one question rather than all three.
+                - Use custom JavaScript to work the skin type out, and write the text from there.
 
-            **For Combination Skin:**  
-            Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
+        !!! tip "For a longer quiz, write the logic in code"
 
-            
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Reacts sometimes, but not consistently*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
+            Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-            **OR**
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-            - If the answer to **Question 1: Oiliness** is *Very oily, shiny all over*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, especially in colder months*.  
-
-            **OR**
-
-            - If the answer to **Question 1: Oiliness** is *Oily in the T-zone (forehead, nose, chin), but dry elsewhere*.  
-            - AND the answer to **Question 2: Sensitivity** is *Easily irritated, red, or itchy*.  
-            - AND the answer to **Question 3: Hydration** is *Sometimes, but not consistently*.         
-
-            Then this block will be **Visible**; otherwise, it remains hidden.  
-
-            ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
-            ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
-            ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
-
-
-
-
-            3️⃣ **Repeat this process for all other possible combinations of answers.**
-            
-            You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
-
-            ---
-
-            **Simplifying the Process**
-
-            If configuring logic for all combinations feels overwhelming, you can try alternatives highlighted in this article, for example:  
-            1. Base your logic on a single question (e.g., Question 1).  
-            2. Use JavaScript to dynamically determine the skin type and display the result text.  
-
-            ---
-
-            This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
-
-
-
-    3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
-
-        !!! tip
-
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-
-    4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
-
+    - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 ---
+
 This article explains how to show why a certain product was recommended to the customer.

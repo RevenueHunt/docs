@@ -3,98 +3,100 @@ icon: material/account-file-text-outline
 description: "Information about showing RevenueHunt quiz on Shopify customer profile pages."
 ---
 
-# How to Show Quiz on a Customer Profile
+# How to Show a Quiz on a Customer Profile
+
+Showing a customer their own quiz results inside their account page keeps the recommendation available long after they took the quiz.
 
 === "Shopify"
 
-    The new Built for Shopify version of the RevenueHunt app does not have an app embed to show the quiz on a customer profile yet. It is **not possible yet** to directly show the quiz on a customer profile using the new Built for Shopify version of the RevenueHunt app.
-    
-    If you're interested in this feature, please let us know by [contacting support](/how-to-guides/contact-customer-support/).
+    !!! note "Not available on this platform"
 
+        The `💎Built for Shopify` version has no app embed for the customer profile yet, so the quiz cannot be shown there.
+
+        To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 
-    Integrating quiz results into a customer's profile on your Shopify store can personalize the shopping experience. 
+    This section explains how to render a customer's quiz results inside their Shopify account page.
 
-    This guide will walk you through the steps to show the quiz on a customer profile in Shopify.
+    !!! warning "This one is for a developer"
 
-    !!! warning
+        The steps below need Shopify Liquid. If you do not write Liquid, ask a professional to do it. You can find or hire one through [Shopify Experts](https://experts.shopify.com/).
 
-        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
+    1. **Connect the quiz to [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/).** The results can only reach a profile once the lead is attached to it.
 
-    !!! note
+        !!! tip "Check the connection first"
 
-        This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to show the quiz on a customer profile in WooCommerce, Magento or BigCommerce.
+            [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) covers the setup and how to confirm it worked.
 
-    **Step 1: Connect Your Quiz to Shopify's Customer List**
+    2. **Go to your `Shopify Theme` > `Actions` > `Edit code` and open `customers/account.liquid`.**
 
-    To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
+    3. **Find the metafield the app writes to the profile.** Every completed quiz sends the customer a `metafield` holding the response and its recommendations.
 
-    **Step 2: Edit the customers/account.liquid File**
+        ```html
+        customer.metafields.prq.response_permalink
+        ```
 
-    When a respondent completes the quiz, we will send a `metafield` to their profile, which includes the `response/recommendations` they just got.
+        ![how to show quiz on customer profile](/images/how_to_show_quiz_on_customer_profile.png)
 
-    When you navigate to Your `Shopify Theme -> Actions -> Edit code`, you can find this metafield within the Templates liquid code of the customer profile:
+    4. **Add the `embed.js` script to the template.** It is on line 67 of the screenshot.
 
-    ```html
-    customer.metafields.prq.response_permalink
-    ```
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
 
-    This is how it looks like within customer/account.liquid file in Shopify:
+    5. **[Generate an embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz.**
 
-    ![how to show quiz on customer profile](/images/how_to_show_quiz_on_customer_profile.png)
+    6. **Insert the iframe, pointing it at the metafield.** It is on line 68 of the screenshot.
 
-    **Step 3: Embed the Quiz Results**
+        ```html
+        <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;"></iframe>
+        ```
 
-    To render the whole results page within an iframe on a profile,  you will need to first embed our `embed.js` file (as you can see on line 67):
-
-    ```html
-    <script src="https://admin.revenuehunt.com/embed.js" async></script>
-    ```
-
-    Then, [generate an embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz and insert the quiz iframe code (as you can see on line 68):
-
-    ```html
-    <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;" />
-    ```
-
-    Here’s how it can look on your customer’s profile:
+    The customer's profile then carries their results page:
 
     ![how to show quiz on customer profile rendered](/images/how_to_show_quiz_on_customer_profile_rendered.png)
 
 === "WooCommerce"
 
-    It is **not possible yet** to directly show the quiz on a customer profile using the RevenueHunt app for WooCommerce.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz on a customer profile in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 === "Magento"
 
-    It is **not possible yet** to directly show the quiz on a customer profile using the RevenueHunt app for Magento.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz on a customer profile in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 === "BigCommerce"
 
-    It is **not possible yet** to directly show the quiz on a customer profile using the RevenueHunt app for BigCommerce.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz on a customer profile in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 === "Standalone"
 
-    It is **not possible yet** to directly show the quiz on a customer profile using the Standalone RevenueHunt app for Headless ecommerce.
+    !!! note "Not available on this platform"
 
-    !!! tip 
+        The app cannot show the quiz on a customer profile in this version.
 
-        Your developer can try embeding the quiz on a customer profile by using the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) onto the customer profile theme or template. Please note that this is not a feature of the app and we cannot provide support for this.
+    !!! tip "A developer can try it anyway"
+
+        Your developer can place the [embed code](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) into the customer profile theme or template. This is not a feature of the app, so the support team cannot help with it.
 
 ---
-This guide provides instructions for developers on showing the quiz on a customer profile in Shopify.
 
-
+This guide explains how to show a quiz on a customer profile in Shopify.
