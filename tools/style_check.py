@@ -500,6 +500,10 @@ def check_file(path, root):
         # first person, section 4
         if not rel.endswith(FIRST_PERSON_EXEMPT):
             for m in FIRST_PERSON_RE.finditer(prose):
+                # US is the country, not the pronoun. every uppercase US in
+                # these docs is a market, a currency or an audience.
+                if m.group(0) == 'US':
+                    continue
                 findings.append(Finding(
                     i, 'first-person',
                     repr(m.group(0)).strip(chr(39))
