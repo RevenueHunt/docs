@@ -69,7 +69,8 @@ ADMONITIONS = {'tip', 'info', 'note', 'warning', 'example', 'success',
 
 # section 10: one numbered list per procedure. a bold Step N heading restarts
 # the numbering underneath it, so the reader loses their place.
-STEP_HEADING = re.compile(r'^\s*\*\*\s*(?:step|phase|part)\s+\d+\s*[:.)-]', re.I)
+STEP_HEADING = re.compile(
+    r'^\s*(?:\*\*|#{1,6})\s*(?:step|phase|part)\s+\d+\s*[:.)-]', re.I)
 
 COMPOUNDS = [
     (r'\bpop-ups?\b', 'popup'),
