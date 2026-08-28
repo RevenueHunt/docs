@@ -5,19 +5,15 @@ description: "Comprehensive troubleshooting guide for RevenueHunt quiz app issue
 
 # Troubleshooting Product Recommendation Quiz App Issues for WordPress / WooCommerce
 
-Our Product Recommendation Quiz app is designed to integrate seamlessly with most ecommerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
+WordPress and WooCommerce stores are heavily customized, so another plugin or a server setting can stop the app from reaching your store. This page lists the errors that come up most often, and what fixes each one.
 
-!!! tip "General Troubleshooting Tip"
-    
-    If you’ve exhausted all listed solutions without success, it may be due to specific configurations in your website. In such cases, consult your developer or hosting provider and review server logs for potential clues. Unfortunately, our capacity to assist is limited in these scenarios.
+!!! warning "Allow the app through your firewall"
 
-!!! warning
+    Add the IP address `3.14.55.225` to the allowlist in your store settings, so the app and your store can talk without interruption.
 
-    Important Addition: Ensure to whitelist our IP address (`3.14.55.225`) in your store’s settings to facilitate uninterrupted communication between our app and your store.
+## The app cannot reach your store
 
-## Error #1: request and data transmission issues
-
-!!! example "Error Messages"
+!!! example "Error messages"
 
     An error occurred in the request and at the time were unable to send the consumer data.
 
@@ -27,33 +23,35 @@ Our Product Recommendation Quiz app is designed to integrate seamlessly with mos
 
     We tried connecting to your WooCommerce API to sync the “products, but got a status 403.
 
-Possible Causes and Solutions:
+Work through these in order.
 
-1. **Outdated WooCommerce Version**: Ensure your store is running a version later than WooCommerce 3.5.
-2. **Outdated Plugin Version**: Ensure you’ve downloaded the latest version of the app.
-3. **Lack of HTTPS/SSL Certificate**: Install and activate a valid certificate for secure API communication.
-4. **Website Accessibility**: Remove password protection or ‘coming soon’ plugins that restrict public access.
-5. **Caching Plugin Interference**: Disable caching plugins one by one to identify the culprit.
-6. **Server Configuration**: If the above don’t resolve the issue, your server might be stripping the “Authorization” header.
-7. **Check Security Settings**: Review your store’s and hosting security settings to ensure they aren’t conflicting with the app.
-8. **Disable Other Plugins**: Temporarily deactivate other plugins and try granting access to our app to see if they are causing a conflict.
-9. **Cloudflare Cache**: Exclude the WooCommerce API endpoint (/wp-json/wc/v3/) from Cloudflare’s cache. Alternatively, use Cloudflare’s developer mode to bypass the cache temporarily. (Source: https://developers.cloudflare.com/cache/)
+1. **Outdated WooCommerce.** The store needs a version later than WooCommerce 3.5.
+2. **Outdated plugin.** Download the latest version of the app.
+3. **No HTTPS or SSL certificate.** Install and activate a valid certificate, so the API can communicate securely.
+4. **Site not publicly reachable.** Remove password protection, and any coming soon plugin that blocks public access.
+5. **Caching plugin.** Disable your caching plugins one at a time to find the one at fault.
+6. **Server configuration.** If nothing above helps, your server may be stripping the `Authorization` header.
+7. **Security settings.** Check your store and hosting security settings for a rule that conflicts with the app.
+8. **Another plugin.** Deactivate the other plugins temporarily, then try granting access again.
+9. **Cloudflare cache.** Exclude the WooCommerce API endpoint `/wp-json/wc/v3/` from the cache, or switch on the Cloudflare developer mode to bypass it temporarily. See the [Cloudflare cache documentation](https://developers.cloudflare.com/cache/).
 
 ![how to troubleshoot wordpress woocommerce image1](/images/how_to_troubleshoot_wordpress_woocommerce_image1.webp)
 
-Advanced Solutions:
+If none of those work, these are the advanced fixes.
 
-1. Review caching plugin settings related to headers.
+1. Review the header settings in your caching plugin.
 2. Generate a new LetsEncrypt certificate.
-3. Direct subdomain to bypass Cloudflare CDN Proxy.
-4. Switch to a basic WooCommerce Theme like “Storefront” for initial connection.
-5. Add to .htaccess: `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1`.
+3. Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.
+4. Switch to a basic WooCommerce theme, such as Storefront, for the first connection.
+5. Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.
 
-**Special Note**: If using CAFE24 hosting, disable the “SPAM Shield” function.
+!!! note "CAFE24 hosting"
 
-## Error #2: authentication and permission issues
+    On CAFE24, disable the `SPAM Shield` function.
 
-!!! example "Error Messages"
+## The app cannot authenticate
+
+!!! example "Error messages"
 
     It seems that something is interfering with your WordPress Rest API. This needs to be fixed in order to grant access to this plugin.
 
@@ -61,47 +59,61 @@ Advanced Solutions:
 
     404 Not Found – the requested URL was not found on this server
 
-Possible Causes and Solutions:
+1. **WPML or Polylang conflict.** Deactivate WPML or Polylang, authenticate the plugin, then reactivate it.
 
-1. **WPML or Polylang Plugin Conflict**: Temporarily deactivate WPML/Polylang, authenticate our plugin, then reactivate WPML/Polylang. (As of November 2024, Polylang and Product Recommendation Quiz app cannot be used together.)
-2. **Incorrect Callback URL**: Replace `%2F` with `/` in the URL, or remove extra /wp/ from the URL.
-3. **Installation Location**: For WooCommerce on a subpage, adjust the URL accordingly (remove /page/). So, instead of `https://yourstore.com/shop/wc-auth/v1/authorize/...` You would use `https://yourstore.com/wc-auth/v1/authorize/...` Even if the first URL is the right path to your WooCommerce store.
-4. **Website is not live**: Ensure installation on a live, publicly accessible website. It cannot be hidden by an “under construction” plugin or setting. The app does not work in local environments.
-5. **Check WordPress REST API**: To test it visit  `https://yourstore.com/wp-json/`. If you’re getting a “Not Found” or similar error, it’s possible that you need to fix your WordPress installation. It’s a problem with the WordPress REST API in your site and not with the WooCommerce REST API. You’ll have to contact your developer to further investigate this issue as it’s outside of our scope.
+    !!! warning "Polylang cannot be used alongside the app"
 
-!!! example "Error Messages"
+        As of November 2024, Polylang and the Product Recommendation Quiz app cannot run together.
+
+2. **Incorrect callback URL.** Replace `%2F` with `/` in the URL, or remove an extra `/wp/` from it.
+
+3. **WooCommerce on a subpage.** Drop the page from the URL. Use `https://yourstore.com/wc-auth/v1/authorize/...` rather than `https://yourstore.com/shop/wc-auth/v1/authorize/...`, even when the first one is the real path to your store.
+
+4. **Site not live.** The app needs a live, publicly reachable site. It cannot work behind an under construction plugin, and it cannot work in a local environment.
+
+5. **WordPress REST API broken.** Visit `https://yourstore.com/wp-json/` to test it. A "Not Found" error points at your WordPress installation, not at WooCommerce. A developer will have to investigate.
+
+## The API returns HTML instead of JSON
+
+!!! example "Error messages"
 
     The following REST API endpoint is returning a valid JSON but the returned content-type is text/html instead of the expecred application/json.
 
-Possible Causes and Solutions:
-
-1. **Check JSON format**. This means that even if your site returns a JSON it may not be in the correct format. The WordPress API is returning a response that is encoded as text/html. Normally, it should be application/json.   This is related to your store or server settings, but can also be influenced by another plugin. It is recommended to check it with your developer and fix it.
+1. **Wrong content type.** The site returns JSON, but encoded as `text/html` rather than `application/json`. That comes from your store or server settings, and another plugin can cause it too. Ask your developer to correct it.
 
 ![how to troubleshoot wordpress woocommerce image2](/images/how_to_troubleshoot_wordpress_woocommerce_image2.jpg)
 
-!!! example "Error Messages"
+## The plugin triggers a fatal error when activated
+
+!!! example "Error messages"
 
     Plugin could not be activated because it triggered a fatal error. Fatal error: Cannot redeclare prq_set_token() (previously declared in…)
 
-Possible Causes and Solutions:
+1. **Both plugins are active.** Deactivate the WordPress plugin, `Product Recommendation Quiz for ecommerce`, before you activate the WooCommerce extension, `Product Recommendation Quiz for WooCommerce`.
 
-1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for ecommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
+    !!! info "Nothing is lost when you deactivate"
+
+        Your quizzes and responses live on the RevenueHunt servers, not in the plugin.
 
 ![how to troubleshoot wordpress woocommerce image3](/images/how_to_troubleshoot_wordpress_woocommerce_image3.png)
 
-!!! example "Error Messages"
+## The plugin does not have a valid header
+
+!!! example "Error messages"
 
     The plugin does not have a valid header
 
-Possible Causes and Solutions:
+1. **Cached plugin list.** Your plugin list may be held in whatever WP Object Cache your site uses. See [this fix for the invalid header error](https://scotty-t.com/2011/03/28/fix-for-the-plugin-does-not-have-a-valid-header/).
+2. **Wrong folder structure.** The plugin's main file has to sit directly in `wp-content/plugins/`.
+3. **PHP file headers.** A PHP file inside the plugin whose header resembles the main plugin file's mandatory header confuses WordPress. See [how to fix the invalid header error](https://chattymango.com/how-fix-wordpress-error-plugin-not-valid-header/).
+4. **A `/trunk` directory.** Remove `/trunk`, or activate the plugin from the plugin list. See [this WordPress support thread](https://wordpress.org/support/topic/the-plugin-does-not-have-a-valid-header-solution/).
+5. **Outdated plugin.** Download the latest version of the app.
+6. **Both plugins installed.** Deactivate and remove the WooCommerce extension before you install the WordPress plugin, or the other way round.
 
-1. **Plugins cached**: Your list of Plugins could be cached in whatever WP Object Cache your blog / site is using. (Source: [https://scotty-t.com/2011/03/28/fix-for-the-plugin-does-not-have-a-valid-header/](https://scotty-t.com/2011/03/28/fix-for-the-plugin-does-not-have-a-valid-header/))
-2. **Check the Correct Folder Structure**: Ensure that the plugin’s main file is placed correctly in the wp-content/plugins/ directory.
-3. **Modify PHP File Headers**: If the headers of PHP files within the plugin resemble the mandatory header of the main plugin file, it can confuse WordPress. Modifying these headers to a different format can resolve the issue. (Source: [https://chattymango.com/how-fix-wordpress-error-plugin-not-valid-header/](https://chattymango.com/how-fix-wordpress-error-plugin-not-valid-header/))
-4. **Remove /trunk directory**: Remove `/trunk` directory or activate from the plugin list. (Source: [https://wordpress.org/support/topic/the-plugin-does-not-have-a-valid-header-solution/](https://wordpress.org/support/topic/the-plugin-does-not-have-a-valid-header-solution/))
-5. **Outdated Plugin Version**: Ensure you’ve downloaded the latest version of the app.
-6. **Two Plugins Installed**: Deactivate and remove the WooCommerce extension before installing the WordPress plugin (or vice versa).
- 
+!!! tip "If none of these solve it"
+
+    The cause is probably specific to your site. Ask your developer or your hosting provider to read the server logs for clues. The support team can do little in these cases.
 
 ---
-If you’ve exhausted all listed solutions without success, it may be due to specific configurations in your website. In such cases, consult your developer or hosting provider and review server logs for potential clues. Unfortunately, our capacity to assist is limited in these scenarios.
+
+This article lists the errors that stop the RevenueHunt app working on WordPress or WooCommerce, and what fixes each one.

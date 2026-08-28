@@ -13470,14 +13470,14 @@ You are paying for clicks and you want two answers: which ads produce orders, an
 | Quiz to order | The app's [Analytics panel](/reference/quiz-builder/metrics/#analytics) | Already running |
 | Ad campaign to an individual lead | Custom JS that captures UTMs into the response | Advanced, optional |
 
-The last row is the one most stores skip, and the first three are enough for almost everyone. Follow the steps in order and stop when you have what you need.
+The last row is the one most stores skip, and the first three are enough for almost everyone. Work through the sections in order, and stop when you have what you need.
 
 Before you start:
 
 - Publish the quiz on [its own page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page). One quiz per page keeps the funnel readable and is also how GA4 tracking works best.
 - Install GA4 on your store. On Shopify, the Google & YouTube sales channel does this and sends the `purchase` event from checkout. You need that event for the last step of the funnel.
 
-## Step 1: tag your ads with UTM parameters
+## Tag your ads with UTM parameters
 
 UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the customer came from.
 
@@ -13507,27 +13507,27 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
     This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
 
-## Step 2: read ad to purchase in your store analytics
+## Read ad to purchase in your store analytics
 
 This is the outer measurement: what you spend against what you earn. It works as soon as the ads are tagged, with nothing else to configure.
 
-At this point you know which ads make money. What you do not know is where the weaker ads lose customers. That is Step 3.
+At this point you know which ads make money. What you do not know is where the weaker ads lose customers. The GA4 events answer that.
 
-## Step 3: connect the quiz to Google Analytics
+## Connect the quiz to Google Analytics
 
 This makes the middle of the funnel visible: how many people who land actually start the quiz, and how many reach the results page.
 
-## Step 4: build the funnel in GA4
+## Build the funnel in GA4
 
-The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
+The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if the last step is empty, check that first.
 
 !!! warning "GA4 event tracking reliability"
 
     Since Google moved from Universal Analytics to GA4, event tracking reliability has dropped. The implementation can be correct and the events can fire as expected, and GA4 can still fail to read, process, or report them accurately. If that happens, contact Google Support: the issue is on their end.
 
-## Step 5: attach the campaign to each individual response (optional)
+## Attach the campaign to each response (optional)
 
-Steps 1 to 4 give you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
+Everything so far gives you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
 
 Whichever platform you are on, these values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
 
@@ -13543,7 +13543,7 @@ Whichever platform you are on, these values travel with the response and arrive 
 ## Related
 
 - [Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): the quiz to order half, native and already running.
-- [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimising the ads themselves.
+- [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimizing the ads themselves.
 - [Use Quiz Data to Lower Your Ad Costs](/customer-success/use-quiz-data-for-ads/): what to do with the data once you can read it.
 
 --- Shopify (Legacy) Specific Content ---
@@ -13582,26 +13582,25 @@ The two events this gives you are the two middle steps of the funnel in Step 4. 
 | Results page reached | `results_page_viewed` | `prqQuizCallback` |
 Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-**Create the exploration**
-1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
-**Make the campaign dimension available**
-1. In **Variables**, click the `+` next to **Dimensions**.
-2. Search for **Session campaign**, tick it, then click **Import**.
-Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
-**Define the four steps**
-In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
-Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
-| Step | Name it | Condition to set |
-|---|---|---|
-| 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-| 2 | Started the quiz | **Add new condition**, event `quiz_started` |
-| 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
-| 4 | Purchased | **Add new condition**, event `purchase` |
-Click **Apply** in the top right of the editor once all four are set.
-**Split the funnel by ad**
-1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
+2. **Set your date range.** The picker sits at the top of the **Variables** panel.
+    !!! info "The three panels"
+        **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
+3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
+    !!! warning "Import it before you touch Breakdown"
+        A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
+4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
+5. **Replace the four placeholder steps.**
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+6. **Apply the steps.** Click **Apply** in the top right of the editor.
+7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
 1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
 2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
@@ -13615,7 +13614,7 @@ Pass the campaign in on the URL and store it in a hidden question. The `actions`
     window.prq_vars.qIdContent  = p.get('utm_content') || '';
     </script>
     ```
-A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 
@@ -13632,46 +13631,35 @@ description: "Track RevenueHunt quiz analytics and revenue metrics to measure ec
 
 # How to Track Quiz Revenue
 
-Understanding the revenue generated from quizzes on your ecommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
+See how many orders your quiz produced, and what they were worth. The app attributes an order to the quiz when the customer reaches checkout from the results page.
 
-This documentation outlines how to track quiz analytics and revenue generated from quizzes in the Revenue Hunt app.
+!!! tip "Which metrics are worth watching"
 
-!!! tip "Learn which meterics to track"
-
-    Check out [this customer success article](/customer-success/track-quiz-metrics-for-better-conversions/) to learn which metrics to track to convert better.
+    See [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/).
 
 ---
 
-This article explains how to track quiz revenue in the Revenue Hunt app.
-
-By following these steps, you can monitor the revenue attributed to your quizzes, helping you to measure their success and optimize future campaigns.
+This article explains how to track the revenue your quiz produced in the RevenueHunt app.
 
 --- Shopify (Legacy) Specific Content ---
 
-The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature within the RevenueHunt app allows you to track orders tagged by your quiz, offering a clear view of its impact on sales. 
-This how-to article guides you through the process of setting up your Shopify Revenue Report and accessing vital orders data from the quiz.
-Alternatively, you can track quiz revenue with [Google Analytics](/how-to-guides/integrate-google-analytics/).
-## Activate Shopify revenue report
-To enable the automated revenue report feature:
-1. **Enable Order Notes**: You need to enable Order Notes in your Theme Settings for this feature to work. Follow [these instructions](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) to enable them or contact your theme developer.
-2. **Open the Connect tab**: Open the RevenueHunt app and navigate to the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-3. **Conect to Shopify Reprots**: Scroll down to find the **Shopify Revenue Report** section. Click on the `Connect` button within the Shopify Revenue Report section.
-4. **Give consent**: The system will ask for your consent to access orders. Once accepted, it will establish a connection between the RevenueHunt app and your Shopify account, allowing the app to start gathering order data tagged by the quiz.
-5. **Publish the changes**: Click on the top-right `Publish` button to updated the quiz preview/live quiz and save the changes.
-After the connection is successfully established, you can access the revenue data generated from your quizzes. Go to the [`Metrics > Analytics`](/reference/quiz-builder/metrics/#analytics) section within the RevenueHunt app. Here, you will find the following information:
+The **Shopify Revenue Report** tracks the orders your quiz tagged, so you can see what it contributed to sales.
+1. **Enable Order Notes in your theme settings.** The report cannot work without them. Follow [Shopify's instructions](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes), or ask your theme developer.
+2. **Open the [Connect](/reference/quiz-builder/connect-integrations/) tab in the app.**
+3. **Scroll to `Shopify Revenue Report` and click `Connect`.**
+4. **Give consent to access orders.** That connects the app to your Shopify account, and it starts collecting the order data your quiz tagged.
+5. **Click the top-right `Publish` button.** This saves the changes and updates the preview and the live quiz.
+The revenue then appears in [`Metrics > Analytics`](/reference/quiz-builder/metrics/#analytics):
 ![how to track revenue report metrics](/images/how_to_track_revenue_report_metrics.png)
-- **Number of Orders**: Displays the number of people who placed an order after completing the quiz.
-- **Total Orders Value**: Shows the total value of all orders placed following quiz completion.
-- **Avg. Order Value**: Indicates the average value of orders placed post-quiz.
-!!! warning
-     Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
-     Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
-## Tracking revenue with Google Analytics
-For a more detailed analysis you can track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/integrate-google-analytics/)
-## Show quiz answers in the Shopify orders
-It’s possible to know exactly which orders in your Shopify Orders tab come from the quiz.
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-quiz-answers-in-orders/)
+- **Number of Orders**: how many people ordered after finishing the quiz.
+- **Total Orders Value**: what all of those orders were worth together.
+- **`Avg. Order Value`**: the average value of an order placed after the quiz.
+!!! warning "Attribution needs an unbroken flow"
+    Shopify Revenue Tracking and Orders Tagging need an unbroken flow. The customer has to add products to the cart from the results page, then complete the checkout. An order placed later is no longer attributed to the quiz.
+    Set the Checkout settings on your Results Page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+!!! tip "The same revenue in Google Analytics"
+    For a more detailed breakdown, see [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+To see which orders in the Shopify Orders tab came from the quiz, see [How to Show Quiz Answers in Shopify Orders](/how-to-guides/show-quiz-answers-in-orders/).
 
 
 
@@ -13687,53 +13675,52 @@ description: "Step-by-step guide to troubleshoot RevenueHunt product recommendat
 
 # How to Troubleshoot Product Recommendations in Your Quiz
 
-Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections/categories linked to quiz choices. 
+A single quiz response records every choice the customer made and every product those choices upvoted. Reading one tells you why a product was recommended, or why it never appeared.
 
-This guide will walk you through the process of troubleshooting product recommendations. It can help you understand why a certain product was recommended or missing from the Results Page.
+!!! info "What decides a recommendation"
 
-!!! warning "Understanding the basics"
+    Products reach the results page through the [upvoting system](/how-to-guides/set-up-funnel-quiz/#upvoting-system), and blocks are shown or hidden by [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic). A missing product is nearly always one of those two.
 
-    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [upvoting system](/how-to-guides/set-up-funnel-quiz/#upvoting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
+## Check why a product was recommended
 
-## Step-by-step process to check recommendations
+!!! tip "Open the responses in a second window"
 
-!!! tip
-
-    Before you begin, open the [Responses section](/reference/quiz-builder/metrics/#responses) from the [App manual](/reference/) in the new browser window. It will come in handy.
-
+    Keep the [Responses section](/reference/quiz-builder/metrics/#responses) of the [App manual](/reference/) open alongside your quiz while you work through this.
 
 ---
 
-By following this guide, you will be better equipped to understand and refine the product recommendation process within your quiz, ensuring a more relevant and personalized customer experience.
+This article explains how to read a quiz response, and work out why a product was recommended or missing.
 
 --- Shopify (Legacy) Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
-2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
+1. **Go to [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.**
+2. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab.** The left-hand menu holds the last 100 responses, by date.
+3. **Click a date to open that response.**
+4. **Open the `Why was a product recommended or not in this response?` section.**
+5. **Open the Results Page for that response.** The link sits at the bottom of the response details.
     ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
-5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
+6. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
+7. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The section sits at the top of the response, and the color tells you where the product stands.
     ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
-    **Understanding Product Status Colors**
-    - **Green**: Indicates products that received upvotes through the quiz choices.
-    - **Red**: Denotes products that were explicitly excluded from recommendations.
-    - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
-7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+    | Color | What it means |
+    |---|---|
+    | **Green** | The product received upvotes from the quiz choices. |
+    | **Red** | The product was excluded from the recommendations. |
+    | **White** | The product received no upvotes, so it could not be recommended. |
+8. **Read the panel that opens.**
     ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
-    Information such as:
-    - The collections/categories the product belongs to.
-    - The number of upvotes it received and the reasons for its recommendation or absence.
-    - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-    - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
-8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
-!!! tip
-    A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
-Additionally, you may:
-- **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
-- **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
+    The panel shows:
+    - The collections or categories the product belongs to.
+    - How many upvotes it received, and why it was recommended or left out.
+    - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+    - The results page, slot or product block that placed it.
+The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
+!!! tip "The two usual causes"
+    A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
+Two more actions are worth knowing about:
+- **Recalculate Recommendations.** Once you have changed the quiz, or the collections and categories behind it, this replays the response against the new setup.
+- **Resend Notifications.** This sends the revised recommendations out again, to your CRM or by email.
 
 
 
@@ -13749,19 +13736,15 @@ description: "Comprehensive troubleshooting guide for RevenueHunt quiz app issue
 
 # Troubleshooting Product Recommendation Quiz App Issues for WordPress / WooCommerce
 
-Our Product Recommendation Quiz app is designed to integrate seamlessly with most ecommerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
+WordPress and WooCommerce stores are heavily customized, so another plugin or a server setting can stop the app from reaching your store. This page lists the errors that come up most often, and what fixes each one.
 
-!!! tip "General Troubleshooting Tip"
-    
-    If you’ve exhausted all listed solutions without success, it may be due to specific configurations in your website. In such cases, consult your developer or hosting provider and review server logs for potential clues. Unfortunately, our capacity to assist is limited in these scenarios.
+!!! warning "Allow the app through your firewall"
 
-!!! warning
+    Add the IP address `3.14.55.225` to the allowlist in your store settings, so the app and your store can talk without interruption.
 
-    Important Addition: Ensure to whitelist our IP address (`3.14.55.225`) in your store’s settings to facilitate uninterrupted communication between our app and your store.
+## The app cannot reach your store
 
-## Error #1: request and data transmission issues
-
-!!! example "Error Messages"
+!!! example "Error messages"
 
     An error occurred in the request and at the time were unable to send the consumer data.
 
@@ -13771,33 +13754,35 @@ Our Product Recommendation Quiz app is designed to integrate seamlessly with mos
 
     We tried connecting to your WooCommerce API to sync the “products, but got a status 403.
 
-Possible Causes and Solutions:
+Work through these in order.
 
-1. **Outdated WooCommerce Version**: Ensure your store is running a version later than WooCommerce 3.5.
-2. **Outdated Plugin Version**: Ensure you’ve downloaded the latest version of the app.
-3. **Lack of HTTPS/SSL Certificate**: Install and activate a valid certificate for secure API communication.
-4. **Website Accessibility**: Remove password protection or ‘coming soon’ plugins that restrict public access.
-5. **Caching Plugin Interference**: Disable caching plugins one by one to identify the culprit.
-6. **Server Configuration**: If the above don’t resolve the issue, your server might be stripping the “Authorization” header.
-7. **Check Security Settings**: Review your store’s and hosting security settings to ensure they aren’t conflicting with the app.
-8. **Disable Other Plugins**: Temporarily deactivate other plugins and try granting access to our app to see if they are causing a conflict.
-9. **Cloudflare Cache**: Exclude the WooCommerce API endpoint (/wp-json/wc/v3/) from Cloudflare’s cache. Alternatively, use Cloudflare’s developer mode to bypass the cache temporarily. (Source: https://developers.cloudflare.com/cache/)
+1. **Outdated WooCommerce.** The store needs a version later than WooCommerce 3.5.
+2. **Outdated plugin.** Download the latest version of the app.
+3. **No HTTPS or SSL certificate.** Install and activate a valid certificate, so the API can communicate securely.
+4. **Site not publicly reachable.** Remove password protection, and any coming soon plugin that blocks public access.
+5. **Caching plugin.** Disable your caching plugins one at a time to find the one at fault.
+6. **Server configuration.** If nothing above helps, your server may be stripping the `Authorization` header.
+7. **Security settings.** Check your store and hosting security settings for a rule that conflicts with the app.
+8. **Another plugin.** Deactivate the other plugins temporarily, then try granting access again.
+9. **Cloudflare cache.** Exclude the WooCommerce API endpoint `/wp-json/wc/v3/` from the cache, or switch on the Cloudflare developer mode to bypass it temporarily. See the [Cloudflare cache documentation](https://developers.cloudflare.com/cache/).
 
 ![how to troubleshoot wordpress woocommerce image1](/images/how_to_troubleshoot_wordpress_woocommerce_image1.webp)
 
-Advanced Solutions:
+If none of those work, these are the advanced fixes.
 
-1. Review caching plugin settings related to headers.
+1. Review the header settings in your caching plugin.
 2. Generate a new LetsEncrypt certificate.
-3. Direct subdomain to bypass Cloudflare CDN Proxy.
-4. Switch to a basic WooCommerce Theme like “Storefront” for initial connection.
-5. Add to .htaccess: `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1`.
+3. Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.
+4. Switch to a basic WooCommerce theme, such as Storefront, for the first connection.
+5. Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.
 
-**Special Note**: If using CAFE24 hosting, disable the “SPAM Shield” function.
+!!! note "CAFE24 hosting"
 
-## Error #2: authentication and permission issues
+    On CAFE24, disable the `SPAM Shield` function.
 
-!!! example "Error Messages"
+## The app cannot authenticate
+
+!!! example "Error messages"
 
     It seems that something is interfering with your WordPress Rest API. This needs to be fixed in order to grant access to this plugin.
 
@@ -13805,50 +13790,64 @@ Advanced Solutions:
 
     404 Not Found – the requested URL was not found on this server
 
-Possible Causes and Solutions:
+1. **WPML or Polylang conflict.** Deactivate WPML or Polylang, authenticate the plugin, then reactivate it.
 
-1. **WPML or Polylang Plugin Conflict**: Temporarily deactivate WPML/Polylang, authenticate our plugin, then reactivate WPML/Polylang. (As of November 2024, Polylang and Product Recommendation Quiz app cannot be used together.)
-2. **Incorrect Callback URL**: Replace `%2F` with `/` in the URL, or remove extra /wp/ from the URL.
-3. **Installation Location**: For WooCommerce on a subpage, adjust the URL accordingly (remove /page/). So, instead of `https://yourstore.com/shop/wc-auth/v1/authorize/...` You would use `https://yourstore.com/wc-auth/v1/authorize/...` Even if the first URL is the right path to your WooCommerce store.
-4. **Website is not live**: Ensure installation on a live, publicly accessible website. It cannot be hidden by an “under construction” plugin or setting. The app does not work in local environments.
-5. **Check WordPress REST API**: To test it visit  `https://yourstore.com/wp-json/`. If you’re getting a “Not Found” or similar error, it’s possible that you need to fix your WordPress installation. It’s a problem with the WordPress REST API in your site and not with the WooCommerce REST API. You’ll have to contact your developer to further investigate this issue as it’s outside of our scope.
+    !!! warning "Polylang cannot be used alongside the app"
 
-!!! example "Error Messages"
+        As of November 2024, Polylang and the Product Recommendation Quiz app cannot run together.
+
+2. **Incorrect callback URL.** Replace `%2F` with `/` in the URL, or remove an extra `/wp/` from it.
+
+3. **WooCommerce on a subpage.** Drop the page from the URL. Use `https://yourstore.com/wc-auth/v1/authorize/...` rather than `https://yourstore.com/shop/wc-auth/v1/authorize/...`, even when the first one is the real path to your store.
+
+4. **Site not live.** The app needs a live, publicly reachable site. It cannot work behind an under construction plugin, and it cannot work in a local environment.
+
+5. **WordPress REST API broken.** Visit `https://yourstore.com/wp-json/` to test it. A "Not Found" error points at your WordPress installation, not at WooCommerce. A developer will have to investigate.
+
+## The API returns HTML instead of JSON
+
+!!! example "Error messages"
 
     The following REST API endpoint is returning a valid JSON but the returned content-type is text/html instead of the expecred application/json.
 
-Possible Causes and Solutions:
-
-1. **Check JSON format**. This means that even if your site returns a JSON it may not be in the correct format. The WordPress API is returning a response that is encoded as text/html. Normally, it should be application/json.   This is related to your store or server settings, but can also be influenced by another plugin. It is recommended to check it with your developer and fix it.
+1. **Wrong content type.** The site returns JSON, but encoded as `text/html` rather than `application/json`. That comes from your store or server settings, and another plugin can cause it too. Ask your developer to correct it.
 
 ![how to troubleshoot wordpress woocommerce image2](/images/how_to_troubleshoot_wordpress_woocommerce_image2.jpg)
 
-!!! example "Error Messages"
+## The plugin triggers a fatal error when activated
+
+!!! example "Error messages"
 
     Plugin could not be activated because it triggered a fatal error. Fatal error: Cannot redeclare prq_set_token() (previously declared in…)
 
-Possible Causes and Solutions:
+1. **Both plugins are active.** Deactivate the WordPress plugin, `Product Recommendation Quiz for ecommerce`, before you activate the WooCommerce extension, `Product Recommendation Quiz for WooCommerce`.
 
-1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for ecommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
+    !!! info "Nothing is lost when you deactivate"
+
+        Your quizzes and responses live on the RevenueHunt servers, not in the plugin.
 
 ![how to troubleshoot wordpress woocommerce image3](/images/how_to_troubleshoot_wordpress_woocommerce_image3.png)
 
-!!! example "Error Messages"
+## The plugin does not have a valid header
+
+!!! example "Error messages"
 
     The plugin does not have a valid header
 
-Possible Causes and Solutions:
+1. **Cached plugin list.** Your plugin list may be held in whatever WP Object Cache your site uses. See [this fix for the invalid header error](https://scotty-t.com/2011/03/28/fix-for-the-plugin-does-not-have-a-valid-header/).
+2. **Wrong folder structure.** The plugin's main file has to sit directly in `wp-content/plugins/`.
+3. **PHP file headers.** A PHP file inside the plugin whose header resembles the main plugin file's mandatory header confuses WordPress. See [how to fix the invalid header error](https://chattymango.com/how-fix-wordpress-error-plugin-not-valid-header/).
+4. **A `/trunk` directory.** Remove `/trunk`, or activate the plugin from the plugin list. See [this WordPress support thread](https://wordpress.org/support/topic/the-plugin-does-not-have-a-valid-header-solution/).
+5. **Outdated plugin.** Download the latest version of the app.
+6. **Both plugins installed.** Deactivate and remove the WooCommerce extension before you install the WordPress plugin, or the other way round.
 
-1. **Plugins cached**: Your list of Plugins could be cached in whatever WP Object Cache your blog / site is using. (Source: [https://scotty-t.com/2011/03/28/fix-for-the-plugin-does-not-have-a-valid-header/](https://scotty-t.com/2011/03/28/fix-for-the-plugin-does-not-have-a-valid-header/))
-2. **Check the Correct Folder Structure**: Ensure that the plugin’s main file is placed correctly in the wp-content/plugins/ directory.
-3. **Modify PHP File Headers**: If the headers of PHP files within the plugin resemble the mandatory header of the main plugin file, it can confuse WordPress. Modifying these headers to a different format can resolve the issue. (Source: [https://chattymango.com/how-fix-wordpress-error-plugin-not-valid-header/](https://chattymango.com/how-fix-wordpress-error-plugin-not-valid-header/))
-4. **Remove /trunk directory**: Remove `/trunk` directory or activate from the plugin list. (Source: [https://wordpress.org/support/topic/the-plugin-does-not-have-a-valid-header-solution/](https://wordpress.org/support/topic/the-plugin-does-not-have-a-valid-header-solution/))
-5. **Outdated Plugin Version**: Ensure you’ve downloaded the latest version of the app.
-6. **Two Plugins Installed**: Deactivate and remove the WooCommerce extension before installing the WordPress plugin (or vice versa).
- 
+!!! tip "If none of these solve it"
+
+    The cause is probably specific to your site. Ask your developer or your hosting provider to read the server logs for clues. The support team can do little in these cases.
 
 ---
-If you’ve exhausted all listed solutions without success, it may be due to specific configurations in your website. In such cases, consult your developer or hosting provider and review server logs for potential clues. Unfortunately, our capacity to assist is limited in these scenarios.
+
+This article lists the errors that stop the RevenueHunt app working on WordPress or WooCommerce, and what fixes each one.
 
 
 
@@ -13864,127 +13863,84 @@ description: "Learn how to update your Shopify cart drawer when products are add
 
 # How to Update Your Shopify Cart Drawer Products After the Quiz
 
-If your quiz is adding products to the cart but your cart drawer isn’t updating or opening automatically, the issue is likely with how your Shopify theme handles cart updates — not with the quiz itself.
+The quiz adds the products to the cart, but your cart drawer stays closed or shows nothing. The cause is in how your Shopify theme handles cart updates, rather than in the quiz.
 
-!!! warning "Cart Drawer Update"
+The app already fires Shopify's native cart events. Your theme has to listen for them, and no quiz-specific API is needed for that.
 
-    You don’t need a dedicated Quiz JS API to update your cart drawer. The RevenueHunt app already triggers Shopify’s native cart events (like `cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever a shopper adds or updates products through the quiz.
+## How the quiz adds products to the cart
 
-    You can listen to these events in your theme or custom script to detect when items are added to the cart and then trigger your cart drawer update logic. This approach works across themes and doesn’t require any changes in the app itself.
+The app uses Shopify's official AJAX Cart API, the same endpoints most Shopify themes and apps use:
 
-This guide explains:
+- `cart/add.js` adds products to the cart.
+- `cart/change.js` changes product quantities.
+- `cart/update.js` updates the cart with new contents.
+- `cart.js` retrieves the current state of the cart.
 
-- How RevenueHunt quiz app adds products to the Shopify cart
+Those calls tell Shopify that the cart changed. Updating what the customer sees, including opening or refreshing the drawer, is the theme's job.
 
-- Why the cart drawer may not update
+## Why the drawer may not update
 
-- What your theme editor or developer can do to fix it
+Most modern themes, Dawn among them, have a cart drawer or slide-out cart. When yours does not update after a quiz submission, one of these is usually true.
 
-## Step 1: understand how quiz adds products to the cart
+- The theme is not listening for the changes that AJAX cart actions trigger.
+- The drawer script was extended without being set up to react to AJAX calls from outside the theme. This happens in Shopify's own themes too.
 
-Our app uses Shopify’s official AJAX Cart API to add products. These are the same endpoints used by most Shopify themes and apps.
+## What your developer needs to do
 
-We use:
+The app only triggers Shopify's standard cart actions, so the theme has to respond to them.
 
-- `cart/add.js` – adds products to the cart
+1. **Listen for those AJAX calls**, in the theme or in a small custom script.
+2. **Trigger the drawer's open or refresh logic** when one of them fires.
 
-- `cart/change.js` – changes product quantities
+This works across themes, and needs no change inside the app.
 
-- `cart/update.js` – updates the cart with new contents
+Share these with your developer or your Shopify Expert:
 
-- `cart.js` – retrieves the latest state of the cart
+- [Shopify AJAX Cart API reference](https://shopify.dev/docs/api/ajax/reference/cart)
+- [Listening to AJAX cart events in Shopify themes](https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0)
 
-These actions notify Shopify that the cart has changed. It’s then up to the theme to update the UI, such as opening or refreshing the cart drawer.
+!!! example "How one merchant fixed it"
 
-## Step 2: confirm if your theme supports cart drawer updates
+    On the Megastore theme, products reached the cart after the quiz, but the drawer stayed closed and sometimes showed an "Empty Cart" message.
 
-Most modern themes (like Dawn) include a cart drawer or slide-out cart. However, if your cart drawer does not update after a quiz submission:
-
-- Your theme is likely not listening for changes triggered by AJAX cart actions.
-
-- This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized / extended properly or if the cart drawer script isn’t configured to react to external AJAX calls.
-
-## Step 3: talk to your theme developer
-
-Since our app only triggers Shopify’s standard cart actions, you’ll need to make sure your theme is set up to respond to those actions.
-
-You don’t need a custom Quiz API or event hook to make this work.
-The app already triggers Shopify’s native cart events (`cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever shoppers add or update products through the quiz.
-
-To make your cart drawer respond automatically:
-
-- Simply listen for these AJAX calls in your theme or a small custom script.
-
-- When detected, trigger your cart drawer’s “open” or “refresh” logic.
-
-This lightweight approach works across all themes and doesn’t require any modifications to the RevenueHunt app itself.
-
-Share the following resources with your developer or Shopify Expert:
-
-- Shopify AJAX Cart Documentation: [https://shopify.dev/docs/api/ajax/reference/cart](https://shopify.dev/docs/api/ajax/reference/cart)
-
-- Helpful guide on listening to AJAX cart events in Shopify themes: [https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0](https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0)
-
-
-!!! example "Example from a Merchant"
-
-    A Shopify merchant using the Megastore theme noticed that products were correctly added to the cart after the quiz, but the drawer remained closed and sometimes showed an “Empty Cart” message.
-
-    After reviewing the theme code, they found that it only opened the cart drawer when items were added via the theme’s own product forms:
+    Reading the theme code showed that it only opened the drawer for items added through the theme's own product forms:
 
     ```js
-            onSubmitHandler(evt) {
-        fetch('/cart/add.js', { /* ... */ })
-            .then(response => response.json())
-            .then(response => {
-            this.cart.renderContents(response); // ← Opens the drawer
-            });
-        }
-
+    onSubmitHandler(evt) {
+      fetch('/cart/add.js', { /* ... */ })
+        .then(response => response.json())
+        .then(response => {
+          this.cart.renderContents(response); // ← Opens the drawer
+        });
+    }
     ```
 
-    When external apps (like the quiz) used the Cart API directly, this path was never triggered.
-
-    Solution implemented:
+    An app calling the Cart API directly never reached that code.
 
     Their developer added a global Cart API interceptor that:
 
-    - Detects any `/cart/add.js` or `/cart/update.js` requests,
-    - Fetches the updated cart contents,
-    - Automatically opens or refreshes the drawer,
-    - Removes residual "empty cart" messages.
+    - detects any `/cart/add.js` or `/cart/update.js` request,
+    - fetches the updated cart contents,
+    - opens or refreshes the drawer,
+    - clears any leftover "empty cart" message.
 
-    They also re-attached the overlay and close button handlers after updating the DOM so the drawer worked normally.
+    They also re-attached the overlay and close button handlers after updating the DOM, so the drawer kept working normally. With that script in place, the drawer updated correctly, and nothing changed on the app side.
 
-    Once this script was added, the cart drawer updated perfectly — without any app-side changes.
+## Test the setup
 
-## Step 4: test your setup
+Once the theme listens for the AJAX cart actions:
 
-Once your theme is updated to listen to the AJAX cart actions, test the following:
+1. **Take the quiz through to the results page and click `Add to Cart`.**
+2. **Check that the products reach the cart.**
+3. **Check that the drawer opens on its own, or that the cart shows the new products.**
 
-1. Complete your quiz and click “Add to Cart”.
+!!! info "What the app does, and what it does not"
 
-2. Confirm that:
+    The app triggers Shopify's native cart actions. It does not modify your cart drawer or your theme layout.
 
-    - Products are added successfully.
+    The support team can confirm that the app is firing the right cart actions. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
 
-    - The cart drawer opens automatically, or
-
-    - The cart UI updates with the new products.
-
-
-!!! info "Note"
-
-    The RevenueHunt app already triggers Shopify’s native cart actions.  
-
-    We do **not** modify your cart drawer or theme layout.
-
-    We **cannot** support theme customization or debug third-party JavaScript.
-
-    We’re happy to confirm that our app is triggering the correct cart actions — [just let us know](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
-
-    For theme modifications, please consult your theme developer or Shopify Expert.
-
+    Theme customization and third-party JavaScript are outside what support can debug. For those, ask your theme developer or a Shopify Expert.
 
 ---
 

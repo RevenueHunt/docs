@@ -5,137 +5,85 @@ description: "Learn how to update your Shopify cart drawer when products are add
 
 # How to Update Your Shopify Cart Drawer Products After the Quiz
 
-If your quiz is adding products to the cart but your cart drawer isn’t updating or opening automatically, the issue is likely with how your Shopify theme handles cart updates — not with the quiz itself.
+The quiz adds the products to the cart, but your cart drawer stays closed or shows nothing. The cause is in how your Shopify theme handles cart updates, rather than in the quiz.
 
-!!! warning "Cart Drawer Update"
+The app already fires Shopify's native cart events. Your theme has to listen for them, and no quiz-specific API is needed for that.
 
-    You don’t need a dedicated Quiz JS API to update your cart drawer. The RevenueHunt app already triggers Shopify’s native cart events (like `cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever a shopper adds or updates products through the quiz.
+## How the quiz adds products to the cart
 
-    You can listen to these events in your theme or custom script to detect when items are added to the cart and then trigger your cart drawer update logic. This approach works across themes and doesn’t require any changes in the app itself.
+The app uses Shopify's official AJAX Cart API, the same endpoints most Shopify themes and apps use:
 
-This guide explains:
+- `cart/add.js` adds products to the cart.
+- `cart/change.js` changes product quantities.
+- `cart/update.js` updates the cart with new contents.
+- `cart.js` retrieves the current state of the cart.
 
-- How RevenueHunt quiz app adds products to the Shopify cart
+Those calls tell Shopify that the cart changed. Updating what the customer sees, including opening or refreshing the drawer, is the theme's job.
 
-- Why the cart drawer may not update
+## Why the drawer may not update
 
-- What your theme editor or developer can do to fix it
+Most modern themes, Dawn among them, have a cart drawer or slide-out cart. When yours does not update after a quiz submission, one of these is usually true.
 
-## Step 1: understand how quiz adds products to the cart
+- The theme is not listening for the changes that AJAX cart actions trigger.
+- The drawer script was extended without being set up to react to AJAX calls from outside the theme. This happens in Shopify's own themes too.
 
-Our app uses Shopify’s official AJAX Cart API to add products. These are the same endpoints used by most Shopify themes and apps.
+## What your developer needs to do
 
-We use:
+The app only triggers Shopify's standard cart actions, so the theme has to respond to them.
 
-- `cart/add.js` – adds products to the cart
+1. **Listen for those AJAX calls**, in the theme or in a small custom script.
+2. **Trigger the drawer's open or refresh logic** when one of them fires.
 
-- `cart/change.js` – changes product quantities
+This works across themes, and needs no change inside the app.
 
-- `cart/update.js` – updates the cart with new contents
+Share these with your developer or your Shopify Expert:
 
-- `cart.js` – retrieves the latest state of the cart
+- [Shopify AJAX Cart API reference](https://shopify.dev/docs/api/ajax/reference/cart)
+- [Listening to AJAX cart events in Shopify themes](https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0)
 
-These actions notify Shopify that the cart has changed. It’s then up to the theme to update the UI, such as opening or refreshing the cart drawer.
+!!! example "How one merchant fixed it"
 
-## Step 2: confirm if your theme supports cart drawer updates
+    On the Megastore theme, products reached the cart after the quiz, but the drawer stayed closed and sometimes showed an "Empty Cart" message.
 
-Most modern themes (like Dawn) include a cart drawer or slide-out cart. However, if your cart drawer does not update after a quiz submission:
-
-- Your theme is likely not listening for changes triggered by AJAX cart actions.
-
-- This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized / extended properly or if the cart drawer script isn’t configured to react to external AJAX calls.
-
-## Step 3: talk to your theme developer
-
-Since our app only triggers Shopify’s standard cart actions, you’ll need to make sure your theme is set up to respond to those actions.
-
-You don’t need a custom Quiz API or event hook to make this work.
-The app already triggers Shopify’s native cart events (`cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever shoppers add or update products through the quiz.
-
-To make your cart drawer respond automatically:
-
-- Simply listen for these AJAX calls in your theme or a small custom script.
-
-- When detected, trigger your cart drawer’s “open” or “refresh” logic.
-
-This lightweight approach works across all themes and doesn’t require any modifications to the RevenueHunt app itself.
-
-Share the following resources with your developer or Shopify Expert:
-
-- Shopify AJAX Cart Documentation: [https://shopify.dev/docs/api/ajax/reference/cart](https://shopify.dev/docs/api/ajax/reference/cart)
-
-- Helpful guide on listening to AJAX cart events in Shopify themes: [https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0](https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0)
-
-
-!!! example "Example from a Merchant"
-
-    A Shopify merchant using the Megastore theme noticed that products were correctly added to the cart after the quiz, but the drawer remained closed and sometimes showed an “Empty Cart” message.
-
-    After reviewing the theme code, they found that it only opened the cart drawer when items were added via the theme’s own product forms:
+    Reading the theme code showed that it only opened the drawer for items added through the theme's own product forms:
 
     ```js
-            onSubmitHandler(evt) {
-        fetch('/cart/add.js', { /* ... */ })
-            .then(response => response.json())
-            .then(response => {
-            this.cart.renderContents(response); // ← Opens the drawer
-            });
-        }
-
+    onSubmitHandler(evt) {
+      fetch('/cart/add.js', { /* ... */ })
+        .then(response => response.json())
+        .then(response => {
+          this.cart.renderContents(response); // ← Opens the drawer
+        });
+    }
     ```
 
-    When external apps (like the quiz) used the Cart API directly, this path was never triggered.
-
-    Solution implemented:
+    An app calling the Cart API directly never reached that code.
 
     Their developer added a global Cart API interceptor that:
 
-    - Detects any `/cart/add.js` or `/cart/update.js` requests,
-    - Fetches the updated cart contents,
-    - Automatically opens or refreshes the drawer,
-    - Removes residual "empty cart" messages.
+    - detects any `/cart/add.js` or `/cart/update.js` request,
+    - fetches the updated cart contents,
+    - opens or refreshes the drawer,
+    - clears any leftover "empty cart" message.
 
-    They also re-attached the overlay and close button handlers after updating the DOM so the drawer worked normally.
+    They also re-attached the overlay and close button handlers after updating the DOM, so the drawer kept working normally. With that script in place, the drawer updated correctly, and nothing changed on the app side.
 
-    Once this script was added, the cart drawer updated perfectly — without any app-side changes.
+## Test the setup
 
-## Step 4: test your setup
+Once the theme listens for the AJAX cart actions:
 
-Once your theme is updated to listen to the AJAX cart actions, test the following:
+1. **Take the quiz through to the results page and click `Add to Cart`.**
+2. **Check that the products reach the cart.**
+3. **Check that the drawer opens on its own, or that the cart shows the new products.**
 
-1. Complete your quiz and click “Add to Cart”.
+!!! info "What the app does, and what it does not"
 
-2. Confirm that:
+    The app triggers Shopify's native cart actions. It does not modify your cart drawer or your theme layout.
 
-    - Products are added successfully.
+    The support team can confirm that the app is firing the right cart actions. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
 
-    - The cart drawer opens automatically, or
-
-    - The cart UI updates with the new products.
-
-
-!!! info "Note"
-
-    The RevenueHunt app already triggers Shopify’s native cart actions.  
-
-    We do **not** modify your cart drawer or theme layout.
-
-    We **cannot** support theme customization or debug third-party JavaScript.
-
-    We’re happy to confirm that our app is triggering the correct cart actions — [just let us know](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
-
-    For theme modifications, please consult your theme developer or Shopify Expert.
-
+    Theme customization and third-party JavaScript are outside what support can debug. For those, ask your theme developer or a Shopify Expert.
 
 ---
 
 This article explains how to update your Shopify cart drawer products after the quiz.
-
-
-
-
-
-
-
-
-

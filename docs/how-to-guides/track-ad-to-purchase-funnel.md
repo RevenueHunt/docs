@@ -14,14 +14,14 @@ You are paying for clicks and you want two answers: which ads produce orders, an
 | Quiz to order | The app's [Analytics panel](/reference/quiz-builder/metrics/#analytics) | Already running |
 | Ad campaign to an individual lead | Custom JS that captures UTMs into the response | Advanced, optional |
 
-The last row is the one most stores skip, and the first three are enough for almost everyone. Follow the steps in order and stop when you have what you need.
+The last row is the one most stores skip, and the first three are enough for almost everyone. Work through the sections in order, and stop when you have what you need.
 
 Before you start:
 
 - Publish the quiz on [its own page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page). One quiz per page keeps the funnel readable and is also how GA4 tracking works best.
 - Install GA4 on your store. On Shopify, the Google & YouTube sales channel does this and sends the `purchase` event from checkout. You need that event for the last step of the funnel.
 
-## Step 1: tag your ads with UTM parameters
+## Tag your ads with UTM parameters
 
 UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the customer came from.
 
@@ -51,7 +51,7 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
     This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
 
-## Step 2: read ad to purchase in your store analytics
+## Read ad to purchase in your store analytics
 
 This is the outer measurement: what you spend against what you earn. It works as soon as the ads are tagged, with nothing else to configure.
 
@@ -98,9 +98,9 @@ This is the outer measurement: what you spend against what you earn. It works as
     3. Add **Total revenue** and **Conversions** as columns.
     4. Compare the campaign revenue against your ad spend for the same period.
 
-At this point you know which ads make money. What you do not know is where the weaker ads lose customers. That is Step 3.
+At this point you know which ads make money. What you do not know is where the weaker ads lose customers. The GA4 events answer that.
 
-## Step 3: connect the quiz to Google Analytics
+## Connect the quiz to Google Analytics
 
 This makes the middle of the funnel visible: how many people who land actually start the quiz, and how many reach the results page.
 
@@ -133,7 +133,7 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     !!! tip "Video walkthrough"
 
-        Check out [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) for a video and step by step instructions on connecting your quiz to GA4.
+        See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) for a video and step-by-step instructions on connecting your quiz to GA4.
 
 === "Shopify (Legacy)"
 
@@ -335,233 +335,239 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
 
-## Step 4: build the funnel in GA4
+## Build the funnel in GA4
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Create the exploration**
+    1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 
-    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    2. **Set your date range.** The picker sits at the top of the **Variables** panel.
 
-    **Make the campaign dimension available**
+        !!! info "The three panels"
 
-    1. In **Variables**, click the `+` next to **Dimensions**.
-    2. Search for **Session campaign**, tick it, then click **Import**.
+            **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
 
-    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
 
-    **Define the four steps**
+        !!! warning "Import it before you touch Breakdown"
 
-    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+            A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
 
-    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
 
-    | Step | Name it | Condition to set |
-    |---|---|---|
-    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-    | 2 | Started the quiz | **Add new condition**, event `quiz_started_{your_quiz_name}` |
-    | 3 | Reached the results | **Add new condition**, event `results_page_viewed_{your_results_page_title}` |
-    | 4 | Purchased | **Add new condition**, event `purchase` |
+    5. **Replace the four placeholder steps.**
 
-    Click **Apply** in the top right of the editor once all four are set.
+        Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
 
-    **Split the funnel by ad**
+        | Step | Name it | Condition to set |
+        |---|---|---|
+        | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+        | 2 | Started the quiz | **Add new condition**, event `quiz_started_{your_quiz_name}` |
+        | 3 | Reached the results | **Add new condition**, event `results_page_viewed_{your_results_page_title}` |
+        | 4 | Purchased | **Add new condition**, event `purchase` |
 
-    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    6. **Apply the steps.** Click **Apply** in the top right of the editor.
+
+    7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+
+    8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Create the exploration**
+    1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 
-    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    2. **Set your date range.** The picker sits at the top of the **Variables** panel.
 
-    **Make the campaign dimension available**
+        !!! info "The three panels"
 
-    1. In **Variables**, click the `+` next to **Dimensions**.
-    2. Search for **Session campaign**, tick it, then click **Import**.
+            **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
 
-    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
 
-    **Define the four steps**
+        !!! warning "Import it before you touch Breakdown"
 
-    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+            A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
 
-    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
 
-    | Step | Name it | Condition to set |
-    |---|---|---|
-    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
-    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
-    | 4 | Purchased | **Add new condition**, event `purchase` |
+    5. **Replace the four placeholder steps.**
 
-    Click **Apply** in the top right of the editor once all four are set.
+        Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
 
-    **Split the funnel by ad**
+        | Step | Name it | Condition to set |
+        |---|---|---|
+        | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+        | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+        | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+        | 4 | Purchased | **Add new condition**, event `purchase` |
 
-    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    6. **Apply the steps.** Click **Apply** in the top right of the editor.
+
+    7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+
+    8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 
 === "WooCommerce"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Create the exploration**
+    1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 
-    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    2. **Set your date range.** The picker sits at the top of the **Variables** panel.
 
-    **Make the campaign dimension available**
+        !!! info "The three panels"
 
-    1. In **Variables**, click the `+` next to **Dimensions**.
-    2. Search for **Session campaign**, tick it, then click **Import**.
+            **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
 
-    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
 
-    **Define the four steps**
+        !!! warning "Import it before you touch Breakdown"
 
-    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+            A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
 
-    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
 
-    | Step | Name it | Condition to set |
-    |---|---|---|
-    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
-    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
-    | 4 | Purchased | **Add new condition**, event `purchase` |
+    5. **Replace the four placeholder steps.**
 
-    Click **Apply** in the top right of the editor once all four are set.
+        Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
 
-    **Split the funnel by ad**
+        | Step | Name it | Condition to set |
+        |---|---|---|
+        | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+        | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+        | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+        | 4 | Purchased | **Add new condition**, event `purchase` |
 
-    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    6. **Apply the steps.** Click **Apply** in the top right of the editor.
+
+    7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+
+    8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 
 === "Magento"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Create the exploration**
+    1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 
-    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    2. **Set your date range.** The picker sits at the top of the **Variables** panel.
 
-    **Make the campaign dimension available**
+        !!! info "The three panels"
 
-    1. In **Variables**, click the `+` next to **Dimensions**.
-    2. Search for **Session campaign**, tick it, then click **Import**.
+            **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
 
-    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
 
-    **Define the four steps**
+        !!! warning "Import it before you touch Breakdown"
 
-    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+            A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
 
-    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
 
-    | Step | Name it | Condition to set |
-    |---|---|---|
-    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
-    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
-    | 4 | Purchased | **Add new condition**, event `purchase` |
+    5. **Replace the four placeholder steps.**
 
-    Click **Apply** in the top right of the editor once all four are set.
+        Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
 
-    **Split the funnel by ad**
+        | Step | Name it | Condition to set |
+        |---|---|---|
+        | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+        | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+        | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+        | 4 | Purchased | **Add new condition**, event `purchase` |
 
-    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    6. **Apply the steps.** Click **Apply** in the top right of the editor.
+
+    7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+
+    8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 
 === "BigCommerce"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Create the exploration**
+    1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 
-    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    2. **Set your date range.** The picker sits at the top of the **Variables** panel.
 
-    **Make the campaign dimension available**
+        !!! info "The three panels"
 
-    1. In **Variables**, click the `+` next to **Dimensions**.
-    2. Search for **Session campaign**, tick it, then click **Import**.
+            **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
 
-    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
 
-    **Define the four steps**
+        !!! warning "Import it before you touch Breakdown"
 
-    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+            A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
 
-    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
 
-    | Step | Name it | Condition to set |
-    |---|---|---|
-    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
-    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
-    | 4 | Purchased | **Add new condition**, event `purchase` |
+    5. **Replace the four placeholder steps.**
 
-    Click **Apply** in the top right of the editor once all four are set.
+        Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
 
-    **Split the funnel by ad**
+        | Step | Name it | Condition to set |
+        |---|---|---|
+        | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+        | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+        | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+        | 4 | Purchased | **Add new condition**, event `purchase` |
 
-    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    6. **Apply the steps.** Click **Apply** in the top right of the editor.
+
+    7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+
+    8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 
 === "Standalone"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    **Create the exploration**
+    1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 
-    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
-    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    2. **Set your date range.** The picker sits at the top of the **Variables** panel.
 
-    **Make the campaign dimension available**
+        !!! info "The three panels"
 
-    1. In **Variables**, click the `+` next to **Dimensions**.
-    2. Search for **Session campaign**, tick it, then click **Import**.
+            **Variables** is on the left, **Tab Settings** in the middle, and the funnel chart on the right.
 
-    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    3. **Import the campaign dimension.** In **Variables**, click the `+` next to **Dimensions**. Search for **Session campaign**, tick it, then click **Import**.
 
-    **Define the four steps**
+        !!! warning "Import it before you touch Breakdown"
 
-    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+            A dimension you have not imported does not appear in the **Breakdown** field. That is the usual reason people cannot find it.
 
-    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    4. **Open the step editor.** In **Tab Settings**, hover over **Steps** and click the pencil icon.
 
-    | Step | Name it | Condition to set |
-    |---|---|---|
-    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
-    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
-    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
-    | 4 | Purchased | **Add new condition**, event `purchase` |
+    5. **Replace the four placeholder steps.**
 
-    Click **Apply** in the top right of the editor once all four are set.
+        Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on.
 
-    **Split the funnel by ad**
+        | Step | Name it | Condition to set |
+        |---|---|---|
+        | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+        | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+        | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+        | 4 | Purchased | **Add new condition**, event `purchase` |
 
-    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
-    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    6. **Apply the steps.** Click **Apply** in the top right of the editor.
 
-The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
+    7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
+
+    8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
+
+The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if the last step is empty, check that first.
 
 !!! warning "GA4 event tracking reliability"
 
     Since Google moved from Universal Analytics to GA4, event tracking reliability has dropped. The implementation can be correct and the events can fire as expected, and GA4 can still fail to read, process, or report them accurately. If that happens, contact Google Support: the issue is on their end.
 
-## Step 5: attach the campaign to each individual response (optional)
+## Attach the campaign to each response (optional)
 
-Steps 1 to 4 give you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
+Everything so far gives you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
 
 === "Shopify"
 
@@ -600,7 +606,7 @@ Steps 1 to 4 give you totals per campaign. This step puts the campaign on each i
         </script>
         ```
 
-    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
     Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -622,7 +628,7 @@ Steps 1 to 4 give you totals per campaign. This step puts the campaign on each i
         </script>
         ```
 
-    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
     Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -644,7 +650,7 @@ Steps 1 to 4 give you totals per campaign. This step puts the campaign on each i
         </script>
         ```
 
-    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
     Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -666,7 +672,7 @@ Steps 1 to 4 give you totals per campaign. This step puts the campaign on each i
         </script>
         ```
 
-    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
     Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -688,7 +694,7 @@ Steps 1 to 4 give you totals per campaign. This step puts the campaign on each i
         </script>
         ```
 
-    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
     Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -706,5 +712,5 @@ Whichever platform you are on, these values travel with the response and arrive 
 ## Related
 
 - [Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): the quiz to order half, native and already running.
-- [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimising the ads themselves.
+- [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimizing the ads themselves.
 - [Use Quiz Data to Lower Your Ad Costs](/customer-success/use-quiz-data-for-ads/): what to do with the data once you can read it.

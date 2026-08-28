@@ -5,280 +5,317 @@ description: "Step-by-step guide to troubleshoot RevenueHunt product recommendat
 
 # How to Troubleshoot Product Recommendations in Your Quiz
 
-Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections/categories linked to quiz choices. 
+A single quiz response records every choice the customer made and every product those choices upvoted. Reading one tells you why a product was recommended, or why it never appeared.
 
-This guide will walk you through the process of troubleshooting product recommendations. It can help you understand why a certain product was recommended or missing from the Results Page.
+!!! info "What decides a recommendation"
 
-!!! warning "Understanding the basics"
+    Products reach the results page through the [upvoting system](/how-to-guides/set-up-funnel-quiz/#upvoting-system), and blocks are shown or hidden by [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic). A missing product is nearly always one of those two.
 
-    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [upvoting system](/how-to-guides/set-up-funnel-quiz/#upvoting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
+## Check why a product was recommended
 
-## Step-by-step process to check recommendations
+!!! tip "Open the responses in a second window"
 
-!!! tip
+    Keep the [Responses section](/reference/quiz-builder/metrics/#responses) of the [App manual](/reference/) open alongside your quiz while you work through this.
 
-    Before you begin, open the [Responses section](/reference/quiz-builder/metrics/#responses) from the [App manual](/reference/) in the new browser window. It will come in handy.
-
-
-=== "Shopify" 
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/5RFclBk7-LA?si=YwBMN6n0c87QrZRZ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Explore Responses**: To open the responses sections, go back to the [dashboard](/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](/reference/quiz-builder/metrics/#responses).
-    
+    1. **Open the [Responses](/reference/quiz-builder/metrics/#responses) section.** Go to the [dashboard](/reference/quiz-builder/), pick a quiz, click `...`, then click `Responses`.
+
         ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
-    
-        In the Responses section you will find a list of the latest quiz responses sorted by date. Click on a date to open a specific response.
+
+    2. **Click a date to open that response.** The list holds the latest responses, newest first.
 
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 
-        !!! warning "Test responses removal"
+        !!! note "Test responses leave the list after 24 hours"
 
-            Admin responses and quiz previews are removed from the list after 24 hours to don't add to your plan's limits.
+            Responses from the admin and from quiz previews are removed automatically, so they never count towards your plan limit.
 
-    2. Click `Analyze response` to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. You can ask it anything about the response, it will provide a detailed analysis of the response, help you identify the root cause of the issue and suggest improvements.
+    3. **Click `Analyze response` to open [Quiz Copilot](/how-to-guides/use-quiz-copilot/).** Ask it anything about the response. It reads the answers, names the likely cause, and suggests what to change.
 
-    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
+    4. **Open the `Why was a product recommended or not in this response?` section.**
 
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
-    4. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results page or one you anticipated but was missing.
-    5. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
-        **Understanding Product Status Colors**
+    5. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
 
-        - **Green**: Indicates products that received upvotes through the quiz choices.
-        - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
+    6. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The color tells you where it stands.
 
-    6. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+        | Color | What it means |
+        |---|---|
+        | **Green** | The product received upvotes from the quiz choices. |
+        | **Red** | The product was excluded from the recommendations. |
+        | **White** | The product received no upvotes, so it could not be recommended. |
+
+    7. **Read the panel that opens.**
 
         ![how to troubleshoot quiz results search products](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
 
-        Information such as:
+        The panel shows:
 
-        - The collections/categories the product belongs to.
-        - The number of upvotes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results page and Slots or Product blocks that facilitated its recommendation.
+        - The collections or categories the product belongs to.
+        - How many upvotes it received, and why it was recommended or left out.
+        - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+        - The results page, slot or product block that placed it.
 
-    7. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
+    The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
 
-    !!! tip
+    !!! tip "The two usual causes"
 
-        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
+        A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
 
-
-=== "Shopify (Legacy)" 
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-    4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
-        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
-    5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-    6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
-
-        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
-
-        **Understanding Product Status Colors**
-
-        - **Green**: Indicates products that received upvotes through the quiz choices.
-        - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
-
-    7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
-
-        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
-
-        Information such as:
-
-        - The collections/categories the product belongs to.
-        - The number of upvotes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
-
-    8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
-
-    !!! tip
-
-        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
-
-    Additionally, you may:
-
-    - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
-    - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
-
-=== "WooCommerce" 
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-    4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
+    1. **Go to [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.**
+
+    2. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab.** The left-hand menu holds the last 100 responses, by date.
+
+    3. **Click a date to open that response.**
+
+    4. **Open the `Why was a product recommended or not in this response?` section.**
+
+    5. **Open the Results Page for that response.** The link sits at the bottom of the response details.
+
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
-    5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-    6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
+
+    6. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
+
+    7. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The section sits at the top of the response, and the color tells you where the product stands.
 
         ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
-        **Understanding Product Status Colors**
+        | Color | What it means |
+        |---|---|
+        | **Green** | The product received upvotes from the quiz choices. |
+        | **Red** | The product was excluded from the recommendations. |
+        | **White** | The product received no upvotes, so it could not be recommended. |
 
-        - **Green**: Indicates products that received upvotes through the quiz choices.
-        - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
-
-    7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+    8. **Read the panel that opens.**
 
         ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
-        Information such as:
+        The panel shows:
 
-        - The collections/categories the product belongs to.
-        - The number of upvotes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
+        - The collections or categories the product belongs to.
+        - How many upvotes it received, and why it was recommended or left out.
+        - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+        - The results page, slot or product block that placed it.
 
-    8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
+    The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
 
-    !!! tip
+    !!! tip "The two usual causes"
 
-        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
+        A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
 
-    Additionally, you may:
+    Two more actions are worth knowing about:
 
-    - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
-    - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
+    - **Recalculate Recommendations.** Once you have changed the quiz, or the collections and categories behind it, this replays the response against the new setup.
+    - **Resend Notifications.** This sends the revised recommendations out again, to your CRM or by email.
 
-=== "Magento" 
+=== "WooCommerce"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-    4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
+    1. **Go to [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.**
+
+    2. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab.** The left-hand menu holds the last 100 responses, by date.
+
+    3. **Click a date to open that response.**
+
+    4. **Open the `Why was a product recommended or not in this response?` section.**
+
+    5. **Open the Results Page for that response.** The link sits at the bottom of the response details.
+
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
-    5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-    6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
+
+    6. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
+
+    7. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The section sits at the top of the response, and the color tells you where the product stands.
 
         ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
-        **Understanding Product Status Colors**
+        | Color | What it means |
+        |---|---|
+        | **Green** | The product received upvotes from the quiz choices. |
+        | **Red** | The product was excluded from the recommendations. |
+        | **White** | The product received no upvotes, so it could not be recommended. |
 
-        - **Green**: Indicates products that received upvotes through the quiz choices.
-        - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
-
-    7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+    8. **Read the panel that opens.**
 
         ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
-        Information such as:
+        The panel shows:
 
-        - The collections/categories the product belongs to.
-        - The number of upvotes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
+        - The collections or categories the product belongs to.
+        - How many upvotes it received, and why it was recommended or left out.
+        - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+        - The results page, slot or product block that placed it.
 
-    8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
+    The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
 
-    !!! tip
+    !!! tip "The two usual causes"
 
-        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
+        A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
 
-    Additionally, you may:
+    Two more actions are worth knowing about:
 
-    - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
-    - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
+    - **Recalculate Recommendations.** Once you have changed the quiz, or the collections and categories behind it, this replays the response against the new setup.
+    - **Resend Notifications.** This sends the revised recommendations out again, to your CRM or by email.
 
-=== "BigCommerce" 
+=== "Magento"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-    4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
+    1. **Go to [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.**
+
+    2. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab.** The left-hand menu holds the last 100 responses, by date.
+
+    3. **Click a date to open that response.**
+
+    4. **Open the `Why was a product recommended or not in this response?` section.**
+
+    5. **Open the Results Page for that response.** The link sits at the bottom of the response details.
+
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
-    5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-    6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
+
+    6. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
+
+    7. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The section sits at the top of the response, and the color tells you where the product stands.
 
         ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
-        **Understanding Product Status Colors**
+        | Color | What it means |
+        |---|---|
+        | **Green** | The product received upvotes from the quiz choices. |
+        | **Red** | The product was excluded from the recommendations. |
+        | **White** | The product received no upvotes, so it could not be recommended. |
 
-        - **Green**: Indicates products that received upvotes through the quiz choices.
-        - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
-
-    7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+    8. **Read the panel that opens.**
 
         ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
-        Information such as:
+        The panel shows:
 
-        - The collections/categories the product belongs to.
-        - The number of upvotes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
+        - The collections or categories the product belongs to.
+        - How many upvotes it received, and why it was recommended or left out.
+        - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+        - The results page, slot or product block that placed it.
 
-    8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
+    The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
 
-    !!! tip
+    !!! tip "The two usual causes"
 
-        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
+        A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
 
-    Additionally, you may:
+    Two more actions are worth knowing about:
 
-    - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
-    - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
+    - **Recalculate Recommendations.** Once you have changed the quiz, or the collections and categories behind it, this replays the response against the new setup.
+    - **Resend Notifications.** This sends the revised recommendations out again, to your CRM or by email.
 
-=== "Standalone" 
+=== "BigCommerce"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-    4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
+    1. **Go to [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.**
+
+    2. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab.** The left-hand menu holds the last 100 responses, by date.
+
+    3. **Click a date to open that response.**
+
+    4. **Open the `Why was a product recommended or not in this response?` section.**
+
+    5. **Open the Results Page for that response.** The link sits at the bottom of the response details.
+
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
-    5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-    6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
+
+    6. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
+
+    7. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The section sits at the top of the response, and the color tells you where the product stands.
 
         ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
-        **Understanding Product Status Colors**
+        | Color | What it means |
+        |---|---|
+        | **Green** | The product received upvotes from the quiz choices. |
+        | **Red** | The product was excluded from the recommendations. |
+        | **White** | The product received no upvotes, so it could not be recommended. |
 
-        - **Green**: Indicates products that received upvotes through the quiz choices.
-        - **Red**: Denotes products that were explicitly excluded from recommendations.
-        - **White**: Represents products that did not receive any upvotes, hence their absence from the recommendations.
-
-    7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+    8. **Read the panel that opens.**
 
         ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
-        Information such as:
+        The panel shows:
 
-        - The collections/categories the product belongs to.
-        - The number of upvotes it received and the reasons for its recommendation or absence.
-        - The questions/choices that influenced its upvotes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
+        - The collections or categories the product belongs to.
+        - How many upvotes it received, and why it was recommended or left out.
+        - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+        - The results page, slot or product block that placed it.
 
-    8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
+    The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
 
-    !!! tip
+    !!! tip "The two usual causes"
 
-        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
+        A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
 
-    Additionally, you may:
+    Two more actions are worth knowing about:
 
-    - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
-    - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
+    - **Recalculate Recommendations.** Once you have changed the quiz, or the collections and categories behind it, this replays the response against the new setup.
+    - **Resend Notifications.** This sends the revised recommendations out again, to your CRM or by email.
+
+=== "Standalone"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Go to [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.**
+
+    2. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab.** The left-hand menu holds the last 100 responses, by date.
+
+    3. **Click a date to open that response.**
+
+    4. **Open the `Why was a product recommended or not in this response?` section.**
+
+    5. **Open the Results Page for that response.** The link sits at the bottom of the response details.
+
+        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
+
+    6. **Decide which product to explain.** Either one that appeared and should not have, or one you expected and did not get.
+
+    7. **Search for it in `SELECT PRODUCT TO CHECK` and select it from the results.** The section sits at the top of the response, and the color tells you where the product stands.
+
+        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
+
+        | Color | What it means |
+        |---|---|
+        | **Green** | The product received upvotes from the quiz choices. |
+        | **Red** | The product was excluded from the recommendations. |
+        | **White** | The product received no upvotes, so it could not be recommended. |
+
+    8. **Read the panel that opens.**
+
+        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
+
+        The panel shows:
+
+        - The collections or categories the product belongs to.
+        - How many upvotes it received, and why it was recommended or left out.
+        - The questions and choices that drove those upvotes, including the collections or categories that upvoted or excluded it.
+        - The results page, slot or product block that placed it.
+
+    The color and the panel together tell you what happened. Either the product sits in the wrong group, or a choice you had forgotten about excluded it.
+
+    !!! tip "The two usual causes"
+
+        A product is normally in the wrong collection or category, or it was excluded somewhere in the quiz settings. Both are easy to miss and easy to fix.
+
+    Two more actions are worth knowing about:
+
+    - **Recalculate Recommendations.** Once you have changed the quiz, or the collections and categories behind it, this replays the response against the new setup.
+    - **Resend Notifications.** This sends the revised recommendations out again, to your CRM or by email.
 
 ---
 
-By following this guide, you will be better equipped to understand and refine the product recommendation process within your quiz, ensuring a more relevant and personalized customer experience.
+This article explains how to read a quiz response, and work out why a product was recommended or missing.
