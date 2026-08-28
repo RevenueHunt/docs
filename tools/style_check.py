@@ -497,8 +497,11 @@ def check_file(path, root):
             findings.append(Finding(i, 'company-name',
                                     got + " - the company is RevenueHunt"))
 
-        # first person, section 4
-        if not rel.endswith(FIRST_PERSON_EXEMPT):
+        # first person, section 4. an example is quoted material, a merchant's
+        # own question or an error message the app produces, so the voice in
+        # it is not ours to correct. that is what the in_example comment above
+        # promises, and marketing and sentence length already honour it.
+        if in_example is None and not rel.endswith(FIRST_PERSON_EXEMPT):
             for m in FIRST_PERSON_RE.finditer(prose):
                 # US is the country, not the pronoun. every uppercase US in
                 # these docs is a market, a currency or an audience.
