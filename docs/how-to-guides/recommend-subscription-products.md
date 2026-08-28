@@ -7,126 +7,118 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 This article explains how to recommend subscription products, so a customer can subscribe straight from the results page.
 
-On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign). On WooCommerce it works with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
+On Shopify the app works with Shopify Subscriptions and [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign). On WooCommerce it works with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
 
 ![A recommended subscription product on the results page](/images/how_to_recommend_subscription_products_sample_product.png)
 
 !!! note "Platform Availability"
 
-    BigCommerce and Magento cannot show subscription products on the results page. The same applies to any Shopify or WooCommerce subscription app that is not on the list above. See [Other subscriptions](#other-subscriptions) for a workaround.
+    BigCommerce and Magento cannot show subscription products on the results page. The same applies to any Shopify or WooCommerce subscription app that is not one of those named here. See [Other subscriptions](#other-subscriptions) for a workaround.
 
 ## Shopify and Recharge subscriptions
 
 === "Shopify"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X_beZcbcwG4?si=CSBT9I08vEh0Cs4U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Before you start"
 
-        - Ensure you are using the [Recharge Plus version](https://getrecharge.com/pricing/) to access the Storefront API. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
-        - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
+        - Recharge exposes the Storefront API on the [Recharge Plus plan](https://getrecharge.com/pricing/) only. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
+        - Set Recharge up on your Shopify store first, as the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/) describes.
 
+    1. **Open your online store themes and click `Edit Code`.**
 
-    1. **Add the Recharge Storefront SDK to your Shopify theme**:
+    2. **Open the `layout/theme.liquid` file.**
 
-        - Navigate to your online store themes and select `Edit Code`.
-        - Open the `layout/theme.liquid` file.
-        - Add this script in the `<head>` section, before the RevenueHunt quiz renderer script:
+    3. **Add the Recharge Storefront SDK in the `<head>` section, before the RevenueHunt quiz renderer script.**
 
-            ```html
-            <script src="https://static.rechargecdn.com/assets/storefront/recharge-client-2.0.0.min.js"></script>
-            ```
+        ```html
+        <script src="https://static.rechargecdn.com/assets/storefront/recharge-client-2.0.0.min.js"></script>
+        ```
 
-        - Save the changes.
+        !!! warning "The legacy Recharge script is not the same file"
 
-        !!! warning "Legacy Recharge script"
+            `https://static.rechargecdn.com/static/js/recharge.js` is not the Storefront SDK the quiz needs. If your theme loads that legacy script, replace it with `recharge-client-2.0.0.min.js`.
 
-            `https://static.rechargecdn.com/static/js/recharge.js` is not the Storefront SDK required by the quiz. If your theme loads that legacy script, replace it with the `recharge-client-2.0.0.min.js` script above.
+    4. **Save the theme.**
 
-    1. To add subscription to your recommended products go to the [Results page](/reference/quiz-builder/results-page/).
-    2. Find the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
-    3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
+    5. **Go to the [Results page](/reference/quiz-builder/results-page/) tab and open the settings of your [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections).**
+
+    6. **Add the `Subscription` option to `Product components layout`.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 
-    4. Under `Subscription`, select the subscription app you want to use.
-
+    7. **Select your subscription app under `Subscription`.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
 
-
         !!! info "Supported subscription apps"
 
-            The `Subscription` component supports these apps on Shopify:
+            The `Subscription` component supports Shopify Subscriptions, and Recharge Subscriptions on the Plus plan.
 
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
 
-            - Shopify Subscriptions,
-            - Recharge Subscriptions (Plus plan only).
+            To ask about an app that is not on the list, [contact support](/how-to-guides/contact-customer-support/).
 
-            To ask about a subscription app that is not on the list, [contact support](/how-to-guides/contact-customer-support/).
-    4. Save the changes with the top-right `Save` button.
-    5. To test the integration, [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) the quiz on a new page and take it through to the results page. The subscription options appear there. You can add the subscription product to the cart, or go to the cart page.
-    6. Verify that the subscription item is added correctly to the cart.
+    8. **Click the top-right `Save` button.**
 
-    !!! warning "Quiz Preview"
+    9. **[Publish the quiz on a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) and take it through to the results page.**
 
-        The subscription options will not be available in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
+        !!! warning "The subscription options never appear in the preview"
 
+            Testing this needs a published quiz on a page of your website. The quiz preview cannot show the subscription options.
+
+    10. **Add a subscription product to the cart, then check the cart holds it correctly.**
 
 === "Shopify (Legacy)"
 
     !!! warning "Before you start"
 
-        - Ensure you are using the [Recharge Plus version](https://getrecharge.com/pricing/) to access the Storefront API. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
-        - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
+        - Recharge exposes the Storefront API on the [Recharge Plus plan](https://getrecharge.com/pricing/) only. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
+        - Set Recharge up on your Shopify store first, as the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/) describes.
 
+    1. **Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz dashboard.**
 
-    To connect your ReCharge subscriptions to the RevenueHunt app:
+    2. **Scroll to the Recharge section and click `connect`.**
 
-    1. **Open the RevenueHunt App:** Start by accessing your account on the app.
+    3. **Run a [catalog sync](/how-to-guides/sync-catalog/) from the [success checklist](/reference/dashboard/#success-checklist) on your dashboard.** The sync takes 30 to 60 minutes.
 
-    2. **Navigate and Connect:** In your quiz dashboard, select the [Connect](/reference/quiz-builder/connect-integrations/) tab. Scroll down to the **ReCharge** section and click on the `connect` button.
+    4. **Link your Recharge subscription products to the matching choices in the [Link Products](/reference/quiz-builder/link-products/) tab.**
 
-    3. **Sync the store**: Go to your dashboard > [success checklist](/reference/dashboard/#success-checklist) and run a [catalog sync](/how-to-guides/sync-catalog/). The sync can take 30 to 60 minutes.
+    5. **Click `Publish`.** This updates both the preview and the live quiz.
 
-    4. **Link Products to Quiz Choices:** In the [Link Products](/reference/quiz-builder/link-products/) tab, associate your ReCharge subscription products with the corresponding choices.
+    !!! warning "What this setup cannot do"
 
-    5. **Publish Your Changes:** Click `Publish` to update the preview and the live quiz.
-
-    Integrating ReCharge with Shopify enhances your ability to recommend subscription products, but there are limitations and best practices to consider:
-
-    - You cannot add all products to the cart with one button. Each subscription has to be chosen and added separately.
-    - The subscription duration is chosen on the results page. You cannot recommend a specific duration.
-    - The customer needs to proceed to the cart first and cannot proceed to checkout directly with subscription products. You can change this in the [checkout settings](/how-to-guides/change-checkout-settings/).
-    - The app works with the **new Shopify Checkout** only. The old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [ReCharge migration guide](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
+        - One button cannot add every product to the cart. Each subscription has to be chosen and added on its own.
+        - The customer picks the subscription duration on the results page. You cannot recommend a specific duration.
+        - The customer has to go to the cart first, rather than straight to checkout. You can change that in the [checkout settings](/how-to-guides/change-checkout-settings/).
+        - Only the **new Shopify Checkout** works. The old Recharge Checkout does not. To move over, see the [Recharge migration guide](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        Shopify subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
+        Shopify Subscriptions and Recharge are Shopify features. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
 ## WooCommerce subscriptions
 
@@ -136,8 +128,6 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
 
         [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) is a WooCommerce plugin. For a way that works on any platform, see [Other subscriptions](#other-subscriptions).
 
-
-
 === "Shopify (Legacy)"
 
     !!! note "Not available on this platform"
@@ -146,11 +136,11 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
 
 === "WooCommerce"
 
-    Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) are automatically synced with the app when you install it. You can find them under [Link Products](/reference/quiz-builder/link-products/) tab in the [Quiz Builder](/reference/quiz-builder/).
+    Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync to the app on their own once the plugin is installed. They appear under the [Link Products](/reference/quiz-builder/link-products/) tab in the [Quiz Builder](/reference/quiz-builder/).
 
-    !!! tip
+    !!! tip "If a subscription product is missing from the list"
 
-        If your WooCommerce subscription products are not on the list, run a [catalog sync](/how-to-guides/sync-catalog/) of the app.
+        Run a [catalog sync](/how-to-guides/sync-catalog/).
 
 === "Magento"
 
@@ -172,23 +162,23 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
 
 ## Other subscriptions
 
+Any other subscription app can still be recommended, by sending the customer to the product page instead of adding the product to the cart. They subscribe on the product page, in whatever app you use.
+
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+    1. **Pick the subscription products you want the quiz to promote.**
 
-    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
+    2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
 
-    **Step 1: Link One-Time Payment Products to Quiz Choices**
+    3. **Link each one-time product to the matching choices in [Link Products](/reference/quiz-builder/link-products/).** You can also pin them with [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations).
 
-    1. Identify your subscription products that you wish to promote through the quiz.
-    2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. You can also set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results page. A choice that used to lead to a subscription product then matches its one-time equivalent.
+    4. **Go to the [Results page](/reference/quiz-builder/results-page/) and select a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections).**
 
-    **Step 2: Adjust Checkout Settings**
+    5. **Open [`Product Components Layout`](/reference/quiz-builder/results-page/#slot-item-composition) in the block settings.**
 
-    1. **Open Results page settings**: Navigate to the [Results page](/reference/quiz-builder/results-page/) and add or select a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections)
-    2. **Change Product Components Layout**: In [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#slot-item-composition) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
+    6. **Remove the `Add to cart` component, then add a `Link to Product` component in its place.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
@@ -196,97 +186,90 @@ On Shopify the app works with Shopify Subscriptions and [ReCharge Subscriptions]
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
 
+    !!! info "What the customer sees"
 
-    As a result, the buyers will not be able to add the product to the cart directly from the quiz results page. Instead, they will be redirected to the product page where they can subscribe.
-
+        The results page no longer adds a product to the cart. It sends the customer to the product page, where they subscribe.
 
 === "Shopify (Legacy)"
 
-    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
+    1. **Pick the subscription products you want the quiz to promote.**
 
-    **Step 1: Link One-Time Payment Products to Quiz Choices**
+    2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
 
-    1. Identify your subscription products that you wish to promote through the quiz.
-    2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. A choice that used to lead to a subscription product then matches its one-time equivalent.
+    3. **Link each one-time product to the matching choices in [Link Products](/reference/quiz-builder/link-products/).**
 
-    **Step 2: Adjust Checkout Settings**
+    4. **Go to the [Results Page settings](/reference/quiz-builder/results-page/).**
 
-    1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
-    2. **Change Checkout Settings**: In [Checkout Settings](/how-to-guides/change-checkout-settings/), change “Add to cart” to “Link to product”. The customer is then sent to the product page rather than to the cart.
+    5. **Change `Add to cart` to `Link to product` in the [Checkout Settings](/how-to-guides/change-checkout-settings/).**
 
-    As a result, the buyers will go directly to the product page and can subscribe there.
+    !!! info "What the customer sees"
+
+        The results page no longer adds a product to the cart. It sends the customer to the product page, where they subscribe.
 
 === "WooCommerce"
 
-    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
+    1. **Pick the subscription products you want the quiz to promote.**
 
-    **Step 1: Link One-Time Payment Products to Quiz Choices**
+    2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
 
-    1. Identify your subscription products that you wish to promote through the quiz.
-    2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. A choice that used to lead to a subscription product then matches its one-time equivalent.
+    3. **Link each one-time product to the matching choices in [Link Products](/reference/quiz-builder/link-products/).**
 
-    **Step 2: Adjust Checkout Settings**
+    4. **Go to the [Results Page settings](/reference/quiz-builder/results-page/).**
 
-    1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
-    2. **Change Checkout Settings**: In [Checkout Settings](/how-to-guides/change-checkout-settings/), change “Add to cart” to “Link to product”. The customer is then sent to the product page rather than to the cart.
+    5. **Change `Add to cart` to `Link to product` in the [Checkout Settings](/how-to-guides/change-checkout-settings/).**
 
-    As a result, the buyers will go directly to the product page and can subscribe there.
+    !!! info "What the customer sees"
+
+        The results page no longer adds a product to the cart. It sends the customer to the product page, where they subscribe.
 
 === "Magento"
 
-    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
+    1. **Pick the subscription products you want the quiz to promote.**
 
-    **Step 1: Link One-Time Payment Products to Quiz Choices**
+    2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
 
-    1. Identify your subscription products that you wish to promote through the quiz.
-    2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. A choice that used to lead to a subscription product then matches its one-time equivalent.
+    3. **Link each one-time product to the matching choices in [Link Products](/reference/quiz-builder/link-products/).**
 
-    **Step 2: Adjust Checkout Settings**
+    4. **Go to the [Results Page settings](/reference/quiz-builder/results-page/).**
 
-    1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
-    2. **Change Checkout Settings**: In [Checkout Settings](/how-to-guides/change-checkout-settings/), change “Add to cart” to “Link to product”. The customer is then sent to the product page rather than to the cart.
+    5. **Change `Add to cart` to `Link to product` in the [Checkout Settings](/how-to-guides/change-checkout-settings/).**
 
-    As a result, the buyers will go directly to the product page and can subscribe there.
+    !!! info "What the customer sees"
+
+        The results page no longer adds a product to the cart. It sends the customer to the product page, where they subscribe.
 
 === "BigCommerce"
 
-    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
+    1. **Pick the subscription products you want the quiz to promote.**
 
-    **Step 1: Link One-Time Payment Products to Quiz Choices**
+    2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
 
-    1. Identify your subscription products that you wish to promote through the quiz.
-    2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. A choice that used to lead to a subscription product then matches its one-time equivalent.
+    3. **Link each one-time product to the matching choices in [Link Products](/reference/quiz-builder/link-products/).**
 
-    **Step 2: Adjust Checkout Settings**
+    4. **Go to the [Results Page settings](/reference/quiz-builder/results-page/).**
 
-    1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
-    2. **Change Checkout Settings**: In [Checkout Settings](/how-to-guides/change-checkout-settings/), change “Add to cart” to “Link to product”. The customer is then sent to the product page rather than to the cart.
+    5. **Change `Add to cart` to `Link to product` in the [Checkout Settings](/how-to-guides/change-checkout-settings/).**
 
-    As a result, the buyers will go directly to the product page and can subscribe there.
+    !!! info "What the customer sees"
+
+        The results page no longer adds a product to the cart. It sends the customer to the product page, where they subscribe.
 
 === "Standalone"
 
-    For other subscription apps, a workaround still guides your customers towards subscription options. To set up the workaround:
+    1. **Pick the subscription products you want the quiz to promote.**
 
-    **Step 1: Link One-Time Payment Products to Quiz Choices**
+    2. **Create a one-time payment product for each one.** These stand in for the subscriptions inside the quiz.
 
-    1. Identify your subscription products that you wish to promote through the quiz.
-    2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each one-time payment product to the relevant quiz choices. A choice that used to lead to a subscription product then matches its one-time equivalent.
+    3. **Link each one-time product to the matching choices in [Link Products](/reference/quiz-builder/link-products/).**
 
-    **Step 2: Adjust Checkout Settings**
+    4. **Go to the [Results Page settings](/reference/quiz-builder/results-page/).**
 
-    1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
-    2. **Change Checkout Settings**: In [Checkout Settings](/how-to-guides/change-checkout-settings/), change “Add to cart” to “Link to product”. The customer is then sent to the product page rather than to the cart.
+    5. **Change `Add to cart` to `Link to product` in the [Checkout Settings](/how-to-guides/change-checkout-settings/).**
 
-    As a result, the buyers will go directly to the product page and can subscribe there.
+    !!! info "What the customer sees"
 
-
+        The results page no longer adds a product to the cart. It sends the customer to the product page, where they subscribe.
 
 ---
 
-By following these steps and best practices, you can recommend subscription products with the RevenueHunt app.
+This article explains how to recommend subscription products, and what to do when your subscription app is not supported directly.

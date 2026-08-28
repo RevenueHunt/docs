@@ -170,7 +170,7 @@ Give each choice a variable instead of a plain score. The variable with the high
 
         This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on Number of User Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "WooCommerce"
 
@@ -178,7 +178,7 @@ Give each choice a variable instead of a plain score. The variable with the high
 
         This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on Number of User Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "Magento"
 
@@ -186,7 +186,7 @@ Give each choice a variable instead of a plain score. The variable with the high
 
         This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on Number of User Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "BigCommerce"
 
@@ -194,7 +194,7 @@ Give each choice a variable instead of a plain score. The variable with the high
 
         This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on Number of User Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "Standalone"
 
@@ -202,7 +202,7 @@ Give each choice a variable instead of a plain score. The variable with the high
 
         This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on Number of User Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 ## Scoring quiz with one results page
 
