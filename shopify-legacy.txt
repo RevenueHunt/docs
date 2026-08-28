@@ -13093,11 +13093,15 @@ Give each choice a number of points, then build one results page per outcome. Ju
 
 --- Shopify (Legacy) Specific Content ---
 
-The scoring system is not available in this version of the app. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-The scoring system is not available in this version of the app. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+!!! note "Not available on this platform"
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+!!! note "Not available on this platform"
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 To recommend products by how many choices the customer picked, see [How to Recommend Products Based on Number of User Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
-The scoring system is not available in this version of the app. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-The scoring system is not available in this version of the app. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+!!! note "Not available on this platform"
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+!!! note "Not available on this platform"
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 
@@ -13113,22 +13117,21 @@ description: "Learn how to display product reviews on your RevenueHunt quiz resu
 
 # How to Show Product Reviews
 
-This article explains how to show product reviews on the results page on your quiz.
+Add a star rating and a review count to the product cards on your quiz results page. The ratings come from the review app you already use.
 
 ---
-This article explains how to show product reviews on the results page on your quiz.
+
+This article explains how to show product reviews on the results page of your quiz.
 
 --- Shopify (Legacy) Specific Content ---
 
-This section covers how to enable product reviews for the legacy Shopify interface.
-1. Navigate to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings) > `Individual product settings`.
-    ![Individual Product Settings](https://docs.revenuehunt.com/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
-2. **Toggle the `Show reviews` option** to display product ratings below the product name on the results page.
-3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/)** after activation to sync all product reviews with the app.
-!!! info "Supported Review Apps"
-    We currently support these review apps for Shopify:
+1. **Go to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings), then `Individual product settings`.**
+    ![Individual Product Settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+2. **Turn on `Show reviews`.** Product ratings then appear below the product name on the Results Page.
+3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/).** This is what brings the reviews into the app.
+!!! info "Supported review apps"
     - Product Reviews by Shopify
-    - Stamped Product Reviews & UGC  
+    - Stamped Product Reviews and UGC
     - Judge.me Product Reviews
     - Rivyo Product Reviews
 

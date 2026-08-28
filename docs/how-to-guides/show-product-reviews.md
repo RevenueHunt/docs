@@ -5,163 +5,159 @@ description: "Learn how to display product reviews on your RevenueHunt quiz resu
 
 # How to Show Product Reviews
 
-This article explains how to show product reviews on the results page on your quiz.
+Add a star rating and a review count to the product cards on your quiz results page. The ratings come from the review app you already use.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0nRTov-gCxY?si=33FdTH4HYZ7UDM04" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+    1. **Open the [Results page](/reference/quiz-builder/results-page/) tab.**
 
-    This documentation outlines the steps to display product reviews on the results page of a quiz created with the Revenue Hunt app. It covers adding the reviews section, selecting a review app, and troubleshooting syncing issues.
+    2. **Find the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) that recommends the products.**
 
-    1. Open [Results page](/reference/quiz-builder/results-page/).
-    2. **Adding the Reviews Section**: Locate your [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) that recommends products. 
-    3. Under `Recommended Products`, find [`Product Component Layout`](/reference/quiz-builder/results-page/#slot-item-composition). Click `+ Add Block` and select the `Reviews` section.
+    3. **Open [`Product Component Layout`](/reference/quiz-builder/results-page/#slot-item-composition), under `Recommended Products`.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 
-    4. **Configuring the Reviews Section**: After adding the reviews section, a star rating box will appear at the bottom of your product card. Open the `Reviews` tab to select a review app from the dropdown menu.
+    4. **Click `+ Add Block` and select the `Reviews` section.** A star rating box appears at the bottom of the product card.
 
         ![Add Reviews Block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
 
+    5. **Open the `Reviews` tab and pick your review app from the dropdown.**
+
         ![Add Reviews Block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
 
-        !!! example 
-            In this example, `Judge.me` is selected, but other review apps are available. 
-            
-            We currently support these review apps for Shopify:
+        !!! info "Supported review apps"
 
-            - Judge.me,
-            - Yotpo,
-            - Stamped,
-            - Loox.
+            Judge.me, Yotpo, Stamped and Loox. The screenshot uses Judge.me.
 
-    5. **Enable Storefront API Access**: For reviews to display properly, you need to enable Storefront API access for the review metafields in your Shopify settings. Follow the detailed instructions in the [Enabling Storefront API Access](#enabling-storefront-api-access-for-review-apps) section below.
-    6. You can move the reviews section to a different position within the product component layout, such as right below the product title. 
-    7. Once satisfied with the layout, save your changes with the top-right `Save` button.
-    8. **Previewing the Quiz**: To check if the reviews are displayed correctly, click on `Preview` to preview the quiz.
-    9. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalog) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
+    6. **Drag the reviews section to where you want it in the product component layout.** Right below the product title works well.
 
-    !!! info
+    7. **Expose the review metafields to the Storefront API in Shopify.** The stars stay empty until you do. See [Enabling storefront API access for review apps](#enabling-storefront-api-access-for-review-apps).
 
-        If issues persist with reviews not being pulled, contact the support team for assistance.
+    8. **Click the top-right `Save` button.**
+
+    9. **Click `Preview` and check that the ratings appear.**
 
     ## Enabling storefront API access for review apps
 
-    All review apps store product ratings in Shopify metafields. For our app to display these reviews, the metafields must be **exposed to the Storefront API**. By default, most review apps set their metafields to private.
+    Every review app stores its product ratings in Shopify metafields. The RevenueHunt app can only read a metafield that is **exposed to the Storefront API**, and most review apps keep theirs private.
 
     !!! info "Which metafields are used?"
 
         All supported review apps use Shopify's reserved `reviews` namespace:
 
-        - `reviews.rating` - The average star rating (stored as JSON with `value`, `scale_min`, `scale_max`)
-        - `reviews.rating_count` - The total number of reviews (stored as an integer)
+        - `reviews.rating` - the average star rating, stored as JSON with `value`, `scale_min` and `scale_max`
+        - `reviews.rating_count` - the total number of reviews, stored as an integer
 
     ### How to enable storefront API access
 
-    Follow these steps to make review metafields accessible:
+    1. **Log in to your Shopify Admin.**
 
-    1. Log in to your **Shopify Admin** dashboard.
-    2. Navigate to **Settings** (bottom left) > **Custom data**.
-    3. Select **Products** from the list.
-    4. Look for the `reviews.rating` and `reviews.rating_count` metafield definitions.
-        - If they don't appear in the main list, check under **View unstructured metafields** (click "More actions" menu).
-    5. Click on each metafield to edit it.
-    6. In the **Storefront access** section, enable the checkbox for **"Read"** or **"Storefronts"** (this sets the permission to `PUBLIC_READ`).
+    2. **Go to `Settings` in the bottom left, then `Custom data`.**
+
+    3. **Select `Products` from the list.**
+
+    4. **Find the `reviews.rating` metafield definition.**
+
+        !!! tip "If the definition is not in the list"
+
+            Open the `More actions` menu and select `View unstructured metafields`.
+
+    5. **Open the definition and turn on `Read` or `Storefronts` in the `Storefront access` section.** This sets the permission to `PUBLIC_READ`.
 
         ![Storefront API Access](/images/how_to_show_reviews_loox_storefrontapi.png){width="500"}
 
-    7. Click **Save**.
-    8. Repeat for both `reviews.rating` and `reviews.rating_count`.
+    6. **Click `Save`.**
 
-    Once saved, the reviews should appear in your quiz results page.
+    7. **Repeat for `reviews.rating_count`.**
 
-    !!! tip "Changes take effect immediately"
+    The ratings then appear on your quiz results page.
 
-        After saving, you may need to clear your browser cache or wait a few seconds for Shopify's edge cache to update.
+    !!! info "Give the cache a moment"
 
-    ### Review App-specific notes
+        Shopify's edge cache takes a few seconds to pick up the change. Clear your browser cache if the ratings do not appear straight away.
 
-    #### Judge.me
+    ### Notes for each review app
 
-    Judge.me automatically creates the `reviews.rating` and `reviews.rating_count` metafields when reviews are collected. Follow the steps above to enable Storefront API access.
+    | Review app | What to know |
+    |---|---|
+    | Judge.me | Creates the `reviews.rating` and `reviews.rating_count` metafields on its own, once it has collected reviews. |
+    | Loox | Writes its review data to the reserved `reviews` namespace. |
+    | Yotpo | Uses the standard `reviews` namespace for ratings. |
+    | Stamped | Uses the standard `reviews` namespace. |
 
-    #### Loox
+    All four need Storefront API access before the ratings show. See [How to enable storefront API access](#how-to-enable-storefront-api-access).
 
-    Loox writes review data to Shopify's reserved `reviews` namespace. Follow the steps above to enable Storefront API access.
+    !!! warning "Loox may need a manual sync"
 
-    !!! warning "Loox manual sync may be required"
-
-        If Loox reviews or review counts still do not appear after enabling Storefront API access, email Loox support at [support@loox.io](mailto:support@loox.io) and ask them to manually sync your store's review data to Shopify's default `reviews.rating` and `reviews.rating_count` metafields.
-
-    #### Yotpo
-
-    Yotpo uses the standard `reviews` namespace for ratings. Follow the steps above to enable Storefront API access.
-
-    #### Stamped
-
-    Stamped uses the standard `reviews` namespace. Follow the steps above to enable Storefront API access.
+        Loox reviews and review counts sometimes stay missing after you enable Storefront API access. Email Loox support at [support@loox.io](mailto:support@loox.io) and ask them to sync your store to the default `reviews.rating` and `reviews.rating_count` metafields.
 
     ### Troubleshooting
 
-    If reviews still don't appear after enabling Storefront API access:
+    Work through these if the ratings still do not appear.
 
-    1. **Verify the product has reviews**: Check the product in your review app to confirm it has collected reviews.
-    2. **Check metafield values**: In Shopify Admin, go to **Products** > select a product > scroll to **Metafields** section to verify the review data exists.
-    3. **Run a catalog sync**: Go to [App settings > Catalog](/reference/app-settings/#catalog) and perform a quick [catalog import](/how-to-guides/sync-catalog/).
-    4. **Wait for cache**: Shopify's edge cache can take 5-30 seconds to update after changes.
-    5. **Contact support**: If issues persist, contact our support team or your review app's support for assistance.
+    1. **Check that the product has reviews.** Open it in your review app and confirm it collected some.
 
+    2. **Check the metafield values.** In Shopify Admin, go to `Products`, select a product, then scroll to the `Metafields` section.
+
+    3. **Run a catalog import.** Go to [App settings > Catalog](/reference/app-settings/#catalog) and run a quick [catalog import](/how-to-guides/sync-catalog/).
+
+    4. **Wait for the cache.** Shopify's edge cache can take 5 to 30 seconds to update after a change.
+
+    5. **Contact support.** See [How to Contact Customer Support](/how-to-guides/contact-customer-support/), or ask your review app's support team.
 
 === "Shopify (Legacy)"
 
-    This section covers how to enable product reviews for the legacy Shopify interface.
+    1. **Go to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings), then `Individual product settings`.**
 
-    1. Navigate to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings) > `Individual product settings`.
-        
-        ![Individual Product Settings](https://docs.revenuehunt.com/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+        ![Individual Product Settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
-    2. **Toggle the `Show reviews` option** to display product ratings below the product name on the results page.
-    3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/)** after activation to sync all product reviews with the app.
+    2. **Turn on `Show reviews`.** Product ratings then appear below the product name on the Results Page.
 
-    !!! info "Supported Review Apps"
-        We currently support these review apps for Shopify:
-        
+    3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/).** This is what brings the reviews into the app.
+
+    !!! info "Supported review apps"
+
         - Product Reviews by Shopify
-        - Stamped Product Reviews & UGC  
+        - Stamped Product Reviews and UGC
         - Judge.me Product Reviews
         - Rivyo Product Reviews
 
-
-
 === "WooCommerce"
 
-    This section covers how to enable product reviews for WooCommerce stores.
+    1. **Go to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings), then `Individual product settings`.**
 
-    1. Navigate to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings) > `Individual product settings`.
-        
-        ![Individual Product Settings](https://docs.revenuehunt.com/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+        ![Individual Product Settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
-    2. **Toggle the `Show reviews` option** to display product ratings below the product name on the results page.
-    3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/)** after activation to sync all product reviews with the app.
+    2. **Turn on `Show reviews`.** Product ratings then appear below the product name on the Results Page.
 
-    !!! info "Review Support"
-        We currently sync only the official WooCommerce Reviews.
+    3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/).** This is what brings the reviews into the app.
+
+    !!! info "Supported review apps"
+
+        Only the official WooCommerce Reviews are synced.
 
 === "Magento"
 
-    Currently, there is no option to show reviews on the results page in the Revenue Hunt app for Magento.
+    !!! note "Not available on this platform"
+
+        This version of the app cannot show product reviews on the Results Page.
 
 === "BigCommerce"
 
-    Currently, there is no option to show reviews on the results page in the Revenue Hunt app for BigCommerce.
+    !!! note "Not available on this platform"
+
+        This version of the app cannot show product reviews on the Results Page.
 
 === "Standalone"
 
-    Currently, there is no option to show reviews on the results page in the standalone version of the Revenue Hunt app.
+    !!! note "Not available on this platform"
 
+        This version of the app cannot show product reviews on the Results Page.
 
 ---
-This article explains how to show product reviews on the results page on your quiz.
+
+This article explains how to show product reviews on the results page of your quiz.
