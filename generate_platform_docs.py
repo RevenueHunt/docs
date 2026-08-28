@@ -64,22 +64,33 @@ class DocGenerator:
                 
                 # Skip excluded platforms
                 if platform_name in self.exclude_platforms:
-                    # Find the end of this platform section
+                    # An excluded tab is a sibling of the one before it, so
+                    # whatever platform we were collecting has ended here.
+                    current_platform = 'generic'
+                    in_platform_section = False
+                    platform_indent = 0
+
+                    # Find the indentation of the excluded body. Look ahead to
+                    # the first line that has content: every tab marker in
+                    # these docs is followed by a blank line, and reading that
+                    # blank line left the body unskipped, so it was collected
+                    # into the file of whichever platform came before it.
                     i += 1
-                    if i < len(lines):
-                        # Get the indentation of the content
-                        next_line = lines[i] if i < len(lines) else ''
-                        if next_line.strip():
-                            section_indent = len(next_line) - len(next_line.lstrip())
-                            # Skip all lines with this indentation or more
+                    j = i
+                    while j < len(lines) and not lines[j].strip():
+                        j += 1
+                    if j < len(lines):
+                        section_indent = len(lines[j]) - len(lines[j].lstrip())
+                        # An unindented body is malformed. Skipping on it would
+                        # swallow the rest of the file, so leave it alone.
+                        if section_indent:
+                            i = j
+                            # The body runs until a line with less indentation,
+                            # which is the next === marker or the next heading.
                             while i < len(lines):
                                 line = lines[i]
-                                # Check if we hit another === section or unindented content
                                 if line.strip() and not line.startswith(' ' * section_indent):
-                                    if re.match(r'^===\s+"([^"]+)"', line):
-                                        break
-                                    if not line.startswith(' '):
-                                        break
+                                    break
                                 i += 1
                     continue
                 
@@ -88,9 +99,16 @@ class DocGenerator:
                     current_platform = platform_name
                     in_platform_section = True
                     i += 1
-                    # Get the indentation level of the content
-                    if i < len(lines) and lines[i].strip():
-                        platform_indent = len(lines[i]) - len(lines[i].lstrip())
+                    # Get the indentation level of the content. The same look
+                    # ahead as above: the marker is followed by a blank line,
+                    # and reading that left the indent at 0, so the body was
+                    # never dedented and the content after the last tab of a
+                    # group was filed under that tab instead of as generic.
+                    j = i
+                    while j < len(lines) and not lines[j].strip():
+                        j += 1
+                    if j < len(lines):
+                        platform_indent = len(lines[j]) - len(lines[j].lstrip())
                     continue
                 else:
                     # Unknown platform, skip it
