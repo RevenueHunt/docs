@@ -245,6 +245,25 @@ Use `??? question` (collapsible) for FAQ entries.
 
 Every numbered step is one action, in the imperative.
 
+**One list per procedure, numbered straight through.** Never group steps under a
+bold `**Step 1:**` heading that restarts the numbering at 1. A reader following
+the page with the app open loses their place the moment the numbers repeat.
+Fifteen steps numbered 1 to 15 beat five groups of three.
+
+**Open each step with a bold imperative sentence.** Any detail follows it in
+plain text on the same line:
+
+```
+9. **Link the products in the Choice settings.** Every choice needs at least one product or collection.
+```
+
+The bold half is what the reader does. The plain half is the caveat, the
+consequence or the reason. Sub-bullets under a step carry parameters and
+options, never further actions.
+
+**Do not put a heading inside a platform tab** to group steps. It repeats six
+times in the table of contents. The numbered list is the grouping.
+
 **A leading location or context phrase is fine, and often better:**
 
 ```

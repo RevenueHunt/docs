@@ -12162,7 +12162,7 @@ description: "Step-by-step guide to create a RevenueHunt quiz with fixed product
 icon: material/pin-outline
 ---
 
-# How to Set Up Fixed Recommendations Quiz
+# How to Set Up a Fixed Recommendations Quiz
 
 A fixed recommendation shows the products you choose, rather than the products the quiz scores. Build a section for each outcome and fill it with the products you want. Logic then decides which section or results page each customer sees.
 
@@ -12175,12 +12175,19 @@ This suits a quiz with complex branching.
     - Quizzes with complex branching
     - Quizzes that require a lot of logic conditions and custom text
 
-!!! tip
+!!! tip "Recognizing a product matrix"
 
-    If your product matrix looks something like the below, this method is for you.
+    If your product matrix looks like this one, this method is the one you want.
 
-    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png){width=300px;}
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png){width=300}
 
+There are three ways to build one. They differ in how many results pages you need, and in which kind of logic decides what the customer sees.
+
+| Method | Use it when |
+|---|---|
+| [Always the same recommendations](#always-the-same-recommendations) | Every customer sees the same products, whatever they answered |
+| [Fixed recommendations with display logic and one results page](#fixed-recommendations-with-display-logic-and-one-results-page) | One results page holds a section per outcome, and display logic shows the matching one |
+| [Fixed recommendations with display logic and multiple results pages](#fixed-recommendations-with-display-logic-and-multiple-results-pages) | Each outcome gets its own results page, and jump logic sends the customer to it |
 
 ## Always the same recommendations
 
@@ -12191,57 +12198,61 @@ A fixed section shows the same products on the results page, whatever the custom
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uiJwV1MxZKg?si=Ucpz_kB6PXt5VgJ4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to the Results page and set its `Recommendation system` to `Fixed Recommendations`.
-    2. Under `Slot 1` go to `Fixed recommended items` and select the products you want to show.
-    3. Set `Max. recommended items` to the number of products you chose.
-    4. Save the changes and preview the quiz.
+    1. **Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to the Results page.**
+    2. **Set its `Recommendation system` to `Fixed Recommendations`.**
+    3. **Open `Slot 1`, go to `Fixed recommended items` and select the products to show.**
+    4. **Set `Max. recommended items` to the number of products you chose.**
+    5. **Click `Save`.**
+    6. **Preview the quiz and check that the products appear.**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NvDLDlknJv4?si=x9HaGPZxsjDwTrY-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-        !!! tip
-            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
-    2. **Add content sections to the Results page**: go to the [Results page](/reference/quiz-builder/results-page/) and click `+ Add section`.
-        Add multiple content blocks describing the specific skin type and its challenges. For example:
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` about the skin type.** Give it the choices Dry, Normal, Oily and Combination-type skin.
+        !!! tip "Helping the customer choose"
+            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers recognize their own skin type.
+    2. **Go to the [Results page](/reference/quiz-builder/results-page/) tab and click `+ Add section`.** Add one section per skin type.
+    3. **Add content blocks to each section, describing that skin type and its challenges.**
         ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_shopifyv2_fixedrecommendationquiz_sectionsresultspage.png)
-        !!! example
+        !!! example "Text for each skin type"
             - *You have Dry Skin*: the itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
             - *You have Normal Skin*: your skin feels balanced, just like you. It has no major issues, and it still deserves care. Your skin wants a routine that keeps that balance.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Product blocks**: add a `Product Block` to each section, holding the products for that skin type. Set the `Recommendation system` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+    4. **Add a `Product Block` to each section, holding the products for that skin type.**
+    5. **Set the `Recommendation system` to `Fixed Recommendations` in the [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).**
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage.png)
-        In the `Slot` settings, set the maximum number of products and choose which ones to show.
+    6. **In the `Slot` settings, set the maximum number of products and choose which ones to show.**
         ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage2.png)
-    4. **Add Display logic**: without [Display logic](/how-to-guides/use-display-logic/), every block appears one after another on the Results page, whatever the customer answered.
-        Select a content block, find `Display logic` in the right-hand menu, and click `+ Add condition (OR)`.
-        Set up IF-THEN statements that show or hide each block based on the customer's answers:
+    7. **Select a content block and find `Display logic` in the right-hand menu.**
+    8. **Click `+ Add condition (OR)` and write an IF-THEN rule that shows the block for one skin type.**
         ![how to hide content with logic display logic statement](/images/how_to_shopifyv2_fixedrecommendationquiz_displaylogic.png)
-    5. **Publish the changes**: click the top-right `Save` button to update the preview and the live quiz.
+        !!! info "Without display logic, every block shows"
+            Without [Display logic](/how-to-guides/use-display-logic/), every block appears one after another on the Results page, whatever the customer answered.
+    9. **Repeat for every block that belongs to one skin type only.**
+    10. **Click the top-right `Save` button to update the preview and the live quiz.**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uLqul_uj0UQ?si=E77WIlpSvtjC4w7R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-        !!! tip
-            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
-    2. **Create Multiple Results pages**: In the [Results page](/reference/quiz-builder/results-page/) tab, click on the `+ Add Results Page` button to create additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
-    3. **Add Content to Each Results page**: on each results page, add content blocks describing that skin type. For example:
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` about the skin type.** Give it the choices Dry, Normal, Oily and Combination-type skin.
+        !!! tip "Helping the customer choose"
+            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers recognize their own skin type.
+    2. **Go to the [Results page](/reference/quiz-builder/results-page/) tab and click `+ Add Results Page`.** Create one results page per skin type.
+    3. **Add content blocks to each results page, describing that skin type.**
         ![how to set up multiple results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_resultpages.png)
-        !!! example
+        !!! example "Text for each skin type"
             - *You have Dry Skin*: the itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
             - *You have Normal Skin*: your skin feels balanced, just like you. It has no major issues, and it still deserves care. Your skin wants a routine that keeps that balance.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    4. **Add Product blocks to Each Results page**: add a `Products Block` to each results page, holding the products for that skin type.
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation system` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  +
+    4. **Add a `Products Block` to each results page, holding the products for that skin type.**
+    5. **Set the `Recommendation system` to `Fixed Recommendations` in the [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).**
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage.png)
-        Then go to Slot settings and select the max. number of products to show and select which products to show.
+    6. **In the `Slot` settings, set the maximum number of products and select the ones to show.**
         ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage2.png)
-    5. **Set Up Jump logic**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and pick the last question in the quiz. Set up [Jump logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) to direct customers to the appropriate results page based on their skin type choice.
+    7. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and pick the last question in the quiz.**
         ![how to set up jump logic for results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic.png)
-        Open the Jump logic options and add new rules to this question. Click `+ Add another rule (OR)` to add a new OR Jump logic rule for the selected question.
-        !!! example
+    8. **Add a [Jump logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) rule that sends one skin type to its own results page.** Click `+ Add another rule (OR)` for each further rule.
+        !!! example "A rule that routes one choice"
             ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic_example.png)
-            In the example, if a user chooses a choice "Not too oily..." in Question 4 "SKIN TYPE" then they will be redirected to Results page 2.
-        !!! tip
-            For each choice in your skin type question, create a Jump logic rule that directs to the corresponding results page.
-    6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+            A customer who picks "Not too oily..." in Question 4, "SKIN TYPE", goes to Results page 2.
+    9. **Repeat until every choice in the skin type question has a rule.**
+    10. **Click the top-right `Save` button to update the preview and the live quiz.**
 
 
 
@@ -12255,9 +12266,9 @@ description: "Complete guide to setting up a RevenueHunt funnel quiz with dynami
 icon: material/filter-variant
 ---
 
-# How to Set Up Funnel Quiz
+# How to Set Up a Funnel Quiz
 
-A Funnel Quiz helps your customers find the best product by assigning "upvotes" to products as they answer questions. The quiz counts these upvotes and recommends the most relevant products at the end.
+A funnel quiz helps a customer find the right product. Every choice the customer makes gives an upvote to the products linked to that choice. At the end, the quiz recommends the products with the most upvotes.
 
 !!! info "Use this method for:"
 
@@ -12266,23 +12277,34 @@ A Funnel Quiz helps your customers find the best product by assigning "upvotes" 
     - Your first product recommendation quiz
     - Quizzes without complex branching
 
+There are five ways to build one. They all count upvotes the same way, and differ only in how the questions are arranged and how the results page is built.
 
-## ✍🏻 Upvoting system
+| Method | Use it when |
+|---|---|
+| [Funnel quiz](#funnel-quiz) | Every customer answers the same questions and gets one list of recommendations |
+| [Funnel quiz with slots](#funnel-quiz-with-slots) | The result is a routine or a set, such as a cleanser, then a serum, then a moisturizer |
+| [Funnel quiz that skips slides](#funnel-quiz-that-skips-slides) | Follow-up questions apply only to the concerns the customer selected |
+| [Funnel quiz with branching](#funnel-quiz-with-branching) | Different answers send the customer down different paths |
+| [Funnel quiz that shows custom text based on choices](#funnel-quiz-that-shows-custom-text-based-on-choices) | The text on the results page has to change with the answers |
 
-An **upvote** is the signal a choice gives a product.
+## Upvoting system
+
+An **upvote** is the signal a choice gives a product. This is how an upvote becomes a recommendation:
 
 1. You link products, variants or collections to each choice.
 2. A customer picks that choice, and every linked item gets one upvote.
-3. The Results page lists them, highest upvote count first.
+3. The results page lists them, highest upvote count first.
 
-An empty Results page means either nothing was linked to the choices the customer made, or [exclusions](#exclusion) removed everything.
+!!! info "An empty results page has two causes"
+
+    Either nothing was linked to the choices the customer made, or [Exclusions](#exclusion) removed everything that was upvoted.
 
 Two settings refine the list:
 
 - [A minimum upvote count](/how-to-guides/only-recommend-products-with-minimum-votes/) hides products that did not get enough upvotes.
 - [Exclusions](#exclusion) keep a product out entirely, even when another choice upvoted it.
 
-**When two products have the same number of upvotes**
+### When two products have the same upvote count
 
 --- Shopify Specific Content ---
 
@@ -12291,206 +12313,152 @@ By default the app randomizes their order.
     Click `Import now` after you change the setting. The new order applies only after a fresh import.
     To link products or collections to choices, open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Upvotes` section.
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
-    Click `+ Add upvote type` to add a new upvote type.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
-    How the upvotes work for each upvoted item:
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
-    - **Main Products / All variants of the same product at once**: every variant of a product is upvoted when its linked choice is selected.
-    - **Product variants**: an individual variant receives an upvote when its linked choice is selected. Only variants link to choices directly, but the results page can group variants under their parent product.
-    - **Collections**: Every product within a linked collection receives an upvote when their linked choice is selected.
-    - **Tags**: Every product within a linked tag receives an upvote when their linked choice is selected.
-    - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives an upvote when their linked choice is selected.
-    - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives an upvote when their linked choice is selected.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
-    !!! tip
-        You can also recommend pure text results by setting up different sections on the results page and controlling visibility of each section with Display logic. This option is not dependent on the upvoting system but rather on custom scoring system or conditional logic.
-    To exclude products or collections from choices, open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Exclude` section.
+    1. **Click `+ Add upvote type`.**
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+    2. **Choose what the choice upvotes.**
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+    3. **Select the products, collections or tags themselves.**
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+    What each upvote type does:
+    - **Main Products / All variants of the same product at once** - the whole product is upvoted, not one variant. Every variant of it receives the upvote when the linked choice is selected.
+    - **Product variants** - an individual variant receives an upvote when its linked choice is selected. Only variants link to choices directly, but the results page can group variants under their parent product.
+    - **Collections** - every product in a linked collection receives an upvote when its linked choice is selected.
+    - **Tags** - every product with a linked tag receives an upvote when its linked choice is selected.
+    - **Variant collections** - created automatically by the app. Every product in a linked variant collection receives an upvote when its linked choice is selected.
+    - **Vendor collections** - created automatically by the app. Every product in a linked vendor collection receives an upvote when its linked choice is selected.
+    !!! tip "Recommending text instead of products"
+        A quiz can also recommend pure text. Add one section per result to the results page, then control which section appears with Display logic. Text results do not use the upvoting system. They use the [scoring system](/how-to-guides/set-up-scoring-quiz/) or conditional logic instead.
+    To exclude products or collections from a choice, open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Exclude` section.
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
-    Click `+ Add exclude type` to add a new exclude type.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
-    Once you select a product, collection or other item, it joins the excluded list. It never appears as a recommendation, even if another choice upvotes it.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+    1. **Click `+ Add exclude type`.**
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+    2. **Choose what the choice excludes.**
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+    3. **Select the products, collections or tags themselves.** Each one joins the excluded list.
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/j-Ecp4NeTfQ?si=gTp7uWal22QfKFVC" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     The results page can show **product variants**, **main products** and **collections**.
-    Follow these steps to set up your product recommendations:
-    1. **Link Products to Choices**: Navigate to the [Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, upvote relevant products.
-        Products or collections added in the `upvotes` field of the [Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+    1. **Link products to your choices.** Open the [Upvote](/reference/quiz-builder/link-products/) tab, then upvote the relevant products for each choice.
         ![how to recommend products inclusion](/images/how_to_shopifyv2_setuprecommendations_linkcollections.png)
-        !!! tip
-            Think carefully about which products are upvoted in each choice. You can create special **hidden collections** for each choice in Shopify and add only relevant products to them. Then you can link collections to choices rather than individual products for easier management.
-        ??? question "How the upvotes work for each included linked item?"
-            You can upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-            - **Product variants**: an individual variant receives an upvote when its linked choice is selected. Only variants link to choices directly, but the results page can group variants under their parent product.
-            - **Collections**: Every product within a linked collection receives an upvote when their linked choice is selected.
-            - **Tags**: Every product within a linked tag receives an upvote when their linked choice is selected.
-            - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives an upvote when their linked choice is selected.
-            - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives an upvote when their linked choice is selected.
-            - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
-        ??? warning "How does product **exclusion** work in the upvoting system?"
-            Use the `exclude` field of the [Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients.
-            ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
-            !!! warning
-                Once a choice excludes a product, it **never shows** as a recommendation, even if another choice upvotes it.
-            !!! example
-                If you want the recommended products to be filtered out by question, you can do that using the `exclude` feature. For example, if you want to show only recommendations within a certain price range, you can use the exclude collections feature as in the example below.
-                ![how to recommend products exclusion example](/images/how_to_recommend_products_exclusion_example.png)
-                A customer who says they do not want to spend more than $100 then sees no products above that price.
-    2. **Edit the Results page**: In the [Results page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen.
-        - You can add a heading, content block, image block, HTML block or a Product block.
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
-        !!! tip
-            Check [How to Edit the Results page](/how-to-guides/edit-results-page/) for more information.
-    3. **Add a Product block**: the `Products Block` lists products, variants or collections on the Results page.
-        - Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#product-product-variants-collections) to add it to your results page.
+        !!! tip "Link one collection instead of twenty products"
+            Create a hidden collection in Shopify for each choice, and put only the relevant products in it. One collection per choice is easier to maintain than a long list of single products.
+        !!! info "What each upvote type does"
+            See [Upvote inclusion](#upvote-inclusion) for how variants, collections, tags and vendor collections are counted, and [Exclusion](#exclusion) for how to keep a product out of the results.
+    2. **Edit the results page.** Open the [Results page](/reference/quiz-builder/results-page/) tab and add a heading, a content block, an image block or an HTML block.
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
+        !!! tip "Editing the results page"
+            See [How to Edit the Results page](/how-to-guides/edit-results-page/).
+    3. **Add a `Products Block`.** Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#product-product-variants-collections).
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png)
-        - In Product block settings you can choose the `Recommendation system` to be `Upvotes`. The **Product block** then displays the products sorted by the number of upvotes, the most upvoted first.
+    4. **Set `Recommendation system` to `Upvotes` in the block settings.** The block then lists the products by upvote count, most upvoted first.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-        - Every Product block has a default `Slot` holding the recommended products. [Slot settings](/reference/quiz-builder/questions/#block-settings) set **how many products to show**.
+    5. **Choose how many products to show in the [slot settings](/reference/quiz-builder/questions/#block-settings).** Every products block has one default `Slot`, and that slot holds the recommended products.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
-        - Then the results page will show the products like this, sorted by the number of upvotes:
+        The results page then shows the products like this, sorted by upvote count:
         ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
-        !!! note
-            A Product block can also show products in clear steps, such as a **skincare routine**. Give a block a **Segment Filter** and it recommends the most-upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
-    4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz.
-        - Then click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window.
-            !!! note
-                You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-    5. **Troubleshoot the Results**: the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section shows why a product was recommended, or why it was missing.
+        !!! note "Recommending a routine instead of a list"
+            A products block can also show products in clear steps, such as a **skincare routine**. Give a slot a **Segment Filter** and it recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+    6. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    7. **Click [`Preview`](/reference/quiz-builder/questions/) and take the quiz in a new window.**
+        !!! note "Test responses do not count towards your quota"
+            You can test the quiz as often as you like, as long as you open a new preview window each time. Responses you make as an admin are removed automatically after one hour.
+    8. **Check a recommendation in the [Responses](/reference/quiz-builder/metrics/#responses) section.** The built-in search tool shows why a product was recommended, or why it was missing.
         ![how to recommend products built for shopify revenuehunt app troubleshoot results](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
-        !!! tip
-            Check [How to Troubleshoot Quiz results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
-    6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X upvotes or more in the [Results page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
-        - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
-    By linking product variants and collections to quiz choices, and understanding how inclusion and exclusion work, you can make the recommendations precise.
+        !!! tip "Troubleshooting the results"
+            See [How to Troubleshoot Quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+    !!! tip "Refining the results"
+        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/YPuWvufx_8I?si=IAcwxOPePM1Nn2yw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Follow these steps to set up a funnel quiz with product slots in the `💎Built for Shopify` version of the RevenueHunt app:
-    **Step 1: Organize Products into Collections**
-    To group products into slots, create new collections in your Shopify store:
-    1. Identify your product categories (e.g., Cleansers, Toners, Serums, Moisturizers)
-    2. [Create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for each category
-    3. Add relevant products to each collection (e.g., all cleansers in the Cleansers collection)
-    **Step 2: Build the Quiz**
-    1. Go to the app's [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz)
-    2. Choose a pre-defined template (like Basic or Advanced Skincare Quiz) or start from scratch
-    3. Name your quiz (can be edited later)
-    4. In the [Quiz builder](/reference/quiz-builder/), add questions by clicking `+ Add question`
-    5. Select appropriate [question types](/reference/quiz-builder/questions/#question-types) for your quiz flow
-    **Step 3: Link Products to Choices**
-    1. Go to [Questions](/reference/quiz-builder/questions/)
-    2. Select a multiple-choice question
-    3. Select a choice and open the [Choice settings](/reference/quiz-builder/questions/#choice-settings)
-    4. Link relevant product variants or collections to each choice
-    5. Ensure every choice has at least one product or collection linked
-    ![how_to_shopifyv2_setuprecommendations_linkcollections](/images/how_to_shopifyv2_setuprecommendations_linkcollections.png)
-    **Step 4: Add Product Slots to the Results page**
-    1. Go to the [Results page](/reference/quiz-builder/results-page/) tab
-    2. Add design elements (headings, logos, content blocks)
-    3. Click the `+` button to add a `Product Block`
-    4. In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings):
-        - Add a slot for each step in the skincare routine
-        - Add title and description for each slot
-        - Add segments with corresponding product collections to each slot
-        - Choose how many products to recommend per slot (typically one product)
-    ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png)
-    **Step 5: Test and Troubleshoot**
-    1. Click [`Publish/Save`](/reference/quiz-builder/questions/) to update the preview/live quiz
-    2. Click [`Preview`](/reference/quiz-builder/questions/) to test in a new window
-    3. Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses` to troubleshoot recommendations
-    4. Test responses as admin are automatically removed after 1 hour
+    1. **List the steps your routine needs.** A skincare routine might be cleansers, toners, serums and moisturizers.
+    2. **[Create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for each step.**
+    3. **Add the matching products to each collection.** Every cleanser goes in the Cleansers collection.
+    4. **Open the app [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz).**
+    5. **Choose a template, or start from scratch.** A template such as Basic or Advanced Skincare Quiz arrives with its questions already written.
+    6. **Name the quiz.** You can rename it later.
+    7. **Add your questions in the [Quiz builder](/reference/quiz-builder/).** Click `+ Add question`, then pick a [question type](/reference/quiz-builder/questions/#question-types).
+    8. **Open a multiple-choice question in [Questions](/reference/quiz-builder/questions/) and select a choice.**
+    9. **Link the relevant products or collections in the [Choice settings](/reference/quiz-builder/questions/#choice-settings).** Every choice needs at least one product or collection.
+        ![how_to_shopifyv2_setuprecommendations_linkcollections](/images/how_to_shopifyv2_setuprecommendations_linkcollections.png)
+    10. **Open the [Results page](/reference/quiz-builder/results-page/) tab and add your design elements.** Headings, logos and content blocks.
+    11. **Add a `Products Block`.** Click the `+` button.
+    12. **Add one slot per routine step in the [block settings](/reference/quiz-builder/questions/#block-settings).** For each slot:
+        - Add a title and a description
+        - Add a segment with the product collection for that step
+        - Choose how many products to recommend, usually one
+        ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png)
+    13. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    14. **Click [`Preview`](/reference/quiz-builder/questions/) and take the quiz in a new window.**
+        !!! note "Test responses do not count towards your quota"
+            You can test the quiz as often as you like, as long as you open a new preview window each time. Responses you make as an admin are removed automatically after one hour.
+    15. **Check the recommendations with the [built-in search bar](/how-to-guides/troubleshoot-product-results/) in the `Responses` section.**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/5T-yW7c0OFs?si=_HxY8mZT9DHL25k2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    The quiz can use skip logic to show different follow-up questions based on what the customer chose, so it skips questions that do not apply.
-    Follow these steps to set up a funnel quiz with skip logic:
-    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+    The quiz shows different follow-up questions depending on what the customer chose, and skips the questions that do not apply.
+    1. **Add a multiple-choice question about the customer's main concerns.**
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_mulriplechoice.png)
-        - Open the RevenueHunt app and create a new quiz
-        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
-        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
-        - Enable 'Allow Multiple Selection' in the [`multiple-choice settings`](/reference/quiz-builder/questions/#multiple-choice) to let users select more than one option
-    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+    2. **Add a choice for each concern.** For a skincare quiz: Acne, Pigmentation, Blackheads and Flaky Skin.
+    3. **Turn on `Allow Multiple Selection` in the [multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).** The customer can then pick more than one concern.
+    4. **Add one follow-up question per concern.** Keep them in the same order as the choices in the first question.
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_followup.png)
-        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
-        - Ensure follow-up questions are set up in the same order as the options in the initial question
-        - Customize each follow-up question to be relevant to its specific concern
-    3. **Set Up Skip logic**: Configure conditional logic for each follow-up question:
+    5. **Write each follow-up question for its own concern.**
+    6. **Open the Conditional logic tab of a follow-up question.**
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_skiplogic.png)
-        - Navigate to the Conditional logic tab for each follow-up question
-        - Add rules to skip questions if the corresponding concern was not selected
-        - Repeat for each follow-up question and corresponding concern
-        !!! example
-            If `Skin Concerns` is not `Acne`, skip the Acne questions.
-    4. **Link Products to Choices**: Navigate to the [Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup:
+    7. **Add a rule that skips the question when its concern was not selected.**
+        !!! example "How a skip logic rule reads"
+            If `Skin Concerns` is not `Acne`, skip the acne questions.
+    8. **Repeat for every follow-up question.**
+    9. **Link products to your choices in the [Upvote](/reference/quiz-builder/link-products/) tab.** Upvote the relevant products for each choice.
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_linkproduct.png)
-        - For each choice, upvote relevant products
-        - Products or collections added in the `upvotes` field are upvoted in the final recommendations
-        - The quiz will count upvotes only from questions that were shown to the user
-    5. **Test the Quiz Logic**: After setting up questions and skip logic:
-        - Click [`Save`](/reference/quiz-builder/questions/) to update the preview/live quiz
-        - Use the preview feature to test different combinations of selections
-        - Select multiple concerns (e.g., 'Acne' and 'Blackheads') to verify that only relevant follow-up questions are displayed
-        - Repeat with different selections to ensure the logic works correctly
-    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) if needed:
-        - Check why specific questions were shown or skipped
-        - Verify that product recommendations match user selections
-    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
-    Follow these steps to set up a branching funnel quiz in the `💎Built for Shopify` version of the RevenueHunt app:
-    **Step 1: Build Quiz Structure**
-    1. Create a new quiz in the [Quiz builder](/reference/quiz-builder/)
-    2. Add all questions needed for each branch
-    3. Add all possible choices for each question
-    4. The order does not matter yet. Jump logic sets it.
-    **Step 2: Set Up Branching**
-    ![how_to_hide_content_with_logic_shopifyv2_jump_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
-    1. Go to each question's settings
-    2. Add Jump logic rules in the Conditional logic section:
-        - Set conditions for when to jump
-        - Choose destination question
-        - Add multiple rules if needed
-    3. Make sure each branch ends with:
-        - Lead collection question, or
-        - Results page
-    **Step 3: Link Products**
-    1. For each choice in every branch:
-        - Open Choice settings
-        - Add products to "Upvote" section
-        - Add collections if applicable
-    2. The quiz only counts upvotes from shown questions
-    **Step 4: Configure Results page**
-    1. Add a Products Block
-    2. Set "Recommendation system" to "Upvotes"
-    3. Configure number of products to show
-    4. Optionally add segments for structured recommendations
-    **Step 5: Test and Launch**
-    1. Save changes
-    2. Preview and test each branch
-    3. Use Response Analysis to verify logic
-    4. Publish when ready
-    !!! warning "Not recommended for personality-type quizzes"
-        Not recommended for personality-type quizzes due to complexity. For this application, try the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/) solutions.
-    Follow these steps to set up a funnel quiz with custom text blocks in the `💎Built for Shopify` version of the RevenueHunt app:
-    **Step 1: Build Quiz Structure**
-    1. Go to the [Quiz builder](/reference/quiz-builder/) and create all questions needed. Add all possible choices for each question.
-    **Step 2: Link Products to Choices**
-    1. For each choice open Choice settings and add products to "Upvote" section.
-    2. The quiz will count upvotes from all questions
-    **Step 3: Configure Results page**
-    1. Add a Products Block with "Upvotes" setting for Recommendations System.
-    2. Add multiple Sections to your results page for different answer combinations. To each section add text, images or HTML content blocks for different answer combinations.
-    **Step 4: Set Up Display logic**
-    1. For each content block, add display logic rules in the block settings. Combine conditions with AND/OR operators.
+        !!! info "Only the questions the customer saw are counted"
+            A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
+    10. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Repeat the preview with other combinations of concerns.**
+    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    1. **Create every question each branch needs in the [Quiz builder](/reference/quiz-builder/).**
+    2. **Add every choice each question needs.**
+        !!! info "Question order does not matter yet"
+            Jump logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
+    3. **Open the Conditional logic section of a question and add a Jump logic rule.**
+        ![how_to_hide_content_with_logic_shopifyv2_jump_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
+        - Set the condition that triggers the jump
+        - Choose the question to jump to
+        - Add another rule for each further branch
+        !!! example "How a jump logic rule reads"
+            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+    4. **End every branch with a question that collects an email or phone number, or with the results page.**
+    5. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of each choice and upvote the relevant products or collections.**
+        !!! info "Only the questions the customer saw are counted"
+            A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
+    6. **Add a `Products Block` to the results page.**
+    7. **Set `Recommendation system` to `Upvotes`, then choose how many products to show.**
+    8. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    !!! tip "Grouping the recommendations"
+        Slots arrange the recommendations into fixed positions instead of one list. Give a slot a Segment Filter to control which products it can recommend. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+    !!! warning "Not the best fit for a personality quiz"
+        The number of rules grows with every question. For a personality quiz, try the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/) instead.
+    1. **Create every question the quiz needs in the [Quiz builder](/reference/quiz-builder/), with all of its choices.**
+    2. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of each choice and upvote the relevant products.**
+        !!! info "Every question counts here"
+            Every customer sees every question in this method, so the quiz counts upvotes from all of them.
+    3. **Add a `Products Block` to the results page and set `Recommendation system` to `Upvotes`.**
+    4. **Add one section per answer combination to the results page.** Put the text, image or HTML blocks for that combination inside its own section.
+    5. **Add a display logic rule to each content block in the block settings.** Combine the conditions with AND and OR.
         !!! example "How a display logic rule reads"
-            If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice C* **OR** If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice D*, then this block is **shown/hidden**.
-            In practice: if "Skin Type" is "Oily" **AND** "Main Concern" is "Acne", show this block.
-    2. Cover every possible answer combination.
+            Show this block if:
+            *Question 1* is *Choice A* **AND** *Question 2* is *Choice B* **AND** *Question 3* is *Choice C*
+            **OR**
+            *Question 1* is *Choice A* **AND** *Question 2* is *Choice B* **AND** *Question 3* is *Choice D*
+            In practice: when "Skin Type" is "Oily" **AND** "Main Concern" is "Acne", show the skincare routine for oily, acne-prone skin.
+    6. **Write a rule for every possible answer combination.**
         !!! warning "Every route needs a rule"
             This method needs a display logic rule for each way through the quiz. A combination you miss has no rule to show its block.
-    **Step 5: Test and Launch**
-    1. Save changes
-    2. Test thoroughly! Try different answer combinations. Verify correct content appears. Check product recommendations.
-    3. Use [Response Analysis](/how-to-guides/troubleshoot-product-results/) to verify logic and check product recommendations.
+    7. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    8. **Preview the quiz with different answer combinations.** Check that the right content appears each time.
+    9. **Check the logic with [Response Analysis](/how-to-guides/troubleshoot-product-results/).**
 
 
 
@@ -12506,7 +12474,7 @@ description: "Comprehensive guide to different RevenueHunt recommendation system
 
 # How to Set Up Recommendations
 
-Product recommendations are the heart of any successful quiz experience. They help guide customers to the perfect products for their needs, increasing conversion rates and customer satisfaction. In this guide, we'll explore different recommendation systems that can be implemented in your RevenueHunt quiz, each designed for different use cases and business needs.
+Every quiz needs a recommendation system. It decides which products a customer sees at the end. The app has three of them, and eleven ways to use them. This page explains what each one does, so you can choose before you build the quiz.
 
 ![how_to_recommend_products_decision_tree_V2](/images/how_to_recommend_products_decision_tree_V2.png)
 
@@ -12519,16 +12487,15 @@ Product recommendations are the heart of any successful quiz experience. They he
 | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
 | [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple results pages<br>- Allows display rules and custom text | High |
 
-!!! info
+!!! tip "Not sure which one you need?"
 
-    Not sure how to set up your recommendations? [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
+    [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
 
-## ✍🏻 Upvoting system
+## Upvoting system
 
+Recommended for most quizzes. Each choice upvotes the products linked to it, and the quiz recommends the products with the most upvotes.
 
-Recommended for most quizzes. The upvoting system counts product "upvotes" based on customer quiz choices and recommends products with the highest upvotes.
-
-!!! note "Use this method for:"  
+!!! info "Use this method for:"
 
     - Helping customers narrow down a large product catalog
     - Most quizzes, especially product finders
@@ -12537,71 +12504,66 @@ Recommended for most quizzes. The upvoting system counts product "upvotes" based
 
 ### Funnel quiz
 
-The upvoting system counts product "upvotes" based on customer quiz choices and recommends products with the highest upvotes.
+Every customer answers the same questions, and the products with the most upvotes are recommended first.
 
 ![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width=500}
 
-Product recommendation algorithm works like an upvoting system:
+How the algorithm works:
 
-- Product variants are linked to each choice.
-- When a customer picks a choice, all linked products receive one upvote.
-- After the customer takes the quiz, the results page will show the most upvoted product variants sorted by the number of upvotes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of upvotes, the order depends on your Catalog mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalog](/reference/app-settings/#catalog) to show products in the same order as your Shopify collections.*
-- You can limit recommendations to a specific number of products or a minimum upvote threshold.
+- You link product variants to each choice.
+- A customer picks a choice, and every linked product receives one upvote.
+- The results page lists the most upvoted variants first.
+- You can cap how many products appear, or require a minimum upvote count.
 
-!!! tip "How to set this up?"
+!!! info "Empty results, and ties"
 
-    Check out the [✍🏻 Upvoting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) guide.
+    A results page comes back empty when nothing was linked to the choices the customer made, or when exclusions removed every product that was upvoted.
+
+    When two products have the same number of upvotes, the order depends on your `Catalog mode` setting. Ties are randomized by default. Set `Preserve collection order` in [Settings > Catalog](/reference/app-settings/#catalog) to keep the order of your Shopify collections.
+
+[✍🏻 Upvoting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 
 ### Funnel quiz with slots
 
-The upvoting system counts product "upvotes" based on customer quiz choices and then recommends highest upvoted products based on a filter added to each slot. For example, you can recommend a full skincare routine with a quiz that takes into account the customer answers and shows the most upvoted cleanser, toner, serum and moisturizer arranged into specific slots. 
+The quiz counts the upvotes, then fills every slot with the highest upvoted product that matches that slot. Use it to recommend a full routine: the most upvoted cleanser, then toner, then serum, then moisturizer.
 
 ![how_to_shopify_v2_recommendations_funnel_with_slots](/images/how_to_shopify_v2_recommendations_funnel_with_slots.png){width=500}
 
-!!! tip "How to set this up?"
-
-    Check out the [✍🏻 Upvoting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) guide.
+[✍🏻 Upvoting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
 
 ### Funnel quiz with branching
 
-Branch your quiz to show different follow-up questions based on customer choices. The algorithm counts upvotes only from questions and answers shown to each customer.
+Branch the quiz so that different answers lead to different follow-up questions. The quiz counts upvotes only from the questions the customer saw.
 
-  ![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png){width=500}
+![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png){width=500}
 
-!!! tip "How to set this up?"
-
-    Check out the [✍🏻 Upvoting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guides.
+[✍🏻 Upvoting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz)
 
 ### Funnel quiz that skips slides
 
-Show different follow-up questions based on customer choices in a multiple-choice, multiple selection question. For example, ask about skin concerns and then only show follow-up questions related to the selected concerns. The algorithm counts upvotes only from questions and answers shown to each customer. 
+Ask about several concerns in one multiple-choice question, then show only the follow-up questions that match the concerns the customer selected. The quiz counts upvotes only from the questions it showed.
 
 ![how_to_shopify_v2_recommendations_skiplogic.png](/images/how_to_shopify_v2_recommendations_skiplogic.png){width=500}
 
 ![how_to_hide_content_with_logic_shopifyv2_skip_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-!!! tip "How to set this up?"
-
-    Check out the [✍🏻 Upvoting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) guides.
+[✍🏻 Upvoting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz)
 
 ### Funnel quiz that shows custom text based on choices
 
-!!! warning "Not recommended for personality-type quizzes"
-
-    Not recommended for personality-type quizzes due to complexity. For this application, try the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) solutions.
-
-
-Show or hide different text blocks on the results page. This approach requires predicting every possible answering route and adding display logic rules for each text block. 
+Show and hide text blocks on the results page, so the wording matches the answers. Every route through the quiz needs its own display logic rule.
 
 ![how_to_shopify_v2_recommendations_funnel_displaylogic](/images/how_to_shopify_v2_recommendations_funnel_displaylogic.png){width=500}
 
-!!! tip "How to set this up?"
+!!! warning "Not the best fit for a personality quiz"
 
-    Check out the [✍🏻 Upvoting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guides.
+    The number of rules grows with every question. For a personality quiz, try the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) instead.
 
-## 🧩 Fixed recommendations
+[✍🏻 Upvoting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page)
 
-Recommended for quizzes with complex branching and multiple very precise outcomes and product recommendations. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
+## Fixed recommendations
+
+Recommended for quizzes with complex branching and several precise outcomes. You pick the products for each outcome yourself, then add logic that decides which section or results page the customer reaches.
 
 !!! info "Use this method for:"
 
@@ -12612,38 +12574,31 @@ Recommended for quizzes with complex branching and multiple very precise outcome
 
 ### Always the same recommendations
 
-Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
+Pin the products you choose to the results page. Every customer sees them, whatever they answered.
 
 ![how_to_shopify_v2_recommendations_fixedrecommendations](/images/how_to_shopify_v2_recommendations_fixedrecommendations.png){width=500}
 
-!!! tip "How to set this up?"
+[🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations)
 
-    Check out the [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) guide.
+### Fixed recommendations with display logic and one results page
 
+One results page holds the text and the products for every outcome. Display Logic then shows the ones that match the answers, and hides the rest.
 
-### With display logic and one results page 
+![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
 
-Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
+[🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page)
 
-![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
+### Fixed recommendations with display logic and multiple results pages
 
-!!! tip "How to set this up?"
-
-    Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) guide.
-
-### With display logic and multiple results pages
-
-Set up multiple results pages with unique fixed product recommendations and texts and control visibility by adding branching with Jump Logic that leads to different results pages.	
+Each outcome gets its own results page, with its own products and its own text. Jump Logic sends each customer to the page that matches their answers.
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
-!!! tip "How to set this up?"
+[🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-multiple-results-pages)
 
-    Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-multiple-results-pages) guide.
+## Custom scoring system
 
-## 🎯 Custom scoring system 
-
-Recommended for personality-type quizzes. Assign point values to choices and use the total scores to determine which products to recommend.
+Recommended for personality-type quizzes. Give each choice a score or a variable, then let the totals decide what the customer sees.
 
 !!! info "Use this method for:"
 
@@ -12654,36 +12609,27 @@ Recommended for personality-type quizzes. Assign point values to choices and use
 
 ### Winning variable quiz
 
-Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content and product blocks on the Results Page based on the custom score or most upvoted variable.
+Assign a variable to each choice. The variable chosen most often decides the outcome, and Display Logic shows the content and product blocks that match it.
 
 ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width=500}
 
-!!! tip "How to set this up?"
-
-    Check out the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) guide.
-
+[🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
 
 ### Scoring quiz with one results page
 
-Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
+Assign a numerical score to each choice. Display Logic then shows or hides the content blocks on one results page, based on the total the customer reached.
 
 ![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png){width=500}
 
-
-!!! tip "How to set this up?"
-
-    Check out the [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) guide.
-
+[🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
 
 ### Scoring quiz with multiple results pages
 
-Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Skip Logic to direct customers to different results pages based on their accumulated scores. 
+Assign a numerical score to each choice. Jump Logic or Skip Logic then sends each customer to the results page that matches their total.
 
 ![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png){width=500}
 
-!!! tip "How to set this up?"
-
-    Check out the [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-multiple-results-pages) guide.
+[🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-multiple-results-pages)
 
 ---
 
@@ -12701,163 +12647,172 @@ description: "Learn how to create a RevenueHunt scoring quiz with personality ty
 icon: material/scoreboard-outline
 ---
 
-# How to Set Up Scoring Quiz
+# How to Set Up a Scoring Quiz
 
-Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most upvoted varaibl or a score.
+Give each choice a score, a variable, or both. The quiz adds them up as the customer answers. Logic then decides which text and which products appear at the end.
 
 !!! info "Use this method for:"
 
     - Personality type quizzes, Dosha quizzes
-    - Quizzes that show different results based on the number of user choices (for example if the customer chooses most As, Bs, Cs, etc.)
+    - Quizzes that show different results based on how many choices the customer picked (for example if the customer chooses most As, Bs, Cs, etc.)
     - Quizzes that show different text results based on choices
     - Quizzes that need to calculate scores that show different products
 
+!!! note "Scoring is a Built for Shopify feature"
+
+    Only the `💎Built for Shopify` version of the RevenueHunt app has the scoring system. In every other version a developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+There are three ways to use a score once you have one.
+
+| Method | Use it when |
+|---|---|
+| [Winning variable quiz](#winning-variable-quiz) | The outcome is a type, such as a skin type or a personality. The variable chosen most often wins |
+| [Scoring quiz with one results page](#scoring-quiz-with-one-results-page) | One results page holds a section per outcome, and display logic shows the one that matches the total |
+| [Scoring quiz with multiple results pages](#scoring-quiz-with-multiple-results-pages) | Each score range gets its own results page, and jump logic sends the customer there |
 
 ## How to add scores or variables to choices
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hoAcDUqp9u4?si=BW3HNCCZasjFUVal" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
-    To add scores or variables to choices, follow these steps:
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
-    3. Find the `Scores and calculations` section.
-    4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
+    A score is a number a choice adds to a running total. A variable is a named bucket, such as `dry skin`, that keeps a total of its own. A choice can carry either, or both.
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions`.** For a quiz that works out a skin type, ask about age, skin condition, and so on.
+    2. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of a choice.**
+    3. **Find the `Scores and calculations` section.**
+    4. **Set the score for that choice with the up and down arrows.** Negative values are allowed.
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
-        !!! example
+        !!! example "Scoring three choices"
             ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
             - For choice one, set the score to 1.
             - For choice two, set the score to 2.
             - For choice three, set the score to 3.
-    5. To create a new variable, click on the `Search or create variable` search bar and start typing the name of the variable you want to create (e.g. `dry skin` or `variable1`). 
-    6. Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable`. Click on it to add a new variable.
+    5. **To add a variable, click the `Search or create variable` bar and type its name.** For example `dry skin` or `variable1`.
+    6. **Click `Create a new variable` in the dropdown.**
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
-    7. Once a new variable is created, you can assign a score to it.
-    8. Repeat the process for each choice in that question and move on to the next question in your quiz.
-    !!! tip
-        To learn how to use these variables to set up a personality type quiz, dosha quiz, scoring quiz, etc. check out the following articles:
+    7. **Assign a score to the new variable.**
+    8. **Repeat for every choice in the question, then move on to the next question.**
+    !!! tip "What to do with the scores and variables"
         - [How to Use Display logic](/how-to-guides/use-display-logic/)
-        - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
-        - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
+        - [How to Set Up a Personality Type Quiz](#winning-variable-quiz)
+        - [How to Set Up a Scoring Quiz](#scoring-quiz-with-one-results-page)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Frn5srnYSkY?si=vbLbqtfXjzSC7yna" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
-    2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
-        !!! tip
-            To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
-        !!! example
+    The example below is a quiz for a skin care brand that works out the customer's skin type.
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` about the customer's skin condition.** For example: itchiness, tightness or dryness.
+    2. **Assign a variable to every choice in the [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
+        !!! tip "Adding the scores"
+            See [How to Add Scores or Variables to Choices](#how-to-add-scores-or-variables-to-choices).
+        !!! example "Two questions, five variables"
             Question 1: How does your skin feel when you wake up in the morning?
             - Choice 1: Tight (variable `dry skin` +1)
             - Choice 2: Normal (variable `normal skin` +1)
             - Choice 3: Oily (variable `oily skin` +1)
             - Choice 4: Combination (variable `combination skin` +1)
-            - Choice 5: Sensitive (variable `sensitive skin` +1)  
+            - Choice 5: Sensitive (variable `sensitive skin` +1)
             Question 2: How does your skin usually look by midday?
             - Choice 1: Still tight (variable `dry skin` +1)
             - Choice 2: Same as in the morning (variable `normal skin` +1)
             - Choice 3: Shiny (variable `oily skin` +1)
             - Choice 4: T-zone shiny (variable `combination skin` +1)
             - Choice 5: Red and irritated (variable `sensitive skin` +1)
-    3. **Add a Results page and Sections**: Add a [Results page](/reference/quiz-builder/results-page/) to your quiz. On the Results page add several **Sections** with Heading, Text and Product block that shows products for specific skin type and its challenges.
-        !!! example
-            Section 1: Dry Skin
-            Section 2: Normal Skin
-            Section 3: Oily Skin
-            Section 4: Combination Skin 
-            Section 5: Sensitive Skin
-    4. **Add a Product block to Each Section**: Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to each section on your Results page. In the Product block settings set the `Recommendation system` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
-    5. **Add Display logic**: Add a [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section on your Results page to tell it when to be shown or hidden based on the winning variable.
-        !!! example
+    3. **Add a [Results page](/reference/quiz-builder/results-page/) to your quiz.**
+    4. **Add one section per outcome to the results page.**
+        !!! example "One section per skin type"
+            - Section 1: Dry Skin
+            - Section 2: Normal Skin
+            - Section 3: Oily Skin
+            - Section 4: Combination Skin
+            - Section 5: Sensitive Skin
+    5. **Add a heading, text and a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to each section.**
+    6. **Set the `Recommendation system` to `Fixed Recommendations` in the product block settings, then pick the products for that skin type.**
+    7. **Add [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section, so that it appears only for its own winning variable.**
+        !!! example "One rule per section"
             - If the variable with the highest score is `dry skin`, then Section 1 is **visible**. Otherwise Default visibility is **hidden**.
             - If the variable with the highest score is `normal skin`, then Section 2 is **visible**. Otherwise Default visibility is **hidden**.
             - If the variable with the highest score is `oily skin`, then Section 3 is **visible**. Otherwise Default visibility is **hidden**.
             - If the variable with the highest score is `combination skin`, then Section 4 is **visible**. Otherwise Default visibility is **hidden**.
             - If the variable with the highest score is `sensitive skin`, then Section 5 is **visible**. Otherwise Default visibility is **hidden**.
-    6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+    8. **Click the top-right `Save` button to update the preview and the live quiz.**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/byAgOMjzi9A?si=vGZrYCxmNUK_Ool7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    !!! tip
-        We have Scoring Quiz template available among the Quiz Templates. To use it go to the [Dashboard](/reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice settings](/reference/quiz-builder/questions/#choice-settings) section. 
+    !!! tip "Start from the template"
+        The app has a Scoring Quiz template. Go to the [Dashboard](/reference/dashboard/), click `Create Quiz`, then select the `Scoring Quiz` template.
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions`.** For a skin care quiz, ask about age, skin type or environment.
+    2. **Assign a point value to every choice in the [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
-        !!! tip
-            To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
-        !!! example
-            For example, with skin type questions:
+        !!! tip "Adding the scores"
+            See [How to Add Scores or Variables to Choices](#how-to-add-scores-or-variables-to-choices).
+        !!! example "Points for each skin type"
             - Dry skin choices: 1 point
             - Normal skin choices: 2 points
             - Oily skin choices: 3 points
             - Combination skin choices: 4 points
             - Sensitive skin choices: 5 points
-    2. **Add Content Sections to Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
-        Add multiple content blocks describing the specific skin type and its challenges. For example:
+    3. **Go to the [Results page](/reference/quiz-builder/results-page/) and click `+ Add section`.** Add one section per outcome.
+    4. **Add content blocks to each section, describing that skin type and its challenges.**
         ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
-        !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+        !!! example "Text for each skin type"
+            - *You have Dry Skin*: the itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: your skin feels balanced, just like you. It has no major issues, and it still deserves care. Your skin wants a routine that keeps that balance.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation system` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  
+    5. **Add a `Product Block` to each section, holding the products for that skin type.**
+    6. **Set the `Recommendation system` to `Fixed Recommendations` in the [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).**
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-    3. **Add Score-Based Display logic**: On the Results page, select a content block and in the right-hand menu locate `Display logic`.
-        - Click on `+ Add condition (OR)`
-        - Instead of using question-specific conditions, use the `The variable with the highest score...` or `The score of the variable...` option
-        - Set up range conditions to control when each content block should be visible/hidden.
+    7. **Select a content block and find `Display logic` in the right-hand menu.**
+    8. **Click `+ Add condition (OR)`.**
+    9. **Choose `The variable with the highest score...` or `The score of the variable...`.** These conditions read the total, rather than one specific answer.
+    10. **Set the score range that makes the block visible.**
         ![score-based display logic](/images/how_to_shopifyv2_scoringquiz_displaylogic.png)
-        !!! example
-            For example:
-            - Dry skin content: Total score is between 5-7 points
-            - Normal skin content: Total score is between 8-12 points
-            - Oily skin content: Total score is between 13-17 points
-            - Combination skin content: Total score is between 18-22 points
-            - Sensitive skin content: Total score is between 23-25 points
-    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+        !!! example "A range for each skin type"
+            - Dry skin content: total score is between 5 and 7 points
+            - Normal skin content: total score is between 8 and 12 points
+            - Oily skin content: total score is between 13 and 17 points
+            - Combination skin content: total score is between 18 and 22 points
+            - Sensitive skin content: total score is between 23 and 25 points
+    11. **Repeat for every content block.**
+    12. **Click the top-right `Save` button to update the preview and the live quiz.**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/aRp9cmo8XLI?si=dlqABFGJMtT4mmnc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice settings](/reference/quiz-builder/questions/#choice-settings) section. 
-        !!! tip
-            To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions`.** For a skin care quiz, ask about age, skin type or environment.
+    2. **Assign a point value to every choice in the [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
-        !!! example
-            For example, with skin type questions:
+        !!! tip "Adding the scores"
+            See [How to Add Scores or Variables to Choices](#how-to-add-scores-or-variables-to-choices).
+        !!! example "Points for each skin type"
             - Dry skin choices: 1 point
             - Normal skin choices: 2 points
             - Oily skin choices: 3 points
             - Combination skin choices: 4 points
             - Sensitive skin choices: 5 points
-    3. **Create Multiple Results pages**: Go to the [Results page](/reference/quiz-builder/results-page/) section and click `+ Add Results Page` to create additional results pages. Create one results page for each possible outcome.
+    3. **Go to the [Results page](/reference/quiz-builder/results-page/) section and click `+ Add Results Page`.** Create one results page per outcome.
         ![how_to_shopifyv2_scoringquiz_multiresultspages](/images/how_to_shopifyv2_scoringquiz_multiresultspages.png)
-        !!! example
-            For example:
+        !!! example "One results page per skin type"
             - Results page 1: Dry Skin Routine
             - Results page 2: Normal Skin Routine
             - Results page 3: Oily Skin Routine
             - Results page 4: Combination Skin Routine
             - Results page 5: Sensitive Skin Routine
-    3. **Add Content to Each Results page**: For each results page, addustom text describing the specific skin type and its challenges, product recommendations for that skin type and any additional content blocks relevant to that skin type.
-        To each results page add a section with content describing the specific skin type and its challenges. For example:
+    4. **Add the text for that outcome to each results page.**
         ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
-        !!! example
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+        !!! example "Text for each skin type"
+            - *You have Dry Skin*: the itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: your skin feels balanced, just like you. It has no major issues, and it still deserves care. Your skin wants a routine that keeps that balance.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        Make sure to add product blocks to each results page and set the `Recommendation system` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+    5. **Add a product block to each results page, holding the products for that skin type.**
+    6. **Set the `Recommendation system` to `Fixed Recommendations` in the [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).**
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-    4. **Set Up Jump logic Based on Scores**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of Quiz builder. Find the last question in your quiz and open the [Jump logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
-        - Click on `+ Add condition (OR)`
-        - Select `The variable with the highest score...` or `The score of the variable...` option
-        - Set up range conditions to control which results page the user will be directed to
+    7. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) section and open the [Jump logic settings](/reference/quiz-builder/conditional-logic/#jump-logic) of the last question.**
+    8. **Click `+ Add condition (OR)`.**
+    9. **Select `The variable with the highest score...` or `The score of the variable...`.**
+    10. **Set the score range that sends the customer to one results page.**
         ![how_to_shopifyv2_scoringquiz_multiresultspages_logic](/images/how_to_shopifyv2_scoringquiz_multiresultspages_logic.png)
-        !!! example
-            For example:
-            - If total score is between 5-7 points → Jump to Dry Skin Routine
-            - If total score is between 8-12 points → Jump to Normal Skin Routine
-            - If total score is between 13-17 points → Jump to Oily Skin Routine
-            - If total score is between 18-22 points → Jump to Combination Skin Routine
-            - If total score is between 23-25 points → Jump to Sensitive Skin Routine
-    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+        !!! example "A range for each results page"
+            - A total between 5 and 7 points jumps to Dry Skin Routine
+            - A total between 8 and 12 points jumps to Normal Skin Routine
+            - A total between 13 and 17 points jumps to Oily Skin Routine
+            - A total between 18 and 22 points jumps to Combination Skin Routine
+            - A total between 23 and 25 points jumps to Sensitive Skin Routine
+    11. **Repeat for every results page.**
+    12. **Click the top-right `Save` button to update the preview and the live quiz.**
 
 
 

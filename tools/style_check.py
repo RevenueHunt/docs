@@ -67,6 +67,10 @@ LINK_TEXT_EXEMPT_IF_PRECEDED_BY = re.compile(
 ADMONITIONS = {'tip', 'info', 'note', 'warning', 'example', 'success',
                'danger', 'question'}
 
+# section 10: one numbered list per procedure. a bold Step N heading restarts
+# the numbering underneath it, so the reader loses their place.
+STEP_HEADING = re.compile(r'^\s*\*\*\s*(?:step|phase|part)\s+\d+\s*[:.)-]', re.I)
+
 COMPOUNDS = [
     (r'\bpop-ups?\b', 'popup'),
     (r'\beCommerce\b|\be-commerce\b|\bEcommerce\b', 'ecommerce'),
@@ -319,8 +323,11 @@ def prose_of(line):
     return s
 
 
+# a bold lead-in closes a sentence: **Open the Results page tab.** Then add
+# a heading. The closing ** sits between the full stop and the space, so the
+# split has to step over it, or the two sentences are measured as one.
 def sentences(text):
-    for part in re.split(r'(?<=[.!?])\s+', text):
+    for part in re.split(r'(?<=[.!?])[*_]*\s+', text):
         part = ' '.join(part.split())
         if part:
             yield part
@@ -394,6 +401,13 @@ def check_file(path, root):
 
         prose = prose_of(line)
         words += len(prose.split())
+
+        # ---- step headings ----------------------------------------------
+        if STEP_HEADING.match(line):
+            findings.append(Finding(
+                i, 'step-heading',
+                'number the steps straight through instead of grouping them '
+                'under a bold Step N heading'))
 
         # ---- admonition type -------------------------------------------
         a = ADM_MARK.match(line)
