@@ -1833,6 +1833,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `quiz.metadata.responseId` | Unique response identifier |
     | `quiz.metadata.language` | Quiz language code |
     | `quiz.metadata.inBuilder` | `true` if in builder preview |
+    | `quiz.metadata.isStoreRenderer` | `true` when the quiz renders inside the storefront, where the Shopify Ajax cart endpoints are reachable |
 
     #### Actions (methods)
 
@@ -1845,6 +1846,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `actions.setAnswers(obj)` | Batch update multiple answers |
     | `actions.clearAnswer(blockRef)` | Clear an answer |
     | `actions.removeAnswer(blockRef)` | Remove answer completely |
+    | `actions.updateCartAttributes(attrs)` | Write attributes onto the Shopify cart |
 
     #### DOM helpers
 

@@ -2653,6 +2653,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `quiz.metadata.responseId` | Unique response identifier |
     | `quiz.metadata.language` | Quiz language code |
     | `quiz.metadata.inBuilder` | `true` if in builder preview |
+    | `quiz.metadata.isStoreRenderer` | `true` when the quiz renders inside the storefront, where the Shopify Ajax cart endpoints are reachable |
 
     #### Actions (methods)
 
@@ -2663,6 +2664,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async) |
     | `actions.setAnswer(blockRef, value)` | Set answer value |
     | `actions.clearAnswer(blockRef)` | Clear an answer |
+
+    !!! note "Older cart helpers"
+
+        Existing quizzes may still call `actions.addToCart()`, `actions.addAllToCart()`, `actions.applyDiscountCode()` or `actions.updateCartAttributes()`. They still work, and they are kept for quizzes already built on them.
+
+        For new work, use Shopify's own [Ajax Cart API](https://shopify.dev/docs/api/ajax/reference/cart) and then call `actions.syncCart()`, so the quiz result UI picks up the cart Shopify actually holds.
 
     #### DOM helpers
 

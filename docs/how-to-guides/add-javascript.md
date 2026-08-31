@@ -21,53 +21,70 @@ This article explains how to add JavaScript to quiz questions and the results pa
 !!! warning "For developers and Shopify Partners"
     This article is for developers and Shopify Partners. If you do not know the basics of JavaScript and the Vue.js framework, ask a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
-## Understanding JavaScript, HTML, and Liquid
+## What you can use
 
-Several technologies can customize a quiz, and which ones are available depends on your platform.
-
-| Technology | Description | What you can use it for |
-|------------|-------------|-------------------------|
-| JavaScript | A programming language that adds interactivity and dynamic behavior to web pages. | Adding custom logic and calculations (like BMI calculators) |
-| HTML | A markup language that defines the structure and content of web pages. | Adding custom content blocks and layouts |
-| Liquid | A templating language specific to Shopify that allows dynamic content insertion. | Displaying quiz answers and user responses dynamically |
-
-**Platform support**
+Which technologies a quiz can use depends on the version you are running.
 
 === "Shopify"
 
-    **Available**: JavaScript + HTML + Liquid
-    Use Liquid when you need Shopify data or server-rendered dynamic content. Use JavaScript for interactivity and logic.
+    | Technology | What it is | Use it for |
+    |---|---|---|
+    | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+    | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+    | Liquid | Shopify's templating language, rendered before the page reaches the browser | Putting quiz answers and store data straight into the markup |
+
+    Reach for Liquid when the value is known before the page loads, such as a product field or an answer already given. Reach for JavaScript when something has to change while the customer is on the page.
 
 === "Shopify (Legacy)"
 
-    **Available**: JavaScript + HTML
-    Liquid is not available in Shopify (Legacy).
+    | Technology | What it is | Use it for |
+    |---|---|---|
+    | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+    | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+
+    JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
 
 === "WooCommerce"
 
-    **Available**: JavaScript + HTML
-    Liquid is not available in WooCommerce.
+    | Technology | What it is | Use it for |
+    |---|---|---|
+    | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+    | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+
+    JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
 
 === "Magento"
 
-    **Available**: JavaScript + HTML
-    Liquid is not available in Magento.
+    | Technology | What it is | Use it for |
+    |---|---|---|
+    | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+    | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+
+    JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
 
 === "BigCommerce"
 
-    **Available**: JavaScript + HTML
-    Liquid is not available in BigCommerce.
+    | Technology | What it is | Use it for |
+    |---|---|---|
+    | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+    | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+
+    JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
 
 === "Standalone"
 
-    **Available**: JavaScript + HTML
-    Liquid is not available in Standalone.
+    | Technology | What it is | Use it for |
+    |---|---|---|
+    | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+    | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
 
-## Access the custom JavaScript console
+    JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
+
+## Where the code goes
 
 You can add custom JavaScript to the quiz results page and to the quiz questions.
 
-### Results page
+### The results page console
 
 === "Shopify"
 
@@ -140,7 +157,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-### Quiz questions
+### The question console
 
 === "Shopify"
 
@@ -214,21 +231,22 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-### Via custom HTML block
-
-??? info "Use Custom HTML Blocks when"
-
-    - You want JavaScript to run in a **specific location** in your layout
-    - You need to **combine HTML, Liquid, and JavaScript** together
-    - You want **different scripts for different content blocks**
-    - You are adding **a small script for one context**, such as tracking a single element
-    - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
+### A custom HTML block
 
 === "Shopify"
 
     You can also add custom JavaScript directly in HTML blocks throughout your quiz. These blocks support both JavaScript and Liquid templating for dynamic content.
 
-    #### Results page
+    ??? info "When a Custom HTML block is the right place"
+
+        - You want JavaScript to run in a **specific location** in your layout
+        - You need to **combine HTML, Liquid, and JavaScript** together
+        - You want **different scripts for different content blocks**
+        - You are adding **a small script for one context**, such as tracking a single element
+        - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
+
+
+    **On the results page**
 
     1. Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.
     2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.
@@ -257,7 +275,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
 
-    #### Questions
+    **In a question**
 
     1. Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.
     2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.
@@ -291,7 +309,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 
 
-    #### Slot item composition
+    **In a slot item composition**
 
     1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
     2. Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
@@ -314,7 +332,15 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         </script>
         ```
 
-    5. Use Liquid variables like `{{ item }}` to access the current product/variant/collection object.
+    5. Use the two Liquid variables a slot provides.
+
+        | Variable | What it holds |
+        |---|---|
+        | `item` | The Shopify product, variant or collection object |
+        | `itemType` | `'product'`, `'variant'` or `'collection'` |
+
+        `itemType` tells you which kind of object `item` is, so one block can render all three.
+
     6. Click `Save` to update the preview/live quiz.
 
     !!! tip "Run the custom code"
@@ -323,23 +349,43 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 === "Shopify (Legacy)"
 
-    Not available.
+    !!! note "The HTML Block does not run JavaScript"
+
+        This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
+
+        Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 
 === "WooCommerce"
 
-    Not available.
+    !!! note "The HTML Block does not run JavaScript"
+
+        This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
+
+        Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 
 === "Magento"
 
-    Not available.
+    !!! note "The HTML Block does not run JavaScript"
+
+        This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
+
+        Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 
 === "BigCommerce"
 
-    Not available.
+    !!! note "The HTML Block does not run JavaScript"
+
+        This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
+
+        Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 
 === "Standalone"
 
-    Not available.
+    !!! note "The HTML Block does not run JavaScript"
+
+        This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
+
+        Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 
 ## Find block and question IDs
 
@@ -502,14 +548,15 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 
 
-## Console.log(x) function
+## The JavaScript API
+
+### What your code receives
 
 === "Shopify"
 
     In the `💎Built for Shopify` version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
 
-
-    ### The `quiz` object
+    **The `quiz` object**
 
     Your JavaScript code has access to the `quiz` object containing all the current state data:
 
@@ -578,7 +625,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     | `quiz.resultContext.cartItems` | Array of items currently in cart |
     | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
 
-    ### Actions (methods)
+    **Actions**
 
     **Navigation Actions**
 
@@ -611,7 +658,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     |--------|-------------|
     | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async, results page) |
 
-    ### DOM helpers
+    **DOM helpers**
 
     Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 
@@ -621,7 +668,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
     | `window.quiz.getElementById(id)` | Find element by ID |
 
-    ### Global event handler
+    **The global change handler**
 
     ```javascript
     window.quiz.onChange = (event) => {
@@ -631,191 +678,379 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     };
     ```
 
-    ### JavaScript examples
+=== "Shopify (Legacy)"
 
-    **Conditional navigation based on score:**
-    ```javascript
-    if ((quiz.variables.scores.sensitive ?? 0) > 80) {
-      actions.overrideNext('q-sensitive-routine');
-    }
-    ```
+    **Custom JavaScript Capabilities**
 
-    **Update element based on answer:**
-    ```javascript
-    const name = quiz.answers.byBlock['qbi-name']?.value || 'Guest';
-    const el = window.quiz.getElementById('greeting');
-    if (el) el.textContent = `Welcome, ${name}!`;
-    ```
+    The `prq` object is how you customize the quiz. Use it like this:
 
-    **Auto-advance based on selection:**
-    ```javascript
-    window.quiz.onChange = (event) => {
-      if (event.blockRef === 'qbc-skintype' && event.selectedLabel === 'Oily') {
-        actions.overrideNext('q-oily-concerns');
-      }
-    };
-    ```
+    **Quiz Data Manipulation**
 
-    **Batch update answers:**
-    ```javascript
-    const age = parseInt(quiz.answers.byBlock['qbi-age']?.value || '0');
-    actions.setAnswers({
-      'qbc-age-group': age < 25 ? 'young' : 'mature',
-      'qbc-eligible': age >= 18 ? 'yes' : 'no'
-    });
-    ```
+    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
+    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
 
-    **Capture URL parameters for webhooks:**
-    ```javascript
-    const urlParams = new URLSearchParams(window.location.search);
-    actions.setAnswers({
-      'hidden-utm-source': urlParams.get('utm_source') || '',
-      'hidden-utm-medium': urlParams.get('utm_medium') || '',
-      'hidden-utm-campaign': urlParams.get('utm_campaign') || '',
-      'hidden-full-url': window.location.href
-    });
-    ```
-    These synthetic answers appear in the `answersByBlock` payload of your webhook, so attribution data travels with the quiz response.
+    **Customer information**
 
-    **Use Shopify AJAX cart APIs, then sync the quiz UI (Results page):**
-    ```javascript
-    if ((quiz.variables.scores.premium ?? 0) > 80) {
-      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          items: [{ id: 12345678901234, quantity: 1 }]
-        })
-      });
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
 
-      await actions.syncCart();
-    }
-    ```
+    **Results Page Customization**
 
-    **Apply discount based on cart value (Results page):**
-    ```javascript
-    const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
-    if (itemCount >= 3) {
-      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          discount: 'BUNDLE20'
-        })
-      });
-    }
-    ```
+    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
+    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
+    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
+    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
 
-    **Save selected quiz data to Shopify note + cart attributes:**
-    ```javascript
-    if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
-      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          note: 'Quiz completed',
-          attributes: {
-            __result_ref: quiz.currentResult?.ref || '',
-            skincare_segment: quiz.variables.highest || ''
-          }
-        })
-      });
-    }
-    ```
+    **Navigation and Engagement**
 
-    RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
-
-    In RevenueHunt storefront experiments, the hidden/private cart-attribute pattern that works in practice is the `__prefix` convention. Leave off the prefix for attributes you want visible in Shopify cart or order surfaces.
-
-    **Keep RevenueHunt cart UI in sync after native line-item mutations:**
-    ```javascript
-    await fetch(`${window.Shopify.routes.root}cart/change.js`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: 12345678901234, quantity: 0 })
-    });
-
-    await window.quiz.syncCart();
-    ```
-
-    Call `syncCart()` after native `cart/add.js`, `cart/change.js`, or `cart/clear.js` so the quiz result UI replaces its local cart state with Shopify's current cart. For `cart/update.js` note/attribute/discount updates, sync is usually not required unless your custom quiz UI depends on refreshed cart state immediately.
-
-    **Add all recommended items with Shopify `cart/add.js`:**
-    ```javascript
-    const toNumericVariantId = (gid) => {
-      const raw = String(gid || '').split('/').pop();
-      return raw ? Number(raw) : null;
-    };
-
-    const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
-      .map((item) => {
-        const variantGid = item?.__typename === 'ProductVariant'
-          ? item.id
-          : item?.variants?.edges?.[0]?.node?.id;
-
-        const variantId = toNumericVariantId(variantGid);
-        return variantId ? { id: variantId, quantity: 1 } : null;
-      })
-      .filter(Boolean);
-
-    if (itemsToAdd.length > 0) {
-      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items: itemsToAdd })
-      });
-
-      await actions.syncCart();
-    }
-    ```
-
-    To add products from one slot only, put that logic in the Custom HTML or Slot Item Composition of the slot. The code is then already scoped to the right item.
-
-    **Compact Shopify cart recipes:**
+    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
 
     ```javascript
-    // Read cart
-    const cart = await fetch(`${window.Shopify.routes.root}cart.js`).then((r) => r.json());
+    /* List of all the quiz slides/questions (including the responded values) */
+    prq.quizSlides();
 
-    // Remove one existing line item by key
-    const line = cart.items.find((item) => item.variant_id === 12345678901234);
-    if (line?.key) {
-      await fetch(`${window.Shopify.routes.root}cart/change.js`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: line.key, quantity: 0 })
-      });
-      await actions.syncCart();
-    }
+    /* get the slide/question value by passing the slide ID  */
+    prq.getSlideValue(slideId);
 
-    // Clear cart
-    await fetch(`${window.Shopify.routes.root}cart/clear.js`, { method: 'POST' });
-    await actions.syncCart();
+    /* get the lead's email  */
+    prq.leadEmail();
+
+    /* get the lead's phone  */
+    prq.leadPhone();
+
+    /* get the lead's name  */
+    prq.leadName();
+
+    /* List contents of the results page, blocks, products, etc. */
+    prq.resultsPage();
+
+    /* List recommended products, sorted by number of votes */
+    prq.recommendedProducts();
+
+    /* Show most voted product */
+    prq.mostVotedProduct();
+
+    /* adds all the products to cart automatically */
+    prq.addAllToCart();
+
+    /* proceeds to cart/checkout automatically */
+    prq.checkout();
+
+    /* set specific discount code */
+    prq.setDiscountCode('10-OFF');
+
+    /* get the response permalink url */
+    prq.getResponsePermalink();
+
+    /* retake quiz */
+    prq.retakeQuiz();
+
+    /* close quiz */
+    prq.closeQuiz();
+
+    /* open quiz popup */
+    window.openQuizPopup('dbqHqN');
+    // dbqHqN is the quiz ID
     ```
 
-    **Legacy RevenueHunt cart helpers:**
+=== "WooCommerce"
 
-    Older quiz code may still use `actions.addToCart(...)`, `actions.addAllToCart()`, `actions.applyDiscountCode(...)`, or `actions.updateCartAttributes(...)`. These remain useful for backwards compatibility, but for new Shopify cart work, prefer native Shopify Ajax endpoints plus `syncCart()`.
+    **Custom JavaScript Capabilities**
 
-    **Track quiz completion with analytics (Results page):**
+    The `prq` object is how you customize the quiz. Use it like this:
+
+    **Quiz Data Manipulation**
+
+    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
+    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
+
+    **Customer information**
+
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
+
+    **Results Page Customization**
+
+    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
+    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
+    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
+    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
+
+    **Navigation and Engagement**
+
+    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
+
     ```javascript
-    // Send quiz completion data to your analytics
-    const data = {
-      responseId: quiz.metadata.responseId,
-      skinType: quiz.variables.highest,
-      scores: quiz.variables.scores,
-      recommendedProducts: Object.keys(quiz.resultContext.slotItems || {}).length
-    };
+    /* List of all the quiz slides/questions (including the responded values) */
+    prq.quizSlides();
 
-    // Example: Send to your analytics endpoint
-    fetch('/api/quiz-completed', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
-    });
+    /* get the slide/question value by passing the slide ID  */
+    prq.getSlideValue(slideId);
+
+    /* get the lead's email  */
+    prq.leadEmail();
+
+    /* get the lead's phone  */
+    prq.leadPhone();
+
+    /* get the lead's name  */
+    prq.leadName();
+
+    /* List contents of the results page, blocks, products, etc. */
+    prq.resultsPage();
+
+    /* List recommended products, sorted by number of votes */
+    prq.recommendedProducts();
+
+    /* Show most voted product */
+    prq.mostVotedProduct();
+
+    /* adds all the products to cart automatically */
+    prq.addAllToCart();
+
+    /* proceeds to cart/checkout automatically */
+    prq.checkout();
+
+    /* set specific discount code */
+    prq.setDiscountCode('10-OFF');
+
+    /* get the response permalink url */
+    prq.getResponsePermalink();
+
+    /* retake quiz */
+    prq.retakeQuiz();
+
+    /* close quiz */
+    prq.closeQuiz();
+
+    /* open quiz popup */
+    window.openQuizPopup('dbqHqN');
+    // dbqHqN is the quiz ID
     ```
 
-    ### Debugging
+=== "Magento"
+
+    **Custom JavaScript Capabilities**
+
+    The `prq` object is how you customize the quiz. Use it like this:
+
+    **Quiz Data Manipulation**
+
+    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
+    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
+
+    **Customer information**
+
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
+
+    **Results Page Customization**
+
+    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
+    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
+    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
+    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
+
+    **Navigation and Engagement**
+
+    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
+
+    ```javascript
+    /* List of all the quiz slides/questions (including the responded values) */
+    prq.quizSlides();
+
+    /* get the slide/question value by passing the slide ID  */
+    prq.getSlideValue(slideId);
+
+    /* get the lead's email  */
+    prq.leadEmail();
+
+    /* get the lead's phone  */
+    prq.leadPhone();
+
+    /* get the lead's name  */
+    prq.leadName();
+
+    /* List contents of the results page, blocks, products, etc. */
+    prq.resultsPage();
+
+    /* List recommended products, sorted by number of votes */
+    prq.recommendedProducts();
+
+    /* Show most voted product */
+    prq.mostVotedProduct();
+
+    /* adds all the products to cart automatically */
+    prq.addAllToCart();
+
+    /* proceeds to cart/checkout automatically */
+    prq.checkout();
+
+    /* set specific discount code */
+    prq.setDiscountCode('10-OFF');
+
+    /* get the response permalink url */
+    prq.getResponsePermalink();
+
+    /* retake quiz */
+    prq.retakeQuiz();
+
+    /* close quiz */
+    prq.closeQuiz();
+
+    /* open quiz popup */
+    window.openQuizPopup('dbqHqN');
+    // dbqHqN is the quiz ID
+    ```
+
+=== "BigCommerce"
+
+    **Custom JavaScript Capabilities**
+
+    The `prq` object is how you customize the quiz. Use it like this:
+
+    **Quiz Data Manipulation**
+
+    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
+    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
+
+    **Customer information**
+
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
+
+    **Results Page Customization**
+
+    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
+    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
+    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
+    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
+
+    **Navigation and Engagement**
+
+    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
+
+    ```javascript
+    /* List of all the quiz slides/questions (including the responded values) */
+    prq.quizSlides();
+
+    /* get the slide/question value by passing the slide ID  */
+    prq.getSlideValue(slideId);
+
+    /* get the lead's email  */
+    prq.leadEmail();
+
+    /* get the lead's phone  */
+    prq.leadPhone();
+
+    /* get the lead's name  */
+    prq.leadName();
+
+    /* List contents of the results page, blocks, products, etc. */
+    prq.resultsPage();
+
+    /* List recommended products, sorted by number of votes */
+    prq.recommendedProducts();
+
+    /* Show most voted product */
+    prq.mostVotedProduct();
+
+    /* adds all the products to cart automatically */
+    prq.addAllToCart();
+
+    /* proceeds to cart/checkout automatically */
+    prq.checkout();
+
+    /* set specific discount code */
+    prq.setDiscountCode('10-OFF');
+
+    /* get the response permalink url */
+    prq.getResponsePermalink();
+
+    /* retake quiz */
+    prq.retakeQuiz();
+
+    /* close quiz */
+    prq.closeQuiz();
+
+    /* open quiz popup */
+    window.openQuizPopup('dbqHqN');
+    // dbqHqN is the quiz ID
+    ```
+
+=== "Standalone"
+
+    **Custom JavaScript Capabilities**
+
+    The `prq` object is how you customize the quiz. Use it like this:
+
+    **Quiz Data Manipulation**
+
+    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
+    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
+
+    **Customer information**
+
+    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
+
+    **Results Page Customization**
+
+    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
+    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
+    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
+    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
+
+    **Navigation and Engagement**
+
+    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
+
+    ```javascript
+    /* List of all the quiz slides/questions (including the responded values) */
+    prq.quizSlides();
+
+    /* get the slide/question value by passing the slide ID  */
+    prq.getSlideValue(slideId);
+
+    /* get the lead's email  */
+    prq.leadEmail();
+
+    /* get the lead's phone  */
+    prq.leadPhone();
+
+    /* get the lead's name  */
+    prq.leadName();
+
+    /* List contents of the results page, blocks, products, etc. */
+    prq.resultsPage();
+
+    /* List recommended products, sorted by number of votes */
+    prq.recommendedProducts();
+
+    /* Show most voted product */
+    prq.mostVotedProduct();
+
+    /* adds all the products to cart automatically */
+    prq.addAllToCart();
+
+    /* proceeds to cart/checkout automatically */
+    prq.checkout();
+
+    /* set specific discount code */
+    prq.setDiscountCode('10-OFF');
+
+    /* get the response permalink url */
+    prq.getResponsePermalink();
+
+    /* retake quiz */
+    prq.retakeQuiz();
+
+    /* close quiz */
+    prq.closeQuiz();
+
+    /* open quiz popup */
+    window.openQuizPopup('dbqHqN');
+    // dbqHqN is the quiz ID
+    ```
+
+### Debug your code
+
+=== "Shopify"
 
     To explore available data, you can add a `debugger` statement to your JavaScript code:
 
@@ -856,7 +1091,6 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         For how to find a block reference, see [Find block and question IDs](#find-block-and-question-ids).
 
-
 === "Shopify (Legacy)"
 
     Start by logging the quiz response object to the console:
@@ -869,80 +1103,6 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
-
-    **Custom JavaScript Capabilities**
-
-    The `prq` object is how you customize the quiz. Use it like this:
-
-    **Quiz Data Manipulation**
-
-    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
-    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
-
-    **Customer information**
-
-    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
-
-    **Results Page Customization**
-
-    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
-    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
-    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
-    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
-
-    **Navigation and Engagement**
-
-    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
-    ```html
-    /* List of all the quiz slides/questions (including the responded values) */
-    prq.quizSlides();
-
-    /* get the slide/question value by passing the slide ID  */
-    prq.getSlideValue(slideId);
-
-    /* get the lead's email  */
-    prq.leadEmail();
-
-    /* get the lead's phone  */
-    prq.leadPhone();
-
-    /* get the lead's name  */
-    prq.leadName();
-
-    /* List contents of the results page, blocks, products, etc. */
-    prq.resultsPage();
-
-    /* List recommended products, sorted by number of votes */
-    prq.recommendedProducts();
-
-    /* Show most voted product */
-    prq.mostVotedProduct();
-
-    /* adds all the products to cart automatically */
-    prq.addAllToCart();
-
-    /* proceeds to cart/checkout automatically */
-    prq.checkout();
-
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-
-    /* get the response permalink url */
-    prq.getResponsePermalink();
-
-    /* retake quiz */
-    prq.retakeQuiz();
-
-    /* close quiz */
-    prq.closeQuiz();
-
-    /* open quiz popup */
-    window.openQuizPopup('dbqHqN');
-    dbqHqN is the quiz ID
-    ```
-
-    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 === "WooCommerce"
 
@@ -957,80 +1117,6 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
-    **Custom JavaScript Capabilities**
-
-    The `prq` object is how you customize the quiz. Use it like this:
-
-    **Quiz Data Manipulation**
-
-    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
-    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
-
-    **Customer information**
-
-    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
-
-    **Results Page Customization**
-
-    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
-    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
-    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
-    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
-
-    **Navigation and Engagement**
-
-    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
-    ```html
-    /* List of all the quiz slides/questions (including the responded values) */
-    prq.quizSlides();
-
-    /* get the slide/question value by passing the slide ID  */
-    prq.getSlideValue(slideId);
-
-    /* get the lead's email  */
-    prq.leadEmail();
-
-    /* get the lead's phone  */
-    prq.leadPhone();
-
-    /* get the lead's name  */
-    prq.leadName();
-
-    /* List contents of the results page, blocks, products, etc. */
-    prq.resultsPage();
-
-    /* List recommended products, sorted by number of votes */
-    prq.recommendedProducts();
-
-    /* Show most voted product */
-    prq.mostVotedProduct();
-
-    /* adds all the products to cart automatically */
-    prq.addAllToCart();
-
-    /* proceeds to cart/checkout automatically */
-    prq.checkout();
-
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-
-    /* get the response permalink url */
-    prq.getResponsePermalink();
-
-    /* retake quiz */
-    prq.retakeQuiz();
-
-    /* close quiz */
-    prq.closeQuiz();
-
-    /* open quiz popup */
-    window.openQuizPopup('dbqHqN');
-    dbqHqN is the quiz ID
-    ```
-
-    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
-
 === "Magento"
 
     Start by logging the quiz response object to the console:
@@ -1043,80 +1129,6 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
-
-    **Custom JavaScript Capabilities**
-
-    The `prq` object is how you customize the quiz. Use it like this:
-
-    **Quiz Data Manipulation**
-
-    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
-    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
-
-    **Customer information**
-
-    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
-
-    **Results Page Customization**
-
-    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
-    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
-    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
-    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
-
-    **Navigation and Engagement**
-
-    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
-    ```html
-    /* List of all the quiz slides/questions (including the responded values) */
-    prq.quizSlides();
-
-    /* get the slide/question value by passing the slide ID  */
-    prq.getSlideValue(slideId);
-
-    /* get the lead's email  */
-    prq.leadEmail();
-
-    /* get the lead's phone  */
-    prq.leadPhone();
-
-    /* get the lead's name  */
-    prq.leadName();
-
-    /* List contents of the results page, blocks, products, etc. */
-    prq.resultsPage();
-
-    /* List recommended products, sorted by number of votes */
-    prq.recommendedProducts();
-
-    /* Show most voted product */
-    prq.mostVotedProduct();
-
-    /* adds all the products to cart automatically */
-    prq.addAllToCart();
-
-    /* proceeds to cart/checkout automatically */
-    prq.checkout();
-
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-
-    /* get the response permalink url */
-    prq.getResponsePermalink();
-
-    /* retake quiz */
-    prq.retakeQuiz();
-
-    /* close quiz */
-    prq.closeQuiz();
-
-    /* open quiz popup */
-    window.openQuizPopup('dbqHqN');
-    dbqHqN is the quiz ID
-    ```
-
-    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
 
 === "BigCommerce"
 
@@ -1131,80 +1143,6 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
-    **Custom JavaScript Capabilities**
-
-    The `prq` object is how you customize the quiz. Use it like this:
-
-    **Quiz Data Manipulation**
-
-    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
-    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
-
-    **Customer information**
-
-    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
-
-    **Results Page Customization**
-
-    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
-    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
-    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
-    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
-
-    **Navigation and Engagement**
-
-    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
-    ```html
-    /* List of all the quiz slides/questions (including the responded values) */
-    prq.quizSlides();
-
-    /* get the slide/question value by passing the slide ID  */
-    prq.getSlideValue(slideId);
-
-    /* get the lead's email  */
-    prq.leadEmail();
-
-    /* get the lead's phone  */
-    prq.leadPhone();
-
-    /* get the lead's name  */
-    prq.leadName();
-
-    /* List contents of the results page, blocks, products, etc. */
-    prq.resultsPage();
-
-    /* List recommended products, sorted by number of votes */
-    prq.recommendedProducts();
-
-    /* Show most voted product */
-    prq.mostVotedProduct();
-
-    /* adds all the products to cart automatically */
-    prq.addAllToCart();
-
-    /* proceeds to cart/checkout automatically */
-    prq.checkout();
-
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-
-    /* get the response permalink url */
-    prq.getResponsePermalink();
-
-    /* retake quiz */
-    prq.retakeQuiz();
-
-    /* close quiz */
-    prq.closeQuiz();
-
-    /* open quiz popup */
-    window.openQuizPopup('dbqHqN');
-    dbqHqN is the quiz ID
-    ```
-
-    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
-
 === "Standalone"
 
     Start by logging the quiz response object to the console:
@@ -1218,84 +1156,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
-    **Custom JavaScript Capabilities**
+## Examples
 
-    The `prq` object is how you customize the quiz. Use it like this:
-
-    **Quiz Data Manipulation**
-
-    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
-    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
-
-    **Customer information**
-
-    - **Lead Details**: `prq.leadEmail()`, `prq.leadPhone()` and `prq.leadName()` return the email, phone number and name of the customer.
-
-    **Results Page Customization**
-
-    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
-    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
-    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
-    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
-
-    **Navigation and Engagement**
-
-    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
-    ```html
-    /* List of all the quiz slides/questions (including the responded values) */
-    prq.quizSlides();
-
-    /* get the slide/question value by passing the slide ID  */
-    prq.getSlideValue(slideId);
-
-    /* get the lead's email  */
-    prq.leadEmail();
-
-    /* get the lead's phone  */
-    prq.leadPhone();
-
-    /* get the lead's name  */
-    prq.leadName();
-
-    /* List contents of the results page, blocks, products, etc. */
-    prq.resultsPage();
-
-    /* List recommended products, sorted by number of votes */
-    prq.recommendedProducts();
-
-    /* Show most voted product */
-    prq.mostVotedProduct();
-
-    /* adds all the products to cart automatically */
-    prq.addAllToCart();
-
-    /* proceeds to cart/checkout automatically */
-    prq.checkout();
-
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-
-    /* get the response permalink url */
-    prq.getResponsePermalink();
-
-    /* retake quiz */
-    prq.retakeQuiz();
-
-    /* close quiz */
-    prq.closeQuiz();
-
-    /* open quiz popup */
-    window.openQuizPopup('dbqHqN');
-    dbqHqN is the quiz ID
-    ```
-
-    For other functions and properties, see [Console.log(x) function](#consolelogx-function).
-
-
-## Customization examples
-
-### Example 1: trigger functions from an element in the results page
+### Trigger a function from an element on the results page
 
 === "Shopify"
 
@@ -1575,7 +1438,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             destination_element.appendChild(element);
             ```
 
-### Example 2: insert calculations
+### Insert a calculation
 
 === "Shopify"
 
@@ -1824,7 +1687,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
 
-### Example 3: multiple-choice questions: select all, select none
+### Select all or none in a multiple-choice question
 
 === "Shopify"
 
@@ -2361,7 +2224,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         }
         ```
 
-### Example 4: redirect to translated product URL
+### Redirect to a translated product URL
 
 === "Shopify"
 
@@ -2398,7 +2261,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#standalone-redirect-to-translated-product-url) covers that approach.
 
-### Other examples
+### More examples
 
 === "Shopify"
 
@@ -2601,5 +2464,211 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 === "Standalone"
 
+### Common patterns
+
+=== "Shopify"
+
+    **Conditional navigation based on score:**
+    ```javascript
+    if ((quiz.variables.scores.sensitive ?? 0) > 80) {
+      actions.overrideNext('q-sensitive-routine');
+    }
+    ```
+
+    **Update element based on answer:**
+    ```javascript
+    const name = quiz.answers.byBlock['qbi-name']?.value || 'Guest';
+    const el = window.quiz.getElementById('greeting');
+    if (el) el.textContent = `Welcome, ${name}!`;
+    ```
+
+    **Auto-advance based on selection:**
+    ```javascript
+    window.quiz.onChange = (event) => {
+      if (event.blockRef === 'qbc-skintype' && event.selectedLabel === 'Oily') {
+        actions.overrideNext('q-oily-concerns');
+      }
+    };
+    ```
+
+    **Batch update answers:**
+    ```javascript
+    const age = parseInt(quiz.answers.byBlock['qbi-age']?.value || '0');
+    actions.setAnswers({
+      'qbc-age-group': age < 25 ? 'young' : 'mature',
+      'qbc-eligible': age >= 18 ? 'yes' : 'no'
+    });
+    ```
+
+    **Capture URL parameters for webhooks:**
+    ```javascript
+    const urlParams = new URLSearchParams(window.location.search);
+    actions.setAnswers({
+      'hidden-utm-source': urlParams.get('utm_source') || '',
+      'hidden-utm-medium': urlParams.get('utm_medium') || '',
+      'hidden-utm-campaign': urlParams.get('utm_campaign') || '',
+      'hidden-full-url': window.location.href
+    });
+    ```
+    These synthetic answers appear in the `answersByBlock` payload of your webhook, so attribution data travels with the quiz response.
+
+    **Use Shopify AJAX cart APIs, then sync the quiz UI (Results page):**
+    ```javascript
+    if ((quiz.variables.scores.premium ?? 0) > 80) {
+      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          items: [{ id: 12345678901234, quantity: 1 }]
+        })
+      });
+
+      await actions.syncCart();
+    }
+    ```
+
+    **Apply discount based on cart value (Results page):**
+    ```javascript
+    const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
+    if (itemCount >= 3) {
+      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          discount: 'BUNDLE20'
+        })
+      });
+    }
+    ```
+
+    **Save selected quiz data to Shopify note + cart attributes:**
+    ```javascript
+    if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          note: 'Quiz completed',
+          attributes: {
+            __result_ref: quiz.currentResult?.ref || '',
+            skincare_segment: quiz.variables.highest || ''
+          }
+        })
+      });
+    }
+    ```
+
+    RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
+
+    In RevenueHunt storefront experiments, the hidden/private cart-attribute pattern that works in practice is the `__prefix` convention. Leave off the prefix for attributes you want visible in Shopify cart or order surfaces.
+
+    **Keep RevenueHunt cart UI in sync after native line-item mutations:**
+    ```javascript
+    await fetch(`${window.Shopify.routes.root}cart/change.js`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: 12345678901234, quantity: 0 })
+    });
+
+    await actions.syncCart();
+    ```
+
+    Call `syncCart()` after native `cart/add.js`, `cart/change.js`, or `cart/clear.js` so the quiz result UI replaces its local cart state with Shopify's current cart. For `cart/update.js` note/attribute/discount updates, sync is usually not required unless your custom quiz UI depends on refreshed cart state immediately.
+
+    **Add all recommended items with Shopify `cart/add.js`:**
+    ```javascript
+    const toNumericVariantId = (gid) => {
+      const raw = String(gid || '').split('/').pop();
+      return raw ? Number(raw) : null;
+    };
+
+    const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
+      .map((item) => {
+        const variantGid = item?.__typename === 'ProductVariant'
+          ? item.id
+          : item?.variants?.edges?.[0]?.node?.id;
+
+        const variantId = toNumericVariantId(variantGid);
+        return variantId ? { id: variantId, quantity: 1 } : null;
+      })
+      .filter(Boolean);
+
+    if (itemsToAdd.length > 0) {
+      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ items: itemsToAdd })
+      });
+
+      await actions.syncCart();
+    }
+    ```
+
+    To add products from one slot only, put that logic in the Custom HTML or Slot Item Composition of the slot. The code is then already scoped to the right item.
+
+    **Compact Shopify cart recipes:**
+
+    ```javascript
+    // Read cart
+    const cart = await fetch(`${window.Shopify.routes.root}cart.js`).then((r) => r.json());
+
+    // Remove one existing line item by key
+    const line = cart.items.find((item) => item.variant_id === 12345678901234);
+    if (line?.key) {
+      await fetch(`${window.Shopify.routes.root}cart/change.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: line.key, quantity: 0 })
+      });
+      await actions.syncCart();
+    }
+
+    // Clear cart
+    await fetch(`${window.Shopify.routes.root}cart/clear.js`, { method: 'POST' });
+    await actions.syncCart();
+    ```
+
+    **Legacy RevenueHunt cart helpers:**
+
+    Older quiz code may still use `actions.addToCart(...)`, `actions.addAllToCart()`, `actions.applyDiscountCode(...)`, or `actions.updateCartAttributes(...)`. These remain useful for backwards compatibility, but for new Shopify cart work, prefer native Shopify Ajax endpoints plus `syncCart()`.
+
+    **Track quiz completion with analytics (Results page):**
+    ```javascript
+    // Send quiz completion data to your analytics
+    const data = {
+      responseId: quiz.metadata.responseId,
+      skinType: quiz.variables.highest,
+      scores: quiz.variables.scores,
+      recommendedProducts: Object.keys(quiz.resultContext.slotItems || {}).length
+    };
+
+    // Example: Send to your analytics endpoint
+    fetch('/api/quiz-completed', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    ```
+
+=== "Shopify (Legacy)"
+
+    See [What your code receives](#what-your-code-receives) for the `prq` functions these patterns are built from.
+
+=== "WooCommerce"
+
+    See [What your code receives](#what-your-code-receives) for the `prq` functions these patterns are built from.
+
+=== "Magento"
+
+    See [What your code receives](#what-your-code-receives) for the `prq` functions these patterns are built from.
+
+=== "BigCommerce"
+
+    See [What your code receives](#what-your-code-receives) for the `prq` functions these patterns are built from.
+
+=== "Standalone"
+
+    See [What your code receives](#what-your-code-receives) for the `prq` functions these patterns are built from.
+
 ---
-This article explains how to add custom JavaScript to a RevenueHunt quiz, with worked examples. 
+This article explains how to add custom JavaScript to a RevenueHunt quiz, with worked examples.

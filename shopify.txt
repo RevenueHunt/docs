@@ -5818,64 +5818,71 @@ icon: material/ab-testing
 
 # How to A/B Test Your Product Recommendation Quiz
 
-A/B testing, also called split testing, lets you compare two versions of a quiz to see which performs better.
+An A/B test, also called a split test, runs two versions of a quiz side by side and keeps whichever performs better.
 
-This article sets up an A/B test by hand, using the create, duplicate and edit features of the RevenueHunt app.
+The app has no A/B testing feature of its own. You build the test by hand: copy the quiz, change one thing in the copy, publish both, and split your traffic between them.
 
-Ensure you have:
+!!! info "Before you start"
 
-- Access to the RevenueHunt app where you can create and edit quizzes.
-- Basic understanding of [how to publish quizzes](/how-to-guides/publish-quiz/) on your website.
-- Access to your website backend, or a platform that lets you edit HTML and JavaScript for traffic distribution. This is optional, and only for advanced routing.
-- An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/), to measure quiz performance.
+    - A quiz you are ready to test, and somewhere to [publish it](/how-to-guides/publish-quiz/).
+    - An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+    - For a random split, access to the code of your website, or a developer who has it.
 
-## Step 1: create two versions of your quiz
+## Build the two versions
 
-- **Design Your Original Quiz**: Create your quiz, Version A, in the RevenueHunt app. Use the content and design you expect to perform best.
-- **Duplicate and Modify for Version B**: Use the duplicate feature on the dashboard to copy Version A. Change one element, such as the title, the color scheme or the question order. Keep every other element the same, so the test measures that one change. Publish with the top-right `Publish` button.
+## Publish both versions and split the traffic
 
-## Step 2: publish both versions on your website
+There are two routes. Which one fits depends on whether you can edit the code of your website.
 
-There are two ways to put both versions on your website. Which one suits you depends on whether you can edit your site code, and on how precise the test needs to be.
+**A page each, and no code**
 
-### No coding solution: basic A/B testing
+1. **Publish version A as an [inline quiz on its own page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).**
 
-The simplest A/B test publishes each version on its own page in your store. This needs no code:
+2. **Publish version B the same way, on a second page.**
 
-- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page.
+3. **Send traffic to both pages.** Link one from your navigation and the other from an email, or point two ad campaigns at them.
 
-You can then link to each version from anywhere on your website, or from an external marketing channel.
+This split is only as even as the traffic you send. It suits a test where you can aim comparable audiences at each page.
 
-### Coding solution: advanced A/B testing
+**A random split, and some code**
 
-To randomize which version each customer sees, you need some code:
+1. **Create one entry point, such as a button or a link.** See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
 
-- **Link Popup**: Create one entry point, such as a button or a link, that sends the customer to either Version A or Version B. A developer has to write the logic that picks the link for each customer. For the setup steps, see [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
+2. **Ask a developer to add a snippet that sends each new customer to version A or version B at random.**
 
-## Step 3: evenly distribute traffic between quizzes
+3. **Ask them to keep each customer on the same version.** Someone who comes back and gets re-randomized blurs the two sets of figures into each other.
 
-To manually distribute traffic:
+This route splits the traffic evenly, and it is the one to use when both versions face the same audience.
 
-- For Basic Routing: Give each version its own URL, and send customers to one or the other from your website links and promotions.
-- For Advanced Routing: Add a JavaScript snippet or server-side logic to your landing page. It serves Version A or Version B at random to each new customer.
+## Measure the result
 
-## Step 4: track and analyze results
+## Apply what you learned
 
-- **Set Up Analytics**: Give each version its own tracking. The [Metrics](/reference/quiz-builder/metrics/) panel already records quiz starts, completions, conversion rate and drop-off. For more, connect each quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
-- **Analyze Performance**: Once enough traffic has reached both versions, compare the data against the goal you set, such as a higher completion rate.
+Fold the winning change into your main quiz, then pick the next single element to test.
 
-## Step 5: implement improvements
+!!! tip "What makes a test worth trusting"
 
-Decide which version performs better. Put the winning elements into your main quiz, and pick a new variable for the next test.
-
-## Tips for effective A/B testing
-
-- Test one variable at a time to understand its impact clearly.
-- Collect a large enough sample before you draw a conclusion.
-
+    - Change one element per test.
+    - Run both versions over the same period. A week measured against a weekend is not a comparison.
+    - Collect a sample large enough that a few responses either way could not flip the result.
 
 ---
+
 This article explains how to A/B test a quiz in the RevenueHunt app. It covers creating two versions, publishing both, splitting traffic between them and comparing the results.
+
+--- Shopify Specific Content ---
+
+1. **Build the quiz you expect to perform best.** This is version A.
+2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Duplicate`.** The copy is version B.
+3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
+4. **Click the top-right `Save` button.**
+!!! warning "One element per test"
+    Change two things at once and a difference in the results cannot tell you which one caused it.
+1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or revenue per response: pick one.
+2. **Read the built-in figures for each version.** Open the `...` menu on the Dashboard and click [`Analytics`](/reference/quiz-builder/metrics/#analytics), which records starts, completions, conversion rate and drop-off for that quiz.
+3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+5. **Compare the two versions on the number you picked.**
 
 
 
@@ -5889,29 +5896,23 @@ description: "Learn how to add and adjust images in your RevenueHunt quiz to imp
 icon: material/image-area
 ---
 
-
 # How to Add and Adjust Images in the Quiz
 
+A quiz can carry images in five places, and each one is set up differently.
 
-There are several ways you can add images to your quiz in the RevenueHunt app.
-
-This article explains how to add images to your quiz. It also covers how to optimize image quality.
-
+This article explains how to add each kind, and how to keep the images sharp on every screen.
 
 ## Images in the quiz
 
-There are the different ways you can add images to your quiz in the RevenueHunt app:
+- **[Quiz background image](#quiz-background-image)** sits behind the whole quiz. You upload it in the [Quiz design tab](/reference/quiz-builder/quiz-design/).
 
-- **[Quiz Background image](/how-to-guides/add-adjust-images/#quiz-background-image)** - You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
+- **[Question background or split image](#question-backgroundsplit-image)** sits behind one question, or beside it. You upload it in the [question settings](/reference/quiz-builder/questions/#question-settings).
 
-- **[Question Background/Split image](/how-to-guides/add-adjust-images/#question-backgroundsplit-image)** - You can upload a background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).
+- **[Image block](#image-blocks)** places a single picture inside a [question](/reference/quiz-builder/questions/) or on the [results page](/reference/quiz-builder/results-page/).
 
-- **[Image Block](/how-to-guides/add-adjust-images/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
+- **[Picture choice](#picture-choices)** gives every choice in a multiple-choice question its own image. See the [Picture choice block](/reference/quiz-builder/questions/#picture-choice).
 
-- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - A [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) lets you add an image to each choice in a multiple-choice question.
-
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) displays a product, variant or collection image on the results page.
-
+- **[Product image](#product-image)** comes from your catalog, and shows in a [Product, Variants or Collection block](/reference/quiz-builder/results-page/#product-product-variants-collections) on the results page.
 
 ### Quiz background image
 
@@ -5924,114 +5925,113 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 ### Product image
 
 ---
+
 This article explains how to add a background image, a question image, an image block, picture choices and a product image to a quiz. It also covers image quality.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RNFq-2HCRro?si=4xZDwSz-GxDNlE7H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can upload a background image for the whole quiz via the [Quiz design tab](/reference/quiz-builder/quiz-design/).
+The background image sits behind the whole quiz. You upload it in the [Quiz design tab](/reference/quiz-builder/quiz-design/).
 ![how_to_shopifyv2_improve_image_quality_backgroudimagequiz](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
-1. Open the [Quiz design tab](/reference/quiz-builder/quiz-design/)
-2. Click on `Background`
+1. **Open the [Quiz design tab](/reference/quiz-builder/quiz-design/).**
+2. **Click `Background`.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
-3. Change the background color by clicking on the color.
-    !!! tip "Background color"
-        The color of the background matters if you want to adjust the image opacity. A light colored background will make the image more visible, while a dark background will make the image more subtle.
-5. Upload a background image by clicking `Select image`.
-4. Adjust the background opacity with the slider.
-6. Once uploaded, click `Change` to change the image or `Remove` to remove it.
-!!! tip "Background image Tip"
-    The quiz uses a **responsive design**, so it adjusts to desktop, tablet and mobile screens. **A background image can crop or scale differently on each device**.
-    To keep the background looking right on every device:
-    ✅ Use large, high-resolution images: at least 1920x1080px (Full HD)
-    ✅ Avoid images with text, because it can be cut off or hidden
-    ✅ If needed, keep important elements (like logos or text) centered
-    ✅ Use soft, neutral backgrounds that do not clash with the quiz content
-    ✅ Test your quiz on different devices to see how the image behaves
-    A simple background usually works best.
+3. **Click the color to change the background color.**
+    !!! tip "Pick the color before the image"
+        The background color shows through the image once you lower its opacity. A light color leaves the image clearer, a dark one makes it subtler.
+4. **Click `Select image` and upload the background image.**
+5. **Set how strongly it shows with the opacity slider.**
+6. **Click `Change` to swap the image later, or `Remove` to take it out.**
+!!! tip "Background images on small screens"
+    The quiz is responsive, so it adjusts to desktop, tablet and mobile screens. The same image can crop or scale differently on each one.
+    - Use a large, high-resolution image, at least 1920x1080px.
+    - Avoid images with text in them, because the text can be cut off.
+    - Keep anything that matters, such as a logo, near the center.
+    - Choose soft, neutral pictures that do not compete with the quiz text.
+    - Open the quiz on a phone and a desktop before you publish it.
+    A plain background usually survives every screen size best.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rQEVMLzez2U?si=HoNlj3KwQ67yKAUk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).
+Each question can carry its own image, either behind the question or beside it. You upload it in the [question settings](/reference/quiz-builder/questions/#question-settings).
 ![how_to_shopifyv2_improve_image_quality_backgroudimagequestion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
-1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
-2. Click on `Image upload`
-3. Click `Select image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery.
-4. In `Image position`, choose `background` for a full background image or `split` for a split image. Each option has its own settings.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
-5. Once uploaded click `Change`to change the image or `Remove` to remove it.
-6. You can also adjust the `Image opacity` with the slider.
-!!! tip "Background/Split image Tip"
-    The quiz uses a **responsive design**, so it adjusts to desktop, tablet and mobile screens. **A background image can crop or scale differently on each device**.
-    To keep the background looking right on every device:
-    ✅ Use large, high-resolution images: at least 1920x1080px (Full HD)
-    ✅ Avoid images with text, because it can be cut off or hidden
-    ✅ If needed, keep important elements (like logos or text) centered
-    ✅ Use soft, neutral backgrounds that do not clash with the quiz content
-    ✅ Test your quiz on different devices to see how the image behaves
-    A simple background usually works best.
-**Background image settings**
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
-`Layout` - Place the image as a `background` or `split` the screen in half with the image.
-`Opacity` - Use the slider to change opacity percentage of the uploaded image.
-**Split image settings**
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
-`Layout` - Place the image as a `background` or `split` the screen in half with the image.
-`Opacity` - Use the slider to change opacity percentage of the uploaded image.
-`Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
-`Position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
-!!! tip
-    Switch between the desktop and mobile view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
+1. **Open the [question settings](/reference/quiz-builder/questions/#question-settings).**
+2. **Click `Image upload`.**
+3. **Click `Select image` and upload the image.** You can also pick one you have already used, from the quiz gallery.
+4. **Choose `background` or `split` under `Image position`.** A background image sits behind the question, a split image takes half the screen.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
+5. **Set how strongly it shows with the `Image opacity` slider.**
+6. **Click `Change` to swap the image later, or `Remove` to take it out.**
+!!! tip "Question images on small screens"
+    The quiz is responsive, so it adjusts to desktop, tablet and mobile screens. The same image can crop or scale differently on each one.
+    - Use a large, high-resolution image, at least 1920x1080px.
+    - Avoid images with text in them, because the text can be cut off.
+    - Keep anything that matters, such as a logo, near the center.
+    - Choose soft, neutral pictures that do not compete with the quiz text.
+    - Open the quiz on a phone and a desktop before you publish it.
+    A plain background usually survives every screen size best.
+??? info "The background and split image settings"
+    **Background image**
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
+    `Layout` - Place the image behind the question as a `background`, or `split` the screen in half with it.
+    `Opacity` - Sets how strongly the image shows.
+    **Split image**
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
+    `Layout` - Place the image behind the question as a `background`, or `split` the screen in half with it.
+    `Opacity` - Sets how strongly the image shows.
+    `Position (desktop)` - Put the image `left` or `right` of the question on a desktop.
+    `Position (mobile)` - Put the image `above` or `below` the question on a phone, or `hidden`.
+    Switch between the two views with the `desktop` and `mobile` icons above the preview.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Cg-85oQ1mPA?si=vqCVMwIC4jDM3ITy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
+An Image block places a single picture inside a [question](/reference/quiz-builder/questions/), or in a section of the [results page](/reference/quiz-builder/results-page/).
 ![how to](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
-1. Navigate to [Questions](/reference/quiz-builder/questions/) or [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
-2. Click `+ Add block` to see a list of available blocks.
-3. Click on `Image` block and a new block will be added to the question or a section on the results page.
-4. Open the Image block settings.
-5. Click `Select image` to upload an image from your computer or pick one from your in-app image gallery.
-6. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
-7. Add in `Alt text` to make the image more accessible. *Note: Alt text is used by screen readers to describe the image to visually impaired users.*
-8. You can adjust the image size in the `Image height`dropdown. You can choose between `Tiny`, `Small`, `Medium`, `Large` or `Adapt to image`.
+1. **Open the [Questions](/reference/quiz-builder/questions/) or [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.**
+2. **Click `+ Add block`.**
+3. **Click `Image`.** The block is added to the question, or to the section on the results page.
+4. **Open the block settings.**
+5. **Click `Select image` and upload the picture.** You can also pick one you have already used, from the quiz gallery.
+6. **Click `Change` to swap the image later, or `Remove` to take it out.**
+7. **Write the `Alt text`.** A screen reader reads it aloud to a customer who cannot see the image.
+8. **Set the size in the `Image height` dropdown.** The choices are `Tiny`, `Small`, `Medium`, `Large` and `Adapt to image`.
     !!! tip "Adapt to image"
-        `Adapt to image` will adjust the image size to the original size of the image. Pick this option if you want to keep the original image size and resolution.
-9. Change the alignment of the image to left, right or center.
+        `Adapt to image` keeps the picture at the size you uploaded it, rather than fitting it to a preset height.
+9. **Align the image left, right or center.**
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/pRIPY4pLoMw?si=EbnsHRRnzSf_NKHX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-A Picture Choice block lets you add an image to each choice in a multiple-choice question.
+A Picture choice block gives every choice in a multiple-choice question its own image.
 ![how_to_shopifyv2_improve_image_quality_picturechoicequestions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
-1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
-2. Click `+ Add question` to see a list of available questions or `+ Add block` to see a list of available blocks.
-3. Click on `Picture choice` to add a picture choice block to the question.
-4. Click on `+ Add choice` to add a new choice to the picture choice block.
-5. Click on `Select image` to upload an image from your computer or pick one from your in-app image gallery.
-6. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
-6. Open the [`Picture Choice Settings`](/reference/quiz-builder/questions/#picture-choice) and go the Advanced settings.
-7. Under `Picture size/ratio` you can choose between `Tiny icon 24px`, `Small icon 48px`, `Medium icon 1:1` or `Large icon 4:3`.
-    If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an extra Mobile layout option appears. It sets how the block looks on a mobile device, as a `Carousel`, `One per row` or `Two per row`.
-8. You can also check the:
-    - `Hide checkbox/radio` to hide the checkbox/radio element from picture choices.
-    - `Hide image label` to hide the text below each picture choice.
-    - `Fit full image in box (no cropping)` to display the image in the box without cropping.
-9. You can also enable the horizontal carousel on mobile by checking the `Enable horizontal carousel on mobile` option.
-    !!! tip
-        Make sure to switch to the mobile view by clicking the `mobile` icon in the top right corner of the middle screen.
+1. **Open the question you want to illustrate, or click `+ Add question` to make a new one.**
+2. **Click `+ Add block`, then click `Picture choice`.**
+3. **Click `+ Add choice`.**
+4. **Click `Select image` and upload the picture for that choice.** You can also pick one you have already used, from the quiz gallery.
+5. **Click `Change` to swap the image later, or `Remove` to take it out.**
+6. **Repeat for every choice.**
+7. **Open the [`Picture Choice Settings`](/reference/quiz-builder/questions/#picture-choice) and go to the advanced settings.**
+8. **Pick a `Picture size/ratio`.** The choices are `Tiny icon 24px`, `Small icon 48px`, `Medium icon 1:1` and `Large icon 4:3`.
+    !!! info "Medium adds a mobile layout setting"
+        Choosing `Medium (1:1)` reveals a `Mobile layout` option, which shows the choices on a phone as a `Carousel`, `One per row` or `Two per row`.
+9. **Turn on any of the display options you need.**
+    - `Hide checkbox/radio` takes the checkbox or radio button off each picture.
+    - `Hide image label` takes the text off each picture.
+    - `Fit full image in box (no cropping)` shows the whole picture rather than cropping it to the box.
+    - `Enable horizontal carousel on mobile` turns the choices into a row a customer swipes through on a phone.
+    !!! tip "Check the mobile options on the mobile view"
+        Switch to it with the `mobile` icon above the preview.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CeN1xrE3XpE?si=9nNUSjPGJDreQctq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-A Product/Variants/Collection Block displays a product image on the results page.
+A Product, Variants or Collection block shows a picture from your catalog on the results page.
 ![how_to_shopifyv2_improve_image_quality_productimages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
-1. Navigate to [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
-2. Click `+ Add block` to see a list of available blocks.
-3. Click on `Product` (or `Variant` or `Collection`) block and a new block will be added to the results page.
-4. Open the [Product/Variant/Collection block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
-5. Under [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), select which elements of the product slot are displayed. Drag an element to change its position in the slot.
+1. **Open the [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.**
+2. **Click `+ Add block`.**
+3. **Click `Product`, `Variant` or `Collection`.** The block is added to the results page.
+4. **Open the [block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).**
+5. **Choose which parts of the product to show, under [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition).** Drag a part to move it up or down.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
-6. Under `+ Add block` you can add an extra block to the product slot. All the data are synced directly from your Shopify catalog.
-7. Under `Image` you can adjust the image size.
-    `Picture size/ratio` - Choose the picture size for this block. Choose between `Medium (1:1)` or `Original` picture size (as uploaded to your Shopify Product).
-    `Shape` - Choose the shape of the image from `Square` or `Original`.
-    `Source` - Choose the source of the image from `Variant` or `Product`. Choose whether to display the variant-specific image or the main product image. Select `Variant` to show the image associated with the selected variant (falls back to main product image if the variant has no image). Select `Product` to always display the main product image regardless of the variant selection.
-    `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
-    !!! note
-        Product images are taken directly from your Shopify catalog. Product slots display the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section.
-    !!! tip
-        If no images appear when you recommend collections, check that your Shopify collection has images uploaded.
+6. **Open `Image` and adjust how the picture is shown.**
+    `Picture size/ratio` - `Medium (1:1)`, or `Original` as uploaded to Shopify.
+    `Shape` - `Square` or `Original`.
+    `Source` - `Variant` shows the picture of the selected variant, and falls back to the product picture when that variant has none. `Product` always shows the main product picture.
+    `Optimize images size` - Compresses the picture for the quiz. Clear it to serve the picture at its original weight.
+!!! note "The pictures come from your catalog"
+    A product slot shows the first picture of the product, variant or collection, exactly as uploaded to your Shopify products and collections. You cannot replace it from inside the quiz.
+!!! tip "No picture on a recommended collection"
+    Check that the Shopify collection itself has an image.
 
 
 
@@ -6047,104 +6047,93 @@ icon: material/sale
 
 # How to Add a Discount to Your Quiz
 
+## Set up a discount on the results page
 
-## Set up discount on the results page
+The results page can reach the checkout in three ways, and they combine. A code applied automatically stays invisible until checkout, so showing it as text as well tells the customer what they are getting.
 
-## Include discount codes in Follow-up emails
+### Apply the code automatically at checkout
 
-## Apply discount only if customer leaves their email
+### Show the code as text
+
+### Apply the code with custom JavaScript
+
+## Include the code in a follow-up email
+
+## Give the discount only to customers who leave an email
 
 ---
-By following these steps, you can integrate discounts into your quiz, improve customer engagement and potentially increase conversions.
+
+This article explains how to put a discount code on the results page or in a follow-up email. It also covers giving the code only to customers who leave an email address.
 
 --- Shopify Specific Content ---
 
-With the Built for Shopify version of the RevenueHunt app, you can:
-- **add your Shopify discount code** to be applied automatically at checkout,
-- **add a discount code as text** to quiz questions or results page,
-- **add the discount code to the [result emails](/reference/quiz-builder/notifications/#to-respondent)**.
-A discount applied to a product in Shopify Products shows on the quiz results page on its own. Otherwise the discount code is applied at checkout, and *the reduced price is visible at the checkout stage only*.
+A discount rewards the customer for finishing the quiz. This version can:
+- [Apply a Shopify discount code automatically at checkout](#apply-the-code-automatically-at-checkout).
+- [Show the code as text](#show-the-code-as-text) on a question or the results page, for the customer to copy.
+- [Apply the code with custom JavaScript](#apply-the-code-with-custom-javascript).
+- [Put the code in the result email](#include-the-code-in-a-follow-up-email).
+!!! info "A discount set on the product itself needs no code"
+    A product discounted in Shopify shows its reduced price on the results page by itself. A discount code works differently: it is redeemed at checkout, so the customer sees the reduction only at that stage.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/F8rN6jOveOw?si=zZyYtDmydJoeqrg-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-### Automatic discount code
-You can add a discount code to be applied automatically at checkout when users finish the quiz and proceed to cart.
-!!! warning "Discount code is only applied at Shopify checkout"
-    The discount code will not be visible on the quiz preview or the results page. It is applied automatically when the customer proceeds to Shopify checkout.
-1. **Create a Discount code in Shopify**: Create the code in Shopify before you add it to the results page.
-    !!! warning "Create a Discount code in Shopify"
-        You need to create a discount code in Shopify first before adding it to the quiz results page.
-    - Navigate to the Shopify admin panel and select the `Discounts` tab.
-    - Click on `Create Discount` to set up a new discount code.
-    - Choose the type of discount (e.g., percentage, fixed amount). Enter a discount code name (e.g., `quiz123`) or specify the discount amount (e.g., 20%).
-    - Select applicable products from your catalog.
-    - Save the discount settings and copy the discount code.
+!!! warning "The code stays invisible until checkout"
+    It appears neither in the quiz preview nor on the results page. Shopify applies it when the customer reaches checkout. To tell the customer about it, [show it as text](#show-the-code-as-text) as well.
+1. **Open `Discounts` in your Shopify admin and click `Create discount`.**
+2. **Choose the kind of discount, such as a percentage or a fixed amount.**
+3. **Name the code, for example `quiz123`, and set the amount.**
+4. **Choose which products it applies to, then save it and copy the code.**
     ![how to add discount in shopify](https://loom.com/i/f7b4f7a482ea4dab8c0b23370bce4c68?workflows_screenshot=true)
-2. **Configuring the Discount code in Quiz results Page**: Configure the code on the results page, so it applies at checkout.
-    - Open the RevenueHunt Quizzes app and open your quiz by clicking `Customize`.
-    - Navigate to the ['Results page > Results page settings'](/reference/quiz-builder/results-page/#results-page-settings) by clicking on the Results page name.
-        ![Results Page settings panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
-    - Scroll to the `Discount code` settings section.
-        ![Discount code field in the Results Page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
-    - Paste the copied discount code from Shopify into the designated field.
+5. **Open your quiz in the app by clicking `Customize`.**
+6. **Click the results page name to open its [settings](/reference/quiz-builder/results-page/#results-page-settings).**
+    ![Results Page settings panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+7. **Scroll to `Discount code` and paste the code in.**
+    ![Discount code field in the Results Page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
     ![how to add discount automatic](https://loom.com/i/7ae5a8e6a81e4836a0c4c8e7fa9bd66f?workflows_screenshot=true)
-    - Save the changes with the top-right `Save` button to apply the discount code to the quiz results.
-3. **Testing the Discount code**: Test the live quiz to ensure the discount code is applied correctly at checkout.
-    - After setting up the discount code, visit your website and take a sample quiz.
-    - Proceed to the cart and then to checkout.
-    - Verify that the discount code `quiz123` is automatically applied to eligible products in the cart.
+8. **Click the top-right `Save` button.**
+9. **Take the live quiz through to checkout, and check the code is applied.**
     ![how to add discount automatic checkout](https://loom.com/i/79773fc2fa9241dab298e8de28aa1b35?workflows_screenshot=true)
-    !!! warning "Discount code only works on live quiz"
-        The discount code will not be visible on the quiz preview or the results page. It is applied automatically when the customer proceeds to Shopify checkout.
-### Discount code as text
-You can add a discount code as text within a [text block](/reference/quiz-builder/results-page/#text) on the Quiz results page. Users will be able to copy and paste the discount code at checkout.
-1. Open the [Results page](/reference/quiz-builder/results-page/).
-2. Click on `Add block`.
-3. Select `Text` block.
-4. Add the discount code to the text field.
-5. Save the changes with the top-right `Save` button.
+    The preview cannot show this, because the code is applied by Shopify checkout.
+Put the code in a [Text block](/reference/quiz-builder/results-page/#text) and the customer copies it at checkout.
+1. **Open the [Results page](/reference/quiz-builder/results-page/).**
+2. **Click `Add block` and select `Text`.**
+3. **Type the discount code into the text field.**
+4. **Click the top-right `Save` button.**
 ![how to add discount text block](/images/how_to_shopifyv2_add_discount_as_text.png)
-### Discount code with JavaScript
-!!! tip "Check JavaScript guide"
-    Check this article to learn how to add custom JavaScript to the results page: [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-You can use JavaScript to add a discount code to the results page.
-1. Open the [Results page](/reference/quiz-builder/results-page/).
-2. Open the Results page settings.
-3. Scroll down to the `Custom JavaScript` section.
-4. Ask your developer to use the `await Quiz.applyDiscountCode()` function to apply the discount code to the Custom JavaScript block.
-    !!! tip "Get help with custom JavaScript"
-        Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
-5. Save the changes with the top-right `Save` button.
-!!! info "Products Discounted in Shopify Products"
-    If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
-You can put the discount code in the follow-up email that carries the quiz results. The customer can then copy the code and paste it at checkout.
-Go to [Quiz settings](/reference/quiz-builder/quiz-settings/), open the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab, and add your discount code to the message.
-!!! tip
-    To set up and customize the quiz result email, see [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/).
-Yes. Send the customer to one of two results pages, depending on whether they answer the email question. The default page carries no discount, and the second page carries the discount code.
-1. **Create multiple results pages**: Go to [`Results Page Settings -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click `Activate`. A second results page is added.
+A question works the same way, if you would rather promise the discount before the customer finishes.
+1. **Open the [Results page](/reference/quiz-builder/results-page/) and open its settings.**
+2. **Scroll to `Custom JavaScript`.**
+3. **Ask your developer to call `await Quiz.applyDiscountCode()` there.**
+    !!! tip "Quiz Copilot can write it for you"
+        Click `✨Get help with custom JavaScript` to open the Quiz Copilot chat.
+4. **Click the top-right `Save` button.**
+See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for what custom JavaScript can reach.
+The result email can carry the discount code, for the customer to copy and paste at checkout.
+1. **Open [Quiz settings](/reference/quiz-builder/quiz-settings/).**
+2. **Go to the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab.**
+3. **Write the discount code into the message.**
+!!! tip "Setting the email up in the first place"
+    See [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/).
+Send the customer to one of two results pages, depending on whether they answer the email question. The first page carries no discount, and the second carries the code.
+1. **Go to [`Results Page Settings -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click `Activate`.** A second results page is added.
     ![Multiple Results Pages activated in the Results Page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
-2. **Add the discount code to Results page 2 only**: Leave *Results page 1* as the default. Open *Results page 2* settings, go to the `Discount code` section and paste your Shopify code. Create it in Shopify first, as [Set up discount on the results page](#set-up-discount-on-the-results-page) describes.
-3. **Add a discount question**: In the [Quiz builder](/reference/quiz-builder/), add a `Yes` or `No` choice question asking whether the customer wants a discount.
+2. **Open *Results page 2* settings, go to `Discount code` and paste your Shopify code in.** Leave *Results page 1* without one. See [Apply the code automatically at checkout](#apply-the-code-automatically-at-checkout).
+3. **In the [Quiz builder](/reference/quiz-builder/), add a `Yes` or `No` question asking whether the customer wants a discount.**
     !!! example "Sample question"
         Question: Would you like a discount?
         - Choice 1: Yes
         - Choice 2: No
-4. **Add an email question**: Add an email question so customers can leave their email.
+4. **Add an email question after it.**
     ![Question types menu in the Quiz builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
-5. **Add Jump logic to the discount question**: Open the question's `Conditional logic` and add a rule:
-    - If the customer answers `Yes`, they continue to the email question.
-    - If the customer answers `No`, they jump straight to *Results page 1 (no discount)*.
+5. **Open `Conditional logic` on the discount question and add two jump rules.**
     !!! example "Two rules on the discount question"
-        - IF the answer to `Do you want a discount?` IS `Yes` THEN jump to `Question: What is your email?`
-        - `+ Add another rule (OR)`, then IF the answer to `Do you want a discount?` IS `No` THEN jump to `Results page 1`.
+        - IF the answer to `Would you like a discount?` IS `Yes` THEN jump to the email question.
+        - Click `+ Add another rule (OR)`, then IF the answer IS `No` THEN jump to `Results page 1`.
         Leave `Default destination` on the email question, so an unanswered question still moves the customer forward.
-6. **Add Jump logic to the email question**: Set the email question to `Always jump to` *Results page 2 (discount)*. Everyone who leaves an email then lands on the page with the code.
+6. **Set the email question to jump to *Results page 2*.**
     !!! example "One rule on the email question"
-        Set `Default destination` to `Results page 2`. No condition is needed here, because every customer who reaches this question is being sent to the same place.
-7. **Save and test**: Save your changes and test the flow with the `Preview` button.
-!!! tip "Simpler alternative"
-    If the discount does not have to be blocked completely, add the code as a Text block on the results page. Then use [Display logic](/how-to-guides/use-display-logic/) to show that block only to customers who answered a certain way.
-!!! info "Products discounted in Shopify"
-    If you have a discount applied to certain products in your store, these reduced prices are reflected on the quiz results page automatically.
+        Set `Default destination` to `Results page 2`. No condition is needed, because everyone who reaches this question goes to the same place.
+7. **Click `Save`, then test the whole flow with `Preview`.**
+!!! tip "A simpler alternative"
+    The discount does not always have to be withheld completely. Put the code in a Text block on one results page, then show that block with [Display logic](/how-to-guides/use-display-logic/), based on how the customer answered.
 
 
 
@@ -6176,62 +6165,56 @@ This article explains how to add JavaScript to quiz questions and the results pa
 !!! warning "For developers and Shopify Partners"
     This article is for developers and Shopify Partners. If you do not know the basics of JavaScript and the Vue.js framework, ask a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
-## Understanding JavaScript, HTML, and Liquid
+## What you can use
 
-Several technologies can customize a quiz, and which ones are available depends on your platform.
+Which technologies a quiz can use depends on the version you are running.
 
-| Technology | Description | What you can use it for |
-|------------|-------------|-------------------------|
-| JavaScript | A programming language that adds interactivity and dynamic behavior to web pages. | Adding custom logic and calculations (like BMI calculators) |
-| HTML | A markup language that defines the structure and content of web pages. | Adding custom content blocks and layouts |
-| Liquid | A templating language specific to Shopify that allows dynamic content insertion. | Displaying quiz answers and user responses dynamically |
-
-**Platform support**
-
-## Access the custom JavaScript console
+## Where the code goes
 
 You can add custom JavaScript to the quiz results page and to the quiz questions.
 
-### Results page
+### The results page console
 
-### Quiz questions
+### The question console
 
-### Via custom HTML block
-
-??? info "Use Custom HTML Blocks when"
-
-    - You want JavaScript to run in a **specific location** in your layout
-    - You need to **combine HTML, Liquid, and JavaScript** together
-    - You want **different scripts for different content blocks**
-    - You are adding **a small script for one context**, such as tracking a single element
-    - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
+### A custom HTML block
 
 ## Find block and question IDs
 
-## Console.log(x) function
+## The JavaScript API
 
-## Customization examples
+### What your code receives
 
-### Example 1: trigger functions from an element in the results page
+### Debug your code
 
-### Example 2: insert calculations
+## Examples
 
-### Example 3: multiple-choice questions: select all, select none
+### Trigger a function from an element on the results page
 
-### Example 4: redirect to translated product URL
+### Insert a calculation
 
-### Other examples
+### Select all or none in a multiple-choice question
+
+### Redirect to a translated product URL
+
+### More examples
 
 
 
+
+### Common patterns
 
 ---
 This article explains how to add custom JavaScript to a RevenueHunt quiz, with worked examples.
 
 --- Shopify Specific Content ---
 
-**Available**: JavaScript + HTML + Liquid
-Use Liquid when you need Shopify data or server-rendered dynamic content. Use JavaScript for interactivity and logic.
+| Technology | What it is | Use it for |
+|---|---|---|
+| JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+| HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+| Liquid | Shopify's templating language, rendered before the page reaches the browser | Putting quiz answers and store data straight into the markup |
+Reach for Liquid when the value is known before the page loads, such as a product field or an answer already given. Reach for JavaScript when something has to change while the customer is on the page.
 ??? info "Use JavaScript on Results page when you want to:"
     - Access all quiz data - See all answers, scores, and variables after quiz completion
     - Work with recommendations - Access and manipulate recommended products/collections
@@ -6268,7 +6251,13 @@ Use Liquid when you need Shopify data or server-rendered dynamic content. Use Ja
         Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 5. Remember to click the `Save` button to update the preview/live quiz.
 You can also add custom JavaScript directly in HTML blocks throughout your quiz. These blocks support both JavaScript and Liquid templating for dynamic content.
-#### Results page
+??? info "When a Custom HTML block is the right place"
+    - You want JavaScript to run in a **specific location** in your layout
+    - You need to **combine HTML, Liquid, and JavaScript** together
+    - You want **different scripts for different content blocks**
+    - You are adding **a small script for one context**, such as tracking a single element
+    - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
+**On the results page**
 1. Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.
 2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.
 3. Add your JavaScript using `<script>` tags:
@@ -6289,7 +6278,7 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
 5. Click `Save` to update the preview/live quiz.
 !!! tip "Run the custom code"
     `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
-#### Questions
+**In a question**
 1. Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.
 2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.
 3. Add your JavaScript using `<script>` tags:
@@ -6313,7 +6302,7 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
 5. Click `Save` to update the preview/live quiz.
 !!! tip "Run the custom code"
     `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
-#### Slot item composition
+**In a slot item composition**
 1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
 2. Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
 3. Add or edit a **Custom HTML block** within a product slot.
@@ -6331,7 +6320,12 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     }
     </script>
     ```
-5. Use Liquid variables like `{{ item }}` to access the current product/variant/collection object.
+5. Use the two Liquid variables a slot provides.
+    | Variable | What it holds |
+    |---|---|
+    | `item` | The Shopify product, variant or collection object |
+    | `itemType` | `'product'`, `'variant'` or `'collection'` |
+    `itemType` tells you which kind of object `item` is, so one block can render all three.
 6. Click `Save` to update the preview/live quiz.
 !!! tip "Run the custom code"
     `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
@@ -6363,7 +6357,7 @@ Custom JavaScript needs the IDs, also called references, of your questions and b
         ```
         Then open your browser Console (F12 → Console tab) and take the quiz. It lists every block ID and its value.
 In the `💎Built for Shopify` version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
-### The `quiz` object
+**The `quiz` object**
 Your JavaScript code has access to the `quiz` object containing all the current state data:
 **Quiz Context Properties**
 | Property | Description |
@@ -6416,7 +6410,7 @@ Each answer object contains:
 | `quiz.resultContext.slotItems` | Object of recommended products/collections keyed by Shopify GID |
 | `quiz.resultContext.cartItems` | Array of items currently in cart |
 | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
-### Actions (methods)
+**Actions**
 **Navigation Actions**
 | Method | Description |
 |--------|-------------|
@@ -6439,14 +6433,14 @@ RevenueHunt's quiz-specific cart bridge is:
 | Method | Description |
 |--------|-------------|
 | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async, results page) |
-### DOM helpers
+**DOM helpers**
 Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 | Method | Description |
 |--------|-------------|
 | `window.quiz.querySelector(selector)` | Find element in quiz |
 | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
 | `window.quiz.getElementById(id)` | Find element by ID |
-### Global event handler
+**The global change handler**
 ```javascript
 window.quiz.onChange = (event) => {
   // event.blockRef - Block that changed
@@ -6454,162 +6448,6 @@ window.quiz.onChange = (event) => {
   // event.selectedLabel - Label of selected choice
 };
 ```
-### JavaScript examples
-**Conditional navigation based on score:**
-```javascript
-if ((quiz.variables.scores.sensitive ?? 0) > 80) {
-  actions.overrideNext('q-sensitive-routine');
-}
-```
-**Update element based on answer:**
-```javascript
-const name = quiz.answers.byBlock['qbi-name']?.value || 'Guest';
-const el = window.quiz.getElementById('greeting');
-if (el) el.textContent = `Welcome, ${name}!`;
-```
-**Auto-advance based on selection:**
-```javascript
-window.quiz.onChange = (event) => {
-  if (event.blockRef === 'qbc-skintype' && event.selectedLabel === 'Oily') {
-    actions.overrideNext('q-oily-concerns');
-  }
-};
-```
-**Batch update answers:**
-```javascript
-const age = parseInt(quiz.answers.byBlock['qbi-age']?.value || '0');
-actions.setAnswers({
-  'qbc-age-group': age < 25 ? 'young' : 'mature',
-  'qbc-eligible': age >= 18 ? 'yes' : 'no'
-});
-```
-**Capture URL parameters for webhooks:**
-```javascript
-const urlParams = new URLSearchParams(window.location.search);
-actions.setAnswers({
-  'hidden-utm-source': urlParams.get('utm_source') || '',
-  'hidden-utm-medium': urlParams.get('utm_medium') || '',
-  'hidden-utm-campaign': urlParams.get('utm_campaign') || '',
-  'hidden-full-url': window.location.href
-});
-```
-These synthetic answers appear in the `answersByBlock` payload of your webhook, so attribution data travels with the quiz response.
-**Use Shopify AJAX cart APIs, then sync the quiz UI (Results page):**
-```javascript
-if ((quiz.variables.scores.premium ?? 0) > 80) {
-  await fetch(`${window.Shopify.routes.root}cart/add.js`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      items: [{ id: 12345678901234, quantity: 1 }]
-    })
-  });
-  await actions.syncCart();
-}
-```
-**Apply discount based on cart value (Results page):**
-```javascript
-const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
-if (itemCount >= 3) {
-  await fetch(`${window.Shopify.routes.root}cart/update.js`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      discount: 'BUNDLE20'
-    })
-  });
-}
-```
-**Save selected quiz data to Shopify note + cart attributes:**
-```javascript
-if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
-  await fetch(`${window.Shopify.routes.root}cart/update.js`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      note: 'Quiz completed',
-      attributes: {
-        __result_ref: quiz.currentResult?.ref || '',
-        skincare_segment: quiz.variables.highest || ''
-      }
-    })
-  });
-}
-```
-RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
-In RevenueHunt storefront experiments, the hidden/private cart-attribute pattern that works in practice is the `__prefix` convention. Leave off the prefix for attributes you want visible in Shopify cart or order surfaces.
-**Keep RevenueHunt cart UI in sync after native line-item mutations:**
-```javascript
-await fetch(`${window.Shopify.routes.root}cart/change.js`, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ id: 12345678901234, quantity: 0 })
-});
-await window.quiz.syncCart();
-```
-Call `syncCart()` after native `cart/add.js`, `cart/change.js`, or `cart/clear.js` so the quiz result UI replaces its local cart state with Shopify's current cart. For `cart/update.js` note/attribute/discount updates, sync is usually not required unless your custom quiz UI depends on refreshed cart state immediately.
-**Add all recommended items with Shopify `cart/add.js`:**
-```javascript
-const toNumericVariantId = (gid) => {
-  const raw = String(gid || '').split('/').pop();
-  return raw ? Number(raw) : null;
-};
-const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
-  .map((item) => {
-    const variantGid = item?.__typename === 'ProductVariant'
-      ? item.id
-      : item?.variants?.edges?.[0]?.node?.id;
-    const variantId = toNumericVariantId(variantGid);
-    return variantId ? { id: variantId, quantity: 1 } : null;
-  })
-  .filter(Boolean);
-if (itemsToAdd.length > 0) {
-  await fetch(`${window.Shopify.routes.root}cart/add.js`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ items: itemsToAdd })
-  });
-  await actions.syncCart();
-}
-```
-To add products from one slot only, put that logic in the Custom HTML or Slot Item Composition of the slot. The code is then already scoped to the right item.
-**Compact Shopify cart recipes:**
-```javascript
-// Read cart
-const cart = await fetch(`${window.Shopify.routes.root}cart.js`).then((r) => r.json());
-// Remove one existing line item by key
-const line = cart.items.find((item) => item.variant_id === 12345678901234);
-if (line?.key) {
-  await fetch(`${window.Shopify.routes.root}cart/change.js`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id: line.key, quantity: 0 })
-  });
-  await actions.syncCart();
-}
-// Clear cart
-await fetch(`${window.Shopify.routes.root}cart/clear.js`, { method: 'POST' });
-await actions.syncCart();
-```
-**Legacy RevenueHunt cart helpers:**
-Older quiz code may still use `actions.addToCart(...)`, `actions.addAllToCart()`, `actions.applyDiscountCode(...)`, or `actions.updateCartAttributes(...)`. These remain useful for backwards compatibility, but for new Shopify cart work, prefer native Shopify Ajax endpoints plus `syncCart()`.
-**Track quiz completion with analytics (Results page):**
-```javascript
-// Send quiz completion data to your analytics
-const data = {
-  responseId: quiz.metadata.responseId,
-  skinType: quiz.variables.highest,
-  scores: quiz.variables.scores,
-  recommendedProducts: Object.keys(quiz.resultContext.slotItems || {}).length
-};
-// Example: Send to your analytics endpoint
-fetch('/api/quiz-completed', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(data)
-});
-```
-### Debugging
 To explore available data, you can add a `debugger` statement to your JavaScript code:
 ```javascript
 debugger;
@@ -6854,6 +6692,160 @@ In this version of the RevenueHunt app, the [App settings > Shopify Markets tab]
       });
     }
     ```
+**Conditional navigation based on score:**
+```javascript
+if ((quiz.variables.scores.sensitive ?? 0) > 80) {
+  actions.overrideNext('q-sensitive-routine');
+}
+```
+**Update element based on answer:**
+```javascript
+const name = quiz.answers.byBlock['qbi-name']?.value || 'Guest';
+const el = window.quiz.getElementById('greeting');
+if (el) el.textContent = `Welcome, ${name}!`;
+```
+**Auto-advance based on selection:**
+```javascript
+window.quiz.onChange = (event) => {
+  if (event.blockRef === 'qbc-skintype' && event.selectedLabel === 'Oily') {
+    actions.overrideNext('q-oily-concerns');
+  }
+};
+```
+**Batch update answers:**
+```javascript
+const age = parseInt(quiz.answers.byBlock['qbi-age']?.value || '0');
+actions.setAnswers({
+  'qbc-age-group': age < 25 ? 'young' : 'mature',
+  'qbc-eligible': age >= 18 ? 'yes' : 'no'
+});
+```
+**Capture URL parameters for webhooks:**
+```javascript
+const urlParams = new URLSearchParams(window.location.search);
+actions.setAnswers({
+  'hidden-utm-source': urlParams.get('utm_source') || '',
+  'hidden-utm-medium': urlParams.get('utm_medium') || '',
+  'hidden-utm-campaign': urlParams.get('utm_campaign') || '',
+  'hidden-full-url': window.location.href
+});
+```
+These synthetic answers appear in the `answersByBlock` payload of your webhook, so attribution data travels with the quiz response.
+**Use Shopify AJAX cart APIs, then sync the quiz UI (Results page):**
+```javascript
+if ((quiz.variables.scores.premium ?? 0) > 80) {
+  await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      items: [{ id: 12345678901234, quantity: 1 }]
+    })
+  });
+  await actions.syncCart();
+}
+```
+**Apply discount based on cart value (Results page):**
+```javascript
+const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
+if (itemCount >= 3) {
+  await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      discount: 'BUNDLE20'
+    })
+  });
+}
+```
+**Save selected quiz data to Shopify note + cart attributes:**
+```javascript
+if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+  await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      note: 'Quiz completed',
+      attributes: {
+        __result_ref: quiz.currentResult?.ref || '',
+        skincare_segment: quiz.variables.highest || ''
+      }
+    })
+  });
+}
+```
+RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
+In RevenueHunt storefront experiments, the hidden/private cart-attribute pattern that works in practice is the `__prefix` convention. Leave off the prefix for attributes you want visible in Shopify cart or order surfaces.
+**Keep RevenueHunt cart UI in sync after native line-item mutations:**
+```javascript
+await fetch(`${window.Shopify.routes.root}cart/change.js`, {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ id: 12345678901234, quantity: 0 })
+});
+await actions.syncCart();
+```
+Call `syncCart()` after native `cart/add.js`, `cart/change.js`, or `cart/clear.js` so the quiz result UI replaces its local cart state with Shopify's current cart. For `cart/update.js` note/attribute/discount updates, sync is usually not required unless your custom quiz UI depends on refreshed cart state immediately.
+**Add all recommended items with Shopify `cart/add.js`:**
+```javascript
+const toNumericVariantId = (gid) => {
+  const raw = String(gid || '').split('/').pop();
+  return raw ? Number(raw) : null;
+};
+const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
+  .map((item) => {
+    const variantGid = item?.__typename === 'ProductVariant'
+      ? item.id
+      : item?.variants?.edges?.[0]?.node?.id;
+    const variantId = toNumericVariantId(variantGid);
+    return variantId ? { id: variantId, quantity: 1 } : null;
+  })
+  .filter(Boolean);
+if (itemsToAdd.length > 0) {
+  await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ items: itemsToAdd })
+  });
+  await actions.syncCart();
+}
+```
+To add products from one slot only, put that logic in the Custom HTML or Slot Item Composition of the slot. The code is then already scoped to the right item.
+**Compact Shopify cart recipes:**
+```javascript
+// Read cart
+const cart = await fetch(`${window.Shopify.routes.root}cart.js`).then((r) => r.json());
+// Remove one existing line item by key
+const line = cart.items.find((item) => item.variant_id === 12345678901234);
+if (line?.key) {
+  await fetch(`${window.Shopify.routes.root}cart/change.js`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id: line.key, quantity: 0 })
+  });
+  await actions.syncCart();
+}
+// Clear cart
+await fetch(`${window.Shopify.routes.root}cart/clear.js`, { method: 'POST' });
+await actions.syncCart();
+```
+**Legacy RevenueHunt cart helpers:**
+Older quiz code may still use `actions.addToCart(...)`, `actions.addAllToCart()`, `actions.applyDiscountCode(...)`, or `actions.updateCartAttributes(...)`. These remain useful for backwards compatibility, but for new Shopify cart work, prefer native Shopify Ajax endpoints plus `syncCart()`.
+**Track quiz completion with analytics (Results page):**
+```javascript
+// Send quiz completion data to your analytics
+const data = {
+  responseId: quiz.metadata.responseId,
+  skinType: quiz.variables.highest,
+  scores: quiz.variables.scores,
+  recommendedProducts: Object.keys(quiz.resultContext.slotItems || {}).length
+};
+// Example: Send to your analytics endpoint
+fetch('/api/quiz-completed', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(data)
+});
+```
 
 
 
@@ -10628,7 +10620,7 @@ The app cannot calculate a result from a number on its own. A quiz that works ou
 
 The script reads the quiz answers, works the result out in JavaScript, then writes it into an HTML element on the results page.
 
-[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has a worked BMI calculator.
+[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#insert-a-calculation) has a worked BMI calculator.
 
 ---
 
@@ -19277,6 +19269,7 @@ The `quiz` parameter contains all the data from the Liquid context above, plus:
 | `quiz.metadata.responseId` | Unique response identifier |
 | `quiz.metadata.language` | Quiz language code |
 | `quiz.metadata.inBuilder` | `true` if in builder preview |
+| `quiz.metadata.isStoreRenderer` | `true` when the quiz renders inside the storefront, where the Shopify Ajax cart endpoints are reachable |
 #### Actions (methods)
 | Method | Description |
 |--------|-------------|
@@ -19287,6 +19280,7 @@ The `quiz` parameter contains all the data from the Liquid context above, plus:
 | `actions.setAnswers(obj)` | Batch update multiple answers |
 | `actions.clearAnswer(blockRef)` | Clear an answer |
 | `actions.removeAnswer(blockRef)` | Remove answer completely |
+| `actions.updateCartAttributes(attrs)` | Write attributes onto the Shopify cart |
 #### DOM helpers
 Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 | Method | Description |
@@ -20235,6 +20229,7 @@ The `quiz` parameter contains all the data from the Liquid context above, plus:
 | `quiz.metadata.responseId` | Unique response identifier |
 | `quiz.metadata.language` | Quiz language code |
 | `quiz.metadata.inBuilder` | `true` if in builder preview |
+| `quiz.metadata.isStoreRenderer` | `true` when the quiz renders inside the storefront, where the Shopify Ajax cart endpoints are reachable |
 #### Actions (methods)
 Results pages have additional cart-related actions:
 | Method | Description |
@@ -20242,6 +20237,9 @@ Results pages have additional cart-related actions:
 | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async) |
 | `actions.setAnswer(blockRef, value)` | Set answer value |
 | `actions.clearAnswer(blockRef)` | Clear an answer |
+!!! note "Older cart helpers"
+    Existing quizzes may still call `actions.addToCart()`, `actions.addAllToCart()`, `actions.applyDiscountCode()` or `actions.updateCartAttributes()`. They still work, and they are kept for quizzes already built on them.
+    For new work, use Shopify's own [Ajax Cart API](https://shopify.dev/docs/api/ajax/reference/cart) and then call `actions.syncCart()`, so the quiz result UI picks up the cart Shopify actually holds.
 #### DOM helpers
 Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 | Method | Description |

@@ -5778,64 +5778,71 @@ icon: material/ab-testing
 
 # How to A/B Test Your Product Recommendation Quiz
 
-A/B testing, also called split testing, lets you compare two versions of a quiz to see which performs better.
+An A/B test, also called a split test, runs two versions of a quiz side by side and keeps whichever performs better.
 
-This article sets up an A/B test by hand, using the create, duplicate and edit features of the RevenueHunt app.
+The app has no A/B testing feature of its own. You build the test by hand: copy the quiz, change one thing in the copy, publish both, and split your traffic between them.
 
-Ensure you have:
+!!! info "Before you start"
 
-- Access to the RevenueHunt app where you can create and edit quizzes.
-- Basic understanding of [how to publish quizzes](/how-to-guides/publish-quiz/) on your website.
-- Access to your website backend, or a platform that lets you edit HTML and JavaScript for traffic distribution. This is optional, and only for advanced routing.
-- An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/), to measure quiz performance.
+    - A quiz you are ready to test, and somewhere to [publish it](/how-to-guides/publish-quiz/).
+    - An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+    - For a random split, access to the code of your website, or a developer who has it.
 
-## Step 1: create two versions of your quiz
+## Build the two versions
 
-- **Design Your Original Quiz**: Create your quiz, Version A, in the RevenueHunt app. Use the content and design you expect to perform best.
-- **Duplicate and Modify for Version B**: Use the duplicate feature on the dashboard to copy Version A. Change one element, such as the title, the color scheme or the question order. Keep every other element the same, so the test measures that one change. Publish with the top-right `Publish` button.
+## Publish both versions and split the traffic
 
-## Step 2: publish both versions on your website
+There are two routes. Which one fits depends on whether you can edit the code of your website.
 
-There are two ways to put both versions on your website. Which one suits you depends on whether you can edit your site code, and on how precise the test needs to be.
+**A page each, and no code**
 
-### No coding solution: basic A/B testing
+1. **Publish version A as an [inline quiz on its own page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).**
 
-The simplest A/B test publishes each version on its own page in your store. This needs no code:
+2. **Publish version B the same way, on a second page.**
 
-- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page.
+3. **Send traffic to both pages.** Link one from your navigation and the other from an email, or point two ad campaigns at them.
 
-You can then link to each version from anywhere on your website, or from an external marketing channel.
+This split is only as even as the traffic you send. It suits a test where you can aim comparable audiences at each page.
 
-### Coding solution: advanced A/B testing
+**A random split, and some code**
 
-To randomize which version each customer sees, you need some code:
+1. **Create one entry point, such as a button or a link.** See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
 
-- **Link Popup**: Create one entry point, such as a button or a link, that sends the customer to either Version A or Version B. A developer has to write the logic that picks the link for each customer. For the setup steps, see [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
+2. **Ask a developer to add a snippet that sends each new customer to version A or version B at random.**
 
-## Step 3: evenly distribute traffic between quizzes
+3. **Ask them to keep each customer on the same version.** Someone who comes back and gets re-randomized blurs the two sets of figures into each other.
 
-To manually distribute traffic:
+This route splits the traffic evenly, and it is the one to use when both versions face the same audience.
 
-- For Basic Routing: Give each version its own URL, and send customers to one or the other from your website links and promotions.
-- For Advanced Routing: Add a JavaScript snippet or server-side logic to your landing page. It serves Version A or Version B at random to each new customer.
+## Measure the result
 
-## Step 4: track and analyze results
+## Apply what you learned
 
-- **Set Up Analytics**: Give each version its own tracking. The [Metrics](/reference/quiz-builder/metrics/) panel already records quiz starts, completions, conversion rate and drop-off. For more, connect each quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
-- **Analyze Performance**: Once enough traffic has reached both versions, compare the data against the goal you set, such as a higher completion rate.
+Fold the winning change into your main quiz, then pick the next single element to test.
 
-## Step 5: implement improvements
+!!! tip "What makes a test worth trusting"
 
-Decide which version performs better. Put the winning elements into your main quiz, and pick a new variable for the next test.
-
-## Tips for effective A/B testing
-
-- Test one variable at a time to understand its impact clearly.
-- Collect a large enough sample before you draw a conclusion.
-
+    - Change one element per test.
+    - Run both versions over the same period. A week measured against a weekend is not a comparison.
+    - Collect a sample large enough that a few responses either way could not flip the result.
 
 ---
+
 This article explains how to A/B test a quiz in the RevenueHunt app. It covers creating two versions, publishing both, splitting traffic between them and comparing the results.
+
+--- WooCommerce Specific Content ---
+
+1. **Build the quiz you expect to perform best.** This is version A.
+2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Make a copy`.** The copy is version B.
+3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
+4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz.
+!!! warning "One element per test"
+    Change two things at once and a difference in the results cannot tell you which one caused it.
+1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or total cart value: pick one.
+2. **Read the built-in figures for each version.** Open the [`Metrics`](/reference/quiz-builder/metrics/) tab in the Quiz Builder, which records starts, completions, completion rate and total cart value for that quiz.
+3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+5. **Compare the two versions on the number you picked.**
 
 
 
@@ -5849,29 +5856,23 @@ description: "Learn how to add and adjust images in your RevenueHunt quiz to imp
 icon: material/image-area
 ---
 
-
 # How to Add and Adjust Images in the Quiz
 
+A quiz can carry images in five places, and each one is set up differently.
 
-There are several ways you can add images to your quiz in the RevenueHunt app.
-
-This article explains how to add images to your quiz. It also covers how to optimize image quality.
-
+This article explains how to add each kind, and how to keep the images sharp on every screen.
 
 ## Images in the quiz
 
-There are the different ways you can add images to your quiz in the RevenueHunt app:
+- **[Quiz background image](#quiz-background-image)** sits behind the whole quiz. You upload it in the [Quiz design tab](/reference/quiz-builder/quiz-design/).
 
-- **[Quiz Background image](/how-to-guides/add-adjust-images/#quiz-background-image)** - You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
+- **[Question background or split image](#question-backgroundsplit-image)** sits behind one question, or beside it. You upload it in the [question settings](/reference/quiz-builder/questions/#question-settings).
 
-- **[Question Background/Split image](/how-to-guides/add-adjust-images/#question-backgroundsplit-image)** - You can upload a background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).
+- **[Image block](#image-blocks)** places a single picture inside a [question](/reference/quiz-builder/questions/) or on the [results page](/reference/quiz-builder/results-page/).
 
-- **[Image Block](/how-to-guides/add-adjust-images/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
+- **[Picture choice](#picture-choices)** gives every choice in a multiple-choice question its own image. See the [Picture choice block](/reference/quiz-builder/questions/#picture-choice).
 
-- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - A [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) lets you add an image to each choice in a multiple-choice question.
-
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - A [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) displays a product, variant or collection image on the results page.
-
+- **[Product image](#product-image)** comes from your catalog, and shows in a [Product, Variants or Collection block](/reference/quiz-builder/results-page/#product-product-variants-collections) on the results page.
 
 ### Quiz background image
 
@@ -5884,30 +5885,29 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 ### Product image
 
 ---
+
 This article explains how to add a background image, a question image, an image block, picture choices and a product image to a quiz. It also covers image quality.
 
 --- WooCommerce Specific Content ---
 
-You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
+The background image sits behind the whole quiz. You upload it in the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
 ![how_to_improve_image_quality_backgroudimagequiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
-1. Open your quiz and go to the [Quiz Design tab](/reference/quiz-builder/quiz-design/). It controls how the Questions and the Results Page look.
-2. The theme editor lets you pick a color palette, choose a font and add a default background image.
+1. **Open your quiz and go to the [Quiz Design tab](/reference/quiz-builder/quiz-design/).** It controls how the Questions and the Results Page look.
+2. **Open the theme editor.** It holds the color palette, the font and the background image.
     ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
-    `Background` - Opens a color menu for the quiz background. To use a custom color, paste its hex code, for example #ecb3b3.
-    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-    `Background Opacity` - A slider that sets the opacity of the uploaded background image.
-!!! tip "Background image Tip"
-    The quiz uses a **responsive design**, so it adjusts to desktop, tablet and mobile screens. **A background image can crop or scale differently on each device**.
-    To keep the background looking right on every device:
-    ✅ Use high-resolution images of **max. 1000px x 1000px size**.
-    ✅ Avoid images with text, because it can be cut off or hidden
-    ✅ If needed, keep important elements (like logos or text) centered
-    ✅ Use soft, neutral backgrounds that do not clash with the quiz content
-    ✅ Test your quiz on different devices to see how the image behaves
-    A simple background usually works best.
-!!! tip "Higher resolution images"
-    You can use [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background image for the whole quiz in a desired resolution.
-    Sample code:
+3. **Click `Background` and pick the background color.** To use a color of your own, paste its hex code, for example #ecb3b3.
+4. **Click `Add` next to `Background image` and upload the image.** It can be up to 1000x1000px and 2MB. A further menu appears once an image is there.
+5. **Set how strongly it shows with the `Background Opacity` slider.**
+!!! tip "Background images on small screens"
+    The quiz is responsive, so it adjusts to desktop, tablet and mobile screens. The same image can crop or scale differently on each one.
+    - Use a high-resolution image, up to 1000x1000px and 2MB.
+    - Avoid images with text in them, because the text can be cut off.
+    - Keep anything that matters, such as a logo, near the center.
+    - Choose soft, neutral pictures that do not compete with the quiz text.
+    - Open the quiz on a phone and a desktop before you publish it.
+    A plain background usually survives every screen size best.
+!!! tip "A background image at a higher resolution"
+    The [Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) in the Quiz Design tab can load a background image at whatever resolution you want.
     ```css
     .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
         background-image: url('https://your-image-url.com/image.jpg');
@@ -5915,38 +5915,36 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
         background-position: center;
     }
     ```
-!!! tip "Different background images for mobile and desktop"
-    With Custom CSS in [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme), you can also upload a different background image for mobile and desktop. For this your developer can use CSS media queries to target different screen sizes.
-    Sample code:
-    ```html
+!!! tip "A different image on mobile and desktop"
+    The [Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) can also load a different image per screen size. A developer writes a media query for the smaller screen.
+    ```css
     @media (max-width: 768px) {
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image-mobile.jpg');
         }
     }
     ```
-You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).
+Each question can carry its own image, either behind the question or beside it. You upload it in the [question settings](/reference/quiz-builder/questions/#question-settings).
 ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
-1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the question you want to add an image to.
-2. Click on the `wrench` icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-3. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
-    `above` - Places the uploaded image above the question, on top of the slide.
-    `below` - Places the uploaded image below the question, above the choices.
-    `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
-    `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
-!!! tip "Uploaded image Tip"
-    The quiz uses a **responsive design**, so it adjusts to desktop, tablet and mobile screens. **An uploaded image can crop or scale differently on each device**.
-    To keep an uploaded image looking right on every device:
-    ✅ Use high-resolution images of **max. 1000px x 1000px size**.
-    ✅ Avoid images with text, because it can be cut off or hidden
-    ✅ If needed, keep important elements (like logos or text) centered
-    ✅ Use soft, neutral backgrounds that do not clash with the quiz content
-    ✅ Test your quiz on different devices to see how the image behaves
-    A simple background usually works best.
-!!! tip "Higher resolution images"
-    Use the [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) to upload a background or split image for the whole quiz at the resolution you want.
-    Sample code:
+1. **Go to the [Quiz Builder](/reference/quiz-builder/) and click the question you want to illustrate.**
+2. **Click the `wrench` icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).**
+3. **Find the `Image` section and click `Add` to upload the image.** It can be up to 1000x1000px. A further menu appears once an image is there.
+4. **Choose where the image goes.**
+    `above` - Above the question, at the top of the slide.
+    `below` - Below the question, above the choices.
+    `background` - Behind the whole slide. This overrides the quiz background.
+    `split` - Beside the question, dividing the slide in two. On a phone the image moves above the question.
+5. **Set how strongly it shows with the `Image Opacity` slider.**
+!!! tip "Question images on small screens"
+    The quiz is responsive, so it adjusts to desktop, tablet and mobile screens. The same image can crop or scale differently on each one.
+    - Use a high-resolution image, up to 1000x1000px and 2MB.
+    - Avoid images with text in them, because the text can be cut off.
+    - Keep anything that matters, such as a logo, near the center.
+    - Choose soft, neutral pictures that do not compete with the quiz text.
+    - Open the quiz on a phone and a desktop before you publish it.
+    A plain background usually survives every screen size best.
+!!! tip "A background or split image at a higher resolution"
+    The [Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) in the Quiz Design tab can load a background image at whatever resolution you want.
     ```css
     .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
         background-image: url('https://your-image-url.com/image.jpg');
@@ -5954,76 +5952,73 @@ You can upload a different background image to each question in the quiz via the
         background-position: center;
     }
     ```
-!!! tip "Different images for mobile and desktop"
-    With Custom CSS in [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme), you can also upload different images for mobile and desktop. For this your developer can use CSS media queries to target different screen sizes.
-    Sample code:
-    ```html
+!!! tip "A different image on mobile and desktop"
+    The [Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) can also load a different image per screen size. A developer writes a media query for the smaller screen.
+    ```css
     @media (max-width: 768px) {
         .lq-bg-img, .lq-bg-img-only, .widget .lq-bg-img, .widget .lq-bg-img-only {
             background-image: url('https://your-image-url.com/image-mobile.jpg');
         }
     }
     ```
-**QUESTIONS**
-You can upload images to quiz questions via the [question settings](/reference/quiz-builder/questions/#picture-choice) or using [Markdowns](/how-to-guides/use-markdown/) in the Question Description.
+**In a question**
+You can put an image in a question through the [question settings](/reference/quiz-builder/questions/#question-settings), or with [Markdown](/how-to-guides/use-markdown/) in the question description.
 ![how_to_improve_image_quality_imageblock](/images/how_to_improve_image_quality_imageblock.png)
-**Add Image via Question settings**
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Click on the question you want to add an image to.
-3. Click on the `wrench` icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-4. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question from your computer.
-5. Select the image orientation to be either `above`, `below`, `background` or `split`.
-6. Click `Publish` to save the changes.
-**Add Image via Markdown**
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Click on the question you want to add an image to.
-3. Click on the `wrench` icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-4. Activate the `question description` toggle.
-5. In the new text field that appears, add the following markdown code:
+*Through the question settings*
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Click the question you want to illustrate.**
+3. **Click the `wrench` icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).**
+4. **Find the `Image` section and click `Add` to upload the picture.**
+5. **Choose whether it goes `above`, `below`, in the `background` or in a `split`.**
+6. **Click the top-right `Publish` button.**
+*With Markdown*
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Click the question you want to illustrate.**
+3. **Click the `wrench` icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).**
+4. **Turn on the `question description` toggle.**
+5. **Write the image into the text field that appears.**
     ```markdown
     ![Image description](https://your-image-url.com/image.jpg)
     ```
-    Replace `https://your-image-url.com/image.jpg` with the URL of the image you want to upload.
-6. Click `Publish` to save the changes.
-**RESULTS PAGE**
-You can also upload images to the [Results page](/reference/quiz-builder/results-page/) with an Image Block, or with [Markdown](/how-to-guides/use-markdown/) in a Content block.
+    Replace the address with the address of your own image.
+6. **Click the top-right `Publish` button.**
+**On the Results Page**
+You can put an image on the [Results Page](/reference/quiz-builder/results-page/) with an Image Block, or with [Markdown](/how-to-guides/use-markdown/) in a Content block.
 ![how_to_improve_image_quality_imageblock_resultspage](/images/how_to_improve_image_quality_imageblock_resultspage.png)
-**Add Image via Image Block**
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Go the [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
-3. Click on the `+ Add block` button to see a list of available blocks.
-4. Click on `Image` block and a new block will be added to the results page.
-5. Click `Add` to upload an image from your computer. You can adjust the image opacity with the slider.
-6. Click `Publish` to save the changes.
-**Add Image via Markdown**
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Go the [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
-3. Click on the `+ Add block` button to see a list of available blocks.
-4. Select a `Content` block.
-5. In the new text field that appears, add the following markdown code:
+*With an Image Block*
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Go to the [Results Page](/reference/quiz-builder/results-page/) tab.**
+3. **Click `+ Add block`.**
+4. **Click `Image`.** The block is added to the Results Page.
+5. **Click `Add` and upload the picture.** The slider next to it sets how strongly the image shows.
+6. **Click the top-right `Publish` button.**
+*With Markdown*
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Go to the [Results Page](/reference/quiz-builder/results-page/) tab.**
+3. **Click `+ Add block` and select a `Content` block.**
+4. **Write the image into the text field that appears.**
     ```markdown
     ![Image description](https://your-image-url.com/image.jpg)
     ```
-    Replace `https://your-image-url.com/image.jpg` with the URL of the image you want to upload.
-6. Click `Publish` to save the changes.
-A Picture Choice block lets you add an image to each choice in a multiple-choice question.
+    Replace the address with the address of your own image.
+5. **Click the top-right `Publish` button.**
+A Picture Choice block gives every choice in a multiple-choice question its own image.
 ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Click `+ Add new question` to see a list of available questions.
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Click `+ Add new question`.**
     ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-3. Click `Picture choice` to add a picture choice block. A Picture Choice is a multiple-choice slide that shows the choices as clickable images. You can upload your own image for each choice.
-    !!! warning "Image size"
-        Square images are recommended, up to 400px by 400px.
-        If your images are not square, they will be cropped to a square. You can adjust them in a free online image editor before uploading.
-        RevenueHunt app optimizes the uploaded images to load faster.
-4. Click on `+ Add choice` to add a new choice to the picture choice block.
-5. Click on `+ image` to upload an image from your computer.
-6. Add more choices by clicking `+ Add choice` and repeat the process.
-Product Images displayed on the Results page are taken directly from your WooCommerce catalog. Product slots display the first image of the product or variant uploaded to your WooCommerce Products section.
-!!! tip
-    You can adjust the product image settings with custom CSS in [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme).
-    Sample code to adjust the product image size:
-    ```html
+3. **Click `Picture choice`.** This is a multiple-choice slide whose choices are clickable images, each with a picture of your own.
+4. **Click `+ Add choice`.**
+5. **Click `+ image` and upload the picture for that choice.**
+6. **Repeat for every choice.**
+7. **Click the top-right `Publish` button.**
+!!! warning "Use square images"
+    Square pictures up to 400x400px work best. A picture that is not square is cropped to a square. Crop it yourself in an image editor first, so the crop does not cut off what matters.
+    The app compresses whatever you upload, so the quiz still loads quickly.
+Product pictures on the Results Page come straight from your WooCommerce catalog. A product slot shows the first picture of the product or variant, exactly as uploaded to your WooCommerce Products section.
+!!! tip "Change the size of a product picture"
+    The [Custom CSS console](/reference/quiz-builder/quiz-design/#edit-theme) in the Quiz Design tab can resize the slot.
+    ```css
     .lq-results .lq-slot li {
         max-width: 500px !important;
     }
@@ -6043,69 +6038,82 @@ icon: material/sale
 
 # How to Add a Discount to Your Quiz
 
+## Set up a discount on the results page
 
-## Set up discount on the results page
+The results page can reach the checkout in three ways, and they combine. A code applied automatically stays invisible until checkout, so showing it as text as well tells the customer what they are getting.
 
-## Include discount codes in Follow-up emails
+### Apply the code automatically at checkout
 
-## Apply discount only if customer leaves their email
+### Show the code as text
+
+### Apply the code with custom JavaScript
+
+## Include the code in a follow-up email
+
+## Give the discount only to customers who leave an email
 
 ---
-By following these steps, you can integrate discounts into your quiz, improve customer engagement and potentially increase conversions.
+
+This article explains how to put a discount code on the results page or in a follow-up email. It also covers giving the code only to customers who leave an email address.
 
 --- WooCommerce Specific Content ---
 
-A discount coupon in your quiz gives the customer a special offer, on the results page or in a follow-up email.
+A discount coupon rewards the customer for finishing the quiz, with an offer on the Results Page or in a follow-up email.
 ![how to add a discount example](/images/how_to_add_a_discount_example.png){width="300"}
-This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
-!!! tip "Include Discount Code as text"
-    You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
-**Step 1: Generate a Discount Code**
-A WooCommerce store needs [the Advanced Coupons for WooCommerce plugin](https://wordpress.org/plugins/advanced-coupons-for-woocommerce-free/) for this to work.
-Create a coupon code, then go to the URL Coupons section. Point Redirect To URL at your cart page. Copy the URI, which is the end part of the URL, without the protocol and your domain name:
-![how to add discount woo step 1](/images/how_to_add_discount_woo_step_1.png)
-Example: if the Coupon URL which appears is `https://yourdomain.com/coupon/codexyz/`, then the part you need to copy is `/coupon/codexyz/`.
-**Step 2: Configure Your Discount Code on the Results Page**
-Then in the Product Recommendation Quiz, go to the [Results Page Settings > Checkout Settings](/reference/quiz-builder/results-page/) and paste the copied URI in the `Cart URL` field.
-![how to add discount woo step 2](/images/how_to_add_discount_woo_step_2.png)
-The coupon code is then applied when the customer finishes the quiz and goes to the cart. They are sent to the cart page in your store.
-**Step 3: Publish Changes**
-1. Click the top-right [`Publish` button](/reference/quiz-builder/questions/) to apply your changes to the live quiz/preview.
-**Alternatively**
-Your developer can also add a discount code to the Results page with custom JavaScript. For more, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-!!! tip
-    For more on adding custom JavaScript to a results page, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-!!! example
-    You can use this function
-    ```html
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-    ```
-    to add a custom coupon or a discount code to the results page and apply it to all the products. Note, that this coupon code needs to be first set up in your store.
-You can put the discount code in the follow-up email and on the results page. The customer can then copy the code and paste it at checkout.
-Go to the [Quiz Builder](/reference/quiz-builder/), open the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and add your discount code to the message.
-!!! tip
-    To set up and customize the quiz result email, see [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/).
-In the RevenueHunt app, you can apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
-1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click `Activate`. The [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen appears, and a second Results page is added.
+There are four ways to get the code to the customer:
+- [Apply the code automatically at checkout](#apply-the-code-automatically-at-checkout).
+- [Show the code as text](#show-the-code-as-text), for the customer to copy.
+- [Apply the code with custom JavaScript](#apply-the-code-with-custom-javascript).
+- [Put the code in a follow-up email](#include-the-code-in-a-follow-up-email).
+!!! info "This route needs the Advanced Coupons plugin"
+    [Advanced Coupons for WooCommerce](https://wordpress.org/plugins/advanced-coupons-for-woocommerce-free/) turns a coupon into a URL, and the quiz sends the customer to that URL instead of to the plain cart.
+1. **Create a coupon code in Advanced Coupons.**
+2. **Open its `URL Coupons` section and point `Redirect To URL` at your cart page.**
+3. **Copy the URI, which is the part of the coupon URL after your domain.**
+    ![how to add discount woo step 1](/images/how_to_add_discount_woo_step_1.png)
+    From `https://yourdomain.com/coupon/codexyz/`, copy `/coupon/codexyz/`.
+4. **Go to [Results Page Settings > Checkout Settings](/reference/quiz-builder/results-page/) and paste it into `Cart URL`.**
+    ![how to add discount woo step 2](/images/how_to_add_discount_woo_step_2.png)
+5. **Click the top-right `Publish` button.**
+A customer who finishes the quiz and goes to the cart now lands on that URL, and the coupon is applied for them.
+Put the code in a Content block on the Results Page and the customer copies it at checkout.
+1. **Open the [Results Page](/reference/quiz-builder/results-page/) tab in the Quiz Builder.**
+2. **Click `+ Add block` and select `Content`.**
+3. **Type the discount code into the text field.**
+4. **Click the top-right `Publish` button.**
+A question works the same way, if you would rather promise the discount before the customer finishes.
+Your developer can set the code from the Results Page.
+```javascript
+/* set specific discount code */
+prq.setDiscountCode('10-OFF');
+```
+That applies the code to every recommended product. The code has to exist in your store first.
+See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+The follow-up email can carry the discount code, for the customer to copy and paste at checkout.
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Go to the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab.**
+3. **Write the discount code into the message.**
+!!! tip "Setting the email up in the first place"
+    See [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/).
+Send the customer to one of two Results Pages, depending on whether they answer the email question. The first page carries no discount, and the second carries the code.
+1. **Go to [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click `Activate`.** A second Results Page is added.
     ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
-2. You can then rename the page and edit it by clicking `edit`.
+2. **Click `edit` to rename and edit the new page.**
     ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
-3. **Add discount code**: Follow [Set up discount on the results page](#set-up-discount-on-the-results-page) to add a discount code to your quiz.
-4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`.
+3. **Set the coupon `Cart URL` on *Results Page 2* only**, as [Apply the code automatically at checkout](#apply-the-code-automatically-at-checkout) describes. Leave *Results Page 1* pointing at your plain cart.
+4. **Go to the [Quiz Builder](/reference/quiz-builder/) and click `+` to add a discount question.** Ask whether the customer wants a discount, with a `Yes` and a `No` choice.
     ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
-5. **Add an email question**: Then, add an `email question` by clicking `+`.
+5. **Click `+` again to add an email question after it.**
     ![how to add discount email question](/images/how_to_add_discount_email_question.png)
-5. **Add Jump Logic**: Send the customer to *Results Page 1* or *Results Page 2*, based on their answer. This needs two Jump Logic statements.
-    !!! tip
-        To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
-6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
+6. **Click `conditional logic` on the discount question, open `Jump Logic` and click `Add Jump Logic`.**
     ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
-    - If the customer answers ‘Yes’ to the discount question, they will automatically go to the next question (the email question).
-    - If the customer answers ‘No’ to the discount question, they will be automatically redirected to the *Results Page 1 (no discount)*.
-7. **SECOND JUMP LOGIC – EMAIL QUESTION**: Add Jump Logic to the email question. Use `Always Jump to...` to send the customer to *Results Page 2 (discount)*.
+    - A customer who answers `Yes` goes on to the email question.
+    - A customer who answers `No` goes to *Results Page 1*, the one without the discount.
+7. **On the email question, set `Always Jump to...` to *Results Page 2*.** Everyone who leaves an address lands on the page with the code.
     ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
-8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
+8. **Click the top-right `Publish` button, then test the whole flow with `Preview`.**
+!!! tip "More on jump logic"
+    See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
 
 
@@ -6137,62 +6145,55 @@ This article explains how to add JavaScript to quiz questions and the results pa
 !!! warning "For developers and Shopify Partners"
     This article is for developers and Shopify Partners. If you do not know the basics of JavaScript and the Vue.js framework, ask a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
-## Understanding JavaScript, HTML, and Liquid
+## What you can use
 
-Several technologies can customize a quiz, and which ones are available depends on your platform.
+Which technologies a quiz can use depends on the version you are running.
 
-| Technology | Description | What you can use it for |
-|------------|-------------|-------------------------|
-| JavaScript | A programming language that adds interactivity and dynamic behavior to web pages. | Adding custom logic and calculations (like BMI calculators) |
-| HTML | A markup language that defines the structure and content of web pages. | Adding custom content blocks and layouts |
-| Liquid | A templating language specific to Shopify that allows dynamic content insertion. | Displaying quiz answers and user responses dynamically |
-
-**Platform support**
-
-## Access the custom JavaScript console
+## Where the code goes
 
 You can add custom JavaScript to the quiz results page and to the quiz questions.
 
-### Results page
+### The results page console
 
-### Quiz questions
+### The question console
 
-### Via custom HTML block
-
-??? info "Use Custom HTML Blocks when"
-
-    - You want JavaScript to run in a **specific location** in your layout
-    - You need to **combine HTML, Liquid, and JavaScript** together
-    - You want **different scripts for different content blocks**
-    - You are adding **a small script for one context**, such as tracking a single element
-    - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
+### A custom HTML block
 
 ## Find block and question IDs
 
-## Console.log(x) function
+## The JavaScript API
 
-## Customization examples
+### What your code receives
 
-### Example 1: trigger functions from an element in the results page
+### Debug your code
 
-### Example 2: insert calculations
+## Examples
 
-### Example 3: multiple-choice questions: select all, select none
+### Trigger a function from an element on the results page
 
-### Example 4: redirect to translated product URL
+### Insert a calculation
 
-### Other examples
+### Select all or none in a multiple-choice question
+
+### Redirect to a translated product URL
+
+### More examples
 
 
 
+
+### Common patterns
 
 ---
 This article explains how to add custom JavaScript to a RevenueHunt quiz, with worked examples.
 
 --- WooCommerce Specific Content ---
 
-**Available**: JavaScript + HTML
-Liquid is not available in WooCommerce.
+| Technology | What it is | Use it for |
+|---|---|---|
+| JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
+| HTML | The markup that gives a block its structure | Custom content blocks and layouts |
+JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
 1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
 2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
 3. Scroll down to find the **Custom JavaScript** section and click `add`.
@@ -6203,7 +6204,9 @@ Liquid is not available in WooCommerce.
 3. Scroll down to find the **Custom JavaScript** section and click `add`.
 4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
 5. Remember to click the `Publish` button to update the preview/live quiz.
-Not available.
+!!! note "The HTML Block does not run JavaScript"
+    This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
+    Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 In WooCommerce, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 !!! tip "How to Find Slide IDs"
     **Inspect in Browser Console**
@@ -6217,13 +6220,6 @@ In WooCommerce, find the **Slide ID** of each question. `prq.getSlideValue(slide
     2. Select "Inspect Element"
     3. Look for `data-slide-id` or similar attributes in the HTML
 **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
-Start by logging the quiz response object to the console:
-```javascript
-console.log(prq);
-console.log(prq.quizSlides()); // See all slides and their IDs
-```
-This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
-![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 **Custom JavaScript Capabilities**
 The `prq` object is how you customize the quiz. Use it like this:
 **Quiz Data Manipulation**
@@ -6238,7 +6234,7 @@ The `prq` object is how you customize the quiz. Use it like this:
 - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
 **Navigation and Engagement**
 - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-```html
+```javascript
 /* List of all the quiz slides/questions (including the responded values) */
 prq.quizSlides();
 /* get the slide/question value by passing the slide ID  */
@@ -6259,7 +6255,7 @@ prq.mostVotedProduct();
 prq.addAllToCart();
 /* proceeds to cart/checkout automatically */
 prq.checkout();
-/* set specific discount code \*/
+/* set specific discount code */
 prq.setDiscountCode('10-OFF');
 /* get the response permalink url */
 prq.getResponsePermalink();
@@ -6269,9 +6265,15 @@ prq.retakeQuiz();
 prq.closeQuiz();
 /* open quiz popup */
 window.openQuizPopup('dbqHqN');
-dbqHqN is the quiz ID
+// dbqHqN is the quiz ID
 ```
-For other functions and properties, see [Console.log(x) function](#consolelogx-function).
+Start by logging the quiz response object to the console:
+```javascript
+console.log(prq);
+console.log(prq.quizSlides()); // See all slides and their IDs
+```
+This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
+![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 You can do it two ways:
 1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
     !!! example "Add the `onclick` functionality via the Custom JavaScript."
@@ -6420,6 +6422,7 @@ Custom JavaScript can make a multiple-choice question select every answer, or no
     ```
 The app syncs only the base products from your store. A translated product has no unique ID to sync against. You can change the quiz language, but product names and descriptions stay in the original language.
 As a workaround, create a quiz for each language and send the customer to the translated product page with JavaScript. [Redirect to Translated Product URL](/how-to-guides/change-quiz-language/#woocommerce-redirect-to-translated-product-url) covers that approach.
+See [What your code receives](#what-your-code-receives) for the `prq` functions these patterns are built from.
 
 
 
@@ -9722,7 +9725,7 @@ The app cannot calculate a result from a number on its own. A quiz that works ou
 
 The script reads the quiz answers, works the result out in JavaScript, then writes it into an HTML element on the results page.
 
-[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#example-2-insert-calculations) has a worked BMI calculator.
+[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#insert-a-calculation) has a worked BMI calculator.
 
 ---
 

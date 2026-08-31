@@ -5,61 +5,210 @@ icon: material/ab-testing
 
 # How to A/B Test Your Product Recommendation Quiz
 
-A/B testing, also called split testing, lets you compare two versions of a quiz to see which performs better.
+An A/B test, also called a split test, runs two versions of a quiz side by side and keeps whichever performs better.
 
-This article sets up an A/B test by hand, using the create, duplicate and edit features of the RevenueHunt app.
+The app has no A/B testing feature of its own. You build the test by hand: copy the quiz, change one thing in the copy, publish both, and split your traffic between them.
 
-Ensure you have:
+!!! info "Before you start"
 
-- Access to the RevenueHunt app where you can create and edit quizzes.
-- Basic understanding of [how to publish quizzes](/how-to-guides/publish-quiz/) on your website.
-- Access to your website backend, or a platform that lets you edit HTML and JavaScript for traffic distribution. This is optional, and only for advanced routing.
-- An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/), to measure quiz performance.
+    - A quiz you are ready to test, and somewhere to [publish it](/how-to-guides/publish-quiz/).
+    - An analytics tool such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+    - For a random split, access to the code of your website, or a developer who has it.
 
-## Step 1: create two versions of your quiz
+## Build the two versions
 
-- **Design Your Original Quiz**: Create your quiz, Version A, in the RevenueHunt app. Use the content and design you expect to perform best.
-- **Duplicate and Modify for Version B**: Use the duplicate feature on the dashboard to copy Version A. Change one element, such as the title, the color scheme or the question order. Keep every other element the same, so the test measures that one change. Publish with the top-right `Publish` button.
+=== "Shopify"
 
-## Step 2: publish both versions on your website
+    1. **Build the quiz you expect to perform best.** This is version A.
 
-There are two ways to put both versions on your website. Which one suits you depends on whether you can edit your site code, and on how precise the test needs to be.
+    2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Duplicate`.** The copy is version B.
 
-### No coding solution: basic A/B testing
+    3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
 
-The simplest A/B test publishes each version on its own page in your store. This needs no code:
+    4. **Click the top-right `Save` button.**
 
-- **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) publishing instructions to embed each quiz into its respective page.
+    !!! warning "One element per test"
 
-You can then link to each version from anywhere on your website, or from an external marketing channel.
+        Change two things at once and a difference in the results cannot tell you which one caused it.
 
-### Coding solution: advanced A/B testing
+=== "Shopify (Legacy)"
 
-To randomize which version each customer sees, you need some code:
+    1. **Build the quiz you expect to perform best.** This is version A.
 
-- **Link Popup**: Create one entry point, such as a button or a link, that sends the customer to either Version A or Version B. A developer has to write the logic that picks the link for each customer. For the setup steps, see [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
+    2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Make a copy`.** The copy is version B.
 
-## Step 3: evenly distribute traffic between quizzes
+    3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
 
-To manually distribute traffic:
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz.
 
-- For Basic Routing: Give each version its own URL, and send customers to one or the other from your website links and promotions.
-- For Advanced Routing: Add a JavaScript snippet or server-side logic to your landing page. It serves Version A or Version B at random to each new customer.
+    !!! warning "One element per test"
 
-## Step 4: track and analyze results
+        Change two things at once and a difference in the results cannot tell you which one caused it.
 
-- **Set Up Analytics**: Give each version its own tracking. The [Metrics](/reference/quiz-builder/metrics/) panel already records quiz starts, completions, conversion rate and drop-off. For more, connect each quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
-- **Analyze Performance**: Once enough traffic has reached both versions, compare the data against the goal you set, such as a higher completion rate.
+=== "WooCommerce"
 
-## Step 5: implement improvements
+    1. **Build the quiz you expect to perform best.** This is version A.
 
-Decide which version performs better. Put the winning elements into your main quiz, and pick a new variable for the next test.
+    2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Make a copy`.** The copy is version B.
 
-## Tips for effective A/B testing
+    3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
 
-- Test one variable at a time to understand its impact clearly.
-- Collect a large enough sample before you draw a conclusion.
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz.
 
+    !!! warning "One element per test"
+
+        Change two things at once and a difference in the results cannot tell you which one caused it.
+
+=== "Magento"
+
+    1. **Build the quiz you expect to perform best.** This is version A.
+
+    2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Make a copy`.** The copy is version B.
+
+    3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz.
+
+    !!! warning "One element per test"
+
+        Change two things at once and a difference in the results cannot tell you which one caused it.
+
+=== "BigCommerce"
+
+    1. **Build the quiz you expect to perform best.** This is version A.
+
+    2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Make a copy`.** The copy is version B.
+
+    3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz.
+
+    !!! warning "One element per test"
+
+        Change two things at once and a difference in the results cannot tell you which one caused it.
+
+=== "Standalone"
+
+    1. **Build the quiz you expect to perform best.** This is version A.
+
+    2. **Open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Make a copy`.** The copy is version B.
+
+    3. **Change one element of version B.** The title, the color scheme, the order of the questions, the wording of a single question: pick one.
+
+    4. **Click the top-right `Publish` button.** This updates both the preview and the live quiz.
+
+    !!! warning "One element per test"
+
+        Change two things at once and a difference in the results cannot tell you which one caused it.
+
+## Publish both versions and split the traffic
+
+There are two routes. Which one fits depends on whether you can edit the code of your website.
+
+**A page each, and no code**
+
+1. **Publish version A as an [inline quiz on its own page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).**
+
+2. **Publish version B the same way, on a second page.**
+
+3. **Send traffic to both pages.** Link one from your navigation and the other from an email, or point two ad campaigns at them.
+
+This split is only as even as the traffic you send. It suits a test where you can aim comparable audiences at each page.
+
+**A random split, and some code**
+
+1. **Create one entry point, such as a button or a link.** See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
+
+2. **Ask a developer to add a snippet that sends each new customer to version A or version B at random.**
+
+3. **Ask them to keep each customer on the same version.** Someone who comes back and gets re-randomized blurs the two sets of figures into each other.
+
+This route splits the traffic evenly, and it is the one to use when both versions face the same audience.
+
+## Measure the result
+
+=== "Shopify"
+
+    1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or revenue per response: pick one.
+
+    2. **Read the built-in figures for each version.** Open the `...` menu on the Dashboard and click [`Analytics`](/reference/quiz-builder/metrics/#analytics), which records starts, completions, conversion rate and drop-off for that quiz.
+
+    3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+
+    4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+
+    5. **Compare the two versions on the number you picked.**
+
+=== "Shopify (Legacy)"
+
+    1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or total cart value: pick one.
+
+    2. **Read the built-in figures for each version.** Open the [`Metrics`](/reference/quiz-builder/metrics/) tab in the Quiz Builder, which records starts, completions, completion rate and total cart value for that quiz.
+
+    3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+
+    4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+
+    5. **Compare the two versions on the number you picked.**
+
+=== "WooCommerce"
+
+    1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or total cart value: pick one.
+
+    2. **Read the built-in figures for each version.** Open the [`Metrics`](/reference/quiz-builder/metrics/) tab in the Quiz Builder, which records starts, completions, completion rate and total cart value for that quiz.
+
+    3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+
+    4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+
+    5. **Compare the two versions on the number you picked.**
+
+=== "Magento"
+
+    1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or total cart value: pick one.
+
+    2. **Read the built-in figures for each version.** Open the [`Metrics`](/reference/quiz-builder/metrics/) tab in the Quiz Builder, which records starts, completions, completion rate and total cart value for that quiz.
+
+    3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+
+    4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+
+    5. **Compare the two versions on the number you picked.**
+
+=== "BigCommerce"
+
+    1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or total cart value: pick one.
+
+    2. **Read the built-in figures for each version.** Open the [`Metrics`](/reference/quiz-builder/metrics/) tab in the Quiz Builder, which records starts, completions, completion rate and total cart value for that quiz.
+
+    3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+
+    4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+
+    5. **Compare the two versions on the number you picked.**
+
+=== "Standalone"
+
+    1. **Decide which number settles the test, before it starts.** Completion rate, conversion rate or total cart value: pick one.
+
+    2. **Read the built-in figures for each version.** Open the [`Metrics`](/reference/quiz-builder/metrics/) tab in the Quiz Builder, which records starts, completions, completion rate and total cart value for that quiz.
+
+    3. **Connect each version to your analytics tool.** [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) follow the customer past the quiz, to the sale.
+
+    4. **Wait until both versions have collected enough responses.** A handful on each side proves nothing.
+
+    5. **Compare the two versions on the number you picked.**
+
+## Apply what you learned
+
+Fold the winning change into your main quiz, then pick the next single element to test.
+
+!!! tip "What makes a test worth trusting"
+
+    - Change one element per test.
+    - Run both versions over the same period. A week measured against a weekend is not a comparison.
+    - Collect a sample large enough that a few responses either way could not flip the result.
 
 ---
+
 This article explains how to A/B test a quiz in the RevenueHunt app. It covers creating two versions, publishing both, splitting traffic between them and comparing the results.
