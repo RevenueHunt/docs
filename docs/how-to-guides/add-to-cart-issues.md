@@ -3,10 +3,9 @@ description: "Troubleshooting guide to diagnose and fix common issues preventing
 icon: material/cart-off
 ---
 
-
 # Why Products Are Not Added to the Cart
 
-If your products are not added to the cart, here are the most probable causes.
+If the quiz does not put a product in the cart, one of these three causes is usually behind it.
 
 ## Your quiz is not published on a live website
 
@@ -14,220 +13,208 @@ If your products are not added to the cart, here are the most probable causes.
 
     The quiz has to run on a published theme on your live store. A password page, a store still in trial, or a theme you are only previewing all block the cart.
 
-    !!! tip
+    !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 
 === "Shopify (Legacy)"
 
     The quiz has to run on a published theme on your live store. A password page, a store still in trial, or a theme you are only previewing all block the cart.
 
-    !!! tip
+    !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 
 === "WooCommerce"
 
-    The quiz has to run on a live site. A “coming soon” or maintenance mode plugin, a password-protected page, or a staging site all block the cart.
+    The quiz has to run on a live site. A coming-soon or maintenance-mode plugin, a password-protected page, or a staging site all block the cart.
 
-    !!! tip
+    !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 
 === "Magento"
 
     The quiz has to run on a live storefront. Maintenance mode and a developer-only environment both block the cart.
 
-    !!! tip
+    !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 
 === "BigCommerce"
 
     The quiz has to run on a live storefront. A store still in prelaunch, or a storefront behind a password, blocks the cart.
 
-    !!! tip
+    !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 
 === "Standalone"
 
-    The Standalone version has no cart of its own. It sends the customer to the product page instead, so there is nothing to add to a cart.
+    !!! note "This version has no cart"
 
-    !!! note "Platform Availability"
+        The results page sends the customer to the product page instead, so nothing is ever added to a cart.
 
-        Add to cart is not available in the Standalone version. See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) for what the buttons can do here.
 
-## Your store uses a cart drawer
+## Your store has a cart drawer or mini cart
 
 === "Shopify"
 
-    The RevenueHunt app does not integrate with drawer carts. After the quiz, it adds products to the “regular” cart rather than the drawer cart in your theme.
+    The app adds products to the regular Shopify cart, not to the drawer cart your theme draws over it. The product is in the cart, but the drawer can keep showing what it held before.
 
-    A drawer cart comes from a store theme, not from Shopify itself. The app cannot integrate with every theme that has one. There are two ways around it.
+    A drawer cart belongs to the theme rather than to Shopify, and the app cannot integrate with every theme that has one. There are two ways around it.
 
-    !!! warning "Cart Drawer"
-
-        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) explains:
-
-        - How the RevenueHunt app adds products to the Shopify cart
-
-        - Why the cart drawer may not update
-
-        - What your theme editor or developer can do to fix it
-
-    **Option 1: Configure your Shopify theme to handle cart updates**
+    **Option 1: have your theme handle the cart update**
 
     The app calls the Shopify AJAX Cart API, the same endpoints most themes use. A theme that listens for those calls can refresh its drawer from the quiz.
 
-    **Option 2: Send the customer to the product page**
+    !!! info "What your theme editor or developer needs to know"
 
-    Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the drawer cart themselves.
+        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, why the drawer may not update, and what to change in the theme.
 
-    !!! tip
+    **Option 2: send the customer to the product page**
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the drawer cart themselves.
+
+    !!! tip "Changing what the button does"
+
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
 === "Shopify (Legacy)"
 
-    The RevenueHunt app does not integrate with drawer carts. After the quiz, it adds products to the “regular” cart rather than the drawer cart in your theme.
+    The app adds products to the regular Shopify cart, not to the drawer cart your theme draws over it. The product is in the cart, but the drawer can keep showing what it held before.
 
-    A drawer cart comes from a store theme, not from Shopify itself. The app cannot integrate with every theme that has one. There are two ways around it.
+    A drawer cart belongs to the theme rather than to Shopify, and the app cannot integrate with every theme that has one. There are two ways around it.
 
-    !!! warning "Cart Drawer"
-
-        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) explains:
-
-        - How the RevenueHunt app adds products to the Shopify cart
-
-        - Why the cart drawer may not update
-
-        - What your theme editor or developer can do to fix it
-
-    **Option 1: Configure your Shopify theme to handle cart updates**
+    **Option 1: have your theme handle the cart update**
 
     The app calls the Shopify AJAX Cart API, the same endpoints most themes use. A theme that listens for those calls can refresh its drawer from the quiz.
 
-    **Option 2: Send the customer to the product page**
+    !!! info "What your theme editor or developer needs to know"
 
-    Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the drawer cart themselves.
+        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, why the drawer may not update, and what to change in the theme.
 
-    !!! tip
+    **Option 2: send the customer to the product page**
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the drawer cart themselves.
+
+    !!! tip "Changing what the button does"
+
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
 === "WooCommerce"
 
     Many WooCommerce themes and plugins add a side cart or mini cart. The product does reach the cart, but that panel keeps showing the old contents until the page reloads.
 
-    A mini cart refreshes through WooCommerce cart fragments. A theme or plugin that overrides the `add_to_cart_fragments` hook, or a cache that serves a stale fragment response, stops it from updating.
-
-    **Option 1: Ask your theme or plugin developer to refresh the fragments**
-
-    The panel has to request the cart fragments again after the quiz adds a product. Your developer can also test with a default theme such as Storefront to confirm which plugin or theme is holding the old state.
-
-    **Option 2: Send the customer to the product page**
-
-    Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the side cart themselves.
-
-    !!! tip
-
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    A mini cart refreshes through WooCommerce cart fragments. A theme or plugin that overrides the `add_to_cart_fragments` hook, or a cache that serves a stale fragment response, stops it updating.
 
     !!! warning "Check your cache first"
 
         Page and CDN caches are the most common cause. Clear the cache in your caching plugin, at your host, and at your CDN, then take the quiz again.
 
+    **Option 1: have the fragments refreshed**
+
+    The panel has to request the cart fragments again after the quiz adds a product. Your developer can also test with a default theme such as Storefront, to find which plugin or theme holds the old state.
+
+    **Option 2: send the customer to the product page**
+
+    Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the side cart themselves.
+
+    !!! tip "Changing what the button does"
+
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+
 === "Magento"
 
-    The Magento minicart keeps its own copy of the cart in customer data sections. The product does reach the cart, but the minicart keeps showing the old contents until that section is reloaded.
-
-    **Option 1: Ask your developer to invalidate the cart section**
-
-    The minicart refreshes when the `cart` customer data section is invalidated and reloaded. A theme or extension that changes the minicart can stop that happening.
-
-    **Option 2: Send the customer to the product page**
-
-    Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the minicart themselves.
-
-    !!! tip
-
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    The Magento minicart keeps its own copy of the cart in customer data sections. The product does reach the cart, but the minicart keeps showing the old contents until that section reloads.
 
     !!! warning "Check your cache first"
 
         Full page cache and Varnish are a common cause. Flush the Magento cache, then take the quiz again.
 
+    **Option 1: have the cart section invalidated**
+
+    The minicart refreshes when the `cart` customer data section is invalidated and reloaded. A theme or extension that changes the minicart can stop that happening.
+
+    **Option 2: send the customer to the product page**
+
+    Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the minicart themselves.
+
+    !!! tip "Changing what the button does"
+
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+
 === "BigCommerce"
 
     Many Stencil themes show a cart preview, a flyout panel that opens from the cart icon. The product does reach the cart, but that panel keeps showing the old contents until the page reloads.
 
-    The cart preview is part of the theme, not of BigCommerce itself, so the app cannot refresh it directly.
+    The cart preview belongs to the theme rather than to BigCommerce, so the app cannot refresh it directly.
 
-    **Option 1: Ask your theme developer to refresh the cart preview**
+    **Option 1: have the cart preview refreshed**
 
-    The theme has to re-request the cart preview after the quiz adds a product. Your developer can check the cart handling in the theme JavaScript for the event it already uses.
+    The theme has to request the cart preview again after the quiz adds a product. Your developer can look in the theme JavaScript for the event it already uses.
 
-    **Option 2: Send the customer to the product page**
+    **Option 2: send the customer to the product page**
 
-    Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the cart themselves.
+    Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the cart themselves.
 
-    !!! tip
+    !!! tip "Changing what the button does"
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
 === "Standalone"
 
-    !!! note "Platform Availability"
+    !!! note "This version has no cart"
 
-        The Standalone version cannot add products to a cart, so a cart drawer never applies. The results page sends the customer to the product page instead.
+        Nothing is added to a cart here, so a cart drawer never comes into it. The results page sends the customer to the product page instead.
 
-    To build your own cart behavior, send the quiz data to your own results page with the [Callback function](/how-to-guides/use-callback-function/).
+    To build cart behavior of your own, send the quiz data to your own results page with a [callback function](/how-to-guides/use-callback-function/).
 
 ## Your product is a subscription product
 
 === "Shopify"
 
-    The RevenueHunt app can sync and recommend subscription products created with Recharge Subscriptions for Shopify. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for how to enable it.
+    The app syncs and recommends subscription products from Shopify Subscriptions and from Recharge Subscriptions. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for the setup.
 
-    For other subscription apps, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
+    For any other subscription app, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "Shopify (Legacy)"
 
-    The RevenueHunt app can sync and recommend subscription products created with Recharge Subscriptions for Shopify. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for how to enable it.
+    The app syncs and recommends subscription products from Recharge Subscriptions. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for the setup.
 
-    For other subscription apps, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
+    For any other subscription app, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "WooCommerce"
 
-    Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync with the app on install. If one is missing, run a [catalog sync](/how-to-guides/sync-catalog/).
+    Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync with the app once the plugin is installed. If one is missing, run a [catalog sync](/how-to-guides/sync-catalog/).
 
-    For other subscription plugins, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
+    For any other subscription plugin, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "Magento"
 
-    !!! note "Platform Availability"
+    !!! note "Subscription products do not sync here"
 
-        The app does not sync subscription products in Magento.
+        The app does not read subscription products in Magento.
 
     A [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "BigCommerce"
 
-    !!! note "Platform Availability"
+    !!! note "Subscription products do not sync here"
 
-        The app does not sync subscription products in BigCommerce.
+        The app does not read subscription products in BigCommerce.
 
     A [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "Standalone"
 
-    !!! note "Platform Availability"
+    !!! note "Subscription products do not sync here"
 
-        The app does not sync subscription products in the Standalone version.
+        The app does not read subscription products in this version.
 
     A [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
-
 ---
-This article covers the common reasons a quiz does not add a product to the cart: an unpublished quiz, a cart drawer, and subscription products.
+
+This article covers three reasons a quiz does not add a product to the cart. They are an unpublished quiz, a cart drawer that does not refresh, and subscription products.

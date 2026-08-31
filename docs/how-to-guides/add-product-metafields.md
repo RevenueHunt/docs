@@ -5,181 +5,159 @@ icon: material/focus-field-horizontal
 
 # How to Add Product Metafields/Attributes
 
-This article explains how to add product metafields/attributes to products on your quiz's results page.
+A metafield, called an attribute in some stores, holds a product property your store does not show by default. This article explains how to put one on the quiz results page, and how to build collections from metafield values.
 
+## Show a metafield on the results page
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/BdyXTeel1WM?si=XC-LEQ5PUEvPwOUC" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! note
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) hold product properties that a storefront does not show by default. A cosmetic product sold in Germany, for example, has to show the "Grundpreis", the `per 100ml` price.
 
-        The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
+    !!! warning "The metafield needs Storefront API access"
 
-        In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
+        Open the metafield definition in Shopify and make it readable through the Storefront API. Without that, the live quiz cannot read the value.
 
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Metafields make that possible. The `💎Built for Shopify` version of the RevenueHunt app also has a `Unit price` setting under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition).
+    !!! note "What the app can read"
 
+        The app syncs and shows `string`, `single_line_text_field`, `multi_line_text_field`, `date` and `number` metafields. `rich_text_field` is not supported.
 
-    The `💎Built for Shopify` version of the RevenueHunt app has fewer steps for adding and displaying metafields. Follow these steps to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
+        Inside a variant slot, a metafield block shows the parent product's metafield, not a variant-level one.
 
-    **Step 1: Enable Metafields Display**
+    1. **Open the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.**
 
-    To enable the display of metafields for individual products:
+    2. **Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.**
 
-    1. Navigate to the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.
-    2. Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
-    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), click `+ block`and add the `Metafield`section.
-      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
-      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
-    4. From the `Select metafield` section, select the metafield you want to display.
+    3. **In [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), click `+ block` and add `Metafield`.**
+
+        ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+
+        ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
+
+    4. **Pick the metafield under `Select metafield`.**
+
         ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_selectmetafield.png)
-    5. For the `💎Built for Shopify` live quiz, the metafield definition in Shopify must have Storefront API access enabled/readable.
-    6. You can also add a `Text` block to the product layout. Insert the metafield value as a [content dynamic source](/how-to-guides/use-information-recalls/), so it sits inside your own text.
-      ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_text_adddynamicsourcemetafiled.png)
-    7. Save the changes with the top-right `Save` button.
 
-    The selected metafield then appears in the product block, as part of the recommended product.
+    5. **Click the top-right `Save` button.**
 
+    The metafield then shows in the product block, alongside the rest of the product.
 
-    !!! tip
+    !!! tip "Put the value inside a sentence of your own"
 
-        If a custom metafield is missing from the list, force a catalog sync:
+        Add a `Text` block to the product layout, and insert the metafield as a [content dynamic source](/how-to-guides/use-information-recalls/).
 
-        1. Go to [App settings > Catalog](/reference/app-settings/#catalog).
-        2. Click the `Import catalog` button to trigger a manual sync.
+        ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_text_adddynamicsourcemetafiled.png)
 
+    !!! tip "A metafield missing from the list"
 
+        Force a catalog sync. Open [App settings > Catalog](/reference/app-settings/#catalog) and click `Import catalog`.
+
+    !!! info "A unit price needs no metafield"
+
+        `Unit price` is a setting of its own, under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition).
 
 === "Shopify (Legacy)"
 
-    !!! note
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) hold product properties that a storefront does not show by default. A cosmetic product sold in Germany, for example, has to show the "Grundpreis", the `per 100ml` price.
 
-        The app can only sync and show the custom text product metafields.
+    !!! note "What the app can read"
 
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Metafields make that possible.
+        This version syncs and shows custom text metafields only.
 
-    To import product metafields from your store and show them on the results page, follow these steps:
+    1. **Go to [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).**
 
-    **Step 1: Enable Metafields Display**
+    2. **Open `Individual Product Settings` and turn on the `show metafields` toggle.**
 
-    First, enable the display of metafields for individual products:
+        ![Enable Metafields Display](/images/how_to_add_metafields_step_1.gif)
 
-    1. Navigate to your [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).
-    2. Open the `Individual Product Settings` section.
-    3. Activate the `show metafields` toggle.
+    3. **Open [App Settings > Catalogue](/reference/app-settings/#catalog).**
 
-    ![Enable Metafields Display](/images/how_to_add_metafields_step_1.gif)
+    4. **Turn on the toggle beside every metafield namespace you want to sync.**
 
-    **Step 2: Open App Settings**
+        ![Select Metafields](/images/how_to_add_metafields_step_3.gif)
 
-    Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
+    5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.**
 
-    **Step 3: Select Metafields**
+    6. **Ask your developer to render the metafield with [custom JavaScript](/how-to-guides/add-javascript/).** Nothing appears on the results page until they do.
 
-    Select the Metafields namespaces you want to sync with the app by clicking the toggle icon next to each.
+        !!! warning "Outside the support scope"
 
-    ![Select Metafields](/images/how_to_add_metafields_step_3.gif)
+            This version does not place the values on the results page for you, and the code that does it is not covered by app support.
 
-    **Step 4: Sync the Catalog**
+        The sample below appends the `descriptors-subtitle` value to each recommended product. It goes in the [Custom JavaScript](/how-to-guides/add-javascript/) field, under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
 
-    Update your catalog with the new metafields by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
+        ```javascript
+        window.recommendedProducts = prq.recommendedProducts();
+        var products = document.querySelectorAll('.lq-product');
 
-    **Step 5: Implement Custom JavaScript on the Results Page**
+        for (let i = 0; i < products.length; i++) {
+          let id = products[i].id;
+          let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
+          let product = window.recommendedProducts.find(product => product.id === id);
 
-    To display the metafield values on your results page, [custom JavaScript](/how-to-guides/add-javascript/) is required:
+          if (product.metafields['descriptors-subtitle']) {
+            let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
 
-    1. Your developer writes custom JavaScript to render the metafield value where you want it on the results page.
-    2. This customization is outside the support scope of the app.
-
-    This sample code replaces the product description with the `descriptors-subtitle` metafield. This code should be added in the [Custom JavaScript](/how-to-guides/add-javascript/) input under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
-
-    ```javascript
-    window.recommendedProducts = prq.recommendedProducts();
-    var products = document.querySelectorAll('.lq-product');
-
-    for (let i = 0; i < products.length; i++) {
-      let id = products[i].id;
-      let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
-      let product = window.recommendedProducts.find(product => product.id === id);
-
-      if (product.metafields['descriptors-subtitle']) {
-        let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
-
-        for (let j = 0; j < toEdit.length; j++) {
-          if (!toEdit[j].hasAttribute("edited")) {
-            toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
-            toEdit[j].setAttribute("edited", "true");
+            for (let j = 0; j < toEdit.length; j++) {
+              if (!toEdit[j].hasAttribute("edited")) {
+                toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
+                toEdit[j].setAttribute("edited", "true");
+              }
+            }
           }
         }
-      }
-    }
-    ```
+        ```
 
-    ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
-
+        ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
 === "WooCommerce"
 
-    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Attributes make that possible.
+    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce hold product properties that a storefront does not show by default. A cosmetic product sold in Germany, for example, has to show the "Grundpreis", the `per 100ml` price.
 
-    To import product attributes from your store and show them on the results page, follow these steps:
+    1. **Go to [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).**
 
-    **Step 1: Enable Attributes Display**
+    2. **Open `Individual Product Settings` and turn on the `show metafields` toggle.**
 
-    First, enable the display of attributes for individual products:
+    3. **Open [App Settings > Catalogue](/reference/app-settings/#catalog).**
 
-    1. Navigate to your [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).
-    2. Open the `Individual Product Settings` section.
-    3. Activate the `show metafields` toggle.
+    4. **Turn on `Pass attribute information to result page`.**
 
-    **Step 2: Open App Settings**
+        ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
 
-    Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
+    5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.**
 
-    **Step 3: Select  Attributes**
+    6. **Ask your developer to render the attribute with [custom JavaScript](/how-to-guides/add-javascript/).** Nothing appears on the results page until they do.
 
-    Activate the `Pass attribute information to result page` setting by clicking the toggle.
+        !!! warning "Outside the support scope"
 
-    ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
+            This version does not place the values on the results page for you, and the code that does it is not covered by app support.
 
-    **Step 4: Sync the Catalog**
+        The sample below appends the `descriptors-subtitle` value to each recommended product. It goes in the [Custom JavaScript](/how-to-guides/add-javascript/) field, under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
 
-    Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
+        ```javascript
+        window.recommendedProducts = prq.recommendedProducts();
+        var products = document.querySelectorAll('.lq-product');
 
-    **Step 5: Implement Custom JavaScript on the Results Page**
+        for (let i = 0; i < products.length; i++) {
+          let id = products[i].id;
+          let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
+          let product = window.recommendedProducts.find(product => product.id === id);
 
-    To display the metafield values on your results page, [custom JavaScript](/how-to-guides/add-javascript/) is required:
+          if (product.metafields['descriptors-subtitle']) {
+            let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
 
-    1. Your developer writes custom JavaScript to render the metafield value where you want it on the results page.
-    2. This customization is outside the support scope of the app.
-
-    This sample code replaces the product description with the `descriptors-subtitle` metafield. This code should be added in the [Custom JavaScript](/how-to-guides/add-javascript/) input under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
-
-    ```javascript
-    window.recommendedProducts = prq.recommendedProducts();
-    var products = document.querySelectorAll('.lq-product');
-
-    for (let i = 0; i < products.length; i++) {
-      let id = products[i].id;
-      let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
-      let product = window.recommendedProducts.find(product => product.id === id);
-
-      if (product.metafields['descriptors-subtitle']) {
-        let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
-
-        for (let j = 0; j < toEdit.length; j++) {
-          if (!toEdit[j].hasAttribute("edited")) {
-            toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
-            toEdit[j].setAttribute("edited", "true");
+            for (let j = 0; j < toEdit.length; j++) {
+              if (!toEdit[j].hasAttribute("edited")) {
+                toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
+                toEdit[j].setAttribute("edited", "true");
+              }
+            }
           }
         }
-      }
-    }
-    ```
+        ```
 
-    ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
-
+        ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
 === "Magento"
 
@@ -197,136 +175,118 @@ This article explains how to add product metafields/attributes to products on yo
 
     !!! note "Not available on this platform"
 
-        The Standalone version has no store to import metafields from. Add the product details you need directly in the [Catalogue](https://admin.revenuehunt.com/catalogue), as [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/) describes.
+        This version has no store to import metafields from. Add the product details you need straight into the [Catalogue](https://admin.revenuehunt.com/catalogue), as [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/) describes.
 
-## How to use metafields as smart collections
+## Use metafields as smart collections
 
 === "Shopify"
 
-    Shopify lets you use **product metafields** as conditions in a **smart collection**.
+    Shopify can use a product metafield as the condition of a smart collection. Group products by a property such as `Skin Concern = Acne` or `Subscription Eligible = True`, then point a quiz choice at the collection.
 
-    !!! info "Smart collections from metafields"
+    !!! info "Metafield types a smart collection accepts"
 
-        For more, see the Shopify documentation on [Smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
+        - Single line text
+        - Single line text (list)
+        - True or false (boolean)
+        - Integer
+        - Decimal
+        - Rating
 
-    This is useful if you want to organize products by custom attributes (like `Skin Concern = Acne` or `Subscription Eligible = True`) and then connect those collections to your RevenueHunt quiz.
-
-    !!! info "Supported Metafield Types"
-
-        You can use the following product metafield types in smart collections:
-
-        * Single line text
-        * Single line text (list)
-        * True or false (boolean)
-        * Integer
-        * Decimal
-        * Rating
-
-    Step by step guide:
+        See the Shopify documentation on [smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/53e88df6033b4c71b2834562df1f3e0f?sid=ced7456d-d8ed-4e83-8cb9-17bd31e34a86" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+    1. **In your Shopify admin, go to `Settings > Custom data > Products` and click `Add definition`.** Pick one of the types above and give it a clear name, such as `Skin Concern`, `Organic Certified` or `SPF Rating`.
 
-    1. **Create Product Metafields**: In Shopify Admin, go to `Settings → Custom data → Products`.
+    2. **Open a product, scroll to `Metafields`, and fill the value in.** For example `Skin Concern = Acne`. Repeat for every product it applies to.
 
-        - Click `Add definition`.
-        - Select one of the supported metafield types and give it a clear name, such as `Skin Concern`, `Organic Certified` or `SPF Rating`.
-        - Save the metafield definition.
+    3. **Go to `Products > Collections` and click `Create collection`.**
 
-    2. **Add Metafield Values to Products**: Open a product in Shopify Admin. Scroll down to the `Metafields` section. Enter the value for the metafield you created. Example: `Skin Concern = Acne`. Repeat for all relevant products.
-    3. **Create a Smart Collection Using Metafields**: Go to `Products → Collections`.
+    4. **Choose `Automated collection`.**
 
-        - Click `Create collection`.
-        - Choose `Automated collection`.
-        - Under `Conditions`, open the field dropdown and select `Product metafields`.
-        - Select your metafield (e.g. `Skin Concern`).
-        - Define the condition (e.g. `equals → Acne`).
-        - Save the collection. Now, Shopify automatically groups products based on metafield values.
-    4. **Use Smart Collections in RevenueHunt**: Open your quiz in the RevenueHunt app. Edit a question and add a Choice. Instead of linking individual products, select the Shopify collection you created. Example: Quiz answer “Acne-prone skin” → Collection `Skin Concern = Acne`. Save and publish your quiz.
+    5. **Under `Conditions`, select `Product metafields`, pick your metafield, and set the test.** For example `Skin Concern` `equals` `Acne`.
 
+    6. **Save the collection.** Shopify now keeps it up to date as products change.
+
+    7. **Open your quiz, edit a question and add a choice.**
+
+    8. **Link the new collection to that choice, instead of picking products one by one.** An answer of `Acne-prone skin` then points at the `Skin Concern = Acne` collection.
+
+    9. **Click the top-right `Save` button.**
 
 === "Shopify (Legacy)"
 
-    Shopify lets you use **product metafields** as conditions in a **smart collection**.
+    Shopify can use a product metafield as the condition of a smart collection. Group products by a property such as `Skin Concern = Acne` or `Subscription Eligible = True`, then point a quiz choice at the collection.
 
-    !!! info "Smart collections from metafields"
+    !!! info "Metafield types a smart collection accepts"
 
-        For more, see the Shopify documentation on [Smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
+        - Single line text
+        - Single line text (list)
+        - True or false (boolean)
+        - Integer
+        - Decimal
+        - Rating
 
-    This is useful if you want to organize products by custom attributes (like `Skin Concern = Acne` or `Subscription Eligible = True`) and then connect those collections to your RevenueHunt quiz.
-
-    !!! info "Supported Metafield Types"
-
-        You can use the following product metafield types in smart collections:
-
-        * Single line text
-        * Single line text (list)
-        * True or false (boolean)
-        * Integer
-        * Decimal
-        * Rating
-
-    Step by step guide:
+        See the Shopify documentation on [smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/53e88df6033b4c71b2834562df1f3e0f?sid=ced7456d-d8ed-4e83-8cb9-17bd31e34a86" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+    1. **In your Shopify admin, go to `Settings > Custom data > Products` and click `Add definition`.** Pick one of the types above and give it a clear name, such as `Skin Concern`, `Organic Certified` or `SPF Rating`.
 
-    1. **Create Product Metafields**: In Shopify Admin, go to `Settings → Custom data → Products`.
+    2. **Open a product, scroll to `Metafields`, and fill the value in.** For example `Skin Concern = Acne`. Repeat for every product it applies to.
 
-        - Click `Add definition`.
-        - Select one of the supported metafield types and give it a clear name, such as `Skin Concern`, `Organic Certified` or `SPF Rating`.
-        - Save the metafield definition.
+    3. **Go to `Products > Collections` and click `Create collection`.**
 
-    2. **Add Metafield Values to Products**: Open a product in Shopify Admin. Scroll down to the `Metafields` section. Enter the value for the metafield you created. Example: `Skin Concern = Acne`. Repeat for all relevant products.
-    3. **Create a Smart Collection Using Metafields**: Go to `Products → Collections`.
+    4. **Choose `Automated collection`.**
 
-        - Click `Create collection`.
-        - Choose `Automated collection`.
-        - Under `Conditions`, open the field dropdown and select `Product metafields`.
-        - Select your metafield (e.g. `Skin Concern`).
-        - Define the condition (e.g. `equals → Acne`).
-        - Save the collection. Now, Shopify automatically groups products based on metafield values.
-    4. **Sync changes**: Open your quiz in the RevenueHunt app and run a quick [catalog sync](/how-to-guides/sync-catalog/).
-    5. **Link Smart Collections in RevenueHunt**: In the Quiz Builder, open the [Link Collections](/reference/quiz-builder/link-collections/) tab and link the smart collection to a choice.
-    6. Click `Publish` to save your changes.
+    5. **Under `Conditions`, select `Product metafields`, pick your metafield, and set the test.** For example `Skin Concern` `equals` `Acne`.
 
+    6. **Save the collection.** Shopify now keeps it up to date as products change.
 
+    7. **Run a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.**
 
+    8. **Open the [Link Collections](/reference/quiz-builder/link-collections/) tab in the Quiz Builder and link the collection to a choice.**
+
+    9. **Click the top-right `Publish` button.**
 
 === "WooCommerce"
 
-    You can use attributes as categories in the RevenueHunt app for WooCommerce.
+    A WooCommerce attribute can act as a category, so a quiz choice points at every product carrying that attribute value.
 
-    To do that:
+    1. **Open [App Settings > Catalogue](/reference/app-settings/#catalog).**
 
-    1. Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
-    2. Activate the `Use attributes as categories` setting by clicking the toggle.
+    2. **Turn on `Use attributes as categories`.**
 
-      ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
-    3. Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
-    4. Go to the [Link Collections](/reference/quiz-builder/link-collections/) tab in the Quiz Builder and link the attributes to a choice.
-    5. Click `Publish` to save your changes.
+        ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
 
+    3. **Run a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.**
+
+    4. **Open the [Link Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder and link an attribute to a choice.**
+
+    5. **Click the top-right `Publish` button.**
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Smart collections built from product attributes are a Shopify feature. This version of the app does not have an equivalent.
+        This version cannot build a collection from product attributes on its own.
+
+        Create the categories you need in your store, then link them to a choice in the [Link Categories](/reference/quiz-builder/link-collections/) tab.
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Smart collections built from product attributes are a Shopify feature. This version of the app does not have an equivalent.
+        This version cannot build a collection from product attributes on its own.
+
+        Create the categories you need in your store, then link them to a choice in the [Link Categories](/reference/quiz-builder/link-collections/) tab.
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        The Standalone version has no store to build smart collections from. Create collections by hand in the [Catalogue](https://admin.revenuehunt.com/catalogue) instead.
-
+        This version has no store to build collections from. Create them by hand in the [Catalogue](https://admin.revenuehunt.com/catalogue) instead.
 
 ---
-Following these steps will enable you to display specific metafields on your quiz's results page, ensuring compliance with local regulations and improving your product presentations.
- 
+
+This article explains how to show a product metafield on the quiz results page. It also covers building collections from metafield values.

@@ -6861,67 +6861,60 @@ icon: material/focus-field-horizontal
 
 # How to Add Product Metafields/Attributes
 
-This article explains how to add product metafields/attributes to products on your quiz's results page.
+A metafield, called an attribute in some stores, holds a product property your store does not show by default. This article explains how to put one on the quiz results page, and how to build collections from metafield values.
 
+## Show a metafield on the results page
 
-## How to use metafields as smart collections
+## Use metafields as smart collections
 
 ---
-Following these steps will enable you to display specific metafields on your quiz's results page, ensuring compliance with local regulations and improving your product presentations.
+
+This article explains how to show a product metafield on the quiz results page. It also covers building collections from metafield values.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/BdyXTeel1WM?si=XC-LEQ5PUEvPwOUC" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! note
-    The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
-    In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
-[Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Metafields make that possible. The `💎Built for Shopify` version of the RevenueHunt app also has a `Unit price` setting under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition).
-The `💎Built for Shopify` version of the RevenueHunt app has fewer steps for adding and displaying metafields. Follow these steps to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
-**Step 1: Enable Metafields Display**
-To enable the display of metafields for individual products:
-1. Navigate to the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.
-2. Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
-3. In the [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), click `+ block`and add the `Metafield`section.
-  ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
-  ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
-4. From the `Select metafield` section, select the metafield you want to display.
+[Metafields](https://help.shopify.com/en/manual/custom-data/metafields) hold product properties that a storefront does not show by default. A cosmetic product sold in Germany, for example, has to show the "Grundpreis", the `per 100ml` price.
+!!! warning "The metafield needs Storefront API access"
+    Open the metafield definition in Shopify and make it readable through the Storefront API. Without that, the live quiz cannot read the value.
+!!! note "What the app can read"
+    The app syncs and shows `string`, `single_line_text_field`, `multi_line_text_field`, `date` and `number` metafields. `rich_text_field` is not supported.
+    Inside a variant slot, a metafield block shows the parent product's metafield, not a variant-level one.
+1. **Open the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.**
+2. **Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.**
+3. **In [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), click `+ block` and add `Metafield`.**
+    ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+    ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
+4. **Pick the metafield under `Select metafield`.**
     ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_selectmetafield.png)
-5. For the `💎Built for Shopify` live quiz, the metafield definition in Shopify must have Storefront API access enabled/readable.
-6. You can also add a `Text` block to the product layout. Insert the metafield value as a [content dynamic source](/how-to-guides/use-information-recalls/), so it sits inside your own text.
-  ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_text_adddynamicsourcemetafiled.png)
-7. Save the changes with the top-right `Save` button.
-The selected metafield then appears in the product block, as part of the recommended product.
-!!! tip
-    If a custom metafield is missing from the list, force a catalog sync:
-    1. Go to [App settings > Catalog](/reference/app-settings/#catalog).
-    2. Click the `Import catalog` button to trigger a manual sync.
-Shopify lets you use **product metafields** as conditions in a **smart collection**.
-!!! info "Smart collections from metafields"
-    For more, see the Shopify documentation on [Smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
-This is useful if you want to organize products by custom attributes (like `Skin Concern = Acne` or `Subscription Eligible = True`) and then connect those collections to your RevenueHunt quiz.
-!!! info "Supported Metafield Types"
-    You can use the following product metafield types in smart collections:
-    * Single line text
-    * Single line text (list)
-    * True or false (boolean)
-    * Integer
-    * Decimal
-    * Rating
-Step by step guide:
+5. **Click the top-right `Save` button.**
+The metafield then shows in the product block, alongside the rest of the product.
+!!! tip "Put the value inside a sentence of your own"
+    Add a `Text` block to the product layout, and insert the metafield as a [content dynamic source](/how-to-guides/use-information-recalls/).
+    ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_text_adddynamicsourcemetafiled.png)
+!!! tip "A metafield missing from the list"
+    Force a catalog sync. Open [App settings > Catalog](/reference/app-settings/#catalog) and click `Import catalog`.
+!!! info "A unit price needs no metafield"
+    `Unit price` is a setting of its own, under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition).
+Shopify can use a product metafield as the condition of a smart collection. Group products by a property such as `Skin Concern = Acne` or `Subscription Eligible = True`, then point a quiz choice at the collection.
+!!! info "Metafield types a smart collection accepts"
+    - Single line text
+    - Single line text (list)
+    - True or false (boolean)
+    - Integer
+    - Decimal
+    - Rating
+    See the Shopify documentation on [smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/53e88df6033b4c71b2834562df1f3e0f?sid=ced7456d-d8ed-4e83-8cb9-17bd31e34a86" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Create Product Metafields**: In Shopify Admin, go to `Settings → Custom data → Products`.
-    - Click `Add definition`.
-    - Select one of the supported metafield types and give it a clear name, such as `Skin Concern`, `Organic Certified` or `SPF Rating`.
-    - Save the metafield definition.
-2. **Add Metafield Values to Products**: Open a product in Shopify Admin. Scroll down to the `Metafields` section. Enter the value for the metafield you created. Example: `Skin Concern = Acne`. Repeat for all relevant products.
-3. **Create a Smart Collection Using Metafields**: Go to `Products → Collections`.
-    - Click `Create collection`.
-    - Choose `Automated collection`.
-    - Under `Conditions`, open the field dropdown and select `Product metafields`.
-    - Select your metafield (e.g. `Skin Concern`).
-    - Define the condition (e.g. `equals → Acne`).
-    - Save the collection. Now, Shopify automatically groups products based on metafield values.
-4. **Use Smart Collections in RevenueHunt**: Open your quiz in the RevenueHunt app. Edit a question and add a Choice. Instead of linking individual products, select the Shopify collection you created. Example: Quiz answer “Acne-prone skin” → Collection `Skin Concern = Acne`. Save and publish your quiz.
+1. **In your Shopify admin, go to `Settings > Custom data > Products` and click `Add definition`.** Pick one of the types above and give it a clear name, such as `Skin Concern`, `Organic Certified` or `SPF Rating`.
+2. **Open a product, scroll to `Metafields`, and fill the value in.** For example `Skin Concern = Acne`. Repeat for every product it applies to.
+3. **Go to `Products > Collections` and click `Create collection`.**
+4. **Choose `Automated collection`.**
+5. **Under `Conditions`, select `Product metafields`, pick your metafield, and set the test.** For example `Skin Concern` `equals` `Acne`.
+6. **Save the collection.** Shopify now keeps it up to date as products change.
+7. **Open your quiz, edit a question and add a choice.**
+8. **Link the new collection to that choice, instead of picking products one by one.** An answer of `Acne-prone skin` then points at the `Skin Concern = Acne` collection.
+9. **Click the top-right `Save` button.**
 
 
 
@@ -6937,21 +6930,32 @@ icon: material/package-variant-plus
 
 # How to Add Products in Standalone RevenueHunt App
 
-This article explains how to add products in the Standalone version of the RevenueHunt app. Add them by hand, or import them from Google Merchant Center as a Google Product Feed XML file.
+The Standalone version has no store behind it, so its catalogue is yours to fill. You can type the products in one at a time, or import them from Google Merchant Center as a Google Product Feed XML file.
 
 ## Add products manually
 
 ## Add products via Google Merchant Center
 
+## What to do next
+
+Once your catalogue holds products, the quiz can start recommending them.
+
+- [Start building your quiz](/how-to-guides/create-first-quiz/)
+- [Set up product recommendations](/how-to-guides/set-up-recommendations/)
+- [Customize your quiz design](/how-to-guides/customize-quiz-design/)
+
 ---
-This article explains how to add products to your quiz using the Standalone version of the RevenueHunt app. You can either add products manually or import them from Google Merchant Center.
+
+This article explains how to fill the Standalone catalogue, by hand or from a Google Product Feed.
 
 --- Shopify Specific Content ---
 
 !!! note "Not available on this platform"
-    Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    Your products come from Shopify, and the app imports them for you. There is nothing to add by hand.
+    See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 !!! note "Not available on this platform"
-    Your products come from Shopify. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    The app reads your Shopify catalog directly, so it needs no product feed.
+    See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -6965,40 +6969,37 @@ description: "Troubleshooting guide to diagnose and fix common issues preventing
 icon: material/cart-off
 ---
 
-
 # Why Products Are Not Added to the Cart
 
-If your products are not added to the cart, here are the most probable causes.
+If the quiz does not put a product in the cart, one of these three causes is usually behind it.
 
 ## Your quiz is not published on a live website
 
-## Your store uses a cart drawer
+## Your store has a cart drawer or mini cart
 
 ## Your product is a subscription product
 
 ---
-This article covers the common reasons a quiz does not add a product to the cart: an unpublished quiz, a cart drawer, and subscription products.
+
+This article covers three reasons a quiz does not add a product to the cart. They are an unpublished quiz, a cart drawer that does not refresh, and subscription products.
 
 --- Shopify Specific Content ---
 
 The quiz has to run on a published theme on your live store. A password page, a store still in trial, or a theme you are only previewing all block the cart.
-!!! tip
-    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
-The RevenueHunt app does not integrate with drawer carts. After the quiz, it adds products to the “regular” cart rather than the drawer cart in your theme.
-A drawer cart comes from a store theme, not from Shopify itself. The app cannot integrate with every theme that has one. There are two ways around it.
-!!! warning "Cart Drawer"
-    [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) explains:
-    - How the RevenueHunt app adds products to the Shopify cart
-    - Why the cart drawer may not update
-    - What your theme editor or developer can do to fix it
-**Option 1: Configure your Shopify theme to handle cart updates**
+!!! tip "Publishing the quiz"
+    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+The app adds products to the regular Shopify cart, not to the drawer cart your theme draws over it. The product is in the cart, but the drawer can keep showing what it held before.
+A drawer cart belongs to the theme rather than to Shopify, and the app cannot integrate with every theme that has one. There are two ways around it.
+**Option 1: have your theme handle the cart update**
 The app calls the Shopify AJAX Cart API, the same endpoints most themes use. A theme that listens for those calls can refresh its drawer from the quiz.
-**Option 2: Send the customer to the product page**
-Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the drawer cart themselves.
-!!! tip
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
-The RevenueHunt app can sync and recommend subscription products created with Recharge Subscriptions for Shopify. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for how to enable it.
-For other subscription apps, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
+!!! info "What your theme editor or developer needs to know"
+    [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, why the drawer may not update, and what to change in the theme.
+**Option 2: send the customer to the product page**
+Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the drawer cart themselves.
+!!! tip "Changing what the button does"
+    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+The app syncs and recommends subscription products from Shopify Subscriptions and from Recharge Subscriptions. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for the setup.
+For any other subscription app, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 
 
@@ -7024,9 +7025,9 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
 ## Add a welcome screen
 
-!!! note
+!!! note "It has to be the first slide"
 
-    The welcome screen has to be the first slide in your question list to show before your questions. If you add it to an existing quiz, check its position in the list.
+    The welcome screen only comes before your questions if it sits first in the question list. If you add one to a quiz you already built, check where it landed.
 
 ## Write the welcome copy
 
@@ -7036,7 +7037,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
 !!! tip "Name the action, not the step"
 
-    Write the button as the action the customer is taking, such as "Find my match" or "Start the quiz", rather than a bare "Next".
+    Write the button as the action the customer is taking, such as `Find my match` or `Start the quiz`, rather than a bare `Next`.
 
 ## Remove the welcome screen
 
@@ -7050,27 +7051,33 @@ Removing the welcome screen makes your first question the first thing customers 
 - [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/)
 - [Quiz Builder - Questions reference](/reference/quiz-builder/questions/)
 
+---
+
+This article explains how to add a welcome screen to a quiz, what to put on it, and how to remove it again.
+
 --- Shopify Specific Content ---
 
-1. Open your quiz in the **Quiz builder**.
-2. Click `+ Add question`.
-3. Under **Messages**, choose `Welcome Message`.
+1. **Open your quiz in the Quiz builder.**
+2. **Click `+ Add question`.**
+3. **Choose `Welcome Message`, under `Messages`.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
-4. Click `Save` in the top-right corner to update the preview and the live quiz.
+4. **Click the top-right `Save` button.** This updates both the preview and the live quiz.
 The welcome screen is built from [blocks](/reference/quiz-builder/questions/#block-settings), the same way every other slide is.
 - Click the `Heading` block to write your main line, and set its `Size` and `Alignment`.
-- Click the `Text` block for the supporting sentence. To add one, click `+ Add block` and choose `Text`.
-- Both blocks support [information recalls](/how-to-guides/use-information-recalls/) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) if you want to pull in dynamic content.
+- Click `+ Add block` and choose `Text` for the supporting sentence.
+- Both blocks take [information recalls](/how-to-guides/use-information-recalls/) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates), if you want to pull in something dynamic.
 Keep it to one clear promise and one line of detail. Long welcome copy is a common cause of drop-off.
-**For a logo or an inline image**, click `+ Add block`, choose `Image`, and upload your file. The image sits in the flow of the slide with the rest of your blocks.
-**For a background or split-screen image**, click the slide to open its settings, then use `Image upload`:
-1. Click `Select image`, then `Add image` in the popup, and upload your file. You can also pick from images already in your quiz gallery.
-2. Set `Layout` to `background` to place it behind the text, or `split` to put it beside the text.
-3. Use `Opacity` to fade it back so your copy stays readable.
-4. For `split`, set `Position (desktop)` to `left` or `right`, and `Position (mobile)` to `above`, `below` or `hidden`.
-See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for sizing recommendations.
-Click the `Button` block on the slide and edit `Button text`. Use `Alignment` to move it left, right or center.
-Click the slide to open its settings, click `...`, then click `Remove`. To keep it but reuse it later, click `Duplicate` first.
+**For a logo or an inline image**
+Click `+ Add block`, choose `Image`, and upload your file. The image then sits in the flow of the slide, with the rest of your blocks.
+**For a background or split-screen image**
+1. **Click the slide to open its settings, then click `Image upload`.**
+2. **Click `Select image`, then `Add image` in the popup, and upload your file.** You can also pick one already in your quiz gallery.
+3. **Set `Layout` to `background` to place it behind the text, or `split` to put it beside the text.**
+4. **Fade it back with `Opacity`, so your copy stays readable.**
+5. **For a `split` image, set `Position (desktop)` and `Position (mobile)`.** On a desktop the image goes `left` or `right`, and on a phone it goes `above`, `below` or `hidden`.
+See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+Click the `Button` block on the slide and edit `Button text`. `Alignment` moves it left, right or center.
+Click the slide to open its settings, click `...`, then click `Remove`. To keep it for later instead, click `Duplicate` first.
 
 
 
@@ -7090,44 +7097,49 @@ Asking for marketing consent, or for acceptance of data processing, inside the q
 
 This article covers three ways to add a consent request to a quiz.
 
-!!! tip
+!!! tip "Which option to choose"
 
-    For the reasoning behind each option, see [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/).
+    For the reasoning behind each one, see [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/).
 
 ## Add a link to your privacy policy
 
 ## How to ask for marketing/data processing consent
 
-### Option 1: question description / text block
+### Option 1: consent text on the question
 
 ### Option 2: marketing checkmark
 
 ### Option 3: GDPR question
 
-You can add a `Legal Terms/GDPR` question, which asks the customer to accept the processing of their data or to receive marketing information.
-
-1. Go to the [quiz builder](/reference/quiz-builder/questions/), click the `+` button and add a [Legal Term/GDPR slide](/reference/quiz-builder/questions/#question-types).
-2. In the question text, ask whether the customer consents to the processing of their data for marketing purposes.
-3. Use [jump logic](/how-to-guides/use-jump-logic/) to send the customer to a different part of the quiz for yes and for no. That segments them on consent straight away.
-
 ---
-This article explains three ways to ask for marketing or data processing consent in a quiz. They are a question description or text block, a marketing checkmark, and a Legal Terms/GDPR question. It also covers linking to your privacy policy.
+
+This article explains three ways to ask for marketing or data processing consent in a quiz. They are consent text on the question, a marketing checkmark, and a Legal Terms/GDPR question.
 
 --- Shopify Specific Content ---
 
-Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz.
-For example, like this:
+Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz, using the link button in the text editor.
 ![Privacy policy link in a quiz text block](/images/how_to_askconsent_addlinktopolicy.png)
-You can inform the customer in any text block that by providing the email address they agree to receive marketing information.
-1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and click `+ Add block` to add a text block.
-2. A text field appears where you add your consent text.
-3. Link to your privacy policy with the link feature in the text box, for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-4. Save your changes with the `Save` button in the top-right corner.
-Combine quiz blocks on one question to build a marketing consent checkbox. The customer then has to consent before going on.
-1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-3. This joins the two questions, so the customer has to select the consent option to go on.
+Tell the customer, in a text block, that giving their email address means agreeing to receive marketing information.
+1. **Open the [quiz builder](/reference/quiz-builder/questions/) and select the question that asks for the email address.**
+2. **Click `+ Add block` and choose `Text`.**
+3. **Write your consent text into the field that appears.**
+4. **Link your privacy policy with the link button in the text editor.** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+5. **Click the top-right `Save` button.**
+Put a consent checkbox on the same slide as the email field, so the customer cannot go on without ticking it.
+1. **Open the [quiz builder](/reference/quiz-builder/questions/) and select the question that holds the email block.**
+2. **Click `+ Add block` and choose `Multiple Choice`.**
+3. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+4. **Leave the block required.** Turning `Optional` on would let the customer continue without consenting.
     ![how to ask for marketing consent join questions](/images/how_to_askconsent_addmarketingcheckmark.png)
+5. **Click the top-right `Save` button.**
+Both the email field and the consent choice now sit on one slide. See [How to Join Questions](/how-to-guides/join-questions/) for more on building a slide from several blocks.
+A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+ Add question`.**
+2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+4. **Click the top-right `Save` button.**
+!!! tip "Segment on the answer straight away"
+    [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
 
 
 
@@ -7145,10 +7157,13 @@ icon: material/sitemap
 
 Shopify Flow can run an automation every time a customer completes your quiz. Follow up, segment, or update your store based on the answers.
 
-How the workflow starts depends on your version of the app. The Built for Shopify version has a **Quiz Completed** trigger that carries the whole completion. Your actions can use the response, answers, customer tags, recommendations and variable scores. On the legacy version you build the same automation on Shopify's **Customer created** trigger, with a condition on customer tags.
+What the automation can read, and which trigger starts it, depends on the version you are running.
 
 --- Shopify Specific Content ---
 
+!!! info "This version has a `Quiz Completed` trigger"
+    Shopify Flow starts a workflow the moment a customer finishes the quiz. Your actions then receive the whole completion: every answer, the customer tags, the recommended products and the variable scores.
+    That is what makes the automation quiz-aware. You can email the answers to your team, branch on what the customer picked, or write a recommendation onto their profile.
 ## Before you start
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=yEPUcXlyNLd0ecug" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 The trigger runs on a Shopify customer record, not on an anonymous quiz session. RevenueHunt matches the customer to that record by the email address they type into the quiz. That is why the next two steps matter.
@@ -7174,7 +7189,7 @@ When a customer completes a quiz, RevenueHunt sends a structured payload to Shop
 - `customer_id`, the numeric Shopify customer ID
 - `Quiz completion`, an object holding everything about the completion.
 Under **Add variable** in any action, the quiz data is nested under `Quiz completion`. Which fields you see depends on what the customer submitted and on how the quiz is configured.
-### Completion fields
+**Completion fields**
 | Field | Description |
 | --- | --- |
 | `eventId` | A stable ID for deduplication, in the form `quiz-completed:<response-sqid>` |
@@ -7189,7 +7204,7 @@ Under **Add variable** in any action, the quiz data is nested under `Quiz comple
 | `marketId` | The market identifier |
 | `highestVariableRef` | The reference of the variable with the highest score |
 | `recommendationsIncomplete` | `true` when product data was partially missing at delivery |
-### `answers`
+**`answers`**
 A list with one object per answered question.
 | Field | Description |
 | --- | --- |
@@ -7198,7 +7213,7 @@ A list with one object per answered question.
 | `value` | The answer itself, stringified |
 | `choiceRefs`, `choiceLabels` | The choices picked, for multiple-choice questions |
 | `position` | Order of the question in the quiz |
-### `recommendations`
+**`recommendations`**
 A list of the recommended products or items.
 | Field | Description |
 | --- | --- |
@@ -7207,7 +7222,7 @@ A list of the recommended products or items.
 | `title`, `url` | The product title and link |
 | `rank`, `score` | Position in the recommendation list and its matching score |
 | `price`, `currency` | The price and its currency |
-### `variableScores`
+**`variableScores`**
 A list of the calculated [variable](/tutorials/conditional-logic/) scores.
 | Field | Description |
 | --- | --- |

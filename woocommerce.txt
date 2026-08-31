@@ -6438,62 +6438,55 @@ icon: material/focus-field-horizontal
 
 # How to Add Product Metafields/Attributes
 
-This article explains how to add product metafields/attributes to products on your quiz's results page.
+A metafield, called an attribute in some stores, holds a product property your store does not show by default. This article explains how to put one on the quiz results page, and how to build collections from metafield values.
 
+## Show a metafield on the results page
 
-## How to use metafields as smart collections
+## Use metafields as smart collections
 
 ---
-Following these steps will enable you to display specific metafields on your quiz's results page, ensuring compliance with local regulations and improving your product presentations.
+
+This article explains how to show a product metafield on the quiz results page. It also covers building collections from metafield values.
 
 --- WooCommerce Specific Content ---
 
-[Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce hold product properties that an ecommerce platform does not show by default. In Germany, for example, a cosmetic product must show the "Grundpreis", the `per 100ml` price. Attributes make that possible.
-To import product attributes from your store and show them on the results page, follow these steps:
-**Step 1: Enable Attributes Display**
-First, enable the display of attributes for individual products:
-1. Navigate to your [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).
-2. Open the `Individual Product Settings` section.
-3. Activate the `show metafields` toggle.
-**Step 2: Open App Settings**
-Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
-**Step 3: Select  Attributes**
-Activate the `Pass attribute information to result page` setting by clicking the toggle.
-![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
-**Step 4: Sync the Catalog**
-Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
-**Step 5: Implement Custom JavaScript on the Results Page**
-To display the metafield values on your results page, [custom JavaScript](/how-to-guides/add-javascript/) is required:
-1. Your developer writes custom JavaScript to render the metafield value where you want it on the results page.
-2. This customization is outside the support scope of the app.
-This sample code replaces the product description with the `descriptors-subtitle` metafield. This code should be added in the [Custom JavaScript](/how-to-guides/add-javascript/) input under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
-```javascript
-window.recommendedProducts = prq.recommendedProducts();
-var products = document.querySelectorAll('.lq-product');
-for (let i = 0; i < products.length; i++) {
-  let id = products[i].id;
-  let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
-  let product = window.recommendedProducts.find(product => product.id === id);
-  if (product.metafields['descriptors-subtitle']) {
-    let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
-    for (let j = 0; j < toEdit.length; j++) {
-      if (!toEdit[j].hasAttribute("edited")) {
-        toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
-        toEdit[j].setAttribute("edited", "true");
+[Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce hold product properties that a storefront does not show by default. A cosmetic product sold in Germany, for example, has to show the "Grundpreis", the `per 100ml` price.
+1. **Go to [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).**
+2. **Open `Individual Product Settings` and turn on the `show metafields` toggle.**
+3. **Open [App Settings > Catalogue](/reference/app-settings/#catalog).**
+4. **Turn on `Pass attribute information to result page`.**
+    ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
+5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.**
+6. **Ask your developer to render the attribute with [custom JavaScript](/how-to-guides/add-javascript/).** Nothing appears on the results page until they do.
+    !!! warning "Outside the support scope"
+        This version does not place the values on the results page for you, and the code that does it is not covered by app support.
+    The sample below appends the `descriptors-subtitle` value to each recommended product. It goes in the [Custom JavaScript](/how-to-guides/add-javascript/) field, under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
+    ```javascript
+    window.recommendedProducts = prq.recommendedProducts();
+    var products = document.querySelectorAll('.lq-product');
+    for (let i = 0; i < products.length; i++) {
+      let id = products[i].id;
+      let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
+      let product = window.recommendedProducts.find(product => product.id === id);
+      if (product.metafields['descriptors-subtitle']) {
+        let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
+        for (let j = 0; j < toEdit.length; j++) {
+          if (!toEdit[j].hasAttribute("edited")) {
+            toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
+            toEdit[j].setAttribute("edited", "true");
+          }
+        }
       }
     }
-  }
-}
-```
-![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
-You can use attributes as categories in the RevenueHunt app for WooCommerce.
-To do that:
-1. Open [App Settings > Catalogue](/reference/app-settings/#catalog) to access the settings to manage your catalog.
-2. Activate the `Use attributes as categories` setting by clicking the toggle.
-  ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
-3. Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
-4. Go to the [Link Collections](/reference/quiz-builder/link-collections/) tab in the Quiz Builder and link the attributes to a choice.
-5. Click `Publish` to save your changes.
+    ```
+    ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
+A WooCommerce attribute can act as a category, so a quiz choice points at every product carrying that attribute value.
+1. **Open [App Settings > Catalogue](/reference/app-settings/#catalog).**
+2. **Turn on `Use attributes as categories`.**
+    ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
+3. **Run a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.**
+4. **Open the [Link Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder and link an attribute to a choice.**
+5. **Click the top-right `Publish` button.**
 
 
 
@@ -6509,21 +6502,32 @@ icon: material/package-variant-plus
 
 # How to Add Products in Standalone RevenueHunt App
 
-This article explains how to add products in the Standalone version of the RevenueHunt app. Add them by hand, or import them from Google Merchant Center as a Google Product Feed XML file.
+The Standalone version has no store behind it, so its catalogue is yours to fill. You can type the products in one at a time, or import them from Google Merchant Center as a Google Product Feed XML file.
 
 ## Add products manually
 
 ## Add products via Google Merchant Center
 
+## What to do next
+
+Once your catalogue holds products, the quiz can start recommending them.
+
+- [Start building your quiz](/how-to-guides/create-first-quiz/)
+- [Set up product recommendations](/how-to-guides/set-up-recommendations/)
+- [Customize your quiz design](/how-to-guides/customize-quiz-design/)
+
 ---
-This article explains how to add products to your quiz using the Standalone version of the RevenueHunt app. You can either add products manually or import them from Google Merchant Center.
+
+This article explains how to fill the Standalone catalogue, by hand or from a Google Product Feed.
 
 --- WooCommerce Specific Content ---
 
 !!! note "Not available on this platform"
-    Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    Your products come from WooCommerce, and the app imports them for you. There is nothing to add by hand.
+    See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 !!! note "Not available on this platform"
-    Your products come from WooCommerce. The app imports them for you, so there is nothing to add by hand. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    The app reads your WooCommerce catalog directly, so it needs no product feed.
+    See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -6537,37 +6541,37 @@ description: "Troubleshooting guide to diagnose and fix common issues preventing
 icon: material/cart-off
 ---
 
-
 # Why Products Are Not Added to the Cart
 
-If your products are not added to the cart, here are the most probable causes.
+If the quiz does not put a product in the cart, one of these three causes is usually behind it.
 
 ## Your quiz is not published on a live website
 
-## Your store uses a cart drawer
+## Your store has a cart drawer or mini cart
 
 ## Your product is a subscription product
 
 ---
-This article covers the common reasons a quiz does not add a product to the cart: an unpublished quiz, a cart drawer, and subscription products.
+
+This article covers three reasons a quiz does not add a product to the cart. They are an unpublished quiz, a cart drawer that does not refresh, and subscription products.
 
 --- WooCommerce Specific Content ---
 
-The quiz has to run on a live site. A “coming soon” or maintenance mode plugin, a password-protected page, or a staging site all block the cart.
-!!! tip
-    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+The quiz has to run on a live site. A coming-soon or maintenance-mode plugin, a password-protected page, or a staging site all block the cart.
+!!! tip "Publishing the quiz"
+    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 Many WooCommerce themes and plugins add a side cart or mini cart. The product does reach the cart, but that panel keeps showing the old contents until the page reloads.
-A mini cart refreshes through WooCommerce cart fragments. A theme or plugin that overrides the `add_to_cart_fragments` hook, or a cache that serves a stale fragment response, stops it from updating.
-**Option 1: Ask your theme or plugin developer to refresh the fragments**
-The panel has to request the cart fragments again after the quiz adds a product. Your developer can also test with a default theme such as Storefront to confirm which plugin or theme is holding the old state.
-**Option 2: Send the customer to the product page**
-Change the checkout settings to send the customer to the product page rather than add the product to the cart. They can then add it to the side cart themselves.
-!!! tip
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+A mini cart refreshes through WooCommerce cart fragments. A theme or plugin that overrides the `add_to_cart_fragments` hook, or a cache that serves a stale fragment response, stops it updating.
 !!! warning "Check your cache first"
     Page and CDN caches are the most common cause. Clear the cache in your caching plugin, at your host, and at your CDN, then take the quiz again.
-Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync with the app on install. If one is missing, run a [catalog sync](/how-to-guides/sync-catalog/).
-For other subscription plugins, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
+**Option 1: have the fragments refreshed**
+The panel has to request the cart fragments again after the quiz adds a product. Your developer can also test with a default theme such as Storefront, to find which plugin or theme holds the old state.
+**Option 2: send the customer to the product page**
+Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the side cart themselves.
+!!! tip "Changing what the button does"
+    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync with the app once the plugin is installed. If one is missing, run a [catalog sync](/how-to-guides/sync-catalog/).
+For any other subscription plugin, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 
 
@@ -6593,9 +6597,9 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
 ## Add a welcome screen
 
-!!! note
+!!! note "It has to be the first slide"
 
-    The welcome screen has to be the first slide in your question list to show before your questions. If you add it to an existing quiz, check its position in the list.
+    The welcome screen only comes before your questions if it sits first in the question list. If you add one to a quiz you already built, check where it landed.
 
 ## Write the welcome copy
 
@@ -6605,7 +6609,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
 !!! tip "Name the action, not the step"
 
-    Write the button as the action the customer is taking, such as "Find my match" or "Start the quiz", rather than a bare "Next".
+    Write the button as the action the customer is taking, such as `Find my match` or `Start the quiz`, rather than a bare `Next`.
 
 ## Remove the welcome screen
 
@@ -6619,24 +6623,34 @@ Removing the welcome screen makes your first question the first thing customers 
 - [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/)
 - [Quiz Builder - Questions reference](/reference/quiz-builder/questions/)
 
+---
+
+This article explains how to add a welcome screen to a quiz, what to put on it, and how to remove it again.
+
 --- WooCommerce Specific Content ---
 
-1. Open your quiz in the **Quiz Builder**.
-2. Click `+` / `Add new question`.
+1. **Open your quiz in the Quiz Builder.**
+2. **Click `+` / `Add new question`.**
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-3. Choose `Welcome Message`.
-4. Click `Publish` in the top menu to update the preview and the live quiz.
-1. Click the slide, then open `question settings` / the `wrench icon`.
-2. Type your main line in the question field on the slide.
-3. Toggle `Show Description` on to reveal a second text field below it, and add your supporting sentence there.
+3. **Choose `Welcome Message`.**
+4. **Click `Publish` in the top menu.** This updates both the preview and the live quiz.
+1. **Click the slide, then click the `wrench` icon to open the question settings.**
+2. **Type your main line into the question field on the slide.**
+3. **Turn on `Show Description`, and write your supporting sentence in the field that appears below it.**
 Keep it to one clear promise and one line of detail. Long welcome copy is a common cause of drop-off.
-1. Click the slide, then open `question settings` / the `wrench icon`.
-2. Next to `Image`, click `Add` and upload your file. Images should be a maximum of 1000px x 1000px.
-3. Choose the placement: `above`, `below`, `background` or `split`.
-4. Use `Image Opacity` to fade the image back so your copy stays readable.
-You can also add a `Video` here instead, as a `responsive`, `widget` or `background` element.
-Click the slide, open `question settings` / the `wrench icon`, and edit `Button Text`.
-Click the slide, open `more options` / `...`, then click `Delete`. Click `Duplicate` instead if you want to keep a copy.
+1. **Click the slide, then click the `wrench` icon to open the question settings.**
+2. **Click `Add` next to `Image` and upload your file.** An image can be up to 1000px by 1000px.
+3. **Choose where the image goes.**
+    `above` - On top of the slide, above your text.
+    `below` - Under your text.
+    `background` - Behind everything, replacing the default quiz background.
+    `split` - Beside your text, splitting the slide in two. On a phone the image moves to the top.
+4. **Fade it back with `Image Opacity`, so your copy stays readable.**
+!!! tip "A video works here too"
+    The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
+See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+Click the slide, click the `wrench` icon to open the question settings, and edit `Button Text`.
+Click the slide, open `more options` / `...`, then click `Delete`. To keep a copy instead, click `Duplicate` first.
 
 
 
@@ -6656,49 +6670,52 @@ Asking for marketing consent, or for acceptance of data processing, inside the q
 
 This article covers three ways to add a consent request to a quiz.
 
-!!! tip
+!!! tip "Which option to choose"
 
-    For the reasoning behind each option, see [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/).
+    For the reasoning behind each one, see [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/).
 
 ## Add a link to your privacy policy
 
 ## How to ask for marketing/data processing consent
 
-### Option 1: question description / text block
+### Option 1: consent text on the question
 
 ### Option 2: marketing checkmark
 
 ### Option 3: GDPR question
 
-You can add a `Legal Terms/GDPR` question, which asks the customer to accept the processing of their data or to receive marketing information.
-
-1. Go to the [quiz builder](/reference/quiz-builder/questions/), click the `+` button and add a [Legal Term/GDPR slide](/reference/quiz-builder/questions/#question-types).
-2. In the question text, ask whether the customer consents to the processing of their data for marketing purposes.
-3. Use [jump logic](/how-to-guides/use-jump-logic/) to send the customer to a different part of the quiz for yes and for no. That segments them on consent straight away.
-
 ---
-This article explains three ways to ask for marketing or data processing consent in a quiz. They are a question description or text block, a marketing checkmark, and a Legal Terms/GDPR question. It also covers linking to your privacy policy.
+
+This article explains three ways to ask for marketing or data processing consent in a quiz. They are consent text on the question, a marketing checkmark, and a Legal Terms/GDPR question.
 
 --- WooCommerce Specific Content ---
 
-Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
-For example, like this:
+Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
 ```markdown
 By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
 ```
 ![A consent question with a privacy policy link below the choice](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/Screenshot-2024-06-14-122634.webp){ width="450" }
-You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
-1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and open the [question settings](/reference/quiz-builder/questions/#question-settings).
-2. Enable the `question description` feature.
-3. A text field appears where you add your consent text.
-4. Link to your privacy policy with [Markdown](/how-to-guides/use-markdown/), for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-5. Publish your changes with the `Publish` button in the top-right corner.
-Combine quiz slides to build a marketing consent checkbox. The customer then has to consent before going on.
-1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-3. Return to the `email/phone` question , access [question settings](/reference/quiz-builder/questions/#question-settings), and enable the `join next question` option.
-4. This joins the two questions, so the customer has to select the consent option to go on.
+Tell the customer, in the question description, that giving their email address means agreeing to receive marketing information.
+1. **Open the [quiz builder](/reference/quiz-builder/questions/), select the question that asks for the email address, and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+2. **Turn on `question description`.**
+3. **Write your consent text into the field that appears.**
+4. **Link your privacy policy with [Markdown](/how-to-guides/use-markdown/).** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+5. **Click the top-right `Publish` button.**
+Join two slides together to build a consent checkbox, so the customer cannot go on without ticking it.
+1. **Open the [quiz builder](/reference/quiz-builder/questions/) and add a `Multiple Choice` question straight after the email or phone question.**
+2. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+3. **Go back to the email or phone question and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
     ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
+5. **Click the top-right `Publish` button.**
+See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
+2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+4. **Click the top-right `Publish` button.**
+!!! tip "Segment on the answer straight away"
+    [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
 
 
 
@@ -6716,13 +6733,13 @@ icon: material/sitemap
 
 Shopify Flow can run an automation every time a customer completes your quiz. Follow up, segment, or update your store based on the answers.
 
-How the workflow starts depends on your version of the app. The Built for Shopify version has a **Quiz Completed** trigger that carries the whole completion. Your actions can use the response, answers, customer tags, recommendations and variable scores. On the legacy version you build the same automation on Shopify's **Customer created** trigger, with a condition on customer tags.
+What the automation can read, and which trigger starts it, depends on the version you are running.
 
 --- WooCommerce Specific Content ---
 
-!!! note "Platform Availability"
-    Shopify Flow is a Shopify product, so this does not apply to WooCommerce.
-    To automate follow-ups, connect your quiz to an email or CRM service instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+!!! note "Shopify Flow is a Shopify product"
+    There is no equivalent automation tool in this version.
+    To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
 
 
 

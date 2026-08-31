@@ -9,26 +9,21 @@ Asking for marketing consent, or for acceptance of data processing, inside the q
 
 This article covers three ways to add a consent request to a quiz.
 
-!!! tip
+!!! tip "Which option to choose"
 
-    For the reasoning behind each option, see [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/).
+    For the reasoning behind each one, see [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/).
 
 ## Add a link to your privacy policy
 
 === "Shopify"
 
-    Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz.
-
-    For example, like this:
+    Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz, using the link button in the text editor.
 
     ![Privacy policy link in a quiz text block](/images/how_to_askconsent_addlinktopolicy.png)
 
-
 === "Shopify (Legacy)"
 
-    Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
-
-    For example, like this:
+    Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
 
     ```markdown
     By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
@@ -38,9 +33,7 @@ This article covers three ways to add a consent request to a quiz.
 
 === "WooCommerce"
 
-    Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
-
-    For example, like this:
+    Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
 
     ```markdown
     By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
@@ -50,9 +43,7 @@ This article covers three ways to add a consent request to a quiz.
 
 === "Magento"
 
-    Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
-
-    For example, like this:
+    Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
 
     ```markdown
     By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
@@ -62,9 +53,7 @@ This article covers three ways to add a consent request to a quiz.
 
 === "BigCommerce"
 
-    Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
-
-    For example, like this:
+    Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
 
     ```markdown
     By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
@@ -74,9 +63,7 @@ This article covers three ways to add a consent request to a quiz.
 
 === "Standalone"
 
-    Consent starts with a Privacy Policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
-
-    For example, like this:
+    Consent starts with a privacy policy the customer can find. Link to it from any text element of the quiz with [Markdown](/how-to-guides/use-markdown/).
 
     ```markdown
     By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
@@ -86,137 +73,300 @@ This article covers three ways to add a consent request to a quiz.
 
 ## How to ask for marketing/data processing consent
 
-### Option 1: question description / text block
+### Option 1: consent text on the question
 
 === "Shopify"
 
-    You can inform the customer in any text block that by providing the email address they agree to receive marketing information.
+    Tell the customer, in a text block, that giving their email address means agreeing to receive marketing information.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and click `+ Add block` to add a text block.
-    2. A text field appears where you add your consent text.
-    3. Link to your privacy policy with the link feature in the text box, for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-    4. Save your changes with the `Save` button in the top-right corner.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and select the question that asks for the email address.**
 
+    2. **Click `+ Add block` and choose `Text`.**
+
+    3. **Write your consent text into the field that appears.**
+
+    4. **Link your privacy policy with the link button in the text editor.** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+
+    5. **Click the top-right `Save` button.**
 
 === "Shopify (Legacy)"
 
-    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+    Tell the customer, in the question description, that giving their email address means agreeing to receive marketing information.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    2. Enable the `question description` feature.
-    3. A text field appears where you add your consent text.
-    4. Link to your privacy policy with [Markdown](/how-to-guides/use-markdown/), for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-    5. Publish your changes with the `Publish` button in the top-right corner.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/), select the question that asks for the email address, and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    2. **Turn on `question description`.**
+
+    3. **Write your consent text into the field that appears.**
+
+    4. **Link your privacy policy with [Markdown](/how-to-guides/use-markdown/).** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+
+    5. **Click the top-right `Publish` button.**
 
 === "WooCommerce"
 
-    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+    Tell the customer, in the question description, that giving their email address means agreeing to receive marketing information.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    2. Enable the `question description` feature.
-    3. A text field appears where you add your consent text.
-    4. Link to your privacy policy with [Markdown](/how-to-guides/use-markdown/), for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-    5. Publish your changes with the `Publish` button in the top-right corner.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/), select the question that asks for the email address, and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    2. **Turn on `question description`.**
+
+    3. **Write your consent text into the field that appears.**
+
+    4. **Link your privacy policy with [Markdown](/how-to-guides/use-markdown/).** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+
+    5. **Click the top-right `Publish` button.**
 
 === "Magento"
 
-    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+    Tell the customer, in the question description, that giving their email address means agreeing to receive marketing information.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    2. Enable the `question description` feature.
-    3. A text field appears where you add your consent text.
-    4. Link to your privacy policy with [Markdown](/how-to-guides/use-markdown/), for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-    5. Publish your changes with the `Publish` button in the top-right corner.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/), select the question that asks for the email address, and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    2. **Turn on `question description`.**
+
+    3. **Write your consent text into the field that appears.**
+
+    4. **Link your privacy policy with [Markdown](/how-to-guides/use-markdown/).** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+
+    5. **Click the top-right `Publish` button.**
 
 === "BigCommerce"
 
-    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+    Tell the customer, in the question description, that giving their email address means agreeing to receive marketing information.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    2. Enable the `question description` feature.
-    3. A text field appears where you add your consent text.
-    4. Link to your privacy policy with [Markdown](/how-to-guides/use-markdown/), for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-    5. Publish your changes with the `Publish` button in the top-right corner.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/), select the question that asks for the email address, and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    2. **Turn on `question description`.**
+
+    3. **Write your consent text into the field that appears.**
+
+    4. **Link your privacy policy with [Markdown](/how-to-guides/use-markdown/).** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+
+    5. **Click the top-right `Publish` button.**
 
 === "Standalone"
 
-    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+    Tell the customer, in the question description, that giving their email address means agreeing to receive marketing information.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/), select a question and open the [question settings](/reference/quiz-builder/questions/#question-settings).
-    2. Enable the `question description` feature.
-    3. A text field appears where you add your consent text.
-    4. Link to your privacy policy with [Markdown](/how-to-guides/use-markdown/), for example `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-    5. Publish your changes with the `Publish` button in the top-right corner.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/), select the question that asks for the email address, and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    2. **Turn on `question description`.**
+
+    3. **Write your consent text into the field that appears.**
+
+    4. **Link your privacy policy with [Markdown](/how-to-guides/use-markdown/).** For example, `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
+
+    5. **Click the top-right `Publish` button.**
 
 ### Option 2: marketing checkmark
 
 === "Shopify"
 
-    Combine quiz blocks on one question to build a marketing consent checkbox. The customer then has to consent before going on.
+    Put a consent checkbox on the same slide as the email field, so the customer cannot go on without ticking it.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-    2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-    3. This joins the two questions, so the customer has to select the consent option to go on.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and select the question that holds the email block.**
+
+    2. **Click `+ Add block` and choose `Multiple Choice`.**
+
+    3. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+
+    4. **Leave the block required.** Turning `Optional` on would let the customer continue without consenting.
+
         ![how to ask for marketing consent join questions](/images/how_to_askconsent_addmarketingcheckmark.png)
 
+    5. **Click the top-right `Save` button.**
+
+    Both the email field and the consent choice now sit on one slide. See [How to Join Questions](/how-to-guides/join-questions/) for more on building a slide from several blocks.
 
 === "Shopify (Legacy)"
 
-    Combine quiz slides to build a marketing consent checkbox. The customer then has to consent before going on.
+    Join two slides together to build a consent checkbox, so the customer cannot go on without ticking it.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-    2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-    3. Return to the `email/phone` question , access [question settings](/reference/quiz-builder/questions/#question-settings), and enable the `join next question` option.
-    4. This joins the two questions, so the customer has to select the consent option to go on.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and add a `Multiple Choice` question straight after the email or phone question.**
+
+    2. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+
+    3. **Go back to the email or phone question and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
+
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
+
+    5. **Click the top-right `Publish` button.**
+
+    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "WooCommerce"
 
-    Combine quiz slides to build a marketing consent checkbox. The customer then has to consent before going on.
+    Join two slides together to build a consent checkbox, so the customer cannot go on without ticking it.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-    2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-    3. Return to the `email/phone` question , access [question settings](/reference/quiz-builder/questions/#question-settings), and enable the `join next question` option.
-    4. This joins the two questions, so the customer has to select the consent option to go on.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and add a `Multiple Choice` question straight after the email or phone question.**
+
+    2. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+
+    3. **Go back to the email or phone question and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
+
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
+
+    5. **Click the top-right `Publish` button.**
+
+    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "Magento"
 
-    Combine quiz slides to build a marketing consent checkbox. The customer then has to consent before going on.
+    Join two slides together to build a consent checkbox, so the customer cannot go on without ticking it.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-    2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-    3. Return to the `email/phone` question , access [question settings](/reference/quiz-builder/questions/#question-settings), and enable the `join next question` option.
-    4. This joins the two questions, so the customer has to select the consent option to go on.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and add a `Multiple Choice` question straight after the email or phone question.**
+
+    2. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+
+    3. **Go back to the email or phone question and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
+
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
+
+    5. **Click the top-right `Publish` button.**
+
+    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "BigCommerce"
 
-    Combine quiz slides to build a marketing consent checkbox. The customer then has to consent before going on.
+    Join two slides together to build a consent checkbox, so the customer cannot go on without ticking it.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-    2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-    3. Return to the `email/phone` question , access [question settings](/reference/quiz-builder/questions/#question-settings), and enable the `join next question` option.
-    4. This joins the two questions, so the customer has to select the consent option to go on.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and add a `Multiple Choice` question straight after the email or phone question.**
+
+    2. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+
+    3. **Go back to the email or phone question and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
+
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
+
+    5. **Click the top-right `Publish` button.**
+
+    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "Standalone"
 
-    Combine quiz slides to build a marketing consent checkbox. The customer then has to consent before going on.
+    Join two slides together to build a consent checkbox, so the customer cannot go on without ticking it.
 
-    1. Go to the [quiz builder](/reference/quiz-builder/questions/) and place a `Multiple Choice` question right after the `email/phone` question slide.
-    2. Add a single choice with your consent text, for example `I consent to process my data for marketing purposes.`
-    3. Return to the `email/phone` question , access [question settings](/reference/quiz-builder/questions/#question-settings), and enable the `join next question` option.
-    4. This joins the two questions, so the customer has to select the consent option to go on.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and add a `Multiple Choice` question straight after the email or phone question.**
+
+    2. **Give it a single choice carrying your consent text**, for example `I consent to process my data for marketing purposes.`.
+
+    3. **Go back to the email or phone question and open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
+
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
+
+    5. **Click the top-right `Publish` button.**
+
+    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
 
 ### Option 3: GDPR question
 
-You can add a `Legal Terms/GDPR` question, which asks the customer to accept the processing of their data or to receive marketing information.
+=== "Shopify"
 
-1. Go to the [quiz builder](/reference/quiz-builder/questions/), click the `+` button and add a [Legal Term/GDPR slide](/reference/quiz-builder/questions/#question-types).
-2. In the question text, ask whether the customer consents to the processing of their data for marketing purposes.
-3. Use [jump logic](/how-to-guides/use-jump-logic/) to send the customer to a different part of the quiz for yes and for no. That segments them on consent straight away.
+    A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+ Add question`.**
+
+    2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+
+    3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+
+    4. **Click the top-right `Save` button.**
+
+    !!! tip "Segment on the answer straight away"
+
+        [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
+
+=== "Shopify (Legacy)"
+
+    A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
+
+    2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+
+    3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+
+    4. **Click the top-right `Publish` button.**
+
+    !!! tip "Segment on the answer straight away"
+
+        [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
+
+=== "WooCommerce"
+
+    A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
+
+    2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+
+    3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+
+    4. **Click the top-right `Publish` button.**
+
+    !!! tip "Segment on the answer straight away"
+
+        [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
+
+=== "Magento"
+
+    A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
+
+    2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+
+    3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+
+    4. **Click the top-right `Publish` button.**
+
+    !!! tip "Segment on the answer straight away"
+
+        [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
+
+=== "BigCommerce"
+
+    A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
+
+    2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+
+    3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+
+    4. **Click the top-right `Publish` button.**
+
+    !!! tip "Segment on the answer straight away"
+
+        [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
+
+=== "Standalone"
+
+    A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
+
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
+
+    2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
+
+    3. **Ask, in the question text, whether the customer consents to their data being processed for marketing.**
+
+    4. **Click the top-right `Publish` button.**
+
+    !!! tip "Segment on the answer straight away"
+
+        [Jump logic](/how-to-guides/use-jump-logic/) can send a customer who accepts down a different path from one who declines.
 
 ---
-This article explains three ways to ask for marketing or data processing consent in a quiz. They are a question description or text block, a marketing checkmark, and a Legal Terms/GDPR question. It also covers linking to your privacy policy.
+
+This article explains three ways to ask for marketing or data processing consent in a quiz. They are consent text on the question, a marketing checkmark, and a Legal Terms/GDPR question.
