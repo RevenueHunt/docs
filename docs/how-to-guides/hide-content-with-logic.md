@@ -541,7 +541,7 @@ The examples use a skincare routine quiz, and show custom text and results chose
 
         To add [skip logic](/how-to-guides/use-skip-logic/), go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped.
 
-        In the right-hand menu, find the `Skip Logic` section.
+        In the right-hand menu, find the `Skip logic` section.
 
         Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide.
 

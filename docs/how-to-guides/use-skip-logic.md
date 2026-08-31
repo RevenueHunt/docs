@@ -195,7 +195,7 @@ Every rule reads the same way: **IF** the response to an earlier question **is**
 
     1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
 
-    2. **Select the question you want to skip.**
+    2. **Select the question you want to skip.** Pick it from the dropdown at the top of the right-hand menu, or click it on the logic tree.
 
     3. **Open the [`Skip logic`](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown in the menu on the right.**
 
@@ -219,7 +219,7 @@ Every rule reads the same way: **IF** the response to an earlier question **is**
         |---|---|
         | `+ Add another rule (OR)` | Adds another rule to the question. Any one of them can skip it |
         | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
-        | `bin` | Deletes the current rule |
+        | `...` | Opens the rule menu, where you delete the rule |
 
         Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 

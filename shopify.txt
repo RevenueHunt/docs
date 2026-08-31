@@ -8355,7 +8355,7 @@ This article explains how to use Jump Logic, Skip Logic or Display Logic to hide
         - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 3. **Add Skip logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked.
     To add [skip logic](/how-to-guides/use-skip-logic/), go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped.
-    In the right-hand menu, find the `Skip Logic` section.
+    In the right-hand menu, find the `Skip logic` section.
     Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide.
     For example:
     ![how to hide content with logic shopifyv2 skip logic rule](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_rule.png)
@@ -16299,8 +16299,8 @@ Without a rule, the quiz runs through the questions in order. Every rule you wri
     | `lock` | Locks the preview, so a stray drag cannot move it |
     Drag the tree with the left mouse button to reach a particular branch.
 1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
-2. **Select the question the rule starts from.**
-3. **Open the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.**
+2. **Select the question the rule starts from.** Pick it from the dropdown at the top of the right-hand menu, or click it on the logic tree.
+3. **Open the [`Jump logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.**
 4. **Click `+ Add another rule (OR)`.**
 5. **Pick the choice the rule reads, then pick the destination under `THEN go to`.**
     !!! example "One rule"
@@ -16309,7 +16309,7 @@ Without a rule, the quiz runs through the questions in order. Every rule you wri
 6. **Add a rule for every other answer that needs its own destination.**
     !!! example "Two rules on one question"
         ![quiz builder conditional logic jump logic OR rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
-        `Oily all over` sends the customer to Question 8, SKIN TYPE: OILY. `Oily in certain spots` sends them to Question 6, SKIN TYPE: COMBINATION.
+        `Oily in certain spots` sends the customer to Question 6, SKIN TYPE: COMBINATION. `Oily all over` sends them to Question 8, SKIN TYPE: OILY.
 7. **Set a `Default destination` for the customers no rule catches.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 8. **Click the top-right `Save` button, then preview the quiz and answer it as a customer would.**
@@ -16318,7 +16318,7 @@ Without a rule, the quiz runs through the questions in order. Every rule you wri
     |---|---|
     | `+ Add another rule (OR)` | Adds another rule to the question, with its own condition and destination |
     | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
-    | `bin` | Deletes the current rule |
+    | `...` | Opens the rule menu, where you delete the rule |
     | `Default destination` | The destination for a customer that no rule catches |
     Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
     !!! example "An AND rule"
@@ -16345,7 +16345,7 @@ A skincare quiz asks for the skin type, shows one statement of four, and then ca
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 1. **Create the results pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
 2. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
-3. **Open the `Jump Logic` section and click `+ Add another rule (OR)`.**
+3. **Open the `Jump logic` section and click `+ Add another rule (OR)`.**
 4. **Point each answer at its own results page.**
     !!! example "One results page per skin type"
         | Answer to `Q1: What is your skin type?` | Destination |
@@ -16358,7 +16358,7 @@ A skincare quiz asks for the skin type, shows one statement of four, and then ca
 ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=M8ps59EfgFulqM9z&amp;start=123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 1. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the destination.**
-2. **Open the `Jump Logic` section and click `+ Add another rule (OR)`.**
+2. **Open the `Jump logic` section and click `+ Add another rule (OR)`.**
 3. **Pick the choice the rule reads, then choose `Link to URL` and paste the address.**
     !!! example "One rule"
         A customer who answers `Dry` to `Q1: What is your skin type?` goes to `https://yourstore.com/dry-skin`.
@@ -16580,7 +16580,7 @@ Without a rule, the quiz runs through the questions in order. Every rule you wri
     | `lock` | Locks the preview, so a stray drag cannot move it |
     Drag the tree with the left mouse button to reach a particular branch.
 1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
-2. **Select the question you want to skip.**
+2. **Select the question you want to skip.** Pick it from the dropdown at the top of the right-hand menu, or click it on the logic tree.
 3. **Open the [`Skip logic`](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown in the menu on the right.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
 4. **Click `+ Add another rule (OR)`.**
@@ -16594,7 +16594,7 @@ Without a rule, the quiz runs through the questions in order. Every rule you wri
     |---|---|
     | `+ Add another rule (OR)` | Adds another rule to the question. Any one of them can skip it |
     | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
-    | `bin` | Deletes the current rule |
+    | `...` | Opens the rule menu, where you delete the rule |
     Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=WauBIBFSMPIlFNtm&amp;start=9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 A skincare quiz asks for the skin type in question 4, and carries one statement slide per type. Skip logic hides the three that do not apply.
@@ -17881,13 +17881,16 @@ By default, the quiz moves from one question to the next in number order. Condit
 `🔒` - Toggle whether you can interact with the preview.
 Drag the logic tree with your mouse left button to navigate to specific branches. 
 Click on any of the questions in the quiz to add conditional logic to it.
+![conditional logic select question menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_selectquestion.png)
+The dropdown at the top of the right-hand menu names the question you are working on. Click it to open the full list.
+The list holds every question and every results page, in quiz order. Click an entry to go straight to the jump logic and skip logic rules of that question.
+Picking a question in the dropdown does the same as clicking it on the logic tree. Use the dropdown when the tree is large and the question is hard to find.
 Jump logic routes customers to a different question based on their answers. It can also send them to another results page, or to an external URL.
 ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
-`Jump Logic ▼` - Click to Open the Jump logic options and add new rules to this question.
-`+ Add another rule (OR)` - Click to add a new OR Jump logic rule for the selected question.
-`+ Add another rule (AND)` - Add another Jump logic rule. Adds a new AND logical rule.
-`bin` - Delete the current Jump logic rule.
+`Jump logic` - Click the heading to open or close the Jump logic rules of the selected question.
+`+ Add another rule (OR)` - Add a new OR Jump logic rule to the selected question.
 `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+`...` - Open the menu of a rule. Use it to delete the rule.
 `Default destination` - Select the question or URL the customer always goes to after this one.
 !!! tip "Drag and drop reordering"
     You can reorder Jump logic rules by dragging them. Click and hold a rule, then drag it to a new position in the list.
@@ -17905,7 +17908,7 @@ A rule of this type has the format:
     In the example, if a customer chooses "Oily all over" in Question 4 "SKIN TYPE" they go to Question 8 "SKIN TYPE: OILY".
 !!! example "Example 2"
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
-    In the example, if a customer chooses "Oily all over" in Question 4 "SKIN TYPE" they go to Question 8 "SKIN TYPE: OILY". If the customer instead chooses "Oily in certain spots" in Question 4 "SKIN TYPE" they go to Question 6 "SKIN TYPE: COMBINATION".
+    In the example, if a customer chooses "Oily in certain spots" in Question 4 "SKIN TYPE" they go to Question 6 "SKIN TYPE: COMBINATION". If the customer instead chooses "Oily all over" they go to Question 8 "SKIN TYPE: OILY".
 !!! example "Example 3"
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
     In the example, **only if** a customer chooses "Oily all over" in Question 4 "SKIN TYPE" **and** "Teens and 20's" in Question 3 "AGE GROUP" they go to Question 8 "SKIN TYPE: OILY".
@@ -17925,7 +17928,7 @@ A rule of this type has the format:
     Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 4"
     ![manual_shopifyv2_jumplogic_example4_scorevariable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
-    In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` after the customer answers Question 9 the customer goes to the `Results page 1`.
+    In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, the customer goes to `Results Page 1` after Question 6.
 ---
 **Type 3: IF the variable with the highest score...**
 A rule of this type has the format:
@@ -17937,14 +17940,13 @@ A rule of this type has the format:
     Scores and variables are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 5"
     ![manual_shopifyv2_jumplogic_example5_highestscorevariable](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
-    In the example if the variable with the highest score is `dry` and the customer answers Question 9 the customer goes to the `Results page 1`.
+    In the example, if the variable with the highest score is `dry`, the customer goes to `Results Page 1` after Question 6.
 Skip logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip logic is added to a question, it will be shown.
 ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
-`Skip Logic ▼` - Click to open the Skip logic menu or add a new rule to this question.
-`+ Add another rule (OR)` - Click to add a new OR Skip logic rule for the selected question.
-`+ Add another rule (OR)` - Adds another Skip logic rule. Adds a new OR logical rule.
-`bin` - Delete the current Skip logic rule.
+`Skip logic` - Click the heading to open or close the Skip logic rules of the selected question.
+`+ Add another rule (OR)` - Add a new OR Skip logic rule to the selected question.
 `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+`...` - Open the menu of a rule. Use it to delete the rule.
 !!! tip "Drag and drop reordering"
     You can reorder Skip logic rules by dragging them. Click and hold a rule, then drag it to a new position in the list.
 ---
@@ -17974,18 +17976,19 @@ A rule of this type has the format:
     Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 2"
     ![manual_shopifyv2_skiplogic_example2_scorevariable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
-    In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then question 9 will be skipped.
+    In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, Question 6 is skipped.
 ---
 **Type 3: IF the variable with the highest score...**
 A rule of this type has the format:
-- **IF the variable with the highest score** 
-- **score** pick the variable from a dropdown list
-- **THEN this question is skipped** 
+- **IF the variable with the highest score**
+- **IS** / **IS NOT** pick a choice from the dropdown list
+- **variable** pick a variable from the dropdown list
+- **THEN this question is skipped**
 !!! info
     Scores and variables are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 3"
     ![manual_shopifyv2_skiplogic_example3_highestscorevariable](/images/manual_shopifyv2_skiplogic_example3_highestscorevariable.png)
-    In the example if the variable with the highest score is `dry` then question 9 will be skipped.
+    In the example, if the variable with the highest score is `dry`, Question 6 is skipped.
 
 
 

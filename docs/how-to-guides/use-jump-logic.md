@@ -197,9 +197,9 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
     1. **Open the [Quiz builder](/reference/quiz-builder/) and go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.**
 
-    2. **Select the question the rule starts from.**
+    2. **Select the question the rule starts from.** Pick it from the dropdown at the top of the right-hand menu, or click it on the logic tree.
 
-    3. **Open the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.**
+    3. **Open the [`Jump logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.**
 
     4. **Click `+ Add another rule (OR)`.**
 
@@ -217,7 +217,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
             ![quiz builder conditional logic jump logic OR rule](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
 
-            `Oily all over` sends the customer to Question 8, SKIN TYPE: OILY. `Oily in certain spots` sends them to Question 6, SKIN TYPE: COMBINATION.
+            `Oily in certain spots` sends the customer to Question 6, SKIN TYPE: COMBINATION. `Oily all over` sends them to Question 8, SKIN TYPE: OILY.
 
     7. **Set a `Default destination` for the customers no rule catches.**
 
@@ -231,7 +231,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
         |---|---|
         | `+ Add another rule (OR)` | Adds another rule to the question, with its own condition and destination |
         | `+ Add concurrent logic (AND)` | Adds a second test to the current rule. Both tests must be true |
-        | `bin` | Deletes the current rule |
+        | `...` | Opens the rule menu, where you delete the rule |
         | `Default destination` | The destination for a customer that no rule catches |
 
         Most quizzes need only OR rules. An AND rule is easy to write and hard to satisfy, because every test in it has to be true at the same time.
@@ -699,7 +699,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
     2. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
-    3. **Open the `Jump Logic` section and click `+ Add another rule (OR)`.**
+    3. **Open the `Jump logic` section and click `+ Add another rule (OR)`.**
 
     4. **Point each answer at its own results page.**
 
@@ -839,7 +839,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
     1. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the destination.**
 
-    2. **Open the `Jump Logic` section and click `+ Add another rule (OR)`.**
+    2. **Open the `Jump logic` section and click `+ Add another rule (OR)`.**
 
     3. **Pick the choice the rule reads, then choose `Link to URL` and paste the address.**
 

@@ -40,6 +40,14 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     Click on any of the questions in the quiz to add conditional logic to it.
 
+    ![conditional logic select question menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_selectquestion.png)
+
+    The dropdown at the top of the right-hand menu names the question you are working on. Click it to open the full list.
+
+    The list holds every question and every results page, in quiz order. Click an entry to go straight to the jump logic and skip logic rules of that question.
+
+    Picking a question in the dropdown does the same as clicking it on the logic tree. Use the dropdown when the tree is large and the question is hard to find.
+
 
 === "Shopify (Legacy)"
 
@@ -239,15 +247,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
 
-    `Jump Logic ▼` - Click to Open the Jump logic options and add new rules to this question.
+    `Jump logic` - Click the heading to open or close the Jump logic rules of the selected question.
 
-    `+ Add another rule (OR)` - Click to add a new OR Jump logic rule for the selected question.
-
-    `+ Add another rule (AND)` - Add another Jump logic rule. Adds a new AND logical rule.
-
-    `bin` - Delete the current Jump logic rule.
+    `+ Add another rule (OR)` - Add a new OR Jump logic rule to the selected question.
 
     `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    `...` - Open the menu of a rule. Use it to delete the rule.
 
     `Default destination` - Select the question or URL the customer always goes to after this one.
 
@@ -281,7 +287,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
 
-        In the example, if a customer chooses "Oily all over" in Question 4 "SKIN TYPE" they go to Question 8 "SKIN TYPE: OILY". If the customer instead chooses "Oily in certain spots" in Question 4 "SKIN TYPE" they go to Question 6 "SKIN TYPE: COMBINATION".
+        In the example, if a customer chooses "Oily in certain spots" in Question 4 "SKIN TYPE" they go to Question 6 "SKIN TYPE: COMBINATION". If the customer instead chooses "Oily all over" they go to Question 8 "SKIN TYPE: OILY".
     
     !!! example "Example 3"
 
@@ -313,7 +319,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         ![manual_shopifyv2_jumplogic_example4_scorevariable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
 
-        In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` after the customer answers Question 9 the customer goes to the `Results page 1`.
+        In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, the customer goes to `Results Page 1` after Question 6.
 
     ---
 
@@ -334,7 +340,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         ![manual_shopifyv2_jumplogic_example5_highestscorevariable](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
 
-        In the example if the variable with the highest score is `dry` and the customer answers Question 9 the customer goes to the `Results page 1`.
+        In the example, if the variable with the highest score is `dry`, the customer goes to `Results Page 1` after Question 6.
 
         
    
@@ -558,15 +564,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
 
-    `Skip Logic ▼` - Click to open the Skip logic menu or add a new rule to this question.
+    `Skip logic` - Click the heading to open or close the Skip logic rules of the selected question.
 
-    `+ Add another rule (OR)` - Click to add a new OR Skip logic rule for the selected question.
-
-    `+ Add another rule (OR)` - Adds another Skip logic rule. Adds a new OR logical rule.
-
-    `bin` - Delete the current Skip logic rule.
+    `+ Add another rule (OR)` - Add a new OR Skip logic rule to the selected question.
 
     `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    `...` - Open the menu of a rule. Use it to delete the rule.
 
     !!! tip "Drag and drop reordering"
 
@@ -616,7 +620,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         ![manual_shopifyv2_skiplogic_example2_scorevariable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
 
-        In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then question 9 will be skipped.
+        In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, Question 6 is skipped.
 
     ---
 
@@ -624,9 +628,10 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     A rule of this type has the format:
 
-    - **IF the variable with the highest score** 
-    - **score** pick the variable from a dropdown list
-    - **THEN this question is skipped** 
+    - **IF the variable with the highest score**
+    - **IS** / **IS NOT** pick a choice from the dropdown list
+    - **variable** pick a variable from the dropdown list
+    - **THEN this question is skipped**
 
 
     !!! info
@@ -637,7 +642,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         ![manual_shopifyv2_skiplogic_example3_highestscorevariable](/images/manual_shopifyv2_skiplogic_example3_highestscorevariable.png)
 
-        In the example if the variable with the highest score is `dry` then question 9 will be skipped.
+        In the example, if the variable with the highest score is `dry`, Question 6 is skipped.
 
 
 === "Shopify (Legacy)"
