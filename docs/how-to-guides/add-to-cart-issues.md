@@ -61,17 +61,19 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
 === "Shopify"
 
-    The app adds products to the regular Shopify cart, not to the drawer cart your theme draws over it. The product is in the cart, but the drawer can keep showing what it held before.
+    On most themes the quiz updates the drawer cart itself. It adds the product, refreshes the drawer, and opens it, with no setup on your side.
 
-    A drawer cart belongs to the theme rather than to Shopify, and the app cannot integrate with every theme that has one. There are two ways around it.
+    This works on Dawn and the themes built on it, and on Horizon and the themes released with it. Together they cover the most used themes on Shopify.
 
-    **Option 1: have your theme handle the cart update**
+    A drawer cart belongs to the theme rather than to Shopify, so a few themes still do not update: either the theme supports neither of the contracts Shopify publishes for cart updates, or a cart app has replaced the theme drawer and renders its own. There are two ways around that.
 
-    The app calls the Shopify AJAX Cart API, the same endpoints most themes use. A theme that listens for those calls can refresh its drawer from the quiz.
+    **Option 1: have your developer listen for the standard cart event**
+
+    The app announces every cart change as `shopify:cart:lines-update` on `document`. A developer can listen for it, request the current cart, and re-render the drawer.
 
     !!! info "What your theme editor or developer needs to know"
 
-        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, why the drawer may not update, and what to change in the theme.
+        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, which themes need no setup, and what to change in a theme that still does not update.
 
     **Option 2: send the customer to the product page**
 
@@ -80,6 +82,10 @@ If the quiz does not put a product in the cart, one of these three causes is usu
     !!! tip "Changing what the button does"
 
         See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+
+    !!! tip "Report your theme"
+
+        If the drawer cart does not update on your theme, contact support with your theme name and version. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 

@@ -196,6 +196,7 @@ PROPER = set("""shopify woocommerce magento bigcommerce standalone klaviyo mailc
 omnisend activecampaign hubspot zapier mailerlite revenuehunt stripe wordpress google meta
 tiktok facebook instagram gempages pagefly recharge handlebars github javascript
 markdown liquid copilot legacy i gdpr ccpa api apis crm crms smtp csv html css js json
+dawn horizon
 url urls id ids seo bmi ui ux faq faqs pdf ai b2b b2c xml dns tls ssl ga4 ga sku
 skus cta ctas aov ltv roas dkim spf dmarc ip http https rss qr otp saas rtl""".split())
 

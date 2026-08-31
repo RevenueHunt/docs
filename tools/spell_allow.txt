@@ -215,6 +215,12 @@ zapier
 # PHP terminology, from the fatal error the WordPress plugin can raise.
 redeclare
 
+# --- Shopify theme names
+# First-party Shopify theme names that the dictionary does not carry. Correctly
+# spelled product names, not typos. Most other theme names (Dawn, Horizon, Savor,
+# Ritual, Heritage) are ordinary words and need no entry.
+colorblock
+
 # Misspellings that appear verbatim in the app's own error messages, quoted in
 # docs/how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md.
 # They are not accepted English. Correct them here only after the app itself
