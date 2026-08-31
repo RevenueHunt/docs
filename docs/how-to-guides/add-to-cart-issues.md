@@ -65,7 +65,11 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     This works on Dawn and the themes built on it, and on Horizon and the themes released with it. Together they cover the most used themes on Shopify.
 
-    A drawer cart belongs to the theme rather than to Shopify, so a few themes still do not update: either the theme supports neither of the contracts Shopify publishes for cart updates, or a cart app has replaced the theme drawer and renders its own. There are two ways around that.
+    A drawer cart belongs to the theme rather than to Shopify, so a few themes still do not update.
+
+    That happens when the theme offers neither cart sections nor standard cart events, the two contracts the app can use. It also happens when a cart app has replaced the theme drawer and renders its own.
+
+    There are two ways around that.
 
     **Option 1: have your developer listen for the standard cart event**
 
@@ -73,7 +77,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! info "What your theme editor or developer needs to know"
 
-        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, which themes need no setup, and what to change in a theme that still does not update.
+        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) names the themes that need no setup. It also covers how the app adds products to the cart, and what to change in a theme that still does not update.
 
     **Option 2: send the customer to the product page**
 

@@ -7,11 +7,11 @@ description: "Learn how to update your Shopify cart drawer when products are add
 
 The quiz adds products to the cart. On most themes it also refreshes your cart drawer and opens it, with no setup on your side.
 
-This page explains what the app does after `Add to Cart`, and which themes need nothing from you. It also covers what to do when a drawer still shows the old contents.
+This article explains what happens after `Add to Cart`, which themes need nothing from you, and what to do when a drawer still shows the old contents.
 
-!!! note "Platform Availability"
+!!! note "Which version you are on decides what you have to do"
 
-    The `💎Built for Shopify` version of the RevenueHunt app updates the cart drawer on its own. The legacy app does not. On the legacy app, the drawer still needs the theme work described in "Cart drawer support in the legacy app".
+    The `💎Built for Shopify` app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
 
 ## How the quiz adds products to the cart
 
@@ -112,9 +112,9 @@ Share these with your developer or your Shopify Expert:
 
 Change the checkout settings to send the customer to the product page rather than add the product to the cart. The customer then adds the product from your theme's own form, which every drawer already reacts to.
 
-!!! tip
+!!! tip "Changing what the button does"
 
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
 ## Cart drawer support in the legacy app
 
@@ -149,9 +149,9 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
     They also re-attached the overlay and close button handlers after updating the DOM, so the drawer kept working normally. With that script in place, the drawer updated correctly, and nothing changed on the app side.
 
-!!! tip
+!!! tip "This work goes away on the current version"
 
-    Moving to the `💎Built for Shopify` version removes this work on the themes named in "Themes that need no setup". See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the `💎Built for Shopify` version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 
@@ -169,4 +169,4 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 ---
 
-This article explains how to update your Shopify cart drawer products after the quiz.
+This article explains how the quiz refreshes your cart drawer. It also covers which themes need no setup, and what to do when a drawer does not update.

@@ -50,7 +50,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     !!! warning "Test responses removal"
 
-        Admin responses and quiz previews are removed from the list **after 24 hours** so they do not count towards your plan limits.
+        Admin responses and quiz previews are removed from the list **after an hour** so they do not count towards your plan limits.
 
     `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
     

@@ -29,7 +29,7 @@ A single quiz response records every choice the customer made and every product 
 
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 
-        !!! note "Test responses leave the list after 24 hours"
+        !!! note "Test responses leave the list after an hour"
 
             Responses from the admin and from quiz previews are removed automatically, so they never count towards your plan limit.
 

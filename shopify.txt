@@ -6990,11 +6990,13 @@ The quiz has to run on a published theme on your live store. A password page, a 
     See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
 On most themes the quiz updates the drawer cart itself. It adds the product, refreshes the drawer, and opens it, with no setup on your side.
 This works on Dawn and the themes built on it, and on Horizon and the themes released with it. Together they cover the most used themes on Shopify.
-A drawer cart belongs to the theme rather than to Shopify, so a few themes still do not update: either the theme supports neither of the contracts Shopify publishes for cart updates, or a cart app has replaced the theme drawer and renders its own. There are two ways around that.
+A drawer cart belongs to the theme rather than to Shopify, so a few themes still do not update.
+That happens when the theme offers neither cart sections nor standard cart events, the two contracts the app can use. It also happens when a cart app has replaced the theme drawer and renders its own.
+There are two ways around that.
 **Option 1: have your developer listen for the standard cart event**
 The app announces every cart change as `shopify:cart:lines-update` on `document`. A developer can listen for it, request the current cart, and re-render the drawer.
 !!! info "What your theme editor or developer needs to know"
-    [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, which themes need no setup, and what to change in a theme that still does not update.
+    [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) names the themes that need no setup. It also covers how the app adds products to the cart, and what to change in a theme that still does not update.
 **Option 2: send the customer to the product page**
 Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the drawer cart themselves.
 !!! tip "Changing what the button does"
@@ -7992,9 +7994,9 @@ This article explains how to read a single quiz response, and how to download al
 ## Download all responses
 
 
-!!! tip
+!!! tip "Opening the file"
 
-    Open a `.CSV file` in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel).
+    A `.CSV file` opens in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel).
 
 ---
 This article explains how to read a single quiz response in the RevenueHunt app, and how to download every response as a CSV file.
@@ -8003,24 +8005,22 @@ This article explains how to read a single quiz response in the RevenueHunt app,
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=3vpVqYvtnBunRReL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=GSIjUwiBie6TwF1u&amp;start=15" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. Open the [Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard. It holds the last 100 responses.
+1. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.** It holds the last 100 responses.
     ![Responses tab in the quiz builder](/images/manual_shopifyV2_quizbuilder_openresponses.png)
-2. The left-hand menu lists the responses by date and time. Click `View` to open one.
-    !!! warning "Test responses removal"
-        Admin responses and quiz previews drop off the list after 24 hours, so they do not count toward your plan limits.
-    ![Response list with the Export CSV button](/images/manual_shopifyV2_quizbuilder_responses.png)
+2. **Click `View` on a response to open it.** The left-hand menu lists them by date and time.
+    ![The response list, ordered by date](/images/manual_shopifyV2_quizbuilder_responses.png)
     ![A single quiz response opened](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=3vpVqYvtnBunRReL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+!!! warning "Test responses drop off the list"
+    Admin responses and quiz previews are removed after an hour, so they do not count toward your plan limits.
 You can download every response from the past 90 days as a `.CSV file`.
-1. Open the [Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.
-2. Click `Export CSV`.
+1. **Open the [Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.**
+2. **Click `Export CSV`.**
     ![Response list with the Export CSV button](/images/manual_shopifyV2_quizbuilder_responses.png)
-3. A popup opens where you pick the email address to send the CSV file to.
+3. **Pick the email address to send the file to, in the popup that opens.**
     ![Choosing the email address for the CSV export](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
     !!! note "Security"
         For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
-4. The .CSV file is sent to that address.
-5. Open it on your device.
+4. **Open the file from the email when it arrives.**
 
 
 
@@ -15403,7 +15403,7 @@ This article explains how to read a quiz response, and work out why a product wa
     ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 2. **Click a date to open that response.** The list holds the latest responses, newest first.
     ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
-    !!! note "Test responses leave the list after 24 hours"
+    !!! note "Test responses leave the list after an hour"
         Responses from the admin and from quiz previews are removed automatically, so they never count towards your plan limit.
 3. **Click `Analyze response` to open [Quiz Copilot](/how-to-guides/use-quiz-copilot/).** Ask it anything about the response. It reads the answers, names the likely cause, and suggests what to change.
 4. **Open the `Why was a product recommended or not in this response?` section.**
@@ -15569,11 +15569,11 @@ description: "Learn how to update your Shopify cart drawer when products are add
 
 The quiz adds products to the cart. On most themes it also refreshes your cart drawer and opens it, with no setup on your side.
 
-This page explains what the app does after `Add to Cart`, and which themes need nothing from you. It also covers what to do when a drawer still shows the old contents.
+This article explains what happens after `Add to Cart`, which themes need nothing from you, and what to do when a drawer still shows the old contents.
 
-!!! note "Platform Availability"
+!!! note "Which version you are on decides what you have to do"
 
-    The `💎Built for Shopify` version of the RevenueHunt app updates the cart drawer on its own. The legacy app does not. On the legacy app, the drawer still needs the theme work described in "Cart drawer support in the legacy app".
+    The `💎Built for Shopify` app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
 
 ## How the quiz adds products to the cart
 
@@ -15674,9 +15674,9 @@ Share these with your developer or your Shopify Expert:
 
 Change the checkout settings to send the customer to the product page rather than add the product to the cart. The customer then adds the product from your theme's own form, which every drawer already reacts to.
 
-!!! tip
+!!! tip "Changing what the button does"
 
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
 ## Cart drawer support in the legacy app
 
@@ -15711,9 +15711,9 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
     They also re-attached the overlay and close button handlers after updating the DOM, so the drawer kept working normally. With that script in place, the drawer updated correctly, and nothing changed on the app side.
 
-!!! tip
+!!! tip "This work goes away on the current version"
 
-    Moving to the `💎Built for Shopify` version removes this work on the themes named in "Themes that need no setup". See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the `💎Built for Shopify` version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 
@@ -15731,7 +15731,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 ---
 
-This article explains how to update your Shopify cart drawer products after the quiz.
+This article explains how the quiz refreshes your cart drawer. It also covers which themes need no setup, and what to do when a drawer does not update.
 
 
 
@@ -18291,7 +18291,7 @@ From the list pick and click on `Responses`.
 In the Responses section you will find a list of the latest quiz responses sorted by date.
 ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 !!! warning "Test responses removal"
-    Admin responses and quiz previews are removed from the list **after 24 hours** so they do not count towards your plan limits.
+    Admin responses and quiz previews are removed from the list **after an hour** so they do not count towards your plan limits.
 `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
 `Export CSV` - Download the selected responses in a CSV file format. A popup opens where you pick the email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
 ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
