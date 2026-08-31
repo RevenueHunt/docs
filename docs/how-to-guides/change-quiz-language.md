@@ -5,24 +5,47 @@ icon: material/translate-variant
 
 # How to Change the Language of Your Quiz
 
-This article explains how to change the language of your quiz, translate it into other languages, and set up Shopify Markets. The quiz can then follow the market and language preference.
+This article explains how to change the language a quiz is written in, and how to serve customers in more than one language.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=tuNPV9eOsXRLRKi-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! tip "Tutorial"
-        For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+    This version follows Shopify Markets. Build one quiz per language, assign each to its market and language, and every customer meets the quiz written for them. Product titles, descriptions and prices on the results page are translated by Shopify.
+
+    !!! tip "A full walkthrough"
+
+        [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/) covers markets, languages and currency together.
 
 === "Shopify (Legacy)"
 
+    This version has one language setting per quiz, which covers the buttons and placeholders. Questions and choices you translate yourself.
+
+    To serve several languages, build one quiz per language and show the right one, as [Set up multilingual quizzes](#set-up-multilingual-quizzes) describes.
+
 === "WooCommerce"
+
+    This version has one language setting per quiz, which covers the buttons and placeholders. Questions and choices you translate yourself.
+
+    To serve several languages, build one quiz per language and show the right one, as [Set up multilingual quizzes](#set-up-multilingual-quizzes) describes.
 
 === "Magento"
 
+    This version has one language setting per quiz, which covers the buttons and placeholders. Questions and choices you translate yourself.
+
+    To serve several languages, build one quiz per language and show the right one, as [Set up multilingual quizzes](#set-up-multilingual-quizzes) describes.
+
 === "BigCommerce"
 
+    This version has one language setting per quiz, which covers the buttons and placeholders. Questions and choices you translate yourself.
+
+    To serve several languages, build one quiz per language and show the right one, as [Set up multilingual quizzes](#set-up-multilingual-quizzes) describes.
+
 === "Standalone"
+
+    This version has one language setting per quiz, which covers the buttons and placeholders. Questions and choices you translate yourself.
+
+    To serve several languages, build one quiz per language and show the right one, as [Set up multilingual quizzes](#set-up-multilingual-quizzes) describes.
 
 ## Change quiz language in settings
 
@@ -30,108 +53,179 @@ This article explains how to change the language of your quiz, translate it into
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=X5ULbSjqG7wQ2Izd&amp;start=106" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    Before you assign quizzes to markets and languages, create a quiz version for each language:
+    Create one quiz per language first, then assign them in [Set up multilingual quizzes](#set-up-multilingual-quizzes).
 
-    1. Create a [`new quiz`](/reference/dashboard/#new-quiz) with the content and questions you want. This is your base version.
-    2. From the [Dashboard](/reference/dashboard/), click `Duplicate` on that quiz, once for each language.
+    1. **Create a [new quiz](/reference/dashboard/#new-quiz) with the content you want.** This is your base version.
+
+    2. **On the [Dashboard](/reference/dashboard/), click `Duplicate` once per extra language.**
 
         ![Quiz management options on the Dashboard](/images/manual_shopifyV2_quizmanagementoptions.png)
 
-        !!! tip
+        !!! tip "Quiz Copilot can do both at once"
 
-            [Quiz Copilot](/how-to-guides/use-quiz-copilot/) can translate and duplicate a quiz in one go. Open a chat with it and ask it to duplicate the main quiz in another language.
+            Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to duplicate the main quiz into another language.
 
-    3. In each duplicate, open [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) and translate the buttons, popups and other interface text.
+    3. **In each duplicate, open [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) and translate the buttons, popups and other interface text.**
 
         ![Quiz content tab in Quiz settings](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
-    4. Translate the questions and answer choices. Duplicating a quiz does not translate them, so edit each one by hand or ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to translate them for you.
-    5. Go to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). Link each translated quiz to its market and language, so every customer gets the right one.
+    4. **Translate the questions and the choices.** Duplicating does not translate them. Edit each one, or ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to do it.
 
-        !!! tip "Tutorial"
-
-            For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-
-    Each market and language now has its own quiz, and you manage them all in the Shopify Markets tab of your app settings.
-
-    ## Automatic product translation
-
-    !!! info "Translated product titles and descriptions"
-
-        The `💎 Built for Shopify` version of the RevenueHunt app shows **translated product titles, descriptions and prices** on the quiz results page based on the customer's market and language.
-
-        This works through the `@inContext` directive of the Shopify Storefront API. When a customer views the quiz in a given market and language, the app fetches product data in that locale directly from Shopify.
-
-    **How it works:**
-
-    1. The theme extension detects the customer's **country** and **language** from the Shopify storefront context.
-    2. When the results page loads, the app fetches the product titles, descriptions, prices and URLs for that locale.
-    3. Translations made with the Shopify **Translate & Adapt** app, or a third-party translation app, appear automatically in the quiz results.
-
-    **Requirements:**
-
-    - Your store must have the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app (or equivalent) installed and configured with product translations.
-    - [Shopify Markets](/how-to-guides/show-quiz-based-on-markets/) must be set up with the appropriate languages and regions.
-    - Product translations must be published for the relevant locales in your Shopify store.
-
-    !!! note
-
-        Automatic product translation applies to the **results page** only, where the recommended products appear. It does not cover the quiz itself. Translate the quiz **questions, choices and UI text** yourself, or with [Quiz Copilot](/how-to-guides/use-quiz-copilot/), as [Change quiz language in settings](#change-quiz-language-in-settings) describes.
-
+    5. **Click the top-right `Save` button.**
 
 === "Shopify (Legacy)"
 
-    !!! note
-
-        The legacy version of the RevenueHunt app for Shopify does not support Shopify Markets.
-
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+    1. **Open [`Quiz Settings > Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).**
 
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
 
-    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
-    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Choose a language from the dropdown.** This changes the text on the buttons and the placeholders.
+
+    3. **Edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) if your language is missing, or if you want different wording.**
+
+    4. **Set the text yourself in [`Quiz Builder > Question settings`](/reference/quiz-builder/questions/#question-settings) for any button that reverts to English.**
+
+    5. **Click the top-right `Publish` button.**
+
+    !!! note "Questions and choices are not translated for you"
+
+        The language setting covers the interface text only. Translate the questions and the answer choices by hand.
 
 === "WooCommerce"
 
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+    1. **Open [`Quiz Settings > Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).**
 
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
 
-    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
-    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Choose a language from the dropdown.** This changes the text on the buttons and the placeholders.
+
+    3. **Edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) if your language is missing, or if you want different wording.**
+
+    4. **Set the text yourself in [`Quiz Builder > Question settings`](/reference/quiz-builder/questions/#question-settings) for any button that reverts to English.**
+
+    5. **Click the top-right `Publish` button.**
+
+    !!! note "Questions and choices are not translated for you"
+
+        The language setting covers the interface text only. Translate the questions and the answer choices by hand.
 
 === "Magento"
 
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+    1. **Open [`Quiz Settings > Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).**
 
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
 
-    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
-    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Choose a language from the dropdown.** This changes the text on the buttons and the placeholders.
+
+    3. **Edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) if your language is missing, or if you want different wording.**
+
+    4. **Set the text yourself in [`Quiz Builder > Question settings`](/reference/quiz-builder/questions/#question-settings) for any button that reverts to English.**
+
+    5. **Click the top-right `Publish` button.**
+
+    !!! note "Questions and choices are not translated for you"
+
+        The language setting covers the interface text only. Translate the questions and the answer choices by hand.
 
 === "BigCommerce"
 
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+    1. **Open [`Quiz Settings > Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).**
 
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
 
-    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
-    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Choose a language from the dropdown.** This changes the text on the buttons and the placeholders.
+
+    3. **Edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) if your language is missing, or if you want different wording.**
+
+    4. **Set the text yourself in [`Quiz Builder > Question settings`](/reference/quiz-builder/questions/#question-settings) for any button that reverts to English.**
+
+    5. **Click the top-right `Publish` button.**
+
+    !!! note "Questions and choices are not translated for you"
+
+        The language setting covers the interface text only. Translate the questions and the answer choices by hand.
 
 === "Standalone"
 
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+    1. **Open [`Quiz Settings > Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).**
 
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
 
-    2. **Language**: Choose a language from the dropdown. It changes the text on the quiz buttons and placeholders.
-    3. **Add your own translations**: If your language is missing, or you prefer different wording, edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
-    4. **Override the translations**: If a button reverts to English, set its text yourself in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+    2. **Choose a language from the dropdown.** This changes the text on the buttons and the placeholders.
+
+    3. **Edit the entries in [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) if your language is missing, or if you want different wording.**
+
+    4. **Set the text yourself in [`Quiz Builder > Question settings`](/reference/quiz-builder/questions/#question-settings) for any button that reverts to English.**
+
+    5. **Click the top-right `Publish` button.**
+
+    !!! note "Questions and choices are not translated for you"
+
+        The language setting covers the interface text only. Translate the questions and the answer choices by hand.
+
+## Translate the recommended products
+
+=== "Shopify"
+
+    The results page shows translated product titles, descriptions and prices, picked from the customer's market and language.
+
+    This runs on the `@inContext` directive of the Shopify Storefront API. When a customer opens the quiz in a given market and language, the app asks Shopify for the product data in that locale.
+
+    **How it works**
+
+    1. The theme extension reads the customer's country and language from the storefront.
+    2. When the results page loads, the app fetches the titles, descriptions, prices and URLs for that locale.
+    3. Translations made with [Translate & Adapt](https://apps.shopify.com/translate-and-adapt), or another translation app, appear in the results.
+
+    **What it needs**
+
+    - A translation app installed and configured with your product translations.
+    - [Shopify Markets](/how-to-guides/show-quiz-based-on-markets/) set up with the languages and regions you sell in.
+    - The product translations published for those locales.
+
+    !!! note "The quiz itself is not covered"
+
+        This translates the recommended products only. Translate the questions, the choices and the interface text yourself, as [Change quiz language in settings](#change-quiz-language-in-settings) describes.
+
+=== "Shopify (Legacy)"
+
+    !!! note "Products sync in one language"
+
+        The app syncs the base products from your store, in your store's main language. A translated product carries no separate ID to sync against, so the quiz language changes while the product names and descriptions stay as they are.
+
+        To send the customer to a translated product page anyway, see the redirect workaround in [Set up multilingual quizzes](#set-up-multilingual-quizzes).
+
+=== "WooCommerce"
+
+    !!! note "Products sync in one language"
+
+        The app syncs the base products from your store, in your store's main language. A translated product carries no separate ID to sync against, so the quiz language changes while the product names and descriptions stay as they are.
+
+        To send the customer to a translated product page anyway, see the redirect workaround in [Set up multilingual quizzes](#set-up-multilingual-quizzes).
+
+=== "Magento"
+
+    !!! note "Products sync in one language"
+
+        The app syncs the base products from your store, in your store's main language. A translated product carries no separate ID to sync against, so the quiz language changes while the product names and descriptions stay as they are.
+
+        To send the customer to a translated product page anyway, see the redirect workaround in [Set up multilingual quizzes](#set-up-multilingual-quizzes).
+
+=== "BigCommerce"
+
+    !!! note "Products sync in one language"
+
+        The app syncs the base products from your store, in your store's main language. A translated product carries no separate ID to sync against, so the quiz language changes while the product names and descriptions stay as they are.
+
+        To send the customer to a translated product page anyway, see the redirect workaround in [Set up multilingual quizzes](#set-up-multilingual-quizzes).
+
+=== "Standalone"
+
+    !!! note "Products sync in one language"
+
+        The app syncs the base products from your store, in your store's main language. A translated product carries no separate ID to sync against, so the quiz language changes while the product names and descriptions stay as they are.
+
+        To send the customer to a translated product page anyway, see the redirect workaround in [Set up multilingual quizzes](#set-up-multilingual-quizzes).
 
 ## Set up multilingual quizzes
 
@@ -139,62 +233,51 @@ This article explains how to change the language of your quiz, translate it into
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=e_mX9xdaiB24xXaT&amp;start=175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! tip "Tutorial"
+    Assign a quiz to each Shopify Market, and to each language inside a market.
 
-        For a step-by-step walkthrough, see [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+    1. **In your Shopify admin, open `Apps` and select RevenueHunt.**
 
-    The RevenueHunt app lets you pick a quiz for each Shopify Market and its languages. These steps set the quiz language from the market and language preference.
-
-    1. In Shopify Admin, go to Apps and select `RevenueHunt`.
-    2. Open [App settings > Shopify Markets](/reference/app-settings/#shopify-markets).
+    2. **Open [App settings > Shopify Markets](/reference/app-settings/#shopify-markets).**
 
         ![Shopify Markets tab in App settings](/images/manual_shopifyV2_appsettings_markets.png)
 
-    3. Select the market you want to assign a quiz to, then pick its default quiz from the `dropdown list`.
+    3. **Pick the default quiz for a market from its dropdown.**
 
         ![Choosing the default quiz for a market](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    4. To set a quiz per language as well, click the `>` arrow on a market. It then expands into its languages.
+    4. **Click the `>` arrow on a market to expand it into its languages.**
+
+        ![A market expanded into its languages in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
         !!! example "One market, two languages"
 
             In the United States market, set one quiz for English-speaking customers and another for Spanish-speaking customers.
 
-    5. For each locale, pick the quiz from its dropdown and save.
-    6. To go back to one quiz per market, whatever the language, click `Hide All Locales`. The default quiz is then shown to every customer in that region.
+    5. **Pick a quiz for each language from its dropdown.**
 
-        ![A market expanded into its languages in the Shopify Markets tab](/images/manual_shopifyV2_appsettings_markets_showall.png)
+    6. **Click the `>` arrow again to collapse the market.** Its default quiz then serves every customer in that region, whatever their language.
 
-    Your quizzes are now set per market and language.
+    !!! tip "A full walkthrough"
 
+        [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/) covers markets, languages and currency together.
 
 === "Shopify (Legacy)"
 
-    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
+    This version has no multi-language support of its own. You build one quiz per language and show the right one.
 
-    How does it work?
-
-    - For now, you can [create multiple quizzes](#legacy-create-quizzes-in-different-languages), each one in a different language.
-    - Then, each of these quizzes will have a **unique quiz ID**.
-    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#legacy-display-the-correct-quiz) popup depending on the browser language.
-    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#legacy-redirect-to-translated-product-url).
-
-    To set this up:
+    - [Create a quiz per language](#legacy-create-quizzes-in-different-languages). Each one gets a unique quiz ID.
+    - Embed each on its own page, such as `quiz-en`, `quiz-de` or `quiz-fr`. A developer can also [show the right quiz](#legacy-display-the-correct-quiz) for the browser language.
+    - The app syncs products in your store's main language only, so the product names stay as they are. See [Redirect to translated product URL](#legacy-redirect-to-translated-product-url).
 
     1. **Create quizzes in different languages**{ #legacy-create-quizzes-in-different-languages }
 
-        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+        Translate each quiz by hand. Every translated quiz carries its own quiz ID.
+
+        Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) to change the language of the buttons and placeholders. The questions and the choices you translate yourself.
 
     2. **Display the correct quiz based on browser language**{ #legacy-display-the-correct-quiz }
 
-        Use JavaScript to show the right quiz for the browser language. The script should:
-
-        - Detect the browser's language.
-        - Map this language to the corresponding quiz ID.
-        - Update quiz links and iframes on your site to point to the correct quiz version.
-
-        Script sample code:
+        Your developer can use JavaScript to show the quiz that matches the browser language. The script has to detect the language, map it to a quiz ID, and point the quiz links and iframes at that quiz.
 
         ```javascript
         document.addEventListener("DOMContentLoaded", function() {
@@ -233,63 +316,50 @@ This article explains how to change the language of your quiz, translate it into
         });
         ```
 
-        !!! warning
+        !!! warning "One quiz per page"
 
-            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+            Publishing two quizzes on the same page leads to unwanted behavior.
 
     3. **Redirect to translated product URL**{ #legacy-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
+        The app syncs the base products only, so the recommended products keep their original names. Sending the customer to the translated product page works around it.
 
-        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. **Change the [checkout settings](/how-to-guides/change-checkout-settings/#link-to-the-product-page) to `link to product`**, instead of adding the product to the cart.
 
-        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
-        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
-        4. To redirect to an English translation of a product, one can use:
-                ```javascript
-                let shopURL = "https://www.example.com";
+        2. **Ask your developer to rewrite the product links on the results page.** By default they point at the original product URL.
 
-                var links = document.querySelectorAll(".lq-product a");
+            For example, rewriting `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA` sends the customer to the English page.
 
-                for (let i = 0; i < links.length; i++) {
-                var href = links[i].href;
-                links[i].href = href.replace(shopURL,shopURL+"/en");
-                }
-                ```
+            ```javascript
+            let shopURL = "https://www.example.com";
 
-        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+            var links = document.querySelectorAll(".lq-product a");
 
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
 
+        3. **Replace `https://www.example.com` with your store URL, and `/en` with the language code you set up in your store.** For French, that is `shopURL+"/fr"`.
 
 === "WooCommerce"
 
+    This version has no multi-language support of its own. You build one quiz per language and show the right one.
 
-    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
-
-    How does it work?
-
-    - For now, you can [create multiple quizzes](#woocommerce-create-quizzes-in-different-languages), each one in a different language.
-    - Then, each of these quizzes will have a **unique quiz ID**.
-    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#woocommerce-display-the-correct-quiz) popup depending on the browser language.
-    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#woocommerce-redirect-to-translated-product-url).
-
-    To set this up:
+    - [Create a quiz per language](#woocommerce-create-quizzes-in-different-languages). Each one gets a unique quiz ID.
+    - Embed each on its own page, such as `quiz-en`, `quiz-de` or `quiz-fr`. A developer can also [show the right quiz](#woocommerce-display-the-correct-quiz) for the browser language.
+    - The app syncs products in your store's main language only, so the product names stay as they are. See [Redirect to translated product URL](#woocommerce-redirect-to-translated-product-url).
 
     1. **Create quizzes in different languages**{ #woocommerce-create-quizzes-in-different-languages }
 
-        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+        Translate each quiz by hand. Every translated quiz carries its own quiz ID.
+
+        Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) to change the language of the buttons and placeholders. The questions and the choices you translate yourself.
 
     2. **Display the correct quiz based on browser language**{ #woocommerce-display-the-correct-quiz }
 
-        Use JavaScript to show the right quiz for the browser language. The script should:
-
-        - Detect the browser's language.
-        - Map this language to the corresponding quiz ID.
-        - Update quiz links and iframes on your site to point to the correct quiz version.
-
-        Script sample code:
+        Your developer can use JavaScript to show the quiz that matches the browser language. The script has to detect the language, map it to a quiz ID, and point the quiz links and iframes at that quiz.
 
         ```javascript
         document.addEventListener("DOMContentLoaded", function() {
@@ -328,63 +398,50 @@ This article explains how to change the language of your quiz, translate it into
         });
         ```
 
-        !!! warning
+        !!! warning "One quiz per page"
 
-            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+            Publishing two quizzes on the same page leads to unwanted behavior.
 
     3. **Redirect to translated product URL**{ #woocommerce-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
+        The app syncs the base products only, so the recommended products keep their original names. Sending the customer to the translated product page works around it.
 
-        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. **Change the [checkout settings](/how-to-guides/change-checkout-settings/#link-to-the-product-page) to `link to product`**, instead of adding the product to the cart.
 
-        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
-        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
-        4. To redirect to an English translation of a product, one can use:
-                ```javascript
-                let shopURL = "https://www.example.com";
+        2. **Ask your developer to rewrite the product links on the results page.** By default they point at the original product URL.
 
-                var links = document.querySelectorAll(".lq-product a");
+            For example, rewriting `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA` sends the customer to the English page.
 
-                for (let i = 0; i < links.length; i++) {
-                var href = links[i].href;
-                links[i].href = href.replace(shopURL,shopURL+"/en");
-                }
-                ```
+            ```javascript
+            let shopURL = "https://www.example.com";
 
-        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+            var links = document.querySelectorAll(".lq-product a");
 
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
 
+        3. **Replace `https://www.example.com` with your store URL, and `/en` with the language code you set up in your store.** For French, that is `shopURL+"/fr"`.
 
 === "Magento"
 
+    This version has no multi-language support of its own. You build one quiz per language and show the right one.
 
-    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
-
-    How does it work?
-
-    - For now, you can [create multiple quizzes](#magento-create-quizzes-in-different-languages), each one in a different language.
-    - Then, each of these quizzes will have a **unique quiz ID**.
-    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#magento-display-the-correct-quiz) popup depending on the browser language.
-    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#magento-redirect-to-translated-product-url).
-
-    To set this up:
+    - [Create a quiz per language](#magento-create-quizzes-in-different-languages). Each one gets a unique quiz ID.
+    - Embed each on its own page, such as `quiz-en`, `quiz-de` or `quiz-fr`. A developer can also [show the right quiz](#magento-display-the-correct-quiz) for the browser language.
+    - The app syncs products in your store's main language only, so the product names stay as they are. See [Redirect to translated product URL](#magento-redirect-to-translated-product-url).
 
     1. **Create quizzes in different languages**{ #magento-create-quizzes-in-different-languages }
 
-        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+        Translate each quiz by hand. Every translated quiz carries its own quiz ID.
+
+        Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) to change the language of the buttons and placeholders. The questions and the choices you translate yourself.
 
     2. **Display the correct quiz based on browser language**{ #magento-display-the-correct-quiz }
 
-        Use JavaScript to show the right quiz for the browser language. The script should:
-
-        - Detect the browser's language.
-        - Map this language to the corresponding quiz ID.
-        - Update quiz links and iframes on your site to point to the correct quiz version.
-
-        Script sample code:
+        Your developer can use JavaScript to show the quiz that matches the browser language. The script has to detect the language, map it to a quiz ID, and point the quiz links and iframes at that quiz.
 
         ```javascript
         document.addEventListener("DOMContentLoaded", function() {
@@ -423,63 +480,50 @@ This article explains how to change the language of your quiz, translate it into
         });
         ```
 
-        !!! warning
+        !!! warning "One quiz per page"
 
-            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+            Publishing two quizzes on the same page leads to unwanted behavior.
 
     3. **Redirect to translated product URL**{ #magento-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
+        The app syncs the base products only, so the recommended products keep their original names. Sending the customer to the translated product page works around it.
 
-        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. **Change the [checkout settings](/how-to-guides/change-checkout-settings/#link-to-the-product-page) to `link to product`**, instead of adding the product to the cart.
 
-        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
-        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
-        4. To redirect to an English translation of a product, one can use:
-                ```javascript
-                let shopURL = "https://www.example.com";
+        2. **Ask your developer to rewrite the product links on the results page.** By default they point at the original product URL.
 
-                var links = document.querySelectorAll(".lq-product a");
+            For example, rewriting `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA` sends the customer to the English page.
 
-                for (let i = 0; i < links.length; i++) {
-                var href = links[i].href;
-                links[i].href = href.replace(shopURL,shopURL+"/en");
-                }
-                ```
+            ```javascript
+            let shopURL = "https://www.example.com";
 
-        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+            var links = document.querySelectorAll(".lq-product a");
 
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
 
+        3. **Replace `https://www.example.com` with your store URL, and `/en` with the language code you set up in your store.** For French, that is `shopURL+"/fr"`.
 
 === "BigCommerce"
 
+    This version has no multi-language support of its own. You build one quiz per language and show the right one.
 
-    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
-
-    How does it work?
-
-    - For now, you can [create multiple quizzes](#bigcommerce-create-quizzes-in-different-languages), each one in a different language.
-    - Then, each of these quizzes will have a **unique quiz ID**.
-    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#bigcommerce-display-the-correct-quiz) popup depending on the browser language.
-    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#bigcommerce-redirect-to-translated-product-url).
-
-    To set this up:
+    - [Create a quiz per language](#bigcommerce-create-quizzes-in-different-languages). Each one gets a unique quiz ID.
+    - Embed each on its own page, such as `quiz-en`, `quiz-de` or `quiz-fr`. A developer can also [show the right quiz](#bigcommerce-display-the-correct-quiz) for the browser language.
+    - The app syncs products in your store's main language only, so the product names stay as they are. See [Redirect to translated product URL](#bigcommerce-redirect-to-translated-product-url).
 
     1. **Create quizzes in different languages**{ #bigcommerce-create-quizzes-in-different-languages }
 
-        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+        Translate each quiz by hand. Every translated quiz carries its own quiz ID.
+
+        Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) to change the language of the buttons and placeholders. The questions and the choices you translate yourself.
 
     2. **Display the correct quiz based on browser language**{ #bigcommerce-display-the-correct-quiz }
 
-        Use JavaScript to show the right quiz for the browser language. The script should:
-
-        - Detect the browser's language.
-        - Map this language to the corresponding quiz ID.
-        - Update quiz links and iframes on your site to point to the correct quiz version.
-
-        Script sample code:
+        Your developer can use JavaScript to show the quiz that matches the browser language. The script has to detect the language, map it to a quiz ID, and point the quiz links and iframes at that quiz.
 
         ```javascript
         document.addEventListener("DOMContentLoaded", function() {
@@ -518,63 +562,50 @@ This article explains how to change the language of your quiz, translate it into
         });
         ```
 
-        !!! warning
+        !!! warning "One quiz per page"
 
-            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+            Publishing two quizzes on the same page leads to unwanted behavior.
 
     3. **Redirect to translated product URL**{ #bigcommerce-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
+        The app syncs the base products only, so the recommended products keep their original names. Sending the customer to the translated product page works around it.
 
-        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. **Change the [checkout settings](/how-to-guides/change-checkout-settings/#link-to-the-product-page) to `link to product`**, instead of adding the product to the cart.
 
-        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
-        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
-        4. To redirect to an English translation of a product, one can use:
-                ```javascript
-                let shopURL = "https://www.example.com";
+        2. **Ask your developer to rewrite the product links on the results page.** By default they point at the original product URL.
 
-                var links = document.querySelectorAll(".lq-product a");
+            For example, rewriting `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA` sends the customer to the English page.
 
-                for (let i = 0; i < links.length; i++) {
-                var href = links[i].href;
-                links[i].href = href.replace(shopURL,shopURL+"/en");
-                }
-                ```
+            ```javascript
+            let shopURL = "https://www.example.com";
 
-        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+            var links = document.querySelectorAll(".lq-product a");
 
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
 
+        3. **Replace `https://www.example.com` with your store URL, and `/en` with the language code you set up in your store.** For French, that is `shopURL+"/fr"`.
 
 === "Standalone"
 
+    This version has no multi-language support of its own. You build one quiz per language and show the right one.
 
-    The app has no native multi-language support, but there are workarounds for presenting a quiz in several languages.
-
-    How does it work?
-
-    - For now, you can [create multiple quizzes](#standalone-create-quizzes-in-different-languages), each one in a different language.
-    - Then, each of these quizzes will have a **unique quiz ID**.
-    - Embed each quiz on its own page, such as quiz-en, quiz-de or quiz-fr. Your developer can also write a [script that displays the correct quiz](#standalone-display-the-correct-quiz) popup depending on the browser language.
-    - The app **syncs only the base products from your store, in the main language**. An automatically translated product has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language. See the [workarounds](#standalone-redirect-to-translated-product-url).
-
-    To set this up:
+    - [Create a quiz per language](#standalone-create-quizzes-in-different-languages). Each one gets a unique quiz ID.
+    - Embed each on its own page, such as `quiz-en`, `quiz-de` or `quiz-fr`. A developer can also [show the right quiz](#standalone-display-the-correct-quiz) for the browser language.
+    - The app syncs products in your store's main language only, so the product names stay as they are. See [Redirect to translated product URL](#standalone-redirect-to-translated-product-url).
 
     1. **Create quizzes in different languages**{ #standalone-create-quizzes-in-different-languages }
 
-        - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-        - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+        Translate each quiz by hand. Every translated quiz carries its own quiz ID.
+
+        Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) to change the language of the buttons and placeholders. The questions and the choices you translate yourself.
 
     2. **Display the correct quiz based on browser language**{ #standalone-display-the-correct-quiz }
 
-        Use JavaScript to show the right quiz for the browser language. The script should:
-
-        - Detect the browser's language.
-        - Map this language to the corresponding quiz ID.
-        - Update quiz links and iframes on your site to point to the correct quiz version.
-
-        Script sample code:
+        Your developer can use JavaScript to show the quiz that matches the browser language. The script has to detect the language, map it to a quiz ID, and point the quiz links and iframes at that quiz.
 
         ```javascript
         document.addEventListener("DOMContentLoaded", function() {
@@ -613,34 +644,33 @@ This article explains how to change the language of your quiz, translate it into
         });
         ```
 
-        !!! warning
+        !!! warning "One quiz per page"
 
-            Do not publish two quizzes on the same page. That leads to unwanted behavior.
+            Publishing two quizzes on the same page leads to unwanted behavior.
 
     3. **Redirect to translated product URL**{ #standalone-redirect-to-translated-product-url }
 
-        The app syncs only the base products from your store. A product translated into another language has no unique ID to sync against. The quiz language changes, but the product names and descriptions stay in the original language.
+        The app syncs the base products only, so the recommended products keep their original names. Sending the customer to the translated product page works around it.
 
-        A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+        1. **Change the [checkout settings](/how-to-guides/change-checkout-settings/#link-to-the-product-page) to `link to product`**, instead of adding the product to the cart.
 
-        1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-        2. By default the customer goes to the original product URL. JavaScript can change that URL automatically.
-        3. For example, the Results Page can change every link from `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA`. The customer is then sent to the translated product page.
-        4. To redirect to an English translation of a product, one can use:
-                ```javascript
-                let shopURL = "https://www.example.com";
+        2. **Ask your developer to rewrite the product links on the results page.** By default they point at the original product URL.
 
-                var links = document.querySelectorAll(".lq-product a");
+            For example, rewriting `https://www.example.com/products/productA` to `https://www.example.com/en/products/productA` sends the customer to the English page.
 
-                for (let i = 0; i < links.length; i++) {
-                var href = links[i].href;
-                links[i].href = href.replace(shopURL,shopURL+"/en");
-                }
-                ```
+            ```javascript
+            let shopURL = "https://www.example.com";
 
-        5. Replace `https://www.example.com` with your store URL. Change `shopURL+"/en"` to the language code you set up in your store (for example, `shopURL+"/fr"` for French).
+            var links = document.querySelectorAll(".lq-product a");
 
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
 
+        3. **Replace `https://www.example.com` with your store URL, and `/en` with the language code you set up in your store.** For French, that is `shopURL+"/fr"`.
 
-    ---
-    This article explains how to change the language of your quiz, translate it into other languages, and set up Shopify Markets. The quiz can then follow the market and language preference.
+---
+
+This article explains how to set the language a quiz is written in, and how to serve customers in more than one language.

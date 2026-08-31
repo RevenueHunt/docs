@@ -131,9 +131,9 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 === "Shopify (Legacy)"
 
-    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
-    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
+    1. **Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.** It controls how the Questions and the Results Page look.
+    2. **Choose one of the pre-designed themes in the `My Themes` tab, or build your own.**
+    3. **Open the theme editor to set the color palette, the font and a default background image.**
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
@@ -153,9 +153,9 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 === "WooCommerce"
 
-    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
-    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
+    1. **Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.** It controls how the Questions and the Results Page look.
+    2. **Choose one of the pre-designed themes in the `My Themes` tab, or build your own.**
+    3. **Open the theme editor to set the color palette, the font and a default background image.**
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
@@ -175,9 +175,9 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 === "Magento"
 
-    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
-    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
+    1. **Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.** It controls how the Questions and the Results Page look.
+    2. **Choose one of the pre-designed themes in the `My Themes` tab, or build your own.**
+    3. **Open the theme editor to set the color palette, the font and a default background image.**
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
@@ -197,9 +197,9 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 === "BigCommerce"
 
-    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
-    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
+    1. **Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.** It controls how the Questions and the Results Page look.
+    2. **Choose one of the pre-designed themes in the `My Themes` tab, or build your own.**
+    3. **Open the theme editor to set the color palette, the font and a default background image.**
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
@@ -219,9 +219,9 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 === "Standalone"
 
-    1. **Open Quiz Design tab**: Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. It controls how the quiz Questions or the Results Page look.
-    2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own.
-    3. **Edit Theme**: The theme editor lets you pick a color palette, choose a font and add a default background image.
+    1. **Open your quiz and go to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.** It controls how the Questions and the Results Page look.
+    2. **Choose one of the pre-designed themes in the `My Themes` tab, or build your own.**
+    3. **Open the theme editor to set the color palette, the font and a default background image.**
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
         - ***Wine*** - Displays the name of your current theme.
@@ -290,7 +290,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
             !!! example "Example: Google Font Code"
 
-                ```html
+                ```css
                 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
                 .quicksand-font {
@@ -317,13 +317,13 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
-        ```html
+        ```css
         #quiz  p {color: red;}
         ```
 
         will change the color of all the paragraphs in the quiz to red.
 
-        ```html
+        ```css
         #question-AbC7Zde  p {color: red;}
         ```
 
@@ -339,7 +339,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
             !!! example "Example: Google Font Code"
 
-                ```html
+                ```css
                 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
                 .quicksand-font {
@@ -365,13 +365,13 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
-        ```html
+        ```css
         #quiz  p {color: red;}
         ```
 
         will change the color of all the paragraphs in the quiz to red.
 
-        ```html
+        ```css
         #question-AbC7Zde  p {color: red;}
         ```
 
@@ -387,7 +387,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
             !!! example "Example: Google Font Code"
 
-                ```html
+                ```css
                 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
                 .quicksand-font {
@@ -413,13 +413,13 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
-        ```html
+        ```css
         #quiz  p {color: red;}
         ```
 
         will change the color of all the paragraphs in the quiz to red.
 
-        ```html
+        ```css
         #question-AbC7Zde  p {color: red;}
         ```
 
@@ -435,7 +435,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
             !!! example "Example: Google Font Code"
 
-                ```html
+                ```css
                 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
                 .quicksand-font {
@@ -461,13 +461,13 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
-        ```html
+        ```css
         #quiz  p {color: red;}
         ```
 
         will change the color of all the paragraphs in the quiz to red.
 
-        ```html
+        ```css
         #question-AbC7Zde  p {color: red;}
         ```
 
@@ -483,7 +483,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
             !!! example "Example: Google Font Code"
 
-                ```html
+                ```css
                 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
                 .quicksand-font {
@@ -509,13 +509,13 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: Scope a rule so it applies to the quiz only, or to one question. For example:
-        ```html
+        ```css
         #quiz  p {color: red;}
         ```
 
         will change the color of all the paragraphs in the quiz to red.
 
-        ```html
+        ```css
         #question-AbC7Zde  p {color: red;}
         ```
 
@@ -531,7 +531,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
             !!! example "Example: Google Font Code"
 
-                ```html
+                ```css
                 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
                 .quicksand-font {
@@ -691,32 +691,32 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     ??? question "What is Markdown Language?"
 
-        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things you can do with it. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
     - **Headings**
-        ```html
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
     - **Text Styling**
-        ```html
+        ```markdown
         *italic text*
         **bold text**
         ***italic & bold text***
         ```
     - **Links**
-        ```html
+        ```markdown
         [link title](https://www.example.com)
         ```
     - **Images**
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
     - **Videos**
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -728,32 +728,32 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     ??? question "What is Markdown Language?"
 
-        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things you can do with it. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
     - **Headings**
-        ```html
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
     - **Text Styling**
-        ```html
+        ```markdown
         *italic text*
         **bold text**
         ***italic & bold text***
         ```
     - **Links**
-        ```html
+        ```markdown
         [link title](https://www.example.com)
         ```
     - **Images**
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
     - **Videos**
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -765,32 +765,32 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     ??? question "What is Markdown Language?"
 
-        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things you can do with it. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
     - **Headings**
-        ```html
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
     - **Text Styling**
-        ```html
+        ```markdown
         *italic text*
         **bold text**
         ***italic & bold text***
         ```
     - **Links**
-        ```html
+        ```markdown
         [link title](https://www.example.com)
         ```
     - **Images**
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
     - **Videos**
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -802,32 +802,32 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     ??? question "What is Markdown Language?"
 
-        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things you can do with it. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
     - **Headings**
-        ```html
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
     - **Text Styling**
-        ```html
+        ```markdown
         *italic text*
         **bold text**
         ***italic & bold text***
         ```
     - **Links**
-        ```html
+        ```markdown
         [link title](https://www.example.com)
         ```
     - **Images**
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
     - **Videos**
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -839,32 +839,32 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     ??? question "What is Markdown Language?"
 
-        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+        Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things you can do with it. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
     If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
     - **Headings**
-        ```html
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
     - **Text Styling**
-        ```html
+        ```markdown
         *italic text*
         **bold text**
         ***italic & bold text***
         ```
     - **Links**
-        ```html
+        ```markdown
         [link title](https://www.example.com)
         ```
     - **Images**
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
     - **Videos**
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -943,11 +943,11 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -962,11 +962,11 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -980,11 +980,11 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -998,11 +998,11 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -1017,11 +1017,11 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images and videos with Markdown**: Put an image or a video into any text block, question or results page.
         - Images:
-        ```html
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
         - Videos
-        ```html
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -1100,7 +1100,7 @@ If the default results page is too restrictive, **build your own** on your site.
 
 ## Customization examples
 
-We offer complete flexibility to developers for personalizing both the quiz and the results page. Take a look at [these examples](https://revenuehunt.com/templates/#customization) to discover the various designs you can achieve with our app using some creativity and CSS code.
+A developer can restyle every part of the quiz and the results page. [These examples](https://revenuehunt.com/templates/#customization) show what CSS alone can do.
 
 ## Useful CSS codes
 
@@ -1121,21 +1121,21 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 
     ??? example "Hide Progress Bar in the footer"
-        ```html
+        ```css
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
     ??? example "Change the styles of the choices"
-        ```html
+        ```css
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
     ??? example "Change the styles of the picture choices"
-        ```html
+        ```css
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
@@ -1150,7 +1150,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Make 'Back' and 'Next' arrows point left and right"
-        ```html
+        ```css
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
             -moz-transform: rotate(-90deg);
@@ -1164,7 +1164,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
-        ```html
+        ```css
         @font-face {
         font-family: "Morion";
         src: url("https://yourwebsite.com/wp-content/themes/yourtheme/fonts/Morion-Light.woff2") format("woff2");
@@ -1176,7 +1176,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the 'add all to cart' button"
 
-        ```html
+        ```css
         /*Hide the "add all to cart" button */
 
         .lq-checkout.lq-add-all-to-cart {
@@ -1185,7 +1185,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the product variants"
 
-        ```html
+        ```css
         /* this hides the product variants */
         .no-variants-dropdown {
         display: none;
@@ -1199,7 +1199,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Adds quiz border"
 
-        ```html
+        ```css
         /* Adds quiz border */
         .lq-quiz {
         border-style: solid;
@@ -1208,7 +1208,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change Picture Choices to Icons"
 
-        ```html
+        ```css
         /* Change Picture Choices to Icons */
 
         .lq-images li, .widget .lq-images li{
@@ -1265,15 +1265,15 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Multiple choice questions: change the selected option background"
 
-        ```html
-        /* Muliptle choice questions: change the selected options background */
+        ```css
+        /* Multiple choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
     ??? example "Change the color of the Retake Quiz text"
 
-        ```html
+        ```css
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
@@ -1281,7 +1281,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Add to Cart button"
 
-        ```html
+        ```css
         /* Change the background of the Add to Cart button */
         .lq-add-to-cart {
         background-color: #ff7028;
@@ -1289,7 +1289,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Checkout button"
 
-        ```html
+        ```css
         /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
@@ -1297,7 +1297,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the label inside Add to Cart buttons"
 
-        ```html
+        ```css
         /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
@@ -1310,21 +1310,21 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 
     ??? example "Hide Progress Bar in the footer"
-        ```html
+        ```css
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
     ??? example "Change the styles of the choices"
-        ```html
+        ```css
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
     ??? example "Change the styles of the picture choices"
-        ```html
+        ```css
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
@@ -1339,7 +1339,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Make 'Back' and 'Next' arrows point left and right"
-        ```html
+        ```css
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
             -moz-transform: rotate(-90deg);
@@ -1353,7 +1353,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
-        ```html
+        ```css
         @font-face {
         font-family: "Morion";
         src: url("https://yourwebsite.com/wp-content/themes/yourtheme/fonts/Morion-Light.woff2") format("woff2");
@@ -1365,7 +1365,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the 'add all to cart' button"
 
-        ```html
+        ```css
         /*Hide the "add all to cart" button */
 
         .lq-checkout.lq-add-all-to-cart {
@@ -1374,7 +1374,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the product variants"
 
-        ```html
+        ```css
         /* this hides the product variants */
         .no-variants-dropdown {
         display: none;
@@ -1388,7 +1388,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Adds quiz border"
 
-        ```html
+        ```css
         /* Adds quiz border */
         .lq-quiz {
         border-style: solid;
@@ -1397,7 +1397,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change Picture Choices to Icons"
 
-        ```html
+        ```css
         /* Change Picture Choices to Icons */
 
         .lq-images li, .widget .lq-images li{
@@ -1454,15 +1454,15 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Multiple choice questions: change the selected option background"
 
-        ```html
-        /* Muliptle choice questions: change the selected options background */
+        ```css
+        /* Multiple choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
     ??? example "Change the color of the Retake Quiz text"
 
-        ```html
+        ```css
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
@@ -1470,7 +1470,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Add to Cart button"
 
-        ```html
+        ```css
         /* Change the background of the Add to Cart button */
         .lq-add-to-cart {
         background-color: #ff7028;
@@ -1478,7 +1478,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Checkout button"
 
-        ```html
+        ```css
         /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
@@ -1486,7 +1486,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the label inside Add to Cart buttons"
 
-        ```html
+        ```css
         /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
@@ -1499,21 +1499,21 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 
     ??? example "Hide Progress Bar in the footer"
-        ```html
+        ```css
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
     ??? example "Change the styles of the choices"
-        ```html
+        ```css
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
     ??? example "Change the styles of the picture choices"
-        ```html
+        ```css
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
@@ -1528,7 +1528,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Make 'Back' and 'Next' arrows point left and right"
-        ```html
+        ```css
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
             -moz-transform: rotate(-90deg);
@@ -1542,7 +1542,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
-        ```html
+        ```css
         @font-face {
         font-family: "Morion";
         src: url("https://yourwebsite.com/wp-content/themes/yourtheme/fonts/Morion-Light.woff2") format("woff2");
@@ -1554,7 +1554,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the 'add all to cart' button"
 
-        ```html
+        ```css
         /*Hide the "add all to cart" button */
 
         .lq-checkout.lq-add-all-to-cart {
@@ -1563,7 +1563,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the product variants"
 
-        ```html
+        ```css
         /* this hides the product variants */
         .no-variants-dropdown {
         display: none;
@@ -1577,7 +1577,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Adds quiz border"
 
-        ```html
+        ```css
         /* Adds quiz border */
         .lq-quiz {
         border-style: solid;
@@ -1586,7 +1586,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change Picture Choices to Icons"
 
-        ```html
+        ```css
         /* Change Picture Choices to Icons */
 
         .lq-images li, .widget .lq-images li{
@@ -1643,15 +1643,15 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Multiple choice questions: change the selected option background"
 
-        ```html
-        /* Muliptle choice questions: change the selected options background */
+        ```css
+        /* Multiple choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
     ??? example "Change the color of the Retake Quiz text"
 
-        ```html
+        ```css
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
@@ -1659,7 +1659,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Add to Cart button"
 
-        ```html
+        ```css
         /* Change the background of the Add to Cart button */
         .lq-add-to-cart {
         background-color: #ff7028;
@@ -1667,7 +1667,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Checkout button"
 
-        ```html
+        ```css
         /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
@@ -1675,7 +1675,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the label inside Add to Cart buttons"
 
-        ```html
+        ```css
         /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
@@ -1688,21 +1688,21 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 
     ??? example "Hide Progress Bar in the footer"
-        ```html
+        ```css
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
     ??? example "Change the styles of the choices"
-        ```html
+        ```css
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
     ??? example "Change the styles of the picture choices"
-        ```html
+        ```css
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
@@ -1717,7 +1717,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Make 'Back' and 'Next' arrows point left and right"
-        ```html
+        ```css
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
             -moz-transform: rotate(-90deg);
@@ -1731,7 +1731,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
-        ```html
+        ```css
         @font-face {
         font-family: "Morion";
         src: url("https://yourwebsite.com/wp-content/themes/yourtheme/fonts/Morion-Light.woff2") format("woff2");
@@ -1743,7 +1743,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the 'add all to cart' button"
 
-        ```html
+        ```css
         /*Hide the "add all to cart" button */
 
         .lq-checkout.lq-add-all-to-cart {
@@ -1752,7 +1752,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the product variants"
 
-        ```html
+        ```css
         /* this hides the product variants */
         .no-variants-dropdown {
         display: none;
@@ -1766,7 +1766,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Adds quiz border"
 
-        ```html
+        ```css
         /* Adds quiz border */
         .lq-quiz {
         border-style: solid;
@@ -1775,7 +1775,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change Picture Choices to Icons"
 
-        ```html
+        ```css
         /* Change Picture Choices to Icons */
 
         .lq-images li, .widget .lq-images li{
@@ -1832,15 +1832,15 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Multiple choice questions: change the selected option background"
 
-        ```html
-        /* Muliptle choice questions: change the selected options background */
+        ```css
+        /* Multiple choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
     ??? example "Change the color of the Retake Quiz text"
 
-        ```html
+        ```css
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
@@ -1848,7 +1848,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Add to Cart button"
 
-        ```html
+        ```css
         /* Change the background of the Add to Cart button */
         .lq-add-to-cart {
         background-color: #ff7028;
@@ -1856,7 +1856,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Checkout button"
 
-        ```html
+        ```css
         /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
@@ -1864,7 +1864,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the label inside Add to Cart buttons"
 
-        ```html
+        ```css
         /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
@@ -1877,21 +1877,21 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 
     ??? example "Hide Progress Bar in the footer"
-        ```html
+        ```css
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
     ??? example "Change the styles of the choices"
-        ```html
+        ```css
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
     ??? example "Change the styles of the picture choices"
-        ```html
+        ```css
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
@@ -1906,7 +1906,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
     ??? example "Make 'Back' and 'Next' arrows point left and right"
-        ```html
+        ```css
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
             -moz-transform: rotate(-90deg);
@@ -1920,7 +1920,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         Adding a custom font. You have to host the font on your own server. A font hosted inside your Shopify store counts as private, or sits behind a restriction, so the quiz cannot load it. Host it elsewhere, or use a Google Font as [Advanced customizations (CSS)](#advanced-customizations-css) shows.
 
-        ```html
+        ```css
         @font-face {
         font-family: "Morion";
         src: url("https://yourwebsite.com/wp-content/themes/yourtheme/fonts/Morion-Light.woff2") format("woff2");
@@ -1932,7 +1932,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the 'add all to cart' button"
 
-        ```html
+        ```css
         /*Hide the "add all to cart" button */
 
         .lq-checkout.lq-add-all-to-cart {
@@ -1941,7 +1941,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Hide the product variants"
 
-        ```html
+        ```css
         /* this hides the product variants */
         .no-variants-dropdown {
         display: none;
@@ -1955,7 +1955,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Adds quiz border"
 
-        ```html
+        ```css
         /* Adds quiz border */
         .lq-quiz {
         border-style: solid;
@@ -1964,7 +1964,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change Picture Choices to Icons"
 
-        ```html
+        ```css
         /* Change Picture Choices to Icons */
 
         .lq-images li, .widget .lq-images li{
@@ -2021,15 +2021,15 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Multiple choice questions: change the selected option background"
 
-        ```html
-        /* Muliptle choice questions: change the selected options background */
+        ```css
+        /* Multiple choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
     ??? example "Change the color of the Retake Quiz text"
 
-        ```html
+        ```css
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
@@ -2037,7 +2037,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Add to Cart button"
 
-        ```html
+        ```css
         /* Change the background of the Add to Cart button */
         .lq-add-to-cart {
         background-color: #ff7028;
@@ -2045,7 +2045,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the Checkout button"
 
-        ```html
+        ```css
         /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
@@ -2053,7 +2053,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
     ??? example "Change the background of the label inside Add to Cart buttons"
 
-        ```html
+        ```css
         /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
