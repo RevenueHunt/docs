@@ -194,6 +194,8 @@ nav:
     - Dashboard: reference/dashboard.md
     - Plans & Pricing: reference/plans-pricing.md
     - App Settings: reference/app-settings.md
+    - Resources: reference/resources.md
+    - Feedback: reference/feedback.md
     - Accessibility: reference/accessibility.md
     - CSS Structure: reference/css-structure.md
     - Glossary: reference/glossary.md

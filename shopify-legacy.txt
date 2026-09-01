@@ -15431,6 +15431,26 @@ To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/reference/feedback/
+================================================================================
+
+---
+description: "Send a bug report, a feature request or a new app idea to the RevenueHunt product team from the Feedback page in the app."
+---
+
+# Feedback
+
+The Feedback page sends a message straight to the RevenueHunt product team. Use it to report a bug, to request a feature, or to suggest a new app.
+
+--- Shopify (Legacy) Specific Content ---
+
+!!! note "Feedback is a Built for Shopify feature"
+    The legacy app has a Help menu on the Dashboard instead.
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/reference/glossary/
 ================================================================================
 
@@ -15558,7 +15578,7 @@ SOURCE: https://docs.revenuehunt.com/reference/
 ================================================================================
 
 ---
-description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, accessibility, CSS structure and the glossary."
+description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, resources, feedback, accessibility, CSS structure and the glossary."
 ---
 
 # App Manual
@@ -15603,6 +15623,14 @@ See the details of every pricing plan, and upgrade or downgrade your account.
 ## [App settings](/reference/app-settings/)
 
 Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
+
+## [Resources](/reference/resources/)
+
+The quiz ROI calculator, the Shopify quizzes benchmark report, a library of free quiz templates, and Shopify apps that pair well with a quiz.
+
+## [Feedback](/reference/feedback/)
+
+Send a bug report, a feature request or a new app idea straight to the RevenueHunt product team.
 
 ## [Accessibility](/reference/accessibility/)
 
@@ -16669,6 +16697,26 @@ By default, the popup is only shown once per session.
 `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/reference/resources/
+================================================================================
+
+---
+description: "The RevenueHunt Resources page: the quiz ROI calculator, the Shopify quizzes benchmark report, free quiz templates and recommended Shopify apps."
+---
+
+# Resources
+
+The Resources page collects the tools, reports and templates that help you plan a quiz. It also lists Shopify apps that work well alongside a quiz.
+
+--- Shopify (Legacy) Specific Content ---
+
+!!! note "Resources is a Built for Shopify feature"
+    The legacy app has a Help menu on the Dashboard instead.
 
 
 

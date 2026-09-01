@@ -23,9 +23,13 @@ The Dashboard lists every quiz you create.
 
     `Analytics` - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
 
+    `Resources` - Opens the [Resources](/reference/resources/) page with the RevenueHunt tools, reports, quiz templates and recommended apps.
+
     `App settings` - Opens the [App settings](/reference/app-settings/) menu.
 
     `Get support` - Opens the [Support](#support) menu.
+
+    `Feedback` - Opens the [Feedback](/reference/feedback/) page, where you send a bug report, a feature request or an app idea to the team.
 
     `Switch to legacy app` - Click to [switch to the legacy version of the app](/reference/dashboard/#switch-to-legacy). All your progress will be saved when you switch versions.
 

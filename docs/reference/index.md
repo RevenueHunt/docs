@@ -1,5 +1,5 @@
 ---
-description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, accessibility, CSS structure and the glossary."
+description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, resources, feedback, accessibility, CSS structure and the glossary."
 ---
 
 # App Manual
@@ -44,6 +44,14 @@ See the details of every pricing plan, and upgrade or downgrade your account.
 ## [App settings](/reference/app-settings/)
 
 Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
+
+## [Resources](/reference/resources/)
+
+The quiz ROI calculator, the Shopify quizzes benchmark report, a library of free quiz templates, and Shopify apps that pair well with a quiz.
+
+## [Feedback](/reference/feedback/)
+
+Send a bug report, a feature request or a new app idea straight to the RevenueHunt product team.
 
 ## [Accessibility](/reference/accessibility/)
 

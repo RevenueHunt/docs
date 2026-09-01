@@ -202,6 +202,7 @@ webhook
 webp
 whitelist
 whitelisting
+wishlist
 vimeo
 wix
 wolframalpha

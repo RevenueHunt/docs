@@ -17488,8 +17488,10 @@ The RevenueHunt Quizzes `Dashboard` is where you view, manage and optimize every
 `RevenueHunt Product Quiz Maker` - The dashboard of the app where you can find all the quizzes created.
 `Publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions for how to add the quiz to the website.
 `Analytics` - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
+`Resources` - Opens the [Resources](/reference/resources/) page with the RevenueHunt tools, reports, quiz templates and recommended apps.
 `App settings` - Opens the [App settings](/reference/app-settings/) menu.
 `Get support` - Opens the [Support](#support) menu.
+`Feedback` - Opens the [Feedback](/reference/feedback/) page, where you send a bug report, a feature request or an app idea to the team.
 `Switch to legacy app` - Click to [switch to the legacy version of the app](/reference/dashboard/#switch-to-legacy). All your progress will be saved when you switch versions.
 The Analytics Overview is a summary of the most important metrics for your quizzes.
 ![manual_shopifyV2_topanalytics_folded](/images/manual_shopifyV2_topanalytics_folded.png)
@@ -17606,6 +17608,37 @@ You can switch between the two versions whenever you want. Your progress is save
 `Switch to legacy app` - Click this option to switch to the legacy version of our Shopify app.
 !!! warning "Switch to legacy app"
     If you need help during the switch, [contact customer support](/how-to-guides/contact-customer-support/).
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/reference/feedback/
+================================================================================
+
+---
+description: "Send a bug report, a feature request or a new app idea to the RevenueHunt product team from the Feedback page in the app."
+---
+
+# Feedback
+
+The Feedback page sends a message straight to the RevenueHunt product team. Use it to report a bug, to request a feature, or to suggest a new app.
+
+--- Shopify Specific Content ---
+
+Open `Feedback` from the app side menu.
+![manual_shopifyV2_feedback](/images/manual_shopifyV2_feedback.png)
+`What's this about?` - Choose the topic of your message.
+![manual_shopifyV2_feedback_topic](/images/manual_shopifyV2_feedback_topic.png)
+- `Bug report` - Something in the app does not work the way it should.
+- `Feature request` - Something you want the app to do that it does not do yet.
+- `New app idea` - A product idea for RevenueHunt to build.
+- `Something else` - Anything the other three topics do not cover.
+`Your message` - Describe what you want to be able to do, and what you are trying to achieve. A concrete example of your store and your customers helps the team more than a general request.
+`Your email` - The address the team replies to. The app fills in your account email, and you can change it.
+`Send feedback` - Click to send the message to the team.
+!!! tip "For a problem that blocks you now, use Quiz Copilot"
+    Feedback goes to the product team, not to the support queue, so an answer can take time. When something is broken and blocks you right now, use `Chat with Quiz Copilot` in the [Support](/reference/dashboard/#support) menu. It answers most questions on the spot. When it cannot, [contact customer support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -17745,7 +17778,7 @@ SOURCE: https://docs.revenuehunt.com/reference/
 ================================================================================
 
 ---
-description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, accessibility, CSS structure and the glossary."
+description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, resources, feedback, accessibility, CSS structure and the glossary."
 ---
 
 # App Manual
@@ -17790,6 +17823,14 @@ See the details of every pricing plan, and upgrade or downgrade your account.
 ## [App settings](/reference/app-settings/)
 
 Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
+
+## [Resources](/reference/resources/)
+
+The quiz ROI calculator, the Shopify quizzes benchmark report, a library of free quiz templates, and Shopify apps that pair well with a quiz.
+
+## [Feedback](/reference/feedback/)
+
+Send a bug report, a feature request or a new app idea straight to the RevenueHunt product team.
 
 ## [Accessibility](/reference/accessibility/)
 
@@ -20631,6 +20672,35 @@ This method involves activating the `Link Popup Quiz` app embed in your store th
 7. Remember to apply the new page template to the page you want to add the chat popup to.
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions in [How to Set Up Chat Button Popups on a Specific Page](/how-to-guides/publish-quiz-chat-button/#chat-button-on-a-specific-page) to add a chat popup to your website.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/reference/resources/
+================================================================================
+
+---
+description: "The RevenueHunt Resources page: the quiz ROI calculator, the Shopify quizzes benchmark report, free quiz templates and recommended Shopify apps."
+---
+
+# Resources
+
+The Resources page collects the tools, reports and templates that help you plan a quiz. It also lists Shopify apps that work well alongside a quiz.
+
+--- Shopify Specific Content ---
+
+Open `Resources` from the app side menu.
+![manual_shopifyV2_resources](/images/manual_shopifyV2_resources.png)
+**Tools & reports**
+`Quiz ROI calculator` - Estimates the extra monthly revenue a product quiz could add to your store. Enter your traffic, your conversion rate and your average order value. The calculator then shows the projected return, based on benchmark data. Click `Open calculator` to open it.
+`Shopify quizzes benchmark report` - Shows how product quizzes perform across millions of real quiz responses. The report covers which product categories convert highest, and how long a quiz keeps earning. Click `Read the report` to open it.
+`Quiz templates inspiration` - Opens a library of free quiz templates for skincare, beauty, supplements, pet food and other categories. Every template comes with its questions, conditional logic and recommendation rules already set up. Click `Browse templates` to open the library.
+**Recommended apps**
+This section lists Shopify apps that pair well with a quiz, grouped by what they do. `Upsell & recommendations` is one such group. It holds apps that raise average order value with cart upsells, wishlists and pre-orders.
+Each card describes one app. Click `Install app` to open its listing in the Shopify App Store.
+!!! info "The recommended apps change"
+    RevenueHunt updates this list, so the apps on your screen can differ from the screenshot. These are apps from other companies, and those companies support them.
 
 
 
