@@ -5,20 +5,19 @@ icon: material/filter
 
 # How to Filter Recommendations by Price
 
+A quiz can keep its recommendations inside the price range the customer picked.
+
+The method is the same everywhere. Group your products by price in your store, ask the customer which range they want, then upvote that group and exclude the others.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/zfrq6Dh65S0?si=L-XkEXprRKs33ALk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    This article explains how to filter the recommendations on your results page by price.
+    1. **Click `Customize`, open [Questions](/reference/quiz-builder/questions/), and add a multiple-choice question about price.** For example, "What is your desired price range?".
 
-    It explains how to filter quiz recommendations by price in Shopify. It covers creating collections for each price range, and configuring the quiz to filter recommendations on them.
+        !!! example "The question"
 
-    1. **Adding a Price Filtering Question**: Click `Customize` to open the quiz, then open the [Questions](/reference/quiz-builder/questions/) section. Click `+ Add question` and add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-
-        !!! example "Price Filtering Question"
-
-            Provide three options:
+            Three choices cover most catalogs:
 
             - Under 20 euros
             - Between 20 and 50 euros
@@ -26,334 +25,286 @@ icon: material/filter
 
             ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_question_example.png)
 
-    2. **Creating Price-Based Collections in Shopify**: Go to Shopify, then `Products > Collections`.
+    2. **In your Shopify admin, go to `Products > Collections` and click `Add collection`.**
 
-        - Click `Add collection` to create a new collection for products.
-        - Name the collection (for example, Under 20 euros) and choose to create a **smart** collection with the condition.
+    3. **Name it after the range, and make it a smart collection with a price condition.**
 
-            !!! example "Sample Smart Collection Conditions"
+        !!! example "The condition on each collection"
 
-                For example, `Price` `is less than` `20 euros`.
+            `Price` `is less than` `20 euros`
 
-                or `Price` `is greater than` `50 euros`.
+            `Price` `is between` `20 euros` and `50 euros`
 
-                or `Price` `is between` `20 euros` and `50 euros`.
+            `Price` `is greater than` `50 euros`
 
-                ![Smart collection condition on price](/images/how_to_filter_by_price_smart_collection_example.png)
+            ![Smart collection condition on price](/images/how_to_filter_by_price_smart_collection_example.png)
 
-        - Save the collection.
-        - Repeat the process to create:
-            - A collection for products between 20 and 50 euros (Price `> 20` and Price `< 50`).
-            - A collection for products over 50 euros (Price `> 50`).
-        - Save each collection after setting the conditions.
+    4. **Repeat for each range, then save every collection.**
 
-    3. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Locate the price question and expand it to configure options. Under [Choice settings](/reference/quiz-builder/questions/#choice-settings), find the `Upvotes` section and click `Upvote > Collections`. Upvote and exclude the collections for each price range. Click `Save` to save the changes.
+    5. **Back in the quiz, open the price question and expand a choice.**
 
-        !!! example "Configuring the Quiz to Filter Recommendations"
+    6. **Under [Choice settings](/reference/quiz-builder/questions/#choice-settings), open `Upvotes` and click `Upvote > Collections`.**
 
-            - For the 'Under 20 euros' choice: Upvote the collection for products under 20 euros. Exclude collections for products between 20 and 50 euros and over 50 euros.
-            - For the '20 to 50 euros' choice: Upvote the collection for products between 20 and 50 euros. Exclude collections for products under 20 euros and over 50 euros.
-            - For the 'Over 50 euros' choice: Upvote the collection for products over 50 euros. Exclude collections for products under 20 euros and between 20 and 50 euros.
+    7. **Upvote the collection for that choice, and exclude the other two.**
 
-            ![Upvoting and excluding a collection per choice](https://loom.com/i/f2089b6648004d739a40997d7ebf81ec?workflows_screenshot=true)
+        !!! example "One group upvoted, the rest excluded"
 
-    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
+            - **Under 20 euros** upvotes the under-20 collection, and excludes the other two.
+            - **20 to 50 euros** upvotes the 20-to-50 collection, and excludes the other two.
+            - **Over 50 euros** upvotes the over-50 collection, and excludes the other two.
 
-        !!! tip "Troubleshooting"
+            ![Upvoting one group and excluding the others](https://loom.com/i/f2089b6648004d739a40997d7ebf81ec?workflows_screenshot=true)
 
-            Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
+    8. **Click the top-right `Save` button.**
 
-            It may also be necessary to run a quick [catalog import](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+    9. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
 
+        !!! tip "The wrong products come back"
+
+            Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
+
+            A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/66ade08895f5478d80b2f686576642ad?sid=da3831fd-a490-4ba8-aab6-cb05bd873001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    This article explains how to filter the recommendations on your results page by price.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and click `+` to add a multiple-choice question about price.** For example, "What is your desired price range?".
 
-    It explains how to filter quiz recommendations by price in Shopify. It covers creating collections for each price range, and configuring the quiz to filter recommendations on them.
+        !!! example "The question"
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-
-        !!! example "Price Filtering Question"
-
-            Provide three options:
+            Three choices cover most catalogs:
 
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
 
-            ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
+            ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Collections in Shopify**: Go to Shopify, then `Products > Collections`.
+    2. **In your Shopify admin, go to `Products > Collections` and click `Add collection`.**
 
-        - Click `Add collection` to create a new collection for products.
-        - Name the collection (for example, Under 20 euros) and choose to create a **smart** collection with the condition.
+    3. **Name it after the range, and make it a smart collection with a price condition.**
 
-            !!! example "Sample Smart Collection Conditions"
+        !!! example "The condition on each collection"
 
-                For example, `Price` `is less than` `20 euros`.
+            `Price` `is less than` `20 euros`
 
-                or `Price` `is greater than` `50 euros`.
+            `Price` `is between` `20 euros` and `50 euros`
 
-                or `Price` `is between` `20 euros` and `50 euros`.
+            `Price` `is greater than` `50 euros`
 
-                ![Smart collection condition on price](/images/how_to_filter_by_price_smart_collection_example.png)
+            ![Smart collection condition on price](/images/how_to_filter_by_price_smart_collection_example.png)
 
-        - Save the collection.
-        - Repeat the process to create:
-            - A collection for products between 20 and 50 euros (Price `> 20` and Price `< 50`).
-            - A collection for products over 50 euros (Price `> 50`).
-        - Save each collection after setting the conditions.
+    4. **Repeat for each range, then save every collection.**
 
-    3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new collections. After syncing, refresh the quiz page.
+    5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from the success checklist**, so the new collections reach the quiz.
 
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the collections for each price range.
+    6. **Open the [Link Collections](/reference/quiz-builder/link-collections/) section, and for each choice upvote its own collection while excluding the others.**
 
-        !!! example "Configuring the Quiz to Filter Recommendations"
+        !!! example "One group upvoted, the rest excluded"
 
-            - For the 'Under 20 euros' choice: Upvote the collection for products under 20 euros. Exclude collections for products between 20 and 50 euros and over 50 euros.
-            - For the '20 to 50 euros' choice: Upvote the collection for products between 20 and 50 euros. Exclude collections for products under 20 euros and over 50 euros.
-            - For the 'Over 50 euros' choice: Upvote the collection for products over 50 euros. Exclude collections for products under 20 euros and between 20 and 50 euros.
+            - **Under 20 euros** upvotes the under-20 collection, and excludes the other two.
+            - **20 to 50 euros** upvotes the 20-to-50 collection, and excludes the other two.
+            - **Over 50 euros** upvotes the over-50 collection, and excludes the other two.
 
-            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+            ![Upvoting one group and excluding the others](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
 
-    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
+    7. **Click the top-right `Publish` button.**
 
-        !!! tip "Troubleshooting"
+    8. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
 
-            Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
+        !!! tip "The wrong products come back"
 
-            It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+            Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
 
-
-
+            A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 === "WooCommerce"
 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and click `+` to add a multiple-choice question about price.** For example, "What is your desired price range?".
 
-    This article explains how to filter the recommendations on your results page by price.
+        !!! example "The question"
 
-    It explains how to filter quiz recommendations by price in WooCommerce. It covers creating categories for each price range, and configuring the quiz to filter recommendations on them.
-
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-
-        !!! example "Price Filtering Question"
-
-            Provide three options:
+            Three choices cover most catalogs:
 
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
 
-            ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
+            ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Categories in WooCommerce**: In your WooCommerce admin, go to **Products → Categories**. Create one product category per price range.
+    2. **In your store admin, go to `Products > Categories`.**
 
-        - Name the category (for example, **Under 20 euros**).
-        - Save the category.
-        - Edit your products and assign them to the corresponding price category:
-            - Products priced under 20 euros → assign to **Under 20 euros**.
-            - Products priced between 20 and 50 euros → assign to **20–50 euros**.
-            - Products priced over 50 euros → assign to **Over 50 euros**.
+    3. **Create one category per price range, with `Add new category`.**
 
-        !!! example "Sample Price-Based Categories"
+    4. **Assign your products to the matching category.**
 
-            - Category: **Under 20 euros** → all products with a price `< 20`.
-            - Category: **20–50 euros** → all products with a price between `20` and `50`.
-            - Category: **Over 50 euros** → all products with a price `> 50`.
+        - Products under 20 euros go in the under-20 category.
+        - Products between 20 and 50 euros go in the 20-to-50 category.
+        - Products over 50 euros go in the over-50 category.
 
-        - Repeat the process until every product you want to recommend is assigned to the correct price category.
+    5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from the success checklist**, so the new categories reach the quiz.
 
+    6. **Open the [Link Categories](/reference/quiz-builder/link-collections/) section, and for each choice upvote its own category while excluding the others.**
 
-    3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
+        !!! example "One group upvoted, the rest excluded"
 
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+            - **Under 20 euros** upvotes the under-20 category, and excludes the other two.
+            - **20 to 50 euros** upvotes the 20-to-50 category, and excludes the other two.
+            - **Over 50 euros** upvotes the over-50 category, and excludes the other two.
 
-        !!! example "Configuring the Quiz to Filter Recommendations"
+            ![Upvoting one group and excluding the others](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
 
-            - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
-            - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
-            - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
+    7. **Click the top-right `Publish` button.**
 
-            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+    8. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
 
-    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
+        !!! tip "The wrong products come back"
 
-        !!! tip "Troubleshooting"
+            Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
 
-            Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
-
-            It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
-
+            A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 === "Magento"
 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and click `+` to add a multiple-choice question about price.** For example, "What is your desired price range?".
 
-    This article explains how to filter the recommendations on your results page by price.
+        !!! example "The question"
 
-    It explains how to filter quiz recommendations by price in Magento. It covers creating categories for each price range, and configuring the quiz to filter recommendations on them.
-
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-
-        !!! example "Price Filtering Question"
-
-            Provide three options:
+            Three choices cover most catalogs:
 
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
 
-            ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
+            ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Categories in Magento**: In your Magento admin, go to **Catalog → Categories**. Create one product category per price range.
+    2. **In your store admin, go to `Catalog > Categories`.**
 
-        - Click **Add Subcategory** under the relevant parent category (for example, under your main “Skincare” category).
-        - Name the category (for example, **Under 20 euros**) and save it.
-        - In the **Products in Category** section, assign products to the corresponding price category:
-            - Products priced under 20 euros → assign to **Under 20 euros**.
-            - Products priced between 20 and 50 euros → assign to **20–50 euros**.
-            - Products priced over 50 euros → assign to **Over 50 euros**.
-        - Save the category.
+    3. **Create one category per price range, with `Add Subcategory` under your main category.**
 
-        !!! example "Sample Price-Based Categories"
+    4. **Assign your products to the matching category.**
 
-            - Category: **Under 20 euros** → all products with a price `< 20`.
-            - Category: **20–50 euros** → all products with a price between `20` and `50`.
-            - Category: **Over 50 euros** → all products with a price `> 50`.
+        - Products under 20 euros go in the under-20 category.
+        - Products between 20 and 50 euros go in the 20-to-50 category.
+        - Products over 50 euros go in the over-50 category.
 
-        - Repeat this process until all products you want to recommend through the quiz are assigned to the correct price category.
+        Assign them in the `Products in Category` section, then save the category.
 
-    3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
+    5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from the success checklist**, so the new categories reach the quiz.
 
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+    6. **Open the [Link Categories](/reference/quiz-builder/link-collections/) section, and for each choice upvote its own category while excluding the others.**
 
-        !!! example "Configuring the Quiz to Filter Recommendations"
+        !!! example "One group upvoted, the rest excluded"
 
-            - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
-            - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
-            - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
+            - **Under 20 euros** upvotes the under-20 category, and excludes the other two.
+            - **20 to 50 euros** upvotes the 20-to-50 category, and excludes the other two.
+            - **Over 50 euros** upvotes the over-50 category, and excludes the other two.
 
-            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+            ![Upvoting one group and excluding the others](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
 
-    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
+    7. **Click the top-right `Publish` button.**
 
-        !!! tip "Troubleshooting"
+    8. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
 
-            Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
+        !!! tip "The wrong products come back"
 
-            It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+            Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
 
-
+            A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 === "BigCommerce"
 
-    This article explains how to filter the recommendations on your results page by price.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and click `+` to add a multiple-choice question about price.** For example, "What is your desired price range?".
 
-    It explains how to filter quiz recommendations by price in BigCommerce. It covers creating categories for each price range, and configuring the quiz to filter recommendations on them.
+        !!! example "The question"
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-
-        !!! example "Price Filtering Question"
-
-            Provide three options:
+            Three choices cover most catalogs:
 
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
 
-            ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
+            ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Categories in BigCommerce**: In your BigCommerce control panel, go to **Products → Product Categories**. Create one product category per price range.
+    2. **In your store admin, go to `Products > Product Categories`.**
 
-        - Click **Add a Category**.
-        - Name the category (for example, **Under 20 euros**) and save it.
-        - Edit your products and assign them to the corresponding price category:
-            - Products priced under 20 euros → assign to **Under 20 euros**.
-            - Products priced between 20 and 50 euros → assign to **20–50 euros**.
-            - Products priced over 50 euros → assign to **Over 50 euros**.
-        - Save the changes.
+    3. **Create one category per price range, with `Add a Category`.**
 
-        !!! example "Sample Price-Based Categories"
+    4. **Assign your products to the matching category.**
 
-            - Category: **Under 20 euros** → all products with a price `< 20`.
-            - Category: **20–50 euros** → all products with a price between `20` and `50`.
-            - Category: **Over 50 euros** → all products with a price `> 50`.
+        - Products under 20 euros go in the under-20 category.
+        - Products between 20 and 50 euros go in the 20-to-50 category.
+        - Products over 50 euros go in the over-50 category.
 
-        - Repeat this process until all products you want to recommend through the quiz are assigned to the correct price category.
+    5. **Run a [catalog sync](/how-to-guides/sync-catalog/) from the success checklist**, so the new categories reach the quiz.
 
+    6. **Open the [Link Categories](/reference/quiz-builder/link-collections/) section, and for each choice upvote its own category while excluding the others.**
 
-    3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
+        !!! example "One group upvoted, the rest excluded"
 
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+            - **Under 20 euros** upvotes the under-20 category, and excludes the other two.
+            - **20 to 50 euros** upvotes the 20-to-50 category, and excludes the other two.
+            - **Over 50 euros** upvotes the over-50 category, and excludes the other two.
 
-        !!! example "Configuring the Quiz to Filter Recommendations"
+            ![Upvoting one group and excluding the others](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
 
-            - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
-            - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
-            - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
+    7. **Click the top-right `Publish` button.**
 
-            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+    8. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
 
-    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
+        !!! tip "The wrong products come back"
 
-        !!! tip "Troubleshooting"
+            Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
 
-            Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
-
-            It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
-
-
+            A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 === "Standalone"
 
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and click `+` to add a multiple-choice question about price.** For example, "What is your desired price range?".
 
-    This article explains how to filter the recommendations on your results page by price.
+        !!! example "The question"
 
-    It explains how to filter quiz recommendations by price in the Standalone version. It covers creating collections for each price range, and configuring the quiz to filter recommendations on them.
-
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-
-        !!! example "Price Filtering Question"
-
-            Provide three options:
+            Three choices cover most catalogs:
 
             - Under 20 euros
             - Between 20 and 50 euros
             - Over 50 euros
 
-            ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
+            ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Collections in Standalone**: Go to Standalone app, [Success Checklist](/reference/dashboard/#success-checklist) and create collections for each price range.
+    2. **Open the [Success Checklist](/reference/dashboard/#success-checklist) and create one collection per price range.**
 
+        !!! tip "Filling the catalogue"
 
-        !!! tip "How do I add products to Standalone RevenueHunt App?"
+            See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
 
-            Follow this guide to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/)
+    3. **Put each product in the collection that matches its price.**
 
-    3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
+        - Products under 20 euros go in the under-20 collection.
+        - Products between 20 and 50 euros go in the 20-to-50 collection.
+        - Products over 50 euros go in the over-50 collection.
 
-    4. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Open the [Link Collections](/reference/quiz-builder/link-collections/) section. Find the `Upvotes` section and upvote and exclude the categories for each price range.
+    4. **Open the [Link Categories](/reference/quiz-builder/link-collections/) section, and for each choice upvote its own collection while excluding the others.**
 
-        !!! example "Configuring the Quiz to Filter Recommendations"
+        !!! example "One group upvoted, the rest excluded"
 
-            - For the 'Under 20 euros' choice: Upvote the category for products under 20 euros. Exclude categories for products between 20 and 50 euros and over 50 euros.
-            - For the '20 to 50 euros' choice: Upvote the category for products between 20 and 50 euros. Exclude categories for products under 20 euros and over 50 euros.
-            - For the 'Over 50 euros' choice: Upvote the category for products over 50 euros. Exclude categories for products under 20 euros and between 20 and 50 euros.
+            - **Under 20 euros** upvotes the under-20 collection, and excludes the other two.
+            - **20 to 50 euros** upvotes the 20-to-50 collection, and excludes the other two.
+            - **Over 50 euros** upvotes the over-50 collection, and excludes the other two.
 
-            ![Upvoting and excluding a collection per choice](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
+            ![Upvoting one group and excluding the others](/images/how_to_filter_by_price__legacy_filter_question_linkedcollections.png)
 
-    4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
+    5. **Click the top-right `Publish` button.**
 
-        !!! tip "Troubleshooting"
+    6. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
 
-            Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
+        !!! tip "The wrong products come back"
 
-            It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+            Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
 
-
+            A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 ---
 
-This article explains how to filter recommendations by price in your quiz results page.
+This article explains how to keep quiz recommendations inside the price range a customer picked.

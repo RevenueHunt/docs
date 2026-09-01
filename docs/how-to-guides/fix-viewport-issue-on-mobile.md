@@ -3,100 +3,122 @@ description: "Fix RevenueHunt quiz viewport issues on mobile devices to ensure t
 icon: material/cellphone-link
 ---
 
-# Fixing Viewport Issue on Mobile
+# How to Fix the Mobile Viewport Issue
 
-On a mobile device, the quiz can zoom in slightly when the customer taps a text input. The page then shifts from left to right, and the quiz no longer sits still.
+On a phone, the quiz can zoom in when the customer taps a text input. The page then drifts left and right, and the quiz no longer sits still.
 
-## Problem description
+## Why it happens
 
-The cause is the meta viewport tag in your store theme. Without a maximum scale, the browser zooms in on a focused input, and the page moves with it.
+The meta viewport tag in your store theme sets no maximum scale. Without one, the browser is free to zoom in on a focused input, and the page moves with it.
 
-## Solution
+Adding `maximum-scale=1.0` and `user-scalable=0` to that tag stops the zoom, and the page stays put.
 
-Your developer edits the meta viewport tag in the store theme to add `maximum-scale=1.0` and `user-scalable=0`. Those two values stop the page from moving.
+!!! warning "This is a change to your theme"
 
-### Step-by-step guide
+    The tag lives in your store theme, not in the quiz. Ask your developer to make the change if you are not comfortable editing theme files.
 
-1. Locate the meta viewport tag in the HTML of your store. It might look like this:
-
-   ```html
-   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-   ```
-
-2. Modify the tag to include `maximum-scale=1.0` and `user-scalable=0`:
-
-   ```html
-   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-   ```
-
-3. If the meta viewport tag is missing, add the modified tag to the `<head>` section of your HTML.
-
-![Meta viewport tag in a store theme](/images/fix_viewport_issue_mobile.png)
-
-## Testing
-
-Test the quiz on a mobile device. Tap a text input and check that the page stays still.
-
-## Additional notes
-
-- Apply the change to the theme your store is actually using.
-- If the problem continues, ask your web developer for help.
-
-## Platform-specific instructions
+## Find the meta viewport tag
 
 === "Shopify"
 
-    1. In Shopify admin, go to **Online Store** > **Themes**.
-    2. Click **...** next to your current theme and select **Edit code**.
-    3. In the **Layout** section, open the `theme.liquid` file.
-    4. Find the `<head>` section and edit the meta viewport tag there.
+    1. **In your Shopify admin, go to `Online Store > Themes`.**
+
+    2. **Click `...` next to your current theme and select `Edit code`.**
+
+    3. **Open `theme.liquid`, in the `Layout` section.**
+
+    4. **Find the `<head>` section.** The meta viewport tag sits inside it.
 
 === "Shopify (Legacy)"
 
-    1. Log in to your Shopify admin panel.
-    2. Go to **Online Store** > **Themes**.
-    3. Click on **Actions** next to your current theme and select **Edit code**.
-    4. In the **Layout** section, find and open the `theme.liquid` file.
-    5. Locate the `<head>` section in this file to modify the meta viewport tag.
+    1. **In your Shopify admin, go to `Online Store > Themes`.**
+
+    2. **Click `Actions` next to your current theme and select `Edit code`.**
+
+    3. **Open `theme.liquid`, in the `Layout` section.**
+
+    4. **Find the `<head>` section.** The meta viewport tag sits inside it.
 
 === "WooCommerce"
 
-    1. Log in to your WordPress admin panel.
-    2. Go to **Appearance** > **Theme Editor**.
-    3. In the **Theme Files** section, find and open the `header.php` file of your active theme.
-    4. Locate the `<head>` section in this file to modify the meta viewport tag.
+    1. **In your WordPress admin, go to `Appearance > Theme Editor`.**
+
+    2. **Open the `header.php` file of your active theme, in the `Theme Files` list.**
+
+    3. **Find the `<head>` section.** The meta viewport tag sits inside it.
 
 === "Magento"
 
-    Magento builds the `<head>` from a layout file rather than from a template you can edit in the admin, so this is a developer task.
+    Magento builds the `<head>` from a layout file rather than from a template you can edit in the admin, so this one is a developer task.
 
-    1. In your theme, open or create `Magento_Theme/layout/default_head_blocks.xml`.
-    2. Add the meta viewport tag to the `<head>` section of that file.
-    3. Deploy the static content and flush the cache.
+    1. **Open or create `Magento_Theme/layout/default_head_blocks.xml` in your theme.**
 
-    !!! tip
+    2. **Add the meta viewport tag to the `<head>` section of that file.**
 
-        For the file layout and an example, see the Adobe Commerce documentation on [managing layouts](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage).
+    3. **Deploy the static content and flush the cache.**
+
+    !!! tip "The file layout, with an example"
+
+        See the Adobe Commerce documentation on [managing layouts](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage).
 
 === "BigCommerce"
 
-    A Stencil theme defines the `<head>` in its base layout, so this is a developer task.
+    A Stencil theme defines the `<head>` in its base layout, so this one is a developer task.
 
-    1. In your Stencil theme, open `templates/layout/base.html`.
-    2. Find the `<head>` section and edit the meta viewport tag there.
-    3. Push the theme to your store.
+    1. **Open `templates/layout/base.html` in your Stencil theme.**
 
-    !!! tip
+    2. **Find the `<head>` section.** The meta viewport tag sits inside it.
 
-        For how a Stencil theme is put together, see the BigCommerce documentation on [page composition and styling](https://developer.bigcommerce.com/docs/storefront/stencil/themes/style/composition-and-styling).
+    3. **Push the theme to your store once you have made the change.**
+
+    !!! tip "How a Stencil theme is put together"
+
+        See the BigCommerce documentation on [page composition and styling](https://developer.bigcommerce.com/docs/storefront/stencil/themes/style/composition-and-styling).
 
 === "Standalone"
 
-    The Standalone quiz runs on your own page, so the meta viewport tag is in your own HTML.
+    The quiz runs on a page of your own, so the meta viewport tag is in your own HTML.
 
-    1. Open the page that holds the quiz.
-    2. Find the `<head>` section and edit the meta viewport tag there.
+    1. **Open the page that holds the quiz.**
 
-    !!! note "Platform Availability"
+    2. **Find the `<head>` section.** The meta viewport tag sits inside it.
 
-        A quiz opened through a RevenueHunt hosted link is not affected. This applies only to a quiz you embed on your own page.
+    !!! note "A hosted quiz link is not affected"
+
+        This only applies to a quiz you embed on your own page. A quiz opened through a RevenueHunt hosted link runs on a page whose viewport is already set.
+
+!!! warning "Edit the theme your store is actually using"
+
+    A store can hold several themes. Make the change in the published one, or nothing will change for your customers.
+
+## Add the two values
+
+1. **Find the tag.** It usually looks like this.
+
+    ```html
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    ```
+
+2. **Add `maximum-scale=1.0` and `user-scalable=0` to the end of the `content` attribute.**
+
+    ```html
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    ```
+
+    ![Meta viewport tag in a store theme](/images/fix_viewport_issue_mobile.png)
+
+3. **Save the file.**
+
+!!! note "No viewport tag in the file"
+
+    Add the whole tag from step 2 to the `<head>` section yourself.
+
+## Test the fix
+
+Open the quiz on a phone and tap a text input. The page should stay still.
+
+If it still zooms, the theme you edited may not be the published one, or a second viewport tag may be overriding the first. Ask your developer to check.
+
+---
+
+This article explains why a quiz zooms in on a phone, and how to stop it in your store theme.

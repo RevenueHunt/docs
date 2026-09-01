@@ -8036,75 +8036,63 @@ icon: material/playlist-edit
 
 # How to Edit Your Product Recommendation Quiz Results Page
 
-You can customize your quiz design as well as the look of your quiz's [Results Page](/reference/quiz-builder/results-page/).
+The results page is the last thing a customer sees, and it is built from blocks you arrange yourself.
 
-This article explains how to add content blocks to your results page, and how to make the page respond to the answers with Display logic.
+This article explains how to add those blocks, and how to make the page respond to the answers with display logic.
 
 ## Build your results page
 
 ## Add content
 
+A **static** results page shows the same thing every time. Only the recommended products change.
+
+A **dynamic** results page changes its wording too, from what the customer answered.
+
 ## Adjust results page settings
 
 ---
-This article explains how to edit the results page. It covers content and product blocks, and using Display logic to make the page respond to the answers.
+
+This article explains how to build a results page from blocks, and how to make it respond to the answers.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i1iOAXPudkg?si=m9L8cqG6vZQu9Wlp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
-1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Text, Image, Products and the rest.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
-3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings). For dynamic elements, use [information recalls](/how-to-guides/use-information-recalls/) or set [Display logic](/how-to-guides/use-display-logic/) for conditional visibility.
-4. **Adjust Page settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results page settings](/reference/quiz-builder/results-page/). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS.
-5. **Review and Test**: Click the top-right `Save` button to update the preview and the live quiz. Check that the Results page does what your quiz set out to do.
-A **Static Results page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product block or Slot block.
-A **Dynamic Results page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-Start by adding content to your results page. These are the elements you can use.
+2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+3. **Make a block react to the answers**, with an [information recall](/how-to-guides/use-information-recalls/) or with [display logic](/how-to-guides/use-display-logic/).
+4. **Open the [results page settings](/reference/quiz-builder/results-page/)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+5. **Click the top-right `Save` button, then take the quiz and read the page as a customer would.**
 ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
-### Add blocks
-Available [Block Types](/reference/quiz-builder/results-page/#block-types):
-**Content Blocks**
-- **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
-- **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-- **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-- **Video** - Adds a video block to the results page. You can upload your own video.
-- **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
-**Slots**
-- **Products** - Adds a block specifically designed for displaying a list of recommended products.
-- **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants.
-- **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
-**Charts**
-- **Gauge chart** - Adds a gauge chart to the results page.
-- **Radar chart** - Adds a radar chart to the results page.
-- **Bar chart** - Adds a bar chart to the results page.
-- **Rating display** - Adds a rating display to the results page.
-- **Custom chart** - Adds a custom chart to the results page.
-**Buttons**
-- **Button** - Adds a button to the results page. You can add any URL to the button.
-- **Cart/Checkout** - Adds a Proceed to cart or Proceed to checkout button to the results page.
-### Add dynamic content
-Dynamic elements of the results page:
-- **Content dynamic source**: A [Content Dynamic Source](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Text Block` or a `Heading Block` on the results page. Open the block and click the `Dynamic content source` icon.
+**The blocks you can add**
+| Group | Blocks |
+|---|---|
+| Content | `Heading`, `Text`, `Image`, `Video`, `Custom HTML` |
+| Slots | `Products`, `Products variants`, `Collection` |
+| Charts | `Gauge chart`, `Radar chart`, `Bar chart`, `Rating display`, `Custom chart` |
+| Buttons | `Button`, `Cart/Checkout` |
+See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does, and for the size limits on an image.
+**Pulling an answer into the text**
+A [content dynamic source](/how-to-guides/use-information-recalls/) puts an answer the customer already gave into a `Text` or `Heading` block.
+1. **Open the block and click the `Dynamic content source` icon.**
     ![Dynamic content source icon in a Text block](/images/how_to_resultspage_dynamiccontent.png)
-    A dropdown lists what you can recall. Pick a data point and it is added to the block.
+2. **Pick a data point from the dropdown.**
     ![Dropdown of data points to recall](/images/how_to_resultspage_dynamiccontent2.png)
-- **Display logic**: With [Display logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+**Showing and hiding blocks**
+[Display logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
+![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
-For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
-[Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
-- **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
-    !!! tip
-        Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
-- **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Results page settings](/reference/quiz-builder/results-page/#advanced-settings).
-- **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results page settings](/reference/quiz-builder/results-page/#advanced-settings).
-[Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
-- **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
-    !!! tip
-        Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results page.
-- **Multiple Results pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+Worth checking in the [results page settings](/reference/quiz-builder/results-page/):
+- **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
+    !!! tip "Setting the checkout behavior"
+        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+- **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+- **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+- **Custom JavaScript.** Run your own code on the page.
+    !!! tip "Writing the JavaScript"
+        See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+- **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
 
 
@@ -8120,46 +8108,45 @@ icon: material/filter
 
 # How to Filter Recommendations by Price
 
+A quiz can keep its recommendations inside the price range the customer picked.
+
+The method is the same everywhere. Group your products by price in your store, ask the customer which range they want, then upvote that group and exclude the others.
 
 ---
 
-This article explains how to filter recommendations by price in your quiz results page.
+This article explains how to keep quiz recommendations inside the price range a customer picked.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/zfrq6Dh65S0?si=L-XkEXprRKs33ALk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-This article explains how to filter the recommendations on your results page by price.
-It explains how to filter quiz recommendations by price in Shopify. It covers creating collections for each price range, and configuring the quiz to filter recommendations on them.
-1. **Adding a Price Filtering Question**: Click `Customize` to open the quiz, then open the [Questions](/reference/quiz-builder/questions/) section. Click `+ Add question` and add a multiple-choice question titled "What is your desired price range for your skincare routine?". Give each option a price range, then save.
-    !!! example "Price Filtering Question"
-        Provide three options:
+1. **Click `Customize`, open [Questions](/reference/quiz-builder/questions/), and add a multiple-choice question about price.** For example, "What is your desired price range?".
+    !!! example "The question"
+        Three choices cover most catalogs:
         - Under 20 euros
         - Between 20 and 50 euros
         - Over 50 euros
         ![Price filtering question with three ranges](/images/how_to_filter_by_price_filter_question_example.png)
-2. **Creating Price-Based Collections in Shopify**: Go to Shopify, then `Products > Collections`.
-    - Click `Add collection` to create a new collection for products.
-    - Name the collection (for example, Under 20 euros) and choose to create a **smart** collection with the condition.
-        !!! example "Sample Smart Collection Conditions"
-            For example, `Price` `is less than` `20 euros`.
-            or `Price` `is greater than` `50 euros`.
-            or `Price` `is between` `20 euros` and `50 euros`.
-            ![Smart collection condition on price](/images/how_to_filter_by_price_smart_collection_example.png)
-    - Save the collection.
-    - Repeat the process to create:
-        - A collection for products between 20 and 50 euros (Price `> 20` and Price `< 50`).
-        - A collection for products over 50 euros (Price `> 50`).
-    - Save each collection after setting the conditions.
-3. **Configuring the Quiz to Filter Recommendations**: Return to the RevenueHunt app and open your quiz. Locate the price question and expand it to configure options. Under [Choice settings](/reference/quiz-builder/questions/#choice-settings), find the `Upvotes` section and click `Upvote > Collections`. Upvote and exclude the collections for each price range. Click `Save` to save the changes.
-    !!! example "Configuring the Quiz to Filter Recommendations"
-        - For the 'Under 20 euros' choice: Upvote the collection for products under 20 euros. Exclude collections for products between 20 and 50 euros and over 50 euros.
-        - For the '20 to 50 euros' choice: Upvote the collection for products between 20 and 50 euros. Exclude collections for products under 20 euros and over 50 euros.
-        - For the 'Over 50 euros' choice: Upvote the collection for products over 50 euros. Exclude collections for products under 20 euros and between 20 and 50 euros.
-        ![Upvoting and excluding a collection per choice](https://loom.com/i/f2089b6648004d739a40997d7ebf81ec?workflows_screenshot=true)
-4. **Testing the Price Filter Functionality**: Preview the quiz. Pick the option for products over 50 euros and check that only those products appear. Repeat for the other ranges.
-    !!! tip "Troubleshooting"
-        Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
-        It may also be necessary to run a quick [catalog import](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+2. **In your Shopify admin, go to `Products > Collections` and click `Add collection`.**
+3. **Name it after the range, and make it a smart collection with a price condition.**
+    !!! example "The condition on each collection"
+        `Price` `is less than` `20 euros`
+        `Price` `is between` `20 euros` and `50 euros`
+        `Price` `is greater than` `50 euros`
+        ![Smart collection condition on price](/images/how_to_filter_by_price_smart_collection_example.png)
+4. **Repeat for each range, then save every collection.**
+5. **Back in the quiz, open the price question and expand a choice.**
+6. **Under [Choice settings](/reference/quiz-builder/questions/#choice-settings), open `Upvotes` and click `Upvote > Collections`.**
+7. **Upvote the collection for that choice, and exclude the other two.**
+    !!! example "One group upvoted, the rest excluded"
+        - **Under 20 euros** upvotes the under-20 collection, and excludes the other two.
+        - **20 to 50 euros** upvotes the 20-to-50 collection, and excludes the other two.
+        - **Over 50 euros** upvotes the over-50 collection, and excludes the other two.
+        ![Upvoting one group and excluding the others](https://loom.com/i/f2089b6648004d739a40997d7ebf81ec?workflows_screenshot=true)
+8. **Click the top-right `Save` button.**
+9. **Preview the quiz and pick each range in turn.** Only the products in that range should come back.
+    !!! tip "The wrong products come back"
+        Open [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) to see which products were upvoted and why.
+        A [catalog sync](/how-to-guides/sync-catalog/) also helps, in case the new groups have not reached the quiz yet.
 
 
 
@@ -8173,53 +8160,64 @@ description: "Fix RevenueHunt quiz viewport issues on mobile devices to ensure t
 icon: material/cellphone-link
 ---
 
-# Fixing Viewport Issue on Mobile
+# How to Fix the Mobile Viewport Issue
 
-On a mobile device, the quiz can zoom in slightly when the customer taps a text input. The page then shifts from left to right, and the quiz no longer sits still.
+On a phone, the quiz can zoom in when the customer taps a text input. The page then drifts left and right, and the quiz no longer sits still.
 
-## Problem description
+## Why it happens
 
-The cause is the meta viewport tag in your store theme. Without a maximum scale, the browser zooms in on a focused input, and the page moves with it.
+The meta viewport tag in your store theme sets no maximum scale. Without one, the browser is free to zoom in on a focused input, and the page moves with it.
 
-## Solution
+Adding `maximum-scale=1.0` and `user-scalable=0` to that tag stops the zoom, and the page stays put.
 
-Your developer edits the meta viewport tag in the store theme to add `maximum-scale=1.0` and `user-scalable=0`. Those two values stop the page from moving.
+!!! warning "This is a change to your theme"
 
-### Step-by-step guide
+    The tag lives in your store theme, not in the quiz. Ask your developer to make the change if you are not comfortable editing theme files.
 
-1. Locate the meta viewport tag in the HTML of your store. It might look like this:
+## Find the meta viewport tag
 
-   ```html
-   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-   ```
+!!! warning "Edit the theme your store is actually using"
 
-2. Modify the tag to include `maximum-scale=1.0` and `user-scalable=0`:
+    A store can hold several themes. Make the change in the published one, or nothing will change for your customers.
 
-   ```html
-   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-   ```
+## Add the two values
 
-3. If the meta viewport tag is missing, add the modified tag to the `<head>` section of your HTML.
+1. **Find the tag.** It usually looks like this.
 
-![Meta viewport tag in a store theme](/images/fix_viewport_issue_mobile.png)
+    ```html
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    ```
 
-## Testing
+2. **Add `maximum-scale=1.0` and `user-scalable=0` to the end of the `content` attribute.**
 
-Test the quiz on a mobile device. Tap a text input and check that the page stays still.
+    ```html
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    ```
 
-## Additional notes
+    ![Meta viewport tag in a store theme](/images/fix_viewport_issue_mobile.png)
 
-- Apply the change to the theme your store is actually using.
-- If the problem continues, ask your web developer for help.
+3. **Save the file.**
 
-## Platform-specific instructions
+!!! note "No viewport tag in the file"
+
+    Add the whole tag from step 2 to the `<head>` section yourself.
+
+## Test the fix
+
+Open the quiz on a phone and tap a text input. The page should stay still.
+
+If it still zooms, the theme you edited may not be the published one, or a second viewport tag may be overriding the first. Ask your developer to check.
+
+---
+
+This article explains why a quiz zooms in on a phone, and how to stop it in your store theme.
 
 --- Shopify Specific Content ---
 
-1. In Shopify admin, go to **Online Store** > **Themes**.
-2. Click **...** next to your current theme and select **Edit code**.
-3. In the **Layout** section, open the `theme.liquid` file.
-4. Find the `<head>` section and edit the meta viewport tag there.
+1. **In your Shopify admin, go to `Online Store > Themes`.**
+2. **Click `...` next to your current theme and select `Edit code`.**
+3. **Open `theme.liquid`, in the `Layout` section.**
+4. **Find the `<head>` section.** The meta viewport tag sits inside it.
 
 
 

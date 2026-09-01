@@ -5,42 +5,33 @@ icon: material/playlist-edit
 
 # How to Edit Your Product Recommendation Quiz Results Page
 
-You can customize your quiz design as well as the look of your quiz's [Results Page](/reference/quiz-builder/results-page/).
+The results page is the last thing a customer sees, and it is built from blocks you arrange yourself.
 
-This article explains how to add content blocks to your results page, and how to make the page respond to the answers with Display logic.
+This article explains how to add those blocks, and how to make the page respond to the answers with display logic.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i1iOAXPudkg?si=m9L8cqG6vZQu9Wlp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
 === "Shopify (Legacy)"
-
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
 === "WooCommerce"
-
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Magento"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "BigCommerce"
-
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Standalone"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
 
 ## Build your results page
 
@@ -48,255 +39,251 @@ This article explains how to add content blocks to your results page, and how to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
-    1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+    1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Text, Image, Products and the rest.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings). For dynamic elements, use [information recalls](/how-to-guides/use-information-recalls/) or set [Display logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results page settings](/reference/quiz-builder/results-page/). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS.
-    5. **Review and Test**: Click the top-right `Save` button to update the preview and the live quiz. Check that the Results page does what your quiz set out to do.
 
+    2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+
+    3. **Make a block react to the answers**, with an [information recall](/how-to-guides/use-information-recalls/) or with [display logic](/how-to-guides/use-display-logic/).
+
+    4. **Open the [results page settings](/reference/quiz-builder/results-page/)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+
+    5. **Click the top-right `Save` button, then take the quiz and read the page as a customer would.**
 
 === "Shopify (Legacy)"
 
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
-    1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
+    1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Content, HTML, Image, Products List and Products Slots.
+
+    2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+
+    3. **Make a block react to the answers.** Type `@` for an [information recall](/how-to-guides/use-information-recalls/), or set [Display Logic](/how-to-guides/use-display-logic/) to show and hide the block.
+
+    4. **Open [Basic Settings](/reference/quiz-builder/results-page/#basic-settings)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+
+    5. **Click the top-right `Publish` button, then take the quiz and read the page as a customer would.**
 
 === "WooCommerce"
 
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
-    1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
+    1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Content, HTML, Image, Products List and Products Slots.
+
+    2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+
+    3. **Make a block react to the answers.** Type `@` for an [information recall](/how-to-guides/use-information-recalls/), or set [Display Logic](/how-to-guides/use-display-logic/) to show and hide the block.
+
+    4. **Open [Basic Settings](/reference/quiz-builder/results-page/#basic-settings)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+
+    5. **Click the top-right `Publish` button, then take the quiz and read the page as a customer would.**
 
 === "Magento"
 
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
-    1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
+    1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Content, HTML, Image, Products List and Products Slots.
+
+    2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+
+    3. **Make a block react to the answers.** Type `@` for an [information recall](/how-to-guides/use-information-recalls/), or set [Display Logic](/how-to-guides/use-display-logic/) to show and hide the block.
+
+    4. **Open [Basic Settings](/reference/quiz-builder/results-page/#basic-settings)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+
+    5. **Click the top-right `Publish` button, then take the quiz and read the page as a customer would.**
 
 === "BigCommerce"
 
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
-    1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
+    1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Content, HTML, Image, Products List and Products Slots.
+
+    2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+
+    3. **Make a block react to the answers.** Type `@` for an [information recall](/how-to-guides/use-information-recalls/), or set [Display Logic](/how-to-guides/use-display-logic/) to show and hide the block.
+
+    4. **Open [Basic Settings](/reference/quiz-builder/results-page/#basic-settings)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+
+    5. **Click the top-right `Publish` button, then take the quiz and read the page as a customer would.**
 
 === "Standalone"
 
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
-    1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, as needed.
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
-    5. **Review and Test**: Click the top-right `Publish` button to update the preview and the live quiz. Check that the Results Page does what your quiz set out to do.
+    1. **Add the [blocks](/reference/quiz-builder/results-page/#block-types) the page needs.** Heading, Content, HTML, Image and Products List.
+
+    2. **Open each block and adjust its [settings](/reference/quiz-builder/questions/#block-settings).**
+
+    3. **Make a block react to the answers.** Type `@` for an [information recall](/how-to-guides/use-information-recalls/), or set [Display Logic](/how-to-guides/use-display-logic/) to show and hide the block.
+
+    4. **Open [Basic Settings](/reference/quiz-builder/results-page/#basic-settings)** to set the checkout behavior, and to decide what happens with out-of-stock and duplicate products.
+
+    5. **Click the top-right `Publish` button, then take the quiz and read the page as a customer would.**
 
 ## Add content
 
+A **static** results page shows the same thing every time. Only the recommended products change.
+
+A **dynamic** results page changes its wording too, from what the customer answered.
+
 === "Shopify"
-
-    A **Static Results page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product block or Slot block.
-
-    A **Dynamic Results page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-
-    Start by adding content to your results page. These are the elements you can use.
 
     ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-    ### Add blocks
+    **The blocks you can add**
 
-    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+    | Group | Blocks |
+    |---|---|
+    | Content | `Heading`, `Text`, `Image`, `Video`, `Custom HTML` |
+    | Slots | `Products`, `Products variants`, `Collection` |
+    | Charts | `Gauge chart`, `Radar chart`, `Bar chart`, `Rating display`, `Custom chart` |
+    | Buttons | `Button`, `Cart/Checkout` |
 
-    **Content Blocks**
+    See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does, and for the size limits on an image.
 
-    - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
+    **Pulling an answer into the text**
 
-    - **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    A [content dynamic source](/how-to-guides/use-information-recalls/) puts an answer the customer already gave into a `Text` or `Heading` block.
 
-    - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-
-    - **Video** - Adds a video block to the results page. You can upload your own video.
-
-    - **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
-
-    **Slots**
-
-    - **Products** - Adds a block specifically designed for displaying a list of recommended products.
-
-    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants.
-
-    - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
-
-    **Charts**
-
-    - **Gauge chart** - Adds a gauge chart to the results page.
-
-    - **Radar chart** - Adds a radar chart to the results page.
-
-    - **Bar chart** - Adds a bar chart to the results page.
-
-    - **Rating display** - Adds a rating display to the results page.
-
-    - **Custom chart** - Adds a custom chart to the results page.
-
-    **Buttons**
-
-    - **Button** - Adds a button to the results page. You can add any URL to the button.
-
-    - **Cart/Checkout** - Adds a Proceed to cart or Proceed to checkout button to the results page.
-
-    ### Add dynamic content
-
-    Dynamic elements of the results page:
-
-    - **Content dynamic source**: A [Content Dynamic Source](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Text Block` or a `Heading Block` on the results page. Open the block and click the `Dynamic content source` icon.
+    1. **Open the block and click the `Dynamic content source` icon.**
 
         ![Dynamic content source icon in a Text block](/images/how_to_resultspage_dynamiccontent.png)
 
-        A dropdown lists what you can recall. Pick a data point and it is added to the block.
+    2. **Pick a data point from the dropdown.**
 
         ![Dropdown of data points to recall](/images/how_to_resultspage_dynamiccontent2.png)
 
-    - **Display logic**: With [Display logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    **Showing and hiding blocks**
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+    [Display logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
 === "Shopify (Legacy)"
 
-    A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
-
-    A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-
-    Start by adding content to your results page. These are the elements you can use.
-
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+    **The blocks you can add**
 
-    1. **Heading Block**: Use for adding titles or headings.
-    2. **Content Block**: Ideal for adding text explanations about product matches.
-    3. **HTML Block**: Allows for the addition of custom HTML, including CSS for styling.
-    4. **Image Block**: Adds visual elements to your results page.
-    5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
-    6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
+    | Block | What it is for |
+    |---|---|
+    | `Heading Block` | Titles and section breaks |
+    | `Content Block` | Text explaining the match |
+    | `HTML Block` | Your own HTML and CSS |
+    | `Image Block` | A picture |
+    | `Products List Block` | The matching products, up to a maximum you set |
+    | `Products Slots Block` | Bundles of complementary products, one slot per category |
 
-    Dynamic elements of the results page:
+    See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does.
 
-    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
-    - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    **Pulling an answer into the text**
+
+    Type `@` in a `Content Block` or a `Heading Block` to open a dropdown, then pick the answer you want. See [Information Recalls](/how-to-guides/use-information-recalls/).
+
+    **Showing and hiding blocks**
+
+    [Display Logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
 
 === "WooCommerce"
 
-    A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
-
-    A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-
-    Start by adding content to your results page. These are the elements you can use.
-
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+    **The blocks you can add**
 
-    1. **Heading Block**: Use for adding titles or headings.
-    2. **Content Block**: Ideal for adding text explanations about product matches.
-    3. **HTML Block**: Allows for the addition of custom HTML, including CSS for styling.
-    4. **Image Block**: Adds visual elements to your results page.
-    5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
-    6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
+    | Block | What it is for |
+    |---|---|
+    | `Heading Block` | Titles and section breaks |
+    | `Content Block` | Text explaining the match |
+    | `HTML Block` | Your own HTML and CSS |
+    | `Image Block` | A picture |
+    | `Products List Block` | The matching products, up to a maximum you set |
+    | `Products Slots Block` | Bundles of complementary products, one slot per category |
 
-    Dynamic elements of the results page:
+    See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does.
 
-    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
-    - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    **Pulling an answer into the text**
+
+    Type `@` in a `Content Block` or a `Heading Block` to open a dropdown, then pick the answer you want. See [Information Recalls](/how-to-guides/use-information-recalls/).
+
+    **Showing and hiding blocks**
+
+    [Display Logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
 
 === "Magento"
 
-    A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
-
-    A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-
-    Start by adding content to your results page. These are the elements you can use.
-
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+    **The blocks you can add**
 
-    1. **Heading Block**: Use for adding titles or headings.
-    2. **Content Block**: Ideal for adding text explanations about product matches.
-    3. **HTML Block**: Allows for the addition of custom HTML, including CSS for styling.
-    4. **Image Block**: Adds visual elements to your results page.
-    5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
-    6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
+    | Block | What it is for |
+    |---|---|
+    | `Heading Block` | Titles and section breaks |
+    | `Content Block` | Text explaining the match |
+    | `HTML Block` | Your own HTML and CSS |
+    | `Image Block` | A picture |
+    | `Products List Block` | The matching products, up to a maximum you set |
+    | `Products Slots Block` | Bundles of complementary products, one slot per category |
 
-    Dynamic elements of the results page:
+    See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does.
 
-    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
-    - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    **Pulling an answer into the text**
+
+    Type `@` in a `Content Block` or a `Heading Block` to open a dropdown, then pick the answer you want. See [Information Recalls](/how-to-guides/use-information-recalls/).
+
+    **Showing and hiding blocks**
+
+    [Display Logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
 
 === "BigCommerce"
 
-    A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
-
-    A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-
-    Start by adding content to your results page. These are the elements you can use.
-
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+    **The blocks you can add**
 
-    1. **Heading Block**: Use for adding titles or headings.
-    2. **Content Block**: Ideal for adding text explanations about product matches.
-    3. **HTML Block**: Allows for the addition of custom HTML, including CSS for styling.
-    4. **Image Block**: Adds visual elements to your results page.
-    5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
-    6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
+    | Block | What it is for |
+    |---|---|
+    | `Heading Block` | Titles and section breaks |
+    | `Content Block` | Text explaining the match |
+    | `HTML Block` | Your own HTML and CSS |
+    | `Image Block` | A picture |
+    | `Products List Block` | The matching products, up to a maximum you set |
+    | `Products Slots Block` | Bundles of complementary products, one slot per category |
 
-    Dynamic elements of the results page:
+    See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does.
 
-    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
-    - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    **Pulling an answer into the text**
+
+    Type `@` in a `Content Block` or a `Heading Block` to open a dropdown, then pick the answer you want. See [Information Recalls](/how-to-guides/use-information-recalls/).
+
+    **Showing and hiding blocks**
+
+    [Display Logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
 
 === "Standalone"
 
-    A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
-
-    A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-
-    Start by adding content to your results page. These are the elements you can use.
-
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+    **The blocks you can add**
 
-    1. **Heading Block**: Use for adding titles or headings.
-    2. **Content Block**: Ideal for adding text explanations about product matches.
-    3. **HTML Block**: Allows for the addition of custom HTML, including CSS for styling.
-    4. **Image Block**: Adds visual elements to your results page.
-    5. **Products List Block**: Shows a list of matching products, with the ability to set a maximum number.
-    6. **Products Slots Block**: Recommends bundles of complementary products across different categories.
+    | Block | What it is for |
+    |---|---|
+    | `Heading Block` | Titles and section breaks |
+    | `Content Block` | Text explaining the match |
+    | `HTML Block` | Your own HTML and CSS |
+    | `Image Block` | A picture |
+    | `Products List Block` | The matching products, up to a maximum you set |
+    | `Products Slots Block` | Bundles of complementary products, one slot per category |
 
-    Dynamic elements of the results page:
+    See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does.
 
-    - **Information Recalls**: An [Information Recall](/how-to-guides/use-information-recalls/) pulls any answer the customer gave into a `Content Block` or a `Heading Block` on the results page. Type `@` to open a dropdown of what you can recall, then pick a data point.
-    - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    **Pulling an answer into the text**
+
+    Type `@` in a `Content Block` or a `Heading Block` to open a dropdown, then pick the answer you want. See [Information Recalls](/how-to-guides/use-information-recalls/).
+
+    **Showing and hiding blocks**
+
+    [Display Logic](/how-to-guides/use-display-logic/) shows or hides a block from the customer's answers. It works on any block, including the product and slot blocks.
 
 ## Adjust results page settings
 
@@ -304,244 +291,179 @@ This article explains how to add content blocks to your results page, and how to
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
+    Worth checking in the [results page settings](/reference/quiz-builder/results-page/):
 
-    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
+    - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
 
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
+        !!! tip "Setting the checkout behavior"
 
-        !!! tip
+            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
+    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Results page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Custom JavaScript.** Run your own code on the page.
 
-    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
+        !!! tip "Writing the JavaScript"
 
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-        !!! tip
-
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results page.
-
-    - **Multiple Results pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
-
+    - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
 === "Shopify (Legacy)"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
+    Worth checking in [Basic Settings](/reference/quiz-builder/results-page/#basic-settings):
 
-    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
+    - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
 
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
+        !!! tip "Setting the checkout behavior"
 
-        !!! tip
+            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
+    - **Product reviews.** Show star ratings on the recommended products, to back the recommendation up.
 
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
+        !!! info "Supported review apps"
 
-        !!! info
-            These review apps for Shopify are supported:
+            - Product Reviews by Shopify
+            - Stamped Product Reviews and UGC
+            - Judge.me Product Reviews
+            - Rivyo Product Reviews
 
-            - Product Reviews by Shopify,
-            - Stamped Product Reviews & UGC,
-            - Judge.me Product Reviews,
-            - Rivyo Product Reviews.
+            See [How to Show Product Reviews](/how-to-guides/show-product-reviews/).
 
-            And WooCommerce Product Reviews.
+    Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
-    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
+    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
+    - **Custom JavaScript.** Run your own code on the page.
 
-        !!! tip
+        !!! tip "Writing the JavaScript"
 
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
+    - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
-        !!! tip
-            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+    - **Product metafields.** Show a product property your store holds but does not display by default.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+        !!! tip "Syncing the metafields"
+
+            See [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
 === "WooCommerce"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
+    Worth checking in [Basic Settings](/reference/quiz-builder/results-page/#basic-settings):
 
-    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
+    - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
 
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
+        !!! tip "Setting the checkout behavior"
 
-        !!! tip
+            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
+    - **Product reviews.** Show star ratings on the recommended products, to back the recommendation up. WooCommerce Product Reviews is supported.
 
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
+        !!! tip "Turning the reviews on"
 
-        !!! info
-            These review apps for Shopify are supported:
+            See [How to Show Product Reviews](/how-to-guides/show-product-reviews/).
 
-            - Product Reviews by Shopify,
-            - Stamped Product Reviews & UGC,
-            - Judge.me Product Reviews,
-            - Rivyo Product Reviews.
+    Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
-            And WooCommerce Product Reviews.
+    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
 
-    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
+    - **Custom JavaScript.** Run your own code on the page.
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
+        !!! tip "Writing the JavaScript"
 
-        !!! tip
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+    - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
+    - **Product metafields.** Show a product property your store holds but does not display by default.
 
-        !!! tip
-            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+        !!! tip "Syncing the metafields"
 
-    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+            See [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
 === "Magento"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
+    Worth checking in [Basic Settings](/reference/quiz-builder/results-page/#basic-settings):
 
-    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
+    - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
 
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
+        !!! tip "Setting the checkout behavior"
 
-        !!! tip
+            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
+    Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
+    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
 
-        !!! info
-            These review apps for Shopify are supported:
+    - **Custom JavaScript.** Run your own code on the page.
 
-            - Product Reviews by Shopify,
-            - Stamped Product Reviews & UGC,
-            - Judge.me Product Reviews,
-            - Rivyo Product Reviews.
+        !!! tip "Writing the JavaScript"
 
-            And WooCommerce Product Reviews.
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
-
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
-
-        !!! tip
-
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
-
-        !!! tip
-            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
-
-    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
 === "BigCommerce"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
+    Worth checking in [Basic Settings](/reference/quiz-builder/results-page/#basic-settings):
 
-    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
+    - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
 
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
+        !!! tip "Setting the checkout behavior"
 
-        !!! tip
+            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
+    Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
+    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
 
-        !!! info
-            These review apps for Shopify are supported:
+    - **Custom JavaScript.** Run your own code on the page.
 
-            - Product Reviews by Shopify,
-            - Stamped Product Reviews & UGC,
-            - Judge.me Product Reviews,
-            - Rivyo Product Reviews.
+        !!! tip "Writing the JavaScript"
 
-            And WooCommerce Product Reviews.
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
-
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
-
-        !!! tip
-
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
-
-        !!! tip
-            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
-
-    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
 === "Standalone"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/).
+    Worth checking in [Basic Settings](/reference/quiz-builder/results-page/#basic-settings):
 
-    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
+    - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
 
-    - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details.
+        !!! tip "Setting the checkout behavior"
 
-        !!! tip
+            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
+    Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
-    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions.
+    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
+    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
 
-        !!! info
-            These review apps for Shopify are supported:
+    - **Custom JavaScript.** Run your own code on the page.
 
-            - Product Reviews by Shopify,
-            - Stamped Product Reviews & UGC,
-            - Judge.me Product Reviews,
-            - Rivyo Product Reviews.
+        !!! tip "Writing the JavaScript"
 
-            And WooCommerce Product Reviews.
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
-
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Custom JavaScript**: Add custom scripts for unique behaviors or logic.
-
-        !!! tip
-
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-
-    - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page.
-
-        !!! tip
-            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
-
-    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
 ---
-This article explains how to edit the results page. It covers content and product blocks, and using Display logic to make the page respond to the answers.
+
+This article explains how to build a results page from blocks, and how to make it respond to the answers.
