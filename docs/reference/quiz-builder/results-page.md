@@ -277,11 +277,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
 
-    `Products variants` - Adds a block specifically designed for displaying a list of recommended product variants.
+    `Product variants` - Adds a block specifically designed for displaying a list of recommended product variants.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productsvariants](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
 
-    `Collection` - Adds a block specifically designed for displaying a list of recommended collections.
+    `Collections` - Adds a block specifically designed for displaying a list of recommended collections.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collection](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}   
 

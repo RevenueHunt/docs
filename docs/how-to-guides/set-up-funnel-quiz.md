@@ -899,19 +899,23 @@ This method uses the [upvoting system](#upvoting-system).
 
     5. **Write each follow-up question for its own concern.**
 
-    6. **Open the Conditional logic tab of a follow-up question.**
+    6. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question.**
 
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_skiplogic.png)
 
-    7. **Add a rule that skips the question when its concern was not selected.**
+    7. **Find `Skip logic` in the menu on the right, and click `+ Add another rule (OR)`.**
 
-        !!! example "How a skip logic rule reads"
+    8. **Set the rule to `IF the response to` the concerns question `is not` that question's own concern.**
 
-            If `Skin Concerns` is not `Acne`, skip the acne questions.
+        !!! example "The rule on the acne question"
 
-    8. **Repeat for every follow-up question.**
+            `IF the response to` `Skin Concerns` `is not` `Acne`.
 
-    9. **Link products to your choices in the [Upvote](/reference/quiz-builder/link-products/) tab.** Upvote the relevant products for each choice.
+            The question is then skipped for everyone who did not pick acne.
+
+    9. **Repeat for every follow-up question, each reading its own concern.**
+
+    10. **Link products to your choices in the [Upvote](/reference/quiz-builder/link-products/) tab.** Upvote the relevant products for each choice.
 
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_linkproduct.png)
 
@@ -919,13 +923,13 @@ This method uses the [upvoting system](#upvoting-system).
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    10. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
 
-    12. **Repeat the preview with other combinations of concerns.**
+    13. **Repeat the preview with other combinations of concerns.**
 
-    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 
 === "Shopify (Legacy)"
 
@@ -941,29 +945,33 @@ This method uses the [upvoting system](#upvoting-system).
 
     5. **Write each follow-up question for its own concern.**
 
-    6. **Open the Conditional Logic tab of a follow-up question.**
+    6. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the first follow-up question.**
 
-    7. **Add a rule that skips the question when its concern was not selected.**
+    7. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
 
-        !!! example "How a skip logic rule reads"
+    8. **Set the rule to `IF response to` the concerns question `is not` that question's own concern.**
 
-            If `Skin Concerns` is not `Acne`, skip the acne questions.
+        !!! example "The rule on the acne question"
 
-    8. **Repeat for every follow-up question.**
+            `IF response to` `Skin Concerns` `is not` `Acne`.
 
-    9. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
+            The question is then skipped for everyone who did not pick acne.
+
+    9. **Repeat for every follow-up question, each reading its own concern.**
+
+    10. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    10. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
 
-    12. **Repeat the preview with other combinations of concerns.**
+    13. **Repeat the preview with other combinations of concerns.**
 
-    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 
 === "WooCommerce"
 
@@ -979,29 +987,33 @@ This method uses the [upvoting system](#upvoting-system).
 
     5. **Write each follow-up question for its own concern.**
 
-    6. **Open the Conditional Logic tab of a follow-up question.**
+    6. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the first follow-up question.**
 
-    7. **Add a rule that skips the question when its concern was not selected.**
+    7. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
 
-        !!! example "How a skip logic rule reads"
+    8. **Set the rule to `IF response to` the concerns question `is not` that question's own concern.**
 
-            If `Skin Concerns` is not `Acne`, skip the acne questions.
+        !!! example "The rule on the acne question"
 
-    8. **Repeat for every follow-up question.**
+            `IF response to` `Skin Concerns` `is not` `Acne`.
 
-    9. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant simple, variable or grouped products to each choice.
+            The question is then skipped for everyone who did not pick acne.
+
+    9. **Repeat for every follow-up question, each reading its own concern.**
+
+    10. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant simple, variable or grouped products to each choice.
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    10. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
 
-    12. **Repeat the preview with other combinations of concerns.**
+    13. **Repeat the preview with other combinations of concerns.**
 
-    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 
 === "Magento"
 
@@ -1017,29 +1029,33 @@ This method uses the [upvoting system](#upvoting-system).
 
     5. **Write each follow-up question for its own concern.**
 
-    6. **Open the Conditional Logic tab of a follow-up question.**
+    6. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the first follow-up question.**
 
-    7. **Add a rule that skips the question when its concern was not selected.**
+    7. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
 
-        !!! example "How a skip logic rule reads"
+    8. **Set the rule to `IF response to` the concerns question `is not` that question's own concern.**
 
-            If `Skin Concerns` is not `Acne`, skip the acne questions.
+        !!! example "The rule on the acne question"
 
-    8. **Repeat for every follow-up question.**
+            `IF response to` `Skin Concerns` `is not` `Acne`.
 
-    9. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
+            The question is then skipped for everyone who did not pick acne.
+
+    9. **Repeat for every follow-up question, each reading its own concern.**
+
+    10. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    10. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
 
-    12. **Repeat the preview with other combinations of concerns.**
+    13. **Repeat the preview with other combinations of concerns.**
 
-    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 
 === "BigCommerce"
 
@@ -1055,29 +1071,33 @@ This method uses the [upvoting system](#upvoting-system).
 
     5. **Write each follow-up question for its own concern.**
 
-    6. **Open the Conditional Logic tab of a follow-up question.**
+    6. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the first follow-up question.**
 
-    7. **Add a rule that skips the question when its concern was not selected.**
+    7. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
 
-        !!! example "How a skip logic rule reads"
+    8. **Set the rule to `IF response to` the concerns question `is not` that question's own concern.**
 
-            If `Skin Concerns` is not `Acne`, skip the acne questions.
+        !!! example "The rule on the acne question"
 
-    8. **Repeat for every follow-up question.**
+            `IF response to` `Skin Concerns` `is not` `Acne`.
 
-    9. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
+            The question is then skipped for everyone who did not pick acne.
+
+    9. **Repeat for every follow-up question, each reading its own concern.**
+
+    10. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    10. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
 
-    12. **Repeat the preview with other combinations of concerns.**
+    13. **Repeat the preview with other combinations of concerns.**
 
-    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 
 === "Standalone"
 
@@ -1093,29 +1113,33 @@ This method uses the [upvoting system](#upvoting-system).
 
     5. **Write each follow-up question for its own concern.**
 
-    6. **Open the Conditional Logic tab of a follow-up question.**
+    6. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the first follow-up question.**
 
-    7. **Add a rule that skips the question when its concern was not selected.**
+    7. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
 
-        !!! example "How a skip logic rule reads"
+    8. **Set the rule to `IF response to` the concerns question `is not` that question's own concern.**
 
-            If `Skin Concerns` is not `Acne`, skip the acne questions.
+        !!! example "The rule on the acne question"
 
-    8. **Repeat for every follow-up question.**
+            `IF response to` `Skin Concerns` `is not` `Acne`.
 
-    9. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
+            The question is then skipped for everyone who did not pick acne.
+
+    9. **Repeat for every follow-up question, each reading its own concern.**
+
+    10. **Link products to your choices in the [Link Products](/reference/quiz-builder/link-products/) tab.** Link the relevant products or variants to each choice.
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    10. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+    12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
 
-    12. **Repeat the preview with other combinations of concerns.**
+    13. **Repeat the preview with other combinations of concerns.**
 
-    13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+    14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 
 ## Funnel quiz with branching
 
@@ -1135,35 +1159,37 @@ This method uses the [upvoting system](#upvoting-system).
 
             Jump logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
 
-    3. **Open the Conditional logic section of a question and add a Jump logic rule.**
+    3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question the branches start from.**
 
         ![how_to_hide_content_with_logic_shopifyv2_jump_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
-        - Set the condition that triggers the jump
-        - Choose the question to jump to
-        - Add another rule for each further branch
+    4. **Find `Jump Logic` in the menu on the right, and click `+ Add another rule (OR)`.**
 
-        !!! example "How a jump logic rule reads"
+    5. **Set the rule to `IF the response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
 
-            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+        !!! example "The rule that opens the oily skin branch"
 
-    4. **End every branch with a question that collects an email or phone number, or with the results page.**
+            `IF the response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
 
-    5. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of each choice and upvote the relevant products or collections.**
+    6. **Click `+ Add another rule (OR)` again for every other answer that opens a branch.**
+
+    7. **End every branch with a question that collects an email or phone number, or with the results page.**
+
+    8. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of each choice and upvote the relevant products or collections.**
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    6. **Add a `Products Block` to the results page.**
+    9. **Add a `Products Block` to the results page.**
 
-    7. **Set `Recommendation system` to `Upvotes`, then choose how many products to show.**
+    10. **Set `Recommendation system` to `Upvotes`, then choose how many products to show.**
 
-    8. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 
-    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 
     !!! tip "Grouping the recommendations"
 
@@ -1179,33 +1205,35 @@ This method uses the [upvoting system](#upvoting-system).
 
             Jump Logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
 
-    3. **Open the Conditional Logic section of a question and add a Jump Logic rule.**
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question the branches start from.**
 
-        - Set the condition that triggers the jump
-        - Choose the question to jump to
-        - Add another rule for each further branch
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 
-        !!! example "How a jump logic rule reads"
+    5. **Set the rule to `IF response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
 
-            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+        !!! example "The rule that opens the oily skin branch"
 
-    4. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+            `IF response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
 
-    5. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
+    6. **Click the `+` button to add a rule for every other answer that opens a branch.**
+
+    7. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+
+    8. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    6. **Add a `Product Block` to the Results Page.**
+    9. **Add a `Product Block` to the Results Page.**
 
-    7. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
+    10. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
 
-    8. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 
-    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 
     !!! tip "Grouping the recommendations"
 
@@ -1221,33 +1249,35 @@ This method uses the [upvoting system](#upvoting-system).
 
             Jump Logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
 
-    3. **Open the Conditional Logic section of a question and add a Jump Logic rule.**
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question the branches start from.**
 
-        - Set the condition that triggers the jump
-        - Choose the question to jump to
-        - Add another rule for each further branch
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 
-        !!! example "How a jump logic rule reads"
+    5. **Set the rule to `IF response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
 
-            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+        !!! example "The rule that opens the oily skin branch"
 
-    4. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+            `IF response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
 
-    5. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
+    6. **Click the `+` button to add a rule for every other answer that opens a branch.**
+
+    7. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+
+    8. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    6. **Add a `Product Block` to the Results Page.**
+    9. **Add a `Product Block` to the Results Page.**
 
-    7. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
+    10. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
 
-    8. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 
-    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 
     !!! tip "Grouping the recommendations"
 
@@ -1263,33 +1293,35 @@ This method uses the [upvoting system](#upvoting-system).
 
             Jump Logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
 
-    3. **Open the Conditional Logic section of a question and add a Jump Logic rule.**
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question the branches start from.**
 
-        - Set the condition that triggers the jump
-        - Choose the question to jump to
-        - Add another rule for each further branch
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 
-        !!! example "How a jump logic rule reads"
+    5. **Set the rule to `IF response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
 
-            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+        !!! example "The rule that opens the oily skin branch"
 
-    4. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+            `IF response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
 
-    5. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
+    6. **Click the `+` button to add a rule for every other answer that opens a branch.**
+
+    7. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+
+    8. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    6. **Add a `Product Block` to the Results Page.**
+    9. **Add a `Product Block` to the Results Page.**
 
-    7. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
+    10. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
 
-    8. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 
-    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 
     !!! tip "Grouping the recommendations"
 
@@ -1305,33 +1337,35 @@ This method uses the [upvoting system](#upvoting-system).
 
             Jump Logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
 
-    3. **Open the Conditional Logic section of a question and add a Jump Logic rule.**
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question the branches start from.**
 
-        - Set the condition that triggers the jump
-        - Choose the question to jump to
-        - Add another rule for each further branch
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 
-        !!! example "How a jump logic rule reads"
+    5. **Set the rule to `IF response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
 
-            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+        !!! example "The rule that opens the oily skin branch"
 
-    4. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+            `IF response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
 
-    5. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
+    6. **Click the `+` button to add a rule for every other answer that opens a branch.**
+
+    7. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+
+    8. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    6. **Add a `Product Block` to the Results Page.**
+    9. **Add a `Product Block` to the Results Page.**
 
-    7. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
+    10. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
 
-    8. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 
-    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 
     !!! tip "Grouping the recommendations"
 
@@ -1347,33 +1381,35 @@ This method uses the [upvoting system](#upvoting-system).
 
             Jump Logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
 
-    3. **Open the Conditional Logic section of a question and add a Jump Logic rule.**
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the question the branches start from.**
 
-        - Set the condition that triggers the jump
-        - Choose the question to jump to
-        - Add another rule for each further branch
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 
-        !!! example "How a jump logic rule reads"
+    5. **Set the rule to `IF response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
 
-            If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
+        !!! example "The rule that opens the oily skin branch"
 
-    4. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+            `IF response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
 
-    5. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
+    6. **Click the `+` button to add a rule for every other answer that opens a branch.**
+
+    7. **End every branch with a question that collects an email or phone number, or with the Results Page.**
+
+    8. **Go to the [Link Products](/reference/quiz-builder/link-products/) tab and link the relevant products, variants or collections to each choice.**
 
         !!! info "Only the questions the customer saw are counted"
 
             A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
 
-    6. **Add a `Product Block` to the Results Page.**
+    9. **Add a `Product Block` to the Results Page.**
 
-    7. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
+    10. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
 
-    8. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+    11. **Click [`Publish/Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
-    9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+    12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 
-    10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+    13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 
     !!! tip "Grouping the recommendations"
 

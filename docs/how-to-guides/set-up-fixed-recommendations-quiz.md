@@ -612,7 +612,7 @@ Give each results page its own fixed products and its own text. Jump Logic then 
 
         ![how to set up jump logic for results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic.png)
 
-    8. **Add a [Jump logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) rule that sends one skin type to its own results page.** Click `+ Add another rule (OR)` for each further rule.
+    8. **Add a [Jump logic](/how-to-guides/hide-content-with-logic/#branch-the-quiz-with-jump-logic) rule that sends one skin type to its own results page.** Click `+ Add another rule (OR)` for each further rule.
 
         !!! example "A rule that routes one choice"
 

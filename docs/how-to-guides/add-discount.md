@@ -148,6 +148,8 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     4. **Click the top-right `Publish` button.**
 
+    5. **Take the live quiz through to checkout, and check the code is applied.** The preview cannot show this, because Shopify redeems the code at checkout.
+
     **A dynamic discount, a different code per cart value**
 
     1. **Create one Shopify discount code per tier**, as *Before you start* describes.
@@ -176,6 +178,8 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
         The bin icon deletes one tier, and `deactivate` turns dynamic discounts off again.
 
+    7. **Take the live quiz, and add products until the cart passes your first threshold.** The notification should name that tier, and its code should be redeemed at checkout.
+
 === "WooCommerce"
 
     !!! info "This route needs the Advanced Coupons plugin"
@@ -198,7 +202,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     5. **Click the top-right `Publish` button.**
 
-    A customer who finishes the quiz and goes to the cart now lands on that URL, and the coupon is applied for them.
+    6. **Take the live quiz through to the cart.** The customer lands on the coupon URL instead of the plain cart, and the coupon is applied for them.
 
 === "Magento"
 

@@ -136,7 +136,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
     | Group | Blocks |
     |---|---|
     | Content | `Heading`, `Text`, `Image`, `Video`, `Custom HTML` |
-    | Slots | `Products`, `Products variants`, `Collection` |
+    | Slots | `Products`, `Product variants`, `Collections` |
     | Charts | `Gauge chart`, `Radar chart`, `Bar chart`, `Rating display`, `Custom chart` |
     | Buttons | `Button`, `Cart/Checkout` |
 
@@ -299,8 +299,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
             See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
-    - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+    - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
     - **Custom JavaScript.** Run your own code on the page.
 
@@ -309,6 +308,12 @@ A **dynamic** results page changes its wording too, from what the customer answe
             See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
+
+    Out-of-stock products are filtered in [App settings > Catalog](/reference/app-settings/#catalog) instead, which covers every quiz at once.
+
+    !!! tip "Keeping unavailable products out"
+
+        See [How to Hide Out-Of-Stock or Draft Products](/how-to-guides/hide-out-of-stock-products/).
 
 === "Shopify (Legacy)"
 
@@ -336,7 +341,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
     - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+    - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
     - **Custom JavaScript.** Run your own code on the page.
 
@@ -373,7 +378,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
     - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+    - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
     - **Custom JavaScript.** Run your own code on the page.
 
@@ -404,7 +409,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
     - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+    - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
     - **Custom JavaScript.** Run your own code on the page.
 
@@ -429,7 +434,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
     - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+    - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
     - **Custom JavaScript.** Run your own code on the page.
 
@@ -454,7 +459,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
     - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-    - **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+    - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
     - **Custom JavaScript.** Run your own code on the page.
 

@@ -8069,7 +8069,7 @@ This article explains how to build a results page from blocks, and how to make i
 | Group | Blocks |
 |---|---|
 | Content | `Heading`, `Text`, `Image`, `Video`, `Custom HTML` |
-| Slots | `Products`, `Products variants`, `Collection` |
+| Slots | `Products`, `Product variants`, `Collections` |
 | Charts | `Gauge chart`, `Radar chart`, `Bar chart`, `Rating display`, `Custom chart` |
 | Buttons | `Button`, `Cart/Checkout` |
 See [Block types](/reference/quiz-builder/results-page/#block-types) for what each one does, and for the size limits on an image.
@@ -8087,12 +8087,14 @@ Worth checking in the [results page settings](/reference/quiz-builder/results-pa
 - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
     !!! tip "Setting the checkout behavior"
         See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
-- **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
-- **Duplicate recommendations.** Turn `Allow duplicate recommendations` off so one product cannot fill two blocks.
+- **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 - **Custom JavaScript.** Run your own code on the page.
     !!! tip "Writing the JavaScript"
         See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
+Out-of-stock products are filtered in [App settings > Catalog](/reference/app-settings/#catalog) instead, which covers every quiz at once.
+!!! tip "Keeping unavailable products out"
+    See [How to Hide Out-Of-Stock or Draft Products](/how-to-guides/hide-out-of-stock-products/).
 
 
 
@@ -8233,133 +8235,103 @@ icon: material/eye-off
 
 # How to Show or Hide Content Based on Quiz Answers
 
-This article explains how to use `IF-THEN` conditional logic to show or hide a question or a section, based on what the customer answered. That covers hiding a question or a statement in the quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and showing or hiding blocks/sections on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
+A quiz can hold the content for every outcome and show each customer only the part that fits them. An `IF-THEN` rule decides which part.
 
-The examples use a skincare routine quiz, and show custom text and results chosen by the customer’s skin type.
+There are three ways to do it, and this article works the same skincare quiz through all three.
 
-## Jump logic: how to show custom text in the quiz
+| Rule | What it does | Where |
+|---|---|---|
+| [Jump logic](#branch-the-quiz-with-jump-logic) | Sends the customer straight to the matching statement | In the quiz |
+| [Skip logic](#skip-a-statement-with-skip-logic) | Hides the statements that do not match | In the quiz |
+| [Display logic](#show-a-section-with-display-logic) | Hides the results page sections that do not match | On the results page |
 
-## Display logic: how to show custom text on the results page
+## Branch the quiz with jump logic
 
-## Skip logic: how to show custom text in the quiz
+Your quiz holds one statement per skin type, one after another. Without a rule, the customer reads all four.
+
+Jump logic sends the customer from the skin type question straight to the statement that matches their answer. Each statement then points at the next question, so the quiz carries on from there.
+
+## Skip a statement with skip logic
+
+Your quiz holds the same four statements, and the customer travels through all of them in order.
+
+Skip logic puts a rule on each statement that hides it unless the answer matches. The customer walks past the three that do not apply, and reads only theirs.
+
+## Show a section with display logic
+
+Your results page holds one section per skin type, and all four show by default.
+
+Display logic puts a rule on each section that hides it unless the answer matches. The customer reads only the section for their skin type.
 
 ---
-For more detailed instructions on using [Jump Logic](/how-to-guides/use-jump-logic/), [Display Logic](/how-to-guides/use-display-logic/), and [Skip Logic](/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.
 
-This article explains how to use Jump Logic, Skip Logic or Display Logic to hide/show content in the quiz based on customer     answers.
+This article works one skincare quiz through jump logic, skip logic and display logic, so you can see what each rule changes.
 
 --- Shopify Specific Content ---
 
-<div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=c-8mefpQoHOvppvX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=c-8mefpQoHOvppvX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=hcgIntH-XecaQxua" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
-1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-    !!! tip
-        Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
-2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
-    !!! example
-        - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-        - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-3. **Add Jump logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked.
-    To add jump logic, you should to the [conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the Skin type question.
-    Then, Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.  Like this:
+1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+    !!! tip "Help the customer answer"
+        Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+2. **Add one `Statement` slide per skin type.**
+    !!! example "Four statements, one per skin type"
+        - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+        - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+        - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
+4. **Find `Jump Logic` in the menu on the right, and click `+ Add another rule (OR)`.**
+5. **Set the rule to `IF the response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
     ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png)
-    Click `+Add another rule (OR)` to add similar Jump logic rules to direct the user to the Dry, Normal and Combination-Type skin respectively.
-    Each answer to the Skin Type question then leads to the right statement.
-4. **Add Default destination Logic**: With every statement linked to the skin type question, point each one at the next question.
-    This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Default destination` section. Point each statement to the next question.
+6. **Click `+ Add another rule (OR)` again for each of the other three answers.**
+7. **Select each statement in turn, and set its `Default destination` to the next question.**
     ![how to hide content with logic shopifyv2 jump logic default destination](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_default_destination.png)
-4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-    !!! tip
-        Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
-2. **Add Content Sections to Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign.
-    Add multiple content blocks describing the specific skin type and its challenges. For example:
-    ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
-    !!! example
-        - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-        - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-3. **Add Display logic**: Without [Display logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results page, whatever the customer picked.
-    ---
-    **Display logic operators**
-    `+ Add condition (OR)` - Adds a new OR display logic rule.
-    `+ Add condtion (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-    `bin` - Delete the current Logic rule.
-    `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
-    `Default` - Select whether this section should be `Shown` or `Hidden` by default.
-    ---
-    There are three types of Display logic rules you can choose from:
-    ---
-    **Type 1: IF The response to the question...**
-    Then the Display logic rules follow the following format:
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN section is Visible**
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-    !!! example "Example 1"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
-        In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
-    ---
-    **Type 2: IF The score of the variable...**
-    Then the Display logic rules follow the following format:
-    - **IF The score of the variable**
-    - **score** pick the variable from a dropdown list
-    - The comparison, picked from the dropdown list:
-        - **is equal to**
-        - **is not equal to**
-        - **is greater than**
-        - **is less than**
-        - **is greater than or equal to**
-        - **is less than or equal to**
-    - **Number** / **Another variable** pick a choice from the dropdown list
-    - **0** / **1** / **2** / **other numerical value** type a value in the input field
-    - **THEN section is Visible**
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-    !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
-    !!! example "Example 2"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
-        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
-    ---
-    **Type 3: IF the variable with the highest score...**
-    Then the Display logic rules follow the following format:
-    - **IF the variable with the highest score**
-    - **score** pick the variable from a dropdown list
-    - **THEN section is Visible**
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-    !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
-    !!! example "Example 3"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
-        In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
-5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz. Test the quiz by clicking the `Preview` button and selecting different answers and checking if the correct content blocks are displayed.
+    Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
+8. **Click the top-right `Save` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
+!!! tip "More on jump logic"
+    See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
-1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-    !!! tip
-        Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
-2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
-    !!! example
-        - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-        - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-3. **Add Skip logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked.
-    To add [skip logic](/how-to-guides/use-skip-logic/), go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped.
-    In the right-hand menu, find the `Skip logic` section.
-    Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide.
-    For example:
+1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+    !!! tip "Help the customer answer"
+        Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+2. **Add one `Statement` slide per skin type.**
+    !!! example "Four statements, one per skin type"
+        - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+        - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+        - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the dry skin statement.**
+4. **Find `Skip logic` in the menu on the right, and click `+ Add another rule (OR)`.**
+5. **Set the rule to `IF the response to` the skin type question `is not` the dry skin choice.**
     ![how to hide content with logic shopifyv2 skip logic rule](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_rule.png)
-    If the answer to Question 4 **is not** "Dry and tight all over", this question is skipped. Any other answer skips it.
-    Use similar skip logic rules on the other statements to ensure that only relevant statement questions appear based on the customer's skin type selection.
-4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+    The statement is then skipped for every answer except that one.
+6. **Repeat for the other three statements, each reading its own choice.**
+7. **Click the top-right `Save` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
+!!! tip "More on skip logic"
+    See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+    !!! tip "Help the customer answer"
+        Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+2. **Go to the [Results page](/reference/quiz-builder/results-page/) and click `+ Add section` once per skin type.**
+    ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
+3. **Write the text for one skin type in each section.**
+    !!! example "Four statements, one per skin type"
+        - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+        - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+        - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+4. **Select the dry skin section, find `Display logic`, and click `+ Add logic condition (OR)`.**
+5. **Set the rule to `IF the response to` the skin type question `is` the dry skin choice.**
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+6. **Set `Default visibility` to `Hidden`.** The section then appears only for that answer.
+7. **Repeat for the other three sections, each reading its own choice.**
+8. **Click the top-right `Save` button, then answer the quiz once per skin type.** Only the matching section should appear each time.
+!!! tip "Rules on a score or a variable"
+    A display logic rule can also read the score of a variable, or the variable with the highest score. See [Write a display logic rule](/how-to-guides/use-display-logic/#write-a-display-logic-rule) for all three kinds, and for what the buttons in the panel do.
 
 
 
@@ -8375,40 +8347,41 @@ icon: material/basket-off-outline
 
 # How to Hide Out-Of-Stock or Draft Products from Recommendations
 
-This article explains how to keep out-of-stock and draft products out of your quiz recommendations.
+A quiz can recommend a product the customer cannot buy. Out-of-stock products and draft products are two separate cases, and this article covers both.
 
-## Hide Out-of-stock products
+## Hide out-of-stock products
 
 ## Hide draft products
 
 ---
-By following this guide you can disable showing out-of-stock or draft products on your results page.
+
+This article explains how to keep out-of-stock and draft products out of your quiz recommendations.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=8wvx1m28KyRQRdR3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-Exclude out-of-stock items from your recommendations in **App settings** under the **Catalog** tab.
-1. Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) from the left menu.
-2. In the `Inventory filter` section, check the box labeled `Filter products by inventory level` and set the `Minimum stock level` (can be negative).
-    ![Catalog tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
-3. Any product below that stock level, including an out-of-stock one, is then left out of the recommendations.
-4. Save the changes.
-!!! note "Products with multiple variants"
-    A product is hidden only when **all** of its variants are below the minimum stock level. One variant above it keeps the product in the recommendations.
-!!! tip "Displaying sold out products instead of hiding them"
-    To show out-of-stock products with a "Sold out" label instead of hiding them, leave the inventory filter unchecked.
-    **Default behavior for out-of-stock products:**
-    - When a product variant is out of stock, the "Add to cart" button reads "Sold out" and is disabled.
-    - A customer cannot add an out-of-stock variant to their cart.
-    - Change the sold out text in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
-    - To hide sold out products instead, enable the inventory filter in [App settings > Catalog > Low inventory filter](/reference/app-settings/#catalog).
+The app settings hold an inventory filter. Once it is on, a product below the stock level you set is left out of every quiz.
+1. **Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) in the left menu.**
+2. **In the `Low inventory filter` section, check `Filter products by inventory level`.**
+    ![Low inventory filter and Draft products in the Catalog tab](/images/manual_shopifyV2_appsettings_catalogue.png)
+3. **Set the `Minimum stock level`.** Any product below it is then left out of the recommendations. The level can be negative.
+4. **Save the change.**
+5. **Take the quiz and check that an out-of-stock product no longer appears.**
+!!! note "Products with several variants"
+    A product is hidden only when every one of its variants is below the minimum stock level. One variant above it keeps the product in the recommendations.
+!!! tip "Showing sold-out products instead of hiding them"
+    Leave `Filter products by inventory level` unchecked, which is how the app starts.
+    An out-of-stock variant then still appears in the recommendations. Its `Add to cart` button reads `Sold out` and is disabled, so the customer cannot add it to the cart.
+    Change that wording in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under `Buttons`.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=NeS6OBRV63_RLPeu&amp;start=64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-Exclude draft items from your recommendations in **App settings** under the **Catalog** tab.
-1. Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) from the left menu.
-2. In the `Draft products` section, uncheck the box labeled `Include draft products in recommendations`.
-    ![Catalog tab in App settings](/images/manual_shopifyV2_appsettings_catalogue.png)
-3. Draft products are then left out of the recommendations.
-4. Save the changes with the top-right `Save` button.
+This version recommends draft products by default. The same catalog settings hold the checkbox that turns them off.
+1. **Go to [`App settings`](/reference/app-settings/) and select [`Catalog`](/reference/app-settings/#catalog) in the left menu.**
+2. **In the `Draft products` section, uncheck `Include draft products in recommendations`.**
+    ![Low inventory filter and Draft products in the Catalog tab](/images/manual_shopifyV2_appsettings_catalogue.png)
+3. **Save the change.**
+4. **Take the quiz and check that a draft product no longer appears.**
+!!! tip "Leave the box checked while you build"
+    With it checked, draft products appear in the `Quiz preview` and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis), so you can test the quiz before you publish them. They never reach the live quiz until they are published.
 
 
 
@@ -8424,42 +8397,63 @@ icon: material/sort-variant-off
 
 # How to Hide Product Variants
 
-You can hide the product variants dropdown on the results page.
+When a recommended product has variants, the results page shows a dropdown so the customer can pick one.
 
-![Product variants dropdown on the results page](/images/how_to_hide_product_variants_image1.png)
+![Variants dropdown on the results page](/images/how_to_hide_product_variants_image1.png)
 
+There are three ways to take it away, and they leave the customer with different things.
 
-## Recommend a specific product variant instead
+| Method | What the customer gets |
+|---|---|
+| [Remove the dropdown component](#remove-the-dropdown-from-the-product-card) | The main product, with no variant to pick |
+| [Hide the dropdown with CSS](#hide-the-dropdown-with-custom-css) | The main product, with no variant to pick |
+| [Recommend a variant instead](#recommend-a-specific-variant-instead) | One variant, picked by the quiz |
 
-## Hide the dropdown with custom CSS code
+## Remove the dropdown from the product card
+
+## Hide the dropdown with custom CSS
+
+## Recommend a specific variant instead
 
 ---
-By using this method you can hide the product variants from quiz recommendations.
+
+This article explains the three ways to take the variants dropdown off your results page, and what each one leaves the customer with.
 
 --- Shopify Specific Content ---
 
-You can recommend a specific product variant instead of the main product by changing your Product block on the Results page.
-1. Open [Results page](/reference/quiz-builder/results-page/).
-2. Click `+ Add block`.
-    ![Block types on the Results page](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
-3. Find a [Product Variants Block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
-    ![Product Variants Block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png)
-4. Save the changes with the top-right `Save` button.
-The quiz then recommends that variant rather than the main product.
-!!! info "If you use the Product block"
-    You can hide the `Variants dropdown` by deleting the `Variants dropdown` option from the [Slot item composition](/reference/quiz-builder/results-page/#product-product-variants-collections) in the [Recommended Product settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
-    ![Slot item composition in the Recommended Product settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
-You can also recommend the main product and hide the dropdown with custom CSS:
-![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
-1. Open the [Quiz design](/reference/quiz-builder/quiz-design/) tab.
-2. Go to the [Advanced](/reference/quiz-builder/quiz-design/#edit-theme) section and find the CSS console.
-3. Add the following CSS code to the CSS console:
+The product card is built from components you arrange yourself, and the dropdown is one of them. Removing it leaves the rest of the card alone.
+1. **Open your [results page](/reference/quiz-builder/results-page/) and click the `Products` block.**
+2. **Scroll the block settings to [`Slot item composition`](/reference/quiz-builder/results-page/#product-product-variants-collections).** It lists every component the product card shows.
+    ![Slot item composition in the Products block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+3. **Hover over `Variants dropdown` and click its bin icon.**
+4. **Click the top-right `Save` button.**
+5. **Take the quiz and check the dropdown is gone from the recommendations.**
+    ![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
+!!! note "The dropdown hides itself in two cases"
+    It never appears when no product in that block has variants, or when the slots are stacked. See [Block types](/reference/quiz-builder/results-page/#product-product-variants-collections).
+A CSS rule hides the dropdown without touching the block. Removing the component is the tidier route, so try that first.
+1. **Open the [Quiz design](/reference/quiz-builder/quiz-design/) tab.**
+2. **Go to the [Advanced](/reference/quiz-builder/quiz-design/#edit-theme) section and find the CSS console.**
+3. **Paste this rule into the console.**
     ```css
     .select-variants-container {
-    display: none;
+        display: none;
     }
     ```
-4. Save the changes with the top-right `Save` button to update the preview and the live quiz.
+4. **Click the top-right `Save` button.**
+5. **Take the quiz and check the dropdown is gone from the recommendations.**
+    ![Results page with the variants dropdown hidden](/images/how_to_hide_product_variants_image3.png)
+!!! tip "The rest of the results page classes"
+    See the [App CSS Structure reference](/reference/css-structure/).
+A `Product variants` block recommends variants in their own right. Each recommendation is then one variant, so the customer has nothing left to pick.
+1. **Open your [results page](/reference/quiz-builder/results-page/) and click `Add block`.**
+    ![Block types on the results page](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
+2. **Under `Slots`, choose [`Product variants`](/reference/quiz-builder/results-page/#product-product-variants-collections).**
+    ![Product variants block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png)
+3. **Open the block settings and set the `Recommendation system`.** Choose recommendations drawn from the answers, or a fixed set of variants.
+4. **Click the top-right `Save` button.**
+5. **Take the quiz and check that each recommendation is a single variant.**
+    ![Results page recommending a single variant](/images/how_to_hide_product_variants_image2.png)
 
 
 
@@ -14137,7 +14131,7 @@ Give each results page its own fixed products and its own text. Jump Logic then 
     ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage2.png)
 7. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and pick the last question in the quiz.**
     ![how to set up jump logic for results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic.png)
-8. **Add a [Jump logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) rule that sends one skin type to its own results page.** Click `+ Add another rule (OR)` for each further rule.
+8. **Add a [Jump logic](/how-to-guides/hide-content-with-logic/#branch-the-quiz-with-jump-logic) rule that sends one skin type to its own results page.** Click `+ Add another rule (OR)` for each further rule.
     !!! example "A rule that routes one choice"
         ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic_example.png)
         A customer who picks "Not too oily..." in Question 4, "SKIN TYPE", goes to Results page 2.
@@ -14358,40 +14352,42 @@ The quiz shows different follow-up questions depending on what the customer chos
 4. **Add one follow-up question per concern.** Keep them in the same order as the choices in the first question.
     ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_followup.png)
 5. **Write each follow-up question for its own concern.**
-6. **Open the Conditional logic tab of a follow-up question.**
+6. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question.**
     ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_skiplogic.png)
-7. **Add a rule that skips the question when its concern was not selected.**
-    !!! example "How a skip logic rule reads"
-        If `Skin Concerns` is not `Acne`, skip the acne questions.
-8. **Repeat for every follow-up question.**
-9. **Link products to your choices in the [Upvote](/reference/quiz-builder/link-products/) tab.** Upvote the relevant products for each choice.
+7. **Find `Skip logic` in the menu on the right, and click `+ Add another rule (OR)`.**
+8. **Set the rule to `IF the response to` the concerns question `is not` that question's own concern.**
+    !!! example "The rule on the acne question"
+        `IF the response to` `Skin Concerns` `is not` `Acne`.
+        The question is then skipped for everyone who did not pick acne.
+9. **Repeat for every follow-up question, each reading its own concern.**
+10. **Link products to your choices in the [Upvote](/reference/quiz-builder/link-products/) tab.** Upvote the relevant products for each choice.
     ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_linkproduct.png)
     !!! info "Only the questions the customer saw are counted"
         A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
-10. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
-11. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
-12. **Repeat the preview with other combinations of concerns.**
-13. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
+11. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+12. **Preview the quiz and select two concerns.** Check that only the matching follow-up questions appear.
+13. **Repeat the preview with other combinations of concerns.**
+14. **Check the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if a result looks wrong.** It shows why a question was shown or skipped, and why a product was recommended.
 1. **Create every question each branch needs in the [Quiz builder](/reference/quiz-builder/).**
 2. **Add every choice each question needs.**
     !!! info "Question order does not matter yet"
         Jump logic sets the order the customer sees, so the order you add the questions in is not the order they are asked in.
-3. **Open the Conditional logic section of a question and add a Jump logic rule.**
+3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question the branches start from.**
     ![how_to_hide_content_with_logic_shopifyv2_jump_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
-    - Set the condition that triggers the jump
-    - Choose the question to jump to
-    - Add another rule for each further branch
-    !!! example "How a jump logic rule reads"
-        If the answer to `What is your skin type?` is `Oily`, jump to `Oily Skin Concerns`.
-4. **End every branch with a question that collects an email or phone number, or with the results page.**
-5. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of each choice and upvote the relevant products or collections.**
+4. **Find `Jump Logic` in the menu on the right, and click `+ Add another rule (OR)`.**
+5. **Set the rule to `IF the response to` that question `is` one answer, `THEN go to` the first question of that answer's branch.**
+    !!! example "The rule that opens the oily skin branch"
+        `IF the response to` `What is your skin type?` `is` `Oily`, `THEN go to` `Oily Skin Concerns`.
+6. **Click `+ Add another rule (OR)` again for every other answer that opens a branch.**
+7. **End every branch with a question that collects an email or phone number, or with the results page.**
+8. **Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) of each choice and upvote the relevant products or collections.**
     !!! info "Only the questions the customer saw are counted"
         A question the customer never sees upvotes nothing. The quiz counts upvotes only from the questions it showed.
-6. **Add a `Products Block` to the results page.**
-7. **Set `Recommendation system` to `Upvotes`, then choose how many products to show.**
-8. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
-9. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
-10. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
+9. **Add a `Products Block` to the results page.**
+10. **Set `Recommendation system` to `Upvotes`, then choose how many products to show.**
+11. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
+12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
+13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 !!! tip "Grouping the recommendations"
     Slots arrange the recommendations into fixed positions instead of one list. Give a slot a Segment Filter to control which products it can recommend. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
 !!! warning "Not the best fit for a personality quiz"
@@ -14493,7 +14489,7 @@ Branch the quiz so that different answers lead to different follow-up questions.
 
 ![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png){width=500}
 
-[✍🏻 Upvoting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz)
+[✍🏻 Upvoting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#branch-the-quiz-with-jump-logic)
 
 ### Funnel quiz that skips slides
 
@@ -14503,7 +14499,7 @@ Ask about several concerns in one multiple-choice question, then show only the f
 
 ![how_to_hide_content_with_logic_shopifyv2_skip_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-[✍🏻 Upvoting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz)
+[✍🏻 Upvoting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-a-statement-with-skip-logic)
 
 ### Funnel quiz that shows custom text based on choices
 
@@ -14515,7 +14511,7 @@ Show and hide text blocks on the results page, so the wording matches the answer
 
     The number of rules grows with every question. For a personality quiz, try the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) instead.
 
-[✍🏻 Upvoting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page)
+[✍🏻 Upvoting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#show-a-section-with-display-logic)
 
 ## Fixed recommendations
 
@@ -19753,9 +19749,9 @@ Content
 Slots
 `Products` - Adds a block specifically designed for displaying a list of recommended products.
 ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
-`Products variants` - Adds a block specifically designed for displaying a list of recommended product variants.
+`Product variants` - Adds a block specifically designed for displaying a list of recommended product variants.
 ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productsvariants](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
-`Collection` - Adds a block specifically designed for displaying a list of recommended collections.
+`Collections` - Adds a block specifically designed for displaying a list of recommended collections.
 ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collection](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}   
 Charts
 `Gauge chart` - Adds a gauge chart to the results page.

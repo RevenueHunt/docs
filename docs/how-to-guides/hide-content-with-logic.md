@@ -5,50 +5,45 @@ icon: material/eye-off
 
 # How to Show or Hide Content Based on Quiz Answers
 
-This article explains how to use `IF-THEN` conditional logic to show or hide a question or a section, based on what the customer answered. That covers hiding a question or a statement in the quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and showing or hiding blocks/sections on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
+A quiz can hold the content for every outcome and show each customer only the part that fits them. An `IF-THEN` rule decides which part.
 
-The examples use a skincare routine quiz, and show custom text and results chosen by the customer’s skin type.
+There are three ways to do it, and this article works the same skincare quiz through all three.
+
+| Rule | What it does | Where |
+|---|---|---|
+| [Jump logic](#branch-the-quiz-with-jump-logic) | Sends the customer straight to the matching statement | In the quiz |
+| [Skip logic](#skip-a-statement-with-skip-logic) | Hides the statements that do not match | In the quiz |
+| [Display logic](#show-a-section-with-display-logic) | Hides the results page sections that do not match | On the results page |
 
 === "Shopify"
 
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=c-8mefpQoHOvppvX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=c-8mefpQoHOvppvX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Shopify (Legacy)"
 
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Magento"
 
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "BigCommerce"
 
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "Standalone"
 
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+## Branch the quiz with jump logic
 
-## Jump logic: how to show custom text in the quiz
+Your quiz holds one statement per skin type, one after another. Without a rule, the customer reads all four.
+
+Jump logic sends the customer from the skin type question straight to the statement that matches their answer. Each statement then points at the next question, so the quiz carries on from there.
 
 === "Shopify"
 
@@ -56,465 +51,253 @@ The examples use a skincare routine quiz, and show custom text and results chose
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Jump logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked.
+    3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
 
-        To add jump logic, you should to the [conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the Skin type question.
+    4. **Find `Jump Logic` in the menu on the right, and click `+ Add another rule (OR)`.**
 
-        Then, Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.  Like this:
+    5. **Set the rule to `IF the response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png)
 
-        Click `+Add another rule (OR)` to add similar Jump logic rules to direct the user to the Dry, Normal and Combination-Type skin respectively.
+    6. **Click `+ Add another rule (OR)` again for each of the other three answers.**
 
-        Each answer to the Skin Type question then leads to the right statement.
-
-    4. **Add Default destination Logic**: With every statement linked to the skin type question, point each one at the next question.
-
-        This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Default destination` section. Point each statement to the next question.
+    7. **Select each statement in turn, and set its `Default destination` to the next question.**
 
         ![how to hide content with logic shopifyv2 jump logic default destination](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_default_destination.png)
 
-    4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+        Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
 
+    8. **Click the top-right `Save` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
+
+    !!! tip "More on jump logic"
+
+        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
 === "Shopify (Legacy)"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
+    3. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
+
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    6. **Click the `+` button to add a rule for each of the other three answers.**
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+    7. **Select each statement in turn, and set its `Always jump to...` destination to the next question.**
+
+        Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
+
+    !!! tip "More on jump logic"
+
+        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
 === "WooCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
+    3. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
+
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    6. **Click the `+` button to add a rule for each of the other three answers.**
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+    7. **Select each statement in turn, and set its `Always jump to...` destination to the next question.**
+
+        Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
+
+    !!! tip "More on jump logic"
+
+        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
 === "Magento"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
+    3. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
+
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    6. **Click the `+` button to add a rule for each of the other three answers.**
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+    7. **Select each statement in turn, and set its `Always jump to...` destination to the next question.**
+
+        Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
+
+    !!! tip "More on jump logic"
+
+        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
 === "BigCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Add one `Statement` slide per skin type.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    3. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
+
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
+
+        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+
+    6. **Click the `+` button to add a rule for each of the other three answers.**
+
+    7. **Select each statement in turn, and set its `Always jump to...` destination to the next question.**
+
+        Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
+
+    !!! tip "More on jump logic"
+
+        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+
+=== "Standalone"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
+    3. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the skin type question.**
 
-        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+    4. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 
-    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-=== "Standalone"
-
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-    3. **Add Jump Logic**: Without jump logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice, `THEN go to` the dry skin statement.**
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Point each statement at the next question. Go to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    6. **Click the `+` button to add a rule for each of the other three answers.**
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+    7. **Select each statement in turn, and set its `Always jump to...` destination to the next question.**
 
-## Display logic: how to show custom text on the results page
+        Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
 
-=== "Shopify"
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    !!! tip "More on jump logic"
 
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
-        !!! tip
+## Skip a statement with skip logic
 
-            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
+Your quiz holds the same four statements, and the customer travels through all of them in order.
 
-    2. **Add Content Sections to Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign.
-
-        Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-
-
-
-    3. **Add Display logic**: Without [Display logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results page, whatever the customer picked.
-
-        ---
-
-        **Display logic operators**
-
-        `+ Add condition (OR)` - Adds a new OR display logic rule.
-
-        `+ Add condtion (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
-        `bin` - Delete the current Logic rule.
-
-        `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
-
-        `Default` - Select whether this section should be `Shown` or `Hidden` by default.
-
-        ---
-
-        There are three types of Display logic rules you can choose from:
-
-        ---
-
-        **Type 1: IF The response to the question...**
-
-        Then the Display logic rules follow the following format:
-
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN section is Visible**
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-
-        !!! example "Example 1"
-
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
-
-            In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
-
-        ---
-
-        **Type 2: IF The score of the variable...**
-
-        Then the Display logic rules follow the following format:
-
-        - **IF The score of the variable**
-        - **score** pick the variable from a dropdown list
-        - The comparison, picked from the dropdown list:
-            - **is equal to**
-            - **is not equal to**
-            - **is greater than**
-            - **is less than**
-            - **is greater than or equal to**
-            - **is less than or equal to**
-        - **Number** / **Another variable** pick a choice from the dropdown list
-        - **0** / **1** / **2** / **other numerical value** type a value in the input field
-        - **THEN section is Visible**
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-
-
-        !!! info
-
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
-
-
-        !!! example "Example 2"
-
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
-
-            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
-
-        ---
-
-        **Type 3: IF the variable with the highest score...**
-
-        Then the Display logic rules follow the following format:
-
-        - **IF the variable with the highest score**
-        - **score** pick the variable from a dropdown list
-        - **THEN section is Visible**
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
-
-        !!! info
-
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
-
-
-        !!! example "Example 3"
-
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
-
-            In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
-
-    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz. Test the quiz by clicking the `Preview` button and selecting different answers and checking if the correct content blocks are displayed.
-
-
-=== "Shopify (Legacy)"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-
-        !!! tip
-
-            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-
-    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
-
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-=== "WooCommerce"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-
-        !!! tip
-
-            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-
-    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
-
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-=== "Magento"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-
-        !!! tip
-
-            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-
-    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
-
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-=== "BigCommerce"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-
-        !!! tip
-
-            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-
-    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
-
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-=== "Standalone"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-
-
-        !!! tip
-
-            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-
-    3. **Add Display Logic**: Without [Display Logic](/how-to-guides/use-display-logic/), the blocks appear one after the other on the Results Page, whatever the customer picked. To add it, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
-
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-## Skip logic: how to show custom text in the quiz
+Skip logic puts a rule on each statement that hides it unless the answer matches. The customer walks past the three that do not apply, and reads only theirs.
 
 === "Shopify"
 
@@ -522,39 +305,38 @@ The examples use a skincare routine quiz, and show custom text and results chose
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Skip logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked.
+    3. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the dry skin statement.**
 
-        To add [skip logic](/how-to-guides/use-skip-logic/), go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped.
+    4. **Find `Skip logic` in the menu on the right, and click `+ Add another rule (OR)`.**
 
-        In the right-hand menu, find the `Skip logic` section.
-
-        Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide.
-
-        For example:
+    5. **Set the rule to `IF the response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic shopifyv2 skip logic rule](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_rule.png)
 
-        If the answer to Question 4 **is not** "Dry and tight all over", this question is skipped. Any other answer skips it.
+        The statement is then skipped for every answer except that one.
 
-        Use similar skip logic rules on the other statements to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    6. **Repeat for the other three statements, each reading its own choice.**
 
-    4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+    7. **Click the top-right `Save` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 
+    !!! tip "More on skip logic"
+
+        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
 
 === "Shopify (Legacy)"
 
@@ -562,140 +344,425 @@ The examples use a skincare routine quiz, and show custom text and results chose
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
+
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
+
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
+
+    !!! tip "More on skip logic"
+
+        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
 
 === "WooCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
+
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
+
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
+
+    !!! tip "More on skip logic"
+
+        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
 
 === "Magento"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
+
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
+
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
+
+    !!! tip "More on skip logic"
+
+        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
 
 === "BigCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
+
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
+
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
+
+    !!! tip "More on skip logic"
+
+        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
 
 === "Standalone"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
 
-        !!! tip
+        !!! tip "Help the customer answer"
 
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
 
-    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+    2. **Add one `Statement` slide per skin type.**
 
-        !!! example
+        !!! example "Four statements, one per skin type"
 
-            - *You have Dry Skin*: Itchiness, tightness and dryness. Your skin wants a routine that is deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced. It has no major issues, and it wants a routine that keeps that natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
 
-    3. **Add Skip Logic**: Without skip logic, the statement questions appear one after the other, whatever the customer picked. To add it, go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) settings of the dry skin statement.**
+
+    4. **Open the `Skip Logic` tab and click `Add Skip Logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is not` the dry skin choice.**
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+        The statement is then skipped for every answer except that one.
+
+    6. **Repeat for the other three statements, each reading its own choice.**
+
+    7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
+
+    !!! tip "More on skip logic"
+
+        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+
+## Show a section with display logic
+
+Your results page holds one section per skin type, and all four show by default.
+
+Display logic puts a rule on each section that hides it unless the answer matches. The customer reads only the section for their skin type.
+
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Go to the [Results page](/reference/quiz-builder/results-page/) and click `+ Add section` once per skin type.**
+
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
+
+    3. **Write the text for one skin type in each section.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    4. **Select the dry skin section, find `Display logic`, and click `+ Add logic condition (OR)`.**
+
+    5. **Set the rule to `IF the response to` the skin type question `is` the dry skin choice.**
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+
+    6. **Set `Default visibility` to `Hidden`.** The section then appears only for that answer.
+
+    7. **Repeat for the other three sections, each reading its own choice.**
+
+    8. **Click the top-right `Save` button, then answer the quiz once per skin type.** Only the matching section should appear each time.
+
+    !!! tip "Rules on a score or a variable"
+
+        A display logic rule can also read the score of a variable, or the variable with the highest score. See [Write a display logic rule](/how-to-guides/use-display-logic/#write-a-display-logic-rule) for all three kinds, and for what the buttons in the panel do.
+
+=== "Shopify (Legacy)"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Go to the [Results Page](/reference/quiz-builder/results-page/) and click `+` once per skin type, adding a `Content Block` each time.**
+
+    3. **Write the text for one skin type in each block.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    4. **Select the dry skin block, click `display logic`, then click `add display logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice.**
+
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
+
+    6. **Set `IN ALL OTHER CASES this block is` to `Hidden`.**
+
+    7. **Repeat for the other three blocks, each reading its own choice.**
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching block should appear each time.
+
+    !!! tip "More on display logic"
+
+        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+
+=== "WooCommerce"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Go to the [Results Page](/reference/quiz-builder/results-page/) and click `+` once per skin type, adding a `Content Block` each time.**
+
+    3. **Write the text for one skin type in each block.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    4. **Select the dry skin block, click `display logic`, then click `add display logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice.**
+
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
+
+    6. **Set `IN ALL OTHER CASES this block is` to `Hidden`.**
+
+    7. **Repeat for the other three blocks, each reading its own choice.**
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching block should appear each time.
+
+    !!! tip "More on display logic"
+
+        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+
+=== "Magento"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Go to the [Results Page](/reference/quiz-builder/results-page/) and click `+` once per skin type, adding a `Content Block` each time.**
+
+    3. **Write the text for one skin type in each block.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    4. **Select the dry skin block, click `display logic`, then click `add display logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice.**
+
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
+
+    6. **Set `IN ALL OTHER CASES this block is` to `Hidden`.**
+
+    7. **Repeat for the other three blocks, each reading its own choice.**
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching block should appear each time.
+
+    !!! tip "More on display logic"
+
+        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+
+=== "BigCommerce"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Go to the [Results Page](/reference/quiz-builder/results-page/) and click `+` once per skin type, adding a `Content Block` each time.**
+
+    3. **Write the text for one skin type in each block.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    4. **Select the dry skin block, click `display logic`, then click `add display logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice.**
+
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
+
+    6. **Set `IN ALL OTHER CASES this block is` to `Hidden`.**
+
+    7. **Repeat for the other three blocks, each reading its own choice.**
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching block should appear each time.
+
+    !!! tip "More on display logic"
+
+        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+
+=== "Standalone"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
+
+        !!! tip "Help the customer answer"
+
+            Describe each skin type in an [image or text block](/reference/quiz-builder/questions/#block-settings), so the customer can tell which one fits.
+
+    2. **Go to the [Results Page](/reference/quiz-builder/results-page/) and click `+` once per skin type, adding a `Content Block` each time.**
+
+    3. **Write the text for one skin type in each block.**
+
+        !!! example "Four statements, one per skin type"
+
+            - *You have Dry Skin*: The itchiness, the tightness, the dryness. Your skin wants a routine that is deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you. It has no major issues, and it still deserves care that sustains that natural harmony.
+            - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
+            - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
+
+    4. **Select the dry skin block, click `display logic`, then click `add display logic`.**
+
+    5. **Set the rule to `IF response to` the skin type question `is` the dry skin choice.**
+
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
+
+    6. **Set `IN ALL OTHER CASES this block is` to `Hidden`.**
+
+    7. **Repeat for the other three blocks, each reading its own choice.**
+
+    8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching block should appear each time.
+
+    !!! tip "More on display logic"
+
+        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
 
 ---
-For more detailed instructions on using [Jump Logic](/how-to-guides/use-jump-logic/), [Display Logic](/how-to-guides/use-display-logic/), and [Skip Logic](/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.
 
-This article explains how to use Jump Logic, Skip Logic or Display Logic to hide/show content in the quiz based on customer     answers.
+This article works one skincare quiz through jump logic, skip logic and display logic, so you can see what each rule changes.
