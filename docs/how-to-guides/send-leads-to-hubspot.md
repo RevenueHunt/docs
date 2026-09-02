@@ -79,94 +79,94 @@ icon: simple/hubspot
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/A8j8y6ybS8M?si=zZlWvugbBbR2ZAJD&amp;start=36" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    The HubSpot integration uses OAuth to securely connect your store to HubSpot. This connection is made at the **store level**, meaning once connected, you can enable HubSpot for any of your quizzes.
+    The HubSpot integration uses OAuth to securely connect your store to HubSpot. The connection is made once for the whole store. You then switch it on for each quiz separately.
 
-    1. Open the RevenueHunt app and navigate to any quiz.
-    2. Go to `Quiz Settings > Integrations` tab.
-    3. Scroll to the `Mailing & CRMs` section and find the HubSpot card.
-    4. Click the `Connect` button.
-        ![how to hubspot shopify connect](/images/how_to_shopifyv2_hubspot_connectbutton.png)
-    5. You will be redirected to HubSpot's authorization page. Log in to your HubSpot account if prompted.
-    6. Select the HubSpot account you want to connect and click `Choose Account`.
-    7. Review the permissions requested and click `Connect app` to authorize the connection.
-        ![how to hubspot shopify connect app](/images/how_to_shopifyv2_hubspot_confirmcrm.png)
-    8. You will be redirected back to the RevenueHunt app. The HubSpot card will now show as `Connected` with your Portal ID displayed.
-        ![how to hubspot shopify disconnected](/images/how_to_shopifyv2_hubspot_disabledata.png)
-    9. Once connected, HubSpot will be automatically **disabled** for the current quiz. You can enable it for other quizzes individually by going to the `Quiz Settings > Integrations` tab and clicking the `Enable` button.
-        ![how to hubspot shopify connected](/images/how_to_shopifyv2_hubspot_enabledata.png)
+    1. **Open the RevenueHunt app and open any quiz.**
+    2. **Go to `Quiz settings > Integrations`.**
+    3. **Scroll to `Mailing & CRMs` and find the HubSpot card.**
+    4. **Click `Connect`.**
+        ![The Connect button on the HubSpot card](/images/how_to_shopifyv2_hubspot_connectbutton.png)
+    5. **Log in to HubSpot if prompted.** The app sends you to HubSpot's authorization page.
+    6. **Select the HubSpot account you want, then click `Choose Account`.**
+    7. **Review the permissions, then click `Connect app`.**
+        ![Authorizing the app in HubSpot](/images/how_to_shopifyv2_hubspot_confirmcrm.png)
+    8. **Check the HubSpot card back in the app.** It shows a `Connected` badge and your `Portal ID`.
+        ![The HubSpot card after connecting, with syncing still off](/images/how_to_shopifyv2_hubspot_disabledata.png)
+    9. **Turn syncing on for the quizzes you want.** It starts switched off everywhere, and the next section covers the checkbox.
+        ![The HubSpot card with syncing on for this quiz](/images/how_to_shopifyv2_hubspot_enabledata.png)
 
     !!! tip "Reconnecting"
         If you connected HubSpot earlier and cannot see the option to select HubSpot lists, reconnect the account. Click `Reconnect` to grant the additional permissions required for list management.
 
-    !!! info "Alternative Way to Connect"
+    !!! info "Another way to connect"
         You can also connect your quiz to HubSpot from the [HubSpot app marketplace](https://app.hubspot.com/portal-recommend/l?slug=marketplace/listing/product-recommendation-quiz). Click `Sign in to install` and follow the instructions.
 
 
 === "Shopify (Legacy)"
 
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
-    2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
-    3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-    4. Select your HubSpot account from the list provided.
-        ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+    2. **Find HubSpot in the integration list and click `Connect`.**
+    3. **Authorize the connection in the new browser tab.**
+    4. **Select your HubSpot account from the list.**
+        ![Choosing a HubSpot account to connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
-    5. A confirmation page opens, showing that the connection was made.
-        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
+    5. **Check the confirmation page.** It shows that the connection was made.
+        ![The page confirming the HubSpot connection](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
 === "WooCommerce"
 
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
-    2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
-    3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-    4. Select your HubSpot account from the list provided.
-        ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+    2. **Find HubSpot in the integration list and click `Connect`.**
+    3. **Authorize the connection in the new browser tab.**
+    4. **Select your HubSpot account from the list.**
+        ![Choosing a HubSpot account to connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
-    5. A confirmation page opens, showing that the connection was made.
-        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
+    5. **Check the confirmation page.** It shows that the connection was made.
+        ![The page confirming the HubSpot connection](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
 === "Magento"
 
 
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
-    2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
-    3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-    4. Select your HubSpot account from the list provided.
-        ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+    2. **Find HubSpot in the integration list and click `Connect`.**
+    3. **Authorize the connection in the new browser tab.**
+    4. **Select your HubSpot account from the list.**
+        ![Choosing a HubSpot account to connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
-    5. A confirmation page opens, showing that the connection was made.
-        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
+    5. **Check the confirmation page.** It shows that the connection was made.
+        ![The page confirming the HubSpot connection](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
 === "BigCommerce"
 
 
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
-    2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
-    3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-    4. Select your HubSpot account from the list provided.
-        ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+    2. **Find HubSpot in the integration list and click `Connect`.**
+    3. **Authorize the connection in the new browser tab.**
+    4. **Select your HubSpot account from the list.**
+        ![Choosing a HubSpot account to connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
-    5. A confirmation page opens, showing that the connection was made.
-        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
+    5. **Check the confirmation page.** It shows that the connection was made.
+        ![The page confirming the HubSpot connection](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
 === "Standalone"
 
 
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
-    2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
-    3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-    4. Select your HubSpot account from the list provided.
-        ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+    2. **Find HubSpot in the integration list and click `Connect`.**
+    3. **Authorize the connection in the new browser tab.**
+    4. **Select your HubSpot account from the list.**
+        ![Choosing a HubSpot account to connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
-    5. A confirmation page opens, showing that the connection was made.
-        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
+    5. **Check the confirmation page.** It shows that the connection was made.
+        ![The page confirming the HubSpot connection](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
@@ -176,16 +176,16 @@ icon: simple/hubspot
 
     After connecting your store to HubSpot, you can enable or disable the integration for each quiz individually.
 
-    1. Open the quiz you want to configure.
-    2. Go to `Quiz Settings > Integrations` tab.
-    3. Scroll to the HubSpot card.
-    4. Check the `Enable HubSpot for this quiz` checkbox to enable the integration.
-        ![how to hubspot shopify connected](/images/how_to_shopifyv2_hubspot_enabledata.png)
-    5. Click `Save` to apply the changes.
+    1. **Open the quiz you want to configure.**
+    2. **Go to `Quiz settings > Integrations`.**
+    3. **Scroll to the HubSpot card.**
+    4. **Tick `Enable to sync contacts from this quiz to HubSpot.`**
+        ![The HubSpot card with syncing on for this quiz](/images/how_to_shopifyv2_hubspot_enabledata.png)
+    5. **Click `Save`.**
 
     From then on, whenever a customer finishes this quiz and leaves an email address, their contact details and answers are sent to your HubSpot account.
 
-    !!! info "Email Required"
+    !!! info "An email question is required"
         The HubSpot integration requires an email address to create or update a contact. Make sure your quiz includes an email question if you want quiz responses to be sent to HubSpot.
 
 === "Shopify (Legacy)"
@@ -214,17 +214,17 @@ icon: simple/hubspot
 
     You can add each customer to a HubSpot list automatically. You set this on the email block in your quiz.
 
-    1. Open your quiz in the Quiz builder.
-    2. Select the email question block in your quiz.
-    3. In the block settings panel, scroll to the `HubSpot` section.
-        ![how to hubspot shopify list selection](/images/how_to_shopifyv2_hubspot_addcontactstolist.png)
-    4. From the `Select a list` dropdown, choose the HubSpot list to add the customer to.
-    5. Click `Save` to apply the changes.
+    1. **Open your quiz in the quiz builder.**
+    2. **Select the `Email` block in your quiz.**
+    3. **In the `Email input settings` panel, scroll to `HubSpot List`.**
+        ![The HubSpot List setting on the email block](/images/how_to_shopifyv2_hubspot_addcontactstolist.png)
+    4. **Open `Select a HubSpot list` and pick the list to add the customer to.**
+    5. **Click `Save`.**
 
-    !!! warning "List Permissions Required"
-        If the HubSpot list dropdown is missing, or it shows "Reconnect to HubSpot to enable list management", reconnect your HubSpot account. Go to `Quiz Settings > Integrations` and click `Reconnect` in the HubSpot card to grant the list permissions.
+    !!! warning "List permissions are separate"
+        If the HubSpot list dropdown is missing, or it shows `Reconnect to HubSpot to enable list management`, reconnect your HubSpot account. Go to `Quiz settings > Integrations` and click `Reconnect` in the HubSpot card to grant the list permissions.
 
-    !!! tip "Create Lists in HubSpot First"
+    !!! tip "Create the lists in HubSpot first"
         The dropdown shows only lists that already exist in your HubSpot account. Create your lists in HubSpot before configuring this setting. Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
 
 === "Shopify (Legacy)"
@@ -301,15 +301,15 @@ icon: simple/hubspot
 
     A customer finishes your quiz and leaves an email address. Their contact details, their answers and their product recommendations are then sent to your HubSpot account.
 
-    **Viewing Contact Data**
+    **Viewing contact data**
 
-    1. In HubSpot, navigate to the `Contacts` section.
-    2. Select any contact that has taken the quiz and click on `View all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_shopifyv2_hubspot_viewallproperties.png)
-    3. Find the section labeled `Product Recommendation Quiz`. It holds every field from the quiz, including the answers and the product recommendations.
-        ![how to hubspot properties2](/images/how_to_shopifyv2_hubspot_prqproperties.png)
+    1. **In HubSpot, go to `Contacts`.**
+    2. **Open a contact who finished the quiz, then click `View all properties`.**
+        ![View all properties on a HubSpot contact](/images/how_to_shopifyv2_hubspot_viewallproperties.png)
+    3. **Find the `Product Recommendation Quiz` group.** It holds every field from the quiz, including the answers and the product recommendations.
+        ![The Product Recommendation Quiz property group](/images/how_to_shopifyv2_hubspot_prqproperties.png)
 
-    **Custom Properties**
+    **Custom properties**
 
     The integration automatically creates custom properties in HubSpot to store quiz data. Each property is named `quiz_{quiz_id}_{field_name}`. These are the fields the app sends:
 
@@ -332,20 +332,20 @@ icon: simple/hubspot
     | `quiz_{id}_products` | List of recommended product names |
     | `quiz_{id}_products_count` | Number of products recommended |
 
-    !!! info "Property Auto-Creation"
+    !!! info "The properties create themselves"
         The app creates these properties in HubSpot the first time a response is sent, so you do not have to create them yourself. They will appear under the `Product Recommendation Quiz` property group.
 
 === "Shopify (Legacy)"
 
     Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
 
-    1. To view the imported data, navigate to the `contacts` section within HubSpot.
-    2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
-    3. Find the section labeled `Product Recommendation Quiz`, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
-        ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+    1. **In HubSpot, go to `Contacts`.**
+    2. **Open a contact who finished the quiz, then click `View all properties`.**
+        ![View all properties on a HubSpot contact](/images/how_to_hubspot_image1.png)
+    3. **Find the `Product Recommendation Quiz` group**, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
+        ![The Product Recommendation Quiz property group](/images/how_to_hubspot_image2.png)
 
-    **Custom Properties**
+    **Custom properties**
 
     Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
 
@@ -395,13 +395,13 @@ icon: simple/hubspot
 
     Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
 
-    1. To view the imported data, navigate to the `contacts` section within HubSpot.
-    2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
-    3. Find the section labeled `Product Recommendation Quiz`, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
-        ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+    1. **In HubSpot, go to `Contacts`.**
+    2. **Open a contact who finished the quiz, then click `View all properties`.**
+        ![View all properties on a HubSpot contact](/images/how_to_hubspot_image1.png)
+    3. **Find the `Product Recommendation Quiz` group**, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
+        ![The Product Recommendation Quiz property group](/images/how_to_hubspot_image2.png)
 
-    **Custom Properties**
+    **Custom properties**
 
     Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
 
@@ -451,13 +451,13 @@ icon: simple/hubspot
 
     Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
 
-    1. To view the imported data, navigate to the `contacts` section within HubSpot.
-    2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
-    3. Find the section labeled `Product Recommendation Quiz`, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
-        ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+    1. **In HubSpot, go to `Contacts`.**
+    2. **Open a contact who finished the quiz, then click `View all properties`.**
+        ![View all properties on a HubSpot contact](/images/how_to_hubspot_image1.png)
+    3. **Find the `Product Recommendation Quiz` group**, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
+        ![The Product Recommendation Quiz property group](/images/how_to_hubspot_image2.png)
 
-    **Custom Properties**
+    **Custom properties**
 
     Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
 
@@ -507,13 +507,13 @@ icon: simple/hubspot
 
     Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
 
-    1. To view the imported data, navigate to the `contacts` section within HubSpot.
-    2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
-    3. Find the section labeled `Product Recommendation Quiz`, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
-        ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+    1. **In HubSpot, go to `Contacts`.**
+    2. **Open a contact who finished the quiz, then click `View all properties`.**
+        ![View all properties on a HubSpot contact](/images/how_to_hubspot_image1.png)
+    3. **Find the `Product Recommendation Quiz` group**, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
+        ![The Product Recommendation Quiz property group](/images/how_to_hubspot_image2.png)
 
-    **Custom Properties**
+    **Custom properties**
 
     Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
 
@@ -563,13 +563,13 @@ icon: simple/hubspot
 
     Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
 
-    1. To view the imported data, navigate to the `contacts` section within HubSpot.
-    2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
-    3. Find the section labeled `Product Recommendation Quiz`, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
-        ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+    1. **In HubSpot, go to `Contacts`.**
+    2. **Open a contact who finished the quiz, then click `View all properties`.**
+        ![View all properties on a HubSpot contact](/images/how_to_hubspot_image1.png)
+    3. **Find the `Product Recommendation Quiz` group**, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
+        ![The Product Recommendation Quiz property group](/images/how_to_hubspot_image2.png)
 
-    **Custom Properties**
+    **Custom properties**
 
     Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
 
@@ -623,19 +623,19 @@ icon: simple/hubspot
 
         The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
 
-    1. Once your quiz is sending data to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-    2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+    1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be sending data there first.
+    2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
 
-        !!! example "Example Segment"
-            Create a list where `quiz_{your_quiz_id}_response_id` **is known**. It holds every contact who finished your quiz.
+        !!! example "A list that holds every quiz finisher"
+            Create a list where `quiz_{your_quiz_id}_response_id` is `known`. It holds every contact who finished your quiz.
 
-    3. Use that list as the trigger for your campaign, so only those customers get the email.
-    4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+    4. **Set up your campaign and email flow.**
+    5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+    6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 
 
 === "Shopify (Legacy)"
@@ -644,15 +644,15 @@ icon: simple/hubspot
 
         The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
 
-    1. Once your quiz is successfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-    2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+    1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be connected first.
+    2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-    3. Use that list as the trigger for your campaign, so only those customers get the email.
-    4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+    4. **Set up your campaign and email flow.**
+    5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+    6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 
 === "WooCommerce"
 
@@ -660,15 +660,15 @@ icon: simple/hubspot
 
         The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
 
-    1. Once your quiz is successfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-    2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+    1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be connected first.
+    2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-    3. Use that list as the trigger for your campaign, so only those customers get the email.
-    4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+    4. **Set up your campaign and email flow.**
+    5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+    6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 
 === "Magento"
 
@@ -676,15 +676,15 @@ icon: simple/hubspot
 
         The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
 
-    1. Once your quiz is successfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-    2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+    1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be connected first.
+    2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-    3. Use that list as the trigger for your campaign, so only those customers get the email.
-    4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+    4. **Set up your campaign and email flow.**
+    5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+    6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 
 === "BigCommerce"
 
@@ -692,15 +692,15 @@ icon: simple/hubspot
 
         The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
 
-    1. Once your quiz is successfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-    2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+    1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be connected first.
+    2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-    3. Use that list as the trigger for your campaign, so only those customers get the email.
-    4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+    4. **Set up your campaign and email flow.**
+    5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+    6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 
 === "Standalone"
 
@@ -708,15 +708,15 @@ icon: simple/hubspot
 
         The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
 
-    1. Once your quiz is successfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-    2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+    1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be connected first.
+    2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-    3. Use that list as the trigger for your campaign, so only those customers get the email.
-    4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+    4. **Set up your campaign and email flow.**
+    5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+    6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 
 ## Using custom quiz properties in email templates
 
@@ -726,114 +726,119 @@ icon: simple/hubspot
 
     To personalize a follow-up email with quiz data, pull the custom properties into the email template.
 
-    1. In HubSpot, navigate to `Marketing > Email > Create email`.
-    2. In the email editor, use the **Personalization Token** feature.
-    3. Click on `Insert`, then select Personalization Token from the dropdown.
-        ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-    4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
+    1. **In HubSpot, go to `Marketing > Email > Create email`.**
+        ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+    2. **In the email editor, open the `Personalization Token` feature.**
+    3. **Click `Insert`, then select `Personalization Token`.**
+        ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+    4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
 
-        !!! example "Common Properties to Use"
+        !!! example "Properties worth using"
             - `quiz_{id}_quiz_name` - Display the quiz name
             - `quiz_{id}_products` - Show recommended products
             - `quiz_{id}_result_page_name` - Show which result they got
             - `quiz_{id}_tags` - Display assigned tags
             - `quiz_{id}_answer_by_block_{ref}` - Show specific question answers
 
-    5. Use the `Preview` feature to check that the custom properties appear correctly.
+    5. **Click `Preview` and check that the properties appear correctly.**
 
-        ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+        ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 
     !!! info
 
-        HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+        HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 
 
 === "Shopify (Legacy)"
 
     To personalize a follow-up email with quiz data, pull the custom properties into the email template.
 
-    1. In HubSpot, navigate to `Marketing > Email > Create email`.
-        ![how to hubspot image4](/images/how_to_hubspot_image4.png)
-    2. In the email editor, use the **Personalization Token** feature.
-    3. Click on `Insert`, then select Personalization Token from the dropdown.
-        ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-    4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-    5. Use the `Preview` feature to check that the custom properties appear correctly.
+    1. **In HubSpot, go to `Marketing > Email > Create email`.**
+        ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+    2. **In the email editor, open the `Personalization Token` feature.**
+    3. **Click `Insert`, then select `Personalization Token`.**
+        ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+    4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+    5. **Click `Preview` and check that the properties appear correctly.**
 
-        ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+        ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 
 
     !!! info
 
-        HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+        HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 
 === "WooCommerce"
 
     To personalize a follow-up email with quiz data, pull the custom properties into the email template.
 
-    1. In HubSpot, navigate to `Marketing > Email > Create email`.
-    2. In the email editor, use the **Personalization Token** feature.
-    3. Click on `Insert`, then select Personalization Token from the dropdown.
-        ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-    4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-    5. Use the `Preview` feature to check that the custom properties appear correctly.
+    1. **In HubSpot, go to `Marketing > Email > Create email`.**
+        ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+    2. **In the email editor, open the `Personalization Token` feature.**
+    3. **Click `Insert`, then select `Personalization Token`.**
+        ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+    4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+    5. **Click `Preview` and check that the properties appear correctly.**
 
-        ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+        ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 
     !!! info
 
-        HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+        HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 
 === "Magento"
 
     To personalize a follow-up email with quiz data, pull the custom properties into the email template.
 
-    1. In HubSpot, navigate to `Marketing > Email > Create email`.
-    2. In the email editor, use the **Personalization Token** feature.
-    3. Click on `Insert`, then select Personalization Token from the dropdown.
-        ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-    4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-    5. Use the `Preview` feature to check that the custom properties appear correctly.
+    1. **In HubSpot, go to `Marketing > Email > Create email`.**
+        ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+    2. **In the email editor, open the `Personalization Token` feature.**
+    3. **Click `Insert`, then select `Personalization Token`.**
+        ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+    4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+    5. **Click `Preview` and check that the properties appear correctly.**
 
-        ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+        ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 
     !!! info
 
-        HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+        HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 
 === "BigCommerce"
 
     To personalize a follow-up email with quiz data, pull the custom properties into the email template.
 
-    1. In HubSpot, navigate to `Marketing > Email > Create email`.
-    2. In the email editor, use the **Personalization Token** feature.
-    3. Click on `Insert`, then select Personalization Token from the dropdown.
-        ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-    4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-    5. Use the `Preview` feature to check that the custom properties appear correctly.
+    1. **In HubSpot, go to `Marketing > Email > Create email`.**
+        ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+    2. **In the email editor, open the `Personalization Token` feature.**
+    3. **Click `Insert`, then select `Personalization Token`.**
+        ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+    4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+    5. **Click `Preview` and check that the properties appear correctly.**
 
-        ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+        ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 
     !!! info
 
-        HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+        HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 
 === "Standalone"
 
     To personalize a follow-up email with quiz data, pull the custom properties into the email template.
 
-    1. In HubSpot, navigate to `Marketing > Email > Create email`.
-    2. In the email editor, use the **Personalization Token** feature.
-    3. Click on `Insert`, then select Personalization Token from the dropdown.
-        ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-    4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-    5. Use the `Preview` feature to check that the custom properties appear correctly.
+    1. **In HubSpot, go to `Marketing > Email > Create email`.**
+        ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+    2. **In the email editor, open the `Personalization Token` feature.**
+    3. **Click `Insert`, then select `Personalization Token`.**
+        ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+    4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+    5. **Click `Preview` and check that the properties appear correctly.**
 
-        ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+        ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 
     !!! info
 
-        HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+        HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 
 ## Disconnect HubSpot
 
@@ -841,35 +846,32 @@ icon: simple/hubspot
 
     If you need to disconnect your store from HubSpot:
 
-    1. Open the RevenueHunt app and navigate to any quiz.
-    2. Go to `Quiz Settings > Integrations` tab.
-    3. Scroll to the HubSpot card.
-    4. Click the `Disconnect` button.
-        ![how to hubspot shopify disconnect placeholder](/images/how_to_shopifyv2_hubspot_enabledata.png)
-    5. Confirm the disconnection when prompted.
+    1. **Open the RevenueHunt app and open any quiz.**
+    2. **Go to `Quiz settings > Integrations`.**
+    3. **Scroll to the HubSpot card.**
+    4. **Click `Disconnect`.**
+        ![The Disconnect button on the HubSpot card](/images/how_to_shopifyv2_hubspot_enabledata.png)
+    5. **Confirm when prompted.**
 
     !!! warning
         Disconnecting HubSpot will stop sending quiz responses to your HubSpot account for all quizzes. Existing contacts and data in HubSpot will not be affected.
 
 === "Shopify (Legacy)"
 
-    To disconnect HubSpot, go to the Quiz Builder > Connect tab and click `Disconnect` next to the HubSpot integration.
+    To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.
 
 === "WooCommerce"
 
-    To disconnect HubSpot, go to the Quiz Builder > Connect tab and click `Disconnect` next to the HubSpot integration.
+    To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.
 
 === "Magento"
 
-    To disconnect HubSpot, go to the Quiz Builder > Connect tab and click `Disconnect` next to the HubSpot integration.
+    To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.
 
 === "BigCommerce"
 
-    To disconnect HubSpot, go to the Quiz Builder > Connect tab and click `Disconnect` next to the HubSpot integration.
+    To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.
 
 === "Standalone"
 
-    To disconnect HubSpot, go to the Quiz Builder > Connect tab and click `Disconnect` next to the HubSpot integration.
-
----
-This article explains how to send quiz leads to HubSpot, and how to set up a follow-up email there.
+    To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.

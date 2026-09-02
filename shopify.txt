@@ -10990,50 +10990,49 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/restore-quiz-progress/
 
 ---
 icon: material/restore-alert
-description: "Learn how to restore a previous version of your RevenueHunt quiz using version history."
+description: "Learn how to recover an earlier version of your RevenueHunt quiz from version history."
 ---
 
 # How to Restore Quiz Progress
 
-You can recover an earlier version of a quiz, after lost progress or an unwanted change by a colleague.
+The app records a version of your quiz each time your changes go live. Version history lists those versions, so you can go back to an earlier one.
 
-This article explains how to use [Version History](/reference/quiz-builder/quiz-settings/#version-history) to restore that version.
+Use it after you lose work, or after a colleague makes a change you want to undo.
 
+The walkthrough below covers the whole process, and the written steps follow it.
 
+## Open version history
 
-## Accessing version history
+## What a version records
 
-## Understanding saved versions
-
-## Recovering a quiz version
-
----
-Follow instructions above to recover a published quiz version.
+## Restore an earlier version
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4cGjCArhhQo?si=UbwoPQNEgTyrMqeG" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-[Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
-1. **Go to Quiz settings**: Look for the [Quiz settings](/reference/quiz-builder/quiz-settings/) option within the Quiz builder or the Dashboard.
-2. **Find the Version History Tab**: In the Quiz settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
-![Built for Shopify revenuehunt app Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
-Version History does not track every minor edit. Instead, it captures a new version each time you save changes to your quiz with the top-right `Save` button.
-- A new version is saved only when you click `Save` on your quiz. This action updates the preview/live quiz and records a version in the history.
-- Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
-- For better organization and clarity, you can click on `Show more details` to expand the version change details and see where exactly the changes were made.
-For recent changes, use the `undo` button `(Ctrl + Z)` to revert the last action.
-If multiple slides or questions are missing, follow the steps below to recover a previously published version.
-1. **Navigate to the Quiz settings**: Go to the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
-2. **Go to the Version History Tab**: In the Quiz settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
-3. **Click Show More Details**: Click on `Show More Details` to view specific changes made in each version. Note that each version is created when you save the quiz. Only saved changes are shown in the version history.
-4. **Select the Version**: Select the version corresponding to the date of the changes you want to recover.
-5. **Use the Three Dots Menu**: Click on the three dots next to the version to see options: `   Create a New Quiz` or `Restore This Version`.
-    - `Create new quiz using this version` generates a new quiz with a new ID, while
-    - `Restore This Version` replaces the current quiz with the selected version without changing the quiz ID.
-    - `Copy quiz code` copies the quiz code (JSON) of this version to clipboard. Use it to move this version to another store.
-    !!! tip
-        If unsure about which version to restore, create a new quiz using the selected version to review its content.
-6. After creation, you will be taken to the quiz builder where you can verify the content of the new quiz.
+1. **Open the quiz you want to recover.**
+2. **Open [`Quiz settings > Version history`](/reference/quiz-builder/quiz-settings/#version-history).**
+The tab lists your saved versions, newest first. To get there from the [Dashboard](/reference/dashboard/), click `...` on the quiz tile and then `Settings`.
+![Version history in the Built for Shopify version of the app](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+A version is recorded when you click the top-right `Save` button. Edits you have not saved are not recorded.
+Each version in the list shows:
+- `Version ID`, a short code that names the version.
+- `Last saved`, with the date and time.
+- A summary of what changed, such as `Questions` `2 modified` or `Results` `1 modified`.
+Click `Show more details` to open the full list of changes. Select `Hide unchanged values` to leave out the parts that stayed the same.
+The details pane shows the quiz data itself, so expect code rather than the quiz builder screen. Look for the question and results text you wrote.
+For a change you have just made, press `Ctrl + Z` (or `Cmd + Z`) to undo it. Version history is for the changes that undo can no longer reach.
+1. **Open [`Quiz settings > Version history`](/reference/quiz-builder/quiz-settings/#version-history).**
+2. **Find the version you want by its `Last saved` date.** Click `Show more details` to confirm your content is in it.
+3. **Click the `...` menu next to that version.**
+    ![The version history menu in the Built for Shopify version of the app](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+4. **Select the option you need:**
+    - `Restore this version` replaces your current quiz with this one. The quiz ID stays the same, so the restored version appears everywhere the quiz is already embedded. The version you replaced stays in the list, so you can go back to it.
+    - `Create new quiz using this version` builds a separate quiz with a new quiz ID and opens it in the quiz builder. Your current quiz stays as it is.
+    - `Copy quiz code` copies the version as JSON. Use it to [move the version to another store](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+5. **Open the quiz and check that the recovered questions and results are there.**
+!!! tip
+    If two versions look alike, run `Create new quiz using this version` on one of them. You can then read the copy in the quiz builder without touching the live quiz, and delete the copy afterwards.
 
 
 
@@ -11092,6 +11091,8 @@ These steps are the same for every flow.
 Every completion writes a set of `custom properties` to the Klaviyo profile. You reference these in segment definitions, conditional splits and email templates. The exact names include your quiz ID, so they are unique to your quiz.
 
 !!! tip "Find your exact property names on a test profile"
+
+    Do this before you build anything. Property names have changed between app versions, and the list above is a guide rather than a promise.
 
     Take a test quiz with a sample email, then open `Klaviyo > Audience > Profiles` and search for it. The profile shows every property your quiz sends, with the exact block references, slot names and quiz ID. Copy the names from there. See [Use Quiz Data in Klaviyo Email Templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) for the full reference and the `{{ person|lookup:'...' }}` syntax.
 
@@ -11398,7 +11399,8 @@ The full token reference, the downloadable Klaviyo template, and worked examples
 Your quiz sends these custom properties:
 - `ANSWER_BY_BLOCK-<blockRef>-<QuizID>`: the answer to one question. Overwritten on each retake.
 - `ANSWERS_BY_BLOCK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
-- `TAGS-<QuizID>`: the customer tags from your quiz logic. Your main segmentation lever.
+- `TAG-<TagName>-<QuizID>`: `true` for each customer tag your quiz logic applied. Your main segmentation lever.
+- `CHOICE-<choiceRef>-<QuizID>`: `true` for each choice the customer selected. The reference calls this the best property to segment on, because it does not change when you reword a choice.
 - `RECOMMENDATIONS_BY_SLOT-<QuizID>`: recommended products (title, price, image, URL). JSON object, appended on each retake.
 - `RESPONSE_ID-<QuizID>`: the unique response ID. Use it to link back to the results page.
 - `QUIZ_NAME-<QuizID>`: the quiz name. Handy in subject lines.
@@ -11406,11 +11408,11 @@ Your quiz sends these custom properties:
 2. Set the definition to `Properties about someone`, choose `ANSWERS_BY_BLOCK-<QuizID>`, and set the condition to `is set`.
 3. Save. A new customer joins automatically.
 !!! tip "Segment on a specific answer or tag"
-    To target some of those customers rather than all of them, filter on a specific value instead, for example `TAGS-<QuizID>` `contains` `Color-Treated`, or `ANSWER_BY_BLOCK-<blockRef>-<QuizID>` `equals` `Oily`. That is how you build a version of any flow below for one group of customers.
+    To target some of those customers rather than all of them, filter on a specific value instead, for example `TAG-Color-Treated-<QuizID>` `is set`, or `ANSWER_BY_BLOCK-<blockRef>-<QuizID>` `equals` `Oily`. That is how you build a version of any flow below for one group of customers.
 - **Answer:** `{{ person|lookup:'ANSWER_BY_BLOCK-<blockRef>-<QuizID>' }}`
 - **Recommended product:** `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-<QuizID>'|lookup:'<slot>'|lookup:'0'|lookup:'title' }}` (swap `title` for `description`, `price`, `onlineUrl`, or `image`)
 - **Link to their results:** `#response-{{ person|lookup:'RESPONSE_ID-<QuizID>' }}`
-- **Branch on a tag:** in a `Conditional split`, `TAGS-<QuizID>` `contains` `<tag>`
+- **Branch on a tag:** in a `Conditional split`, `TAG-<TagName>-<QuizID>` `is set`
 !!! tip "Let Quiz Copilot build it"
     Paste any template into [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to restyle or trim the code for you, no developer required.
 
@@ -11438,16 +11440,15 @@ icon: material/bullhorn-outline
 
 ### Adding recommended products to emails
 
----
-This article explains how to connect a quiz to ActiveCampaign, send quiz leads there, and set up follow-up emails.
-
 --- Shopify Specific Content ---
 
-The Built for Shopify version of the RevenueHunt app does not connect to ActiveCampaign directly yet. There are two ways around it.
-You can forward the quiz data through the [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration, or you can export your responses as a CSV file and upload that file to ActiveCampaign. This article covers both.
+The Built for Shopify version of the RevenueHunt app does not connect to ActiveCampaign directly yet. There are three ways around it.
+You can forward the quiz data through [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/), or you can export your responses as a CSV file and upload that file to ActiveCampaign. This article covers all three.
+Zapier is the shortest route, because it has a ready-made ActiveCampaign connector and you build the link by picking fields on screen.
 You cannot link a quiz to ActiveCampaign from the Built for Shopify version of the app yet.
 See [Alternative ways to send quiz leads to ActiveCampaign](#alternative-ways-to-send-quiz-leads-to-activecampaign) for the two ways around it.
 To control exactly which data reaches ActiveCampaign, use one of these methods instead.
+- **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, add ActiveCampaign as the action and map the quiz fields to contact fields.
 - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 Once the quiz is connected through [one of the methods above](#alternative-ways-to-send-quiz-leads-to-activecampaign), you can add quiz data to each contact profile.
@@ -11466,14 +11467,15 @@ These are the fields you can add:
     These methods give you full control over what reaches ActiveCampaign. The list above holds only the most common fields.
     The exact payload is the one carried by the method you pick, so see [What Data is Sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [What Data is Sent to Webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
     For more about using this data on a contact profile, see the [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
-To forward only the data you want, connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then read [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) to set up the forwarding on their side.
+To forward only the data you want, connect your quiz to [Zapier](/how-to-guides/send-leads-to-zapier/) and map the fields there.
+The other option is [Webhooks](/how-to-guides/send-leads-to-webhooks/). Set up the forwarding on the ActiveCampaign side, using [their webhooks documentation](https://developers.activecampaign.com/page/webhooks).
 To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
-1. In ActiveCampaign, open the `Automations` menu and create a new automation.
-2. Set a trigger on one of the custom properties that Webhooks added to the contact profile.
-3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
+1. **In ActiveCampaign, open the `Automations` menu and create a new automation.**
+2. **Set a trigger on one of the custom fields your chosen route added to the contact profile.**
+3. **Design your email template.** To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
     ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
-The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
-To show any product in an ActiveCampaign email, first connect ActiveCampaign to Shopify. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
+The route you chose decides what is available. The [Zapier](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) and [Webhooks](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) payloads both carry each recommended product's `title`, `price`, `image` and `url`. Map those to ActiveCampaign contact fields, and the email can show real product details.
+ActiveCampaign's own product blocks are the other option. Connect ActiveCampaign to Shopify, and a product block displays products from a chosen collection. You can then show or hide each block based on the recommended product ID. This has not been tested thoroughly.
 
 
 
@@ -11491,61 +11493,28 @@ description: "Learn how to send RevenueHunt quiz leads to your CRM platform for 
 
 Connect your quiz to a CRM service such as Klaviyo or Mailchimp, and every contact from the quiz is added to your account there. You can then build email campaigns around what each customer answered.
 
+Which services connect on their own depends on your platform and your version of the app, so open your tab below.
+
 ## Direct integrations
 
-### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
-
-Every customer who leaves an email in the quiz is added to your Shopify Customers list. Their profile carries the name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/) from the quiz.
-
-[:fontawesome-solid-arrow-right: send leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: automate with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)
-
-### [:material-wifi: Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
-
-Every contact from the quiz is added to your Klaviyo Profiles, and can be added to a List at the same time. Segment those profiles on the quiz answers, then build an email flow for each segment.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-klaviyo/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: build post-quiz lifecycle flows](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
-
-### [:material-hubspot: HubSpot](/how-to-guides/send-leads-to-hubspot/)
-
-Quiz results are sent to your HubSpot account, so you can segment your contacts on their answers and write a campaign for each group.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-hubspot/)
-
-### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
-
-Quiz data is sent to your Mailchimp account, so you can segment your audience and follow up by [customer tags](/reference/quiz-builder/customer-tags/). The Mailchimp integration sends only the email, the name and the customer tags. If you need to send more than that, such as the recommended products, pick a different service.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-mailchimp/)
-
-### [:material-information-slab-circle: Omnisend](/how-to-guides/send-leads-to-omnisend/)
-
-Quiz results are sent to your Omnisend mailing list as each customer finishes. Segment that list on the answers, then follow up with a campaign for each segment.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-omnisend/)
-
-### [:material-asterisk: Zapier](/how-to-guides/send-leads-to-zapier/)
-
-Zapier connects to thousands of apps, including most CRMs. Send your quiz leads to Zapier, and Zapier passes them on to any service it supports.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-zapier/)
-
-### [:material-greater-than-or-equal: ActiveCampaign](/how-to-guides/send-leads-to-activecampaign/)
-
-Every quiz response becomes an ActiveCampaign contact, with the answers attached as custom fields and the quiz tags as native tags.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-activecampaign/)
-
-### [:material-webhook: Webhooks](/how-to-guides/send-leads-to-webhooks/)
-
-A webhook sends the full quiz data to any endpoint you choose: the answers, the recommended products and the customer's contact details.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-webhooks/)
+The app sends the quiz data to these services itself. No other tool is needed.
 
 ## Indirect integrations
 
-If your CRM service is not in the list above, route the data through [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead. Both can forward it to a service the app does not support directly.
+--- Shopify Specific Content ---
 
-You can also [send result emails from the app](/how-to-guides/send-result-emails/), or [download all responses as a CSV file](/how-to-guides/download-quiz-responses/) and upload that file to the other service yourself.
+- **[:fontawesome-brands-shopify: Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/)**: every customer who leaves an email is added to your Shopify Customers list. The profile carries the name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/) from the quiz.
+- **[:material-cog-transfer-outline: Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)**: start a Shopify Flow workflow when a customer finishes the quiz.
+- **[:material-wifi: Klaviyo](/how-to-guides/send-leads-to-klaviyo/)**: contacts are added to your Klaviyo Profiles, and to a List if you pick one. Segment on the answers, then build [a flow for each segment](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
+- **[:material-hubspot: HubSpot](/how-to-guides/send-leads-to-hubspot/)**: quiz results are sent to your HubSpot account. Segment your contacts on their answers, then write a campaign for each group.
+- **[:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)**: the email, the name and the [customer tags](/reference/quiz-builder/customer-tags/) are sent to your audience. Segment your audience on those tags and follow up. Recommended products are not sent, so pick another service if you need them.
+- **[:material-information-slab-circle: Omnisend](/how-to-guides/send-leads-to-omnisend/)**: quiz results are sent to your Omnisend mailing list as each customer finishes. Segment that list on the answers, then send a campaign to each segment.
+- **[:material-asterisk: Zapier](/how-to-guides/send-leads-to-zapier/)**: Zapier connects to thousands of apps, including most CRMs, and passes your quiz leads on to any service it supports.
+- **[:material-webhook: Webhooks](/how-to-guides/send-leads-to-webhooks/)**: the full quiz data goes to any endpoint you choose. That covers the answers, the recommended products and the contact details.
+These services have no direct connection in this version. Route the data through [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/), or export your responses as a CSV file and upload that file yourself.
+- **[:material-greater-than-or-equal: ActiveCampaign](/how-to-guides/send-leads-to-activecampaign/)**: Zapier is the shortest of the three, because it has a ready-made ActiveCampaign connector.
+- **[:material-email-fast-outline: MailerLite](/how-to-guides/send-leads-to-mailerlite/)**: the guide covers each route in full.
+Any other service works the same way. You can also [send result emails from the app](/how-to-guides/send-result-emails/), or [download all responses as a CSV file](/how-to-guides/download-quiz-responses/) and upload that file to the other service.
 
 
 
@@ -11577,9 +11546,6 @@ icon: simple/hubspot
 
 ## Disconnect HubSpot
 
----
-This article explains how to send quiz leads to HubSpot, and how to set up a follow-up email there.
-
 --- Shopify Specific Content ---
 
 Connect your quiz to HubSpot and every quiz result is sent to your HubSpot account. You can then segment your contacts on their answers, and write a campaign for each group.
@@ -11589,56 +11555,56 @@ Before starting, make sure you have:
 - Access to your quiz in the RevenueHunt app.
 - An active HubSpot account.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/A8j8y6ybS8M?si=zZlWvugbBbR2ZAJD&amp;start=36" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-The HubSpot integration uses OAuth to securely connect your store to HubSpot. This connection is made at the **store level**, meaning once connected, you can enable HubSpot for any of your quizzes.
-1. Open the RevenueHunt app and navigate to any quiz.
-2. Go to `Quiz Settings > Integrations` tab.
-3. Scroll to the `Mailing & CRMs` section and find the HubSpot card.
-4. Click the `Connect` button.
-    ![how to hubspot shopify connect](/images/how_to_shopifyv2_hubspot_connectbutton.png)
-5. You will be redirected to HubSpot's authorization page. Log in to your HubSpot account if prompted.
-6. Select the HubSpot account you want to connect and click `Choose Account`.
-7. Review the permissions requested and click `Connect app` to authorize the connection.
-    ![how to hubspot shopify connect app](/images/how_to_shopifyv2_hubspot_confirmcrm.png)
-8. You will be redirected back to the RevenueHunt app. The HubSpot card will now show as `Connected` with your Portal ID displayed.
-    ![how to hubspot shopify disconnected](/images/how_to_shopifyv2_hubspot_disabledata.png)
-9. Once connected, HubSpot will be automatically **disabled** for the current quiz. You can enable it for other quizzes individually by going to the `Quiz Settings > Integrations` tab and clicking the `Enable` button.
-    ![how to hubspot shopify connected](/images/how_to_shopifyv2_hubspot_enabledata.png)
+The HubSpot integration uses OAuth to securely connect your store to HubSpot. The connection is made once for the whole store. You then switch it on for each quiz separately.
+1. **Open the RevenueHunt app and open any quiz.**
+2. **Go to `Quiz settings > Integrations`.**
+3. **Scroll to `Mailing & CRMs` and find the HubSpot card.**
+4. **Click `Connect`.**
+    ![The Connect button on the HubSpot card](/images/how_to_shopifyv2_hubspot_connectbutton.png)
+5. **Log in to HubSpot if prompted.** The app sends you to HubSpot's authorization page.
+6. **Select the HubSpot account you want, then click `Choose Account`.**
+7. **Review the permissions, then click `Connect app`.**
+    ![Authorizing the app in HubSpot](/images/how_to_shopifyv2_hubspot_confirmcrm.png)
+8. **Check the HubSpot card back in the app.** It shows a `Connected` badge and your `Portal ID`.
+    ![The HubSpot card after connecting, with syncing still off](/images/how_to_shopifyv2_hubspot_disabledata.png)
+9. **Turn syncing on for the quizzes you want.** It starts switched off everywhere, and the next section covers the checkbox.
+    ![The HubSpot card with syncing on for this quiz](/images/how_to_shopifyv2_hubspot_enabledata.png)
 !!! tip "Reconnecting"
     If you connected HubSpot earlier and cannot see the option to select HubSpot lists, reconnect the account. Click `Reconnect` to grant the additional permissions required for list management.
-!!! info "Alternative Way to Connect"
+!!! info "Another way to connect"
     You can also connect your quiz to HubSpot from the [HubSpot app marketplace](https://app.hubspot.com/portal-recommend/l?slug=marketplace/listing/product-recommendation-quiz). Click `Sign in to install` and follow the instructions.
 After connecting your store to HubSpot, you can enable or disable the integration for each quiz individually.
-1. Open the quiz you want to configure.
-2. Go to `Quiz Settings > Integrations` tab.
-3. Scroll to the HubSpot card.
-4. Check the `Enable HubSpot for this quiz` checkbox to enable the integration.
-    ![how to hubspot shopify connected](/images/how_to_shopifyv2_hubspot_enabledata.png)
-5. Click `Save` to apply the changes.
+1. **Open the quiz you want to configure.**
+2. **Go to `Quiz settings > Integrations`.**
+3. **Scroll to the HubSpot card.**
+4. **Tick `Enable to sync contacts from this quiz to HubSpot.`**
+    ![The HubSpot card with syncing on for this quiz](/images/how_to_shopifyv2_hubspot_enabledata.png)
+5. **Click `Save`.**
 From then on, whenever a customer finishes this quiz and leaves an email address, their contact details and answers are sent to your HubSpot account.
-!!! info "Email Required"
+!!! info "An email question is required"
     The HubSpot integration requires an email address to create or update a contact. Make sure your quiz includes an email question if you want quiz responses to be sent to HubSpot.
 You can add each customer to a HubSpot list automatically. You set this on the email block in your quiz.
-1. Open your quiz in the Quiz builder.
-2. Select the email question block in your quiz.
-3. In the block settings panel, scroll to the `HubSpot` section.
-    ![how to hubspot shopify list selection](/images/how_to_shopifyv2_hubspot_addcontactstolist.png)
-4. From the `Select a list` dropdown, choose the HubSpot list to add the customer to.
-5. Click `Save` to apply the changes.
-!!! warning "List Permissions Required"
-    If the HubSpot list dropdown is missing, or it shows "Reconnect to HubSpot to enable list management", reconnect your HubSpot account. Go to `Quiz Settings > Integrations` and click `Reconnect` in the HubSpot card to grant the list permissions.
-!!! tip "Create Lists in HubSpot First"
+1. **Open your quiz in the quiz builder.**
+2. **Select the `Email` block in your quiz.**
+3. **In the `Email input settings` panel, scroll to `HubSpot List`.**
+    ![The HubSpot List setting on the email block](/images/how_to_shopifyv2_hubspot_addcontactstolist.png)
+4. **Open `Select a HubSpot list` and pick the list to add the customer to.**
+5. **Click `Save`.**
+!!! warning "List permissions are separate"
+    If the HubSpot list dropdown is missing, or it shows `Reconnect to HubSpot to enable list management`, reconnect your HubSpot account. Go to `Quiz settings > Integrations` and click `Reconnect` in the HubSpot card to grant the list permissions.
+!!! tip "Create the lists in HubSpot first"
     The dropdown shows only lists that already exist in your HubSpot account. Create your lists in HubSpot before configuring this setting. Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
 To control exactly which data reaches HubSpot, use one of these methods instead.
 - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, map the fields you want and forward them to HubSpot.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 A customer finishes your quiz and leaves an email address. Their contact details, their answers and their product recommendations are then sent to your HubSpot account.
-**Viewing Contact Data**
-1. In HubSpot, navigate to the `Contacts` section.
-2. Select any contact that has taken the quiz and click on `View all properties` to examine the details.
-    ![how to hubspot properties1](/images/how_to_shopifyv2_hubspot_viewallproperties.png)
-3. Find the section labeled `Product Recommendation Quiz`. It holds every field from the quiz, including the answers and the product recommendations.
-    ![how to hubspot properties2](/images/how_to_shopifyv2_hubspot_prqproperties.png)
-**Custom Properties**
+**Viewing contact data**
+1. **In HubSpot, go to `Contacts`.**
+2. **Open a contact who finished the quiz, then click `View all properties`.**
+    ![View all properties on a HubSpot contact](/images/how_to_shopifyv2_hubspot_viewallproperties.png)
+3. **Find the `Product Recommendation Quiz` group.** It holds every field from the quiz, including the answers and the product recommendations.
+    ![The Product Recommendation Quiz property group](/images/how_to_shopifyv2_hubspot_prqproperties.png)
+**Custom properties**
 The integration automatically creates custom properties in HubSpot to store quiz data. Each property is named `quiz_{quiz_id}_{field_name}`. These are the fields the app sends:
 | Property | Description |
 |----------|-------------|
@@ -11658,44 +11624,45 @@ The integration automatically creates custom properties in HubSpot to store quiz
 | `quiz_{id}_tag_{tag_name}` | Boolean indicating if a tag was assigned |
 | `quiz_{id}_products` | List of recommended product names |
 | `quiz_{id}_products_count` | Number of products recommended |
-!!! info "Property Auto-Creation"
+!!! info "The properties create themselves"
     The app creates these properties in HubSpot the first time a response is sent, so you do not have to create them yourself. They will appear under the `Product Recommendation Quiz` property group.
 !!! info
     The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
-1. Once your quiz is sending data to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be sending data there first.
+2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
     !!! tip
         Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-    !!! example "Example Segment"
-        Create a list where `quiz_{your_quiz_id}_response_id` **is known**. It holds every contact who finished your quiz.
-3. Use that list as the trigger for your campaign, so only those customers get the email.
-4. Set up your campaign and email flow.
-5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+    !!! example "A list that holds every quiz finisher"
+        Create a list where `quiz_{your_quiz_id}_response_id` is `known`. It holds every contact who finished your quiz.
+3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+4. **Set up your campaign and email flow.**
+5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/A8j8y6ybS8M?si=yojv6oUR8hd1NnO4&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 To personalize a follow-up email with quiz data, pull the custom properties into the email template.
-1. In HubSpot, navigate to `Marketing > Email > Create email`.
-2. In the email editor, use the **Personalization Token** feature.
-3. Click on `Insert`, then select Personalization Token from the dropdown.
-    ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-    !!! example "Common Properties to Use"
+1. **In HubSpot, go to `Marketing > Email > Create email`.**
+    ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+2. **In the email editor, open the `Personalization Token` feature.**
+3. **Click `Insert`, then select `Personalization Token`.**
+    ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+    !!! example "Properties worth using"
         - `quiz_{id}_quiz_name` - Display the quiz name
         - `quiz_{id}_products` - Show recommended products
         - `quiz_{id}_result_page_name` - Show which result they got
         - `quiz_{id}_tags` - Display assigned tags
         - `quiz_{id}_answer_by_block_{ref}` - Show specific question answers
-5. Use the `Preview` feature to check that the custom properties appear correctly.
-    ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+5. **Click `Preview` and check that the properties appear correctly.**
+    ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 !!! info
-    HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
+    HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
 If you need to disconnect your store from HubSpot:
-1. Open the RevenueHunt app and navigate to any quiz.
-2. Go to `Quiz Settings > Integrations` tab.
-3. Scroll to the HubSpot card.
-4. Click the `Disconnect` button.
-    ![how to hubspot shopify disconnect placeholder](/images/how_to_shopifyv2_hubspot_enabledata.png)
-5. Confirm the disconnection when prompted.
+1. **Open the RevenueHunt app and open any quiz.**
+2. **Go to `Quiz settings > Integrations`.**
+3. **Scroll to the HubSpot card.**
+4. **Click `Disconnect`.**
+    ![The Disconnect button on the HubSpot card](/images/how_to_shopifyv2_hubspot_enabledata.png)
+5. **Confirm when prompted.**
 !!! warning
     Disconnecting HubSpot will stop sending quiz responses to your HubSpot account for all quizzes. Existing contacts and data in HubSpot will not be affected.
 
@@ -11720,7 +11687,7 @@ This article explains how to connect your quiz to Klaviyo and set up a follow-up
 
 ## Link your quiz to Klaviyo
 
-??? warning "Klaviyo Limitations"
+??? warning "Klaviyo limitations"
 
     **Processing Time**: Klaviyo may have some delay in displaying new leads.
 
@@ -11760,15 +11727,15 @@ The instructions here are written to be passed to a developer.
 
     This section covers the one email that delivers the results. [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/) covers five more: abandoned cart, browse, reorder, cross-sell and win-back, each segmented on the quiz answers and tags.
 
-??? warning "RevenueHunt Support Scope"
+??? warning "What support can help with"
 
     The app sends the quiz data to Klaviyo. You build the flows and the email templates in Klaviyo, so ask Klaviyo support about that part of the setup.
 
 ## Adding quiz contacts to Klaviyo list
 
-??? tip "Tip: Segmented Campaigns Work Better"
+??? tip "Segmented campaigns work better"
 
-    Adding contacts to a Klaviyo list is not the only option. You can build **dynamic segments** from your customers’ answers instead, and send each segment its own email. A segmented campaign earns more than 3X the revenue per recipient of an unsegmented one.
+    Adding contacts to a Klaviyo list is not the only option. You can build **dynamic segments** from your customers' answers instead, and send each segment its own email. A segmented campaign earns more than 3X the revenue per recipient of an unsegmented one.
 
     With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more about sending follow-up emails via Klaviyo](#sending-follow-up-emails-via-klaviyo), including how to create and use segments on Klaviyo.
 
@@ -11776,44 +11743,34 @@ The instructions here are written to be passed to a developer.
 
 ### Example email templates
 
-### Pull product information directly from Shopify
-
-Klaviyo can pull the product information straight from Shopify, given the product id. Rather than the `description` or `image_url` the quiz sends, pass the product's `origin_id` and let Klaviyo read the rest from Shopify. See the Klaviyo [Overview of the Catalog Lookup Tag](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag).
+### Pull product information from your catalog
 
 ## Disconnect Klaviyo
-
-
-
-
----
-By following this article, you can set up your post-quiz email flow with Klaviyo.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=xQ5-t5vueGKlDL4q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! tip "Tutorial"
-    For a worked example, follow the tutorial [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=CtsHul93EE3HbY8K&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-The Klaviyo integration uses OAuth to securely connect your store to Klaviyo. This connection is made at the **store level**, meaning once connected, you can enable Klaviyo for any of your quizzes.
-1. Open the RevenueHunt app and navigate to any quiz.
-2. Go to `Quiz Settings > Integrations` tab.
-3. Scroll to the `Mailing & CRMs` section and find the Klaviyo card.
-4. Click the `Connect` button.
-5. You will be redirected to Klaviyo's authorization page. Log in to your Klaviyo account if prompted.
-6. Select the Klaviyo account you want to connect and review the permissions requested, then click `Allow` to authorize the connection.
-7. You will be redirected back to the RevenueHunt app. The Klaviyo card will now show as `Connected`, with your account name and Site ID displayed.
-8. Klaviyo is automatically **enabled** for the quiz you initiated the connection from. You can enable it for other quizzes individually by opening `Quiz Settings > Integrations` and toggling `Send quiz leads to Klaviyo`.
-9. Publish the changes with the top `Save` button.
-10. Take the quiz all the way to the results. Use a sample email that does not already exist in your Klaviyo account.
-11. Open `Klaviyo > Audience > Profiles`. If a new profile appeared, the integration works.
+The Klaviyo integration uses OAuth to connect your store to Klaviyo. The connection is made once for the whole store. You then switch it on for each quiz separately.
+1. **Open the RevenueHunt app and navigate to any quiz.**
+2. **Go to `Quiz settings > Integrations` tab.**
+3. **Scroll to the `Mailing & CRMs` section and find the Klaviyo card.**
+4. **Click the `Connect` button.**
+5. **Log in to Klaviyo if prompted.** The app sends you to Klaviyo's authorization page.
+6. **Select the Klaviyo account you want to connect and review the permissions requested, then click `Allow` to authorize the connection.**
+7. **Check the Klaviyo card back in the app.** It shows `Connected`, with your account name and Site ID.
+8. **Turn Klaviyo on for your other quizzes.** The quiz you connected from is already on. For any other, open `Quiz settings > Integrations` and tick `Send Quiz Leads to Klaviyo Profiles`.
+9. **Publish the changes with the top `Save` button.**
+10. **Take the quiz all the way to the results.** Use a sample email that does not already exist in your Klaviyo account.
+11. **Open `Klaviyo > Audience > Profiles`.** If a new profile appeared, the integration works.
 From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 !!! tip "Reconnecting"
     If you previously connected Klaviyo and need to refresh permissions or switch accounts, click `Reconnect` on the Klaviyo card. Use `Disconnect` to revoke the connection entirely.
 !!! info "Legacy API key setup"
     A store that set Klaviyo up before the OAuth integration still works on its saved Public and Private API keys. Reconnect through OAuth anyway: the setup is simpler, and the app then manages the tokens for you.
-**Custom Properties**
+**Custom properties**
 From now on, each customer's contact details, answers and product recommendations are sent to your Klaviyo account. They arrive as `custom properties` on the Klaviyo profile, and you use those properties to personalize an email template.
-![how to send leads to klaviyo customer profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
+![Quiz data on a Klaviyo profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
 Property names use the quiz **Short ID** (`[SQID]`) and internal **references** (`[REF]`) of your questions, choices and tags.
 | Property | Value |
 | --- | --- |
@@ -11841,56 +11798,54 @@ Property names use the quiz **Short ID** (`[SQID]`) and internal **references** 
         You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
 2. **Connect Quiz to Klaviyo**: Follow the instructions in [Link your quiz to Klaviyo](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
 3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo.
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
+    1. **In Klaviyo, go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment and set up the definition.**
+    3. **Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz.** This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
         !!! example "Example"
             - `ANSWERS_BY_BLOCK-QuizID` property is unique for profiles coming from the quiz.
             - If the `ANSWERS_BY_BLOCK-QuizID` property is not in the dropdown, take a test quiz and try again.
-    4. Segment definition: As segment definition set up a rule that follows this format: `Custom property from the Quiz` `is set` Type: `text`.
+    4. **Build the rule as `Custom property from the Quiz` `is set` Type: `text`.**
         !!! example "Example"
             - `ANSWERS_BY_BLOCK-QuizID` `is set` Type: `text`.
-    5. Click `Create a segment` and wait for Klaviyo to load all the contacts that match the segment definition. This may take a few minutes.
-    6. Once the agent finishes loading, all the profiles that already match the segment definition will be added to the segment. New contacts coming from the quiz will be added to the segment automatically.
+    5. **Click `Create a segment` and wait for Klaviyo to load all the contacts that match the segment definition.** This may take a few minutes.
+    6. **Once the segment finishes loading, all the profiles that already match the segment definition will be added to the segment.** New contacts coming from the quiz will be added to the segment automatically.
 4. **Create an Email Flow**: create a flow that starts when someone is added to the segment from the previous step. This is the hardest part, because the emails have to be built by hand in Klaviyo.
     **Trigger the Flow**
-    1. To build a flow that reaches only customers who finished the quiz, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the previous step. Set the `Reentry criteria` to `Allow reentry`, so a customer gets an email every time they finish the quiz. Click `Confirm` and `Confirm and save`.
+    1. **Open the `Flows` tab in Klaviyo.** The flow you build there reaches only customers who finished the quiz.
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set up the flow trigger.** Klaviyo asks for one as soon as the flow is created.
+    5. **Choose the trigger to be `Added to a segment` and select the segment created in the previous step.** Set the `Reentry criteria` to `Allow reentry`, so a customer gets an email every time they finish the quiz. Click `Confirm` and `Confirm and save`.
         !!! tip "Alternative: trigger from a Klaviyo list"
             You can start the flow when a contact is added to a Klaviyo list, rather than to a segment. Use this if the `Klaviyo list` selector in your email question block already sends contacts to a list. See [Adding quiz contacts to Klaviyo list](#adding-quiz-contacts-to-klaviyo-list).
     **Optional: Update Marketing Consent**
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
-5. **Edit the Email**: In the next steps, you should edit the email template.
-    **Add Email Action**
-    ![how to send leads to klaviyo built for shopify revenuehunt app create email flow](https://loom.com/i/01df24e93900407b9141998dfb070a2e?workflows_screenshot=true)
-    1. Grab the `EMAIL` action and drop it below the flow trigger.
-    **Edit the Email template**
-    2. In `Email details` section edit the Subject.
-    3. Click `Select template`. Klaviyo opens the Templates section.
-    4. Click `Create` to make a new email template. The Klaviyo email builder opens.
-    5. In the Klaviyo email builder, use the ready-made blocks to add images or text to your template.
-    6. To add the quiz content and the recommended products, drag an `HTML` block into the email builder.
-    7. The `Quiz Settings > Integrations` section holds a button to download a `Klaviyo Template`. Click the `Klaviyo Template` button and a new window will open. There, click `Copy code` to copy the existing template.
-        !!! info "Klaviyo Template"
-            ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
-            ![how to send leads to klaviyo email template download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.**
+    3. **Set up the profile property update in the menu that opens.**
+    4. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    5. **Turn this action `LIVE`.**
+5. **Edit the email**: build the email the flow sends.
+    ![Creating the email flow in Klaviyo](https://loom.com/i/01df24e93900407b9141998dfb070a2e?workflows_screenshot=true)
+    1. **Grab the `EMAIL` action and drop it below the flow trigger.**
+    2. **Edit the `Subject` in the `Email details` section.**
+    3. **Click `Select template`.** Klaviyo opens the Templates section.
+    4. **Click `Create` to make a new email template.** The Klaviyo email builder opens.
+    5. **In the Klaviyo email builder, use the ready-made blocks to add images or text to your template.**
+    6. **To add the quiz content and the recommended products, drag an `HTML` block into the email builder.**
+    7. **The `Quiz settings > Integrations` section holds a button to download a `Klaviyo Template`.** Click the `Klaviyo Template` button and a new window will open. There, click `Copy code` to copy the existing template.
+        !!! info "The ready-made Klaviyo template"
+            ![The Klaviyo template button in the app](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+            ![Copying the template code](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
             The code holds several ready-made snippets. They display:
             - **Dynamic Results page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
             - **Static Results page**: Display the complete results page content using static lookups. Static Results page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
             - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
             - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
-    8. Paste the code in the `HTML` block in Klaviyo email.
-        ![how to send leads to klaviyo built for shopify revenuehunt app example template in klaviyo](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
-    9. `Preview` the email as one of your segment subscribers, to check what it shows.
-    10. Edit the template as you like. You can delete the sections of code you do not need, and restyle the rest to match your branding.
+    8. **Paste the code in the `HTML` block in Klaviyo email.**
+        ![The ready-made template pasted into a Klaviyo HTML block](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
+    9. **`Preview` the email as one of your segment subscribers, to check what it shows.**
+    10. **Edit the template as you like.** You can delete the sections of code you do not need, and restyle the rest to match your branding.
         !!! tip "Let Quiz Copilot edit and style your Klaviyo template"
             You do not need a developer to customize the Klaviyo HTML template. Paste the template code into [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to:
             - remove sections you do not need, for example to keep only the recommended products or only the question answers,
@@ -11900,44 +11855,44 @@ Property names use the quiz **Short ID** (`[SQID]`) and internal **references** 
             Once Quiz Copilot returns the updated code, paste it back into the `HTML` block in your Klaviyo template.
         ??? info "Create your own email template"
             Check the [Use quiz data in Klaviyo email templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) article to learn how to customize your Klaviyo email template with quiz properties.
-    11. When the template is ready, click `Exit`, then `Done`, and return to your flow.
-    12. Turn your email `LIVE`.
+    11. **When the template is ready, click `Exit`, then `Done`, and return to your flow.**
+    12. **Turn your email `LIVE`.**
     From then on, every customer who leaves an email is added to your Klaviyo segment and sent the follow-up email.
 6. **Re-trigger the flow**: to send an email on every retake, set the **reentry criteria** on the flow trigger:
-    1. Open the flow trigger (`Added to a segment`).
-    2. Set the `Reentry criteria` to `Allow reentry`.
-    3. Save the trigger.
+    1. **Open the flow trigger (`Added to a segment`).**
+    2. **Set the `Reentry criteria` to `Allow reentry`.**
+    3. **Save the trigger.**
     A customer then gets an email every time they finish the quiz.
     !!! tip "Alternative method"
         You can also achieve this by adding a `Profile property update` action at the end of the flow that **deletes** the segment property (for example, `ANSWERS_BY_BLOCK-QuizID`). Each time the customer finishes the quiz, the property is added again, they re-enter the segment, and the flow runs.
-        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
+        ![Allowing reentry so a retake sends the email again](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=G8fIYtPfLkZjmy8I&amp;start=114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-With the OAuth connection in place, you can add contacts from the quiz straight to a Klaviyo **list**. You need no extra API keys, because the list selector sits inside the email question block.
-1. Make sure you have a Klaviyo list ready. To create one, go to `Klaviyo > Audience > Lists & Segments`. In the list settings, make sure to set it to `Single Opt-in`.
+With the OAuth connection in place, you can add contacts from the quiz straight to a Klaviyo list. You need no extra API keys, because the list selector sits inside the email question block.
+1. **Make sure you have a Klaviyo list ready.** To create one, go to `Klaviyo > Audience > Lists & Segments`. In the list settings, make sure to set it to `Single Opt-in`.
     !!! warning
-        Quiz contacts can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) list in Klaviyo.
-2. Make sure your RevenueHunt account is [connected to Klaviyo via OAuth](#link-your-quiz-to-klaviyo) and that the `Send Quiz Leads to Klaviyo Profiles` checkbox is enabled in the quiz's `Quiz Settings > Integrations` section.
-3. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the email question block to open its settings.
-4. Under the `Klaviyo list` dropdown, select the list to add each customer to.
-5. Set the `subscription status` (for example, `Subscribed`).
-    ![how to klaviyo built for shopify revenuehunt app email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
-6. Save your quiz changes with the top-right `Save` button.
+        Quiz contacts can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) list in Klaviyo.
+2. **Make sure your RevenueHunt account is [connected to Klaviyo via OAuth](#link-your-quiz-to-klaviyo) and that the `Send Quiz Leads to Klaviyo Profiles` checkbox is enabled in the quiz's `Quiz settings > Integrations` section.**
+3. **In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and select the `Email` block.** The `Email input settings` panel opens.
+4. **Scroll to `Klaviyo list` and pick your list from `Select a Klaviyo list`.**
+5. **Tick `Subscribed` below the list.** It stays greyed out until you pick a list.
+    ![The Klaviyo list setting on the email block](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
+6. **Save your quiz changes with the top-right `Save` button.**
     !!! tip "Per-quiz lists"
         To feed a different Klaviyo list from each quiz, set the list on the email question block of each quiz separately.
-7. `Preview` the quiz and complete it with a sample email to verify the connection.
-8. In Klaviyo, go to `Audience > Lists & Segments` and open the list to confirm the test contact was added as `Subscribed`.
+7. **`Preview` the quiz and complete it with a sample email to verify the connection.**
+8. **In Klaviyo, go to `Audience > Lists & Segments` and open the list to confirm the test contact was added as `Subscribed`.**
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/6650ebf870714d9eaf450ea51439b0af?sid=91c5c125-318f-4b07-8233-350d1c7272c5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-A Klaviyo email template is built from HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system, so you need a developer to restyle the supplied template to your brand.
-**Custom Properties in Klaviyo**
-The app sends every answer, every recommended product and the contact details to the customer’s Klaviyo profile, where they appear as `custom properties`.
-![how to send leads to klaviyo customer profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
+A Klaviyo email template is built from HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) system, so you need a developer to restyle the supplied template to your brand.
+**Custom properties in Klaviyo**
+The app sends every answer, every recommended product and the contact details to the customer's Klaviyo profile, where they appear as `custom properties`.
+![Quiz data on a Klaviyo profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
 To add anything else to the email template, your developer pulls the matching `custom properties` off the profile.
 ??? info "Learn the person|lookup function"
     To build your own email template from these custom properties, read Klaviyo's [message personalization reference](https://help.klaviyo.com/hc/en-us/articles/4408802648731), which covers the `{{ person|lookup:"..." }}` function.
-??? warning "Overwriting or Appending Custom Properties"
-    Some properties arrive as an array: `ANSWER_BY_BLOCK`, `CHOICE`, `RESPONSE_ID`, `RESULT_REF`, `RESULT_SECTIONS` and `TAGS`. Each quiz completion **overwrites** the previous values.
-    However, properties such as `RECOMMENDATIONS_BY_SLOT` or `RESULT_CONTENT_BY_BLOCK` are sent as a JSON object, meaning that their values get **appended** to the existing data upon each quiz completion.
-    The supplied Klaviyo email template, which you download from the [Integrations](/reference/quiz-builder/connect-integrations/) tab, contains more than one snippet. To have the **values overwritten** on each quiz completion, use only the snippet that starts with this comment:
+??? warning "Overwritten or appended properties"
+    Some properties arrive as an array: `ANSWER_BY_BLOCK`, `CHOICE`, `RESPONSE_ID`, `RESULT_REF`, `RESULT_SECTIONS` and `TAG`. Each quiz completion overwrites the previous values.
+    However, properties such as `RECOMMENDATIONS_BY_SLOT` or `RESULT_CONTENT_BY_BLOCK` are sent as a JSON object, meaning that their values are appended to the existing data on each quiz completion.
+    The supplied Klaviyo email template, which you download from the [Integrations](/reference/quiz-builder/connect-integrations/) tab, contains more than one snippet. To have the values overwritten on each quiz completion, use only the snippet that starts with this comment:
     ```html
     {# ================================================================= #}
     {# DYNAMIC RESULT PAGE CONTENT (LOOPS THROUGH RESULT_SECTIONS-lBJ9bk) #}
@@ -11948,18 +11903,18 @@ To add anything else to the email template, your developer pulls the matching `c
 ### Use Copilot to generate Klaviyo email template
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/645cfa070ef5454f812d851908572cdb?sid=f8c3a497-b077-4c81-bfb6-863320a127cb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 Quiz Copilot can build the Klaviyo email template for your quiz email flow.
-1. [Open Quiz Copilot](/how-to-guides/use-quiz-copilot/). To start fresh, click `New conversation` in the top-right corner of the popup. You can also open it from the [Quiz Settings > Integrations](/reference/quiz-builder/connect-integrations/) page: find the `Klaviyo` integration and click `Edit template with AI`.
-2. Paste your desired layout message, and Quiz Copilot will generate the template code.
+1. **[Open Quiz Copilot](/how-to-guides/use-quiz-copilot/).** To start fresh, click `New conversation` in the top-right corner of the popup. You can also open it from the [`Quiz settings > Integrations`](/reference/quiz-builder/connect-integrations/) page: find the `Klaviyo` integration and click `Edit template with AI`.
+2. **Paste your desired layout message, and Quiz Copilot will generate the template code.**
     ![Quiz Copilot building Klaviyo templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
-3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
-4. Paste the generated code directly into an HTML block in your Klaviyo email template.
+3. **The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.**
+4. **Paste the generated code directly into an HTML block in your Klaviyo email template.**
 ### Example 1 - display recommended products
 In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
-!!! example "Example: List of Recommended Products in Klaviyo Template"
-    ![how_to_shipifyv2_klaviyo_template_productlist1](/images/how_to_shipifyv2_klaviyo_template_productlist1.png){width="300"}
-1. To show the recommended products, use this code from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
-    ![how_to_shopifyv2_klaviyo_shopify_v2_get_template](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
-    ??? example "Example: code from the Integrations tab"
+!!! example "Listing the recommended products"
+    ![The recommended products code in the template](/images/how_to_shipifyv2_klaviyo_template_productlist1.png){width="300"}
+1. **To show the recommended products, use this code from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:**
+    ![The Klaviyo Template button in Quiz settings](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+    ??? example "The code from the Integrations tab"
         ```html
         {# ======================================== #}
         {# INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT  #}
@@ -12017,13 +11972,13 @@ In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
         Image URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'image'|lookup:'url' }}
         </p>h3>
         ```
-2. Paste this code into an HTML block in a Klaviyo template. Previewed as one of the quiz subscribers, it shows the recommended products.
-    ![how_to_shipifyv2_klaviyo_template_productlist2](/images/how_to_shipifyv2_klaviyo_template_productlist2.png)
-3. To style the recommended products, your developer adds CSS classes to the HTML.
+2. **Paste this code into an HTML block in a Klaviyo template.** Previewed as one of the quiz subscribers, it shows the recommended products.
+    ![The recommended products shown in a preview](/images/how_to_shipifyv2_klaviyo_template_productlist2.png)
+3. **To style the recommended products, your developer adds CSS classes to the HTML.**
     For example, this is a styled version of the code above:
-    ??? example "Example: Styled version of the code above"
+    ??? example "A styled version of the code above"
         In Klaviyo, it will look like this:
-        ![how_to_shipifyv2_klaviyo_template_productlist3](/images/how_to_shipifyv2_klaviyo_template_productlist3.png)
+        ![Styling the recommended products with CSS classes](/images/how_to_shipifyv2_klaviyo_template_productlist3.png)
         ```html
         <!-- Two-Column Product Grid for Klaviyo Email -->
         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" align="center" style="font-family: sans-serif;">
@@ -12121,13 +12076,13 @@ In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
         </tr>
         </table>
         ```
-    ??? tip "Tip: Use Copilot or AI to style the code"
+    ??? tip "Use Quiz Copilot to style the code"
         You can use [Quiz Copilot](/how-to-guides/use-quiz-copilot/) or another AI agent like ChatGPT or Gemini to generate a styled version of the code.
-4. You can use elements of the code in your Klaviyo template elements.
-    !!! example "Example: Display Product Title in Text Block"
+4. **You can use elements of the code in your Klaviyo template elements.**
+    !!! example "Showing a product title in a text block"
         For example, you can use the `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'title' }}` to display the title of the first product in a text block.
-        ![how_to_shipifyv2_klaviyo_template_productlist4](/images/how_to_shipifyv2_klaviyo_template_productlist4.png)
-    !!! info "Sample Product Object Structure"
+        ![Reusing parts of the product code elsewhere](/images/how_to_shipifyv2_klaviyo_template_productlist4.png)
+    !!! info "A sample product object"
         This is the product object the quiz sent to Klaviyo:
         - Display recommendation of **item 0** for slot `rsbss-ca4fba94`
         - Title: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'title' }}`
@@ -12137,9 +12092,9 @@ In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
         - Image URL: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'image'|lookup:'url' }}`
 ### Example 2 - display quiz answers
 A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the email.
-1. To do this, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
-    ![how_to_shopifyv2_klaviyo_shopify_v2_get_template](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
-    ??? example "Example: Code from Quiz Integrations tab"
+1. **To do this, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:**
+    ![The Klaviyo Template button in Quiz settings](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+    ??? example "The code from the quiz Integrations tab"
         ```html
         {# ======================================= #}
         {# INFORMATION GATHERED FROM THE QUESTIONS #}
@@ -12196,14 +12151,14 @@ A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the em
         <br>
         </p>
         ```
-2. Paste this code into an HTML block in a Klaviyo template. Previewed as one of the quiz subscribers, it shows the full list of answers.
-    ![how_to_shipifyv2_klaviyo_template_answerslist1](/images/how_to_shipifyv2_klaviyo_template_answerslist1.png)
-3. If you want to show specific answers in your email template, you can copy parts of the code.
-    !!! example "Example: Display Answer for Q3: AGE GROUP"
+2. **Paste this code into an HTML block in a Klaviyo template.** Previewed as one of the quiz subscribers, it shows the full list of answers.
+    ![The answers list code in the template](/images/how_to_shipifyv2_klaviyo_template_answerslist1.png)
+3. **If you want to show specific answers in your email template, you can copy parts of the code.**
+    !!! example "Showing the answer to Q3, AGE GROUP"
         For example, you can use `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-dd744cf3-YN5L9G' }}` to  display the answer to Q3: AGE GROUP, whose reference is `qbc-dd744cf3`.
         To use it in a Klaviyo template text block:
-        ![how_to_shipifyv2_klaviyo_template_answerslist2](/images/how_to_shipifyv2_klaviyo_template_answerslist2.png)
-    !!! info "Sample Answer Object Structure"
+        ![The answers list shown in a preview](/images/how_to_shipifyv2_klaviyo_template_answerslist2.png)
+    !!! info "A sample answer object"
         To get the answer to one question:
         Quiz name: `{{ person|lookup:'QUIZ_NAME-YN5L9G' }}`
         First name: `{{ person.first_name }}`
@@ -12218,26 +12173,28 @@ A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the em
 ### Example 3 - display link to quiz results
 Use the `RESPONSE_ID-QuizID` property to create a link to the quiz results page.
 The default link format adds `#response-{{ person|lookup:'RESPONSE_ID-QuizID' }}` to the end of the URL:
-!!! example "Example: Link to Quiz results"
+!!! example "Linking to the quiz results"
     `<a href="https://yourwebsite.com/#response-{{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
     Here, `Gli0KD` is the quiz ID and `{{ person|lookup:'RESPONSE_ID-Gli0KD' }}` fetches the dynamic response ID (for example, `eVgV0Y`).
 If Klaviyo tracking rewrites or loses the `#response-ID` fragment, the Built for Shopify version of the RevenueHunt quiz app also supports `response_id` as an alternative query parameter:
-!!! example "Alternative: Tracked Link Using response_id"
+!!! example "A tracked link using response_id"
     `<a href="https://yourwebsite.com/pages/quiz?response_id={{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
 Replace the example URL with a storefront page where the **Link Popup Quiz** app embed is enabled. Normal Klaviyo click tracking can remain enabled for the query-parameter link. If the base URL already contains query parameters, append `&amp;response_id=...` instead of adding another `?`.
 For `#response-ID` links, adding `clicktracking="off"` to the `<a>` element can prevent Klaviyo from rewriting the link, but Klaviyo will not record click analytics for that link.
+Klaviyo's [Catalog Lookup Tag](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag) reads a product from the catalog Klaviyo already holds, given that product's id.
+Pass the product `id` from `RECOMMENDATIONS_BY_SLOT` instead of the `description` and `image` the quiz sends, and Klaviyo fills in the rest from the Shopify catalog it syncs.
 There are two ways to stop sending quiz data to Klaviyo: stop one quiz, or disconnect Klaviyo from your whole RevenueHunt account.
 **Option 1: Disconnect a single quiz**
 If you only want one specific quiz to stop sending data to Klaviyo (while other quizzes in your account keep working):
-1. Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
-2. Go to the `Integrations` tab, find the Klaviyo section, and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.
-3. Save your changes.
+1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.**
+2. **Go to the `Integrations` tab, find the Klaviyo section, and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.**
+3. **Save your changes.**
 No more quiz data will flow from that specific quiz to Klaviyo. Other quizzes in your account will continue to send data normally.
 **Option 2: Disconnect Klaviyo from your entire RevenueHunt account**
 If you want to completely revoke the Klaviyo connection across your whole RevenueHunt account:
-1. Open [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
-2. Scroll to Klaviyo and click `Disconnect`.
-3. Confirm the action.
+1. **Open [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.**
+2. **Scroll to Klaviyo and click `Disconnect`.**
+3. **Confirm the action.**
 The change saves automatically, and no quiz in your account sends data to Klaviyo any more. To reconnect later, click `Connect` again and complete the OAuth flow.
 
 
@@ -19571,7 +19528,7 @@ Each version includes:
 `Version ID: XXXXXX Last saved xx-xx-xxxx` - A version of the quiz.
 **Options Menu**
 `...` - Click to open the restore menu.
-`Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+`Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 `Restore this version` - Replaces the current version of the quiz with the selected one.
 `Copy quiz code` - Copy the quiz code (JSON) of this version to clipboard. You can then transfer this quiz version to another store.
 `Show more details` - Click to expand the version change details.

@@ -10375,45 +10375,47 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/restore-quiz-progress/
 
 ---
 icon: material/restore-alert
-description: "Learn how to restore a previous version of your RevenueHunt quiz using version history."
+description: "Learn how to recover an earlier version of your RevenueHunt quiz from version history."
 ---
 
 # How to Restore Quiz Progress
 
-You can recover an earlier version of a quiz, after lost progress or an unwanted change by a colleague.
+The app records a version of your quiz each time your changes go live. Version history lists those versions, so you can go back to an earlier one.
 
-This article explains how to use [Version History](/reference/quiz-builder/quiz-settings/#version-history) to restore that version.
+Use it after you lose work, or after a colleague makes a change you want to undo.
 
+The walkthrough below covers the whole process, and the written steps follow it.
 
+## Open version history
 
-## Accessing version history
+## What a version records
 
-## Understanding saved versions
-
-## Recovering a quiz version
-
----
-Follow instructions above to recover a published quiz version.
+## Restore an earlier version
 
 --- Shopify (Legacy) Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-[Version History](/reference/quiz-builder/quiz-settings/#version-history) lets you browse the saved versions of your quiz, offering a safeguard against accidental loss or changes.
-1. **Open Your Quiz**: Open the quiz you are working on.
-2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
-3. **Find the Version History Tab**: In the Quiz Settings, open the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. It lists the saved versions of your quiz.
-![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
-Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button.
-- A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history.
-- Colored `tags` show where a change was made, such as to `questions` or `settings`. They make each version easier to identify.
-- For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
-If you need to recover a previous version of the quiz:
-1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-2. **Use the Three Dots Menu**: Click the `...` menu next to the version you want to recover.
-3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-4. **Re-publish the Quiz**: Publish the new quiz to make it live on your store, in place of the old one.
+1. **Open the quiz you want to recover.**
+2. **Open [`Quiz Settings > Version History`](/reference/quiz-builder/quiz-settings/#version-history).**
+The tab lists your published versions, newest first. To get there from the [Dashboard](/reference/dashboard/), click `...` on the quiz tile and then `Version History`.
+![Version History in the quiz builder](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+A version is recorded when you click the top-right `Publish` button. Edits you have not published are not recorded.
+Each version in the list shows:
+- The date and time you published it.
+- Tags that name what changed, such as `questions`, `messages` or `notifications`.
+The tags name the part of the quiz that changed, but not which question or message. This version of the app has no detailed change view.
+So label the versions that matter while you still remember what is in them. Click the `...` menu next to a version and select `Rename this version`.
+This version of the app cannot overwrite your quiz with an earlier version. The earlier version can only become a new quiz, and that copy gets a new quiz ID.
+1. **Open [`Quiz Settings > Version History`](/reference/quiz-builder/quiz-settings/#version-history).**
+2. **Find the version you want by its date and its tags.**
+3. **Click the `...` menu next to that version.**
+    ![The Version History menu in the quiz builder](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
+5. **Open the copy and check that the recovered questions and results are there.**
+6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
+7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 !!! warning
-    You cannot replace the current quiz with an earlier version and keep the same quiz ID. An earlier version can only become a new quiz.
+    The old quiz keeps working until you replace it. An embed code carries the quiz ID, so any page, popup or link you leave alone still loads the old quiz.
 
 
 
@@ -10472,6 +10474,8 @@ These steps are the same for every flow.
 Every completion writes a set of `custom properties` to the Klaviyo profile. You reference these in segment definitions, conditional splits and email templates. The exact names include your quiz ID, so they are unique to your quiz.
 
 !!! tip "Find your exact property names on a test profile"
+
+    Do this before you build anything. Property names have changed between app versions, and the list above is a guide rather than a promise.
 
     Take a test quiz with a sample email, then open `Klaviyo > Audience > Profiles` and search for it. The profile shows every property your quiz sends, with the exact block references, slot names and quiz ID. Copy the names from there. See [Use Quiz Data in Klaviyo Email Templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) for the full reference and the `{{ person|lookup:'...' }}` syntax.
 
@@ -10780,7 +10784,7 @@ The full token reference, the downloadable Klaviyo template, and worked examples
 Your quiz sends these custom properties:
 - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
 - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
-- `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `price`, `sku`, `url`, `image_url`), where `<n>` starts at 0.
+- `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
 - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
 1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
 2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
@@ -10815,9 +10819,6 @@ icon: material/bullhorn-outline
 
 ### Adding recommended products to emails
 
----
-This article explains how to connect a quiz to ActiveCampaign, send quiz leads there, and set up follow-up emails.
-
 --- Shopify (Legacy) Specific Content ---
 
 Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
@@ -10828,26 +10829,26 @@ Before you begin, ensure you have:
 !!! note
     The integration sends the raw quiz data to ActiveCampaign. Build the flows and the custom events from that data in ActiveCampaign itself.
 To integrate your quiz with ActiveCampaign:
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
-3. In the integration options, find ActiveCampaign and copy the `API Token`. You will need it later.
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Open the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+3. **Find ActiveCampaign in the integration list and copy `Your API Token`.** You need it in step 6.
     ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
-4. Click the `Connect` button in the ActiveCampaign section.
-5. ActiveCampaign opens a configuration page. Click `Add an account`.
+4. **Click the `Connect` button in the ActiveCampaign section.**
+5. **Click `Add an account`.** ActiveCampaign opens the `Create Contacts From Quiz Responses` setup, which runs in three steps: `Connect`, `Select the Quiz` and `Mapping`.
     ![how to send leads to activecampaign step1](/images/how_to_send_leads_to_activecampaign_step1.png)
-6. Enter your `API Token` when prompted.
+6. **Paste the token into the `Token` field and click `Connect`.**
     ![how to send leads to activecampaign step2](/images/how_to_send_leads_to_activecampaign_step2.png)
-7. Select the quiz you want to integrate, then click `Continue`.
+7. **Select the quiz you want to integrate, then click `Continue`.**
     ![how to send leads to activecampaign step3](/images/how_to_send_leads_to_activecampaign_step3.png)
-8. Map your quiz responses to the matching fields in ActiveCampaign. You may need to add new field mappings.
+8. **Map your quiz responses to the matching fields in ActiveCampaign.** You may need to add new field mappings.
     ![how to activecampaign connect](/images/how_to_activecampaign_connect.png)
 Your quiz is now connected. Change the settings or update the integration from the same screen.
 ![how to send leads to activecampaign step final](/images/how_to_send_leads_to_activecampaign_step_final.png)
 You can also start the connection from inside ActiveCampaign:
-1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
+1. **Go to the `Apps` menu in ActiveCampaign and search for `Product Recommendation Quiz`.**
     !!! warning
         If you cannot see the Apps page, ActiveCampaign branding is probably turned off for your account. In your account settings, turn the ActiveCampaign branding setting off and then back on. Then check whether the Apps page appears.
-2. Select the quiz icon and follow the setup instructions. You will be asked for your `ActiveCampaign API Token`, which links the quiz data to your ActiveCampaign account. Find it in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
+2. **Select the quiz icon and follow the setup instructions.** You will be asked for a `Token`, which links the quiz data to your ActiveCampaign account. This is the app's own API token, not an ActiveCampaign one. Find it under `Your API Token` in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section.
 !!! note
     The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 To control exactly which data reaches ActiveCampaign, use one of these methods instead.
@@ -10879,21 +10880,21 @@ Quiz data is added to the contact as **custom fields**, and quiz tags are added 
 !!! warning "Products are sent as IDs only"
     The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 To add these fields to a new profile:
-1. In ActiveCampaign, go to `Lists -> Manage fields` and click `Add Field`.
+1. **In ActiveCampaign, go to `Lists > Manage fields` and click `Add Field`.**
     ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-2. Give each field a name.
+2. **Give each field a name.**
     ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-3. ActiveCampaign files the new fields under `General Details`.
+3. **Find the new fields under `General Details`.** ActiveCampaign files them there.
     ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-4. Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields. Every later contact from the quiz then carries this data.
+4. **Return to the `Product Recommendation Quiz` app in ActiveCampaign and map the new fields.** Every later contact from the quiz then carries this data.
     ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
 From then on, every new contact from the quiz carries the extra fields.
 ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
 To send an automatic follow-up email after the quiz, set up an automation in ActiveCampaign:
-1. In ActiveCampaign, open the `Automations` menu and create a new automation.
-2. Set the trigger by selecting your quiz under `Apps`.
+1. **In ActiveCampaign, open the `Automations` menu and create a new automation.**
+2. **Set the trigger by selecting your quiz under `Apps`.**
     ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
-3. Design your email template. To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
+3. **Design your email template.** To personalize it, add `custom properties` to your text blocks, such as a direct link to the quiz responses.
     ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 The only product information the app sends to ActiveCampaign is the recommended product IDs. That is not enough to display the full list of recommended products.
 To show any product in an ActiveCampaign email, first connect ActiveCampaign to Shopify. A product block can then display products from a chosen collection. You may be able to add several product blocks, and show or hide each one based on the recommended product ID. This has not been tested thoroughly.
@@ -10914,61 +10915,27 @@ description: "Learn how to send RevenueHunt quiz leads to your CRM platform for 
 
 Connect your quiz to a CRM service such as Klaviyo or Mailchimp, and every contact from the quiz is added to your account there. You can then build email campaigns around what each customer answered.
 
+Which services connect on their own depends on your platform and your version of the app, so open your tab below.
+
 ## Direct integrations
 
-### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
-
-Every customer who leaves an email in the quiz is added to your Shopify Customers list. Their profile carries the name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/) from the quiz.
-
-[:fontawesome-solid-arrow-right: send leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: automate with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)
-
-### [:material-wifi: Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
-
-Every contact from the quiz is added to your Klaviyo Profiles, and can be added to a List at the same time. Segment those profiles on the quiz answers, then build an email flow for each segment.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-klaviyo/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: build post-quiz lifecycle flows](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
-
-### [:material-hubspot: HubSpot](/how-to-guides/send-leads-to-hubspot/)
-
-Quiz results are sent to your HubSpot account, so you can segment your contacts on their answers and write a campaign for each group.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-hubspot/)
-
-### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
-
-Quiz data is sent to your Mailchimp account, so you can segment your audience and follow up by [customer tags](/reference/quiz-builder/customer-tags/). The Mailchimp integration sends only the email, the name and the customer tags. If you need to send more than that, such as the recommended products, pick a different service.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-mailchimp/)
-
-### [:material-information-slab-circle: Omnisend](/how-to-guides/send-leads-to-omnisend/)
-
-Quiz results are sent to your Omnisend mailing list as each customer finishes. Segment that list on the answers, then follow up with a campaign for each segment.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-omnisend/)
-
-### [:material-asterisk: Zapier](/how-to-guides/send-leads-to-zapier/)
-
-Zapier connects to thousands of apps, including most CRMs. Send your quiz leads to Zapier, and Zapier passes them on to any service it supports.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-zapier/)
-
-### [:material-greater-than-or-equal: ActiveCampaign](/how-to-guides/send-leads-to-activecampaign/)
-
-Every quiz response becomes an ActiveCampaign contact, with the answers attached as custom fields and the quiz tags as native tags.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-activecampaign/)
-
-### [:material-webhook: Webhooks](/how-to-guides/send-leads-to-webhooks/)
-
-A webhook sends the full quiz data to any endpoint you choose: the answers, the recommended products and the customer's contact details.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-webhooks/)
+The app sends the quiz data to these services itself. No other tool is needed.
 
 ## Indirect integrations
 
-If your CRM service is not in the list above, route the data through [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead. Both can forward it to a service the app does not support directly.
+--- Shopify (Legacy) Specific Content ---
 
-You can also [send result emails from the app](/how-to-guides/send-result-emails/), or [download all responses as a CSV file](/how-to-guides/download-quiz-responses/) and upload that file to the other service yourself.
+- **[:fontawesome-brands-shopify: Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/)**: every customer who leaves an email is added to your Shopify Customers list. The profile carries the name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/) from the quiz.
+- **[:material-cog-transfer-outline: Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)**: start a Shopify Flow workflow when a customer finishes the quiz.
+- **[:material-wifi: Klaviyo](/how-to-guides/send-leads-to-klaviyo/)**: contacts are added to your Klaviyo Profiles, and to a List if you pick one. Segment on the answers, then build [a flow for each segment](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
+- **[:material-hubspot: HubSpot](/how-to-guides/send-leads-to-hubspot/)**: quiz results are sent to your HubSpot account. Segment your contacts on their answers, then write a campaign for each group.
+- **[:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)**: the email, the name and the [customer tags](/reference/quiz-builder/customer-tags/) are sent to your audience. Segment your audience on those tags and follow up. Recommended products are not sent, so pick another service if you need them.
+- **[:material-information-slab-circle: Omnisend](/how-to-guides/send-leads-to-omnisend/)**: quiz results are sent to your Omnisend mailing list as each customer finishes. Segment that list on the answers, then send a campaign to each segment.
+- **[:material-asterisk: Zapier](/how-to-guides/send-leads-to-zapier/)**: Zapier connects to thousands of apps, including most CRMs, and passes your quiz leads on to any service it supports.
+- **[:material-greater-than-or-equal: ActiveCampaign](/how-to-guides/send-leads-to-activecampaign/)**: every quiz response becomes an ActiveCampaign contact, with the answers attached as custom fields and the quiz tags as native tags.
+- **[:material-webhook: Webhooks](/how-to-guides/send-leads-to-webhooks/)**: the full quiz data goes to any endpoint you choose. That covers the answers, the recommended products and the contact details.
+**[:material-email-fast-outline: MailerLite](/how-to-guides/send-leads-to-mailerlite/)** has no direct connection. Route the data through [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/), or export your responses as a CSV file and upload that file yourself. The MailerLite guide covers each route in full.
+Any other service that is not listed above works the same way. You can also [send result emails from the app](/how-to-guides/send-result-emails/), or [download all responses as a CSV file](/how-to-guides/download-quiz-responses/) and upload that file to the other service.
 
 
 
@@ -11000,9 +10967,6 @@ icon: simple/hubspot
 
 ## Disconnect HubSpot
 
----
-This article explains how to send quiz leads to HubSpot, and how to set up a follow-up email there.
-
 --- Shopify (Legacy) Specific Content ---
 
 Connect your quiz to HubSpot and every quiz result is sent to your HubSpot account. You can then segment your contacts on their answers, and write a campaign for each group.
@@ -11010,13 +10974,13 @@ This article explains how to link your quiz to HubSpot, so you can follow up on 
 Before starting, make sure you have:
 - Access to your quiz in the RevenueHunt app.
 - An active HubSpot account.
-1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
-2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
-3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-4. Select your HubSpot account from the list provided.
-    ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
-5. A confirmation page opens, showing that the connection was made.
-    ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+2. **Find HubSpot in the integration list and click `Connect`.**
+3. **Authorize the connection in the new browser tab.**
+4. **Select your HubSpot account from the list.**
+    ![Choosing a HubSpot account to connect](/images/how_to_send_leads_to_hubspot_connect.png)
+5. **Check the confirmation page.** It shows that the connection was made.
+    ![The page confirming the HubSpot connection](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 Once connected, the quiz results will automatically flow into your HubSpot account.
 The integration is enabled automatically when you connect your quiz to HubSpot. All quiz responses with an email address will be sent to your HubSpot account.
 Adding contacts to a specific list is not available in this version. You can create segments in HubSpot based on the custom properties sent with quiz responses.
@@ -11024,12 +10988,12 @@ To control exactly which data reaches HubSpot, use one of these methods instead.
 - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
-1. To view the imported data, navigate to the `contacts` section within HubSpot.
-2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-    ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
-3. Find the section labeled `Product Recommendation Quiz`, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
-    ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
-**Custom Properties**
+1. **In HubSpot, go to `Contacts`.**
+2. **Open a contact who finished the quiz, then click `View all properties`.**
+    ![View all properties on a HubSpot contact](/images/how_to_hubspot_image1.png)
+3. **Find the `Product Recommendation Quiz` group**, or a similar name depending on your setup. It holds every field from the quiz, including the answers and the product recommendations.
+    ![The Product Recommendation Quiz property group](/images/how_to_hubspot_image2.png)
+**Custom properties**
 Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
 !!! warning "Create the properties in HubSpot first"
     Unlike the Built for Shopify version, the legacy app does **not** create properties automatically. You need to create each one manually in HubSpot, using the exact internal name listed below, before the data can sync.
@@ -11064,26 +11028,26 @@ Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with th
     | Permalinks and product lists | Text |
 !!! info
     The app sends the quiz data to HubSpot. You build the flows and the email templates in HubSpot, so ask HubSpot support about that part of the setup.
-1. Once your quiz is successfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
-2. Create a list holding only the customers who finished the quiz. Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
+1. **Set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.** Your quiz has to be connected first.
+2. **Create a list holding only the customers who finished the quiz.** Build it from the custom properties the quiz sends. You can then write a separate campaign for each set of answers.
     !!! tip
         Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
-3. Use that list as the trigger for your campaign, so only those customers get the email.
-4. Set up your campaign and email flow.
-5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-6. Turn the campaign on. HubSpot then sends the email to everyone in the list.
+3. **Use that list as the trigger for your campaign.** Only those customers then get the email.
+4. **Set up your campaign and email flow.**
+5. **Personalize the email with the `Personalization Token` feature.** [Using custom quiz properties in email templates](#using-custom-quiz-properties-in-email-templates) covers how.
+6. **Turn the campaign on.** HubSpot then sends the email to everyone in the list.
 To personalize a follow-up email with quiz data, pull the custom properties into the email template.
-1. In HubSpot, navigate to `Marketing > Email > Create email`.
-    ![how to hubspot image4](/images/how_to_hubspot_image4.png)
-2. In the email editor, use the **Personalization Token** feature.
-3. Click on `Insert`, then select Personalization Token from the dropdown.
-    ![how to hubspot image5](/images/how_to_hubspot_image5.png)
-4. Choose the custom quiz properties your quiz captured. HubSpot replaces each token with that contact's own data when the email is sent.
-5. Use the `Preview` feature to check that the custom properties appear correctly.
-    ![how to hubspot image6](/images/how_to_hubspot_image6.png)
+1. **In HubSpot, go to `Marketing > Email > Create email`.**
+    ![Creating an email in HubSpot](/images/how_to_hubspot_image4.png)
+2. **In the email editor, open the `Personalization Token` feature.**
+3. **Click `Insert`, then select `Personalization Token`.**
+    ![Inserting a personalization token](/images/how_to_hubspot_image5.png)
+4. **Choose the custom quiz properties your quiz captured.** HubSpot replaces each token with that contact's own data when the email is sent.
+5. **Click `Preview` and check that the properties appear correctly.**
+    ![Previewing the email with the quiz properties filled in](/images/how_to_hubspot_image6.png)
 !!! info
-    HubSpot handles text from the quiz, but it **cannot embed images** in an email template as a custom property. Plan your quiz content around that limit.
-To disconnect HubSpot, go to the Quiz Builder > Connect tab and click `Disconnect` next to the HubSpot integration.
+    HubSpot handles text from the quiz. It cannot embed images in an email template as a custom property, so plan your quiz content around that limit.
+To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.
 
 
 
@@ -11106,7 +11070,7 @@ This article explains how to connect your quiz to Klaviyo and set up a follow-up
 
 ## Link your quiz to Klaviyo
 
-??? warning "Klaviyo Limitations"
+??? warning "Klaviyo limitations"
 
     **Processing Time**: Klaviyo may have some delay in displaying new leads.
 
@@ -11146,15 +11110,15 @@ The instructions here are written to be passed to a developer.
 
     This section covers the one email that delivers the results. [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/) covers five more: abandoned cart, browse, reorder, cross-sell and win-back, each segmented on the quiz answers and tags.
 
-??? warning "RevenueHunt Support Scope"
+??? warning "What support can help with"
 
     The app sends the quiz data to Klaviyo. You build the flows and the email templates in Klaviyo, so ask Klaviyo support about that part of the setup.
 
 ## Adding quiz contacts to Klaviyo list
 
-??? tip "Tip: Segmented Campaigns Work Better"
+??? tip "Segmented campaigns work better"
 
-    Adding contacts to a Klaviyo list is not the only option. You can build **dynamic segments** from your customers’ answers instead, and send each segment its own email. A segmented campaign earns more than 3X the revenue per recipient of an unsegmented one.
+    Adding contacts to a Klaviyo list is not the only option. You can build **dynamic segments** from your customers' answers instead, and send each segment its own email. A segmented campaign earns more than 3X the revenue per recipient of an unsegmented one.
 
     With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more about sending follow-up emails via Klaviyo](#sending-follow-up-emails-via-klaviyo), including how to create and use segments on Klaviyo.
 
@@ -11162,40 +11126,30 @@ The instructions here are written to be passed to a developer.
 
 ### Example email templates
 
-### Pull product information directly from Shopify
-
-Klaviyo can pull the product information straight from Shopify, given the product id. Rather than the `description` or `image_url` the quiz sends, pass the product's `origin_id` and let Klaviyo read the rest from Shopify. See the Klaviyo [Overview of the Catalog Lookup Tag](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag).
+### Pull product information from your catalog
 
 ## Disconnect Klaviyo
-
-
-
-
----
-By following this article, you can set up your post-quiz email flow with Klaviyo.
 
 --- Shopify (Legacy) Specific Content ---
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-!!! tip "Tutorial"
-    For a worked example, follow the tutorial [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=MoMUJ1OTl-cmoBQo&amp;start=104" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-To connect the quiz to Klaviyo you need your Klaviyo **Public API Key**. The app uses that key to write to your Klaviyo profiles.
-1. To find your Public Key, log in to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key from the [Klaviyo API Keys tab](https://www.klaviyo.com/account#api-keys-tab).
-    ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
-2. Go back to the RevenueHunt app.
-3. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-    ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
-    ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
-4. Publish the changes with the top-right `Publish` button.
-5. Take the quiz all the way to the results. Use a sample email that does not already exist in your Klaviyo account.
-6. Open `Klaviyo > Audience > Profiles`. If a new profile appeared, the integration works.
+To connect the quiz to Klaviyo you need your Klaviyo `Public API Key`. The app uses that key to write to your Klaviyo profiles.
+1. **Open the [Klaviyo API keys tab](https://www.klaviyo.com/account#api-keys-tab), under account `Settings`, and copy your `Public API Key`.**
+    ![The Public API Key in Klaviyo account settings](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
+2. **Go back to the RevenueHunt app.**
+3. **In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection.** Paste your Public API Key and save.
+    ![Pasting the Public API Key into the app](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
+    ![The saved Klaviyo connection](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
+4. **Publish the changes with the top-right `Publish` button.**
+5. **Take the quiz all the way to the results.** Use a sample email that does not already exist in your Klaviyo account.
+6. **Open `Klaviyo > Audience > Profiles`.** If a new profile appeared, the integration works.
 From now on all the contacts coming from the quiz will be added to your Klaviyo account.
-**Custom Properties**
+**Custom properties**
 From now on, each customer's contact details, answers and product recommendations are sent to your Klaviyo account. They arrive as `custom properties` on the Klaviyo profile, and you use those properties to personalize an email template.
-![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
+![Quiz data on a Klaviyo profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
 | Property | Value |
 | --- | --- |
@@ -11218,78 +11172,77 @@ Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
 1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
 2. **Connect Quiz to Klaviyo**: Follow the instructions in [Link Your Quiz to Klaviyo](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
 3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo.
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
-    4. If the permalink property is not in the dropdown, take a test quiz and try again.
-    5. Click `Create a segment`.
+    1. **In Klaviyo, go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment and set up the definition.**
+    3. **Pick `PERMALINK-QuizID`.** Only profiles that came from the quiz carry it.
+    4. **Take a test quiz and try again if the permalink property is not in the dropdown.**
+    5. **Click `Create a segment`.**
 4. **Create an Email Flow**: create a flow that starts when someone is added to the segment from the previous step. This is the hardest part, because the emails have to be built by hand in Klaviyo.
     **Trigger Flow**
-    1. To build a flow that reaches only customers who finished the quiz, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.
+    1. **Open the `Flows` tab in Klaviyo.** The flow you build there reaches only customers who finished the quiz.
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set up the flow trigger.** Klaviyo asks for one as soon as the flow is created.
+    5. **Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.
     **Optional: Update Marketing Consent**
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
-5. **Edit the Email**: In the next steps, you should edit the email template.
-    **Add Email Action**
-    7. Click on the `three dots` and edit the email.
-    8. Edit the name/subject/email to your liking and select the `HTML email template`.
-    9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template.
-        ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
-        ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.**
+    3. **Set up the profile property update in the menu that opens.**
+    4. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    5. **Turn this action `LIVE`.**
+5. **Edit the email**: build the email the flow sends.
+    1. **Click on the `three dots` and edit the email.**
+    2. **Edit the name/subject/email to your liking and select the `HTML email template`.**
+    3. **Download the ready-made email template from the `Connect > Klaviyo` tab.**
+        ![The Klaviyo template button in the app](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+        ![Copying the template code](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
         !!! tip
             If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
-    10. Copy the code and go back to Klaviyo.
-    11. Open the `HTML email template` and remove the existing code.
-    12. Paste the new template code.
-    13. You can then `preview` the email as one of your segment subscribers.
-    14. Make sure to `Save` the changes and click `Done`.
-    15. Return to your flow and turn your email `LIVE`.
+    4. **Copy the code and go back to Klaviyo.**
+    5. **Open the `HTML email template` and remove the existing code.**
+    6. **Paste the new template code.**
+    7. **`Preview` the email as one of your segment subscribers.**
+    8. **Make sure to `Save` the changes and click `Done`.**
+    9. **Return to your flow and turn your email `LIVE`.**
     From then on, every customer who leaves an email is added to your Klaviyo segment and sent the follow-up email.
 6. **Re-trigger the flow**: to send an email on every retake, add a `Profile property update` action at the end of the flow:
-    1. Add a `Profile property update` action at the end of the flow.
-    2. Click `+ Step`.
-    3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
+    1. **Add a `Profile property update` action at the end of the flow.**
+    2. **Click `+ Step`.**
+    3. **Select `Delete existing property`.**
+    4. **From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.**
         !!! example "Example"
             Select `Delete existing property` > `PERMALINK-QuizID`.
-            ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+            ![Allowing reentry so a retake sends the email again](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
         ??? info "How to send an email every time someone completes the quiz?"
             First, build a segment on the `PERMALINK-{{quiz_id}}` property, so it holds only customers who finished the quiz. Then build a flow that starts when someone is added to that segment, emails them their results, and then **removes the `PERMALINK-{{quiz_id}}` property from their profile**. Removing it lets them re-enter the segment when they retake the quiz.
             For example:
-            ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
-    5. Save the changes and turn the action `LIVE`.
+            ![Allowing reentry so a retake sends the email again](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+    5. **Save the changes and turn the action `LIVE`.**
     Each time the customer takes the quiz again, they are added back to the segment, and the flow runs again.
 ??? tip "Deactivate the app emails"
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=ZjTq4oGBKH8ovagW&amp;start=429" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 The RevenueHunt app can add contacts from the quiz straight to a Klaviyo list.
-1. To do that you need a **Private API Key**.
-2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
-3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key from the [Klaviyo API Keys tab](https://www.klaviyo.com/account#api-keys-tab).
-    ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
-4. Allow `Full access`.
-5. Copy the private key.
-6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
-7. Paste your Private API Key.
-8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
+2. **Log in to your Klaviyo account.**
+3. **In account `Settings` open the `API Keys` tab and create a new Private API Key.** For list-specific contact additions, you can get your Klaviyo Private API Key from the [Klaviyo API Keys tab](https://www.klaviyo.com/account#api-keys-tab).
+    ![Creating a Private API Key in Klaviyo](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
+4. **Allow `Full access`.**
+5. **Copy the private key.**
+6. **In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.**
+7. **Paste your Private API Key.**
+8. **Choose to `mark all profiles as true` and select a list that contacts should be added to.**
     !!! warning
-        Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
-10. Save the changes and publish them with the top-right `Publish` button.
-11. Remember to test the connection with a sample email.
-A Klaviyo email template is built from HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system, so you need a developer to restyle the supplied template to your brand.
-The app sends every answer, every recommended product and the contact details to the customer’s Klaviyo profile, where they appear as `custom properties`.
-![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
+        Keep in mind that contacts from the quiz can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+9. **Save the changes and publish them with the top-right `Publish` button.**
+10. **Take the quiz with a sample email, then check the list in Klaviyo.**
+A Klaviyo email template is built from HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) system, so you need a developer to restyle the supplied template to your brand.
+The app sends every answer, every recommended product and the contact details to the customer's Klaviyo profile, where they appear as `custom properties`.
+![Quiz data on a Klaviyo profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 To add anything else to the email template, your developer pulls the matching `custom properties` off the profile.
 This example uses the quiz ID `dbqHqN`. Replace it with your own. Here is the code:
-??? example "Example: Basic Slots Template"
+??? example "The basic slots template"
     ```html
     <h3>Hello {{ person|lookup:'Q-dbqHqN ZMiXjj: .Before we get started... what\'s your name?'|default:'' }}!</h3>
     <p>Here we are making sure the product exists:</p>
@@ -11306,7 +11259,7 @@ This example uses the quiz ID `dbqHqN`. Replace it with your own. Here is the co
     {% endif %}
     ```
 This example shows two things. You can print the custom properties the quiz sends to Klaviyo, and you can use `IF-ELSE` statements to show or hide content based on the answers.
-!!! note "Note: Counting Products"
+!!! note "Counting the products"
     When looping through the products, the **count starts at 0 (zero)**. To display the names of 3 products in a slot, write it like this:
         ```html
         <p>{{ person|lookup:'SLOT-dbqHqN - product_0_name'|default:'' }}</p>
@@ -11314,11 +11267,18 @@ This example shows two things. You can print the custom properties the quiz send
         <p>{{ person|lookup:'SLOT-dbqHqN - product_2_name'|default:'' }}</p>
         ```
 Here are some other email templates that you can use as a reference:
-- [Basic Slots Template (4-Step Skincare Routine)](https://drive.google.com/file/d/1waa86eP6-Cd7GITOmXbFlvwDC9Nw0JsA/view?usp=sharing) – take [this quiz](https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-dbqHqN) & enter your email to see a demo.
-- [Advanced Slots Template (Morning & Night Routine)](https://drive.google.com/file/d/1HawvV57Z2dma8XFWdRrmeh5DwGTcVyaM/view?usp=sharing) – take [this quiz](https://skincarequiz.myshopify.com/#quiz-rkHm6Y) & enter your email to see a demo.
-- [Products List Template (Coffee Recommendations)](https://drive.google.com/file/d/1x33l8q1LZuuzZcQ5F8vZAo8BXjywsGMO/view?usp=sharing) – take [this quiz](https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-aMnHBw) & enter your email to see a demo.
+- [Basic Slots Template (4-Step Skincare Routine)](https://drive.google.com/file/d/1waa86eP6-Cd7GITOmXbFlvwDC9Nw0JsA/view?usp=sharing).
+- [Advanced Slots Template (Morning & Night Routine)](https://drive.google.com/file/d/1HawvV57Z2dma8XFWdRrmeh5DwGTcVyaM/view?usp=sharing).
+- [Products List Template (Coffee Recommendations)](https://drive.google.com/file/d/1x33l8q1LZuuzZcQ5F8vZAo8BXjywsGMO/view?usp=sharing).
 !!! warning "These templates will not work as they are"
     Unlike the template generated from the Connect > Klaviyo tab, these were written for a sample quiz, so they will not work as they are. Your developer will have to modify the `custom properties` to match the ones that are passed from the quiz to your Klaviyo account. The `quiz ID` is different, so are other property names.
+Klaviyo's [Catalog Lookup Tag](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag) reads a product from the catalog Klaviyo already holds, given that product's id.
+Pass the product `id` from `PRODUCTS-[ID]` or `SLOT-[ID]` instead of the `description` and `image_url` the quiz sends, and Klaviyo fills in the rest from the Shopify catalog it syncs.
+In this version the Klaviyo connection is set on each quiz, so disconnecting one quiz leaves the others working.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
+2. **Scroll to Klaviyo and click `Disconnect`.**
+3. **Publish the changes with the top-right `Publish` button.**
+That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
 
 
 
@@ -16465,7 +16425,7 @@ In Quiz Settings you can change the quiz language and currency, and edit button 
 In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
 ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
 `...` - Click to open the restore menu.
-`Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+`Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 `Rename this version` - Renames this saved version of the quiz.
 See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.

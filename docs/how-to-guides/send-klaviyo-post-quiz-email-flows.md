@@ -96,7 +96,8 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     - `ANSWER_BY_BLOCK-<blockRef>-<QuizID>`: the answer to one question. Overwritten on each retake.
     - `ANSWERS_BY_BLOCK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
-    - `TAGS-<QuizID>`: the customer tags from your quiz logic. Your main segmentation lever.
+    - `TAG-<TagName>-<QuizID>`: `true` for each customer tag your quiz logic applied. Your main segmentation lever.
+    - `CHOICE-<choiceRef>-<QuizID>`: `true` for each choice the customer selected. The reference calls this the best property to segment on, because it does not change when you reword a choice.
     - `RECOMMENDATIONS_BY_SLOT-<QuizID>`: recommended products (title, price, image, URL). JSON object, appended on each retake.
     - `RESPONSE_ID-<QuizID>`: the unique response ID. Use it to link back to the results page.
     - `QUIZ_NAME-<QuizID>`: the quiz name. Handy in subject lines.
@@ -107,7 +108,7 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
     - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
-    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `price`, `sku`, `url`, `image_url`), where `<n>` starts at 0.
+    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
     - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
 
 === "WooCommerce"
@@ -116,8 +117,8 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
     - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
-    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `price`, `sku`, `url`, `image_url`), `<n>` starts at 0.
-    - `T-<QuizID>: <tag>`: a customer tag, present when applied.
+    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
+    - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
 
 === "Magento"
 
@@ -125,8 +126,8 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
     - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
-    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `price`, `sku`, `url`, `image_url`), `<n>` starts at 0.
-    - `T-<QuizID>: <tag>`: a customer tag, present when applied.
+    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
+    - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
 
 === "BigCommerce"
 
@@ -134,8 +135,8 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
     - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
-    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `price`, `sku`, `url`, `image_url`), `<n>` starts at 0.
-    - `T-<QuizID>: <tag>`: a customer tag, present when applied.
+    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
+    - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
 
 === "Standalone"
 
@@ -143,10 +144,12 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
     - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
-    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `price`, `sku`, `url`, `image_url`), `<n>` starts at 0.
-    - `T-<QuizID>: <tag>`: a customer tag, present when applied.
+    - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
+    - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
 
 !!! tip "Find your exact property names on a test profile"
+
+    Do this before you build anything. Property names have changed between app versions, and the list above is a guide rather than a promise.
 
     Take a test quiz with a sample email, then open `Klaviyo > Audience > Profiles` and search for it. The profile shows every property your quiz sends, with the exact block references, slot names and quiz ID. Copy the names from there. See [Use Quiz Data in Klaviyo Email Templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) for the full reference and the `{{ person|lookup:'...' }}` syntax.
 
@@ -162,7 +165,7 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
     !!! tip "Segment on a specific answer or tag"
 
-        To target some of those customers rather than all of them, filter on a specific value instead, for example `TAGS-<QuizID>` `contains` `Color-Treated`, or `ANSWER_BY_BLOCK-<blockRef>-<QuizID>` `equals` `Oily`. That is how you build a version of any flow below for one group of customers.
+        To target some of those customers rather than all of them, filter on a specific value instead, for example `TAG-Color-Treated-<QuizID>` `is set`, or `ANSWER_BY_BLOCK-<blockRef>-<QuizID>` `equals` `Oily`. That is how you build a version of any flow below for one group of customers.
 
 === "Shopify (Legacy)"
 
@@ -490,7 +493,7 @@ Every flow personalizes the same way, with these lookups inside an `HTML` block.
     - **Answer:** `{{ person|lookup:'ANSWER_BY_BLOCK-<blockRef>-<QuizID>' }}`
     - **Recommended product:** `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-<QuizID>'|lookup:'<slot>'|lookup:'0'|lookup:'title' }}` (swap `title` for `description`, `price`, `onlineUrl`, or `image`)
     - **Link to their results:** `#response-{{ person|lookup:'RESPONSE_ID-<QuizID>' }}`
-    - **Branch on a tag:** in a `Conditional split`, `TAGS-<QuizID>` `contains` `<tag>`
+    - **Branch on a tag:** in a `Conditional split`, `TAG-<TagName>-<QuizID>` `is set`
 
     !!! tip "Let Quiz Copilot build it"
 

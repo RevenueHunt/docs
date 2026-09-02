@@ -783,7 +783,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 
     `Restore this version` - Replaces the current version of the quiz with the selected one.
 
@@ -802,7 +802,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 
     `Rename this version` - Renames this saved version of the quiz.
 
@@ -816,7 +816,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 
     `Rename this version` - Renames this saved version of the quiz.
 
@@ -830,7 +830,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 
     `Rename this version` - Renames this saved version of the quiz.
 
@@ -844,7 +844,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 
     `Rename this version` - Renames this saved version of the quiz.
 
@@ -858,7 +858,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create new quiz using this version` - Create a new quiz on your dashboard, based on this version of the current quiz.
 
     `Rename this version` - Renames this saved version of the quiz.
 
