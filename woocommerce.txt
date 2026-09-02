@@ -8679,62 +8679,69 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 # How to Pass Parameters to Pre-fill Quiz Responses
 
-## Option 1: declare window.prq_vars
+A quiz can open with some answers already filled in, so a customer never retypes something you already hold.
 
-## Option 2: pass URL parameters
+That is worth doing when a logged-in customer's name and email are already on file. It helps too when you send people from a mailing list that holds their details. A pre-filled question is skipped, so the quiz is shorter as well.
+
+## Pre-fill answers when a customer retakes the quiz
+
+## Pre-fill with JavaScript variables
+
+## Pre-fill with URL parameters
 
 ---
-This article explains how to pass parameters to pre-fill quiz responses in the RevenueHunt quiz app.
+
+This article explains the three ways a quiz can open with answers already filled in, and which one each version has.
 
 --- WooCommerce Specific Content ---
 
-With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
-- This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
-- It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
-This feature can be implemented in two ways:
-- Declare JavaScript variables in your store source code. This needs a developer.
-- Pass URL parameters on a link to your store.
-You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+!!! note "Not part of this version"
+    There is no retake setting here. Fill the answers in yourself, with [JavaScript variables](#pre-fill-with-javascript-variables) or [URL parameters](#pre-fill-with-url-parameters).
+Declare `window.prq_vars` in a `<script>` tag on the page that holds the quiz. This route needs a developer.
 ```html
 <script>
 window.prq_vars = {};
 window.prq_vars.name = 'John Doe';
 window.prq_vars.email = 'john.doe@gmail.com';
 window.prq_vars.phone = '+15556219645';
+// a question ID, with its choice IDs separated by a semicolon
 window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
-// question ID - choices IDs separated by ;
 </script>
 ```
-### Example
-**Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
-**Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
-1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
-3. Add this script to your product page:
-```html
-<script>
-window.prq_vars = {};
-window.prq_vars.questionID = 'productID';
-</script>
-```
-The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
-The `productID` parameter then tells you where the quiz was taken.
-URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
-```html
+`name`, `email` and `phone` fill the matching question types. For any other question, use its question ID as the key.
+**Recording which page the quiz was taken from**
+Say the quiz is embedded on every product page, and you want to know which one a customer started from.
+1. **Add a `Short Text` question to hold the value.** See [Question types](/reference/quiz-builder/questions/#question-types).
+2. **Copy its question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).**
+3. **Set that ID on your product page, with the product ID as its value.**
+    ```html
+    <script>
+    window.prq_vars = {};
+    window.prq_vars.cdRDCc = 'PRODUCT-1234';
+    </script>
+    ```
+4. **Take the quiz from that page, then open [Responses](/reference/quiz-builder/metrics/#responses) and check the product ID arrived.**
+!!! warning "A pre-filled question is skipped"
+    The customer never sees a question you fill in for them. If the same quiz also runs somewhere that has no script, pass an empty value for that question ID there, or the question appears.
+A URL parameter is a value carried on the end of a link, after a `?`, with an `&` between one parameter and the next. Prefix each key with `prq_`.
+```text
 prq_name=John Doe
 prq_email=john.doe@gmail.com
 prq_phone=+15556219645
 prq_cdRDCc=xDAwDe;aSEfBq
-// question ID - choices IDs separated by ;
 ```
-If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
-### Example
-This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
-[https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
-This link passes URL parameters:
-[https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
-Take the quiz now, and the name and email questions are pre-filled and skipped.
+| Parameter | What it fills |
+|---|---|
+| `prq_name` | The name question |
+| `prq_email` | The email question |
+| `prq_phone` | The phone question |
+| `prq_` and a question ID | That question, with choice IDs separated by a semicolon |
+!!! info "A URL parameter beats a JavaScript variable"
+    If the same value is set in `window.prq_vars` and in the URL, the URL wins.
+**Try it on your own quiz**
+1. **Open the page that holds your quiz and copy its address.**
+2. **Add `?prq_name=John%20Doe&prq_email=john.doe@gmail.com` to the end of it.**
+3. **Open that link and take the quiz.** The name and email questions should arrive filled in, and the quiz should skip past them.
 
 
 
@@ -8748,17 +8755,19 @@ description: "Learn how to embed a RevenueHunt quiz into a GemPages page in Shop
 icon: material/view-quilt-outline
 ---
 
-# How to Publish Quiz on GemPages Page
+# How to Publish a Quiz on a GemPages Page
 
-GemPages lets you embed a RevenueHunt quiz into your landing pages and product pages. It uses the built-in **Shopify App** element and the Shopify theme editor.
+GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit on one of them.
 
 ---
-This article explains how to publish a RevenueHunt quiz on a GemPages page in Shopify.
+
+This article explains how to put a RevenueHunt quiz on a GemPages page. It also covers which block to pick for the way you want it to open.
 
 --- WooCommerce Specific Content ---
 
-!!! note "Platform Availability"
-    GemPages is a Shopify page builder, so this does not apply to WooCommerce.
+!!! note "GemPages is a Shopify page builder"
+    It has no WooCommerce version, so there is no GemPages page to put a quiz on here.
+    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 
 
@@ -8772,15 +8781,26 @@ description: "Learn how to integrate RevenueHunt quiz with PageFly page builder 
 icon: material/butterfly-outline
 ---
 
-# How to Publish Quiz on PageFly Page
+# How to Publish a Quiz on a PageFly Page
+
+PageFly builds Shopify landing pages and product pages. A quiz can sit inside one of those pages, or the page can carry a button that opens it.
+
+## Embed the quiz inline on a PageFly page
+
+## Link to the quiz from a PageFly button
 
 ---
-This article explains how to publish a RevenueHunt quiz on a PageFly page in Shopify.
+
+This article explains the two ways to get a RevenueHunt quiz onto a PageFly page, and which of them each version supports.
 
 --- WooCommerce Specific Content ---
 
-!!! note "Platform Availability"
-    PageFly is a Shopify page builder, so this does not apply to WooCommerce.
+!!! note "PageFly is a Shopify page builder"
+    It has no WooCommerce version, so there is no PageFly page to put a quiz on here.
+    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+!!! note "PageFly is a Shopify page builder"
+    It has no WooCommerce version, so there is no PageFly page to put a quiz on here.
+    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 
 
@@ -8796,39 +8816,23 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This article explains how to set up automatic popups on your store. It covers popups on the homepage, on a specific page and on all pages, exit intent, and how often a popup can appear.
+An automatic popup opens the quiz on its own, a few seconds after the customer arrives. You choose where it runs: the home page, one page, or every page.
 
-!!! info "What is an Automatic Popup?"
+!!! info "How often a customer sees it"
 
-    It is a quiz popup that appears after X seconds. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
+    A popup opens once per session. It does not reappear if the customer moves to another page, unless you turn `Exit Intent` on, or allow [repeated displays](#repeated-popup-displays-per-session).
 
-!!! warning
-
-    Automatic popups can be very intrusive which is why, by default, they are shown only once per customer session.
+    Automatic popups are intrusive, which is why once per session is the default.
 
 !!! note "Before you start"
 
-    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor. A basic understanding of HTML helps when you edit a theme.
-
-    *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
+    You need a quiz built in the RevenueHunt app, and access to your theme editor. Editing theme source code can break a storefront, so bring in a developer if a step is beyond you.
 
 ## Auto-popup on the main page
 
-!!! info "What is an Automatic Popup Quiz on the Main Page?"
-
-    It is a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
-
 ## Auto-popup on a specific page
 
-!!! info "What is an Automatic Popup Quiz on a Specific Page?"
-
-    It is a quiz popup that appears after X seconds on a specific page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
-
 ## Auto-popup on all pages
-
-!!! info "What is an Automatic Popup Quiz on All Pages?"
-
-    It is a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 ## FAQs
 
@@ -8840,53 +8844,56 @@ This article explains how to set up automatic popups on your store. It covers po
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the popup points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-By following these steps, you can enhance your ecommerce store's interactivity and user engagement through well-timed automatic popups.
+
+This article explains how to open a quiz as an automatic popup, where to run it, and what to check when it does not appear.
 
 --- WooCommerce Specific Content ---
 
-1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
-4. In the editor, find a `Custom HTML` element and add it to the page.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the automatic popup quiz will be visible on the main page.
-1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-3. In WordPress, open `Pages` and find the page where you want the popup to show. Click `Edit` to open the page.
-4. In the editor, find a `Custom HTML` element and add it to the page.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the automatic popup quiz will be visible on that page.
-1. **Install a Popup Plugin**: You need a plugin that creates and manages popups, such as Popup Maker or Elementor. Install and activate it from the WordPress dashboard.
-2. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-4. **Create a New Popup**: Navigate to the popup plugin's section in your WordPress dashboard. Select the option to create a new popup. Name your popup and start designing it. Most popup plugins offer a visual editor to customize the look and layout.
-5. **Embed the Quiz**: In the popup editor, add a `custom HTML` block  and paste the code copied from the app.
-6. **Set Popup Conditions**: Configure when and where the popup should appear on your site.
-7. **Publish and Test**: After configuring your popup, publish it. Then, visit your site to ensure the popup appears as expected and that the quiz functions properly within the popup.
-To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
-1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-3. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
-1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages`, find your front page and click `Edit`.**
+4. **Add a `Custom HTML` block and paste the code into it.**
+5. **Click `Update`.**
+6. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages`, find the page you want the popup on and click `Edit`.**
+4. **Add a `Custom HTML` block and paste the code into it.**
+5. **Click `Update`.**
+6. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+A popup on every page needs a plugin that can run one site-wide, such as Popup Maker or Elementor.
+1. **Install and activate a popup plugin from your WordPress admin.**
+2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+4. **In the plugin, create a new popup and name it.**
+5. **Add a `Custom HTML` block to the popup and paste the code into it.**
+6. **Set the plugin to show the popup on every page.**
+7. **Publish the popup.**
+8. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+Generate the popup code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it, as `data-quiz-id`.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+2. **Turn `Exit intent` on in the settings, then click `Get code`.** Copy the HTML it gives you.
+3. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+4. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+3. **Add `data-aggressive="true"` to the popup code.** The popup then keeps returning during the session until the customer finishes the quiz.
     ```html
     <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
     ```
-4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
-If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
-1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
+4. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+5. **Open your store, dismiss the popup, and carry on browsing.** It should come back.
+This error means the popup cannot find the quiz.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+3. **Check the `embed.js` script is on the page.** Add it through a custom HTML element if it is missing.
     ```html
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-4. Save the changes and refresh the page.
+4. **Save the page, then reload it.**
 
 
 
@@ -8902,33 +8909,19 @@ icon: material/chat-outline
 
 # How to Add a Quiz Popup via a Chat-Like Button on Your Store
 
-This article explains how to add a chat button that opens the quiz. It covers both the theme-based method and the manual one.
+A chat button sits in a corner of your store, looking like a support widget. A customer clicks it and the quiz opens in a popup.
 
-!!! info "What is a Chat Button?"
-
-    It is a button that opens the quiz popup when a customer clicks it.
+Unlike an [automatic popup](/how-to-guides/publish-quiz-automatic-popup/), it waits to be clicked, so it asks nothing of a customer who is not interested.
 
 !!! note "Before you start"
 
-    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor.
+    You need a quiz built in the RevenueHunt app, and access to your theme editor.
 
 ## Chat button on the homepage
 
-!!! info "What is a Chat Button on the Homepage?"
-
-    It is a chat-like button that appears on the homepage of your store. Clicking it opens the quiz popup.
-
 ## Chat button on all pages
 
-!!! info "What is a Chat Button on All Pages?"
-
-    It is a chat-like button that appears on all pages of your store. Clicking it opens the quiz popup.
-
 ## Chat button on a specific page
-
-!!! info "What is a Chat Button on a Specific Page?"
-
-    It is a chat-like button that appears on a specific page of your store. Clicking it opens the quiz popup.
 
 ## FAQs
 
@@ -8936,37 +8929,41 @@ This article explains how to add a chat button that opens the quiz. It covers bo
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the chat button points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-By following these instructions, you can successfully add a chat-like button to your Shopify/ecommerce store that opens a quiz popup.
+
+This article explains how to add a chat button that opens your quiz. It also covers where to run it, and what to check when it does not appear.
 
 --- WooCommerce Specific Content ---
 
-1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
-2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.
-3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
-4. In the editor, find a `Custom HTML` element and add it to the page.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the chat icon popup quiz will be visible on the main page.
-To show the chat button across your whole store, follow [Option 2: manual](#option-2-manual). Insert the code before the `</body>` closing tag in your theme.
-1. **Obtain Chat Button Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
-2. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-3. In WordPress, open `Pages` and find the page where you want the popup to show. Click `Edit` to open the page.
-4. In the editor, find a `Custom HTML` element and add it to the page.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the chat button will be visible on that page.
-To open a specific quiz as a chat button, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
-If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
-1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Chat button`](/reference/quiz-builder/share-publish/#chat).**
+2. **Set the colors, greeting message and popup size, then click `Get code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages`, find your front page and click `Edit`.**
+4. **Add a `Custom HTML` block and paste the code into it.**
+5. **Click `Update`.**
+6. **Open your store and click the chat button.** The quiz should open in a popup.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Chat button`](/reference/quiz-builder/share-publish/#chat).**
+2. **Set the colors, greeting message and popup size, then click `Get code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Appearance > Theme File Editor` and select `footer.php`.**
+4. **Paste the code just before the closing `</body>` tag**, so it loads on every page.
+5. **Click `Update File`.**
+6. **Open your store and click the chat button.** The quiz should open in a popup.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Chat button`](/reference/quiz-builder/share-publish/#chat).**
+2. **Set the colors, greeting message and popup size, then click `Get code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages`, find the page you want the button on and click `Edit`.**
+4. **Add a `Custom HTML` block and paste the code into it.**
+5. **Click `Update`.**
+6. **Open your store and click the chat button.** The quiz should open in a popup.
+Generate the chat button code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it.
+This error means the button cannot find the quiz.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+3. **Check the `embed.js` script is on the page.** Add it through a custom HTML element if it is missing.
     ```html
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-4. Save the changes and refresh the page.
+4. **Save the page, then reload it.**
 
 
 
@@ -8982,39 +8979,20 @@ icon: material/email-fast-outline
 
 # How to Get an External Quiz Link for Emails and Newsletters
 
-This article explains how to create an external quiz link for emails and newsletters.
+A link in an email can take a customer to a page that holds the quiz. It can also open the quiz as a popup over your store. Either link goes into any email tool as an ordinary link.
 
-!!! info "What is an Email Link?"
-
-    It is a direct link to the quiz, for use in an email.
-
-There are two ways to create an external link to your quiz for emails and newsletters:
-
-- [Link to Dedicated Quiz Page](#quiz-on-a-dedicated-landing-page) ⬅️ recommended for most marketing campaigns
-
-    A quiz is embedded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`).
-
-    An embedded quiz gives you better tracking and analytics.
-
-- [Link Popup](#link-popup-for-emails)
-
-    A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
+| Route | The link looks like | Pick it when |
+|---|---|---|
+| [A page that holds the quiz](#quiz-on-a-dedicated-landing-page) | `https://yourstore.com/pages/quiz-page` | You want the traffic to land somewhere your analytics counts as a page |
+| [A link popup](#link-popup-for-emails) | `https://yourstore.com/#quiz` | You want the quiz to open over a page you already have |
 
 ## Quiz on a dedicated landing page
 
-!!! info "What is an inline quiz on a dedicated landing page?"
+!!! tip "The same address works elsewhere"
 
-    An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
-
-!!! tip
-
-    You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
+    Add it to your store menu, your social posts or your ads. Nothing about it is specific to email.
 
 ## Link popup for emails
-
-!!! info "What is a Link Popup?"
-
-    It is a direct link, such as `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
 
 ## FAQs
 
@@ -9022,33 +9000,36 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the link points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-This article explains how to share a quiz created with RevenueHunt Quizzes app within your emails and newsletters.
+
+This article explains the two ways to link a quiz from an email, and what to check when the link does not open it.
 
 --- WooCommerce Specific Content ---
 
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-3. In WordPress, open `Pages` and click `Add New Page`.
-4. In the editor, add a page title. Then, find a `Custom HTML` element and add it to the page in a place where you want the quiz to show.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the inline quiz will be visible on that page.
-1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile.
-2. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
-3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
-4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
-To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
-For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
-1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Adjust the inline settings, then click `Get the code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages` and click `Add New Page`.**
+4. **Give the page a title, then add a `Custom HTML` block where you want the quiz.**
+5. **Paste the code into that block.**
+6. **Click `Update`.**
+7. **Open the finished page in your store, copy its address from the browser, and paste it into your email.**
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and open the [`Email`](/reference/quiz-builder/share-publish/#email) tile.**
+2. **Set the popup width and height.**
+3. **Click `Get the code`** to generate the link.
+4. **Paste that link into your email.**
+5. **Send yourself a test email and click the link.** The quiz should open.
+Name the quiz in the link itself. End the address with `#quiz-QUIZID`, using the ID of the quiz you want.
+Different links can open different quizzes from the same store. One campaign can send `https://yourstore.com/#quiz-123` while another sends `https://yourstore.com/#quiz-456`.
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+This error means the link cannot find the quiz.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+2. **Copy the `Quiz ID` from [Quiz settings](/reference/quiz-builder/quiz-settings/#general).** The ID is case-sensitive.
+3. **Check your link ends in `#quiz-QUIZID`, with that ID.**
 
 
 
@@ -9064,39 +9045,20 @@ icon: material/share-variant
 
 # How to Get an External Quiz Link for Social Media
 
-This article explains how to create an external quiz link that you can share on social media, such as TikTok, X, Instagram and Facebook.
+A link in a social post can take someone to a page that holds the quiz. It can also open the quiz as a popup over your store. Either link goes anywhere a link goes, including a bio.
 
-!!! info "What is an External Quiz Link?"
-
-    It is a link that opens the quiz on your website.
-
-There are two ways to create an external link to your quiz for social media:
-
-- [Link to Dedicated Quiz Page](#quiz-on-a-dedicated-landing-page) ⬅️ recommended for most marketing campaigns
-
-    A quiz is embedded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`).
-
-    An embedded quiz gives you better tracking and analytics.
-
-- [Link Popup](#link-popup-for-socials)
-
-    A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
+| Route | The link looks like | Pick it when |
+|---|---|---|
+| [A page that holds the quiz](#quiz-on-a-dedicated-landing-page) | `https://yourstore.com/pages/quiz-page` | You want the traffic to land somewhere your analytics counts as a page |
+| [A link popup](#link-popup-for-socials) | `https://yourstore.com/#quiz` | You want the quiz to open over a page you already have |
 
 ## Quiz on a dedicated landing page
 
-!!! info "What is an inline quiz on a dedicated landing page?"
+!!! tip "The same address works elsewhere"
 
-    An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
-
-!!! tip
-
-    You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
+    Add it to your store menu, your email campaigns or your ads. Nothing about it is specific to social media.
 
 ## Link popup for socials
-
-!!! info "What is a Link Popup?"
-
-    It is a direct link, such as `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
 
 ## FAQs
 
@@ -9104,33 +9066,36 @@ There are two ways to create an external link to your quiz for social media:
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the link points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-This article explains how to share a quiz created with RevenueHunt Quizzes app within your social media posts.
+
+This article explains the two ways to link a quiz from a social post, and what to check when the link does not open it.
 
 --- WooCommerce Specific Content ---
 
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-3. In WordPress, open `Pages` and click `Add New Page`.
-4. In the editor, add a page title. Then, find a `Custom HTML` element and add it to the page in a place where you want the quiz to show.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the inline quiz will be visible on that page.
-1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`External`](/reference/quiz-builder/share-publish/#external) tile.
-2. **Customize Popup Dimensions**: Set the width and height to suit the social media platform you plan to use.
-3. **Generate popup link**: Click `Get the code` to create your quiz link. The link is then ready to share.
-4. **Share on Social Media**: Copy the link. Paste it into your posts on X, Instagram, Facebook or any other platform.
-To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
-For example, `https://yourstore.myshopify.com/#quiz-123` opens one quiz, and `https://yourstore.myshopify.com/#quiz-456` opens another.
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
-1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Adjust the inline settings, then click `Get the code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages` and click `Add New Page`.**
+4. **Give the page a title, then add a `Custom HTML` block where you want the quiz.**
+5. **Paste the code into that block.**
+6. **Click `Update`.**
+7. **Copy the finished page's address from your browser, and paste it where you want to share it.**
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and open the [`External`](/reference/quiz-builder/share-publish/#external) tile.**
+2. **Set the popup width and height.**
+3. **Click `Get the code`** to generate the link.
+4. **Paste that link into your post, your bio or your ad.**
+5. **Open the link yourself before you post it.** The quiz should open.
+Name the quiz in the link itself. End the address with `#quiz-QUIZID`, using the ID of the quiz you want.
+Different links can open different quizzes from the same store. One campaign can send `https://yourstore.com/#quiz-123` while another sends `https://yourstore.com/#quiz-456`.
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+This error means the link cannot find the quiz.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+2. **Copy the `Quiz ID` from [Quiz settings](/reference/quiz-builder/quiz-settings/#general).** The ID is case-sensitive.
+3. **Check your link ends in `#quiz-QUIZID`, with that ID.**
 
 
 
@@ -9146,37 +9111,21 @@ icon: material/page-layout-body
 
 # How to Embed an Inline Quiz on Your Store
 
-This article explains how to embed an inline quiz on your store: on the homepage, on a dedicated landing page, or on a collection page. It also covers the size of the quiz and its auto-scroll behavior.
-
-!!! info "What is an Inline Quiz?"
-
-    An inline quiz is a quiz embedded directly into a page (an element on the page).
+An inline quiz sits inside a page, as part of it, rather than opening over the top. Put it on your homepage, on a landing page of its own, or on a collection page.
 
 !!! note "Before you start"
 
-    Make sure you have an existing quiz created with the RevenueHunt app and access to your store's theme customization options.
+    You need a quiz built in the RevenueHunt app, and access to your theme editor.
 
 ## Embed an inline quiz on the homepage
 
-!!! info "What is an inline quiz on the homepage?"
-
-    An inline quiz on the homepage is a quiz embedded directly into the homepage. Place the quiz on your homepage to collect leads from a first-time customer.
-
 ## Embed an inline quiz on a dedicated landing page
 
-!!! info "What is an inline quiz on a dedicated landing page?"
+!!! tip "Use the page address"
 
-    An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
-
-!!! tip
-
-    You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
+    A landing page gives you an ordinary URL. Put it in your store menu, your email campaigns, your social posts or your ads.
 
 ## Embed an inline quiz on a specific collection/category
-
-!!! info "What is an inline quiz on a specific collection/category?"
-
-    An inline quiz on a specific collection/category is a quiz widget embedded directly into a specific collection/category page in your store.
 
 ## FAQs
 
@@ -9184,63 +9133,77 @@ This article explains how to embed an inline quiz on your store: on the homepage
 
 ### Fixing the size of the inline quiz
 
-To prevent the quiz from adjusting size based on content, manually set a fixed width and height in the quiz settings or embed code.
+By default the quiz starts at the height you set, then grows to fit each question. Fix the height and it stays as it is throughout.
 
 ### Preventing auto-scroll in inline quiz
 
+Auto-scroll moves the page as the customer answers, so the quiz stays in view. Turn it off to leave the page where it is.
+
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+This error means the quiz cannot be found, either because it is unpublished or because the embed points at the wrong one.
+
+![The error an inline quiz shows when it cannot find the quiz](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-By following these steps, you can successfully integrate an interactive inline quiz into your Shopify store.
+
+This article explains how to put a quiz inside a page of your store, and how to control its height and its scrolling.
 
 --- WooCommerce Specific Content ---
 
-In short, to embed an inline quiz on your store, you need to:
-- Generate an embed code from the `Share` section of the app
-- Paste the embed code into  an HTML element of the page where you want the quiz to show.
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
-4. In the editor, add a `Custom HTML` element where you want the quiz to appear.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the inline quiz will be visible on the main page.
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-3. In WordPress, open `Pages` and click `Add New Page`.
-4. In the editor, add a page title. Then, find a `Custom HTML` element and add it to the page in a place where you want the quiz to show.
-5. In the element, paste the code copied from the app.
-6. Save the changes and `update` the page.
-7. From now on, the inline quiz will be visible on that page.
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
-3. Follow [these instructions](https://woocommerce.com/document/allow-html-in-term-category-tag-descriptions/) to enable HTML in category descriptions.
-3. Go back to your WordPress dashboard. Open `WooCommerce`> `Products`> `Categories`.
-4. Select a category and click `Edit`. Paste the code copied from the app in the description field.
-5. Save the changes.
-6. From now on, the inline quiz will be visible on that category page.
-To embed a specific quiz, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. **Configure Quiz Settings**: Set a desired quiz height and check the `Fixed size` option.
-3. **Get new code**: Click `Get code` and copy the new HTML embed code.
-4. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
-1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
-2. **Get new code**: Click `Get code` and copy the new HTML embed code.
-3. **Adjust Embed Code**: Add `data-autoscroll="false"` to the quiz's embed code to prevent automatic scrolling when the quiz is interacted with. For example:
+On this version you paste an embed code into the page.
+1. **Generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) section of the app.**
+2. **Paste it into an HTML element on the page where you want the quiz.**
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Adjust the inline settings, then click `Get the code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages`, find your front page and click `Edit`.**
+4. **Add a `Custom HTML` block where you want the quiz.**
+5. **Paste the code into that block.**
+6. **Click `Update`.**
+7. **Open the page in your store and check the quiz is there.**
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Adjust the inline settings, then click `Get the code`.** Copy the HTML it gives you.
+3. **In your WordPress admin, open `Pages` and click `Add New Page`.**
+4. **Give the page a title, then add a `Custom HTML` block where you want the quiz.**
+5. **Paste the code into that block.**
+6. **Click `Update`.**
+7. **Open the page in your store and check the quiz is there.**
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Adjust the inline settings, then click `Get the code`.** Copy the HTML it gives you.
+3. **Turn on HTML in category descriptions.** See the WooCommerce guide to [allowing HTML in category descriptions](https://woocommerce.com/document/allow-html-in-term-category-tag-descriptions/).
+4. **In your WordPress admin, open `WooCommerce > Products > Categories`.**
+5. **Open a category, click `Edit`, and paste the code into the description field.**
+6. **Save the category.**
+7. **Open the page in your store and check the quiz is there.**
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+Generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to show. The quiz is named in the code itself, as `data-url`.
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Set the quiz height and check `Fixed size`.**
+3. **Click `Get code`** and copy the new HTML.
+4. **Replace the old embed code on your page with the new one**, on the [homepage](#embed-an-inline-quiz-on-the-homepage), a [landing page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or a [collection page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
+5. **Open the page and check the height holds as you answer.**
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Inline`](/reference/quiz-builder/share-publish/#inline).**
+2. **Click `Get code`** and copy the HTML.
+3. **Add `data-autoscroll="false"` to the quiz element.**
     ```html
     <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/dbqHqN" data-autoscroll="false" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
     ```
-4. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embed-an-inline-quiz-on-the-homepage), [New Page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or [Collection/Category Page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
-If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
-1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
+4. **Replace the old embed code on your page with the edited one**, on the [homepage](#embed-an-inline-quiz-on-the-homepage), a [landing page](#embed-an-inline-quiz-on-a-dedicated-landing-page) or a [collection page](#embed-an-inline-quiz-on-a-specific-collectioncategory).
+5. **Take the quiz and check the page stays put.**
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+3. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
     ```html
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-4. Save the changes and refresh the page.
+4. **Save the page, then reload it.**
 
 
 
@@ -9256,40 +9219,31 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This article explains how to set up a **Quiz Link Popup** on your ecommerce store.
+A link popup opens the quiz over the page the customer is already on. The link can sit in your navigation menu, on a button, a banner, a page or a blog post.
 
-!!! info "What is a Link Popup?"
+!!! note "Before you start"
 
-    A Link Popup opens the quiz in a popup when a customer clicks a link. The link can sit in your navigation menu, on a button, a banner, a page or a blog post.
-
-!!! note
-    Before you start, ensure you have a quiz created and the necessary permissions to edit themes, pages and navigation settings
+    You need a quiz built in the RevenueHunt app, and permission to edit your themes, pages and navigation.
 
 ## Link popup in website menu
 
 ### On every page
 
-!!! info "What is a Link Popup in menu that opens on every page?"
-
-    It is a link in the navigation menu that opens the quiz as a popup, over any page in your store.
+The menu item then opens the quiz over any page in your store.
 
 ### On a specific page
 
-!!! info "What is a Link Popup in menu that opens on a specific page?"
-
-    It is a link in the navigation menu that opens the quiz as a popup, over one page **only**. Any page on the same template also counts.
+The menu item then opens the quiz over one page only. Any other page built on the same template counts as that page.
 
 ## Link popup as "take the quiz" button
 
 ### On home page
 
-!!! info "What is a Link Popup that opens via a button on every page?"
-    It is a button that opens the quiz as a popup, over every page in your store.
+The button sits on your home page. The app embed makes `#quiz` work across the store, so the same link works anywhere else you put it.
 
 ### On a specific page
 
-!!! info "What is a Link Popup that opens via a button on a specific page?"
-    It is a button that opens the quiz as a popup, over one page only.
+The button opens the quiz over one page only. Any other page built on the same template counts as that page.
 
 ## FAQs
 
@@ -9297,87 +9251,92 @@ This article explains how to set up a **Quiz Link Popup** on your ecommerce stor
 
 ### Popup displays behind website header
 
-The quiz popup can appear behind your website header, or the `X` closing button can be hidden. That usually means the header has an unusually high z-index. Fix it in the app settings, or in your theme.
+The popup can open behind your store header, or with its `X` button hidden. That means the header is stacked in front of it, and the fix is the popup z-index.
 
 ### Linking to multiple quizzes
 
-In some cases, you might want to have links to different quizzes on the same page. This section explains how to set up multiple quiz links for different platforms.
+One page can hold links to several different quizzes, each opening its own.
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the link points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-This article explains how to publish a quiz created with RevenueHunt Quizzes app as a Link Popup on your website.
+
+This article explains how to open a quiz from a link, in a menu or on a button. It also covers what to check when the popup does not appear.
 
 --- WooCommerce Specific Content ---
 
-In short, to add a link popup to your store, you need to:
-- Generate a link popup code from the `Share` section of the app
-- Paste the link into a navigation menu item, a button, a banner, a page or a blog post.
-1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
-2.  Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-3. Go to the `Appearance` tab and open the `Menus`.
-4. Pick a menu and add a `Custom Link`. Paste the copied link into the `URL` section and edit the link text, for example, you can call it "Coffee Quiz".
-    ![how to publish quiz woo link-popup menu](/images/how_to_publish_quiz_woo_link-popup_menu.png)
-5. Make sure to save the changes with the `Save Menu` button.
-1. Add the following embed.js script to a specific page template in your store.
+Two things make a link popup work here.
+1. **Generate a link from the [`Share`](/reference/quiz-builder/share-publish/) section of the app.**
+2. **Paste that link into a menu item, a button, a banner, a page or a blog post.**
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and open the [`Link` tab](/reference/quiz-builder/share-publish/#link).**
+2. **Set the popup width, height and z-index, then click `Get the code`.** Copy the link it gives you.
+3. **In your WordPress admin, go to `Appearance > Menus`.**
+4. **Pick a menu, add a `Custom Link`, and paste the link into the `URL` field.** Give it a link text, such as `Take the quiz`.
+    ![Adding a custom link to a WordPress menu](/images/how_to_publish_quiz_woo_link-popup_menu.png)
+5. **Click `Save Menu`.**
+6. **Open your store and click the new menu item.** The quiz should open in a popup.
+1. **Add the `embed.js` script to the page template you want the popup on.** The quiz does not load without it, and putting it on one template keeps the popup to that page.
     ```html
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-    Without it, the quiz does not load on your website.
-2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
-2.  Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-3. Go to the `Appearance` tab and open the `Menus`.
-4. Pick a menu and add a `Custom Link`. Paste the copied link into the `URL` section and edit the link text, for example, you can call it "Coffee Quiz".
-    ![how to publish quiz woo link-popup menu](/images/how_to_publish_quiz_woo_link-popup_menu.png)
-5. Make sure to save the changes with the `Save Menu` button.
-1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
-2. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-3. In WordPress, go to `Pages` and find the page that corresponds to the Front Page. Click 'Edit'.
-4. In the WordPress Page Builder add a `Buttons` block. This will automatically add one button to your page builder.
-5. Edit the button text and settings, for example, write "Take the Quiz".
-6. Then, add a `Link` to the element. Under `Search or type URL` paste the code copied from the app. Accept with enter.
-7. Remember to save the changes and update the live page.
-8. From now on, whenever someone clicks on the button, a quiz popup will open.
-1. Add the following embed.js script to a specific page template in your store.
+2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and open the [`Link` tab](/reference/quiz-builder/share-publish/#link).**
+3. **Set the popup width, height and z-index, then click `Get the code`.** Copy the link it gives you.
+4. **In your WordPress admin, go to `Appearance > Menus`.**
+5. **Pick a menu, add a `Custom Link`, and paste the link into the `URL` field.** Give it a link text, such as `Take the quiz`.
+    ![Adding a custom link to a WordPress menu](/images/how_to_publish_quiz_woo_link-popup_menu.png)
+6. **Click `Save Menu`.**
+7. **Open that page and click the menu item.** The quiz should open there, and nowhere else.
+1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
     ```html
     <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-    Without it, the quiz does not load on your website.
-2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Link` tab](/reference/quiz-builder/share-publish/#link).
-2. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-3. In WordPress, go to `Pages` and find the page that corresponds to the Front Page. Click 'Edit'.
-4. In the WordPress Page Builder add a `Buttons` block. This will automatically add one button to your page builder.
-5. Edit the button text and settings, for example, write "Take the Quiz".
-6. Then, add a `Link` to the element. Under `Search or type URL` paste the code copied from the app. Accept with enter.
-7. Remember to save the changes and update the live page.
-8. From now on, whenever someone clicks on the button, a quiz popup will open.
-To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`.
-For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
-- **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-- **Move the `X` closing sign lower.** Custom HTML and CSS can move the `X` lower on the popup. Add it to your theme, or to an empty HTML block on the page that shows the popup. Here is a sample:
+2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and open the [`Link` tab](/reference/quiz-builder/share-publish/#link).**
+3. **Set the popup width, height and z-index, then click `Get the code`.** Copy the link it gives you.
+4. **Open the page you want the button on, in your page editor.**
+5. **Add a `Button` block and paste the link into its `URL` field.**
+6. **Click `Update`.**
+7. **Open the page and click the button.** The quiz should open in a popup.
+1. **Add the `embed.js` script to the page template you want the popup on.** The quiz does not load without it, and putting it on one template keeps the popup to that page.
     ```html
-    <style>
-    .rh-widget span {
-    top: 150px !important;
-    }
-    </style>
+    <script src="https://admin.revenuehunt.com/embed.js" async></script>
     ```
-- **Publish the quiz inline with a page instead.** Publish the quiz inline on a new page in your store. The quiz is then part of that page, and you can link to it from anywhere on your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
-For WooCommerce, each quiz has its own unique link code:
-1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
-2. Open the [`Link` tab](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
-3. Click on `Get the code` to copy the unique link for each quiz.
-4. Add these links to different menu items, buttons, or page elements as needed.
-If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
-3. Check that the link follows the format `#quiz-QUIZID`, with the Quiz ID you copied from the Quiz Settings. The Quiz ID is case-sensitive.
+2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and open the [`Link` tab](/reference/quiz-builder/share-publish/#link).**
+3. **Set the popup width, height and z-index, then click `Get the code`.** Copy the link it gives you.
+4. **Open the page you want the button on, in your page editor.**
+5. **Add a `Button` block and paste the link into its `URL` field.**
+6. **Click `Update`.**
+7. **Open that page and click the button.** The quiz should open there, and nowhere else.
+Generate the link from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open. The quiz is named in the link itself, as `#quiz-QUIZID`.
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+There is no z-index setting here, so the fix is in your theme. Three things to try, in this order.
+**Lower the z-index of your store header.** That is a theme change, so check your theme files or ask your theme developer.
+**Move the `X` button down.** Add this CSS to your theme, or to an empty HTML block on the page that shows the popup.
+```html
+<style>
+.rh-widget span {
+top: 150px !important;
+}
+</style>
+```
+**Put the quiz inline instead.** Publish it [on a page of its own](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) and link to that page. The quiz is then part of the page, with no popup to stack.
+Each quiz has its own link, so generate one per quiz.
+1. **Open [`Share`](/reference/quiz-builder/share-publish/) for the first quiz and open the [`Link` tab](/reference/quiz-builder/share-publish/#link).**
+2. **Click `Get the code`** and copy the link.
+3. **Repeat for every other quiz you want to link to.**
+4. **Put each link on its own menu item, button or page element.**
+5. **Click each link in turn and check the right quiz opens.**
+This error means the link cannot find the quiz.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+2. **Copy the `Quiz ID` from [Quiz settings](/reference/quiz-builder/quiz-settings/#general).** The ID is case-sensitive.
+3. **Check your link ends in `#quiz-QUIZID`, with that ID.**
+4. **Check the `embed.js` script is on the page.**
+    ```html
+    <script src="https://admin.revenuehunt.com/embed.js" async></script>
+    ```
+5. **Save the page, then reload it.**
 
 
 
@@ -9522,6 +9481,26 @@ A link to the quiz that you paste into an email or a newsletter.
 **Pick this when** you want subscribers to take the quiz from their inbox.
 
 [How to Get an External Quiz Link for Emails and Newsletters](/how-to-guides/publish-quiz-email-link/)
+
+## With a page builder
+
+GemPages and PageFly are both Shopify apps. If your landing pages are built with one of them, the quiz goes in through the builder rather than the Shopify theme editor.
+
+### GemPages
+
+The quiz sits inside a GemPages page, added through the builder's `Shopify App` element.
+
+**Pick this when** your landing pages are built in GemPages.
+
+[How to Publish a Quiz on a GemPages Page](/how-to-guides/publish-gempages/)
+
+### PageFly
+
+The quiz sits inside a PageFly page, or a PageFly button opens it.
+
+**Pick this when** your landing pages are built in PageFly. Its inline element works with the legacy app only, so on Built for Shopify you point a button at the quiz.
+
+[How to Publish a Quiz on a PageFly Page](/how-to-guides/publish-pagefly/)
 
 
 

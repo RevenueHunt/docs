@@ -5,360 +5,467 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This article explains how to set up automatic popups on your store. It covers popups on the homepage, on a specific page and on all pages, exit intent, and how often a popup can appear.
+An automatic popup opens the quiz on its own, a few seconds after the customer arrives. You choose where it runs: the home page, one page, or every page.
 
-!!! info "What is an Automatic Popup?"
+!!! info "How often a customer sees it"
 
-    It is a quiz popup that appears after X seconds. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
+    A popup opens once per session. It does not reappear if the customer moves to another page, unless you turn `Exit Intent` on, or allow [repeated displays](#repeated-popup-displays-per-session).
 
-!!! warning
-
-    Automatic popups can be very intrusive which is why, by default, they are shown only once per customer session.
+    Automatic popups are intrusive, which is why once per session is the default.
 
 !!! note "Before you start"
 
-    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor. A basic understanding of HTML helps when you edit a theme.
-
-    *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
+    You need a quiz built in the RevenueHunt app, and access to your theme editor. Editing theme source code can break a storefront, so bring in a developer if a step is beyond you.
 
 ## Auto-popup on the main page
-
-!!! info "What is an Automatic Popup Quiz on the Main Page?"
-
-    It is a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HeHWWdbxvYI?si=yfWxXGhQEiRz6IDH" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    !!! warning "Shopify 1.0 themes cannot run this"
 
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Add a section for the app embed**: In the Home page Template, add the RevenueHunt `Auto Popup Quiz` app embed. The quiz popup is then enabled on the home page.
+        A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
 
-        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
-    3. **Configure Popup Settings**:
+        Upgrade to an Online Store 2.0 theme to use them.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
 
-        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-        - Adjust the `Popup Width` and `Height` (as percentage of screen)
-        - Set the `Popup z-index` to control layering with other elements
-        - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-    4. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    5. **Test the Automatic Popup**: Open an incognito or private browsing window. A popup is shown only once per session.
+    2. **With the home page template open, click `Add section`, open the `Apps` tab, and add `Auto Popup Quiz (Block)`.**
 
-    !!! note
+        ![Adding the Auto Popup Quiz (Block) section from the Apps tab](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
 
-        When a customer comes to your store, the default quiz opens automatically, based on your settings.
+    3. **Set up the popup.**
 
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
+        ![The automatic popup settings in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
-        To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+        | Setting | What it does |
+        |---|---|
+        | `Popup Delay` | How many seconds to wait before the popup opens |
+        | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+        | `Popup z-index` | Which other elements the popup sits in front of |
+        | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+        | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
+
+    4. **Click `Save`.**
+
+    5. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+
+    !!! note "Which quiz opens"
+
+        Your default quiz opens, unless you name another one.
+
+        With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+
+        To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 
 === "Shopify (Legacy)"
-
-    **Option 1: Through Shopify Theme**
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/ZAK781-T1Z8?si=NAy4XjfDeisEw0w-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
-    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
-    3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    **With the app embed**
 
-    **Option 2: Manual**
+    1. **Copy your Quiz ID.** In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and copy the ID.
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
-    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    2. **Go to `Online Store > Themes`, click `Customize`, then open `App embeds`.**
+
+    3. **Turn on `Auto Popup Quiz (Legacy)`, paste the Quiz ID, and set the delay and size.**
+
+        The plain `Automatic Popup Quiz` embed serves the Built for Shopify version. A legacy quiz opened through it reports that it does not exist.
+
+    4. **Click `Save`.**
+
+    5. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+
+    **With pasted code**
+
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **In `Themes > Customize`, add a `Custom content` section, then a `Custom HTML` or `Custom liquid` block.**
+
+    4. **Paste the popup code into that block.**
+
+    5. **Click `Save`.**
+
+    6. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
-    4. In the editor, find a `Custom HTML` element and add it to the page.
-    5. In the element, paste the code copied from the app.
-    6. Save the changes and `update` the page.
-    7. From now on, the automatic popup quiz will be visible on the main page.
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **In your WordPress admin, open `Pages`, find your front page and click `Edit`.**
+
+    4. **Add a `Custom HTML` block and paste the code into it.**
+
+    5. **Click `Update`.**
+
+    6. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "Magento"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
-    5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`.
-    6. Select `Elements` > `Rows` and drag a row into the canvas.
-    7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
-    8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
-    10. Remember to save the changes.
-    11. From now on, the automatic popup quiz will be visible on the main page.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In your Magento admin, go to `Content > Blocks` and click `Add New Block`.**
+
+    5. **Fill in the block title, identifier and store view, then click `Edit with Page Builder`.**
+
+    6. **Drag a row in from `Elements > Rows`, then drag `HTML Code` onto that row.**
+
+    7. **Click the gear icon to open `HTML settings`, then paste the code under `Enter HTML, CSS or JavaScript code`.**
+
+    8. **Save the block.**
+
+    9. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "BigCommerce"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
-    5. Switch to the `HTML` editor. Paste the HTML code copied from the app.
-    6. Save the changes.
-    7. From now on, the automatic popup will be visible on the main page.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In BigCommerce, go to `Storefront > Web Pages` and open your main page.**
+
+    5. **Switch to the `HTML` editor and paste the code in.**
+
+    6. **Save the page.**
+
+    7. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "Standalone"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your store customization options find the main page.
-    5. Find a `Custom HTML` element. In the element settings paste the code copied from the app.
-    6. Save the changes.
-    7. From now on, the automatic popup quiz will be visible on the main page.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In your store editor, open the main page.**
+
+    5. **Find a `Custom HTML` element and paste the code into its settings.**
+
+    6. **Save the page.**
+
+    7. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 ## Auto-popup on a specific page
-
-!!! info "What is an Automatic Popup Quiz on a Specific Page?"
-
-    It is a quiz popup that appears after X seconds on a specific page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0mJ4KiHQFq8?si=xWPSV0l6JDcVIcGN" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    !!! warning "Shopify 1.0 themes cannot run this"
 
-    1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Popup Page`). Set the visibility to `Visible` and save the changes.
-    2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Popup Template` and edit it.
-    4. **Add a section for the app embed**: In the new template, add the RevenueHunt `Automatic Popup Quiz (Block)` app embed. The quiz popup is then enabled on that page.
+        A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
 
-        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
-    5. **Configure Popup Settings**:
+        Upgrade to an Online Store 2.0 theme to use them.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    1. **In your Shopify admin, go to `Online Store > Pages` and click `Add page`.** Name it, for example `Automatic Popup Page`, set it to `Visible`, and save.
 
-        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-        - Adjust the `Popup Width` and `Height` (as percentage of screen)
-        - Set the `Popup z-index` to control layering with other elements
-        - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-    6. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    7. **Assign the template to the page**: Go to `Online Store > Pages` and select the page you created. Under `Page Template` select the template you created.
+    2. **Go to `Online Store > Themes` and click `Customize`.**
 
-        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_template](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
-    8. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    9. **Test the Automatic Popup**: Open an incognito or private browsing window. A popup is shown only once per session.
+    3. **Open the page template menu and click `+ Create a new template`.** Give it a name you will remember, such as `Automatic Quiz Popup`.
 
-    !!! note
+    4. **In that template, click `Add section`, open the `Apps` tab, and add `Auto Popup Quiz (Block)`.**
 
-        When a customer comes to your store, the default quiz opens automatically, based on your settings.
+        ![Adding the Auto Popup Quiz (Block) section from the Apps tab](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
 
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
+    5. **Set up the popup.**
 
-        To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+        ![The automatic popup settings in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+
+        | Setting | What it does |
+        |---|---|
+        | `Popup Delay` | How many seconds to wait before the popup opens |
+        | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+        | `Popup z-index` | Which other elements the popup sits in front of |
+        | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+        | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
+
+    6. **Click `Save`.**
+
+    7. **Go back to `Online Store > Pages`, open your page, and set `Page Template` to the template you built.**
+
+        ![Assigning the new template to the page](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
+
+    8. **Click `Save`.**
+
+    9. **Open that page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+
+    !!! note "Which quiz opens"
+
+        Your default quiz opens, unless you name another one.
+
+        With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+
+        To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 
 === "Shopify (Legacy)"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **In Shopify, go to `Online Store > Pages`, open the page, click `Show HTML`, and paste the code in.**
+
+    4. **Click `Save`.**
+
+    5. **Open that page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    3. In WordPress, open `Pages` and find the page where you want the popup to show. Click `Edit` to open the page.
-    4. In the editor, find a `Custom HTML` element and add it to the page.
-    5. In the element, paste the code copied from the app.
-    6. Save the changes and `update` the page.
-    7. From now on, the automatic popup quiz will be visible on that page.
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **In your WordPress admin, open `Pages`, find the page you want the popup on and click `Edit`.**
+
+    4. **Add a `Custom HTML` block and paste the code into it.**
+
+    5. **Click `Update`.**
+
+    6. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "Magento"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your Magento dashboard go to `Content` > `Pages`. Click `Add New Page` or open an existing page.
-    5. Edit the Page and open the `Content` tab. Click `Edit with Page Builder`.
-    6. Select `Elements` > `Rows` and drag a row into the canvas.
-    7. Next open `Elements` and pick `HTML Code`. Drag the `HTML Code` onto the Row.
-    8. Click the gear icon to open `HTML settings`.
-    9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app.
-    10. Remember to save the changes.
-    11. From now on, the automatic popup quiz will be visible on that page.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In your Magento admin, go to `Content > Pages` and open the page, or click `Add New Page`.**
+
+    5. **Open the `Content` tab and click `Edit with Page Builder`.**
+
+    6. **Drag a row in from `Elements > Rows`, then drag `HTML Code` onto that row.**
+
+    7. **Click the gear icon to open `HTML settings`, then paste the code under `Enter HTML, CSS or JavaScript code`.**
+
+    8. **Save the page.**
+
+    9. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "BigCommerce"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page` or pen an existing page.
-    5. Under `Web Page Details` > `Page Content` switch to the `HTML` editor. Paste the HTML code copied from the app.
-    6. Save the changes.
-    7. From now on, the automatic popup quiz will be visible on that page.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In BigCommerce, go to `Storefront > Web Pages` and open the page, or click `Create a Web Page`.**
+
+    5. **Under `Web Page Details > Page Content`, switch to the `HTML` editor and paste the code in.**
+
+    6. **Save the page.**
+
+    7. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "Standalone"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your store customization options find the page you want the quiz to show on.
-    5. Find a ` Custom HTML` element. In the element settings paste the code copied from the app.
-    6. Save the changes.
-    7. From now on, the automatic popup quiz will be visible on that page.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In your store editor, open the page you want the popup on.**
+
+    5. **Find a `Custom HTML` element and paste the code into its settings.**
+
+    6. **Save the page.**
+
+    7. **Open the page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 ## Auto-popup on all pages
-
-!!! info "What is an Automatic Popup Quiz on All Pages?"
-
-    It is a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-675UKK1uJI?si=hb4rRFFhwkk53a9p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    !!! warning "Shopify 1.0 themes cannot run this"
 
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Make sure you are editing the `Default` theme for your store. Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-    3. **Configure Popup Settings**:
+        A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+        Upgrade to an Online Store 2.0 theme to use them.
 
-        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-        - Adjust the `Popup Width` and `Height` (as percentage of screen)
-        - Set the `Popup z-index` to control layering with other elements
-        - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-    4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-    5. **Test the Automatic Popup**: Open an incognito or private browsing window. A popup is shown only once per session.
+    1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
 
-    The popup will now appear across all pages that have the same template/theme applied according to the configured settings.
+    2. **Open `App embeds` and turn on `Automatic Popup Quiz`.** Leave `Auto Popup Quiz (Legacy)` off. That one serves quizzes from the legacy app.
 
-    !!! note
+        ![The App embeds list, with Automatic Popup Quiz turned on](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
 
-        When a customer comes to your store, the default quiz opens automatically, based on your settings.
+    3. **Set up the popup.**
 
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
+        ![The automatic popup settings in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
-        To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+        | Setting | What it does |
+        |---|---|
+        | `Popup Delay` | How many seconds to wait before the popup opens |
+        | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+        | `Popup z-index` | Which other elements the popup sits in front of |
+        | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+        | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
+
+    4. **Click `Save`.**
+
+    5. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+
+    The popup now runs on every page that uses this theme.
+
+    !!! note "Which quiz opens"
+
+        Your default quiz opens, unless you name another one.
+
+        With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+
+        To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 
 === "Shopify (Legacy)"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Edit Theme's Source Code**: Navigate to `Online Store > Themes`, click `Actions > Edit Code` to access the theme editor.
-    4. **Locate and Edit File**: Find the `</body>` tag in `theme.liquid` or `footer.liquid`. Paste the popup code just before this tag.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **Go to `Online Store > Themes` and click `Actions > Edit code`.**
+
+    4. **Open `theme.liquid` or `footer.liquid`, and paste the code just before the closing `</body>` tag.**
+
+    5. **Click `Save`.**
+
+    6. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "WooCommerce"
 
-    1. **Install a Popup Plugin**: You need a plugin that creates and manages popups, such as Popup Maker or Elementor. Install and activate it from the WordPress dashboard.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Create a New Popup**: Navigate to the popup plugin's section in your WordPress dashboard. Select the option to create a new popup. Name your popup and start designing it. Most popup plugins offer a visual editor to customize the look and layout.
-    5. **Embed the Quiz**: In the popup editor, add a `custom HTML` block  and paste the code copied from the app.
-    6. **Set Popup Conditions**: Configure when and where the popup should appear on your site.
-    7. **Publish and Test**: After configuring your popup, publish it. Then, visit your site to ensure the popup appears as expected and that the quiz functions properly within the popup.
+    A popup on every page needs a plugin that can run one site-wide, such as Popup Maker or Elementor.
+
+    1. **Install and activate a popup plugin from your WordPress admin.**
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In the plugin, create a new popup and name it.**
+
+    5. **Add a `Custom HTML` block to the popup and paste the code into it.**
+
+    6. **Set the plugin to show the popup on every page.**
+
+    7. **Publish the popup.**
+
+    8. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "Magento"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    A popup on every page needs an extension that can run one site-wide.
+
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    1. **Find and Install a Popup Extension**: Search the Magento Marketplace for a popup extension that fits your needs. Extensions like "Magento 2 Popup Extension" by Mageplaza or similar can be used. Download and install the extension via Composer or by uploading it to your server.
-    2. **Configure the Extension**: Once installed, navigate to the backend of your Magento store. Go to the extension settings via the admin panel. Here you can create a new popup and configure its settings.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Embed the Quiz**: In the popup configuration, insert the HTML or JavaScript code for your quiz. This could will be the code generated from your "Product Recommendation Quiz".
-    4. **Set Display Rules**: Configure the extension to show the popup on all pages. You can also set conditions such as display timing, animation, and triggers like exit intent or time on site.
-    5. **Save and Test**: Save your changes. Test the popup on your live site, on different pages and devices.
+
+    2. **Install a popup extension from the Magento Marketplace**, with Composer or by uploading it to your server.
+
+    3. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    4. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    5. **In the extension settings, create a new popup and paste the code into it.**
+
+    6. **Set the extension to show the popup on every page.** Its display timing and triggers are set here too.
+
+    7. **Save the extension settings.**
+
+    8. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 === "BigCommerce"
 
-    **Using Script Manager**
+    **With the Script Manager**
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
-        ```html
-        <script src="https://admin.revenuehunt.com/embed.js" async></script>
-        ```
-        Without it, the quiz does not load on your website.
-    1. **Access the Script Manager**: Log into your BigCommerce admin dashboard. Navigate to `Storefront` > `Script Manager`.
-    2. **Create a New Script**: Click on `Create a Script`. Fill in the details:
-    - Name: Give your script a name, e.g., "Product Recommendation Quiz".
-    - Location on Page: Choose Footer to ensure the script loads at the end of the page, which is typical for popups.
-    - Select Pages where script will be added: Choose All Pages to ensure the popup appears throughout your site.
-    3. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    4. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    5. **Insert the Popup Code**: In the Script Content area, paste the HTML code for your popup. This will include the quiz code from your quiz builder.
-    6. **Save and Test**: Save your script settings. Visit your store's front end in an incognito window to ensure the popup appears correctly on all pages.
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
 
-    **Modifying Theme Files**
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
 
-    Alternatively, if you need more control or if the Script Manager does not meet your requirements, you can modify the theme files directly:
+    3. **In BigCommerce, go to `Storefront > Script Manager` and click `Create a Script`.**
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
-        ```html
-        <script src="https://admin.revenuehunt.com/embed.js" async></script>
-        ```
-        Without it, the quiz does not load on your website.
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Access the Theme Files**: Navigate to `Storefront` > `My Themes`. Click on `Advanced` > `Edit Theme Files`.
-    4. **Modify the Footer File**: Locate the file typically named `footer.html` or similar under the `Templates` directory. Paste your popup's HTML code just before the closing </body> tag.
-    5. **Save and Deploy**: Save your changes and preview them. Once confirmed, deploy the changes live.
-    6. **Testing**: Clear your browser cache and check the popup functionality across different pages and devices to ensure consistent behavior.
+    4. **Fill the script in.** Give it a name, set `Location on Page` to `Footer`, and set the pages to `All Pages`.
+
+    5. **Paste the popup code into `Script Contents`, then save.**
+
+    6. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+
+    **By editing the theme files**
+
+    Use this one if you need more control than the Script Manager gives you.
+
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **Go to `Storefront > My Themes`, then `Advanced > Edit Theme Files`.**
+
+    4. **Open `footer.html` under `Templates`, and paste the code just before the closing `</body>` tag.**
+
+    5. **Save the file and deploy the theme.**
+
+    6. **Clear your browser cache, then open your store in a private browsing window and wait for the popup.**
 
 === "Standalone"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
-    4. In your store customization options find the option to edit your store's theme.
-    5. In the footer add the HTML code copied from the app. This will ensure the popup shows up on all pages in your store.
-    6. Save the changes.
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **In your store editor, open your theme footer.**
+
+    5. **Paste the popup code into the footer, so it loads on every page.**
+
+    6. **Save the theme.**
+
+    7. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
 
 ## FAQs
 
@@ -366,277 +473,362 @@ This article explains how to set up automatic popups on your store. It covers po
 
 === "Shopify"
 
-    By default, an automatic popup shows the default quiz for your store.
+    An automatic popup opens your default quiz. To open another one, put its ID in the `Quiz ID (optional)` field of the popup settings in the theme editor.
 
-    !!! note
+    ![The Quiz ID field in the automatic popup settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
+    !!! info "Finding the Quiz ID"
 
-    To **open a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. That field is in the `Automatic Popup Quiz` settings in the theme editor.
+        In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    !!! note "Shopify Markets"
 
-    !!! info "Quiz ID"
-
-        To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-
-        Keep in mind that the Quiz ID is case-sensitive.
+        With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market opens instead of your store default.
 
 === "Shopify (Legacy)"
 
-    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    Generate the popup code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it, as `data-quiz-id`.
 
 === "WooCommerce"
 
-    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    Generate the popup code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it, as `data-quiz-id`.
 
 === "Magento"
 
-    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    Generate the popup code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it, as `data-quiz-id`.
 
 === "BigCommerce"
 
-    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    Generate the popup code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it, as `data-quiz-id`.
 
 === "Standalone"
 
-    To open a specific quiz as an automatic popup, generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of that quiz. Add the code to the page where you want the quiz.
+    Generate the popup code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the quiz you want to open, then use that code. The quiz ID is baked into it, as `data-quiz-id`.
 
 ### Show popup on exit intent
 
 === "Shopify"
 
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Exit intent opens the popup when the customer moves the cursor towards the tab or window controls, rather than after a delay.
 
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-    3. **Configure Exit intent**:
+    !!! warning "Shopify 1.0 themes cannot run this"
 
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+        A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
 
-        - Toggle on the `Trigger Popup on Exit Intent` option
-        - Adjust other settings like `Popup Width` and `Height` as needed
-    4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+        Upgrade to an Online Store 2.0 theme to use them.
 
-    The popup now appears when a customer moves the cursor to close the tab or window.
+    1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+
+    2. **Open `App embeds` and turn on `Automatic Popup Quiz`.**
+
+        ![The App embeds list, with Automatic Popup Quiz turned on](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+
+    3. **Turn `Trigger Popup on Exit Intent` on, and adjust the width and height if you need to.**
+
+        ![The exit intent toggle in the automatic popup settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+
+    4. **Click `Save`.**
+
+    5. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
 
 === "Shopify (Legacy)"
 
-    **Option 1: Through Shopify Theme**
+    **With the app embed**
 
-    1. **Copy Quiz ID**: Go to your RevenueHunt [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
-    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
-    3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID and activate the `Exit intent` option in your popup settings.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    1. **Copy your Quiz ID.** In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and copy the ID.
 
-    **Option 2: Manual**
+    2. **Go to `Online Store > Themes`, click `Customize`, then open `App embeds`.**
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
-    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    3. **Turn on `Auto Popup Quiz (Legacy)`, paste the Quiz ID, and turn `Exit intent` on.**
+
+    4. **Click `Save`.**
+
+    5. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
+
+    **With pasted code**
+
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    2. **Turn `Exit intent` on in the settings, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **In `Themes > Customize`, add a `Custom content` section, then a `Custom HTML` or `Custom liquid` block.**
+
+    4. **Paste the popup code into that block.**
+
+    5. **Click `Save`.**
+
+    6. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    3. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    2. **Turn `Exit intent` on in the settings, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    4. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
 
 === "Magento"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Turn `Exit intent` on in the settings, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    5. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
 
 === "BigCommerce"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Turn `Exit intent` on in the settings, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    5. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
 
 === "Standalone"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Turn `Exit intent` on in the settings, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    5. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
 
 ### Repeated popup displays per session
 
 === "Shopify"
 
-    In the Built for Shopify version of the RevenueHunt app you cannot show the popup more than once per session. The exception is the `Exit intent` option. See [Show Popup on Exit intent](#show-popup-on-exit-intent).
+    This version shows the popup once per session and offers no way to change that.
+
+    The one exception is exit intent, which can fire again on the same visit. See [Show popup on exit intent](#show-popup-on-exit-intent).
 
 === "Shopify (Legacy)"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder, pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic), then `Show Instructions for Legacy Themes`.**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **Add `data-aggressive="true"` to the popup code.** The popup then keeps returning during the session until the customer finishes the quiz.
 
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
 
-    4. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
-    5. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
-    6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    4. **In `Themes > Customize`, add a `Custom content` section, then a `Custom HTML` or `Custom liquid` block.**
+
+    5. **Paste the popup code into that block.**
+
+    6. **Click `Save`.**
+
+    7. **Open your store, dismiss the popup, and carry on browsing.** It should come back.
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+    1. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    2. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    3. **Add `data-aggressive="true"` to the popup code.** The popup then keeps returning during the session until the customer finishes the quiz.
 
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
 
-    4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+    4. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    5. **Open your store, dismiss the popup, and carry on browsing.** It should come back.
 
 === "Magento"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **Add `data-aggressive="true"` to the popup code.** The popup then keeps returning during the session until the customer finishes the quiz.
 
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
 
-    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+    5. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    6. **Open your store, dismiss the popup, and carry on browsing.** It should come back.
 
 === "BigCommerce"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **Add `data-aggressive="true"` to the popup code.** The popup then keeps returning during the session until the customer finishes the quiz.
 
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
 
-    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+    5. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    6. **Open your store, dismiss the popup, and carry on browsing.** It should come back.
 
 === "Standalone"
 
-    1. Add the following embed.js script before the `</head>` close tag in the header.
+    1. **Add the `embed.js` script before the closing `</head>` tag of your store header.** The quiz does not load without it.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-        Without it, the quiz does not load on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
-    3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+
+    2. **Open [`Share`](/reference/quiz-builder/share-publish/) in the quiz builder and pick [`Automatic`](/reference/quiz-builder/share-publish/#automatic).**
+
+    3. **Set the popup delay, width and height, then click `Get code`.** Copy the HTML it gives you.
+
+    4. **Add `data-aggressive="true"` to the popup code.** The popup then keeps returning during the session until the customer finishes the quiz.
 
         ```html
         <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
         ```
 
-    5. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#auto-popup-on-the-main-page), [specific page](#auto-popup-on-a-specific-page) or [all pages](#auto-popup-on-all-pages).
+    5. **Put the code on your store**, on the [home page](#auto-popup-on-the-main-page), a [specific page](#auto-popup-on-a-specific-page) or [every page](#auto-popup-on-all-pages).
+
+    6. **Open your store, dismiss the popup, and carry on browsing.** It should come back.
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the popup points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 === "Shopify"
 
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    !!! warning "Shopify 1.0 themes cannot run this"
 
-    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
+        A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
 
-    1. Check that you activated `Automatic Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Automatic Popup Quiz Legacy`.
-        ![how_to_publish_shipifyV2_V1publisherrorautomaticpopup](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
+        Upgrade to an Online Store 2.0 theme to use them.
 
-        If the wrong automatic popup quiz is activated, that error appears when you link to a Built for Shopify quiz.
+    This error means the popup is being served by the embed for the other version of the app.
 
-        To solve this simply deactivate the `Automatic Popup Quiz Legacy` and activate the `Automatic Popup Quiz` one.
-    2. Save the changes.
+    1. **Go to `Online Store > Themes > Customize > App embeds` and check which popup embed is on.** For a quiz built here, `Automatic Popup Quiz` is the right one.
+
+        ![The two automatic popup embeds in the App embeds list](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
+
+    2. **Turn `Auto Popup Quiz (Legacy)` off and turn `Automatic Popup Quiz` on.** The legacy embed serves quizzes from the legacy app, so it cannot find a quiz built in this version.
+
+    3. **Click `Save`, then reload your store.**
 
 === "Shopify (Legacy)"
 
-    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
+    This error means the popup cannot find the quiz, either because it is unpublished or because the wrong embed is on.
 
-    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` select the `Automatic Popup Quiz` option.
-    3. Paste the Quiz ID in the `Quiz ID` field. *Note: the Quiz ID is case-sensitive.*
-        ![how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1](/images/how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1.png)
-    4. Save your changes and refresh the page.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+
+    2. **Copy the `Quiz ID` from [Quiz settings](/reference/quiz-builder/quiz-settings/#general).** The ID is case-sensitive.
+
+    3. **Go to `Online Store > Themes > Customize > App embeds` and turn on `Auto Popup Quiz (Legacy)`.** The plain `Automatic Popup Quiz` embed serves quizzes from the Built for Shopify version, so it cannot find a legacy quiz.
+
+    4. **Paste the Quiz ID into the `Quiz ID` field.**
+
+        ![Pasting the Quiz ID into the legacy popup embed settings](/images/how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1.png)
+
+    5. **Click `Save`, then reload the page.**
 
 === "WooCommerce"
 
-    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
+    This error means the popup cannot find the quiz.
 
-    1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+
+    2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+
+    3. **Check the `embed.js` script is on the page.** Add it through a custom HTML element if it is missing.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-    4. Save the changes and refresh the page.
+
+    4. **Save the page, then reload it.**
 
 === "Magento"
 
-    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
+    This error means the popup cannot find the quiz.
 
-    1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+
+    2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+
+    3. **Check the `embed.js` script is on the page.** Add it through a custom HTML element if it is missing.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-    4. Save the changes and refresh the page.
+
+    4. **Save the page, then reload it.**
 
 === "BigCommerce"
 
-    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
+    This error means the popup cannot find the quiz.
 
-    1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    3. If the quiz is still not displayed,try adding the embed.js script to the page via a custom HTML element.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+
+    2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+
+    3. **Check the `embed.js` script is on the page.** Add it through a custom HTML element if it is missing.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-    4. Save the changes and refresh the page.
+
+    4. **Save the page, then reload it.**
 
 === "Standalone"
 
-    If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
+    This error means the popup cannot find the quiz.
 
-    1. Make sure you have added the embed.js script to the page via a custom HTML element.
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published**, with the top-right `Publish` button.
+
+    2. **Regenerate the code from [`Share`](/reference/quiz-builder/share-publish/) and paste it in again.** An old code can point at a quiz that has since changed.
+
+    3. **Check the `embed.js` script is on the page.** Add it through a custom HTML element if it is missing.
+
         ```html
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
-    2. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
-    3. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    4. Save the changes and refresh the page.
+
+    4. **Save the page, then reload it.**
 
 ---
-By following these steps, you can enhance your ecommerce store's interactivity and user engagement through well-timed automatic popups.
+
+This article explains how to open a quiz as an automatic popup, where to run it, and what to check when it does not appear.

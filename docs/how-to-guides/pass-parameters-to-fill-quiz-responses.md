@@ -5,404 +5,428 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 # How to Pass Parameters to Pre-fill Quiz Responses
 
-=== "Shopify"
+A quiz can open with some answers already filled in, so a customer never retypes something you already hold.
 
-    In the new Built for Shopify version of the RevenueHunt app, pre-filling quiz responses via JavaScript variables or URL parameters is not available. However, there is a built-in [**pre-fill on retake** setting](/reference/quiz-builder/quiz-settings/#general).
+That is worth doing when a logged-in customer's name and email are already on file. It helps too when you send people from a mailing list that holds their details. A pre-filled question is skipped, so the quiz is shorter as well.
 
-    When this is on, a customer who retakes the quiz gets all their previous answers back: choices, text fields, dates. They only need to change what is different.
-
-    To enable it, go to **Quiz settings → Behavior → Pre-fill answers on retake** and toggle it on.
-
-    !!! note
-
-        This setting is off by default for existing quizzes and on by default for newly created quizzes.
-
-=== "Shopify (Legacy)"
-
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
-
-    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
-    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
-
-    This feature can be implemented in two ways:
-
-    - Declare JavaScript variables in your store source code. This needs a developer.
-    - Pass URL parameters on a link to your store.
-
-=== "WooCommerce"
-
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
-
-    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
-    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
-
-    This feature can be implemented in two ways:
-
-    - Declare JavaScript variables in your store source code. This needs a developer.
-    - Pass URL parameters on a link to your store.
-
-=== "Magento"
-
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
-
-    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
-    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
-
-    This feature can be implemented in two ways:
-
-    - Declare JavaScript variables in your store source code. This needs a developer.
-    - Pass URL parameters on a link to your store.
-
-=== "BigCommerce"
-
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
-
-    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
-    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
-
-    This feature can be implemented in two ways:
-
-    - Declare JavaScript variables in your store source code. This needs a developer.
-    - Pass URL parameters on a link to your store.
-
-=== "Standalone"
-
-    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz.
-
-    - This is useful when customers are logged in to your store. You do not want to ask again for information you already have, such as their name and email.
-    - It also helps when you drive traffic to your quiz from a mailing list. You do not want to ask for contact details again.
-
-    This feature can be implemented in two ways:
-
-    - Declare JavaScript variables in your store source code. This needs a developer.
-    - Pass URL parameters on a link to your store.
-
-## Option 1: declare window.prq_vars
+## Pre-fill answers when a customer retakes the quiz
 
 === "Shopify"
 
-    Pre-filling quiz responses via `window.prq_vars` is not available in the new Built for Shopify version of the RevenueHunt app. Use the built-in **Pre-fill answers on retake** setting in [**Quiz settings → Behavior**](/reference/quiz-builder/quiz-settings/#general) instead.
+    A customer who retakes the quiz gets their previous answers back, including choices, text fields and dates. They change only what is different.
+
+    1. **Open [Quiz settings > General](/reference/quiz-builder/quiz-settings/#general).**
+
+    2. **Under `Quiz behavior settings`, turn `Pre-fill answers on retake` on.**
+
+    3. **Click the top-right `Save` button.**
+
+    4. **Take the quiz through to the results page, then click `Retake quiz`.** Your answers should come back with you.
+
+    !!! note "The default depends on the age of the quiz"
+
+        A quiz created recently has this on already. A quiz that predates the setting has it off.
 
 === "Shopify (Legacy)"
 
-    You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+    !!! note "Not part of this version"
 
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.name = 'John Doe';
-    window.prq_vars.email = 'john.doe@gmail.com';
-    window.prq_vars.phone = '+15556219645';
-    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
-    // question ID - choices IDs separated by ;
-    </script>
-    ```
-
-    ### Example
-
-    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
-
-    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
-
-    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Add this script to your product page:
-
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.questionID = 'productID';
-    </script>
-    ```
-
-    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
-
-    The `productID` parameter then tells you where the quiz was taken.
+        There is no retake setting here. Fill the answers in yourself, with [JavaScript variables](#pre-fill-with-javascript-variables) or [URL parameters](#pre-fill-with-url-parameters).
 
 === "WooCommerce"
 
-    You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+    !!! note "Not part of this version"
 
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.name = 'John Doe';
-    window.prq_vars.email = 'john.doe@gmail.com';
-    window.prq_vars.phone = '+15556219645';
-    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
-    // question ID - choices IDs separated by ;
-    </script>
-    ```
-
-    ### Example
-
-    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
-
-    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
-
-    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Add this script to your product page:
-
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.questionID = 'productID';
-    </script>
-    ```
-
-    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
-
-    The `productID` parameter then tells you where the quiz was taken.
+        There is no retake setting here. Fill the answers in yourself, with [JavaScript variables](#pre-fill-with-javascript-variables) or [URL parameters](#pre-fill-with-url-parameters).
 
 === "Magento"
 
-    You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+    !!! note "Not part of this version"
 
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.name = 'John Doe';
-    window.prq_vars.email = 'john.doe@gmail.com';
-    window.prq_vars.phone = '+15556219645';
-    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
-    // question ID - choices IDs separated by ;
-    </script>
-    ```
-
-    ### Example
-
-    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
-
-    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
-
-    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Add this script to your product page:
-
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.questionID = 'productID';
-    </script>
-    ```
-
-    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
-
-    The `productID` parameter then tells you where the quiz was taken.
+        There is no retake setting here. Fill the answers in yourself, with [JavaScript variables](#pre-fill-with-javascript-variables) or [URL parameters](#pre-fill-with-url-parameters).
 
 === "BigCommerce"
 
-    You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+    !!! note "Not part of this version"
 
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.name = 'John Doe';
-    window.prq_vars.email = 'john.doe@gmail.com';
-    window.prq_vars.phone = '+15556219645';
-    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
-    // question ID - choices IDs separated by ;
-    </script>
-    ```
-
-    ### Example
-
-    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
-
-    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
-
-    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Add this script to your product page:
-
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.questionID = 'productID';
-    </script>
-    ```
-
-    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
-
-    The `productID` parameter then tells you where the quiz was taken.
+        There is no retake setting here. Fill the answers in yourself, with [JavaScript variables](#pre-fill-with-javascript-variables) or [URL parameters](#pre-fill-with-url-parameters).
 
 === "Standalone"
 
-    You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+    !!! note "Not part of this version"
 
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.name = 'John Doe';
-    window.prq_vars.email = 'john.doe@gmail.com';
-    window.prq_vars.phone = '+15556219645';
-    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
-    // question ID - choices IDs separated by ;
-    </script>
-    ```
+        There is no retake setting here. Fill the answers in yourself, with [JavaScript variables](#pre-fill-with-javascript-variables) or [URL parameters](#pre-fill-with-url-parameters).
 
-    ### Example
-
-    **Use case**: You have embedded the quiz on all product pages, and want to know which product page the quiz was taken from.
-
-    **Solution**: Pass a parameter such as the product ID to the quiz, and store it in a question as a pre-filled answer.
-
-    1. Create a `Short Text` question to hold the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy the question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Add this script to your product page:
-
-    ```html
-    <script>
-    window.prq_vars = {};
-    window.prq_vars.questionID = 'productID';
-    </script>
-    ```
-
-    The question is skipped when a parameter is passed. If you also use the quiz outside your product page, pass an empty parameter for that `questionID`, or the question appears in the quiz.
-
-    The `productID` parameter then tells you where the quiz was taken.
-
-## Option 2: pass URL parameters
+## Pre-fill with JavaScript variables
 
 === "Shopify"
 
-    Pre-filling quiz responses via URL parameters is not available in the new Built for Shopify version of the RevenueHunt app. Use the built-in **Pre-fill answers on retake** setting in [**Quiz settings → Behavior**](/reference/quiz-builder/quiz-settings/#general) instead.
+    !!! note "Not part of this version"
+
+        `window.prq_vars` and the `prq_` URL parameters belong to the five older versions.
+
+        Use [Pre-fill answers when a customer retakes the quiz](#pre-fill-answers-when-a-customer-retakes-the-quiz) instead.
 
 === "Shopify (Legacy)"
 
-    URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-
-    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
+    Declare `window.prq_vars` in a `<script>` tag on the page that holds the quiz. This route needs a developer.
 
     ```html
-    prq_name=John Doe
-    prq_email=john.doe@gmail.com
-    prq_phone=+15556219645
-    prq_cdRDCc=xDAwDe;aSEfBq
-    // question ID - choices IDs separated by ;
+    <script>
+    window.prq_vars = {};
+    window.prq_vars.name = 'John Doe';
+    window.prq_vars.email = 'john.doe@gmail.com';
+    window.prq_vars.phone = '+15556219645';
+    // a question ID, with its choice IDs separated by a semicolon
+    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
+    </script>
     ```
 
-    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
+    `name`, `email` and `phone` fill the matching question types. For any other question, use its question ID as the key.
 
-    ### Example
+    **Recording which page the quiz was taken from**
 
-    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
+    Say the quiz is embedded on every product page, and you want to know which one a customer started from.
 
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
+    1. **Add a `Short Text` question to hold the value.** See [Question types](/reference/quiz-builder/questions/#question-types).
 
-    This link passes URL parameters:
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
+    2. **Copy its question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).**
 
-    Take the quiz now, and the name and email questions are pre-filled and skipped.
+    3. **Set that ID on your product page, with the product ID as its value.**
+
+        ```html
+        <script>
+        window.prq_vars = {};
+        window.prq_vars.cdRDCc = 'PRODUCT-1234';
+        </script>
+        ```
+
+    4. **Take the quiz from that page, then open [Responses](/reference/quiz-builder/metrics/#responses) and check the product ID arrived.**
+
+    !!! warning "A pre-filled question is skipped"
+
+        The customer never sees a question you fill in for them. If the same quiz also runs somewhere that has no script, pass an empty value for that question ID there, or the question appears.
 
 === "WooCommerce"
 
-    URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-
-    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
+    Declare `window.prq_vars` in a `<script>` tag on the page that holds the quiz. This route needs a developer.
 
     ```html
-    prq_name=John Doe
-    prq_email=john.doe@gmail.com
-    prq_phone=+15556219645
-    prq_cdRDCc=xDAwDe;aSEfBq
-    // question ID - choices IDs separated by ;
+    <script>
+    window.prq_vars = {};
+    window.prq_vars.name = 'John Doe';
+    window.prq_vars.email = 'john.doe@gmail.com';
+    window.prq_vars.phone = '+15556219645';
+    // a question ID, with its choice IDs separated by a semicolon
+    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
+    </script>
     ```
 
-    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
+    `name`, `email` and `phone` fill the matching question types. For any other question, use its question ID as the key.
 
-    ### Example
+    **Recording which page the quiz was taken from**
 
-    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
+    Say the quiz is embedded on every product page, and you want to know which one a customer started from.
 
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
+    1. **Add a `Short Text` question to hold the value.** See [Question types](/reference/quiz-builder/questions/#question-types).
 
-    This link passes URL parameters:
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
+    2. **Copy its question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).**
 
-    Take the quiz now, and the name and email questions are pre-filled and skipped.
+    3. **Set that ID on your product page, with the product ID as its value.**
+
+        ```html
+        <script>
+        window.prq_vars = {};
+        window.prq_vars.cdRDCc = 'PRODUCT-1234';
+        </script>
+        ```
+
+    4. **Take the quiz from that page, then open [Responses](/reference/quiz-builder/metrics/#responses) and check the product ID arrived.**
+
+    !!! warning "A pre-filled question is skipped"
+
+        The customer never sees a question you fill in for them. If the same quiz also runs somewhere that has no script, pass an empty value for that question ID there, or the question appears.
 
 === "Magento"
 
-    URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-
-    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
+    Declare `window.prq_vars` in a `<script>` tag on the page that holds the quiz. This route needs a developer.
 
     ```html
-    prq_name=John Doe
-    prq_email=john.doe@gmail.com
-    prq_phone=+15556219645
-    prq_cdRDCc=xDAwDe;aSEfBq
-    // question ID - choices IDs separated by ;
+    <script>
+    window.prq_vars = {};
+    window.prq_vars.name = 'John Doe';
+    window.prq_vars.email = 'john.doe@gmail.com';
+    window.prq_vars.phone = '+15556219645';
+    // a question ID, with its choice IDs separated by a semicolon
+    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
+    </script>
     ```
 
-    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
+    `name`, `email` and `phone` fill the matching question types. For any other question, use its question ID as the key.
 
-    ### Example
+    **Recording which page the quiz was taken from**
 
-    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
+    Say the quiz is embedded on every product page, and you want to know which one a customer started from.
 
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
+    1. **Add a `Short Text` question to hold the value.** See [Question types](/reference/quiz-builder/questions/#question-types).
 
-    This link passes URL parameters:
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
+    2. **Copy its question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).**
 
-    Take the quiz now, and the name and email questions are pre-filled and skipped.
+    3. **Set that ID on your product page, with the product ID as its value.**
+
+        ```html
+        <script>
+        window.prq_vars = {};
+        window.prq_vars.cdRDCc = 'PRODUCT-1234';
+        </script>
+        ```
+
+    4. **Take the quiz from that page, then open [Responses](/reference/quiz-builder/metrics/#responses) and check the product ID arrived.**
+
+    !!! warning "A pre-filled question is skipped"
+
+        The customer never sees a question you fill in for them. If the same quiz also runs somewhere that has no script, pass an empty value for that question ID there, or the question appears.
 
 === "BigCommerce"
 
-    URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-
-    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
+    Declare `window.prq_vars` in a `<script>` tag on the page that holds the quiz. This route needs a developer.
 
     ```html
-    prq_name=John Doe
-    prq_email=john.doe@gmail.com
-    prq_phone=+15556219645
-    prq_cdRDCc=xDAwDe;aSEfBq
-    // question ID - choices IDs separated by ;
+    <script>
+    window.prq_vars = {};
+    window.prq_vars.name = 'John Doe';
+    window.prq_vars.email = 'john.doe@gmail.com';
+    window.prq_vars.phone = '+15556219645';
+    // a question ID, with its choice IDs separated by a semicolon
+    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
+    </script>
     ```
 
-    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
+    `name`, `email` and `phone` fill the matching question types. For any other question, use its question ID as the key.
 
-    ### Example
+    **Recording which page the quiz was taken from**
 
-    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
+    Say the quiz is embedded on every product page, and you want to know which one a customer started from.
 
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
+    1. **Add a `Short Text` question to hold the value.** See [Question types](/reference/quiz-builder/questions/#question-types).
 
-    This link passes URL parameters:
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
+    2. **Copy its question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).**
 
-    Take the quiz now, and the name and email questions are pre-filled and skipped.
+    3. **Set that ID on your product page, with the product ID as its value.**
+
+        ```html
+        <script>
+        window.prq_vars = {};
+        window.prq_vars.cdRDCc = 'PRODUCT-1234';
+        </script>
+        ```
+
+    4. **Take the quiz from that page, then open [Responses](/reference/quiz-builder/metrics/#responses) and check the product ID arrived.**
+
+    !!! warning "A pre-filled question is skipped"
+
+        The customer never sees a question you fill in for them. If the same quiz also runs somewhere that has no script, pass an empty value for that question ID there, or the question appears.
 
 === "Standalone"
 
-    URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
-
-    To pre-fill quiz responses, pass these URL parameters when you link to your store, for example from a newsletter:
+    Declare `window.prq_vars` in a `<script>` tag on the page that holds the quiz. This route needs a developer.
 
     ```html
+    <script>
+    window.prq_vars = {};
+    window.prq_vars.name = 'John Doe';
+    window.prq_vars.email = 'john.doe@gmail.com';
+    window.prq_vars.phone = '+15556219645';
+    // a question ID, with its choice IDs separated by a semicolon
+    window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
+    </script>
+    ```
+
+    `name`, `email` and `phone` fill the matching question types. For any other question, use its question ID as the key.
+
+    **Recording which page the quiz was taken from**
+
+    Say the quiz is embedded on every product page, and you want to know which one a customer started from.
+
+    1. **Add a `Short Text` question to hold the value.** See [Question types](/reference/quiz-builder/questions/#question-types).
+
+    2. **Copy its question ID from the [question settings](/reference/quiz-builder/questions/#question-settings).**
+
+    3. **Set that ID on your product page, with the product ID as its value.**
+
+        ```html
+        <script>
+        window.prq_vars = {};
+        window.prq_vars.cdRDCc = 'PRODUCT-1234';
+        </script>
+        ```
+
+    4. **Take the quiz from that page, then open [Responses](/reference/quiz-builder/metrics/#responses) and check the product ID arrived.**
+
+    !!! warning "A pre-filled question is skipped"
+
+        The customer never sees a question you fill in for them. If the same quiz also runs somewhere that has no script, pass an empty value for that question ID there, or the question appears.
+
+## Pre-fill with URL parameters
+
+=== "Shopify"
+
+    !!! note "Not part of this version"
+
+        `window.prq_vars` and the `prq_` URL parameters belong to the five older versions.
+
+        Use [Pre-fill answers when a customer retakes the quiz](#pre-fill-answers-when-a-customer-retakes-the-quiz) instead.
+
+=== "Shopify (Legacy)"
+
+    A URL parameter is a value carried on the end of a link, after a `?`, with an `&` between one parameter and the next. Prefix each key with `prq_`.
+
+    ```text
     prq_name=John Doe
     prq_email=john.doe@gmail.com
     prq_phone=+15556219645
     prq_cdRDCc=xDAwDe;aSEfBq
-    // question ID - choices IDs separated by ;
     ```
 
-    If a value in `window.prq_vars` differs from the one passed in the URL, the URL parameter wins.
+    | Parameter | What it fills |
+    |---|---|
+    | `prq_name` | The name question |
+    | `prq_email` | The email question |
+    | `prq_phone` | The phone question |
+    | `prq_` and a question ID | That question, with choice IDs separated by a semicolon |
 
-    ### Example
+    !!! info "A URL parameter beats a JavaScript variable"
 
-    This link to the demo store passes **no parameters**. You have to fill in every question, including the name and email. Click the link and take the quiz:
+        If the same value is set in `window.prq_vars` and in the URL, the URL wins.
 
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
+    **Try it on your own quiz**
 
-    This link passes URL parameters:
-    [https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
+    1. **Open the page that holds your quiz and copy its address.**
 
-    Take the quiz now, and the name and email questions are pre-filled and skipped.
+    2. **Add `?prq_name=John%20Doe&prq_email=john.doe@gmail.com` to the end of it.**
+
+    3. **Open that link and take the quiz.** The name and email questions should arrive filled in, and the quiz should skip past them.
+
+=== "WooCommerce"
+
+    A URL parameter is a value carried on the end of a link, after a `?`, with an `&` between one parameter and the next. Prefix each key with `prq_`.
+
+    ```text
+    prq_name=John Doe
+    prq_email=john.doe@gmail.com
+    prq_phone=+15556219645
+    prq_cdRDCc=xDAwDe;aSEfBq
+    ```
+
+    | Parameter | What it fills |
+    |---|---|
+    | `prq_name` | The name question |
+    | `prq_email` | The email question |
+    | `prq_phone` | The phone question |
+    | `prq_` and a question ID | That question, with choice IDs separated by a semicolon |
+
+    !!! info "A URL parameter beats a JavaScript variable"
+
+        If the same value is set in `window.prq_vars` and in the URL, the URL wins.
+
+    **Try it on your own quiz**
+
+    1. **Open the page that holds your quiz and copy its address.**
+
+    2. **Add `?prq_name=John%20Doe&prq_email=john.doe@gmail.com` to the end of it.**
+
+    3. **Open that link and take the quiz.** The name and email questions should arrive filled in, and the quiz should skip past them.
+
+=== "Magento"
+
+    A URL parameter is a value carried on the end of a link, after a `?`, with an `&` between one parameter and the next. Prefix each key with `prq_`.
+
+    ```text
+    prq_name=John Doe
+    prq_email=john.doe@gmail.com
+    prq_phone=+15556219645
+    prq_cdRDCc=xDAwDe;aSEfBq
+    ```
+
+    | Parameter | What it fills |
+    |---|---|
+    | `prq_name` | The name question |
+    | `prq_email` | The email question |
+    | `prq_phone` | The phone question |
+    | `prq_` and a question ID | That question, with choice IDs separated by a semicolon |
+
+    !!! info "A URL parameter beats a JavaScript variable"
+
+        If the same value is set in `window.prq_vars` and in the URL, the URL wins.
+
+    **Try it on your own quiz**
+
+    1. **Open the page that holds your quiz and copy its address.**
+
+    2. **Add `?prq_name=John%20Doe&prq_email=john.doe@gmail.com` to the end of it.**
+
+    3. **Open that link and take the quiz.** The name and email questions should arrive filled in, and the quiz should skip past them.
+
+=== "BigCommerce"
+
+    A URL parameter is a value carried on the end of a link, after a `?`, with an `&` between one parameter and the next. Prefix each key with `prq_`.
+
+    ```text
+    prq_name=John Doe
+    prq_email=john.doe@gmail.com
+    prq_phone=+15556219645
+    prq_cdRDCc=xDAwDe;aSEfBq
+    ```
+
+    | Parameter | What it fills |
+    |---|---|
+    | `prq_name` | The name question |
+    | `prq_email` | The email question |
+    | `prq_phone` | The phone question |
+    | `prq_` and a question ID | That question, with choice IDs separated by a semicolon |
+
+    !!! info "A URL parameter beats a JavaScript variable"
+
+        If the same value is set in `window.prq_vars` and in the URL, the URL wins.
+
+    **Try it on your own quiz**
+
+    1. **Open the page that holds your quiz and copy its address.**
+
+    2. **Add `?prq_name=John%20Doe&prq_email=john.doe@gmail.com` to the end of it.**
+
+    3. **Open that link and take the quiz.** The name and email questions should arrive filled in, and the quiz should skip past them.
+
+=== "Standalone"
+
+    A URL parameter is a value carried on the end of a link, after a `?`, with an `&` between one parameter and the next. Prefix each key with `prq_`.
+
+    ```text
+    prq_name=John Doe
+    prq_email=john.doe@gmail.com
+    prq_phone=+15556219645
+    prq_cdRDCc=xDAwDe;aSEfBq
+    ```
+
+    | Parameter | What it fills |
+    |---|---|
+    | `prq_name` | The name question |
+    | `prq_email` | The email question |
+    | `prq_phone` | The phone question |
+    | `prq_` and a question ID | That question, with choice IDs separated by a semicolon |
+
+    !!! info "A URL parameter beats a JavaScript variable"
+
+        If the same value is set in `window.prq_vars` and in the URL, the URL wins.
+
+    **Try it on your own quiz**
+
+    1. **Open the page that holds your quiz and copy its address.**
+
+    2. **Add `?prq_name=John%20Doe&prq_email=john.doe@gmail.com` to the end of it.**
+
+    3. **Open that link and take the quiz.** The name and email questions should arrive filled in, and the quiz should skip past them.
 
 ---
-This article explains how to pass parameters to pre-fill quiz responses in the RevenueHunt quiz app.
+
+This article explains the three ways a quiz can open with answers already filled in, and which one each version has.

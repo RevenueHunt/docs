@@ -134,3 +134,23 @@ A link to the quiz that you paste into an email or a newsletter.
 **Pick this when** you want subscribers to take the quiz from their inbox.
 
 [How to Get an External Quiz Link for Emails and Newsletters](/how-to-guides/publish-quiz-email-link/)
+
+## With a page builder
+
+GemPages and PageFly are both Shopify apps. If your landing pages are built with one of them, the quiz goes in through the builder rather than the Shopify theme editor.
+
+### GemPages
+
+The quiz sits inside a GemPages page, added through the builder's `Shopify App` element.
+
+**Pick this when** your landing pages are built in GemPages.
+
+[How to Publish a Quiz on a GemPages Page](/how-to-guides/publish-gempages/)
+
+### PageFly
+
+The quiz sits inside a PageFly page, or a PageFly button opens it.
+
+**Pick this when** your landing pages are built in PageFly. Its inline element works with the legacy app only, so on Built for Shopify you point a button at the quiz.
+
+[How to Publish a Quiz on a PageFly Page](/how-to-guides/publish-pagefly/)

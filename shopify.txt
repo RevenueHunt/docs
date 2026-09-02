@@ -9138,22 +9138,35 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 # How to Pass Parameters to Pre-fill Quiz Responses
 
-## Option 1: declare window.prq_vars
+A quiz can open with some answers already filled in, so a customer never retypes something you already hold.
 
-## Option 2: pass URL parameters
+That is worth doing when a logged-in customer's name and email are already on file. It helps too when you send people from a mailing list that holds their details. A pre-filled question is skipped, so the quiz is shorter as well.
+
+## Pre-fill answers when a customer retakes the quiz
+
+## Pre-fill with JavaScript variables
+
+## Pre-fill with URL parameters
 
 ---
-This article explains how to pass parameters to pre-fill quiz responses in the RevenueHunt quiz app.
+
+This article explains the three ways a quiz can open with answers already filled in, and which one each version has.
 
 --- Shopify Specific Content ---
 
-In the new Built for Shopify version of the RevenueHunt app, pre-filling quiz responses via JavaScript variables or URL parameters is not available. However, there is a built-in [**pre-fill on retake** setting](/reference/quiz-builder/quiz-settings/#general).
-When this is on, a customer who retakes the quiz gets all their previous answers back: choices, text fields, dates. They only need to change what is different.
-To enable it, go to **Quiz settings → Behavior → Pre-fill answers on retake** and toggle it on.
-!!! note
-    This setting is off by default for existing quizzes and on by default for newly created quizzes.
-Pre-filling quiz responses via `window.prq_vars` is not available in the new Built for Shopify version of the RevenueHunt app. Use the built-in **Pre-fill answers on retake** setting in [**Quiz settings → Behavior**](/reference/quiz-builder/quiz-settings/#general) instead.
-Pre-filling quiz responses via URL parameters is not available in the new Built for Shopify version of the RevenueHunt app. Use the built-in **Pre-fill answers on retake** setting in [**Quiz settings → Behavior**](/reference/quiz-builder/quiz-settings/#general) instead.
+A customer who retakes the quiz gets their previous answers back, including choices, text fields and dates. They change only what is different.
+1. **Open [Quiz settings > General](/reference/quiz-builder/quiz-settings/#general).**
+2. **Under `Quiz behavior settings`, turn `Pre-fill answers on retake` on.**
+3. **Click the top-right `Save` button.**
+4. **Take the quiz through to the results page, then click `Retake quiz`.** Your answers should come back with you.
+!!! note "The default depends on the age of the quiz"
+    A quiz created recently has this on already. A quiz that predates the setting has it off.
+!!! note "Not part of this version"
+    `window.prq_vars` and the `prq_` URL parameters belong to the five older versions.
+    Use [Pre-fill answers when a customer retakes the quiz](#pre-fill-answers-when-a-customer-retakes-the-quiz) instead.
+!!! note "Not part of this version"
+    `window.prq_vars` and the `prq_` URL parameters belong to the five older versions.
+    Use [Pre-fill answers when a customer retakes the quiz](#pre-fill-answers-when-a-customer-retakes-the-quiz) instead.
 
 
 
@@ -9167,33 +9180,37 @@ description: "Learn how to embed a RevenueHunt quiz into a GemPages page in Shop
 icon: material/view-quilt-outline
 ---
 
-# How to Publish Quiz on GemPages Page
+# How to Publish a Quiz on a GemPages Page
 
-GemPages lets you embed a RevenueHunt quiz into your landing pages and product pages. It uses the built-in **Shopify App** element and the Shopify theme editor.
+GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit on one of them.
 
 ---
-This article explains how to publish a RevenueHunt quiz on a GemPages page in Shopify.
+
+This article explains how to put a RevenueHunt quiz on a GemPages page. It also covers which block to pick for the way you want it to open.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 55.32786885245902%; height: 0;"><iframe src="https://www.loom.com/embed/ac5f2c0474b04b1b966d13fd9e9c9806" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. Open the GemPages page builder for the landing page or product page where you want the quiz to appear.
-2. Search for the **Shopify App** element and drag it into the builder.
-    ![Add the Shopify App element in GemPages](/images/gempages_shopifyapp_element.jpg)
-3. Click the element you just added, then click **Open Shopify editor**. The Shopify default theme editor opens.
-    ![Open the Shopify editor from GemPages](/images/gempages_openshopifyeditor.jpg)
-4. In the theme editor, select the section where the Shopify App element is placed and click `Add block`. Switch to the `Apps` tab.
-5. Add one of the RevenueHunt blocks, depending on how you want the quiz to appear:
-    - **Inline Quiz** (embeds the quiz directly in the page).
-    - **Auto Popup Quiz** (opens the quiz automatically as a popup).
-    - **Link Popup Quiz** (opens the quiz in a popup when a link or button is clicked).
-    - **Chat Button Quiz** (opens the quiz from a floating chat-style button).
-    ![Add a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
-6. Click `Save` in the Shopify theme editor.
-7. Go back to the GemPages page builder and open your landing page. GemPages marks the page as **needs republishing**, because the change was made in the Shopify theme editor. Click `Save`, then `Publish`.
-    ![GemPages needs republishing after theme editor changes](/images/gempages_saveandpublish.jpg)
-8. Once the page is published, open the live page. Your quiz is embedded on the page. If you added an auto popup, it appears after a moment.
-    ![RevenueHunt quiz published on a GemPages page](/images/gempages_quizpublished.jpg)
+A quiz reaches a GemPages page through the `Shopify App` element, which opens the Shopify theme editor so you can pick the block.
+1. **Open the GemPages builder for the landing page or product page you want the quiz on.**
+2. **Find the `Shopify App` element and drag it into the page.**
+    ![The Shopify App element in the GemPages builder](/images/gempages_shopifyapp_element.jpg)
+3. **Click the element you just added, then click `Open Shopify editor`.** The Shopify theme editor opens on that section.
+    ![Opening the Shopify editor from GemPages](/images/gempages_openshopifyeditor.jpg)
+4. **Select the section holding the `Shopify App` element, click `Add block`, and open the `Apps` tab.**
+5. **Add the RevenueHunt block that matches how you want the quiz to appear.**
+    | Block | What it does |
+    |---|---|
+    | `Inline Quiz` | Sits in the page itself. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) |
+    | `Auto Popup Quiz` | Opens on its own after a delay. See [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) |
+    | `Link Popup Quiz` | Opens when a link or a button is clicked. See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) |
+    | `Chat Button Quiz` | Opens from a floating chat-style button. See [How to Add a Quiz Popup via a Chat-Like Button on Your Store](/how-to-guides/publish-quiz-chat-button/) |
+    ![Adding a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
+6. **Click `Save` in the Shopify theme editor.**
+7. **Back in GemPages, open your page and click `Save`, then `Publish`.** GemPages marks the page as needing a republish, because the change was made in the theme editor.
+    ![GemPages asking for a republish after a theme editor change](/images/gempages_saveandpublish.jpg)
+8. **Open the live page and check the quiz is there.** An automatic popup takes a moment to arrive.
+    ![A RevenueHunt quiz running on a published GemPages page](/images/gempages_quizpublished.jpg)
 
 
 
@@ -9207,23 +9224,31 @@ description: "Learn how to integrate RevenueHunt quiz with PageFly page builder 
 icon: material/butterfly-outline
 ---
 
-# How to Publish Quiz on PageFly Page
+# How to Publish a Quiz on a PageFly Page
+
+PageFly builds Shopify landing pages and product pages. A quiz can sit inside one of those pages, or the page can carry a button that opens it.
+
+## Embed the quiz inline on a PageFly page
+
+## Link to the quiz from a PageFly button
 
 ---
-This article explains how to publish a RevenueHunt quiz on a PageFly page in Shopify.
+
+This article explains the two ways to get a RevenueHunt quiz onto a PageFly page, and which of them each version supports.
 
 --- Shopify Specific Content ---
 
-PageFly currently integrates only with the legacy version of the RevenueHunt app for Shopify. The new 💎 Built for Shopify version of the RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
-!!! tip "Possible Workaround"
-    Publish the quiz on its own Shopify page, then point a **button or link** on your PageFly page at it.
-    1. Publish the quiz on a new page in Shopify by following the instructions on [How to Publish the Quiz on a New Page in Shopify](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
-    2. Open the PageFly editor and create a new page or open an existing page.
-    3. In the page builder, go to `Elements` and add a `Button` element to your page by dragging it.
-    4. In Button settings, under Action select `Go to URL` and enter the URL of the page where the quiz is embedded.
-        ![Button Settings](/images/how_to_pagefly_addbutton.png)
-    5. Click `Save` and the button will be added to your page.
-    6. Click `Preview` to see the button on the page.
+!!! note "Not part of this version"
+    The PageFly RevenueHunt element works with the legacy app only. The new 💎 Built for Shopify version cannot be embedded into a PageFly page directly.
+    Point a button at the quiz instead. See [Link to the quiz from a PageFly button](#link-to-the-quiz-from-a-pagefly-button).
+The quiz sits on a Shopify page of its own, and the PageFly page carries a button that opens it.
+1. **Publish the quiz on a page of its own in Shopify.** See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+2. **Open the PageFly editor, on a new page or one you already have.**
+3. **Go to `Elements` and drag a `Button` element onto the page.**
+4. **In the button settings, set `Action` to `Go to URL` and paste the address of the quiz page.**
+    ![The Go to URL action in the PageFly button settings](/images/how_to_pagefly_addbutton.png)
+5. **Click `Save`.**
+6. **Click `Preview`, then use the page as a customer would and check the quiz opens.**
 
 
 
@@ -9239,39 +9264,23 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This article explains how to set up automatic popups on your store. It covers popups on the homepage, on a specific page and on all pages, exit intent, and how often a popup can appear.
+An automatic popup opens the quiz on its own, a few seconds after the customer arrives. You choose where it runs: the home page, one page, or every page.
 
-!!! info "What is an Automatic Popup?"
+!!! info "How often a customer sees it"
 
-    It is a quiz popup that appears after X seconds. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
+    A popup opens once per session. It does not reappear if the customer moves to another page, unless you turn `Exit Intent` on, or allow [repeated displays](#repeated-popup-displays-per-session).
 
-!!! warning
-
-    Automatic popups can be very intrusive which is why, by default, they are shown only once per customer session.
+    Automatic popups are intrusive, which is why once per session is the default.
 
 !!! note "Before you start"
 
-    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor. A basic understanding of HTML helps when you edit a theme.
-
-    *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
+    You need a quiz built in the RevenueHunt app, and access to your theme editor. Editing theme source code can break a storefront, so bring in a developer if a step is beyond you.
 
 ## Auto-popup on the main page
 
-!!! info "What is an Automatic Popup Quiz on the Main Page?"
-
-    It is a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
-
 ## Auto-popup on a specific page
 
-!!! info "What is an Automatic Popup Quiz on a Specific Page?"
-
-    It is a quiz popup that appears after X seconds on a specific page of your store. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
-
 ## Auto-popup on all pages
-
-!!! info "What is an Automatic Popup Quiz on All Pages?"
-
-    It is a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session, unless the `Exit Intent` option is enabled in the popup settings.
 
 ## FAQs
 
@@ -9283,104 +9292,113 @@ This article explains how to set up automatic popups on your store. It covers po
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the popup points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-By following these steps, you can enhance your ecommerce store's interactivity and user engagement through well-timed automatic popups.
+
+This article explains how to open a quiz as an automatic popup, where to run it, and what to check when it does not appear.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HeHWWdbxvYI?si=yfWxXGhQEiRz6IDH" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Add a section for the app embed**: In the Home page Template, add the RevenueHunt `Auto Popup Quiz` app embed. The quiz popup is then enabled on the home page.
-    ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
-3. **Configure Popup Settings**:
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
-    - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-    - Adjust the `Popup Width` and `Height` (as percentage of screen)
-    - Set the `Popup z-index` to control layering with other elements
-    - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-    - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-4. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-5. **Test the Automatic Popup**: Open an incognito or private browsing window. A popup is shown only once per session.
-!!! note
-    When a customer comes to your store, the default quiz opens automatically, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **With the home page template open, click `Add section`, open the `Apps` tab, and add `Auto Popup Quiz (Block)`.**
+    ![Adding the Auto Popup Quiz (Block) section from the Apps tab](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
+3. **Set up the popup.**
+    ![The automatic popup settings in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup Delay` | How many seconds to wait before the popup opens |
+    | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
+4. **Click `Save`.**
+5. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0mJ4KiHQFq8?si=xWPSV0l6JDcVIcGN" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Popup Page`). Set the visibility to `Visible` and save the changes.
-2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Popup Template` and edit it.
-4. **Add a section for the app embed**: In the new template, add the RevenueHunt `Automatic Popup Quiz (Block)` app embed. The quiz popup is then enabled on that page.
-    ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
-5. **Configure Popup Settings**:
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
-    - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-    - Adjust the `Popup Width` and `Height` (as percentage of screen)
-    - Set the `Popup z-index` to control layering with other elements
-    - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-    - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-6. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-7. **Assign the template to the page**: Go to `Online Store > Pages` and select the page you created. Under `Page Template` select the template you created.
-    ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_template](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
-8. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-9. **Test the Automatic Popup**: Open an incognito or private browsing window. A popup is shown only once per session.
-!!! note
-    When a customer comes to your store, the default quiz opens automatically, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Pages` and click `Add page`.** Name it, for example `Automatic Popup Page`, set it to `Visible`, and save.
+2. **Go to `Online Store > Themes` and click `Customize`.**
+3. **Open the page template menu and click `+ Create a new template`.** Give it a name you will remember, such as `Automatic Quiz Popup`.
+4. **In that template, click `Add section`, open the `Apps` tab, and add `Auto Popup Quiz (Block)`.**
+    ![Adding the Auto Popup Quiz (Block) section from the Apps tab](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
+5. **Set up the popup.**
+    ![The automatic popup settings in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup Delay` | How many seconds to wait before the popup opens |
+    | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
+6. **Click `Save`.**
+7. **Go back to `Online Store > Pages`, open your page, and set `Page Template` to the template you built.**
+    ![Assigning the new template to the page](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
+8. **Click `Save`.**
+9. **Open that page in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-675UKK1uJI?si=hb4rRFFhwkk53a9p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Activate App Embeds**: Make sure you are editing the `Default` theme for your store. Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-3. **Configure Popup Settings**:
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
-    - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-    - Adjust the `Popup Width` and `Height` (as percentage of screen)
-    - Set the `Popup z-index` to control layering with other elements
-    - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-    - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-5. **Test the Automatic Popup**: Open an incognito or private browsing window. A popup is shown only once per session.
-The popup will now appear across all pages that have the same template/theme applied according to the configured settings.
-!!! note
-    When a customer comes to your store, the default quiz opens automatically, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
-By default, an automatic popup shows the default quiz for your store.
-!!! note
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-To **open a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. That field is in the `Automatic Popup Quiz` settings in the theme editor.
-![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-3. **Configure Exit intent**:
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
-    - Toggle on the `Trigger Popup on Exit Intent` option
-    - Adjust other settings like `Popup Width` and `Height` as needed
-4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-The popup now appears when a customer moves the cursor to close the tab or window.
-In the Built for Shopify version of the RevenueHunt app you cannot show the popup more than once per session. The exception is the `Exit intent` option. See [Show Popup on Exit intent](#show-popup-on-exit-intent).
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
-1. Check that you activated `Automatic Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Automatic Popup Quiz Legacy`.
-    ![how_to_publish_shipifyV2_V1publisherrorautomaticpopup](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
-    If the wrong automatic popup quiz is activated, that error appears when you link to a Built for Shopify quiz.
-    To solve this simply deactivate the `Automatic Popup Quiz Legacy` and activate the `Automatic Popup Quiz` one.
-2. Save the changes.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Automatic Popup Quiz`.** Leave `Auto Popup Quiz (Legacy)` off. That one serves quizzes from the legacy app.
+    ![The App embeds list, with Automatic Popup Quiz turned on](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+3. **Set up the popup.**
+    ![The automatic popup settings in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup Delay` | How many seconds to wait before the popup opens |
+    | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
+4. **Click `Save`.**
+5. **Open your store in a private browsing window and wait for the popup.** A popup shows once per session, so a fresh window is the only way to see it again.
+The popup now runs on every page that uses this theme.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
+An automatic popup opens your default quiz. To open another one, put its ID in the `Quiz ID (optional)` field of the popup settings in the theme editor.
+![The Quiz ID field in the automatic popup settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+!!! note "Shopify Markets"
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market opens instead of your store default.
+Exit intent opens the popup when the customer moves the cursor towards the tab or window controls, rather than after a delay.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Automatic Popup Quiz`.**
+    ![The App embeds list, with Automatic Popup Quiz turned on](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+3. **Turn `Trigger Popup on Exit Intent` on, and adjust the width and height if you need to.**
+    ![The exit intent toggle in the automatic popup settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+4. **Click `Save`.**
+5. **Open your store, then move the cursor up towards the tab bar.** The popup should open.
+This version shows the popup once per session and offers no way to change that.
+The one exception is exit intent, which can fire again on the same visit. See [Show popup on exit intent](#show-popup-on-exit-intent).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+This error means the popup is being served by the embed for the other version of the app.
+1. **Go to `Online Store > Themes > Customize > App embeds` and check which popup embed is on.** For a quiz built here, `Automatic Popup Quiz` is the right one.
+    ![The two automatic popup embeds in the App embeds list](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
+2. **Turn `Auto Popup Quiz (Legacy)` off and turn `Automatic Popup Quiz` on.** The legacy embed serves quizzes from the legacy app, so it cannot find a quiz built in this version.
+3. **Click `Save`, then reload your store.**
 
 
 
@@ -9396,33 +9414,19 @@ icon: material/chat-outline
 
 # How to Add a Quiz Popup via a Chat-Like Button on Your Store
 
-This article explains how to add a chat button that opens the quiz. It covers both the theme-based method and the manual one.
+A chat button sits in a corner of your store, looking like a support widget. A customer clicks it and the quiz opens in a popup.
 
-!!! info "What is a Chat Button?"
-
-    It is a button that opens the quiz popup when a customer clicks it.
+Unlike an [automatic popup](/how-to-guides/publish-quiz-automatic-popup/), it waits to be clicked, so it asks nothing of a customer who is not interested.
 
 !!! note "Before you start"
 
-    Before you start, you need a quiz created with the RevenueHunt app and access to the theme editor.
+    You need a quiz built in the RevenueHunt app, and access to your theme editor.
 
 ## Chat button on the homepage
 
-!!! info "What is a Chat Button on the Homepage?"
-
-    It is a chat-like button that appears on the homepage of your store. Clicking it opens the quiz popup.
-
 ## Chat button on all pages
 
-!!! info "What is a Chat Button on All Pages?"
-
-    It is a chat-like button that appears on all pages of your store. Clicking it opens the quiz popup.
-
 ## Chat button on a specific page
-
-!!! info "What is a Chat Button on a Specific Page?"
-
-    It is a chat-like button that appears on a specific page of your store. Clicking it opens the quiz popup.
 
 ## FAQs
 
@@ -9430,88 +9434,113 @@ This article explains how to add a chat button that opens the quiz. It covers bo
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the chat button points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-By following these instructions, you can successfully add a chat-like button to your Shopify/ecommerce store that opens a quiz popup.
+
+This article explains how to add a chat button that opens your quiz. It also covers where to run it, and what to check when it does not appear.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WGfNlVPFA_Q?si=anpiVruoyxR8cKyy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button. Make sure you are editing the `Default` theme or the theme that is applied to your main page.
-2. **Add a Section**: Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
-    ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
-3. **Configure Popup Settings**:
-    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
-    - Adjust the chat `color`, the icon and the chat position
-    - Add a `greetings message`
-    - Adjust the `Popup Width` and `Height` (as percentage of screen)
-    - Set the `Popup z-index` to control layering with other elements
-    - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-    - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-    - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-!!! note
-    When a customer comes to your store, the default quiz opens automatically, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **With the home page template open, click `Add section`, open the `Apps` tab, and add `Chat Button Quiz`.**
+    ![Adding the Chat Button Quiz section from the Apps tab](/images/manual_shopifyv2_pagelevel_chat_add.png)
+3. **Set up the button.**
+    ![The Chat Button Quiz settings panel](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Chat button color` | The color of the button itself |
+    | `Chat icon color` | The color of the icon inside it |
+    | `Chat position` | Which corner the button sits in |
+    | `Hide after quiz completion` | Takes the button away once the customer reaches the results page |
+    | `Show notification dot` | Puts a small red dot on the icon |
+    | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
+    | `Popup width (% of screen)` | How wide the quiz opens |
+    | `Popup height (% of screen)` | How tall the quiz opens |
+    | `Popup z-index` | Which other elements the quiz sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+4. **Click `Save`.**
+5. **Open your store and click the chat button.** The quiz should open in a popup.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RM0MySN9PUU?si=wtcWwFSvN25coodT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Activate App Embeds**: Edit the `Default` theme, or the theme applied to most of your pages. In the theme customization area, go to `App Embeds`. Find `Chat Popup Quiz` and toggle it on.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
-3. **Configure Popup Settings**:
-    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
-    - Adjust the chat `color`, the icon and the chat position
-    - Add a `greetings message`
-    - Adjust the `Popup Width` and `Height` (as percentage of screen)
-    - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
-    - Set the `Popup z-index` to control layering with other elements
-4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-!!! note
-    When a customer comes to your store, the default quiz opens automatically, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Chat Button Quiz`.** Leave `Chat Button Quiz (Legacy)` off. That one serves quizzes from the legacy app.
+    ![The App embeds list, with Chat Button Quiz turned on](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+3. **Set up the button.**
+    ![The Chat Button Quiz settings panel](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Chat button color` | The color of the button itself |
+    | `Chat icon color` | The color of the icon inside it |
+    | `Chat position` | Which corner the button sits in |
+    | `Hide after quiz completion` | Takes the button away once the customer reaches the results page |
+    | `Show notification dot` | Puts a small red dot on the icon |
+    | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
+    | `Popup width (% of screen)` | How wide the quiz opens |
+    | `Popup height (% of screen)` | How tall the quiz opens |
+    | `Popup z-index` | Which other elements the quiz sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+4. **Click `Save`.**
+5. **Open your store and click the chat button.** The quiz should open in a popup.
+The button now runs on every page that uses this theme.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rbweJaslzvo?si=0EZZDjAhO8FfQt3R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. In Shopify, go to `Online Theme > Customize`. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the chat popup on, or create a new one.
-2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
-    ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
-3. You can adjust the chat button options:
-    ![manual_shopifyv2_pagelevel_chat_added](/images/manual_shopifyv2_pagelevel_chat_added.png)
-    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
-    `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
-    `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
-    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
-    `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
-    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
-    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.
-5. Remember to apply the new page template to the page you want to add the chat popup to. To add a new page to your store go to `Online Store > Pages` and click on `+ Add Page`. In the page template section select the template you created, set the visibility to `Visible` and click on `Save`.
-!!! note
-    When a customer comes to your store, the default quiz opens automatically, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
-By default, a chat button shows the default quiz for your store.
-!!! note
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-To **open a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. That field is in the `Chat Button Quiz` settings in the theme editor.
-![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-!!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
-1. Check that you activated `Chat Button Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Chat Button Quiz Legacy`.
-    ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatpopup.png)
-    If the wrong chat button quiz is activated, that error appears when you link to a Built for Shopify quiz.
-    To solve this simply deactivate the `Chat Button Quiz Legacy` and activate the `Chat Button Quiz` one.
-2. Save the changes.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Open the page template menu and pick the template you want the button on, or create a new one.**
+3. **Click `Add section`, open the `Apps` tab, and add `Chat Button Quiz`.**
+    ![Adding the Chat Button Quiz section from the Apps tab](/images/manual_shopifyv2_pagelevel_chat_add.png)
+    ![The Chat Button Quiz section added to a template](/images/manual_shopifyv2_pagelevel_chat_added.png)
+4. **Set up the button.**
+    ![The Chat Button Quiz settings panel](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Chat button color` | The color of the button itself |
+    | `Chat icon color` | The color of the icon inside it |
+    | `Chat position` | Which corner the button sits in |
+    | `Hide after quiz completion` | Takes the button away once the customer reaches the results page |
+    | `Show notification dot` | Puts a small red dot on the icon |
+    | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
+    | `Popup width (% of screen)` | How wide the quiz opens |
+    | `Popup height (% of screen)` | How tall the quiz opens |
+    | `Popup z-index` | Which other elements the quiz sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+5. **Click `Save`.** The button now shows on every page using this template.
+6. **Apply the template to your page.** In `Online Store > Pages`, open the page, or click `Add page` to make one. Set its template to the one you just built, set the visibility to `Visible`, and save.
+7. **Open your store and click the chat button.** The quiz should open in a popup.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
+A chat button opens your default quiz. To open another one, put its ID in the `Quiz ID (optional)` field of the `Chat Button Quiz` settings in the theme editor.
+![The Quiz ID field in the Chat Button Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+!!! note "Shopify Markets"
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market opens instead of your store default.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+This error means the button is being served by the embed for the other version of the app.
+1. **Go to `Online Store > Themes > Customize > App embeds` and check which chat embed is on.** For a quiz built here, `Chat Button Quiz` is the right one.
+    ![The two chat button embeds in the App embeds list](/images/how_to_publish_shipifyV2_V1publisherrorchatpopup.png)
+2. **Turn `Chat Button Quiz (Legacy)` off and turn `Chat Button Quiz` on.** The legacy embed serves quizzes from the legacy app, so it cannot find a quiz built in this version.
+3. **Click `Save`, then reload your store.**
 
 
 
@@ -9527,39 +9556,20 @@ icon: material/email-fast-outline
 
 # How to Get an External Quiz Link for Emails and Newsletters
 
-This article explains how to create an external quiz link for emails and newsletters.
+A link in an email can take a customer to a page that holds the quiz. It can also open the quiz as a popup over your store. Either link goes into any email tool as an ordinary link.
 
-!!! info "What is an Email Link?"
-
-    It is a direct link to the quiz, for use in an email.
-
-There are two ways to create an external link to your quiz for emails and newsletters:
-
-- [Link to Dedicated Quiz Page](#quiz-on-a-dedicated-landing-page) ⬅️ recommended for most marketing campaigns
-
-    A quiz is embedded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`).
-
-    An embedded quiz gives you better tracking and analytics.
-
-- [Link Popup](#link-popup-for-emails)
-
-    A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
+| Route | The link looks like | Pick it when |
+|---|---|---|
+| [A page that holds the quiz](#quiz-on-a-dedicated-landing-page) | `https://yourstore.com/pages/quiz-page` | You want the traffic to land somewhere your analytics counts as a page |
+| [A link popup](#link-popup-for-emails) | `https://yourstore.com/#quiz` | You want the quiz to open over a page you already have |
 
 ## Quiz on a dedicated landing page
 
-!!! info "What is an inline quiz on a dedicated landing page?"
+!!! tip "The same address works elsewhere"
 
-    An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
-
-!!! tip
-
-    You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
+    Add it to your store menu, your social posts or your ads. Nothing about it is specific to email.
 
 ## Link popup for emails
-
-!!! info "What is a Link Popup?"
-
-    It is a direct link, such as `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
 
 ## FAQs
 
@@ -9567,61 +9577,66 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the link points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-This article explains how to share a quiz created with RevenueHunt Quizzes app within your emails and newsletters.
+
+This article explains the two ways to link a quiz from an email, and what to check when the link does not open it.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Create a New Page Template**: click on the `Templates` menu in the header.
-    ![Create a new Page template](/images/landing-page-create-a.png)
-    Navigate to `Pages` and click on the `Create template` link. Name your template (e.g., quiz-page) and set it as "Based on" your Default page template.
-    ![Create a new Page template](/images/landing-page-create-b.png)
-3. **Add Inline Quiz Section**: Click on the `Add section` link and from the `Apps` section, find `Inline Quiz` from RevenueHunt. Select it to add to your quiz page template.
-    ![Add section inline quiz](/images/landing-page-add-section-app-inline-quiz.png)
-4. The default quiz for your store will be rendered.
-    !!! note
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-        To show a specific quiz, enter its quiz ID in the `Quiz ID` field. See [Open a specific quiz](#open-a-specific-quiz).
-5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
-6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`.
-    ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
-    The default quiz for your store will be rendered. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
-7. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-    Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed, and app embeds are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Click the `Templates` menu in the header.**
+    ![The Templates menu in the Shopify theme editor](/images/landing-page-create-a.png)
+3. **Go to `Pages`, click `Create template`, and name it**, such as `quiz-page`. Set `Based on` to your default page template.
+    ![Naming the new page template](/images/landing-page-create-b.png)
+4. **Click `Add section`, open the `Apps` group, and add `Inline Quiz` from RevenueHunt.** Your default quiz renders in the template straight away.
+    ![Adding the Inline Quiz section from the Apps group](/images/landing-page-add-section-app-inline-quiz.png)
+5. **Click the quiz section to adjust its settings.** You can set the quiz height, fix that height so the results page does not resize, and turn auto-scroll off.
+6. **Go to `Online Store > Pages` and click `Add page`, or open an existing page.**
+7. **Under `Template`, pick the template you just built, then click `Save`.**
+    ![Choosing the new template on a Shopify page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
+8. **Click `View Template` and check the quiz is on the page.**
+    ![The quiz running on the published landing page](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
+9. **Open the finished page in your store, copy its address from the browser, and paste it into your email.**
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Link Popup Quiz` option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
-    ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
-3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://yourstore.myshopify.com/#quiz.
-5. **Share the link**: Share the link to the quiz popup with your audience. You can add it to your email campaigns, social media posts, or any other communication channel.
-!!! note
-    When a customer opens the link, the default quiz for your store opens, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
-By default when you use `#quiz` as the link, the default quiz for your store will open.
-!!! note
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-If instead you want to **open a specific quiz**, you need to  add a Quiz ID in the `Quiz ID (optional)` field in the `Link Popup Quiz settings` in the theme editor.
-![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
-1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
-    ![Link Popup Quiz in the App Embeds section](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
-    If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
-    To fix it, deactivate `Link Popup Quiz Legacy`, activate `Link Popup Quiz`, then save the changes.
-2. Check that the link follows the format `#quiz`.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed, and app embeds are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+The link popup embed adds the RevenueHunt script to your store, so any link ending in `#quiz` opens the quiz over whatever page it lands on.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Link Popup Quiz`.** Leave `Link Popup Quiz (Legacy)` off. That one serves quizzes from the legacy app.
+    ![The Link Popup Quiz embed in the App embeds list](/images/how_to_publish_quiz_link_popup_app_embeds.png)
+3. **Click `Save`.**
+4. **Build your link by adding `#quiz` to any page address on your store**, such as `https://yourstore.com/#quiz`.
+5. **Paste that link into your email.**
+6. **Send yourself a test email and click the link.** The quiz should open.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
+A link ending in `#quiz` opens your default quiz. To open another one, put its ID in the `Quiz ID (optional)` field of the `Link Popup Quiz` settings in the theme editor.
+![The Quiz ID field in the Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+!!! note "Shopify Markets"
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market opens instead of your store default.
+This error means the link is being served by the embed for the other version of the app.
+1. **Go to `Online Store > Themes > Customize > App embeds` and check which link embed is on.** For a quiz built here, `Link Popup Quiz` is the right one.
+    ![The two link popup embeds in the App embeds list](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
+2. **Turn `Link Popup Quiz (Legacy)` off and turn `Link Popup Quiz` on.** The legacy embed serves quizzes from the legacy app, so it cannot find a quiz built in this version.
+3. **Click `Save`.**
+4. **Check your link ends in `#quiz`.**
 
 
 
@@ -9637,39 +9652,20 @@ icon: material/share-variant
 
 # How to Get an External Quiz Link for Social Media
 
-This article explains how to create an external quiz link that you can share on social media, such as TikTok, X, Instagram and Facebook.
+A link in a social post can take someone to a page that holds the quiz. It can also open the quiz as a popup over your store. Either link goes anywhere a link goes, including a bio.
 
-!!! info "What is an External Quiz Link?"
-
-    It is a link that opens the quiz on your website.
-
-There are two ways to create an external link to your quiz for social media:
-
-- [Link to Dedicated Quiz Page](#quiz-on-a-dedicated-landing-page) ⬅️ recommended for most marketing campaigns
-
-    A quiz is embedded on a specific landing page in your store (for example `https://yourstore.myshopify.com/pages/quiz-page`).
-
-    An embedded quiz gives you better tracking and analytics.
-
-- [Link Popup](#link-popup-for-socials)
-
-    A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
+| Route | The link looks like | Pick it when |
+|---|---|---|
+| [A page that holds the quiz](#quiz-on-a-dedicated-landing-page) | `https://yourstore.com/pages/quiz-page` | You want the traffic to land somewhere your analytics counts as a page |
+| [A link popup](#link-popup-for-socials) | `https://yourstore.com/#quiz` | You want the quiz to open over a page you already have |
 
 ## Quiz on a dedicated landing page
 
-!!! info "What is an inline quiz on a dedicated landing page?"
+!!! tip "The same address works elsewhere"
 
-    An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
-
-!!! tip
-
-    You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
+    Add it to your store menu, your email campaigns or your ads. Nothing about it is specific to social media.
 
 ## Link popup for socials
-
-!!! info "What is a Link Popup?"
-
-    It is a direct link, such as `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
 
 ## FAQs
 
@@ -9677,66 +9673,66 @@ There are two ways to create an external link to your quiz for social media:
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the link points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-This article explains how to share a quiz created with RevenueHunt Quizzes app within your social media posts.
+
+This article explains the two ways to link a quiz from a social post, and what to check when the link does not open it.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Create a New Page Template**: click on the `Templates` menu in the header.
-    ![Create a new Page template](/images/landing-page-create-a.png)
-    Navigate to `Pages` and click on the `Create template` link. Name your template (e.g., quiz-page) and set it as "Based on" your Default page template.
-    ![Create a new Page template](/images/landing-page-create-b.png)
-3. **Add Inline Quiz Section**: Click on the `Add section` link and from the `Apps` section, find `Inline Quiz` from RevenueHunt. Select it to add to your quiz page template.
-    ![Add section inline quiz](/images/landing-page-add-section-app-inline-quiz.png)
-4. The default quiz for your store will be rendered.
-    !!! note
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-        To show a specific quiz, enter its quiz ID in the `Quiz ID` field. See [Open a specific quiz](#open-a-specific-quiz).
-5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
-6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`.
-    ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
-    The default quiz for your store will be rendered. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
-7. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-    Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed, and app embeds are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Click the `Templates` menu in the header.**
+    ![The Templates menu in the Shopify theme editor](/images/landing-page-create-a.png)
+3. **Go to `Pages`, click `Create template`, and name it**, such as `quiz-page`. Set `Based on` to your default page template.
+    ![Naming the new page template](/images/landing-page-create-b.png)
+4. **Click `Add section`, open the `Apps` group, and add `Inline Quiz` from RevenueHunt.** Your default quiz renders in the template straight away.
+    ![Adding the Inline Quiz section from the Apps group](/images/landing-page-add-section-app-inline-quiz.png)
+5. **Click the quiz section to adjust its settings.** You can set the quiz height, fix that height so the results page does not resize, and turn auto-scroll off.
+6. **Go to `Online Store > Pages` and click `Add page`, or open an existing page.**
+7. **Under `Template`, pick the template you just built, then click `Save`.**
+    ![Choosing the new template on a Shopify page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
+8. **Click `View Template` and check the quiz is on the page.**
+    ![The quiz running on the published landing page](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
+9. **Copy the finished page's address from your browser, and paste it where you want to share it.**
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Link Popup Quiz` option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
-    ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
-3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://yourstore.myshopify.com/#quiz.
-    !!! tip
-        To link to a specific quiz, add `#quiz-QUIZID` to the store URL.
-        For example, `https://yourstore.myshopify.com/#quiz-123` opens one quiz, and `https://yourstore.myshopify.com/#quiz-456` opens another.
-        To find your Quiz ID, go to the [dashboard](/reference/dashboard/) and identify a quiz. Click on the `...` and copy the ID.
-5. **Share the link**: Share the link to the quiz popup with your audience. You can add it to your email campaigns, social media posts, or any other
-communication channel.
-!!! note
-    When a customer opens the link, the default quiz for your store opens, based on your settings.
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
-By default when you use `#quiz` as the link, the default quiz for your store will open.
-!!! note
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-If instead you want to **open a specific quiz**, you need to  add a Quiz ID in the `Quiz ID (optional)` field in the `Link Popup Quiz settings` in the theme editor.
-![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
-1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
-    ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
-    If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
-    To fix it, deactivate `Link Popup Quiz Legacy`, activate `Link Popup Quiz`, then save the changes.
-2. Check that the link follows the format `#quiz`.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed, and app embeds are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+The link popup embed adds the RevenueHunt script to your store, so any link ending in `#quiz` opens the quiz over whatever page it lands on.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Link Popup Quiz`.** Leave `Link Popup Quiz (Legacy)` off. That one serves quizzes from the legacy app.
+    ![The Link Popup Quiz embed in the App embeds list](/images/how_to_publish_quiz_link_popup_app_embeds.png)
+3. **Click `Save`.**
+4. **Build your link by adding `#quiz` to any page address on your store**, such as `https://yourstore.com/#quiz`.
+5. **Paste that link into your post, your bio or your ad.**
+6. **Open the link yourself before you post it.** The quiz should open.
+!!! note "Which quiz opens"
+    Your default quiz opens, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, set the `Quiz ID`. See [Open a specific quiz](#open-a-specific-quiz).
+A link ending in `#quiz` opens your default quiz. To open another one, put its ID in the `Quiz ID (optional)` field of the `Link Popup Quiz` settings in the theme editor.
+![The Quiz ID field in the Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+!!! note "Shopify Markets"
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market opens instead of your store default.
+This error means the link is being served by the embed for the other version of the app.
+1. **Go to `Online Store > Themes > Customize > App embeds` and check which link embed is on.** For a quiz built here, `Link Popup Quiz` is the right one.
+    ![The two link popup embeds in the App embeds list](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
+2. **Turn `Link Popup Quiz (Legacy)` off and turn `Link Popup Quiz` on.** The legacy embed serves quizzes from the legacy app, so it cannot find a quiz built in this version.
+3. **Click `Save`.**
+4. **Check your link ends in `#quiz`.**
 
 
 
@@ -9752,37 +9748,21 @@ icon: material/page-layout-body
 
 # How to Embed an Inline Quiz on Your Store
 
-This article explains how to embed an inline quiz on your store: on the homepage, on a dedicated landing page, or on a collection page. It also covers the size of the quiz and its auto-scroll behavior.
-
-!!! info "What is an Inline Quiz?"
-
-    An inline quiz is a quiz embedded directly into a page (an element on the page).
+An inline quiz sits inside a page, as part of it, rather than opening over the top. Put it on your homepage, on a landing page of its own, or on a collection page.
 
 !!! note "Before you start"
 
-    Make sure you have an existing quiz created with the RevenueHunt app and access to your store's theme customization options.
+    You need a quiz built in the RevenueHunt app, and access to your theme editor.
 
 ## Embed an inline quiz on the homepage
 
-!!! info "What is an inline quiz on the homepage?"
-
-    An inline quiz on the homepage is a quiz embedded directly into the homepage. Place the quiz on your homepage to collect leads from a first-time customer.
-
 ## Embed an inline quiz on a dedicated landing page
 
-!!! info "What is an inline quiz on a dedicated landing page?"
+!!! tip "Use the page address"
 
-    An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
-
-!!! tip
-
-    You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
+    A landing page gives you an ordinary URL. Put it in your store menu, your email campaigns, your social posts or your ads.
 
 ## Embed an inline quiz on a specific collection/category
-
-!!! info "What is an inline quiz on a specific collection/category?"
-
-    An inline quiz on a specific collection/category is a quiz widget embedded directly into a specific collection/category page in your store.
 
 ## FAQs
 
@@ -9790,95 +9770,141 @@ This article explains how to embed an inline quiz on your store: on the homepage
 
 ### Fixing the size of the inline quiz
 
-To prevent the quiz from adjusting size based on content, manually set a fixed width and height in the quiz settings or embed code.
+By default the quiz starts at the height you set, then grows to fit each question. Fix the height and it stays as it is throughout.
 
 ### Preventing auto-scroll in inline quiz
 
+Auto-scroll moves the page as the customer answers, so the quiz stays in view. Turn it off to leave the page where it is.
+
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+This error means the quiz cannot be found, either because it is unpublished or because the embed points at the wrong one.
+
+![The error an inline quiz shows when it cannot find the quiz](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-By following these steps, you can successfully integrate an interactive inline quiz into your Shopify store.
+
+This article explains how to put a quiz inside a page of your store, and how to control its height and its scrolling.
 
 --- Shopify Specific Content ---
 
-In short, to embed an inline quiz on your store, you need to:
-- Open the Shopify theme editor.
-- Add a section to the homepage or a specific page template and select the `Inline Quiz` by RevenueHunt from the list.
+On this version the quiz is a theme section, so there is no code to copy.
+1. **Open the Shopify theme editor.**
+2. **Add a section to the page or template you want, and pick `Inline Quiz` from the `Apps` group.**
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/OCX0EgfERpc?si=w4RwuW79QYodjRWz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
-    ![how to publish inline quiz built for shopify revenuehunt app main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
-3. The default quiz for your store will be rendered.
-    !!! note
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-        To show a specific quiz, enter its quiz ID in the `Quiz ID` field. See [Embed a specific quiz](#embed-a-specific-quiz).
-4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
-    `Quiz height` - The initial height of the quiz. The first question always uses this fixed height (this is a Shopify requirement to prevent layout shifts on page load). After the first question, the quiz will expand to fit the content.
-    `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
-    `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment after the first question.
-    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
-    `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
-    `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
-    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-5. Click on `Save` to save the changes. From now on, the inline quiz will be visible on all the pages that use the `Default page` template.
-    ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app section, and app sections are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Click `Add section`, open the `Apps` group, and add `Inline Quiz` from RevenueHunt.** Your default quiz renders straight away.
+    ![The Inline Quiz section added to the homepage](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
+3. **Click the quiz section and set it up.**
+    ![The Inline Quiz settings panel](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+    | Setting | What it does |
+    |---|---|
+    | `Quiz height` | The starting height. The first question always uses it, which is a Shopify requirement that stops the page jumping as it loads |
+    | `Quiz height (unit)` | `Pixels (px)` by default. `Viewport height percentage (vh)` is the alternative |
+    | `Fixed height` | Holds that height for the whole quiz. Off means the quiz grows to fit each question after the first |
+    | `Full width quiz` | Spans the quiz across the screen |
+    | `Auto-scroll on retake quiz` | Where the page scrolls when a customer retakes the quiz: `Disabled`, `Top of the page` or `Top of the quiz` |
+    | `Auto-scroll on question change` | The same, each time the customer moves to another question |
+    | `Quiz ID (optional)` | The quiz to show. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+4. **Click `Save`.** The quiz then shows on every page using this template.
+    ![The inline quiz running on the homepage](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
+5. **Open the page in your store and check the quiz is there.**
+!!! note "Which quiz appears"
+    Your default quiz appears, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market appears instead.
+    To show a particular quiz, set the `Quiz ID`. See [Embed a specific quiz](#embed-a-specific-quiz).
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Create a New Page Template**: click on the `Templates` menu in the header.
-    ![Create a new Page template](/images/landing-page-create-a.png)
-    Navigate to `Pages` and click on the `Create template` link. Name your template (e.g., quiz-page) and set it as "Based on" your Default page template.
-    ![Create a new Page template](/images/landing-page-create-b.png)
-3. **Add Inline Quiz Section**: Click on the `Add section` link and from the `Apps` section, find `Inline Quiz` from RevenueHunt. Select it to add to your quiz page template.
-    ![Add section inline quiz](/images/landing-page-add-section-app-inline-quiz.png)
-4. The default quiz for your store will be rendered.
-    !!! note
-        If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-        To show a specific quiz, enter its quiz ID in the `Quiz ID` field. See [Embed a specific quiz](#embed-a-specific-quiz).
-5. **Configure Quiz settings**: Click the added quiz section. Set the quiz height, auto-scroll and fixed height.
-6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`.
-    ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
-    The default quiz for your store will be rendered. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
-7. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-    Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
-1. To add a inline quiz to a specific collection page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Collections > Create template` and create a new collection template.
-2. In the collection template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
-3. In the `Inline Quiz` section, you can adjust the inline quiz settings or provide a specific quiz ID.
-4. Save the changes.
-5. Apply the new collection template to the collection you want to add the inline quiz to.
-5. From now on, the inline quiz will be visible on that collection page.
-By default when you embed the inline quiz, the default quiz for your store will show.
-!!! note
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-To **embed a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. That field is in the `Inline Quiz` settings in the theme editor.
-![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
-3. **Configure Quiz settings**: Click the added quiz section. Pick the Quiz ID to embed, then set the quiz height, auto-scroll and fixed height. Check the `Fixed size` option.
-4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
-3. **Configure Quiz settings**: Click the added quiz section. Pick the Quiz ID to embed, then uncheck `Automatic Scroll into View`.
-4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
-1. Check that you activated `Inline Quiz` in Online Store > Theme > Customize > `+ Section` > `Apps`. Do **not** activate the legacy `Inline Quiz Legacy`.
-    ![how_to_publish_shipifyV2_V1publisherrorinlinequiz](/images/how_to_publish_shipifyV2_V1publisherrorinlinequiz.png)
-    If the wrong inline quiz is activated, that error appears when you link to a Built for Shopify quiz.
-    To solve this simply deactivate the `Inline Quiz Legacy` and activate the `Inline Quiz` one.
-2. Save the changes.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app section, and app sections are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Click the `Templates` menu in the header.**
+    ![The Templates menu in the Shopify theme editor](/images/landing-page-create-a.png)
+3. **Go to `Pages`, click `Create template`, and name it**, such as `quiz-page`. Set `Based on` to your default page template.
+    ![Naming the new page template](/images/landing-page-create-b.png)
+4. **Click `Add section`, open the `Apps` group, and add `Inline Quiz` from RevenueHunt.** Your default quiz renders straight away.
+    ![Adding the Inline Quiz section from the Apps group](/images/landing-page-add-section-app-inline-quiz.png)
+5. **Click the quiz section and set it up.**
+    ![The Inline Quiz settings panel](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+    | Setting | What it does |
+    |---|---|
+    | `Quiz height` | The starting height. The first question always uses it, which is a Shopify requirement that stops the page jumping as it loads |
+    | `Quiz height (unit)` | `Pixels (px)` by default. `Viewport height percentage (vh)` is the alternative |
+    | `Fixed height` | Holds that height for the whole quiz. Off means the quiz grows to fit each question after the first |
+    | `Full width quiz` | Spans the quiz across the screen |
+    | `Auto-scroll on retake quiz` | Where the page scrolls when a customer retakes the quiz: `Disabled`, `Top of the page` or `Top of the quiz` |
+    | `Auto-scroll on question change` | The same, each time the customer moves to another question |
+    | `Quiz ID (optional)` | The quiz to show. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+6. **Go to `Online Store > Pages` and click `Add page`, or open an existing page.**
+7. **Under `Template`, pick the template you just built, then click `Save`.**
+    ![Choosing the new template on a Shopify page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
+8. **Click `View Template`** and check the quiz is on the page.
+    ![The quiz running on the published landing page](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
+!!! note "Which quiz appears"
+    Your default quiz appears, unless you name another one.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market appears instead.
+    To show a particular quiz, set the `Quiz ID`. See [Embed a specific quiz](#embed-a-specific-quiz).
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app section, and app sections are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Open the template menu in the header, go to `Collections`, and click `Create template`.**
+3. **Click `Add section`, open the `Apps` group, and add `Inline Quiz` from RevenueHunt.**
+4. **Click the quiz section and set it up.**
+    ![The Inline Quiz settings panel](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+    | Setting | What it does |
+    |---|---|
+    | `Quiz height` | The starting height. The first question always uses it, which is a Shopify requirement that stops the page jumping as it loads |
+    | `Quiz height (unit)` | `Pixels (px)` by default. `Viewport height percentage (vh)` is the alternative |
+    | `Fixed height` | Holds that height for the whole quiz. Off means the quiz grows to fit each question after the first |
+    | `Full width quiz` | Spans the quiz across the screen |
+    | `Auto-scroll on retake quiz` | Where the page scrolls when a customer retakes the quiz: `Disabled`, `Top of the page` or `Top of the quiz` |
+    | `Auto-scroll on question change` | The same, each time the customer moves to another question |
+    | `Quiz ID (optional)` | The quiz to show. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+5. **Click `Save`.**
+6. **Apply the template to a collection.** In `Products > Collections`, open the collection and pick the template under `Theme template`.
+7. **Open that collection page in your store and check the quiz is there.**
+!!! warning "One quiz per page"
+    Embed a single quiz on a page. Two on the same page conflict, and neither loads reliably.
+An inline quiz shows your default quiz. To show another one, put its ID in the `Quiz ID (optional)` field of the `Inline Quiz` section settings.
+![The Quiz ID field in the Inline Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+!!! note "Shopify Markets"
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market appears instead of your store default.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Click the `Inline Quiz` section already on the page.**
+3. **Set `Quiz height`, and pick the unit under `Quiz height (unit)`.**
+    ![The height settings in the Inline Quiz panel](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+4. **Turn `Fixed height` on.** The quiz then keeps that height for every question.
+5. **Click `Save`, then open the page and check the height holds as you answer.**
+!!! note "The first question always uses the set height"
+    Shopify requires it, so the page does not jump about as it loads. Without `Fixed height`, the quiz expands to fit from the second question onward.
+This version has two auto-scroll settings, and both are `Disabled` by default, so there is usually nothing to turn off.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Click the `Inline Quiz` section already on the page.**
+3. **Set `Auto-scroll on retake quiz` and `Auto-scroll on question change` to `Disabled`.**
+    The alternatives are `Top of the page` and `Top of the quiz`.
+    ![The auto-scroll settings in the Inline Quiz panel](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+4. **Click `Save`, then take the quiz and check the page stays put.**
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app section, and app sections are an Online Store 2.0 feature. A Shopify 1.0 theme does not support them.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **Open the [Quiz Builder](/reference/quiz-builder/) and check the quiz is published.**
+2. **Check you added `Inline Quiz` and not `Inline Quiz (Legacy)`.** The legacy section serves quizzes from the legacy app, so it cannot find a quiz built in this version.
+    ![The two inline quiz sections in the Apps group](/images/how_to_publish_shipifyV2_V1publisherrorinlinequiz.png)
+3. **Click the `Inline Quiz` section and check the `Quiz ID (optional)` field.** Leave it empty for your default quiz, or paste the right ID. The ID is case-sensitive.
+4. **Click `Save`, then reload the page.**
 
 
 
@@ -9894,40 +9920,31 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This article explains how to set up a **Quiz Link Popup** on your ecommerce store.
+A link popup opens the quiz over the page the customer is already on. The link can sit in your navigation menu, on a button, a banner, a page or a blog post.
 
-!!! info "What is a Link Popup?"
+!!! note "Before you start"
 
-    A Link Popup opens the quiz in a popup when a customer clicks a link. The link can sit in your navigation menu, on a button, a banner, a page or a blog post.
-
-!!! note
-    Before you start, ensure you have a quiz created and the necessary permissions to edit themes, pages and navigation settings
+    You need a quiz built in the RevenueHunt app, and permission to edit your themes, pages and navigation.
 
 ## Link popup in website menu
 
 ### On every page
 
-!!! info "What is a Link Popup in menu that opens on every page?"
-
-    It is a link in the navigation menu that opens the quiz as a popup, over any page in your store.
+The menu item then opens the quiz over any page in your store.
 
 ### On a specific page
 
-!!! info "What is a Link Popup in menu that opens on a specific page?"
-
-    It is a link in the navigation menu that opens the quiz as a popup, over one page **only**. Any page on the same template also counts.
+The menu item then opens the quiz over one page only. Any other page built on the same template counts as that page.
 
 ## Link popup as "take the quiz" button
 
 ### On home page
 
-!!! info "What is a Link Popup that opens via a button on every page?"
-    It is a button that opens the quiz as a popup, over every page in your store.
+The button sits on your home page. The app embed makes `#quiz` work across the store, so the same link works anywhere else you put it.
 
 ### On a specific page
 
-!!! info "What is a Link Popup that opens via a button on a specific page?"
-    It is a button that opens the quiz as a popup, over one page only.
+The button opens the quiz over one page only. Any other page built on the same template counts as that page.
 
 ## FAQs
 
@@ -9935,172 +9952,180 @@ This article explains how to set up a **Quiz Link Popup** on your ecommerce stor
 
 ### Popup displays behind website header
 
-The quiz popup can appear behind your website header, or the `X` closing button can be hidden. That usually means the header has an unusually high z-index. Fix it in the app settings, or in your theme.
+The popup can open behind your store header, or with its `X` button hidden. That means the header is stacked in front of it, and the fix is the popup z-index.
 
 ### Linking to multiple quizzes
 
-In some cases, you might want to have links to different quizzes on the same page. This section explains how to set up multiple quiz links for different platforms.
+One page can hold links to several different quizzes, each opening its own.
 
 ### The quiz you are looking for does not exist
 
-![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+![The error a quiz shows when the link points at a quiz it cannot find](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
 ---
-This article explains how to publish a quiz created with RevenueHunt Quizzes app as a Link Popup on your website.
+
+This article explains how to open a quiz from a link, in a menu or on a button. It also covers what to check when the popup does not appear.
 
 --- Shopify Specific Content ---
 
-In short, to add a link popup to your store, you need to:
-- Enable the `Link Popup Quiz` app embed in your store theme and then
-- Use `#quiz` as the link. It can go in a navigation menu item, a button, a banner, a page or a blog post.
-A link popup can open on every page, or on one page only. For every page, activate `Link Popup Quiz` in `App Embeds`. For one page, add a `Link Popup Quiz` section to that page template.
+Two things make a link popup work here.
+1. **Turn on the `Link Popup Quiz` app embed in your theme**, for every page. For one page only, add a `Link Popup Quiz` section to that page template instead.
+2. **Use `#quiz` as the link.** It goes in a menu item, a button, a banner, a page or a blog post.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NYwDShgRQEs?si=-7q-Mcf1NmiOQDVp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-!!! info "Short Instructions"
-    To add a popup link to a menu item in Shopify, activate `Link Popup Quiz` in the `App Embeds` of your theme. Enter `#quiz` as the link, then save your changes.
-    ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
-    When clicked, the default quiz for your store will open.
-    **Note:** If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To open a specific quiz instead of the default, see [Open a specific quiz](#open-a-specific-quiz).
-Step by step instructions:
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-    ![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
-3. In `Link Popup Quiz` section, you can adjust the popup options:
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
-    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-3. Click on `Save` to save the changes.
-4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
-    ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take the quiz".
-6. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
-    ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
-    !!! warning
-        Do not put the full URL in the `Link` field. It takes the `#quiz` text only, **not** a full URL such as `http://yourwebsite.com/#quiz`.
-    !!! note
-        When clicked, `#quiz` opens the default quiz for your store. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead. To open a specific quiz instead of the default, see [Open a specific quiz](#open-a-specific-quiz).
-7. **Save Your Changes**: Click `Save` to apply the changes to your navigation menu.
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-Step by step instructions:
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the link popup on, or create a new one.
-3. Once in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Link Popup Quiz`.
-        ![how to publish quiz link popup app embeds](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
-4. In `Link Popup Quiz` section, you can adjust the popup options:
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
-    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-5. Click on `Save` to save the changes.
-6. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
-    ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-7. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take the quiz".
-8. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
-    ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
-    !!! warning
-        Do not put the full URL in the `Link` field. It takes the `#quiz` text only, **not** a full URL such as `http://yourwebsite.com/#quiz`.
-    !!! note
-        When clicked, `#quiz` opens the default quiz for your store. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead. To open a specific quiz instead of the default, see [Open a specific quiz](#open-a-specific-quiz).
-9. **Save Your Changes**: Click `Save` to apply the changes to your navigation menu. The menu link then opens the quiz only over pages on that template.
-10. Remember to apply the new page template to the page you want to add the link popup to.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Link Popup Quiz`.** That adds the `embed.js` script to your store, so any `#quiz` link opens the popup.
+    ![The Link Popup Quiz embed in the App embeds list](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+3. **Set the popup up.**
+    ![The Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup width (% of screen)` | How wide the popup opens |
+    | `Popup height (% of screen)` | How tall the popup opens |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+4. **Click `Save`.**
+5. **Go to `Content > Menus` and open the menu you want the link in.**
+    ![The Menus screen in the Shopify admin](/images/how_to_publish_link_popup_shopify_v2_menu.png)
+6. **Click `Add menu item` and give it a label**, such as `Take the quiz`.
+7. **Type `#quiz` into the link field, then click `Save`.**
+    ![A menu item with #quiz as its link](/images/how_to_publish_link_popup_shopify_v2.png)
+    !!! warning "The field takes the fragment, not a URL"
+        Put `#quiz` in the link field on its own. A full address such as `http://yourwebsite.com/#quiz` does not open the popup.
+8. **Click `Save` on the menu.**
+9. **Open your store and click the new menu item.** The quiz should open in a popup.
+!!! note "Which quiz opens"
+    `#quiz` opens your default quiz.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, see [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+A `Link Popup Quiz` section on one page template keeps the popup to that page, and to any other page built on the same template.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Open the page template menu and pick the template you want, or create one.**
+3. **Click `Add section`, open the `Apps` group, and add `Link Popup Quiz`.**
+    ![Adding the Link Popup Quiz section from the Apps group](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
+4. **Set the popup up.**
+    ![The Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup width (% of screen)` | How wide the popup opens |
+    | `Popup height (% of screen)` | How tall the popup opens |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+5. **Click `Save`.**
+6. **Apply the template to your page.** In `Online Store > Pages`, open the page and pick that template.
+7. **Go to `Content > Menus` and open the menu you want the link in.**
+    ![The Menus screen in the Shopify admin](/images/how_to_publish_link_popup_shopify_v2_menu.png)
+8. **Click `Add menu item`, give it a label, and type `#quiz` into the link field.**
+    ![A menu item with #quiz as its link](/images/how_to_publish_link_popup_shopify_v2.png)
+    !!! warning "The field takes the fragment, not a URL"
+        Put `#quiz` in the link field on its own. A full address such as `http://yourwebsite.com/#quiz` does not open the popup.
+9. **Click `Save` on the menu.**
+10. **Open that page and click the menu item.** The quiz should open there, and nowhere else.
+!!! note "Which quiz opens"
+    `#quiz` opens your default quiz.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, see [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-!!! info "Short Instructions"
-    To add a popup link to a button in Shopify, activate `Link Popup Quiz` in the `App Embeds` of your theme. Enter `#quiz` as the link, then save your changes.
-    ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2_button.png)
-    When clicked, the default quiz for your store will open.
-    **Note:** If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-    To open a specific quiz instead of the default, see [Open a specific quiz](#open-a-specific-quiz).
-Step by step instructions:
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-    	![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
-4.  **Navigate to Themes**: Go to `Online Store > Themes`.
-5. **Enter Theme Customization**: Find the theme you wish to edit and click on the **"Customize"** button.
-6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
-7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
-8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
-    ![how to publish link popup built for shopify revenuehunt app button](/images/how_to_publish_link_popup_shopify_v2_button.png)
-    !!! warning
-        Do not put the full URL in the `Link` field. It takes the `#quiz` text only, **not** a full URL such as `http://yourwebsite.com/#quiz`.
-    When clicked, the default quiz for your store opens. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-Step by step instructions:
-1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-2. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the link popup on, or create a new one.
-3. Once in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Link Popup Quiz`.
-        ![how to publish quiz link popup app embeds](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
-4. In `Link Popup Quiz` section, you can adjust the popup options:
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
-    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-5. Click on `Save` to save the changes.
-6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
-7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
-8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
-    ![how to publish link popup built for shopify revenuehunt app button](/images/how_to_publish_link_popup_shopify_v2_button.png)
-    !!! warning
-        Do not put the full URL in the `Link` field. It takes the `#quiz` text only, **not** a full URL such as `http://yourwebsite.com/#quiz`.
-    !!! note
-        When clicked, `#quiz` opens the default quiz for your store. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead. To open a specific quiz instead of the default, see [Open a specific quiz](#open-a-specific-quiz).
-9. **Save Changes**: Click `Save`. The button then opens the quiz popup on this page, and on any other page that uses the same template.
-10. Remember to apply the new page template to the page you want to add the link popup to.
-By default when you use `#quiz` as the link, the default quiz for your store will open.
-!!! note
-    If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
-If instead you want to **open a specific quiz**, you need to  add a Quiz ID in the `Quiz ID (optional)` field in the `Link Popup Quiz settings` in the theme editor.
-![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-!!! info "Quiz ID"
-    To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-    Keep in mind that the Quiz ID is case-sensitive.
-The z-index sets the stacking order of elements on the page. If the popup sits behind the header, or the `X` is hidden, change the z-index in the app settings.
-Here is how to change the z-index configuration option in the app settings:
-1. Go to your Shopify admin dashboard and navigate to `Online Store > Themes > Customize`.
-2. Within theme customization, go to `App Embeds` and find the `Link Popup Quiz` settings.
-3. Find the z-index setting and raise the value. Try 1000 first, then 10000.
-4. Save your changes.
-![z-index setting in the Link Popup settings](/images/how_to_publish_quiz_link_popup_zindex_setting.png)
-!!! note
-    Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
-If the z-index setting does not solve it, **publish the quiz inline with a page instead.** Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize` on your live theme.**
+2. **Open `App embeds` and turn on `Link Popup Quiz`.** That adds the `embed.js` script to your store, so any `#quiz` link opens the popup.
+    ![The Link Popup Quiz embed in the App embeds list](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+3. **Set the popup up.**
+    ![The Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup width (% of screen)` | How wide the popup opens |
+    | `Popup height (% of screen)` | How tall the popup opens |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+4. **Click `Add section` and pick `Image banner`**, or another section that can hold a button.
+5. **Add a `Button` block inside that section.**
+6. **Click the button block and type `#quiz` into its link field.**
+    ![A button with #quiz as its link](/images/how_to_publish_link_popup_shopify_v2_button.png)
+    !!! warning "The field takes the fragment, not a URL"
+        Put `#quiz` in the link field on its own. A full address such as `http://yourwebsite.com/#quiz` does not open the popup.
+7. **Click `Save`.**
+8. **Open the page and click the button.** The quiz should open in a popup.
+!!! note "Which quiz opens"
+    `#quiz` opens your default quiz.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, see [Open a specific quiz](#open-a-specific-quiz).
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+A `Link Popup Quiz` section on one page template keeps the popup to that page, and to any other page built on the same template.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Open the page template menu and pick the template you want, or create one.**
+3. **Click `Add section`, open the `Apps` group, and add `Link Popup Quiz`.**
+    ![Adding the Link Popup Quiz section from the Apps group](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
+4. **Set the popup up.**
+    ![The Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+    | Setting | What it does |
+    |---|---|
+    | `Popup width (% of screen)` | How wide the popup opens |
+    | `Popup height (% of screen)` | How tall the popup opens |
+    | `Popup z-index` | Which other elements the popup sits in front of |
+    | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
+    | `Manage app` | Opens the RevenueHunt dashboard |
+5. **Add a `Button` block to that template, and type `#quiz` into its link field.**
+    ![A button with #quiz as its link](/images/how_to_publish_link_popup_shopify_v2_button.png)
+    !!! warning "The field takes the fragment, not a URL"
+        Put `#quiz` in the link field on its own. A full address such as `http://yourwebsite.com/#quiz` does not open the popup.
+6. **Click `Save`.**
+7. **Apply the template to your page.** In `Online Store > Pages`, open the page and pick that template.
+8. **Open that page and click the button.** The quiz should open there, and nowhere else.
+!!! note "Which quiz opens"
+    `#quiz` opens your default quiz.
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
+    To open a particular quiz, see [Open a specific quiz](#open-a-specific-quiz).
+`#quiz` opens your default quiz. To open another one, either use `#quiz-QUIZID` as the link, or put the ID in the `Quiz ID (optional)` field of the `Link Popup Quiz` settings.
+![The Quiz ID field in the Link Popup Quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+!!! info "Finding the Quiz ID"
+    In the [Dashboard](/reference/dashboard/), click the `...` beside the quiz and select `Copy Quiz ID`. The ID is case-sensitive.
+!!! note "Shopify Markets"
+    With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for the customer's market opens instead of your store default.
+The z-index decides which elements sit in front of which. Raise the popup one until it clears the header.
+1. **In your Shopify admin, go to `Online Store > Themes` and click `Customize`.**
+2. **Open `App embeds` and find the `Link Popup Quiz` settings.**
+3. **Raise `Popup z-index`.** Try `1000`, then `10000`.
+    ![The z-index field in the Link Popup Quiz settings](/images/how_to_publish_quiz_link_popup_zindex_setting.png)
+4. **Click `Save`, then open the popup and check it sits in front of the header.**
+!!! note "Do not raise it further than you need"
+    A z-index set very high can cover things you want visible, such as a chat widget. The right value depends on your theme.
+If the z-index does not fix it, put the quiz [inline on a page of its own](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) instead, and link to that page.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-With the Built for Shopify version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
-1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
-2. **Copy the Quiz ID**: Click the `...` three dots next to the quiz and select "Copy Quiz ID."
-   ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
-3. **Create Your Link**: Use the format `#quiz-QUIZID` for your link. For example, if your quiz ID is `DmHLGj`, the link is `#quiz-DmHLGj`.
-4. **Add the Link**: Follow the steps for a menu item or a button. Use the specific quiz link, not `#quiz`.
-**Example use cases:**
-- Different quizzes for different product categories (e.g., "#quiz-ABC123" for skincare quiz, "#quiz-XYZ789" for makeup quiz)
-- A/B testing different quiz versions
-- Seasonal or promotional quizzes alongside your main quiz
-!!! example "Example"
-    `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
-    To find your Quiz ID, go to the [dashboard](/reference/dashboard/) and identify a quiz. Click on the `...` and copy the ID.
-!!! warning
-    Do not put the full URL in the `Link` field. It takes the `#quiz-QUIZID` text only, **not** a full URL such as `http://yourwebsite.com/#quiz-QUIZID`.
-!!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
-If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
-    ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
-    If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
-    To solve this simply deactivate the `Link Popup Legacy` and activate the `Link Popup Quiz` one. Then, save the changes.
-2. Check that the link follows the format `#quiz`.
+Use `#quiz-QUIZID` in place of `#quiz`, with a different ID on each link.
+1. **Open the [Dashboard](/reference/dashboard/) and find the quiz you want to link to.**
+2. **Click the `...` beside it and select `Copy Quiz ID`.**
+    ![The quiz management menu, with Copy Quiz ID](/images/manual_shopifyV2_quizmanagementoptions.png)
+3. **Build the link as `#quiz-QUIZID`.** A quiz with the ID `DmHLGj` gives you `#quiz-DmHLGj`.
+4. **Add it to a menu item or a button**, following the steps above for either one.
+5. **Click each link in turn and check the right quiz opens.**
+!!! example "What this is good for"
+    - A different quiz per product category, such as one for skincare and one for makeup.
+    - Two versions of a quiz side by side, while you [A/B test](/how-to-guides/ab-test-quiz/) them.
+    - A seasonal or promotional quiz running alongside your main one.
+!!! warning "The field takes the fragment, not a URL"
+    Put `#quiz-QUIZID` in the link field on its own. A full address such as `http://yourwebsite.com/#quiz-QUIZID` does not open the popup.
+!!! warning "Shopify 1.0 themes cannot run this"
+    A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
+    Upgrade to an Online Store 2.0 theme to use them.
+This error means the link is being served by the embed for the other version of the app.
+1. **Go to `Online Store > Themes > Customize > App embeds` and check which link embed is on.** For a quiz built here, `Link Popup Quiz` is the right one.
+    ![The two link popup embeds in the App embeds list](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
+2. **Turn `Link Popup Quiz (Legacy)` off and turn `Link Popup Quiz` on.**
+3. **Click `Save`.**
+4. **Check your link is `#quiz`, or `#quiz-QUIZID` with a valid ID.**
 
 
 
@@ -10245,6 +10270,26 @@ A link to the quiz that you paste into an email or a newsletter.
 **Pick this when** you want subscribers to take the quiz from their inbox.
 
 [How to Get an External Quiz Link for Emails and Newsletters](/how-to-guides/publish-quiz-email-link/)
+
+## With a page builder
+
+GemPages and PageFly are both Shopify apps. If your landing pages are built with one of them, the quiz goes in through the builder rather than the Shopify theme editor.
+
+### GemPages
+
+The quiz sits inside a GemPages page, added through the builder's `Shopify App` element.
+
+**Pick this when** your landing pages are built in GemPages.
+
+[How to Publish a Quiz on a GemPages Page](/how-to-guides/publish-gempages/)
+
+### PageFly
+
+The quiz sits inside a PageFly page, or a PageFly button opens it.
+
+**Pick this when** your landing pages are built in PageFly. Its inline element works with the legacy app only, so on Built for Shopify you point a button at the quiz.
+
+[How to Publish a Quiz on a PageFly Page](/how-to-guides/publish-pagefly/)
 
 
 
