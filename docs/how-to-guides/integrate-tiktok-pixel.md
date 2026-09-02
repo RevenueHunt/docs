@@ -5,57 +5,70 @@ icon: material/music-note-outline
 
 # How to Integrate TikTok Pixel with Quiz
 
-This article explains how to connect the TikTok Pixel to your quiz, and measure how your TikTok ads perform.
+The TikTok Pixel records what customers do in your quiz, so you can measure your TikTok ads against it.
 
-??? question "What is TikTok Pixel?"
+??? question "What is the TikTok Pixel?"
 
-    The TikTok Pixel is a piece of code that you place on your website. It tracks what customers do in your quiz, and measures the success of your TikTok ads.
+    A piece of code you place on your website. It records what customers do in the quiz, and TikTok reports that back against the ads that brought them there.
 
-## Link quiz to your TikTok Pixel
+## Link the quiz to your TikTok Pixel
 
 === "Shopify"
 
-    !!! warning
+    !!! warning "This integration is in beta"
 
-        This feature is in beta and is not available for all stores. [Contact support](/how-to-guides/contact-customer-support/) if you want to use it.
+        It is not switched on for every store yet. [Contact customer support](/how-to-guides/contact-customer-support/) to ask for it.
 
-    To connect the TikTok Pixel to your quiz:
+    RevenueHunt makes the connection for you. The first two steps get your store ready, and the third asks support to finish it.
 
-    1. **Connect TikTok to Shopify**: Set up the TikTok Pixel in your Shopify store, and connect it to your website. Follow the [TikTok Shopify setup guide](https://ads.tiktok.com/help/article/shopify-set-up-guide).
+    1. **Set up the TikTok Pixel in your Shopify store.** Follow the [TikTok setup guide for Shopify](https://ads.tiktok.com/help/article/shopify-set-up-guide), which puts the Pixel on your website.
 
-    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best on a dedicated page in your store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    2. **Publish the quiz on a page of its own.** Pixel tracking works best that way. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-    3. **Contact Support**: Ask [RevenueHunt support](/how-to-guides/contact-customer-support/) to connect your TikTok Pixel to your quiz.
+    3. **[Contact customer support](/how-to-guides/contact-customer-support/) and ask for your TikTok Pixel to be connected to the quiz.**
+
+    4. **Once support confirms the connection, take the quiz and check the events reach TikTok Ads Manager.**
 
 === "Shopify (Legacy)"
 
-    !!! note "Platform Availability"
+    !!! note "Not part of this version"
 
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
+        The TikTok Pixel integration runs on the Built for Shopify version only.
+
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "WooCommerce"
 
-    !!! note "Platform Availability"
+    !!! note "Not part of this version"
 
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for WooCommerce stores.
+        The TikTok Pixel integration runs on the Built for Shopify version only.
+
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "Magento"
 
-    !!! note "Platform Availability"
+    !!! note "Not part of this version"
 
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for Magento stores.
+        The TikTok Pixel integration runs on the Built for Shopify version only.
+
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "BigCommerce"
 
-    !!! note "Platform Availability"
+    !!! note "Not part of this version"
 
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for BigCommerce stores.
+        The TikTok Pixel integration runs on the Built for Shopify version only.
+
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "Standalone"
 
-    !!! note "Platform Availability"
+    !!! note "Not part of this version"
 
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
+        The TikTok Pixel integration runs on the Built for Shopify version only.
+
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 ---
-This article explains how to connect the TikTok Pixel to your quiz, and measure how your TikTok ads perform.
+
+This article explains how to get the TikTok Pixel connected to your quiz. It also covers the versions that have no integration of their own.

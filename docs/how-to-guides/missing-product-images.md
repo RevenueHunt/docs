@@ -11,9 +11,17 @@ This article explains how to fix product images that do not appear in your quiz.
 
     Product and Collection images come directly from your Shopify catalog. If an image is missing, check the product or collection in Shopify.
 
+    !!! tip "A recommended collection shows no image"
+
+        A collection has no image of its own until you give it one. Add one under `Products > Collections` in your Shopify admin, and it appears on the results page.
+
 === "Shopify (Legacy)"
 
     Product and Collection images come directly from your Shopify catalog. If an image is missing, check the product or collection in Shopify.
+
+    !!! tip "A recommended collection shows no image"
+
+        A collection has no image of its own until you give it one. Add one under `Products > Collections` in your Shopify admin, and it appears on the results page.
 
 === "WooCommerce"
 

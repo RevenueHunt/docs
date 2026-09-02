@@ -5,1021 +5,1622 @@ icon: material/google-analytics
 
 # How to Track Quiz Performance with Google Analytics
 
+Google Analytics shows you how customers move through your quiz, and where they leave it.
+
 === "Shopify"
 
-    Google Analytics shows you how customers use your quizzes. Linking the two can give you data on customer interactions, pinpoint engagement issues, and help minimize abandonment rates.
-
-    The `💎 Built for Shopify` version of the RevenueHunt app has native GA4 event tracking built in.
-
-    This article will guide you through the process of connecting your quiz to Google Analytics and tracking quiz events.
+    The Built for Shopify version has GA4 event tracking built in. Turn it on in the quiz, and the events reach the GA4 property your store already uses.
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/8P-kANzya2g?si=L-rMRoSRsdbwSgof" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
+    !!! warning "GA4 can drop events that fired correctly"
 
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
 
-
+        If that happens, contact Google Support. The problem is usually on their side.
 
 === "Shopify (Legacy)"
 
-    To track quiz performance with Google Analytics in Shopify (legacy), add custom JavaScript tracking. It reports quiz events and customer interactions.
+    This version sends GA4 events once you connect the quiz to Google Analytics. You can add events of your own on top, with a custom script.
 
-    This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 can drop events that fired correctly"
 
+        Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
-
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        If that happens, contact Google Support. The problem is usually on their side.
 
 === "WooCommerce"
 
-    To track quiz performance with Google Analytics in WooCommerce, add custom JavaScript tracking. It reports quiz events and customer interactions.
+    This version sends GA4 events once you connect the quiz to Google Analytics. You can add events of your own on top, with a custom script.
 
-    This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 can drop events that fired correctly"
 
+        Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
-
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        If that happens, contact Google Support. The problem is usually on their side.
 
 === "Magento"
 
-    To track quiz performance with Google Analytics in Magento, add custom JavaScript tracking. It reports quiz events and customer interactions.
+    This version sends GA4 events once you connect the quiz to Google Analytics. You can add events of your own on top, with a custom script.
 
-    This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 can drop events that fired correctly"
 
+        Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
-
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        If that happens, contact Google Support. The problem is usually on their side.
 
 === "BigCommerce"
 
-    To track quiz performance with Google Analytics in BigCommerce, add custom JavaScript tracking. It reports quiz events and customer interactions.
+    This version sends GA4 events once you connect the quiz to Google Analytics. You can add events of your own on top, with a custom script.
 
-    This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 can drop events that fired correctly"
 
+        Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
-
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        If that happens, contact Google Support. The problem is usually on their side.
 
 === "Standalone"
 
-    To track quiz performance with Google Analytics in a Standalone version of RevenueHunt app, add custom JavaScript tracking. It reports quiz events and customer interactions.
+    This version sends GA4 events once you connect the quiz to Google Analytics. You can add events of your own on top, with a custom script.
 
-    This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 can drop events that fired correctly"
 
+        Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
 
-    !!! warning "GA4 Event Tracking Reliability"
-        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.
-        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.
+        If that happens, contact Google Support. The problem is usually on their side.
 
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-
-
-
-## Connect quiz to Google Analytics
+## Connect the quiz to Google Analytics
 
 === "Shopify"
 
+    !!! note "Give the quiz its own page"
 
-    !!! note
+        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. **Set up GA4 on your website first.**
 
-    1. Make sure you have set up the GA4 tracking on your website.
+        !!! tip "Finding your GA4 tracking code"
 
-        !!! tip
+            See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
 
-            To connect your website to Google Analytics, or to find your GA tracking code, see the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
-    1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
-    2. Click on the `Activate` button in the Google Analytics section.
-        ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
-    3. Click `Save` to confirm the changes.
-    4. Once activated the quiz will connect to the GA4 tracking code already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
+    2. **Open your quiz and go to the [Integrations](/reference/quiz-builder/connect-integrations/) tab.**
 
-    ??? tip "Optional: Add Custom Trackers"
+    3. **Find the Google Analytics section and click `Activate`.**
 
-        The native integration above already sends the standard events (quiz started, question viewed, choice answered, results viewed, product clicked, add to cart, and so on). To track **custom** events on top of those, use the quiz's built-in **Custom JS** section. It runs plain JavaScript (no `<script>` tags) and gives you a global `window.quiz` object.
+        ![Activating Google Analytics in the Integrations tab](/images/how_to_integrate_ga4_shopify_v2.png)
 
-        !!! warning
+    4. **Click `Save`.**
 
-            The legacy `prqQuizCallback` and `prqSlideCallback` callbacks do **not** exist in the `💎 Built for Shopify` version. Use `window.quiz` instead. Custom JS only runs in the preview or live quiz, not inside the builder.
+    5. **Take the quiz, then open `Realtime` in GA4 and check the quiz events arrive.**
 
-        **Prerequisite:** GA4 (`gtag.js`) must already be installed on your store, the same requirement as the native integration above.
-
-        **Track every answer.** Open the **first question** in the quiz builder, expand its **Custom JS** section, and assign a handler to `window.quiz.onChange`. It fires after every answer and stays registered for the rest of the quiz:
-
-        ```javascript
-        // Fires after every answer the customer gives
-        window.quiz.onChange = function (event) {
-          gtag('event', 'quiz_question_answered', {
-            event_category: 'quiz',
-            question_ref: event.questionRef,
-            // selectedLabel is the readable choice text - no choice-ID mapping needed
-            answer: event.selectedLabel || event.value
-          });
-        };
-        ```
-
-        The `event` object contains: `questionRef`, `blockRef`, `type`, `choicesRefs`, `value`, `isValid`, `selectedIndex` and `selectedLabel`.
-
-        **Track quiz completion.** Open the **results page** **Custom JS** section and call `gtag()` directly. It runs when the results page renders:
-
-        ```javascript
-        gtag('event', 'quiz_completed', { event_category: 'quiz' });
-        ```
-
-        **Monitor and adjust.** Check `Reports → Engagement → Events` (or `Realtime`) in GA4 to confirm your custom events are coming through.
-
-
+    The quiz connects to the GA4 tracking code already on your website, so there is no Measurement ID to enter. Reports other than `Realtime` can take up to 72 hours to fill in.
 
 === "Shopify (Legacy)"
 
+    !!! note "Give the quiz its own page"
 
-    !!! note
+        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. **Set up GA4 on your website first.**
 
-    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
+        !!! tip "Finding your GA4 tracking code"
 
-    To implement custom event tracking for your quiz, follow these steps:
+            See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
 
-    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.** GA4 has to be ready before the quiz starts sending to it.
 
-    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
-        ```html
-        <script>
-        // Fires once, when the customer reaches the results page
-        function prqQuizCallback(quizResponse){
-            gtag('event', 'quiz_completed', {
-                event_category: 'quiz',
-                quiz_name: quizResponse.quiz.attributes.name,
-                quiz_id: quizResponse.quizid
-            });
-        }
-        </script>
-        ```
+    3. **Open your quiz and go to the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
 
-    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
-        ```html
-        <script>
-        // Fires each time a customer answers a question
-        function prqSlideCallback(event) {
-            var slide = event && event.slide;
-            if (!slide || !slide.attributes) return;
+    4. **Find Google Analytics and click `Connect`.**
 
-            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
-            var selected = slide.attributes.values || [];
+    5. **Take the quiz, then open `Realtime` in GA4 and check the quiz events arrive.**
 
-            // Turn selected choice IDs into readable labels
-            // (text/number questions have no choices, so the raw value passes through)
-            var labels = selected.map(function (val) {
-                var match = choices.filter(function (c) { return c.id === val; })[0];
-                return match ? match.attributes.label : val;
-            });
-
-            gtag('event', 'quiz_question_answered', {
-                event_category: 'quiz',
-                quiz_name: event.quiz.attributes.name,
-                question_title: slide.attributes.title,
-                answer: labels.join(', ')
-            });
-        }
-        </script>
-        ```
-
-    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
-
+    The quiz sends to whichever GA4 property your `gtag.js` is configured with, so there is no Measurement ID to enter. Reports other than `Realtime` can take up to 72 hours to fill in.
 
 === "WooCommerce"
 
+    !!! note "Give the quiz its own page"
 
-    !!! note
+        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. **Set up GA4 on your website first.**
 
-    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
+        !!! tip "Finding your GA4 tracking code"
 
-    To implement custom event tracking for your quiz, follow these steps:
+            See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
 
-    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.** GA4 has to be ready before the quiz starts sending to it.
 
-    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
-        ```html
-        <script>
-        // Fires once, when the customer reaches the results page
-        function prqQuizCallback(quizResponse){
-            gtag('event', 'quiz_completed', {
-                event_category: 'quiz',
-                quiz_name: quizResponse.quiz.attributes.name,
-                quiz_id: quizResponse.quizid
-            });
-        }
-        </script>
-        ```
+    3. **Open your quiz and go to the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
 
-    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
-        ```html
-        <script>
-        // Fires each time a customer answers a question
-        function prqSlideCallback(event) {
-            var slide = event && event.slide;
-            if (!slide || !slide.attributes) return;
+    4. **Find Google Analytics and click `Connect`.**
 
-            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
-            var selected = slide.attributes.values || [];
+    5. **Take the quiz, then open `Realtime` in GA4 and check the quiz events arrive.**
 
-            // Turn selected choice IDs into readable labels
-            // (text/number questions have no choices, so the raw value passes through)
-            var labels = selected.map(function (val) {
-                var match = choices.filter(function (c) { return c.id === val; })[0];
-                return match ? match.attributes.label : val;
-            });
-
-            gtag('event', 'quiz_question_answered', {
-                event_category: 'quiz',
-                quiz_name: event.quiz.attributes.name,
-                question_title: slide.attributes.title,
-                answer: labels.join(', ')
-            });
-        }
-        </script>
-        ```
-
-    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
+    The quiz sends to whichever GA4 property your `gtag.js` is configured with, so there is no Measurement ID to enter. Reports other than `Realtime` can take up to 72 hours to fill in.
 
 === "Magento"
 
+    !!! note "Give the quiz its own page"
 
-    !!! note
+        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. **Set up GA4 on your website first.**
 
-    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
+        !!! tip "Finding your GA4 tracking code"
 
-    To implement custom event tracking for your quiz, follow these steps:
+            See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
 
-    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.** GA4 has to be ready before the quiz starts sending to it.
 
-    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
-        ```html
-        <script>
-        // Fires once, when the customer reaches the results page
-        function prqQuizCallback(quizResponse){
-            gtag('event', 'quiz_completed', {
-                event_category: 'quiz',
-                quiz_name: quizResponse.quiz.attributes.name,
-                quiz_id: quizResponse.quizid
-            });
-        }
-        </script>
-        ```
+    3. **Open your quiz and go to the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
 
-    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
-        ```html
-        <script>
-        // Fires each time a customer answers a question
-        function prqSlideCallback(event) {
-            var slide = event && event.slide;
-            if (!slide || !slide.attributes) return;
+    4. **Find Google Analytics and click `Connect`.**
 
-            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
-            var selected = slide.attributes.values || [];
+    5. **Take the quiz, then open `Realtime` in GA4 and check the quiz events arrive.**
 
-            // Turn selected choice IDs into readable labels
-            // (text/number questions have no choices, so the raw value passes through)
-            var labels = selected.map(function (val) {
-                var match = choices.filter(function (c) { return c.id === val; })[0];
-                return match ? match.attributes.label : val;
-            });
-
-            gtag('event', 'quiz_question_answered', {
-                event_category: 'quiz',
-                quiz_name: event.quiz.attributes.name,
-                question_title: slide.attributes.title,
-                answer: labels.join(', ')
-            });
-        }
-        </script>
-        ```
-
-    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
+    The quiz sends to whichever GA4 property your `gtag.js` is configured with, so there is no Measurement ID to enter. Reports other than `Realtime` can take up to 72 hours to fill in.
 
 === "BigCommerce"
 
+    !!! note "Give the quiz its own page"
 
-    !!! note
+        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. **Set up GA4 on your website first.**
 
-    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
+        !!! tip "Finding your GA4 tracking code"
 
-    To implement custom event tracking for your quiz, follow these steps:
+            See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
 
-    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.** GA4 has to be ready before the quiz starts sending to it.
 
-    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
-        ```html
-        <script>
-        // Fires once, when the customer reaches the results page
-        function prqQuizCallback(quizResponse){
-            gtag('event', 'quiz_completed', {
-                event_category: 'quiz',
-                quiz_name: quizResponse.quiz.attributes.name,
-                quiz_id: quizResponse.quizid
-            });
-        }
-        </script>
-        ```
+    3. **Open your quiz and go to the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
 
-    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
-        ```html
-        <script>
-        // Fires each time a customer answers a question
-        function prqSlideCallback(event) {
-            var slide = event && event.slide;
-            if (!slide || !slide.attributes) return;
+    4. **Find Google Analytics and click `Connect`.**
 
-            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
-            var selected = slide.attributes.values || [];
+    5. **Take the quiz, then open `Realtime` in GA4 and check the quiz events arrive.**
 
-            // Turn selected choice IDs into readable labels
-            // (text/number questions have no choices, so the raw value passes through)
-            var labels = selected.map(function (val) {
-                var match = choices.filter(function (c) { return c.id === val; })[0];
-                return match ? match.attributes.label : val;
-            });
-
-            gtag('event', 'quiz_question_answered', {
-                event_category: 'quiz',
-                quiz_name: event.quiz.attributes.name,
-                question_title: slide.attributes.title,
-                answer: labels.join(', ')
-            });
-        }
-        </script>
-        ```
-
-    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
+    The quiz sends to whichever GA4 property your `gtag.js` is configured with, so there is no Measurement ID to enter. Reports other than `Realtime` can take up to 72 hours to fill in.
 
 === "Standalone"
 
+    !!! note "Give the quiz its own page"
 
-    !!! note
+        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instructions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) to set this up.
+    1. **Set up GA4 on your website first.**
 
-    To track quiz events in Google Analytics, add custom JavaScript to your website, ideally on the page that holds the quiz.
+        !!! tip "Finding your GA4 tracking code"
 
-    To implement custom event tracking for your quiz, follow these steps:
+            See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
 
-    1. **Understand the Callback Function**: See [How to Use the Callback Function](/how-to-guides/use-callback-function/) for how it works and how it tracks custom events.
+    2. **Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.** GA4 has to be ready before the quiz starts sending to it.
 
-    2. **Embed the Custom Script**: Add the script below to the page that holds the quiz. To load it everywhere, put it in your theme's main template. Your GA4 `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`:
-        ```html
-        <script>
-        // Fires once, when the customer reaches the results page
-        function prqQuizCallback(quizResponse){
-            gtag('event', 'quiz_completed', {
-                event_category: 'quiz',
-                quiz_name: quizResponse.quiz.attributes.name,
-                quiz_id: quizResponse.quizid
-            });
-        }
-        </script>
-        ```
+    3. **Open your quiz and go to the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
 
-    3. **Customize Event Tracking**: That example fires once, on completion. To track each answer instead, add `prqSlideCallback`. It fires on every answered question. The snippet below also maps the selected choice IDs to readable labels. The choices and the selected values both live in the slide object:
-        ```html
-        <script>
-        // Fires each time a customer answers a question
-        function prqSlideCallback(event) {
-            var slide = event && event.slide;
-            if (!slide || !slide.attributes) return;
+    4. **Find Google Analytics and click `Connect`.**
 
-            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
-            var selected = slide.attributes.values || [];
+    5. **Take the quiz, then open `Realtime` in GA4 and check the quiz events arrive.**
 
-            // Turn selected choice IDs into readable labels
-            // (text/number questions have no choices, so the raw value passes through)
-            var labels = selected.map(function (val) {
-                var match = choices.filter(function (c) { return c.id === val; })[0];
-                return match ? match.attributes.label : val;
-            });
-
-            gtag('event', 'quiz_question_answered', {
-                event_category: 'quiz',
-                quiz_name: event.quiz.attributes.name,
-                question_title: slide.attributes.title,
-                answer: labels.join(', ')
-            });
-        }
-        </script>
-        ```
-
-    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
-
-
-## Complete custom tracking script (GA4)
-
-!!! info "For the Shopify (Legacy), WooCommerce, Magento, BigCommerce and Standalone versions"
-
-    This script uses the [callback functions](/how-to-guides/use-callback-function/). The `💎 Built for Shopify` quiz does not use callbacks. Use its results page **Custom JS** and `window.quiz` object instead.
-
-To send your own clearly named GA4 events rather than the built-in `view` and `click` events, use the script below. It tracks **quiz start**, **every answer**, the **results page**, each **recommended product**, and **add to cart**, each as its own GA4 event with descriptive parameters.
-
-**Before you start:**
-
-- Your GA4 `gtag.js` snippet must load **before** RevenueHunt's `embed.js`.
-- Place the script on the page where the quiz is embedded (or sitewide in your theme).
-- The built-in tracking and this script both fire when your GA Measurement ID is saved in the quiz backend. To avoid double counting, either leave the Measurement ID out and use this script alone, or remove the events you do not want.
-
-```html
-<script>
-(function () {
-  var quizStarted   = false;
-  var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
-
-  // Fires every time a customer answers a question.
-  // The first time it runs, it doubles as the "quiz started" signal.
-  window.prqSlideCallback = function (event) {
-    var slide = event && event.slide;
-    if (!slide || !slide.attributes) return;
-
-    if (!quizStarted) {
-      quizStarted = true;
-      gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
-    }
-
-    var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
-    var selected = slide.attributes.values || [];
-
-    // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
-    var labels = selected.map(function (val) {
-      var match = choices.filter(function (c) { return c.id === val; })[0];
-      return match ? match.attributes.label : val;
-    });
-
-    gtag('event', 'quiz_question_answered', {
-      quiz_name:      event.quiz.attributes.name,
-      // strip any unresolved recall token like {{slide:x1i0d83}} from the title
-      question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
-      answer:         labels.join(', ')
-    });
-  };
-
-  // Fires once, when the customer reaches the results page.
-  window.prqQuizCallback = function (response) {
-    var quizName   = response.quiz.attributes.name;
-    var result     = response.response.attributes.selected_result;
-    var resultName = (result && result.data) ? result.data.attributes.name : '';
-    var products   = response.response.attributes.recommended_products || [];
-
-    // One event for reaching the results page
-    gtag('event', 'quiz_results', {
-      quiz_name:     quizName,
-      result_name:   resultName,
-      product_count: products.length
-    });
-
-    // One event per recommended product (see the note below on why these are separate)
-    products.forEach(function (p) {
-      productsBySku[p.sku] = p; // stash for add-to-cart enrichment
-      gtag('event', 'quiz_product_recommended', {
-        quiz_name:     quizName,
-        result_name:   resultName,
-        product_name:  p.name,
-        product_sku:   p.sku,
-        product_price: p.price,
-        product_id:    p.origin_id,
-        variant_id:    p.variant_id
-      });
-    });
-  };
-
-  // Fires when a customer adds a recommended product to the cart from the results page.
-  // The add-to-cart event carries sku / origin_id / variant_id; name & price are
-  // enriched from the products captured above.
-  window.prqAddOneToCartCallback = function (event) {
-    var p = productsBySku[event.sku] || {};
-    gtag('event', 'quiz_add_to_cart', {
-      product_name:  p.name  || '',
-      product_sku:   event.sku,
-      product_price: p.price || '',
-      product_id:    event.originId,
-      variant_id:    event.variantId
-    });
-  };
-})();
-</script>
-```
-
-!!! note "Why `quiz_results` and `quiz_product_recommended` are separate"
-
-    A results page can recommend more than one product. Firing the results event once (with `result_name`) and a separate per-product event keeps your "reached results" count accurate. If you instead fire a single combined event per product, your results count multiplies by the number of products shown.
-
-The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, and so on) are standard GA4 event parameters. To use them in GA4 reports and Explorations, register the ones you need as **custom dimensions** under `Admin → Custom definitions`.
+    The quiz sends to whichever GA4 property your `gtag.js` is configured with, so there is no Measurement ID to enter. Reports other than `Realtime` can take up to 72 hours to fill in.
 
 ## Track customer behavior (events)
 
+Once the quiz is connected, an event fires at each step of the quiz. They appear in Google Analytics under `Reports > View user engagement and retention > Events`. Click an event name to open it.
+
 === "Shopify"
 
-    Quiz usage and customer behavior then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    ![Quiz events in Google Analytics](/images/how_to_shopifyv2_events.png)
 
-    ![how to ga events](/images/how_to_shopifyv2_events.png)
+    | Trigger | Event name | Event parameters |
+    |---|---|---|
+    | The customer starts a quiz, by clicking the button on the first or welcome question | quiz_started_{quiz_name} | quiz_name |
+    | The customer views a question | question_viewed_{question_title} | question_title |
+    | The customer clicks a choice, or picks a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | The customer answers the email question | email_lead_{quiz_name} | quiz_name |
+    | The customer answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | The customer reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | The customer completes the quiz | generate_lead | quiz_name |
+    | The customer clicks a product, by its image or its view-product button | product_clicked_{product_name} | product_name |
+    | The customer adds a product to the cart, by `Add to cart` or `Add all to cart` | product_added_to_cart_{product_name} | product_name |
+    | The customer proceeds to the cart or the checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | The customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    !!! warning "Data may take up to 72 hours to appear"
+    !!! info "Reading the event names"
 
-        If the events do not appear, check the `View realtime` tab in GA4. Google Analytics can take up to 72 hours to process the data.
+        Each name carries its main parameter, so the value shows up in the GA4 `Event name` report without any setup. To use the other parameters as report columns, such as `question_title` or `question_ref`, register them as custom dimensions under `Admin > Custom definitions`.
 
-    An event fires at each step: quiz start, question view, choice, results page, add to cart, and cart or checkout. For more on a single event, click on the specific Event name.
+    !!! info "generate_lead is a standard GA4 conversion event"
 
-    | Trigger                                                             | Event Name | Event Parameters    |
-    |---------------------------------------------------------------------|------------|-----------------|
-    | User starts a quiz (clicks on the button of the first question or the welcome question) | quiz_started_{quiz_name} | quiz_name |
-    | User views a question                                               | question_viewed_{question_title} | question_title |
-    | User clicks on a choice or selects an option from a dropdown        | block_answered_{choice_text} | choice_text, question_title, question_ref |
-    | User responds to the email question                                 | email_lead_{quiz_name} | quiz_name |
-    | User responds to the phone question                                 | phone_lead_{quiz_name} | quiz_name |
-    | User gets to results page                                           | results_page_viewed_{results_page_title} | results_page_title |
-    | User completes the quiz (conversion event)                          | generate_lead | quiz_name |
-    | Customer clicks on product (view product button or image)           | product_clicked_{product_name} | product_name |
-    | Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | product_added_to_cart_{product_name} | product_name |
-    | Customer proceeds to cart/checkout                                  | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes quiz                                               | quiz_retake_quiz_{quiz_name} | quiz_name |
+        It is the one name with no `_{...}` suffix, so that GA4 can treat it as a conversion. Mark it as a key event under `Admin > Events` to count it as one.
 
+    !!! warning "A question title can hold an unresolved recall token"
+
+        `question_title`, and the `question_viewed_{question_title}` event name, carry the raw title. If a question recalls an earlier answer, the raw title holds a token such as `{{slide:x1i0d83}}`, and that token reaches GA4 rather than the answer.
+
+        The token is stable. It does not change for a customer, or when you edit the quiz, so it groups correctly. It is just not readable.
+
+    !!! note "The older event names are gone"
+
+        `view`, `click`, `submit` and `recommendation`, with their `event_category` and `event_label` parameters, are no longer sent. The quiz sends the events listed here instead.
+
+    !!! warning "Give the data time to appear"
+
+        Check `Realtime` in GA4 first. The other reports can take up to 72 hours to process the data.
 
 === "Shopify (Legacy)"
 
-    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    ![Quiz events in Google Analytics](/images/how_to_shopifyv2_events.png)
 
-    ![how to ga events](/images/how_to_shopifyv2_events.png)
+    | Trigger | Event name | Event parameters |
+    |---|---|---|
+    | The customer starts a quiz, by clicking the button on the first or welcome question | quiz_started_{quiz_name} | quiz_name |
+    | The customer views a question | question_viewed_{question_title} | question_title |
+    | The customer clicks a choice, or picks a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | The customer answers the email question | email_lead_{quiz_name} | quiz_name |
+    | The customer answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | The customer reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | The customer completes the quiz | generate_lead | quiz_name |
+    | The customer clicks a product, by its image or its view-product button | product_clicked_{product_name} | product_name |
+    | The customer adds a product to the cart, by `Add to cart` or `Add all to cart` | product_added_to_cart_{product_name} | product_name |
+    | The customer proceeds to the cart or the checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | The customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+    !!! info "Reading the event names"
 
-    | Trigger | Event Name | Event Parameters |
-    |---------|------------|------------------|
-    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
-    | User views a question | question_viewed_{question_title} | question_title |
-    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
-    | User answers the email question | email_lead_{quiz_name} | quiz_name |
-    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
-    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
-    | User completes the quiz (conversion event) | generate_lead | quiz_name |
-    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
-    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
-    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
+        Each name carries its main parameter, so the value shows up in the GA4 `Event name` report without any setup. To use the other parameters as report columns, such as `question_title` or `question_ref`, register them as custom dimensions under `Admin > Custom definitions`.
 
-    !!! note "Same events as the Built for Shopify version"
+    !!! info "generate_lead is a standard GA4 conversion event"
 
-        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
+        It is the one name with no `_{...}` suffix, so that GA4 can treat it as a conversion. Mark it as a key event under `Admin > Events` to count it as one.
 
-    !!! info "`generate_lead` is a standard GA4 conversion event"
+    !!! warning "A question title can hold an unresolved recall token"
 
-        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
+        `question_title`, and the `question_viewed_{question_title}` event name, carry the raw title. If a question recalls an earlier answer, the raw title holds a token such as `{{slide:x1i0d83}}`, and that token reaches GA4 rather than the answer.
 
-    !!! warning "Question titles may contain a recall token"
+        The token is stable. It does not change for a customer, or when you edit the quiz, so it groups correctly. It is just not readable.
 
-        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+    !!! note "The older event names are gone"
 
-    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+        `view`, `click`, `submit` and `recommendation`, with their `event_category` and `event_label` parameters, are no longer sent. The quiz sends the events listed here instead.
 
+    !!! warning "Give the data time to appear"
+
+        Check `Realtime` in GA4 first. The other reports can take up to 72 hours to process the data.
+
+    !!! tip "No events at all"
+
+        Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.
 
 === "WooCommerce"
 
-    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    ![Quiz events in Google Analytics](/images/how_to_shopifyv2_events.png)
 
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+    | Trigger | Event name | Event parameters |
+    |---|---|---|
+    | The customer starts a quiz, by clicking the button on the first or welcome question | quiz_started_{quiz_name} | quiz_name |
+    | The customer views a question | question_viewed_{question_title} | question_title |
+    | The customer clicks a choice, or picks a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | The customer answers the email question | email_lead_{quiz_name} | quiz_name |
+    | The customer answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | The customer reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | The customer completes the quiz | generate_lead | quiz_name |
+    | The customer clicks a product, by its image or its view-product button | product_clicked_{product_name} | product_name |
+    | The customer adds a product to the cart, by `Add to cart` or `Add all to cart` | product_added_to_cart_{product_name} | product_name |
+    | The customer proceeds to the cart or the checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | The customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    | Trigger | Event Name | Event Parameters |
-    |---------|------------|------------------|
-    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
-    | User views a question | question_viewed_{question_title} | question_title |
-    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
-    | User answers the email question | email_lead_{quiz_name} | quiz_name |
-    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
-    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
-    | User completes the quiz (conversion event) | generate_lead | quiz_name |
-    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
-    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
-    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
+    !!! info "Reading the event names"
 
-    !!! note "Same events as the Built for Shopify version"
+        Each name carries its main parameter, so the value shows up in the GA4 `Event name` report without any setup. To use the other parameters as report columns, such as `question_title` or `question_ref`, register them as custom dimensions under `Admin > Custom definitions`.
 
-        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
+    !!! info "generate_lead is a standard GA4 conversion event"
 
-    !!! info "`generate_lead` is a standard GA4 conversion event"
+        It is the one name with no `_{...}` suffix, so that GA4 can treat it as a conversion. Mark it as a key event under `Admin > Events` to count it as one.
 
-        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
+    !!! warning "A question title can hold an unresolved recall token"
 
-    !!! warning "Question titles may contain a recall token"
+        `question_title`, and the `question_viewed_{question_title}` event name, carry the raw title. If a question recalls an earlier answer, the raw title holds a token such as `{{slide:x1i0d83}}`, and that token reaches GA4 rather than the answer.
 
-        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The token is stable. It does not change for a customer, or when you edit the quiz, so it groups correctly. It is just not readable.
 
-    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    !!! note "The older event names are gone"
+
+        `view`, `click`, `submit` and `recommendation`, with their `event_category` and `event_label` parameters, are no longer sent. The quiz sends the events listed here instead.
+
+    !!! warning "Give the data time to appear"
+
+        Check `Realtime` in GA4 first. The other reports can take up to 72 hours to process the data.
+
+    !!! tip "No events at all"
+
+        Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.
 
 === "Magento"
 
-    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    ![Quiz events in Google Analytics](/images/how_to_shopifyv2_events.png)
 
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+    | Trigger | Event name | Event parameters |
+    |---|---|---|
+    | The customer starts a quiz, by clicking the button on the first or welcome question | quiz_started_{quiz_name} | quiz_name |
+    | The customer views a question | question_viewed_{question_title} | question_title |
+    | The customer clicks a choice, or picks a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | The customer answers the email question | email_lead_{quiz_name} | quiz_name |
+    | The customer answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | The customer reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | The customer completes the quiz | generate_lead | quiz_name |
+    | The customer clicks a product, by its image or its view-product button | product_clicked_{product_name} | product_name |
+    | The customer adds a product to the cart, by `Add to cart` or `Add all to cart` | product_added_to_cart_{product_name} | product_name |
+    | The customer proceeds to the cart or the checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | The customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    | Trigger | Event Name | Event Parameters |
-    |---------|------------|------------------|
-    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
-    | User views a question | question_viewed_{question_title} | question_title |
-    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
-    | User answers the email question | email_lead_{quiz_name} | quiz_name |
-    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
-    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
-    | User completes the quiz (conversion event) | generate_lead | quiz_name |
-    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
-    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
-    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
+    !!! info "Reading the event names"
 
-    !!! note "Same events as the Built for Shopify version"
+        Each name carries its main parameter, so the value shows up in the GA4 `Event name` report without any setup. To use the other parameters as report columns, such as `question_title` or `question_ref`, register them as custom dimensions under `Admin > Custom definitions`.
 
-        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
+    !!! info "generate_lead is a standard GA4 conversion event"
 
-    !!! info "`generate_lead` is a standard GA4 conversion event"
+        It is the one name with no `_{...}` suffix, so that GA4 can treat it as a conversion. Mark it as a key event under `Admin > Events` to count it as one.
 
-        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
+    !!! warning "A question title can hold an unresolved recall token"
 
-    !!! warning "Question titles may contain a recall token"
+        `question_title`, and the `question_viewed_{question_title}` event name, carry the raw title. If a question recalls an earlier answer, the raw title holds a token such as `{{slide:x1i0d83}}`, and that token reaches GA4 rather than the answer.
 
-        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The token is stable. It does not change for a customer, or when you edit the quiz, so it groups correctly. It is just not readable.
 
-    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    !!! note "The older event names are gone"
+
+        `view`, `click`, `submit` and `recommendation`, with their `event_category` and `event_label` parameters, are no longer sent. The quiz sends the events listed here instead.
+
+    !!! warning "Give the data time to appear"
+
+        Check `Realtime` in GA4 first. The other reports can take up to 72 hours to process the data.
+
+    !!! tip "No events at all"
+
+        Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.
 
 === "BigCommerce"
 
-    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    ![Quiz events in Google Analytics](/images/how_to_shopifyv2_events.png)
 
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+    | Trigger | Event name | Event parameters |
+    |---|---|---|
+    | The customer starts a quiz, by clicking the button on the first or welcome question | quiz_started_{quiz_name} | quiz_name |
+    | The customer views a question | question_viewed_{question_title} | question_title |
+    | The customer clicks a choice, or picks a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | The customer answers the email question | email_lead_{quiz_name} | quiz_name |
+    | The customer answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | The customer reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | The customer completes the quiz | generate_lead | quiz_name |
+    | The customer clicks a product, by its image or its view-product button | product_clicked_{product_name} | product_name |
+    | The customer adds a product to the cart, by `Add to cart` or `Add all to cart` | product_added_to_cart_{product_name} | product_name |
+    | The customer proceeds to the cart or the checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | The customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    | Trigger | Event Name | Event Parameters |
-    |---------|------------|------------------|
-    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
-    | User views a question | question_viewed_{question_title} | question_title |
-    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
-    | User answers the email question | email_lead_{quiz_name} | quiz_name |
-    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
-    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
-    | User completes the quiz (conversion event) | generate_lead | quiz_name |
-    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
-    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
-    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
+    !!! info "Reading the event names"
 
-    !!! note "Same events as the Built for Shopify version"
+        Each name carries its main parameter, so the value shows up in the GA4 `Event name` report without any setup. To use the other parameters as report columns, such as `question_title` or `question_ref`, register them as custom dimensions under `Admin > Custom definitions`.
 
-        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
+    !!! info "generate_lead is a standard GA4 conversion event"
 
-    !!! info "`generate_lead` is a standard GA4 conversion event"
+        It is the one name with no `_{...}` suffix, so that GA4 can treat it as a conversion. Mark it as a key event under `Admin > Events` to count it as one.
 
-        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
+    !!! warning "A question title can hold an unresolved recall token"
 
-    !!! warning "Question titles may contain a recall token"
+        `question_title`, and the `question_viewed_{question_title}` event name, carry the raw title. If a question recalls an earlier answer, the raw title holds a token such as `{{slide:x1i0d83}}`, and that token reaches GA4 rather than the answer.
 
-        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The token is stable. It does not change for a customer, or when you edit the quiz, so it groups correctly. It is just not readable.
 
-    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    !!! note "The older event names are gone"
+
+        `view`, `click`, `submit` and `recommendation`, with their `event_category` and `event_label` parameters, are no longer sent. The quiz sends the events listed here instead.
+
+    !!! warning "Give the data time to appear"
+
+        Check `Realtime` in GA4 first. The other reports can take up to 72 hours to process the data.
+
+    !!! tip "No events at all"
+
+        Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.
 
 === "Standalone"
 
-    Customer events then appear in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+    ![Quiz events in Google Analytics](/images/how_to_shopifyv2_events.png)
 
-    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section. The quiz then sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. No Measurement ID is needed. Your `gtag.js` snippet has to load **before** RevenueHunt's `embed.js`. Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
+    | Trigger | Event name | Event parameters |
+    |---|---|---|
+    | The customer starts a quiz, by clicking the button on the first or welcome question | quiz_started_{quiz_name} | quiz_name |
+    | The customer views a question | question_viewed_{question_title} | question_title |
+    | The customer clicks a choice, or picks a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | The customer answers the email question | email_lead_{quiz_name} | quiz_name |
+    | The customer answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | The customer reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | The customer completes the quiz | generate_lead | quiz_name |
+    | The customer clicks a product, by its image or its view-product button | product_clicked_{product_name} | product_name |
+    | The customer adds a product to the cart, by `Add to cart` or `Add all to cart` | product_added_to_cart_{product_name} | product_name |
+    | The customer proceeds to the cart or the checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | The customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    | Trigger | Event Name | Event Parameters |
-    |---------|------------|------------------|
-    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
-    | User views a question | question_viewed_{question_title} | question_title |
-    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
-    | User answers the email question | email_lead_{quiz_name} | quiz_name |
-    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
-    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
-    | User completes the quiz (conversion event) | generate_lead | quiz_name |
-    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
-    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
-    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
+    !!! info "Reading the event names"
 
-    !!! note "Same events as the Built for Shopify version"
+        Each name carries its main parameter, so the value shows up in the GA4 `Event name` report without any setup. To use the other parameters as report columns, such as `question_title` or `question_ref`, register them as custom dimensions under `Admin > Custom definitions`.
 
-        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
+    !!! info "generate_lead is a standard GA4 conversion event"
 
-    !!! info "`generate_lead` is a standard GA4 conversion event"
+        It is the one name with no `_{...}` suffix, so that GA4 can treat it as a conversion. Mark it as a key event under `Admin > Events` to count it as one.
 
-        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
+    !!! warning "A question title can hold an unresolved recall token"
 
-    !!! warning "Question titles may contain a recall token"
+        `question_title`, and the `question_viewed_{question_title}` event name, carry the raw title. If a question recalls an earlier answer, the raw title holds a token such as `{{slide:x1i0d83}}`, and that token reaches GA4 rather than the answer.
 
-        The `question_title` parameter, and the `question_viewed_{question_title}` event name, use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token such as `{{slide:x1i0d83}}`. The token reaches GA4, not the answer. The token is stable. It never changes for a customer, or when you edit the quiz, so it works as a grouping key. It is not readable, though. The same applies to `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/). Strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The token is stable. It does not change for a customer, or when you edit the quiz, so it groups correctly. It is just not readable.
 
-    If the events do not appear, check that your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
+    !!! note "The older event names are gone"
+
+        `view`, `click`, `submit` and `recommendation`, with their `event_category` and `event_label` parameters, are no longer sent. The quiz sends the events listed here instead.
+
+    !!! warning "Give the data time to appear"
+
+        Check `Realtime` in GA4 first. The other reports can take up to 72 hours to process the data.
+
+    !!! tip "No events at all"
+
+        Check that your `gtag.js` snippet loads before the RevenueHunt `embed.js` snippet.
+
+## Add your own events
+
+The events above arrive without any code. Add a script only for something they do not cover.
+
+=== "Shopify"
+
+    The quiz gives your code a `window.quiz` object, in the `Custom JS` section of a question or of the results page. It takes plain JavaScript, with no `<script>` tags, and runs in the preview and the live quiz but not in the builder.
+
+    !!! warning "The callbacks do not exist in this version"
+
+        `prqQuizCallback` and `prqSlideCallback` belong to the five older versions, not to Built for Shopify. Use `window.quiz` here.
+
+    **Track every answer.** Open the first question, expand its `Custom JS` section, and assign a handler to `window.quiz.onChange`. It fires after every answer, and stays registered for the rest of the quiz.
+
+    ```javascript
+    // Fires after every answer the customer gives
+    window.quiz.onChange = function (event) {
+      gtag('event', 'quiz_question_answered', {
+        event_category: 'quiz',
+        question_ref: event.questionRef,
+        // selectedLabel is the readable choice text, so no choice-ID mapping is needed
+        answer: event.selectedLabel || event.value
+      });
+    };
+    ```
+
+    The `event` object holds `questionRef`, `blockRef`, `type`, `choicesRefs`, `value`, `isValid`, `selectedIndex` and `selectedLabel`.
+
+    **Track quiz completion.** Open the `Custom JS` section of the results page and call `gtag()` directly. It runs when the results page renders.
+
+    ```javascript
+    gtag('event', 'quiz_completed', { event_category: 'quiz' });
+    ```
+
+    **Check it works.** Take the quiz, then look under `Reports > Engagement > Events` in GA4, or in `Realtime`.
+
+=== "Shopify (Legacy)"
+
+    Your own events come from the [callback functions](/how-to-guides/use-callback-function/), in a script on the page that holds the quiz. To load it everywhere, put it in your theme's main template.
+
+    !!! warning "Before you paste it in"
+
+        - Your GA4 `gtag.js` snippet must load before the RevenueHunt `embed.js` snippet.
+        - The built-in events and this script both fire once the quiz is connected. To avoid counting twice, either disconnect the built-in integration and use the script alone, or delete the events you do not want from the script.
+
+    **Only quiz completion.** If all you need is to know that a customer finished, one callback does it.
+
+    ```html
+    <script>
+    // Fires once, when the customer reaches the results page
+    function prqQuizCallback(quizResponse){
+        gtag('event', 'quiz_completed', {
+            event_category: 'quiz',
+            quiz_name: quizResponse.quiz.attributes.name,
+            quiz_id: quizResponse.quizid
+        });
+    }
+    </script>
+    ```
+
+    **Everything the quiz does.** The script below sends the quiz start, every answer, the results page, each recommended product, and each add to cart, as its own GA4 event. It replaces the completion-only callback rather than sitting alongside it.
+
+    ```html
+    <script>
+    (function () {
+      var quizStarted   = false;
+      var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
+
+      // Fires every time a customer answers a question.
+      // The first time it runs, it doubles as the "quiz started" signal.
+      window.prqSlideCallback = function (event) {
+        var slide = event && event.slide;
+        if (!slide || !slide.attributes) return;
+
+        if (!quizStarted) {
+          quizStarted = true;
+          gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
+        }
+
+        var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var selected = slide.attributes.values || [];
+
+        // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
+        var labels = selected.map(function (val) {
+          var match = choices.filter(function (c) { return c.id === val; })[0];
+          return match ? match.attributes.label : val;
+        });
+
+        gtag('event', 'quiz_question_answered', {
+          quiz_name:      event.quiz.attributes.name,
+          // strip any unresolved recall token like {{slide:x1i0d83}} from the title
+          question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
+          answer:         labels.join(', ')
+        });
+      };
+
+      // Fires once, when the customer reaches the results page.
+      window.prqQuizCallback = function (response) {
+        var quizName   = response.quiz.attributes.name;
+        var result     = response.response.attributes.selected_result;
+        var resultName = (result && result.data) ? result.data.attributes.name : '';
+        var products   = response.response.attributes.recommended_products || [];
+
+        // One event for reaching the results page
+        gtag('event', 'quiz_results', {
+          quiz_name:     quizName,
+          result_name:   resultName,
+          product_count: products.length
+        });
+
+        // One event per recommended product (see the note below on why these are separate)
+        products.forEach(function (p) {
+          productsBySku[p.sku] = p; // stash for add-to-cart enrichment
+          gtag('event', 'quiz_product_recommended', {
+            quiz_name:     quizName,
+            result_name:   resultName,
+            product_name:  p.name,
+            product_sku:   p.sku,
+            product_price: p.price,
+            product_id:    p.origin_id,
+            variant_id:    p.variant_id
+          });
+        });
+      };
+
+      // Fires when a customer adds a recommended product to the cart from the results page.
+      // The add-to-cart event carries sku / origin_id / variant_id; name and price are
+      // enriched from the products captured above.
+      window.prqAddOneToCartCallback = function (event) {
+        var p = productsBySku[event.sku] || {};
+        gtag('event', 'quiz_add_to_cart', {
+          product_name:  p.name  || '',
+          product_sku:   event.sku,
+          product_price: p.price || '',
+          product_id:    event.originId,
+          variant_id:    event.variantId
+        });
+      };
+    })();
+    </script>
+    ```
+
+    !!! note "Why quiz_results and quiz_product_recommended are separate"
+
+        A results page can recommend more than one product. Firing the results event once, and a per-product event alongside it, keeps the count of customers who reached the results page accurate. Fire one combined event per product instead and that count multiplies by the number of products shown.
+
+    !!! tip "Using the parameters in reports"
+
+        `quiz_name`, `question_title`, `answer`, `product_name` and the rest are ordinary GA4 event parameters. Register the ones you need as custom dimensions under `Admin > Custom definitions`.
+
+    **Check it works.** Take the quiz, then look under `Reports > Engagement > Events` in GA4, or in `Realtime`.
+
+=== "WooCommerce"
+
+    Your own events come from the [callback functions](/how-to-guides/use-callback-function/), in a script on the page that holds the quiz. To load it everywhere, put it in your theme's main template.
+
+    !!! warning "Before you paste it in"
+
+        - Your GA4 `gtag.js` snippet must load before the RevenueHunt `embed.js` snippet.
+        - The built-in events and this script both fire once the quiz is connected. To avoid counting twice, either disconnect the built-in integration and use the script alone, or delete the events you do not want from the script.
+
+    **Only quiz completion.** If all you need is to know that a customer finished, one callback does it.
+
+    ```html
+    <script>
+    // Fires once, when the customer reaches the results page
+    function prqQuizCallback(quizResponse){
+        gtag('event', 'quiz_completed', {
+            event_category: 'quiz',
+            quiz_name: quizResponse.quiz.attributes.name,
+            quiz_id: quizResponse.quizid
+        });
+    }
+    </script>
+    ```
+
+    **Everything the quiz does.** The script below sends the quiz start, every answer, the results page, each recommended product, and each add to cart, as its own GA4 event. It replaces the completion-only callback rather than sitting alongside it.
+
+    ```html
+    <script>
+    (function () {
+      var quizStarted   = false;
+      var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
+
+      // Fires every time a customer answers a question.
+      // The first time it runs, it doubles as the "quiz started" signal.
+      window.prqSlideCallback = function (event) {
+        var slide = event && event.slide;
+        if (!slide || !slide.attributes) return;
+
+        if (!quizStarted) {
+          quizStarted = true;
+          gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
+        }
+
+        var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var selected = slide.attributes.values || [];
+
+        // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
+        var labels = selected.map(function (val) {
+          var match = choices.filter(function (c) { return c.id === val; })[0];
+          return match ? match.attributes.label : val;
+        });
+
+        gtag('event', 'quiz_question_answered', {
+          quiz_name:      event.quiz.attributes.name,
+          // strip any unresolved recall token like {{slide:x1i0d83}} from the title
+          question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
+          answer:         labels.join(', ')
+        });
+      };
+
+      // Fires once, when the customer reaches the results page.
+      window.prqQuizCallback = function (response) {
+        var quizName   = response.quiz.attributes.name;
+        var result     = response.response.attributes.selected_result;
+        var resultName = (result && result.data) ? result.data.attributes.name : '';
+        var products   = response.response.attributes.recommended_products || [];
+
+        // One event for reaching the results page
+        gtag('event', 'quiz_results', {
+          quiz_name:     quizName,
+          result_name:   resultName,
+          product_count: products.length
+        });
+
+        // One event per recommended product (see the note below on why these are separate)
+        products.forEach(function (p) {
+          productsBySku[p.sku] = p; // stash for add-to-cart enrichment
+          gtag('event', 'quiz_product_recommended', {
+            quiz_name:     quizName,
+            result_name:   resultName,
+            product_name:  p.name,
+            product_sku:   p.sku,
+            product_price: p.price,
+            product_id:    p.origin_id,
+            variant_id:    p.variant_id
+          });
+        });
+      };
+
+      // Fires when a customer adds a recommended product to the cart from the results page.
+      // The add-to-cart event carries sku / origin_id / variant_id; name and price are
+      // enriched from the products captured above.
+      window.prqAddOneToCartCallback = function (event) {
+        var p = productsBySku[event.sku] || {};
+        gtag('event', 'quiz_add_to_cart', {
+          product_name:  p.name  || '',
+          product_sku:   event.sku,
+          product_price: p.price || '',
+          product_id:    event.originId,
+          variant_id:    event.variantId
+        });
+      };
+    })();
+    </script>
+    ```
+
+    !!! note "Why quiz_results and quiz_product_recommended are separate"
+
+        A results page can recommend more than one product. Firing the results event once, and a per-product event alongside it, keeps the count of customers who reached the results page accurate. Fire one combined event per product instead and that count multiplies by the number of products shown.
+
+    !!! tip "Using the parameters in reports"
+
+        `quiz_name`, `question_title`, `answer`, `product_name` and the rest are ordinary GA4 event parameters. Register the ones you need as custom dimensions under `Admin > Custom definitions`.
+
+    **Check it works.** Take the quiz, then look under `Reports > Engagement > Events` in GA4, or in `Realtime`.
+
+=== "Magento"
+
+    Your own events come from the [callback functions](/how-to-guides/use-callback-function/), in a script on the page that holds the quiz. To load it everywhere, put it in your theme's main template.
+
+    !!! warning "Before you paste it in"
+
+        - Your GA4 `gtag.js` snippet must load before the RevenueHunt `embed.js` snippet.
+        - The built-in events and this script both fire once the quiz is connected. To avoid counting twice, either disconnect the built-in integration and use the script alone, or delete the events you do not want from the script.
+
+    **Only quiz completion.** If all you need is to know that a customer finished, one callback does it.
+
+    ```html
+    <script>
+    // Fires once, when the customer reaches the results page
+    function prqQuizCallback(quizResponse){
+        gtag('event', 'quiz_completed', {
+            event_category: 'quiz',
+            quiz_name: quizResponse.quiz.attributes.name,
+            quiz_id: quizResponse.quizid
+        });
+    }
+    </script>
+    ```
+
+    **Everything the quiz does.** The script below sends the quiz start, every answer, the results page, each recommended product, and each add to cart, as its own GA4 event. It replaces the completion-only callback rather than sitting alongside it.
+
+    ```html
+    <script>
+    (function () {
+      var quizStarted   = false;
+      var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
+
+      // Fires every time a customer answers a question.
+      // The first time it runs, it doubles as the "quiz started" signal.
+      window.prqSlideCallback = function (event) {
+        var slide = event && event.slide;
+        if (!slide || !slide.attributes) return;
+
+        if (!quizStarted) {
+          quizStarted = true;
+          gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
+        }
+
+        var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var selected = slide.attributes.values || [];
+
+        // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
+        var labels = selected.map(function (val) {
+          var match = choices.filter(function (c) { return c.id === val; })[0];
+          return match ? match.attributes.label : val;
+        });
+
+        gtag('event', 'quiz_question_answered', {
+          quiz_name:      event.quiz.attributes.name,
+          // strip any unresolved recall token like {{slide:x1i0d83}} from the title
+          question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
+          answer:         labels.join(', ')
+        });
+      };
+
+      // Fires once, when the customer reaches the results page.
+      window.prqQuizCallback = function (response) {
+        var quizName   = response.quiz.attributes.name;
+        var result     = response.response.attributes.selected_result;
+        var resultName = (result && result.data) ? result.data.attributes.name : '';
+        var products   = response.response.attributes.recommended_products || [];
+
+        // One event for reaching the results page
+        gtag('event', 'quiz_results', {
+          quiz_name:     quizName,
+          result_name:   resultName,
+          product_count: products.length
+        });
+
+        // One event per recommended product (see the note below on why these are separate)
+        products.forEach(function (p) {
+          productsBySku[p.sku] = p; // stash for add-to-cart enrichment
+          gtag('event', 'quiz_product_recommended', {
+            quiz_name:     quizName,
+            result_name:   resultName,
+            product_name:  p.name,
+            product_sku:   p.sku,
+            product_price: p.price,
+            product_id:    p.origin_id,
+            variant_id:    p.variant_id
+          });
+        });
+      };
+
+      // Fires when a customer adds a recommended product to the cart from the results page.
+      // The add-to-cart event carries sku / origin_id / variant_id; name and price are
+      // enriched from the products captured above.
+      window.prqAddOneToCartCallback = function (event) {
+        var p = productsBySku[event.sku] || {};
+        gtag('event', 'quiz_add_to_cart', {
+          product_name:  p.name  || '',
+          product_sku:   event.sku,
+          product_price: p.price || '',
+          product_id:    event.originId,
+          variant_id:    event.variantId
+        });
+      };
+    })();
+    </script>
+    ```
+
+    !!! note "Why quiz_results and quiz_product_recommended are separate"
+
+        A results page can recommend more than one product. Firing the results event once, and a per-product event alongside it, keeps the count of customers who reached the results page accurate. Fire one combined event per product instead and that count multiplies by the number of products shown.
+
+    !!! tip "Using the parameters in reports"
+
+        `quiz_name`, `question_title`, `answer`, `product_name` and the rest are ordinary GA4 event parameters. Register the ones you need as custom dimensions under `Admin > Custom definitions`.
+
+    **Check it works.** Take the quiz, then look under `Reports > Engagement > Events` in GA4, or in `Realtime`.
+
+=== "BigCommerce"
+
+    Your own events come from the [callback functions](/how-to-guides/use-callback-function/), in a script on the page that holds the quiz. To load it everywhere, put it in your theme's main template.
+
+    !!! warning "Before you paste it in"
+
+        - Your GA4 `gtag.js` snippet must load before the RevenueHunt `embed.js` snippet.
+        - The built-in events and this script both fire once the quiz is connected. To avoid counting twice, either disconnect the built-in integration and use the script alone, or delete the events you do not want from the script.
+
+    **Only quiz completion.** If all you need is to know that a customer finished, one callback does it.
+
+    ```html
+    <script>
+    // Fires once, when the customer reaches the results page
+    function prqQuizCallback(quizResponse){
+        gtag('event', 'quiz_completed', {
+            event_category: 'quiz',
+            quiz_name: quizResponse.quiz.attributes.name,
+            quiz_id: quizResponse.quizid
+        });
+    }
+    </script>
+    ```
+
+    **Everything the quiz does.** The script below sends the quiz start, every answer, the results page, each recommended product, and each add to cart, as its own GA4 event. It replaces the completion-only callback rather than sitting alongside it.
+
+    ```html
+    <script>
+    (function () {
+      var quizStarted   = false;
+      var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
+
+      // Fires every time a customer answers a question.
+      // The first time it runs, it doubles as the "quiz started" signal.
+      window.prqSlideCallback = function (event) {
+        var slide = event && event.slide;
+        if (!slide || !slide.attributes) return;
+
+        if (!quizStarted) {
+          quizStarted = true;
+          gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
+        }
+
+        var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var selected = slide.attributes.values || [];
+
+        // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
+        var labels = selected.map(function (val) {
+          var match = choices.filter(function (c) { return c.id === val; })[0];
+          return match ? match.attributes.label : val;
+        });
+
+        gtag('event', 'quiz_question_answered', {
+          quiz_name:      event.quiz.attributes.name,
+          // strip any unresolved recall token like {{slide:x1i0d83}} from the title
+          question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
+          answer:         labels.join(', ')
+        });
+      };
+
+      // Fires once, when the customer reaches the results page.
+      window.prqQuizCallback = function (response) {
+        var quizName   = response.quiz.attributes.name;
+        var result     = response.response.attributes.selected_result;
+        var resultName = (result && result.data) ? result.data.attributes.name : '';
+        var products   = response.response.attributes.recommended_products || [];
+
+        // One event for reaching the results page
+        gtag('event', 'quiz_results', {
+          quiz_name:     quizName,
+          result_name:   resultName,
+          product_count: products.length
+        });
+
+        // One event per recommended product (see the note below on why these are separate)
+        products.forEach(function (p) {
+          productsBySku[p.sku] = p; // stash for add-to-cart enrichment
+          gtag('event', 'quiz_product_recommended', {
+            quiz_name:     quizName,
+            result_name:   resultName,
+            product_name:  p.name,
+            product_sku:   p.sku,
+            product_price: p.price,
+            product_id:    p.origin_id,
+            variant_id:    p.variant_id
+          });
+        });
+      };
+
+      // Fires when a customer adds a recommended product to the cart from the results page.
+      // The add-to-cart event carries sku / origin_id / variant_id; name and price are
+      // enriched from the products captured above.
+      window.prqAddOneToCartCallback = function (event) {
+        var p = productsBySku[event.sku] || {};
+        gtag('event', 'quiz_add_to_cart', {
+          product_name:  p.name  || '',
+          product_sku:   event.sku,
+          product_price: p.price || '',
+          product_id:    event.originId,
+          variant_id:    event.variantId
+        });
+      };
+    })();
+    </script>
+    ```
+
+    !!! note "Why quiz_results and quiz_product_recommended are separate"
+
+        A results page can recommend more than one product. Firing the results event once, and a per-product event alongside it, keeps the count of customers who reached the results page accurate. Fire one combined event per product instead and that count multiplies by the number of products shown.
+
+    !!! tip "Using the parameters in reports"
+
+        `quiz_name`, `question_title`, `answer`, `product_name` and the rest are ordinary GA4 event parameters. Register the ones you need as custom dimensions under `Admin > Custom definitions`.
+
+    **Check it works.** Take the quiz, then look under `Reports > Engagement > Events` in GA4, or in `Realtime`.
+
+=== "Standalone"
+
+    Your own events come from the [callback functions](/how-to-guides/use-callback-function/), in a script on the page that holds the quiz. To load it everywhere, put it in your theme's main template.
+
+    !!! warning "Before you paste it in"
+
+        - Your GA4 `gtag.js` snippet must load before the RevenueHunt `embed.js` snippet.
+        - The built-in events and this script both fire once the quiz is connected. To avoid counting twice, either disconnect the built-in integration and use the script alone, or delete the events you do not want from the script.
+
+    **Only quiz completion.** If all you need is to know that a customer finished, one callback does it.
+
+    ```html
+    <script>
+    // Fires once, when the customer reaches the results page
+    function prqQuizCallback(quizResponse){
+        gtag('event', 'quiz_completed', {
+            event_category: 'quiz',
+            quiz_name: quizResponse.quiz.attributes.name,
+            quiz_id: quizResponse.quizid
+        });
+    }
+    </script>
+    ```
+
+    **Everything the quiz does.** The script below sends the quiz start, every answer, the results page, each recommended product, and each add to cart, as its own GA4 event. It replaces the completion-only callback rather than sitting alongside it.
+
+    ```html
+    <script>
+    (function () {
+      var quizStarted   = false;
+      var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
+
+      // Fires every time a customer answers a question.
+      // The first time it runs, it doubles as the "quiz started" signal.
+      window.prqSlideCallback = function (event) {
+        var slide = event && event.slide;
+        if (!slide || !slide.attributes) return;
+
+        if (!quizStarted) {
+          quizStarted = true;
+          gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
+        }
+
+        var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var selected = slide.attributes.values || [];
+
+        // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
+        var labels = selected.map(function (val) {
+          var match = choices.filter(function (c) { return c.id === val; })[0];
+          return match ? match.attributes.label : val;
+        });
+
+        gtag('event', 'quiz_question_answered', {
+          quiz_name:      event.quiz.attributes.name,
+          // strip any unresolved recall token like {{slide:x1i0d83}} from the title
+          question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
+          answer:         labels.join(', ')
+        });
+      };
+
+      // Fires once, when the customer reaches the results page.
+      window.prqQuizCallback = function (response) {
+        var quizName   = response.quiz.attributes.name;
+        var result     = response.response.attributes.selected_result;
+        var resultName = (result && result.data) ? result.data.attributes.name : '';
+        var products   = response.response.attributes.recommended_products || [];
+
+        // One event for reaching the results page
+        gtag('event', 'quiz_results', {
+          quiz_name:     quizName,
+          result_name:   resultName,
+          product_count: products.length
+        });
+
+        // One event per recommended product (see the note below on why these are separate)
+        products.forEach(function (p) {
+          productsBySku[p.sku] = p; // stash for add-to-cart enrichment
+          gtag('event', 'quiz_product_recommended', {
+            quiz_name:     quizName,
+            result_name:   resultName,
+            product_name:  p.name,
+            product_sku:   p.sku,
+            product_price: p.price,
+            product_id:    p.origin_id,
+            variant_id:    p.variant_id
+          });
+        });
+      };
+
+      // Fires when a customer adds a recommended product to the cart from the results page.
+      // The add-to-cart event carries sku / origin_id / variant_id; name and price are
+      // enriched from the products captured above.
+      window.prqAddOneToCartCallback = function (event) {
+        var p = productsBySku[event.sku] || {};
+        gtag('event', 'quiz_add_to_cart', {
+          product_name:  p.name  || '',
+          product_sku:   event.sku,
+          product_price: p.price || '',
+          product_id:    event.originId,
+          variant_id:    event.variantId
+        });
+      };
+    })();
+    </script>
+    ```
+
+    !!! note "Why quiz_results and quiz_product_recommended are separate"
+
+        A results page can recommend more than one product. Firing the results event once, and a per-product event alongside it, keeps the count of customers who reached the results page accurate. Fire one combined event per product instead and that count multiplies by the number of products shown.
+
+    !!! tip "Using the parameters in reports"
+
+        `quiz_name`, `question_title`, `answer`, `product_name` and the rest are ordinary GA4 event parameters. Register the ones you need as custom dimensions under `Admin > Custom definitions`.
+
+    **Check it works.** Take the quiz, then look under `Reports > Engagement > Events` in GA4, or in `Realtime`.
 
 ## Track quiz revenue
 
+GA4 does not tie quiz events to purchases on its own. Build a segment of the customers who started a quiz, then read the purchase revenue for that segment.
+
 === "Shopify"
 
+    **Compare quiz customers with everyone else**
 
-    GA4 does not tie custom events to purchases on its own. You can segment or filter by those events, then look at the purchase revenue.
+    ![A Free form exploration comparing quiz users with all users](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
 
-    Here are some options:
+    ![The revenue and purchase columns of that exploration](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
 
-    ### Option 1 - create free form exploration
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    You can measure how much revenue your quiz generates directly in GA4 using an **Exploration**. This walkthrough shows how to build a Free form table comparing **quiz users** with **all users**.
+    2. **Build the quiz segment.** In the `Variables` panel, under `Segments`, click `+` and choose `User segment`. Include users where `Event name` `contains` `quiz_started`, or use `matches regex` with `^quiz_started_.*$`. Name it `Quiz Users`, then click `Save and apply`.
 
-    ![how to ga revenue](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
-    ![how to ga revenue](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
+    3. **Add the default `All Users` segment too**, so you have something to compare against.
 
+    4. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count`, `Purchases` and `Total revenue` under `Metrics`.
 
-    1. Go to `Explore → + → Free form`.
-    2. **Create the “Quiz Users” segment**. In the Variables panel, under Segments, click +. Choose User segment. Set the condition: Include users where `Event name` → `contains` → `quiz_started` (or use `matches regex` → `^quiz_started_.*$`). Name it `Quiz Users` → `Save and apply`. Also add the default `All Users` segment for comparison.
+    5. **Fill in the `Tab Settings` panel.**
 
-    3. **Add Dimensions and Metrics**. In the Variables panel:
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users` and `Quiz Users` |
+        | `Rows` | `Event name` |
+        | `Columns` | Leave empty, or set `Segment` for a side-by-side comparison |
+        | `Values` | `Event count`, `Purchases`, `Total revenue` |
+        | `Filters` | `Event name` contains `quiz_started` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
 
-        - `Dimensions` → `+` → add: `Event name`
-        - `Metrics` → `+` → add: `Event count`, `Purchases`, `Total revenue`
-    4. **Configure the Tab Settings**. In the Tab Settings panel:
+    6. **Read the table.** It shows the revenue and purchases from customers who triggered `quiz_started`, next to the figures for everyone.
 
-        - `Segments`: select `All Users` and `Quiz Users`
+    7. **Rename the exploration**, to something like `Quiz Revenue`, **then star or share it** so your teammates can find it.
 
-        - `Rows`: `Event name`
+    !!! tip "Narrowing it further"
 
-        - `Columns`: leave empty, or set to `Segment` for side-by-side comparison
+        - **One quiz at a time.** Set `Filters` to `Event name` contains that quiz, such as `quiz_started_skincare_quiz_usa`.
+        - **One quiz page.** If the quiz has a page of its own, build the segment on `Page location` contains that path instead, such as `/pages/skin-quiz`.
 
-        - `Values`: `Event count`, `Purchases`, `Total revenue`
+    **Attribute revenue with UTM parameters**
 
-        - `Filters`: `Event name contains quiz_started`
+    Tag the links into your quiz with `utm_source=quiz` or `utm_campaign=quiz_name`. Revenue then appears in the GA4 `Advertising > Attribution > Model comparison` report, and under `Engagement > Conversions > Event name > purchase`.
 
-        - `Visualization`: `Table` (or Bar chart)
+    ![The purchase event in the GA4 conversions report](/images/how_to_ga_revenue2.png)
 
-        - `Date range`: e.g. `Last 28 days`
+    Add a `Source` column beside the default channel grouping, then look for the rows with the `revenuehunt` source.
 
-        The table then shows revenue and purchases from customers who triggered a `quiz_started` event, next to the figures for everyone.
+    ![The source column showing revenuehunt](/images/how_to_ga_events.png)
 
-    5. **Save and Reuse**. Rename your exploration (e.g. `Quiz Revenue`). Use the star or share option so teammates can find it easily.
+    !!! tip "More from Google"
 
-        !!! tip "Optional Variations"
-
-            - Compare specific quizzes: Use `Filters` → `Event name` contains your quiz ID/text
-                (e.g., `quiz_started_skincare_quiz_usa`).
-
-            - If your quiz is on a dedicated page: Create a **Session/User segment**: include users where **Page location contains `/pages/skin-quiz`**.
-                This shows revenue for anyone visiting that quiz page.
-
-    ### Option 2 – attribution via source/medium
-
-    If you tag quiz entry points with UTM parameters such as `utm_source=quiz` or `utm_campaign=quiz_name`, the GA4 `Advertising → Attribution → Model comparison` report shows revenue attributed to those.
-
-    Revenue attributed to the quiz appears in `Engagement > Conversions > Event name > purchase`. Click the `purchase` event.
-
-    ![how to ga revenue2](/images/how_to_ga_revenue2.png)
-
-    Add a `Source` column next to the default channel grouping and look for the rows which include the `revenuehunt` source.
-
-    ![how to ga events](/images/how_to_ga_events.png)
-
+        See the Google Analytics documentation on [tracking revenue from events](https://support.google.com/analytics/answer/9216061?hl=en).
 
 === "Shopify (Legacy)"
 
-    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    **Compare quiz customers with everyone else**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    ![A Free form exploration comparing quiz users with all users](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
+
+    ![The revenue and purchase columns of that exploration](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
+
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
+
+    2. **Build the quiz segment.** In the `Variables` panel, under `Segments`, click `+` and choose `User segment`. Include users where `Event name` `contains` `quiz_started`, or use `matches regex` with `^quiz_started_.*$`. Name it `Quiz Users`, then click `Save and apply`.
+
+    3. **Add the default `All Users` segment too**, so you have something to compare against.
+
+    4. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count`, `Purchases` and `Total revenue` under `Metrics`.
+
+    5. **Fill in the `Tab Settings` panel.**
+
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users` and `Quiz Users` |
+        | `Rows` | `Event name` |
+        | `Columns` | Leave empty, or set `Segment` for a side-by-side comparison |
+        | `Values` | `Event count`, `Purchases`, `Total revenue` |
+        | `Filters` | `Event name` contains `quiz_started` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    6. **Read the table.** It shows the revenue and purchases from customers who triggered `quiz_started`, next to the figures for everyone.
+
+    7. **Rename the exploration**, to something like `Quiz Revenue`, **then star or share it** so your teammates can find it.
+
+    !!! tip "Narrowing it further"
+
+        - **One quiz at a time.** Set `Filters` to `Event name` contains that quiz, such as `quiz_started_skincare_quiz_usa`.
+        - **One quiz page.** If the quiz has a page of its own, build the segment on `Page location` contains that path instead, such as `/pages/skin-quiz`.
+
+    **Attribute revenue with UTM parameters**
+
+    Tag the links into your quiz with `utm_source=quiz` or `utm_campaign=quiz_name`. Revenue then appears in the GA4 `Advertising > Attribution > Model comparison` report, and under `Engagement > Conversions > Event name > purchase`.
+
+    ![The purchase event in the GA4 conversions report](/images/how_to_ga_revenue2.png)
+
+    Add a `Source` column beside the default channel grouping, then look for the rows with the `revenuehunt` source.
+
+    ![The source column showing revenuehunt](/images/how_to_ga_events.png)
+
+    !!! tip "More from Google"
+
+        See the Google Analytics documentation on [tracking revenue from events](https://support.google.com/analytics/answer/9216061?hl=en).
 
 === "WooCommerce"
 
+    **Compare quiz customers with everyone else**
 
-    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    ![A Free form exploration comparing quiz users with all users](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    ![The revenue and purchase columns of that exploration](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
+
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
+
+    2. **Build the quiz segment.** In the `Variables` panel, under `Segments`, click `+` and choose `User segment`. Include users where `Event name` `contains` `quiz_started`, or use `matches regex` with `^quiz_started_.*$`. Name it `Quiz Users`, then click `Save and apply`.
+
+    3. **Add the default `All Users` segment too**, so you have something to compare against.
+
+    4. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count`, `Purchases` and `Total revenue` under `Metrics`.
+
+    5. **Fill in the `Tab Settings` panel.**
+
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users` and `Quiz Users` |
+        | `Rows` | `Event name` |
+        | `Columns` | Leave empty, or set `Segment` for a side-by-side comparison |
+        | `Values` | `Event count`, `Purchases`, `Total revenue` |
+        | `Filters` | `Event name` contains `quiz_started` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    6. **Read the table.** It shows the revenue and purchases from customers who triggered `quiz_started`, next to the figures for everyone.
+
+    7. **Rename the exploration**, to something like `Quiz Revenue`, **then star or share it** so your teammates can find it.
+
+    !!! tip "Narrowing it further"
+
+        - **One quiz at a time.** Set `Filters` to `Event name` contains that quiz, such as `quiz_started_skincare_quiz_usa`.
+        - **One quiz page.** If the quiz has a page of its own, build the segment on `Page location` contains that path instead, such as `/pages/skin-quiz`.
+
+    **Attribute revenue with UTM parameters**
+
+    Tag the links into your quiz with `utm_source=quiz` or `utm_campaign=quiz_name`. Revenue then appears in the GA4 `Advertising > Attribution > Model comparison` report, and under `Engagement > Conversions > Event name > purchase`.
+
+    ![The purchase event in the GA4 conversions report](/images/how_to_ga_revenue2.png)
+
+    Add a `Source` column beside the default channel grouping, then look for the rows with the `revenuehunt` source.
+
+    ![The source column showing revenuehunt](/images/how_to_ga_events.png)
+
+    !!! tip "More from Google"
+
+        See the Google Analytics documentation on [tracking revenue from events](https://support.google.com/analytics/answer/9216061?hl=en).
 
 === "Magento"
 
+    **Compare quiz customers with everyone else**
 
-    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    ![A Free form exploration comparing quiz users with all users](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    ![The revenue and purchase columns of that exploration](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
+
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
+
+    2. **Build the quiz segment.** In the `Variables` panel, under `Segments`, click `+` and choose `User segment`. Include users where `Event name` `contains` `quiz_started`, or use `matches regex` with `^quiz_started_.*$`. Name it `Quiz Users`, then click `Save and apply`.
+
+    3. **Add the default `All Users` segment too**, so you have something to compare against.
+
+    4. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count`, `Purchases` and `Total revenue` under `Metrics`.
+
+    5. **Fill in the `Tab Settings` panel.**
+
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users` and `Quiz Users` |
+        | `Rows` | `Event name` |
+        | `Columns` | Leave empty, or set `Segment` for a side-by-side comparison |
+        | `Values` | `Event count`, `Purchases`, `Total revenue` |
+        | `Filters` | `Event name` contains `quiz_started` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    6. **Read the table.** It shows the revenue and purchases from customers who triggered `quiz_started`, next to the figures for everyone.
+
+    7. **Rename the exploration**, to something like `Quiz Revenue`, **then star or share it** so your teammates can find it.
+
+    !!! tip "Narrowing it further"
+
+        - **One quiz at a time.** Set `Filters` to `Event name` contains that quiz, such as `quiz_started_skincare_quiz_usa`.
+        - **One quiz page.** If the quiz has a page of its own, build the segment on `Page location` contains that path instead, such as `/pages/skin-quiz`.
+
+    **Attribute revenue with UTM parameters**
+
+    Tag the links into your quiz with `utm_source=quiz` or `utm_campaign=quiz_name`. Revenue then appears in the GA4 `Advertising > Attribution > Model comparison` report, and under `Engagement > Conversions > Event name > purchase`.
+
+    ![The purchase event in the GA4 conversions report](/images/how_to_ga_revenue2.png)
+
+    Add a `Source` column beside the default channel grouping, then look for the rows with the `revenuehunt` source.
+
+    ![The source column showing revenuehunt](/images/how_to_ga_events.png)
+
+    !!! tip "More from Google"
+
+        See the Google Analytics documentation on [tracking revenue from events](https://support.google.com/analytics/answer/9216061?hl=en).
 
 === "BigCommerce"
 
+    **Compare quiz customers with everyone else**
 
-    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    ![A Free form exploration comparing quiz users with all users](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    ![The revenue and purchase columns of that exploration](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
+
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
+
+    2. **Build the quiz segment.** In the `Variables` panel, under `Segments`, click `+` and choose `User segment`. Include users where `Event name` `contains` `quiz_started`, or use `matches regex` with `^quiz_started_.*$`. Name it `Quiz Users`, then click `Save and apply`.
+
+    3. **Add the default `All Users` segment too**, so you have something to compare against.
+
+    4. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count`, `Purchases` and `Total revenue` under `Metrics`.
+
+    5. **Fill in the `Tab Settings` panel.**
+
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users` and `Quiz Users` |
+        | `Rows` | `Event name` |
+        | `Columns` | Leave empty, or set `Segment` for a side-by-side comparison |
+        | `Values` | `Event count`, `Purchases`, `Total revenue` |
+        | `Filters` | `Event name` contains `quiz_started` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    6. **Read the table.** It shows the revenue and purchases from customers who triggered `quiz_started`, next to the figures for everyone.
+
+    7. **Rename the exploration**, to something like `Quiz Revenue`, **then star or share it** so your teammates can find it.
+
+    !!! tip "Narrowing it further"
+
+        - **One quiz at a time.** Set `Filters` to `Event name` contains that quiz, such as `quiz_started_skincare_quiz_usa`.
+        - **One quiz page.** If the quiz has a page of its own, build the segment on `Page location` contains that path instead, such as `/pages/skin-quiz`.
+
+    **Attribute revenue with UTM parameters**
+
+    Tag the links into your quiz with `utm_source=quiz` or `utm_campaign=quiz_name`. Revenue then appears in the GA4 `Advertising > Attribution > Model comparison` report, and under `Engagement > Conversions > Event name > purchase`.
+
+    ![The purchase event in the GA4 conversions report](/images/how_to_ga_revenue2.png)
+
+    Add a `Source` column beside the default channel grouping, then look for the rows with the `revenuehunt` source.
+
+    ![The source column showing revenuehunt](/images/how_to_ga_events.png)
+
+    !!! tip "More from Google"
+
+        See the Google Analytics documentation on [tracking revenue from events](https://support.google.com/analytics/answer/9216061?hl=en).
 
 === "Standalone"
 
+    **Compare quiz customers with everyone else**
 
-    Depending on the custom events you programmed in [Connect quiz to Google Analytics](#connect-quiz-to-google-analytics), you may see quiz revenue in Google Analytics.
+    ![A Free form exploration comparing quiz users with all users](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or explore the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+    ![The revenue and purchase columns of that exploration](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
 
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
+    2. **Build the quiz segment.** In the `Variables` panel, under `Segments`, click `+` and choose `User segment`. Include users where `Event name` `contains` `quiz_started`, or use `matches regex` with `^quiz_started_.*$`. Name it `Quiz Users`, then click `Save and apply`.
+
+    3. **Add the default `All Users` segment too**, so you have something to compare against.
+
+    4. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count`, `Purchases` and `Total revenue` under `Metrics`.
+
+    5. **Fill in the `Tab Settings` panel.**
+
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users` and `Quiz Users` |
+        | `Rows` | `Event name` |
+        | `Columns` | Leave empty, or set `Segment` for a side-by-side comparison |
+        | `Values` | `Event count`, `Purchases`, `Total revenue` |
+        | `Filters` | `Event name` contains `quiz_started` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    6. **Read the table.** It shows the revenue and purchases from customers who triggered `quiz_started`, next to the figures for everyone.
+
+    7. **Rename the exploration**, to something like `Quiz Revenue`, **then star or share it** so your teammates can find it.
+
+    !!! tip "Narrowing it further"
+
+        - **One quiz at a time.** Set `Filters` to `Event name` contains that quiz, such as `quiz_started_skincare_quiz_usa`.
+        - **One quiz page.** If the quiz has a page of its own, build the segment on `Page location` contains that path instead, such as `/pages/skin-quiz`.
+
+    **Attribute revenue with UTM parameters**
+
+    Tag the links into your quiz with `utm_source=quiz` or `utm_campaign=quiz_name`. Revenue then appears in the GA4 `Advertising > Attribution > Model comparison` report, and under `Engagement > Conversions > Event name > purchase`.
+
+    ![The purchase event in the GA4 conversions report](/images/how_to_ga_revenue2.png)
+
+    Add a `Source` column beside the default channel grouping, then look for the rows with the `revenuehunt` source.
+
+    ![The source column showing revenuehunt](/images/how_to_ga_events.png)
+
+    !!! tip "More from Google"
+
+        See the Google Analytics documentation on [tracking revenue from events](https://support.google.com/analytics/answer/9216061?hl=en).
 
 ## Use GA4 explorations
 
+Standard GA4 reports show the trend. An exploration answers a specific question about how customers use your quiz.
 
 === "Shopify"
 
-    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    An exploration lets you:
 
-    With Explorations, you can:
+    - **Compare quiz customers with everyone else.** See how much revenue comes from the customers who start a quiz.
+    - **Break the results down by quiz.** If you run several, see which brings in the most purchases.
+    - **Build a funnel.** Follow `quiz_started` to `results_page_viewed` to `product_added_to_cart` to `purchase`, and find where customers drop out.
+    - **Follow customer paths.** See what a customer does after the quiz, such as opening a recommended product or going straight to the checkout.
+    - **Build an audience.** Save the quiz customers as an audience for later analysis, or for remarketing in Google Ads.
 
-    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
+    **Find your most clicked choices**
 
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+    ![A Free form exploration of the block_answered events](/images/how_to_shopifyv2_ga4_exploration2choices.png)
 
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
+    2. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count` under `Metrics`.
 
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+    3. **Fill in the `Tab Settings` panel.**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users`, or `Quiz Users` to count only the customers who took a quiz |
+        | `Rows` | `Event name` |
+        | `Values` | `Event count` |
+        | `Filters` | `Event name` contains `block_answered` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
 
-    ### Example 1: most clicked choices
+    4. **Read the table.** Each `block_answered` row is one choice, and the event count is how often customers picked it.
 
-    You can build an exploration to see which choices are most popular.
+    5. **Rename the exploration**, to something like `Most Clicked Choices`, **then star or share it** so your teammates can find it.
 
-    ![how to ga exploration](/images/how_to_shopifyv2_ga4_exploration2choices.png)
+    !!! tip "More on explorations"
 
-    1. Go to `Explore → + → Free form`.
-    2. Add Dimensions and Metrics. In the Variables panel:
-
-        - `Dimensions` → `+` → add: `Event name`
-        - `Metrics` → `+` → add: `Event count`
-
-    3. Configure the Tab Settings. In the Tab Settings panel:
-
-        - `Segments`: select `All Users`, or add `Quiz Users` to limit the results to customers who took a quiz.
-        - `Rows`: `Event name`
-        - `Columns`: leave empty
-        - `Values`: `Event count`
-        - `Filters`: `Event name contains block_answered`
-        - `Visualization`: `Table` (or Bar chart)
-        - `Date range`: e.g. `Last 28 days`
-
-        The table then shows which quiz answers, the `block_answered` events, were clicked most often.
-
-    5. **Save and Reuse**. Rename your exploration (e.g. `Most Clicked Choices`). Use the star or share option so teammates can find it easily.
-
-
-
-    ### Example 2: track revenue from quizzes
-
-    You can measure how much revenue your quiz generates directly in GA4 using an **Exploration**. This walkthrough shows how to build a Free form table comparing **quiz users** with **all users**.
-
-    ![how to ga revenue](/images/how_to_shopifyv2_ga4_exploration1revenue1.png)
-    ![how to ga revenue](/images/how_to_shopifyv2_ga4_exploration1revenue2.png)
-
-    1. Go to `Explore → + → Free form`.
-    2. **Create the “Quiz Users” segment**. In the Variables panel, under Segments, click +. Choose User segment. Set the condition: Include users where `Event name` → `contains` → `quiz_started` (or use `matches regex` → `^quiz_started_.*$`). Name it `Quiz Users` → `Save and apply`. Also add the default `All Users` segment for comparison.
-
-    3. **Add Dimensions and Metrics**. In the Variables panel:
-
-        - `Dimensions` → `+` → add: `Event name`
-        - `Metrics` → `+` → add: `Event count`, `Purchases`, `Total revenue`
-    4. **Configure the Tab Settings**. In the Tab Settings panel:
-
-        - `Segments`: select `All Users` and `Quiz Users`
-
-        - `Rows`: `Event name`
-
-        - `Columns`: leave empty, or set to `Segment` for side-by-side comparison
-
-        - `Values`: `Event count`, `Purchases`, `Total revenue`
-
-        - `Filters`: `Event name contains quiz_started`
-
-        - `Visualization`: `Table` (or Bar chart)
-
-        - `Date range`: e.g. `Last 28 days`
-
-        The table then shows revenue and purchases from customers who triggered a `quiz_started` event, next to the figures for everyone.
-
-    5. **Save and Reuse**. Rename your exploration (e.g. `Quiz Revenue`). Use the star or share option so teammates can find it easily.
-
-        !!! tip "Optional Variations"
-
-            - Compare specific quizzes: Use `Filters` → `Event name` contains your quiz ID/text
-                (e.g., `quiz_started_skincare_quiz_usa`).
-
-            - If your quiz is on a dedicated page: Create a **Session/User segment**: include users where **Page location contains `/pages/skin-quiz`**.
-                This shows revenue for anyone visiting that quiz page.
-
-
+        See the Google Analytics documentation on [GA4 explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "Shopify (Legacy)"
 
-    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    An exploration lets you:
 
-    With Explorations, you can:
+    - **Compare quiz customers with everyone else.** See how much revenue comes from the customers who start a quiz.
+    - **Break the results down by quiz.** If you run several, see which brings in the most purchases.
+    - **Build a funnel.** Follow `quiz_started` to `results_page_viewed` to `product_added_to_cart` to `purchase`, and find where customers drop out.
+    - **Follow customer paths.** See what a customer does after the quiz, such as opening a recommended product or going straight to the checkout.
+    - **Build an audience.** Save the quiz customers as an audience for later analysis, or for remarketing in Google Ads.
 
-    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
+    **Find your most clicked choices**
 
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+    ![A Free form exploration of the block_answered events](/images/how_to_shopifyv2_ga4_exploration2choices.png)
 
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
+    2. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count` under `Metrics`.
 
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+    3. **Fill in the `Tab Settings` panel.**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users`, or `Quiz Users` to count only the customers who took a quiz |
+        | `Rows` | `Event name` |
+        | `Values` | `Event count` |
+        | `Filters` | `Event name` contains `block_answered` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    4. **Read the table.** Each `block_answered` row is one choice, and the event count is how often customers picked it.
+
+    5. **Rename the exploration**, to something like `Most Clicked Choices`, **then star or share it** so your teammates can find it.
+
+    !!! tip "More on explorations"
+
+        See the Google Analytics documentation on [GA4 explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "WooCommerce"
 
-    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    An exploration lets you:
 
-    With Explorations, you can:
+    - **Compare quiz customers with everyone else.** See how much revenue comes from the customers who start a quiz.
+    - **Break the results down by quiz.** If you run several, see which brings in the most purchases.
+    - **Build a funnel.** Follow `quiz_started` to `results_page_viewed` to `product_added_to_cart` to `purchase`, and find where customers drop out.
+    - **Follow customer paths.** See what a customer does after the quiz, such as opening a recommended product or going straight to the checkout.
+    - **Build an audience.** Save the quiz customers as an audience for later analysis, or for remarketing in Google Ads.
 
-    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
+    **Find your most clicked choices**
 
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+    ![A Free form exploration of the block_answered events](/images/how_to_shopifyv2_ga4_exploration2choices.png)
 
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
+    2. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count` under `Metrics`.
 
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+    3. **Fill in the `Tab Settings` panel.**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users`, or `Quiz Users` to count only the customers who took a quiz |
+        | `Rows` | `Event name` |
+        | `Values` | `Event count` |
+        | `Filters` | `Event name` contains `block_answered` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    4. **Read the table.** Each `block_answered` row is one choice, and the event count is how often customers picked it.
+
+    5. **Rename the exploration**, to something like `Most Clicked Choices`, **then star or share it** so your teammates can find it.
+
+    !!! tip "More on explorations"
+
+        See the Google Analytics documentation on [GA4 explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "Magento"
 
-    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    An exploration lets you:
 
-    With Explorations, you can:
+    - **Compare quiz customers with everyone else.** See how much revenue comes from the customers who start a quiz.
+    - **Break the results down by quiz.** If you run several, see which brings in the most purchases.
+    - **Build a funnel.** Follow `quiz_started` to `results_page_viewed` to `product_added_to_cart` to `purchase`, and find where customers drop out.
+    - **Follow customer paths.** See what a customer does after the quiz, such as opening a recommended product or going straight to the checkout.
+    - **Build an audience.** Save the quiz customers as an audience for later analysis, or for remarketing in Google Ads.
 
-    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
+    **Find your most clicked choices**
 
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+    ![A Free form exploration of the block_answered events](/images/how_to_shopifyv2_ga4_exploration2choices.png)
 
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
+    2. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count` under `Metrics`.
 
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+    3. **Fill in the `Tab Settings` panel.**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users`, or `Quiz Users` to count only the customers who took a quiz |
+        | `Rows` | `Event name` |
+        | `Values` | `Event count` |
+        | `Filters` | `Event name` contains `block_answered` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    4. **Read the table.** Each `block_answered` row is one choice, and the event count is how often customers picked it.
+
+    5. **Rename the exploration**, to something like `Most Clicked Choices`, **then star or share it** so your teammates can find it.
+
+    !!! tip "More on explorations"
+
+        See the Google Analytics documentation on [GA4 explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "BigCommerce"
 
-    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    An exploration lets you:
 
-    With Explorations, you can:
+    - **Compare quiz customers with everyone else.** See how much revenue comes from the customers who start a quiz.
+    - **Break the results down by quiz.** If you run several, see which brings in the most purchases.
+    - **Build a funnel.** Follow `quiz_started` to `results_page_viewed` to `product_added_to_cart` to `purchase`, and find where customers drop out.
+    - **Follow customer paths.** See what a customer does after the quiz, such as opening a recommended product or going straight to the checkout.
+    - **Build an audience.** Save the quiz customers as an audience for later analysis, or for remarketing in Google Ads.
 
-    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
+    **Find your most clicked choices**
 
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+    ![A Free form exploration of the block_answered events](/images/how_to_shopifyv2_ga4_exploration2choices.png)
 
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
+    2. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count` under `Metrics`.
 
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+    3. **Fill in the `Tab Settings` panel.**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users`, or `Quiz Users` to count only the customers who took a quiz |
+        | `Rows` | `Event name` |
+        | `Values` | `Event count` |
+        | `Filters` | `Event name` contains `block_answered` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
+
+    4. **Read the table.** Each `block_answered` row is one choice, and the event count is how often customers picked it.
+
+    5. **Rename the exploration**, to something like `Most Clicked Choices`, **then star or share it** so your teammates can find it.
+
+    !!! tip "More on explorations"
+
+        See the Google Analytics documentation on [GA4 explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "Standalone"
 
-    Google Analytics 4 (GA4) has **Explorations**, for digging deeper into your quiz data. Standard reports show high-level trends. Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+    An exploration lets you:
 
-    With Explorations, you can:
+    - **Compare quiz customers with everyone else.** See how much revenue comes from the customers who start a quiz.
+    - **Break the results down by quiz.** If you run several, see which brings in the most purchases.
+    - **Build a funnel.** Follow `quiz_started` to `results_page_viewed` to `product_added_to_cart` to `purchase`, and find where customers drop out.
+    - **Follow customer paths.** See what a customer does after the quiz, such as opening a recommended product or going straight to the checkout.
+    - **Build an audience.** Save the quiz customers as an audience for later analysis, or for remarketing in Google Ads.
 
-    - **Compare quiz customers with everyone else**. See how much revenue comes from customers who start a quiz.
+    **Find your most clicked choices**
 
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+    ![A Free form exploration of the block_answered events](/images/how_to_shopifyv2_ga4_exploration2choices.png)
 
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+    1. **In GA4, go to `Explore`, click `+`, and choose `Free form`.**
 
-    - **Analyze customer paths**. See what a customer does after the quiz: view a recommended product, add to cart, or go straight to checkout.
+    2. **Add the dimensions and metrics.** In the `Variables` panel, add `Event name` under `Dimensions`, and `Event count` under `Metrics`.
 
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+    3. **Fill in the `Tab Settings` panel.**
 
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
+        | Field | Value |
+        |---|---|
+        | `Segments` | `All Users`, or `Quiz Users` to count only the customers who took a quiz |
+        | `Rows` | `Event name` |
+        | `Values` | `Event count` |
+        | `Filters` | `Event name` contains `block_answered` |
+        | `Visualization` | `Table`, or `Bar chart` |
+        | `Date range` | `Last 28 days` |
 
+    4. **Read the table.** Each `block_answered` row is one choice, and the event count is how often customers picked it.
 
+    5. **Rename the exploration**, to something like `Most Clicked Choices`, **then star or share it** so your teammates can find it.
+
+    !!! tip "More on explorations"
+
+        See the Google Analytics documentation on [GA4 explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 ---
-This article explains how to connect the quiz to Google Analytics and track quiz performance in GA4.
+
+This article explains how to connect a quiz to Google Analytics, and which events it then sends. It also covers adding events of your own, and reading the revenue back out.

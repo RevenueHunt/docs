@@ -142,6 +142,10 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
         The app syncs your catalog every 24 hours, and again whenever your store catalog changes. That covers products, collections, tags, variants and vendors.
 
+    !!! warning "A variable product syncs one attribute only"
+
+        If a variable product varies by two attributes, such as size and color, the app syncs the first one and leaves the second behind.
+
     - The **first** sync after you install the app takes the longest. Depending on the size of your catalog, expect **30 minutes to several hours**.
     - Only products marked **active** are synced and appear in the dropdowns. **Draft and archived products are excluded.**
     - You can run a manual sync **once an hour**.

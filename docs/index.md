@@ -4,108 +4,64 @@ description: "Get started with RevenueHunt product recommendation quiz. Installa
 
 # Getting Started with RevenueHunt
 
-## What is RevenueHunt app?
+RevenueHunt is a product recommendation and video quiz app for online stores.
 
-The RevenueHunt app is a product recommendation and video quiz application designed to enhance the online shopping experience by guiding shoppers through tailored questions, analyzing their responses, and recommending the perfect products based on their preferences. 
+A customer answers a few questions, and the quiz recommends the products from your catalog that match their answers. Along the way it collects their email address, their phone number and the answers themselves, so you know who they are and what they want. That is zero-party data, given to you directly rather than inferred.
 
-This interactive tool aims to improve customer engagement and increase sales by collecting zero-party data and segmenting leads to grow the audience. It offers personalized product recommendations through interactive quizzes, providing tailored suggestions that match the shopper's needs and preferences. 
+It runs on Shopify, WooCommerce, Magento and BigCommerce, and as a standalone app for any other store.
 
-The app includes a Free plan and a 14-day free trial, with paid plans starting at $39 per month​.
+!!! info "Plans"
 
-## Installing the app
+    There is a Free plan and a 14-day free trial, and paid plans start at $39 a month. See [Plans and pricing](/reference/plans-pricing/) for what each plan covers.
+
+## Get the app
 
 === "Shopify"
 
-    1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
-    2. Grant permissions to connect our app to your Shopify.
-    3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-    4. Confirm app access and permissions. 
-    5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app.
-
-    !!! info "For Shopify legacy app users"
-    
-        You can switch to the new Built for Shopify version of the app by following these steps:
-
-        1. Open the **RevenueHunt** app in your Shopify dashboard.
-        2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
-        3. Confirm app access and permissions.
-        4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
-
-        You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
-
-
+    Install the app from the [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt), then open `RevenueHunt Product Quiz Maker` under `Apps` in your Shopify admin.
 
 === "Shopify (Legacy)"
 
-    1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
-    2. Grant permissions to connect our app to your Shopify.
-    3. In your Shopify dashboard, go to `Apps` and click `RevenueHunt Product Quiz Maker` to open it.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads!
-
-    !!! info "For Shopify legacy app users"
-    
-        You can switch to the new Built for Shopify version of the app by following these steps:
-
-        1. Open the **RevenueHunt** app in your Shopify dashboard.
-        2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
-        3. Confirm app access and permissions.
-        4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
-
-        You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
+    The legacy app installs from the same [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt). You choose between the two interfaces inside the app.
 
 === "WooCommerce"
 
-    1. Install and activate [WooCommerce](https://woocommerce.com/) if you haven’t already done so.
-    2. Install and activate our **Product Recommendation Quiz** plugin from the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/). It’s also available on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free and install you on our **Free plan**, which allows up to 100 quiz responses per month. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
-
-    3. In your WordPress dashboard, navigate to the `Product Quiz` tab.
-    4. Grant permission to connect our app to your WooCommerce.
-    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    6. Drive traffic to your quiz and start getting sales and leads!
-
-    If you have any issues with your WooCommerce installation please check [WooCommerce troubleshooting FAQ](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
+    Install the Product Recommendation Quiz plugin from the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) or the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/), then open the `Product Quiz` tab in your WordPress admin.
 
 === "Magento"
 
-    1. Download and install the **Product Recommendation Quiz** module. Get the latest version from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
-    2. In your Magento dashboard, navigate to the Marketing tab and open `Product Recommendation Quiz`.
-    3. Grant permission to connect our app to your Magento store.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads!
-
-    If you have any issues, check this [How to install the app](/how-to-guides/install-app/).
+    Download the module from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/). Installing it needs command line access, so it is a developer task.
 
 === "BigCommerce"
 
-    1. Navigate to our [BigCommerce Marketplace listing](https://admin.revenuehunt.com/bc/affiliate_code), find **Product Recommendation Quiz** and click on `get this app`.
-    2. Grant permission to connect our app to your BigCommerce store. 
-    3. In your BigCommerce dashboard, go to `Apps` and click on our app.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads!
+    Get the app from the [BigCommerce listing for Product Recommendation Quiz](https://admin.revenuehunt.com/bc/affiliate_code), then open it under `Apps` in your BigCommerce admin.
 
 === "Standalone"
 
-    1. Sign up for the standalone version of the **Product Recommendation Quiz** on the [RevenueHunt registration page](https://admin.revenuehunt.com/register).
-    2. Add products and collections.
-    3. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    4. Drive traffic to your quiz and start getting sales and leads!
+    Sign up on the [RevenueHunt registration page](https://admin.revenuehunt.com/register). An email address and a password are all it takes, and your products go in by hand or through a Google Product Feed.
 
-    Check out this [step-by-step installation guide](/how-to-guides/install-app/).
+For the full steps on your platform, including what to grant and what to check afterwards, see [How to Install the App](/how-to-guides/install-app/).
 
-## Frequently asked questions
+Once the app is open, work through the [Success Checklist](/reference/dashboard/#success-checklist) to build and publish your first quiz.
 
-Here's what other people are finding most helpful right now:
+## Find your way around
 
-[:material-download: How To Install the App](/how-to-guides/install-app/)
+This site is in four parts.
 
-[:material-pencil: How to Build Your First Quiz](/how-to-guides/create-first-quiz/)
+- **[Tutorial Videos](/tutorials/)** - An app tour, a first quiz, a skincare routine and a skin type quiz, each walked through on video.
+- **[How-to Guides](/how-to-guides/)** - One task per guide, with the steps for every version of the app.
+- **[App Manual](/reference/)** - Every screen, button and setting in the app.
+- **[Customer Success](/customer-success/)** - How to get more leads, larger orders and better product discovery out of a quiz.
+
+## Popular guides
+
+[:material-download: How to Install the App](/how-to-guides/install-app/)
+
+[:material-pencil: How to Create Your First Quiz](/how-to-guides/create-first-quiz/)
 
 [:material-cards: How to Recommend Products](/how-to-guides/recommend-products/)
 
-[:material-palette-outline: How to Customize Quiz Design](/how-to-guides/customize-quiz-design/)
+[:material-palette-outline: How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/)
 
 [:material-monitor-share: How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/)
 
@@ -119,5 +75,4 @@ Here's what other people are finding most helpful right now:
 
 ## Contact support
 
-Still looking for an answer?
-Feel free to [contact support](/how-to-guides/contact-customer-support/).
+Still looking for an answer? See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).

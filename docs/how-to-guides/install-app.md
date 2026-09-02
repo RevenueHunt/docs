@@ -5,91 +5,113 @@ icon: material/download
 
 # How to Install the App
 
+The app installs from a different place on each platform. Pick yours below.
+
 === "Shopify"
 
-    1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
-    2. Grant permissions to connect the app to your Shopify store.
-    3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-    4. Confirm app access and permissions.
-    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    6. Drive traffic to your quiz and start getting sales and leads.
+    The Built for Shopify version is the current app, and it installs from the Shopify App Store.
 
-    !!! info "For Shopify legacy app users"
+    1. **Open the [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click `Add app`.**
 
-        You can switch to the new Built for Shopify version of the app by following these steps:
+    2. **Grant the permissions that connect the app to your store.**
 
-        1. Open the **RevenueHunt** app in your Shopify dashboard.
-        2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
-        3. Confirm app access and permissions.
-        4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
+    3. **In your Shopify admin, go to `Apps` and open `RevenueHunt Product Quiz Maker`.**
 
-        You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
+    4. **Confirm the app access and permissions.**
 
+    5. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
 
+    Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
 
+    !!! tip "Going back to the legacy version"
+
+        Select `Switch to legacy app` in the Shopify side menu. Your progress is saved in both versions, so nothing is lost either way.
+
+        See [Switch to legacy](/reference/dashboard/#switch-to-legacy).
 
 === "Shopify (Legacy)"
 
-    1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
-    2. Grant permissions to connect the app to your Shopify store.
-    3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads.
+    The legacy app installs from the same Shopify App Store listing as the current one. You choose between the two interfaces inside the app.
 
-    !!! info "For Shopify legacy app users"
+    1. **Open the [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click `Add app`.**
 
-        You can switch to the new Built for Shopify version of the app by following these steps:
+    2. **Grant the permissions that connect the app to your store.**
 
-        1. Open the **RevenueHunt** app in your Shopify dashboard.
-        2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
-        3. Confirm app access and permissions.
-        4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
+    3. **In your Shopify admin, go to `Apps` and open `RevenueHunt Product Quiz Maker`.**
 
-        You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
+    4. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
 
+    Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
+
+    !!! tip "Moving to the Built for Shopify version"
+
+        1. **Open the app in your Shopify admin.**
+
+        2. **Select `Switch to Built for Shopify` in the Shopify side menu.**
+
+            ![Switching from the legacy app to Built for Shopify](/images/switch-to-bfs.png)
+
+        3. **Confirm the app access and permissions.**
+
+        Your progress is saved in both versions, and you can switch back whenever you want.
+
+        To bring a quiz you have already built across, use `Migrate from Legacy App` in the [New quiz](/reference/dashboard/#new-quiz) menu. See [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 === "WooCommerce"
 
-    1. Install and activate [WooCommerce](https://woocommerce.com/) if you have not already.
-    2. Install and activate our **Product Recommendation Quiz** plugin from the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/). It is also available on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free and put you on the **Free plan**, which covers up to 100 quiz responses a month. Above that you are asked to upgrade to a Basic plan, billed monthly.
+    The quiz runs as a WordPress plugin that connects your store to RevenueHunt.
 
-    3. In your WordPress dashboard, navigate to the `Product Quiz` tab.
-    4. Grant permission to connect the app to your WooCommerce store.
-    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    6. Drive traffic to your quiz and start getting sales and leads.
+    1. **Install and activate [WooCommerce](https://woocommerce.com/), if it is not already running.**
 
-    If you have any issues with your WooCommerce installation please check [WooCommerce troubleshooting FAQ](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
+    2. **Install and activate the Product Recommendation Quiz plugin.** It is on the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) and on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free.
+
+    3. **In your WordPress admin, open the `Product Quiz` tab.**
+
+    4. **Grant the permission that connects the app to your WooCommerce store.**
+
+    5. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
+
+    Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
+
+    !!! info "What the free plugin covers"
+
+        Either plugin puts you on the Free plan, which covers up to 100 quiz responses a month. Above that the app asks you to upgrade to a Basic plan, billed monthly.
+
+        See [Plans and pricing](/reference/plans-pricing/) for the rest of the plans.
+
+    !!! tip "The plugin is not connecting"
+
+        See [WordPress and WooCommerce troubleshooting](/how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
 
 === "Magento"
 
-    1. Download and install the **Product Recommendation Quiz** module. Get the latest version from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
+    The quiz runs as a Magento module. Installing it needs command line access to your server, so this one is a developer task.
 
-        ??? question "How to install the module?"
+    1. **Download the Product Recommendation Quiz module** from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
 
-            Type 1: Zip file
+    2. **Install the module from the zip file, or with Composer.**
+
+        ??? question "The commands for each route"
+
+            **From a zip file**
 
             - Unzip the file into `app/code/Revenuehunt`.
             - Enable the module: `php bin/magento module:enable Revenuehunt_ProductQuiz`
             - Apply the database updates: `php bin/magento setup:upgrade`
             - Flush the cache: `php bin/magento cache:flush`
 
-            Type 2: Composer
+            **With Composer**
 
-            - Make the module available in a composer repository, for example:
-                - the private repository `repo.magento.com`
-                - the public repository `packagist.org`
-                - a public GitHub repository, as `vcs`
+            - Make the module available in a Composer repository, such as the private `repo.magento.com`, the public `packagist.org`, or a public GitHub repository added as `vcs`.
             - Add that repository to your configuration: `composer config repositories.repo.magento.com composer https://repo.magento.com/`
             - Install the module: `composer require Revenuehunt/module-productquiz`
             - Enable the module: `php bin/magento module:enable Revenuehunt_ProductQuiz`
             - Apply the database updates: `php bin/magento setup:upgrade`
             - Flush the cache: `php bin/magento cache:flush`
 
-    2. In your Magento dashboard, navigate to `STORES > Stores > Settings > Configuration > SERVICES > Magento Web API > Web API Security > Allow Anonymous Guest Access : Yes` See the Magento documentation on [anonymous API security](https://devdocs.magento.com/guides/v2.3/rest/anonymous-api-security.html).
+    3. **In your Magento admin, go to `Stores > Settings > Configuration > Services > Magento Web API > Web API Security` and set `Allow Anonymous Guest Access` to `Yes`.** See the Magento documentation on [anonymous API security](https://devdocs.magento.com/guides/v2.3/rest/anonymous-api-security.html).
 
-        ??? info "Configuration details"
+        ??? info "Where the module keeps its configuration"
 
             | Setting | Configuration path |
             |---|---|
@@ -103,54 +125,72 @@ icon: material/download
             | Token | `product_quiz/hidden/rh_token` |
             | Shop hash id | `product_quiz/hidden/rh_shop_hashid` |
 
-    3. In your Magento dashboard, go to the Marketing tab and open `Product Recommendation Quiz`.
-    4. Grant permission to connect the app to your Magento store.
-    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    6. Drive traffic to your quiz and start getting sales and leads.
+    4. **In your Magento admin, go to `Marketing` and open `Product Recommendation Quiz`.**
 
-    If you have any issues, follow the instructions in the [Magento module repository on GitHub](https://github.com/RevenueHunt/product-recommendation-quiz-for-magento).
+    5. **Grant the permission that connects the app to your Magento store.**
 
-    !!! warning "Technical Specifications"
+    6. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
 
-        - Your website must have a valid HTTPS or SSL certificate installed.
-        - Does not work on a local or development environment. The package is `revenuehunt/module-productquiz`.
-        - API Endpoint
-            - POST - `Revenuehunt\ProductQuiz\Api\PrqSetTokenManagementInterface` > `Revenuehunt\ProductQuiz\Model\PrqSetTokenManagement`
-        - Controller `adminhtml > prqfw/index/index`
-        - The MiniCart integration is disabled by default. If your theme uses MiniCart, uncomment the code in the module file: `view/frontend/layout/default.xml`
-            ```html
+    Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
+
+    !!! warning "What the module needs"
+
+        - Your website must have a valid HTTPS or SSL certificate.
+        - The module does not run on a local or development environment.
+        - The MiniCart integration is off by default. If your theme uses MiniCart, uncomment this line in `view/frontend/layout/default.xml`.
+
+                    ```html
             <block class="Magento\Framework\View\Element\Template" name="revenuehunt-script" template="Revenuehunt_ProductQuiz::head/js.phtml" />
-            ```
+                    ```
+
+    ??? info "For the developer installing it"
+
+        - Composer package: `revenuehunt/module-productquiz`
+        - API endpoint: POST `Revenuehunt\ProductQuiz\Api\PrqSetTokenManagementInterface` to `Revenuehunt\ProductQuiz\Model\PrqSetTokenManagement`
+        - Controller: `adminhtml > prqfw/index/index`
+        - Source and issues: [Magento module repository on GitHub](https://github.com/RevenueHunt/product-recommendation-quiz-for-magento)
 
 === "BigCommerce"
 
-    1. Navigate to our [BigCommerce Marketplace listing](https://admin.revenuehunt.com/bc/affiliate_code), find **Product Recommendation Quiz** and click on `get this app`.
-    2. Grant permission to connect the app to your BigCommerce store.
-    3. In your BigCommerce dashboard, go to `Apps` and click on our app.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads.
+    The quiz installs as a BigCommerce app.
+
+    1. **Open the [BigCommerce listing for Product Recommendation Quiz](https://admin.revenuehunt.com/bc/affiliate_code) and click `get this app`.**
+
+    2. **Grant the permission that connects the app to your BigCommerce store.**
+
+    3. **In your BigCommerce admin, go to `Apps` and open Product Recommendation Quiz.**
+
+    4. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
+
+    Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
 
 === "Standalone"
 
-    Is your store built on Wix, Squarespace Commerce, Odoo or something else?
+    The standalone version runs on its own, with no store behind it. It suits a shop built on Wix, Squarespace Commerce, Odoo, or anything else the app has no plugin for.
 
-    You can install a “standalone” version of the RevenueHunt app on a custom-built store. Two things do not work:
+    !!! warning "Two things work differently here"
 
-    - products have to be added manually to the app or via Google Product Feed
-    - add to cart and proceed to checkout are not available. After the quiz, the customer sees a results page and clicks a product to view it.
+        - Products are not pulled from a store. Add them by hand or through a Google Product Feed.
+        - There is no add to cart and no checkout. The customer reads the results page and clicks a product to open it.
 
-    To install the app:
+    1. **Sign up on the [RevenueHunt registration page](https://admin.revenuehunt.com/register).** An email address and a password are all it takes.
 
-    1. Sign up for the standalone version of the **RevenueHunt Product Recommendation Quiz** on the [RevenueHunt registration page](https://admin.revenuehunt.com/register). All you need is an email and a password.
-    2. Once registered, [log in to your account](https://admin.revenuehunt.com/login).
-    3. Add products and collections. Your in-app [Catalogue](https://admin.revenuehunt.com/catalogue) is available at any time.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads.
+    2. **[Log in to your account](https://admin.revenuehunt.com/login).**
 
-    !!! tip "How do I add products to Standalone RevenueHunt App?"
+    3. **Add your products and collections in the in-app [Catalogue](https://admin.revenuehunt.com/catalogue).**
 
-        To add products and collections to the Standalone version, see [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+    4. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
 
-    !!! note
+    Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
 
-        To change the username or password, [contact support](/how-to-guides/contact-customer-support/).
+    !!! tip "Filling the catalogue"
+
+        See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+
+    !!! note "Changing your username or password"
+
+        [Contact customer support](/how-to-guides/contact-customer-support/) to change either one.
+
+---
+
+This article explains how to install the RevenueHunt app on each platform, and how to check that the install worked.
