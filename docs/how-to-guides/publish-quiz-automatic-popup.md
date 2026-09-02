@@ -32,7 +32,7 @@ This article explains how to set up automatic popups on your store. It covers po
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HeHWWdbxvYI?si=yfWxXGhQEiRz6IDH" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. **Add a section for the app embed**: In the Home page Template, add the RevenueHunt `Auto Popup Quiz` app embed. The quiz popup is then enabled on the home page.
@@ -146,7 +146,7 @@ This article explains how to set up automatic popups on your store. It covers po
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0mJ4KiHQFq8?si=xWPSV0l6JDcVIcGN" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Popup Page`). Set the visibility to `Visible` and save the changes.
     2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
@@ -252,7 +252,7 @@ This article explains how to set up automatic popups on your store. It covers po
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-675UKK1uJI?si=hb4rRFFhwkk53a9p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. **Activate App Embeds**: Make sure you are editing the `Default` theme for your store. Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
@@ -407,7 +407,7 @@ This article explains how to set up automatic popups on your store. It covers po
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
@@ -482,7 +482,7 @@ This article explains how to set up automatic popups on your store. It covers po
 
 === "Shopify"
 
-    In the `💎Built for Shopify` version of the RevenueHunt app you cannot show the popup more than once per session. The exception is the `Exit intent` option. See [Show Popup on Exit intent](#show-popup-on-exit-intent).
+    In the Built for Shopify version of the RevenueHunt app you cannot show the popup more than once per session. The exception is the `Exit intent` option. See [Show Popup on Exit intent](#show-popup-on-exit-intent).
 
 === "Shopify (Legacy)"
 
@@ -568,14 +568,14 @@ This article explains how to set up automatic popups on your store. It covers po
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
 
     1. Check that you activated `Automatic Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Automatic Popup Quiz Legacy`.
         ![how_to_publish_shipifyV2_V1publisherrorautomaticpopup](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
 
-        If the wrong automatic popup quiz is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+        If the wrong automatic popup quiz is activated, that error appears when you link to a Built for Shopify quiz.
 
         To solve this simply deactivate the `Automatic Popup Quiz Legacy` and activate the `Automatic Popup Quiz` one.
     2. Save the changes.

@@ -9,7 +9,7 @@ A quiz cannot link a recommendation to a number the customer types. Ask for a ra
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The walkthrough shows the `💎Built for Shopify` version of the app.
+The walkthrough shows the Built for Shopify version of the app.
 
 ## Why an open-ended number does not work
 
@@ -101,7 +101,7 @@ Once the answers are finite, you can:
 
 !!! tip "Quiz Copilot can suggest the ranges"
 
-    In the `💎Built for Shopify` version, Quiz Copilot turns a broad question such as "What is your room size?" into ranges for you. It also suggests the follow-up questions to go with them.
+    In the Built for Shopify version, Quiz Copilot turns a broad question such as "What is your room size?" into ranges for you. It also suggests the follow-up questions to go with them.
 
     For room size, that might be:
 

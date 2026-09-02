@@ -49,7 +49,7 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
 !!! info "Redirects keep the parameters"
 
-    This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
+    This applies to the Built for Shopify version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
 
 ## Read ad to purchase in your store analytics
 

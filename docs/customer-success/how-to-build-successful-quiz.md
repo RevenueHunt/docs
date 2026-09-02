@@ -15,15 +15,15 @@ A quiz only earns its keep if it sells. This guide is what high-converting quizz
   <div class="rh-stat"><span class="rh-stat-num">10-25%+</span><span class="rh-stat-label">conversion on top quizzes</span></div>
 </div>
 
-!!! info "💎Built for Shopify RevenueHunt app"
+!!! info "💎 Built for Shopify RevenueHunt app"
 
-    The `💎Built for Shopify` version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
+    The Built for Shopify version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
 
 The mechanics are easy. Making the quiz serve both your shoppers and your bottom line takes a few deliberate choices. RevenueHunt has measured what actually works across those responses, with a deep-dive on the patterns behind top-converting quizzes. Here is what they have in common.
 
 ## Make it easy to find and on-brand
 
-**Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The `💎Built for Shopify` app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
+**Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The Built for Shopify app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
 
 !!! example "Publish in multiple locations"
 
@@ -137,7 +137,7 @@ Quizzes integrated with Klaviyo convert **24% better** and generate **66% more o
 
 ## Go global
 
-**Serve every market in its own language.** The `💎Built for Shopify` app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
+**Serve every market in its own language.** The Built for Shopify app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
 
 ---
 

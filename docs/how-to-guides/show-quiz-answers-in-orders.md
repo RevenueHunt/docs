@@ -11,7 +11,7 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
 === "Shopify"
 
-    In the `💎Built for Shopify` version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
+    In the Built for Shopify version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
 
     !!! info "You choose exactly what to save"
 

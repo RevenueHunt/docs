@@ -24,7 +24,7 @@ Say you run a skincare shop, and you want to recommend products from two criteri
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/e9bNK96Vt8k?si=q_Dq-G2JVwskpaQx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The walkthrough shows the `💎Built for Shopify` version of the app.
+The walkthrough shows the Built for Shopify version of the app.
 
 ### The four groups this matrix needs
 

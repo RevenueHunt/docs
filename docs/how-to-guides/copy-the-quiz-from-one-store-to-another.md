@@ -21,7 +21,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! info "Moving a quiz between versions is a different job"
 
-        To bring a quiz from the legacy app into the `💎Built for Shopify` version on the same store, use [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) instead.
+        To bring a quiz from the legacy app into the Built for Shopify version on the same store, use [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) instead.
 
     1. **Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/) in the store you are copying from.**
 
@@ -57,7 +57,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! info "Moving a quiz between versions is a different job"
 
-        To bring a quiz from the legacy app into the `💎Built for Shopify` version on the same store, use [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) instead.
+        To bring a quiz from the legacy app into the Built for Shopify version on the same store, use [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) instead.
 
     1. **Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general) in the store you are copying from.**
 

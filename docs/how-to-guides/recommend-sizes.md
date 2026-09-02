@@ -45,7 +45,7 @@ Once the choices are finite, you can:
 
 !!! tip "Quiz Copilot can generate the choices"
 
-    In the `💎Built for Shopify` version, open [Quiz Copilot](/how-to-guides/use-quiz-copilot/) from the quiz editor and give it your product list and your sizing logic. It writes the choices for you, which saves a lot of typing when you carry many size variants.
+    In the Built for Shopify version, open [Quiz Copilot](/how-to-guides/use-quiz-copilot/) from the quiz editor and give it your product list and your sizing logic. It writes the choices for you, which saves a lot of typing when you carry many size variants.
 
 ## Map out your products before you start
 

@@ -146,7 +146,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
         This version of the app has no Quiz Copilot.
 
-        You can [migrate your quiz to the 💎Built for Shopify app](/how-to-guides/migrate-shopify-legacy-quiz/), which has one. For help with the quiz you are running now, ask the [support team](/how-to-guides/contact-customer-support/).
+        You can [migrate your quiz to the Built for Shopify app](/how-to-guides/migrate-shopify-legacy-quiz/), which has one. For help with the quiz you are running now, ask the [support team](/how-to-guides/contact-customer-support/).
 
 === "WooCommerce"
 

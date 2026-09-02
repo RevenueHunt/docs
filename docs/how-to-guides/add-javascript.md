@@ -554,7 +554,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 === "Shopify"
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
+    In the Built for Shopify version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
 
     **The `quiz` object**
 
@@ -1162,7 +1162,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 === "Shopify"
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
+    In the Built for Shopify version of the RevenueHunt app, you can add interactive elements to your quiz results page:
 
     1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
@@ -1442,7 +1442,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 === "Shopify"
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, the `answers` object holds the answers, and you can calculate from them. This example builds a BMI calculator:
+    In the Built for Shopify version of the RevenueHunt app, the `answers` object holds the answers, and you can calculate from them. This example builds a BMI calculator:
 
     !!! example "Create a BMI calculator"
 

@@ -11,7 +11,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
 === "Shopify"
 
-    The `💎 Built for Shopify` version of the RevenueHunt app integrates directly with Zapier.
+    The Built for Shopify version of the RevenueHunt app integrates directly with Zapier.
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Us6QCQpfFf0?si=mvOj4x8rnRRdiT0-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

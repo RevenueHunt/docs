@@ -7,7 +7,7 @@ icon: material/butterfly-outline
 
 === "Shopify"
 
-    PageFly currently integrates only with the legacy version of the RevenueHunt app for Shopify. The new `💎Built for Shopify` version of the RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
+    PageFly currently integrates only with the legacy version of the RevenueHunt app for Shopify. The new 💎 Built for Shopify version of the RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
 
     !!! tip "Possible Workaround"
 

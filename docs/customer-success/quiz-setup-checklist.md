@@ -153,7 +153,7 @@ A great quiz that's hard to find won't convert. Put it where customers already a
 
 ## Match your store's look
 
-The `💎Built for Shopify` app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
+The Built for Shopify app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
 
 ☐ Review the quiz on desktop and mobile to confirm it looks clean and readable
 

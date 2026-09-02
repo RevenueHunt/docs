@@ -11,7 +11,7 @@ MailerLite is an email marketing platform. The RevenueHunt app has no built-in M
 
 === "Shopify"
 
-    The `💎 Built for Shopify` version of the RevenueHunt app has no built-in MailerLite integration.
+    The Built for Shopify version of the RevenueHunt app has no built-in MailerLite integration.
 
     !!! warning "Beta"
 

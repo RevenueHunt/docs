@@ -1,128 +1,204 @@
 ---
+description: "Import a quiz from the legacy Shopify app into the Built for Shopify version of RevenueHunt, and fix what needs a manual follow-up."
 icon: material/transfer
 ---
 
-# How to Migrate a Legacy Quiz to the 💎Built for Shopify App
+# How to Migrate a Legacy Quiz to the 💎 Built for Shopify App
 
-You can import a quiz from the legacy RevenueHunt app into the `💎Built for Shopify` version, instead of rebuilding it. The migration tool copies your questions, results pages, logic, and design settings in one click.
+You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Shopify version instead of rebuilding it. Questions, results pages, logic and design all come across in one click.
 
-!!! info "Shopify only"
+## Import the quiz
 
-    The **Migrate from Legacy App** option is currently available for Shopify stores only. Merchants on WooCommerce, Magento, BigCommerce, or Standalone can use the [Import Quiz](/how-to-guides/copy-the-quiz-from-one-store-to-another/) feature instead.
+=== "Shopify"
 
----
+    !!! info "Before you start"
 
-## Before you begin
+        - The Built for Shopify version has to be installed and active. See [How to Install the App](/how-to-guides/install-app/).
+        - Your legacy quizzes are left alone. The import makes a copy, and nothing is removed from the legacy app.
 
-- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you have not switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
-- Your legacy quizzes remain untouched. The migration creates a **copy** in the `💎Built for Shopify` app, and nothing is deleted from the legacy version.
+    1. **Open `RevenueHunt Product Quiz Maker` in your Shopify admin.**
 
----
+    2. **On the Dashboard, click `Create new quiz`.**
 
-## Step 1: open the new quiz menu
+    3. **Select `Migrate from Legacy App` from the menu that opens.**
 
-1. Open the **RevenueHunt** app in your Shopify dashboard.
-2. From the Dashboard, click the **Create new quiz** button.
-3. In the dropdown menu that appears, select **Migrate from Legacy App**.
+        ![The Create new quiz menu, showing Migrate from Legacy App](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_menu.png)
 
-    ![Create new quiz dropdown showing Migrate from Legacy App option](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_menu.png)
+    4. **Find your quiz in the list and read its row.** Each row carries the quiz name, how many questions and results pages it holds, and when it was last edited. A green tick marks what will migrate, and a yellow notice marks anything that will not.
 
----
+        ![The migration dialog, listing legacy quizzes with their status](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
 
-## Step 2: select the quiz to import
+    5. **Click `Import Now` beside it.**
 
-A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
+    6. **Check that the quiz opens in the [Quiz builder](/reference/quiz-builder/) with `(Imported from V1)` after its name.** That suffix is how you tell the copy from anything you build yourself.
 
-- **Name** and basic stats (number of questions, results pages, last updated date)
-- **What will migrate** - a green checkmark confirms that questions, results, logic, and design are included
-- **Warnings** - yellow notices flag anything that cannot be migrated automatically
+        ![The imported quiz open in the Built for Shopify quiz builder](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_imported.png)
 
-    ![Migrate from Legacy App dialog showing quiz list with status indicators](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
+=== "Shopify (Legacy)"
 
-Click **Import Now** next to the quiz you want to migrate.
+    !!! note "You run this from the other side"
 
----
+        `Migrate from Legacy App` sits in the Built for Shopify dashboard, not in this one.
 
-## Step 3: review the imported quiz
+        Select `Switch to Built for Shopify` in the Shopify side menu first, then follow the Shopify tab. Your progress is saved in both versions. See [How to Install the App](/how-to-guides/install-app/).
 
-Once the import completes, the quiz opens in the Quiz Builder. Its name will include the suffix **(Imported from V1)** so you can easily identify it.
+=== "WooCommerce"
 
-![Imported quiz open in the Built for Shopify Quiz Builder](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_imported.png)
+    !!! note "Not part of this version"
 
-Review your questions, results pages, and logic to make sure everything looks correct before publishing.
+        `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
----
+        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
-## What gets migrated, and what does not
+=== "Magento"
 
-| What migrates | Status |
-|---|---|
-| Questions and answer choices | ✅ Fully migrated |
-| Results pages and content | ✅ Fully migrated |
-| Conditional logic | ✅ Fully migrated |
-| Quiz design and styling | ✅ Fully migrated |
-| Custom CSS | ⚠️ Not adapted automatically - see [Custom CSS](#custom-css) |
-| Custom JavaScript | ⚠️ Will not migrate - see [Custom JavaScript](#custom-javascript) |
-| Special third-party integrations | ⚠️ Needs review after import |
-| Product mappings | ⚠️ May need re-linking - see [Product mappings](#product-mappings) |
+    !!! note "Not part of this version"
 
----
+        `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-## What to watch for after import
+        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
-Most quizzes migrate cleanly, but some advanced configurations require a manual follow-up.
+=== "BigCommerce"
 
-### Custom CSS
+    !!! note "Not part of this version"
 
-If your legacy quiz used custom CSS, the styles are carried over as they are. The **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
+        `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-!!! warning "Review your design after import"
+        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
-    Check the quiz preview after importing. Wrong colors, broken layouts or missing fonts mean the CSS selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
+=== "Standalone"
 
-### Custom JavaScript
+    !!! note "Not part of this version"
 
-Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has a different JavaScript API, so legacy scripts cannot be transferred automatically.
+        `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-!!! warning "Rebuild JS customizations manually"
+        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
-    If your legacy quiz relied on custom JavaScript, for example custom events, DOM manipulation or callback functions, rewrite those with the [JavaScript API](/how-to-guides/add-javascript/).
+## What migrates, and what needs a hand
 
-### Product mappings
+=== "Shopify"
 
-Questions, answer choices and results pages migrate. Product links are tied to Shopify product IDs, which are the same in both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+    | What migrates | Status |
+    |---|---|
+    | Questions and answer choices | Fully migrated |
+    | Results pages and their content | Fully migrated |
+    | Conditional logic | Fully migrated |
+    | Quiz design and styling | Fully migrated |
+    | Product links | Should carry over, worth checking |
+    | Custom CSS | Comes across, but may not apply |
+    | Custom JavaScript | Does not migrate |
+    | Third-party integrations | Have to be reconnected |
 
-!!! tip
+    Most quizzes come across cleanly. The four below are the ones worth a look afterwards.
 
-    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them in the [Results Page](/reference/quiz-builder/results-page/).
+    **Custom CSS**
 
-### Special integrations
+    Your CSS comes across as written. The Built for Shopify app is built on a different HTML structure than the legacy one. Rules that targeted legacy elements may no longer match anything.
 
-Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not automatically re-established after migration. Reconnect any integrations you need through [Quiz Settings](/reference/quiz-builder/quiz-settings/).
+    !!! warning "Check the design before you publish"
 
----
+        Open the quiz preview. Wrong colors, a broken layout or a missing font mean the selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz design](/reference/quiz-builder/quiz-design/) tab. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+
+    **Custom JavaScript**
+
+    Custom JavaScript does not migrate. The Built for Shopify app has a different JavaScript API, so a legacy script cannot be carried over.
+
+    !!! warning "Rewrite your scripts"
+
+        Custom events, DOM changes and callback functions all have to be written again against the new API. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+
+    **Product links**
+
+    Product links are tied to Shopify product IDs, and those are the same in both versions on the same store. They should carry over.
+
+    !!! tip "Check them anyway"
+
+        Open your results page and confirm the products you expect are still linked. Link any that are missing in the [Results page](/reference/quiz-builder/results-page/).
+
+    **Third-party integrations**
+
+    A connection to a third-party tool, such as Klaviyo, Mailchimp or a webhook, is not re-established by the import. Reconnect the ones you need in [Quiz settings > Integrations](/reference/quiz-builder/quiz-settings/#integrations).
+
+=== "Shopify (Legacy)"
+
+    !!! note "Once you have switched"
+
+        This applies to the quiz after it has been imported into the Built for Shopify version.
+
+=== "WooCommerce"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
+
+=== "Magento"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
+
+=== "BigCommerce"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
+
+=== "Standalone"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
 
 ## After the import
 
-Once you have reviewed the quiz and fixed any warnings:
+=== "Shopify"
 
-1. **Test the quiz end-to-end** using the Preview button before publishing.
-2. **Reconnect integrations** (email platforms, CRMs, pixels) in Quiz Settings.
-3. **Publish the quiz** using your preferred [publishing method](/how-to-guides/publish-quiz/).
-4. When you are happy with the result, archive or delete the legacy version.
+    1. **Take the quiz through with `Preview`, from the first question to the results page.**
+
+    2. **Reconnect your integrations in [Quiz settings > Integrations](/reference/quiz-builder/quiz-settings/#integrations).**
+
+    3. **Publish the quiz.** See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+
+    4. **Archive or delete the legacy quiz, once you are happy with the new one.**
+
+    !!! info "The base quiz always imports"
+
+        Custom CSS, JavaScript or an unusual setup will not stop an import. Questions, logic and results pages always come across. A warning tells you which advanced feature needs work by hand, not that the import has failed.
+
+    !!! tip "Something did not come across"
+
+        See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+
+=== "Shopify (Legacy)"
+
+    !!! note "Once you have switched"
+
+        This applies to the quiz after it has been imported into the Built for Shopify version.
+
+=== "WooCommerce"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
+
+=== "Magento"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
+
+=== "BigCommerce"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
+
+=== "Standalone"
+
+    !!! note "Not part of this version"
+
+        Importing a legacy quiz happens between the two Shopify apps.
 
 ---
 
-!!! info "The base quiz is always importable"
-
-    Even if your legacy quiz has custom CSS, JavaScript or unusual configurations, the core content always imports: questions, logic and results. A warning tells you which advanced feature needs manual work, not that the import will fail.
-
----
-
-**Related articles:**
-
-- [How to Install the App](/how-to-guides/install-app/)
-- [How to Copy a Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/)
-- [How to Customize Your Quiz Design](/how-to-guides/customize-quiz-design/)
-- [How to Add JavaScript](/how-to-guides/add-javascript/)
-- [Contact Customer Support](/how-to-guides/contact-customer-support/)
+This article explains how to import a legacy Shopify quiz into the Built for Shopify app, and what to check once it lands.

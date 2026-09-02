@@ -26,7 +26,7 @@ This article explains how to add a chat button that opens the quiz. It covers bo
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WGfNlVPFA_Q?si=anpiVruoyxR8cKyy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button. Make sure you are editing the `Default` theme or the theme that is applied to your main page.
     2. **Add a Section**: Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
@@ -142,7 +142,7 @@ This article explains how to add a chat button that opens the quiz. It covers bo
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RM0MySN9PUU?si=wtcWwFSvN25coodT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. **Activate App Embeds**: Edit the `Default` theme, or the theme applied to most of your pages. In the theme customization area, go to `App Embeds`. Find `Chat Popup Quiz` and toggle it on.
@@ -197,7 +197,7 @@ This article explains how to add a chat button that opens the quiz. It covers bo
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rbweJaslzvo?si=0EZZDjAhO8FfQt3R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     1. In Shopify, go to `Online Theme > Customize`. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the chat popup on, or create a new one.
     2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
@@ -345,14 +345,14 @@ This article explains how to add a chat button that opens the quiz. It covers bo
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
 
     1. Check that you activated `Chat Button Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Chat Button Quiz Legacy`.
         ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatpopup.png)
 
-        If the wrong chat button quiz is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+        If the wrong chat button quiz is activated, that error appears when you link to a Built for Shopify quiz.
 
         To solve this simply deactivate the `Chat Button Quiz Legacy` and activate the `Chat Button Quiz` one.
     2. Save the changes.

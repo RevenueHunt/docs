@@ -75,7 +75,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
     !!! note
 
-        In the `💎Built for Shopify` version, setting the font to `Inherit` takes the heading and body fonts from your Shopify theme.
+        In the Built for Shopify version, setting the font to `Inherit` takes the heading and body fonts from your Shopify theme.
 
     `Primary Colors` - Click on the color to change it.
 

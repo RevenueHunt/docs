@@ -11,7 +11,7 @@ Showing a customer their own quiz results inside their account page keeps the re
 
     !!! note "Not available on this platform"
 
-        The `💎Built for Shopify` version has no app embed for the customer profile yet, so the quiz cannot be shown there.
+        The Built for Shopify version has no app embed for the customer profile yet, so the quiz cannot be shown there.
 
         To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 

@@ -9,7 +9,7 @@ them to customize how your quizzes look.
 
 !!! note "Two versions, two sets of selectors"
 
-    The `💎 Built for Shopify` version and the legacy version of the app build
+    The 💎 Built for Shopify version and the legacy version of the app build
     their quiz markup differently. A selector from one version does not work on
     the other. Choose your platform tab in each section.
 
@@ -1641,7 +1641,7 @@ them to customize how your quizzes look.
 
     ---
 
-    This article explains the CSS structure of the `💎 Built for Shopify` RevenueHunt quiz app.
+    This article explains the CSS structure of the Built for Shopify RevenueHunt quiz app.
 
 === "Shopify (Legacy)"
 

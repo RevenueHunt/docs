@@ -40,7 +40,7 @@ Adapting your quiz for different markets isn't just a translation task. It's abo
 Before you start duplicating and translating quizzes, understand what you actually need to do manually - and what the app already handles for you.
 
 !!! info "💎 Built for Shopify - Shopify Markets integration"
-    The automatic features below apply to the `💎 Built for Shopify` version of the RevenueHunt app, which has native Shopify Markets integration.
+    The automatic features below apply to the Built for Shopify version of the RevenueHunt app, which has native Shopify Markets integration.
 
 **Automatic: product titles, descriptions, and prices.** The results page pulls product data directly from Shopify's Storefront API. This means:
 
@@ -149,7 +149,7 @@ The app preview doesn't simulate market switching. To test properly:
 
 ## If you're not on Shopify
 
-The Shopify Markets integration is exclusive to the `💎 Built for Shopify` version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
+The Shopify Markets integration is exclusive to the Built for Shopify version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
 
 **The manual multi-language setup:**
 
@@ -475,7 +475,7 @@ That's it. That's the playbook.
 
 !!! success "The default theme inherits your store's fonts and colors automatically."
 
-    The `💎Built for Shopify` version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
+    The Built for Shopify version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
 
     ![Default theme example](/images/cs_no_customization_style.png)
 
@@ -1042,7 +1042,7 @@ Let that data sit idle and you've paid to acquire a lead and then walked away fr
 
 ## Send the results instantly
 
-The fastest win is emailing the result the moment the quiz ends, while intent is highest. With the 💎Built for Shopify app you can do this without a third-party tool:
+The fastest win is emailing the result the moment the quiz ends, while intent is highest. With the Built for Shopify app you can do this without a third-party tool:
 
 1. Add an **Email Address** question block before the results page.
 2. Go to **Quiz Settings → Emails → Respondents**.
@@ -1236,15 +1236,15 @@ A quiz only earns its keep if it sells. This guide is what high-converting quizz
   <div class="rh-stat"><span class="rh-stat-num">10-25%+</span><span class="rh-stat-label">conversion on top quizzes</span></div>
 </div>
 
-!!! info "💎Built for Shopify RevenueHunt app"
+!!! info "💎 Built for Shopify RevenueHunt app"
 
-    The `💎Built for Shopify` version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
+    The Built for Shopify version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
 
 The mechanics are easy. Making the quiz serve both your shoppers and your bottom line takes a few deliberate choices. RevenueHunt has measured what actually works across those responses, with a deep-dive on the patterns behind top-converting quizzes. Here is what they have in common.
 
 ## Make it easy to find and on-brand
 
-**Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The `💎Built for Shopify` app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
+**Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The Built for Shopify app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
 
 !!! example "Publish in multiple locations"
 
@@ -1358,7 +1358,7 @@ Quizzes integrated with Klaviyo convert **24% better** and generate **66% more o
 
 ## Go global
 
-**Serve every market in its own language.** The `💎Built for Shopify` app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
+**Serve every market in its own language.** The Built for Shopify app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
 
 ---
 
@@ -1515,7 +1515,7 @@ A strong welcome screen does three things:
 
 This is where most of the growth is. On-site placement captures the visitors you already have; this section is about deliberately sending new, qualified traffic to the quiz - and the quiz earns it, because it converts that traffic at roughly 2.75x a standard landing page.
 
-**Give the quiz its own page first.** Before you point any ads, email, or social at the quiz, publish it on a dedicated URL - a clean landing page whose only job is to start the quiz. That page is the destination for every campaign below: it loads fast and has no competing navigation to leak clicks. The 💎Built for Shopify app lets you [publish the quiz as a standalone page or external link](/how-to-guides/publish-quiz-external-link/).
+**Give the quiz its own page first.** Before you point any ads, email, or social at the quiz, publish it on a dedicated URL - a clean landing page whose only job is to start the quiz. That page is the destination for every campaign below: it loads fast and has no competing navigation to leak clicks. The Built for Shopify app lets you [publish the quiz as a standalone page or external link](/how-to-guides/publish-quiz-external-link/).
 
 **Run paid ads to the quiz page (the highest-leverage tactic here).** Point your Meta and Google ads at the dedicated quiz page rather than a product page or homepage. Customers who see *"Take our 2-minute skin quiz and get personalized recommendations"* in an ad are self-selecting as engaged and intent-driven, and the quiz converts them at about **2.75x** the rate of cold traffic landing on a category page. The quiz also captures their email and product preferences before showing anything to buy, so even the shoppers who don't buy today become a warm, segmented list you can retarget. Track the full journey with [Meta Pixel](/how-to-guides/integrate-meta-pixel/) or [Google Analytics](/how-to-guides/integrate-google-analytics/), and use the quiz answers to build cheaper, sharper audiences - the complete playbook is in [Use quiz data to lower your ad costs](/customer-success/use-quiz-data-for-ads/).
 
@@ -4486,7 +4486,7 @@ A great quiz that's hard to find won't convert. Put it where customers already a
 
 ## Match your store's look
 
-The `💎Built for Shopify` app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
+The Built for Shopify app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
 
 ☐ Review the quiz on desktop and mobile to confirm it looks clean and readable
 
@@ -6356,7 +6356,7 @@ Custom JavaScript needs the IDs, also called references, of your questions and b
         console.log('All answers by block:', quiz.answers.byBlock);
         ```
         Then open your browser Console (F12 → Console tab) and take the quiz. It lists every block ID and its value.
-In the `💎Built for Shopify` version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
+In the Built for Shopify version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
 **The `quiz` object**
 Your JavaScript code has access to the `quiz` object containing all the current state data:
 **Quiz Context Properties**
@@ -6474,7 +6474,7 @@ To access the console in your browser:
 This will help you understand the structure of these objects so you can access the specific properties you need in your custom JavaScript.
 !!! tip "Finding Block References"
     For how to find a block reference, see [Find block and question IDs](#find-block-and-question-ids).
-In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
+In the Built for Shopify version of the RevenueHunt app, you can add interactive elements to your quiz results page:
 1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
     !!! example "Add the `onclick` functionality via the Custom JavaScript."
         ```html
@@ -6509,7 +6509,7 @@ In the `💎Built for Shopify` version of the RevenueHunt app, you can add inter
         const container = window.quiz.querySelector('.result-section');
         if (container) container.appendChild(element);
         ```
-In the `💎Built for Shopify` version of the RevenueHunt app, the `answers` object holds the answers, and you can calculate from them. This example builds a BMI calculator:
+In the Built for Shopify version of the RevenueHunt app, the `answers` object holds the answers, and you can calculate from them. This example builds a BMI calculator:
 !!! example "Create a BMI calculator"
     Step 1: Add a placeholder element in the Results page (HTML block)
     ```html
@@ -7651,7 +7651,7 @@ This article explains how to copy a quiz from one store to another, and what hap
 !!! warning "Install the app on both stores first"
     The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
 !!! info "Moving a quiz between versions is a different job"
-    To bring a quiz from the legacy app into the `💎Built for Shopify` version on the same store, use [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) instead.
+    To bring a quiz from the legacy app into the Built for Shopify version on the same store, use [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) instead.
 1. **Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/) in the store you are copying from.**
 2. **Find `Export quiz to another store` and click `Copy quiz code`.** This produces a piece of JSON holding the whole quiz. It does not expire, but it captures the quiz as it is at that moment.
     ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
@@ -7837,7 +7837,7 @@ The Quiz design section is divided into two main customization categories: **`Ba
 `Typography` - Pick a font for your quiz from the list.
 ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
 !!! note
-    In the `💎Built for Shopify` version, setting the font to `Inherit` takes the heading and body fonts from your Shopify theme.
+    In the Built for Shopify version, setting the font to `Inherit` takes the heading and body fonts from your Shopify theme.
 `Primary Colors` - Click on the color to change it.
 ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
 Select a color from the picker to change it.
@@ -8899,34 +8899,34 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/join-questions/
 ================================================================================
 
 ---
-description: "Learn how to display multiple questions per slide in your RevenueHunt quiz to reduce length and improve participant engagement."
+description: "Learn how to display multiple questions per slide in your RevenueHunt quiz to reduce length and improve customer engagement."
 icon: material/playlist-plus
 ---
 
 # How to Display Multiple Questions per Slide in Your Quiz
 
-This article explains how to combine questions into a single slide with the [Quiz Builder](/reference/quiz-builder/).
-
-Several questions on one slide make the quiz shorter, and keep the customer engaged.
-
-To combine two or more questions into one slide:
+A quiz that asks one thing per screen gets long. Putting several questions on one slide shortens it, and keeps the customer moving.
 
 !!! info "File upload questions"
 
-    You cannot merge two `file upload` questions into one slide. Keep each file upload question on its own slide.
+    Two `file upload` questions cannot share a slide. Keep each one on a slide of its own.
 
 ---
-This article explains how to combine two or more questions into a single slide.
+
+This article explains how to put more than one question on a single quiz slide.
 
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/C927w-0ZRl4?si=5j8Uwb7CLT-n-m7A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. Open the [Quiz builder](/reference/quiz-builder/).
-2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
-3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list.
-4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a different block type from the list.
-5. Both questions will now appear on the same slide.
-![joined slides example in built for shopify revenuehunt app](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
+In this version a question is a slide, and every block you add to it shows on that slide. There is nothing to join.
+1. **Open the [Quiz builder](/reference/quiz-builder/) and click `+ Add question`.** That adds the slide.
+2. **Click [`+ Add block`](/reference/quiz-builder/questions/#block-settings) and pick the [block](/reference/quiz-builder/questions/#question-types) for your first question.**
+3. **Click `+ Add block` again and pick the block for the second question.** Both now sit on the same slide.
+    ![Two questions sharing one slide](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
+4. **Repeat for every question you want on the slide.** Two blocks of the same kind are fine, such as two text fields for a first and last name.
+5. **Click the top-right `Save` button, then take the quiz.** The questions should appear together, with one button at the end of them.
+!!! tip "Starting a new slide"
+    Click `+ Add question` again. Blocks stay with the question they were added to.
 
 
 
@@ -8936,133 +8936,71 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/migrate-shopify-legacy-quiz/
 ================================================================================
 
 ---
+description: "Import a quiz from the legacy Shopify app into the Built for Shopify version of RevenueHunt, and fix what needs a manual follow-up."
 icon: material/transfer
 ---
 
-# How to Migrate a Legacy Quiz to the 💎Built for Shopify App
+# How to Migrate a Legacy Quiz to the 💎 Built for Shopify App
 
-You can import a quiz from the legacy RevenueHunt app into the `💎Built for Shopify` version, instead of rebuilding it. The migration tool copies your questions, results pages, logic, and design settings in one click.
+You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Shopify version instead of rebuilding it. Questions, results pages, logic and design all come across in one click.
 
-!!! info "Shopify only"
+## Import the quiz
 
-    The **Migrate from Legacy App** option is currently available for Shopify stores only. Merchants on WooCommerce, Magento, BigCommerce, or Standalone can use the [Import Quiz](/how-to-guides/copy-the-quiz-from-one-store-to-another/) feature instead.
-
----
-
-## Before you begin
-
-- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you have not switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
-- Your legacy quizzes remain untouched. The migration creates a **copy** in the `💎Built for Shopify` app, and nothing is deleted from the legacy version.
-
----
-
-## Step 1: open the new quiz menu
-
-1. Open the **RevenueHunt** app in your Shopify dashboard.
-2. From the Dashboard, click the **Create new quiz** button.
-3. In the dropdown menu that appears, select **Migrate from Legacy App**.
-
-    ![Create new quiz dropdown showing Migrate from Legacy App option](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_menu.png)
-
----
-
-## Step 2: select the quiz to import
-
-A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
-
-- **Name** and basic stats (number of questions, results pages, last updated date)
-- **What will migrate** - a green checkmark confirms that questions, results, logic, and design are included
-- **Warnings** - yellow notices flag anything that cannot be migrated automatically
-
-    ![Migrate from Legacy App dialog showing quiz list with status indicators](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
-
-Click **Import Now** next to the quiz you want to migrate.
-
----
-
-## Step 3: review the imported quiz
-
-Once the import completes, the quiz opens in the Quiz Builder. Its name will include the suffix **(Imported from V1)** so you can easily identify it.
-
-![Imported quiz open in the Built for Shopify Quiz Builder](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_imported.png)
-
-Review your questions, results pages, and logic to make sure everything looks correct before publishing.
-
----
-
-## What gets migrated, and what does not
-
-| What migrates | Status |
-|---|---|
-| Questions and answer choices | ✅ Fully migrated |
-| Results pages and content | ✅ Fully migrated |
-| Conditional logic | ✅ Fully migrated |
-| Quiz design and styling | ✅ Fully migrated |
-| Custom CSS | ⚠️ Not adapted automatically - see [Custom CSS](#custom-css) |
-| Custom JavaScript | ⚠️ Will not migrate - see [Custom JavaScript](#custom-javascript) |
-| Special third-party integrations | ⚠️ Needs review after import |
-| Product mappings | ⚠️ May need re-linking - see [Product mappings](#product-mappings) |
-
----
-
-## What to watch for after import
-
-Most quizzes migrate cleanly, but some advanced configurations require a manual follow-up.
-
-### Custom CSS
-
-If your legacy quiz used custom CSS, the styles are carried over as they are. The **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
-
-!!! warning "Review your design after import"
-
-    Check the quiz preview after importing. Wrong colors, broken layouts or missing fonts mean the CSS selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
-
-### Custom JavaScript
-
-Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has a different JavaScript API, so legacy scripts cannot be transferred automatically.
-
-!!! warning "Rebuild JS customizations manually"
-
-    If your legacy quiz relied on custom JavaScript, for example custom events, DOM manipulation or callback functions, rewrite those with the [JavaScript API](/how-to-guides/add-javascript/).
-
-### Product mappings
-
-Questions, answer choices and results pages migrate. Product links are tied to Shopify product IDs, which are the same in both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
-
-!!! tip
-
-    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them in the [Results Page](/reference/quiz-builder/results-page/).
-
-### Special integrations
-
-Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not automatically re-established after migration. Reconnect any integrations you need through [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-
----
+## What migrates, and what needs a hand
 
 ## After the import
 
-Once you have reviewed the quiz and fixed any warnings:
-
-1. **Test the quiz end-to-end** using the Preview button before publishing.
-2. **Reconnect integrations** (email platforms, CRMs, pixels) in Quiz Settings.
-3. **Publish the quiz** using your preferred [publishing method](/how-to-guides/publish-quiz/).
-4. When you are happy with the result, archive or delete the legacy version.
-
 ---
 
-!!! info "The base quiz is always importable"
+This article explains how to import a legacy Shopify quiz into the Built for Shopify app, and what to check once it lands.
 
-    Even if your legacy quiz has custom CSS, JavaScript or unusual configurations, the core content always imports: questions, logic and results. A warning tells you which advanced feature needs manual work, not that the import will fail.
+--- Shopify Specific Content ---
 
----
-
-**Related articles:**
-
-- [How to Install the App](/how-to-guides/install-app/)
-- [How to Copy a Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/)
-- [How to Customize Your Quiz Design](/how-to-guides/customize-quiz-design/)
-- [How to Add JavaScript](/how-to-guides/add-javascript/)
-- [Contact Customer Support](/how-to-guides/contact-customer-support/)
+!!! info "Before you start"
+    - The Built for Shopify version has to be installed and active. See [How to Install the App](/how-to-guides/install-app/).
+    - Your legacy quizzes are left alone. The import makes a copy, and nothing is removed from the legacy app.
+1. **Open `RevenueHunt Product Quiz Maker` in your Shopify admin.**
+2. **On the Dashboard, click `Create new quiz`.**
+3. **Select `Migrate from Legacy App` from the menu that opens.**
+    ![The Create new quiz menu, showing Migrate from Legacy App](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_menu.png)
+4. **Find your quiz in the list and read its row.** Each row carries the quiz name, how many questions and results pages it holds, and when it was last edited. A green tick marks what will migrate, and a yellow notice marks anything that will not.
+    ![The migration dialog, listing legacy quizzes with their status](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
+5. **Click `Import Now` beside it.**
+6. **Check that the quiz opens in the [Quiz builder](/reference/quiz-builder/) with `(Imported from V1)` after its name.** That suffix is how you tell the copy from anything you build yourself.
+    ![The imported quiz open in the Built for Shopify quiz builder](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_imported.png)
+| What migrates | Status |
+|---|---|
+| Questions and answer choices | Fully migrated |
+| Results pages and their content | Fully migrated |
+| Conditional logic | Fully migrated |
+| Quiz design and styling | Fully migrated |
+| Product links | Should carry over, worth checking |
+| Custom CSS | Comes across, but may not apply |
+| Custom JavaScript | Does not migrate |
+| Third-party integrations | Have to be reconnected |
+Most quizzes come across cleanly. The four below are the ones worth a look afterwards.
+**Custom CSS**
+Your CSS comes across as written. The Built for Shopify app is built on a different HTML structure than the legacy one. Rules that targeted legacy elements may no longer match anything.
+!!! warning "Check the design before you publish"
+    Open the quiz preview. Wrong colors, a broken layout or a missing font mean the selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz design](/reference/quiz-builder/quiz-design/) tab. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+**Custom JavaScript**
+Custom JavaScript does not migrate. The Built for Shopify app has a different JavaScript API, so a legacy script cannot be carried over.
+!!! warning "Rewrite your scripts"
+    Custom events, DOM changes and callback functions all have to be written again against the new API. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+**Product links**
+Product links are tied to Shopify product IDs, and those are the same in both versions on the same store. They should carry over.
+!!! tip "Check them anyway"
+    Open your results page and confirm the products you expect are still linked. Link any that are missing in the [Results page](/reference/quiz-builder/results-page/).
+**Third-party integrations**
+A connection to a third-party tool, such as Klaviyo, Mailchimp or a webhook, is not re-established by the import. Reconnect the ones you need in [Quiz settings > Integrations](/reference/quiz-builder/quiz-settings/#integrations).
+1. **Take the quiz through with `Preview`, from the first question to the results page.**
+2. **Reconnect your integrations in [Quiz settings > Integrations](/reference/quiz-builder/quiz-settings/#integrations).**
+3. **Publish the quiz.** See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+4. **Archive or delete the legacy quiz, once you are happy with the new one.**
+!!! info "The base quiz always imports"
+    Custom CSS, JavaScript or an unusual setup will not stop an import. Questions, logic and results pages always come across. A warning tells you which advanced feature needs work by hand, not that the import has failed.
+!!! tip "Something did not come across"
+    See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -9078,16 +9016,20 @@ icon: material/image-off
 
 # How to Fix Product Images Not Showing
 
-This article explains how to fix product images that do not appear in your quiz.
+A recommended product can arrive on the results page with no picture. Where the picture was meant to come from decides what to check.
 
 ---
-This article explains how to fix product images that do not appear in your quiz.
+
+This article explains why a recommended product can appear with no picture, and what to check on each platform.
 
 --- Shopify Specific Content ---
 
-Product and Collection images come directly from your Shopify catalog. If an image is missing, check the product or collection in Shopify.
-!!! tip "A recommended collection shows no image"
-    A collection has no image of its own until you give it one. Add one under `Products > Collections` in your Shopify admin, and it appears on the results page.
+Product and collection images come straight from your Shopify catalog, so a blank one is nearly always blank in Shopify.
+1. **Open the product in your Shopify admin and check it has an image.**
+2. **For a recommended collection, check the collection itself has one.** A collection carries no image until you give it one, under `Products > Collections`.
+3. **Take the quiz and check the image appears on the results page.**
+!!! tip "The image is in Shopify but not in the quiz"
+    Images are read live from Shopify on this version, so there is nothing to sync and no cache to clear. If the product has an image and the quiz still shows none, [contact customer support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -9103,33 +9045,84 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Upvotes or More
 
-You can limit the recommendations on the results page to products that received X upvotes or more. This filter lets you show only the strongest matches.
+A results page shows the best matches it has, however weak those matches are. If a customer answers in a way nothing really fits, they still get a list, and it is a list of near misses.
 
-To activate this setting in your quiz:
+A minimum holds those back. A product has to collect a set number of upvotes before it can be recommended at all, so the customer sees strong matches or none.
+
+## Work out the number you need
+
+Every choice a customer selects gives one upvote to each product linked to that choice. The minimum is counted against that total, so the number you want depends on how your products are linked.
+
+Take a skincare quiz with three questions that upvote, and three products linked like this.
+
+| Product | Linked to the choices |
+|---|---|
+| Hydrating Serum | Dry skin, Dryness, Full routine |
+| Gentle Cleanser | Dry skin, Oily skin, Combination skin |
+| Clay Mask | Oily skin, Acne |
+
+A customer answers **Dry skin**, then **Dryness**, then **Full routine**. The upvotes land like this.
+
+| Product | Upvotes | Where they came from |
+|---|---|---|
+| Hydrating Serum | 3 | All three answers matched |
+| Gentle Cleanser | 1 | Only the skin type matched |
+| Clay Mask | 0 | Nothing matched |
+
+The minimum then decides what the customer sees.
+
+| Minimum | What the results page shows |
+|---|---|
+| 1 | Hydrating Serum and Gentle Cleanser |
+| 2 | Hydrating Serum only |
+| 3 | Hydrating Serum only |
+| 4 | Nothing, because no product collected four |
+
+!!! tip "Where to start"
+
+    Count the questions that upvote products. That is the most any product can collect from a customer who picks one choice per question. Set the minimum above it and the block empties for everyone.
+
+    Half of that count is a reasonable first try. Take the quiz a few times, answering as your customers would, and raise it until the near misses stop appearing.
+
+!!! warning "Multiple selection changes the arithmetic"
+
+    A question with [`Allow Multiple Selection`](/reference/quiz-builder/questions/#multiple-choice) turned on gives an upvote for every choice the customer picks, not one for the question. One question can then hand a single product three or four upvotes on its own.
+
+    A minimum that equals your question count no longer means a product matched every question.
+
+??? question "How the upvote count is worked out"
+
+    - Products are linked to each choice.
+    - When a customer picks a choice, every product linked to it gains one upvote.
+    - The results page shows the products with the most upvotes first.
+    - Products on equal upvotes appear in a random order.
+    - If nothing is linked, or everything is excluded, the results page comes back empty.
+
+    See [How to Recommend Products](/how-to-guides/recommend-products/).
+
+## Set the minimum
+
+## When nothing clears the bar
+
+A minimum can leave a block with nothing to show. That is the point of it, but decide what the customer reads instead.
 
 ---
-By following this guide, you can easily filter your recommendations by minimum number of votes.
+
+This article explains how to hold a weak match back from the results page. You set the upvotes a product needs before it can be recommended.
 
 --- Shopify Specific Content ---
 
-1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product block** or a **Product Slot block**.
-2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
-    ??? question "How do I get the right recommendations?"
-        The recommendation algorithm works like an upvoting system:
-        - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one upvote
-        - After the customer takes the quiz, the results page shows the products with the most upvotes first
-        - If no products are linked, or all products are excluded, the results page is empty
-        - If there is a draw in the number of upvotes, the app randomizes the order of the products.
-3. Open the [Results page](/reference/quiz-builder/results-page/).
-4. Open the [Product block Settings](/reference/quiz-builder/results-page/#block-settings).
-5. Scroll down to the `Min. number of upvotes` setting.
-    ![Min. number of upvotes in the product block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-6. Click the dropdown, or use the slider, to select a number. You can change the minimum to whatever suits your quiz.
-    !!! example
-        Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
-7. Click `Save` in the top-right corner to update the preview and the live quiz.
-From now on, only products that receive this minimum number of upvotes will show up as a recommendation on the results page.
+The minimum is a setting on the block itself, so there is nothing to switch on elsewhere. Your [results page](/reference/quiz-builder/results-page/) needs a `Products` block.
+1. **Open your [results page](/reference/quiz-builder/results-page/) and click the `Products` block.**
+2. **Find `Min. number of upvotes` in the block settings.**
+    ![The Min. number of upvotes setting in the Products block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
+3. **Set the number, with the slider or the field beside it.**
+4. **Click the top-right `Save` button.**
+5. **Take the quiz and check that only the strongest matches come back.** A product below the minimum should not appear at all.
+Fill in `No recommendations message` in the [block settings](/reference/quiz-builder/results-page/#block-settings). It shows in place of the products, and it accepts HTML and Liquid, so you can name the customer or their answer in it.
+Leave it empty and the customer simply sees no products.
+!!! tip "Give them somewhere to go"
+    A block that can empty is worth pairing with a line that offers a next step, such as browsing a collection or contacting you.
 
 
 
@@ -9221,7 +9214,7 @@ This article explains how to publish a RevenueHunt quiz on a PageFly page in Sho
 
 --- Shopify Specific Content ---
 
-PageFly currently integrates only with the legacy version of the RevenueHunt app for Shopify. The new `💎Built for Shopify` version of the RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
+PageFly currently integrates only with the legacy version of the RevenueHunt app for Shopify. The new 💎 Built for Shopify version of the RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
 !!! tip "Possible Workaround"
     Publish the quiz on its own Shopify page, then point a **button or link** on your PageFly page at it.
     1. Publish the quiz on a new page in Shopify by following the instructions on [How to Publish the Quiz on a New Page in Shopify](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
@@ -9299,7 +9292,7 @@ By following these steps, you can enhance your ecommerce store's interactivity a
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HeHWWdbxvYI?si=yfWxXGhQEiRz6IDH" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Add a section for the app embed**: In the Home page Template, add the RevenueHunt `Auto Popup Quiz` app embed. The quiz popup is then enabled on the home page.
     ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
@@ -9318,7 +9311,7 @@ By following these steps, you can enhance your ecommerce store's interactivity a
     To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0mJ4KiHQFq8?si=xWPSV0l6JDcVIcGN" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Popup Page`). Set the visibility to `Visible` and save the changes.
 2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Popup Template` and edit it.
@@ -9342,7 +9335,7 @@ By following these steps, you can enhance your ecommerce store's interactivity a
     To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-675UKK1uJI?si=hb4rRFFhwkk53a9p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Activate App Embeds**: Make sure you are editing the `Default` theme for your store. Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
@@ -9369,7 +9362,7 @@ To **open a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. Th
     To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
     Keep in mind that the Quiz ID is case-sensitive.
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
@@ -9379,13 +9372,13 @@ To **open a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. Th
     - Adjust other settings like `Popup Width` and `Height` as needed
 4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
 The popup now appears when a customer moves the cursor to close the tab or window.
-In the `💎Built for Shopify` version of the RevenueHunt app you cannot show the popup more than once per session. The exception is the `Exit intent` option. See [Show Popup on Exit intent](#show-popup-on-exit-intent).
+In the Built for Shopify version of the RevenueHunt app you cannot show the popup more than once per session. The exception is the `Exit intent` option. See [Show Popup on Exit intent](#show-popup-on-exit-intent).
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 If you see the error "The quiz you are looking for does not exist" when you activate an automatic popup quiz:
 1. Check that you activated `Automatic Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Automatic Popup Quiz Legacy`.
     ![how_to_publish_shipifyV2_V1publisherrorautomaticpopup](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
-    If the wrong automatic popup quiz is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+    If the wrong automatic popup quiz is activated, that error appears when you link to a Built for Shopify quiz.
     To solve this simply deactivate the `Automatic Popup Quiz Legacy` and activate the `Automatic Popup Quiz` one.
 2. Save the changes.
 
@@ -9446,7 +9439,7 @@ By following these instructions, you can successfully add a chat-like button to 
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WGfNlVPFA_Q?si=anpiVruoyxR8cKyy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button. Make sure you are editing the `Default` theme or the theme that is applied to your main page.
 2. **Add a Section**: Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
     ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
@@ -9466,7 +9459,7 @@ By following these instructions, you can successfully add a chat-like button to 
     To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RM0MySN9PUU?si=wtcWwFSvN25coodT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Activate App Embeds**: Edit the `Default` theme, or the theme applied to most of your pages. In the theme customization area, go to `App Embeds`. Find `Chat Popup Quiz` and toggle it on.
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
@@ -9484,7 +9477,7 @@ By following these instructions, you can successfully add a chat-like button to 
     To show a specific quiz, set the `Quiz ID` in the popup settings. See [Open a specific quiz](#open-a-specific-quiz).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rbweJaslzvo?si=0EZZDjAhO8FfQt3R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. In Shopify, go to `Online Theme > Customize`. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the chat popup on, or create a new one.
 2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
     ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
@@ -9512,11 +9505,11 @@ To **open a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. Th
     To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
     Keep in mind that the Quiz ID is case-sensitive.
 !!! warning "Shopify 1.0 Theme Compatibility"
-    A quiz created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    A quiz created with the Built for Shopify version of the RevenueHunt app cannot be published on a Shopify 1.0 theme. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 If you see the error "The quiz you are looking for does not exist" when you activate a chat button quiz:
 1. Check that you activated `Chat Button Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Chat Button Quiz Legacy`.
     ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatpopup.png)
-    If the wrong chat button quiz is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+    If the wrong chat button quiz is activated, that error appears when you link to a Built for Shopify quiz.
     To solve this simply deactivate the `Chat Button Quiz Legacy` and activate the `Chat Button Quiz` one.
 2. Save the changes.
 
@@ -9583,7 +9576,7 @@ This article explains how to share a quiz created with RevenueHunt Quizzes app w
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
 2. **Create a New Page Template**: click on the `Templates` menu in the header.
     ![Create a new Page template](/images/landing-page-create-a.png)
@@ -9604,7 +9597,7 @@ This article explains how to share a quiz created with RevenueHunt Quizzes app w
     Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Link Popup Quiz` option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
     ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
@@ -9626,7 +9619,7 @@ If instead you want to **open a specific quiz**, you need to  add a Quiz ID in t
 If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
 1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
     ![Link Popup Quiz in the App Embeds section](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
-    If the wrong link popup is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+    If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
     To fix it, deactivate `Link Popup Quiz Legacy`, activate `Link Popup Quiz`, then save the changes.
 2. Check that the link follows the format `#quiz`.
 
@@ -9693,7 +9686,7 @@ This article explains how to share a quiz created with RevenueHunt Quizzes app w
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
 2. **Create a New Page Template**: click on the `Templates` menu in the header.
     ![Create a new Page template](/images/landing-page-create-a.png)
@@ -9714,7 +9707,7 @@ This article explains how to share a quiz created with RevenueHunt Quizzes app w
     Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Link Popup Quiz` option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
     ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
@@ -9741,7 +9734,7 @@ If instead you want to **open a specific quiz**, you need to  add a Quiz ID in t
 If you see the error "The quiz you are looking for does not exist" when you link to a quiz:
 1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
     ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
-    If the wrong link popup is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+    If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
     To fix it, deactivate `Link Popup Quiz Legacy`, activate `Link Popup Quiz`, then save the changes.
 2. Check that the link follows the format `#quiz`.
 
@@ -9815,7 +9808,7 @@ In short, to embed an inline quiz on your store, you need to:
 - Add a section to the homepage or a specific page template and select the `Inline Quiz` by RevenueHunt from the list.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/OCX0EgfERpc?si=w4RwuW79QYodjRWz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
 2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     ![how to publish inline quiz built for shopify revenuehunt app main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
@@ -9837,7 +9830,7 @@ In short, to embed an inline quiz on your store, you need to:
     ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
 2. **Create a New Page Template**: click on the `Templates` menu in the header.
     ![Create a new Page template](/images/landing-page-create-a.png)
@@ -9879,11 +9872,11 @@ To **embed a specific quiz**, add a Quiz ID in the `Quiz ID (optional)` field. T
 3. **Configure Quiz settings**: Click the added quiz section. Pick the Quiz ID to embed, then uncheck `Automatic Scroll into View`.
 4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
 1. Check that you activated `Inline Quiz` in Online Store > Theme > Customize > `+ Section` > `Apps`. Do **not** activate the legacy `Inline Quiz Legacy`.
     ![how_to_publish_shipifyV2_V1publisherrorinlinequiz](/images/how_to_publish_shipifyV2_V1publisherrorinlinequiz.png)
-    If the wrong inline quiz is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+    If the wrong inline quiz is activated, that error appears when you link to a Built for Shopify quiz.
     To solve this simply deactivate the `Inline Quiz Legacy` and activate the `Inline Quiz` one.
 2. Save the changes.
 
@@ -9963,7 +9956,7 @@ In short, to add a link popup to your store, you need to:
 A link popup can open on every page, or on one page only. For every page, activate `Link Popup Quiz` in `App Embeds`. For one page, add a `Link Popup Quiz` section to that page template.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NYwDShgRQEs?si=-7q-Mcf1NmiOQDVp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 !!! info "Short Instructions"
     To add a popup link to a menu item in Shopify, activate `Link Popup Quiz` in the `App Embeds` of your theme. Enter `#quiz` as the link, then save your changes.
     ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
@@ -9993,7 +9986,7 @@ Step by step instructions:
         When clicked, `#quiz` opens the default quiz for your store. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead. To open a specific quiz instead of the default, see [Open a specific quiz](#open-a-specific-quiz).
 7. **Save Your Changes**: Click `Save` to apply the changes to your navigation menu.
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 Step by step instructions:
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the link popup on, or create a new one.
@@ -10020,7 +10013,7 @@ Step by step instructions:
 10. Remember to apply the new page template to the page you want to add the link popup to.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 !!! info "Short Instructions"
     To add a popup link to a button in Shopify, activate `Link Popup Quiz` in the `App Embeds` of your theme. Enter `#quiz` as the link, then save your changes.
     ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2_button.png)
@@ -10042,7 +10035,7 @@ Step by step instructions:
     When clicked, the default quiz for your store opens. If you have set up [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that market is shown instead.
 9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 Step by step instructions:
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. From the `Home page` menu at the top, go to `Pages`. Click the page template you want the link popup on, or create a new one.
@@ -10085,7 +10078,7 @@ Here is how to change the z-index configuration option in the app settings:
     Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
 If the z-index setting does not solve it, **publish the quiz inline with a page instead.** Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-With the `💎Built for Shopify` version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
+With the Built for Shopify version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
 1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
 2. **Copy the Quiz ID**: Click the `...` three dots next to the quiz and select "Copy Quiz ID."
    ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
@@ -10101,11 +10094,11 @@ With the `💎Built for Shopify` version of the RevenueHunt app, you can link to
 !!! warning
     Do not put the full URL in the `Link` field. It takes the `#quiz-QUIZID` text only, **not** a full URL such as `http://yourwebsite.com/#quiz-QUIZID`.
 !!! warning "Shopify 1.0 Theme Compatibility"
-    Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+    Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
     ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
-    If the wrong link popup is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+    If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
     To solve this simply deactivate the `Link Popup Legacy` and activate the `Link Popup Quiz` one. Then, save the changes.
 2. Check that the link follows the format `#quiz`.
 
@@ -10286,7 +10279,7 @@ Say you run a skincare shop, and you want to recommend products from two criteri
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/e9bNK96Vt8k?si=q_Dq-G2JVwskpaQx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The walkthrough shows the `💎Built for Shopify` version of the app.
+The walkthrough shows the Built for Shopify version of the app.
 
 ### The four groups this matrix needs
 
@@ -10456,7 +10449,7 @@ A quiz cannot link a recommendation to a number the customer types. Ask for a ra
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The walkthrough shows the `💎Built for Shopify` version of the app.
+The walkthrough shows the Built for Shopify version of the app.
 
 ## Why an open-ended number does not work
 
@@ -10500,7 +10493,7 @@ Once the answers are finite, you can:
 
 !!! tip "Quiz Copilot can suggest the ranges"
 
-    In the `💎Built for Shopify` version, Quiz Copilot turns a broad question such as "What is your room size?" into ranges for you. It also suggests the follow-up questions to go with them.
+    In the Built for Shopify version, Quiz Copilot turns a broad question such as "What is your room size?" into ranges for you. It also suggests the follow-up questions to go with them.
 
     For room size, that might be:
 
@@ -10683,7 +10676,7 @@ Once the choices are finite, you can:
 
 !!! tip "Quiz Copilot can generate the choices"
 
-    In the `💎Built for Shopify` version, open [Quiz Copilot](/how-to-guides/use-quiz-copilot/) from the quiz editor and give it your product list and your sizing logic. It writes the choices for you, which saves a lot of typing when you carry many size variants.
+    In the Built for Shopify version, open [Quiz Copilot](/how-to-guides/use-quiz-copilot/) from the quiz editor and give it your product list and your sizing logic. It writes the choices for you, which saves a lot of typing when you carry many size variants.
 
 ## Map out your products before you start
 
@@ -10936,7 +10929,7 @@ By following these steps, you can effectively guide customers to relevant pages 
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qk1WJJstTjU?si=L7r3OHN9V9Zq6yWF" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning
-    The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app.
+    The callback function is not supported in the Built for Shopify version of the RevenueHunt app.
 The results page can do this work instead. It can show sections conditionally, based on quiz answers or custom scores, take custom JavaScript, and hold fixed products. It also has layout and alignment options, so you can build a custom results page without redirecting the customer.
 Offering a direct link to another page from your [Results page](/reference/quiz-builder/results-page/) can be achieved simply with an **Button**.
 1. **Add a Button**: In the [Results page](/reference/quiz-builder/results-page/) editor, click the `+ Add block` button to insert a `Button` block.
@@ -12347,7 +12340,7 @@ This article explains how to send quiz leads to MailerLite.
 
 --- Shopify Specific Content ---
 
-The `💎 Built for Shopify` version of the RevenueHunt app has no built-in MailerLite integration.
+The Built for Shopify version of the RevenueHunt app has no built-in MailerLite integration.
 !!! warning "Beta"
     A MailerLite beta is available to some stores. To ask whether yours can use it, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
 With no built-in integration, these are the ways to get your quiz leads into MailerLite.
@@ -13408,7 +13401,7 @@ This article explains how to send quiz leads to Zapier from the RevenueHunt app.
 
 --- Shopify Specific Content ---
 
-The `💎 Built for Shopify` version of the RevenueHunt app integrates directly with Zapier.
+The Built for Shopify version of the RevenueHunt app integrates directly with Zapier.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Us6QCQpfFf0?si=mvOj4x8rnRRdiT0-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! info "What connecting the quiz to Zapier gives you"
     - Send quiz data to an app the RevenueHunt app does not integrate with directly.
@@ -14778,7 +14771,7 @@ This article explains how to show quiz answers in Shopify Orders.
 
 --- Shopify Specific Content ---
 
-In the `💎Built for Shopify` version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
+In the Built for Shopify version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
 !!! info "You choose exactly what to save"
     This version does **not** write every quiz answer into Shopify order notes on its own.
     You pass the values you want instead. That suits saving a result name, a score, a response ID, a campaign tag, or a handful of answers.
@@ -14906,7 +14899,7 @@ This guide explains how to show a quiz on a customer profile in Shopify.
 --- Shopify Specific Content ---
 
 !!! note "Not available on this platform"
-    The `💎Built for Shopify` version has no app embed for the customer profile yet, so the quiz cannot be shown there.
+    The Built for Shopify version has no app embed for the customer profile yet, so the quiz cannot be shown there.
     To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 
 
@@ -14932,7 +14925,7 @@ This guide explains how to show a quiz only to logged-in customers in Shopify.
 --- Shopify Specific Content ---
 
 !!! note "Not available on this platform"
-    The `💎Built for Shopify` version has no way to show the quiz to logged-in customers only.
+    The Built for Shopify version has no way to show the quiz to logged-in customers only.
     To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 
 
@@ -15051,9 +15044,9 @@ This article explains how to sync only the collections or categories your quiz n
 --- Shopify Specific Content ---
 
 !!! note "Not needed on this platform"
-    The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    The Built for Shopify version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 !!! note "Not needed on this platform"
-    The `💎Built for Shopify` version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    The Built for Shopify version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -15113,7 +15106,7 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
 !!! info "Redirects keep the parameters"
 
-    This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
+    This applies to the Built for Shopify version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
 
 ## Read ad to purchase in your store analytics
 
@@ -15466,7 +15459,7 @@ This article explains what happens after `Add to Cart`, which themes need nothin
 
 !!! note "Which version you are on decides what you have to do"
 
-    The `💎Built for Shopify` app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
+    The 💎 Built for Shopify app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
 
 ## How the quiz adds products to the cart
 
@@ -15606,7 +15599,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 !!! tip "This work goes away on the current version"
 
-    Moving to the `💎Built for Shopify` version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 
@@ -16900,7 +16893,7 @@ them to customize how your quizzes look.
 
 !!! note "Two versions, two sets of selectors"
 
-    The `💎 Built for Shopify` version and the legacy version of the app build
+    The 💎 Built for Shopify version and the legacy version of the app build
     their quiz markup differently. A selector from one version does not work on
     the other. Choose your platform tab in each section.
 
@@ -17337,7 +17330,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 ---
-This article explains the CSS structure of the `💎 Built for Shopify` RevenueHunt quiz app.
+This article explains the CSS structure of the Built for Shopify RevenueHunt quiz app.
 
 
 
@@ -17480,10 +17473,10 @@ Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or
 Click `Cancel` to return to the Quizzes or `Import` to open the new quiz.
 !!! note "Import quiz instructions"
     For how to export and import a quiz in JSON format, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
-`Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the `💎Built for Shopify` app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
+`Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the Built for Shopify app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
 ![manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png){width="500"}
 !!! tip "Migration guide"
-    For full details on what migrates and what may need manual follow-up, check [How to Migrate a Legacy Quiz to the 💎Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
+    For full details on what migrates and what may need manual follow-up, check [How to Migrate a Legacy Quiz to the Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
 ![manual_shopifyV2_dashboard_support](/images/manual_shopifyV2_dashboard_support.png)
 The `Get Support` section helps you find answers, resolve issues and contact the support team.
 !!! tip

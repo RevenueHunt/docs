@@ -11,7 +11,7 @@ This article explains what happens after `Add to Cart`, which themes need nothin
 
 !!! note "Which version you are on decides what you have to do"
 
-    The `💎Built for Shopify` app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
+    The 💎 Built for Shopify app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
 
 ## How the quiz adds products to the cart
 
@@ -151,7 +151,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 !!! tip "This work goes away on the current version"
 
-    Moving to the `💎Built for Shopify` version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 

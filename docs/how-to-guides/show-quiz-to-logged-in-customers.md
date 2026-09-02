@@ -11,7 +11,7 @@ Put the quiz on a page that only signed-in customers can use. A customer who alr
 
     !!! note "Not available on this platform"
 
-        The `💎Built for Shopify` version has no way to show the quiz to logged-in customers only.
+        The Built for Shopify version has no way to show the quiz to logged-in customers only.
 
         To register your interest in the feature, [contact support](/how-to-guides/contact-customer-support/).
 

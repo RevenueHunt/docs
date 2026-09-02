@@ -77,7 +77,7 @@ This article explains how to set up a **Quiz Link Popup** on your ecommerce stor
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NYwDShgRQEs?si=-7q-Mcf1NmiOQDVp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     !!! info "Short Instructions"
 
@@ -200,7 +200,7 @@ This article explains how to set up a **Quiz Link Popup** on your ecommerce stor
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     Step by step instructions:
 
@@ -318,7 +318,7 @@ This article explains how to set up a **Quiz Link Popup** on your ecommerce stor
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     !!! info "Short Instructions"
 
@@ -440,7 +440,7 @@ This article explains how to set up a **Quiz Link Popup** on your ecommerce stor
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     Step by step instructions:
 
@@ -747,7 +747,7 @@ In some cases, you might want to have links to different quizzes on the same pag
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    With the `💎Built for Shopify` version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
+    With the Built for Shopify version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
 
     1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
     2. **Copy the Quiz ID**: Click the `...` three dots next to the quiz and select "Copy Quiz ID."
@@ -825,14 +825,14 @@ In some cases, you might want to have links to different quizzes on the same pag
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
+        Quizzes created with the Built for Shopify version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which this integration needs. App embeds are an Online Store 2.0 feature, and they let you add app functionality without touching any code. To use them, upgrade to an Online Store 2.0 theme.
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 
     1. Check that you activated `Link Popup Quiz` in Online Store > Theme > Customize > `App Embeds`. Do **not** activate the legacy `Link Popup Quiz Legacy`.
         ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
 
-        If the wrong link popup is activated, that error appears when you link to a `💎Built for Shopify` quiz.
+        If the wrong link popup is activated, that error appears when you link to a Built for Shopify quiz.
 
         To solve this simply deactivate the `Link Popup Legacy` and activate the `Link Popup Quiz` one. Then, save the changes.
     2. Check that the link follows the format `#quiz`.

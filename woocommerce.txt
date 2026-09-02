@@ -40,7 +40,7 @@ Adapting your quiz for different markets isn't just a translation task. It's abo
 Before you start duplicating and translating quizzes, understand what you actually need to do manually - and what the app already handles for you.
 
 !!! info "💎 Built for Shopify - Shopify Markets integration"
-    The automatic features below apply to the `💎 Built for Shopify` version of the RevenueHunt app, which has native Shopify Markets integration.
+    The automatic features below apply to the Built for Shopify version of the RevenueHunt app, which has native Shopify Markets integration.
 
 **Automatic: product titles, descriptions, and prices.** The results page pulls product data directly from Shopify's Storefront API. This means:
 
@@ -149,7 +149,7 @@ The app preview doesn't simulate market switching. To test properly:
 
 ## If you're not on Shopify
 
-The Shopify Markets integration is exclusive to the `💎 Built for Shopify` version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
+The Shopify Markets integration is exclusive to the Built for Shopify version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
 
 **The manual multi-language setup:**
 
@@ -475,7 +475,7 @@ That's it. That's the playbook.
 
 !!! success "The default theme inherits your store's fonts and colors automatically."
 
-    The `💎Built for Shopify` version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
+    The Built for Shopify version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
 
     ![Default theme example](/images/cs_no_customization_style.png)
 
@@ -1029,7 +1029,7 @@ Let that data sit idle and you've paid to acquire a lead and then walked away fr
 
 ## Send the results instantly
 
-The fastest win is emailing the result the moment the quiz ends, while intent is highest. With the 💎Built for Shopify app you can do this without a third-party tool:
+The fastest win is emailing the result the moment the quiz ends, while intent is highest. With the Built for Shopify app you can do this without a third-party tool:
 
 1. Add an **Email Address** question block before the results page.
 2. Go to **Quiz Settings → Emails → Respondents**.
@@ -1223,15 +1223,15 @@ A quiz only earns its keep if it sells. This guide is what high-converting quizz
   <div class="rh-stat"><span class="rh-stat-num">10-25%+</span><span class="rh-stat-label">conversion on top quizzes</span></div>
 </div>
 
-!!! info "💎Built for Shopify RevenueHunt app"
+!!! info "💎 Built for Shopify RevenueHunt app"
 
-    The `💎Built for Shopify` version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
+    The Built for Shopify version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
 
 The mechanics are easy. Making the quiz serve both your shoppers and your bottom line takes a few deliberate choices. RevenueHunt has measured what actually works across those responses, with a deep-dive on the patterns behind top-converting quizzes. Here is what they have in common.
 
 ## Make it easy to find and on-brand
 
-**Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The `💎Built for Shopify` app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
+**Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The Built for Shopify app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
 
 !!! example "Publish in multiple locations"
 
@@ -1345,7 +1345,7 @@ Quizzes integrated with Klaviyo convert **24% better** and generate **66% more o
 
 ## Go global
 
-**Serve every market in its own language.** The `💎Built for Shopify` app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
+**Serve every market in its own language.** The Built for Shopify app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
 
 ---
 
@@ -1502,7 +1502,7 @@ A strong welcome screen does three things:
 
 This is where most of the growth is. On-site placement captures the visitors you already have; this section is about deliberately sending new, qualified traffic to the quiz - and the quiz earns it, because it converts that traffic at roughly 2.75x a standard landing page.
 
-**Give the quiz its own page first.** Before you point any ads, email, or social at the quiz, publish it on a dedicated URL - a clean landing page whose only job is to start the quiz. That page is the destination for every campaign below: it loads fast and has no competing navigation to leak clicks. The 💎Built for Shopify app lets you [publish the quiz as a standalone page or external link](/how-to-guides/publish-quiz-external-link/).
+**Give the quiz its own page first.** Before you point any ads, email, or social at the quiz, publish it on a dedicated URL - a clean landing page whose only job is to start the quiz. That page is the destination for every campaign below: it loads fast and has no competing navigation to leak clicks. The Built for Shopify app lets you [publish the quiz as a standalone page or external link](/how-to-guides/publish-quiz-external-link/).
 
 **Run paid ads to the quiz page (the highest-leverage tactic here).** Point your Meta and Google ads at the dedicated quiz page rather than a product page or homepage. Customers who see *"Take our 2-minute skin quiz and get personalized recommendations"* in an ad are self-selecting as engaged and intent-driven, and the quiz converts them at about **2.75x** the rate of cold traffic landing on a category page. The quiz also captures their email and product preferences before showing anything to buy, so even the shoppers who don't buy today become a warm, segmented list you can retarget. Track the full journey with [Meta Pixel](/how-to-guides/integrate-meta-pixel/) or [Google Analytics](/how-to-guides/integrate-google-analytics/), and use the quiz answers to build cheaper, sharper audiences - the complete playbook is in [Use quiz data to lower your ad costs](/customer-success/use-quiz-data-for-ads/).
 
@@ -4451,7 +4451,7 @@ A great quiz that's hard to find won't convert. Put it where customers already a
 
 ## Match your store's look
 
-The `💎Built for Shopify` app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
+The Built for Shopify app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
 
 ☐ Review the quiz on desktop and mobile to confirm it looks clean and readable
 
@@ -8467,36 +8467,34 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/join-questions/
 ================================================================================
 
 ---
-description: "Learn how to display multiple questions per slide in your RevenueHunt quiz to reduce length and improve participant engagement."
+description: "Learn how to display multiple questions per slide in your RevenueHunt quiz to reduce length and improve customer engagement."
 icon: material/playlist-plus
 ---
 
 # How to Display Multiple Questions per Slide in Your Quiz
 
-This article explains how to combine questions into a single slide with the [Quiz Builder](/reference/quiz-builder/).
-
-Several questions on one slide make the quiz shorter, and keep the customer engaged.
-
-To combine two or more questions into one slide:
+A quiz that asks one thing per screen gets long. Putting several questions on one slide shortens it, and keeps the customer moving.
 
 !!! info "File upload questions"
 
-    You cannot merge two `file upload` questions into one slide. Keep each file upload question on its own slide.
+    Two `file upload` questions cannot share a slide. Keep each one on a slide of its own.
 
 ---
-This article explains how to combine two or more questions into a single slide.
+
+This article explains how to put more than one question on a single quiz slide.
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/651d6cb1573c4a53981b971cf9eefaa6?sid=b1ca7d15-e169-4acb-87b4-c994a0146c8b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Add Your Questions**: Add the questions you want to merge to your quiz.
-2. **Open Question Settings**: Select the first question, the one you want at the top of the slide. Click the wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).
-3. **Join Next Question**: In the question settings, turn on `Join next question`.
-    ![how to join slides setting](/images/how_to_join_slides_setting.png)
-    The question then merges with the next one, and both appear on the same slide.
-4. **Select the Joined Questions**: Click the last question in the merged set.
-5. **Repeat the Join Process**: Turn on `Join next question` again. Repeat this for as many questions as you want on one slide.
-![how to join slides slides joined](/images/how_to_join_slides_slides_joined.png)
+Here each question is a slide of its own. `Join next question` merges a question with the one below it, and you chain the setting down the list.
+1. **Add the questions you want to share a slide, one after another.** They join in the order they sit in the builder.
+2. **Click the first of them, then click the `wrench` icon to open its [question settings](/reference/quiz-builder/questions/#question-settings).**
+3. **Turn on `Join next question`.**
+    ![The Join next question toggle in the question settings](/images/how_to_join_slides_setting.png)
+4. **Click the next question down and turn on `Join next question` there too.** Repeat down the list, but leave it off for the last question, which has nothing below it to join.
+5. **Check the builder.** A dashed line runs between joined questions where a slide break would otherwise be.
+    ![Four questions joined into one slide](/images/how_to_join_slides_slides_joined.png)
+6. **Click the top-right `Publish` button, then take the quiz.** The questions should appear together, with one button at the end of them.
 
 
 
@@ -8506,133 +8504,33 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/migrate-shopify-legacy-quiz/
 ================================================================================
 
 ---
+description: "Import a quiz from the legacy Shopify app into the Built for Shopify version of RevenueHunt, and fix what needs a manual follow-up."
 icon: material/transfer
 ---
 
-# How to Migrate a Legacy Quiz to the 💎Built for Shopify App
+# How to Migrate a Legacy Quiz to the 💎 Built for Shopify App
 
-You can import a quiz from the legacy RevenueHunt app into the `💎Built for Shopify` version, instead of rebuilding it. The migration tool copies your questions, results pages, logic, and design settings in one click.
+You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Shopify version instead of rebuilding it. Questions, results pages, logic and design all come across in one click.
 
-!!! info "Shopify only"
+## Import the quiz
 
-    The **Migrate from Legacy App** option is currently available for Shopify stores only. Merchants on WooCommerce, Magento, BigCommerce, or Standalone can use the [Import Quiz](/how-to-guides/copy-the-quiz-from-one-store-to-another/) feature instead.
-
----
-
-## Before you begin
-
-- You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you have not switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
-- Your legacy quizzes remain untouched. The migration creates a **copy** in the `💎Built for Shopify` app, and nothing is deleted from the legacy version.
-
----
-
-## Step 1: open the new quiz menu
-
-1. Open the **RevenueHunt** app in your Shopify dashboard.
-2. From the Dashboard, click the **Create new quiz** button.
-3. In the dropdown menu that appears, select **Migrate from Legacy App**.
-
-    ![Create new quiz dropdown showing Migrate from Legacy App option](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_menu.png)
-
----
-
-## Step 2: select the quiz to import
-
-A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
-
-- **Name** and basic stats (number of questions, results pages, last updated date)
-- **What will migrate** - a green checkmark confirms that questions, results, logic, and design are included
-- **Warnings** - yellow notices flag anything that cannot be migrated automatically
-
-    ![Migrate from Legacy App dialog showing quiz list with status indicators](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png)
-
-Click **Import Now** next to the quiz you want to migrate.
-
----
-
-## Step 3: review the imported quiz
-
-Once the import completes, the quiz opens in the Quiz Builder. Its name will include the suffix **(Imported from V1)** so you can easily identify it.
-
-![Imported quiz open in the Built for Shopify Quiz Builder](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_imported.png)
-
-Review your questions, results pages, and logic to make sure everything looks correct before publishing.
-
----
-
-## What gets migrated, and what does not
-
-| What migrates | Status |
-|---|---|
-| Questions and answer choices | ✅ Fully migrated |
-| Results pages and content | ✅ Fully migrated |
-| Conditional logic | ✅ Fully migrated |
-| Quiz design and styling | ✅ Fully migrated |
-| Custom CSS | ⚠️ Not adapted automatically - see [Custom CSS](#custom-css) |
-| Custom JavaScript | ⚠️ Will not migrate - see [Custom JavaScript](#custom-javascript) |
-| Special third-party integrations | ⚠️ Needs review after import |
-| Product mappings | ⚠️ May need re-linking - see [Product mappings](#product-mappings) |
-
----
-
-## What to watch for after import
-
-Most quizzes migrate cleanly, but some advanced configurations require a manual follow-up.
-
-### Custom CSS
-
-If your legacy quiz used custom CSS, the styles are carried over as they are. The **`💎Built for Shopify` app uses a different HTML structure** than the legacy app. CSS rules that targeted legacy elements may not apply correctly.
-
-!!! warning "Review your design after import"
-
-    Check the quiz preview after importing. Wrong colors, broken layouts or missing fonts mean the CSS selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
-
-### Custom JavaScript
-
-Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has a different JavaScript API, so legacy scripts cannot be transferred automatically.
-
-!!! warning "Rebuild JS customizations manually"
-
-    If your legacy quiz relied on custom JavaScript, for example custom events, DOM manipulation or callback functions, rewrite those with the [JavaScript API](/how-to-guides/add-javascript/).
-
-### Product mappings
-
-Questions, answer choices and results pages migrate. Product links are tied to Shopify product IDs, which are the same in both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
-
-!!! tip
-
-    After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them in the [Results Page](/reference/quiz-builder/results-page/).
-
-### Special integrations
-
-Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not automatically re-established after migration. Reconnect any integrations you need through [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-
----
+## What migrates, and what needs a hand
 
 ## After the import
 
-Once you have reviewed the quiz and fixed any warnings:
-
-1. **Test the quiz end-to-end** using the Preview button before publishing.
-2. **Reconnect integrations** (email platforms, CRMs, pixels) in Quiz Settings.
-3. **Publish the quiz** using your preferred [publishing method](/how-to-guides/publish-quiz/).
-4. When you are happy with the result, archive or delete the legacy version.
-
 ---
 
-!!! info "The base quiz is always importable"
+This article explains how to import a legacy Shopify quiz into the Built for Shopify app, and what to check once it lands.
 
-    Even if your legacy quiz has custom CSS, JavaScript or unusual configurations, the core content always imports: questions, logic and results. A warning tells you which advanced feature needs manual work, not that the import will fail.
+--- WooCommerce Specific Content ---
 
----
-
-**Related articles:**
-
-- [How to Install the App](/how-to-guides/install-app/)
-- [How to Copy a Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/)
-- [How to Customize Your Quiz Design](/how-to-guides/customize-quiz-design/)
-- [How to Add JavaScript](/how-to-guides/add-javascript/)
-- [Contact Customer Support](/how-to-guides/contact-customer-support/)
+!!! note "Not part of this version"
+    `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
+    To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+!!! note "Not part of this version"
+    Importing a legacy quiz happens between the two Shopify apps.
+!!! note "Not part of this version"
+    Importing a legacy quiz happens between the two Shopify apps.
 
 
 
@@ -8648,19 +8546,23 @@ icon: material/image-off
 
 # How to Fix Product Images Not Showing
 
-This article explains how to fix product images that do not appear in your quiz.
+A recommended product can arrive on the results page with no picture. Where the picture was meant to come from decides what to check.
 
 ---
-This article explains how to fix product images that do not appear in your quiz.
+
+This article explains why a recommended product can appear with no picture, and what to check on each platform.
 
 --- WooCommerce Specific Content ---
 
-The quiz runs in an iframe on your website, but it is hosted on the RevenueHunt server. Your developer has to turn off hotlinking protection, so the product images pulled from your store can appear on the results page.
-Hotlinking means showing an image on one website by linking to the site that hosts it. See [Hotlinking](https://simple.wikipedia.org/wiki/Hotlinking) on Wikipedia.
-**Enable hotlinking in WordPress**
-Hotlinking in WordPress is usually enabled by default. WordPress lets you use direct image URLs in your content, which other websites can hotlink.
-To let the app hotlink your images, whitelist the RevenueHunt server `admin.revenuehunt.com` and its IP address `3.14.55.225`.
-For how to turn hotlinking protection off, see this [guide to image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/).
+Your store holds the images, and the quiz runs in an iframe served from the RevenueHunt server. Every picture is therefore fetched across two domains, and anything that refuses those requests leaves it blank.
+1. **Check the product has an image in `Products` in your WordPress admin.**
+2. **Allow the RevenueHunt server through whatever is blocking it.** Add `admin.revenuehunt.com` and the IP address `3.14.55.225` to the allowlist of your firewall, security plugin or CDN.
+3. **Take the quiz and check the image appears on the results page.**
+!!! info "What is being blocked"
+    Showing an image on one site by linking to the site that hosts it is called [hotlinking](https://simple.wikipedia.org/wiki/Hotlinking). Something between your store and the quiz is refusing those requests.
+    WordPress allows hotlinking by default, so if your images are blocked, a security plugin, a CDN or your host has turned protection on. See this [guide to image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/).
+!!! tip "Other WordPress and WooCommerce problems"
+    See [WordPress and WooCommerce troubleshooting](/how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
 
 
 
@@ -8676,39 +8578,92 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Upvotes or More
 
-You can limit the recommendations on the results page to products that received X upvotes or more. This filter lets you show only the strongest matches.
+A results page shows the best matches it has, however weak those matches are. If a customer answers in a way nothing really fits, they still get a list, and it is a list of near misses.
 
-To activate this setting in your quiz:
+A minimum holds those back. A product has to collect a set number of upvotes before it can be recommended at all, so the customer sees strong matches or none.
+
+## Work out the number you need
+
+Every choice a customer selects gives one upvote to each product linked to that choice. The minimum is counted against that total, so the number you want depends on how your products are linked.
+
+Take a skincare quiz with three questions that upvote, and three products linked like this.
+
+| Product | Linked to the choices |
+|---|---|
+| Hydrating Serum | Dry skin, Dryness, Full routine |
+| Gentle Cleanser | Dry skin, Oily skin, Combination skin |
+| Clay Mask | Oily skin, Acne |
+
+A customer answers **Dry skin**, then **Dryness**, then **Full routine**. The upvotes land like this.
+
+| Product | Upvotes | Where they came from |
+|---|---|---|
+| Hydrating Serum | 3 | All three answers matched |
+| Gentle Cleanser | 1 | Only the skin type matched |
+| Clay Mask | 0 | Nothing matched |
+
+The minimum then decides what the customer sees.
+
+| Minimum | What the results page shows |
+|---|---|
+| 1 | Hydrating Serum and Gentle Cleanser |
+| 2 | Hydrating Serum only |
+| 3 | Hydrating Serum only |
+| 4 | Nothing, because no product collected four |
+
+!!! tip "Where to start"
+
+    Count the questions that upvote products. That is the most any product can collect from a customer who picks one choice per question. Set the minimum above it and the block empties for everyone.
+
+    Half of that count is a reasonable first try. Take the quiz a few times, answering as your customers would, and raise it until the near misses stop appearing.
+
+!!! warning "Multiple selection changes the arithmetic"
+
+    A question with [`Allow Multiple Selection`](/reference/quiz-builder/questions/#multiple-choice) turned on gives an upvote for every choice the customer picks, not one for the question. One question can then hand a single product three or four upvotes on its own.
+
+    A minimum that equals your question count no longer means a product matched every question.
+
+??? question "How the upvote count is worked out"
+
+    - Products are linked to each choice.
+    - When a customer picks a choice, every product linked to it gains one upvote.
+    - The results page shows the products with the most upvotes first.
+    - Products on equal upvotes appear in a random order.
+    - If nothing is linked, or everything is excluded, the results page comes back empty.
+
+    See [How to Recommend Products](/how-to-guides/recommend-products/).
+
+## Set the minimum
+
+## When nothing clears the bar
+
+A minimum can leave a block with nothing to show. That is the point of it, but decide what the customer reads instead.
 
 ---
-By following this guide, you can easily filter your recommendations by minimum number of votes.
+
+This article explains how to hold a weak match back from the results page. You set the upvotes a product needs before it can be recommended.
 
 --- WooCommerce Specific Content ---
 
-1. Make sure your [results page](/reference/quiz-builder/results-page/) has a **Product Block** or a **Product Slot Block**.
-2. Make sure you understand how the [recommendations algorithm](/how-to-guides/recommend-products/) works.
-    ??? question "How do I get the right recommendations?"
-        The recommendation algorithm works like an upvoting system:
-        - Products are linked to each choice
-        - When a customer picks a choice, all linked products receive one upvote
-        - After the customer takes the quiz, the results page shows the products with the most upvotes first
-        - If no products are linked, or all products are excluded, the results page is empty
-        - If there is a draw in the number of upvotes, the app randomizes the order of the products.
-3. Open the [Results Page settings](/reference/quiz-builder/results-page/).
-4. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
-5. Scroll down to the `Minimum number of votes` setting and turn the toggle on.
-    ![Minimum number of votes in the Advanced Settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
-6. The **Products Block**, or a **Slots Block**, on your results page now shows an extra setting in the [Block Settings](/reference/quiz-builder/results-page/#block-settings).
-7. Open the [Product/Slot Block settings](/reference/quiz-builder/results-page/#block-settings) and find `Min. number of votes`.
-8. Click the dropdown and select a number. You can change the minimum to whatever suits your quiz.
-    ![Min. number of votes in the block settings](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
-    !!! example
-        Your quiz has 4 questions, and you set the minimum to 4. Only products with **4 upvotes or more** are shown, so a product has to match the answer to every question. A product with 3 upvotes is not shown. A product with 5 upvotes is shown.
-9. Click `Publish` in the top-right corner to update the preview and the live quiz.
-From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
-!!! warning
-    The `Minimum number of votes` setting is available only if you choose not to recommend products when the results are empty. That option is in [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
-    ![Show random products in the Recommendation Settings](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
+The minimum is switched on for the whole results page, then set on each block. Your [results page](/reference/quiz-builder/results-page/) needs a `Products` block or a slot block.
+!!! warning "One results page setting has to come first"
+    `Minimum number of votes` only appears on a block while the results page is set to show nothing when there are no matches.
+    Open the [`ADVANCED`](/reference/quiz-builder/results-page/#advanced-settings) tab and check that `Recommendations Settings` is on `If no results, no products` rather than `If no results, random products`.
+    ![The no results options in Recommendations Settings](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
+1. **Open your results page in the [Quiz Builder](/reference/quiz-builder/) and click the cog icon.**
+2. **Open the [`ADVANCED`](/reference/quiz-builder/results-page/#advanced-settings) tab and turn `Minimum number of votes` on.** Each product and slot block then gains a minimum of its own.
+    ![The Minimum number of votes toggle in the Advanced tab](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
+3. **Close the settings, then click the `Products` block you want to limit.**
+4. **Pick a number from `Min. number of votes` in the [block settings](/reference/quiz-builder/results-page/#block-settings).**
+    ![The Min. number of votes dropdown in the block settings](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
+5. **Repeat for every other product or slot block that needs a minimum.**
+6. **Click the top-right `Publish` button.**
+7. **Take the quiz and check that only the strongest matches come back.** A product below the minimum should not appear at all.
+By default the block shows this instead of the products.
+!!! example "The default empty message"
+    Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.
+Edit that wording in [Quiz settings > Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+To drop the block from the page altogether when it has nothing to show, turn on `Hide block when no products are recommended` in the [block settings](/reference/quiz-builder/results-page/#block-settings).
 
 
 
@@ -9601,7 +9556,7 @@ Say you run a skincare shop, and you want to recommend products from two criteri
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/e9bNK96Vt8k?si=q_Dq-G2JVwskpaQx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The walkthrough shows the `💎Built for Shopify` version of the app.
+The walkthrough shows the Built for Shopify version of the app.
 
 ### The four groups this matrix needs
 
@@ -9773,7 +9728,7 @@ A quiz cannot link a recommendation to a number the customer types. Ask for a ra
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The walkthrough shows the `💎Built for Shopify` version of the app.
+The walkthrough shows the Built for Shopify version of the app.
 
 ## Why an open-ended number does not work
 
@@ -9817,7 +9772,7 @@ Once the answers are finite, you can:
 
 !!! tip "Quiz Copilot can suggest the ranges"
 
-    In the `💎Built for Shopify` version, Quiz Copilot turns a broad question such as "What is your room size?" into ranges for you. It also suggests the follow-up questions to go with them.
+    In the Built for Shopify version, Quiz Copilot turns a broad question such as "What is your room size?" into ranges for you. It also suggests the follow-up questions to go with them.
 
     For room size, that might be:
 
@@ -9978,7 +9933,7 @@ Once the choices are finite, you can:
 
 !!! tip "Quiz Copilot can generate the choices"
 
-    In the `💎Built for Shopify` version, open [Quiz Copilot](/how-to-guides/use-quiz-copilot/) from the quiz editor and give it your product list and your sizing logic. It writes the choices for you, which saves a lot of typing when you carry many size variants.
+    In the Built for Shopify version, open [Quiz Copilot](/how-to-guides/use-quiz-copilot/) from the quiz editor and give it your product list and your sizing logic. It writes the choices for you, which saves a lot of typing when you carry many size variants.
 
 ## Map out your products before you start
 
@@ -13241,7 +13196,7 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
 !!! info "Redirects keep the parameters"
 
-    This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
+    This applies to the Built for Shopify version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
 
 ## Read ad to purchase in your store analytics
 
@@ -13590,7 +13545,7 @@ This article explains what happens after `Add to Cart`, which themes need nothin
 
 !!! note "Which version you are on decides what you have to do"
 
-    The `💎Built for Shopify` app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
+    The 💎 Built for Shopify app refreshes the drawer itself, so most stores need nothing. The legacy app does not, and the drawer still needs theme work. See [Cart drawer support in the legacy app](#cart-drawer-support-in-the-legacy-app).
 
 ## How the quiz adds products to the cart
 
@@ -13730,7 +13685,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 !!! tip "This work goes away on the current version"
 
-    Moving to the `💎Built for Shopify` version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 
@@ -14912,7 +14867,7 @@ them to customize how your quizzes look.
 
 !!! note "Two versions, two sets of selectors"
 
-    The `💎 Built for Shopify` version and the legacy version of the app build
+    The 💎 Built for Shopify version and the legacy version of the app build
     their quiz markup differently. A selector from one version does not work on
     the other. Choose your platform tab in each section.
 
@@ -16013,6 +15968,7 @@ quiz
 - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
 - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
+`Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
 `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 `Question ID` - Displays the question unique ID.
 `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.

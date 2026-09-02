@@ -28,7 +28,7 @@ Adapting your quiz for different markets isn't just a translation task. It's abo
 Before you start duplicating and translating quizzes, understand what you actually need to do manually - and what the app already handles for you.
 
 !!! info "💎 Built for Shopify - Shopify Markets integration"
-    The automatic features below apply to the `💎 Built for Shopify` version of the RevenueHunt app, which has native Shopify Markets integration.
+    The automatic features below apply to the Built for Shopify version of the RevenueHunt app, which has native Shopify Markets integration.
 
 **Automatic: product titles, descriptions, and prices.** The results page pulls product data directly from Shopify's Storefront API. This means:
 
@@ -137,7 +137,7 @@ The app preview doesn't simulate market switching. To test properly:
 
 ## If you're not on Shopify
 
-The Shopify Markets integration is exclusive to the `💎 Built for Shopify` version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
+The Shopify Markets integration is exclusive to the Built for Shopify version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
 
 **The manual multi-language setup:**
 

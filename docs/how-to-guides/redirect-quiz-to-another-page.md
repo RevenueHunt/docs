@@ -80,7 +80,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
     !!! warning
 
-        The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app.
+        The callback function is not supported in the Built for Shopify version of the RevenueHunt app.
 
     The results page can do this work instead. It can show sections conditionally, based on quiz answers or custom scores, take custom JavaScript, and hold fixed products. It also has layout and alignment options, so you can build a custom results page without redirecting the customer.
 

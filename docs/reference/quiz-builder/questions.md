@@ -637,6 +637,8 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
@@ -694,6 +696,8 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
+
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
@@ -753,6 +757,8 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
@@ -811,6 +817,8 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
@@ -868,6 +876,8 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
+
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 

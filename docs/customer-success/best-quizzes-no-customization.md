@@ -75,7 +75,7 @@ That's it. That's the playbook.
 
 !!! success "The default theme inherits your store's fonts and colors automatically."
 
-    The `💎Built for Shopify` version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
+    The Built for Shopify version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
 
     ![Default theme example](/images/cs_no_customization_style.png)
 

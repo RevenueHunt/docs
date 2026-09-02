@@ -28,7 +28,7 @@ Let that data sit idle and you've paid to acquire a lead and then walked away fr
 
 ## Send the results instantly
 
-The fastest win is emailing the result the moment the quiz ends, while intent is highest. With the 💎Built for Shopify app you can do this without a third-party tool:
+The fastest win is emailing the result the moment the quiz ends, while intent is highest. With the Built for Shopify app you can do this without a third-party tool:
 
 1. Add an **Email Address** question block before the results page.
 2. Go to **Quiz Settings → Emails → Respondents**.
