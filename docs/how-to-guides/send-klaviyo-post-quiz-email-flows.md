@@ -24,14 +24,14 @@ Across the RevenueHunt platform, **1 in 5 quiz-attributed orders is placed more 
 
 === "Shopify"
 
-    1. Your quiz has an [email question](/reference/quiz-builder/questions/#email-address) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.
-    2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/) so answers arrive on the profile as customer tags.
+    1. **Your quiz has an [email question](/reference/quiz-builder/questions/#email-address) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.**
+    2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/) so answers arrive on the profile as customer tags.**
     3. **Your Shopify store is connected to Klaviyo** through Klaviyo's native Shopify integration, so events like `Started Checkout`, `Placed Order` and `Viewed Product` reach Klaviyo. Without it, the other four flows have nothing to start them.
 
 === "Shopify (Legacy)"
 
-    1. Your quiz has an email question, and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key**. A **Private API Key** is also needed to add contacts to a list.
-    2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).
+    1. **Your quiz has an email question, and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key**.** A **Private API Key** is also needed to add contacts to a list.
+    2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).**
     3. **Your Shopify store is connected to Klaviyo** through Klaviyo's native Shopify integration, so `Started Checkout`, `Placed Order` and `Viewed Product` events reach Klaviyo.
 
     !!! info "Legacy quizzes send different property names"
@@ -40,26 +40,26 @@ Across the RevenueHunt platform, **1 in 5 quiz-attributed orders is placed more 
 
 === "WooCommerce"
 
-    1. Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).
-    2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).
+    1. **Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).**
+    2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).**
     3. **Your WooCommerce store is connected to Klaviyo** through Klaviyo's WooCommerce integration (the Klaviyo plugin), so `Started Checkout`, `Placed Order` and `Viewed Product` events reach Klaviyo.
 
 === "Magento"
 
-    1. Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).
-    2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).
+    1. **Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).**
+    2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).**
     3. **Your Magento (Adobe Commerce) store is connected to Klaviyo** through Klaviyo's Magento extension, so `Started Checkout`, `Placed Order` and `Viewed Product` events reach Klaviyo.
 
 === "BigCommerce"
 
-    1. Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).
-    2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).
+    1. **Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).**
+    2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).**
     3. **Your BigCommerce store is connected to Klaviyo** through Klaviyo's BigCommerce integration, so `Started Checkout`, `Placed Order` and `Viewed Product` events reach Klaviyo.
 
 === "Standalone"
 
-    1. Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).
-    2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).
+    1. **Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).**
+    2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).**
 
     !!! warning "No native store events on Standalone"
 
@@ -159,9 +159,9 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
 === "Shopify"
 
-    1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-    2. Set the definition to `Properties about someone`, choose `ANSWERS_BY_BLOCK-<QuizID>`, and set the condition to `is set`.
-    3. Save. A new customer joins automatically.
+    1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+    2. **Set the definition to `Properties about someone`, choose `ANSWERS_BY_BLOCK-<QuizID>`, and set the condition to `is set`.**
+    3. **Save.** A new customer joins automatically.
 
     !!! tip "Segment on a specific answer or tag"
 
@@ -169,9 +169,9 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
 === "Shopify (Legacy)"
 
-    1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-    2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
-    3. Save. A new customer joins automatically.
+    1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+    2. **Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.**
+    3. **Save.** A new customer joins automatically.
 
     !!! tip "Segment on a specific answer or tag"
 
@@ -179,9 +179,9 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
 === "WooCommerce"
 
-    1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-    2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
-    3. Save. A new customer joins automatically.
+    1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+    2. **Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.**
+    3. **Save.** A new customer joins automatically.
 
     !!! tip "Segment on a specific answer or tag"
 
@@ -189,9 +189,9 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
 === "Magento"
 
-    1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-    2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
-    3. Save. A new customer joins automatically.
+    1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+    2. **Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.**
+    3. **Save.** A new customer joins automatically.
 
     !!! tip "Segment on a specific answer or tag"
 
@@ -199,9 +199,9 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
 === "BigCommerce"
 
-    1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-    2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
-    3. Save. A new customer joins automatically.
+    1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+    2. **Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.**
+    3. **Save.** A new customer joins automatically.
 
     !!! tip "Segment on a specific answer or tag"
 
@@ -209,9 +209,9 @@ Every flow below uses this segment. It holds everyone who finished the quiz. Two
 
 === "Standalone"
 
-    1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-    2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
-    3. Save. A new customer joins automatically.
+    1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+    2. **Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.**
+    3. **Save.** A new customer joins automatically.
 
     !!! tip "Segment on a specific answer or tag"
 

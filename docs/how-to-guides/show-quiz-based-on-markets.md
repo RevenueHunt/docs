@@ -79,9 +79,9 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
     !!! tip "Preview the results page as a market"
 
-        1. Open the [Quiz builder](/reference/quiz-builder/).
-        2. Click `Preview` in the top-right corner and go through to the results page.
-        3. Pick the market and language to preview it as.
+        1. **Open the [Quiz builder](/reference/quiz-builder/).**
+        2. **Click `Preview` in the top-right corner and go through to the results page.**
+        3. **Pick the market and language to preview it as.**
 
         ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 

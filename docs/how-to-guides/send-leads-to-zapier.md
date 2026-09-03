@@ -159,7 +159,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
         When you have finished, **Publish** the Zap.
 
-    9. To see the active Zaps connected to your quiz:
+    9. **To see the active Zaps connected to your quiz:**
 
         - Navigate to the app's [`Integrations`](/reference/quiz-builder/connect-integrations/) page.
         - Find the `Zapier` section.
@@ -171,15 +171,15 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     To connect the quiz to your CRM through Zapier:
 
-    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-    2. Scroll down to Zapier and copy your `Zapier API Key`. The next steps need it.
+    1. **Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll down to Zapier and copy your `Zapier API Key`.** The next steps need it.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
-    3. In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.
-    4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
-    5. Once redirected to Zapier, click on `Make a Zap`.
-    6. In Zapier, search for `RevenueHunt` and select version 1.1.1.
-    7. Follow the on-screen instructions to build your Zap. You choose the triggers and actions that suit what you want done with the quiz data.
+    3. **In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.**
+    4. **On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.**
+    5. **Once redirected to Zapier, click on `Make a Zap`.**
+    6. **In Zapier, search for `RevenueHunt` and select version 1.1.1.**
+    7. **Follow the on-screen instructions to build your Zap.** You choose the triggers and actions that suit what you want done with the quiz data.
 
     **OR**
 
@@ -187,28 +187,31 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
     ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
-    2. Select `RevenueHunt` from the app list.
+    2. **Select `RevenueHunt` from the app list.**
     ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
-    3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-    ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
-    And paste it in the window that pops up:
-    ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
-    Confirm with `Yes, Continue to RevenueHunt`.
+    3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
+
+        ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
+
+        Paste it into the window that pops up, then confirm with `Yes, Continue to RevenueHunt`.
+
+        ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
+
     4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 
 === "WooCommerce"
 
     To connect the quiz to your CRM through Zapier:
 
-    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-    2. Scroll down to Zapier and copy your `Zapier API Key`. The next steps need it.
+    1. **Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll down to Zapier and copy your `Zapier API Key`.** The next steps need it.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
-    3. In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.
-    4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
-    5. Once redirected to Zapier, click on `Make a Zap`.
-    6. In Zapier, search for `RevenueHunt` and select version 1.1.1.
-    7. Follow the on-screen instructions to build your Zap. You choose the triggers and actions that suit what you want done with the quiz data.
+    3. **In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.**
+    4. **On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.**
+    5. **Once redirected to Zapier, click on `Make a Zap`.**
+    6. **In Zapier, search for `RevenueHunt` and select version 1.1.1.**
+    7. **Follow the on-screen instructions to build your Zap.** You choose the triggers and actions that suit what you want done with the quiz data.
 
     **OR**
 
@@ -216,28 +219,31 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
     ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
-    2. Select `RevenueHunt` from the app list.
+    2. **Select `RevenueHunt` from the app list.**
     ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
-    3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-    ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
-    And paste it in the window that pops up:
-    ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
-    Confirm with `Yes, Continue to RevenueHunt`.
+    3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
+
+        ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
+
+        Paste it into the window that pops up, then confirm with `Yes, Continue to RevenueHunt`.
+
+        ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
+
     4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 
 === "Magento"
 
     To connect the quiz to your CRM through Zapier:
 
-    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-    2. Scroll down to Zapier and copy your `Zapier API Key`. The next steps need it.
+    1. **Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll down to Zapier and copy your `Zapier API Key`.** The next steps need it.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
-    3. In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.
-    4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
-    5. Once redirected to Zapier, click on `Make a Zap`.
-    6. In Zapier, search for `RevenueHunt` and select version 1.1.1.
-    7. Follow the on-screen instructions to build your Zap. You choose the triggers and actions that suit what you want done with the quiz data.
+    3. **In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.**
+    4. **On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.**
+    5. **Once redirected to Zapier, click on `Make a Zap`.**
+    6. **In Zapier, search for `RevenueHunt` and select version 1.1.1.**
+    7. **Follow the on-screen instructions to build your Zap.** You choose the triggers and actions that suit what you want done with the quiz data.
 
     **OR**
 
@@ -245,28 +251,31 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
     ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
-    2. Select `RevenueHunt` from the app list.
+    2. **Select `RevenueHunt` from the app list.**
     ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
-    3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-    ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
-    And paste it in the window that pops up:
-    ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
-    Confirm with `Yes, Continue to RevenueHunt`.
+    3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
+
+        ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
+
+        Paste it into the window that pops up, then confirm with `Yes, Continue to RevenueHunt`.
+
+        ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
+
     4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 
 === "BigCommerce"
 
     To connect the quiz to your CRM through Zapier:
 
-    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-    2. Scroll down to Zapier and copy your `Zapier API Key`. The next steps need it.
+    1. **Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll down to Zapier and copy your `Zapier API Key`.** The next steps need it.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
-    3. In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.
-    4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
-    5. Once redirected to Zapier, click on `Make a Zap`.
-    6. In Zapier, search for `RevenueHunt` and select version 1.1.1.
-    7. Follow the on-screen instructions to build your Zap. You choose the triggers and actions that suit what you want done with the quiz data.
+    3. **In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.**
+    4. **On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.**
+    5. **Once redirected to Zapier, click on `Make a Zap`.**
+    6. **In Zapier, search for `RevenueHunt` and select version 1.1.1.**
+    7. **Follow the on-screen instructions to build your Zap.** You choose the triggers and actions that suit what you want done with the quiz data.
 
     **OR**
 
@@ -274,28 +283,31 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
     ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
-    2. Select `RevenueHunt` from the app list.
+    2. **Select `RevenueHunt` from the app list.**
     ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
-    3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-    ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
-    And paste it in the window that pops up:
-    ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
-    Confirm with `Yes, Continue to RevenueHunt`.
+    3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
+
+        ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
+
+        Paste it into the window that pops up, then confirm with `Yes, Continue to RevenueHunt`.
+
+        ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
+
     4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 
 === "Standalone"
 
     To connect the quiz to your CRM through Zapier:
 
-    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-    2. Scroll down to Zapier and copy your `Zapier API Key`. The next steps need it.
+    1. **Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll down to Zapier and copy your `Zapier API Key`.** The next steps need it.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
-    3. In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.
-    4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
-    5. Once redirected to Zapier, click on `Make a Zap`.
-    6. In Zapier, search for `RevenueHunt` and select version 1.1.1.
-    7. Follow the on-screen instructions to build your Zap. You choose the triggers and actions that suit what you want done with the quiz data.
+    3. **In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.**
+    4. **On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.**
+    5. **Once redirected to Zapier, click on `Make a Zap`.**
+    6. **In Zapier, search for `RevenueHunt` and select version 1.1.1.**
+    7. **Follow the on-screen instructions to build your Zap.** You choose the triggers and actions that suit what you want done with the quiz data.
 
     **OR**
 
@@ -303,13 +315,16 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
     ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
-    2. Select `RevenueHunt` from the app list.
+    2. **Select `RevenueHunt` from the app list.**
     ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
-    3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-    ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
-    And paste it in the window that pops up:
-    ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
-    Confirm with `Yes, Continue to RevenueHunt`.
+    3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
+
+        ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
+
+        Paste it into the window that pops up, then confirm with `Yes, Continue to RevenueHunt`.
+
+        ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
+
     4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 
 

@@ -6221,31 +6221,31 @@ This article explains how to add custom JavaScript to a RevenueHunt quiz, with w
 | JavaScript | A programming language that runs in the browser | Custom logic, calculations, and behavior that reacts to the customer |
 | HTML | The markup that gives a block its structure | Custom content blocks and layouts |
 JavaScript is the route for anything dynamic here. It reads the quiz through the `prq` object and changes the page from there.
-1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-3. Scroll down to find the **Custom JavaScript** section and click `add`.
-4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-5. Remember to click the `Publish` button to update the preview/live quiz.
-1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-3. Scroll down to find the **Custom JavaScript** section and click `add`.
-4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-5. Remember to click the `Publish` button to update the preview/live quiz.
+1. **Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.**
+2. **Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).**
+3. **Scroll down to `Custom JavaScript` and click `add`.**
+4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+5. **Click the `Publish` button** to update the preview and the live quiz.
+1. **Navigate to the [Quiz Builder](/reference/quiz-builder/).**
+2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
+3. **Scroll down to `Custom JavaScript` and click `add`.**
+4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+5. **Click the `Publish` button** to update the preview and the live quiz.
 !!! note "The HTML Block does not run JavaScript"
     This version has an HTML Block, but it takes HTML and CSS only. A `<script>` tag placed in it does not run.
     Put your JavaScript in the [results page console](#the-results-page-console) or the [question console](#the-question-console) instead.
 In WooCommerce, find the **Slide ID** of each question. `prq.getSlideValue(slideId)` uses it to read the value.
 !!! tip "How to Find Slide IDs"
     **Inspect in Browser Console**
-    1. Open your quiz in preview or live
-    2. Press F12 to open Developer Tools → Console tab
-    3. Type `prq.quizSlides()` and press Enter
-    4. Expand the results to see all slides with their IDs
-    5. Look for the `id` property of each slide
+    1. **Open your quiz in preview or live**
+    2. **Press F12 to open Developer Tools → Console tab**
+    3. **Type `prq.quizSlides()` and press Enter**
+    4. **Expand the results to see all slides with their IDs**
+    5. **Look for the `id` property of each slide**
     **Method 3: Inspect Element**
-    1. Right-click on the question element
-    2. Select "Inspect Element"
-    3. Look for `data-slide-id` or similar attributes in the HTML
+    1. **Right-click on the question element**
+    2. **Select "Inspect Element"**
+    3. **Look for `data-slide-id` or similar attributes in the HTML**
 **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
 **Custom JavaScript Capabilities**
 The `prq` object is how you customize the quiz. Use it like this:
@@ -6302,7 +6302,7 @@ console.log(prq.quizSlides()); // See all slides and their IDs
 This line lists the Vue.js functions and properties in the `prq` scope in your browser console. You can then inspect the quiz data as it runs.
 ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 You can do it two ways:
-1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
     !!! example "Add the `onclick` functionality via the Custom JavaScript."
         ```html
         <!-- In Result page in a HTML block -->
@@ -6318,7 +6318,7 @@ You can do it two ways:
             prq.retakeQuiz();
         }
         ```
-2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
+2. **You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.**
     !!! example "Create the element with an `onclick` event first and then inject it in the results page."
         ```html
         /* In the Custom JavaScript section */
@@ -7152,11 +7152,11 @@ icon: material/pencil
 
 Building a quiz takes five stages, from an empty quiz to one running on your website.
 
-1. [Create a new quiz](#create-a-new-quiz)
-2. [Add the questions](#add-the-questions)
-3. [Set up the recommendations](#set-up-the-recommendations)
-4. [Preview the quiz](#preview-the-quiz)
-5. [Put the quiz on your website](#put-the-quiz-on-your-website)
+1. **[Create a new quiz](#create-a-new-quiz)**
+2. **[Add the questions](#add-the-questions)**
+3. **[Set up the recommendations](#set-up-the-recommendations)**
+4. **[Preview the quiz](#preview-the-quiz)**
+5. **[Put the quiz on your website](#put-the-quiz-on-your-website)**
 
 !!! tip "Watch it first"
 
@@ -8467,7 +8467,7 @@ This article explains how to connect the Meta Pixel to your quiz, and which even
 1. **Create a Meta Pixel, if you do not have one.** See the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142), then add it to your website.
 2. **Open the [Connect](/reference/quiz-builder/connect-integrations/) tab of your quiz, find Meta Pixel, and click `connect`.**
 3. **Enter your `Meta Pixel ID`.**
-4. **Open the [Meta Events Manager](https://business.facebook.com/events/manager/).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
+4. **Open the [Meta Events Manager](https://business.facebook.com/events_manager2).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
     ![Quiz events arriving in the Meta Events Manager](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
     If they do, the Pixel is connected.
 5. **Review the custom events before you use them in an ad.** See [Review custom events](#review-custom-events).
@@ -10216,7 +10216,7 @@ An HTML button on your [Results Page](/reference/quiz-builder/results-page/) lin
       ```html
       <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
       ```
-Edit the link URL and text to your liking.
+      Edit the link URL and text to your liking.
 3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 
 
@@ -10635,17 +10635,17 @@ This article explains the six emails you can send after a quiz, what starts each
 
 --- WooCommerce Specific Content ---
 
-1. Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).
-2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).
+1. **Your quiz has an email question and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) with your **Public API Key** (and a **Private API Key** for lists).**
+2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/).**
 3. **Your WooCommerce store is connected to Klaviyo** through Klaviyo's WooCommerce integration (the Klaviyo plugin), so `Started Checkout`, `Placed Order` and `Viewed Product` events reach Klaviyo.
 Your quiz sends these custom properties:
 - `PERMALINK-<QuizID>`: present on every customer who finished the quiz. Use it to detect them.
 - `Q-<QuizID> <blockId>: <question text>`: the answer to one question.
 - `SLOT-<QuizID>: <slot name> - product_<n>_<field>`: a recommended product's field (`name`, `url`, `image_url`, `price`, `sku`, `id` or `variant_id`), where `<n>` starts at 0.
 - `T-<QuizID>: <tag>`: a customer tag. Present on the profile when that tag was applied.
-1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-2. Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.
-3. Save. A new customer joins automatically.
+1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+2. **Set the definition to `Properties about someone`, choose `PERMALINK-<QuizID>`, and set the condition to `is set`.**
+3. **Save.** A new customer joins automatically.
 !!! tip "Segment on a specific answer or tag"
     To target some of those customers rather than all of them, filter on a specific value instead, for example `T-<QuizID>: Color-Treated` `is set`. That is how you build a version of any flow below for one group of customers.
 - **Answer:** `{{ person|lookup:'Q-<QuizID> <blockId>: <question text>'|default:'' }}`
@@ -11814,25 +11814,24 @@ This article explains how to send quiz leads to Zapier from the RevenueHunt app.
     - Access to the quiz you want to connect.
     - Access to your CRM or mailing list.
 To connect the quiz to your CRM through Zapier:
-1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-2. Scroll down to Zapier and copy your `Zapier API Key`. The next steps need it.
+1. **Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.**
+2. **Scroll down to Zapier and copy your `Zapier API Key`.** The next steps need it.
     ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
-3. In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.
-4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
-5. Once redirected to Zapier, click on `Make a Zap`.
-6. In Zapier, search for `RevenueHunt` and select version 1.1.1.
-7. Follow the on-screen instructions to build your Zap. You choose the triggers and actions that suit what you want done with the quiz data.
+3. **In the [Connect](/reference/quiz-builder/connect-integrations/) tab, click the Zapier `Connect` button.**
+4. **On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.**
+5. **Once redirected to Zapier, click on `Make a Zap`.**
+6. **In Zapier, search for `RevenueHunt` and select version 1.1.1.**
+7. **Follow the on-screen instructions to build your Zap.** You choose the triggers and actions that suit what you want done with the quiz data.
 **OR**
 Set up the connection via Zapier:
 1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
 ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
-2. Select `RevenueHunt` from the app list.
+2. **Select `RevenueHunt` from the app list.**
 ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
-3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
-And paste it in the window that pops up:
-![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
-Confirm with `Yes, Continue to RevenueHunt`.
+3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
+    ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
+    Paste it into the window that pops up, then confirm with `Yes, Continue to RevenueHunt`.
+    ![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
 4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 To control exactly which data reaches Zapier, use one of these methods instead.
 - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
@@ -12372,9 +12371,9 @@ There are five ways to build one. They all count upvotes the same way, and diffe
 
 An **upvote** is the signal a choice gives a product. This is how an upvote becomes a recommendation:
 
-1. You link products, variants or collections to each choice.
-2. A customer picks that choice, and every linked item gets one upvote.
-3. The results page lists them, highest upvote count first.
+1. **You link products, variants or collections to each choice.**
+2. **A customer picks that choice, and every linked item gets one upvote.**
+3. **The results page lists them, highest upvote count first.**
 
 !!! info "An empty results page has two causes"
 
@@ -13148,11 +13147,11 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 | `utm_content` | The specific creative | `video_before_after` |
 | `utm_term` | The keyword, search ads only | `hair+loss+treatment` |
 
-1. Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.
-2. Set the website URL to your quiz landing page.
-3. Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.
-4. Copy the generated URL and paste it into the ad.
-5. Repeat for every creative, changing only `utm_content`.
+1. **Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.**
+2. **Set the website URL to your quiz landing page.**
+3. **Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.**
+4. **Copy the generated URL and paste it into the ad.**
+5. **Repeat for every creative, changing only `utm_content`.**
 
 !!! warning "One campaign per name, one creative per content"
 
@@ -13210,13 +13209,13 @@ This article explains how to follow a customer from an ad through the quiz to a 
 
 --- WooCommerce Specific Content ---
 
-1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
-2. Change the primary dimension to **Session campaign**.
-3. Add **Total revenue** and **Conversions** as columns.
-4. Compare the campaign revenue against your ad spend for the same period.
+1. **In GA4, go to `Reports → Acquisition → Traffic acquisition`.**
+2. **Change the primary dimension to **Session campaign**.**
+3. **Add **Total revenue** and **Conversions** as columns.**
+4. **Compare the campaign revenue against your ad spend for the same period.**
 The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
-1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
-2. Add the following script to the page where the quiz is embedded.
+1. **Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.**
+2. **Add the following script to the page where the quiz is embedded.**
     ```html
     <script>
     var prqStarted = false;
@@ -13236,7 +13235,7 @@ The quiz does not send GA4 events on its own here. You add them with the callbac
     }
     </script>
     ```
-3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+3. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
 | Step in the funnel | Event name | Where it comes from |
 |---|---|---|
@@ -13264,9 +13263,9 @@ Full callback reference, including per-answer tracking and the rest of the `prq`
 7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
 8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
 Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
-1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
-2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+1. **Add three `Short Text` questions to your quiz to hold the source, campaign and content.** See [Question Types](/reference/quiz-builder/questions/#question-types).
+2. **Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).**
+3. **On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script.** Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
     ```html
     <script>
     var p = new URLSearchParams(window.location.search);
@@ -13417,11 +13416,11 @@ Work through these in order.
 
 If none of those work, these are the advanced fixes.
 
-1. Review the header settings in your caching plugin.
-2. Generate a new LetsEncrypt certificate.
-3. Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.
-4. Switch to a basic WooCommerce theme, such as Storefront, for the first connection.
-5. Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.
+1. **Review the header settings in your caching plugin.**
+2. **Generate a new LetsEncrypt certificate.**
+3. **Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.**
+4. **Switch to a basic WooCommerce theme, such as Storefront, for the first connection.**
+5. **Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.**
 
 !!! note "CAFE24 hosting"
 
@@ -13969,7 +13968,6 @@ For example, contacts tagged `dry_skin` can receive a campaign for a moisturizin
 
     If the custom property `tags` contains `dry_skin`, include the contact in the segment.
 
-    ![example klaviyo segment](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
 
 The wording differs from one CRM to the next, but the shape of the rule is the same everywhere. Every profile carrying the tag joins the segment on its own, including the profiles that arrive later.
 

@@ -28,9 +28,9 @@ There are five ways to build one. They all count upvotes the same way, and diffe
 
 An **upvote** is the signal a choice gives a product. This is how an upvote becomes a recommendation:
 
-1. You link products, variants or collections to each choice.
-2. A customer picks that choice, and every linked item gets one upvote.
-3. The results page lists them, highest upvote count first.
+1. **You link products, variants or collections to each choice.**
+2. **A customer picks that choice, and every linked item gets one upvote.**
+3. **The results page lists them, highest upvote count first.**
 
 !!! info "An empty results page has two causes"
 

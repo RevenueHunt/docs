@@ -33,11 +33,11 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 | `utm_content` | The specific creative | `video_before_after` |
 | `utm_term` | The keyword, search ads only | `hair+loss+treatment` |
 
-1. Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.
-2. Set the website URL to your quiz landing page.
-3. Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.
-4. Copy the generated URL and paste it into the ad.
-5. Repeat for every creative, changing only `utm_content`.
+1. **Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.**
+2. **Set the website URL to your quiz landing page.**
+3. **Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.**
+4. **Copy the generated URL and paste it into the ad.**
+5. **Repeat for every creative, changing only `utm_content`.**
 
 !!! warning "One campaign per name, one creative per content"
 
@@ -57,46 +57,46 @@ This is the outer measurement: what you spend against what you earn. It works as
 
 === "Shopify"
 
-    1. In your Shopify admin, go to `Analytics → Reports`. Both reports live under the `Marketing` category.
+    1. **In your Shopify admin, go to `Analytics → Reports`.** Both reports live under the `Marketing` category.
         ![how to find the shopify marketing reports for utm campaigns](/images/how_to_track_ad_funnel_shopify_reports.png)
-    2. Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.
-    3. Open **Performance by marketing channel** to see how paid ads compare with your other channels.
-    4. Compare the campaign sales against your ad spend for the same period.
+    2. **Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.**
+    3. **Open **Performance by marketing channel** to see how paid ads compare with your other channels.**
+    4. **Compare the campaign sales against your ad spend for the same period.**
 
 === "Shopify (Legacy)"
 
-    1. In your Shopify admin, go to `Analytics → Reports`.
-    2. Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.
-    3. Open **Performance by marketing channel** to see how paid ads compare with your other channels.
-    4. Compare the campaign sales against your ad spend for the same period.
+    1. **In your Shopify admin, go to `Analytics → Reports`.**
+    2. **Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.**
+    3. **Open **Performance by marketing channel** to see how paid ads compare with your other channels.**
+    4. **Compare the campaign sales against your ad spend for the same period.**
 
 === "WooCommerce"
 
-    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
-    2. Change the primary dimension to **Session campaign**.
-    3. Add **Total revenue** and **Conversions** as columns.
-    4. Compare the campaign revenue against your ad spend for the same period.
+    1. **In GA4, go to `Reports → Acquisition → Traffic acquisition`.**
+    2. **Change the primary dimension to **Session campaign**.**
+    3. **Add **Total revenue** and **Conversions** as columns.**
+    4. **Compare the campaign revenue against your ad spend for the same period.**
 
 === "Magento"
 
-    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
-    2. Change the primary dimension to **Session campaign**.
-    3. Add **Total revenue** and **Conversions** as columns.
-    4. Compare the campaign revenue against your ad spend for the same period.
+    1. **In GA4, go to `Reports → Acquisition → Traffic acquisition`.**
+    2. **Change the primary dimension to **Session campaign**.**
+    3. **Add **Total revenue** and **Conversions** as columns.**
+    4. **Compare the campaign revenue against your ad spend for the same period.**
 
 === "BigCommerce"
 
-    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
-    2. Change the primary dimension to **Session campaign**.
-    3. Add **Total revenue** and **Conversions** as columns.
-    4. Compare the campaign revenue against your ad spend for the same period.
+    1. **In GA4, go to `Reports → Acquisition → Traffic acquisition`.**
+    2. **Change the primary dimension to **Session campaign**.**
+    3. **Add **Total revenue** and **Conversions** as columns.**
+    4. **Compare the campaign revenue against your ad spend for the same period.**
 
 === "Standalone"
 
-    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
-    2. Change the primary dimension to **Session campaign**.
-    3. Add **Total revenue** and **Conversions** as columns.
-    4. Compare the campaign revenue against your ad spend for the same period.
+    1. **In GA4, go to `Reports → Acquisition → Traffic acquisition`.**
+    2. **Change the primary dimension to **Session campaign**.**
+    3. **Add **Total revenue** and **Conversions** as columns.**
+    4. **Compare the campaign revenue against your ad spend for the same period.**
 
 At this point you know which ads make money. What you do not know is where the weaker ads lose customers. The GA4 events answer that.
 
@@ -108,11 +108,11 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     The quiz sends its own GA4 events, so no code is needed.
 
-    1. Open your quiz and go to the `Integrations` tab.
-    2. Click `Activate` in the Google Analytics section.
+    1. **Open your quiz and go to the `Integrations` tab.**
+    2. **Click `Activate` in the Google Analytics section.**
         ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
-    3. Click `Save`.
-    4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    3. **Click `Save`.**
+    4. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 
     The events you get, without writing any code:
 
@@ -139,8 +139,8 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
 
-    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
-    2. Add the following script to the page where the quiz is embedded.
+    1. **Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.**
+    2. **Add the following script to the page where the quiz is embedded.**
 
         ```html
         <script>
@@ -164,7 +164,7 @@ This makes the middle of the funnel visible: how many people who land actually s
         </script>
         ```
 
-    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    3. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 
     The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
 
@@ -179,8 +179,8 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
 
-    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
-    2. Add the following script to the page where the quiz is embedded.
+    1. **Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.**
+    2. **Add the following script to the page where the quiz is embedded.**
 
         ```html
         <script>
@@ -204,7 +204,7 @@ This makes the middle of the funnel visible: how many people who land actually s
         </script>
         ```
 
-    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    3. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 
     The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
 
@@ -219,8 +219,8 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
 
-    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
-    2. Add the following script to the page where the quiz is embedded.
+    1. **Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.**
+    2. **Add the following script to the page where the quiz is embedded.**
 
         ```html
         <script>
@@ -244,7 +244,7 @@ This makes the middle of the funnel visible: how many people who land actually s
         </script>
         ```
 
-    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    3. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 
     The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
 
@@ -259,8 +259,8 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
 
-    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
-    2. Add the following script to the page where the quiz is embedded.
+    1. **Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.**
+    2. **Add the following script to the page where the quiz is embedded.**
 
         ```html
         <script>
@@ -284,7 +284,7 @@ This makes the middle of the funnel visible: how many people who land actually s
         </script>
         ```
 
-    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    3. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 
     The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
 
@@ -299,8 +299,8 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
 
-    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
-    2. Add the following script to the page where the quiz is embedded.
+    1. **Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.**
+    2. **Add the following script to the page where the quiz is embedded.**
 
         ```html
         <script>
@@ -324,7 +324,7 @@ This makes the middle of the funnel visible: how many people who land actually s
         </script>
         ```
 
-    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    3. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 
     The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
 
@@ -571,8 +571,8 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
 === "Shopify"
 
-    1. Open the first question of your quiz and expand its `Custom JS` section.
-    2. Paste the following. No `<script>` tags.
+    1. **Open the first question of your quiz and expand its `Custom JS` section.**
+    2. **Paste the following.** No `<script>` tags.
 
         ```javascript
         const p = new URLSearchParams(window.location.search);
@@ -592,9 +592,9 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
 
-    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+    1. **Add three `Short Text` questions to your quiz to hold the source, campaign and content.** See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. **Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script.** Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
 
         ```html
         <script>
@@ -614,9 +614,9 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
 
-    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+    1. **Add three `Short Text` questions to your quiz to hold the source, campaign and content.** See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. **Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script.** Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
 
         ```html
         <script>
@@ -636,9 +636,9 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
 
-    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+    1. **Add three `Short Text` questions to your quiz to hold the source, campaign and content.** See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. **Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script.** Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
 
         ```html
         <script>
@@ -658,9 +658,9 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
 
-    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+    1. **Add three `Short Text` questions to your quiz to hold the source, campaign and content.** See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. **Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script.** Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
 
         ```html
         <script>
@@ -680,9 +680,9 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
 
-    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
-    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+    1. **Add three `Short Text` questions to your quiz to hold the source, campaign and content.** See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. **Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script.** Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
 
         ```html
         <script>

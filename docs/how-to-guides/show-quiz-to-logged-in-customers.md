@@ -70,7 +70,7 @@ Put the quiz on a page that only signed-in customers can use. A customer who alr
 
     7. **Click `Save`.**
 
-    The page then behaves like [this demo page](https://skincarequiz.myshopify.com/pages/logged-in-quiz):
+    The page then behaves like this:
 
     - A customer who is not logged in is asked to log in or sign up.
     - A customer who is logged in sees their results page, or the start of the quiz if they have not taken it yet.

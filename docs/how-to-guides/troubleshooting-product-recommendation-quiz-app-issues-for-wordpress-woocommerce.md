@@ -39,11 +39,11 @@ Work through these in order.
 
 If none of those work, these are the advanced fixes.
 
-1. Review the header settings in your caching plugin.
-2. Generate a new LetsEncrypt certificate.
-3. Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.
-4. Switch to a basic WooCommerce theme, such as Storefront, for the first connection.
-5. Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.
+1. **Review the header settings in your caching plugin.**
+2. **Generate a new LetsEncrypt certificate.**
+3. **Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.**
+4. **Switch to a basic WooCommerce theme, such as Storefront, for the first connection.**
+5. **Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.**
 
 !!! note "CAFE24 hosting"
 

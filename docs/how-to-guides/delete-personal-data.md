@@ -46,10 +46,10 @@ The quiz response itself is not deleted. Only what the customer typed goes.
 
     ## Choose how long to keep the data
 
-    1. Open the Quiz builder and go to **Settings > General**.
-    2. Find **Personal data deletion**.
-    3. Open `Delete personal data after` and choose 14, 30, 60 or 90 days.
-    4. Save the quiz.
+    1. **Open the Quiz builder and go to **Settings > General**.**
+    2. **Find **Personal data deletion**.**
+    3. **Open `Delete personal data after` and choose 14, 30, 60 or 90 days.**
+    4. **Save the quiz.**
 
     To stop the deletion later, set the field back to `Never`. Data that is already gone does not come back.
 

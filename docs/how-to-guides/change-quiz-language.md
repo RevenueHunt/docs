@@ -173,9 +173,9 @@ This article explains how to change the language a quiz is written in, and how t
 
     **How it works**
 
-    1. The theme extension reads the customer's country and language from the storefront.
-    2. When the results page loads, the app fetches the titles, descriptions, prices and URLs for that locale.
-    3. Translations made with [Translate & Adapt](https://apps.shopify.com/translate-and-adapt), or another translation app, appear in the results.
+    1. **The theme extension reads the customer's country and language from the storefront.**
+    2. **When the results page loads, the app fetches the titles, descriptions, prices and URLs for that locale.**
+    3. **Translations made with [Translate & Adapt](https://apps.shopify.com/translate-and-adapt), or another translation app, appear in the results.**
 
     **What it needs**
 

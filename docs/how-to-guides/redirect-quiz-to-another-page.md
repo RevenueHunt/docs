@@ -172,7 +172,8 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
             ```html
             <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
             ```
-      Edit the link URL and text to your liking.
+
+            Edit the link URL and text to your liking.
 
       3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 
@@ -186,7 +187,8 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
             ```html
             <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
             ```
-      Edit the link URL and text to your liking.
+
+            Edit the link URL and text to your liking.
 
       3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 
@@ -200,7 +202,8 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
             ```html
             <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
             ```
-      Edit the link URL and text to your liking.
+
+            Edit the link URL and text to your liking.
 
       3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 
@@ -214,7 +217,8 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
             ```html
             <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
             ```
-      Edit the link URL and text to your liking.
+
+            Edit the link URL and text to your liking.
 
       3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 
@@ -228,7 +232,8 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
             ```html
             <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
             ```
-      Edit the link URL and text to your liking.
+
+            Edit the link URL and text to your liking.
 
       3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 

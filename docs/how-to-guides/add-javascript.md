@@ -97,15 +97,15 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         - Customize recommendations - Modify or filter displayed products
 
 
-    1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
+    1. **Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    2. Scroll down to find the **Custom JavaScript** section and open it.
+    2. **Scroll down to `Custom JavaScript` and open it.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
 
-    3. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
+    3. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
 
         !!! tip "Run the custom code"
 
@@ -115,47 +115,47 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
             Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
-    4. Remember to click the `Save` button to update the preview/live quiz.
+    4. **Click the `Save` button** to update the preview and the live quiz.
 
 === "Shopify (Legacy)"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.**
+    2. **Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "WooCommerce"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.**
+    2. **Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "Magento"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.**
+    2. **Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "BigCommerce"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.**
+    2. **Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "Standalone"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.**
+    2. **Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 ### The question console
 
@@ -170,16 +170,16 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         - Track individual questions - Fire analytics events for specific questions
 
 
-    1. Navigate to the [Quiz builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
+    1. **Navigate to the [Quiz builder](/reference/quiz-builder/).**
+    2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
 
-    3. Scroll down to find the **Custom JavaScript** section and open it.
+    3. **Scroll down to `Custom JavaScript` and open it.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
 
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
 
         !!! tip "Run the custom code"
 
@@ -189,47 +189,47 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
             Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
-    5. Remember to click the `Save` button to update the preview/live quiz.
+    5. **Click the `Save` button** to update the preview and the live quiz.
 
 === "Shopify (Legacy)"
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Quiz Builder](/reference/quiz-builder/).**
+    2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "WooCommerce"
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Quiz Builder](/reference/quiz-builder/).**
+    2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "Magento"
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Quiz Builder](/reference/quiz-builder/).**
+    2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "BigCommerce"
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Quiz Builder](/reference/quiz-builder/).**
+    2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 === "Standalone"
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
+    1. **Navigate to the [Quiz Builder](/reference/quiz-builder/).**
+    2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
+    3. **Scroll down to `Custom JavaScript` and click `add`.**
+    4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
+    5. **Click the `Publish` button** to update the preview and the live quiz.
 
 ### A custom HTML block
 
@@ -248,9 +248,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     **On the results page**
 
-    1. Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.
-    2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.
-    3. Add your JavaScript using `<script>` tags:
+    1. **Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.**
+    2. **Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.**
+    3. **Add your JavaScript using `<script>` tags:**
 
         ```html
         <script>
@@ -259,7 +259,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         </script>
         ```
 
-    4. Use **Liquid templating** alongside JavaScript for dynamic content:
+    4. **Use **Liquid templating** alongside JavaScript for dynamic content:**
 
         ```html
         <script>
@@ -269,7 +269,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         </script>
         ```
 
-    5. Click `Save` to update the preview/live quiz.
+    5. **Click `Save` to update the preview/live quiz.**
 
     !!! tip "Run the custom code"
 
@@ -277,9 +277,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     **In a question**
 
-    1. Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.
-    2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.
-    3. Add your JavaScript using `<script>` tags:
+    1. **Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.**
+    2. **Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.**
+    3. **Add your JavaScript using `<script>` tags:**
 
         ```html
         <script>
@@ -288,7 +288,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         </script>
         ```
 
-    4. Combine JavaScript with Liquid templating:
+    4. **Combine JavaScript with Liquid templating:**
 
         ```html
         <script>
@@ -301,7 +301,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         </script>
         ```
 
-    5. Click `Save` to update the preview/live quiz.
+    5. **Click `Save` to update the preview/live quiz.**
 
     !!! tip "Run the custom code"
 
@@ -311,10 +311,10 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     **In a slot item composition**
 
-    1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
-    2. Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
-    3. Add or edit a **Custom HTML block** within a product slot.
-    4. Add JavaScript that interacts with individual product data:
+    1. **Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.**
+    2. **Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.**
+    3. **Add or edit a **Custom HTML block** within a product slot.**
+    4. **Add JavaScript that interacts with individual product data:**
 
         ```html
         <script>
@@ -332,7 +332,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
         </script>
         ```
 
-    5. Use the two Liquid variables a slot provides.
+    5. **Use the two Liquid variables a slot provides.**
 
         | Variable | What it holds |
         |---|---|
@@ -341,7 +341,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         `itemType` tells you which kind of object `item` is, so one block can render all three.
 
-    6. Click `Save` to update the preview/live quiz.
+    6. **Click `Save` to update the preview/live quiz.**
 
     !!! tip "Run the custom code"
 
@@ -397,19 +397,19 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         **Method 1: Copy from Quiz builder (Recommended)**
 
-        1. Open your quiz in the Quiz builder
-        2. Click on any question or block element
-        3. Look for the block ID in the settings panel. It is usually at the top
-        4. Click the copy icon next to the ID to copy it to your clipboard
-        5. Use this ID in your JavaScript (e.g., `quiz.answers.byBlock['your-block-id']`)
+        1. **Open your quiz in the Quiz builder**
+        2. **Click on any question or block element**
+        3. **Look for the block ID in the settings panel.** It is usually at the top
+        4. **Click the copy icon next to the ID to copy it to your clipboard**
+        5. **Use this ID in your JavaScript (e.g., `quiz.answers.byBlock['your-block-id']`)**
 
         **Method 2: Inspect Element in Browser**
 
-        1. Open your quiz in preview or on your live site
-        2. Right-click on the question or element you want to reference
-        3. Select "Inspect" or "Inspect Element" from the context menu
-        4. Look for `id` or `data-block-ref` attributes in the HTML
-        5. The value of these attributes is your block reference
+        1. **Open your quiz in preview or on your live site**
+        2. **Right-click on the question or element you want to reference**
+        3. **Select "Inspect" or "Inspect Element" from the context menu**
+        4. **Look for `id` or `data-block-ref` attributes in the HTML**
+        5. **The value of these attributes is your block reference**
 
         **Example IDs you might see:**
 
@@ -440,17 +440,17 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         **Inspect in Browser Console**
 
-        1. Open your quiz in preview or live
-        2. Press F12 to open Developer Tools → Console tab
-        3. Type `prq.quizSlides()` and press Enter
-        4. Expand the results to see all slides with their IDs
-        5. Look for the `id` property of each slide
+        1. **Open your quiz in preview or live**
+        2. **Press F12 to open Developer Tools → Console tab**
+        3. **Type `prq.quizSlides()` and press Enter**
+        4. **Expand the results to see all slides with their IDs**
+        5. **Look for the `id` property of each slide**
 
         **Method 3: Inspect Element**
 
-        1. Right-click on the question element
-        2. Select "Inspect Element"
-        3. Look for `data-slide-id` or similar attributes in the HTML
+        1. **Right-click on the question element**
+        2. **Select "Inspect Element"**
+        3. **Look for `data-slide-id` or similar attributes in the HTML**
 
     **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
 
@@ -462,17 +462,17 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         **Inspect in Browser Console**
 
-        1. Open your quiz in preview or live
-        2. Press F12 to open Developer Tools → Console tab
-        3. Type `prq.quizSlides()` and press Enter
-        4. Expand the results to see all slides with their IDs
-        5. Look for the `id` property of each slide
+        1. **Open your quiz in preview or live**
+        2. **Press F12 to open Developer Tools → Console tab**
+        3. **Type `prq.quizSlides()` and press Enter**
+        4. **Expand the results to see all slides with their IDs**
+        5. **Look for the `id` property of each slide**
 
         **Method 3: Inspect Element**
 
-        1. Right-click on the question element
-        2. Select "Inspect Element"
-        3. Look for `data-slide-id` or similar attributes in the HTML
+        1. **Right-click on the question element**
+        2. **Select "Inspect Element"**
+        3. **Look for `data-slide-id` or similar attributes in the HTML**
 
     **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
 
@@ -485,17 +485,17 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         **Inspect in Browser Console**
 
-        1. Open your quiz in preview or live
-        2. Press F12 to open Developer Tools → Console tab
-        3. Type `prq.quizSlides()` and press Enter
-        4. Expand the results to see all slides with their IDs
-        5. Look for the `id` property of each slide
+        1. **Open your quiz in preview or live**
+        2. **Press F12 to open Developer Tools → Console tab**
+        3. **Type `prq.quizSlides()` and press Enter**
+        4. **Expand the results to see all slides with their IDs**
+        5. **Look for the `id` property of each slide**
 
         **Method 3: Inspect Element**
 
-        1. Right-click on the question element
-        2. Select "Inspect Element"
-        3. Look for `data-slide-id` or similar attributes in the HTML
+        1. **Right-click on the question element**
+        2. **Select "Inspect Element"**
+        3. **Look for `data-slide-id` or similar attributes in the HTML**
 
     **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
 
@@ -508,17 +508,17 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         **Inspect in Browser Console**
 
-        1. Open your quiz in preview or live
-        2. Press F12 to open Developer Tools → Console tab
-        3. Type `prq.quizSlides()` and press Enter
-        4. Expand the results to see all slides with their IDs
-        5. Look for the `id` property of each slide
+        1. **Open your quiz in preview or live**
+        2. **Press F12 to open Developer Tools → Console tab**
+        3. **Type `prq.quizSlides()` and press Enter**
+        4. **Expand the results to see all slides with their IDs**
+        5. **Look for the `id` property of each slide**
 
         **Method 3: Inspect Element**
 
-        1. Right-click on the question element
-        2. Select "Inspect Element"
-        3. Look for `data-slide-id` or similar attributes in the HTML
+        1. **Right-click on the question element**
+        2. **Select "Inspect Element"**
+        3. **Look for `data-slide-id` or similar attributes in the HTML**
 
     **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
 
@@ -532,17 +532,17 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
         **Inspect in Browser Console**
 
-        1. Open your quiz in preview or live
-        2. Press F12 to open Developer Tools → Console tab
-        3. Type `prq.quizSlides()` and press Enter
-        4. Expand the results to see all slides with their IDs
-        5. Look for the `id` property of each slide
+        1. **Open your quiz in preview or live**
+        2. **Press F12 to open Developer Tools → Console tab**
+        3. **Type `prq.quizSlides()` and press Enter**
+        4. **Expand the results to see all slides with their IDs**
+        5. **Look for the `id` property of each slide**
 
         **Method 3: Inspect Element**
 
-        1. Right-click on the question element
-        2. Select "Inspect Element"
-        3. Look for `data-slide-id` or similar attributes in the HTML
+        1. **Right-click on the question element**
+        2. **Select "Inspect Element"**
+        3. **Look for `data-slide-id` or similar attributes in the HTML**
 
     **Example Slide IDs:** `rgiq0oE`, `0Mi2qLN`, `abc123`
 
@@ -1065,9 +1065,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     You can then:
 
-    1. Hover over these variables to inspect their values
-    2. Use the console panel while paused to evaluate expressions
-    3. Type `quiz` or `actions` in the console to examine their structure
+    1. **Hover over these variables to inspect their values**
+    2. **Use the console panel while paused to evaluate expressions**
+    3. **Type `quiz` or `actions` in the console to examine their structure**
 
     Alternatively, you can use console.log to output these objects to the console:
 
@@ -1081,9 +1081,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     To access the console in your browser:
 
-    1. Right-click anywhere on the page and select "Inspect" or press F12
-    2. Click on the "Console" tab
-    3. Look for your logged output
+    1. **Right-click anywhere on the page and select "Inspect" or press F12**
+    2. **Click on the "Console" tab**
+    3. **Look for your logged output**
 
     This will help you understand the structure of these objects so you can access the specific properties you need in your custom JavaScript.
 
@@ -1164,7 +1164,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     In the Built for Shopify version of the RevenueHunt app, you can add interactive elements to your quiz results page:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+    1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
 
 
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
@@ -1188,7 +1188,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             }
             ```
 
-    2. Or you can create the element in the Custom JavaScript section and inject it into the results page.
+    2. **Or you can create the element in the Custom JavaScript section and inject it into the results page.**
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1214,7 +1214,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     You can do it two ways:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+    1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
 
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
@@ -1235,7 +1235,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             }
             ```
 
-    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
+    2. **You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.**
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1260,7 +1260,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     You can do it two ways:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+    1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
 
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
@@ -1281,7 +1281,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             }
             ```
 
-    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
+    2. **You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.**
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1305,7 +1305,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 === "Magento"
     You can do it two ways:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+    1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
 
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
@@ -1326,7 +1326,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             }
             ```
 
-    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
+    2. **You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.**
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1351,7 +1351,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     You can do it two ways:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+    1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
 
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
@@ -1372,7 +1372,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             }
             ```
 
-    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
+    2. **You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.**
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
@@ -1396,7 +1396,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 === "Standalone"
     You can do it two ways:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+    1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
 
         !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
@@ -1417,7 +1417,7 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
             }
             ```
 
-    2. You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.
+    2. **You can also create the element in the Custom JavaScript section with an `onclick` event, then inject it.**
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 

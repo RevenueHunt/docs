@@ -26,7 +26,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/).** Click `Customize` on the quiz you want to tag.
+    1. **Open your quiz in the [Quiz builder](/reference/quiz-builder/).** Click `Customize` on the quiz you want to tag.
 
     2. **Click a choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
 
@@ -262,7 +262,6 @@ For example, contacts tagged `dry_skin` can receive a campaign for a moisturizin
 
     If the custom property `tags` contains `dry_skin`, include the contact in the segment.
 
-    ![example klaviyo segment](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
 
 The wording differs from one CRM to the next, but the shape of the rule is the same everywhere. Every profile carrying the tag joins the segment on its own, including the profiles that arrive later.
 

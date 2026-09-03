@@ -5461,7 +5461,7 @@ This article explains how to turn quiz answers into customer tags, and how to us
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/69f8f8ef88f740bf9cc644fba09ca17c?sid=1796846e-b516-42ed-b96c-e5e06250cedc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/) and click `Customize`.
+1. Open your quiz in the [Quiz builder](/reference/quiz-builder/) and click `Customize`.
 2. Click on any answer choice to open its settings panel.
 3. Find the `Customer Tags` section. Use the search bar to find existing tags or type a new name and press `Create new tag`.
 4. Add all relevant tags to the choice (a choice can carry multiple tags).
@@ -6249,16 +6249,16 @@ Reach for Liquid when the value is known before the page loads, such as a produc
     - Display calculations - Show results based on all collected answers (BMI, skin type, etc.)
     - Conversion tracking - Fire analytics events with complete quiz data
     - Customize recommendations - Modify or filter displayed products
-1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
+1. **Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
-2. Scroll down to find the **Custom JavaScript** section and open it.
+2. **Scroll down to `Custom JavaScript` and open it.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
-3. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
+3. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
     !!! tip "Run the custom code"
         `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
     !!! tip "Get help with custom JavaScript"
         Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
-4. Remember to click the `Save` button to update the preview/live quiz.
+4. **Click the `Save` button** to update the preview and the live quiz.
 ??? info "Use JavaScript on Questions when you want to:"
     - Control quiz flow - Auto-advance, skip questions, or go back based on answers
     - Validate inputs - Check if answers meet certain criteria before allowing progression
@@ -6266,17 +6266,17 @@ Reach for Liquid when the value is known before the page loads, such as a produc
     - Real-time interactions - Update the page as users select answers
     - Set calculated values - Compute values to use in later questions
     - Track individual questions - Fire analytics events for specific questions
-1. Navigate to the [Quiz builder](/reference/quiz-builder/).
-2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
+1. **Navigate to the [Quiz builder](/reference/quiz-builder/).**
+2. **Open [question settings](/reference/quiz-builder/questions/#question-settings).**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
-3. Scroll down to find the **Custom JavaScript** section and open it.
+3. **Scroll down to `Custom JavaScript` and open it.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
-4. Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.
+4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
     !!! tip "Run the custom code"
         `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
     !!! tip "Get help with custom JavaScript"
         Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
-5. Remember to click the `Save` button to update the preview/live quiz.
+5. **Click the `Save` button** to update the preview and the live quiz.
 You can also add custom JavaScript directly in HTML blocks throughout your quiz. These blocks support both JavaScript and Liquid templating for dynamic content.
 ??? info "When a Custom HTML block is the right place"
     - You want JavaScript to run in a **specific location** in your layout
@@ -6285,16 +6285,16 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     - You are adding **a small script for one context**, such as tracking a single element
     - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
 **On the results page**
-1. Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.
-2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.
-3. Add your JavaScript using `<script>` tags:
+1. **Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.**
+2. **Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.**
+3. **Add your JavaScript using `<script>` tags:**
     ```html
     <script>
     // Your JavaScript code here
     console.log('Quiz completed with result:', quiz.currentResult.ref);
     </script>
     ```
-4. Use **Liquid templating** alongside JavaScript for dynamic content:
+4. **Use **Liquid templating** alongside JavaScript for dynamic content:**
     ```html
     <script>
     // Access quiz data with Liquid
@@ -6302,20 +6302,20 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     console.log('Welcome', userName);
     </script>
     ```
-5. Click `Save` to update the preview/live quiz.
+5. **Click `Save` to update the preview/live quiz.**
 !!! tip "Run the custom code"
     `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
 **In a question**
-1. Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.
-2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.
-3. Add your JavaScript using `<script>` tags:
+1. **Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.**
+2. **Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.**
+3. **Add your JavaScript using `<script>` tags:**
     ```html
     <script>
     // JavaScript that runs when this question is displayed
     console.log('Current question:', quiz.currentQuestion.ref);
     </script>
     ```
-4. Combine JavaScript with Liquid templating:
+4. **Combine JavaScript with Liquid templating:**
     ```html
     <script>
     // Dynamic content based on previous answers
@@ -6326,14 +6326,14 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     }
     </script>
     ```
-5. Click `Save` to update the preview/live quiz.
+5. **Click `Save` to update the preview/live quiz.**
 !!! tip "Run the custom code"
     `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
 **In a slot item composition**
-1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
-2. Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
-3. Add or edit a **Custom HTML block** within a product slot.
-4. Add JavaScript that interacts with individual product data:
+1. **Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.**
+2. **Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.**
+3. **Add or edit a **Custom HTML block** within a product slot.**
+4. **Add JavaScript that interacts with individual product data:**
     ```html
     <script>
     // Access the current product in the slot
@@ -6347,29 +6347,29 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     }
     </script>
     ```
-5. Use the two Liquid variables a slot provides.
+5. **Use the two Liquid variables a slot provides.**
     | Variable | What it holds |
     |---|---|
     | `item` | The Shopify product, variant or collection object |
     | `itemType` | `'product'`, `'variant'` or `'collection'` |
     `itemType` tells you which kind of object `item` is, so one block can render all three.
-6. Click `Save` to update the preview/live quiz.
+6. **Click `Save` to update the preview/live quiz.**
 !!! tip "Run the custom code"
     `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
 Custom JavaScript needs the IDs, also called references, of your questions and blocks. They are how the code reaches a specific answer or element.
 !!! info "How to Find Block and Question IDs"
     **Method 1: Copy from Quiz builder (Recommended)**
-    1. Open your quiz in the Quiz builder
-    2. Click on any question or block element
-    3. Look for the block ID in the settings panel. It is usually at the top
-    4. Click the copy icon next to the ID to copy it to your clipboard
-    5. Use this ID in your JavaScript (e.g., `quiz.answers.byBlock['your-block-id']`)
+    1. **Open your quiz in the Quiz builder**
+    2. **Click on any question or block element**
+    3. **Look for the block ID in the settings panel.** It is usually at the top
+    4. **Click the copy icon next to the ID to copy it to your clipboard**
+    5. **Use this ID in your JavaScript (e.g., `quiz.answers.byBlock['your-block-id']`)**
     **Method 2: Inspect Element in Browser**
-    1. Open your quiz in preview or on your live site
-    2. Right-click on the question or element you want to reference
-    3. Select "Inspect" or "Inspect Element" from the context menu
-    4. Look for `id` or `data-block-ref` attributes in the HTML
-    5. The value of these attributes is your block reference
+    1. **Open your quiz in preview or on your live site**
+    2. **Right-click on the question or element you want to reference**
+    3. **Select "Inspect" or "Inspect Element" from the context menu**
+    4. **Look for `id` or `data-block-ref` attributes in the HTML**
+    5. **The value of these attributes is your block reference**
     **Example IDs you might see:**
     - `qbc-skintype` (question block choice)
     - `qbi-email` (question block input)
@@ -6483,9 +6483,9 @@ debugger;
 Open the quiz in your browser with Developer Tools open (F12). Execution pauses at the debugger statement, and the Sources tab shows the `quiz` and `actions` parameters:
 ![debugger statement in browser](/images/how_to_shopifyv2_debugger_browser.png)
 You can then:
-1. Hover over these variables to inspect their values
-2. Use the console panel while paused to evaluate expressions
-3. Type `quiz` or `actions` in the console to examine their structure
+1. **Hover over these variables to inspect their values**
+2. **Use the console panel while paused to evaluate expressions**
+3. **Type `quiz` or `actions` in the console to examine their structure**
 Alternatively, you can use console.log to output these objects to the console:
 ```javascript
 console.log('Quiz context:', quiz);
@@ -6495,14 +6495,14 @@ console.log('All answers by block:', quiz.answers.byBlock);
 console.log('Variable scores:', quiz.variables.scores);
 ```
 To access the console in your browser:
-1. Right-click anywhere on the page and select "Inspect" or press F12
-2. Click on the "Console" tab
-3. Look for your logged output
+1. **Right-click anywhere on the page and select "Inspect" or press F12**
+2. **Click on the "Console" tab**
+3. **Look for your logged output**
 This will help you understand the structure of these objects so you can access the specific properties you need in your custom JavaScript.
 !!! tip "Finding Block References"
     For how to find a block reference, see [Find block and question IDs](#find-block-and-question-ids).
 In the Built for Shopify version of the RevenueHunt app, you can add interactive elements to your quiz results page:
-1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+1. **Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.**
     !!! example "Add the `onclick` functionality via the Custom JavaScript."
         ```html
         <!-- In Result page in a HTML block -->
@@ -6520,7 +6520,7 @@ In the Built for Shopify version of the RevenueHunt app, you can add interactive
             window.location.href = window.location.href.split('#')[0] + '#quiz';
         }
         ```
-2. Or you can create the element in the Custom JavaScript section and inject it into the results page.
+2. **Or you can create the element in the Custom JavaScript section and inject it into the results page.**
     !!! example "Create the element with an `onclick` event first and then inject it in the results page."
         ```javascript
         /* In the Custom JavaScript section */
@@ -7209,12 +7209,12 @@ The trigger runs on a Shopify customer record, not on an anonymous quiz session.
 For more on customer syncing, including how marketing consent is recorded, see [how to send quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/).
 ## Create the workflow
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=MPGpEBEql9qPmdQ9&amp;start=132" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. [Open Shopify Flow](https://admin.shopify.com/apps/flow).
-2. Select **Create workflow**.
-3. Select **Select a trigger**.
-4. Choose **Product Recommendation Quiz** and then **Quiz Completed**.
-5. Add the conditions and actions you want to run after a quiz completion.
-6. Select **Turn on workflow**.
+1. **[Open Shopify Flow](https://admin.shopify.com/apps/flow).**
+2. **Select **Create workflow**.**
+3. **Select **Select a trigger**.**
+4. **Choose **Product Recommendation Quiz** and then **Quiz Completed**.**
+5. **Add the conditions and actions you want to run after a quiz completion.**
+6. **Select **Turn on workflow**.**
 The trigger carries the Shopify customer along with the full quiz completion. See [What data is sent](#what-data-is-sent) for every available field.
 !!! tip
     If you are not sure how to assemble a workflow, describe what you want in plain language. Shopify Sidekick can draft it for you in Flow.
@@ -7269,17 +7269,17 @@ A list of the calculated [variable](/tutorials/conditional-logic/) scores.
 ## Example 1: email your team after every quiz completion
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=DWLjT4VJK--eRFyR&amp;start=188" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 This is the fastest way to prove the chain works. You control both ends, and you see the quiz data arrive in your inbox.
-1. Create a workflow with the **Quiz Completed** trigger.
-2. Under the trigger, select the **+** button and choose **Action**.
-3. Search for `Send internal email` and select it.
-4. In **Email address**, type the address that should receive the notification, for example your own. To notify several people, separate the addresses with commas.
+1. **Create a workflow with the **Quiz Completed** trigger.**
+2. **Under the trigger, select the **+** button and choose **Action**.**
+3. **Search for `Send internal email` and select it.**
+4. **In **Email address**, type the address that should receive the notification, for example your own.** To notify several people, separate the addresses with commas.
     !!! warning
         The recipient must be a fixed address. Shopify does not let you insert a variable here, so this action cannot email the customer. It is built for notifying staff.
-5. In **Subject**, type the static part of your subject line, for example `Quiz completed by`.
-6. Place your cursor where the dynamic part goes, select **Add variable**, and pick the field you want. To identify the customer and the quiz, insert the customer's first name and the quiz name.
-7. In **Message**, write the body the same way, mixing text with **Add variable**. The quiz completion data is worth using here. Insert the product recommendations, so the email lists the recommended titles with their price or URL.
-8. Select **Turn on workflow**.
-9. Complete your published quiz with a real email address and check your inbox.
+5. **In **Subject**, type the static part of your subject line, for example `Quiz completed by`.**
+6. **Place your cursor where the dynamic part goes, select **Add variable**, and pick the field you want.** To identify the customer and the quiz, insert the customer's first name and the quiz name.
+7. **In **Message**, write the body the same way, mixing text with **Add variable**.** The quiz completion data is worth using here. Insert the product recommendations, so the email lists the recommended titles with their price or URL.
+8. **Select **Turn on workflow**.**
+9. **Complete your published quiz with a real email address and check your inbox.**
 The result is an email such as *"Skincare Quiz completed by Anna"*, listing the products the quiz recommended to her.
 !!! tip
     Formatting in the message body is up to you. Add line breaks and labels around the variables so the email stays readable once several fields are filled in.
@@ -7288,25 +7288,25 @@ The result is an email such as *"Skincare Quiz completed by Anna"*, listing the 
 Most workflows should not treat every customer the same. Use a condition to split the workflow on what they answered, then run a different action on each side.
 The cleanest thing to branch on is a [customer tag](/reference/quiz-builder/customer-tags/), because you decide in the quiz builder exactly which answers produce which tag.
 **First, tag the choices you want to branch on**
-1. Open the RevenueHunt app and select your quiz.
-2. Click the choice you want to tag to open its settings.
-3. Under [Customer tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one. For example, tag the dry skin choice with `dry skin`.
-4. Repeat for the other choices you want to identify later.
-5. Add a common tag such as `quiz` to every choice in one of the questions, so that every customer carries it.
-6. Click `Save`.
+1. **Open the RevenueHunt app and select your quiz.**
+2. **Click the choice you want to tag to open its settings.**
+3. **Under [Customer tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one.** For example, tag the dry skin choice with `dry skin`.
+4. **Repeat for the other choices you want to identify later.**
+5. **Add a common tag such as `quiz` to every choice in one of the questions, so that every customer carries it.**
+6. **Click `Save`.**
 Every tag attached to the choices a customer picks is written to their Shopify customer profile, and arrives with the trigger.
 **Then build the condition**
-1. Under the trigger, select the **+** button and choose **Condition**.
-2. Select **Add variable**.
-3. Search for `tags` and select the tags field belonging to the quiz completion. Flow lists variables in dot notation, so read the full path before selecting, since several unrelated `tags` fields exist.
-4. Because tags are a list, set the list operator to **At least one of**.
-5. Leave the field operator as **Equal to**. Type the tag exactly as you named it in the quiz builder, for example `dry skin`.
+1. **Under the trigger, select the **+** button and choose **Condition**.**
+2. **Select **Add variable**.**
+3. **Search for `tags` and select the tags field belonging to the quiz completion.** Flow lists variables in dot notation, so read the full path before selecting, since several unrelated `tags` fields exist.
+4. **Because tags are a list, set the list operator to **At least one of**.**
+5. **Leave the field operator as **Equal to**.** Type the tag exactly as you named it in the quiz builder, for example `dry skin`.
     !!! note
         Tags are sent to Shopify with no prefix, so the value here is the same string you typed into the quiz builder. Match the spelling and the spacing.
-6. Check the plain language summary Flow displays above the condition. It should read as the rule you intended.
-7. Attach an action to the **True** branch, for example an email about your dry skin range.
-8. Attach a different action to the **False** branch, or leave it empty to end the workflow there.
-9. Select **Turn on workflow**.
+6. **Check the plain language summary Flow displays above the condition.** It should read as the rule you intended.
+7. **Attach an action to the **True** branch, for example an email about your dry skin range.**
+8. **Attach a different action to the **False** branch, or leave it empty to end the workflow there.**
+9. **Select **Turn on workflow**.**
 To test both sides, complete the quiz twice, once choosing the answer that carries the tag and once choosing an answer that does not.
 ## Send a marketing email to the customer
 **Send internal email** cannot email the customer who took the quiz. That needs a marketing email action, which Shopify Flow does not provide. Your email app contributes it, so the name you search for depends on your setup, for example Shopify Messaging, Klaviyo or Seguno.
@@ -7315,10 +7315,10 @@ To test both sides, complete the quiz twice, once choosing the answer that carri
 !!! info "Shopify's own email automations moved"
     Since 24 March 2026, marketing automations that use Shopify Messaging emails are managed in the **Shopify Messaging** app, under **Apps > Messaging > Automations**. Automations whose marketing action comes from another app stay in Shopify Flow. Existing automations kept working through the move, so nothing needs rebuilding.
 To add one:
-1. Under the trigger or on a condition branch, select the **+** button and choose **Action**.
-2. Search for the sending action provided by your email app.
-3. Select the template or campaign you want to send.
-4. Select **Turn on workflow**.
+1. **Under the trigger or on a condition branch, select the **+** button and choose **Action**.**
+2. **Search for the sending action provided by your email app.**
+3. **Select the template or campaign you want to send.**
+4. **Select **Turn on workflow**.**
 ## Other actions worth combining with the trigger
 Everything below is built into Shopify Flow, so it is available without installing anything else.
 | Action | Typical use with quiz data |
@@ -7340,9 +7340,9 @@ Return to **RevenueHunt > App settings > Shopify Customers** and find the **Shop
 !!! note
     Shopify may take a short time to report a workflow status change. The lifecycle timestamp shows when RevenueHunt last received an update from Shopify.
 ## Test the workflow
-1. Complete the published quiz with an email address.
-2. In Shopify Flow, open the workflow and review its recent runs.
-3. Confirm that the expected conditions and actions completed successfully.
+1. **Complete the published quiz with an email address.**
+2. **In Shopify Flow, open the workflow and review its recent runs.**
+3. **Confirm that the expected conditions and actions completed successfully.**
 If no run appears, a setup step is usually the cause. Check in this order: the email question was filled in during the test, customer syncing is on, and the workflow is turned on. Then complete the quiz again.
 !!! note
     The **Quiz Completed** trigger is different from workflows that start with Shopify's **Customer created** trigger and filter by customer tags. Use **Quiz Completed** when you want the workflow to run directly from the Product Recommendation Quiz completion event.
@@ -7493,9 +7493,9 @@ Create one quiz per language first, then assign them in [Set up multilingual qui
 The results page shows translated product titles, descriptions and prices, picked from the customer's market and language.
 This runs on the `@inContext` directive of the Shopify Storefront API. When a customer opens the quiz in a given market and language, the app asks Shopify for the product data in that locale.
 **How it works**
-1. The theme extension reads the customer's country and language from the storefront.
-2. When the results page loads, the app fetches the titles, descriptions, prices and URLs for that locale.
-3. Translations made with [Translate & Adapt](https://apps.shopify.com/translate-and-adapt), or another translation app, appear in the results.
+1. **The theme extension reads the customer's country and language from the storefront.**
+2. **When the results page loads, the app fetches the titles, descriptions, prices and URLs for that locale.**
+3. **Translations made with [Translate & Adapt](https://apps.shopify.com/translate-and-adapt), or another translation app, appear in the results.**
 **What it needs**
 - A translation app installed and configured with your product translations.
 - [Shopify Markets](/how-to-guides/show-quiz-based-on-markets/) set up with the languages and regions you sell in.
@@ -7715,11 +7715,11 @@ icon: material/pencil
 
 Building a quiz takes five stages, from an empty quiz to one running on your website.
 
-1. [Create a new quiz](#create-a-new-quiz)
-2. [Add the questions](#add-the-questions)
-3. [Set up the recommendations](#set-up-the-recommendations)
-4. [Preview the quiz](#preview-the-quiz)
-5. [Put the quiz on your website](#put-the-quiz-on-your-website)
+1. **[Create a new quiz](#create-a-new-quiz)**
+2. **[Add the questions](#add-the-questions)**
+3. **[Set up the recommendations](#set-up-the-recommendations)**
+4. **[Preview the quiz](#preview-the-quiz)**
+5. **[Put the quiz on your website](#put-the-quiz-on-your-website)**
 
 !!! tip "Watch it first"
 
@@ -8050,10 +8050,10 @@ Everything the customer typed into the quiz:
 - The date of the response, the order it produced, and any customer tags
 A quiz built only from choices loses nothing, because a choice records which option the customer picked, not typed text.
 ## Choose how long to keep the data
-1. Open the Quiz builder and go to **Settings > General**.
-2. Find **Personal data deletion**.
-3. Open `Delete personal data after` and choose 14, 30, 60 or 90 days.
-4. Save the quiz.
+1. **Open the Quiz builder and go to **Settings > General**.**
+2. **Find **Personal data deletion**.**
+3. **Open `Delete personal data after` and choose 14, 30, 60 or 90 days.**
+4. **Save the quiz.**
 To stop the deletion later, set the field back to `Never`. Data that is already gone does not come back.
 !!! info "The period applies to one quiz"
     Each quiz keeps its own period. Set it on every quiz that collects personal data.
@@ -8923,7 +8923,7 @@ This article explains how to connect the Meta Pixel to your quiz, and which even
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=to_CqE57FATovIPS" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 1. **Create a Meta Pixel, if you do not have one.** See the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142), then add it to your website.
-2. **In your Shopify admin, go to `Settings > Customer events` and check the Meta Pixel is there.** If it is not, add it with the [Facebook and Instagram app](https://apps.shopify.com/facebook-and-instagram-meta-app).
+2. **In your Shopify admin, go to `Settings > Customer events` and check the Meta Pixel is there.** If it is not, add it with the [Facebook and Instagram app](https://apps.shopify.com/facebook).
 3. **Open the Facebook and Instagram app, go to `Settings`, and set `Shared data` to `Maximum`.** Advanced and custom events are not sent at a lower setting.
 4. **Choose or create the data set that will receive the events.**
     ![Shared data and data set in the Facebook and Instagram app settings](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
@@ -11501,8 +11501,8 @@ This article explains the six emails you can send after a quiz, what starts each
 
 --- Shopify Specific Content ---
 
-1. Your quiz has an [email question](/reference/quiz-builder/questions/#email-address) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.
-2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/) so answers arrive on the profile as customer tags.
+1. **Your quiz has an [email question](/reference/quiz-builder/questions/#email-address) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.**
+2. **You have [tagged your quiz answers](/how-to-guides/use-customer-tags/) so answers arrive on the profile as customer tags.**
 3. **Your Shopify store is connected to Klaviyo** through Klaviyo's native Shopify integration, so events like `Started Checkout`, `Placed Order` and `Viewed Product` reach Klaviyo. Without it, the other four flows have nothing to start them.
 Your quiz sends these custom properties:
 - `ANSWER_BY_BLOCK-<blockRef>-<QuizID>`: the answer to one question. Overwritten on each retake.
@@ -11512,9 +11512,9 @@ Your quiz sends these custom properties:
 - `RECOMMENDATIONS_BY_SLOT-<QuizID>`: recommended products (title, price, image, URL). JSON object, appended on each retake.
 - `RESPONSE_ID-<QuizID>`: the unique response ID. Use it to link back to the results page.
 - `QUIZ_NAME-<QuizID>`: the quiz name. Handy in subject lines.
-1. In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.
-2. Set the definition to `Properties about someone`, choose `ANSWERS_BY_BLOCK-<QuizID>`, and set the condition to `is set`.
-3. Save. A new customer joins automatically.
+1. **In Klaviyo go to `Audience > Lists & Segments` and click `Create New > Segment`.**
+2. **Set the definition to `Properties about someone`, choose `ANSWERS_BY_BLOCK-<QuizID>`, and set the condition to `is set`.**
+3. **Save.** A new customer joins automatically.
 !!! tip "Segment on a specific answer or tag"
     To target some of those customers rather than all of them, filter on a specific value instead, for example `TAG-Color-Treated-<QuizID>` `is set`, or `ANSWER_BY_BLOCK-<blockRef>-<QuizID>` `equals` `Oily`. That is how you build a version of any flow below for one group of customers.
 - **Answer:** `{{ person|lookup:'ANSWER_BY_BLOCK-<blockRef>-<QuizID>' }}`
@@ -13518,7 +13518,7 @@ The Built for Shopify version of the RevenueHunt app integrates directly with Za
         Explore various options available in Zapier to utilize the quiz data effectively.
         ![zapier integrations](https://loom.com/i/116796e9e4aa4cba96bb555a3b890beb?workflows_screenshot=true)
     When you have finished, **Publish** the Zap.
-9. To see the active Zaps connected to your quiz:
+9. **To see the active Zaps connected to your quiz:**
     - Navigate to the app's [`Integrations`](/reference/quiz-builder/connect-integrations/) page.
     - Find the `Zapier` section.
     - Here, you will find a list of all active Zaps associated with the quiz.
@@ -14134,9 +14134,9 @@ There are five ways to build one. They all count upvotes the same way, and diffe
 
 An **upvote** is the signal a choice gives a product. This is how an upvote becomes a recommendation:
 
-1. You link products, variants or collections to each choice.
-2. A customer picks that choice, and every linked item gets one upvote.
-3. The results page lists them, highest upvote count first.
+1. **You link products, variants or collections to each choice.**
+2. **A customer picks that choice, and every linked item gets one upvote.**
+3. **The results page lists them, highest upvote count first.**
 
 !!! info "An empty results page has two causes"
 
@@ -14941,9 +14941,9 @@ Show a different quiz to customers in different markets and languages. You build
     With Shopify Markets configured, the results page shows translated product titles and descriptions, and localized prices, for the customer's own market and language. This runs through Shopify's Storefront API.
     Translations you made with the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app appear automatically. Nothing extra is needed in the RevenueHunt app.
 !!! tip "Preview the results page as a market"
-    1. Open the [Quiz builder](/reference/quiz-builder/).
-    2. Click `Preview` in the top-right corner and go through to the results page.
-    3. Pick the market and language to preview it as.
+    1. **Open the [Quiz builder](/reference/quiz-builder/).**
+    2. **Click `Preview` in the top-right corner and go through to the results page.**
+    3. **Pick the market and language to preview it as.**
     ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 
 
@@ -15160,11 +15160,11 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 | `utm_content` | The specific creative | `video_before_after` |
 | `utm_term` | The keyword, search ads only | `hair+loss+treatment` |
 
-1. Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.
-2. Set the website URL to your quiz landing page.
-3. Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.
-4. Copy the generated URL and paste it into the ad.
-5. Repeat for every creative, changing only `utm_content`.
+1. **Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.**
+2. **Set the website URL to your quiz landing page.**
+3. **Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.**
+4. **Copy the generated URL and paste it into the ad.**
+5. **Repeat for every creative, changing only `utm_content`.**
 
 !!! warning "One campaign per name, one creative per content"
 
@@ -15222,17 +15222,17 @@ This article explains how to follow a customer from an ad through the quiz to a 
 
 --- Shopify Specific Content ---
 
-1. In your Shopify admin, go to `Analytics → Reports`. Both reports live under the `Marketing` category.
+1. **In your Shopify admin, go to `Analytics → Reports`.** Both reports live under the `Marketing` category.
     ![how to find the shopify marketing reports for utm campaigns](/images/how_to_track_ad_funnel_shopify_reports.png)
-2. Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.
-3. Open **Performance by marketing channel** to see how paid ads compare with your other channels.
-4. Compare the campaign sales against your ad spend for the same period.
+2. **Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.**
+3. **Open **Performance by marketing channel** to see how paid ads compare with your other channels.**
+4. **Compare the campaign sales against your ad spend for the same period.**
 The quiz sends its own GA4 events, so no code is needed.
-1. Open your quiz and go to the `Integrations` tab.
-2. Click `Activate` in the Google Analytics section.
+1. **Open your quiz and go to the `Integrations` tab.**
+2. **Click `Activate` in the Google Analytics section.**
     ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
-3. Click `Save`.
-4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+3. **Click `Save`.**
+4. **Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.**
 The events you get, without writing any code:
 | Step in the funnel | Event name |
 |---|---|
@@ -15268,8 +15268,8 @@ The events you get, without writing any code:
 6. **Apply the steps.** Click **Apply** in the top right of the editor.
 7. **Split the funnel by campaign.** Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel then shows a row per campaign instead of one combined total.
 8. **Switch on Show elapsed time.** It is also in **Tab Settings**. It adds the average time between steps, so you see where customers stall as well as where they leave.
-1. Open the first question of your quiz and expand its `Custom JS` section.
-2. Paste the following. No `<script>` tags.
+1. **Open the first question of your quiz and expand its `Custom JS` section.**
+2. **Paste the following.** No `<script>` tags.
     ```javascript
     const p = new URLSearchParams(window.location.search);
     actions.setAnswers({
@@ -15433,11 +15433,11 @@ Work through these in order.
 
 If none of those work, these are the advanced fixes.
 
-1. Review the header settings in your caching plugin.
-2. Generate a new LetsEncrypt certificate.
-3. Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.
-4. Switch to a basic WooCommerce theme, such as Storefront, for the first connection.
-5. Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.
+1. **Review the header settings in your caching plugin.**
+2. **Generate a new LetsEncrypt certificate.**
+3. **Point a subdomain straight at your server, bypassing the Cloudflare CDN proxy.**
+4. **Switch to a basic WooCommerce theme, such as Storefront, for the first connection.**
+5. **Add `SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1` to your `.htaccess` file.**
 
 !!! note "CAFE24 hosting"
 
@@ -15886,7 +15886,6 @@ For example, contacts tagged `dry_skin` can receive a campaign for a moisturizin
 
     If the custom property `tags` contains `dry_skin`, include the contact in the segment.
 
-    ![example klaviyo segment](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
 
 The wording differs from one CRM to the next, but the shape of the rule is the same everywhere. Every profile carrying the tag joins the segment on its own, including the profiles that arrive later.
 
@@ -15922,7 +15921,7 @@ This article explains how to add customer tags to a quiz, and how to use them to
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/).** Click `Customize` on the quiz you want to tag.
+1. **Open your quiz in the [Quiz builder](/reference/quiz-builder/).** Click `Customize` on the quiz you want to tag.
 2. **Click a choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
 3. **Find the `Customer Tags` section.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)

@@ -7,11 +7,11 @@ icon: material/pencil
 
 Building a quiz takes five stages, from an empty quiz to one running on your website.
 
-1. [Create a new quiz](#create-a-new-quiz)
-2. [Add the questions](#add-the-questions)
-3. [Set up the recommendations](#set-up-the-recommendations)
-4. [Preview the quiz](#preview-the-quiz)
-5. [Put the quiz on your website](#put-the-quiz-on-your-website)
+1. **[Create a new quiz](#create-a-new-quiz)**
+2. **[Add the questions](#add-the-questions)**
+3. **[Set up the recommendations](#set-up-the-recommendations)**
+4. **[Preview the quiz](#preview-the-quiz)**
+5. **[Put the quiz on your website](#put-the-quiz-on-your-website)**
 
 !!! tip "Watch it first"
 

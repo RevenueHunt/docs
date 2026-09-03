@@ -23,7 +23,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
     1. **Create a Meta Pixel, if you do not have one.** See the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142), then add it to your website.
 
-    2. **In your Shopify admin, go to `Settings > Customer events` and check the Meta Pixel is there.** If it is not, add it with the [Facebook and Instagram app](https://apps.shopify.com/facebook-and-instagram-meta-app).
+    2. **In your Shopify admin, go to `Settings > Customer events` and check the Meta Pixel is there.** If it is not, add it with the [Facebook and Instagram app](https://apps.shopify.com/facebook).
 
     3. **Open the Facebook and Instagram app, go to `Settings`, and set `Shared data` to `Maximum`.** Advanced and custom events are not sent at a lower setting.
 
@@ -55,7 +55,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
     1. **Create a Meta Pixel, if you do not have one.** See the [Meta Pixel setup documentation](https://www.facebook.com/business/help/952192354843755?id=1205376682832142), then add it to your website.
 
-    2. **In your Shopify admin, go to `Settings > Customer events` and check the Meta Pixel is there.** If it is not, add it with the [Facebook and Instagram app](https://apps.shopify.com/facebook-and-instagram-meta-app).
+    2. **In your Shopify admin, go to `Settings > Customer events` and check the Meta Pixel is there.** If it is not, add it with the [Facebook and Instagram app](https://apps.shopify.com/facebook).
 
     3. **Open the Facebook and Instagram app, go to `Settings`, and set `Shared data` to `Maximum`.** Advanced and custom events are not sent at a lower setting.
 
@@ -89,7 +89,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
     3. **Enter your `Meta Pixel ID`.**
 
-    4. **Open the [Meta Events Manager](https://business.facebook.com/events/manager/).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
+    4. **Open the [Meta Events Manager](https://business.facebook.com/events_manager2).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
 
         ![Quiz events arriving in the Meta Events Manager](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
@@ -105,7 +105,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
     3. **Enter your `Meta Pixel ID`.**
 
-    4. **Open the [Meta Events Manager](https://business.facebook.com/events/manager/).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
+    4. **Open the [Meta Events Manager](https://business.facebook.com/events_manager2).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
 
         ![Quiz events arriving in the Meta Events Manager](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
@@ -121,7 +121,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
     3. **Enter your `Meta Pixel ID`.**
 
-    4. **Open the [Meta Events Manager](https://business.facebook.com/events/manager/).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
+    4. **Open the [Meta Events Manager](https://business.facebook.com/events_manager2).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
 
         ![Quiz events arriving in the Meta Events Manager](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
@@ -137,7 +137,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
     3. **Enter your `Meta Pixel ID`.**
 
-    4. **Open the [Meta Events Manager](https://business.facebook.com/events/manager/).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
+    4. **Open the [Meta Events Manager](https://business.facebook.com/events_manager2).** Click `Test events`, enter your website URL, then take the quiz on your site. Events such as `ViewContent`, `Lead` and `RetakeQuiz` should appear as you go.
 
         ![Quiz events arriving in the Meta Events Manager](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 

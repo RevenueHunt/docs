@@ -34,12 +34,12 @@ What the automation can read, and which trigger starts it, depends on the versio
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=MPGpEBEql9qPmdQ9&amp;start=132" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. [Open Shopify Flow](https://admin.shopify.com/apps/flow).
-    2. Select **Create workflow**.
-    3. Select **Select a trigger**.
-    4. Choose **Product Recommendation Quiz** and then **Quiz Completed**.
-    5. Add the conditions and actions you want to run after a quiz completion.
-    6. Select **Turn on workflow**.
+    1. **[Open Shopify Flow](https://admin.shopify.com/apps/flow).**
+    2. **Select **Create workflow**.**
+    3. **Select **Select a trigger**.**
+    4. **Choose **Product Recommendation Quiz** and then **Quiz Completed**.**
+    5. **Add the conditions and actions you want to run after a quiz completion.**
+    6. **Select **Turn on workflow**.**
 
     The trigger carries the Shopify customer along with the full quiz completion. See [What data is sent](#what-data-is-sent) for every available field.
 
@@ -119,20 +119,20 @@ What the automation can read, and which trigger starts it, depends on the versio
 
     This is the fastest way to prove the chain works. You control both ends, and you see the quiz data arrive in your inbox.
 
-    1. Create a workflow with the **Quiz Completed** trigger.
-    2. Under the trigger, select the **+** button and choose **Action**.
-    3. Search for `Send internal email` and select it.
-    4. In **Email address**, type the address that should receive the notification, for example your own. To notify several people, separate the addresses with commas.
+    1. **Create a workflow with the **Quiz Completed** trigger.**
+    2. **Under the trigger, select the **+** button and choose **Action**.**
+    3. **Search for `Send internal email` and select it.**
+    4. **In **Email address**, type the address that should receive the notification, for example your own.** To notify several people, separate the addresses with commas.
 
         !!! warning
 
             The recipient must be a fixed address. Shopify does not let you insert a variable here, so this action cannot email the customer. It is built for notifying staff.
 
-    5. In **Subject**, type the static part of your subject line, for example `Quiz completed by`.
-    6. Place your cursor where the dynamic part goes, select **Add variable**, and pick the field you want. To identify the customer and the quiz, insert the customer's first name and the quiz name.
-    7. In **Message**, write the body the same way, mixing text with **Add variable**. The quiz completion data is worth using here. Insert the product recommendations, so the email lists the recommended titles with their price or URL.
-    8. Select **Turn on workflow**.
-    9. Complete your published quiz with a real email address and check your inbox.
+    5. **In **Subject**, type the static part of your subject line, for example `Quiz completed by`.**
+    6. **Place your cursor where the dynamic part goes, select **Add variable**, and pick the field you want.** To identify the customer and the quiz, insert the customer's first name and the quiz name.
+    7. **In **Message**, write the body the same way, mixing text with **Add variable**.** The quiz completion data is worth using here. Insert the product recommendations, so the email lists the recommended titles with their price or URL.
+    8. **Select **Turn on workflow**.**
+    9. **Complete your published quiz with a real email address and check your inbox.**
 
     The result is an email such as *"Skincare Quiz completed by Anna"*, listing the products the quiz recommended to her.
 
@@ -150,31 +150,31 @@ What the automation can read, and which trigger starts it, depends on the versio
 
     **First, tag the choices you want to branch on**
 
-    1. Open the RevenueHunt app and select your quiz.
-    2. Click the choice you want to tag to open its settings.
-    3. Under [Customer tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one. For example, tag the dry skin choice with `dry skin`.
-    4. Repeat for the other choices you want to identify later.
-    5. Add a common tag such as `quiz` to every choice in one of the questions, so that every customer carries it.
-    6. Click `Save`.
+    1. **Open the RevenueHunt app and select your quiz.**
+    2. **Click the choice you want to tag to open its settings.**
+    3. **Under [Customer tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one.** For example, tag the dry skin choice with `dry skin`.
+    4. **Repeat for the other choices you want to identify later.**
+    5. **Add a common tag such as `quiz` to every choice in one of the questions, so that every customer carries it.**
+    6. **Click `Save`.**
 
     Every tag attached to the choices a customer picks is written to their Shopify customer profile, and arrives with the trigger.
 
     **Then build the condition**
 
-    1. Under the trigger, select the **+** button and choose **Condition**.
-    2. Select **Add variable**.
-    3. Search for `tags` and select the tags field belonging to the quiz completion. Flow lists variables in dot notation, so read the full path before selecting, since several unrelated `tags` fields exist.
-    4. Because tags are a list, set the list operator to **At least one of**.
-    5. Leave the field operator as **Equal to**. Type the tag exactly as you named it in the quiz builder, for example `dry skin`.
+    1. **Under the trigger, select the **+** button and choose **Condition**.**
+    2. **Select **Add variable**.**
+    3. **Search for `tags` and select the tags field belonging to the quiz completion.** Flow lists variables in dot notation, so read the full path before selecting, since several unrelated `tags` fields exist.
+    4. **Because tags are a list, set the list operator to **At least one of**.**
+    5. **Leave the field operator as **Equal to**.** Type the tag exactly as you named it in the quiz builder, for example `dry skin`.
 
         !!! note
 
             Tags are sent to Shopify with no prefix, so the value here is the same string you typed into the quiz builder. Match the spelling and the spacing.
 
-    6. Check the plain language summary Flow displays above the condition. It should read as the rule you intended.
-    7. Attach an action to the **True** branch, for example an email about your dry skin range.
-    8. Attach a different action to the **False** branch, or leave it empty to end the workflow there.
-    9. Select **Turn on workflow**.
+    6. **Check the plain language summary Flow displays above the condition.** It should read as the rule you intended.
+    7. **Attach an action to the **True** branch, for example an email about your dry skin range.**
+    8. **Attach a different action to the **False** branch, or leave it empty to end the workflow there.**
+    9. **Select **Turn on workflow**.**
 
     To test both sides, complete the quiz twice, once choosing the answer that carries the tag and once choosing an answer that does not.
 
@@ -192,10 +192,10 @@ What the automation can read, and which trigger starts it, depends on the versio
 
     To add one:
 
-    1. Under the trigger or on a condition branch, select the **+** button and choose **Action**.
-    2. Search for the sending action provided by your email app.
-    3. Select the template or campaign you want to send.
-    4. Select **Turn on workflow**.
+    1. **Under the trigger or on a condition branch, select the **+** button and choose **Action**.**
+    2. **Search for the sending action provided by your email app.**
+    3. **Select the template or campaign you want to send.**
+    4. **Select **Turn on workflow**.**
 
     ## Other actions worth combining with the trigger
 
@@ -230,9 +230,9 @@ What the automation can read, and which trigger starts it, depends on the versio
 
     ## Test the workflow
 
-    1. Complete the published quiz with an email address.
-    2. In Shopify Flow, open the workflow and review its recent runs.
-    3. Confirm that the expected conditions and actions completed successfully.
+    1. **Complete the published quiz with an email address.**
+    2. **In Shopify Flow, open the workflow and review its recent runs.**
+    3. **Confirm that the expected conditions and actions completed successfully.**
 
     If no run appears, a setup step is usually the cause. Check in this order: the email question was filled in during the test, customer syncing is on, and the workflow is turned on. Then complete the quiz again.
 
