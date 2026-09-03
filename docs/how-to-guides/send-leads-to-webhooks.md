@@ -221,6 +221,10 @@ This article explains how to link your quiz to a custom webhook, so another syst
         ```
         These values will appear in `answersByBlock` in your webhook payload.
 
+    !!! info "Variant details and custom HTML are optional"
+
+        The `variants` array below is sent only when `Include product variants` is on. Custom HTML result content needs `Include custom HTML`. Both settings live in [Quiz settings > General](/reference/quiz-builder/quiz-settings/), and both are off by default, because large payloads may not be accepted.
+
     ??? example "Sample JSON payload for a skincare quiz"
 
         ```json

@@ -15,7 +15,7 @@ The quiz response itself is not deleted. Only what the customer typed goes.
 
     !!! warning "Support has to turn this on for you"
 
-        Personal data deletion stays off until you ask for it. The deletion is permanent, and data can't be restored.
+        Personal data deletion stays off until you ask for it. The deletion is permanent, and data cannot be restored.
 
         Support turns it on only after the store owner asks. That request is the record that you intended the deletion, and it keeps a permanent setting from going live by accident.
 
@@ -46,9 +46,14 @@ The quiz response itself is not deleted. Only what the customer typed goes.
 
     ## Choose how long to keep the data
 
-    1. **Open the Quiz builder and go to **Settings > General**.**
-    2. **Find **Personal data deletion**.**
-    3. **Open `Delete personal data after` and choose 14, 30, 60 or 90 days.**
+    1. **Open the Quiz builder and go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).**
+
+    2. **Find `Personal data deletion`.**
+
+        ![Personal data deletion in Quiz settings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+
+    3. **Open `Delete personal data after` and choose 14, 30, 60 or 90 days.** The field stays greyed out until support turns the setting on for your shop.
+
     4. **Save the quiz.**
 
     To stop the deletion later, set the field back to `Never`. Data that is already gone does not come back.

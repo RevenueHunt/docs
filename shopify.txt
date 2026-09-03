@@ -8029,7 +8029,7 @@ This article explains how to have the app delete the personal data in old quiz r
 --- Shopify Specific Content ---
 
 !!! warning "Support has to turn this on for you"
-    Personal data deletion stays off until you ask for it. The deletion is permanent, and data can't be restored.
+    Personal data deletion stays off until you ask for it. The deletion is permanent, and data cannot be restored.
     Support turns it on only after the store owner asks. That request is the record that you intended the deletion, and it keeps a permanent setting from going live by accident.
     To activate this setting, please [contact support](/how-to-guides/contact-customer-support/).
 ## What is deleted
@@ -8050,9 +8050,10 @@ Everything the customer typed into the quiz:
 - The date of the response, the order it produced, and any customer tags
 A quiz built only from choices loses nothing, because a choice records which option the customer picked, not typed text.
 ## Choose how long to keep the data
-1. **Open the Quiz builder and go to **Settings > General**.**
-2. **Find **Personal data deletion**.**
-3. **Open `Delete personal data after` and choose 14, 30, 60 or 90 days.**
+1. **Open the Quiz builder and go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).**
+2. **Find `Personal data deletion`.**
+    ![Personal data deletion in Quiz settings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+3. **Open `Delete personal data after` and choose 14, 30, 60 or 90 days.** The field stays greyed out until support turns the setting on for your shop.
 4. **Save the quiz.**
 To stop the deletion later, set the field back to `Never`. Data that is already gone does not come back.
 !!! info "The period applies to one quiz"
@@ -12852,6 +12853,8 @@ The data is sent as a JSON payload in a POST request, so another system can read
     });
     ```
     These values will appear in `answersByBlock` in your webhook payload.
+!!! info "Variant details and custom HTML are optional"
+    The `variants` array below is sent only when `Include product variants` is on. Custom HTML result content needs `Include custom HTML`. Both settings live in [Quiz settings > General](/reference/quiz-builder/quiz-settings/), and both are off by default, because large payloads may not be accepted.
 ??? example "Sample JSON payload for a skincare quiz"
     ```json
     {
@@ -19632,11 +19635,11 @@ In Quiz settings you can change the quiz language and currency, and edit button 
 `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what is different.
 **Quiz accessibility settings**
 `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
+**Data sent to integrations**
+`Include product variants` - Sends product variant details to Klaviyo, Zapier, Webhooks and other integrations. This setting is turned off by default. Turn it on only if an integration specifically needs variant details. Most integrations do not need this, and large payloads may not be accepted.
+`Include custom HTML` - Sends the custom HTML content on your results page to Klaviyo, Zapier, Webhooks and other integrations. This setting is turned off by default. Turn it on only if an integration specifically needs that content. Most integrations do not need this, and large payloads may not be accepted. When the setting is off, the app replaces the custom HTML with a short redacted message.
 **Personal data deletion**
 `Delete personal data after` - Choose how long to keep what customers typed into this quiz. This covers an email address, a name, a phone number, short text, long text, a number and a date. At the next cleanup the app permanently deletes those values from every response older than the period you chose. **This will affect ALL the responses of that quiz, even the ones collected before you turn the setting on.** The choices customers picked, the recommended products and your quiz analytics stay. Support has to turn on [personal data deletion](/how-to-guides/delete-personal-data/) for your shop first, because the deletion cannot be undone.
-**Quiz payload settings**
-`Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations do not need this, and large payloads may not be accepted.
-`Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations do not need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
 **Quiz migration**
 `Export quiz to another store` - Click `Copy quiz code` to generate a JSON code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.

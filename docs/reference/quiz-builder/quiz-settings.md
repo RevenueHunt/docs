@@ -57,15 +57,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
 
+    **Data sent to integrations**
+
+    `Include product variants` - Sends product variant details to Klaviyo, Zapier, Webhooks and other integrations. This setting is turned off by default. Turn it on only if an integration specifically needs variant details. Most integrations do not need this, and large payloads may not be accepted.
+
+    `Include custom HTML` - Sends the custom HTML content on your results page to Klaviyo, Zapier, Webhooks and other integrations. This setting is turned off by default. Turn it on only if an integration specifically needs that content. Most integrations do not need this, and large payloads may not be accepted. When the setting is off, the app replaces the custom HTML with a short redacted message.
+
     **Personal data deletion**
 
     `Delete personal data after` - Choose how long to keep what customers typed into this quiz. This covers an email address, a name, a phone number, short text, long text, a number and a date. At the next cleanup the app permanently deletes those values from every response older than the period you chose. **This will affect ALL the responses of that quiz, even the ones collected before you turn the setting on.** The choices customers picked, the recommended products and your quiz analytics stay. Support has to turn on [personal data deletion](/how-to-guides/delete-personal-data/) for your shop first, because the deletion cannot be undone.
-
-    **Quiz payload settings**
-
-    `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations do not need this, and large payloads may not be accepted.
-
-    `Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations do not need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
 
     **Quiz migration**
 
