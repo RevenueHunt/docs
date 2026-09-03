@@ -92,9 +92,9 @@ icon: material/scoreboard-outline
 
     !!! tip "What to do with the scores and variables"
 
-        - [how to use display logic](/how-to-guides/use-display-logic/)
-        - [how to set up a personality type quiz](#winning-variable-quiz)
-        - [how to set up a scoring quiz](#scoring-quiz-with-one-results-page)
+        - [How to use display logic](/how-to-guides/use-display-logic/)
+        - [How to set up a personality type quiz](#winning-variable-quiz)
+        - [How to set up a scoring quiz](#scoring-quiz-with-one-results-page)
 
 === "Shopify (Legacy)"
 

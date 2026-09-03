@@ -358,8 +358,8 @@ You build one results page that holds the content for every outcome. Display log
 
     !!! tip "Quizzes built on scores"
 
-        - [how to set up a personality type quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
-        - [how to set up a scoring quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
+        - [How to set up a personality type quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
+        - [How to set up a scoring quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
 
 === "Shopify (Legacy)"
 

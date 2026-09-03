@@ -22,7 +22,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     !!! info "Where to read the setup"
 
-        - [how to use display logic](/how-to-guides/use-display-logic/) covers showing and hiding sections.
+        - [How to use display logic](/how-to-guides/use-display-logic/) covers showing and hiding sections.
         - [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) decides the outcome from the variable chosen most often.
         - [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) decides it from a total score.
 
