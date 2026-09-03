@@ -15,11 +15,11 @@ The quiz response itself is not deleted. Only what the customer typed goes.
 
     !!! warning "Support has to turn this on for you"
 
-        Personal data deletion stays off until you ask for it. The deletion is permanent, and nothing restores the data afterwards.
+        Personal data deletion stays off until you ask for it. The deletion is permanent, and data can't be restored.
 
         Support turns it on only after the store owner asks. That request is the record that you intended the deletion, and it keeps a permanent setting from going live by accident.
 
-        To ask for it, see [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+        To activate this setting, please [contact support](/how-to-guides/contact-customer-support/).
 
     ## What is deleted
 
