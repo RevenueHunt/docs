@@ -502,7 +502,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the [personal data deletion setting](/how-to-guides/delete-personal-data/). It permanently deletes what customers typed into the quiz, but it does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -516,7 +516,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, see `Anonymize quiz responses after 30 days` in [App Settings](/reference/app-settings/). Removing personal data does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -530,7 +530,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, see `Anonymize quiz responses after 30 days` in [App Settings](/reference/app-settings/). Removing personal data does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -544,7 +544,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, see `Anonymize quiz responses after 30 days` in [App Settings](/reference/app-settings/). Removing personal data does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -558,7 +558,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, see `Anonymize quiz responses after 30 days` in [App Settings](/reference/app-settings/). Removing personal data does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -572,7 +572,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, see `Anonymize quiz responses after 30 days` in [App Settings](/reference/app-settings/). Removing personal data does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 

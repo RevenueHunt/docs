@@ -57,6 +57,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
 
+    **Personal data deletion**
+
+    `Delete personal data after` - Choose how long to keep what customers typed into this quiz. This covers an email address, a name, a phone number, short text, long text, a number and a date. At the next cleanup the app permanently deletes those values from every response older than the period you chose. This includes responses collected before you turned the setting on. The choices customers picked, the recommended products and your quiz analytics stay. Support has to turn this setting on for your shop first, because the deletion cannot be undone. See [How to Delete Personal Data from Quiz Responses](/how-to-guides/delete-personal-data/).
+
     **Quiz payload settings**
 
     `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations do not need this, and large payloads may not be accepted.
