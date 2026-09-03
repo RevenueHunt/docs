@@ -80,3 +80,6 @@ Fix a quiz that is not behaving.
 ## Need more help?
 
 Every feature in the app has a guide in this section. For anything the guides do not answer, see [how to contact customer support](/how-to-guides/contact-customer-support/).
+
+---
+This page lists every how-to guide, grouped by the task you are trying to finish.

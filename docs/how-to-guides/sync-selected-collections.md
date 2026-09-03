@@ -15,7 +15,7 @@ icon: material/folder-sync-outline
 
     A catalog above roughly 5,000 items does not have to go into the quiz whole. The `collections-first` feature syncs only the collections you pick.
 
-    That keeps the quiz fast, and keeps a large catalog from running into technical trouble.
+    That keeps the quiz fast, and keeps a large catalog out of technical trouble.
 
     !!! info "Ask support to switch it on"
 
@@ -25,7 +25,7 @@ icon: material/folder-sync-outline
 
     A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature syncs only the categories you pick.
 
-    That keeps the quiz fast, and keeps a large catalog from running into technical trouble.
+    That keeps the quiz fast, and keeps a large catalog out of technical trouble.
 
     !!! info "Ask support to switch it on"
 

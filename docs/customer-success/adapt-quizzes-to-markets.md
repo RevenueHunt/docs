@@ -245,4 +245,7 @@ Yes. Shopify Markets converts and formats prices in the shopper's local currency
 - [Customer Tags: How to Build a Segmented Email Funnel](/customer-success/use-customer-tags-in-quiz/)
 - [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
-- [How to add product metafields](/how-to-guides/add-product-metafields/)
+- [How to Add Product Metafields](/how-to-guides/add-product-metafields/)
+
+---
+This article explains what changes when you sell in several markets, and how to take one quiz to a localized setup.

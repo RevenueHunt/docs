@@ -445,3 +445,6 @@ Give each choice a number of points, then build one results page per outcome. Ju
         This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 ---
+
+---
+This article explains how to score the answers in a quiz, and how to turn those scores into a results page.

@@ -130,6 +130,12 @@ IDIOM = [
     (r'\bheavy lifting\b', 'the work'),
     (r'\bboils? down to\b', 'comes to'),
     (r'\bon the fly\b', 'as you go'),
+    # these three reached the guides anyway. hit this was introduced by a
+    # cleanup pass, which replaced a correct formal sentence with it, so the
+    # rule has to be mechanical rather than left to judgement.
+    (r'\bhit (?:this|that|it)\b', 'if this happens'),
+    (r'\brun(?:s|ning)? into\b', 'have, or meet'),
+    (r'\bgood to go\b', 'ready, or within the limit'),
 ]
 
 RETIRED_TERMS = [
@@ -161,7 +167,7 @@ FEATURE_TITLECASE = re.compile(
 
 MARKETING = ['powerful', 'seamless', 'seamlessly', 'effortless', 'amazing',
              'perfect', 'comprehensive', 'unlock', 'robust', 'streamline',
-             'supercharge']
+             'supercharge', 'simply']
 
 # section 12 warns that a bare word boundary misses inflected forms, and it
 # did: streamlines, streamlined and perfectly all passed while streamline was
@@ -170,7 +176,7 @@ MARKETING = ['powerful', 'seamless', 'seamlessly', 'effortless', 'amazing',
 # unlock is the exception and matches exactly. It has a literal meaning in
 # these docs, because a quiz is locked when the plan limit is reached and
 # unlocked again when the responses reset.
-MARKETING_EXACT = {'unlock'}
+MARKETING_EXACT = {'unlock', 'simply'}
 
 # filler immediately before an imperative verb, anywhere on the line. the
 # earlier version only matched the first word of a list item, which missed
@@ -190,6 +196,7 @@ PROPER_PHRASES = [
     'Quiz Copilot', 'Meta Pixel', 'TikTok Pixel', 'Catalog Lookup Tag',
     'Storefront API', 'Content Dynamic Source', 'Information Recall',
     'Customer Tags', 'Shopify Customers', 'Success Checklist',
+    'Office 365', 'Google Workspace', 'Microsoft 365',
 ]
 
 PROPER = set("""shopify woocommerce magento bigcommerce standalone klaviyo mailchimp

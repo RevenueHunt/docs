@@ -357,3 +357,6 @@ What the automation can read, and which trigger starts it, depends on the versio
         There is no equivalent automation tool in this version.
 
         To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
+
+---
+This article explains how to start a Shopify Flow workflow when a customer finishes your quiz.

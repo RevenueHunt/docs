@@ -20,42 +20,29 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i5eUNaSdET4?si=0WMwUXM-CTzcqHkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the app settings**: go to your quiz dashboard and open [App settings](/reference/app-settings/).
-    2. **Open the SMTP tab**: select the [SMTP tab](/reference/app-settings/#smtp).
-    3. **Enter your SMTP details**: fill in your SMTP server details.
+    1. **Open [App settings](/reference/app-settings/) from the side menu.**
+    2. **Open [`SMTP settings`](/reference/app-settings/#smtp).**
+    3. **Fill in your SMTP details.**
 
-        SMTP credentials differ by email provider. To find yours:
+        ![The SMTP settings in App settings](/images/manual_shopifyV2_appsettings_smtp.png)
 
-        - Search your email provider's documentation for `SMTP`.
-        - See [Specific SMTP configurations](#specific-smtp-configurations) for the common email providers.
-        - Contact your email provider's support team for assistance.
+        - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+        - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+        - `SMTP Username`: usually the email address your provider gave you.
+        - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+        - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
+        - `SMTP Authentication`: pick your provider's method from the dropdown, usually `plain`.
+        - `Encryption`: choose `STARTTLS` or `SSL/TLS`, whichever your provider asks for. STARTTLS usually runs on port 587, and SSL/TLS on port 465.
 
-        Fill in the following fields:
+        Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 
-        ![how to set up smtp](/images/manual_shopifyV2_appsettings_smtp.png)
+    4. **Click `Test connection`.** The app sends a test email and reports `SMTP connection successful`, with the subject, the recipient and the timestamp.
 
-        - **SMTP From**: enter your sender name, such as your store name, and the email address your provider gave you.
-        - **SMTP Server**: copy the server address from your provider's configuration. It usually looks like `smtp.something`.
-        - **SMTP Username**: the email address your provider gave you.
-        - **SMTP Password**: the password your provider gave you.
-        - **SMTP Port**: the port number from your provider's configuration.
-        - **SMTP Authentication**: select `Plain`.
-        - **Security Settings**: adjust these to your provider's requirements. Uncheck anything it does not need.
+        ![A successful SMTP connection test](/images/how_to_shopifyv2_smtp_success.png)
 
-        !!! note
+        If the test fails, check every credential again, the port first. See [Troubleshooting](#troubleshooting-common-smtp-connection-issues).
 
-            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
-
-    4. **Test and activate**: click `Save` to test the connection.
-
-        If the connection fails, check every credential again, the SMTP port first.
-
-        !!! tip
-            If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).
-
-        From then on, emails leave your own server rather than the RevenueHunt one.
-
-        ![how to set up smtp success](/images/how_to_shopifyv2_smtp_success.png)
+    5. **Tick `Enable sending emails using your own SMTP server`.** The checkbox stays greyed out until a test passes. From then on, both quiz emails leave your own server.
 
 
 
@@ -75,21 +62,13 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
         ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
 
-        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-        - **Username**: Use the username provided, usually your email address.
-        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
+        - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+        - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+        - `SMTP Username`: usually the email address your provider gave you.
+        - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+        - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
 
-        SMTP settings vary by email provider. To find your settings:
-
-        - Search your email provider's documentation for `SMTP`.
-        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-        - Contact your email provider's support team for assistance.
-
-        !!! note
-
-            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+        Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 
     4. **Test and activate**: click `test connection & activate`. If the test passes, your emails leave from your own server from then on.
 
@@ -111,21 +90,13 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
         ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
 
-        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-        - **Username**: Use the username provided, usually your email address.
-        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
+        - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+        - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+        - `SMTP Username`: usually the email address your provider gave you.
+        - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+        - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
 
-        SMTP settings vary by email provider. To find your settings:
-
-        - Search your email provider's documentation for `SMTP`.
-        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-        - Contact your email provider's support team for assistance.
-
-        !!! note
-
-            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+        Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 
     4. **Test and activate**: click `test connection & activate`. If the test passes, your emails leave from your own server from then on.
 
@@ -147,21 +118,13 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
         ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
 
-        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-        - **Username**: Use the username provided, usually your email address.
-        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
+        - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+        - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+        - `SMTP Username`: usually the email address your provider gave you.
+        - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+        - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
 
-        SMTP settings vary by email provider. To find your settings:
-
-        - Search your email provider's documentation for `SMTP`.
-        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-        - Contact your email provider's support team for assistance.
-
-        !!! note
-
-            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+        Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 
     4. **Test and activate**: click `test connection & activate`. If the test passes, your emails leave from your own server from then on.
 
@@ -183,21 +146,13 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
         ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
 
-        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-        - **Username**: Use the username provided, usually your email address.
-        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
+        - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+        - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+        - `SMTP Username`: usually the email address your provider gave you.
+        - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+        - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
 
-        SMTP settings vary by email provider. To find your settings:
-
-        - Search your email provider's documentation for `SMTP`.
-        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-        - Contact your email provider's support team for assistance.
-
-        !!! note
-
-            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+        Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 
     4. **Test and activate**: click `test connection & activate`. If the test passes, your emails leave from your own server from then on.
 
@@ -220,21 +175,13 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
         ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
 
-        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-        - **Username**: Use the username provided, usually your email address.
-        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
+        - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+        - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+        - `SMTP Username`: usually the email address your provider gave you.
+        - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+        - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
 
-        SMTP settings vary by email provider. To find your settings:
-
-        - Search your email provider's documentation for `SMTP`.
-        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-        - Contact your email provider's support team for assistance.
-
-        !!! note
-
-            If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+        Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 
     4. **Test and activate**: click `test connection & activate`. If the test passes, your emails leave from your own server from then on.
 
@@ -245,35 +192,31 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
 ## Specific SMTP configurations
 
-### Outlook office 365 users
+### Outlook and Office 365
 
 To find credentials to fill in please check [this Microsoft documentation](https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365).
 
-For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
+Office 365 blocks the app until you allow its IP address, `3.14.55.225`.
 
-- **Whitelisting Steps**:
-    - Sign into Office 365, select `Admin`, then `Exchange` under `Admin Centers`.
-    - In `Protection`, choose `Connection Filter` and edit with the pencil icon.
-    - Add IP `3.14.55.225` to the `IP Allow List` and enable the `Enable Safe List`.
+1. **Sign in to Office 365, select `Admin`, then `Exchange` under `Admin Centers`.**
+2. **Open `Protection`, choose `Connection Filter`, and click the pencil icon to edit it.**
+3. **Add `3.14.55.225` to the `IP Allow List`, then turn on `Enable Safe List`.**
 
-### Google workspace users
+### Google Workspace
 
 
 For the credentials to enter, see [this Google documentation](https://support.google.com/a/answer/176600?hl=en).
 
 ![how to set up smtp google](/images/how_to_smtp_googleworkspaceinstructions.png)
 
-- **Enable 2-Step Verification** (2FA): Required for SMTP connections.
-    - [Enable 2FA](https://support.google.com/accounts/answer/185839)
-- **Generate App Password** for SMTP:
-    - Navigate to [App Passwords](https://myaccount.google.com/apppasswords).
-    - Select `Mail` and `Other`, then generate a password to use in the SMTP settings.
+1. **[Turn on 2-Step Verification](https://support.google.com/accounts/answer/185839).** Google requires it before it will issue an app password.
+2. **Open [App Passwords](https://myaccount.google.com/apppasswords), select `Mail` and `Other`, and generate a password.**
+3. **Use that password as your `SMTP Password`**, not your normal Google password.
 
 ## Troubleshooting: common SMTP connection issues
 
-- **Test your credentials with a third-party tool**: check your SMTP settings with a tool such as [GMass SMTP Test](https://www.gmass.co/smtp-test). Credentials that work there work in the RevenueHunt app too. If they fail, ask your developer or your SMTP provider.
-- **SMTP settings not working**: check them with a third-party tool. If they still fail, confirm them with your SMTP provider.
-- **Office 365 is blocking the email**: ask support to allow the IP `3.14.55.225`.
+- **Test your credentials with a third-party tool**: check your SMTP settings with a tool such as [GMass SMTP Test](https://www.gmass.co/smtp-test). Credentials that work there work in the RevenueHunt app too. If they fail there, ask your developer or your SMTP provider.
+- **Office 365 is blocking the email**: add `3.14.55.225` to the `IP Allow List`. See [Outlook and Office 365](#outlook-and-office-365).
 - **Google Workspace SMTP fails**: check that 2FA is on and that you used the app password. Port 587 or 465 should work. If neither does, try again or check Google's support pages.
 
 

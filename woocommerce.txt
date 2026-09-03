@@ -255,9 +255,12 @@ Yes. Shopify Markets converts and formats prices in the shopper's local currency
 **Related articles:**
 
 - [Customer Tags: How to Build a Segmented Email Funnel](/customer-success/use-customer-tags-in-quiz/)
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
 - [How to Add Product Metafields](/how-to-guides/add-product-metafields/)
+
+---
+This article explains what changes when you sell in several markets, and how to take one quiz to a localized setup.
 
 
 
@@ -347,7 +350,7 @@ Once you've settled when and whether, a few wording and design choices decide ho
 ![A consent question offering a discount code in exchange for opting in](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-discount3.webp){ width="450" }
 
 ??? info "How to add a discount"
-    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).
+    See: [How to add a discount to your quiz](/how-to-guides/add-discount/).
 
 **Be transparent about what you'll use the data for.** A single line explaining the why measurably reduces hesitation, especially in privacy-conscious markets. Something like "we use your answers to personalize your recommendations and send the occasional update, and we never share your data" does the job.
 
@@ -356,7 +359,7 @@ Once you've settled when and whether, a few wording and design choices decide ho
 Whichever choices you make, the email you capture doesn't arrive alone. It lands in your CRM attached to the shopper's quiz answers and [customer tags](/customer-success/use-customer-tags-in-quiz/), which is what powers segmented follow-up. Segmented campaigns earn far more per recipient than generic sends, and about 1 in 5 quiz orders land more than 30 days after the quiz, so the consent moment is really where that long revenue tail begins.
 
 !!! tip "Treat SMS consent separately"
-    Phone and SMS consent carry stricter rules than email under regulations like the TCPA, so ask for it explicitly rather than bundling it into a single checkbox. For the full setup, including the marketing checkmark, see [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+    Phone and SMS consent carry stricter rules than email under regulations like the TCPA, so ask for it explicitly rather than bundling it into a single checkbox. For the full setup, including the marketing checkmark, see [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
 ---
 
@@ -389,7 +392,7 @@ They still see their recommendation. The opt-out applies to your marketing email
 
 ---
 
-This article covers the strategy. For the click-by-click setup, see [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+This article covers the strategy. For the click-by-click setup, see [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
 
 
@@ -611,10 +614,13 @@ Need help getting your quiz content right? Our [support team](/how-to-guides/con
 
 **Related articles:**
 
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
-- [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
-- [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
+- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
+- [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
+- [How to build a sales funnel](/customer-success/build-sales-funnel/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains what actually drives quiz revenue, and why design is rarely the part that decides it.
 
 
 
@@ -972,7 +978,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 !!! info
 
-    You don’t need to rebuild anything from scratch: **you can import an existing Legacy quiz into the Built for Shopify app with the `Migrate from Legacy App` option**, which copies over your questions, choices, results pages, logic, and design. See [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) for the steps and the few settings that need a manual follow-up. You can also switch between the Legacy and Built for Shopify versions at any time.
+    You don’t need to rebuild anything from scratch: **you can import an existing Legacy quiz into the Built for Shopify app with the `Migrate from Legacy App` option**, which copies over your questions, choices, results pages, logic, and design. See [how to migrate a legacy quiz](/how-to-guides/migrate-shopify-legacy-quiz/) for the steps and the few settings that need a manual follow-up. You can also switch between the Legacy and Built for Shopify versions at any time.
 
 1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
 2. Grant permissions to connect our app to your Shopify.
@@ -987,7 +993,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 !!! info "Support"
 
-    If you run into problems or notice missing features, please [report them to our support team](/how-to-guides/contact-customer-support/).
+    If you have problems or notice missing features, [report them to the RevenueHunt support team](/how-to-guides/contact-customer-support/).
 
 ---
 This article explains what is the new Built for Shopify version of the RevenueHunt app and how to switch between the Legacy and Built for Shopify versions of the RevenueHunt app.
@@ -1372,6 +1378,9 @@ No. Many top-converting quizzes use entirely text-based choices, because relevan
 
 One or two in total, or one product per slot for routines. The fewer choices on the results page, the faster the shopper decides and the more likely they buy.
 
+---
+This article explains what high-converting quizzes do, in priority order, so you can build one that sells.
+
 
 
 
@@ -1419,35 +1428,35 @@ This is the highest-ROI section. The average merchant publishes their quiz in on
 ![Automatic popup settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
 ??? info "How to set up an automatic popup"
-    See: [How to Publish Your Quiz as an Automatic Popup](/how-to-guides/publish-quiz-automatic-popup/)
+    See: [How to publish your quiz as an automatic popup](/how-to-guides/publish-quiz-automatic-popup/)
 
 **Add a floating chat button.** A floating button follows customers as they browse your store - always visible, never in the way. Customers who aren't ready to take the quiz when they first see it can come back to it when they are. This is especially useful for stores with long collection pages or product descriptions.
 
 ![Floating chat button settings](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
 ??? info "How to add a floating button"
-    See: [How to Publish Your Quiz as a Chat Button](/how-to-guides/publish-quiz-chat-button/)
+    See: [How to publish your quiz as a chat button](/how-to-guides/publish-quiz-chat-button/)
 
 **Embed the quiz inline on your homepage.** An inline quiz block on your homepage puts the quiz in front of every visitor who lands on your site. This works especially well as a hero section replacement or as a prominent section below the fold. It signals to customers that personalization is a core part of your brand experience.
 
 ![Inline quiz embed settings](/images/manual_shopifyV2_quizbuilder_share_publish_inlinepublish.png)
 
 ??? info "How to embed the quiz inline"
-    See: [How to Publish Your Quiz Inline](/how-to-guides/publish-quiz-inline/)
+    See: [How to publish your quiz inline](/how-to-guides/publish-quiz-inline/)
 
 **Add the quiz to your navigation menu.** One of the most visited elements on any store is the top navigation. A quiz link in the nav bar - labelled something like *"Find Your Match"* or *"Skin Quiz"* rather than just *"Quiz"* - gets seen by every single visitor. It also signals that you take personalization seriously.
 
 ![Quiz link in the navigation menu](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Screenshot-2022-03-31-155833-1024x536.webp){ width="560" }
 
 ??? info "How to add a quiz link to your menu"
-    See: [How to Publish Your Quiz as a Menu Link](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu)
+    See: [How to publish your quiz as a menu link](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu)
 
 **Add a banner or button CTA.** A well-placed banner or button - on your homepage, collection pages, or product pages - invites customers who weren't looking for the quiz to take it anyway. Frame it around the outcome: *"Not sure which formula is right for you? Take the 2-minute quiz."*
 
 ![A banner CTA inviting shoppers to take the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/PIC1-UN_DID_Blurred-1024x536.webp){ width="560" }
 
 ??? info "How to add a banner button"
-    See: [How to Publish Your Quiz as a Button](/how-to-guides/publish-quiz-link/#link-popup-as-take-the-quiz-button)
+    See: [How to publish your quiz as a button](/how-to-guides/publish-quiz-link/#link-popup-as-take-the-quiz-button)
 
 ---
 
@@ -1477,7 +1486,7 @@ A strong welcome screen does three things:
 - Mentions any reward (*"Complete the quiz and get 10% off"*)
 
 ??? tip "How to add a welcome screen"
-    In the Quiz Builder, click `+ Add question` and choose `Welcome Message` under **Messages**. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/) for the full walkthrough.
+    In the Quiz Builder, click `+ Add question` and choose `Welcome Message` under **Messages**. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/) for the full walkthrough.
 
 **Offer a discount for completing.** Nothing motivates someone to finish what they started like a reward at the end. Offer a discount code to everyone who completes the quiz and mention it upfront on the welcome screen.
 
@@ -1485,7 +1494,7 @@ A strong welcome screen does three things:
     *"Answer 8 questions and get 10% off your personalized recommendation"* converts better than *"Here's 10% off!"* on the results page. The promise of a reward reduces abandonment throughout the quiz, not just at the end.
 
 ??? info "How to add a discount code"
-    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/)
+    See: [How to add a discount to your quiz](/how-to-guides/add-discount/)
 
 **Keep the quiz short.** Every question you add is a chance for a customer to abandon. Our platform data shows the optimal length is **6-12 questions**, with 7-8 being the most common for top-converting quizzes. Start shorter than you think you need to. If the data shows customers are finishing easily and conversions are high, you can experiment with adding a question or two.
 
@@ -1509,14 +1518,14 @@ This is where most of the growth is. On-site placement captures the visitors you
 ![A paid ad driving traffic to the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Pink-Modern-Valentines-Day-Special-Price-Promotion-Facebook-Ad-1024x536.webp){ width="560" }
 
 ??? info "How to track quiz revenue from ads"
-    See: [How to Track Your Quiz Revenue](/how-to-guides/track-quiz-revenue/)
+    See: [How to track your quiz revenue](/how-to-guides/track-quiz-revenue/)
 
 **Email your subscriber list.** Your existing subscribers are your warmest audience. Send a dedicated email introducing the quiz and what customers will get from it. Include the quiz as a link in your newsletter template so it gets ongoing exposure with every send.
 
 ![An email newsletter promoting the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Pink-Minimalist-Fashion-Email-Newsletter-724x1024.webp){ width="320" }
 
 ??? info "How to share a quiz link in email"
-    See: [How to Share a Direct Link to Your Quiz](/how-to-guides/publish-quiz-external-link/)
+    See: [How to share a direct link to your quiz](/how-to-guides/publish-quiz-external-link/)
 
 **Share on social media.** Post about the quiz on your social channels with a direct link. Short-form video content (Reels, TikToks) that walks through the quiz or shows the results in action tends to perform well. Stories and swipe-up links work for driving direct traffic on Instagram.
 
@@ -1525,7 +1534,7 @@ Use a direct link to the quiz so followers can access it without navigating thro
 ![A social media post promoting the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Inked1C7F6839-801C-4815-8A57-206256180FAA_LI-601x1024.webp){ width="320" }
 
 ??? info "How to get a direct quiz link for social"
-    See: [How to Share Your Quiz as an External Link](/how-to-guides/publish-quiz-external-link/)
+    See: [How to share your quiz as an external link](/how-to-guides/publish-quiz-external-link/)
 
 **Partner with influencers.** Influencers who are relevant to your product category can drive significant quiz traffic with an authentic recommendation. Provide them with a direct quiz link (optionally with UTM parameters so you can track the traffic source) and let them frame the quiz in their own voice.
 
@@ -1538,14 +1547,14 @@ This works especially well for quizzes that deliver a genuinely interesting resu
 **Embed it in a blog post.** If you publish content on your blog, embed the quiz inline within a relevant article. A skincare quiz embedded in a *"How to build a skincare routine"* post catches readers at a moment of high intent - they're already researching, already interested.
 
 ??? info "How to embed the quiz in a blog post"
-    See: [How to Publish Your Quiz Inline](/how-to-guides/publish-quiz-inline/)
+    See: [How to publish your quiz inline](/how-to-guides/publish-quiz-inline/)
 
 **Add it to your email signature.** Every email you send is an opportunity. Add a line to your business email signature with a link to the quiz: *"Not sure which products are right for you? Take the 2-minute quiz."*
 
 ![A quiz link in an email signature](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Green-Feminine-Fashion-Designer-Email-Signature.webp){ width="480" }
 
 ??? info "How to get a shareable quiz link"
-    See: [How to Share Your Quiz as an External Link](/how-to-guides/publish-quiz-external-link/)
+    See: [How to share your quiz as an external link](/how-to-guides/publish-quiz-external-link/)
 
 **Share in relevant communities.** If you're active in online communities - Reddit, Facebook groups, niche forums - sharing the quiz (where it's genuinely useful and not spammy) can drive targeted traffic. This works best for quizzes that deliver real value: a detailed skin type analysis, a supplement routine, a hair profile. People share things that feel useful, not things that feel like ads.
 
@@ -1580,10 +1589,13 @@ Send paid ads to a dedicated quiz page rather than to a product page or homepage
 
 **Related articles:**
 
-- [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
-- [How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+- [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
+- [How to reduce drop-off](/customer-success/reduce-dropoff/)
+- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains how to make your quiz impossible to miss on your store, and how to drive traffic to it on purpose.
 
 
 
@@ -2006,7 +2018,7 @@ In this example, if you pay on May 15th the Basic plan, and you have a surge of 
 2. If the usage keeps being high and you cross your plan’s limit, we will also let you know. As mentioned before, we will never block your quiz immediately, you’ll have plenty of time to do so.
 3. Let’s say you’re now over your Basic plan, as you have been receiving a lot of responses that make you stay over 500 responses (to learn how the responses accumulate, please check the article thread above). But you already got charged again for the Basic plan, as the 15th of the month has passed. Let’s say that we’re on the 20th of a month here.
 
-This means that, if you upgrade immediately to a Pro plan (allows 1000 responses/30 days), Shopify will only charge for 6 days of your plan (as that’s how many days you’ve used your Basic plan since the 15th). Your new billing cycle will be on the 20th of each month. Now, you’re able to receive 1000 responses “within the last 30 days” on a Pro plan. If you upgraded on the 20th, we will look back 30 days, and we will count your responses. If you’re under 1000, you’re good to go.
+This means that, if you upgrade immediately to a Pro plan (allows 1000 responses/30 days), Shopify will only charge for 6 days of your plan (as that’s how many days you’ve used your Basic plan since the 15th). Your new billing cycle will be on the 20th of each month. Now, you’re able to receive 1000 responses “within the last 30 days” on a Pro plan. If you upgraded on the 20th, we will look back 30 days, and we will count your responses. If you’re under 1000, you are within the limit.
  
 
 In other words: if the Basic plan accepts around ~16 responses each day, the Pro plan will accept ~33 responses every day, without ever crossing the 1000 responses limit / rolling 30 days (16 * 30 = 500, 33 * 30 = 1000)
@@ -2078,7 +2090,7 @@ We will notify you by email and in your Dashboard, when you reach 90%, 100% and 
 !!! tip
     Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
-Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
+Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, see `Anonymize quiz responses after 30 days` in [App Settings](/reference/app-settings/). Removing personal data does not purge responses or reset usage.
 When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
@@ -4165,14 +4177,14 @@ When the numbers won't move, the worst thing you can do is change things at rand
 
 ## Visibility
 
-If your quiz views are low, the content isn't the problem. Shoppers simply can't find it. The most successful quizzes appear in two or three places at once, so a customer runs into the quiz wherever they are in their visit.
+If your quiz views are low, the content isn't the problem. Customers cannot find it. The most successful quizzes appear in two or three places at once, so a customer meets the quiz wherever they are in their visit.
 
 ![Multiple quiz publishing locations](/images/how_to_build_a_successful_quiz_image1.png)
 
 **Publish it in more than one place.** A quiz buried on a single page gets almost no traffic. Add it as an inline block on your homepage, a floating button that follows shoppers as they browse, and an automatic popup for first-time visitors. Each placement catches a different moment in the journey.
 
 ??? info "How to publish your quiz"
-    See: [How to Publish Your Quiz](/how-to-guides/publish-quiz/). For the full placement playbook, see [How to Get More People to Take Your Quiz](/customer-success/how-to-get-more-quiz-engagement/).
+    See: [How to publish your quiz](/how-to-guides/publish-quiz/). For the full placement playbook, see [how to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/).
 
 **Name it for the outcome, not "Quiz".** A button that says "Quiz" gives nobody a reason to click. Name it for the result the shopper gets, like "Find Your Perfect Routine" or "Shade Finder," and pair it with a CTA that promises that result. The name shows up in your buttons, menu links, and popups, so it is often the first thing a customer reads.
 
@@ -4211,7 +4223,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 ![A single, focused recommendation on the results page](/images/how_to_build_a_successful_quiz_image7.png)
 
 ??? info "How product mapping works"
-    See: [How to Recommend Products](/how-to-guides/recommend-products/).
+    See: [How to recommend products](/how-to-guides/recommend-products/).
 
 **Keep the results page focused.** Recommend one to three products, or one per slot for a routine, with one-click add-to-cart. A wall of ten options just hands the choice back to the shopper, which is the problem the quiz was meant to solve. Our data is clear on this: quizzes with a single results page average 10.6% conversion, against 7.1% for quizzes with eleven or more. If you sell anything consumable, offer a [subscription](/how-to-guides/recommend-subscription-products/) on the results page so the first sale becomes a recurring one.
 
@@ -4223,7 +4235,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 **Add a discount to close the sale.** Quiz finishers are warm, but a small reward removes the last hesitation. Add an automatic discount code on the results page, and mention it on the welcome screen so shoppers who abandon still have a reason to come back and finish.
 
 ??? info "How to add a discount"
-    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).
+    See: [How to add a discount to your quiz](/how-to-guides/add-discount/).
 
 !!! warning "Don't judge the quiz on a seven-day window"
     About 1 in 5 quiz-attributed orders land more than 30 days after the quiz. If you measure quiz revenue on same-week sales alone, you'll under-credit it and risk cutting something that's actually working.
@@ -4285,9 +4297,12 @@ Need help diagnosing your specific quiz? [Get in touch with our support team](/h
 **Related articles:**
 
 - [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
-- [How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
-- [Why the Best-Selling Quizzes Have Zero Customization](/customer-success/best-quizzes-no-customization/)
+- [How to reduce drop-off](/customer-success/reduce-dropoff/)
+- [Why the best-selling quizzes have zero customization](/customer-success/best-quizzes-no-customization/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains the three points where a quiz can fail, how to tell which one you have, and what to fix first.
 
 
 
@@ -4383,7 +4398,7 @@ Focused recommendations drive purchases. Too many choices cause decision fatigue
 ??? example "Example: Skincare routine with slots"
     ![recommendations example](https://docs.revenuehunt.com/images/how_to_recommend_slots_example.png)
 
-    See: [How to Set Up a Funnel Quiz with Slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
+    See: [How to set up a funnel quiz with slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
 
 ☐ Optionally, pin a slot with [**fixed recommendations**](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) to always surface your best-sellers alongside dynamic results
 
@@ -4445,7 +4460,7 @@ A great quiz that's hard to find won't convert. Put it where customers already a
     Just like a real shop assistant asks *"Can I help you find something?"*, your quiz should proactively reach out to visitors. The more visible it is, the more it sells.
 
 ??? info "Full publishing guide"
-    See all the ways to publish your quiz: [How to Publish Your Quiz](/how-to-guides/publish-quiz/)
+    See all the ways to publish your quiz: [How to publish your quiz](/how-to-guides/publish-quiz/)
 
 ---
 
@@ -4481,7 +4496,7 @@ Most top-converting quizzes are fully linear - every customer sees the same ques
 
 ??? example "Example: Recalling a customer's name"
 
-    See: [How to Use Information Recalls](/how-to-guides/use-information-recalls/)
+    See: [How to use information recalls](/how-to-guides/use-information-recalls/)
 
 ---
 
@@ -4531,9 +4546,12 @@ In at least two places, for example a block on your homepage plus an automatic p
 !!! success "You're ready to launch"
     Work through steps 1-7 before going live. Steps 8-10 are improvements you can layer on once the quiz is running and converting. **A simple, well-mapped quiz beats a complex, over-designed one every time.**
 
-    See: [Why the Best-Selling Quizzes Have Zero Customization](/customer-success/best-quizzes-no-customization/)
+    See: [Why the best-selling quizzes have zero customization](/customer-success/best-quizzes-no-customization/)
 
 Need help? Take the [Support Quiz](/how-to-guides/contact-customer-support/) to reach our team directly.
+
+---
+This article is a step-by-step checklist for launching a quiz that converts.
 
 
 
@@ -4786,7 +4804,7 @@ A strong welcome screen does three things:
 - **Sets time expectations**: *"8 questions, 2 minutes"*
 - **Mentions the reward**: *"Complete the quiz and get 10% off"*
 
-If your quiz doesn't have one yet, see [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+If your quiz doesn't have one yet, see [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
 ![Professional quiz names and welcome framing](/images/how_to_build_a_successful_quiz_image3.jpg)
 
@@ -4853,7 +4871,7 @@ If your answer choices aren't connected to products or collections, the recommen
 
 **Check before you launch:** go through every answer choice in your quiz and ask: *does this answer push the recommendation toward the right products?* If any answer is unmapped, fix it.
 
-A quiz with fully mapped answers produces tight, accurate recommendations. Those convert. See: [How to Recommend Products](/how-to-guides/recommend-products/)
+A quiz with fully mapped answers produces tight, accurate recommendations. Those convert. See: [How to recommend products](/how-to-guides/recommend-products/)
 
 ---
 
@@ -4890,7 +4908,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 Once you've identified the problem question and implemented a fix, test it. Create a copy of the quiz with the change applied and run both versions simultaneously. Compare completion rates after a statistically meaningful sample (at least a few hundred starts per version).
 
 !!! tip "How to run an A/B test"
-    See: [How to A/B Test Your Quiz](/how-to-guides/ab-test-quiz/)
+    See: [How to A/B test your quiz](/how-to-guides/ab-test-quiz/)
 
 Focus on one change per test. If you change three things at once, you won't know which one moved the number.
 
@@ -4957,10 +4975,13 @@ Usually long questions that force scrolling, small tap targets, slow loading, or
 
 **Related articles:**
 
-- [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
-- [How to Get More People to Take Your Quiz](/customer-success/how-to-get-more-quiz-engagement/)
+- [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
+- [How to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/)
 - [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains where customers abandon a quiz, and what to change to raise your completion rate.
 
 
 
@@ -5019,7 +5040,7 @@ Engagement tells you whether people find the quiz and finish it.
 !!! info "Completion rate formula"
     Completion rate (%) = (quiz completions ÷ quiz starts) × 100
 
-Aim as high as you can: a well-built quiz finishes around 70% of starts, and a short, sharp quiz can clear 80%. If yours is lower, the quiz is usually too long or a question is causing friction. See [How to Reduce Drop-Off](/customer-success/reduce-dropoff/).
+Aim as high as you can: a well-built quiz finishes around 70% of starts, and a short, sharp quiz can clear 80%. If yours is lower, the quiz is usually too long or a question is causing friction. See [how to reduce drop-off](/customer-success/reduce-dropoff/).
 
 **Drop-off points.** The per-question drop-off shows exactly where people quit, so you can rewrite or cut that one question rather than overhauling the whole quiz.
 
@@ -5027,7 +5048,7 @@ Aim as high as you can: a well-built quiz finishes around 70% of starts, and a s
 
 | Issue | What to do |
 |-------|------------|
-| **Low quiz starts** | Make the quiz more visible (publish it in several places), promote it, and run ads to it. See [How to Get More People to Take Your Quiz](/customer-success/how-to-get-more-quiz-engagement/). |
+| **Low quiz starts** | Make the quiz more visible (publish it in several places), promote it, and run ads to it. See [how to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/). |
 | **Low completion rate** | Shorten the quiz, turn dense questions into picture questions, and move personal questions (name, email, phone) toward the end. |
 
 ---
@@ -5114,6 +5135,9 @@ In the Metrics and Analytics panel (responses, analytics, and drop-off), or by e
 ### Why track over a long window?
 
 Because quiz-attributed orders keep arriving: about 1 in 5 land more than 30 days after the quiz, so a short window understates the quiz's impact.
+
+---
+This article explains which quiz metrics matter, where to find them, and what each one tells you to fix.
 
 
 
@@ -5264,7 +5288,7 @@ With tags flowing into your CRM, you can create **dynamic segments** - groups of
 Each segment is independent, and a single contact can belong to multiple segments. Someone tagged with `hair-type:curly` AND `goal:volume` will be in both the Curly Hair and Volume Seekers segments - and can receive flows from both.
 
 ??? info "How to create segments in Klaviyo"
-    Check this video to learn how to create segments based on quiz submissions in Klaviyo: [How to Create Segments in Klaviyo](/tutorials/follow-up-emails-klaviyo/)
+    Check this video to learn how to create segments based on quiz submissions in Klaviyo: [How to create segments in Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
 ---
 
@@ -5395,6 +5419,9 @@ Klaviyo is the primary example, but the same approach applies to Omnisend, Mailc
 - [How to Send Result Emails](/how-to-guides/send-result-emails/)
 - [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
 - [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+
+---
+This article explains how to turn quiz answers into customer tags, and how to use those tags to segment and sell.
 
 --- WooCommerce Specific Content ---
 
@@ -5806,7 +5833,7 @@ This split is only as even as the traffic you send. It suits a test where you ca
 
 **A random split, and some code**
 
-1. **Create one entry point, such as a button or a link.** See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
+1. **Create one entry point, such as a button or a link.** See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/).
 
 2. **Ask a developer to add a snippet that sends each new customer to version A or version B at random.**
 
@@ -6088,7 +6115,7 @@ Your developer can set the code from the Results Page.
 prq.setDiscountCode('10-OFF');
 ```
 That applies the code to every recommended product. The code has to exist in your store first.
-See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for where this code goes.
 The follow-up email can carry the discount code, for the customer to copy and paste at checkout.
 1. **Open the [Quiz Builder](/reference/quiz-builder/).**
 2. **Go to the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab.**
@@ -6113,7 +6140,7 @@ Send the customer to one of two Results Pages, depending on whether they answer 
     ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
 8. **Click the top-right `Publish` button, then test the whole flow with `Preview`.**
 !!! tip "More on jump logic"
-    See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+    See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 
 
@@ -6524,10 +6551,10 @@ This article explains how to fill the Standalone catalogue, by hand or from a Go
 
 !!! note "Not available on this platform"
     Your products come from WooCommerce, and the app imports them for you. There is nothing to add by hand.
-    See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    See [how to import your catalog](/how-to-guides/sync-catalog/).
 !!! note "Not available on this platform"
     The app reads your WooCommerce catalog directly, so it needs no product feed.
-    See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+    See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 
 
@@ -6559,7 +6586,7 @@ This article covers three reasons a quiz does not add a product to the cart. The
 
 The quiz has to run on a live site. A coming-soon or maintenance-mode plugin, a password-protected page, or a staging site all block the cart.
 !!! tip "Publishing the quiz"
-    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+    See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 Many WooCommerce themes and plugins add a side cart or mini cart. The product does reach the cart, but that panel keeps showing the old contents until the page reloads.
 A mini cart refreshes through WooCommerce cart fragments. A theme or plugin that overrides the `add_to_cart_fragments` hook, or a cache that serves a stale fragment response, stops it updating.
 !!! warning "Check your cache first"
@@ -6569,7 +6596,7 @@ The panel has to request the cart fragments again after the quiz adds a product.
 **Option 2: send the customer to the product page**
 Change the checkout settings so the results page links to the product instead of adding it to the cart. The customer then adds it to the side cart themselves.
 !!! tip "Changing what the button does"
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+    See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) sync with the app once the plugin is installed. If one is missing, run a [catalog sync](/how-to-guides/sync-catalog/).
 For any other subscription plugin, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
@@ -6593,7 +6620,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
 !!! tip "Why it is worth adding"
 
-    The welcome screen is where customers decide whether the quiz is worth their time. Tell them what they get and how long it takes. See [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/) for what to put on it.
+    The welcome screen is where customers decide whether the quiz is worth their time. Tell them what they get and how long it takes. See [how to reduce quiz drop-off](/customer-success/reduce-dropoff/) for what to put on it.
 
 ## Add a welcome screen
 
@@ -6620,7 +6647,7 @@ Removing the welcome screen makes your first question the first thing customers 
 - [Create Your First Quiz](/how-to-guides/create-first-quiz/)
 - [Customize Quiz Design](/how-to-guides/customize-quiz-design/)
 - [Add & Adjust Images](/how-to-guides/add-adjust-images/)
-- [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/)
+- [How to reduce quiz drop-off](/customer-success/reduce-dropoff/)
 - [Quiz Builder - Questions reference](/reference/quiz-builder/questions/)
 
 ---
@@ -6648,7 +6675,7 @@ Keep it to one clear promise and one line of detail. Long welcome copy is a comm
 4. **Fade it back with `Image Opacity`, so your copy stays readable.**
 !!! tip "A video works here too"
     The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
-See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 Click the slide, click the `wrench` icon to open the question settings, and edit `Button Text`.
 Click the slide, open `more options` / `...`, then click `Delete`. To keep a copy instead, click `Duplicate` first.
 
@@ -6708,7 +6735,7 @@ Join two slides together to build a consent checkbox, so the customer cannot go 
 4. **Turn on `Join next question`.** The two questions then share one slide, and the customer has to select the consent choice to continue.
     ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 5. **Click the top-right `Publish` button.**
-See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+See [how to join questions](/how-to-guides/join-questions/) for more on joining slides.
 A `Legal Terms/GDPR` question is a slide of its own, showing your terms with an accept and a decline button.
 1. **Open the [quiz builder](/reference/quiz-builder/questions/) and click `+` / `Add new question`.**
 2. **Choose [`Legal Terms/GDPR`](/reference/quiz-builder/questions/#question-types).**
@@ -6735,11 +6762,14 @@ Shopify Flow can run an automation every time a customer completes your quiz. Fo
 
 What the automation can read, and which trigger starts it, depends on the version you are running.
 
+---
+This article explains how to start a Shopify Flow workflow when a customer finishes your quiz.
+
 --- WooCommerce Specific Content ---
 
 !!! note "Shopify Flow is a Shopify product"
     There is no equivalent automation tool in this version.
-    To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+    To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 
 
@@ -6824,7 +6854,7 @@ This version does not support multi-currency stores. It reads your store's **bas
 There is a way around it. Hide the price on the Results Page, and send the customer to the product page instead, where your store shows the right price for them.
 1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [Results Page](/reference/quiz-builder/results-page/).**
 2. **Open the [Results Page Settings](/reference/quiz-builder/results-page/).**
-3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 4. **Scroll to `Individual Product Settings` and turn `Show price` off.**
 5. **Click the top-right `Publish` button.**
 The results page then shows no price, and the customer reads the price on your product page.
@@ -7036,11 +7066,11 @@ To have one built and styled for you, hire a freelancer on [Upwork](https://www.
 ## Not sure where to start?
 
 - [Video Tutorials](/tutorials/): short videos covering the basics of building a quiz.
-- [How to Create Your First Quiz](/how-to-guides/create-first-quiz/): a walkthrough of your first quiz, start to finish.
+- [How to create your first quiz](/how-to-guides/create-first-quiz/): a walkthrough of your first quiz, start to finish.
 
 ## Troubleshooting quiz results
 
-If the quiz recommends the wrong products, or none at all, the app has a tool that shows why. See [How to Troubleshoot Product Results](/how-to-guides/troubleshoot-product-results/).
+If the quiz recommends the wrong products, or none at all, the app has a tool that shows why. See [how to troubleshoot product results](/how-to-guides/troubleshoot-product-results/).
 
 ---
 
@@ -7087,7 +7117,7 @@ This article explains how to copy a quiz from one store to another, and what hap
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Install the app on both stores first"
-    The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+    The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 1. **Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general) in the store you are copying from.**
 2. **Find `Export quiz to another store` and click `get code`.** A popup shows a unique code.
     ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
@@ -7172,12 +7202,12 @@ With the questions in place, link products to choices so the customer gets recom
         To sharpen the results further:
         - Show only products with a minimum number of upvotes, in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Keep unwanted products out with [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion), even when an earlier choice upvoted them.
-Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
+Read more in [how to recommend products](/how-to-guides/recommend-products/).
 1. **Click `Publish` in the top-right menu.** This does not put the quiz on your website. It saves your work so you can preview it.
 2. **Click `Preview` and take the quiz.**
     !!! tip "Test it as often as you like"
         Open a new preview window each time. Test responses taken as an admin are removed after an hour, so they never count against your usage quota.
-Follow [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
+Follow [how to publish the quiz on your website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
 Changing the quiz later does not update the live version by itself. Click `Publish` again.
 
 
@@ -7225,7 +7255,7 @@ The Results Page also has its own customization options.
 
 !!! tip
 
-    Check [How to Edit Your Product Recommendation Quiz Results Page](/how-to-guides/edit-results-page/) to learn more about styling your results page.
+    Check [how to edit your product recommendation quiz results page](/how-to-guides/edit-results-page/) to learn more about styling your results page.
 
 In addition to the basic elements, you can set a unique background image for each results page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 
@@ -7299,7 +7329,7 @@ Custom JavaScript on the results page and on the questions makes the quiz more c
     - display custom product recommendations
     - forward to any particular page on your store
     - add tracking codes to specific questions (Google Analytics, Meta Pixel)
-For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz.
 ??? question "What is Markdown Language?"
     Markdown is a way to style text on the web. You control how the document looks. Bold and italic words, images and lists are a few of the things you can do with it. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
@@ -7341,7 +7371,7 @@ You can add images to your quiz in several ways.
     ![](https://youtu.be/0_tO8HgJiLQ)
     ```
 !!! tip
-    Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+    Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
 ![manual_quizbuilder_quizbuilder_questionsettings_sidemenu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png){width="500"}
 The question settings also take [custom JavaScript](/how-to-guides/add-javascript/).
@@ -7513,6 +7543,36 @@ Here are a few popular CSS selectors and codes to style elements in the quiz:
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/delete-personal-data/
+================================================================================
+
+---
+description: "Delete personal data from quiz responses automatically after 14, 30, 60 or 90 days, and keep choices, recommendations and analytics."
+icon: material/delete-clock-outline
+---
+
+# How to Delete Personal Data from Quiz Responses
+
+A quiz response can hold personal data, such as an email address, a name or a phone number.
+
+RevenueHunt can delete that data for you on a schedule. You choose how long to keep it, and the app removes it from every response that is older than that.
+
+The quiz response itself is not deleted. Only what the customer typed goes.
+
+---
+This article explains how to have the app delete the personal data in old quiz responses on a schedule, and what it removes.
+
+--- WooCommerce Specific Content ---
+
+!!! note "This version has one store-wide setting"
+    This version does not have a per-quiz period. It has one store-wide setting instead, and it applies to every quiz.
+    Go to **App Settings > General > Data & GDPR** and turn on `Anonymize quiz responses after 30 days`. See [App Settings](/reference/app-settings/).
+    The per-quiz period described on this page is only in the `💎Built for Shopify` version of the RevenueHunt app.
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/how-to-guides/download-quiz-responses/
 ================================================================================
 
@@ -7609,20 +7669,20 @@ Type `@` in a `Content Block` or a `Heading Block` to open a dropdown, then pick
 Worth checking in [Basic Settings](/reference/quiz-builder/results-page/#basic-settings):
 - **Checkout behavior.** Decide whether the page adds products to the cart or links to the product page.
     !!! tip "Setting the checkout behavior"
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 - **Product reviews.** Show star ratings on the recommended products, to back the recommendation up. WooCommerce Product Reviews is supported.
     !!! tip "Turning the reviews on"
-        See [How to Show Product Reviews](/how-to-guides/show-product-reviews/).
+        See [how to show product reviews](/how-to-guides/show-product-reviews/).
 Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 - **Out-of-stock products.** Turn `Show unavailable products` off so the quiz stops recommending them.
 - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 - **Custom JavaScript.** Run your own code on the page.
     !!! tip "Writing the JavaScript"
-        See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+        See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 - **Product metafields.** Show a product property your store holds but does not display by default.
     !!! tip "Syncing the metafields"
-        See [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+        See [how to add product metafields](/how-to-guides/add-product-metafields/).
 
 
 
@@ -7813,7 +7873,7 @@ This article works one skincare quiz through jump logic, skip logic and display 
     Without this the branches never rejoin, and a customer who read the dry skin statement carries straight on into the normal skin statement.
 8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Each answer should lead to its own statement, and then on to the next question.
 !!! tip "More on jump logic"
-    See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+    See [how to use jump logic](/how-to-guides/use-jump-logic/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
@@ -7833,7 +7893,7 @@ This article works one skincare quiz through jump logic, skip logic and display 
 6. **Repeat for the other three statements, each reading its own choice.**
 7. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching statement should appear each time.
 !!! tip "More on skip logic"
-    See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+    See [how to use skip logic](/how-to-guides/use-skip-logic/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 1. **Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking for the skin type.** Offer dry, normal, oily and combination.
     !!! tip "Help the customer answer"
@@ -7852,7 +7912,7 @@ This article works one skincare quiz through jump logic, skip logic and display 
 7. **Repeat for the other three blocks, each reading its own choice.**
 8. **Click the top-right `Publish` button, then answer the quiz once per skin type.** Only the matching block should appear each time.
 !!! tip "More on display logic"
-    See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    See [how to use display logic](/how-to-guides/use-display-logic/).
 
 
 
@@ -7888,7 +7948,7 @@ One toggle in the results page settings decides whether the quiz can recommend a
 4. **Click the top-right `Publish` button.**
 5. **Take the quiz and check that an out-of-stock product no longer appears.**
 !!! note "There is nothing to set here"
-    A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
+    A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [how to import your catalog](/how-to-guides/sync-catalog/) explains.
     `Show unavailable products` does not change this. That toggle covers out-of-stock products only, and turning it on brings back out-of-stock products, never draft or archived ones.
 
 
@@ -8041,14 +8101,17 @@ Send what the quiz collects to the tools you already use.
 Fix a quiz that is not behaving.
 
 - **[Import Your Catalog](/how-to-guides/sync-catalog/)** - Bring your products into the quiz, and refresh them later.
-- **[Why Products Are Not Added to the Cart](/how-to-guides/add-to-cart-issues/)** - The usual causes, and what to check first.
+- **[why products are not added to the cart](/how-to-guides/add-to-cart-issues/)** - The usual causes, and what to check first.
 - **[Check Quiz Loading Speed](/how-to-guides/check-quiz-loading-speed/)** - Measure what the quiz costs the page it sits on.
 - **[Fix the Mobile Viewport Issue](/how-to-guides/fix-viewport-issue-on-mobile/)** - Stop the quiz zooming in when a customer taps a field.
 - **[Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/)** - Move a finished quiz to a second store.
 
 ## Need more help?
 
-Every feature in the app has a guide in this section. For anything the guides do not answer, see [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+Every feature in the app has a guide in this section. For anything the guides do not answer, see [how to contact customer support](/how-to-guides/contact-customer-support/).
+
+---
+This page lists every how-to guide, grouped by the task you are trying to finish.
 
 
 
@@ -8130,7 +8193,7 @@ This version sends GA4 events once you connect the quiz to Google Analytics. You
     Since Google moved from Universal Analytics to GA4, event tracking has become less reliable. The code can be right, and the events can fire, and GA4 can still fail to read, process or report them.
     If that happens, contact Google Support. The problem is usually on their side.
 !!! note "Give the quiz its own page"
-    GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 1. **Set up GA4 on your website first.**
     !!! tip "Finding your GA4 tracking code"
         See the [Google Analytics setup documentation](https://support.google.com/analytics/answer/1008080).
@@ -8334,7 +8397,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
 !!! note "Give the quiz its own page"
 
-    Pixel tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    Pixel tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 ## Connect the Meta Pixel to your quiz
 
@@ -8425,7 +8488,7 @@ The built-in integration sends the events listed on this page. To send events of
 3. **Change the event name and the parameters to whatever you want to record.** The first argument is the `fbq` action, `track` for a standard event or `trackCustom` for one of your own.
 4. **Take the quiz, then check the event arrives in `Test events` in the Meta Events Manager.**
 !!! tip "Sending an event on every answer"
-    Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [How to Use Callback Function](/how-to-guides/use-callback-function/).
+    Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [how to use callback function](/how-to-guides/use-callback-function/).
 
 
 
@@ -8457,7 +8520,7 @@ This article explains how to get the TikTok Pixel connected to your quiz. It als
 
 !!! note "Not part of this version"
     The TikTok Pixel integration runs on the Built for Shopify version only.
-    To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
+    To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to integrate Meta Pixel with quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 
 
@@ -8526,7 +8589,7 @@ This article explains how to import a legacy Shopify quiz into the Built for Sho
 
 !!! note "Not part of this version"
     `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
-    To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+    To move a quiz to a different store, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 !!! note "Not part of this version"
     Importing a legacy quiz happens between the two Shopify apps.
 !!! note "Not part of this version"
@@ -8631,7 +8694,7 @@ The minimum then decides what the customer sees.
     - Products on equal upvotes appear in a random order.
     - If nothing is linked, or everything is excluded, the results page comes back empty.
 
-    See [How to Recommend Products](/how-to-guides/recommend-products/).
+    See [how to recommend products](/how-to-guides/recommend-products/).
 
 ## Set the minimum
 
@@ -8767,7 +8830,7 @@ This article explains how to put a RevenueHunt quiz on a GemPages page. It also 
 
 !!! note "GemPages is a Shopify page builder"
     It has no WooCommerce version, so there is no GemPages page to put a quiz on here.
-    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+    See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 
 
@@ -8797,10 +8860,10 @@ This article explains the two ways to get a RevenueHunt quiz onto a PageFly page
 
 !!! note "PageFly is a Shopify page builder"
     It has no WooCommerce version, so there is no PageFly page to put a quiz on here.
-    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+    See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 !!! note "PageFly is a Shopify page builder"
     It has no WooCommerce version, so there is no PageFly page to put a quiz on here.
-    See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+    See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 
 
@@ -9436,7 +9499,7 @@ The quiz sits in the content of a page, like any other section.
 
 **Pick this when** you want a dedicated landing page to send paid traffic to.
 
-[How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/)
+[How to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/)
 
 ### Link popup
 
@@ -9444,7 +9507,7 @@ A link in your navigation menu, or on any page, opens the quiz in an overlay.
 
 **Pick this when** you want the quiz reachable from anywhere without giving it space on the page.
 
-[How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/)
+[How to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/)
 
 ### Chat button popup
 
@@ -9452,7 +9515,7 @@ A small floating button sits in the corner of every page and opens the quiz in a
 
 **Pick this when** you want a standing invitation that does not interrupt.
 
-[How to Add a Quiz Popup via a Chat-Like Button on Your Store](/how-to-guides/publish-quiz-chat-button/)
+[How to add a quiz popup via a chat-like button on your store](/how-to-guides/publish-quiz-chat-button/)
 
 ### Automatic popup
 
@@ -9460,7 +9523,7 @@ The quiz opens by itself after a customer spends a set time on a page.
 
 **Pick this when** you want to catch attention without waiting for a click.
 
-[How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/)
+[How to set up automatic popups](/how-to-guides/publish-quiz-automatic-popup/)
 
 ## Share a link
 
@@ -9472,7 +9535,7 @@ A direct link to the quiz that you paste into a post or a profile.
 
 **Pick this when** you drive traffic from TikTok, X, Instagram or Facebook.
 
-[How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/)
+[How to get an external quiz link for social media](/how-to-guides/publish-quiz-external-link/)
 
 ### Email link
 
@@ -9480,7 +9543,7 @@ A link to the quiz that you paste into an email or a newsletter.
 
 **Pick this when** you want subscribers to take the quiz from their inbox.
 
-[How to Get an External Quiz Link for Emails and Newsletters](/how-to-guides/publish-quiz-email-link/)
+[How to get an external quiz link for emails and newsletters](/how-to-guides/publish-quiz-email-link/)
 
 ## With a page builder
 
@@ -9492,7 +9555,7 @@ The quiz sits inside a GemPages page, added through the builder's `Shopify App` 
 
 **Pick this when** your landing pages are built in GemPages.
 
-[How to Publish a Quiz on a GemPages Page](/how-to-guides/publish-gempages/)
+[How to publish a quiz on a GemPages page](/how-to-guides/publish-gempages/)
 
 ### PageFly
 
@@ -9500,7 +9563,10 @@ The quiz sits inside a PageFly page, or a PageFly button opens it.
 
 **Pick this when** your landing pages are built in PageFly. Its inline element works with the legacy app only, so on Built for Shopify you point a button at the quiz.
 
-[How to Publish a Quiz on a PageFly Page](/how-to-guides/publish-pagefly/)
+[How to publish a quiz on a PageFly page](/how-to-guides/publish-pagefly/)
+
+---
+This article explains the ways to put a quiz in front of your customers, and which one suits each kind of page.
 
 
 
@@ -9569,7 +9635,7 @@ One group per value in the matrix: two for the age ranges, and two for the skin 
 
 !!! tip "Putting the products in a fixed order"
 
-    A products block lists the recommendations by upvote count. To pin them to a fixed order instead, such as cleanser, then toner, then serum, use `Product Slots`. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+    A products block lists the recommendations by upvote count. To pin them to a fixed order instead, such as cleanser, then toner, then serum, use `Product Slots`. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 ??? question "Why were those four products recommended?"
 
@@ -9591,7 +9657,7 @@ One group per value in the matrix: two for the age ranges, and two for the skin 
 
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
-If the recommendations are not the ones you expect, see [How to Troubleshoot Product Recommendations in Your Quiz](/how-to-guides/troubleshoot-product-results/).
+If the recommendations are not the ones you expect, see [how to troubleshoot product recommendations in your quiz](/how-to-guides/troubleshoot-product-results/).
 
 ## Complex product matrix
 
@@ -9613,11 +9679,11 @@ Here is a conditional logic tree for that matrix, branching on skin type.
 
 !!! tip "Fixed recommendations instead"
 
-    To pick the products for each outcome yourself, rather than letting upvotes decide, see [How to Set Up a Fixed Recommendations Quiz](/how-to-guides/set-up-fixed-recommendations-quiz/).
+    To pick the products for each outcome yourself, rather than letting upvotes decide, see [how to set up a fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/).
 
 ---
 
-This article explains how to recommend products that match several criteria at once, using a product matrix. For the recommendation systems the app offers, see [How to Set Up Recommendations](/how-to-guides/set-up-recommendations/).
+This article explains how to recommend products that match several criteria at once, using a product matrix. For the recommendation systems the app offers, see [how to set up recommendations](/how-to-guides/set-up-recommendations/).
 
 --- WooCommerce Specific Content ---
 
@@ -9681,8 +9747,8 @@ This article explains how to recommend products based on the number of choices t
 1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
 2. **Add one hidden choice per category.** They all go in the final question of the quiz.
 3. **Link each choice to its category.** See [Link Categories](/reference/quiz-builder/link-collections/).
-4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
     ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
 6. **Click `Publish`** to update the preview and the live quiz.
 To see the choice IDs selected for each slide, open the JavaScript console and search for them:
@@ -9768,7 +9834,7 @@ The app cannot calculate a result from a number on its own. A quiz that works ou
 
 The script reads the quiz answers, works the result out in JavaScript, then writes it into an HTML element on the results page.
 
-[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#insert-a-calculation) has a worked BMI calculator.
+[How to add JavaScript to the quiz](/how-to-guides/add-javascript/#insert-a-calculation) has a worked BMI calculator.
 
 ---
 
@@ -9807,25 +9873,25 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
 An open-ended Number or Date question cannot drive recommendations. Set up finite choices instead, so the answers can decide what is recommended.
 
-[How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+[How to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
 ### Recommend products that match multiple criteria
 
 Use a product matrix when two answers together decide the recommendation, such as age and skin type.
 
-[How to Recommend Products That Match Multiple Criteria](/how-to-guides/recommend-product-matrix/)
+[How to recommend products that match multiple criteria](/how-to-guides/recommend-product-matrix/)
 
 ### Only recommend products with X upvotes or more
 
 Limit the recommendations to products that received X upvotes or more, so only the strongest matches appear.
 
-[How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/)
+[How to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 ### Recommend products by how many choices the customer picked
 
 Recommend a different group of products depending on how many choices the customer selected. This needs custom JavaScript.
 
-[How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/)
+[How to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/)
 
 ### Always recommend a specific product
 
@@ -9850,13 +9916,13 @@ This version **cannot recommend categories** of products. You can, however, [onl
 !!! warning "One variant type per product"
     The app syncs only one type of variant per variable product. If a product varies by both size and color, only one of the two is synced.
 This version recommends products with the upvoting system. You link products to choices, and the Results Page shows the products with the most upvotes first.
-[How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
+[How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 Take the quiz to work out which setup you need, or use the guides in [Specific setup guides](#specific-setup-guides).
 <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
-If you use WooCommerce Subscriptions, see [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/).
+If you use WooCommerce Subscriptions, see [how to recommend subscription products](/how-to-guides/recommend-subscription-products/).
 ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 For other subscription apps, see [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) for a possible workaround.
-This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [how to show results explanation](/how-to-guides/show-results-explanation/).
 
 
 
@@ -9882,7 +9948,7 @@ The recommendation engine links each choice to a fixed list of products. When a 
 
 **A typed number cannot be linked to anything in advance.** A customer can enter any value, so there is no product list to attach to it. The upvoting system has nothing to count.
 
-The same applies to any question whose answer you cannot predict: exact measurements, dates and free text. Every possible answer has to be one you defined before the quiz went live. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/).
+The same applies to any question whose answer you cannot predict: exact measurements, dates and free text. Every possible answer has to be one you defined before the quiz went live. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/).
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -9966,7 +10032,7 @@ The upvoting approach may not be precise enough when your sizing logic needs exa
 
 JavaScript takes the typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, applies any formula or condition, and shows a calculated result. That result can be a recommended product, with no upvotes involved.
 
-See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for the full documentation, including a worked calculation.
+See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for the full documentation, including a worked calculation.
 
 ---
 
@@ -10144,7 +10210,7 @@ Even if you redirect the customer with Jump Logic to another page the quiz respo
 3. **Access the Results Page First**: The callback fires when the results page is reached. The page has to load, even for a fraction of a second, for the data to transfer. The callback then saves the quiz response as JSON in local storage or cookies, before any redirect.
 4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
 For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
-Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
+An HTML button on your [Results Page](/reference/quiz-builder/results-page/) links straight to another page.
 1. **Add an HTML Block**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+` button to insert an `HTML block`.
 2. **Insert the Button Code**: Use the following HTML snippet to add a button:
       ```html
@@ -10179,6 +10245,9 @@ The walkthrough below covers the whole process, and the written steps follow it.
 
 ## Restore an earlier version
 
+---
+This article explains how to find an earlier version of your quiz in version history, and how to bring it back.
+
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -10200,7 +10269,7 @@ This version of the app cannot overwrite your quiz with an earlier version. The 
 4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
 5. **Open the copy and check that the recovered questions and results are there.**
 6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
-7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
+7. **Point your store at the new quiz.** Follow [how to publish a quiz on your website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 !!! warning
     The old quiz keeps working until you replace it. An embed code carries the quiz ID, so any page, popup or link you leave alone still loads the old quiz.
 
@@ -10556,10 +10625,13 @@ The full token reference, the downloadable Klaviyo template, and worked examples
 
 ## Related reading
 
-- [How to Send Quiz Leads to Klaviyo](/how-to-guides/send-leads-to-klaviyo/): the connection, segment and email-template mechanics in full.
+- [How to send quiz leads to Klaviyo](/how-to-guides/send-leads-to-klaviyo/): the connection, segment and email-template mechanics in full.
 - [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/): the step-by-step tutorial for your first flow.
 - [Use Customer Tags](/how-to-guides/use-customer-tags/): how answers become the tags every flow segments on.
 - [Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/): capture consent in the quiz so you can email compliantly.
+
+---
+This article explains the six emails you can send after a quiz, what starts each one, and which to build first for your industry.
 
 --- WooCommerce Specific Content ---
 
@@ -10604,6 +10676,9 @@ icon: material/bullhorn-outline
 
 ### Adding recommended products to emails
 
+---
+This article explains how to connect a quiz to ActiveCampaign, send quiz leads there, and set up follow-up emails.
+
 --- WooCommerce Specific Content ---
 
 Connect your quiz to ActiveCampaign and every response becomes a contact there, with the customer's answers attached.
@@ -10637,8 +10712,8 @@ You can also start the connection from inside ActiveCampaign:
 !!! note
     The quiz only sends the raw data. Build any flow or custom event from that data in ActiveCampaign itself. Ask the ActiveCampaign support team about that part of the setup.
 To control exactly which data reaches ActiveCampaign, use one of these methods instead.
-- **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
-- **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+- **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+- **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 Once the quiz is connected, you can add the quiz data to each contact profile.
 Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
@@ -10708,6 +10783,9 @@ The app sends the quiz data to these services itself. No other tool is needed.
 
 ## Indirect integrations
 
+---
+This article explains which CRM services your quiz connects to on its own, and how to reach the rest.
+
 --- WooCommerce Specific Content ---
 
 - **[:material-wifi: Klaviyo](/how-to-guides/send-leads-to-klaviyo/)**: contacts are added to your Klaviyo Profiles, and to a List if you pick one. Segment on the answers, then build [a flow for each segment](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
@@ -10750,6 +10828,9 @@ icon: simple/hubspot
 
 ## Disconnect HubSpot
 
+---
+This article explains how to send quiz leads to HubSpot, and how to set up a follow-up email there.
+
 --- WooCommerce Specific Content ---
 
 Connect your quiz to HubSpot and every quiz result is sent to your HubSpot account. You can then segment your contacts on their answers, and write a campaign for each group.
@@ -10768,7 +10849,7 @@ Once connected, the quiz results will automatically flow into your HubSpot accou
 The integration is enabled automatically when you connect your quiz to HubSpot. All quiz responses with an email address will be sent to your HubSpot account.
 Adding contacts to a specific list is not available in this version. You can create segments in HubSpot based on the custom properties sent with quiz responses.
 To control exactly which data reaches HubSpot, use one of these methods instead.
-- **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
+- **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 Whenever a customer finishes your quiz, their contact details, their answers and their product recommendations are sent to your HubSpot account.
 1. **In HubSpot, go to `Contacts`.**
@@ -10891,7 +10972,7 @@ The instructions here are written to be passed to a developer.
 
 !!! tip "Go beyond the results email"
 
-    This section covers the one email that delivers the results. [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/) covers five more: abandoned cart, browse, reorder, cross-sell and win-back, each segmented on the quiz answers and tags.
+    This section covers the one email that delivers the results. [How to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/) covers five more: abandoned cart, browse, reorder, cross-sell and win-back, each segmented on the quiz answers and tags.
 
 ??? warning "What support can help with"
 
@@ -10912,6 +10993,9 @@ The instructions here are written to be passed to a developer.
 ### Pull product information from your catalog
 
 ## Disconnect Klaviyo
+
+---
+This article explains how to connect your quiz to Klaviyo, and how to build the follow-up email flow there.
 
 --- WooCommerce Specific Content ---
 
@@ -11084,51 +11168,51 @@ Connect your quiz to Mailchimp and every contact from the quiz is added to your 
 
 ## Use customer tags for segmentation in Mailchimp
 
-### Hack: send quiz answers to Mailchimp
+### Carry the answers across as tags
 
-## Set up Post-quiz email flow with Mailchimp
+## Set up a post-quiz email flow with Mailchimp
 
 ## Disconnect Mailchimp
 
 ## Alternative ways to send quiz leads to Mailchimp
 
 ---
-This article explains how to send leads to Mailchimp from your quiz created in the RevenueHunt app.
+This article explains how to send quiz leads to Mailchimp, and how to segment them on the answers with customer tags.
 
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 This article explains how to send leads to Mailchimp from your quiz.
 Send your quiz leads to Mailchimp and you can segment your audience on what each customer answered. Each group then gets the email that suits it.
-!!! warning "Important Considerations"
+!!! warning "What Mailchimp can and cannot receive"
     - **Limited data transfer**: the Mailchimp integration sends only the email, the name and the customer tags. If you need more than that, such as the recommended products, use a different service.
     - **Alternative services**: [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/) carry the full quiz data, so they personalize a follow-up email much further.
 Before you begin, ensure you have:
 - An active Mailchimp account.
 - A quiz in the RevenueHunt app that you want to connect to Mailchimp.
 To connect your quiz to Mailchimp:
-1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.
-2. Find the Mailchimp section and click `Connect`. A Mailchimp login page opens in a new tab.
-    ![how to send leads to mailchimp authorize1](/images/how_to_send_leads_to_mailchimp_authorize1.png)
-3. Log in to your Mailchimp account and click `Allow` to authorize the app.
-    ![how to send leads to mailchimp authorize2](/images/how_to_send_leads_to_mailchimp_authorize2.png)
-4. If the connection worked, Mailchimp shows a `Mailchimp got connected, please close this windows to go back to the dashboard.` message.
-5. Your quiz is now connected, and you can link it to a mailing list.
-    ![how to send leads to mailchimp settings](/images/how_to_send_leads_to_mailchimp_settings.png)
-6. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz. You may need to refresh the page to update the connection status.
-7. From the dropdown, select the Mailchimp list to send your quiz results to.
-The Mailchimp list is selected in the [Connect](/reference/quiz-builder/connect-integrations/) tab, as described in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+1. **Open your quiz and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.**
+2. **Find the Mailchimp section and click `Connect`.** A Mailchimp login page opens in a new tab.
+    ![The Mailchimp section on the Connect tab](/images/how_to_send_leads_to_mailchimp_authorize1.png)
+3. **Log in to your Mailchimp account and click `Allow`.**
+    ![Authorizing the app in Mailchimp](/images/how_to_send_leads_to_mailchimp_authorize2.png)
+4. **Look for the confirmation message.** Mailchimp shows `Mailchimp got connected, please close this windows to go back to the dashboard.`
+5. **Close that window.** Your quiz is connected, and you can now link it to a mailing list.
+    ![The connected Mailchimp integration](/images/how_to_send_leads_to_mailchimp_settings.png)
+6. **Return to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab in your quiz.** You may need to refresh the page for the status to update.
+7. **Select the Mailchimp list to send your quiz results to.**
+The Mailchimp list is selected in the [Connect](/reference/quiz-builder/connect-integrations/) tab, as described in the [Link quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
-1. Make sure the quiz is connected to Mailchimp.
-2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
-    ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
-3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
-4. Navigate to the `Audience` section in your Mailchimp account.
-5. Use the customer tags to build segmented lists or groups, so each campaign matches the quiz outcome.
+1. **Check that the quiz is connected to Mailchimp.**
+2. **Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to your answer choices.**
+    ![Customer tags on an answer choice](/images/how_to_send_leads_to_mailchimp_tags.png)
+3. **Click `Publish`** to send the changes to the preview and the live quiz.
+4. **Open the `Audience` section in your Mailchimp account.**
+5. **Build segments or groups from the customer tags**, so each campaign matches the quiz outcome.
 Mailchimp cannot receive the full quiz data, so use `customer tags` to carry the answers instead.
-1. Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer. Plan the tags first, so each one names its answer clearly.
-    ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
-2. When a customer finishes the quiz, Mailchimp receives every tag their choices carried.
+1. **Create a [customer tag](/reference/quiz-builder/customer-tags/) for each possible answer.** Plan the tags first, so each one names its answer clearly.
+    ![Customer tags on an answer choice](/images/how_to_send_leads_to_mailchimp_tags.png)
+2. **Take a test quiz and open the contact in Mailchimp.** It carries every tag the chosen answers held, and together those tags spell out the answers.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 To set up a post-quiz email flow with Mailchimp:
 1. **Connect your quiz to Mailchimp.** Follow [Link quiz to Mailchimp](#link-quiz-to-mailchimp).
@@ -11145,15 +11229,15 @@ To set up a post-quiz email flow with Mailchimp:
     - Set up an Automation, which is an automated email flow, to trigger on a specific tag or on quiz completion.
     - Then build one Mailchimp email template per quiz outcome or flow.
     !!! example
-        Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+        Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as "Oily Skin," "Dry Skin," etc.
         In Mailchimp, you create an email series targeting these tags. For instance:
         - Day 1: Introduction to products suitable for oily skin.
         - Day 3: Customer testimonials and reviews for oily skin products.
         - Day 7: Special discount on recommended products for oily skin.
 4. **Test and improve.** Send yourself a test email, then adjust the campaigns based on what you see.
-Open the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz, scroll to the Mailchimp section and remove the connection. Then click the `Publish` button to update the preview/live quiz with the new settings.
+Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab in your quiz, scroll to the Mailchimp section and click `Disconnect`. Then click the `Publish` button to update the preview and the live quiz.
 To control exactly which data reaches Mailchimp, use one of these methods instead.
-- **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+- **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 
@@ -11183,8 +11267,8 @@ This article explains how to send quiz leads to MailerLite.
 
 MailerLite is not supported in the WooCommerce version of the RevenueHunt app.
 With no built-in integration, these are the ways to get your quiz leads into MailerLite.
-- **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-- **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+- **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+- **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 
@@ -11238,10 +11322,6 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
 ### Customer tags in Omnisend
 
-A customer profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not remove the tags from earlier sessions, though. The `tags_quizID` property holds the latest customer tags, so build your segments on that one.
-
-
-
 ### Email templates
 
 ---
@@ -11251,25 +11331,25 @@ This article explains how to connect your quiz to Omnisend, build a segment from
 
 Connect your quiz to Omnisend and every quiz result is sent to your mailing list. You can then segment those contacts on their answers, and follow up with a campaign for each group.
 This article explains how to connect your quiz to Omnisend, build a segment from the customers who finished it, and send them their quiz results.
-1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
 2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
     - Log in to your Omnisend account.
-    - Go to **Store Settings** > **API** and create a new API key.
+    - Go to `Store Settings > API` and create a new API key.
     - Name the key for example `RevenueHunt API Key` and grant all permissions.
     - Copy the generated API key.
-    ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
-3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-4. Paste your `Omnisend API Key` into the field that appears, then click `Save`.
-5. Update the preview/live quiz with the top-right `Publish` button to save the connection.
+    ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
+3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
+4. **Paste your `Omnisend API Key` into the field that appears, then click `Save`.**
+5. **Click the top-right `Publish` button** to send the connection to the preview and the live quiz.
 6. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-7. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+7. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
     - Quiz answers
     - Recommended products
     - Quiz name
     - Product links, names, and images.
 From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
-The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
-![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
+![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
 Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
 | Property | Value |
@@ -11298,46 +11378,48 @@ The instructions below cover building the segment, setting up an automation work
 !!! warning
     Email templates and flows are not a one-click setup. Someone who knows Omnisend has to build them.
     The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
-1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
 2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `permalink_quiz_id`.
-    ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+    ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
     - Pick a property that only these contacts carry, such as `permalink_quiz_id`, and copy its name.
     - Go to `Audience` > `Segments` and create a new segment from scratch.
     - Add a filter using the copied property.
     - Name the segment something recognizable, for example `Skincare Quiz Basic Segment`, and save it.
     - Omnisend will automatically add profiles with this property to the segment.
 3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
-    ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+    ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
     - Go to the `Automation` section in Omnisend.
     - Explore existing workflows or create a new workflow from scratch.
     - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
     - Save the changes to initiate the workflow when users enter the segment.
-4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
     - Drag and drop an email action below the trigger in the workflow.
     - Set the email subject, for example `Your Quiz Results`, and add a subheading.
     - Edit the email content as needed, then save changes to access the email editor.
-5. Start from the [sample quiz results email templates](#email-templates) on this page. To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
+5. **Start from the [sample quiz results email templates](#email-templates) on this page.** To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
 6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
 7. **Save and start the workflow**: save your changes, then start the workflow.
 Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
-![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/1911ea75ad7d4531b3886b0fd5af01a7?sid=741a1bb2-72bb-41ee-be1b-390654e18369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
-1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-3. Access the text block settings to `insert personalization tag`.
-4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
-    ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
-6. Insert the custom property into your text element. You can optionally provide default text.
-    ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-7. Save your changes to the email template.
-8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-9. Save the email template.
+1. **Open your Omnisend automation workflow and select the email you want to edit.**
+2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+3. **Open the text block settings and click `insert personalization tag`.**
+4. **Browse the custom properties that quiz profiles carry.**
+5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
+    ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
+6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
+    ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+7. **Save the text element.**
+8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+9. **Save the email template.**
 Use the `permalink_koHP8VA` in your email template. This property already holds the full URL of the quiz results page.
 !!! example
     `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
 Here are some email templates that you can use as a reference:
 - [Basic Slots Template (4-Step Skincare Routine)](https://docs.google.com/document/d/1wy-_nb0nGyU0_NsWB6YZMiXbXiA2sMyrGu6ks7TqzjQ/edit?usp=sharing)
 - [Advanced Slots Template (Morning & Night Routine)](https://docs.google.com/document/d/1RIXL2zF0ErGbUX5IwCRXjnr8bNV3wXuZQuuy3NmbL_I/edit?usp=sharing)
@@ -11362,9 +11444,9 @@ You can add new customers automatically to your Shopify Customers list every tim
 
 This article explains how to connect your quiz to Shopify Customers and tag each customer by their answers. It also covers building a Shopify Flow that acts on those tags.
 
-## Link quiz to Shopify customers
+## Link quiz to Shopify Customers
 
-## What data is sent to Shopify customers?
+## What data is sent to Shopify Customers?
 
 When someone completes the quiz and leaves their email address, the app creates or updates a customer in your Shopify admin with the data below.
 
@@ -11379,7 +11461,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
 ## Change subscribed/consent status for email and phone questions
 
-## Tag quiz choices to segment Shopify customers
+## Tag quiz choices to segment Shopify Customers
 
 ## Set up Shopify Flow
 
@@ -11391,15 +11473,15 @@ See also: [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-
 --- WooCommerce Specific Content ---
 
 !!! note "Not available on this platform"
-    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 !!! note "Not available on this platform"
-    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 !!! note "Not available on this platform"
-    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 !!! note "Not available on this platform"
-    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 !!! note "Not available on this platform"
-    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+    Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 
 
@@ -11428,74 +11510,9 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
 ## Link quiz to webhooks
 
-## What data is sent to webhook?
+## What data is sent to the webhook?
 
 ## Troubleshooting broken JSON responses in webhooks
-
-If a webhook response contains broken or invalid JSON, work through the steps below.
-
-**What you see**: the response is broken or badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes this.
-
-**Steps to Resolve the Issue**
-
-1. **Check the Content-Type Header:**
-
-    - Inspect the content-type of the webhook payload.
-
-    - Log the headers to verify the content type being sent. If it is unexpected, this could cause the payload to be interpreted incorrectly.
-
-    !!! example
-
-        ```bash
-        Content-Type: application/x-www-form-urlencoded
-        ```
-
-2. **Verify the Header Configuration**:
-
-    - Compare the headers in your app's webhook configuration with the expected content type in the documentation.
-
-    - If the content type differs, it may need to be overridden manually in your webhook configuration.
-
-    !!! example
-
-        ```json
-        "Content-Type": "application/json"
-        ```
-
-3. **Override the Content-Type in the app configuration**:
-
-    - Update the webhook configuration to explicitly set the correct `Content-Type` header.
-
-    - For example, change the content type to `application/json`.
-
-4. **Test the Webhook Connection**:
-
-    After updating the configuration, test the connection:
-
-    - Disconnect the webhook.
-
-    - Reconnect the webhook and test it.
-
-    - Ensure the webhook is properly activated.
-
-5. **Validate the JSON**:
-
-    - Use a tool like [JSONLint](https://jsonlint.com/) to validate the JSON payload.
-
-    - Paste the payload into the tool to ensure it conforms to proper JSON formatting.
-
-6. **Publish Your Changes**:
-
-    - Click the `Publish` button in the top-right corner after you change the webhook configuration.
-
-    - Skip this step and your changes are not applied.
-
-7. **Retest the Integration**:
-
-    - Take the quiz all the way through, submitting valid test data such as an email address and a phone number.
-
-    - Confirm that the webhook receives the corrected JSON payload.
-
 
 ---
 This article explains how to send your quiz data to a webhook.
@@ -11503,18 +11520,18 @@ This article explains how to send your quiz data to a webhook.
 --- WooCommerce Specific Content ---
 
 To initiate the integration:
-1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
-2. Scroll down to `Webhooks` and click `Connect` to open the input field.
-3. Paste your webhook URL into the new line. It saves automatically.
-4. Click the three dots `…` next to the webhook entry and select `Test webhook`.
-5. A successful test returns a message. What that message looks like depends on how your webhook is configured.
+1. **Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab of your quiz.**
+2. **Scroll to `Webhooks` and click `Connect`** to open the input field.
+3. **Paste your webhook URL into the new line.** It saves automatically.
+4. **Click the `...` menu next to the webhook entry and select `Test webhook`.**
+5. **Read the message the test returns.** What it says depends on how your webhook is configured.
     ![how to webhook success](/images/how_to_webhook_success.png)
-6. If an error occurs during the test, perform the following checks:
+6. **If the test fails, work through the checks below.**
     - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
     - Check that the webhook URL is correct and active.
 7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
-    1. After a successful connection test, select `+add new header` to open header fields.
-    2. Enter your HTTP headers. They are sent with the quiz data in the POST request.
+    1. **Click `+add new header`** once the connection test has passed.
+    2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
 8. **Activating your webhook**: use the toggle next to the webhook entry. The same toggle deactivates it later.
 From then on, the quiz sends all its data to your webhook URL in a POST request, headers included.
 ![how to webhook post](/images/how_to_webhook_post.png)
@@ -11730,6 +11747,23 @@ The data is sent as a JSON payload in a POST request, so another system can read
       "created_at": "2022-07-15T13:18:30Z"
     }
     ```
+If a webhook response holds broken or invalid JSON, work through the steps below.
+**What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
+1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
+    !!! example
+        ```text
+        Content-Type: application/x-www-form-urlencoded
+        ```
+2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
+    !!! example
+        ```json
+        "Content-Type": "application/json"
+        ```
+3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+6. **Click the top-right `Publish` button.** Your changes are not applied until you do.
+7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
 
 
 
@@ -11801,7 +11835,7 @@ And paste it in the window that pops up:
 Confirm with `Yes, Continue to RevenueHunt`.
 4. **New connection added**: a `New Connection Added` banner appears. Use the connection to set up your email flow.
 To control exactly which data reaches Zapier, use one of these methods instead.
-- **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+- **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
 - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 During setup you can check what Zapier receives:
 - The customer's email address.
@@ -11867,35 +11901,31 @@ SMTP, or Simple Mail Transfer Protocol, is the protocol that carries email acros
 
 ## Specific SMTP configurations
 
-### Outlook office 365 users
+### Outlook and Office 365
 
 To find credentials to fill in please check [this Microsoft documentation](https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365).
 
-For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
+Office 365 blocks the app until you allow its IP address, `3.14.55.225`.
 
-- **Whitelisting Steps**:
-    - Sign into Office 365, select `Admin`, then `Exchange` under `Admin Centers`.
-    - In `Protection`, choose `Connection Filter` and edit with the pencil icon.
-    - Add IP `3.14.55.225` to the `IP Allow List` and enable the `Enable Safe List`.
+1. **Sign in to Office 365, select `Admin`, then `Exchange` under `Admin Centers`.**
+2. **Open `Protection`, choose `Connection Filter`, and click the pencil icon to edit it.**
+3. **Add `3.14.55.225` to the `IP Allow List`, then turn on `Enable Safe List`.**
 
-### Google workspace users
+### Google Workspace
 
 
 For the credentials to enter, see [this Google documentation](https://support.google.com/a/answer/176600?hl=en).
 
 ![how to set up smtp google](/images/how_to_smtp_googleworkspaceinstructions.png)
 
-- **Enable 2-Step Verification** (2FA): Required for SMTP connections.
-    - [Enable 2FA](https://support.google.com/accounts/answer/185839)
-- **Generate App Password** for SMTP:
-    - Navigate to [App Passwords](https://myaccount.google.com/apppasswords).
-    - Select `Mail` and `Other`, then generate a password to use in the SMTP settings.
+1. **[Turn on 2-Step Verification](https://support.google.com/accounts/answer/185839).** Google requires it before it will issue an app password.
+2. **Open [App Passwords](https://myaccount.google.com/apppasswords), select `Mail` and `Other`, and generate a password.**
+3. **Use that password as your `SMTP Password`**, not your normal Google password.
 
 ## Troubleshooting: common SMTP connection issues
 
-- **Test your credentials with a third-party tool**: check your SMTP settings with a tool such as [GMass SMTP Test](https://www.gmass.co/smtp-test). Credentials that work there work in the RevenueHunt app too. If they fail, ask your developer or your SMTP provider.
-- **SMTP settings not working**: check them with a third-party tool. If they still fail, confirm them with your SMTP provider.
-- **Office 365 is blocking the email**: ask support to allow the IP `3.14.55.225`.
+- **Test your credentials with a third-party tool**: check your SMTP settings with a tool such as [GMass SMTP Test](https://www.gmass.co/smtp-test). Credentials that work there work in the RevenueHunt app too. If they fail there, ask your developer or your SMTP provider.
+- **Office 365 is blocking the email**: add `3.14.55.225` to the `IP Allow List`. See [Outlook and Office 365](#outlook-and-office-365).
 - **Google Workspace SMTP fails**: check that 2FA is on and that you used the app password. Port 587 or 465 should work. If neither does, try again or check Google's support pages.
 
 
@@ -11911,17 +11941,12 @@ This article explains how to add your email provider's SMTP server to your quiz,
 3. **Enter your SMTP details**: fill in your SMTP server details.
     Fill in the following fields:
     ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
-    - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-    - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-    - **Username**: Use the username provided, usually your email address.
-    - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-    - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
-    SMTP settings vary by email provider. To find your settings:
-    - Search your email provider's documentation for `SMTP`.
-    - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-    - Contact your email provider's support team for assistance.
-    !!! note
-        If you are unsure what to enter, search your email provider's documentation for `SMTP`, or ask their support team.
+    - `SMTP From`: the name and address the customer sees. Use the format `"Full Name" <name@company.com>`.
+    - `SMTP Server`: the server address from your provider, such as `smtp.example.com`.
+    - `SMTP Username`: usually the email address your provider gave you.
+    - `SMTP Password`: the password for that username. Some providers issue a separate password for SMTP.
+    - `SMTP Port`: the port your provider specifies, usually `25`, `465`, `587` or `2525`.
+    Credentials differ by provider. Search your provider's documentation for `SMTP`, read [Specific SMTP configurations](#specific-smtp-configurations) below, or ask their support team.
 4. **Test and activate**: click `test connection & activate`. If the test passes, your emails leave from your own server from then on.
     If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).
 
@@ -11941,7 +11966,7 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 A result email brings the customer back to their recommendations, which recovers sales that would otherwise be lost. The RevenueHunt app sends these emails itself, so you do not need an external CRM service, though you can use one.
 
-This article covers the email your [customer receives](#email-quiz-results-via-shop-quiz-app), the notification your [administrators receive](#activate-email-notifications-to-admin), and sending result emails through an [external CRM service](/how-to-guides/send-leads-to-crm/).
+This article covers the email your [customer receives](#email-quiz-results-via-revenuehunt-app), the notification your [administrators receive](#activate-email-notifications-to-admin), and sending result emails through an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
 !!! tip "Two kinds of email"
 
@@ -11965,7 +11990,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
 ## Sending result emails with your CRM
 
-Your own CRM can send the result emails instead. Connect your quiz to one of the [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data reaches your CRM as soon as the customer sees the results page. You then build the email sequence in the CRM itself. Each integration has [its own article](/how-to-guides/send-leads-to-crm/) covering the connection.
+Your own CRM can send the result emails instead. Connect your quiz to one of the [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data reaches your CRM as soon as the customer sees the results page. You then build the email sequence in the CRM itself, following that service's own guide.
 
 ## Activate email notifications to admin
 
@@ -11983,12 +12008,12 @@ This article explains how the RevenueHunt app sends result emails to your custom
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
     ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
     !!! note
         SMTP, or Simple Mail Transfer Protocol, is the protocol that lets an app such as RevenueHunt send email through your own mail server.
         Connect the app to your SMTP server and the result emails leave from your own account.
-        <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+        **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
 3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
     ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
@@ -12002,18 +12027,18 @@ This article explains how the RevenueHunt app sends result emails to your custom
     ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 8. **Publish the changes**: click the top-right `Publish` button to update the preview and the live quiz.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
     ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
     !!! note
         SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
         When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
-        <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+        **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
 3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
     ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-3. Add your email address in the `Send email notification to` field.
+3. **Add your email address in the `Send email notification to` field.**
 4. **Publish the changes**: click the top-right `Publish` button.
-**Using Metadata**
+**Using metadata**
 Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 ![how to send result emails metadata](/images/how_to_send_result_emails_metadata.png)
 The metadata from a quiz response can include various details that are useful for personalizing email communications.
@@ -12157,21 +12182,20 @@ This article explains how to set up multiple results pages in the RevenueHunt ap
 --- WooCommerce Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/af13990661614b4eb7e2964989d1d1e7?sid=5deeb33c-eb7e-412b-8903-f403d5a5cb81" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. Open the [Quiz Builder](/reference/quiz-builder/).
-2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-3. On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to **Multiple Results Pages** and click `activate`.
-4. Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab to open the menu.
-5. The menu lists every results page in this quiz.
-    ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
-6. `Results Page 1` is the default, marked `This is currently the default Results Page`. Click that text to rename the page.
-7. Click `Create new Results Page` to add another.
-8. A second page appears. Click `set` to make it the default, or `edit` to change its contents. The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
-9. With the pages added, **you need [Jump Logic](/how-to-guides/use-jump-logic/) to send each customer to the right one**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder.
-    ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-10. Find the last question before the results. Open it and add Jump Logic rules that send the customer to a particular results page.
-    ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
-    To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
-11. Click the top-right `Publish` button to update the preview and the live quiz.
+1. **Open the [Quiz Builder](/reference/quiz-builder/).**
+2. **Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).**
+3. **On the [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab, scroll to `Multiple Results Pages` and click `activate`.**
+4. **Click the new [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) tab.** The menu lists every results page in this quiz.
+    ![The Multiple Results Pages menu](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+5. **Click `This is currently the default Results Page` to rename `Results Page 1`.** That page is the default until you change it.
+6. **Click `Create new Results Page` to add another.**
+7. **Click `set` to make the new page the default, or `edit` to change its contents.** The quiz builder switches to that page, where you set its own discounts, content, product blocks and settings.
+8. **Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.** Extra pages do nothing on their own. [Jump Logic](/how-to-guides/use-jump-logic/) is what sends each customer to the right one.
+    ![The Conditional Logic tab in the quiz builder](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+9. **Find the last question before the results, and add Jump Logic rules there.** Each rule sends the customer to a particular results page.
+    ![A Jump Logic rule pointing at a results page](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+    [How to use jump logic](/how-to-guides/use-jump-logic/) covers the rules in full.
+10. **Click the top-right `Publish` button** to update the preview and the live quiz.
 
 
 
@@ -12235,6 +12259,9 @@ Give each results page its own fixed products and its own text. Jump Logic then 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
 ---
+
+---
+This article explains how to show the same products to every customer, and how to vary them with display logic instead of scoring.
 
 --- WooCommerce Specific Content ---
 
@@ -12451,12 +12478,12 @@ The quiz **cannot recommend categories** of products. You can, however, [recomme
     See [Upvote inclusion](#upvote-inclusion) for what each upvote type does, and [Exclusion](#exclusion) for how to keep a product out of the results.
 2. **Edit the Results Page.** In the [Results Page](/reference/quiz-builder/results-page/) tab, add a heading, a content block, an image block or an HTML block.
     !!! tip "Editing the Results Page"
-        See [How to Edit the Results Page](/how-to-guides/edit-results-page/).
+        See [how to edit the results page](/how-to-guides/edit-results-page/).
 3. **Add a `Product Block` to the Results Page.** It lists the products by upvote count, most upvoted first.
     ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 4. **Choose how many products to show in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).**
     !!! tip "Recommending a routine instead of a list"
-        A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
         ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 5. **Click [`Publish/Save`](/reference/quiz-builder/questions/) in the top-right menu.** This updates both the preview and the live quiz.
 6. **Click [`Preview`](/reference/quiz-builder/questions/) and take the quiz in a new window.**
@@ -12464,9 +12491,9 @@ The quiz **cannot recommend categories** of products. You can, however, [recomme
         You can test the quiz as often as you like, as long as you open a new preview window each time. Responses you make as an admin are removed automatically after one hour.
 7. **Check a recommendation with the [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section.** It shows why a product was recommended, or why it was missing.
     !!! tip "Troubleshooting the results"
-        See [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+        See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 !!! tip "Refining the results"
-    - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+    - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
     - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -12534,7 +12561,7 @@ The quiz shows different follow-up questions depending on what the customer chos
 12. **Preview the quiz and take every branch.** Check that the right questions appear, and that the recommendations match the answers.
 13. **Check the logic with the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/).**
 !!! tip "Grouping the recommendations"
-    Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+    Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 !!! warning "Not the best fit for a personality quiz"
     The number of rules grows with every question. For a personality quiz, try the [🎯 Custom Scoring System (Most Upvoted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/) instead.
 1. **Create every question the quiz needs in the [Quiz Builder](/reference/quiz-builder/), with all of its choices.**
@@ -12768,19 +12795,22 @@ Give each choice a number of points, then build one results page per outcome. Ju
 
 ---
 
+---
+This article explains how to score the answers in a quiz, and how to turn those scores into a results page.
+
 --- WooCommerce Specific Content ---
 
 !!! note "Not available on this platform"
-    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 !!! note "Not available on this platform"
-    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 !!! note "Not available on this platform"
-    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
+To recommend products by how many choices the customer picked, see [how to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 !!! note "Not available on this platform"
-    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 !!! note "Not available on this platform"
-    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 
 
@@ -12949,7 +12979,7 @@ This article explains how to show why a certain product was recommended to the c
     This version of the RevenueHunt app has no linear score yet. A choice cannot add one point to a running total that then picks a results page.
     That makes a **personality-type** quiz hard to build here. The results page has to carry the explanation instead, and there are four ways to put it there.
 - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
-- **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+- **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [how to use display logic](/how-to-guides/use-display-logic/).
     ??? question "A worked personality-type quiz"
         Say the quiz works out a customer's skin type.
         1. **Ask about oiliness.** "How does your skin usually feel by the middle of the day?"
@@ -12989,7 +13019,7 @@ This article explains how to show why a certain product was recommended to the c
             - Use custom JavaScript to work the skin type out, and write the text from there.
     !!! tip "For a longer quiz, write the logic in code"
         Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
-- **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+- **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
 
@@ -13038,7 +13068,7 @@ This article explains what the sync covers, how to trigger it, and what to do wh
 - **Nothing showing up, or product counts still at zero?** The first sync may still be running, or it may have stopped early. Check the sync status before anything else.
 - **Still missing after the expected sync time?** [Contact the support team](/how-to-guides/contact-customer-support/). The team can run a full sync of your shop by hand.
 A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature imports only the categories you choose.
-[How to Selectively Sync Product Collections](/how-to-guides/sync-selected-collections/)
+[How to selectively sync product collections](/how-to-guides/sync-selected-collections/)
 
 
 
@@ -13063,7 +13093,7 @@ This article explains how to sync only the collections or categories your quiz n
 --- WooCommerce Specific Content ---
 
 A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature syncs only the categories you pick.
-That keeps the quiz fast, and keeps a large catalog from running into technical trouble.
+That keeps the quiz fast, and keeps a large catalog out of technical trouble.
 !!! info "Ask support to switch it on"
     This feature is enabled per account. [Contact support](/how-to-guides/contact-customer-support/) to have it turned on for yours.
 1. **Go to the [Success Checklist](/reference/dashboard/#success-checklist) in the `Dashboard`.**
@@ -13175,6 +13205,9 @@ Whichever platform you are on, these values travel with the response and arrive 
 - [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimizing the ads themselves.
 - [Use Quiz Data to Lower Your Ad Costs](/customer-success/use-quiz-data-for-ads/): what to do with the data once you can read it.
 
+---
+This article explains how to follow a customer from an ad through the quiz to a purchase, and what each drop in the funnel means.
+
 --- WooCommerce Specific Content ---
 
 1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
@@ -13209,7 +13242,7 @@ The two events this gives you are the two middle steps of the funnel in Step 4. 
 |---|---|---|
 | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
 | Results page reached | `results_page_viewed` | `prqQuizCallback` |
-Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [how to use the callback function](/how-to-guides/use-callback-function/).
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 1. **Open the Funnel exploration template.** In GA4, click `Explore` in the left sidebar, then pick **Funnel exploration**. It opens with four placeholder steps, which you are going to replace.
 2. **Set your date range.** The picker sits at the top of the **Variables** panel.
@@ -13244,7 +13277,7 @@ Pass the campaign in on the URL and store it in a hidden question. The `actions`
     </script>
     ```
 A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
-Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+Guides: [How to pass parameters to pre-fill quiz responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 
 
@@ -13272,7 +13305,7 @@ This article explains how to track the revenue your quiz produced in the Revenue
 
 --- WooCommerce Specific Content ---
 
-Track quiz revenue alongside your other metrics in GA4. See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+Track quiz revenue alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 
 
@@ -13560,7 +13593,7 @@ To find your theme name, go to **Online Store > Themes** in Shopify Admin.
 
 !!! tip "Your theme is not on this list"
 
-    The list is not exhaustive, and many other themes work. Two cases are worth reporting: a theme that is missing, and a listed theme whose drawer does not update. Contact support with your theme name and version. The support team checks the theme and adds coverage where possible. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+    The list is not exhaustive, and many other themes work. Two cases are worth reporting: a theme that is missing, and a listed theme whose drawer does not update. Contact support with your theme name and version. The support team checks the theme and adds coverage where possible. See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
 ## When the drawer still does not update
 
@@ -13586,7 +13619,7 @@ Change the checkout settings to send the customer to the product page rather tha
 
 !!! tip "Changing what the button does"
 
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
 ## Cart drawer support in the legacy app
 
@@ -13623,7 +13656,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 !!! tip "This work goes away on the current version"
 
-    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [how to migrate your Shopify legacy quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 
@@ -13635,7 +13668,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
     The app updates the cart, announces the change, and refreshes and opens the theme's own drawer. It does not modify your cart drawer or your theme layout.
 
-    The support team can confirm that the app is firing the right cart actions. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+    The support team can confirm that the app is firing the right cart actions. See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
     Theme customization and third-party JavaScript are outside what support can debug. For those, ask your theme developer or a Shopify Expert.
 
@@ -13812,7 +13845,7 @@ display logic     shows or hides          part of the results page
 
 `IF-THEN` rules put custom text in front of the right customer. Inside the quiz that is Jump Logic or Skip Logic, and on the results page it is Display Logic.
 
-[How to Show or Hide Content Based on Quiz Answers](/how-to-guides/hide-content-with-logic/)
+[How to show or hide content based on quiz answers](/how-to-guides/hide-content-with-logic/)
 
 ## Jump logic
 
@@ -13825,7 +13858,7 @@ Jump Logic sends each customer down a different path, from the answer they gave.
     - Send the customer to a different results page.
     - Send the customer to an external URL.
 
-[How to Use Jump Logic](/how-to-guides/use-jump-logic/)
+[How to use jump logic](/how-to-guides/use-jump-logic/)
 
 ## Skip logic
 
@@ -13836,13 +13869,13 @@ Skip Logic changes which questions come next, so a customer only answers the one
     - Skip questions the customer's earlier answers have made irrelevant.
     - Show different follow-up questions after a multiple-choice question that allows several selections. A customer who picks two skin concerns then answers only the questions for those two.
 
-[How to Use Skip Logic](/how-to-guides/use-skip-logic/)
+[How to use skip logic](/how-to-guides/use-skip-logic/)
 
 ## Display logic
 
 Display Logic shows or hides individual elements on the results page.
 
-[How to Use Display Logic](/how-to-guides/use-display-logic/)
+[How to use display logic](/how-to-guides/use-display-logic/)
 
 ---
 
@@ -13963,7 +13996,7 @@ A segment earns nothing until something is sent to it. Build one flow or campaig
 
 !!! tip "More on the strategy"
 
-    [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) covers how to plan the segments and the campaigns around them.
+    [How to use customer tags in product quizzes to maximize sales](/customer-success/use-customer-tags-in-quiz/) covers how to plan the segments and the campaigns around them.
 
 ---
 
@@ -13984,7 +14017,7 @@ This article explains how to add customer tags to a quiz, and how to use them to
 1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
 2. **Find the service you use and connect it.** The quiz connects directly to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) and [Omnisend](/how-to-guides/send-leads-to-omnisend/).
     !!! info "Any other service"
-        [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+        [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 3. **Follow the instructions the service shows on screen.**
 Every completed quiz then sends the contact details, the answers, the customer tags and the recommended products to that service.
 
@@ -14022,7 +14055,7 @@ You build one results page that holds the content for every outcome. Display log
 
 Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
 
-See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the logic that runs inside the quiz itself, rather than on the results page.
+See [how to use conditional logic](/how-to-guides/use-conditional-logic/) for the logic that runs inside the quiz itself, rather than on the results page.
 
 ---
 
@@ -14070,7 +14103,7 @@ A skincare quiz asks for the skin type, and the Results Page holds one content b
         - *You have Oily Skin*: Your skin is shiny with excess oil rather than a natural glow. It wants a routine that balances and clarifies, with light hydration.
         - *You have Combination-Type Skin*: Your T-zone runs oily, while the rest of your face is normal or dry.
     !!! tip "Make the heading stand out"
-        Put a `#` in front of a line to turn it into a heading. See [How to Use Markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
+        Put a `#` in front of a line to turn it into a heading. See [how to use markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
 4. **Repeat for every skin type, one content block each.**
 5. **Select the first content block, click `display logic`, then click `add display logic`.**
 6. **Set the rule to `IF response to` the skin type question `is` that block's own skin type.**
@@ -14191,7 +14224,7 @@ Do not use both in one quiz.
 
 Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
 
-See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
+See [how to use conditional logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
 
@@ -14256,7 +14289,7 @@ A skincare quiz asks for the skin type, shows one statement of four, and then ca
 5. **Select each statement in turn, and set its `Always jump to...` destination to the next question.**
     Without this the branches never rejoin, and a customer who read the dry skin statement carries on into the normal skin statement.
 6. **Click the top-right `Publish` button, then answer the quiz once per skin type.**
-1. **Create the Results Pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+1. **Create the Results Pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 2. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 3. **Open the `Jump Logic` section and click `Add Jump Logic`.**
 4. **Point each answer at its own Results Page.**
@@ -14415,7 +14448,7 @@ Do not use both in one quiz.
 
 Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
 
-See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
+See [how to use conditional logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
 
@@ -14521,7 +14554,7 @@ It runs on Shopify, WooCommerce, Magento and BigCommerce, and as a standalone ap
 
 ## Get the app
 
-For the full steps on your platform, including what to grant and what to check afterwards, see [How to Install the App](/how-to-guides/install-app/).
+For the full steps on your platform, including what to grant and what to check afterwards, see [how to install the app](/how-to-guides/install-app/).
 
 Once the app is open, work through the [Success Checklist](/reference/dashboard/#success-checklist) to build and publish your first quiz.
 
@@ -14556,7 +14589,7 @@ This site is in four parts.
 
 ## Contact support
 
-Still looking for an answer? See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+Still looking for an answer? See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
 --- WooCommerce Specific Content ---
 
@@ -14726,6 +14759,13 @@ If you find an accessibility problem, report it to customer support.
 - [Quiz Design](/reference/quiz-builder/quiz-design/)
 - [Change Quiz Language](/how-to-guides/change-quiz-language/)
 
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Feedback](/reference/feedback/)
+Next: [CSS Structure](/reference/css-structure/) →
+
 
 
 
@@ -14753,6 +14793,13 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 ## Newsletter
 
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Plans & Pricing](/reference/plans-pricing/)
+Next: [Resources](/reference/resources/) →
+
 --- WooCommerce Specific Content ---
 
 ![app settings general](/images/manual_appsettings_general.png)
@@ -14769,14 +14816,14 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 ![manual_appsettings_catalogue_woo](/images/manual_appsettings_catalogue_woo.png)
 **What information to pull from your products** - Choose custom settings for your products within the app.
 `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
-`Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+`Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to add product metafields](/how-to-guides/add-product-metafields/).
 `Use attributes as categories` - Lets you use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 ![app settings smtp](/images/manual_appsettings_smtp.png)
 **SMTP Settings** 
 SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 !!! tip 
-    Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 `SMTP Server` - Set your server URL.
 `SMTP Username` - Set your SMTP Username.
@@ -14830,6 +14877,13 @@ them to customize how your quizzes look.
 ## Dynamic ID patterns
 
 ## Common use cases
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Accessibility](/reference/accessibility/)
+Next: [Glossary](/reference/glossary/) →
 
 --- WooCommerce Specific Content ---
 
@@ -14988,7 +15042,7 @@ Three classes cover the purchase flow, and they are not interchangeable.
     The legacy app targets elements by class instead.
 !!! tip "More legacy CSS examples"
     For ready-made snippets you can paste in, see
-    [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+    [How to customize the quiz design](/how-to-guides/customize-quiz-design/).
 
 
 
@@ -15022,6 +15076,13 @@ The Dashboard lists every quiz you create.
 ## Support
 
 ## Switch to legacy
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Overview](/reference/)
+Next: [Plans & Pricing](/reference/plans-pricing/) →
 
 --- WooCommerce Specific Content ---
 
@@ -15076,7 +15137,7 @@ To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 ![new quiz page](/images/manual_standalone_newquiz.png)
 `start with an empty quiz` - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
 ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
-`import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+`import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
 `live preview` - Opens a live preview of the quiz templates.
@@ -15101,6 +15162,13 @@ description: "Send a bug report, a feature request or a new app idea to the Reve
 # Feedback
 
 The Feedback page sends a message straight to the RevenueHunt product team. Use it to report a bug, to request a feature, or to suggest a new app.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Resources](/reference/resources/)
+Next: [Accessibility](/reference/accessibility/) →
 
 --- WooCommerce Specific Content ---
 
@@ -15175,6 +15243,13 @@ display logic     shows or hides          part of the results page
 | **popup** | A quiz that opens over the page rather than sitting in it. Link Popup Quiz, Automatic Popup Quiz and Chat Popup Quiz are the published forms. |
 | **inline quiz** | A quiz embedded directly in a page, as part of the content. |
 | **customer tag** | A label a choice can apply to a customer, used to segment them in your store and in your email platform. Not the same as a product tag. |
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [CSS Structure](/reference/css-structure/)
+Next: [Quiz Builder](/reference/quiz-builder/) →
 
 --- WooCommerce Specific Content ---
 
@@ -15305,6 +15380,12 @@ The CSS classes and selectors you can target when you style a quiz with your own
 
 The name this documentation uses for every product term, and what each one means on your platform.
 
+---
+
+← [Back to the App Manual](/reference/)
+
+Next: [Dashboard](/reference/dashboard/) →
+
 
 
 
@@ -15325,6 +15406,13 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
     For more about plans and pricing, see the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
 ## How to change my billing details?
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Dashboard](/reference/dashboard/)
+Next: [App Settings](/reference/app-settings/) →
 
 --- WooCommerce Specific Content ---
 
@@ -15380,6 +15468,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 ← Previous: [Link Products](/reference/quiz-builder/link-products/)
 Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
+Next: [Quiz Design](/reference/quiz-builder/quiz-design/) →
 
 --- WooCommerce Specific Content ---
 
@@ -15456,6 +15551,13 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
+
+← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
+Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
 Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
@@ -15584,6 +15686,13 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 ← [Back to Quiz Builder](/reference/quiz-builder/)
 
+
+← Previous: [Questions](/reference/quiz-builder/questions/)
+Next: [Link Products](/reference/quiz-builder/link-products/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Questions](/reference/quiz-builder/questions/)
 Next: [Link Products](/reference/quiz-builder/link-products/) →
@@ -15760,6 +15869,13 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)
 Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
 
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Results Page](/reference/quiz-builder/results-page/)
+Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
+
 --- WooCommerce Specific Content ---
 
 In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
@@ -15869,7 +15985,7 @@ quiz
     Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
 `+` / `Add new question` - Opens a menu of quiz questions to add.
 ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-`Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+`Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
@@ -15890,7 +16006,7 @@ quiz
 ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 `Question Type` - Lets you switch between similar question types.
 `Button Text` - Change the text button on the slide.
-`Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
+`Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [how to use information recalls](/how-to-guides/use-information-recalls/).
 `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
@@ -15906,7 +16022,7 @@ quiz
 - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
 - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
-`Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+`Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [how to display multiple questions per slide](/how-to-guides/join-questions/).
 `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 `Question ID` - Displays the question unique ID.
 `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
@@ -15937,6 +16053,13 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 ← [Back to Quiz Builder](/reference/quiz-builder/)
 
+
+← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
+Next: [Results Page](/reference/quiz-builder/results-page/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
 Next: [Results Page](/reference/quiz-builder/results-page/) →
@@ -16005,6 +16128,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)
 Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
 
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Notifications](/reference/quiz-builder/notifications/)
+Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
+
 --- WooCommerce Specific Content ---
 
 ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
@@ -16018,7 +16148,7 @@ In Quiz Settings you can change the quiz language and currency, and edit button 
 `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
-`Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+`Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 `Quiz ID` - Displays the current quiz ID.
 ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
 `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
@@ -16127,6 +16257,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 
 ← Previous: [Quiz design](/reference/quiz-builder/quiz-design/)
+Next: [Notifications](/reference/quiz-builder/notifications/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Quiz Design](/reference/quiz-builder/quiz-design/)
 Next: [Notifications](/reference/quiz-builder/notifications/) →
 
 --- WooCommerce Specific Content ---
@@ -16310,11 +16447,18 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 ← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 Next: [Metrics](/reference/quiz-builder/metrics/) →
 
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
+Next: [Metrics](/reference/quiz-builder/metrics/) →
+
 --- WooCommerce Specific Content ---
 
 ![manual_woo_quizbuilder_share](/images/manual_woo_quizbuilder_share.png)
 In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
-For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
+For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 !!! info "What is a Link Popup?"
     A link that opens the quiz as a popup over your page.
 `Instructions for legacy themes` - Opens extra settings menu.
@@ -16383,6 +16527,13 @@ description: "The RevenueHunt Resources page: the quiz ROI calculator, the Shopi
 # Resources
 
 The Resources page collects the tools, reports and templates that help you plan a quiz. It also lists Shopify apps that work well alongside a quiz.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [App Settings](/reference/app-settings/)
+Next: [Feedback](/reference/feedback/) →
 
 --- WooCommerce Specific Content ---
 
@@ -16731,7 +16882,7 @@ To do more with your quiz, connect the RevenueHunt app to other tools.
 The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you analyze quiz responses.
 - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
 - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
-- You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+- You can download all responses to a CSV file from [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
 
 
@@ -16762,7 +16913,7 @@ Make and publish a short quiz that recommends a single product to your customers
 
 [:fontawesome-solid-arrow-right: Making your first quiz](/tutorials/making-first-quiz/)
 
-### [How to build a successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+### [how to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 
 The elements that make a quiz popular with customers and drive results.
 
@@ -16805,6 +16956,9 @@ Learn how to add RevenueHunt app leads to Klaviyo, and how to build a post-quiz 
 Learn how to show different quizzes for different Shopify Markets, and how to show quizzes in different languages or currencies based on your market settings.
 
 [:fontawesome-solid-arrow-right: Assign quizzes to Shopify Markets](/tutorials/shopify-markets/)
+
+---
+This page lists the video tutorials, each one building a working quiz from start to finish.
 
 
 
@@ -16902,7 +17056,7 @@ In this tutorial you will learn how to make and publish a short quiz that recomm
     - In `content blocks`, you can write insightful information about the product recommended.
     - With an `image block`, you can add your brand's logo.
     - In the `Products block`, you can select how many products will be recommended.
-3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [how to use markdown language](/how-to-guides/use-markdown/).
 4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
 1. Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner. It shows every publishing option.
 2. For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).
@@ -17006,7 +17160,7 @@ The question settings hold many options to customize a question.
         - Render custom product recommendations.
         - Redirect to a specific store page.
         - Fire tracking on specific steps (GA, Meta Pixel, etc.).
-        See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
+        See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
 **Adding Media**
 You can add media into quiz questions in two ways:
 1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
@@ -17022,7 +17176,7 @@ You can add media into quiz questions in two ways:
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 !!! tip "Tip"
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
 **Styling Text**
 For quick formatting, you can use **Markdown** inside text blocks (questions, choices, results).
 !!! example "Using Markdown"
@@ -17109,7 +17263,7 @@ Click on the `gear icon` in the top-right corner to open the [results page setti
     ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
 !!! tip "Need a fully custom layout?"
     Build a **custom results page** on your site and send quiz data to it with the **Callback Function** (receives responses as JSON). This gives you total control over layout and rendering.
-    Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
+    Check [how to use the callback function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
 
@@ -17148,7 +17302,7 @@ In this tutorial you will learn how to send emails to customers and to yourself.
     - how to receive a notification email when someone completes a quiz,
     - how to connect your own email server using SMTP.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. See [How to Send Result Emails from Your Own Server](/how-to-guides/send-result-emails-from-custom-server/) for the setup.
+1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. See [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for the setup.
     ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
     !!! note
         SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
@@ -17167,7 +17321,7 @@ In this tutorial you will learn how to send emails to customers and to yourself.
     ![Advanced HTML email template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 7. **Publish the changes**: Publish the changes with the top-right `Publish` button to update the preview and the live quiz.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. See [How to Send Result Emails from Your Own Server](/how-to-guides/send-result-emails-from-custom-server/) for the setup.
+1. **Add Your SMTP Credentials**: Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. See [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for the setup.
     ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
     !!! note
         SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
@@ -17417,7 +17571,7 @@ Your developer can implement a custom scoring system with JavaScript on the Resu
 !!! tip
     To recommend products based on the number of choices a customer makes, see [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz). That section covers this version.
 !!! tip
-    To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    To add custom JavaScript to the Results Page, see [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 
 

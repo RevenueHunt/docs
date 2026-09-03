@@ -95,3 +95,10 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 
 ← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
 Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
+Next: [Share / Publish](/reference/quiz-builder/share-publish/) →

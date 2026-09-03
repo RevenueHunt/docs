@@ -116,7 +116,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 !!! info "Support"
 
-    If you run into problems or notice missing features, please [report them to our support team](/how-to-guides/contact-customer-support/).
+    If you have problems or notice missing features, [report them to the RevenueHunt support team](/how-to-guides/contact-customer-support/).
 
 ---
 This article explains what is the new Built for Shopify version of the RevenueHunt app and how to switch between the Legacy and Built for Shopify versions of the RevenueHunt app.

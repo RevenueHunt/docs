@@ -714,3 +714,6 @@ Whichever platform you are on, these values travel with the response and arrive 
 - [Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): the quiz to order half, native and already running.
 - [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimizing the ads themselves.
 - [Use Quiz Data to Lower Your Ad Costs](/customer-success/use-quiz-data-for-ads/): what to do with the data once you can read it.
+
+---
+This article explains how to follow a customer from an ad through the quiz to a purchase, and what each drop in the funnel means.

@@ -1896,3 +1896,5 @@ The instructions here are written to be passed to a developer.
 
     That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
 
+---
+This article explains how to connect your quiz to Klaviyo, and how to build the follow-up email flow there.

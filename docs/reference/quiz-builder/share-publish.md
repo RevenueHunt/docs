@@ -1045,3 +1045,10 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
 ← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 Next: [Metrics](/reference/quiz-builder/metrics/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
+Next: [Metrics](/reference/quiz-builder/metrics/) →

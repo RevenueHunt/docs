@@ -875,3 +875,6 @@ icon: simple/hubspot
 === "Standalone"
 
     To disconnect HubSpot, open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Click `Disconnect` next to the HubSpot integration.
+
+---
+This article explains how to send quiz leads to HubSpot, and how to set up a follow-up email there.

@@ -154,3 +154,6 @@ The quiz sits inside a PageFly page, or a PageFly button opens it.
 **Pick this when** your landing pages are built in PageFly. Its inline element works with the legacy app only, so on Built for Shopify you point a button at the quiz.
 
 [How to publish a quiz on a PageFly page](/how-to-guides/publish-pagefly/)
+
+---
+This article explains the ways to put a quiz in front of your customers, and which one suits each kind of page.

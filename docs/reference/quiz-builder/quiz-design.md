@@ -430,3 +430,10 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 ← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
 Next: [Results Page](/reference/quiz-builder/results-page/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
+Next: [Results Page](/reference/quiz-builder/results-page/) →

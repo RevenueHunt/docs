@@ -236,7 +236,7 @@ A minimum can leave a block with nothing to show. That is the point of it, but d
 
     Fill in `No recommendations message` in the [block settings](/reference/quiz-builder/results-page/#block-settings). It shows in place of the products, and it accepts HTML and Liquid, so you can name the customer or their answer in it.
 
-    Leave it empty and the customer simply sees no products.
+    Leave it empty and the customer sees no products.
 
     !!! tip "Give them somewhere to go"
 

@@ -7,7 +7,7 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 A result email brings the customer back to their recommendations, which recovers sales that would otherwise be lost. The RevenueHunt app sends these emails itself, so you do not need an external CRM service, though you can use one.
 
-This article covers the email your [customer receives](#email-quiz-results-via-shop-quiz-app), the notification your [administrators receive](#activate-email-notifications-to-admin), and sending result emails through an [external CRM service](/how-to-guides/send-leads-to-crm/).
+This article covers the email your [customer receives](#email-quiz-results-via-revenuehunt-app), the notification your [administrators receive](#activate-email-notifications-to-admin), and sending result emails through an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
 !!! tip "Two kinds of email"
 
@@ -34,11 +34,11 @@ Follow the instructions below to activate and edit the result emails the app sen
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/3AWbHe1aTac?si=vBYdeOUlrVtb5m6H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz builder](/reference/quiz-builder/questions/).
-    2. **Activate the customer email**: go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check `Send email when someone completes the quiz`.
+    2. **Activate the customer email**: go to [`Quiz settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check `Send email when someone completes the quiz`.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
     3. **Email TO**: choose which email question supplies the address to send to.
     4. **Edit REPLY-TO**: choose the address your customer replies to.
-    5. **Email Subject**: Edit the title of the email that customers will receive.
+    5. **Email Subject**: edit the title of the email your customer receives.
     6. **Edit Email Content**: set up the template for that email.
 
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
@@ -52,7 +52,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             !!! tip
 
-                See [Quiz Response Metadata Structure](#editing-email-templates) for the full list.
+                See [Editing email templates](#editing-email-templates) for the full list.
 
         - Ready-made snippets sit under the `Email Liquid Template` field. Use `Responses by Block`, for example, to list the answers.
 
@@ -65,7 +65,7 @@ Follow the instructions below to activate and edit the result emails the app sen
             Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
 
 
-    7. **Add your SMTP credentials (recommended)**: result emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    7. **Add your SMTP credentials (recommended)**: result emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App settings > SMTP settings`](/reference/app-settings/#smtp) and enter your credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
@@ -75,7 +75,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
     8. **Save the changes**: click the top-right `Save` button to update the preview and the live quiz.
     9. **Preview the quiz**: take it through to the results page, which triggers the email.
 
@@ -95,7 +95,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
     3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
@@ -126,7 +126,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
     3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
@@ -157,7 +157,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
     3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
@@ -188,7 +188,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
     3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
@@ -219,7 +219,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
             Connect the app to your SMTP server and the result emails leave from your own account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Add an email question**: your quiz needs one before it can send a result email. Add it in the [Quiz Builder](/reference/quiz-builder/questions/).
     3. **Activate the customer email**: go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle `Send email when someone completes the quiz`.
@@ -236,7 +236,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
 ## Sending result emails with your CRM
 
-Your own CRM can send the result emails instead. Connect your quiz to one of the [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data reaches your CRM as soon as the customer sees the results page. You then build the email sequence in the CRM itself. Each integration has [its own article](/how-to-guides/send-leads-to-crm/) covering the connection.
+Your own CRM can send the result emails instead. Connect your quiz to one of the [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data reaches your CRM as soon as the customer sees the results page. You then build the email sequence in the CRM itself, following that service's own guide.
 
 ## Activate email notifications to admin
 
@@ -250,7 +250,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XdPgnR8W4fg?si=TivtkA2wCiHaFQYg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
+    1. **Activate Emails to self**: go to [`Quiz settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
     2. **Edit Email to**: choose which address receives the notification, such as a company or a personal one.
     3. **Edit Email Subject**: edit the subject line of the notification.
@@ -261,7 +261,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
         - You can always reset the email template to default settings.
 
-    5. **Add your SMTP credentials (recommended)**: notification emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    5. **Add your SMTP credentials (recommended)**: notification emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App settings > SMTP settings`](/reference/app-settings/#smtp) and enter your credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
@@ -271,7 +271,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
     6. **Save the changes**: click the top `Save` button.
     7. **Preview the quiz**: take it through to the results page, which triggers the notification.
 
@@ -290,12 +290,12 @@ The app can email you every time someone completes the quiz or goes through to t
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. Add your email address in the `Send email notification to` field.
+    3. **Add your email address in the `Send email notification to` field.**
     4. **Publish the changes**: click the top-right `Publish` button.
 
 === "WooCommerce"
@@ -313,12 +313,12 @@ The app can email you every time someone completes the quiz or goes through to t
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. Add your email address in the `Send email notification to` field.
+    3. **Add your email address in the `Send email notification to` field.**
     4. **Publish the changes**: click the top-right `Publish` button.
 
 === "Magento"
@@ -336,12 +336,12 @@ The app can email you every time someone completes the quiz or goes through to t
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. Add your email address in the `Send email notification to` field.
+    3. **Add your email address in the `Send email notification to` field.**
     4. **Publish the changes**: click the top-right `Publish` button.
 
 === "BigCommerce"
@@ -359,12 +359,12 @@ The app can email you every time someone completes the quiz or goes through to t
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. Add your email address in the `Send email notification to` field.
+    3. **Add your email address in the `Send email notification to` field.**
     4. **Publish the changes**: click the top-right `Publish` button.
 
 === "Standalone"
@@ -382,12 +382,12 @@ The app can email you every time someone completes the quiz or goes through to t
 
             When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
-            <b>If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.</b>
+            **If you are unsure what credentials to use, search your email provider's documentation for `SMTP`, or ask their support team.**
 
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. Add your email address in the `Send email notification to` field.
+    3. **Add your email address in the `Send email notification to` field.**
     4. **Publish the changes**: click the top-right `Publish` button.
 
 
@@ -395,7 +395,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
 === "Shopify"
 
-    **Using Metadata**
+    **Using metadata**
 
     !!! note
 
@@ -407,12 +407,12 @@ The app can email you every time someone completes the quiz or goes through to t
 
     The metadata from a quiz response can include various details that are useful for personalizing email communications.
 
-    **Understanding the Data Structure**
+    **Understanding the data structure**
 
     When a customer finishes a quiz, you receive structured metadata with:
 
     - `firstName`, `fullName`, `email`: basic user info
-    - `answersByBlock`: customer’s answers to quiz questions
+    - `answersByBlock`: customer's answers to quiz questions
     - `recommendationsBySlot`: products recommended by the quiz
     - `resultContentByBlock`: dynamic text, tips, and headings from the results page
 
@@ -426,7 +426,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
         ---
 
-        **Basic Information**
+        **Basic information**
 
         `responseId` - Unique ID for this specific quiz response
 
@@ -559,7 +559,7 @@ The app can email you every time someone completes the quiz or goes through to t
         `content or slots` - The rendered HTML or product data
 
 
-    **How to Use Metadata in Liquid Templates**
+    **Using metadata in a Liquid template**
 
     Display Their First Name: `Hi {{ person.firstName | default: 'there' }},` or `Hi {{ person.answersByBlock.qbi-6c4248f5.value | default: 'there' }},`
 
@@ -610,7 +610,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
 === "Shopify (Legacy)"
 
-    **Using Metadata**
+    **Using metadata**
 
     Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 
@@ -745,7 +745,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
 === "WooCommerce"
 
-    **Using Metadata**
+    **Using metadata**
 
     Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 
@@ -879,7 +879,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
 === "Magento"
 
-    **Using Metadata**
+    **Using metadata**
 
     Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 
@@ -1014,7 +1014,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
 === "BigCommerce"
 
-    **Using Metadata**
+    **Using metadata**
 
     Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 
@@ -1149,7 +1149,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
 === "Standalone"
 
-    **Using Metadata**
+    **Using metadata**
 
     Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 

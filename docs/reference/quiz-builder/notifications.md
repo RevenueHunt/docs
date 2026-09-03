@@ -632,3 +632,10 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)
 Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Results Page](/reference/quiz-builder/results-page/)
+Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →

@@ -59,7 +59,7 @@ When the numbers won't move, the worst thing you can do is change things at rand
 
 ## Visibility
 
-If your quiz views are low, the content isn't the problem. Shoppers simply can't find it. The most successful quizzes appear in two or three places at once, so a customer runs into the quiz wherever they are in their visit.
+If your quiz views are low, the content isn't the problem. Customers cannot find it. The most successful quizzes appear in two or three places at once, so a customer meets the quiz wherever they are in their visit.
 
 ![Multiple quiz publishing locations](/images/how_to_build_a_successful_quiz_image1.png)
 
@@ -182,3 +182,6 @@ Need help diagnosing your specific quiz? [Get in touch with our support team](/h
 - [How to reduce drop-off](/customer-success/reduce-dropoff/)
 - [Why the best-selling quizzes have zero customization](/customer-success/best-quizzes-no-customization/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains the three points where a quiz can fail, how to tell which one you have, and what to fix first.

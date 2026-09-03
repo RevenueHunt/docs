@@ -537,3 +537,10 @@ display logic     shows or hides          part of the results page
 | **popup** | A quiz that opens over the page rather than sitting in it. Link Popup Quiz, Automatic Popup Quiz and Chat Popup Quiz are the published forms. |
 | **inline quiz** | A quiz embedded directly in a page, as part of the content. |
 | **customer tag** | A label a choice can apply to a customer, used to segment them in your store and in your email platform. Not the same as a product tag. |
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [CSS Structure](/reference/css-structure/)
+Next: [Quiz Builder](/reference/quiz-builder/) →

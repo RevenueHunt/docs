@@ -54,6 +54,9 @@ Caps are ceilings, not targets. Nothing rewards a nine-word sentence.
   | see | check out |
   | contact | reach out to |
   | go to | head to, head over to |
+  | if this happens | if you hit this |
+  | have, or meet | run into |
+  | ready, within the limit | good to go |
 - **No contractions.** Write *do not*, not *don't*. Write *you will*, not
   *you'll*. Contractions are one of the first things a non-native reader
   misreads, and *won't* is easy to skim as *want*. Possessives are not

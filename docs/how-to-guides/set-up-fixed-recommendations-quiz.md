@@ -850,3 +850,6 @@ Give each results page its own fixed products and its own text. Jump Logic then 
     9. **Click the top-right `Publish` button to update the preview and the live quiz.**
 
 ---
+
+---
+This article explains how to show the same products to every customer, and how to vary them with display logic instead of scoring.

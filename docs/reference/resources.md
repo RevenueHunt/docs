@@ -59,3 +59,10 @@ The Resources page collects the tools, reports and templates that help you plan 
     !!! note "Resources is a Built for Shopify feature"
 
         This version of the app has a Help menu on the Dashboard instead.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [App Settings](/reference/app-settings/)
+Next: [Feedback](/reference/feedback/) →

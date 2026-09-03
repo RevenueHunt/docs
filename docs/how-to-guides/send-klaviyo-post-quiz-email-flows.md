@@ -548,3 +548,6 @@ The full token reference, the downloadable Klaviyo template, and worked examples
 - [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/): the step-by-step tutorial for your first flow.
 - [Use Customer Tags](/how-to-guides/use-customer-tags/): how answers become the tags every flow segments on.
 - [Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/): capture consent in the quiz so you can email compliantly.
+
+---
+This article explains the six emails you can send after a quiz, what starts each one, and which to build first for your industry.

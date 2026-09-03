@@ -24,7 +24,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
     1. **Prepare your quiz**. Add every question you want, then open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
 
-    2. **Open the Webhooks integration**. Scroll to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section and click **Webhooks**.
+    2. **Open the Webhooks integration**. Scroll to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section and click `Webhooks`.
 
     3. **Add a webhook**. Click `+ Add Webhook`. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
 
@@ -53,21 +53,21 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
     To initiate the integration:
 
-    1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
-    2. Scroll down to `Webhooks` and click `Connect` to open the input field.
-    3. Paste your webhook URL into the new line. It saves automatically.
-    4. Click the three dots `…` next to the webhook entry and select `Test webhook`.
-    5. A successful test returns a message. What that message looks like depends on how your webhook is configured.
+    1. **Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab of your quiz.**
+    2. **Scroll to `Webhooks` and click `Connect`** to open the input field.
+    3. **Paste your webhook URL into the new line.** It saves automatically.
+    4. **Click the `...` menu next to the webhook entry and select `Test webhook`.**
+    5. **Read the message the test returns.** What it says depends on how your webhook is configured.
         ![how to webhook success](/images/how_to_webhook_success.png)
 
-    6. If an error occurs during the test, perform the following checks:
+    6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
-        1. After a successful connection test, select `+add new header` to open header fields.
-        2. Enter your HTTP headers. They are sent with the quiz data in the POST request.
+        1. **Click `+add new header`** once the connection test has passed.
+        2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
 
     8. **Activating your webhook**: use the toggle next to the webhook entry. The same toggle deactivates it later.
 
@@ -81,21 +81,21 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
     To initiate the integration:
 
-    1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
-    2. Scroll down to `Webhooks` and click `Connect` to open the input field.
-    3. Paste your webhook URL into the new line. It saves automatically.
-    4. Click the three dots `…` next to the webhook entry and select `Test webhook`.
-    5. A successful test returns a message. What that message looks like depends on how your webhook is configured.
+    1. **Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab of your quiz.**
+    2. **Scroll to `Webhooks` and click `Connect`** to open the input field.
+    3. **Paste your webhook URL into the new line.** It saves automatically.
+    4. **Click the `...` menu next to the webhook entry and select `Test webhook`.**
+    5. **Read the message the test returns.** What it says depends on how your webhook is configured.
         ![how to webhook success](/images/how_to_webhook_success.png)
 
-    6. If an error occurs during the test, perform the following checks:
+    6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
-        1. After a successful connection test, select `+add new header` to open header fields.
-        2. Enter your HTTP headers. They are sent with the quiz data in the POST request.
+        1. **Click `+add new header`** once the connection test has passed.
+        2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
 
     8. **Activating your webhook**: use the toggle next to the webhook entry. The same toggle deactivates it later.
 
@@ -109,21 +109,21 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
     To initiate the integration:
 
-    1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
-    2. Scroll down to `Webhooks` and click `Connect` to open the input field.
-    3. Paste your webhook URL into the new line. It saves automatically.
-    4. Click the three dots `…` next to the webhook entry and select `Test webhook`.
-    5. A successful test returns a message. What that message looks like depends on how your webhook is configured.
+    1. **Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab of your quiz.**
+    2. **Scroll to `Webhooks` and click `Connect`** to open the input field.
+    3. **Paste your webhook URL into the new line.** It saves automatically.
+    4. **Click the `...` menu next to the webhook entry and select `Test webhook`.**
+    5. **Read the message the test returns.** What it says depends on how your webhook is configured.
         ![how to webhook success](/images/how_to_webhook_success.png)
 
-    6. If an error occurs during the test, perform the following checks:
+    6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
-        1. After a successful connection test, select `+add new header` to open header fields.
-        2. Enter your HTTP headers. They are sent with the quiz data in the POST request.
+        1. **Click `+add new header`** once the connection test has passed.
+        2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
 
     8. **Activating your webhook**: use the toggle next to the webhook entry. The same toggle deactivates it later.
 
@@ -137,21 +137,21 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
     To initiate the integration:
 
-    1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
-    2. Scroll down to `Webhooks` and click `Connect` to open the input field.
-    3. Paste your webhook URL into the new line. It saves automatically.
-    4. Click the three dots `…` next to the webhook entry and select `Test webhook`.
-    5. A successful test returns a message. What that message looks like depends on how your webhook is configured.
+    1. **Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab of your quiz.**
+    2. **Scroll to `Webhooks` and click `Connect`** to open the input field.
+    3. **Paste your webhook URL into the new line.** It saves automatically.
+    4. **Click the `...` menu next to the webhook entry and select `Test webhook`.**
+    5. **Read the message the test returns.** What it says depends on how your webhook is configured.
         ![how to webhook success](/images/how_to_webhook_success.png)
 
-    6. If an error occurs during the test, perform the following checks:
+    6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
-        1. After a successful connection test, select `+add new header` to open header fields.
-        2. Enter your HTTP headers. They are sent with the quiz data in the POST request.
+        1. **Click `+add new header`** once the connection test has passed.
+        2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
 
     8. **Activating your webhook**: use the toggle next to the webhook entry. The same toggle deactivates it later.
 
@@ -165,21 +165,21 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
     To initiate the integration:
 
-    1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
-    2. Scroll down to `Webhooks` and click `Connect` to open the input field.
-    3. Paste your webhook URL into the new line. It saves automatically.
-    4. Click the three dots `…` next to the webhook entry and select `Test webhook`.
-    5. A successful test returns a message. What that message looks like depends on how your webhook is configured.
+    1. **Open the [`Connect`](/reference/quiz-builder/connect-integrations/) tab of your quiz.**
+    2. **Scroll to `Webhooks` and click `Connect`** to open the input field.
+    3. **Paste your webhook URL into the new line.** It saves automatically.
+    4. **Click the `...` menu next to the webhook entry and select `Test webhook`.**
+    5. **Read the message the test returns.** What it says depends on how your webhook is configured.
         ![how to webhook success](/images/how_to_webhook_success.png)
 
-    6. If an error occurs during the test, perform the following checks:
+    6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
-        1. After a successful connection test, select `+add new header` to open header fields.
-        2. Enter your HTTP headers. They are sent with the quiz data in the POST request.
+        1. **Click `+add new header`** once the connection test has passed.
+        2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
 
     8. **Activating your webhook**: use the toggle next to the webhook entry. The same toggle deactivates it later.
 
@@ -191,7 +191,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
 
 
-## What data is sent to webhook?
+## What data is sent to the webhook?
 
 === "Shopify"
 
@@ -1889,69 +1889,173 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
 ## Troubleshooting broken JSON responses in webhooks
 
-If a webhook response contains broken or invalid JSON, work through the steps below.
+=== "Shopify"
 
-**What you see**: the response is broken or badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes this.
+    If a webhook response holds broken or invalid JSON, work through the steps below.
 
-**Steps to Resolve the Issue**
+    **What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
 
-1. **Check the Content-Type Header:**
+    1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
 
-    - Inspect the content-type of the webhook payload.
+        !!! example
 
-    - Log the headers to verify the content type being sent. If it is unexpected, this could cause the payload to be interpreted incorrectly.
+            ```text
+            Content-Type: application/x-www-form-urlencoded
+            ```
 
-    !!! example
+    2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
 
-        ```bash
-        Content-Type: application/x-www-form-urlencoded
-        ```
+        !!! example
 
-2. **Verify the Header Configuration**:
+            ```json
+            "Content-Type": "application/json"
+            ```
 
-    - Compare the headers in your app's webhook configuration with the expected content type in the documentation.
+    3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+    4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+    5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+    6. **Click the top-right `Save` button.** Your changes are not applied until you do.
+    7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
 
-    - If the content type differs, it may need to be overridden manually in your webhook configuration.
+=== "Shopify (Legacy)"
 
-    !!! example
+    If a webhook response holds broken or invalid JSON, work through the steps below.
 
-        ```json
-        "Content-Type": "application/json"
-        ```
+    **What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
 
-3. **Override the Content-Type in the app configuration**:
+    1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
 
-    - Update the webhook configuration to explicitly set the correct `Content-Type` header.
+        !!! example
 
-    - For example, change the content type to `application/json`.
+            ```text
+            Content-Type: application/x-www-form-urlencoded
+            ```
 
-4. **Test the Webhook Connection**:
+    2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
 
-    After updating the configuration, test the connection:
+        !!! example
 
-    - Disconnect the webhook.
+            ```json
+            "Content-Type": "application/json"
+            ```
 
-    - Reconnect the webhook and test it.
+    3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+    4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+    5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+    6. **Click the top-right `Publish` button.** Your changes are not applied until you do.
+    7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
 
-    - Ensure the webhook is properly activated.
+=== "WooCommerce"
 
-5. **Validate the JSON**:
+    If a webhook response holds broken or invalid JSON, work through the steps below.
 
-    - Use a tool like [JSONLint](https://jsonlint.com/) to validate the JSON payload.
+    **What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
 
-    - Paste the payload into the tool to ensure it conforms to proper JSON formatting.
+    1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
 
-6. **Publish Your Changes**:
+        !!! example
 
-    - Click the `Publish` button in the top-right corner after you change the webhook configuration.
+            ```text
+            Content-Type: application/x-www-form-urlencoded
+            ```
 
-    - Skip this step and your changes are not applied.
+    2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
 
-7. **Retest the Integration**:
+        !!! example
 
-    - Take the quiz all the way through, submitting valid test data such as an email address and a phone number.
+            ```json
+            "Content-Type": "application/json"
+            ```
 
-    - Confirm that the webhook receives the corrected JSON payload.
+    3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+    4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+    5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+    6. **Click the top-right `Publish` button.** Your changes are not applied until you do.
+    7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
+
+=== "Magento"
+
+    If a webhook response holds broken or invalid JSON, work through the steps below.
+
+    **What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
+
+    1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
+
+        !!! example
+
+            ```text
+            Content-Type: application/x-www-form-urlencoded
+            ```
+
+    2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
+
+        !!! example
+
+            ```json
+            "Content-Type": "application/json"
+            ```
+
+    3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+    4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+    5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+    6. **Click the top-right `Publish` button.** Your changes are not applied until you do.
+    7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
+
+=== "BigCommerce"
+
+    If a webhook response holds broken or invalid JSON, work through the steps below.
+
+    **What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
+
+    1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
+
+        !!! example
+
+            ```text
+            Content-Type: application/x-www-form-urlencoded
+            ```
+
+    2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
+
+        !!! example
+
+            ```json
+            "Content-Type": "application/json"
+            ```
+
+    3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+    4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+    5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+    6. **Click the top-right `Publish` button.** Your changes are not applied until you do.
+    7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
+
+=== "Standalone"
+
+    If a webhook response holds broken or invalid JSON, work through the steps below.
+
+    **What you see:** the response is badly formatted, with incomplete or misaligned JSON objects in your logs. An unexpected content type or header configuration usually causes it.
+
+    1. **Check the `Content-Type` header on the payload.** Log the headers to see what is actually sent. An unexpected content type makes the receiver read the payload wrongly.
+
+        !!! example
+
+            ```text
+            Content-Type: application/x-www-form-urlencoded
+            ```
+
+    2. **Compare that header with the one your endpoint expects.** If they differ, set it yourself in the webhook configuration.
+
+        !!! example
+
+            ```json
+            "Content-Type": "application/json"
+            ```
+
+    3. **Set the `Content-Type` header explicitly**, to `application/json` in most cases.
+    4. **Disconnect the webhook, then reconnect it and run the test again.** Check that it comes back active.
+    5. **Validate the payload with a tool such as [JSONLint](https://jsonlint.com/).** Paste it in to confirm it is well-formed JSON.
+    6. **Click the top-right `Publish` button.** Your changes are not applied until you do.
+    7. **Take the quiz all the way through with valid test data**, such as an email address and a phone number. Confirm the webhook receives the corrected payload.
 
 
 ---

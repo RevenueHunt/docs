@@ -63,3 +63,6 @@ Learn how to add RevenueHunt app leads to Klaviyo, and how to build a post-quiz 
 Learn how to show different quizzes for different Shopify Markets, and how to show quizzes in different languages or currencies based on your market settings.
 
 [:fontawesome-solid-arrow-right: Assign quizzes to Shopify Markets](/tutorials/shopify-markets/)
+
+---
+This page lists the video tutorials, each one building a working quiz from start to finish.

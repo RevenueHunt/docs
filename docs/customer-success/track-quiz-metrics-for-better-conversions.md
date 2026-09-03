@@ -143,3 +143,6 @@ In the Metrics and Analytics panel (responses, analytics, and drop-off), or by e
 ### Why track over a long window?
 
 Because quiz-attributed orders keep arriving: about 1 in 5 land more than 30 days after the quiz, so a short window understates the quiz's impact.
+
+---
+This article explains which quiz metrics matter, where to find them, and what each one tells you to fix.

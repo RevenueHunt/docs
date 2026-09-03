@@ -958,3 +958,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)
 Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Notifications](/reference/quiz-builder/notifications/)
+Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →

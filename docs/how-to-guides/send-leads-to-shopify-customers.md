@@ -9,7 +9,7 @@ You can add new customers automatically to your Shopify Customers list every tim
 
 This article explains how to connect your quiz to Shopify Customers and tag each customer by their answers. It also covers building a Shopify Flow that acts on those tags.
 
-## Link quiz to Shopify customers
+## Link quiz to Shopify Customers
 
 === "Shopify"
 
@@ -21,14 +21,14 @@ This article explains how to connect your quiz to Shopify Customers and tag each
 
         **(optional) Tag choices with customer tags.** Customer tags are copied to the Shopify Customer profile, where you can use them for retargeting.
 
-    1. Navigate to [App settings](/reference/app-settings/) from the side menu.
-    2. Click on the `Shopify Customers` tab.
-    3. Toggle the `Enable pushing quiz leads to Shopify Customers` switch to enable the integration.
+    1. **Open [App settings](/reference/app-settings/) from the side menu.**
+    2. **Click the `Shopify Customers` tab.**
+    3. **Turn on `Enable pushing quiz leads to Shopify Customers`.**
 
         ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)
-    4. Click the `Save` button to save the changes.
+    4. **Click `Save`.**
 
-    Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/customer-tags/) added to their profile.
+    New leads then appear in your Shopify Customers list, with their [customer tags](/reference/quiz-builder/customer-tags/) on the profile.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -38,7 +38,7 @@ This article explains how to connect your quiz to Shopify Customers and tag each
 
     !!! note
 
-        If a profile with the same email already exists, it will simply be updated with the customer tags from the quiz.
+        If a profile with the same email already exists, it will be updated with the customer tags from the quiz.
 
         Customer tags are added every time a customer takes the quiz. Tags from previous attempts are kept, so a customer who retakes the quiz and picks different answers will hold the tags from both attempts.
 
@@ -51,23 +51,23 @@ This article explains how to connect your quiz to Shopify Customers and tag each
 
 === "Shopify (Legacy)"
 
-    1. Open your quiz and click the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of the screen. It lists the third-party services you can connect to.
-    2. Click the `Connect` button in the `Shopify Customers` section. This authorizes the app to write to your Shopify Customers list.
-    3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
+    1. **Open your quiz and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab at the top of the screen.** It lists the third-party services you can connect to.
+    2. **Click `Connect` in the `Shopify Customers` section.** This authorizes the app to write to your Shopify Customers list.
+    3. **Click `Publish`** to save the changes and update the preview and the live quiz.
 
-    Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/customer-tags/) added to their profile.
+    New leads then appear in your Shopify Customers list, with their [Customer Tags](/reference/quiz-builder/customer-tags/) on the profile.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_send_leads_to_shopify_customers_customer_profile.png)
 
     !!! note
 
-        If a profile with the same email already exists, it will simply be updated with the customer tags from the quiz.
+        If a profile with the same email already exists, it will be updated with the customer tags from the quiz.
 
         Customer tags are updated every time a customer takes the quiz.
 
     !!! note
 
-        Tags coming from the quiz will have a `prq_` prefix added. So if you created a tag called `teen` in Shopify profile, it will be available as `prq_teen`.
+        Tags coming from the quiz carry a `prq_` prefix. A choice tagged `teen` in the quiz builder appears on the Shopify profile as `prq_teen`.
 
 
 === "WooCommerce"
@@ -97,7 +97,7 @@ This article explains how to connect your quiz to Shopify Customers and tag each
 
 
 
-## What data is sent to Shopify customers?
+## What data is sent to Shopify Customers?
 
 When someone completes the quiz and leaves their email address, the app creates or updates a customer in your Shopify admin with the data below.
 
@@ -177,21 +177,27 @@ When someone completes the quiz and leaves their email address, the app creates 
 
 === "Shopify"
 
-    Every contact the quiz adds to the Shopify Customers list is **marked as subscribed**, with consent to marketing recorded. You cannot change that default.
+    A contact the quiz adds to the Shopify Customers list is marked as subscribed by default. Change that on the email block.
 
-    You can still ask the customer for marketing consent inside the quiz.
+    1. **Open the [quiz builder](/reference/quiz-builder/questions/) and select the `Email` block.** The `Email input settings` panel opens.
+    2. **Scroll to the `Shopify Customers` section.**
+    3. **Set `Subscribed`.** Tick it to record consent to marketing, or clear it to add the contact without that consent.
+    4. **Choose the `Opt-in level` you need.**
+    5. **Click the top-right `Save` button.**
+
+        ![The Shopify Customers consent settings on the email block](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
 
     !!! tip
 
-        Check [how to ask for marketing/data processing consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
+        [how to ask for marketing/data processing consent](/how-to-guides/ask-for-marketing-consent/) covers asking the customer for consent inside the quiz itself.
 
 
 === "Shopify (Legacy)"
 
     Every contact the quiz adds to the list is **marked as subscribed**, with consent to marketing recorded. Change that in the email and phone question settings.
 
-    1. To change the default Consent state and Opt-in level, go to the email or phone question in the [Quiz Builder](/reference/quiz-builder/questions/).
-    2. Open the [question settings](/reference/quiz-builder/questions/#question-settings).
+    1. **Open the email or phone question in the [Quiz Builder](/reference/quiz-builder/questions/).**
+    2. **Open the [question settings](/reference/quiz-builder/questions/#question-settings)** and set `Consent state` and `Opt-in level`.
 
         ![how_to_send_leads_to_shopify_customers_consent.png](/images/how_to_send_leads_to_shopify_customers_consent.png)
 
@@ -199,7 +205,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
         - Under `Opt-in level`, you can select either `confirmed_opt_in` or `single_opt_in` (pick this option if you only want to send the one results email to the customer).
 
-    3. Click the `Publish` button to update the preview/live quiz with new settings.
+    3. **Click `Publish`** to update the preview and the live quiz.
 
 === "WooCommerce"
 
@@ -225,7 +231,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
         Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
-## Tag quiz choices to segment Shopify customers
+## Tag quiz choices to segment Shopify Customers
 
 === "Shopify"
 
@@ -234,19 +240,17 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     Use [Customer tags](/reference/quiz-builder/customer-tags/) to carry a customer's answers onto their Shopify Customer profile.
 
-    Follow these steps to add tags to your quiz choices and test the setup:
-
-    1. **Adding Tags to Quiz Choices**: To add tags to your quiz choices, follow these steps:
+    1. **Add tags to your quiz choices.**
 
         - Open the RevenueHunt app and select your quiz.
         - Navigate to the choice settings section.
         - Under [Customer tags](/reference/quiz-builder/customer-tags/), create new tags for each choice. For example, create a tag called `teen` and assign it to the relevant choice.
         - Repeat for the other choices, for example tagging another with `30s`.
         - Add one common tag, such as `quiz`, to every choice in a single question. Everyone who finishes the quiz then carries that tag.
-    2. **Saving Changes**: After adding the desired tags, click `Save` to save your changes.
-    3. **Test the quiz**: `Preview` the quiz using the same or a new email to test the tagging functionality.
-    4. **Refresh the Shopify Customers list**: refresh it to see the new leads arrive.
-    5. **View the customer tags**: open a customer's profile to see their name, email and the tags from the quiz.
+    2. **Click `Save`.**
+    3. **`Preview` the quiz and finish it**, using the same email or a new one.
+    4. **Refresh the Shopify Customers list** to see the new lead arrive.
+    5. **Open the customer's profile** and check their name, email and the tags from the quiz.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -258,9 +262,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     Use [Customer Tags](/reference/quiz-builder/customer-tags/) to carry a customer's answers onto their Shopify Customer profile.
 
-    Follow these steps to add tags to your quiz choices and test the setup:
-
-    1. **Adding Tags to Quiz Choices**: To add tags to your quiz choices, follow these steps:
+    1. **Add tags to your quiz choices.**
 
         - Open the RevenueHunt app and select your quiz.
         - Navigate to the [Customer Tags](/reference/quiz-builder/customer-tags/) section.
@@ -268,14 +270,14 @@ When someone completes the quiz and leaves their email address, the app creates 
         - Repeat for the other choices, tagging them `30s`, `40s`, `50s`, `60s`, `dry skin`, `oily skin` and so on.
         - Add one common tag, such as `quiz`, to every choice in a single question. Everyone who finishes the quiz then carries that tag.
 
-    2. **Saving Changes**: After adding the desired tags, click `Publish` to save your changes.
-    3. **Test the quiz**: `Preview` the quiz using the same or a new email to test the tagging functionality.
-    4. **Refresh the Shopify Customers list**: refresh it to see the new leads arrive.
-    5. **View the customer tags**: open a customer's profile to see their name, email and the tags from the quiz.
+    2. **Click `Publish`.**
+    3. **`Preview` the quiz and finish it**, using the same email or a new one.
+    4. **Refresh the Shopify Customers list** to see the new lead arrive.
+    5. **Open the customer's profile** and check their name, email and the tags from the quiz.
 
     !!! note
 
-        Tags coming from the quiz will have a `prq_` prefix added. So if you created a tag called `teen` in Shopify profile, it will be available as `prq_teen`.
+        Tags coming from the quiz carry a `prq_` prefix. A choice tagged `teen` in the quiz builder appears on the Shopify profile as `prq_teen`.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -311,24 +313,24 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     Shopify Flow runs an automation after someone takes your quiz. There are two ways to start that workflow.
 
-    ### Start from the quiz completion (recommended)
+    **Recommended: start from the quiz completion.**
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=pPXKYHlVQqxMywSt&amp;start=132" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     The `Quiz Completed` trigger starts a workflow every time a customer finishes the quiz and leaves an email address. It carries the quiz data with it. Your conditions and actions can therefore read the answers, the recommended products, the customer tags and the variable scores.
 
-    1. Make sure your quiz has an email question, and that `Enable pushing quiz leads to Shopify Customers` is turned on. See [Link quiz to Shopify Customers](#link-quiz-to-shopify-customers). Without both, nothing reaches Flow.
-    2. Install [Shopify Flow](https://admin.shopify.com/apps/flow) if your store does not have it yet. It is free.
-    3. Open Shopify Flow and click `Create workflow`.
-    4. Click `Select a trigger`, choose `Product Recommendation Quiz`, then `Quiz Completed`.
-    5. Add the conditions and actions you want to run after a completion. Wherever a field accepts a variable, click `Add variable` to pull in the quiz data.
+    1. **Check that your quiz has an email question and that `Enable pushing quiz leads to Shopify Customers` is on.** Without both, nothing reaches Flow. See [Link quiz to Shopify Customers](#link-quiz-to-shopify-customers).
+    2. **Install [Shopify Flow](https://admin.shopify.com/apps/flow)** if your store does not have it yet. It is free.
+    3. **Open Shopify Flow and click `Create workflow`.**
+    4. **Click `Select a trigger`, choose `Product Recommendation Quiz`, then `Quiz Completed`.**
+    5. **Add the conditions and actions you want to run after a completion.** Wherever a field accepts a variable, click `Add variable` to pull in the quiz data.
 
         !!! info
 
             For every field the trigger makes available, including the answers, recommendations and variable scores, see [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent).
 
-    6. Click `Turn on workflow`.
-    7. Complete your published quiz with an email address, then reopen the workflow and check its recent runs.
+    6. **Click `Turn on workflow`.**
+    7. **Complete your published quiz with an email address**, then reopen the workflow and check its recent runs.
 
     RevenueHunt reports whether Shopify has seen an active workflow in `App Settings > Shopify Customers > Shopify Flow`.
 
@@ -336,7 +338,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
         For worked examples, see [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/). It covers emailing your team with the quiz results in the message, and branching on a customer tag.
 
-    ### Start from a customer tag (alternative)
+    **Alternative: start from a customer tag.**
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=XKMU11jhdcuCgDYc&amp;start=280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -345,7 +347,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/customer-tags/). It therefore runs only for brand new customers, and it cannot read the quiz answers or recommendations. Use it to act on first-time customers only, or when you already have an automation built this way that still does what you need.
 
     1. **Open the automations list**: go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
-    2. Select a `Create custom automation` automation:
+    2. **Select `Create custom automation`.**
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
     3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
         ![how to send leads to shopify customers automation2](/images/how_to_send_leads_to_shopify_customers_automation2.png)
@@ -384,8 +386,8 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 
-    1. To set up a post-quiz automation, go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
-    2. Select a `Create custom automation` automation:
+    1. **Go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`.** Older stores may still reach the same screen from `Marketing > Automations > View templates`.
+    2. **Select `Create custom automation`.**
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
     3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
         ![how to send leads to shopify customers automation2](/images/how_to_send_leads_to_shopify_customers_automation2.png)

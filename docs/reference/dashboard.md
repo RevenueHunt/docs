@@ -943,3 +943,10 @@ The Dashboard lists every quiz you create.
 
         Both the Built for Shopify version and the legacy version run on
         Shopify. There is no second version to switch to on this platform.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Overview](/reference/)
+Next: [Plans & Pricing](/reference/plans-pricing/) →

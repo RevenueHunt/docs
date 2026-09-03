@@ -572,3 +572,10 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     !!! note "The newsletter signup is a Built for Shopify feature"
 
         This version of the app has no newsletter signup in App Settings.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Plans & Pricing](/reference/plans-pricing/)
+Next: [Resources](/reference/resources/) →

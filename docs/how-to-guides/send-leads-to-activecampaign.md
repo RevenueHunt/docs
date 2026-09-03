@@ -389,7 +389,7 @@ icon: material/bullhorn-outline
 
         These methods give you full control over what reaches ActiveCampaign. The list above holds only the most common fields.
 
-        The exact payload is the one carried by the method you pick, so see [what data is sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [what data is sent to webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
+        The exact payload is the one carried by the method you pick, so see [what data is sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [what data is sent to the webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-the-webhook) for the full field list.
 
         For more about using this data on a contact profile, see the [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
 
@@ -724,7 +724,7 @@ icon: material/bullhorn-outline
 === "Shopify"
 
 
-    The route you chose decides what is available. The [Zapier](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) and [Webhooks](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) payloads both carry each recommended product's `title`, `price`, `image` and `url`. Map those to ActiveCampaign contact fields, and the email can show real product details.
+    The route you chose decides what is available. The [Zapier](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) and [Webhooks](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-the-webhook) payloads both carry each recommended product's `title`, `price`, `image` and `url`. Map those to ActiveCampaign contact fields, and the email can show real product details.
 
     ActiveCampaign's own product blocks are the other option. Connect ActiveCampaign to Shopify, and a product block displays products from a chosen collection. You can then show or hide each block based on the recommended product ID. This has not been tested thoroughly.
 
@@ -764,5 +764,5 @@ icon: material/bullhorn-outline
 
     To show any product in an ActiveCampaign email, first connect ActiveCampaign to your Google Product Catalog.
 
-
-
+---
+This article explains how to connect a quiz to ActiveCampaign, send quiz leads there, and set up follow-up emails.

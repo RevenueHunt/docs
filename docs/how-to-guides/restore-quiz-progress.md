@@ -290,3 +290,6 @@ The walkthrough below covers the whole process, and the written steps follow it.
     !!! warning
 
         The old quiz keeps working until you replace it. An embed code carries the quiz ID, so any page, popup or link you leave alone still loads the old quiz.
+
+---
+This article explains how to find an earlier version of your quiz in version history, and how to bring it back.

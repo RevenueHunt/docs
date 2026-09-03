@@ -125,3 +125,6 @@ The quiz response itself is not deleted. Only what the customer typed goes.
         Go to **App Settings > General > Data & GDPR** and turn on `Anonymize quiz responses after 30 days`. See [App Settings](/reference/app-settings/).
 
         The per-quiz period described on this page is only in the `💎Built for Shopify` version of the RevenueHunt app.
+
+---
+This article explains how to have the app delete the personal data in old quiz responses on a schedule, and what it removes.

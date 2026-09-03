@@ -64,3 +64,9 @@ The CSS classes and selectors you can target when you style a quiz with your own
 ## [Glossary](/reference/glossary/)
 
 The name this documentation uses for every product term, and what each one means on your platform.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+Next: [Dashboard](/reference/dashboard/) →

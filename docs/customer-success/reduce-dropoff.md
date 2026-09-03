@@ -266,3 +266,6 @@ Usually long questions that force scrolling, small tap targets, slow loading, or
 - [How to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/)
 - [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains where customers abandon a quiz, and what to change to raise your completion rate.

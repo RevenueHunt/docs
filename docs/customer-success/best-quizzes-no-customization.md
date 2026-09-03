@@ -215,3 +215,6 @@ Need help getting your quiz content right? Our [support team](/how-to-guides/con
 - [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
 - [How to build a sales funnel](/customer-success/build-sales-funnel/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains what actually drives quiz revenue, and why design is rarely the part that decides it.

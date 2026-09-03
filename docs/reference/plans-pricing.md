@@ -273,3 +273,10 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
     Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
 
     If you cannot downgrade to the Free Plan because you are above your usage limit, [contact customer support](/how-to-guides/contact-customer-support/).
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Dashboard](/reference/dashboard/)
+Next: [App Settings](/reference/app-settings/) →

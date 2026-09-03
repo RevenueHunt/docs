@@ -203,3 +203,6 @@ Send paid ads to a dedicated quiz page rather than to a product page or homepage
 - [How to reduce drop-off](/customer-success/reduce-dropoff/)
 - [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
+
+---
+This article explains how to make your quiz impossible to miss on your store, and how to drive traffic to it on purpose.

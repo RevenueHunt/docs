@@ -2770,3 +2770,10 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 ← Previous: [Quiz design](/reference/quiz-builder/quiz-design/)
 Next: [Notifications](/reference/quiz-builder/notifications/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Quiz Design](/reference/quiz-builder/quiz-design/)
+Next: [Notifications](/reference/quiz-builder/notifications/) →

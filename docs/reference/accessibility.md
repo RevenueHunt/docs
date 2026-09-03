@@ -154,3 +154,10 @@ If you find an accessibility problem, report it to customer support.
 - [Quiz Builder - Questions](/reference/quiz-builder/questions/)
 - [Quiz Design](/reference/quiz-builder/quiz-design/)
 - [Change Quiz Language](/how-to-guides/change-quiz-language/)
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Feedback](/reference/feedback/)
+Next: [CSS Structure](/reference/css-structure/) →

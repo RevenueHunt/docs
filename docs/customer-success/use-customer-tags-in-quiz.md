@@ -340,8 +340,11 @@ Klaviyo is the primary example, but the same approach applies to Omnisend, Mailc
 
 **Related articles:**
 
-- [How to connect your quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
-- [How to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
-- [How to send result emails](/how-to-guides/send-result-emails/)
-- [How to build a sales funnel](/customer-success/build-sales-funnel/)
-- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
+- [How to Connect Your Quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+- [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
+- [How to Send Result Emails](/how-to-guides/send-result-emails/)
+- [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
+- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+
+---
+This article explains how to turn quiz answers into customer tags, and how to use those tags to segment and sell.

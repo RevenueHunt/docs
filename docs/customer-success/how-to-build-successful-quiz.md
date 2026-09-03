@@ -163,3 +163,6 @@ No. Many top-converting quizzes use entirely text-based choices, because relevan
 ### How many products should a quiz recommend?
 
 One or two in total, or one product per slot for routines. The fewer choices on the results page, the faster the shopper decides and the more likely they buy.
+
+---
+This article explains what high-converting quizzes do, in priority order, so you can build one that sells.

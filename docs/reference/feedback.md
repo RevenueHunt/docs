@@ -60,3 +60,10 @@ The Feedback page sends a message straight to the RevenueHunt product team. Use 
     !!! note "Feedback is a Built for Shopify feature"
 
         This version of the app has a Help menu on the Dashboard instead.
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Resources](/reference/resources/)
+Next: [Accessibility](/reference/accessibility/) →

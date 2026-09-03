@@ -1677,3 +1677,10 @@ them to customize how your quizzes look.
 
         For ready-made snippets you can paste in, see
         [How to customize the quiz design](/how-to-guides/customize-quiz-design/).
+
+---
+
+← [Back to the App Manual](/reference/)
+
+← Previous: [Accessibility](/reference/accessibility/)
+Next: [Glossary](/reference/glossary/) →

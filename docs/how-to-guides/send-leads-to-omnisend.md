@@ -57,20 +57,20 @@ icon: material/cellphone-message
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=IIwZgRhppkbtGW_d&amp;start=37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
     2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
 
         - Log in to your Omnisend account.
-        - Go to **Store Settings** > **API** and create a new API key.
+        - Go to `Store Settings > API` and create a new API key.
         - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
 
-        ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
+        ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
 
-    3. **Connect to Omnisend**: open the [Quiz builder](/reference/quiz-builder/), go to **Settings** > **Integrations** and select the **Omnisend** tab. Paste your `Omnisend API Key` into the field, then click `Save`.
+    3. **Connect to Omnisend**: open the [Quiz builder](/reference/quiz-builder/), go to `Quiz settings > Integrations` and find the Omnisend card. Paste your `Omnisend API Key` into the field, then click `Save`.
 
     4. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-    5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+    5. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
 
         - Quiz answers
         - Recommended products
@@ -80,10 +80,10 @@ icon: material/cellphone-message
 
     From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
 
-    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
+    The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
 
 
-    ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
 
 
     To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
@@ -91,21 +91,21 @@ icon: material/cellphone-message
 
 === "Shopify (Legacy)"
 
-    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
     2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
 
         - Log in to your Omnisend account.
-        - Go to **Store Settings** > **API** and create a new API key.
+        - Go to `Store Settings > API` and create a new API key.
         - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
 
-        ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
+        ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
 
-    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-    4. Paste your `Omnisend API Key` into the field that appears, then click `Save`.
-    5. Update the preview/live quiz with the top-right `Publish` button to save the connection.
+    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
+    4. **Paste your `Omnisend API Key` into the field that appears, then click `Save`.**
+    5. **Click the top-right `Publish` button** to send the connection to the preview and the live quiz.
     6. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-    7. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+    7. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
 
         - Quiz answers
         - Recommended products
@@ -116,10 +116,10 @@ icon: material/cellphone-message
 
     From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
 
-    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
+    The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
 
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
@@ -127,21 +127,21 @@ icon: material/cellphone-message
 === "WooCommerce"
 
 
-    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
     2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
 
         - Log in to your Omnisend account.
-        - Go to **Store Settings** > **API** and create a new API key.
+        - Go to `Store Settings > API` and create a new API key.
         - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
 
-        ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
+        ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
 
-    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-    4. Paste your `Omnisend API Key` into the field that appears, then click `Save`.
-    5. Update the preview/live quiz with the top-right `Publish` button to save the connection.
+    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
+    4. **Paste your `Omnisend API Key` into the field that appears, then click `Save`.**
+    5. **Click the top-right `Publish` button** to send the connection to the preview and the live quiz.
     6. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-    7. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+    7. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
 
         - Quiz answers
         - Recommended products
@@ -152,10 +152,10 @@ icon: material/cellphone-message
 
     From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
 
-    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
+    The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
 
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
@@ -163,21 +163,21 @@ icon: material/cellphone-message
 
 === "Magento"
 
-    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
     2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
 
         - Log in to your Omnisend account.
-        - Go to **Store Settings** > **API** and create a new API key.
+        - Go to `Store Settings > API` and create a new API key.
         - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
 
-        ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
+        ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
 
-    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-    4. Paste your `Omnisend API Key` into the field that appears, then click `Save`.
-    5. Update the preview/live quiz with the top-right `Publish` button to save the connection.
+    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
+    4. **Paste your `Omnisend API Key` into the field that appears, then click `Save`.**
+    5. **Click the top-right `Publish` button** to send the connection to the preview and the live quiz.
     6. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-    7. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+    7. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
 
         - Quiz answers
         - Recommended products
@@ -188,10 +188,10 @@ icon: material/cellphone-message
 
     From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
 
-    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
+    The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
 
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
@@ -200,21 +200,21 @@ icon: material/cellphone-message
 === "BigCommerce"
 
 
-    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
     2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
 
         - Log in to your Omnisend account.
-        - Go to **Store Settings** > **API** and create a new API key.
+        - Go to `Store Settings > API` and create a new API key.
         - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
 
-        ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
+        ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
 
-    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-    4. Paste your `Omnisend API Key` into the field that appears, then click `Save`.
-    5. Update the preview/live quiz with the top-right `Publish` button to save the connection.
+    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
+    4. **Paste your `Omnisend API Key` into the field that appears, then click `Save`.**
+    5. **Click the top-right `Publish` button** to send the connection to the preview and the live quiz.
     6. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-    7. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+    7. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
 
         - Quiz answers
         - Recommended products
@@ -225,10 +225,10 @@ icon: material/cellphone-message
 
     From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
 
-    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
+    The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
 
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
@@ -236,21 +236,21 @@ icon: material/cellphone-message
 
 === "Standalone"
 
-    1. **Add an email question**: your quiz needs an [**email question**](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
+    1. **Add an email question**: your quiz needs an [email question](/reference/quiz-builder/questions/#email-address) before it can send anything to Omnisend. Add one from the `+ Add Question` menu, or insert an email block into an existing question.
     2. **Generate an Omnisend API Key**: [generate a new API key in Omnisend](https://app.omnisend.com/integrations/api-keys).
 
         - Log in to your Omnisend account.
-        - Go to **Store Settings** > **API** and create a new API key.
+        - Go to `Store Settings > API` and create a new API key.
         - Name the key for example `RevenueHunt API Key` and grant all permissions.
         - Copy the generated API key.
 
-        ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
+        ![Creating an API key in Omnisend](/images/how_to_omnisend_create_api_key.png){width="500"}
 
-    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-    4. Paste your `Omnisend API Key` into the field that appears, then click `Save`.
-    5. Update the preview/live quiz with the top-right `Publish` button to save the connection.
+    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
+    4. **Paste your `Omnisend API Key` into the field that appears, then click `Save`.**
+    5. **Click the top-right `Publish` button** to send the connection to the preview and the live quiz.
     6. **Preview your quiz**: preview it all the way to the results page, to send the first contact. Use a sample email such as `alexa@example.com`, and give sample answers so the properties arrive in Omnisend.
-    7. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
+    7. **Check your profile**: Go back to the Omnisend platform and navigate to the `Dashboard > Audience > Contacts`. Check if the sample profile (for example `Alexa RevenueHunt / alexa@example.com`) has been added. Click on the profile to view all custom properties from the quiz, including:
 
         - Quiz answers
         - Recommended products
@@ -261,10 +261,10 @@ icon: material/cellphone-message
 
     From now on, whenever a customer finishes your quiz, their contact details, answers and product recommendations are sent to your Omnisend account.
 
-    The app sends every answer, every recommended product and the contact details to the customer’s Omnisend profile, where they appear as `custom properties`.
+    The app sends every answer, every recommended product and the contact details to the customer's Omnisend profile, where they appear as `custom properties`.
 
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     To add anything else to the email template, your developer [pulls the matching custom properties off the profile](#use-quiz-data-in-omnisend-email-templates).
@@ -491,10 +491,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
 
-    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
     2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `quiz_QUIZID_quiz_name`.
 
-        ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+        ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
 
         - Pick a property that only these contacts carry, such as `quiz_QUIZID_quiz_name`, and copy its name.
         - Go to `Audience` > `Segments` and create a new segment from scratch.
@@ -505,14 +505,14 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
 
-        ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+        ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
         - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the email template**: putting the quiz results and product recommendations into an email takes HTML, CSS and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/). Start from one of Omnisend’s templates, add the quiz data as custom properties, and restyle it to match your brand.
+    4. **Customize the email template**: putting the quiz results and product recommendations into an email takes HTML, CSS and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/). Start from one of Omnisend's templates, add the quiz data as custom properties, and restyle it to match your brand.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
@@ -520,16 +520,16 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     5. **Include the quiz results**: add an `HTML` element to the email builder.
 
-        - In the quiz builder, go to `Settings` > `Integrations` and generate an Omnisend email template.
+        - In the quiz builder, go to `Quiz settings > Integrations` and generate an Omnisend email template.
 
-            ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template.png){:width="500px"}
+            ![Generating the Omnisend email template in the app](/images/how_to_shopifyv2_omnisend_template.png){width="500"}
         - Copy the generated code and paste it into the HTML block of your email template in Omnisend.
 
-            ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template_copy.png)
+            ![Generating the Omnisend email template in the app](/images/how_to_shopifyv2_omnisend_template_copy.png)
         - The code builds a ready-made email holding the quiz results and the recommended products. Edit it as you like.
 
         !!! warning "Omnisend email template"
-            Some merchants have reported that the generated email template does not work as expected. If you hit this, please [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+            Some merchants have reported that the generated email template does not work as expected. If this happens, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
 
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
@@ -548,10 +548,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
 
-    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
     2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `permalink_quiz_id`.
 
-        ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+        ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
 
         - Pick a property that only these contacts carry, such as `permalink_quiz_id`, and copy its name.
         - Go to `Audience` > `Segments` and create a new segment from scratch.
@@ -562,20 +562,20 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
 
-        ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+        ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
         - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. Start from the [sample quiz results email templates](#email-templates) on this page. To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
+    5. **Start from the [sample quiz results email templates](#email-templates) on this page.** To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
 
@@ -593,10 +593,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
 
-    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
     2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `permalink_quiz_id`.
 
-        ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+        ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
 
         - Pick a property that only these contacts carry, such as `permalink_quiz_id`, and copy its name.
         - Go to `Audience` > `Segments` and create a new segment from scratch.
@@ -607,20 +607,20 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
 
-        ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+        ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
         - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. Start from the [sample quiz results email templates](#email-templates) on this page. To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
+    5. **Start from the [sample quiz results email templates](#email-templates) on this page.** To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
 
@@ -639,10 +639,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
 
-    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
     2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `permalink_quiz_id`.
 
-        ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+        ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
 
         - Pick a property that only these contacts carry, such as `permalink_quiz_id`, and copy its name.
         - Go to `Audience` > `Segments` and create a new segment from scratch.
@@ -653,20 +653,20 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
 
-        ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+        ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
         - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. Start from the [sample quiz results email templates](#email-templates) on this page. To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
+    5. **Start from the [sample quiz results email templates](#email-templates) on this page.** To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
 
@@ -684,10 +684,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
 
-    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
     2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `permalink_quiz_id`.
 
-        ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+        ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
 
         - Pick a property that only these contacts carry, such as `permalink_quiz_id`, and copy its name.
         - Go to `Audience` > `Segments` and create a new segment from scratch.
@@ -698,20 +698,20 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
 
-        ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+        ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
         - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. Start from the [sample quiz results email templates](#email-templates) on this page. To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
+    5. **Start from the [sample quiz results email templates](#email-templates) on this page.** To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
 
@@ -730,10 +730,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         The app sends the quiz data to Omnisend. You build the flows and the email templates in Omnisend, so ask Omnisend support about that part of the setup.
 
-    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect your quiz to Omnisend.** Follow [Link quiz to Omnisend](#link-quiz-to-omnisend).
     2. **Create a segment**: in Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) holding everyone who finished the quiz. Filter on a `custom property` that only those contacts carry, such as `permalink_quiz_id`.
 
-        ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
+        ![Building the quiz segment in Omnisend](/images/how_to_omnisend_create_segment.png)
 
         - Pick a property that only these contacts carry, such as `permalink_quiz_id`, and copy its name.
         - Go to `Audience` > `Segments` and create a new segment from scratch.
@@ -744,20 +744,20 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     3. **Set up an automated workflow**: build an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) that starts when someone joins that segment. Omnisend then runs the email sequence for everyone in it.
 
-        ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
+        ![The automation workflow triggered by the segment](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
         - Go to the `Automation` section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. Start from the [sample quiz results email templates](#email-templates) on this page. To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
+    5. **Start from the [sample quiz results email templates](#email-templates) on this page.** To build your own instead, use the [custom properties](#use-quiz-data-in-omnisend-email-templates) the quiz sends to Omnisend.
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
 
@@ -771,7 +771,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
 
-    ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
 
@@ -781,7 +781,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
@@ -790,7 +790,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
@@ -799,7 +799,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
@@ -808,7 +808,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
@@ -817,7 +817,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
 
-    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+    ![Quiz data as custom properties on an Omnisend contact](/images/how_to_omnisend_custom_properties.gif)
 
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
@@ -830,20 +830,20 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-    2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-    3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-    5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
+    1. **Open your Omnisend automation workflow and select the email you want to edit.**
+    2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+    3. **Open the text block settings and click `insert personalization tag`.**
+    4. **Browse the custom properties that quiz profiles carry.**
+    5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
 
-        ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
+        ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
 
-    6. Insert the custom property into your text element. You can optionally provide default text.
+    6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
 
-        ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-    7. Save your changes to the email template.
-    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-    9. Save the email template.
+        ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+    7. **Save the text element.**
+    8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+    9. **Save the email template.**
 
 
 === "Shopify (Legacy)"
@@ -852,20 +852,20 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-    2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-    3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-    5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
+    1. **Open your Omnisend automation workflow and select the email you want to edit.**
+    2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+    3. **Open the text block settings and click `insert personalization tag`.**
+    4. **Browse the custom properties that quiz profiles carry.**
+    5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
 
-        ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
+        ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
 
-    6. Insert the custom property into your text element. You can optionally provide default text.
+    6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
 
-        ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-    7. Save your changes to the email template.
-    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-    9. Save the email template.
+        ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+    7. **Save the text element.**
+    8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+    9. **Save the email template.**
 
 
 === "WooCommerce"
@@ -874,20 +874,20 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-    2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-    3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-    5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
+    1. **Open your Omnisend automation workflow and select the email you want to edit.**
+    2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+    3. **Open the text block settings and click `insert personalization tag`.**
+    4. **Browse the custom properties that quiz profiles carry.**
+    5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
 
-        ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
+        ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
 
-    6. Insert the custom property into your text element. You can optionally provide default text.
+    6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
 
-        ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-    7. Save your changes to the email template.
-    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-    9. Save the email template.
+        ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+    7. **Save the text element.**
+    8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+    9. **Save the email template.**
 
 === "Magento"
 
@@ -895,20 +895,20 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-    2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-    3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-    5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
+    1. **Open your Omnisend automation workflow and select the email you want to edit.**
+    2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+    3. **Open the text block settings and click `insert personalization tag`.**
+    4. **Browse the custom properties that quiz profiles carry.**
+    5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
 
-        ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
+        ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
 
-    6. Insert the custom property into your text element. You can optionally provide default text.
+    6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
 
-        ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-    7. Save your changes to the email template.
-    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-    9. Save the email template.
+        ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+    7. **Save the text element.**
+    8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+    9. **Save the email template.**
 
 
 === "BigCommerce"
@@ -917,20 +917,20 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-    2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-    3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-    5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
+    1. **Open your Omnisend automation workflow and select the email you want to edit.**
+    2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+    3. **Open the text block settings and click `insert personalization tag`.**
+    4. **Browse the custom properties that quiz profiles carry.**
+    5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
 
-        ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
+        ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
 
-    6. Insert the custom property into your text element. You can optionally provide default text.
+    6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
 
-        ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-    7. Save your changes to the email template.
-    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-    9. Save the email template.
+        ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+    7. **Save the text element.**
+    8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+    9. **Save the email template.**
 
 
 === "Standalone"
@@ -939,20 +939,20 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     Pull a customer answer into an email template with the `custom properties` the quiz sends to Omnisend. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
-    2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
-    3. Access the text block settings to `insert personalization tag`.
-    4. Use the personalization tag feature to browse available custom properties from quiz profiles.
-    5. Search for the specific answer related to the quiz question (e.g., `quiz_LKKT6j_answer_qbc_485600ce`).
+    1. **Open your Omnisend automation workflow and select the email you want to edit.**
+    2. **Add a text element and type a base message**, such as "You said that your skin feels...".
+    3. **Open the text block settings and click `insert personalization tag`.**
+    4. **Browse the custom properties that quiz profiles carry.**
+    5. **Search for the property holding the answer you want**, such as `quiz_LKKT6j_answer_qbc_485600ce`.
 
-        ![how to omnisend insert personalization tag](/images/how_to_omnisend_insert_personalization_tag.png){:width="500px"}
+        ![Inserting a personalization tag into a text block](/images/how_to_omnisend_insert_personalization_tag.png){width="500"}
 
-    6. Insert the custom property into your text element. You can optionally provide default text.
+    6. **Insert the property into the text element.** You can add default text for a contact that lacks it.
 
-        ![how to omnisend personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
-    7. Save your changes to the email template.
-    8. Preview the template against one profile, for example `Alexa RevenueHunt`. Check that the custom property shows the answers that customer gave.
-    9. Save the email template.
+        ![Choosing a quiz property as a personalization tag](https://loom.com/i/69abdc33b47a4321b8b0001e5f1a57ba?workflows_screenshot=true)
+    7. **Save the text element.**
+    8. **Preview the template against one profile**, such as `Alexa RevenueHunt`. Check that the property shows the answers that customer gave.
+    9. **Save the email template.**
 
 
 
@@ -1019,7 +1019,41 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
 ### Customer tags in Omnisend
 
-A customer profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not remove the tags from earlier sessions, though. The `tags_quizID` property holds the latest customer tags, so build your segments on that one.
+=== "Shopify"
+
+    A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+
+    This version sends no single property holding the whole tag list. Segment on `quiz_[SQID]_tag_[TAG_NAME]`, which is `true` for each tag assigned, or on `quiz_[SQID]_choice_[CHOICE_REF]`, which the property table above calls the best option for segmenting.
+
+=== "Shopify (Legacy)"
+
+    A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+
+    The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
+
+=== "WooCommerce"
+
+    A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+
+    The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
+
+=== "Magento"
+
+    A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+
+    The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
+
+=== "BigCommerce"
+
+    A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+
+    The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
+
+=== "Standalone"
+
+    A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
+
+    The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
 
 
 
@@ -1029,16 +1063,16 @@ A customer profile is updated on every quiz take, with the new answers and produ
 
     In the [Integrations](/reference/quiz-builder/connect-integrations/) section, under `Omnisend`, you can find the `omnisend template`.
 
-    ![how to shopifyv2 omnisend template](/images/how_to_shopifyv2_omnisend_template.png)
+    ![The Omnisend template button in the Integrations section](/images/how_to_shopifyv2_omnisend_template.png)
 
     Click on the button to receive and copy an HTML email template specifically tailored for the quiz.
 
-    ![how to shopifyv2 omnisend template copy](/images/how_to_shopifyv2_omnisend_template_copy.png)
+    ![Copying the generated Omnisend template](/images/how_to_shopifyv2_omnisend_template_copy.png)
 
     You can use this template as a reference to create your own.
 
     !!! warning "Omnisend email template"
-        Some merchants have reported that the generated email template does not work as expected. If you hit this, please [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+        Some merchants have reported that the generated email template does not work as expected. If this happens, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
 
 
 === "Shopify (Legacy)"
@@ -1091,7 +1125,6 @@ A customer profile is updated on every quiz take, with the new answers and produ
     - [Products List Template (Coffee Recommendations)](https://docs.google.com/document/d/175YmJpZ_iTahGFip46MGb6fcn5cupNsCEuZFxMnFCAg/edit?usp=sharing)
 
     These templates will not work if you paste them in unchanged, because they were written for a demo quiz. Your `quiz ID` differs, and so do the other property names. Your developer edits the `custom properties` in the template to match the ones your quiz sends, then inserts the code as a `custom HTML block` in the Omnisend email template.
-
 
 ---
 This article explains how to connect your quiz to Omnisend, build a segment from the customers who finished it, and email them their quiz results.

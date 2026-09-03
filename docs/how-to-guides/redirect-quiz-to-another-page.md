@@ -154,7 +154,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
 === "Shopify"
 
-      Offering a direct link to another page from your [Results page](/reference/quiz-builder/results-page/) can be achieved simply with an **Button**.
+      A `Button` block on your [Results page](/reference/quiz-builder/results-page/) links straight to another page.
 
       1. **Add a Button**: In the [Results page](/reference/quiz-builder/results-page/) editor, click the `+ Add block` button to insert a `Button` block.
       2. **Insert the Button URL**: In the Button URL field, enter the address you want to send the customer to:
@@ -164,7 +164,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
 === "Shopify (Legacy)"
 
-      Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
+      An HTML button on your [Results Page](/reference/quiz-builder/results-page/) links straight to another page.
 
       1. **Add an HTML Block**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+` button to insert an `HTML block`.
       2. **Insert the Button Code**: Use the following HTML snippet to add a button:
@@ -178,7 +178,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
 === "WooCommerce"
 
-      Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
+      An HTML button on your [Results Page](/reference/quiz-builder/results-page/) links straight to another page.
 
       1. **Add an HTML Block**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+` button to insert an `HTML block`.
       2. **Insert the Button Code**: Use the following HTML snippet to add a button:
@@ -192,7 +192,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
 === "Magento"
 
-      Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
+      An HTML button on your [Results Page](/reference/quiz-builder/results-page/) links straight to another page.
 
       1. **Add an HTML Block**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+` button to insert an `HTML block`.
       2. **Insert the Button Code**: Use the following HTML snippet to add a button:
@@ -206,7 +206,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
 === "BigCommerce"
 
-      Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
+      An HTML button on your [Results Page](/reference/quiz-builder/results-page/) links straight to another page.
 
       1. **Add an HTML Block**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+` button to insert an `HTML block`.
       2. **Insert the Button Code**: Use the following HTML snippet to add a button:
@@ -220,7 +220,7 @@ You can use the [callback function](/how-to-guides/use-callback-function/) to re
 
 === "Standalone"
 
-      Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
+      An HTML button on your [Results Page](/reference/quiz-builder/results-page/) links straight to another page.
 
       1. **Add an HTML Block**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+` button to insert an `HTML block`.
       2. **Insert the Button Code**: Use the following HTML snippet to add a button:

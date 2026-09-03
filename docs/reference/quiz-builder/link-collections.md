@@ -229,3 +229,10 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 ← Previous: [Questions](/reference/quiz-builder/questions/)
 Next: [Link Products](/reference/quiz-builder/link-products/) →
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Questions](/reference/quiz-builder/questions/)
+Next: [Link Products](/reference/quiz-builder/link-products/) →

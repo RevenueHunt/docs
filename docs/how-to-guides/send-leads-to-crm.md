@@ -116,3 +116,6 @@ The app sends the quiz data to these services itself. No other tool is needed.
     **[:material-email-fast-outline: MailerLite](/how-to-guides/send-leads-to-mailerlite/)** has no direct connection. Route the data through [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/), or export your responses as a CSV file and upload that file yourself. The MailerLite guide covers each route in full.
 
     Any other service that is not listed above works the same way. You can also [send result emails from the app](/how-to-guides/send-result-emails/), or [download all responses as a CSV file](/how-to-guides/download-quiz-responses/) and upload that file to the other service.
+
+---
+This article explains which CRM services your quiz connects to on its own, and how to reach the rest.

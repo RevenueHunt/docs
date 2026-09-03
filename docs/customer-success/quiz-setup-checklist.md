@@ -236,3 +236,6 @@ In at least two places, for example a block on your homepage plus an automatic p
     See: [Why the best-selling quizzes have zero customization](/customer-success/best-quizzes-no-customization/)
 
 Need help? Take the [Support Quiz](/how-to-guides/contact-customer-support/) to reach our team directly.
+
+---
+This article is a step-by-step checklist for launching a quiz that converts.
