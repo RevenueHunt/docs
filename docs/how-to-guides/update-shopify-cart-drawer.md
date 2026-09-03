@@ -88,7 +88,7 @@ To find your theme name, go to **Online Store > Themes** in Shopify Admin.
 
 !!! tip "Your theme is not on this list"
 
-    The list is not exhaustive, and many other themes work. Two cases are worth reporting: a theme that is missing, and a listed theme whose drawer does not update. Contact support with your theme name and version. The support team checks the theme and adds coverage where possible. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+    The list is not exhaustive, and many other themes work. Two cases are worth reporting: a theme that is missing, and a listed theme whose drawer does not update. Contact support with your theme name and version. The support team checks the theme and adds coverage where possible. See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
 ## When the drawer still does not update
 
@@ -114,7 +114,7 @@ Change the checkout settings to send the customer to the product page rather tha
 
 !!! tip "Changing what the button does"
 
-    See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
 ## Cart drawer support in the legacy app
 
@@ -151,7 +151,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
 !!! tip "This work goes away on the current version"
 
-    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [How to Migrate Your Shopify Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+    Moving to the Built for Shopify version removes this work on the themes listed under [Themes that need no setup](#themes-that-need-no-setup). See [how to migrate your Shopify legacy quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 ## Test the setup
 
@@ -163,7 +163,7 @@ Your developer has to listen for those AJAX cart calls, then trigger the drawer'
 
     The app updates the cart, announces the change, and refreshes and opens the theme's own drawer. It does not modify your cart drawer or your theme layout.
 
-    The support team can confirm that the app is firing the right cart actions. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+    The support team can confirm that the app is firing the right cart actions. See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
     Theme customization and third-party JavaScript are outside what support can debug. For those, ask your theme developer or a Shopify Expert.
 

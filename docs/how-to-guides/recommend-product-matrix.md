@@ -310,7 +310,7 @@ One group per value in the matrix: two for the age ranges, and two for the skin 
 
 !!! tip "Putting the products in a fixed order"
 
-    A products block lists the recommendations by upvote count. To pin them to a fixed order instead, such as cleanser, then toner, then serum, use `Product Slots`. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+    A products block lists the recommendations by upvote count. To pin them to a fixed order instead, such as cleanser, then toner, then serum, use `Product Slots`. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 ??? question "Why were those four products recommended?"
 
@@ -332,7 +332,7 @@ One group per value in the matrix: two for the age ranges, and two for the skin 
 
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
-If the recommendations are not the ones you expect, see [How to Troubleshoot Product Recommendations in Your Quiz](/how-to-guides/troubleshoot-product-results/).
+If the recommendations are not the ones you expect, see [how to troubleshoot product recommendations in your quiz](/how-to-guides/troubleshoot-product-results/).
 
 ## Complex product matrix
 
@@ -418,8 +418,8 @@ Here is a conditional logic tree for that matrix, branching on skin type.
 
 !!! tip "Fixed recommendations instead"
 
-    To pick the products for each outcome yourself, rather than letting upvotes decide, see [How to Set Up a Fixed Recommendations Quiz](/how-to-guides/set-up-fixed-recommendations-quiz/).
+    To pick the products for each outcome yourself, rather than letting upvotes decide, see [how to set up a fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/).
 
 ---
 
-This article explains how to recommend products that match several criteria at once, using a product matrix. For the recommendation systems the app offers, see [How to Set Up Recommendations](/how-to-guides/set-up-recommendations/).
+This article explains how to recommend products that match several criteria at once, using a product matrix. For the recommendation systems the app offers, see [how to set up recommendations](/how-to-guides/set-up-recommendations/).

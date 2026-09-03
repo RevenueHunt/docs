@@ -15,7 +15,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
 === "Shopify (Legacy)"
 
@@ -23,7 +23,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
 === "WooCommerce"
 
@@ -31,7 +31,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
 === "Magento"
 
@@ -39,7 +39,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
 === "BigCommerce"
 
@@ -47,7 +47,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Publishing the quiz"
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
 === "Standalone"
 
@@ -55,7 +55,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
         The results page sends the customer to the product page instead, so nothing is ever added to a cart.
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) for what the buttons can do here.
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/) for what the buttons can do here.
 
 ## Your store has a cart drawer or mini cart
 
@@ -77,7 +77,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! info "What your theme editor or developer needs to know"
 
-        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) names the themes that need no setup. It also covers how the app adds products to the cart, and what to change in a theme that still does not update.
+        [How to update your Shopify cart drawer products after the quiz](/how-to-guides/update-shopify-cart-drawer/) names the themes that need no setup. It also covers how the app adds products to the cart, and what to change in a theme that still does not update.
 
     **Option 2: send the customer to the product page**
 
@@ -85,11 +85,11 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Changing what the button does"
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     !!! tip "Report your theme"
 
-        If the drawer cart does not update on your theme, contact support with your theme name and version. See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+        If the drawer cart does not update on your theme, contact support with your theme name and version. See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 
@@ -103,7 +103,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! info "What your theme editor or developer needs to know"
 
-        [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, why the drawer may not update, and what to change in the theme.
+        [How to update your Shopify cart drawer products after the quiz](/how-to-guides/update-shopify-cart-drawer/) covers how the app adds products to the Shopify cart, why the drawer may not update, and what to change in the theme.
 
     **Option 2: send the customer to the product page**
 
@@ -111,7 +111,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Changing what the button does"
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
 === "WooCommerce"
 
@@ -133,7 +133,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Changing what the button does"
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
 === "Magento"
 
@@ -153,7 +153,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Changing what the button does"
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
 === "BigCommerce"
 
@@ -171,7 +171,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Changing what the button does"
 
-        See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
 === "Standalone"
 
@@ -185,13 +185,13 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
 === "Shopify"
 
-    The app syncs and recommends subscription products from Shopify Subscriptions and from Recharge Subscriptions. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for the setup.
+    The app syncs and recommends subscription products from Shopify Subscriptions and from Recharge Subscriptions. See [how to recommend subscription products](/how-to-guides/recommend-subscription-products/) for the setup.
 
     For any other subscription app, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "Shopify (Legacy)"
 
-    The app syncs and recommends subscription products from Recharge Subscriptions. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for the setup.
+    The app syncs and recommends subscription products from Recharge Subscriptions. See [how to recommend subscription products](/how-to-guides/recommend-subscription-products/) for the setup.
 
     For any other subscription app, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 

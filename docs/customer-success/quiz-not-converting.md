@@ -66,7 +66,7 @@ If your quiz views are low, the content isn't the problem. Shoppers simply can't
 **Publish it in more than one place.** A quiz buried on a single page gets almost no traffic. Add it as an inline block on your homepage, a floating button that follows shoppers as they browse, and an automatic popup for first-time visitors. Each placement catches a different moment in the journey.
 
 ??? info "How to publish your quiz"
-    See: [How to Publish Your Quiz](/how-to-guides/publish-quiz/). For the full placement playbook, see [How to Get More People to Take Your Quiz](/customer-success/how-to-get-more-quiz-engagement/).
+    See: [How to publish your quiz](/how-to-guides/publish-quiz/). For the full placement playbook, see [how to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/).
 
 **Name it for the outcome, not "Quiz".** A button that says "Quiz" gives nobody a reason to click. Name it for the result the shopper gets, like "Find Your Perfect Routine" or "Shade Finder," and pair it with a CTA that promises that result. The name shows up in your buttons, menu links, and popups, so it is often the first thing a customer reads.
 
@@ -105,7 +105,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 ![A single, focused recommendation on the results page](/images/how_to_build_a_successful_quiz_image7.png)
 
 ??? info "How product mapping works"
-    See: [How to Recommend Products](/how-to-guides/recommend-products/).
+    See: [How to recommend products](/how-to-guides/recommend-products/).
 
 **Keep the results page focused.** Recommend one to three products, or one per slot for a routine, with one-click add-to-cart. A wall of ten options just hands the choice back to the shopper, which is the problem the quiz was meant to solve. Our data is clear on this: quizzes with a single results page average 10.6% conversion, against 7.1% for quizzes with eleven or more. If you sell anything consumable, offer a [subscription](/how-to-guides/recommend-subscription-products/) on the results page so the first sale becomes a recurring one.
 
@@ -117,7 +117,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 **Add a discount to close the sale.** Quiz finishers are warm, but a small reward removes the last hesitation. Add an automatic discount code on the results page, and mention it on the welcome screen so shoppers who abandon still have a reason to come back and finish.
 
 ??? info "How to add a discount"
-    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).
+    See: [How to add a discount to your quiz](/how-to-guides/add-discount/).
 
 !!! warning "Don't judge the quiz on a seven-day window"
     About 1 in 5 quiz-attributed orders land more than 30 days after the quiz. If you measure quiz revenue on same-week sales alone, you'll under-credit it and risk cutting something that's actually working.
@@ -179,6 +179,6 @@ Need help diagnosing your specific quiz? [Get in touch with our support team](/h
 **Related articles:**
 
 - [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
-- [How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
-- [Why the Best-Selling Quizzes Have Zero Customization](/customer-success/best-quizzes-no-customization/)
+- [How to reduce drop-off](/customer-success/reduce-dropoff/)
+- [Why the best-selling quizzes have zero customization](/customer-success/best-quizzes-no-customization/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)

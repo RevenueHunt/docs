@@ -74,25 +74,25 @@ This article explains how to connect your quiz to Shopify Customers and tag each
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 
 
@@ -114,7 +114,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     | `smsMarketingConsent` | Set to `SUBSCRIBED` when a phone number is provided and the customer gives SMS consent. |
 
     !!! info "Opt-in level"
-        Whether the subscription is recorded as single or confirmed opt-in depends on your settings in the quiz editor. See [Change subscribed/consent status](#change-subscribedconsent-status-for-email-and-phone-questions) and [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+        Whether the subscription is recorded as single or confirmed opt-in depends on your settings in the quiz editor. See [Change subscribed/consent status](#change-subscribedconsent-status-for-email-and-phone-questions) and [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
     !!! tip "Shopify Flow receives much more"
         The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the whole response. That means every answer with its question title, block reference and choice references. It also carries the variable scores, the results page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
@@ -144,25 +144,25 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 ??? info "Legacy vs Built for Shopify: what reaches Shopify"
 
@@ -183,7 +183,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     !!! tip
 
-        Check [How to Ask for Marketing/Data Processing Consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
+        Check [how to ask for marketing/data processing consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
 
 
 === "Shopify (Legacy)"
@@ -205,25 +205,25 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 ## Tag quiz choices to segment Shopify customers
 
@@ -285,25 +285,25 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 ## Set up Shopify Flow
 
@@ -413,25 +413,25 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        Shopify Customers is a Shopify feature, so this platform has no such list for the quiz to write to. To collect quiz leads here, connect a CRM or a mailing list instead. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 ---
 This article explains how to connect your quiz to Shopify Customers and set up a post-quiz email flow with Shopify Flow.

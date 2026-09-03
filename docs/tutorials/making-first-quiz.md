@@ -426,7 +426,7 @@ Speaking of results. Make sure to also edit the Results Page.
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
-    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [how to use markdown language](/how-to-guides/use-markdown/).
     4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
 
 === "WooCommerce"
@@ -436,7 +436,7 @@ Speaking of results. Make sure to also edit the Results Page.
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
-    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [how to use markdown language](/how-to-guides/use-markdown/).
     4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
 
 === "Magento"
@@ -446,7 +446,7 @@ Speaking of results. Make sure to also edit the Results Page.
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
-    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [how to use markdown language](/how-to-guides/use-markdown/).
     4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
 
 === "BigCommerce"
@@ -456,7 +456,7 @@ Speaking of results. Make sure to also edit the Results Page.
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
-    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [how to use markdown language](/how-to-guides/use-markdown/).
     4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
 
 === "Standalone"
@@ -466,7 +466,7 @@ Speaking of results. Make sure to also edit the Results Page.
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
-    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [How to Use Markdown Language](/how-to-guides/use-markdown/).
+    3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdown lets you add **bold** or *emphasis* to your text. You can also insert links, images and videos. For more about Markdown, see [how to use markdown language](/how-to-guides/use-markdown/).
     4. The [Results Page settings](/reference/quiz-builder/results-page/) let you add a background image to the quiz.
 
 ## Publishing the quiz

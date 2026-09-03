@@ -52,7 +52,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
     10. **Save the changes.**
 
-    11. **Publish the quiz.** See the [Publish](/reference/quiz-builder/share-publish/) tab in the app, or [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+    11. **Publish the quiz.** See the [Publish](/reference/quiz-builder/share-publish/) tab in the app, or [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
     12. **In Shopify, go to `Online store` and click the `👁️` eye icon.** Your store opens in a new window.
 

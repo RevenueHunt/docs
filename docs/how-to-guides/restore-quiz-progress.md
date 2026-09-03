@@ -209,7 +209,7 @@ The walkthrough below covers the whole process, and the written steps follow it.
     4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
     5. **Open the copy and check that the recovered questions and results are there.**
     6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
-    7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
+    7. **Point your store at the new quiz.** Follow [how to publish a quiz on your website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 
     !!! warning
 
@@ -228,7 +228,7 @@ The walkthrough below covers the whole process, and the written steps follow it.
     4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
     5. **Open the copy and check that the recovered questions and results are there.**
     6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
-    7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
+    7. **Point your store at the new quiz.** Follow [how to publish a quiz on your website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 
     !!! warning
 
@@ -247,7 +247,7 @@ The walkthrough below covers the whole process, and the written steps follow it.
     4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
     5. **Open the copy and check that the recovered questions and results are there.**
     6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
-    7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
+    7. **Point your store at the new quiz.** Follow [how to publish a quiz on your website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 
     !!! warning
 
@@ -266,7 +266,7 @@ The walkthrough below covers the whole process, and the written steps follow it.
     4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
     5. **Open the copy and check that the recovered questions and results are there.**
     6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
-    7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
+    7. **Point your store at the new quiz.** Follow [how to publish a quiz on your website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 
     !!! warning
 
@@ -285,7 +285,7 @@ The walkthrough below covers the whole process, and the written steps follow it.
     4. **Select `Create new quiz using this version`.** The copy appears on your [Dashboard](/reference/dashboard/).
     5. **Open the copy and check that the recovered questions and results are there.**
     6. **Click the top-right `Publish` button.** This saves the copy, but no page on your store shows it yet.
-    7. **Point your store at the new quiz.** Follow [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
+    7. **Point your store at the new quiz.** Follow [how to publish a quiz on your website](/how-to-guides/publish-quiz/) again, with the quiz ID of the copy.
 
     !!! warning
 

@@ -305,7 +305,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         `title`, `handle`, `id`, `price`, `url`, `image`, `vendor` and `currency`. `[TYPE]` is `product`, `variant` or `collection`, and `[INDEX]` starts at `0`.
 
     !!! info "Identifiers and consent"
-        The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+        The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
 === "Shopify (Legacy)"
 

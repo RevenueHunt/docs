@@ -682,7 +682,7 @@ The Dashboard lists every quiz you create.
 
     !!! tip "How do I find and connect my Google Product Feed URL?"
 
-        Check this how-to article to learn how to find and connect your Google Product Feed URL: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+        Check this how-to article to learn how to find and connect your Google Product Feed URL: [How to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/).
 
     `CATALOGUE` - This is where you can create products and collections of products that can be used in building your quiz. All the changes you make will be saved automatically.
 
@@ -732,7 +732,7 @@ The Dashboard lists every quiz you create.
 
     !!! note "Import quiz instructions"
 
-        For how to export and import a quiz in JSON format, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        For how to export and import a quiz in JSON format, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
     `Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the Built for Shopify app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
 
@@ -740,7 +740,7 @@ The Dashboard lists every quiz you create.
 
     !!! tip "Migration guide"
 
-        For full details on what migrates and what may need manual follow-up, check [How to Migrate a Legacy Quiz to the Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
+        For full details on what migrates and what may need manual follow-up, check [how to migrate a legacy quiz to the Built for Shopify app](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 
 === "Shopify (Legacy)"
@@ -751,7 +751,7 @@ The Dashboard lists every quiz you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 
@@ -770,7 +770,7 @@ The Dashboard lists every quiz you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 
@@ -788,7 +788,7 @@ The Dashboard lists every quiz you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 
@@ -806,7 +806,7 @@ The Dashboard lists every quiz you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 
@@ -824,7 +824,7 @@ The Dashboard lists every quiz you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `import quiz from another store` - Lets you import a quiz from another store by pasting a copy quiz code. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 
@@ -914,7 +914,7 @@ The Dashboard lists every quiz you create.
     !!! note "You are already using the legacy app"
 
         To move a quiz to the Built for Shopify version, see
-        [How to Migrate a Legacy Quiz to the Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
+        [How to migrate a legacy quiz to the Built for Shopify app](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 === "WooCommerce"
 

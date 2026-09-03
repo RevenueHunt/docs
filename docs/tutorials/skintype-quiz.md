@@ -211,7 +211,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip
-        To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        To add custom JavaScript to the Results Page, see [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 
 === "WooCommerce"
@@ -226,7 +226,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip
-        To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        To add custom JavaScript to the Results Page, see [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 
 === "Magento"
@@ -241,7 +241,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip
-        To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        To add custom JavaScript to the Results Page, see [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 
 
@@ -257,7 +257,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip
-        To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        To add custom JavaScript to the Results Page, see [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 
 === "Standalone"
@@ -272,7 +272,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip
-        To add custom JavaScript to the Results Page, see [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        To add custom JavaScript to the Results Page, see [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 ---
 This article explains how to build a quiz that finds the customer skin type and recommends the right products.

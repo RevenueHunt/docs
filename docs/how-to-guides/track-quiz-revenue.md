@@ -37,7 +37,7 @@ See how many orders your quiz produced, and what they were worth. The app attrib
 
     !!! tip "The same revenue in Google Analytics"
 
-        Quiz revenue can sit alongside your other metrics in GA4. See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+        Quiz revenue can sit alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 
         ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 
@@ -67,35 +67,35 @@ See how many orders your quiz produced, and what they were worth. The app attrib
 
         Shopify Revenue Tracking and Orders Tagging need an unbroken flow. The customer has to add products to the cart from the results page, then complete the checkout. An order placed later is no longer attributed to the quiz.
 
-        Set the Checkout settings on your Results Page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        Set the Checkout settings on your Results Page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     !!! tip "The same revenue in Google Analytics"
 
-        For a more detailed breakdown, see [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+        For a more detailed breakdown, see [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 
-    To see which orders in the Shopify Orders tab came from the quiz, see [How to Show Quiz Answers in Shopify Orders](/how-to-guides/show-quiz-answers-in-orders/).
+    To see which orders in the Shopify Orders tab came from the quiz, see [how to show quiz answers in Shopify orders](/how-to-guides/show-quiz-answers-in-orders/).
 
 === "WooCommerce"
 
-    Track quiz revenue alongside your other metrics in GA4. See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+    Track quiz revenue alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 
     ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 
 === "Magento"
 
-    Track quiz revenue alongside your other metrics in GA4. See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+    Track quiz revenue alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 
     ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 
 === "BigCommerce"
 
-    Track quiz revenue alongside your other metrics in GA4. See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+    Track quiz revenue alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 
     ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 
 === "Standalone"
 
-    Track quiz revenue alongside your other metrics in GA4. See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+    Track quiz revenue alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
 
     ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 

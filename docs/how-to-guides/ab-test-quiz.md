@@ -117,7 +117,7 @@ This split is only as even as the traffic you send. It suits a test where you ca
 
 **A random split, and some code**
 
-1. **Create one entry point, such as a button or a link.** See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/).
+1. **Create one entry point, such as a button or a link.** See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/).
 
 2. **Ask a developer to add a snippet that sends each new customer to version A or version B at random.**
 

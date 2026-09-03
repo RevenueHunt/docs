@@ -28,31 +28,31 @@ icon: material/scoreboard-outline
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 ## How to add scores or variables to choices
 
@@ -92,39 +92,39 @@ icon: material/scoreboard-outline
 
     !!! tip "What to do with the scores and variables"
 
-        - [How to Use Display logic](/how-to-guides/use-display-logic/)
-        - [How to Set Up a Personality Type Quiz](#winning-variable-quiz)
-        - [How to Set Up a Scoring Quiz](#scoring-quiz-with-one-results-page)
+        - [how to use display logic](/how-to-guides/use-display-logic/)
+        - [how to set up a personality type quiz](#winning-variable-quiz)
+        - [how to set up a scoring quiz](#scoring-quiz-with-one-results-page)
 
 === "Shopify (Legacy)"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 ## Winning variable quiz
 
@@ -144,7 +144,7 @@ Give each choice a variable instead of a plain score. The variable with the high
 
         !!! tip "Adding the scores"
 
-            See [How to Add Scores or Variables to Choices](#how-to-add-scores-or-variables-to-choices).
+            See [how to add scores or variables to choices](#how-to-add-scores-or-variables-to-choices).
 
         !!! example "Two questions, five variables"
 
@@ -196,41 +196,41 @@ Give each choice a variable instead of a plain score. The variable with the high
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [how to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [how to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [how to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [how to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
-    To recommend products by how many choices the customer picked, see [How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
+    To recommend products by how many choices the customer picked, see [how to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/).
 
 ## Scoring quiz with one results page
 
@@ -254,7 +254,7 @@ Give each choice a number of points. One results page holds a section per outcom
 
         !!! tip "Adding the scores"
 
-            See [How to Add Scores or Variables to Choices](#how-to-add-scores-or-variables-to-choices).
+            See [how to add scores or variables to choices](#how-to-add-scores-or-variables-to-choices).
 
         !!! example "Points for each skin type"
 
@@ -309,31 +309,31 @@ Give each choice a number of points. One results page holds a section per outcom
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 ## Scoring quiz with multiple results pages
 
@@ -353,7 +353,7 @@ Give each choice a number of points, then build one results page per outcome. Ju
 
         !!! tip "Adding the scores"
 
-            See [How to Add Scores or Variables to Choices](#how-to-add-scores-or-variables-to-choices).
+            See [how to add scores or variables to choices](#how-to-add-scores-or-variables-to-choices).
 
         !!! example "Points for each skin type"
 
@@ -418,30 +418,30 @@ Give each choice a number of points, then build one results page per outcome. Ju
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "WooCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Magento"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "BigCommerce"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 === "Standalone"
 
     !!! note "Not available on this platform"
 
-        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+        This version of the app has no scoring system. A developer can build one with custom JavaScript on the Results Page. See [how to add custom JavaScript to the results page](/how-to-guides/add-javascript/).
 
 ---

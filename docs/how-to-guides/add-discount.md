@@ -332,7 +332,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     4. **Click the top-right `Save` button.**
 
-    See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for what custom JavaScript can reach.
+    See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for what custom JavaScript can reach.
 
 === "Shopify (Legacy)"
 
@@ -345,7 +345,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     That applies the code to every recommended product. The code has to exist in your store first.
 
-    See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+    See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for where this code goes.
 
 === "WooCommerce"
 
@@ -358,7 +358,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     That applies the code to every recommended product. The code has to exist in your store first.
 
-    See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+    See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for where this code goes.
 
 === "Magento"
 
@@ -371,7 +371,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     That applies the code to every recommended product. The code has to exist in your store first.
 
-    See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+    See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for where this code goes.
 
 === "BigCommerce"
 
@@ -384,7 +384,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     That applies the code to every recommended product. The code has to exist in your store first.
 
-    See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+    See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for where this code goes.
 
 === "Standalone"
 
@@ -397,7 +397,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     That applies the code to every recommended product. The code has to exist in your store first.
 
-    See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for where this code goes.
+    See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for where this code goes.
 
 ## Include the code in a follow-up email
 
@@ -572,7 +572,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "WooCommerce"
 
@@ -611,7 +611,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "Magento"
 
@@ -650,7 +650,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "BigCommerce"
 
@@ -689,7 +689,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "Standalone"
 
@@ -728,7 +728,7 @@ The results page can reach the checkout in three ways, and they combine. A code 
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 ---
 

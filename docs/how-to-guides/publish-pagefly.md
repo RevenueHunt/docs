@@ -59,7 +59,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no WooCommerce version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 === "Magento"
 
@@ -67,7 +67,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no Magento version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on Magento.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on Magento.
 
 === "BigCommerce"
 
@@ -75,7 +75,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no BigCommerce version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on BigCommerce.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on BigCommerce.
 
 === "Standalone"
 
@@ -83,7 +83,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no Standalone version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on Standalone.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on Standalone.
 
 ## Link to the quiz from a PageFly button
 
@@ -91,7 +91,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
     The quiz sits on a Shopify page of its own, and the PageFly page carries a button that opens it.
 
-    1. **Publish the quiz on a page of its own in Shopify.** See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    1. **Publish the quiz on a page of its own in Shopify.** See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     2. **Open the PageFly editor, on a new page or one you already have.**
 
@@ -130,7 +130,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no WooCommerce version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 === "Magento"
 
@@ -138,7 +138,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no Magento version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on Magento.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on Magento.
 
 === "BigCommerce"
 
@@ -146,7 +146,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no BigCommerce version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on BigCommerce.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on BigCommerce.
 
 === "Standalone"
 
@@ -154,7 +154,7 @@ PageFly builds Shopify landing pages and product pages. A quiz can sit inside on
 
         It has no Standalone version, so there is no PageFly page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on Standalone.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on Standalone.
 
 ---
 

@@ -85,7 +85,7 @@ Focused recommendations drive purchases. Too many choices cause decision fatigue
 ??? example "Example: Skincare routine with slots"
     ![recommendations example](https://docs.revenuehunt.com/images/how_to_recommend_slots_example.png)
 
-    See: [How to Set Up a Funnel Quiz with Slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
+    See: [How to set up a funnel quiz with slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
 
 ☐ Optionally, pin a slot with [**fixed recommendations**](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) to always surface your best-sellers alongside dynamic results
 
@@ -147,7 +147,7 @@ A great quiz that's hard to find won't convert. Put it where customers already a
     Just like a real shop assistant asks *"Can I help you find something?"*, your quiz should proactively reach out to visitors. The more visible it is, the more it sells.
 
 ??? info "Full publishing guide"
-    See all the ways to publish your quiz: [How to Publish Your Quiz](/how-to-guides/publish-quiz/)
+    See all the ways to publish your quiz: [How to publish your quiz](/how-to-guides/publish-quiz/)
 
 ---
 
@@ -183,7 +183,7 @@ Most top-converting quizzes are fully linear - every customer sees the same ques
 
 ??? example "Example: Recalling a customer's name"
 
-    See: [How to Use Information Recalls](/how-to-guides/use-information-recalls/)
+    See: [How to use information recalls](/how-to-guides/use-information-recalls/)
 
 ---
 
@@ -233,6 +233,6 @@ In at least two places, for example a block on your homepage plus an automatic p
 !!! success "You're ready to launch"
     Work through steps 1-7 before going live. Steps 8-10 are improvements you can layer on once the quiz is running and converting. **A simple, well-mapped quiz beats a complex, over-designed one every time.**
 
-    See: [Why the Best-Selling Quizzes Have Zero Customization](/customer-success/best-quizzes-no-customization/)
+    See: [Why the best-selling quizzes have zero customization](/customer-success/best-quizzes-no-customization/)
 
 Need help? Take the [Support Quiz](/how-to-guides/contact-customer-support/) to reach our team directly.

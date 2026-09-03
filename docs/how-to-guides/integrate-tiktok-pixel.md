@@ -23,7 +23,7 @@ The TikTok Pixel records what customers do in your quiz, so you can measure your
 
     1. **Set up the TikTok Pixel in your Shopify store.** Follow the [TikTok setup guide for Shopify](https://ads.tiktok.com/help/article/shopify-set-up-guide), which puts the Pixel on your website.
 
-    2. **Publish the quiz on a page of its own.** Pixel tracking works best that way. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    2. **Publish the quiz on a page of its own.** Pixel tracking works best that way. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     3. **[Contact customer support](/how-to-guides/contact-customer-support/) and ask for your TikTok Pixel to be connected to the quiz.**
 
@@ -35,7 +35,7 @@ The TikTok Pixel records what customers do in your quiz, so you can measure your
 
         The TikTok Pixel integration runs on the Built for Shopify version only.
 
-        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to integrate Meta Pixel with quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "WooCommerce"
 
@@ -43,7 +43,7 @@ The TikTok Pixel records what customers do in your quiz, so you can measure your
 
         The TikTok Pixel integration runs on the Built for Shopify version only.
 
-        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to integrate Meta Pixel with quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "Magento"
 
@@ -51,7 +51,7 @@ The TikTok Pixel records what customers do in your quiz, so you can measure your
 
         The TikTok Pixel integration runs on the Built for Shopify version only.
 
-        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to integrate Meta Pixel with quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "BigCommerce"
 
@@ -59,7 +59,7 @@ The TikTok Pixel records what customers do in your quiz, so you can measure your
 
         The TikTok Pixel integration runs on the Built for Shopify version only.
 
-        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to integrate Meta Pixel with quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 === "Standalone"
 
@@ -67,7 +67,7 @@ The TikTok Pixel records what customers do in your quiz, so you can measure your
 
         The TikTok Pixel integration runs on the Built for Shopify version only.
 
-        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to Integrate Meta Pixel with Quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
+        To send TikTok events yourself, call the TikTok Pixel from a [callback function](/how-to-guides/use-callback-function/) on the page that holds the quiz. [How to integrate Meta Pixel with quiz](/how-to-guides/integrate-meta-pixel/) shows the same pattern with the Meta Pixel.
 
 ---
 

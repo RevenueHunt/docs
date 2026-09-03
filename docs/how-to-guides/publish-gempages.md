@@ -29,10 +29,10 @@ GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit 
 
         | Block | What it does |
         |---|---|
-        | `Inline Quiz` | Sits in the page itself. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) |
-        | `Auto Popup Quiz` | Opens on its own after a delay. See [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) |
-        | `Link Popup Quiz` | Opens when a link or a button is clicked. See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) |
-        | `Chat Button Quiz` | Opens from a floating chat-style button. See [How to Add a Quiz Popup via a Chat-Like Button on Your Store](/how-to-guides/publish-quiz-chat-button/) |
+        | `Inline Quiz` | Sits in the page itself. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) |
+        | `Auto Popup Quiz` | Opens on its own after a delay. See [how to set up automatic popups](/how-to-guides/publish-quiz-automatic-popup/) |
+        | `Link Popup Quiz` | Opens when a link or a button is clicked. See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/) |
+        | `Chat Button Quiz` | Opens from a floating chat-style button. See [how to add a quiz popup via a chat-like button on your store](/how-to-guides/publish-quiz-chat-button/) |
 
         ![Adding a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
 
@@ -68,10 +68,10 @@ GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit 
 
         | Block | What it does |
         |---|---|
-        | `Inline Quiz (Legacy)` | Sits in the page itself. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) |
-        | `Auto Popup Quiz (Legacy)` | Opens on its own after a delay. See [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) |
-        | `Link Popup Quiz (Legacy)` | Opens when a link or a button is clicked. See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) |
-        | `Chat Button Quiz (Legacy)` | Opens from a floating chat-style button. See [How to Add a Quiz Popup via a Chat-Like Button on Your Store](/how-to-guides/publish-quiz-chat-button/) |
+        | `Inline Quiz (Legacy)` | Sits in the page itself. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) |
+        | `Auto Popup Quiz (Legacy)` | Opens on its own after a delay. See [how to set up automatic popups](/how-to-guides/publish-quiz-automatic-popup/) |
+        | `Link Popup Quiz (Legacy)` | Opens when a link or a button is clicked. See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/) |
+        | `Chat Button Quiz (Legacy)` | Opens from a floating chat-style button. See [how to add a quiz popup via a chat-like button on your store](/how-to-guides/publish-quiz-chat-button/) |
 
         ![Adding a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
 
@@ -91,7 +91,7 @@ GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit 
 
         It has no WooCommerce version, so there is no GemPages page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on WooCommerce.
 
 === "Magento"
 
@@ -99,7 +99,7 @@ GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit 
 
         It has no Magento version, so there is no GemPages page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on Magento.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on Magento.
 
 === "BigCommerce"
 
@@ -107,7 +107,7 @@ GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit 
 
         It has no BigCommerce version, so there is no GemPages page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on BigCommerce.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on BigCommerce.
 
 === "Standalone"
 
@@ -115,7 +115,7 @@ GemPages builds landing pages and product pages, and a RevenueHunt quiz can sit 
 
         It has no Standalone version, so there is no GemPages page to put a quiz on here.
 
-        See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) for the ways that do work on Standalone.
+        See [how to publish a quiz on your website](/how-to-guides/publish-quiz/) for the ways that do work on Standalone.
 
 ---
 

@@ -861,7 +861,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
     !!! tip "Reducing drop-off"
         A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep customers moving forward.
 
-        See [How to Reduce Drop-Off and Maximize Quiz Completion Rate](/customer-success/reduce-dropoff/).
+        See [how to reduce drop-off and maximize quiz completion rate](/customer-success/reduce-dropoff/).
 
     !!! note "Alternative ways to measure drop-off"
         You can also measure the drop-off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).

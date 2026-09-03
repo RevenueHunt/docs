@@ -19,7 +19,7 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
         You pass the values you want instead. That suits saving a result name, a score, a response ID, a campaign tag, or a handful of answers.
 
-    1. **Add your custom code to the relevant [question](/reference/quiz-builder/questions/#question-settings) or [results page](/reference/quiz-builder/results-page/#custom-js-code).** See [How to Add JavaScript](/how-to-guides/add-javascript/).
+    1. **Add your custom code to the relevant [question](/reference/quiz-builder/questions/#question-settings) or [results page](/reference/quiz-builder/results-page/#custom-js-code).** See [how to add JavaScript](/how-to-guides/add-javascript/).
 
     2. **Write the values you want to keep with `actions.updateCartAttributes({...})`.**
 
@@ -55,7 +55,7 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
         Shopify Revenue Tracking and cart-based order tagging need an unbroken flow. The customer has to add products to the cart from the results page, then complete the checkout. An order placed later may no longer be attributed to the quiz.
 
-        Set the Checkout settings on your results page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        Set the Checkout settings on your results page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
 === "Shopify (Legacy)"
 
@@ -85,7 +85,7 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
         Shopify Revenue Tracking and Orders Tagging need an unbroken flow. The customer has to add products to the cart from the results page, then complete the checkout. An order placed later is no longer attributed to the quiz.
 
-        Set the Checkout settings on your Results Page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+        Set the Checkout settings on your Results Page to `proceed to cart`, not `proceed to checkout` or `link to product`. See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
 === "WooCommerce"
 

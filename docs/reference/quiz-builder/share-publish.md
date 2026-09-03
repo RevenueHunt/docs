@@ -20,7 +20,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip
     
-        See [How to Publish the Quiz](/how-to-guides/publish-quiz/) for detailed instructions.
+        See [how to publish the quiz](/how-to-guides/publish-quiz/) for detailed instructions.
 
 
 
@@ -30,7 +30,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
+    For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "WooCommerce"
 
@@ -38,7 +38,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
+    For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "Magento"
 
@@ -46,7 +46,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
+    For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "BigCommerce"
 
@@ -54,7 +54,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
+    For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "Standalone"
 
@@ -62,7 +62,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
+    For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 ## Link
 
@@ -99,7 +99,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
         
-        See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
+        See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
 
         ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
@@ -135,7 +135,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     
     !!! tip "Step-by-step instructions"
         
-        See [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
+        See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
     
         ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
     
@@ -264,7 +264,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     
     !!! tip "Step-by-step instructions"
         
-        Follow the step by step instructions provided in the `Add the quiz to your home page` section, or in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
+        Follow the step by step instructions provided in the `Add the quiz to your home page` section, or in [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
     
     **On a specific page**{ #inline-on-a-specific-page }
 
@@ -300,7 +300,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
         
-        Follow the step by step instructions provided in the `Add the quiz to a dedicated landing page` section, or in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
+        Follow the step by step instructions provided in the `Add the quiz to a dedicated landing page` section, or in [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 
 
 === "Shopify (Legacy)"
@@ -437,7 +437,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
 
-        Follow the step by step instructions in [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
+        Follow the step by step instructions in [how to set up automatic popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
 
     !!! warning "Note"
 
@@ -476,7 +476,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
 
-        Follow the step by step instructions in [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#auto-popup-on-a-specific-page) to add an automatic popup to your website.
+        Follow the step by step instructions in [how to set up automatic popups on a specific page](/how-to-guides/publish-quiz-automatic-popup/#auto-popup-on-a-specific-page) to add an automatic popup to your website.
 
     !!! warning "Note"
 
@@ -849,7 +849,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
 
-        Follow the step by step instructions in [How to Set Up Chat Button Popups](/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
+        Follow the step by step instructions in [how to set up chat button popups](/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
 
 
     **On a specific page**{ #chat-on-a-specific-page }
@@ -884,7 +884,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     !!! tip "Step-by-step instructions"
 
-        Follow the step by step instructions in [How to Set Up Chat Button Popups on a Specific Page](/how-to-guides/publish-quiz-chat-button/#chat-button-on-a-specific-page) to add a chat popup to your website.
+        Follow the step by step instructions in [how to set up chat button popups on a specific page](/how-to-guides/publish-quiz-chat-button/#chat-button-on-a-specific-page) to add a chat popup to your website.
 
 
 === "Shopify (Legacy)" 

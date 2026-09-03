@@ -91,7 +91,7 @@ A recommended product can arrive on the results page with no picture. Where the 
 
     2. **Paste that URL into a browser tab.** If the image does not load there, it will not load in the quiz either.
 
-    3. **If your products come from a Google Product Feed, check the image URL for that product in the feed.** See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+    3. **If your products come from a Google Product Feed, check the image URL for that product in the feed.** See [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/).
 
     4. **If the image sits on your own server, allow the RevenueHunt server to reach it.** Add `admin.revenuehunt.com` and the IP address `3.14.55.225` to the allowlist of your firewall or CDN.
 

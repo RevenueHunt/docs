@@ -15,7 +15,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         Your products come from Shopify, and the app imports them for you. There is nothing to add by hand.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Shopify (Legacy)"
 
@@ -23,7 +23,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         Your products come from Shopify, and the app imports them for you. There is nothing to add by hand.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "WooCommerce"
 
@@ -31,7 +31,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         Your products come from WooCommerce, and the app imports them for you. There is nothing to add by hand.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Magento"
 
@@ -39,7 +39,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         Your products come from Magento, and the app imports them for you. There is nothing to add by hand.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "BigCommerce"
 
@@ -47,7 +47,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         Your products come from BigCommerce, and the app imports them for you. There is nothing to add by hand.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Standalone"
 
@@ -87,7 +87,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         The app reads your Shopify catalog directly, so it needs no product feed.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Shopify (Legacy)"
 
@@ -95,7 +95,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         The app reads your Shopify catalog directly, so it needs no product feed.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "WooCommerce"
 
@@ -103,7 +103,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         The app reads your WooCommerce catalog directly, so it needs no product feed.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Magento"
 
@@ -111,7 +111,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         The app reads your Magento catalog directly, so it needs no product feed.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "BigCommerce"
 
@@ -119,7 +119,7 @@ The Standalone version has no store behind it, so its catalogue is yours to fill
 
         The app reads your BigCommerce catalog directly, so it needs no product feed.
 
-        See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Standalone"
 

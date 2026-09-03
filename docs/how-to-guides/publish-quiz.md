@@ -89,7 +89,7 @@ The quiz sits in the content of a page, like any other section.
 
 **Pick this when** you want a dedicated landing page to send paid traffic to.
 
-[How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/)
+[How to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/)
 
 ### Link popup
 
@@ -97,7 +97,7 @@ A link in your navigation menu, or on any page, opens the quiz in an overlay.
 
 **Pick this when** you want the quiz reachable from anywhere without giving it space on the page.
 
-[How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/)
+[How to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/)
 
 ### Chat button popup
 
@@ -105,7 +105,7 @@ A small floating button sits in the corner of every page and opens the quiz in a
 
 **Pick this when** you want a standing invitation that does not interrupt.
 
-[How to Add a Quiz Popup via a Chat-Like Button on Your Store](/how-to-guides/publish-quiz-chat-button/)
+[How to add a quiz popup via a chat-like button on your store](/how-to-guides/publish-quiz-chat-button/)
 
 ### Automatic popup
 
@@ -113,7 +113,7 @@ The quiz opens by itself after a customer spends a set time on a page.
 
 **Pick this when** you want to catch attention without waiting for a click.
 
-[How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/)
+[How to set up automatic popups](/how-to-guides/publish-quiz-automatic-popup/)
 
 ## Share a link
 
@@ -125,7 +125,7 @@ A direct link to the quiz that you paste into a post or a profile.
 
 **Pick this when** you drive traffic from TikTok, X, Instagram or Facebook.
 
-[How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/)
+[How to get an external quiz link for social media](/how-to-guides/publish-quiz-external-link/)
 
 ### Email link
 
@@ -133,7 +133,7 @@ A link to the quiz that you paste into an email or a newsletter.
 
 **Pick this when** you want subscribers to take the quiz from their inbox.
 
-[How to Get an External Quiz Link for Emails and Newsletters](/how-to-guides/publish-quiz-email-link/)
+[How to get an external quiz link for emails and newsletters](/how-to-guides/publish-quiz-email-link/)
 
 ## With a page builder
 
@@ -145,7 +145,7 @@ The quiz sits inside a GemPages page, added through the builder's `Shopify App` 
 
 **Pick this when** your landing pages are built in GemPages.
 
-[How to Publish a Quiz on a GemPages Page](/how-to-guides/publish-gempages/)
+[How to publish a quiz on a GemPages page](/how-to-guides/publish-gempages/)
 
 ### PageFly
 
@@ -153,4 +153,4 @@ The quiz sits inside a PageFly page, or a PageFly button opens it.
 
 **Pick this when** your landing pages are built in PageFly. Its inline element works with the legacy app only, so on Built for Shopify you point a button at the quiz.
 
-[How to Publish a Quiz on a PageFly Page](/how-to-guides/publish-pagefly/)
+[How to publish a quiz on a PageFly page](/how-to-guides/publish-pagefly/)

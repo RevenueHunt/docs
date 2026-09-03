@@ -69,7 +69,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Quiz migration**
 
-    `Export quiz to another store` - Click `Copy quiz code` to generate a JSON code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `Copy quiz code` to generate a JSON code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.
 
@@ -98,7 +98,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
         For large stores, with more than 2,000 products, the top-level product option is not available. Use the automatically created Tags and Variants instead, to upvote whole groups of products at once in the Link Collections tab.
 
-    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -122,7 +122,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
-    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -144,7 +144,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -168,7 +168,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
-    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -190,7 +190,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 

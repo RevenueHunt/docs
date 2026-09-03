@@ -895,7 +895,7 @@ Do not use both in one quiz.
 
 Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
 
-See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
+See [how to use conditional logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
 

@@ -17,7 +17,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! warning "Install the app on both stores first"
 
-        The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+        The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 
     !!! info "Moving a quiz between versions is a different job"
 
@@ -53,7 +53,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! warning "Install the app on both stores first"
 
-        The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+        The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 
     !!! info "Moving a quiz between versions is a different job"
 
@@ -91,7 +91,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! warning "Install the app on both stores first"
 
-        The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+        The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 
     1. **Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general) in the store you are copying from.**
 
@@ -125,7 +125,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! warning "Install the app on both stores first"
 
-        The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+        The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 
     1. **Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general) in the store you are copying from.**
 
@@ -159,7 +159,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! warning "Install the app on both stores first"
 
-        The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+        The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 
     1. **Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general) in the store you are copying from.**
 
@@ -193,7 +193,7 @@ Products and collections do not. The new store gives them different IDs, so you 
 
     !!! warning "Install the app on both stores first"
 
-        The quiz can only arrive somewhere the app is already running. See [How to Install the App](/how-to-guides/install-app/).
+        The quiz can only arrive somewhere the app is already running. See [how to install the app](/how-to-guides/install-app/).
 
     1. **Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general) in the store you are copying from.**
 

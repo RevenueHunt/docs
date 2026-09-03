@@ -9,7 +9,7 @@ icon: material/folder-sync-outline
 
     !!! note "Not needed on this platform"
 
-        The Built for Shopify version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        The Built for Shopify version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Shopify (Legacy)"
 
@@ -47,7 +47,7 @@ icon: material/folder-sync-outline
 
     The Standalone version has no store catalog to trim. You build the catalog inside the app, or upload a Google Product Feed.
 
-    See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+    See [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/).
 
 ## Selecting collections/categories for synchronization
 
@@ -55,7 +55,7 @@ icon: material/folder-sync-outline
 
     !!! note "Not needed on this platform"
 
-        The Built for Shopify version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [How to Import Your Catalog](/how-to-guides/sync-catalog/).
+        The Built for Shopify version reads your products live from Shopify through the Storefront API, so there is no imported catalog to trim. See [how to import your catalog](/how-to-guides/sync-catalog/).
 
 === "Shopify (Legacy)"
 
@@ -113,7 +113,7 @@ icon: material/folder-sync-outline
 
     !!! note "Not available on this platform"
 
-        This version has no store to sync from. Add your products in the app instead, as [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/) describes.
+        This version has no store to sync from. Add your products in the app instead, as [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/) describes.
 
 ---
 

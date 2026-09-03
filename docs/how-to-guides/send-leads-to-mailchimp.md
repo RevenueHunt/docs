@@ -17,7 +17,7 @@ Connect your quiz to Mailchimp and every contact from the quiz is added to your 
 
         **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and look for an [email question](/reference/quiz-builder/questions/#email-address) block. If there is none, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
 
-        **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. A customer can then agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+        **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. A customer can then agree to receive marketing emails, which is useful for GDPR compliance. See [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
     !!! info "What data is sent to Mailchimp"
 
@@ -718,21 +718,21 @@ Connect your quiz to Mailchimp and every contact from the quiz is added to your 
 
     The built-in integration does not send the full quiz answers or the recommended products. To pass those to Mailchimp, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "Shopify (Legacy)"
 
     To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "WooCommerce"
 
     To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 
@@ -741,7 +741,7 @@ Connect your quiz to Mailchimp and every contact from the quiz is added to your 
 
     To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "BigCommerce"
@@ -749,7 +749,7 @@ Connect your quiz to Mailchimp and every contact from the quiz is added to your 
 
     To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 === "Standalone"
@@ -757,7 +757,7 @@ Connect your quiz to Mailchimp and every contact from the quiz is added to your 
 
     To control exactly which data reaches Mailchimp, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Mailchimp.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Mailchimp.
 
 ---

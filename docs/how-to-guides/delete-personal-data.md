@@ -67,7 +67,7 @@ The quiz response itself is not deleted. Only what the customer typed goes.
 
     The response stays in your response list, and in place of each deleted value you see `[Answer removed by retention policy]`.
 
-    The same placeholder appears in a CSV export. See [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+    The same placeholder appears in a CSV export. See [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
     ## Before you choose a period
 

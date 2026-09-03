@@ -253,21 +253,21 @@ icon: simple/hubspot
 
     To control exactly which data reaches HubSpot, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, map the fields you want and forward them to HubSpot.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, map the fields you want and forward them to HubSpot.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 
 === "Shopify (Legacy)"
 
     To control exactly which data reaches HubSpot, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 
 === "WooCommerce"
 
     To control exactly which data reaches HubSpot, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 
 
@@ -276,7 +276,7 @@ icon: simple/hubspot
 
     To control exactly which data reaches HubSpot, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 
 === "BigCommerce"
@@ -284,7 +284,7 @@ icon: simple/hubspot
 
     To control exactly which data reaches HubSpot, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 
 === "Standalone"
@@ -292,7 +292,7 @@ icon: simple/hubspot
 
     To control exactly which data reaches HubSpot, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to HubSpot.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to HubSpot.
 
 ## Quiz data in HubSpot

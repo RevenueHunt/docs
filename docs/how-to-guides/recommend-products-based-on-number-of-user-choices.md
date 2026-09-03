@@ -20,8 +20,8 @@ The quiz cannot do this on its own. This method adds a hidden choice for each po
     1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
     2. **Add one hidden choice per collection.** They all go in the final question of the quiz.
     3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
-    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
         ![Custom JavaScript field in the question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
     6. **Click `Save`** to update the preview and the live quiz.
@@ -31,8 +31,8 @@ The quiz cannot do this on its own. This method adds a hidden choice for each po
     1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
     2. **Add one hidden choice per collection.** They all go in the final question of the quiz.
     3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
-    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
         ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
     6. **Click `Publish`** to update the preview and the live quiz.
@@ -42,8 +42,8 @@ The quiz cannot do this on its own. This method adds a hidden choice for each po
     1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
     2. **Add one hidden choice per category.** They all go in the final question of the quiz.
     3. **Link each choice to its category.** See [Link Categories](/reference/quiz-builder/link-collections/).
-    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
         ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
     6. **Click `Publish`** to update the preview and the live quiz.
@@ -53,8 +53,8 @@ The quiz cannot do this on its own. This method adds a hidden choice for each po
     1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
     2. **Add one hidden choice per category.** They all go in the final question of the quiz.
     3. **Link each choice to its category.** See [Link Categories](/reference/quiz-builder/link-collections/).
-    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
         ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
     6. **Click `Publish`** to update the preview and the live quiz.
@@ -64,8 +64,8 @@ The quiz cannot do this on its own. This method adds a hidden choice for each po
     1. **Create one category for each outcome.** Each category holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
     2. **Add one hidden choice per category.** They all go in the final question of the quiz.
     3. **Link each choice to its category.** See [Link Categories](/reference/quiz-builder/link-collections/).
-    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
         ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
     6. **Click `Publish`** to update the preview and the live quiz.
@@ -75,8 +75,8 @@ The quiz cannot do this on its own. This method adds a hidden choice for each po
     1. **Create one collection for each outcome.** Each collection holds the products for one outcome. Name them `1/10 choices selected`, `2/10 choices selected`, and so on.
     2. **Add one hidden choice per collection.** They all go in the final question of the quiz.
     3. **Link each choice to its collection.** See [Link Collections](/reference/quiz-builder/link-collections/).
-    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
-    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    4. **Hide those choices with custom CSS.** The choices are there for the script, not for the customer. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    5. **Add custom JavaScript to the final question.** The script counts the choices the customer selected across the quiz. It then clicks the hidden choice that matches that number. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
         ![Custom JavaScript field in the question settings](/images/recommend-products-based-on-number-of-user-choices_image1.png)
     6. **Click `Publish`** to update the preview and the live quiz.

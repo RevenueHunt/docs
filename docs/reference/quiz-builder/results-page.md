@@ -958,7 +958,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
 
     !!! tip
-        Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and adjust images for the quiz: [How to add and adjust images](/how-to-guides/add-adjust-images/).
 
     `Heading` - Add the product title as set up in Shopify Products.
 
@@ -2188,7 +2188,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
 
-        See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) for how to set up multiple results pages and use Jump logic.
+        See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/) for how to set up multiple results pages and use Jump logic.
 
 
 === "Shopify (Legacy)"
@@ -2292,7 +2292,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! tip "How to add a discount code"
 
-        See [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
+        See [how to add a discount to your quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
 
 
 === "Shopify (Legacy)"

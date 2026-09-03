@@ -176,7 +176,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
         !!! info "Any other service"
 
-            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
     3. **Follow the instructions the service shows on screen.**
 
@@ -190,7 +190,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
         !!! info "Any other service"
 
-            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
     3. **Follow the instructions the service shows on screen.**
 
@@ -204,7 +204,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
         !!! info "Any other service"
 
-            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
     3. **Follow the instructions the service shows on screen.**
 
@@ -218,7 +218,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
         !!! info "Any other service"
 
-            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
     3. **Follow the instructions the service shows on screen.**
 
@@ -232,7 +232,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
         !!! info "Any other service"
 
-            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
     3. **Follow the instructions the service shows on screen.**
 
@@ -246,7 +246,7 @@ This article explains how to add tags to choices, send them to a CRM, build segm
 
         !!! info "Any other service"
 
-            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
+            [Zapier](/how-to-guides/send-leads-to-zapier/) and [Webhooks](/how-to-guides/send-leads-to-webhooks/) carry the same data anywhere else. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/) for the full list.
 
     3. **Follow the instructions the service shows on screen.**
 
@@ -289,7 +289,7 @@ A segment earns nothing until something is sent to it. Build one flow or campaig
 
 !!! tip "More on the strategy"
 
-    [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) covers how to plan the segments and the campaigns around them.
+    [How to use customer tags in product quizzes to maximize sales](/customer-success/use-customer-tags-in-quiz/) covers how to plan the segments and the campaigns around them.
 
 ---
 

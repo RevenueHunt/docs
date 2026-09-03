@@ -43,48 +43,48 @@ MailerLite is an email marketing platform. The RevenueHunt app has no built-in M
 
     With no built-in integration, these are the ways to get your quiz leads into MailerLite.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 === "Shopify (Legacy)"
 
     With no built-in integration, these are the ways to get your quiz leads into MailerLite.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 === "WooCommerce"
 
     With no built-in integration, these are the ways to get your quiz leads into MailerLite.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 === "Magento"
 
     With no built-in integration, these are the ways to get your quiz leads into MailerLite.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 === "BigCommerce"
 
     With no built-in integration, these are the ways to get your quiz leads into MailerLite.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 === "Standalone"
 
     With no built-in integration, these are the ways to get your quiz leads into MailerLite.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to MailerLite.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to MailerLite.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to MailerLite.
 
 ---

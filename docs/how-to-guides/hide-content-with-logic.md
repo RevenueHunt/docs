@@ -86,7 +86,7 @@ Jump logic sends the customer from the skin type question straight to the statem
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "Shopify (Legacy)"
 
@@ -127,7 +127,7 @@ Jump logic sends the customer from the skin type question straight to the statem
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "WooCommerce"
 
@@ -168,7 +168,7 @@ Jump logic sends the customer from the skin type question straight to the statem
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "Magento"
 
@@ -209,7 +209,7 @@ Jump logic sends the customer from the skin type question straight to the statem
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "BigCommerce"
 
@@ -250,7 +250,7 @@ Jump logic sends the customer from the skin type question straight to the statem
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 === "Standalone"
 
@@ -291,7 +291,7 @@ Jump logic sends the customer from the skin type question straight to the statem
 
     !!! tip "More on jump logic"
 
-        See [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        See [how to use jump logic](/how-to-guides/use-jump-logic/).
 
 ## Skip a statement with skip logic
 
@@ -336,7 +336,7 @@ Skip logic puts a rule on each statement that hides it unless the answer matches
 
     !!! tip "More on skip logic"
 
-        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+        See [how to use skip logic](/how-to-guides/use-skip-logic/).
 
 === "Shopify (Legacy)"
 
@@ -375,7 +375,7 @@ Skip logic puts a rule on each statement that hides it unless the answer matches
 
     !!! tip "More on skip logic"
 
-        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+        See [how to use skip logic](/how-to-guides/use-skip-logic/).
 
 === "WooCommerce"
 
@@ -414,7 +414,7 @@ Skip logic puts a rule on each statement that hides it unless the answer matches
 
     !!! tip "More on skip logic"
 
-        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+        See [how to use skip logic](/how-to-guides/use-skip-logic/).
 
 === "Magento"
 
@@ -453,7 +453,7 @@ Skip logic puts a rule on each statement that hides it unless the answer matches
 
     !!! tip "More on skip logic"
 
-        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+        See [how to use skip logic](/how-to-guides/use-skip-logic/).
 
 === "BigCommerce"
 
@@ -492,7 +492,7 @@ Skip logic puts a rule on each statement that hides it unless the answer matches
 
     !!! tip "More on skip logic"
 
-        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+        See [how to use skip logic](/how-to-guides/use-skip-logic/).
 
 === "Standalone"
 
@@ -531,7 +531,7 @@ Skip logic puts a rule on each statement that hides it unless the answer matches
 
     !!! tip "More on skip logic"
 
-        See [How to Use Skip Logic](/how-to-guides/use-skip-logic/).
+        See [how to use skip logic](/how-to-guides/use-skip-logic/).
 
 ## Show a section with display logic
 
@@ -613,7 +613,7 @@ Display logic puts a rule on each section that hides it unless the answer matche
 
     !!! tip "More on display logic"
 
-        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+        See [how to use display logic](/how-to-guides/use-display-logic/).
 
 === "WooCommerce"
 
@@ -650,7 +650,7 @@ Display logic puts a rule on each section that hides it unless the answer matche
 
     !!! tip "More on display logic"
 
-        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+        See [how to use display logic](/how-to-guides/use-display-logic/).
 
 === "Magento"
 
@@ -687,7 +687,7 @@ Display logic puts a rule on each section that hides it unless the answer matche
 
     !!! tip "More on display logic"
 
-        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+        See [how to use display logic](/how-to-guides/use-display-logic/).
 
 === "BigCommerce"
 
@@ -724,7 +724,7 @@ Display logic puts a rule on each section that hides it unless the answer matche
 
     !!! tip "More on display logic"
 
-        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+        See [how to use display logic](/how-to-guides/use-display-logic/).
 
 === "Standalone"
 
@@ -761,7 +761,7 @@ Display logic puts a rule on each section that hides it unless the answer matche
 
     !!! tip "More on display logic"
 
-        See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+        See [how to use display logic](/how-to-guides/use-display-logic/).
 
 ---
 

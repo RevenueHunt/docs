@@ -315,8 +315,8 @@ icon: material/bullhorn-outline
 
     To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, add ActiveCampaign as the action and map the quiz fields to contact fields.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, add ActiveCampaign as the action and map the quiz fields to contact fields.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 
@@ -324,16 +324,16 @@ icon: material/bullhorn-outline
 
     To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 === "WooCommerce"
 
     To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 
@@ -342,8 +342,8 @@ icon: material/bullhorn-outline
 
     To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 === "BigCommerce"
@@ -351,8 +351,8 @@ icon: material/bullhorn-outline
 
     To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 === "Standalone"
@@ -360,8 +360,8 @@ icon: material/bullhorn-outline
 
     To control exactly which data reaches ActiveCampaign, use one of these methods instead.
 
-    - **Using Zapier**: connect your quiz to Zapier, as described in [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
+    - **Using Zapier**: connect your quiz to Zapier, as described in [how to send leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier, forward the data you want to ActiveCampaign.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to ActiveCampaign.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to ActiveCampaign.
 
 
@@ -389,7 +389,7 @@ icon: material/bullhorn-outline
 
         These methods give you full control over what reaches ActiveCampaign. The list above holds only the most common fields.
 
-        The exact payload is the one carried by the method you pick, so see [What Data is Sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [What Data is Sent to Webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
+        The exact payload is the one carried by the method you pick, so see [what data is sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [what data is sent to webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
 
         For more about using this data on a contact profile, see the [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
 

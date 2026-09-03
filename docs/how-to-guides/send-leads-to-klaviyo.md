@@ -392,7 +392,7 @@ The instructions here are written to be passed to a developer.
 
 !!! tip "Go beyond the results email"
 
-    This section covers the one email that delivers the results. [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/) covers five more: abandoned cart, browse, reorder, cross-sell and win-back, each segmented on the quiz answers and tags.
+    This section covers the one email that delivers the results. [How to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/) covers five more: abandoned cart, browse, reorder, cross-sell and win-back, each segmented on the quiz answers and tags.
 
 ??? warning "What support can help with"
 

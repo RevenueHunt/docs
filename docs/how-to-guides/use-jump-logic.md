@@ -695,7 +695,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Create the results pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+    1. **Create the results pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 
     2. **Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
@@ -718,7 +718,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
 === "Shopify (Legacy)"
 
-    1. **Create the Results Pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+    1. **Create the Results Pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 
     2. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
@@ -741,7 +741,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
 === "WooCommerce"
 
-    1. **Create the Results Pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+    1. **Create the Results Pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 
     2. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
@@ -764,7 +764,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
 === "Magento"
 
-    1. **Create the Results Pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+    1. **Create the Results Pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 
     2. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
@@ -787,7 +787,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
 === "BigCommerce"
 
-    1. **Create the Results Pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+    1. **Create the Results Pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 
     2. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
@@ -810,7 +810,7 @@ Every rule reads the same way: **IF** the response to a question **is** a certai
 
 === "Standalone"
 
-    1. **Create the Results Pages the quiz needs.** See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/).
+    1. **Create the Results Pages the quiz needs.** See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/).
 
     2. **Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the question that decides the outcome.**
 
@@ -984,7 +984,7 @@ Do not use both in one quiz.
 
 Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
 
-See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
+See [how to use conditional logic](/how-to-guides/use-conditional-logic/) for the other kinds of logic a quiz can use.
 
 ---
 

@@ -547,7 +547,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
-    - You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+    - You can download all responses to a CSV file from [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
 === "WooCommerce"
 
@@ -555,7 +555,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
-    - You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+    - You can download all responses to a CSV file from [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
 === "Magento"
 
@@ -563,7 +563,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
-    - You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+    - You can download all responses to a CSV file from [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
 === "BigCommerce"
 
@@ -571,7 +571,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
-    - You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+    - You can download all responses to a CSV file from [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
 === "Standalone"
 
@@ -579,7 +579,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
-    - You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
+    - You can download all responses to a CSV file from [how to download quiz responses](/how-to-guides/download-quiz-responses/).
 
 That is the RevenueHunt app.
 

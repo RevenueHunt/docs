@@ -91,11 +91,11 @@ To have one built and styled for you, hire a freelancer on [Upwork](https://www.
 ## Not sure where to start?
 
 - [Video Tutorials](/tutorials/): short videos covering the basics of building a quiz.
-- [How to Create Your First Quiz](/how-to-guides/create-first-quiz/): a walkthrough of your first quiz, start to finish.
+- [How to create your first quiz](/how-to-guides/create-first-quiz/): a walkthrough of your first quiz, start to finish.
 
 ## Troubleshooting quiz results
 
-If the quiz recommends the wrong products, or none at all, the app has a tool that shows why. See [How to Troubleshoot Product Results](/how-to-guides/troubleshoot-product-results/).
+If the quiz recommends the wrong products, or none at all, the app has a tool that shows why. See [how to troubleshoot product results](/how-to-guides/troubleshoot-product-results/).
 
 ---
 

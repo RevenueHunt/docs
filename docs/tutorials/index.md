@@ -20,7 +20,7 @@ Make and publish a short quiz that recommends a single product to your customers
 
 [:fontawesome-solid-arrow-right: Making your first quiz](/tutorials/making-first-quiz/)
 
-### [How to build a successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+### [how to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 
 The elements that make a quiz popular with customers and drive results.
 

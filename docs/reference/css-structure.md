@@ -1648,32 +1648,32 @@ them to customize how your quizzes look.
     !!! tip "More legacy CSS examples"
 
         For ready-made snippets you can paste in, see
-        [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+        [How to customize the quiz design](/how-to-guides/customize-quiz-design/).
 
 === "WooCommerce"
 
     !!! tip "More legacy CSS examples"
 
         For ready-made snippets you can paste in, see
-        [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+        [How to customize the quiz design](/how-to-guides/customize-quiz-design/).
 
 === "Magento"
 
     !!! tip "More legacy CSS examples"
 
         For ready-made snippets you can paste in, see
-        [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+        [How to customize the quiz design](/how-to-guides/customize-quiz-design/).
 
 === "BigCommerce"
 
     !!! tip "More legacy CSS examples"
 
         For ready-made snippets you can paste in, see
-        [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+        [How to customize the quiz design](/how-to-guides/customize-quiz-design/).
 
 === "Standalone"
 
     !!! tip "More legacy CSS examples"
 
         For ready-made snippets you can paste in, see
-        [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+        [How to customize the quiz design](/how-to-guides/customize-quiz-design/).

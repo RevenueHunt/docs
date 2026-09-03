@@ -637,7 +637,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             - Redirect to a specific store page.
             - Fire tracking on specific steps (GA, Meta Pixel, etc.).
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
 
 
     **Adding Media**
@@ -662,7 +662,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             ```
 
     !!! tip "Tip"
-        See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
+        See [how to add/adjust images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
 
 
     **Styling Text**
@@ -779,7 +779,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             - Redirect to a specific store page.
             - Fire tracking on specific steps (GA, Meta Pixel, etc.).
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
 
 
     **Adding Media**
@@ -804,7 +804,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             ```
 
     !!! tip "Tip"
-        See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
+        See [how to add/adjust images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
 
 
     **Styling Text**
@@ -922,7 +922,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             - Redirect to a specific store page.
             - Fire tracking on specific steps (GA, Meta Pixel, etc.).
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
 
 
     **Adding Media**
@@ -947,7 +947,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             ```
 
     !!! tip "Tip"
-        See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
+        See [how to add/adjust images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
 
 
     **Styling Text**
@@ -1064,7 +1064,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             - Redirect to a specific store page.
             - Fire tracking on specific steps (GA, Meta Pixel, etc.).
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
 
 
     **Adding Media**
@@ -1089,7 +1089,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             ```
 
     !!! tip "Tip"
-        See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
+        See [how to add/adjust images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
 
 
     **Styling Text**
@@ -1206,7 +1206,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             - Redirect to a specific store page.
             - Fire tracking on specific steps (GA, Meta Pixel, etc.).
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for implementation details and best practices.
 
 
     **Adding Media**
@@ -1231,7 +1231,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
             ```
 
     !!! tip "Tip"
-        See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
+        See [how to add/adjust images](/how-to-guides/add-adjust-images/) for optimization guidance (dimensions, compression, readability).
 
 
     **Styling Text**
@@ -1411,7 +1411,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         Build a **custom results page** on your site and send quiz data to it with the **Callback Function** (receives responses as JSON). This gives you total control over layout and rendering.
 
-        Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
+        Check [how to use the callback function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
 === "WooCommerce"
@@ -1488,7 +1488,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         Build a **custom results page** on your site and send quiz data to it with the **Callback Function** (receives responses as JSON). This gives you total control over layout and rendering.
 
-        Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
+        Check [how to use the callback function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
 
@@ -1566,7 +1566,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         Build a **custom results page** on your site and send quiz data to it with the **Callback Function** (receives responses as JSON). This gives you total control over layout and rendering.
 
-        Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
+        Check [how to use the callback function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
 
@@ -1644,7 +1644,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         Build a **custom results page** on your site and send quiz data to it with the **Callback Function** (receives responses as JSON). This gives you total control over layout and rendering.
 
-        Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
+        Check [how to use the callback function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
 
@@ -1722,7 +1722,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         Build a **custom results page** on your site and send quiz data to it with the **Callback Function** (receives responses as JSON). This gives you total control over layout and rendering.
 
-        Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
+        Check [how to use the callback function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
 

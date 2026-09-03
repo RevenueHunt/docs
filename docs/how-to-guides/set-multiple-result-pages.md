@@ -36,7 +36,7 @@ A quiz can show more than one results page, with different content on each. Foll
 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
 
-        To learn more about using Jump logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump logic, check [how to use jump logic](/how-to-guides/use-jump-logic/).
 
     6. Click the top-right `Publish` button to update the preview and the live quiz.
 
@@ -63,7 +63,7 @@ A quiz can show more than one results page, with different content on each. Foll
 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [how to use jump logic](/how-to-guides/use-jump-logic/).
 
     11. Click the top-right `Publish` button to update the preview and the live quiz.
 
@@ -89,7 +89,7 @@ A quiz can show more than one results page, with different content on each. Foll
 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [how to use jump logic](/how-to-guides/use-jump-logic/).
 
     11. Click the top-right `Publish` button to update the preview and the live quiz.
 
@@ -115,7 +115,7 @@ A quiz can show more than one results page, with different content on each. Foll
 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [how to use jump logic](/how-to-guides/use-jump-logic/).
 
     11. Click the top-right `Publish` button to update the preview and the live quiz.
 
@@ -141,7 +141,7 @@ A quiz can show more than one results page, with different content on each. Foll
 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [how to use jump logic](/how-to-guides/use-jump-logic/).
 
     11. Click the top-right `Publish` button to update the preview and the live quiz.
 
@@ -167,7 +167,7 @@ A quiz can show more than one results page, with different content on each. Foll
 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-        To learn more about using Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
+        To learn more about using Jump Logic, check [how to use jump logic](/how-to-guides/use-jump-logic/).
 
     11. Click the top-right `Publish` button to update the preview and the live quiz.
 

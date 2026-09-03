@@ -277,7 +277,7 @@ The method is the same everywhere. Group your products by price in your store, a
 
         !!! tip "Filling the catalogue"
 
-            See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+            See [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/).
 
     3. **Put each product in the collection that matches its price.**
 

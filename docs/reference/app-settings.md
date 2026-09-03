@@ -189,7 +189,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
+        Check [how to send quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
 
     **Shopify Flow**
 
@@ -312,7 +312,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     
     !!! tip
 
-        Follow this article to show metafields in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+        Follow this article to show metafields in the quiz: [How to add product metafields](/how-to-guides/add-product-metafields/).
 
 === "WooCommerce"
 
@@ -322,7 +322,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
 
-    `Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+    `Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to add product metafields](/how-to-guides/add-product-metafields/).
 
     `Use attributes as categories` - Lets you use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 
@@ -356,7 +356,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `SMTP From` - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
 
@@ -391,7 +391,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -417,7 +417,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip 
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -443,7 +443,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -469,7 +469,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -495,7 +495,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 

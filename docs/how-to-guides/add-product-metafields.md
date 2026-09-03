@@ -175,7 +175,7 @@ A metafield, called an attribute in some stores, holds a product property your s
 
     !!! note "Not available on this platform"
 
-        This version has no store to import metafields from. Add the product details you need straight into the [Catalogue](https://admin.revenuehunt.com/catalogue), as [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/) describes.
+        This version has no store to import metafields from. Add the product details you need straight into the [Catalogue](https://admin.revenuehunt.com/catalogue), as [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/) describes.
 
 ## Use metafields as smart collections
 

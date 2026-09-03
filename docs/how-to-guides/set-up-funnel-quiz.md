@@ -280,7 +280,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Editing the results page"
 
-            See [How to Edit the Results page](/how-to-guides/edit-results-page/).
+            See [how to edit the results page](/how-to-guides/edit-results-page/).
 
     3. **Add a `Products Block`.** Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#product-product-variants-collections).
 
@@ -302,7 +302,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! note "Recommending a routine instead of a list"
 
-            A products block can also show products in clear steps, such as a **skincare routine**. Give a slot a **Segment Filter** and it recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+            A products block can also show products in clear steps, such as a **skincare routine**. Give a slot a **Segment Filter** and it recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
     6. **Click [`Save`](/reference/quiz-builder/questions/).** This updates both the preview and the live quiz.
 
@@ -318,11 +318,11 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Troubleshooting the results"
 
-            See [How to Troubleshoot Quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+            See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 
     !!! tip "Refining the results"
 
-        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 
 === "Shopify (Legacy)"
@@ -339,7 +339,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Editing the Results Page"
 
-            See [How to Edit the Results Page](/how-to-guides/edit-results-page/).
+            See [how to edit the results page](/how-to-guides/edit-results-page/).
 
     3. **Add a `Product Block` to the Results Page.** It lists the products by upvote count, most upvoted first.
 
@@ -349,7 +349,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Recommending a routine instead of a list"
 
-            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
@@ -365,11 +365,11 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Troubleshooting the results"
 
-            See [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+            See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 
     !!! tip "Refining the results"
 
-        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 
 === "WooCommerce"
@@ -390,7 +390,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Editing the Results Page"
 
-            See [How to Edit the Results Page](/how-to-guides/edit-results-page/).
+            See [how to edit the results page](/how-to-guides/edit-results-page/).
 
     3. **Add a `Product Block` to the Results Page.** It lists the products by upvote count, most upvoted first.
 
@@ -400,7 +400,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Recommending a routine instead of a list"
 
-            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
@@ -416,11 +416,11 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Troubleshooting the results"
 
-            See [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+            See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 
     !!! tip "Refining the results"
 
-        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 
 === "Magento"
@@ -437,7 +437,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Editing the Results Page"
 
-            See [How to Edit the Results Page](/how-to-guides/edit-results-page/).
+            See [how to edit the results page](/how-to-guides/edit-results-page/).
 
     3. **Add a `Product Block` to the Results Page.** It lists the products by upvote count, most upvoted first.
 
@@ -447,7 +447,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Recommending a routine instead of a list"
 
-            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
@@ -463,11 +463,11 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Troubleshooting the results"
 
-            See [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+            See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 
     !!! tip "Refining the results"
 
-        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 
 === "BigCommerce"
@@ -484,7 +484,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Editing the Results Page"
 
-            See [How to Edit the Results Page](/how-to-guides/edit-results-page/).
+            See [how to edit the results page](/how-to-guides/edit-results-page/).
 
     3. **Add a `Product Block` to the Results Page.** It lists the products by upvote count, most upvoted first.
 
@@ -494,7 +494,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Recommending a routine instead of a list"
 
-            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
@@ -510,11 +510,11 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Troubleshooting the results"
 
-            See [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+            See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 
     !!! tip "Refining the results"
 
-        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 
 === "Standalone"
@@ -531,7 +531,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Editing the Results Page"
 
-            See [How to Edit the Results Page](/how-to-guides/edit-results-page/).
+            See [how to edit the results page](/how-to-guides/edit-results-page/).
 
     3. **Add a `Product Block` to the Results Page.** It lists the products by upvote count, most upvoted first.
 
@@ -541,7 +541,7 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Recommending a routine instead of a list"
 
-            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+            A `Product Slot Block` divides the recommendations into slots, such as the steps of a skincare routine. Each slot recommends the most upvoted product from the collection linked to it. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
@@ -557,11 +557,11 @@ This method uses the [upvoting system](#upvoting-system).
 
         !!! tip "Troubleshooting the results"
 
-            See [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
+            See [how to troubleshoot quiz results](/how-to-guides/troubleshoot-product-results/) for how to use this tool.
 
     !!! tip "Refining the results"
 
-        - **Set a minimum upvote count.** Show only the products that reached it. See [How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Set a minimum upvote count.** Show only the products that reached it. See [how to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use exclusions.** [Exclusions](#exclusion) keep unwanted products out of the results, even when an earlier choice upvoted them.
 
 ## Funnel quiz with slots
@@ -1193,7 +1193,7 @@ This method uses the [upvoting system](#upvoting-system).
 
     !!! tip "Grouping the recommendations"
 
-        Slots arrange the recommendations into fixed positions instead of one list. Give a slot a Segment Filter to control which products it can recommend. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        Slots arrange the recommendations into fixed positions instead of one list. Give a slot a Segment Filter to control which products it can recommend. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Shopify (Legacy)"
 
@@ -1237,7 +1237,7 @@ This method uses the [upvoting system](#upvoting-system).
 
     !!! tip "Grouping the recommendations"
 
-        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "WooCommerce"
 
@@ -1281,7 +1281,7 @@ This method uses the [upvoting system](#upvoting-system).
 
     !!! tip "Grouping the recommendations"
 
-        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Magento"
 
@@ -1325,7 +1325,7 @@ This method uses the [upvoting system](#upvoting-system).
 
     !!! tip "Grouping the recommendations"
 
-        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "BigCommerce"
 
@@ -1369,7 +1369,7 @@ This method uses the [upvoting system](#upvoting-system).
 
     !!! tip "Grouping the recommendations"
 
-        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Standalone"
 
@@ -1413,7 +1413,7 @@ This method uses the [upvoting system](#upvoting-system).
 
     !!! tip "Grouping the recommendations"
 
-        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/).
+        Slots arrange the recommendations into fixed positions instead of one list, such as a cleanser, then a serum, then a moisturizer. See [how to recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/).
 
 ## Funnel quiz that shows custom text based on choices
 

@@ -269,7 +269,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     **Messages**
 
-    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
 
@@ -288,7 +288,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -326,7 +326,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -364,7 +364,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -402,7 +402,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -440,7 +440,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -518,7 +518,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
             Switch between the `🖥️ desktop` and `📱 mobile` view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
 
         !!! tip
-            See [How to Add and Adjust Images](/how-to-guides/add-adjust-images/) for how to optimize your images.
+            See [how to add and adjust images](/how-to-guides/add-adjust-images/) for how to optimize your images.
 
     `Advanced settings` - Click to expand to see advanced settings.
 
@@ -612,7 +612,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [how to use information recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
@@ -637,7 +637,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [how to display multiple questions per slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
@@ -665,7 +665,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [how to use information recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
@@ -697,7 +697,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [how to display multiple questions per slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
@@ -725,7 +725,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [how to use information recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
@@ -757,7 +757,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [how to display multiple questions per slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
@@ -785,7 +785,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [how to use information recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
@@ -817,7 +817,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [how to display multiple questions per slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
@@ -845,7 +845,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [how to use information recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
@@ -877,7 +877,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [How to Display Multiple Questions per Slide](/how-to-guides/join-questions/).
+    `Join next question` - Merges this question with the one below it, so both appear on the same slide. Chain it down a run of questions to put more than two together, and leave it off for the last one. See [how to display multiple questions per slide](/how-to-guides/join-questions/).
 
     `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
@@ -1138,7 +1138,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Fit full image in box (no cropping)` - When checked, the image will be displayed in the box without cropping.
 
     !!! tip
-        See [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
+        See [how to add and adjust images](/how-to-guides/add-adjust-images/).
 
     `🗑 Remove block` - Click to delete this block.
 
@@ -1328,7 +1328,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
 
     !!! info "Product recommendation"
-        Number fields accept any value, so the quiz cannot match them to products. Instead, define numeric ranges, for example 0-10 and 11-50, with a multiple-choice, dropdown or slider question, then link products to each range. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+        Number fields accept any value, so the quiz cannot match them to products. Instead, define numeric ranges, for example 0-10 and 11-50, with a multiple-choice, dropdown or slider question, then link products to each range. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
 
     #### Date
@@ -1352,7 +1352,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
 
     !!! info "Product recommendation"
-        Date fields accept any value, so the quiz cannot match them to products. Instead, define date ranges, for example 01/01/2020-01/01/2021, with a multiple-choice, dropdown or slider question, then link products to each range. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+        Date fields accept any value, so the quiz cannot match them to products. Instead, define date ranges, for example 01/01/2020-01/01/2021, with a multiple-choice, dropdown or slider question, then link products to each range. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
     #### Name
 

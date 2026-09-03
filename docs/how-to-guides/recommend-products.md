@@ -77,19 +77,19 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
     ![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width="300"}
 
-    [How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/)
+    [How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/)
 
     **Score the answers, or count variables.** Best for personality-style quizzes. Give each choice a score or a variable, then build a results section per outcome. Display logic shows the section that matches the highest total.
 
     ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width="300"}
 
-    [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/)
+    [How to set up a scoring quiz](/how-to-guides/set-up-scoring-quiz/)
 
     **Choose the products for each outcome yourself.** Best for a detailed recommendation matrix. Build a section or a results page per outcome, then use display logic or jump logic to decide which one the customer reaches.
 
     ![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
 
-    [How to Set Up a Fixed Recommendations Quiz](/how-to-guides/set-up-fixed-recommendations-quiz/)
+    [How to set up a fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/)
 
     All six variants, with the effort each one takes:
 
@@ -106,7 +106,7 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
     This version recommends products with the upvoting system. You link products to choices, and the Results Page shows the products with the most upvotes first.
 
-    [How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
+    [How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 
     Take the quiz to work out which setup you need, or use the guides in [Specific setup guides](#specific-setup-guides).
 
@@ -116,7 +116,7 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
     This version recommends products with the upvoting system. You link products to choices, and the Results Page shows the products with the most upvotes first.
 
-    [How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
+    [How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 
     Take the quiz to work out which setup you need, or use the guides in [Specific setup guides](#specific-setup-guides).
 
@@ -126,7 +126,7 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
     This version recommends products with the upvoting system. You link products to choices, and the Results Page shows the products with the most upvotes first.
 
-    [How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
+    [How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 
     Take the quiz to work out which setup you need, or use the guides in [Specific setup guides](#specific-setup-guides).
 
@@ -136,7 +136,7 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
     This version recommends products with the upvoting system. You link products to choices, and the Results Page shows the products with the most upvotes first.
 
-    [How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
+    [How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 
     Take the quiz to work out which setup you need, or use the guides in [Specific setup guides](#specific-setup-guides).
 
@@ -146,7 +146,7 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
     This version recommends products with the upvoting system. You link products to choices, and the Results Page shows the products with the most upvotes first.
 
-    [How to Set Up a Funnel Quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
+    [How to set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/#funnel-quiz)
 
     Take the quiz to work out which setup you need, or use the guides in [Specific setup guides](#specific-setup-guides).
 
@@ -158,25 +158,25 @@ This page explains what a quiz can recommend, which recommendation system to pic
 
 An open-ended Number or Date question cannot drive recommendations. Set up finite choices instead, so the answers can decide what is recommended.
 
-[How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+[How to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
 ### Recommend products that match multiple criteria
 
 Use a product matrix when two answers together decide the recommendation, such as age and skin type.
 
-[How to Recommend Products That Match Multiple Criteria](/how-to-guides/recommend-product-matrix/)
+[How to recommend products that match multiple criteria](/how-to-guides/recommend-product-matrix/)
 
 ### Only recommend products with X upvotes or more
 
 Limit the recommendations to products that received X upvotes or more, so only the strongest matches appear.
 
-[How to Only Recommend Products with X Upvotes or More](/how-to-guides/only-recommend-products-with-minimum-votes/)
+[How to only recommend products with X upvotes or more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 ### Recommend products by how many choices the customer picked
 
 Recommend a different group of products depending on how many choices the customer selected. This needs custom JavaScript.
 
-[How to Recommend Products Based on the Number of Choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/)
+[How to recommend products based on the number of choices](/how-to-guides/recommend-products-based-on-number-of-user-choices/)
 
 ### Always recommend a specific product
 
@@ -190,11 +190,11 @@ Keep a product on the Results Page whatever the customer answers.
 
     Add the `Subscription` component to the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) on your results page, then pick your subscription app. Shopify Subscriptions and Recharge Subscriptions (Plus plan only) are supported.
 
-    [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/)
+    [How to recommend subscription products](/how-to-guides/recommend-subscription-products/)
 
 === "Shopify (Legacy)"
 
-    If you use a legacy version of the RevenueHunt app for Shopify with Recharge Subscriptions, see [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/).
+    If you use a legacy version of the RevenueHunt app for Shopify with Recharge Subscriptions, see [how to recommend subscription products](/how-to-guides/recommend-subscription-products/).
 
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 
@@ -202,7 +202,7 @@ Keep a product on the Results Page whatever the customer answers.
 
 === "WooCommerce"
 
-    If you use WooCommerce Subscriptions, see [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/).
+    If you use WooCommerce Subscriptions, see [how to recommend subscription products](/how-to-guides/recommend-subscription-products/).
 
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 
@@ -242,23 +242,23 @@ The recommendation algorithm picks the products. It does not explain **why** a p
 
 === "Shopify (Legacy)"
 
-    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [how to show results explanation](/how-to-guides/show-results-explanation/).
 
 === "WooCommerce"
 
-    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [how to show results explanation](/how-to-guides/show-results-explanation/).
 
 === "Magento"
 
-    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [how to show results explanation](/how-to-guides/show-results-explanation/).
 
 === "BigCommerce"
 
-    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [how to show results explanation](/how-to-guides/show-results-explanation/).
 
 === "Standalone"
 
-    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    This version cannot explain a recommendation on its own, which makes a personality-type quiz hard to build. See the workarounds in [how to show results explanation](/how-to-guides/show-results-explanation/).
 
 ---
 

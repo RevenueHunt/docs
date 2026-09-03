@@ -75,7 +75,7 @@ Google Analytics shows you how customers move through your quiz, and where they 
 
     !!! note "Give the quiz its own page"
 
-        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+        GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Set up GA4 on your website first.**
 
@@ -99,7 +99,7 @@ Google Analytics shows you how customers move through your quiz, and where they 
 
     !!! note "Give the quiz its own page"
 
-        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+        GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Set up GA4 on your website first.**
 
@@ -121,7 +121,7 @@ Google Analytics shows you how customers move through your quiz, and where they 
 
     !!! note "Give the quiz its own page"
 
-        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+        GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Set up GA4 on your website first.**
 
@@ -143,7 +143,7 @@ Google Analytics shows you how customers move through your quiz, and where they 
 
     !!! note "Give the quiz its own page"
 
-        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+        GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Set up GA4 on your website first.**
 
@@ -165,7 +165,7 @@ Google Analytics shows you how customers move through your quiz, and where they 
 
     !!! note "Give the quiz its own page"
 
-        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+        GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Set up GA4 on your website first.**
 
@@ -187,7 +187,7 @@ Google Analytics shows you how customers move through your quiz, and where they 
 
     !!! note "Give the quiz its own page"
 
-        GA4 tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+        GA4 tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **Set up GA4 on your website first.**
 

@@ -28,7 +28,7 @@ What the automation can read, and which trigger starts it, depends on the versio
     3. **Install [Shopify Flow](https://admin.shopify.com/apps/flow)** if your store does not have it. It is free.
     4. **Publish the quiz.**
 
-    For more on customer syncing, including how marketing consent is recorded, see [How to Send Quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/).
+    For more on customer syncing, including how marketing consent is recorded, see [how to send quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/).
 
     ## Create the workflow
 
@@ -332,7 +332,7 @@ What the automation can read, and which trigger starts it, depends on the versio
 
         There is no equivalent automation tool in this version.
 
-        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Magento"
 
@@ -340,7 +340,7 @@ What the automation can read, and which trigger starts it, depends on the versio
 
         There is no equivalent automation tool in this version.
 
-        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "BigCommerce"
 
@@ -348,7 +348,7 @@ What the automation can read, and which trigger starts it, depends on the versio
 
         There is no equivalent automation tool in this version.
 
-        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).
 
 === "Standalone"
 
@@ -356,4 +356,4 @@ What the automation can read, and which trigger starts it, depends on the versio
 
         There is no equivalent automation tool in this version.
 
-        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [How to Send Quiz Leads to Your CRM](/how-to-guides/send-leads-to-crm/).
+        To automate a follow-up, connect the quiz to an email or CRM service and build the automation there. See [how to send quiz leads to your CRM](/how-to-guides/send-leads-to-crm/).

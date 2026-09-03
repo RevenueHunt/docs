@@ -145,7 +145,7 @@ A quiz can recommend a product the customer cannot buy. Out-of-stock products an
 
     !!! note "There is nothing to set here"
 
-        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
+        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [how to import your catalog](/how-to-guides/sync-catalog/) explains.
 
         `Show unavailable products` does not change this. That toggle covers out-of-stock products only, and turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -153,7 +153,7 @@ A quiz can recommend a product the customer cannot buy. Out-of-stock products an
 
     !!! note "There is nothing to set here"
 
-        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
+        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [how to import your catalog](/how-to-guides/sync-catalog/) explains.
 
         `Show unavailable products` does not change this. That toggle covers out-of-stock products only, and turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -161,7 +161,7 @@ A quiz can recommend a product the customer cannot buy. Out-of-stock products an
 
     !!! note "There is nothing to set here"
 
-        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
+        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [how to import your catalog](/how-to-guides/sync-catalog/) explains.
 
         `Show unavailable products` does not change this. That toggle covers out-of-stock products only, and turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -169,7 +169,7 @@ A quiz can recommend a product the customer cannot buy. Out-of-stock products an
 
     !!! note "There is nothing to set here"
 
-        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
+        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [how to import your catalog](/how-to-guides/sync-catalog/) explains.
 
         `Show unavailable products` does not change this. That toggle covers out-of-stock products only, and turning it on brings back out-of-stock products, never draft or archived ones.
 
@@ -177,7 +177,7 @@ A quiz can recommend a product the customer cannot buy. Out-of-stock products an
 
     !!! note "There is nothing to set here"
 
-        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [How to Import Your Catalog](/how-to-guides/sync-catalog/) explains.
+        A draft product is never recommended in this version. The catalog import brings in active products only, and leaves draft and archived ones out, as [how to import your catalog](/how-to-guides/sync-catalog/) explains.
 
         `Show unavailable products` does not change this. That toggle covers out-of-stock products only, and turning it on brings back out-of-stock products, never draft or archived ones.
 

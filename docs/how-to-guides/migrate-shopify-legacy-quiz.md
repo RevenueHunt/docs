@@ -13,7 +13,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
     !!! info "Before you start"
 
-        - The Built for Shopify version has to be installed and active. See [How to Install the App](/how-to-guides/install-app/).
+        - The Built for Shopify version has to be installed and active. See [how to install the app](/how-to-guides/install-app/).
         - Your legacy quizzes are left alone. The import makes a copy, and nothing is removed from the legacy app.
 
     1. **Open `RevenueHunt Product Quiz Maker` in your Shopify admin.**
@@ -40,7 +40,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
         `Migrate from Legacy App` sits in the Built for Shopify dashboard, not in this one.
 
-        Select `Switch to Built for Shopify` in the Shopify side menu first, then follow the Shopify tab. Your progress is saved in both versions. See [How to Install the App](/how-to-guides/install-app/).
+        Select `Switch to Built for Shopify` in the Shopify side menu first, then follow the Shopify tab. Your progress is saved in both versions. See [how to install the app](/how-to-guides/install-app/).
 
 === "WooCommerce"
 
@@ -48,7 +48,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
         `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        To move a quiz to a different store, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 === "Magento"
 
@@ -56,7 +56,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
         `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        To move a quiz to a different store, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 === "BigCommerce"
 
@@ -64,7 +64,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
         `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        To move a quiz to a different store, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 === "Standalone"
 
@@ -72,7 +72,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
         `Migrate from Legacy App` moves a quiz between the two Shopify apps, so it has nothing to do here.
 
-        To move a quiz to a different store, see [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        To move a quiz to a different store, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 ## What migrates, and what needs a hand
 
@@ -97,7 +97,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
     !!! warning "Check the design before you publish"
 
-        Open the quiz preview. Wrong colors, a broken layout or a missing font mean the selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz design](/reference/quiz-builder/quiz-design/) tab. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
+        Open the quiz preview. Wrong colors, a broken layout or a missing font mean the selectors no longer match. Update them for the new structure, or rebuild the style in the [Quiz design](/reference/quiz-builder/quiz-design/) tab. See [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
 
     **Custom JavaScript**
 
@@ -105,7 +105,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
     !!! warning "Rewrite your scripts"
 
-        Custom events, DOM changes and callback functions all have to be written again against the new API. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+        Custom events, DOM changes and callback functions all have to be written again against the new API. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     **Product links**
 
@@ -157,7 +157,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
     2. **Reconnect your integrations in [Quiz settings > Integrations](/reference/quiz-builder/quiz-settings/#integrations).**
 
-    3. **Publish the quiz.** See [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/).
+    3. **Publish the quiz.** See [how to publish a quiz on your website](/how-to-guides/publish-quiz/).
 
     4. **Archive or delete the legacy quiz, once you are happy with the new one.**
 
@@ -167,7 +167,7 @@ You can import a quiz from the legacy RevenueHunt app into the 💎 Built for Sh
 
     !!! tip "Something did not come across"
 
-        See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+        See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 

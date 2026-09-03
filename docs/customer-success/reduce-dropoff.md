@@ -91,7 +91,7 @@ A strong welcome screen does three things:
 - **Sets time expectations**: *"8 questions, 2 minutes"*
 - **Mentions the reward**: *"Complete the quiz and get 10% off"*
 
-If your quiz doesn't have one yet, see [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
+If your quiz doesn't have one yet, see [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
 ![Professional quiz names and welcome framing](/images/how_to_build_a_successful_quiz_image3.jpg)
 
@@ -158,7 +158,7 @@ If your answer choices aren't connected to products or collections, the recommen
 
 **Check before you launch:** go through every answer choice in your quiz and ask: *does this answer push the recommendation toward the right products?* If any answer is unmapped, fix it.
 
-A quiz with fully mapped answers produces tight, accurate recommendations. Those convert. See: [How to Recommend Products](/how-to-guides/recommend-products/)
+A quiz with fully mapped answers produces tight, accurate recommendations. Those convert. See: [How to recommend products](/how-to-guides/recommend-products/)
 
 ---
 
@@ -195,7 +195,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 Once you've identified the problem question and implemented a fix, test it. Create a copy of the quiz with the change applied and run both versions simultaneously. Compare completion rates after a statistically meaningful sample (at least a few hundred starts per version).
 
 !!! tip "How to run an A/B test"
-    See: [How to A/B Test Your Quiz](/how-to-guides/ab-test-quiz/)
+    See: [How to A/B test your quiz](/how-to-guides/ab-test-quiz/)
 
 Focus on one change per test. If you change three things at once, you won't know which one moved the number.
 
@@ -262,7 +262,7 @@ Usually long questions that force scrolling, small tap targets, slow loading, or
 
 **Related articles:**
 
-- [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
-- [How to Get More People to Take Your Quiz](/customer-success/how-to-get-more-quiz-engagement/)
+- [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
+- [How to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/)
 - [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)

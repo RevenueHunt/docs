@@ -55,7 +55,7 @@ The app installs from a different place on each platform. Pick yours below.
 
         Your progress is saved in both versions, and you can switch back whenever you want.
 
-        To bring a quiz you have already built across, use `Migrate from Legacy App` in the [New quiz](/reference/dashboard/#new-quiz) menu. See [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+        To bring a quiz you have already built across, use `Migrate from Legacy App` in the [New quiz](/reference/dashboard/#new-quiz) menu. See [how to migrate a legacy quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 === "WooCommerce"
 
@@ -185,7 +185,7 @@ The app installs from a different place on each platform. Pick yours below.
 
     !!! tip "Filling the catalogue"
 
-        See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+        See [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/).
 
     !!! note "Changing your username or password"
 

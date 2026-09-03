@@ -211,7 +211,7 @@ Need help getting your quiz content right? Our [support team](/how-to-guides/con
 
 **Related articles:**
 
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
-- [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
-- [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
+- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
+- [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
+- [How to build a sales funnel](/customer-success/build-sales-funnel/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)

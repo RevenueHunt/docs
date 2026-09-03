@@ -201,7 +201,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
 
     !!! tip "Not sure which one"
 
-        [How to Set Up Recommendations](/how-to-guides/set-up-recommendations/) has a decision tree for picking one.
+        [How to set up recommendations](/how-to-guides/set-up-recommendations/) has a decision tree for picking one.
 
 === "Shopify (Legacy)"
 
@@ -228,7 +228,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
             - Show only products with a minimum number of upvotes, in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
             - Keep unwanted products out with [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion), even when an earlier choice upvoted them.
 
-    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
+    Read more in [how to recommend products](/how-to-guides/recommend-products/).
 
 === "WooCommerce"
 
@@ -255,7 +255,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
             - Show only products with a minimum number of upvotes, in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
             - Keep unwanted products out with [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion), even when an earlier choice upvoted them.
 
-    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
+    Read more in [how to recommend products](/how-to-guides/recommend-products/).
 
 === "Magento"
 
@@ -282,7 +282,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
             - Show only products with a minimum number of upvotes, in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
             - Keep unwanted products out with [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion), even when an earlier choice upvoted them.
 
-    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
+    Read more in [how to recommend products](/how-to-guides/recommend-products/).
 
 === "BigCommerce"
 
@@ -309,7 +309,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
             - Show only products with a minimum number of upvotes, in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
             - Keep unwanted products out with [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion), even when an earlier choice upvoted them.
 
-    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
+    Read more in [how to recommend products](/how-to-guides/recommend-products/).
 
 === "Standalone"
 
@@ -317,7 +317,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
 
     !!! tip "No products in the catalogue yet"
 
-        See [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+        See [how to add products in Standalone RevenueHunt app](/how-to-guides/add-products-gpf/).
 
     1. **Select a choice in the Quiz Builder and open [Link Products](/reference/quiz-builder/link-products/), [Link Collections](/reference/quiz-builder/link-collections/) or [Choice Settings](/reference/quiz-builder/questions/#choice-settings).**
 
@@ -340,7 +340,7 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
             - Show only products with a minimum number of upvotes, in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
             - Keep unwanted products out with [Exclusions](/how-to-guides/set-up-funnel-quiz/#exclusion), even when an earlier choice upvoted them.
 
-    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
+    Read more in [how to recommend products](/how-to-guides/recommend-products/).
 
 ## Preview the quiz
 
@@ -420,27 +420,27 @@ Building a quiz takes five stages, from an empty quiz to one running on your web
 
     !!! tip "Every way to publish a quiz"
 
-        See [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/).
+        See [how to publish the quiz on your website](/how-to-guides/publish-quiz/).
 
 === "Shopify (Legacy)"
 
-    Follow [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
+    Follow [how to publish the quiz on your website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
 
 === "WooCommerce"
 
-    Follow [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
+    Follow [how to publish the quiz on your website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
 
 === "Magento"
 
-    Follow [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
+    Follow [how to publish the quiz on your website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
 
 === "BigCommerce"
 
-    Follow [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
+    Follow [how to publish the quiz on your website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
 
 === "Standalone"
 
-    Follow [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
+    Follow [how to publish the quiz on your website](/how-to-guides/publish-quiz/). It covers every way the quiz can be added, from an inline embed to a popup.
 
 ## After publishing
 

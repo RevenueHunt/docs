@@ -123,7 +123,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
         Finding a metafield during the import only puts it in the dropdown list. Showing that metafield on a live quiz also needs Storefront API access for its definition in Shopify.
 
-        See [How to enable storefront API access](/how-to-guides/show-product-reviews/#how-to-enable-storefront-api-access) for the steps.
+        See [how to enable storefront API access](/how-to-guides/show-product-reviews/#how-to-enable-storefront-api-access) for the steps.
 
 === "Shopify (Legacy)"
 
@@ -229,13 +229,13 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
     A catalog above roughly 5,000 items does not have to go into the quiz whole. The `collections-first` feature imports only the collections you choose.
 
-    [How to Selectively Sync Product Collections](/how-to-guides/sync-selected-collections/)
+    [How to selectively sync product collections](/how-to-guides/sync-selected-collections/)
 
 === "WooCommerce"
 
     A catalog above roughly 5,000 items does not have to go into the quiz whole. The `categories-first` feature imports only the categories you choose.
 
-    [How to Selectively Sync Product Collections](/how-to-guides/sync-selected-collections/)
+    [How to selectively sync product collections](/how-to-guides/sync-selected-collections/)
 
 === "Magento"
 

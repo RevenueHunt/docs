@@ -358,8 +358,8 @@ You build one results page that holds the content for every outcome. Display log
 
     !!! tip "Quizzes built on scores"
 
-        - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
-        - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
+        - [how to set up a personality type quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
+        - [how to set up a scoring quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
 
 === "Shopify (Legacy)"
 
@@ -462,7 +462,7 @@ You build one results page that holds the content for every outcome. Display log
 
         !!! tip "Make the heading stand out"
 
-            Put a `#` in front of a line to turn it into a heading. See [How to Use Markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
+            Put a `#` in front of a line to turn it into a heading. See [how to use markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
 
     4. **Repeat for every skin type, one content block each.**
 
@@ -503,7 +503,7 @@ You build one results page that holds the content for every outcome. Display log
 
         !!! tip "Make the heading stand out"
 
-            Put a `#` in front of a line to turn it into a heading. See [How to Use Markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
+            Put a `#` in front of a line to turn it into a heading. See [how to use markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
 
     4. **Repeat for every skin type, one content block each.**
 
@@ -544,7 +544,7 @@ You build one results page that holds the content for every outcome. Display log
 
         !!! tip "Make the heading stand out"
 
-            Put a `#` in front of a line to turn it into a heading. See [How to Use Markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
+            Put a `#` in front of a line to turn it into a heading. See [how to use markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
 
     4. **Repeat for every skin type, one content block each.**
 
@@ -585,7 +585,7 @@ You build one results page that holds the content for every outcome. Display log
 
         !!! tip "Make the heading stand out"
 
-            Put a `#` in front of a line to turn it into a heading. See [How to Use Markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
+            Put a `#` in front of a line to turn it into a heading. See [how to use markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
 
     4. **Repeat for every skin type, one content block each.**
 
@@ -626,7 +626,7 @@ You build one results page that holds the content for every outcome. Display log
 
         !!! tip "Make the heading stand out"
 
-            Put a `#` in front of a line to turn it into a heading. See [How to Use Markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
+            Put a `#` in front of a line to turn it into a heading. See [how to use markdown](/how-to-guides/use-markdown/) for the rest of the formatting.
 
     4. **Repeat for every skin type, one content block each.**
 
@@ -833,7 +833,7 @@ You build one results page that holds the content for every outcome. Display log
 
 Read up on boolean logic before writing complex AND/OR rules. [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) evaluates a rule you type in, and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) explains how AND and OR combine.
 
-See [How to Use Conditional Logic](/how-to-guides/use-conditional-logic/) for the logic that runs inside the quiz itself, rather than on the results page.
+See [how to use conditional logic](/how-to-guides/use-conditional-logic/) for the logic that runs inside the quiz itself, rather than on the results page.
 
 ---
 

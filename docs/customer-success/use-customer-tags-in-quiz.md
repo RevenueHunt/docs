@@ -214,7 +214,7 @@ With tags flowing into your CRM, you can create **dynamic segments** - groups of
 Each segment is independent, and a single contact can belong to multiple segments. Someone tagged with `hair-type:curly` AND `goal:volume` will be in both the Curly Hair and Volume Seekers segments - and can receive flows from both.
 
 ??? info "How to create segments in Klaviyo"
-    Check this video to learn how to create segments based on quiz submissions in Klaviyo: [How to Create Segments in Klaviyo](/tutorials/follow-up-emails-klaviyo/)
+    Check this video to learn how to create segments based on quiz submissions in Klaviyo: [How to create segments in Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
 ---
 
@@ -340,8 +340,8 @@ Klaviyo is the primary example, but the same approach applies to Omnisend, Mailc
 
 **Related articles:**
 
-- [How to Connect Your Quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
-- [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
-- [How to Send Result Emails](/how-to-guides/send-result-emails/)
-- [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+- [How to connect your quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+- [How to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
+- [How to send result emails](/how-to-guides/send-result-emails/)
+- [How to build a sales funnel](/customer-success/build-sales-funnel/)
+- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)

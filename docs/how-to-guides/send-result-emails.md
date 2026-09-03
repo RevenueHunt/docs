@@ -65,7 +65,7 @@ Follow the instructions below to activate and edit the result emails the app sen
             Email clients render HTML differently, so write your styles inline rather than as classes. JavaScript does not run in an email client, so leave it out. See [Editing email templates](#editing-email-templates).
 
 
-    7. **Add your SMTP credentials (recommended)**: result emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    7. **Add your SMTP credentials (recommended)**: result emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
@@ -85,7 +85,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -116,7 +116,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -147,7 +147,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -178,7 +178,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -209,7 +209,7 @@ Follow the instructions below to activate and edit the result emails the app sen
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -261,7 +261,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
         - You can always reset the email template to default settings.
 
-    5. **Add your SMTP credentials (recommended)**: notification emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    5. **Add your SMTP credentials (recommended)**: notification emails leave from the RevenueHunt servers by default. Connect your own instead, for better deliverability and your own branding. Go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
@@ -280,7 +280,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -303,7 +303,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -326,7 +326,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -349,7 +349,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 
@@ -372,7 +372,7 @@ The app can email you every time someone completes the quiz or goes through to t
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [How to Send Result Emails from Your Server Using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    1. **Add your SMTP credentials**: go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and enter your SMTP credentials. Follow [how to send result emails from your server using SMTP](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
 
         ![manual_appsettings_smtp](/images/manual_appsettings_smtp.png)
 

@@ -155,7 +155,7 @@ This article explains how to set the currency a quiz shows its prices in, and wh
 
     2. **Open the [Results Page Settings](/reference/quiz-builder/results-page/).**
 
-    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
     4. **Scroll to `Individual Product Settings` and turn `Show price` off.**
 
@@ -173,7 +173,7 @@ This article explains how to set the currency a quiz shows its prices in, and wh
 
     2. **Open the [Results Page Settings](/reference/quiz-builder/results-page/).**
 
-    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
     4. **Scroll to `Individual Product Settings` and turn `Show price` off.**
 
@@ -191,7 +191,7 @@ This article explains how to set the currency a quiz shows its prices in, and wh
 
     2. **Open the [Results Page Settings](/reference/quiz-builder/results-page/).**
 
-    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
     4. **Scroll to `Individual Product Settings` and turn `Show price` off.**
 
@@ -209,7 +209,7 @@ This article explains how to set the currency a quiz shows its prices in, and wh
 
     2. **Open the [Results Page Settings](/reference/quiz-builder/results-page/).**
 
-    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
     4. **Scroll to `Individual Product Settings` and turn `Show price` off.**
 
@@ -227,7 +227,7 @@ This article explains how to set the currency a quiz shows its prices in, and wh
 
     2. **Open the [Results Page Settings](/reference/quiz-builder/results-page/).**
 
-    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
+    3. **In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), find `Checkout Settings` and select `Link to product`.** See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/#link-to-the-product-page).
 
     4. **Scroll to `Individual Product Settings` and turn `Show price` off.**
 

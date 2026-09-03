@@ -72,11 +72,11 @@ Send what the quiz collects to the tools you already use.
 Fix a quiz that is not behaving.
 
 - **[Import Your Catalog](/how-to-guides/sync-catalog/)** - Bring your products into the quiz, and refresh them later.
-- **[Why Products Are Not Added to the Cart](/how-to-guides/add-to-cart-issues/)** - The usual causes, and what to check first.
+- **[why products are not added to the cart](/how-to-guides/add-to-cart-issues/)** - The usual causes, and what to check first.
 - **[Check Quiz Loading Speed](/how-to-guides/check-quiz-loading-speed/)** - Measure what the quiz costs the page it sits on.
 - **[Fix the Mobile Viewport Issue](/how-to-guides/fix-viewport-issue-on-mobile/)** - Stop the quiz zooming in when a customer taps a field.
 - **[Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/)** - Move a finished quiz to a second store.
 
 ## Need more help?
 
-Every feature in the app has a guide in this section. For anything the guides do not answer, see [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+Every feature in the app has a guide in this section. For anything the guides do not answer, see [how to contact customer support](/how-to-guides/contact-customer-support/).

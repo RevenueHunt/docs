@@ -297,7 +297,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Setting the checkout behavior"
 
-            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+            See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     - **Duplicate recommendations.** Turn `Allow duplicated recommendations` off so one product cannot fill two blocks.
 
@@ -305,7 +305,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Writing the JavaScript"
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
@@ -313,7 +313,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
     !!! tip "Keeping unavailable products out"
 
-        See [How to Hide Out-Of-Stock or Draft Products](/how-to-guides/hide-out-of-stock-products/).
+        See [how to hide out-of-stock or draft products](/how-to-guides/hide-out-of-stock-products/).
 
 === "Shopify (Legacy)"
 
@@ -325,7 +325,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Setting the checkout behavior"
 
-            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+            See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     - **Product reviews.** Show star ratings on the recommended products, to back the recommendation up.
 
@@ -336,7 +336,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
             - Judge.me Product Reviews
             - Rivyo Product Reviews
 
-            See [How to Show Product Reviews](/how-to-guides/show-product-reviews/).
+            See [how to show product reviews](/how-to-guides/show-product-reviews/).
 
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
@@ -347,7 +347,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Writing the JavaScript"
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
@@ -355,7 +355,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Syncing the metafields"
 
-            See [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+            See [how to add product metafields](/how-to-guides/add-product-metafields/).
 
 === "WooCommerce"
 
@@ -367,13 +367,13 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Setting the checkout behavior"
 
-            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+            See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     - **Product reviews.** Show star ratings on the recommended products, to back the recommendation up. WooCommerce Product Reviews is supported.
 
         !!! tip "Turning the reviews on"
 
-            See [How to Show Product Reviews](/how-to-guides/show-product-reviews/).
+            See [how to show product reviews](/how-to-guides/show-product-reviews/).
 
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
@@ -384,7 +384,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Writing the JavaScript"
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
@@ -392,7 +392,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Syncing the metafields"
 
-            See [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+            See [how to add product metafields](/how-to-guides/add-product-metafields/).
 
 === "Magento"
 
@@ -404,7 +404,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Setting the checkout behavior"
 
-            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+            See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
@@ -415,7 +415,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Writing the JavaScript"
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
@@ -429,7 +429,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Setting the checkout behavior"
 
-            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+            See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
@@ -440,7 +440,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Writing the JavaScript"
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 
@@ -454,7 +454,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Setting the checkout behavior"
 
-            See [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
+            See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
 
     Worth checking in [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
@@ -465,7 +465,7 @@ A **dynamic** results page changes its wording too, from what the customer answe
 
         !!! tip "Writing the JavaScript"
 
-            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+            See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **[Multiple results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings).** Send different customers to different pages.
 

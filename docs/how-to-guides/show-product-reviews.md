@@ -89,7 +89,7 @@ Add a star rating and a review count to the product cards on your quiz results p
     | Yotpo | Uses the standard `reviews` namespace for ratings. |
     | Stamped | Uses the standard `reviews` namespace. |
 
-    All four need Storefront API access before the ratings show. See [How to enable storefront API access](#how-to-enable-storefront-api-access).
+    All four need Storefront API access before the ratings show. See [how to enable storefront API access](#how-to-enable-storefront-api-access).
 
     !!! warning "Loox may need a manual sync"
 
@@ -107,7 +107,7 @@ Add a star rating and a review count to the product cards on your quiz results p
 
     4. **Wait for the cache.** Shopify's edge cache can take 5 to 30 seconds to update after a change.
 
-    5. **Contact support.** See [How to Contact Customer Support](/how-to-guides/contact-customer-support/), or ask your review app's support team.
+    5. **Contact support.** See [how to contact customer support](/how-to-guides/contact-customer-support/), or ask your review app's support team.
 
 === "Shopify (Legacy)"
 

@@ -118,7 +118,7 @@ The app cannot calculate a result from a number on its own. A quiz that works ou
 
 The script reads the quiz answers, works the result out in JavaScript, then writes it into an HTML element on the results page.
 
-[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/#insert-a-calculation) has a worked BMI calculator.
+[How to add JavaScript to the quiz](/how-to-guides/add-javascript/#insert-a-calculation) has a worked BMI calculator.
 
 ---
 

@@ -21,7 +21,7 @@ display logic     shows or hides          part of the results page
 
 `IF-THEN` rules put custom text in front of the right customer. Inside the quiz that is Jump Logic or Skip Logic, and on the results page it is Display Logic.
 
-[How to Show or Hide Content Based on Quiz Answers](/how-to-guides/hide-content-with-logic/)
+[How to show or hide content based on quiz answers](/how-to-guides/hide-content-with-logic/)
 
 ## Jump logic
 
@@ -34,7 +34,7 @@ Jump Logic sends each customer down a different path, from the answer they gave.
     - Send the customer to a different results page.
     - Send the customer to an external URL.
 
-[How to Use Jump Logic](/how-to-guides/use-jump-logic/)
+[How to use jump logic](/how-to-guides/use-jump-logic/)
 
 ## Skip logic
 
@@ -45,7 +45,7 @@ Skip Logic changes which questions come next, so a customer only answers the one
     - Skip questions the customer's earlier answers have made irrelevant.
     - Show different follow-up questions after a multiple-choice question that allows several selections. A customer who picks two skin concerns then answers only the questions for those two.
 
-[How to Use Skip Logic](/how-to-guides/use-skip-logic/)
+[How to use skip logic](/how-to-guides/use-skip-logic/)
 
 ## Display logic
 
@@ -89,7 +89,7 @@ Display Logic shows or hides individual elements on the results page.
 
         - Show or hide content on the Results Page, from the customer's answers.
 
-[How to Use Display Logic](/how-to-guides/use-display-logic/)
+[How to use display logic](/how-to-guides/use-display-logic/)
 
 ---
 

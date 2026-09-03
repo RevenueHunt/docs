@@ -22,7 +22,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     !!! info "Where to read the setup"
 
-        - [How to Use Display logic](/how-to-guides/use-display-logic/) covers showing and hiding sections.
+        - [how to use display logic](/how-to-guides/use-display-logic/) covers showing and hiding sections.
         - [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) decides the outcome from the variable chosen most often.
         - [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) decides it from a total score.
 
@@ -36,7 +36,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     - **Metafields.** A `Metafield` component shows a custom product field. A short "why this suits you" note kept on the product in Shopify reaches the results page without any quiz logic at all.
 
-    - **Custom JavaScript.** A developer can write the text from the recommended product ID, or from a score. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    - **Custom JavaScript.** A developer can write the text from the recommended product ID, or from a score. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 === "Shopify (Legacy)"
 
@@ -50,7 +50,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [how to use display logic](/how-to-guides/use-display-logic/).
 
         ??? question "A worked personality-type quiz"
 
@@ -122,7 +122,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
             Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
@@ -138,7 +138,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [how to use display logic](/how-to-guides/use-display-logic/).
 
         ??? question "A worked personality-type quiz"
 
@@ -210,7 +210,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
             Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
@@ -226,7 +226,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [how to use display logic](/how-to-guides/use-display-logic/).
 
         ??? question "A worked personality-type quiz"
 
@@ -298,7 +298,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
             Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
@@ -314,7 +314,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [how to use display logic](/how-to-guides/use-display-logic/).
 
         ??? question "A worked personality-type quiz"
 
@@ -386,7 +386,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
             Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 
@@ -402,7 +402,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
     - **Information Recall.** [Information Recall, or Content Dynamic Source](/how-to-guides/use-information-recalls/), pulls a customer's own answer into a content block on the Results Page. It explains the recommendation in the customer's own words, with no logic and no code.
 
-    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [How to Use Display Logic](/how-to-guides/use-display-logic/).
+    - **Display Logic.** [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) shows or hides text on the Results Page from the answers. It suits a short, simple quiz. See [how to use display logic](/how-to-guides/use-display-logic/).
 
         ??? question "A worked personality-type quiz"
 
@@ -474,7 +474,7 @@ Writing that explanation is your job, and how you do it depends on the version o
 
             Once a quiz has many questions, the custom JavaScript route below is easier to maintain than a rule per combination.
 
-    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    - **Custom JavaScript.** A developer can write a function that shows text chosen by the ID of the recommended product. They can also add custom values to choices and build a scoring system, then write the matching text to the results page. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     - **Product descriptions.** Put the reason in the product description itself. The app pulls descriptions from your store, and you control them in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings` > `Show description`, where they can also be truncated.
 

@@ -27,7 +27,7 @@ Showing a customer their own quiz results inside their account page keeps the re
 
         !!! tip "Check the connection first"
 
-            [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) covers the setup and how to confirm it worked.
+            [How to send quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) covers the setup and how to confirm it worked.
 
     2. **Go to your `Shopify Theme` > `Actions` > `Edit code` and open `customers/account.liquid`.**
 

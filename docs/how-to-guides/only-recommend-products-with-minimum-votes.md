@@ -58,7 +58,7 @@ The minimum then decides what the customer sees.
     - Products on equal upvotes appear in a random order.
     - If nothing is linked, or everything is excluded, the results page comes back empty.
 
-    See [How to Recommend Products](/how-to-guides/recommend-products/).
+    See [how to recommend products](/how-to-guides/recommend-products/).
 
 ## Set the minimum
 

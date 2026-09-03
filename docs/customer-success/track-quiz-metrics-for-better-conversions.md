@@ -48,7 +48,7 @@ Engagement tells you whether people find the quiz and finish it.
 !!! info "Completion rate formula"
     Completion rate (%) = (quiz completions ÷ quiz starts) × 100
 
-Aim as high as you can: a well-built quiz finishes around 70% of starts, and a short, sharp quiz can clear 80%. If yours is lower, the quiz is usually too long or a question is causing friction. See [How to Reduce Drop-Off](/customer-success/reduce-dropoff/).
+Aim as high as you can: a well-built quiz finishes around 70% of starts, and a short, sharp quiz can clear 80%. If yours is lower, the quiz is usually too long or a question is causing friction. See [how to reduce drop-off](/customer-success/reduce-dropoff/).
 
 **Drop-off points.** The per-question drop-off shows exactly where people quit, so you can rewrite or cut that one question rather than overhauling the whole quiz.
 
@@ -56,7 +56,7 @@ Aim as high as you can: a well-built quiz finishes around 70% of starts, and a s
 
 | Issue | What to do |
 |-------|------------|
-| **Low quiz starts** | Make the quiz more visible (publish it in several places), promote it, and run ads to it. See [How to Get More People to Take Your Quiz](/customer-success/how-to-get-more-quiz-engagement/). |
+| **Low quiz starts** | Make the quiz more visible (publish it in several places), promote it, and run ads to it. See [how to get more people to take your quiz](/customer-success/how-to-get-more-quiz-engagement/). |
 | **Low completion rate** | Shorten the quiz, turn dense questions into picture questions, and move personal questions (name, email, phone) toward the end. |
 
 ---

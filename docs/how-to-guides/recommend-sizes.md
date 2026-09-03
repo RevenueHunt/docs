@@ -15,7 +15,7 @@ The recommendation engine links each choice to a fixed list of products. When a 
 
 **A typed number cannot be linked to anything in advance.** A customer can enter any value, so there is no product list to attach to it. The upvoting system has nothing to count.
 
-The same applies to any question whose answer you cannot predict: exact measurements, dates and free text. Every possible answer has to be one you defined before the quiz went live. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/).
+The same applies to any question whose answer you cannot predict: exact measurements, dates and free text. Every possible answer has to be one you defined before the quiz went live. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/).
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -99,7 +99,7 @@ The upvoting approach may not be precise enough when your sizing logic needs exa
 
 JavaScript takes the typed measurements from a [Number](/reference/quiz-builder/questions/#number) question, applies any formula or condition, and shows a calculated result. That result can be a recommended product, with no upvotes involved.
 
-See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for the full documentation, including a worked calculation.
+See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for the full documentation, including a worked calculation.
 
 === "Shopify"
 

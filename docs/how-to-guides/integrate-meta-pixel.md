@@ -13,7 +13,7 @@ The Meta Pixel records what customers do in your quiz, so you can measure your F
 
 !!! note "Give the quiz its own page"
 
-    Pixel tracking works best when the quiz sits on a page of its own. See [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
+    Pixel tracking works best when the quiz sits on a page of its own. See [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
 ## Connect the Meta Pixel to your quiz
 
@@ -208,7 +208,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! warning "The callbacks do not exist in this version"
 
-        `prqQuizCallback` belongs to the five older versions, not to Built for Shopify. Use `window.quiz` and the `quiz` context object here. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+        `prqQuizCallback` belongs to the five older versions, not to Built for Shopify. Use `window.quiz` and the `quiz` context object here. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
     1. **Open the results page and expand its `Custom JS` section.**
 
@@ -228,7 +228,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! tip "Sending an event on every answer"
 
-        Assign a handler to `window.quiz.onChange` in the `Custom JS` of the first question. It fires after every answer and stays registered for the rest of the quiz. See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+        Assign a handler to `window.quiz.onChange` in the `Custom JS` of the first question. It fires after every answer and stays registered for the rest of the quiz. See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 === "Shopify (Legacy)"
 
@@ -256,7 +256,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! tip "Sending an event on every answer"
 
-        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [How to Use Callback Function](/how-to-guides/use-callback-function/).
+        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [how to use callback function](/how-to-guides/use-callback-function/).
 
 === "WooCommerce"
 
@@ -284,7 +284,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! tip "Sending an event on every answer"
 
-        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [How to Use Callback Function](/how-to-guides/use-callback-function/).
+        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [how to use callback function](/how-to-guides/use-callback-function/).
 
 === "Magento"
 
@@ -312,7 +312,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! tip "Sending an event on every answer"
 
-        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [How to Use Callback Function](/how-to-guides/use-callback-function/).
+        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [how to use callback function](/how-to-guides/use-callback-function/).
 
 === "BigCommerce"
 
@@ -340,7 +340,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! tip "Sending an event on every answer"
 
-        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [How to Use Callback Function](/how-to-guides/use-callback-function/).
+        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [how to use callback function](/how-to-guides/use-callback-function/).
 
 === "Standalone"
 
@@ -368,7 +368,7 @@ Meta will not let a custom event drive an ads feature until you have reviewed it
 
     !!! tip "Sending an event on every answer"
 
-        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [How to Use Callback Function](/how-to-guides/use-callback-function/).
+        Add `prqSlideCallback` alongside it. It fires each time a customer answers a question. See [how to use callback function](/how-to-guides/use-callback-function/).
 
 ---
 

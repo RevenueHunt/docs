@@ -544,7 +544,7 @@ The full token reference, the downloadable Klaviyo template, and worked examples
 
 ## Related reading
 
-- [How to Send Quiz Leads to Klaviyo](/how-to-guides/send-leads-to-klaviyo/): the connection, segment and email-template mechanics in full.
+- [How to send quiz leads to Klaviyo](/how-to-guides/send-leads-to-klaviyo/): the connection, segment and email-template mechanics in full.
 - [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/): the step-by-step tutorial for your first flow.
 - [Use Customer Tags](/how-to-guides/use-customer-tags/): how answers become the tags every flow segments on.
 - [Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/): capture consent in the quiz so you can email compliantly.

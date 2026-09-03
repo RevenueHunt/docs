@@ -38,35 +38,35 @@ This is the highest-ROI section. The average merchant publishes their quiz in on
 ![Automatic popup settings](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
 ??? info "How to set up an automatic popup"
-    See: [How to Publish Your Quiz as an Automatic Popup](/how-to-guides/publish-quiz-automatic-popup/)
+    See: [How to publish your quiz as an automatic popup](/how-to-guides/publish-quiz-automatic-popup/)
 
 **Add a floating chat button.** A floating button follows customers as they browse your store - always visible, never in the way. Customers who aren't ready to take the quiz when they first see it can come back to it when they are. This is especially useful for stores with long collection pages or product descriptions.
 
 ![Floating chat button settings](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
 ??? info "How to add a floating button"
-    See: [How to Publish Your Quiz as a Chat Button](/how-to-guides/publish-quiz-chat-button/)
+    See: [How to publish your quiz as a chat button](/how-to-guides/publish-quiz-chat-button/)
 
 **Embed the quiz inline on your homepage.** An inline quiz block on your homepage puts the quiz in front of every visitor who lands on your site. This works especially well as a hero section replacement or as a prominent section below the fold. It signals to customers that personalization is a core part of your brand experience.
 
 ![Inline quiz embed settings](/images/manual_shopifyV2_quizbuilder_share_publish_inlinepublish.png)
 
 ??? info "How to embed the quiz inline"
-    See: [How to Publish Your Quiz Inline](/how-to-guides/publish-quiz-inline/)
+    See: [How to publish your quiz inline](/how-to-guides/publish-quiz-inline/)
 
 **Add the quiz to your navigation menu.** One of the most visited elements on any store is the top navigation. A quiz link in the nav bar - labelled something like *"Find Your Match"* or *"Skin Quiz"* rather than just *"Quiz"* - gets seen by every single visitor. It also signals that you take personalization seriously.
 
 ![Quiz link in the navigation menu](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Screenshot-2022-03-31-155833-1024x536.webp){ width="560" }
 
 ??? info "How to add a quiz link to your menu"
-    See: [How to Publish Your Quiz as a Menu Link](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu)
+    See: [How to publish your quiz as a menu link](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu)
 
 **Add a banner or button CTA.** A well-placed banner or button - on your homepage, collection pages, or product pages - invites customers who weren't looking for the quiz to take it anyway. Frame it around the outcome: *"Not sure which formula is right for you? Take the 2-minute quiz."*
 
 ![A banner CTA inviting shoppers to take the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/PIC1-UN_DID_Blurred-1024x536.webp){ width="560" }
 
 ??? info "How to add a banner button"
-    See: [How to Publish Your Quiz as a Button](/how-to-guides/publish-quiz-link/#link-popup-as-take-the-quiz-button)
+    See: [How to publish your quiz as a button](/how-to-guides/publish-quiz-link/#link-popup-as-take-the-quiz-button)
 
 ---
 
@@ -96,7 +96,7 @@ A strong welcome screen does three things:
 - Mentions any reward (*"Complete the quiz and get 10% off"*)
 
 ??? tip "How to add a welcome screen"
-    In the Quiz Builder, click `+ Add question` and choose `Welcome Message` under **Messages**. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/) for the full walkthrough.
+    In the Quiz Builder, click `+ Add question` and choose `Welcome Message` under **Messages**. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/) for the full walkthrough.
 
 **Offer a discount for completing.** Nothing motivates someone to finish what they started like a reward at the end. Offer a discount code to everyone who completes the quiz and mention it upfront on the welcome screen.
 
@@ -104,7 +104,7 @@ A strong welcome screen does three things:
     *"Answer 8 questions and get 10% off your personalized recommendation"* converts better than *"Here's 10% off!"* on the results page. The promise of a reward reduces abandonment throughout the quiz, not just at the end.
 
 ??? info "How to add a discount code"
-    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/)
+    See: [How to add a discount to your quiz](/how-to-guides/add-discount/)
 
 **Keep the quiz short.** Every question you add is a chance for a customer to abandon. Our platform data shows the optimal length is **6-12 questions**, with 7-8 being the most common for top-converting quizzes. Start shorter than you think you need to. If the data shows customers are finishing easily and conversions are high, you can experiment with adding a question or two.
 
@@ -128,14 +128,14 @@ This is where most of the growth is. On-site placement captures the visitors you
 ![A paid ad driving traffic to the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Pink-Modern-Valentines-Day-Special-Price-Promotion-Facebook-Ad-1024x536.webp){ width="560" }
 
 ??? info "How to track quiz revenue from ads"
-    See: [How to Track Your Quiz Revenue](/how-to-guides/track-quiz-revenue/)
+    See: [How to track your quiz revenue](/how-to-guides/track-quiz-revenue/)
 
 **Email your subscriber list.** Your existing subscribers are your warmest audience. Send a dedicated email introducing the quiz and what customers will get from it. Include the quiz as a link in your newsletter template so it gets ongoing exposure with every send.
 
 ![An email newsletter promoting the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Pink-Minimalist-Fashion-Email-Newsletter-724x1024.webp){ width="320" }
 
 ??? info "How to share a quiz link in email"
-    See: [How to Share a Direct Link to Your Quiz](/how-to-guides/publish-quiz-external-link/)
+    See: [How to share a direct link to your quiz](/how-to-guides/publish-quiz-external-link/)
 
 **Share on social media.** Post about the quiz on your social channels with a direct link. Short-form video content (Reels, TikToks) that walks through the quiz or shows the results in action tends to perform well. Stories and swipe-up links work for driving direct traffic on Instagram.
 
@@ -144,7 +144,7 @@ Use a direct link to the quiz so followers can access it without navigating thro
 ![A social media post promoting the quiz](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Inked1C7F6839-801C-4815-8A57-206256180FAA_LI-601x1024.webp){ width="320" }
 
 ??? info "How to get a direct quiz link for social"
-    See: [How to Share Your Quiz as an External Link](/how-to-guides/publish-quiz-external-link/)
+    See: [How to share your quiz as an external link](/how-to-guides/publish-quiz-external-link/)
 
 **Partner with influencers.** Influencers who are relevant to your product category can drive significant quiz traffic with an authentic recommendation. Provide them with a direct quiz link (optionally with UTM parameters so you can track the traffic source) and let them frame the quiz in their own voice.
 
@@ -157,14 +157,14 @@ This works especially well for quizzes that deliver a genuinely interesting resu
 **Embed it in a blog post.** If you publish content on your blog, embed the quiz inline within a relevant article. A skincare quiz embedded in a *"How to build a skincare routine"* post catches readers at a moment of high intent - they're already researching, already interested.
 
 ??? info "How to embed the quiz in a blog post"
-    See: [How to Publish Your Quiz Inline](/how-to-guides/publish-quiz-inline/)
+    See: [How to publish your quiz inline](/how-to-guides/publish-quiz-inline/)
 
 **Add it to your email signature.** Every email you send is an opportunity. Add a line to your business email signature with a link to the quiz: *"Not sure which products are right for you? Take the 2-minute quiz."*
 
 ![A quiz link in an email signature](https://revenuehunt.com/img/blog/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/Green-Feminine-Fashion-Designer-Email-Signature.webp){ width="480" }
 
 ??? info "How to get a shareable quiz link"
-    See: [How to Share Your Quiz as an External Link](/how-to-guides/publish-quiz-external-link/)
+    See: [How to share your quiz as an external link](/how-to-guides/publish-quiz-external-link/)
 
 **Share in relevant communities.** If you're active in online communities - Reddit, Facebook groups, niche forums - sharing the quiz (where it's genuinely useful and not spammy) can drive targeted traffic. This works best for quizzes that deliver real value: a detailed skin type analysis, a supplement routine, a hair profile. People share things that feel useful, not things that feel like ads.
 
@@ -199,7 +199,7 @@ Send paid ads to a dedicated quiz page rather than to a product page or homepage
 
 **Related articles:**
 
-- [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
-- [How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+- [Why your product quiz is not converting well](/customer-success/quiz-not-converting/)
+- [How to reduce drop-off](/customer-success/reduce-dropoff/)
+- [How to build a successful product recommendation quiz](/customer-success/how-to-build-successful-quiz/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)

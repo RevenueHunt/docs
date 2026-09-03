@@ -564,7 +564,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 
 === "Shopify (Legacy)"
@@ -579,7 +579,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         - forward to any particular page on your store
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
-    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 
 
@@ -596,7 +596,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 
 === "Magento"
@@ -612,7 +612,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 
 === "BigCommerce"
@@ -628,7 +628,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 
 === "Standalone"
@@ -644,7 +644,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 
-    For more on adding custom JavaScript, see [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+    For more on adding custom JavaScript, see [how to add JavaScript to the quiz](/how-to-guides/add-javascript/).
 
 
 ## Styling quiz text
@@ -877,7 +877,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
     The **Image** and **Picture Choice** blocks add pictures to your quiz. One places a standalone image, the other turns the answer choices into pictures, making your quiz more engaging and visually appealing.
 
     !!! tip
-        Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 
         The article explain in details different ways you can add images to your quiz. Including:
 
@@ -953,7 +953,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
 
 
     !!! tip
-        Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 
 === "WooCommerce"
 
@@ -971,7 +971,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         ```
 
     !!! tip
-        Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 
 === "Magento"
 
@@ -989,7 +989,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         ```
 
     !!! tip
-        Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 
 === "BigCommerce"
 
@@ -1007,7 +1007,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         ```
 
     !!! tip
-        Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 
 
 === "Standalone"
@@ -1026,7 +1026,7 @@ You can change how the quiz looks, to fit your store. This article covers the bu
         ```
 
     !!! tip
-        Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and optimize your images for the quiz: [How to add/adjust images](/how-to-guides/add-adjust-images/).
 
 
 ## Individual question design
@@ -1092,7 +1092,7 @@ The Results Page also has its own customization options.
 
 !!! tip
 
-    Check [How to Edit Your Product Recommendation Quiz Results Page](/how-to-guides/edit-results-page/) to learn more about styling your results page.
+    Check [how to edit your product recommendation quiz results page](/how-to-guides/edit-results-page/) to learn more about styling your results page.
 
 In addition to the basic elements, you can set a unique background image for each results page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 

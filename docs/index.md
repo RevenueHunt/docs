@@ -40,7 +40,7 @@ It runs on Shopify, WooCommerce, Magento and BigCommerce, and as a standalone ap
 
     Sign up on the [RevenueHunt registration page](https://admin.revenuehunt.com/register). An email address and a password are all it takes, and your products go in by hand or through a Google Product Feed.
 
-For the full steps on your platform, including what to grant and what to check afterwards, see [How to Install the App](/how-to-guides/install-app/).
+For the full steps on your platform, including what to grant and what to check afterwards, see [how to install the app](/how-to-guides/install-app/).
 
 Once the app is open, work through the [Success Checklist](/reference/dashboard/#success-checklist) to build and publish your first quiz.
 
@@ -75,4 +75,4 @@ This site is in four parts.
 
 ## Contact support
 
-Still looking for an answer? See [How to Contact Customer Support](/how-to-guides/contact-customer-support/).
+Still looking for an answer? See [how to contact customer support](/how-to-guides/contact-customer-support/).

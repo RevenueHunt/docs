@@ -177,7 +177,7 @@ This article covers three ways to add a consent request to a quiz.
 
     5. **Click the top-right `Save` button.**
 
-    Both the email field and the consent choice now sit on one slide. See [How to Join Questions](/how-to-guides/join-questions/) for more on building a slide from several blocks.
+    Both the email field and the consent choice now sit on one slide. See [how to join questions](/how-to-guides/join-questions/) for more on building a slide from several blocks.
 
 === "Shopify (Legacy)"
 
@@ -195,7 +195,7 @@ This article covers three ways to add a consent request to a quiz.
 
     5. **Click the top-right `Publish` button.**
 
-    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+    See [how to join questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "WooCommerce"
 
@@ -213,7 +213,7 @@ This article covers three ways to add a consent request to a quiz.
 
     5. **Click the top-right `Publish` button.**
 
-    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+    See [how to join questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "Magento"
 
@@ -231,7 +231,7 @@ This article covers three ways to add a consent request to a quiz.
 
     5. **Click the top-right `Publish` button.**
 
-    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+    See [how to join questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "BigCommerce"
 
@@ -249,7 +249,7 @@ This article covers three ways to add a consent request to a quiz.
 
     5. **Click the top-right `Publish` button.**
 
-    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+    See [how to join questions](/how-to-guides/join-questions/) for more on joining slides.
 
 === "Standalone"
 
@@ -267,7 +267,7 @@ This article covers three ways to add a consent request to a quiz.
 
     5. **Click the top-right `Publish` button.**
 
-    See [How to Join Questions](/how-to-guides/join-questions/) for more on joining slides.
+    See [how to join questions](/how-to-guides/join-questions/) for more on joining slides.
 
 ### Option 3: GDPR question
 

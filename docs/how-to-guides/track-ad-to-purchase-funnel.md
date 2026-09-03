@@ -133,7 +133,7 @@ This makes the middle of the funnel visible: how many people who land actually s
 
     !!! tip "Video walkthrough"
 
-        See [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) for a video and step-by-step instructions on connecting your quiz to GA4.
+        See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) for a video and step-by-step instructions on connecting your quiz to GA4.
 
 === "Shopify (Legacy)"
 
@@ -173,7 +173,7 @@ This makes the middle of the funnel visible: how many people who land actually s
     | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
     | Results page reached | `results_page_viewed` | `prqQuizCallback` |
 
-    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [how to use the callback function](/how-to-guides/use-callback-function/).
 
 === "WooCommerce"
 
@@ -213,7 +213,7 @@ This makes the middle of the funnel visible: how many people who land actually s
     | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
     | Results page reached | `results_page_viewed` | `prqQuizCallback` |
 
-    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [how to use the callback function](/how-to-guides/use-callback-function/).
 
 === "Magento"
 
@@ -253,7 +253,7 @@ This makes the middle of the funnel visible: how many people who land actually s
     | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
     | Results page reached | `results_page_viewed` | `prqQuizCallback` |
 
-    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [how to use the callback function](/how-to-guides/use-callback-function/).
 
 === "BigCommerce"
 
@@ -293,7 +293,7 @@ This makes the middle of the funnel visible: how many people who land actually s
     | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
     | Results page reached | `results_page_viewed` | `prqQuizCallback` |
 
-    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [how to use the callback function](/how-to-guides/use-callback-function/).
 
 === "Standalone"
 
@@ -333,7 +333,7 @@ This makes the middle of the funnel visible: how many people who land actually s
     | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
     | Results page reached | `results_page_viewed` | `prqQuizCallback` |
 
-    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [how to use the callback function](/how-to-guides/use-callback-function/).
 
 ## Build the funnel in GA4
 
@@ -586,7 +586,7 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     ![how to add custom js to capture utm parameters in the quiz](/images/how_to_track_ad_funnel_custom_js.png)
 
-    Guides: [How to Add JavaScript](/how-to-guides/add-javascript/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    Guides: [How to add JavaScript](/how-to-guides/add-javascript/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 === "Shopify (Legacy)"
 
@@ -608,7 +608,7 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
-    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    Guides: [How to pass parameters to pre-fill quiz responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 === "WooCommerce"
 
@@ -630,7 +630,7 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
-    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    Guides: [How to pass parameters to pre-fill quiz responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 === "Magento"
 
@@ -652,7 +652,7 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
-    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    Guides: [How to pass parameters to pre-fill quiz responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 === "BigCommerce"
 
@@ -674,7 +674,7 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
-    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    Guides: [How to pass parameters to pre-fill quiz responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 === "Standalone"
 
@@ -696,7 +696,7 @@ Everything so far gives you totals per campaign. This step puts the campaign on 
 
     A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or customers arriving without UTM parameters will be shown the hidden questions.
 
-    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    Guides: [How to pass parameters to pre-fill quiz responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 Whichever platform you are on, these values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
 

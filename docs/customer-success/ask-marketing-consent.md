@@ -79,7 +79,7 @@ Once you've settled when and whether, a few wording and design choices decide ho
 ![A consent question offering a discount code in exchange for opting in](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-discount3.webp){ width="450" }
 
 ??? info "How to add a discount"
-    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).
+    See: [How to add a discount to your quiz](/how-to-guides/add-discount/).
 
 **Be transparent about what you'll use the data for.** A single line explaining the why measurably reduces hesitation, especially in privacy-conscious markets. Something like "we use your answers to personalize your recommendations and send the occasional update, and we never share your data" does the job.
 
@@ -88,7 +88,7 @@ Once you've settled when and whether, a few wording and design choices decide ho
 Whichever choices you make, the email you capture doesn't arrive alone. It lands in your CRM attached to the shopper's quiz answers and [customer tags](/customer-success/use-customer-tags-in-quiz/), which is what powers segmented follow-up. Segmented campaigns earn far more per recipient than generic sends, and about 1 in 5 quiz orders land more than 30 days after the quiz, so the consent moment is really where that long revenue tail begins.
 
 !!! tip "Treat SMS consent separately"
-    Phone and SMS consent carry stricter rules than email under regulations like the TCPA, so ask for it explicitly rather than bundling it into a single checkbox. For the full setup, including the marketing checkmark, see [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+    Phone and SMS consent carry stricter rules than email under regulations like the TCPA, so ask for it explicitly rather than bundling it into a single checkbox. For the full setup, including the marketing checkmark, see [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
 ---
 
@@ -121,4 +121,4 @@ They still see their recommendation. The opt-out applies to your marketing email
 
 ---
 
-This article covers the strategy. For the click-by-click setup, see [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+This article covers the strategy. For the click-by-click setup, see [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).

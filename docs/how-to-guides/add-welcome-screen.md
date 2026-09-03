@@ -11,7 +11,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
 !!! tip "Why it is worth adding"
 
-    The welcome screen is where customers decide whether the quiz is worth their time. Tell them what they get and how long it takes. See [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/) for what to put on it.
+    The welcome screen is where customers decide whether the quiz is worth their time. Tell them what they get and how long it takes. See [how to reduce quiz drop-off](/customer-success/reduce-dropoff/) for what to put on it.
 
 ## Add a welcome screen
 
@@ -173,7 +173,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
     5. **For a `split` image, set `Position (desktop)` and `Position (mobile)`.** On a desktop the image goes `left` or `right`, and on a phone it goes `above`, `below` or `hidden`.
 
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 
 === "Shopify (Legacy)"
 
@@ -197,7 +197,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
         The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
 
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 
 === "WooCommerce"
 
@@ -221,7 +221,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
         The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
 
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 
 === "Magento"
 
@@ -245,7 +245,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
         The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
 
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 
 === "BigCommerce"
 
@@ -269,7 +269,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
         The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
 
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 
 === "Standalone"
 
@@ -293,7 +293,7 @@ A welcome screen is optional. Without one, the quiz opens on your first question
 
         The same setting takes a video instead of an image, as a `responsive`, `widget` or `background` element.
 
-    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for what size to upload.
+    See [how to add/adjust images](/how-to-guides/add-adjust-images/) for what size to upload.
 
 ## Change the start button text
 
@@ -358,7 +358,7 @@ Removing the welcome screen makes your first question the first thing customers 
 - [Create Your First Quiz](/how-to-guides/create-first-quiz/)
 - [Customize Quiz Design](/how-to-guides/customize-quiz-design/)
 - [Add & Adjust Images](/how-to-guides/add-adjust-images/)
-- [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/)
+- [How to reduce quiz drop-off](/customer-success/reduce-dropoff/)
 - [Quiz Builder - Questions reference](/reference/quiz-builder/questions/)
 
 ---

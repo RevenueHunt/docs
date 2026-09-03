@@ -144,7 +144,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
         !!! info "What data is sent to Zapier?"
 
-            Check [What data is sent to Zapier?](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
+            Check [what data is sent to Zapier?](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
 
     8. **Decide what happens to the quiz leads**: with the integration working, choose what Zapier does with the data. It offers many integrations, including:
 
@@ -319,7 +319,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     To control exactly which data reaches Zapier, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 
 
@@ -328,14 +328,14 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     To control exactly which data reaches Zapier, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 
 === "WooCommerce"
 
     To control exactly which data reaches Zapier, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 
 
@@ -344,7 +344,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     To control exactly which data reaches Zapier, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 
 === "BigCommerce"
@@ -352,7 +352,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     To control exactly which data reaches Zapier, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 
 === "Standalone"
@@ -360,7 +360,7 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     To control exactly which data reaches Zapier, use one of these methods instead.
 
-    - **Using Webhooks**: connect your quiz to Webhooks, as described in [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
+    - **Using Webhooks**: connect your quiz to Webhooks, as described in [how to send leads to webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks, forward the data you want to Zapier.
     - **Uploading a CSV file**: export your quiz [responses](/reference/quiz-builder/metrics/#responses) as a CSV file and upload it to Zapier.
 
 ## What data is sent to Zapier?
