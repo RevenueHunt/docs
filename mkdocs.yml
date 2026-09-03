@@ -280,6 +280,7 @@ extra_javascript:
   - javascripts/gtag.js
   - javascripts/survey.js
   - javascripts/attribution.js
+  - javascripts/tawk.js
 
 extra_css:
   - docs.css
