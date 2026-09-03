@@ -59,7 +59,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Personal data deletion**
 
-    `Delete personal data after` - Choose how long to keep what customers typed into this quiz. This covers an email address, a name, a phone number, short text, long text, a number and a date. At the next cleanup the app permanently deletes those values from every response older than the period you chose. This includes responses collected before you turned the setting on. The choices customers picked, the recommended products and your quiz analytics stay. Support has to turn on [personal data deletion](/how-to-guides/delete-personal-data/) for your shop first, because the deletion cannot be undone.
+    `Delete personal data after` - Choose how long to keep what customers typed into this quiz. This covers an email address, a name, a phone number, short text, long text, a number and a date. At the next cleanup the app permanently deletes those values from every response older than the period you chose. This will affect ALL the responses of that quiz, even the ones collected before you turn the setting on. The choices customers picked, the recommended products and your quiz analytics stay. Support has to turn on [personal data deletion](/how-to-guides/delete-personal-data/) for your shop first, because the deletion cannot be undone.
 
     **Quiz payload settings**
 
