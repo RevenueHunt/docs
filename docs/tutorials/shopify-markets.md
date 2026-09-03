@@ -91,10 +91,10 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
     Before assigning quizzes, make sure your Shopify Markets are set up:
 
-    1. In your Shopify Admin, go to `Markets`.
-    2. Create separate markets for different regions, such as **European Union** and **United States**.
-    3. To create a new market in Shopify, click on `Create Market` and enter the market name, regions and currency.
-    4. Save your changes. The markets sync with the RevenueHunt app on their own.
+    1. **In your Shopify Admin, go to `Markets`.**
+    2. **Click `Create Market` and enter the market name, its regions and its currency.**
+    3. **Repeat for every region you sell to,** such as the European Union and the United States.
+    4. **Save your changes.** The markets sync with the RevenueHunt app on their own.
 
 
 
@@ -133,37 +133,33 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
     !!! example
 
-        - 'Skincare Quiz (USA)' < default quiz >,
-        - 'Skincare Quiz (Europe)',
-        - 'Skincare Quiz (Spanish)',
-        - 'Skincare Quiz (French)'.
+        - `Skincare Quiz (USA)`, the default quiz
+        - `Skincare Quiz (Europe)`
+        - `Skincare Quiz (Spanish)`
+        - `Skincare Quiz (French)`
 
-    1. Open the RevenueHunt app.
-    2. Click `Create new quiz` to make the first quiz. Start with creating a main/default quiz for your primary market (e.g., 'Skincare Quiz (USA)').
+    1. **Open the RevenueHunt app and click `Create new quiz`.** Build the main quiz for your primary market first, such as `Skincare Quiz (USA)`.
 
         !!! tip "Use Quiz Copilot"
             Use [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to help build the first draft, add questions, and set up recommendations.
 
-    3. Once the main quiz is ready, duplicate it from the `Dashboard > ... > Duplicate` to create copies for other markets.
-    4. Make market-specific changes as needed to the copy quiz and rename it for easier identification (e.g., 'Skincare Quiz (Europe)').
+    2. **Once the main quiz is ready, open the `...` menu on the [Dashboard](/reference/dashboard/) and click `Duplicate`.**
+    3. **Rename the copy after its market and make any market-specific changes,** such as `Skincare Quiz (Europe)`.
 
-    To create quizzes in other languages:
+    Then, for each extra language:
 
-    5. Duplicate the quiz and manually translate questions and choices to another language.
+    1. **Duplicate the quiz again and translate the questions and choices by hand.**
 
-        !!! tip "Use Quiz Copilot"
-            You can ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a translated copy.
+        !!! warning "There is no automatic translation"
 
+            The app cannot translate a quiz for you. You can, however, ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a translated copy.
 
-        !!! warning
-            RevenueHunt app does not offer an in-app automatic translation option but you can ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a translated copy.
-
-    6. In [`Quiz settings`](/reference/quiz-builder/quiz-settings/) go to [`Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) click `Reset messages` and change the language of system buttons and helpers as needed. You can also change the translations manually for each field.
-    7. Remember to save the changes with the `Save` button.
+    2. **Go to [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) and click `Reset messages`.** This pulls in the system buttons and helper text for the new language.
+    3. **Change any remaining field by hand, then click `Save`.**
 
     !!! info "Product titles and descriptions are translated automatically"
 
-        You translate the quiz **questions, choices and interface text** yourself. The **product titles, descriptions and prices** on the results page come from Shopify in the customer's language and currency, through Shopify's Storefront API. Set up your product translations in the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app, or a compatible one, and they appear in the quiz results.
+        You translate the quiz questions, choices and interface text yourself. The product titles, descriptions and prices on the results page come from Shopify in the customer's language and currency, through Shopify's Storefront API. Set up your product translations in the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app, or a compatible one, and they appear in the quiz results.
 
 
 
@@ -197,20 +193,20 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
 === "Shopify"
 
-    Once the quizzes for different markets and languages are created, you can assign them to be shown only to a specific market or language.
+    Once the quizzes are built, you can assign each one to a market or to a language.
 
-    1. To assign quizzes to specific markets, go to [`App settings`](/reference/app-settings/).
-    2. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-    3. Click on a dropdown next to each market name to set a default quiz for each market.
+    1. **Go to [`App settings`](/reference/app-settings/).**
+    2. **Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab.** It lists all your markets.
+    3. **Click the dropdown next to a market name and pick that market's default quiz.**
 
         !!! example
 
-            - assign 'Skincare Quiz Europe' to the European market,
-            - assign 'Skincare Quiz USA' to the United States market.
+            - assign `Skincare Quiz Europe` to the European market,
+            - assign `Skincare Quiz USA` to the United States market.
 
             ![sample market assignment](https://loom.com/i/952e7d4c5972482496d85350ca8cb927?workflows_screenshot=true)
 
-    4. Save the changes with the `Save` button.
+    4. **Save the changes with the `Save` button.**
 
 
 === "Shopify (Legacy)"
@@ -245,25 +241,25 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
     You can also assign a quiz to a specific language within a market.
 
-    1. To assign a quiz to a specific language within a market, go to [`App settings`](/reference/app-settings/).
-    2. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-    3. Click the `>` arrow on a market. It expands with a dropdown for the languages available in your Shopify store.
+    1. **Go to [`App settings`](/reference/app-settings/).**
+    2. **Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab.** It lists all your markets.
+    3. **Click the `>` arrow on a market.** It expands to show the languages available in your Shopify store.
 
         !!! info
-            The list of languages available in the RevenueHunt app is synced directly from your `Shopify Settings > Languages` and is managed in Shopify via the **Translate & Adapt** app.
+            The list of languages available in the RevenueHunt app is synced directly from your `Shopify Settings > Languages` and is managed in Shopify with the `Translate & Adapt` app.
 
-    4. Click on a dropdown next to each language name to set a default quiz for each language.
+    4. **Click the dropdown next to a language name and pick that language's default quiz.**
 
         !!! example
 
-            - assign 'Skincare Quiz Spanish' to the Spanish language in the European market,
-            - assign 'Skincare Quiz French' to the French language in the European market,
-            - assign 'Skincare Quiz Spanish' to the Spanish language in the United States market,
-            - assign 'Skincare Quiz French' to the French language in the United States market.
+            - assign `Skincare Quiz Spanish` to the Spanish language in the European market,
+            - assign `Skincare Quiz French` to the French language in the European market,
+            - assign `Skincare Quiz Spanish` to the Spanish language in the United States market,
+            - assign `Skincare Quiz French` to the French language in the United States market.
 
             ![sample language assignment](https://loom.com/i/87363ed0a819460ea678d3918abfdc7b?workflows_screenshot=true)
 
-    5. Save the changes with the `Save` button.
+    5. **Save the changes with the `Save` button.**
 
 
 === "Shopify (Legacy)"
@@ -299,23 +295,23 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     By default, quiz result prices follow the currency format in your Shopify Markets settings.
 
     !!! example
-        If `USD` is your default currency format for US market, prices on the results page of the quiz will be displayed as `25 USD`.
+        If `USD` is the default currency format for your US market, the results page shows prices as `25 USD`.
 
 
     To change the format for a specific market:
 
-    1. Open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab. It lists all your markets.
-    2. Click the `>` arrow on a market. It then expands to show a language dropdown and a `Currency` field.
-    3. In the `Currency` field, enter your preferred format.
+    1. **Go to [`App settings`](/reference/app-settings/) and open the [`Shopify Markets`](/reference/app-settings/#shopify-markets) tab.**
+    2. **Click the `>` arrow on a market.** It expands to show a language dropdown and a `Currency` field.
+    3. **In the `Currency` field, enter the format you want.**
 
         !!! example
 
-            - `${{amount}}` > This will display prices as $25.00 instead of 25 USD.
-            - `€{{amount}}` > This will display prices as €25.00 instead of 25 EUR.
+            - `${{amount}}` shows prices as $25.00 rather than 25 USD.
+            - `€{{amount}}` shows prices as €25.00 rather than 25 EUR.
 
             ![sample currency format](https://loom.com/i/251334029cab4f409b2c6fc94a9d186a?workflows_screenshot=true)
 
-    4. Save the changes with the `Save` button.
+    4. **Save the changes with the `Save` button.**
 
 
 === "Shopify (Legacy)"
@@ -348,13 +344,14 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
 === "Shopify"
 
-    Before testing, you need to ensure that your default quiz is published on the website. Otherwise, the RevenueHunt app will not be able to display any quizzes.
+    Your default quiz has to be published on the website before you can test any of this. Until it is, the app has no quiz to show.
 
     To publish the default quiz:
 
-    1. Go to the [`Publish`](/reference/quiz-builder/publish/) tab in the RevenueHunt app.
-    2. Pick a publishing option and follow the instructions to add the quiz to your website.
-    3. Once the default quiz is published, the app detects the market and language of the customer. It then shows the right quiz.
+    1. **Go to the [`Publish`](/reference/quiz-builder/share-publish/) tab in the RevenueHunt app.**
+    2. **Pick a publishing option and follow the instructions to add the quiz to your website.**
+
+    From then on the app reads the market and language of each customer, and shows the quiz you assigned to them.
 
 
 === "Shopify (Legacy)"
@@ -387,15 +384,14 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
 === "Shopify"
 
-    Once the default quiz is published and markets set up, you can preview your store and test the setup on different markets and languages.
+    With the default quiz published and the markets set up, preview your store and test each market and language.
 
-    1. In Shopify, go to `Online store` and click the `👁️` eye icon to preview the store. Your store will open in a new window.
-    2. Click on a link that opens the quiz or navigate to the page where the quiz is published.
-    3. Switch markets and languages to check that the right quiz loads. The US quiz should load for the United States, and the EU quiz for Belgium.
-    4. Confirm that the correct quiz loads for each market and language.
-    5. Check that prices are displayed in the correct format.
+    1. **In Shopify, go to `Online store` and click the `👁️` eye icon.** Your store opens in a new window.
+    2. **Open the page the quiz is published on.**
+    3. **Switch market and language, and check that the right quiz loads each time.**
+    4. **Check that the prices use the format you set.**
 
-        !!! example "Example Test Scenarios"
+        !!! example "What to try"
 
             Market change: Switch to the United States → US quiz appears.
 
@@ -414,9 +410,9 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
 
         You can also preview a specific quiz results page within the `Preview` option in the app.
 
-        1. Open the [Quiz builder](/reference/quiz-builder/).
-        2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
-        3. From there you can preview the results page as a different market or language.
+        1. **Open the [Quiz builder](/reference/quiz-builder/).**
+        2. **Click the top-right `Preview` button and work through the quiz to the results page.**
+        3. **From there, preview the results page as a different market or language.**
 
         ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 

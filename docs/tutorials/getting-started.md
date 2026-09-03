@@ -3,7 +3,7 @@ icon: material/numeric-0
 description: "Getting started tutorial overview of key features in the RevenueHunt product recommendation quiz app."
 ---
 
-# Getting Started with Product Recommendation Quiz in RevenueHunt app
+# Getting Started with Product Recommendation Quiz in the RevenueHunt App
 
    
 === "Shopify"
@@ -15,7 +15,7 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
         - how to quickly find your way around the app
         - how to find different sections in the app
-        - how to add first quiz
+        - how to add your first quiz
         - how to link and recommend products
         - how to find sections that edit the quiz content and design
         - how to find quiz settings and integrations
@@ -35,7 +35,7 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
         - how to quickly find your way around the app
         - how to find different sections in the app
-        - how to add first quiz
+        - how to add your first quiz
         - how to link and recommend products
         - how to edit the quiz content and design
         - how to find quiz share and publish options
@@ -55,7 +55,7 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
         - how to quickly find your way around the app
         - how to find different sections in the app
-        - how to add first quiz
+        - how to add your first quiz
         - how to link and recommend products
         - how to edit the quiz content and design
         - how to find quiz share and publish options
@@ -74,7 +74,7 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
         - how to quickly find your way around the app
         - how to find different sections in the app
-        - how to add first quiz
+        - how to add your first quiz
         - how to link and recommend products
         - how to edit the quiz content and design
         - how to find quiz share and publish options
@@ -93,7 +93,7 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
         - how to quickly find your way around the app
         - how to find different sections in the app
-        - how to add first quiz
+        - how to add your first quiz
         - how to link and recommend products
         - how to edit the quiz content and design
         - how to find quiz share and publish options
@@ -112,7 +112,7 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
         - how to quickly find your way around the app
         - how to find different sections in the app
-        - how to add first quiz
+        - how to add your first quiz
         - how to link and recommend products
         - how to edit the quiz content and design
         - how to find quiz share and publish options
@@ -130,40 +130,40 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
 === "Shopify"
 
-    1. To switch to the new version, click `Switch to Built for Shopify` and follow the steps to grant the necessary permissions.
-    2. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/). This is where you can find all the [quizzes that you create](/reference/dashboard/#quizzes).
-    3. Ready to build your first quiz? Click [`Add New Quiz`](/reference/dashboard/#new-quiz) to create a project. You can start from scratch, or jump-start your quiz using the [Quiz Copilot AI assistant](/how-to-guides/use-quiz-copilot/) or one of our pre-designed templates.
+    1. **Still on the legacy app? Click `Switch to Built for Shopify`** and follow the steps to grant the permissions. This tutorial covers the Built for Shopify version.
+    2. **Log in to the RevenueHunt app.** The first screen is the [`Quizzes` dashboard](/reference/dashboard/), which holds every [quiz you create](/reference/dashboard/#quizzes).
+    3. **Click [`Create new quiz`](/reference/dashboard/#new-quiz) to start a project.** Build it from scratch, or start it with the [Quiz Copilot AI assistant](/how-to-guides/use-quiz-copilot/) or a ready-made template.
 
 
 === "Shopify (Legacy)"
 
-    1. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
-    2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you have made in building your quiz.
-    3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
+    1. **Log in to the RevenueHunt app.** The first screen is your [Dashboard](/reference/dashboard/), which holds every quiz you create.
+    2. **Check the [Success Checklist](/reference/dashboard/#success-checklist) on the right.** It shows how far you have got with your quiz.
+    3. **Click `+ new quiz` to create a project.** Build it from scratch, or start from a ready-made template.
 
 === "WooCommerce"
 
-    1. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
-    2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you have made in building your quiz.
-    3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
+    1. **Log in to the RevenueHunt app.** The first screen is your [Dashboard](/reference/dashboard/), which holds every quiz you create.
+    2. **Check the [Success Checklist](/reference/dashboard/#success-checklist) on the right.** It shows how far you have got with your quiz.
+    3. **Click `+ new quiz` to create a project.** Build it from scratch, or start from a ready-made template.
 
 === "Magento"
 
-    1. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
-    2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you have made in building your quiz.
-    3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
+    1. **Log in to the RevenueHunt app.** The first screen is your [Dashboard](/reference/dashboard/), which holds every quiz you create.
+    2. **Check the [Success Checklist](/reference/dashboard/#success-checklist) on the right.** It shows how far you have got with your quiz.
+    3. **Click `+ new quiz` to create a project.** Build it from scratch, or start from a ready-made template.
 
 === "BigCommerce"
 
-    1. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
-    2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you have made in building your quiz.
-    3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
+    1. **Log in to the RevenueHunt app.** The first screen is your [Dashboard](/reference/dashboard/), which holds every quiz you create.
+    2. **Check the [Success Checklist](/reference/dashboard/#success-checklist) on the right.** It shows how far you have got with your quiz.
+    3. **Click `+ new quiz` to create a project.** Build it from scratch, or start from a ready-made template.
 
 === "Standalone"
 
-    1. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
-    2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you have made in building your quiz.
-    3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
+    1. **Log in to the RevenueHunt app.** The first screen is your [Dashboard](/reference/dashboard/), which holds every quiz you create.
+    2. **Check the [Success Checklist](/reference/dashboard/#success-checklist) on the right.** It shows how far you have got with your quiz.
+    3. **Click `+ new quiz` to create a project.** Build it from scratch, or start from a ready-made template.
 
 ## [Quiz builder](/reference/quiz-builder/)
 
@@ -171,50 +171,50 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     This is where you create your quiz.
 
-    1. Choose a [question type](/reference/quiz-builder/questions/#question-types) by clicking on the `+ Add Question` button and select the type you want to add. 
-    2. Once you have added your questions, drag and drop to move them around.
-    3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the question card and use the settings panel on the right. Here you can change things like making the question optional, or allowing multiple answers.
+    1. **Click `+ Add Question` and pick a [question type](/reference/quiz-builder/questions/#question-types).**
+    2. **Drag and drop the questions to reorder them.**
+    3. **Click a question card to open its [settings](/reference/quiz-builder/questions/#question-settings) on the right.** There you can make a question optional, or allow multiple answers.
 
 
 === "Shopify (Legacy)"
 
     This is where you create your quiz.
 
-    1. Choose a question type by clicking on the `+` plus sign and edit it. 
-    2. Once you have added your questions, you can drag and drop to move them around.
-    3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
+    1. **Click the `+` sign to add a question**, then pick the type you want.
+    2. **Drag and drop the questions to reorder them.**
+    3. **Click the :material-wrench: wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).** There you can make a question optional, or allow multiple answers.
 
 === "WooCommerce"
 
     This is where you create your quiz.
 
-    1. Choose a question type by clicking on the `+` plus sign and edit it. 
-    2. Once you have added your questions, you can drag and drop to move them around.
-    3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
+    1. **Click the `+` sign to add a question**, then pick the type you want.
+    2. **Drag and drop the questions to reorder them.**
+    3. **Click the :material-wrench: wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).** There you can make a question optional, or allow multiple answers.
 
 === "Magento"
 
     This is where you create your quiz.
 
-    1. Choose a question type by clicking on the `+` plus sign and edit it. 
-    2. Once you have added your questions, you can drag and drop to move them around.
-    3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
+    1. **Click the `+` sign to add a question**, then pick the type you want.
+    2. **Drag and drop the questions to reorder them.**
+    3. **Click the :material-wrench: wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).** There you can make a question optional, or allow multiple answers.
 
 === "BigCommerce"
 
     This is where you create your quiz.
 
-    1. Choose a question type by clicking on the `+` plus sign and edit it. 
-    2. Once you have added your questions, you can drag and drop to move them around.
-    3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
+    1. **Click the `+` sign to add a question**, then pick the type you want.
+    2. **Drag and drop the questions to reorder them.**
+    3. **Click the :material-wrench: wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).** There you can make a question optional, or allow multiple answers.
 
 === "Standalone"
 
     This is where you create your quiz.
 
-    1. Choose a question type by clicking on the `+` plus sign and edit it. 
-    2. Once you have added your questions, you can drag and drop to move them around.
-    3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
+    1. **Click the `+` sign to add a question**, then pick the type you want.
+    2. **Drag and drop the questions to reorder them.**
+    3. **Click the :material-wrench: wrench icon to open the [question settings](/reference/quiz-builder/questions/#question-settings).** There you can make a question optional, or allow multiple answers.
 
 ## [Link products](/reference/quiz-builder/link-products/)
 
@@ -222,7 +222,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the quiz design, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) > [Upvote](/reference/quiz-builder/link-products/#upvote) to add products and collections to each question.
 
-    Product Recommendation Quiz works like an upvoting system:
+    The quiz works like an upvoting system:
 
     - Products are linked to each choice. 
     - Every time a customer selects an answer, those linked products get an upvote.
@@ -237,7 +237,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like an upvoting system:
+    The quiz works like an upvoting system:
 
     - Products are linked to each choice. 
     - When a customer picks that choice, all linked products receive one upvote.
@@ -251,7 +251,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like an upvoting system:
+    The quiz works like an upvoting system:
 
     - Products are linked to each choice. 
     - When a customer picks that choice, all linked products receive one upvote.
@@ -265,7 +265,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like an upvoting system:
+    The quiz works like an upvoting system:
 
     - Products are linked to each choice. 
     - When a customer picks that choice, all linked products receive one upvote.
@@ -279,7 +279,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like an upvoting system:
+    The quiz works like an upvoting system:
 
     - Products are linked to each choice. 
     - When a customer picks that choice, all linked products receive one upvote.
@@ -293,7 +293,7 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     Once you are happy with the design, you can add products and collections to each question. 
 
-    Product Recommendation Quiz works like an upvoting system:
+    The quiz works like an upvoting system:
 
     - Products are linked to each choice. 
     - When a customer picks that choice, all linked products receive one upvote.
@@ -309,20 +309,20 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     This is where you can customize your quiz design.
 
-    1. Go to [`Design`](/reference/quiz-builder/quiz-design/). In the [Theme Gallery](/reference/quiz-builder/quiz-design/#my-themes) you will find ready-made themes to choose from, or you can [create your own](/reference/quiz-builder/quiz-design/#edit-theme).
-    2. Update fonts, button colors, and background images. 
-    3. Customize animations and transitions, or add your own custom CSS to match your store's branding. 
-    4. When you are done, click `Save` to apply your changes.
+    1. **Go to [`Design`](/reference/quiz-builder/quiz-design/).** The [Theme Gallery](/reference/quiz-builder/quiz-design/#my-themes) holds ready-made themes, or you can [create your own](/reference/quiz-builder/quiz-design/#edit-theme).
+    2. **Set the fonts, the button colors and the background images.**
+    3. **Adjust the animations and transitions, or add custom CSS** to match your store branding.
+    4. **Click `Save`.**
 
 
 === "Shopify (Legacy)"
 
     This is where you can customize your quiz design.
 
-    1. In the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.
-    2. Or create your own design by clicking [Edit](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu.
-    3. Edit the font, change the text colors, or add a background image. 
-    4. You can even add custom CSS code to make the quiz match your store's look and feel.
+    1. **Pick a theme from the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes).**
+    2. **Or click [`Edit`](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu to build your own.**
+    3. **Set the font, the text colors and the background image.**
+    4. **Add custom CSS** to match the quiz to your store.
 
     All the changes you make will be saved automatically.
 
@@ -330,10 +330,10 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     This is where you can customize your quiz design.
 
-    1. In the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.
-    2. Or create your own design by clicking [Edit](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu.
-    3. Edit the font, change the text colors, or add a background image. 
-    4. You can even add custom CSS code to make the quiz match your store's look and feel.
+    1. **Pick a theme from the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes).**
+    2. **Or click [`Edit`](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu to build your own.**
+    3. **Set the font, the text colors and the background image.**
+    4. **Add custom CSS** to match the quiz to your store.
 
     All the changes you make will be saved automatically.
 
@@ -341,10 +341,10 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     This is where you can customize your quiz design.
 
-    1. In the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.
-    2. Or create your own design by clicking [Edit](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu.
-    3. Edit the font, change the text colors, or add a background image. 
-    4. You can even add custom CSS code to make the quiz match your store's look and feel.
+    1. **Pick a theme from the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes).**
+    2. **Or click [`Edit`](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu to build your own.**
+    3. **Set the font, the text colors and the background image.**
+    4. **Add custom CSS** to match the quiz to your store.
 
     All the changes you make will be saved automatically.
 
@@ -352,10 +352,10 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     This is where you can customize your quiz design.
 
-    1. In the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.
-    2. Or create your own design by clicking [Edit](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu.
-    3. Edit the font, change the text colors, or add a background image. 
-    4. You can even add custom CSS code to make the quiz match your store's look and feel.
+    1. **Pick a theme from the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes).**
+    2. **Or click [`Edit`](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu to build your own.**
+    3. **Set the font, the text colors and the background image.**
+    4. **Add custom CSS** to match the quiz to your store.
 
     All the changes you make will be saved automatically.
 
@@ -363,10 +363,10 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     This is where you can customize your quiz design.
 
-    1. In the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.
-    2. Or create your own design by clicking [Edit](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu.
-    3. Edit the font, change the text colors, or add a background image. 
-    4. You can even add custom CSS code to make the quiz match your store's look and feel.
+    1. **Pick a theme from the [theme gallery](/reference/quiz-builder/quiz-design/#my-themes).**
+    2. **Or click [`Edit`](/reference/quiz-builder/quiz-design/#edit-theme) in the top menu to build your own.**
+    3. **Set the font, the text colors and the background image.**
+    4. **Add custom CSS** to match the quiz to your store.
 
     All the changes you make will be saved automatically.
 
@@ -382,27 +382,27 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
 === "Shopify (Legacy)"
 
-    - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
+    - Click the top-right `Publish` button to update the preview and the live quiz.
     - Click `Preview` to test the quiz.
 
 === "WooCommerce"
 
-    - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
+    - Click the top-right `Publish` button to update the preview and the live quiz.
     - Click `Preview` to test the quiz.
 
 === "Magento"
 
-    - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
+    - Click the top-right `Publish` button to update the preview and the live quiz.
     - Click `Preview` to test the quiz.
 
 === "BigCommerce"
 
-    - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
+    - Click the top-right `Publish` button to update the preview and the live quiz.
     - Click `Preview` to test the quiz.
 
 === "Standalone"
 
-    - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
+    - Click the top-right `Publish` button to update the preview and the live quiz.
     - Click `Preview` to test the quiz.
 
 ## [Share / publish](/reference/quiz-builder/share-publish/)
@@ -415,7 +415,8 @@ Before you start collecting leads and making sales, here is a quick tour of the 
     
     - Click on the publishing method cards to see instructions and extra settings.
 
-    The choice is yours. 
+    The choice is yours.
+
 
 
 === "Shopify (Legacy)"
@@ -426,7 +427,8 @@ Before you start collecting leads and making sales, here is a quick tour of the 
     - Click on the option tiles to see instructions and extra settings.
     - You can embed a link to the quiz in your website's menu, or add a `take the quiz` button. You can also place the quiz inline with your page content, or make it an automatic popup.
 
-    The choice is yours. 
+    The choice is yours.
+
 
 === "WooCommerce"
 
@@ -436,7 +438,8 @@ Before you start collecting leads and making sales, here is a quick tour of the 
     - Click on the option tiles to see instructions and extra settings.
     - You can embed a link to the quiz in your website's menu, or add a `take the quiz` button. You can also place the quiz inline with your page content, or make it an automatic popup.
 
-    The choice is yours. 
+    The choice is yours.
+
 
 === "Magento"
 
@@ -446,7 +449,8 @@ Before you start collecting leads and making sales, here is a quick tour of the 
     - Click on the option tiles to see instructions and extra settings.
     - You can embed a link to the quiz in your website's menu, or add a `take the quiz` button. You can also place the quiz inline with your page content, or make it an automatic popup.
 
-    The choice is yours. 
+    The choice is yours.
+
 
 === "BigCommerce"
 
@@ -456,7 +460,8 @@ Before you start collecting leads and making sales, here is a quick tour of the 
     - Click on the option tiles to see instructions and extra settings.
     - You can embed a link to the quiz in your website's menu, or add a `take the quiz` button. You can also place the quiz inline with your page content, or make it an automatic popup.
 
-    The choice is yours. 
+    The choice is yours.
+
 
 === "Standalone"
 
@@ -466,7 +471,8 @@ Before you start collecting leads and making sales, here is a quick tour of the 
     - Click on the option tiles to see instructions and extra settings.
     - You can embed a link to the quiz in your website's menu, or add a `take the quiz` button. You can also place the quiz inline with your page content, or make it an automatic popup.
 
-    The choice is yours. 
+    The choice is yours.
+
 
 ## [App settings](/reference/app-settings/)
 
@@ -477,13 +483,23 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
 === "Shopify (Legacy)"
 
+    [App settings](/reference/app-settings/) holds the settings that apply to the whole account rather than to one quiz. Set your contact email and notifications under `General`, and keep your product data current under `Catalogue`. Under [`SMTP`](/reference/app-settings/#smtp) you can send the quiz emails from your own address.
+
 === "WooCommerce"
+
+    [App settings](/reference/app-settings/) holds the settings that apply to the whole account rather than to one quiz. Set your contact email and notifications under `General`, and keep your product data current under `Catalogue`. Under [`SMTP`](/reference/app-settings/#smtp) you can send the quiz emails from your own address.
 
 === "Magento"
 
+    [App settings](/reference/app-settings/) holds the settings that apply to the whole account rather than to one quiz. Set your contact email and notifications under `General`, and keep your product data current under `Catalogue`. Under [`SMTP`](/reference/app-settings/#smtp) you can send the quiz emails from your own address.
+
 === "BigCommerce"
 
+    [App settings](/reference/app-settings/) holds the settings that apply to the whole account rather than to one quiz. Set your contact email and notifications under `General`, and keep your product data current under `Catalogue`. Under [`SMTP`](/reference/app-settings/#smtp) you can send the quiz emails from your own address.
+
 === "Standalone"
+
+    [App settings](/reference/app-settings/) holds the settings that apply to the whole account rather than to one quiz. Set your contact email and notifications under `General`, and keep your product data current under `Catalogue`. Under [`SMTP`](/reference/app-settings/#smtp) you can send the quiz emails from your own address.
 
 ## [Connect / integrations](/reference/quiz-builder/connect-integrations/)
 
@@ -499,35 +515,35 @@ Before you start collecting leads and making sales, here is a quick tour of the 
 
     To do more with your quiz, connect the RevenueHunt app to other tools.
 
-    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
+    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lists every integration. 
     - To set this up, select a platform and click `connect`. 
 
 === "WooCommerce"
 
     To do more with your quiz, connect the RevenueHunt app to other tools.
 
-    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
+    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lists every integration. 
     - To set this up, select a platform and click `connect`. 
 
 === "Magento"
 
     To do more with your quiz, connect the RevenueHunt app to other tools.
 
-    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
+    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lists every integration. 
     - To set this up, select a platform and click `connect`. 
 
 === "BigCommerce"
 
     To do more with your quiz, connect the RevenueHunt app to other tools.
 
-    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
+    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lists every integration. 
     - To set this up, select a platform and click `connect`. 
 
 === "Standalone"
 
     To do more with your quiz, connect the RevenueHunt app to other tools.
 
-    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
+    - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lists every integration. 
     - To set this up, select a platform and click `connect`. 
 
 ## [Metrics / analytics](/reference/quiz-builder/metrics/)

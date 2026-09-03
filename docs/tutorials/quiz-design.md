@@ -28,7 +28,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 === "Shopify (Legacy)"
 
-    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
+    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide covers every place where you can customize your quiz design.
 
     !!! info "What you will learn"
 
@@ -42,7 +42,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "WooCommerce"
 
 
-    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
+    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide covers every place where you can customize your quiz design.
 
     !!! info "What you will learn"
 
@@ -55,7 +55,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "Magento"
 
 
-    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
+    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide covers every place where you can customize your quiz design.
 
     !!! info "What you will learn"
 
@@ -69,7 +69,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "BigCommerce"
 
 
-    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
+    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide covers every place where you can customize your quiz design.
 
     !!! info "What you will learn"
 
@@ -82,7 +82,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "Standalone"
 
 
-    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
+    With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide covers every place where you can customize your quiz design.
 
     !!! info "What you will learn"
 
@@ -191,31 +191,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Access the [Quiz design](/reference/quiz-builder/quiz-design/) tab by clicking `Customize` on your quiz.
     - Choose from pre-designed **color schemes** or customize your own.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png){width="300"}
+        ![The Color scheme picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png){width="300"}
 
     - Change **fonts** for headings and body text, or inherit from your store theme.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png){width="300"}
+        ![The font settings in Quiz design](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png){width="300"}
 
     - Customize accent **colors** for texts, buttons and inputs using a color palette or hex codes.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors.png){width="300"}
+        ![The color settings in Quiz design](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors.png){width="300"}
 
     - Set a global **background** with a solid color or upload an image, adjusting opacity for readability.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png){width="300"}
+        ![The background settings in Quiz design](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png){width="300"}
 
     - Modify **navigation** bar color, progress bar display.
 
-        ![howto_shopifyv2_quizdesign_basic_navigation](/images/howto_shopifyv2_quizdesign_basic_navigation.png){width="300"}
+        ![The navigation settings in Quiz design](/images/howto_shopifyv2_quizdesign_basic_navigation.png){width="300"}
 
     - Modify slide transitions (up/down or left/right).
 
-        ![manual_shopifyv2_quizdesign_transitions](/images/manual_shopifyv2_quizdesign_transitions.png){width="300"}
+        ![The transition settings in Quiz design](/images/manual_shopifyv2_quizdesign_transitions.png){width="300"}
 
     - Preview & Inspector: Switch between questions and results, desktop and mobile layouts, and activate the inspector to test interactions.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png){width="300"}
+        ![The quiz preview panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png){width="300"}
 
     - Remember to click `Save` to save your changes.
 
@@ -230,11 +230,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Open the Quiz Builder and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     - Customize the look. Start from a pre-designed theme in **My Themes** or make your own.
 
-        ![manual_quizbuilder_quizdesign_mythemes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
+        ![The My Themes gallery in Quiz Design](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
 
     - **Edit Theme**. Pick a color palette, choose fonts, and add a default background image.
 
-        ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
+        ![The Edit Theme panel](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
 
     **Theme editor fields**
 
@@ -250,7 +250,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Set a global **background** color or upload a background image (recommended max size 1000×1000px, ≤2 MB). Once added, extra options for positioning and alignment will appear.
 
-        ![how_to_improve_image_quality_backgroudimagequiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
+        ![A background image set for the whole quiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
 
     - Use the **Background Opacity** slider to fade the image slightly and keep text readable.
 
@@ -270,11 +270,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Open the Quiz Builder and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     - Customize the look. Start from a pre-designed theme in **My Themes** or make your own.
 
-        ![manual_quizbuilder_quizdesign_mythemes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
+        ![The My Themes gallery in Quiz Design](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
 
     - **Edit Theme**. Pick a color palette, choose fonts, and add a default background image.
 
-        ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
+        ![The Edit Theme panel](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
 
     **Theme editor fields**
 
@@ -290,7 +290,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Set a global **background** color or upload a background image (recommended max size 1000×1000px, ≤2 MB). Once added, extra options for positioning and alignment will appear.
 
-        ![how_to_improve_image_quality_backgroudimagequiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
+        ![A background image set for the whole quiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
 
     - Use the **Background Opacity** slider to fade the image slightly and keep text readable.
 
@@ -311,11 +311,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Open the Quiz Builder and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     - Customize the look. Start from a pre-designed theme in **My Themes** or make your own.
 
-        ![manual_quizbuilder_quizdesign_mythemes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
+        ![The My Themes gallery in Quiz Design](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
 
     - **Edit Theme**. Pick a color palette, choose fonts, and add a default background image.
 
-        ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
+        ![The Edit Theme panel](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
 
     **Theme editor fields**
 
@@ -331,7 +331,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Set a global **background** color or upload a background image (recommended max size 1000×1000px, ≤2 MB). Once added, extra options for positioning and alignment will appear.
 
-        ![how_to_improve_image_quality_backgroudimagequiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
+        ![A background image set for the whole quiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
 
     - Use the **Background Opacity** slider to fade the image slightly and keep text readable.
 
@@ -351,11 +351,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Open the Quiz Builder and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     - Customize the look. Start from a pre-designed theme in **My Themes** or make your own.
 
-        ![manual_quizbuilder_quizdesign_mythemes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
+        ![The My Themes gallery in Quiz Design](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
 
     - **Edit Theme**. Pick a color palette, choose fonts, and add a default background image.
 
-        ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
+        ![The Edit Theme panel](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
 
     **Theme editor fields**
 
@@ -371,7 +371,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Set a global **background** color or upload a background image (recommended max size 1000×1000px, ≤2 MB). Once added, extra options for positioning and alignment will appear.
 
-        ![how_to_improve_image_quality_backgroudimagequiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
+        ![A background image set for the whole quiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
 
     - Use the **Background Opacity** slider to fade the image slightly and keep text readable.
 
@@ -391,11 +391,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Open the Quiz Builder and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     - Customize the look. Start from a pre-designed theme in **My Themes** or make your own.
 
-        ![manual_quizbuilder_quizdesign_mythemes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
+        ![The My Themes gallery in Quiz Design](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
 
     - **Edit Theme**. Pick a color palette, choose fonts, and add a default background image.
 
-        ![manual_quizbuilder_quizdesign_edittheme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
+        ![The Edit Theme panel](/images/manual_quizbuilder_quizdesign_edittheme.png){width="300"}
 
     **Theme editor fields**
 
@@ -411,7 +411,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Set a global **background** color or upload a background image (recommended max size 1000×1000px, ≤2 MB). Once added, extra options for positioning and alignment will appear.
 
-        ![how_to_improve_image_quality_backgroudimagequiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
+        ![A background image set for the whole quiz](/images/how_to_improve_image_quality_backgroudimagequiz.png)
 
     - Use the **Background Opacity** slider to fade the image slightly and keep text readable.
 
@@ -429,7 +429,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Use the `Advanced` tab for adding custom CSS that applies to the entire quiz.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png){width="300"}
+        ![The Advanced tab in Quiz design, where custom CSS goes](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png){width="300"}
 
 
     !!! tip "Tips for using CSS in the quiz:"
@@ -561,19 +561,19 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Design individual slides in the [Questions](/reference/quiz-builder/questions/) tab by adding blocks (text, images, videos, answer choices).
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png){width="300"}
+        ![The block types you can add to a question](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png){width="300"}
 
     ### Question settings
 
     - Open [question settings](/reference/quiz-builder/questions/#question-settings) by clicking on the question.
     - Upload a **featured image** for each question and chose a `background` or a `split layout` as well as alignment options for mobile.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
+        ![The split image option in the question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
 
     - Each question supports **custom CSS** or **JavaScript** for independent styling.
     - Advanced settings allow for features like auto-advancing questions.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png){width="300"}
+        ![The advanced question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png){width="300"}
 
     ### Block settings
 
@@ -582,7 +582,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - Customize each block within a question:
     - **Text blocks**: format text, add links, recall previous answers.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
+        ![The settings for a heading block](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
 
     - **Image blocks**: resize and align graphics.
     - **Picture-choice blocks**: select image ratios and mobile layout options (1-2 per row or carousel).
@@ -607,13 +607,13 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! info "Show description"
 
-            ![tutorial_legacy_question_description_example](/images/tutorial_legacy_question_description_example.png)
+            ![A question description shown under the question title](/images/tutorial_legacy_question_description_example.png)
 
             A description field lets you add extra text to the slide. You can style it with [Markdown](/how-to-guides/use-markdown/), embed images and videos, or use an [information recall](/how-to-guides/use-information-recalls/) to show the customer's earlier answers.
 
     - **Image** - Click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
 
-        ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     - **Video** - Click `Add` to upload a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
 
@@ -621,7 +621,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! example
 
-            ![how_to_join_slides_slides_joined](/images/how_to_join_slides_slides_joined.png)
+            ![Two questions joined onto one slide](/images/how_to_join_slides_slides_joined.png)
 
     - **Custom JS Code** - Click `Add` to open a JavaScript console. It lets you add custom JavaScript to the quiz question.
 
@@ -646,18 +646,18 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
 
-        ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     2. **Embed via Markdown** in text blocks such as question description or content blocks on the results page:
 
         !!! example "Markdown"
 
             - **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
             - **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -672,31 +672,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     !!! example "Using Markdown"
 
         **Headings**
-        ```
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
 
         **Text styles**
-        ```
+        ```markdown
         *italic*
         **bold**
         ***bold & italic***
         ```
 
         **Links**
-        ```
+        ```markdown
         [link title](https://www.example.com)
         ```
 
         **Images**
-        ```
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
 
         **Videos**
-        ```
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -709,7 +709,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     A Picture Choice question lets you add an image to each choice in a multiple-choice question.
 
-    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
+    ![Images used as the choices in a picture question](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
 
@@ -749,13 +749,13 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! info "Show description"
 
-            ![tutorial_legacy_question_description_example](/images/tutorial_legacy_question_description_example.png)
+            ![A question description shown under the question title](/images/tutorial_legacy_question_description_example.png)
 
             A description field lets you add extra text to the slide. You can style it with [Markdown](/how-to-guides/use-markdown/), embed images and videos, or use an [information recall](/how-to-guides/use-information-recalls/) to show the customer's earlier answers.
 
     - **Image** - Click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
 
-        ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     - **Video** - Click `Add` to upload a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
 
@@ -763,7 +763,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! example
 
-            ![how_to_join_slides_slides_joined](/images/how_to_join_slides_slides_joined.png)
+            ![Two questions joined onto one slide](/images/how_to_join_slides_slides_joined.png)
 
     - **Custom JS Code** - Click `Add` to open a JavaScript console. It lets you add custom JavaScript to the quiz question.
 
@@ -788,18 +788,18 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
 
-        ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     2. **Embed via Markdown** in text blocks such as question description or content blocks on the results page:
 
         !!! example "Markdown"
 
             - **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
             - **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -814,31 +814,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     !!! example "Using Markdown"
 
         **Headings**
-        ```
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
 
         **Text styles**
-        ```
+        ```markdown
         *italic*
         **bold**
         ***bold & italic***
         ```
 
         **Links**
-        ```
+        ```markdown
         [link title](https://www.example.com)
         ```
 
         **Images**
-        ```
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
 
         **Videos**
-        ```
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -851,7 +851,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     A Picture Choice question lets you add an image to each choice in a multiple-choice question.
 
-    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
+    ![Images used as the choices in a picture question](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
 
@@ -892,13 +892,13 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! info "Show description"
 
-            ![tutorial_legacy_question_description_example](/images/tutorial_legacy_question_description_example.png)
+            ![A question description shown under the question title](/images/tutorial_legacy_question_description_example.png)
 
             A description field lets you add extra text to the slide. You can style it with [Markdown](/how-to-guides/use-markdown/), embed images and videos, or use an [information recall](/how-to-guides/use-information-recalls/) to show the customer's earlier answers.
 
     - **Image** - Click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
 
-        ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     - **Video** - Click `Add` to upload a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
 
@@ -906,7 +906,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! example
 
-            ![how_to_join_slides_slides_joined](/images/how_to_join_slides_slides_joined.png)
+            ![Two questions joined onto one slide](/images/how_to_join_slides_slides_joined.png)
 
     - **Custom JS Code** - Click `Add` to open a JavaScript console. It lets you add custom JavaScript to the quiz question.
 
@@ -931,18 +931,18 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
 
-        ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     2. **Embed via Markdown** in text blocks such as question description or content blocks on the results page:
 
         !!! example "Markdown"
 
             - **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
             - **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -957,31 +957,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     !!! example "Using Markdown"
 
         **Headings**
-        ```
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
 
         **Text styles**
-        ```
+        ```markdown
         *italic*
         **bold**
         ***bold & italic***
         ```
 
         **Links**
-        ```
+        ```markdown
         [link title](https://www.example.com)
         ```
 
         **Images**
-        ```
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
 
         **Videos**
-        ```
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -994,7 +994,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     A Picture Choice question lets you add an image to each choice in a multiple-choice question.
 
-    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
+    ![Images used as the choices in a picture question](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
 
@@ -1034,13 +1034,13 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! info "Show description"
 
-            ![tutorial_legacy_question_description_example](/images/tutorial_legacy_question_description_example.png)
+            ![A question description shown under the question title](/images/tutorial_legacy_question_description_example.png)
 
             A description field lets you add extra text to the slide. You can style it with [Markdown](/how-to-guides/use-markdown/), embed images and videos, or use an [information recall](/how-to-guides/use-information-recalls/) to show the customer's earlier answers.
 
     - **Image** - Click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
 
-        ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     - **Video** - Click `Add` to upload a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
 
@@ -1048,7 +1048,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! example
 
-            ![how_to_join_slides_slides_joined](/images/how_to_join_slides_slides_joined.png)
+            ![Two questions joined onto one slide](/images/how_to_join_slides_slides_joined.png)
 
     - **Custom JS Code** - Click `Add` to open a JavaScript console. It lets you add custom JavaScript to the quiz question.
 
@@ -1073,18 +1073,18 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
 
-        ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     2. **Embed via Markdown** in text blocks such as question description or content blocks on the results page:
 
         !!! example "Markdown"
 
             - **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
             - **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1099,31 +1099,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     !!! example "Using Markdown"
 
         **Headings**
-        ```
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
 
         **Text styles**
-        ```
+        ```markdown
         *italic*
         **bold**
         ***bold & italic***
         ```
 
         **Links**
-        ```
+        ```markdown
         [link title](https://www.example.com)
         ```
 
         **Images**
-        ```
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
 
         **Videos**
-        ```
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -1136,7 +1136,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     A Picture Choice question lets you add an image to each choice in a multiple-choice question.
 
-    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
+    ![Images used as the choices in a picture question](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
 
@@ -1176,13 +1176,13 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! info "Show description"
 
-            ![tutorial_legacy_question_description_example](/images/tutorial_legacy_question_description_example.png)
+            ![A question description shown under the question title](/images/tutorial_legacy_question_description_example.png)
 
             A description field lets you add extra text to the slide. You can style it with [Markdown](/how-to-guides/use-markdown/), embed images and videos, or use an [information recall](/how-to-guides/use-information-recalls/) to show the customer's earlier answers.
 
     - **Image** - Click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated. You can choose the image position and adjust the opacity.
 
-        ![how_to_improve_image_quality_backgroudimagequestion](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     - **Video** - Click `Add` to upload a featured video to the question. An extra menu appears once activated. You can choose the video position and adjust the opacity.
 
@@ -1190,7 +1190,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         !!! example
 
-            ![how_to_join_slides_slides_joined](/images/how_to_join_slides_slides_joined.png)
+            ![Two questions joined onto one slide](/images/how_to_join_slides_slides_joined.png)
 
     - **Custom JS Code** - Click `Add` to open a JavaScript console. It lets you add custom JavaScript to the quiz question.
 
@@ -1215,18 +1215,18 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     1. **Per-question media** in [**Question Settings**](/reference/quiz-builder/questions/#question-settings). Upload one image per slide, as a background or a split, or add a short **video** block.
 
-        ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_backgroudimagequestion.png)
+        ![A background image set on one question](/images/how_to_improve_image_quality_backgroudimagequestion.png)
 
     2. **Embed via Markdown** in text blocks such as question description or content blocks on the results page:
 
         !!! example "Markdown"
 
             - **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
             - **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1241,31 +1241,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     !!! example "Using Markdown"
 
         **Headings**
-        ```
+        ```markdown
         # H1
         ## H2
         ### H3
         ```
 
         **Text styles**
-        ```
+        ```markdown
         *italic*
         **bold**
         ***bold & italic***
         ```
 
         **Links**
-        ```
+        ```markdown
         [link title](https://www.example.com)
         ```
 
         **Images**
-        ```
+        ```markdown
         ![alt text](https://www.example.com/path/to/image.jpg)
         ```
 
         **Videos**
-        ```
+        ```markdown
         ![](https://youtu.be/0_tO8HgJiLQ)
         ```
 
@@ -1278,7 +1278,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     A Picture Choice question lets you add an image to each choice in a multiple-choice question.
 
-    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
+    ![Images used as the choices in a picture question](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
 
@@ -1312,17 +1312,17 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     You can add text, images, videos, product blocks, buttons and custom HTML. Each section and block has its own settings, like the Questions tab, so you can style and align the content.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
+    ![The block types you can add to a results page](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
     - Each block has design settings for styling and layout adjustments.
 
     In the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings), you can apply a dedicated background image, or inject CSS and JavaScript that only affect this page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png){width="300"}
+    ![The results page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png){width="300"}
 
     The most important part of this tab is the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png){width="300"}
+    ![The settings for a product block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png){width="300"}
 
     Here, you decide how recommended products appear. You can:
 
@@ -1344,7 +1344,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
-    ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
+    ![The Add block menu on the results page](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
     Each block has its own settings which you can use by clicking on the `wrench icon` in the bottom-right corner.
 
@@ -1356,31 +1356,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
             **Headings**
-            ```
+            ```markdown
             # H1
             ## H2
             ### H3
             ```
 
             **Text styles**
-            ```
+            ```markdown
             *italic*
             **bold**
             ***bold & italic***
             ```
 
             **Links**
-            ```
+            ```markdown
             [link title](https://www.example.com)
             ```
 
             **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
 
             **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1396,15 +1396,15 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - In the Basic Settings section, you can add a **dedicated background image** for the results page.
 
-        ![manual_quizbuilder_resultspage_settings_basic_stylesettings](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
+        ![The style settings for a results page block](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
 
     - In the Basic Settings section, **Individual Product Settings** lets you show or hide product images, prices and vendors.
 
-        ![manual_quizbuilder_resultspage_settings_basic_individualproductsettings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
+        ![The settings for an individual product on the results page](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
 
     - In the Advanced Settings section, you can inject **Custom JavaScript** that affects only the results page.
 
-        ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
+        ![The advanced settings for the results page](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
 
 
     !!! tip "Need a fully custom layout?"
@@ -1421,7 +1421,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
-    ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
+    ![The Add block menu on the results page](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
     Each block has its own settings which you can use by clicking on the `wrench icon` in the bottom-right corner.
 
@@ -1433,31 +1433,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
             **Headings**
-            ```
+            ```markdown
             # H1
             ## H2
             ### H3
             ```
 
             **Text styles**
-            ```
+            ```markdown
             *italic*
             **bold**
             ***bold & italic***
             ```
 
             **Links**
-            ```
+            ```markdown
             [link title](https://www.example.com)
             ```
 
             **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
 
             **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1473,15 +1473,15 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - In the Basic Settings section, you can add a **dedicated background image** for the results page.
 
-        ![manual_quizbuilder_resultspage_settings_basic_stylesettings](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
+        ![The style settings for a results page block](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
 
     - In the Basic Settings section, **Individual Product Settings** lets you show or hide product images, prices and vendors.
 
-        ![manual_quizbuilder_resultspage_settings_basic_individualproductsettings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
+        ![The settings for an individual product on the results page](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
 
     - In the Advanced Settings section, you can inject **Custom JavaScript** that affects only the results page.
 
-        ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
+        ![The advanced settings for the results page](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
 
 
     !!! tip "Need a fully custom layout?"
@@ -1499,7 +1499,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
-    ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
+    ![The Add block menu on the results page](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
     Each block has its own settings which you can use by clicking on the `wrench icon` in the bottom-right corner.
 
@@ -1511,31 +1511,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
             **Headings**
-            ```
+            ```markdown
             # H1
             ## H2
             ### H3
             ```
 
             **Text styles**
-            ```
+            ```markdown
             *italic*
             **bold**
             ***bold & italic***
             ```
 
             **Links**
-            ```
+            ```markdown
             [link title](https://www.example.com)
             ```
 
             **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
 
             **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1551,15 +1551,15 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - In the Basic Settings section, you can add a **dedicated background image** for the results page.
 
-        ![manual_quizbuilder_resultspage_settings_basic_stylesettings](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
+        ![The style settings for a results page block](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
 
     - In the Basic Settings section, **Individual Product Settings** lets you show or hide product images, prices and vendors.
 
-        ![manual_quizbuilder_resultspage_settings_basic_individualproductsettings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
+        ![The settings for an individual product on the results page](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
 
     - In the Advanced Settings section, you can inject **Custom JavaScript** that affects only the results page.
 
-        ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
+        ![The advanced settings for the results page](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
 
 
     !!! tip "Need a fully custom layout?"
@@ -1577,7 +1577,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
-    ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
+    ![The Add block menu on the results page](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
     Each block has its own settings which you can use by clicking on the `wrench icon` in the bottom-right corner.
 
@@ -1589,31 +1589,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
             **Headings**
-            ```
+            ```markdown
             # H1
             ## H2
             ### H3
             ```
 
             **Text styles**
-            ```
+            ```markdown
             *italic*
             **bold**
             ***bold & italic***
             ```
 
             **Links**
-            ```
+            ```markdown
             [link title](https://www.example.com)
             ```
 
             **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
 
             **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1629,15 +1629,15 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - In the Basic Settings section, you can add a **dedicated background image** for the results page.
 
-        ![manual_quizbuilder_resultspage_settings_basic_stylesettings](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
+        ![The style settings for a results page block](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
 
     - In the Basic Settings section, **Individual Product Settings** lets you show or hide product images, prices and vendors.
 
-        ![manual_quizbuilder_resultspage_settings_basic_individualproductsettings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
+        ![The settings for an individual product on the results page](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
 
     - In the Advanced Settings section, you can inject **Custom JavaScript** that affects only the results page.
 
-        ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
+        ![The advanced settings for the results page](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
 
 
     !!! tip "Need a fully custom layout?"
@@ -1655,7 +1655,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
-    ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
+    ![The Add block menu on the results page](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
     Each block has its own settings which you can use by clicking on the `wrench icon` in the bottom-right corner.
 
@@ -1667,31 +1667,31 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
             **Headings**
-            ```
+            ```markdown
             # H1
             ## H2
             ### H3
             ```
 
             **Text styles**
-            ```
+            ```markdown
             *italic*
             **bold**
             ***bold & italic***
             ```
 
             **Links**
-            ```
+            ```markdown
             [link title](https://www.example.com)
             ```
 
             **Images**
-            ```
+            ```markdown
             ![alt text](https://www.example.com/path/to/image.jpg)
             ```
 
             **Videos**
-            ```
+            ```markdown
             ![](https://youtu.be/0_tO8HgJiLQ)
             ```
 
@@ -1707,15 +1707,15 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - In the Basic Settings section, you can add a **dedicated background image** for the results page.
 
-        ![manual_quizbuilder_resultspage_settings_basic_stylesettings](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
+        ![The style settings for a results page block](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="300"}
 
     - In the Basic Settings section, **Individual Product Settings** lets you show or hide product images, prices and vendors.
 
-        ![manual_quizbuilder_resultspage_settings_basic_individualproductsettings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
+        ![The settings for an individual product on the results page](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="300"}
 
     - In the Advanced Settings section, you can inject **Custom JavaScript** that affects only the results page.
 
-        ![manual_quizbuilder_resultspage_settings_advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
+        ![The advanced settings for the results page](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="300"}
 
 
     !!! tip "Need a fully custom layout?"

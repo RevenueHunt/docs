@@ -221,8 +221,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email-address).
 
-    1. In the [Quiz builder](/reference/quiz-builder/) tab, click `+ Add Question` and select the email question type. You can also click `+ Add Block` to add an email block to an existing slide.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **In the [Quiz builder](/reference/quiz-builder/) tab, click `+ Add Question` and select the email question type.** You can also click `+ Add Block` to add an email block to an existing slide.
+        You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) on the same slide.
 
         !!! example "Example"
 
@@ -233,8 +233,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an `email question`.
 
-    1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.**
+        You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) on the same slide.
 
         !!! example "Example"
 
@@ -246,8 +246,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an `email question`.
 
-    1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.**
+        You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) on the same slide.
 
         !!! example "Example"
 
@@ -259,8 +259,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an `email question`.
 
-    1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.**
+        You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) on the same slide.
 
         !!! example "Example"
 
@@ -273,8 +273,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an `email question`.
 
-    1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.**
+        You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) on the same slide.
 
         !!! example "Example"
 
@@ -286,8 +286,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an `email question`.
 
-    1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
-    2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.**
+        You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) on the same slide.
 
 
         !!! example "Example"
@@ -302,24 +302,24 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To connect Klaviyo, authenticate your Klaviyo account over OAuth. No API keys are needed.
 
-    1. Open [Quiz settings](/reference/quiz-builder/quiz-settings/).
-    2. Go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab and scroll down to Klaviyo.
-    3. Click `Connect`. Klaviyo opens an authentication page.
-    4. Log in to Klaviyo, or select your account if you are already logged in, and click `Allow` to grant access.
-    5. You return to Quiz settings, where Klaviyo now shows a `Connected` badge.
+    1. **Open [Quiz settings](/reference/quiz-builder/quiz-settings/).**
+    2. **Go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab and scroll down to Klaviyo.**
+    3. **Click `Connect`.** Klaviyo opens an authentication page.
+    4. **Log in to Klaviyo, or select your account if you are already logged in, and click `Allow` to grant access.**
+    5. **You return to Quiz settings, where Klaviyo now shows a `Connected` badge.**
 
         !!! info "Account-level connection"
             Connecting Klaviyo over OAuth links your whole RevenueHunt account, so every quiz in it gains the option to send leads to Klaviyo Profiles. This does **not** happen on its own. Enable it for each quiz, as the next steps show.
 
-    6. For each quiz you want to send data from, open that quiz's [Quiz settings](/reference/quiz-builder/quiz-settings/). Find the Klaviyo section and check `Send Quiz Leads to Klaviyo Profiles`.
-    7. Save your changes with the top-right `Save` button.
+    6. **For each quiz you want to send data from, open that quiz's [Quiz settings](/reference/quiz-builder/quiz-settings/).** Find the Klaviyo section and check `Send Quiz Leads to Klaviyo Profiles`.
+    7. **Save your changes with the top-right `Save` button.**
 
         !!! tip
             To stop one quiz sending data to Klaviyo, uncheck that box and save. You do not need to disconnect Klaviyo.
 
-    8. To test the connection, click `Preview` and complete the quiz with a test name and email. Use an email address that is not already in your Klaviyo account.
-    9. To verify the test, open `Klaviyo > Audience > Profiles` and search for the email address you used. It may take a moment to appear, so refresh the page if needed.
-    10. You should see the new profile with custom quiz properties attached, such as quiz answers and recommended products. If the profile was added, the integration is working.
+    8. **To test the connection, click `Preview` and complete the quiz with a test name and email.** Use an email address that is not already in your Klaviyo account.
+    9. **To verify the test, open `Klaviyo > Audience > Profiles` and search for the email address you used.** It may take a moment to appear, so refresh the page if needed.
+    10. **You should see the new profile with custom quiz properties attached, such as quiz answers and recommended products.** If the profile was added, the integration is working.
 
         !!! tip
             If no new profile appears in Klaviyo Profiles, check that `Send Quiz Leads to Klaviyo Profiles` is enabled in that quiz's settings, and that Klaviyo still shows the `Connected` badge in Integrations.
@@ -329,19 +329,19 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify (Legacy)"
 
-    To connect the quiz to Klaviyo, provide your Klaviyo **Public API Key**.
+    To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
 
-    1. To find your Public Key login to your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-    3. Navigate back to the RevenueHunt app.
-    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
-    5. Paste your Public API Key and `save`.
-    6. Publish the changes with the top-right `Publish` button.
-    7. Take the quiz all the way to the results page. Use an email address that is not already in your Klaviyo account.
-    8. To verify the test, open `Klaviyo > Profiles` section.
-    9. If a new profile was added the integration was successful.
+    1. **To find your Public Key login to your Klaviyo account.**
+    2. **In account `Settings` open the `API Keys` tab and copy the public API Key.**
+    3. **Navigate back to the RevenueHunt app.**
+    4. **In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.**
+    5. **Paste your Public API Key and `save`.**
+    6. **Publish the changes with the top-right `Publish` button.**
+    7. **Take the quiz all the way to the results page.** Use an email address that is not already in your Klaviyo account.
+    8. **To verify the test, open `Klaviyo > Profiles` section.**
+    9. **If a new profile was added the integration was successful.**
 
         !!! tip
             If no new profile appears in Klaviyo Profiles, check your Public API Key and repeat the process.
@@ -350,19 +350,19 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "WooCommerce"
 
-    To connect the quiz to Klaviyo, provide your Klaviyo **Public API Key**.
+    To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
 
-    1. To find your Public Key login to your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-    3. Navigate back to the RevenueHunt app.
-    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
-    5. Paste your Public API Key and `save`.
-    6. Publish the changes with the top-right `Publish` button.
-    7. Take the quiz all the way to the results page. Use an email address that is not already in your Klaviyo account.
-    8. To verify the test, open `Klaviyo > Profiles` section.
-    9. If a new profile was added the integration was successful.
+    1. **To find your Public Key login to your Klaviyo account.**
+    2. **In account `Settings` open the `API Keys` tab and copy the public API Key.**
+    3. **Navigate back to the RevenueHunt app.**
+    4. **In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.**
+    5. **Paste your Public API Key and `save`.**
+    6. **Publish the changes with the top-right `Publish` button.**
+    7. **Take the quiz all the way to the results page.** Use an email address that is not already in your Klaviyo account.
+    8. **To verify the test, open `Klaviyo > Profiles` section.**
+    9. **If a new profile was added the integration was successful.**
 
         !!! tip
             If no new profile appears in Klaviyo Profiles, check your Public API Key and repeat the process.
@@ -371,19 +371,19 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Magento"
 
-    To connect the quiz to Klaviyo, provide your Klaviyo **Public API Key**.
+    To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
 
-    1. To find your Public Key login to your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-    3. Navigate back to the RevenueHunt app.
-    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
-    5. Paste your Public API Key and `save`.
-    6. Publish the changes with the top-right `Publish` button.
-    7. Take the quiz all the way to the results page. Use an email address that is not already in your Klaviyo account.
-    8. To verify the test, open `Klaviyo > Profiles` section.
-    9. If a new profile was added the integration was successful.
+    1. **To find your Public Key login to your Klaviyo account.**
+    2. **In account `Settings` open the `API Keys` tab and copy the public API Key.**
+    3. **Navigate back to the RevenueHunt app.**
+    4. **In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.**
+    5. **Paste your Public API Key and `save`.**
+    6. **Publish the changes with the top-right `Publish` button.**
+    7. **Take the quiz all the way to the results page.** Use an email address that is not already in your Klaviyo account.
+    8. **To verify the test, open `Klaviyo > Profiles` section.**
+    9. **If a new profile was added the integration was successful.**
 
         !!! tip
             If no new profile appears in Klaviyo Profiles, check your Public API Key and repeat the process.
@@ -392,19 +392,19 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "BigCommerce"
 
-    To connect the quiz to Klaviyo, provide your Klaviyo **Public API Key**.
+    To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
 
-    1. To find your Public Key login to your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-    3. Navigate back to the RevenueHunt app.
-    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
-    5. Paste your Public API Key and `save`.
-    6. Publish the changes with the top-right `Publish` button.
-    7. Take the quiz all the way to the results page. Use an email address that is not already in your Klaviyo account.
-    8. To verify the test, open `Klaviyo > Profiles` section.
-    9. If a new profile was added the integration was successful.
+    1. **To find your Public Key login to your Klaviyo account.**
+    2. **In account `Settings` open the `API Keys` tab and copy the public API Key.**
+    3. **Navigate back to the RevenueHunt app.**
+    4. **In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.**
+    5. **Paste your Public API Key and `save`.**
+    6. **Publish the changes with the top-right `Publish` button.**
+    7. **Take the quiz all the way to the results page.** Use an email address that is not already in your Klaviyo account.
+    8. **To verify the test, open `Klaviyo > Profiles` section.**
+    9. **If a new profile was added the integration was successful.**
 
         !!! tip
             If no new profile appears in Klaviyo Profiles, check your Public API Key and repeat the process.
@@ -413,19 +413,19 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Standalone"
 
-    To connect the quiz to Klaviyo, provide your Klaviyo **Public API Key**.
+    To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
 
-    1. To find your Public Key login to your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-    3. Navigate back to the RevenueHunt app.
-    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
-    5. Paste your Public API Key and `save`.
-    6. Publish the changes with the top-right `Publish` button.
-    7. Take the quiz all the way to the results page. Use an email address that is not already in your Klaviyo account.
-    8. To verify the test, open `Klaviyo > Profiles` section.
-    9. If a new profile was added the integration was successful.
+    1. **To find your Public Key login to your Klaviyo account.**
+    2. **In account `Settings` open the `API Keys` tab and copy the public API Key.**
+    3. **Navigate back to the RevenueHunt app.**
+    4. **In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.**
+    5. **Paste your Public API Key and `save`.**
+    6. **Publish the changes with the top-right `Publish` button.**
+    7. **Take the quiz all the way to the results page.** Use an email address that is not already in your Klaviyo account.
+    8. **To verify the test, open `Klaviyo > Profiles` section.**
+    9. **If a new profile was added the integration was successful.**
 
         !!! tip
             If no new profile appears in Klaviyo Profiles, check your Public API Key and repeat the process.
@@ -436,11 +436,11 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
-    All quiz contacts can be grouped into a **segment** in Klaviyo.
+    All quiz contacts can be grouped into a Klaviyo segment.
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
+    1. **To create a new segment in Klaviyo go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment, then set up its definition.**
+    3. **Set the definition to `Properties about someone`, then add a property that only quiz profiles carry.** Any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) the quiz sends to Klaviyo will do.
 
         !!! example "Example"
 
@@ -448,73 +448,73 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
             - If the `ANSWERS_BY_BLOCK-QuizID` property is not in the dropdown, take a test quiz and try again.
 
-    4. Segment definition: As segment definition set up a rule that follows this format: `Custom property from the Quiz` `is set` Type: `text`.
+    4. **Build the rule as `Custom property from the Quiz` `is set`, Type `text`.**
 
         !!! example "Example"
 
             - `ANSWERS_BY_BLOCK-QuizID` `is set` Type: `text`.
 
-    5. Click `Create a segment` and wait for Klaviyo to load all the contacts that match the segment definition. This may take a few minutes.
-    6. Once Klaviyo finishes loading, every profile that matches the segment definition is added. New contacts from the quiz are added on their own from then on.
+    5. **Click `Create a segment`.** Klaviyo then loads every contact that matches the definition, which can take a few minutes.
+    6. **Check the segment once it finishes loading.** Every profile that already matches is in it. New contacts from the quiz join it on their own from then on.
 
 
 === "Shopify (Legacy)"
 
-    All quiz contacts can be grouped into a **segment** in Klaviyo.
+    All quiz contacts can be grouped into a Klaviyo segment.
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
-    4. If the permalink property is not in the dropdown, take a test quiz and try again.
-    5. Click `Create a segment`.
+    1. **To create a new segment in Klaviyo go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment, then set up its definition.**
+    3. **Pick `PERMALINK-QuizID`.** Only profiles that came from the quiz carry it.
+    4. **Take a test quiz and try again if the permalink property is not in the dropdown.**
+    5. **Click `Create a segment`.**
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
 === "WooCommerce"
 
-    All quiz contacts can be grouped into a **segment** in Klaviyo.
+    All quiz contacts can be grouped into a Klaviyo segment.
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
-    4. If the permalink property is not in the dropdown, take a test quiz and try again.
-    5. Click `Create a segment`.
+    1. **To create a new segment in Klaviyo go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment, then set up its definition.**
+    3. **Pick `PERMALINK-QuizID`.** Only profiles that came from the quiz carry it.
+    4. **Take a test quiz and try again if the permalink property is not in the dropdown.**
+    5. **Click `Create a segment`.**
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
 === "Magento"
 
-    All quiz contacts can be grouped into a **segment** in Klaviyo.
+    All quiz contacts can be grouped into a Klaviyo segment.
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
-    4. If the permalink property is not in the dropdown, take a test quiz and try again.
-    5. Click `Create a segment`.
+    1. **To create a new segment in Klaviyo go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment, then set up its definition.**
+    3. **Pick `PERMALINK-QuizID`.** Only profiles that came from the quiz carry it.
+    4. **Take a test quiz and try again if the permalink property is not in the dropdown.**
+    5. **Click `Create a segment`.**
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
 === "BigCommerce"
 
-    All quiz contacts can be grouped into a **segment** in Klaviyo.
+    All quiz contacts can be grouped into a Klaviyo segment.
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
-    4. If the permalink property is not in the dropdown, take a test quiz and try again.
-    5. Click `Create a segment`.
+    1. **To create a new segment in Klaviyo go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment, then set up its definition.**
+    3. **Pick `PERMALINK-QuizID`.** Only profiles that came from the quiz carry it.
+    4. **Take a test quiz and try again if the permalink property is not in the dropdown.**
+    5. **Click `Create a segment`.**
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
 === "Standalone"
 
-    All quiz contacts can be grouped into a **segment** in Klaviyo.
+    All quiz contacts can be grouped into a Klaviyo segment.
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
-    2. Name the segment and set up the definition.
-    3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
-    4. If the permalink property is not in the dropdown, take a test quiz and try again.
-    5. Click `Create a segment`.
+    1. **To create a new segment in Klaviyo go to `Audience > Lists & Segments` and click `Create New > New Segment`.**
+    2. **Name the segment, then set up its definition.**
+    3. **Pick `PERMALINK-QuizID`.** Only profiles that came from the quiz carry it.
+    4. **Take a test quiz and try again if the permalink property is not in the dropdown.**
+    5. **Click `Create a segment`.**
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
@@ -524,11 +524,10 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
-    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Set `Reentry criteria` to `Allow reentry`, so a customer receives an email every time they complete the quiz. Click `Confirm`, then `Confirm and save`.
+    1. **To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.**
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set the trigger Klaviyo asks for to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Set `Reentry criteria` to `Allow reentry`, so a customer receives an email every time they complete the quiz. Click `Confirm`, then `Confirm and save`.
 
         !!! tip "Alternative: trigger from a Klaviyo list"
             You can trigger the flow when a contact is added to a Klaviyo list instead of a segment. That suits a quiz whose email question block uses the `Klaviyo list` selector to send contacts straight to a list. See [Add Contacts to List](/tutorials/follow-up-emails-klaviyo/#add-contacts-to-list).
@@ -536,43 +535,38 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify (Legacy)"
 
-    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
+    1. **To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.**
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set the trigger Klaviyo asks for to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
 
 === "WooCommerce"
 
-    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
+    1. **To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.**
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set the trigger Klaviyo asks for to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
 
 === "Magento"
 
-    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
+    1. **To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.**
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set the trigger Klaviyo asks for to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
 
 === "BigCommerce"
 
-    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
+    1. **To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.**
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set the trigger Klaviyo asks for to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
 
 === "Standalone"
 
-    1. To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.
-    2. Click `Create flow` and then `Build from scratch`.
-    3. Name the flow and click `Create flow`.
-    4. Klaviyo then asks you to set up a flow trigger.
-    5. Set the trigger to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers). Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
+    1. **To create an email flow for quiz customers only, open the `Flows` tab in Klaviyo.**
+    2. **Click `Create flow` and then `Build from scratch`.**
+    3. **Name the flow and click `Create flow`.**
+    4. **Set the trigger Klaviyo asks for to `Added to a segment` and select the segment you made in [Create segment for quiz customers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-customers).** Click `Confirm`, then `Confirm and save`. Anyone who enters the segment now triggers the email flow.
 
 ### (Optional) update marketing consent
 
@@ -580,11 +574,10 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
 
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.** A menu opens for the profile property update.
+    3. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    4. **Turn this action `LIVE`.**
 
 
 
@@ -592,11 +585,10 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
 
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.** A menu opens for the profile property update.
+    3. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    4. **Turn this action `LIVE`.**
 
 
 === "WooCommerce"
@@ -604,11 +596,10 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
 
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.** A menu opens for the profile property update.
+    3. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    4. **Turn this action `LIVE`.**
 
 
 === "Magento"
@@ -616,11 +607,10 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
 
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.** A menu opens for the profile property update.
+    3. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    4. **Turn this action `LIVE`.**
 
 
 === "BigCommerce"
@@ -628,22 +618,20 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
 
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.** A menu opens for the profile property update.
+    3. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    4. **Turn this action `LIVE`.**
 
 
 === "Standalone"
 
     If you [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), update it in the Klaviyo email flow:
 
-    1. Right below the flow trigger, add a `Profile property update` action.
-    2. Click `+ Step`.
-    3. A menu opens where you set up the profile property update.
-    4. Select to `Update existing property`, from the Select property dropdown menu select `Accepts marketing` and set the value to `true`.
-    5. Turn this action `LIVE`.
+    1. **Right below the flow trigger, add a `Profile property update` action.**
+    2. **Click `+ Step`.** A menu opens for the profile property update.
+    3. **Select `Update existing property`.** In the `Select property` dropdown choose `Accepts marketing`, then set the value to `true`.
+    4. **Turn this action `LIVE`.**
 
 
 
@@ -651,13 +639,13 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
-    1. Grab the `Email` action and drop it below the last step.
-    2. In `Email details` section edit the Subject.
-    3. Click `Select template`. Klaviyo opens the Templates section.
-    4. Click `Create` to make a new email template. Klaviyo opens its email builder.
-    5. In the Klaviyo email builder, use the pre-designed blocks to add images or text to your template.
-    6. To add the quiz content and the recommended products, drag an `HTML` block into the email builder.
-    7. Go to `Quiz Settings > Integrations` and click the `Klaviyo Template` button. A new window opens. Click `Copy code` there to copy the template.
+    1. **Grab the `Email` action and drop it below the last step.**
+    2. **In `Email details` section edit the Subject.**
+    3. **Click `Select template`.** Klaviyo opens the Templates section.
+    4. **Click `Create` to make a new email template.** Klaviyo opens its email builder.
+    5. **In the Klaviyo email builder, use the pre-designed blocks to add images or text to your template.**
+    6. **To add the quiz content and the recommended products, drag an `HTML` block into the email builder.**
+    7. **Back in the RevenueHunt app, go to `Quiz settings > Integrations` and click `Klaviyo Template`.** A new window opens. Click `Copy code` there, then return to Klaviyo.
 
         !!! info "Klaviyo Template"
 
@@ -672,9 +660,9 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 
 
-    8. Paste the code in the `HTML` block in Klaviyo email.
-    9. Next, `Preview` the email as one of your segment subscribers to check what information is displayed.
-    10. Edit the email template as you like. For example, remove the sections you do not need and restyle the rest to match your branding.
+    8. **Paste the code in the `HTML` block in Klaviyo email.**
+    9. **Next, `Preview` the email as one of your segment subscribers to check what information is displayed.**
+    10. **Edit the email template as you like.** For example, remove the sections you do not need and restyle the rest to match your branding.
 
         !!! tip "Let Quiz Copilot edit and style your Klaviyo template"
             You do not need a developer to customize the Klaviyo HTML template. Paste the template code into [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to:
@@ -689,24 +677,24 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
         !!! tip
             To customize your Klaviyo email template with quiz properties, see [Use quiz data in Klaviyo email templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates).
 
-    11. Once you are happy with the email template, click `Exit`, then `Done`, and return to your flow.
-    12. Turn your email `LIVE`.
+    11. **Once you are happy with the email template, click `Exit`, then `Done`, and return to your flow.**
+    12. **Turn your email `LIVE`.**
 
     From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
 
 
 === "Shopify (Legacy)"
 
-    1. Grab the `EMAIL` action and drop it below the flow trigger.
-    2. Click on the `...` three dots and `edit the email`.
-    3. Edit the `name/subject/email` to your liking and select the `HTML email template`.
-    4. From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.
-    5. Copy the code and go back to Klaviyo.
-    6. Open the `HTML email template` and remove the existing code.
-    7. Paste the new template code.
-    8. You can then `preview` the email as one of your segment subscribers.
-    9. Make sure to `Save` the changes and click `Done`.
-    10. Return to your flow and turn your email `LIVE`.
+    1. **Grab the `EMAIL` action and drop it below the flow trigger.**
+    2. **Click on the `...` three dots and `edit the email`.**
+    3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
+    4. **From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.**
+    5. **Copy the code and go back to Klaviyo.**
+    6. **Open the `HTML email template` and remove the existing code.**
+    7. **Paste the new template code.**
+    8. **You can then `preview` the email as one of your segment subscribers.**
+    9. **Make sure to `Save` the changes and click `Done`.**
+    10. **Return to your flow and turn your email `LIVE`.**
 
     From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
 
@@ -714,16 +702,16 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "WooCommerce"
 
-    1. Grab the `EMAIL` action and drop it below the flow trigger.
-    2. Click on the `...` three dots and `edit the email`.
-    3. Edit the `name/subject/email` to your liking and select the `HTML email template`.
-    4. From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.
-    5. Copy the code and go back to Klaviyo.
-    6. Open the `HTML email template` and remove the existing code.
-    7. Paste the new template code.
-    8. You can then `preview` the email as one of your segment subscribers.
-    9. Make sure to `Save` the changes and click `Done`.
-    10. Return to your flow and turn your email `LIVE`.
+    1. **Grab the `EMAIL` action and drop it below the flow trigger.**
+    2. **Click on the `...` three dots and `edit the email`.**
+    3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
+    4. **From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.**
+    5. **Copy the code and go back to Klaviyo.**
+    6. **Open the `HTML email template` and remove the existing code.**
+    7. **Paste the new template code.**
+    8. **You can then `preview` the email as one of your segment subscribers.**
+    9. **Make sure to `Save` the changes and click `Done`.**
+    10. **Return to your flow and turn your email `LIVE`.**
 
     From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
 
@@ -731,16 +719,16 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Magento"
 
-    1. Grab the `EMAIL` action and drop it below the flow trigger.
-    2. Click on the `...` three dots and `edit the email`.
-    3. Edit the `name/subject/email` to your liking and select the `HTML email template`.
-    4. From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.
-    5. Copy the code and go back to Klaviyo.
-    6. Open the `HTML email template` and remove the existing code.
-    7. Paste the new template code.
-    8. You can then `preview` the email as one of your segment subscribers.
-    9. Make sure to `Save` the changes and click `Done`.
-    10. Return to your flow and turn your email `LIVE`.
+    1. **Grab the `EMAIL` action and drop it below the flow trigger.**
+    2. **Click on the `...` three dots and `edit the email`.**
+    3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
+    4. **From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.**
+    5. **Copy the code and go back to Klaviyo.**
+    6. **Open the `HTML email template` and remove the existing code.**
+    7. **Paste the new template code.**
+    8. **You can then `preview` the email as one of your segment subscribers.**
+    9. **Make sure to `Save` the changes and click `Done`.**
+    10. **Return to your flow and turn your email `LIVE`.**
 
     From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
 
@@ -748,16 +736,16 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "BigCommerce"
 
-    1. Grab the `EMAIL` action and drop it below the flow trigger.
-    2. Click on the `...` three dots and `edit the email`.
-    3. Edit the `name/subject/email` to your liking and select the `HTML email template`.
-    4. From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.
-    5. Copy the code and go back to Klaviyo.
-    6. Open the `HTML email template` and remove the existing code.
-    7. Paste the new template code.
-    8. You can then `preview` the email as one of your segment subscribers.
-    9. Make sure to `Save` the changes and click `Done`.
-    10. Return to your flow and turn your email `LIVE`.
+    1. **Grab the `EMAIL` action and drop it below the flow trigger.**
+    2. **Click on the `...` three dots and `edit the email`.**
+    3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
+    4. **From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.**
+    5. **Copy the code and go back to Klaviyo.**
+    6. **Open the `HTML email template` and remove the existing code.**
+    7. **Paste the new template code.**
+    8. **You can then `preview` the email as one of your segment subscribers.**
+    9. **Make sure to `Save` the changes and click `Done`.**
+    10. **Return to your flow and turn your email `LIVE`.**
 
     From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
 
@@ -765,16 +753,16 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Standalone"
 
-    1. Grab the `EMAIL` action and drop it below the flow trigger.
-    2. Click on the `...` three dots and `edit the email`.
-    3. Edit the `name/subject/email` to your liking and select the `HTML email template`.
-    4. From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.
-    5. Copy the code and go back to Klaviyo.
-    6. Open the `HTML email template` and remove the existing code.
-    7. Paste the new template code.
-    8. You can then `preview` the email as one of your segment subscribers.
-    9. Make sure to `Save` the changes and click `Done`.
-    10. Return to your flow and turn your email `LIVE`.
+    1. **Grab the `EMAIL` action and drop it below the flow trigger.**
+    2. **Click on the `...` three dots and `edit the email`.**
+    3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
+    4. **From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.**
+    5. **Copy the code and go back to Klaviyo.**
+    6. **Open the `HTML email template` and remove the existing code.**
+    7. **Paste the new template code.**
+    8. **You can then `preview` the email as one of your segment subscribers.**
+    9. **Make sure to `Save` the changes and click `Done`.**
+    10. **Return to your flow and turn your email `LIVE`.**
 
     From then on, every customer who leaves an email address is added to your Klaviyo segment and is sent a follow-up email.
 
@@ -786,9 +774,9 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     The easiest way to send an email with each quiz retake is to set the **reentry criteria** when you configure the flow trigger:
 
-    1. Open the flow trigger (`Added to a segment`).
-    2. Set the `Reentry criteria` to `Allow reentry`.
-    3. Save the trigger.
+    1. **Open the flow trigger (`Added to a segment`).**
+    2. **Set the `Reentry criteria` to `Allow reentry`.**
+    3. **Save the trigger.**
 
     A customer then receives an email every time they complete the quiz.
 
@@ -801,15 +789,15 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
-    1. Add a `Profile property update` action at the end of the flow.
-    2. Click `+ Step`.
-    3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
+    1. **Add a `Profile property update` action at the end of the flow.**
+    2. **Click `+ Step`.**
+    3. **Select `Delete existing property`.**
+    4. **From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.**
 
         !!! example "Example"
 
             Select `Delete existing property` > `PERMALINK-QuizID`.
-    5. Save the changes and turn the action `LIVE`.
+    5. **Save the changes and turn the action `LIVE`.**
 
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
@@ -819,15 +807,15 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
-    1. Add a `Profile property update` action at the end of the flow.
-    2. Click `+ Step`.
-    3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
+    1. **Add a `Profile property update` action at the end of the flow.**
+    2. **Click `+ Step`.**
+    3. **Select `Delete existing property`.**
+    4. **From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.**
 
         !!! example "Example"
 
             Select `Delete existing property` > `PERMALINK-QuizID`.
-    5. Save the changes and turn the action `LIVE`.
+    5. **Save the changes and turn the action `LIVE`.**
 
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
@@ -835,15 +823,15 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
-    1. Add a `Profile property update` action at the end of the flow.
-    2. Click `+ Step`.
-    3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
+    1. **Add a `Profile property update` action at the end of the flow.**
+    2. **Click `+ Step`.**
+    3. **Select `Delete existing property`.**
+    4. **From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.**
 
         !!! example "Example"
 
             Select `Delete existing property` > `PERMALINK-QuizID`.
-    5. Save the changes and turn the action `LIVE`.
+    5. **Save the changes and turn the action `LIVE`.**
 
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
@@ -851,15 +839,15 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
-    1. Add a `Profile property update` action at the end of the flow.
-    2. Click `+ Step`.
-    3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
+    1. **Add a `Profile property update` action at the end of the flow.**
+    2. **Click `+ Step`.**
+    3. **Select `Delete existing property`.**
+    4. **From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.**
 
         !!! example "Example"
 
             Select `Delete existing property` > `PERMALINK-QuizID`.
-    5. Save the changes and turn the action `LIVE`.
+    5. **Save the changes and turn the action `LIVE`.**
 
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
@@ -868,15 +856,15 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
-    1. Add a `Profile property update` action at the end of the flow.
-    2. Click `+ Step`.
-    3. Select `Delete existing property`.
-    4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.
+    1. **Add a `Profile property update` action at the end of the flow.**
+    2. **Click `+ Step`.**
+    3. **Select `Delete existing property`.**
+    4. **From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps.**
 
         !!! example "Example"
 
             Select `Delete existing property` > `PERMALINK-QuizID`.
-    5. Save the changes and turn the action `LIVE`.
+    5. **Save the changes and turn the action `LIVE`.**
 
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
@@ -885,113 +873,113 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
-    With the OAuth connection in place, you can add quiz contacts straight to a **list** in Klaviyo. No extra API keys are needed, and the list selector sits inside the email question block.
+    With the OAuth connection in place, you can add quiz contacts straight to a Klaviyo list. No extra API keys are needed, and the list selector sits inside the email question block.
 
-    1. Have a Klaviyo list ready. To create one, go to `Klaviyo > Audience > Lists & Segments`. In the list settings, set it to `Single Opt-in`.
-    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the email question block to open its settings.
-    3. Under the `Klaviyo list` dropdown, select the list the customers are added to.
-    4. Set the `subscription status` (for example, `Subscribed`).
-    5. Save your quiz changes with the top-right `Save` button.
+    1. **Have a Klaviyo list ready.** To create one, go to `Klaviyo > Audience > Lists & Segments` and set it to `Single Opt-in` in the list settings.
+    2. **In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and select the `Email` block.** The `Email input settings` panel opens.
+    3. **Scroll to `Klaviyo list` and pick your list from `Select a Klaviyo list`.**
+    4. **Tick `Subscribed` below the list.** It stays greyed out until you pick a list.
+    5. **Save your quiz changes with the top-right `Save` button.**
 
         !!! tip "Per-quiz lists"
             To feed a different Klaviyo list from each quiz, set the email question block of every quiz separately and pick its list there.
 
-    6. `Preview` the quiz and complete it with a sample email to verify the connection.
-    7. In Klaviyo, go to `Audience > Lists & Segments` and open the list to confirm the test contact was added as `Subscribed`.
+    6. **`Preview` the quiz and complete it with a sample email to verify the connection.**
+    7. **In Klaviyo, go to `Audience > Lists & Segments` and open the list to confirm the test contact was added as `Subscribed`.**
 
         !!! warning
-            Quiz contacts can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) list in Klaviyo.
+            Quiz contacts can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) list in Klaviyo.
 
 
 === "Shopify (Legacy)"
 
-    The RevenueHunt app can add quiz contacts straight to a **list** in Klaviyo. This needs a **Private API Key**.
+    The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
-    1. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
-    3. Allow `Full access`.
-    4. Copy the private key.
-    5. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
-    6. Paste your Private API Key.
-    7. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+    1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
+    2. **In account `Settings` open the `API Keys` tab and create a `new Private API Key`.**
+    3. **Allow `Full access`.**
+    4. **Copy the private key.**
+    5. **In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.**
+    6. **Paste your Private API Key.**
+    7. **Choose to `mark all profiles as true` and select a list that contacts should be added to.**
 
         !!! warning
-            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            Keep in mind that contacts from the quiz can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
 
-    9. Save the changes and publish them with the top-right `Publish` button.
-    10. Remember to test the connection with a sample email via the `Preview` button.
+    8. **Save the changes and publish them with the top-right `Publish` button.**
+    9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 === "WooCommerce"
 
-    The RevenueHunt app can add quiz contacts straight to a **list** in Klaviyo. This needs a **Private API Key**.
+    The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
-    1. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
-    3. Allow `Full access`.
-    4. Copy the private key.
-    5. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
-    6. Paste your Private API Key.
-    7. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+    1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
+    2. **In account `Settings` open the `API Keys` tab and create a `new Private API Key`.**
+    3. **Allow `Full access`.**
+    4. **Copy the private key.**
+    5. **In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.**
+    6. **Paste your Private API Key.**
+    7. **Choose to `mark all profiles as true` and select a list that contacts should be added to.**
 
         !!! warning
-            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            Keep in mind that contacts from the quiz can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
 
-    9. Save the changes and publish them with the top-right `Publish` button.
-    10. Remember to test the connection with a sample email via the `Preview` button.
+    8. **Save the changes and publish them with the top-right `Publish` button.**
+    9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 === "Magento"
 
-    The RevenueHunt app can add quiz contacts straight to a **list** in Klaviyo. This needs a **Private API Key**.
+    The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
-    1. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
-    3. Allow `Full access`.
-    4. Copy the private key.
-    5. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
-    6. Paste your Private API Key.
-    7. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+    1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
+    2. **In account `Settings` open the `API Keys` tab and create a `new Private API Key`.**
+    3. **Allow `Full access`.**
+    4. **Copy the private key.**
+    5. **In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.**
+    6. **Paste your Private API Key.**
+    7. **Choose to `mark all profiles as true` and select a list that contacts should be added to.**
 
         !!! warning
-            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            Keep in mind that contacts from the quiz can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
 
-    9. Save the changes and publish them with the top-right `Publish` button.
-    10. Remember to test the connection with a sample email via the `Preview` button.
+    8. **Save the changes and publish them with the top-right `Publish` button.**
+    9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 === "BigCommerce"
 
-    The RevenueHunt app can add quiz contacts straight to a **list** in Klaviyo. This needs a **Private API Key**.
+    The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
-    1. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
-    3. Allow `Full access`.
-    4. Copy the private key.
-    5. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
-    6. Paste your Private API Key.
-    7. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+    1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
+    2. **In account `Settings` open the `API Keys` tab and create a `new Private API Key`.**
+    3. **Allow `Full access`.**
+    4. **Copy the private key.**
+    5. **In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.**
+    6. **Paste your Private API Key.**
+    7. **Choose to `mark all profiles as true` and select a list that contacts should be added to.**
 
         !!! warning
-            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            Keep in mind that contacts from the quiz can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
 
-    9. Save the changes and publish them with the top-right `Publish` button.
-    10. Remember to test the connection with a sample email via the `Preview` button.
+    8. **Save the changes and publish them with the top-right `Publish` button.**
+    9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 === "Standalone"
 
-    The RevenueHunt app can add quiz contacts straight to a **list** in Klaviyo. This needs a **Private API Key**.
+    The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
-    1. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
-    2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
-    3. Allow `Full access`.
-    4. Copy the private key.
-    5. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
-    6. Paste your Private API Key.
-    7. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+    1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
+    2. **In account `Settings` open the `API Keys` tab and create a `new Private API Key`.**
+    3. **Allow `Full access`.**
+    4. **Copy the private key.**
+    5. **In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.**
+    6. **Paste your Private API Key.**
+    7. **Choose to `mark all profiles as true` and select a list that contacts should be added to.**
 
         !!! warning
-            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            Keep in mind that contacts from the quiz can be added only to a [Single Opt-in](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
 
-    9. Save the changes and publish them with the top-right `Publish` button.
-    10. Remember to test the connection with a sample email via the `Preview` button.
+    8. **Save the changes and publish them with the top-right `Publish` button.**
+    9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 
 ## Disconnect Klaviyo
@@ -1004,9 +992,9 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you only want one specific quiz to stop sending data to Klaviyo (while other quizzes in your account keep working):
 
-    1. Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
-    2. Find the Klaviyo section and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.
-    3. Save your changes.
+    1. **Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.**
+    2. **Find the Klaviyo section and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.**
+    3. **Save your changes.**
 
     No more quiz data will flow from that specific quiz to Klaviyo. Other quizzes in your account will continue to send data normally.
 
@@ -1014,22 +1002,61 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to completely revoke the Klaviyo connection across your whole RevenueHunt account:
 
-    1. Open [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
-    2. Scroll to Klaviyo and click `Disconnect`.
-    3. Confirm the action.
+    1. **Open [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll to Klaviyo and click `Disconnect`.**
+    3. **Confirm the action.**
 
     The change saves on its own, and no quiz in your account sends data to Klaviyo any more. To reconnect later, click `Connect` again and complete the OAuth flow.
 
 === "Shopify (Legacy)"
 
+    In this version the Klaviyo connection is set on each quiz, so disconnecting one quiz leaves the others working.
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll to Klaviyo and click `Disconnect`.**
+    3. **Publish the changes with the top-right `Publish` button.**
+
+    That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
+
 === "WooCommerce"
+
+    In this version the Klaviyo connection is set on each quiz, so disconnecting one quiz leaves the others working.
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll to Klaviyo and click `Disconnect`.**
+    3. **Publish the changes with the top-right `Publish` button.**
+
+    That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
 
 === "Magento"
 
+    In this version the Klaviyo connection is set on each quiz, so disconnecting one quiz leaves the others working.
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll to Klaviyo and click `Disconnect`.**
+    3. **Publish the changes with the top-right `Publish` button.**
+
+    That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
+
 === "BigCommerce"
+
+    In this version the Klaviyo connection is set on each quiz, so disconnecting one quiz leaves the others working.
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll to Klaviyo and click `Disconnect`.**
+    3. **Publish the changes with the top-right `Publish` button.**
+
+    That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
 
 === "Standalone"
 
+    In this version the Klaviyo connection is set on each quiz, so disconnecting one quiz leaves the others working.
+
+    1. **Open the [Quiz Builder](/reference/quiz-builder/) and go to the [`Connect`](/reference/quiz-builder/connect-integrations/) tab.**
+    2. **Scroll to Klaviyo and click `Disconnect`.**
+    3. **Publish the changes with the top-right `Publish` button.**
+
+    That quiz stops sending contacts to Klaviyo. Contacts already in your Klaviyo account are not affected.
 
 Congratulations!
 

@@ -305,8 +305,8 @@ You can change how the quiz looks, to fit your store. This article covers the bu
                 }
                 ```
 
-        5. **Paste the code**: Open Quiz design > Custom CSS. Paste the code at the top of the stylesheet.
-        6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
+        4. **Paste the code**: Open Quiz design > Custom CSS. Paste the code at the top of the stylesheet.
+        5. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 
 === "Shopify (Legacy)"
@@ -354,8 +354,8 @@ You can change how the quiz looks, to fit your store. This article covers the bu
                 }
                 ```
 
-        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
-        6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
+        4. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
+        5. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "WooCommerce"
 
@@ -402,8 +402,8 @@ You can change how the quiz looks, to fit your store. This article covers the bu
                 }
                 ```
 
-        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
-        6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
+        4. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
+        5. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "Magento"
 
@@ -450,8 +450,8 @@ You can change how the quiz looks, to fit your store. This article covers the bu
                 }
                 ```
 
-        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
-        6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
+        4. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
+        5. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "BigCommerce"
 
@@ -498,8 +498,8 @@ You can change how the quiz looks, to fit your store. This article covers the bu
                 }
                 ```
 
-        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
-        6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
+        4. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
+        5. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 === "Standalone"
 
@@ -546,8 +546,8 @@ You can change how the quiz looks, to fit your store. This article covers the bu
                 }
                 ```
 
-        5. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
-        6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
+        4. **Paste the code**: Open Quiz Design > Custom CSS. Paste the code at the top of the stylesheet.
+        5. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 ## Advanced customizations (JavaScript)
 

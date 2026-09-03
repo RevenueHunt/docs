@@ -295,8 +295,8 @@ The app can email you every time someone completes the quiz or goes through to t
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. **Add your email address in the `Send email notification to` field.**
-    4. **Publish the changes**: click the top-right `Publish` button.
+    4. **Add your email address in the `Send email notification to` field.**
+    5. **Publish the changes**: click the top-right `Publish` button.
 
 === "WooCommerce"
 
@@ -318,8 +318,8 @@ The app can email you every time someone completes the quiz or goes through to t
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. **Add your email address in the `Send email notification to` field.**
-    4. **Publish the changes**: click the top-right `Publish` button.
+    4. **Add your email address in the `Send email notification to` field.**
+    5. **Publish the changes**: click the top-right `Publish` button.
 
 === "Magento"
 
@@ -341,8 +341,8 @@ The app can email you every time someone completes the quiz or goes through to t
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. **Add your email address in the `Send email notification to` field.**
-    4. **Publish the changes**: click the top-right `Publish` button.
+    4. **Add your email address in the `Send email notification to` field.**
+    5. **Publish the changes**: click the top-right `Publish` button.
 
 === "BigCommerce"
 
@@ -364,8 +364,8 @@ The app can email you every time someone completes the quiz or goes through to t
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. **Add your email address in the `Send email notification to` field.**
-    4. **Publish the changes**: click the top-right `Publish` button.
+    4. **Add your email address in the `Send email notification to` field.**
+    5. **Publish the changes**: click the top-right `Publish` button.
 
 === "Standalone"
 
@@ -387,8 +387,8 @@ The app can email you every time someone completes the quiz or goes through to t
     2. **Open Notifications**: go to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     3. **Activate the notifications**: toggle the button. Choose an email on each quiz completion, on each cart or checkout, or both.
         ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-    3. **Add your email address in the `Send email notification to` field.**
-    4. **Publish the changes**: click the top-right `Publish` button.
+    4. **Add your email address in the `Send email notification to` field.**
+    5. **Publish the changes**: click the top-right `Publish` button.
 
 
 ## Editing email templates

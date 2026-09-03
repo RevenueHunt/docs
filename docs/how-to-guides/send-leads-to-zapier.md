@@ -185,10 +185,14 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     Set up the connection via Zapier:
 
-    1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
-    ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
+    1. **Go to Zapier > Apps and click `+ Add Connection`.**
+
+        ![The Add Connection button in Zapier](/images/send_leads_to_zapier_connect1.png)
+
     2. **Select `RevenueHunt` from the app list.**
-    ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
+
+        ![RevenueHunt in the Zapier app list](/images/send_leads_to_zapier_connect2.png)
+
     3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
 
         ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
@@ -217,10 +221,14 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     Set up the connection via Zapier:
 
-    1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
-    ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
+    1. **Go to Zapier > Apps and click `+ Add Connection`.**
+
+        ![The Add Connection button in Zapier](/images/send_leads_to_zapier_connect1.png)
+
     2. **Select `RevenueHunt` from the app list.**
-    ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
+
+        ![RevenueHunt in the Zapier app list](/images/send_leads_to_zapier_connect2.png)
+
     3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
 
         ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
@@ -249,10 +257,14 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     Set up the connection via Zapier:
 
-    1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
-    ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
+    1. **Go to Zapier > Apps and click `+ Add Connection`.**
+
+        ![The Add Connection button in Zapier](/images/send_leads_to_zapier_connect1.png)
+
     2. **Select `RevenueHunt` from the app list.**
-    ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
+
+        ![RevenueHunt in the Zapier app list](/images/send_leads_to_zapier_connect2.png)
+
     3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
 
         ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
@@ -281,10 +293,14 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     Set up the connection via Zapier:
 
-    1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
-    ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
+    1. **Go to Zapier > Apps and click `+ Add Connection`.**
+
+        ![The Add Connection button in Zapier](/images/send_leads_to_zapier_connect1.png)
+
     2. **Select `RevenueHunt` from the app list.**
-    ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
+
+        ![RevenueHunt in the Zapier app list](/images/send_leads_to_zapier_connect2.png)
+
     3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
 
         ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
@@ -313,10 +329,14 @@ This article explains how to connect your quiz to Zapier, what data is sent, and
 
     Set up the connection via Zapier:
 
-    1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
-    ![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
+    1. **Go to Zapier > Apps and click `+ Add Connection`.**
+
+        ![The Add Connection button in Zapier](/images/send_leads_to_zapier_connect1.png)
+
     2. **Select `RevenueHunt` from the app list.**
-    ![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
+
+        ![RevenueHunt in the Zapier app list](/images/send_leads_to_zapier_connect2.png)
+
     3. **Copy your API Key from `Quiz Builder > Connect > Zapier`.**
 
         ![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
