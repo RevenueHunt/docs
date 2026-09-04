@@ -17931,19 +17931,12 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 
 ← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
-Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
 Next: [Quiz Design](/reference/quiz-builder/quiz-design/) →
 
 --- Shopify Specific Content ---
 
-![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
-In the Conditional logic tab you can branch your quiz, skip certain questions, or send customers to a different results page. 
+![The Conditional logic tab, with the logic tree and the rule menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
+In the Conditional logic tab you can branch your quiz, skip certain questions, or send customers to a different results page.
 Use the right-hand menu to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 By default, the quiz moves from one question to the next in number order. Conditional logic changes that.
 !!! info "Conditional logic does not include display logic"
@@ -17954,19 +17947,19 @@ By default, the quiz moves from one question to the next in number order. Condit
     - **display logic** shows or hides part of the results page
     Jump logic and skip logic are triggered by an **IF** condition based on
     an answer, a variable or a score. Display logic acts on sections.
-![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
+![The zoom controls on the logic tree](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
 `+` - Zoom in on the logic tree preview.
 `-` - Zoom out on the logic tree preview.
 `[]` - Center the logic tree preview and fit into view.
 `🔒` - Toggle whether you can interact with the preview.
-Drag the logic tree with your mouse left button to navigate to specific branches. 
+Drag the logic tree with your mouse left button to navigate to specific branches.
 Click on any of the questions in the quiz to add conditional logic to it.
 ![conditional logic select question menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_selectquestion.png)
 The dropdown at the top of the right-hand menu names the question you are working on. Click it to open the full list.
 The list holds every question and every results page, in quiz order. Click an entry to go straight to the jump logic and skip logic rules of that question.
 Picking a question in the dropdown does the same as clicking it on the logic tree. Use the dropdown when the tree is large and the question is hard to find.
 Jump logic routes customers to a different question based on their answers. It can also send them to another results page, or to an external URL.
-![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
+![A Jump logic rule in the right-hand menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
 `Jump logic` - Click the heading to open or close the Jump logic rules of the selected question.
 `+ Add another rule (OR)` - Add a new OR Jump logic rule to the selected question.
 `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
@@ -17974,23 +17967,23 @@ Jump logic routes customers to a different question based on their answers. It c
 `Default destination` - Select the question or URL the customer always goes to after this one.
 !!! tip "Drag and drop reordering"
     You can reorder Jump logic rules by dragging them. Click and hold a rule, then drag it to a new position in the list.
-![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
+![The Default destination dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 ---
 There are three types of Jump logic rules you can choose from:
 ---
 **Type 1: IF the response to the question...**
 A rule of this type has the format:
-- **IF response to** pick the question from a dropdown list
-- **is**/ **is not** pick a choice from the dropdown list
-- **THEN go to:** pick a slide from the dropdown list or add a URL 
+- **IF** `The response to the question...`, then pick the question from the dropdown list
+- **IS** / **IS NOT** pick a choice from the dropdown list
+- **THEN go to...** pick a slide from the dropdown list, or add a URL
 !!! example "Example 1"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
+    ![A Jump logic rule sending one answer to another question](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
     In the example, if a customer chooses "Oily all over" in Question 4 "SKIN TYPE" they go to Question 8 "SKIN TYPE: OILY".
 !!! example "Example 2"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
+    ![Two Jump logic rules joined by OR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
     In the example, if a customer chooses "Oily in certain spots" in Question 4 "SKIN TYPE" they go to Question 6 "SKIN TYPE: COMBINATION". If the customer instead chooses "Oily all over" they go to Question 8 "SKIN TYPE: OILY".
 !!! example "Example 3"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
+    ![One Jump logic rule with two conditions joined by AND](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
     In the example, **only if** a customer chooses "Oily all over" in Question 4 "SKIN TYPE" **and** "Teens and 20's" in Question 3 "AGE GROUP" they go to Question 8 "SKIN TYPE: OILY".
 ---
 **Type 2: IF the score of the variable...**
@@ -18003,11 +17996,11 @@ A rule of this type has the format:
     - **is greater than or equal to** / **is less than or equal to**
 - **Number** / **Another variable** pick a choice from the dropdown list
 - **0** / **1** / **2** / **other numerical value** type a value in the input field
-- **THEN go to** pick a slide from the dropdown list or add a URL 
+- **THEN go to** pick a slide from the dropdown list or add a URL
 !!! info
     Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 4"
-    ![manual_shopifyv2_jumplogic_example4_scorevariable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
+    ![A Jump logic rule reading the score of a variable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
     In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, the customer goes to `Results Page 1` after Question 6.
 ---
 **Type 3: IF the variable with the highest score...**
@@ -18015,14 +18008,14 @@ A rule of this type has the format:
 - **IF the variable with the highest score**
 - **IS** / **IS NOT** pick a choice from the dropdown list
 - **variable** pick a variable from the dropdown list
-- **THEN go to** pick a slide from the dropdown list or add a URL 
+- **THEN go to** pick a slide from the dropdown list or add a URL
 !!! info
     Scores and variables are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 5"
-    ![manual_shopifyv2_jumplogic_example5_highestscorevariable](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
+    ![A Jump logic rule reading the variable with the highest score](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
     In the example, if the variable with the highest score is `dry`, the customer goes to `Results Page 1` after Question 6.
 Skip logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip logic is added to a question, it will be shown.
-![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
+![The Skip logic section of the rule menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
 `Skip logic` - Click the heading to open or close the Skip logic rules of the selected question.
 `+ Add another rule (OR)` - Add a new OR Skip logic rule to the selected question.
 `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
@@ -18034,11 +18027,11 @@ There are three types of Skip logic rules you can choose from:
 ---
 **Type 1: IF the response to the question...**
 A rule of this type has the format:
-- **IF response to** pick the question from a dropdown list
-- **is**/ **is not** pick a choice from the dropdown list
+- **IF** `The response to the question...`, then pick the question from the dropdown list
+- **IS** / **IS NOT** pick a choice from the dropdown list
 - **THEN this question is skipped**
 !!! example "Example 1"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
+    ![A Skip logic rule that skips a question on one answer](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
     In the example, if a customer chooses "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
 ---
 **Type 2: IF the score of the variable...**
@@ -18055,7 +18048,7 @@ A rule of this type has the format:
 !!! info
     Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 2"
-    ![manual_shopifyv2_skiplogic_example2_scorevariable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
+    ![A Skip logic rule reading the score of a variable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
     In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, Question 6 is skipped.
 ---
 **Type 3: IF the variable with the highest score...**
@@ -18067,7 +18060,7 @@ A rule of this type has the format:
 !!! info
     Scores and variables are assigned to each choice in the [Questions](/reference/quiz-builder/questions/) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 3"
-    ![manual_shopifyv2_skiplogic_example3_highestscorevariable](/images/manual_shopifyv2_skiplogic_example3_highestscorevariable.png)
+    ![A Skip logic rule reading the variable with the highest score](/images/manual_shopifyv2_skiplogic_example3_highestscorevariable.png)
     In the example, if the variable with the highest score is `dry`, Question 6 is skipped.
 
 
@@ -18091,38 +18084,41 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 ← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
 Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
 
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
-Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
-
 --- Shopify Specific Content ---
 
-In the Integrations tab of the Quiz builder, you can connect your quiz to third-party services. 
+In the Integrations tab of the Quiz builder, you can connect your quiz to third-party services.
 !!! info "Currently integrated with"
     - [Shopify Customers (Shopify Flow)](/how-to-guides/send-leads-to-shopify-customers/)
     - [Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
     - [Omnisend](/how-to-guides/send-leads-to-omnisend/)
+    - [HubSpot](/how-to-guides/send-leads-to-hubspot/)
+    - [Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
     - [Google Analytics](/how-to-guides/integrate-google-analytics/)
     - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
     - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
     - [Zapier](/how-to-guides/send-leads-to-zapier/)
 To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
-![manual_shopifyv2_quizbuilder_integrations_opensettings](/images/manual_shopifyv2_quizbuilder_integrations_opensettings.png)
+![Opening Quiz settings from the dashboard](/images/manual_shopifyv2_quizbuilder_integrations_opensettings.png)
 Then navigate to the `Integrations` tab.
-![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
-To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section. To disconnect from a service click the `Disconnect` button.
-Integrations are divided into the following subcategories:
+![The Integrations tab, with the filter tabs and the service cards](/images/manual_shopifyV2_quizbuilder_integrations.png)
+A banner sits above the cards.
+`Get help` - Opens a chat about connecting your quiz.
+`Missing an app` - Tells the team which integration you would like added.
+Each service has its own card. Find the service, then follow the instructions on the card or under `Read more`. The button on a card depends on the service:
+`Activate` - Switches on a service that needs no credentials, such as [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+`Connect` - Links a service you have pasted a key into, such as [Zapier](/how-to-guides/send-leads-to-zapier/).
+`+ Add webhook` - Adds a [webhook](/how-to-guides/send-leads-to-webhooks/) endpoint.
+`Disconnect` - Appears once a service is connected. Click it to disconnect.
+Use the filter tabs above the cards to narrow the list:
+`All` - Every integration, the view the tab opens on.
 `Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) and redirect your quiz data anywhere.
-![manual_shopifyV2_quizbuilder_integrations_automations](/images/manual_shopifyV2_quizbuilder_integrations_automations.png)       
+![The Automations filter, showing Webhooks and Zapier](/images/manual_shopifyV2_quizbuilder_integrations_automations.png)
 `Analytics & tracking` - Integrate with platforms like [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) to track quiz events, measure conversions, and understand customer behavior.
-![/manual_shopifyV2_quizbuilder_integrations_analytics](/images/manual_shopifyV2_quizbuilder_integrations_analytics.png)
+![The Analytics and tracking filter, showing Google Analytics and Meta Pixel](/images/manual_shopifyV2_quizbuilder_integrations_analytics.png)
 !!! info
     [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) connect directly to the property set up in your store. If you have not set up tracking for your store yet, you should do it before connecting the quiz to these services.
-`Mailing & CRM's` - Sync captured quiz leads directly to your email marketing or CRM platforms, such as [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/). Use this data for personalized campaigns, segmentation, and automated follow-ups.
-![manual_shopifyV2_quizbuilder_integrations_mailing](/images/manual_shopifyV2_quizbuilder_integrations_mailing.png)
+`Mailing & CRMs` - Sync captured quiz leads directly to your email marketing or CRM platforms, such as [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/) or [HubSpot](/how-to-guides/send-leads-to-hubspot/). Use this data for personalized campaigns, segmentation, and automated follow-ups.
+![The Mailing and CRMs filter, showing Klaviyo, Omnisend and HubSpot](/images/manual_shopifyV2_quizbuilder_integrations_mailing.png)
 
 
 
@@ -18139,24 +18135,27 @@ description: "Create and manage custom customer tags in RevenueHunt for segmenti
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
+
 
 ← Previous: [Link Products](/reference/quiz-builder/link-products/)
-Next: [Conditional logic](/reference/quiz-builder/conditional-logic/) →
+Next: [Conditional Logic](/reference/quiz-builder/conditional-logic/) →
 
 --- Shopify Specific Content ---
 
-You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-To add customer tags to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
-![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing. See [how to add and use customer tags](/how-to-guides/use-customer-tags/) for the full walkthrough.
+To add customer tags to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice settings`](/reference/quiz-builder/questions/#choice-settings).
+![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 Under [Choice settings](/reference/quiz-builder/questions/#choice-settings), find the `Customer tags` section and click on it to open the settings.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
+![The Customer tags section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
 Click `Search or create tags` to pick a tag to link to this choice or start typing the name to create a new tag.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
+![Creating a new tag from the search field](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
 Confirm by clicking on `Create new tag`.
 All the tags you create will be visible at the bottom in grey.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
-When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
+![The tags linked to a choice, listed below the field](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
+When a customer selects this choice, every linked tag is added to their customer profile. Use the tags to segment your customers in your CRM.
+Back in the question, every choice shows its own `Customer tags` column, with the number of linked tags above them. Click the `x` on a tag to unlink it from that choice.
+![Two customer tags linked to each choice, in the question and in the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_linked.png)
 
 
 
@@ -18178,12 +18177,13 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 ## Preview the quiz
 
 ## Contents
+
 - [Questions](/reference/quiz-builder/questions/)
 - [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 - [Link Products](/reference/quiz-builder/link-products/)
 - [Customer Tags](/reference/quiz-builder/customer-tags/)
-- [Conditional logic](/reference/quiz-builder/conditional-logic/)
-- [Quiz design](/reference/quiz-builder/quiz-design/)
+- [Conditional Logic](/reference/quiz-builder/conditional-logic/)
+- [Quiz Design](/reference/quiz-builder/quiz-design/)
 - [Results Page](/reference/quiz-builder/results-page/)
 - [Notifications](/reference/quiz-builder/notifications/)
 - [Quiz Settings](/reference/quiz-builder/quiz-settings/)
@@ -18192,22 +18192,29 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 - [Metrics](/reference/quiz-builder/metrics/)
 
 ---
-This is the RevenueHunt App Manual - Section: Quiz Builder.
+
+This is the RevenueHunt App Manual, section Quiz Builder.
+
+← [Back to the App Manual](/reference/)
+
+
+← Previous: [Glossary](/reference/glossary/)
+Next: [Questions](/reference/quiz-builder/questions/) →
 
 --- Shopify Specific Content ---
 
-![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
-Quiz builder is composed of different sections: 
+![The Quiz builder](/images/manual_shopifyV2_quizbuilder.png)
+Quiz builder is composed of different sections:
 **Quiz builder menu**
-![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
+![The Quiz builder section menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
 From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Results pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
 **Questions**
 Use the [`Questions`](/reference/quiz-builder/questions/) section to add, edit and delete the questions in your quiz.
 **Quiz preview**
-![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
+![The interactive quiz preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
 All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
-![manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
-`▷ / ❚❚`- Enable or disable the custom code execution.
+![The preview toolbar, with the inspector and device controls](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
+`▷ / ❚❚` - Enable or disable the custom code execution.
 `˙⟡` - Click the stars icon to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window and ask for help in analyzing the quiz. You will have some pre-determined options such as `Analyze quiz logic`, `Analyze product recommendations`, `Analyze quiz flow`, `Improve engagement`, `Improve quiz completion rate` and once you reply it will provide a detailed analysis of the quiz, help you identify the root cause of the issue and suggest improvements.
 `🔍 Activate Inspector` / `Deactivate Inspector` - Click the `Activate Inspector` / `Deactivate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open its [Question/Editing Settings](/reference/quiz-builder/questions/#question-settings).
 You can toggle between the `🖥️ Desktop` and the `📱 Mobile` quiz preview with the top menu.
@@ -18215,20 +18222,20 @@ Use the `↶` undo / `↷` redo buttons to revert your changes.
 **Question settings**
 In the [`Question Settings`](/reference/quiz-builder/questions/#question-settings) section adjust specific settings of the question, change elements alignment or upload an image.
 **Top menu**
-![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
+![The three dots menu in the top bar](/images/manual_shopifyV2_quizbuilder_preview.png)
 From the `...` menu you can:
-`˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
-![manual_shopifyV2_quizbuilder_analyzequiz_copilotchat](/images/manual_shopifyV2_quizbuilder_analyzequiz_copilotchat.png){width="300"}
-`Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
-`Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#responses) section.
+`˙⟡ Quiz Copilot` - open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
+![The Quiz Copilot chat window](/images/manual_shopifyV2_quizbuilder_analyzequiz_copilotchat.png){width="300"}
+`Quiz settings` - open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
+`Quiz responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#responses) section.
 `Analytics` - open the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
 To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
-![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
-Click `Save` at the top to keep your changes and move to the next section of the quiz builder. Click `Discard` to throw them away.    
-![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
+![The Save and Discard buttons on unsaved changes](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
+Click `Save` at the top to keep your changes and move to the next section of the quiz builder. Click `Discard` to throw them away.
+![The three dots menu in the top bar](/images/manual_shopifyV2_quizbuilder_preview.png)
 To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
 !!! tip "Previewing the quiz"
-    In the quiz Preview you can test different answering paths and see what gets recommended on the results page. 
+    In the quiz Preview you can test different answering paths and see what gets recommended on the results page.
     You can also preview the results page for different markets and languages. To understand why the quiz showed these particular results, see [Analytics](/reference/quiz-builder/metrics/#analytics).
     ![preview quiz example results page](/images/manual_shopifyv2_quiz_preview_example.png)
 
@@ -18247,49 +18254,42 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Questions](/reference/quiz-builder/questions/)
-Next: [Link Products](/reference/quiz-builder/link-products/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Questions](/reference/quiz-builder/questions/)
 Next: [Link Products](/reference/quiz-builder/link-products/) →
 
 --- Shopify Specific Content ---
 
-To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
-![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice settings`](/reference/quiz-builder/questions/#choice-settings).
+![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 Choose the weight of this choice:
 `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collection receive x2 (double) upvotes from this choice.
 **Upvote**
-![manual_shopifyV2_linkcollections_upvote](/images/manual_shopifyV2_linkcollections_upvote.png)
+![The Upvotes section of the Choice settings](/images/manual_shopifyV2_linkcollections_upvote.png)
 Use the Upvotes section to choose which collections to link to this choice:
-`Upvotes` - lists all the collections, tags, variants collections or vendors that are linked to this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
-`+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. A new section then opens, where you pick collections, tags, variants or vendors from your Shopify catalog.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
-![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
+`Upvotes` - Lists everything linked to this choice: products, product variants, collections, tags, variants and vendors.
+![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+`+ Add upvote type` - Click to choose what to upvote. The menu offers `Products`, `Product variants`, `Collections`, `Tags`, `Variants` and `Vendors`. A new section then opens, where you pick the items from your Shopify catalog. For individual products and variants, see [Link Products](/reference/quiz-builder/link-products/).
+![The Add upvote type menu, with its six types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+![Toggling collections on to link them to a choice](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
 Toggle the collections to be upvoted to add them to the upvoted list.
 Upvoted collections will be listed in the upvoted section.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+![Upvoted collections listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 !!! note
     You can upvote entire collections, and also recommend a whole collection to the customer.
 **Exclude**
-![manual_shopifyV2_linkcollections_exclude](/images/manual_shopifyV2_linkcollections_exclude.png)
+![The Exclude section of the Choice settings](/images/manual_shopifyV2_linkcollections_exclude.png)
 Use the Exclude section to choose which collections to exclude from this choice:
-`Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
-`+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. A new section then opens, where you pick the items to exclude from your Shopify catalog.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+`Exclude` - Lists everything excluded from this choice: products, product variants, collections, tags, variants and vendors.
+![The list of excluded items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+`+ Add exclude type` - Click to choose what to exclude. The menu offers the same six types as `+ Add upvote type`. A new section then opens, where you pick the items to exclude from your Shopify catalog.
+![The Add exclude type menu, with its six types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 Toggle the collections to be excluded to add them to the excluded list.
-![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
+![Toggling collections on to link them to a choice](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
 Excluded collections will be listed in the excluded section.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+![Excluded collections listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
 !!! warning
     Be careful with exclusions. Once a product is excluded from a choice, it never shows on the results page. This applies even if another choice upvoted it.
 
@@ -18308,39 +18308,44 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
+
 
 ← Previous: [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 Next: [Customer Tags](/reference/quiz-builder/customer-tags/) →
 
 --- Shopify Specific Content ---
 
-To link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice, and open [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
-![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+To link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice, and open [`Choice settings`](/reference/quiz-builder/questions/#choice-settings).
+![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 Choose the weight of this choice:
-`Upvotes weighting` - Sets a default weight for this choice. For example, if the weight is set to 2, every product upvoted from a collection receives double upvotes from this choice.
+`Upvotes weighting` - Sets a default weight for this choice. For example, if the weight is set to 2, every product or variant this choice upvotes receives double upvotes.
 **Upvote**
-![manual_shopifyV2_linkproducts](/images/manual_shopifyV2_linkproducts.png)
+![The Upvotes section of the Choice settings](/images/manual_shopifyV2_linkproducts.png)
 Use the Upvotes section to choose which products or variants to link to this choice:
 `Upvotes` - Lists all the products or product variants linked to this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
-`+ Add upvote type` - Click to choose an item to upvote. You can upvote products or product variants to a choice. A new section then opens, where you pick items from your Shopify catalog.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+`+ Add upvote type` - Click to choose what to upvote. For this page, pick `Products` or `Product variants`. A new section then opens, where you pick items from your Shopify catalog. The menu also offers `Collections`, `Tags`, `Variants` and `Vendors`, covered in [Link Collections](/reference/quiz-builder/link-collections/).
+![The Add upvote type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 Toggle the products or variants to be upvoted to add them to the upvoted list.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
+![Toggling products on to link them to a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
 Upvoted products or variants are listed in the upvoted section.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+![Upvoted products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 **Exclude**
-![manual_shopifyV2_excludeproducts](/images/manual_shopifyV2_excludeproducts.png)
+![The Exclude section of the Choice settings](/images/manual_shopifyV2_excludeproducts.png)
 Use the Exclude section to choose which products or variants to exclude from this choice:
 `Exclude` - Lists all the products or product variants excluded in this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
-`+ Add exclude type` - Click to choose an item to exclude. You can exclude products or product variants from a choice. A new section then opens, where you pick items from your Shopify catalog.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+![The list of excluded items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+`+ Add exclude type` - Click to choose what to exclude. It offers the same six types as `+ Add upvote type`. A new section then opens, where you pick items from your Shopify catalog.
+![The Add exclude type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 Toggle the products or variants to be excluded to add them to the excluded list.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
+![Toggling products on to exclude them from a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
 Excluded products or variants are listed in the excluded section.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+![Excluded products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+!!! warning "Be careful with exclusions"
+    Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
+!!! info "Missing products?"
+    Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 
 
@@ -18378,43 +18383,41 @@ Quiz metrics are can be found in several sections:
 - [Analytics Overview](/reference/dashboard/#analytics-overview) can be found in the [Dashboard](/reference/dashboard/).
 - Individual quiz responses can be found in the [Responses](/reference/quiz-builder/metrics/#responses) section.
 - Full customizable analytics can be found in the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
-To open the responses sections, go back to the [dashboard](/reference/dashboard/). 
-Pick a quiz and click the `...` to open the quiz menu. 
-From the list pick and click on `Responses`.
-![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
+To open the Responses section, go back to the [Dashboard](/reference/dashboard/), pick a quiz, click `...` to open the quiz menu, then click `Responses`.
+![Opening Responses from the quiz menu on the dashboard](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 In the Responses section you will find a list of the latest quiz responses sorted by date.
-![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
+![The Responses list, with its filters and columns](/images/manual_shopifyV2_quizbuilder_responses.png)
 !!! warning "Test responses removal"
     Admin responses and quiz previews are removed from the list **after an hour** so they do not count towards your plan limits.
 `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
 `Export CSV` - Download the selected responses in a CSV file format. A popup opens where you pick the email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
-![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
+![The Export CSV popup, asking where to send the file](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
 `Response date` - The date and time the response has been submitted.
-`Type` - The type of quiz response, eg. `Preview` or `Customer`. Preview responses are created when you click the `Preview` button in the quiz builder. Customer responses are created when a customer completes the quiz on the live site.
+`Type` - The type of quiz response, for example `Preview` or `Customer`. Preview responses are created when you click the `Preview` button in the quiz builder. Customer responses are created when a customer completes the quiz on the live site.
 `Name` - Name provided by the customer.
 `Email` - Email provided by the customer.
 `Recommendations` - The number of recommended products.
-`View` - Click to open the response details.
-![manual_shopifyV2_quizbuilder_responses_viewmenu](/images/manual_shopifyV2_quizbuilder_responses_viewmenu.png)
-`View response` - Click to open the response in a new tab.
-`Debug mode` - Click to open the response in debug mode.
-`Analysis` - Click to open the response analysis page.
+`View` - Opens a menu with two options.
+![The View menu, and the Analysis button beside it](/images/manual_shopifyV2_quizbuilder_responses_viewmenu.png)
+- `View response` - Opens the response in a new tab.
+- `Debug mode` - Opens the response in debug mode.
+`Analysis` - A separate button next to `View`. Opens the [response analysis](#response-analysis) page.
 Each response analysis page displays the following sections:
-![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
+![A response analysis page](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
 `Analyze response` - Click to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. The Copilot will ask you the following question: *"I can help you analyze this quiz response. What seems to be the issue? You can select a common question below or type your own."* Reply, and the Copilot analyses the response. It identifies the root cause and suggests improvements.
 **Responses to questions** - Displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question. Click `▼` on a question to expand it and check the details.
-![manual_shopifyV2_quizbuilder_responses_sample2](/images/manual_shopifyV2_quizbuilder_responses_sample2.png)
+![The answers a customer gave, listed question by question](/images/manual_shopifyV2_quizbuilder_responses_sample2.png)
 !!! tip "Additional captured data"
     JavaScript-injected answers (data captured via custom JavaScript integrations) are displayed in a separate **"Additional Captured Data"** section within the response analysis. This makes it easy to identify and review any custom data that was programmatically added to the quiz response.
 **Why was a product recommended or not in this response?** - Use this section to troubleshoot a single response. It shows why a product was recommended or left out.
 `v Select item to check` - Click to select a product from the catalog and analyze it against the response. Choose an item below to know why it was recommended or not.
-![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1.png)
-![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2.png)
+![Picking a product to check against a response](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1.png)
+![The upvotes and exclusions that decided one product](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2.png)
 `Contact information` - Displays the contact information provided by the customer in the quiz such as name, email, phone number, etc.
 `Customer Tags` - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting.
 `Integrations` - Displays the integrations that were triggered for this response and whether they were successful or not.
 **Result: Results page 1** - Displays the name of the results page recommended. This screen displays the configuration of a Result Section and explains what was shown to the customer and why.
-![manual_shopifyV2_quizbuilder_responses_sample2_productdetails](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)
+![The recommended products and the results page shown](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)
 **Section Overview**
 `Section Title` - Displays the name of the section recommended.
 `Section Ref` - Internal reference used to identify the section.
@@ -18433,15 +18436,15 @@ Each response analysis page displays the following sections:
 `Upvoted items` / `Fixed Items` -  Explains that the recommendations are fixed in this slot and shows which products were selected.
 `Recommendations` - The final products shown to the customer.
 Access the Analytics from the [Dashboard](/reference/dashboard/). You can open the Analytics tab from the Shopify side menu.
-![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu.png)
-or pick a quiz and click the  `...` to open the quiz menu. From the list pick and click on `Analytics`.
-![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1.png)
+![Opening Analytics from the app side menu](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu.png)
+or pick a quiz, click `...` to open the quiz menu, then click `Analytics`.
+![Opening Analytics from the quiz menu on the dashboard](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1.png)
 The Analytics tab will open with the data for the selected quiz.
-![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
-The data in the graphs are totals in a selected period of time for a selected quiz. 
+![The Analytics tab for a quiz](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
+The data in the graphs are totals in a selected period of time for a selected quiz.
 Click the `Quiz name` to change the quiz.
 `Today` / `Last 90 days` - To change the dates click on the `Today`/ `Last 90 days` button. You can change the period to select it from the moment you started using the quiz or from a given date.
-`No comparison` - Choose how you want to compare the data in the graphs. 
+`No comparison` - Choose how you want to compare the data in the graphs.
 `Customize`- Click to add new cards to your analytics dashboard or re-arrange the cards.
 !!! info "Data refresh frequency"
     The analytics dashboard updates at different intervals, depending on the type of data:
@@ -18450,64 +18453,64 @@ Click the `Quiz name` to change the quiz.
     If you have just received new responses, allow a few minutes for them to appear in all analytics cards.
 **DEFAULT ANALYTICS CARDS**
 By default you see five blocks with the following metrics:
-![manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses.png)
+![The Quiz Responses card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses.png)
 `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour. `1.4K` - number of responses received in a specified period (in black). `↗34.20%` - growth compared to last period (in green).
-![manual_shopifyV2_quizbuilder_metrics_analytics_nroforders](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nroforders.png)
+![The Number of orders card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nroforders.png)
 `Number of orders` - Number of people who have placed an order after completing this quiz. `149` - number of orders received in a specified period (in black). `↗8.76%` - growth compared to last period (in green).
-![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
+![The Total orders value card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
 `Total orders value` - Total value of orders placed after taking this quiz. `€10,612.00` - total value of orders in a specified period (in black). `↗2.01%` - growth compared to last period (in green).
 !!! info "Tracking order values"
     To track order values, connect your quiz to Shopify Customers in [App settings](/reference/app-settings/#shopify-customers).
-![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+![The Drop-off card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how customers move through your quiz, from the first question to the results and checkout, and where they drop off. `Origin` - The slide or question where customers started a step. `Destination` - The next slide or page they reached. `Views` - How many times this transition happened in the selected range. `Share of Step` - The percentage of customers who left the quiz instead of continuing. `Outcome` - Continued or Exited.
 !!! tip
     A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep customers moving forward.
-![manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices](/images/manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices.png)
-`Selected choices` - See which choices are selected most for each question. It shows how customers answered each question, so you can see the most popular options. `Single-choice` questions display the percentage of customers who selected each answer. `Multiple-choice` questions (marked with `Multiple selection`) show how often each option was chosen across all responses. `Optional` questions only include data from customers who reached and answered that question. 
-!!! example 
+![The Selected choices card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices.png)
+`Selected choices` - See which choices are selected most for each question. It shows how customers answered each question, so you can see the most popular options. `Single-choice` questions display the percentage of customers who selected each answer. `Multiple-choice` questions (marked with `Multiple selection`) show how often each option was chosen across all responses. `Optional` questions only include data from customers who reached and answered that question.
+!!! example
     In **Q3: AGE GROUP**, from `273 responses`, 41.4% of 273 selected `30's` choice, 40.7% of 273 selected `Teens and 20's`, 12.1% of 273 selected `40's` and 5.9% of 273 selected `50's and above`.
-If you want to edit the Analytics page or add more insights click `Customize`. 
-![manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
-This will open a side bar with available analytics cards(blocks):
-![manual_shopifyV2_quizbuilder_metrics_analytics_customize](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
-Click on a card you want to add and it is placed on the analytics dashboard. You can then re-arrange and resize each card on the dashboard. Click `Save` once done editing the analytics dashboard. 
-![manual_shopifyV2_quizbuilder_metrics_analytics_customized](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customized.png)
+If you want to edit the Analytics page or add more insights click `Customize`.
+![The Customize button on the Analytics page](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
+This opens a side bar with the available analytics cards, or blocks:
+![The side bar of analytics cards you can add](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
+Click on a card you want to add and it is placed on the analytics dashboard. You can then re-arrange and resize each card on the dashboard. Click `Save` once done editing the analytics dashboard.
+![A customized analytics dashboard](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customized.png)
 !!! note
     Note that the hover-over option for a specific graph is only available once the changes have been saved with the top `Save` button.
 **AVAILABLE CARDS**
 **Overview metrics**
-![manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts.png)
+![The Quiz Starts card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts.png)
 `Quiz Starts` - Number of people who engaged with the quiz and passed the first slide. That is, they clicked `start quiz` or answered the first question. `2.0K` - number of quiz starts received in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
-![manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts.png)
+![The Number of carts card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts.png)
 `Number of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts received in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
-![manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue.png)
+![The Total carts value card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue.png)
 `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout. `€68,801.00` - total carts value received in a specified period (in black). `↗12.58%` - growth compared to last period (in green).
-![manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue.png)
-`Average cart value`- Average value of the products included in all quiz carts or checkouts. `€6,032.82` - average carts value received in a specified period (in black). `↙0.73%` - growth compared to last period (in green).
-![manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue.png)
+![The Average cart value card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue.png)
+`Average cart value` - Average value of the products included in all quiz carts or checkouts. `€6,032.82` - average carts value received in a specified period (in black). `↙0.73%` - growth compared to last period (in green).
+![The Average order value card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue.png)
 `Average order value` - Average value of the orders placed after taking a quiz. `€2,240.43` - average order value received in a specified period (in black). `↙4.60%` - growth compared to last period (in green).
 **Conversion metrics**
-![manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate](/images/manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate.png)
+![The Conversion rate card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate.png)
 `Conversion rate` - Orders divided by total quiz completions for the selected window. `10.7%`- conversion rate in a specified period (in black). `-2.5%` - compared to selected comparison quiz/period. `1.4K responses`- number of responses in a specified period. `149 orders` - number of orders received in a specified period.
 **Engagement metrics**
-![manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems](/images/manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems.png)
+![The Recommended items card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems.png)
 `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to customers during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
 !!! example
     In **Step 3 – Moisturizer**, from 274 impressions, 62.0% of customers were shown `Organix Facial Moisturizer`, 19.0% saw `Moisturizing Cream-Gel`, 10.9% saw `Oil-Free Moisture Lotion`, 4.7% saw `Ultra Facial Deep Moisture Balm`, and 3.3% saw `Oil-Free Moisture – Combination Skin`.
-![manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution](/images/manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution.png)
+![The Results page distribution card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution.png)
 `Results page distribution` - See which results pages are displayed most often to customers. Shows how often each results page in your quiz is displayed to customers. Each bar represents the share of total quiz completions that led to a particular results page. `Responses` indicate the total number of completed quizzes in the selected period. `Percentages` show how frequently each results page appeared relative to total completions.
 !!! example
     From 7 responses, 42.9% of customers saw `Results page 2`, 42.9% saw `Results page 1`, and 14.3% saw `Results page 3`.
-![manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
+![The Section visibility card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
 `Section visibility`- See which sections within results pages are displayed most often. Shows how often each section within your results pages is displayed to quiz customers. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
 !!! example
     From 3 views, 100% of customers saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
 The Drop-off data (drop-off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz builder.
-![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+![The Drop-off card](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how customers move through your quiz, from the first question to the results and checkout, and where they drop off.
-`Origin` - The slide or question where customers started a step in the flow. 
-`Destination` - The next slide or page they reached. 
-`Views`- The number of times this transition occurred during the selected time range. 
+`Origin` - The slide or question where customers started a step in the flow.
+`Destination` - The next slide or page they reached.
+`Views`- The number of times this transition occurred during the selected time range.
 `Share of Step` - The percentage (and number) of customers who exited the quiz instead of continuing to the next step.
 `Outcome` - Continued or Exited the quiz.
 !!! warning "How drop-off is measured"
@@ -18537,15 +18540,8 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Results Page](/reference/quiz-builder/results-page/)
-Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)
 Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
@@ -18553,14 +18549,15 @@ Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
 --- Shopify Specific Content ---
 
 To set up email notifications, go to the [Quiz settings](/reference/quiz-builder/quiz-settings/) section. `Emails to self` are sent to the store owner. `Emails to respondents` are sent to the customer.
-![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
+![The Emails to respondents settings, with the template and the preview](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
 **Email template**
-`Send an email when someone completes the quiz` - Activate this option to send notification/results email to the customer email address when they completes the quiz (reaches the results page).
-`Email-to:` - Select a slide that contains the email questions from the dropdown.
-`Reply-to:` - Add an email address to which the notification should be sent.
+`Send an email when someone completes the quiz` - Activate this option to send the results email to the address the customer gave, once they complete the quiz and reach the results page.
+`Email to:` - Pick the email question that supplies the customer's address.
+`Reply-to:` - The address a customer reaches if they reply to the email. Use one you monitor.
 `Email subject:` - Add the title of the notification email.
-`Email liquid template` - Add a liquid email template. The template can be built based on the Metadata provided.
+`Email Liquid template:` - The Liquid template for the email. Build it from the metadata below.
 `Reset` - Resets the email template to the default template.
+`Edit with AI` - Rewrites the template from a prompt, instead of editing the Liquid by hand.
 `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 `Items list snippet` - Lists all the recommended products.
 `Responses by block snippet` - Lists all the customer answers.
@@ -18571,7 +18568,7 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
 `Expand all` - Expands all the metadata.
 `Copy to clipboard` - Copies the selected metadata to the clipboard.
 !!! info "Quiz response metadata structure"
-    ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
+    ![The quiz response metadata, expanded](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
     This object contains all the data generated when a customer completes a quiz, including responses, product recommendations and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
     ---
     **Basic Information**
@@ -18627,7 +18624,7 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
     "variableScores": { "score": 0 }
     ```
     Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
-    --- 
+    ---
     **Result Sections (`resultSections`)**
     ```json
     "resultSections": [
@@ -18649,7 +18646,7 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
     "rsbh-273d9ef6": {
     "type": "heading",
     "content": "<p>Here's what your skin wants!</p>"
-    }       
+    }
     ```
     A lookup table of rendered content for each block (used in external templates like email).
     Each entry is keyed by the block reference and contains:
@@ -18661,13 +18658,14 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
     - Send dynamic follow-up emails with relevant product suggestions
     - Store quiz responses for analytics and customer profiling
     - Integrate with marketing tools like Klaviyo or HubSpot using dynamic fields
-![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
+![The Emails to self settings, with the template and the preview](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
 **Email template**
 `Receive an email when someone completes the quiz` - Activate this option to receive notifications to your specified email address when someone completes the quiz (reaches the results page).
 `Email to:` - Add an email address to which the notification should be sent.
 `Email subject:` - Add the title of the notification email.
-`Email liquid template` - Add liquid email template. The template can be built based on the Metadata provided.
+`Email Liquid template:` - The Liquid template for the email. Build it from the metadata below.
 `Reset` - Resets the email template to the default template.
+`Edit with AI` - Rewrites the template from a prompt, instead of editing the Liquid by hand.
 `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 `Personal information template` - Lists all the personal information provided by the customer.
 `Responses by block snippet` - Lists all the customer answers.
@@ -18678,7 +18676,7 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
 `Expand all` - Expands all the metadata.
 `Copy to clipboard` - Copies the selected metadata to the clipboard.
 !!! info "Quiz response metadata structure"
-    ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
+    ![The quiz response metadata, expanded](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
     This object contains all the data generated when a customer completes a quiz, including responses, product recommendations and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
     ---
     **Basic Information**
@@ -18734,7 +18732,7 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
     "variableScores": { "score": 0 }
     ```
     Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
-    --- 
+    ---
     **Result Sections (`resultSections`)**
     ```json
     "resultSections": [
@@ -18756,7 +18754,7 @@ To set up email notifications, go to the [Quiz settings](/reference/quiz-builder
     "rsbh-273d9ef6": {
     "type": "heading",
     "content": "<p>Here's what your skin wants!</p>"
-    }       
+    }
     ```
     A lookup table of rendered content for each block (used in external templates like email).
     Each entry is keyed by the block reference and contains:
@@ -18796,17 +18794,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 ## Block settings
 
-
-
-
 ## Choice settings
 
-
-
-
 ## Dynamic content & JavaScript reference
-
-
 
 
 <!--
@@ -18816,16 +18806,20 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+    ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 -->
 
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 
 ---
 
@@ -18837,13 +18831,13 @@ Next: [Link Collections / Link Categories](/reference/quiz-builder/link-collecti
 --- Shopify Specific Content ---
 
 **Questions**
-![manual_shopifyV2_quizbuilder_quizbuilder_questions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
+![The Questions tab, with the slide list and the preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
 `Λ` / `V` - Click to expand or collapse all the questions in the quiz at once.
 `↔` - Click to expand the questions and choices in a horizontal view.
 `+ Add choice` - Adds an extra choice in multiple-choice questions. To remove a choice, click on the 🗑 bin icon.
 `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
 !!! info
-    All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
+    All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`.
 `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 A quiz is a sequence of questions, ending in a results page. Questions are modular: each one holds one or more blocks.
 ```
@@ -18861,63 +18855,63 @@ quiz
 | **choice** | One of the alternatives a customer can pick inside a choices block. |
 | **slide** | The name for a question in the API and in merge tags such as `{{slide:ZMiXjj}}`. |
 `+ Add question` - Opens a menu of quiz questions to add. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
+![The Add question menu, listing every question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
 **Contact info**
 `Name` - A slide designed for users to enter their name, featuring a short text field.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="500"}
+![The Name question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="500"}
 `Email Address` - A slide dedicated to collecting the user's email address through a text field.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
+![The Email Address question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
 `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_phone](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
+![The Phone Number question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
 **Choices**
 `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
+![The Multiple Choice question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
 `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
+![The Pictures Choice question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
 `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
+![The Dropdown question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
 `Slider bar` - A question slide with a slider bar for users to select a value between options.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_slider.png){width="500"}
+![The Slider bar question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_slider.png){width="500"}
 `Buttons scale` - A question slide with a scale of buttons for users to select a value between options.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_buttonsscale](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_buttonsscale.png){width="500"}
+![The Buttons scale question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_buttonsscale.png){width="500"}
 `Rating scale` - A question slide with a scale of stars for users to select a value between options.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_ratingscale](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_ratingscale.png){width="500"}
+![The Rating scale question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_ratingscale.png){width="500"}
 `Yes/No` - Two choices slide which displays choices as a clickable options.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_yesno](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_yesno.png){width="500"}
+![The Yes/No question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_yesno.png){width="500"}
 `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_legal](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_legal.png){width="500"}
+![The Legal Terms/GDPR question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_legal.png){width="500"}
 **Inputs**
 `Short-text` - An open question slide where the customer types a short text answer.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext.png){width="500"}
+![The Short-text question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext.png){width="500"}
 `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext.png){width="500"}
+![The Multi-line Text question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext.png){width="500"}
 `Number` -  A question type where users are prompted to input a numerical answer.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_number.png){width="500"}
+![The Number question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_number.png){width="500"}
 `Date` - A question slide that prompts the user to select or enter a specific date.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_date.png){width="500"}
+![The Date question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_date.png){width="500"}
 **Messages**
 `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
+![The Welcome Message question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
 `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou.png){width="500"}
+![The Thank You Message question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou.png){width="500"}
 `Statement` - A statement slide which displays text and a button to proceed to the next question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_statement](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_statement.png){width="500"}
+![The Statement question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_statement.png){width="500"}
 Click on the question to open the question settings menu. It opens on the right side of the screen.
-![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
+![The question settings menu, open on the right](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
 `...` - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
-![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
+![The question management menu, with Duplicate and Remove](/images/manual_shoopifyV2_remove.png)
 `Question name` - Optional admin label. Gives questions an admin label (e.g. "Skin type question") that shows in the sidebar. Only visible in the builder, not shown to users.
-`Image upload` - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
+`Image upload` - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery.
 ??? info "Image upload settings"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_imageuploadsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_imageuploadsettings.png)
-    Once uploaded click `▼ Change`to change the image or `🗑 Remove` to remove it. 
+    ![The Image upload settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_imageuploadsettings.png)
+    Once uploaded click `▼ Change`to change the image or `🗑 Remove` to remove it.
     **Background image settings**
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="500"}
-    `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
+    ![The Background image settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="500"}
+    `Layout` - Place the image as a `background` or `split` the screen in half with the image.
     `Opacity` - Use the slider to change opacity percentage of the uploaded image.
     **Split image settings**
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
-    `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
+    ![The Split image settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
+    `Layout` - Place the image as a `background` or `split` the screen in half with the image.
     `Opacity` - Use the slider to change opacity percentage of the uploaded image.
     `Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
     `Position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
@@ -18926,19 +18920,19 @@ Click on the question to open the question settings menu. It opens on the right 
     !!! tip
         See [how to add and adjust images](/how-to-guides/add-adjust-images/) for how to optimize your images.
 `Advanced settings` - Click to expand to see advanced settings.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
+![The Advanced settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
 `Allow overwrite progress bar` - Check to be able to overwrite the default "% complete" progress bar text for this question.
 `Auto-advance question` - Check if you want the question to automatically proceed to the next one after the selected time. Once checked you can choose the duration of the slide from the dropdown in the `Auto-advance delay` section. You can also chose to `Hide "next" button` to prevent the user from proceeding to the next question.
 !!! note
     Auto-advance feature is only available in questions without user input.
-`Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
-![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
+`Custom CSS code` -  Expand to add your own custom CSS code to this section only.
+![The Custom CSS code](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
 `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 !!! tip
-    To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/). 
+    To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/).
     To check the CSS structure of the app, go to [App CSS Structure](/reference/css-structure/).
-`Custom JS code` - Expand to add your own custom JavaScript code to this section only. 
-![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
+`Custom JS code` - Expand to add your own custom JavaScript code to this section only.
+![The Custom JS code](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
 `✨Get help with custom JavaScript` - Opens a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 ??? info "Available JavaScript data and functions"
     Custom JavaScript code receives two parameters: `quiz` (data context) and `actions` (methods). See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for full documentation.
@@ -18979,21 +18973,21 @@ Click on the question to open the question settings menu. It opens on the right 
 `q-b72b85c0` - Click to copy the question ID to the clipboard. Displays the question ID of the selected question.
 `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
 !!! info
-    All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
+    All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`.
 Blocks are the building blocks of your quiz. Each question can have multiple blocks.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
+![The menu of block types you can add to a question](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
 Each building block of your question has its own block settings. To open the block settings, click on the block.
 `🗑 / bin` - Click on the bin icon to remove the block.
 #### Button
 The `Next` button is hidden on questions that are both single choice and mandatory. The quiz moves to the next question as soon as the customer picks a choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
-`Button text` - Change the default button text. 
+![The Next button block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
+`Button text` - Change the default button text.
 `Alignment` - Move the button left, right or center.
 ### CONTENT BLOCKS
 #### Heading
 Adds a heading block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The heading block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to your text. You can also `add links` and a `Content dynamic source`, which recalls information from other parts of the quiz.
 !!! tip "Liquid templates supported"
@@ -19005,14 +18999,14 @@ The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to
 `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
 ??? info "Adding a content dynamic source"
     To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
-    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 #### Text
 Adds a text block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The text block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to your text. You can also `add links` and a `Content dynamic source`, which recalls information from other parts of the quiz.
 !!! tip "Liquid templates supported"
@@ -19024,25 +19018,25 @@ The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to
 `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
 ??? info "Adding a content dynamic source"
     To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
-    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 #### Image
-Adds an image block to the question. 
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+Adds an image block to the question.
+![The image block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-Click `Select image` to upload an image from your computer or pick one from your in-app image gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it. 
+Click `Select image` to upload an image from your computer or pick one from your in-app image gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
 Add in `Alt text` to make the image more accessible. *Note: Alt text is used by screen readers to describe the image to visually impaired users.*
-`Height` - You can adjust the image size in the `Image height`dropdown. 
+`Height` - You can adjust the image size in the `Image height`dropdown.
 `Alignment` changes the alignment of the image to left, right or center.
 `🗑 Remove block` - Click to delete this block.
 `qbi-9907ff50` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Video
 Adds a video block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_video](/images/manual_shopifyv2_questions_blocksettings_video.png){width="300"}  
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The video block settings](/images/manual_shopifyv2_questions_blocksettings_video.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Select video` - Upload a video from your computer.
 `Alt text` - Add a short description of the video (for accessibility).
@@ -19052,8 +19046,8 @@ Adds a video block to your question.
 `qbv-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Custom HTML
 Adds a custom HTML block question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The custom HTML block question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `HTML editor` - Code box where you can input your custom code.
 !!! tip "Liquid templates and JavaScript supported"
@@ -19080,10 +19074,10 @@ Adds a custom HTML block question to this block.
 `🗑 Remove block` - Click to delete this block.
 `qbhtml-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 ### CHOICES BLOCKS
-#### Multiple choice 
+#### Multiple choice
 Adds a multiple-choice block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The multiple-choice block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `⿻ Duplicate` to duplicate the block or `🗑 Remove` to delete it.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - the smallest number of choices needed before the customer can go to the next question. `Maximum selected` - the largest number of choices that can be selected. Above that, the customer cannot move on to the next question. `Error message` - the message shown to the customer when they select too many options.
@@ -19091,13 +19085,13 @@ Adds a multiple-choice block to your question.
 `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Picture choice
 Adds a picture choice block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The picture choice block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Error message`, `Minimum selected` and `Maximum selected` settings. `Minimum selected` - the fewest choices the customer must select to go to the next question. `Maximum selected` - the most choices the customer can select. Above that number, they cannot go on.`Error message` - add a message to the user if they select too many options.
 `Advanced settings` - Opens the advanced choice settings menu.
-`Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size. 
+`Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size.
 If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an extra option for choosing a `Mobile layout` appears. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
 `Hide checkbox/radio` - When checked hides the checkbox element from picture choices.
 `Hide image label` - when checked hides the text below each picture choice.
@@ -19105,11 +19099,11 @@ If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an extra opti
 !!! tip
     See [how to add and adjust images](/how-to-guides/add-adjust-images/).
 `🗑 Remove block` - Click to delete this block.
-`qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.    
+`qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Dropdown
 Adds a dropdown block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_dropdown](/images/manual_shopifyv2_questions_blocksettings_dropdown.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The dropdown block settings](/images/manual_shopifyv2_questions_blocksettings_dropdown.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Content` - Label shown above the dropdown.
 `Optional` - Check if the question can be skipped.
@@ -19122,48 +19116,48 @@ Adds a dropdown block to your question.
 `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Slider bar
 Adds a slider block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The slider block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Display bar value tooltip` - Check if you want to see the labels with each value.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `Labels` - Unfold to add (type in) the labels to each step in the slider.
 `🗑 Remove block` - Click to delete this block.
-`qbc-4d197782` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+`qbc-4d197782` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Buttons scale
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Buttons scale block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `🗑 Remove block` - Click to delete this block.
 `qbc-4134de48` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Rating scale
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Rating scale block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `🗑 Remove block` - Click to delete this block.
 `qbc-7eb5bf2c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Yes/no
 Adds a yes/no block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_yesno](/images/manual_shopifyv2_questions_blocksettings_yesno.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The yes/no block settings](/images/manual_shopifyv2_questions_blocksettings_yesno.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Optional` - Check if the question can be skipped.
 `🗑 Remove block` - Click to delete this block.
 `qbc-4134de48` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Legal/GDPR
 Adds a legal/GDPR block to your question.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_legal](/images/manual_shopifyv2_questions_blocksettings_legal.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The legal/GDPR block settings](/images/manual_shopifyv2_questions_blocksettings_legal.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `🗑 Remove block` - Click to delete this block.
 `qbc-54257a2e` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 ### INPUT BLOCKS
 #### Short text input
 Adds an open-text question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The open-text question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Input type` - Switch between `Short text` or `Long text` input type.
 `Placeholder` - The default text displayed in the textbox visible to the customer.
@@ -19172,11 +19166,11 @@ Adds an open-text question to this block.
 `Minimum length` - set a minimum number of characters required in this question answer.
 `Maximum length` - set a maximum number of characters required in this question answer.
 `🗑 Remove block` - Click to delete this block.
-`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Multi-line text input
 Adds an open-text question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The open-text question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Placeholder` - The default text displayed in the textbox visible to the customer.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
@@ -19184,10 +19178,10 @@ Adds an open-text question to this block.
 `Minimum length` - set a minimum number of characters required in this question answer.
 `Maximum length` - set a maximum number of characters required in this question answer.
 `🗑 Remove block` - Click to delete this block.
-`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Number
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Number block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Placeholder` - The default text displayed in the textbox visible to the customer.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
@@ -19195,25 +19189,25 @@ Adds an open-text question to this block.
 `Minimum range` - the minimum number value that can be entered.
 `Maximum range` - the maximum number value that can be entered.
 `🗑 Remove block` - Click to delete this block.
-`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 !!! info "Product recommendation"
     Number fields accept any value, so the quiz cannot match them to products. Instead, define numeric ranges, for example 0-10 and 11-50, with a multiple-choice, dropdown or slider question, then link products to each range. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 #### Date
 Adds a date question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The date question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Date format` - The default date format customer should enter.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `Error message` - Add a default error message in case entered text is incorrect.
 `🗑 Remove block` - Click to delete this block.
-`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
+`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 !!! info "Product recommendation"
     Date fields accept any value, so the quiz cannot match them to products. Instead, define date ranges, for example 01/01/2020-01/01/2021, with a multiple-choice, dropdown or slider question, then link products to each range. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 #### Name
 Adds an name input question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The name input question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Name` - Select whether you want to ask for the Full Name, First Name or Last Name.
 `Placeholder` - The default text displayed in the textbox visible to the customer.
@@ -19222,21 +19216,21 @@ Adds an name input question to this block.
 `Minimum length` - set a minimum number of characters required in this question answer.
 `Maximum length` - set a maximum number of characters required in this question answer.
 `🗑 Remove block` - Click to delete this block.
-`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
+`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Email address
 Adds an email input question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The email input question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Placeholder` - The default text displayed in the textbox visible to the customer.
 `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 `Error message` - Add a default error message in case entered text is incorrect.
 `🗑 Remove block` - Click to delete this block.
-`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+`qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Phone number
 Adds a phone number question to this block.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png){width="300"}
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The phone number question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png){width="300"}
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Default Country Code` - Select a default country code from the dropdown list.
 `Placeholder` - The default text displayed in the textbox visible to the customer.
@@ -19246,8 +19240,8 @@ Adds a phone number question to this block.
 `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 ### CHART BLOCKS
 #### Gauge chart
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Gauge chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
@@ -19266,12 +19260,12 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `qbgc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Radar chart
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Radar chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Category 1` - Set the category name for the first axis.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+![The Category 1 block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 `Label` - Set the label for the first axis.
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 `Value` - If you select `Fixed`, set the value to be displayed in the chart.
@@ -19293,12 +19287,12 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `qbrc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Bar chart
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Bar chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Category 1` - Set the category name for the first axis.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+![The Category 1 block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 `Label` - Set the label for the first axis.
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 `Value` - If you select `Fixed`, set the value to be displayed in the chart.
@@ -19320,8 +19314,8 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `qbrc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Rating display
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Rating display block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
@@ -19334,54 +19328,54 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `qbrt-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Custom chart
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Custom chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Load template` - Select a chart template code from the dropdown list.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
+![The chart template dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
 Layout
 `Height` - Set the height of the chart.
 `Alignment` - Set the alignment of the chart between Left, Center or Right.
 `🗑 Remove block` - Click to delete this block.
 `qbcc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
 `Choice label` - The text shown on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization, for example `{{ quiz.answers.byBlock['qbi-name'].value }}`. Dropdown choices strip HTML to plain text for accessibility.
 `Choice image` - Shows the image displayed in this picture choice. CLick `Select image` to upload an image for this choice or choose from the in-app image gallery.
 `Upvotes weighting` - Sets a default weight of this choice. If the weight is set to 2, all the upvoted products will receive x2 (double) upvotes from this choice.
 ### Upvotes
 `Upvotes` - lists all the products, product variants, collections, tags, variants collections or vendors that are linked to this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 `+ Add upvote type` - Click to choose an item to upvote. You can upvote individual products, product variants or entire collections, tags, variants collections or vendors to a choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+![The Add upvote type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 A new section then opens, where you pick items from your Shopify catalog to link to this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+![Picking products to upvote from the catalog](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
+![Upvoted products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 ### Exclude
 `Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+![The list of excluded items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
 `+ Add exclude type` - Click to choose an item to exclude. You can exclude individual products, product variants or entire collections, tags, variants collections or vendors from a choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+![The Add exclude type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 A new section then opens, where you pick items from your Shopify catalog to exclude from this choice.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+![Picking products to exclude from the catalog](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
+![Excluded products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
 ### Customer tags
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
+![The Customer tags section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
 `Search or create tags` - Click to search for a tag to link to this choice or start typing the name to create a new tag.
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
+![Creating a new tag from the search field](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
 All the tags you create will be visible at the bottom in grey.
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
+![The tags linked to a choice, listed below the field](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
+![Customer tags shown on each choice in the question](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
 When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
 ### Scores and calculations
 `Scores and calculations` – Add points to a variable when this choice is selected. Use scores to show different results based on total points.
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
+![The Scores and calculations section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
 `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create, for example `dry_skin`, `normal_skin` or `oily_skin`. Once you have typed the full name, a dropdown appears with `Create a new variable "xxx"`. Click on it to add a new variable.
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
+![The Search or create variables section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
 ### Advanced settings
-`Advanced settings` - Opens the advanced choice settings menu. 
-![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png)
+`Advanced settings` - Opens the advanced choice settings menu.
+![The Advanced settings of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png)
 !!! note
     Available only if `Allow multiple selection` is active in Multiple-Choice [Block settings](#block-settings).
 *Regular choice* - Regular choice type.

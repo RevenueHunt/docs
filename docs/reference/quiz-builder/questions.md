@@ -7,20 +7,20 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 === "Shopify"
 
     **Questions**
-    
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
+
+    ![The Questions tab, with the slide list and the preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
 
     `Λ` / `V` - Click to expand or collapse all the questions in the quiz at once.
 
     `↔` - Click to expand the questions and choices in a horizontal view.
-    
+
     `+ Add choice` - Adds an extra choice in multiple-choice questions. To remove a choice, click on the 🗑 bin icon.
 
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
-    
+
     !!! info
 
-        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
+        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`.
 
     `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 
@@ -33,25 +33,25 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 === "WooCommerce"
 
-    ![manual_woo_quizbuilder_quizbuilder](/images/manual_woo_quizbuilder_quizbuilder.png)
+    ![The Quiz Builder on WooCommerce, with the slides and the preview](/images/manual_woo_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
 === "Magento"
 
-    ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
+    ![The Quiz Builder, with the slides and the preview](/images/manual_standalone_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
 === "BigCommerce"
 
-    ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
+    ![The Quiz Builder, with the slides and the preview](/images/manual_standalone_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
 === "Standalone"
 
-    ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
+    ![The Quiz Builder, with the slides and the preview](/images/manual_standalone_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
@@ -94,10 +94,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "WooCommerce"
 
@@ -116,10 +113,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "Magento"
 
@@ -138,10 +132,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "BigCommerce"
 
@@ -160,10 +151,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "Standalone"
 
@@ -182,10 +170,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 !!! tip "Naming"
 
@@ -199,87 +184,87 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `+ Add question` - Opens a menu of quiz questions to add. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
+    ![The Add question menu, listing every question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
 
     **Contact info**
 
     `Name` - A slide designed for users to enter their name, featuring a short text field.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="500"}
+    ![The Name question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="500"}
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
+    ![The Email Address question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
 
     `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_phone](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
+    ![The Phone Number question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
 
     **Choices**
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
+    ![The Multiple Choice question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
 
     `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can upload your own image to each choice. Square images are recommended, up to 400px by 400px.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
+    ![The Pictures Choice question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
 
     `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
+    ![The Dropdown question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
 
     `Slider bar` - A question slide with a slider bar for users to select a value between options.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_slider.png){width="500"}
+    ![The Slider bar question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_slider.png){width="500"}
 
     `Buttons scale` - A question slide with a scale of buttons for users to select a value between options.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_buttonsscale](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_buttonsscale.png){width="500"}
+    ![The Buttons scale question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_buttonsscale.png){width="500"}
 
     `Rating scale` - A question slide with a scale of stars for users to select a value between options.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_ratingscale](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_ratingscale.png){width="500"}
+    ![The Rating scale question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_ratingscale.png){width="500"}
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_yesno](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_yesno.png){width="500"}
+    ![The Yes/No question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_yesno.png){width="500"}
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_legal](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_legal.png){width="500"}
+    ![The Legal Terms/GDPR question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_legal.png){width="500"}
 
     **Inputs**
 
     `Short-text` - An open question slide where the customer types a short text answer.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext.png){width="500"}
+    ![The Short-text question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext.png){width="500"}
 
     `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext.png){width="500"}
+    ![The Multi-line Text question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext.png){width="500"}
 
     `Number` -  A question type where users are prompted to input a numerical answer.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_number.png){width="500"}
+    ![The Number question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_number.png){width="500"}
 
     `Date` - A question slide that prompts the user to select or enter a specific date.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_date.png){width="500"}
+    ![The Date question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_date.png){width="500"}
 
     **Messages**
 
     `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
+    ![The Welcome Message question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou.png){width="500"}
+    ![The Thank You Message question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou.png){width="500"}
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_statement](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_statement.png){width="500"}
+    ![The Statement question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_statement.png){width="500"}
 
 
 === "Shopify (Legacy)"
@@ -478,35 +463,35 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Click on the question to open the question settings menu. It opens on the right side of the screen.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
+    ![The question settings menu, open on the right](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
 
     `...` - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
 
-    ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
+    ![The question management menu, with Duplicate and Remove](/images/manual_shoopifyV2_remove.png)
 
     `Question name` - Optional admin label. Gives questions an admin label (e.g. "Skin type question") that shows in the sidebar. Only visible in the builder, not shown to users.
 
-    `Image upload` - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
+    `Image upload` - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery.
 
     ??? info "Image upload settings"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_imageuploadsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_imageuploadsettings.png)
-        
-        Once uploaded click `▼ Change`to change the image or `🗑 Remove` to remove it. 
+        ![The Image upload settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_imageuploadsettings.png)
+
+        Once uploaded click `▼ Change`to change the image or `🗑 Remove` to remove it.
 
         **Background image settings**
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="500"}
+        ![The Background image settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="500"}
 
-        `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
+        `Layout` - Place the image as a `background` or `split` the screen in half with the image.
 
         `Opacity` - Use the slider to change opacity percentage of the uploaded image.
 
         **Split image settings**
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
+        ![The Split image settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
 
-        `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
+        `Layout` - Place the image as a `background` or `split` the screen in half with the image.
 
         `Opacity` - Use the slider to change opacity percentage of the uploaded image.
 
@@ -522,7 +507,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Advanced settings` - Click to expand to see advanced settings.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
+    ![The Advanced settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
 
     `Allow overwrite progress bar` - Check to be able to overwrite the default "% complete" progress bar text for this question.
 
@@ -533,21 +518,21 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
         Auto-advance feature is only available in questions without user input.
 
 
-    `Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
+    `Custom CSS code` -  Expand to add your own custom CSS code to this section only.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
+    ![The Custom CSS code](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
 
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 
     !!! tip
 
-        To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/). 
+        To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/).
 
         To check the CSS structure of the app, go to [App CSS Structure](/reference/css-structure/).
 
-    `Custom JS code` - Expand to add your own custom JavaScript code to this section only. 
+    `Custom JS code` - Expand to add your own custom JavaScript code to this section only.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
+    ![The Custom JS code](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
 
     `✨Get help with custom JavaScript` - Opens a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
@@ -651,7 +636,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - *+ add question below* - Adds a new blank question of the same type below.
     - *Duplicate* - Duplicate this slide. Creates a copy slide below.
-    - *Delete* - Delete this slide.     
+    - *Delete* - Delete this slide.
 
 === "WooCommerce"
 
@@ -678,7 +663,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - *above* - Places the uploaded image above the question, on top of the slide.
-        
+
     - *below* - Places the uploaded image below the question, above the choices.
 
     - *background* - Places the uploaded image on the background of the slide (overrides the default quiz background).
@@ -711,7 +696,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `+ add question below` - Adds a new blank question of the same type below.
     - `Duplicate` - Duplicate this slide. Creates a copy slide below.
-    - `Delete` - Delete this slide. 
+    - `Delete` - Delete this slide.
 
 === "Magento"
 
@@ -738,7 +723,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - `above` - Places the uploaded image above the question, on top of the slide.
-        
+
     - `below` - Places the uploaded image below the question, above the choices.
 
     - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
@@ -771,7 +756,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `+ add question below` - Adds a new blank question of the same type below.
     - `Duplicate` - Duplicate this slide. Creates a copy slide below.
-    - `Delete` - Delete this slide. 
+    - `Delete` - Delete this slide.
 
 === "BigCommerce"
 
@@ -798,7 +783,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - `above` - Places the uploaded image above the question, on top of the slide.
-        
+
     - `below` - Places the uploaded image below the question, above the choices.
 
     - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
@@ -831,7 +816,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `+ add question below` - Adds a new blank question of the same type below.
     - `Duplicate` - Duplicate this slide. Creates a copy slide below.
-    - `Delete` - Delete this slide. 
+    - `Delete` - Delete this slide.
 
 === "Standalone"
 
@@ -858,7 +843,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Image` - Click "Add" to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - `above` - Places the uploaded image above the question, on top of the slide.
-        
+
     - `below` - Places the uploaded image below the question, above the choices.
 
     - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
@@ -891,21 +876,21 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `+ add question below` - Adds a new blank question of the same type below.
     - `Duplicate` - Duplicate this slide. Creates a copy slide below.
-    - `Delete` - Delete this slide. 
+    - `Delete` - Delete this slide.
 
 ## Block settings
 
 === "Shopify"
 
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
-    
+
     !!! info
 
-        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
+        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`.
 
     Blocks are the building blocks of your quiz. Each question can have multiple blocks.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
+    ![The menu of block types you can add to a question](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
 
     Each building block of your question has its own block settings. To open the block settings, click on the block.
 
@@ -916,9 +901,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     The `Next` button is hidden on questions that are both single choice and mandatory. The quiz moves to the next question as soon as the customer picks a choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
+    ![The Next button block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
-    `Button text` - Change the default button text. 
+    `Button text` - Change the default button text.
 
     `Alignment` - Move the button left, right or center.
 
@@ -929,9 +914,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a heading block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
+    ![The heading block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -945,7 +930,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Size` - Change the size of the heading from small, medium or large.
 
     `Alignment` - Change the alignment of the heading from left, center or right.
-    
+
     `🗑 Remove block` - Click to delete this block.
 
     `qbh-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
@@ -956,21 +941,21 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
         To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
-        ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+        ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
         A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-        ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+        ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-        ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+        ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 
     #### Text
 
     Adds a text block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
+    ![The text block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -994,30 +979,30 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
         To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
-        ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+        ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
         A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-        ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+        ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-        ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+        ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 
 
     #### Image
 
-    Adds an image block to the question. 
+    Adds an image block to the question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
+    ![The image block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    Click `Select image` to upload an image from your computer or pick one from your in-app image gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it. 
+    Click `Select image` to upload an image from your computer or pick one from your in-app image gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
 
     Add in `Alt text` to make the image more accessible. *Note: Alt text is used by screen readers to describe the image to visually impaired users.*
 
-    `Height` - You can adjust the image size in the `Image height`dropdown. 
+    `Height` - You can adjust the image size in the `Image height`dropdown.
 
     `Alignment` changes the alignment of the image to left, right or center.
 
@@ -1029,12 +1014,12 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a video block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_video](/images/manual_shopifyv2_questions_blocksettings_video.png){width="300"}  
+    ![The video block settings](/images/manual_shopifyv2_questions_blocksettings_video.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    
+
     `Select video` - Upload a video from your computer.
 
     `Alt text` - Add a short description of the video (for accessibility).
@@ -1042,7 +1027,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Video aspect ratio` - Choose how the video is sized (for example horizontal, vertical, 16:9, 4:3).
 
     `Video alignment` - Set the video position: Left, Center, or Right.
-    
+
     `🗑 Remove block` - Click to delete this block.
 
     `qbv-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
@@ -1052,9 +1037,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a custom HTML block question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png){width="300"}
+    ![The custom HTML block question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1092,13 +1077,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ### CHOICES BLOCKS
 
 
-    #### Multiple choice 
-    
+    #### Multiple choice
+
     Adds a multiple-choice block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
+    ![The multiple-choice block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `⿻ Duplicate` to duplicate the block or `🗑 Remove` to delete it.
 
@@ -1115,9 +1100,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a picture choice block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
+    ![The picture choice block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1127,8 +1112,8 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Advanced settings` - Opens the advanced choice settings menu.
 
-    `Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size. 
-    
+    `Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size.
+
     If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an extra option for choosing a `Mobile layout` appears. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
 
     `Hide checkbox/radio` - When checked hides the checkbox element from picture choices.
@@ -1142,15 +1127,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.    
+    `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     #### Dropdown
 
     Adds a dropdown block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_dropdown](/images/manual_shopifyv2_questions_blocksettings_dropdown.png){width="300"}
+    ![The dropdown block settings](/images/manual_shopifyv2_questions_blocksettings_dropdown.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1177,9 +1162,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a slider block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png){width="300"}
+    ![The slider block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1191,13 +1176,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbc-4d197782` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+    `qbc-4d197782` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     #### Buttons scale
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png)
+    ![The Buttons scale block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1209,9 +1194,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Rating scale
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png)
+    ![The Rating scale block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1225,14 +1210,14 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a yes/no block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_yesno](/images/manual_shopifyv2_questions_blocksettings_yesno.png){width="300"}
+    ![The yes/no block settings](/images/manual_shopifyv2_questions_blocksettings_yesno.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Optional` - Check if the question can be skipped.
-    
+
     `🗑 Remove block` - Click to delete this block.
 
     `qbc-4134de48` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
@@ -1241,27 +1226,27 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a legal/GDPR block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_legal](/images/manual_shopifyv2_questions_blocksettings_legal.png){width="300"}
+    ![The legal/GDPR block settings](/images/manual_shopifyv2_questions_blocksettings_legal.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    
+
     `🗑 Remove block` - Click to delete this block.
 
     `qbc-54257a2e` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
-    
+
 
     ### INPUT BLOCKS
 
 
     #### Short text input
-    
+
     Adds an open-text question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
+    ![The open-text question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1279,15 +1264,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     #### Multi-line text input
 
     Adds an open-text question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext.png)
+    ![The open-text question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1303,13 +1288,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     #### Number
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
+    ![The Number block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1325,7 +1310,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     !!! info "Product recommendation"
         Number fields accept any value, so the quiz cannot match them to products. Instead, define numeric ranges, for example 0-10 and 11-50, with a multiple-choice, dropdown or slider question, then link products to each range. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
@@ -1335,9 +1320,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds a date question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
+    ![The date question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1349,7 +1334,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     !!! info "Product recommendation"
         Date fields accept any value, so the quiz cannot match them to products. Instead, define date ranges, for example 01/01/2020-01/01/2021, with a multiple-choice, dropdown or slider question, then link products to each range. See [how to recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
@@ -1358,9 +1343,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Adds an name input question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png){width="300"}
+    ![The name input question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1378,15 +1363,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     #### Email address
 
     Adds an email input question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png){width="300"}
+    ![The email input question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1398,16 +1383,16 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `🗑 Remove block` - Click to delete this block.
 
-    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
- 
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
 
     #### Phone number
 
     Adds a phone number question to this block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png){width="300"}
+    ![The phone number question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png){width="300"}
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1427,9 +1412,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Gauge chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart.png)
+    ![The Gauge chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1468,9 +1453,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Radar chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart.png)
+    ![The Radar chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1478,7 +1463,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Category 1` - Set the category name for the first axis.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+    ![The Category 1 block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 
     `Label` - Set the label for the first axis.
 
@@ -1523,9 +1508,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Bar chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart.png)
+    ![The Bar chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1533,7 +1518,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Category 1` - Set the category name for the first axis.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+    ![The Category 1 block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 
     `Label` - Set the label for the first axis.
 
@@ -1577,9 +1562,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Rating display
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating.png)
+    ![The Rating display block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1606,15 +1591,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Custom chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart.png)
+    ![The Custom chart block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Load template` - Select a chart template code from the dropdown list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
+    ![The chart template dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
 
     Layout
 
@@ -1628,22 +1613,48 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 
 === "Shopify (Legacy)"
+    Set a question's type, its text, its image and its options in
+    [Question settings](#question-settings).
 
+    A slide holds one question by default. To put several questions on the same
+    slide, use `Join next question`, as
+    [how to join questions](/how-to-guides/join-questions/) describes.
 === "WooCommerce"
+    Set a question's type, its text, its image and its options in
+    [Question settings](#question-settings).
 
+    A slide holds one question by default. To put several questions on the same
+    slide, use `Join next question`, as
+    [how to join questions](/how-to-guides/join-questions/) describes.
 === "Magento"
+    Set a question's type, its text, its image and its options in
+    [Question settings](#question-settings).
 
+    A slide holds one question by default. To put several questions on the same
+    slide, use `Join next question`, as
+    [how to join questions](/how-to-guides/join-questions/) describes.
 === "BigCommerce"
+    Set a question's type, its text, its image and its options in
+    [Question settings](#question-settings).
 
+    A slide holds one question by default. To put several questions on the same
+    slide, use `Join next question`, as
+    [how to join questions](/how-to-guides/join-questions/) describes.
 === "Standalone"
+    Set a question's type, its text, its image and its options in
+    [Question settings](#question-settings).
+
+    A slide holds one question by default. To put several questions on the same
+    slide, use `Join next question`, as
+    [how to join questions](/how-to-guides/join-questions/) describes.
 
 ## Choice settings
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+    ![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
 
@@ -1657,47 +1668,47 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Upvotes` - lists all the products, product variants, collections, tags, variants collections or vendors that are linked to this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+    ![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 
     `+ Add upvote type` - Click to choose an item to upvote. You can upvote individual products, product variants or entire collections, tags, variants collections or vendors to a choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+    ![The Add upvote type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
     A new section then opens, where you pick items from your Shopify catalog to link to this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
+    ![Picking products to upvote from the catalog](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+    ![Upvoted products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 
     ### Exclude
 
     `Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+    ![The list of excluded items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
 
     `+ Add exclude type` - Click to choose an item to exclude. You can exclude individual products, product variants or entire collections, tags, variants collections or vendors from a choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+    ![The Add exclude type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 
     A new section then opens, where you pick items from your Shopify catalog to exclude from this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
+    ![Picking products to exclude from the catalog](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+    ![Excluded products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
 
     ### Customer tags
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
+    ![The Customer tags section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
 
     `Search or create tags` - Click to search for a tag to link to this choice or start typing the name to create a new tag.
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
-    
+    ![Creating a new tag from the search field](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
+
     All the tags you create will be visible at the bottom in grey.
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
+    ![The tags linked to a choice, listed below the field](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
+    ![Customer tags shown on each choice in the question](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
 
     When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
 
@@ -1705,18 +1716,18 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Scores and calculations` – Add points to a variable when this choice is selected. Use scores to show different results based on total points.
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
+    ![The Scores and calculations section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
 
     `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create, for example `dry_skin`, `normal_skin` or `oily_skin`. Once you have typed the full name, a dropdown appears with `Create a new variable "xxx"`. Click on it to add a new variable.
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
+    ![The Search or create variables section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
 
     ### Advanced settings
 
-    `Advanced settings` - Opens the advanced choice settings menu. 
+    `Advanced settings` - Opens the advanced choice settings menu.
 
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png)
-    
+    ![The Advanced settings of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png)
+
     !!! note
 
         Available only if `Allow multiple selection` is active in Multiple-Choice [Block settings](#block-settings).
@@ -1733,14 +1744,35 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 
 === "Shopify (Legacy)"
-
+    Set what a choice does from the Quiz Builder side menu.
+    [Link Collections](/reference/quiz-builder/link-collections/) and
+    [Link Products](/reference/quiz-builder/link-products/) control the products
+    a choice upvotes. [Customer Tags](/reference/quiz-builder/customer-tags/)
+    controls the tags it applies to the customer.
 === "WooCommerce"
-
+    Set what a choice does from the Quiz Builder side menu.
+    [Link Collections](/reference/quiz-builder/link-collections/) and
+    [Link Products](/reference/quiz-builder/link-products/) control the products
+    a choice upvotes. [Customer Tags](/reference/quiz-builder/customer-tags/)
+    controls the tags it applies to the customer.
 === "Magento"
-
+    Set what a choice does from the Quiz Builder side menu.
+    [Link Collections](/reference/quiz-builder/link-collections/) and
+    [Link Products](/reference/quiz-builder/link-products/) control the products
+    a choice upvotes. [Customer Tags](/reference/quiz-builder/customer-tags/)
+    controls the tags it applies to the customer.
 === "BigCommerce"
-
+    Set what a choice does from the Quiz Builder side menu.
+    [Link Collections](/reference/quiz-builder/link-collections/) and
+    [Link Products](/reference/quiz-builder/link-products/) control the products
+    a choice upvotes. [Customer Tags](/reference/quiz-builder/customer-tags/)
+    controls the tags it applies to the customer.
 === "Standalone"
+    Set what a choice does from the Quiz Builder side menu.
+    [Link Collections](/reference/quiz-builder/link-collections/) and
+    [Link Products](/reference/quiz-builder/link-products/) control the products
+    a choice upvotes. [Customer Tags](/reference/quiz-builder/customer-tags/)
+    controls the tags it applies to the customer.
 
 ## Dynamic content & JavaScript reference
 
@@ -1913,13 +1945,29 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ```
 
 === "Shopify (Legacy)"
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "WooCommerce"
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "Magento"
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "BigCommerce"
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "Standalone"
 
 <!--
@@ -1929,16 +1977,20 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+    ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 -->
 
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 
 ---
 

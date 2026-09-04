@@ -6,10 +6,10 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
+    ![The Conditional logic tab, with the logic tree and the rule menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
-    In the Conditional logic tab you can branch your quiz, skip certain questions, or send customers to a different results page. 
-    
+    In the Conditional logic tab you can branch your quiz, skip certain questions, or send customers to a different results page.
+
     Use the right-hand menu to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz moves from one question to the next in number order. Conditional logic changes that.
@@ -26,7 +26,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
         Jump logic and skip logic are triggered by an **IF** condition based on
         an answer, a variable or a score. Display logic acts on sections.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
+    ![The zoom controls on the logic tree](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
 
     `+` - Zoom in on the logic tree preview.
 
@@ -36,7 +36,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     `🔒` - Toggle whether you can interact with the preview.
 
-    Drag the logic tree with your mouse left button to navigate to specific branches. 
+    Drag the logic tree with your mouse left button to navigate to specific branches.
 
     Click on any of the questions in the quiz to add conditional logic to it.
 
@@ -245,7 +245,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     Jump logic routes customers to a different question based on their answers. It can also send them to another results page, or to an external URL.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
+    ![A Jump logic rule in the right-hand menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
 
     `Jump logic` - Click the heading to open or close the Jump logic rules of the selected question.
 
@@ -261,7 +261,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         You can reorder Jump logic rules by dragging them. Click and hold a rule, then drag it to a new position in the list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
+    ![The Default destination dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 
     ---
 
@@ -273,25 +273,25 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     A rule of this type has the format:
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN go to:** pick a slide from the dropdown list or add a URL 
+    - **IF** `The response to the question...`, then pick the question from the dropdown list
+    - **IS** / **IS NOT** pick a choice from the dropdown list
+    - **THEN go to...** pick a slide from the dropdown list, or add a URL
 
     !!! example "Example 1"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
+        ![A Jump logic rule sending one answer to another question](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
 
         In the example, if a customer chooses "Oily all over" in Question 4 "SKIN TYPE" they go to Question 8 "SKIN TYPE: OILY".
 
     !!! example "Example 2"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
+        ![Two Jump logic rules joined by OR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
 
         In the example, if a customer chooses "Oily in certain spots" in Question 4 "SKIN TYPE" they go to Question 6 "SKIN TYPE: COMBINATION". If the customer instead chooses "Oily all over" they go to Question 8 "SKIN TYPE: OILY".
-    
+
     !!! example "Example 3"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
+        ![One Jump logic rule with two conditions joined by AND](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
 
         In the example, **only if** a customer chooses "Oily all over" in Question 4 "SKIN TYPE" **and** "Teens and 20's" in Question 3 "AGE GROUP" they go to Question 8 "SKIN TYPE: OILY".
 
@@ -309,7 +309,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
         - **is greater than or equal to** / **is less than or equal to**
     - **Number** / **Another variable** pick a choice from the dropdown list
     - **0** / **1** / **2** / **other numerical value** type a value in the input field
-    - **THEN go to** pick a slide from the dropdown list or add a URL 
+    - **THEN go to** pick a slide from the dropdown list or add a URL
 
     !!! info
 
@@ -317,7 +317,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! example "Example 4"
 
-        ![manual_shopifyv2_jumplogic_example4_scorevariable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
+        ![A Jump logic rule reading the score of a variable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
 
         In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, the customer goes to `Results Page 1` after Question 6.
 
@@ -330,7 +330,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
     - **IF the variable with the highest score**
     - **IS** / **IS NOT** pick a choice from the dropdown list
     - **variable** pick a variable from the dropdown list
-    - **THEN go to** pick a slide from the dropdown list or add a URL 
+    - **THEN go to** pick a slide from the dropdown list or add a URL
 
     !!! info
 
@@ -338,12 +338,12 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! example "Example 5"
 
-        ![manual_shopifyv2_jumplogic_example5_highestscorevariable](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
+        ![A Jump logic rule reading the variable with the highest score](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
 
         In the example, if the variable with the highest score is `dry`, the customer goes to `Results Page 1` after Question 6.
 
-        
-   
+
+
 
 
 === "Shopify (Legacy)"
@@ -358,7 +358,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+        - **THEN go to:** pick a slide from the dropdown list or add a URL
 
     !!! example
 
@@ -400,7 +400,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+        - **THEN go to:** pick a slide from the dropdown list or add a URL
 
     !!! example
 
@@ -442,7 +442,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+        - **THEN go to:** pick a slide from the dropdown list or add a URL
 
     !!! example
 
@@ -484,7 +484,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+        - **THEN go to:** pick a slide from the dropdown list or add a URL
 
     !!! example
 
@@ -526,7 +526,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+        - **THEN go to:** pick a slide from the dropdown list or add a URL
 
     !!! example
 
@@ -562,7 +562,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     Skip logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip logic is added to a question, it will be shown.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
+    ![The Skip logic section of the rule menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
 
     `Skip logic` - Click the heading to open or close the Skip logic rules of the selected question.
 
@@ -586,13 +586,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     A rule of this type has the format:
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
+    - **IF** `The response to the question...`, then pick the question from the dropdown list
+    - **IS** / **IS NOT** pick a choice from the dropdown list
     - **THEN this question is skipped**
 
     !!! example "Example 1"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
+        ![A Skip logic rule that skips a question on one answer](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
 
         In the example, if a customer chooses "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
 
@@ -618,7 +618,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! example "Example 2"
 
-        ![manual_shopifyv2_skiplogic_example2_scorevariable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
+        ![A Skip logic rule reading the score of a variable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
 
         In the example, the rule reads the score of the variable `dry` twice. If the score is greater than number `5` and less than number `7`, Question 6 is skipped.
 
@@ -640,7 +640,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! example "Example 3"
 
-        ![manual_shopifyv2_skiplogic_example3_highestscorevariable](/images/manual_shopifyv2_skiplogic_example3_highestscorevariable.png)
+        ![A Skip logic rule reading the variable with the highest score](/images/manual_shopifyv2_skiplogic_example3_highestscorevariable.png)
 
         In the example, if the variable with the highest score is `dry`, Question 6 is skipped.
 
@@ -790,13 +790,6 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
-Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
 Next: [Quiz Design](/reference/quiz-builder/quiz-design/) →

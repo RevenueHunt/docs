@@ -6,61 +6,69 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
 === "Shopify"
 
-    To link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice, and open [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
+    To link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice, and open [`Choice settings`](/reference/quiz-builder/questions/#choice-settings).
 
-    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+    ![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
     Choose the weight of this choice:
 
-    `Upvotes weighting` - Sets a default weight for this choice. For example, if the weight is set to 2, every product upvoted from a collection receives double upvotes from this choice.
+    `Upvotes weighting` - Sets a default weight for this choice. For example, if the weight is set to 2, every product or variant this choice upvotes receives double upvotes.
 
     **Upvote**
 
-    ![manual_shopifyV2_linkproducts](/images/manual_shopifyV2_linkproducts.png)
+    ![The Upvotes section of the Choice settings](/images/manual_shopifyV2_linkproducts.png)
 
     Use the Upvotes section to choose which products or variants to link to this choice:
 
     `Upvotes` - Lists all the products or product variants linked to this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+    ![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 
-    `+ Add upvote type` - Click to choose an item to upvote. You can upvote products or product variants to a choice. A new section then opens, where you pick items from your Shopify catalog.
+    `+ Add upvote type` - Click to choose what to upvote. For this page, pick `Products` or `Product variants`. A new section then opens, where you pick items from your Shopify catalog. The menu also offers `Collections`, `Tags`, `Variants` and `Vendors`, covered in [Link Collections](/reference/quiz-builder/link-collections/).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+    ![The Add upvote type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
     Toggle the products or variants to be upvoted to add them to the upvoted list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
+    ![Toggling products on to link them to a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
 
     Upvoted products or variants are listed in the upvoted section.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+    ![Upvoted products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 
     **Exclude**
 
-    ![manual_shopifyV2_excludeproducts](/images/manual_shopifyV2_excludeproducts.png)
+    ![The Exclude section of the Choice settings](/images/manual_shopifyV2_excludeproducts.png)
 
     Use the Exclude section to choose which products or variants to exclude from this choice:
 
     `Exclude` - Lists all the products or product variants excluded in this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+    ![The list of excluded items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
 
-    `+ Add exclude type` - Click to choose an item to exclude. You can exclude products or product variants from a choice. A new section then opens, where you pick items from your Shopify catalog.
+    `+ Add exclude type` - Click to choose what to exclude. It offers the same six types as `+ Add upvote type`. A new section then opens, where you pick items from your Shopify catalog.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+    ![The Add exclude type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 
     Toggle the products or variants to be excluded to add them to the excluded list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
+    ![Toggling products on to exclude them from a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
 
     Excluded products or variants are listed in the excluded section.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+    ![Excluded products listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+
+    !!! warning "Be careful with exclusions"
+
+        Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
+
+    !!! info "Missing products?"
+
+        Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 === "Shopify (Legacy)"
 
-    ![manual_quizbuilder_linkproducts](/images/manual_quizbuilder_linkproducts.png)
+    ![The Link Products tab in the legacy app](/images/manual_quizbuilder_linkproducts.png)
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
@@ -68,7 +76,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
-    ![manual_quizbuilder_linkproducts_search](/images/manual_quizbuilder_linkproducts_search.png)
+    ![Searching for a product to link to a choice](/images/manual_quizbuilder_linkproducts_search.png)
 
     Select a product variant and it is added to the choice. You can link several product variants to the same choice.
 
@@ -84,7 +92,9 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
         Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
 
-    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    !!! info "Missing products?"
+
+        Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 === "WooCommerce"
 
@@ -112,11 +122,13 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
         Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
 
-    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    !!! info "Missing products?"
+
+        Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 === "Magento"
 
-    ![manual_quizbuilder_linkproducts](/images/manual_quizbuilder_linkproducts.png)
+    ![The Link Products tab in the legacy app](/images/manual_quizbuilder_linkproducts.png)
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
@@ -124,7 +136,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
-    ![manual_quizbuilder_linkproducts_search](/images/manual_quizbuilder_linkproducts_search.png)
+    ![Searching for a product to link to a choice](/images/manual_quizbuilder_linkproducts_search.png)
 
     Select a product variant and it is added to the choice. You can link several product variants to the same choice.
 
@@ -140,11 +152,13 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
         Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
 
-    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    !!! info "Missing products?"
+
+        Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 === "BigCommerce"
 
-    ![manual_quizbuilder_linkproducts](/images/manual_quizbuilder_linkproducts.png)
+    ![The Link Products tab in the legacy app](/images/manual_quizbuilder_linkproducts.png)
 
     In the Link Products tab, you can link individual product variants from your store to choices.
 
@@ -152,7 +166,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     To link a product to a choice, click the white dropdown bar and start typing the name.
 
-    ![manual_quizbuilder_linkproducts_search](/images/manual_quizbuilder_linkproducts_search.png)
+    ![Searching for a product to link to a choice](/images/manual_quizbuilder_linkproducts_search.png)
 
     Select a product variant and it is added to the choice. You can link several product variants to the same choice.
 
@@ -168,7 +182,9 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
         Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
 
-    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    !!! info "Missing products?"
+
+        Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 === "Standalone"
 
@@ -196,9 +212,14 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
         Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
 
+    !!! info "Missing products?"
+
+        Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
+
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
+
 
 ← Previous: [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 Next: [Customer Tags](/reference/quiz-builder/customer-tags/) →

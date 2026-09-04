@@ -33,21 +33,23 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
+    ![The Emails to respondents settings, with the template and the preview](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
 
     **Email template**
 
-    `Send an email when someone completes the quiz` - Activate this option to send notification/results email to the customer email address when they completes the quiz (reaches the results page).
+    `Send an email when someone completes the quiz` - Activate this option to send the results email to the address the customer gave, once they complete the quiz and reach the results page.
 
-    `Email-to:` - Select a slide that contains the email questions from the dropdown.
+    `Email to:` - Pick the email question that supplies the customer's address.
 
-    `Reply-to:` - Add an email address to which the notification should be sent.
+    `Reply-to:` - The address a customer reaches if they reply to the email. Use one you monitor.
 
     `Email subject:` - Add the title of the notification email.
 
-    `Email liquid template` - Add a liquid email template. The template can be built based on the Metadata provided.
+    `Email Liquid template:` - The Liquid template for the email. Build it from the metadata below.
 
     `Reset` - Resets the email template to the default template.
+
+    `Edit with AI` - Rewrites the template from a prompt, instead of editing the Liquid by hand.
 
     `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 
@@ -69,8 +71,8 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     !!! info "Quiz response metadata structure"
 
-        ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        
+        ![The quiz response metadata, expanded](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
+
         This object contains all the data generated when a customer completes a quiz, including responses, product recommendations and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
@@ -116,7 +118,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         `choicesRefs` - List of selected choice references (used internally)
 
         Example: `qbc-485600ce` → `type: picture_choice`, `value: "Dry and tight all over"`, `choicesRefs: ["qbcc-30928613"]`
-    
+
         ---
 
         **Tags**
@@ -163,7 +165,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
 
-        --- 
+        ---
 
         **Result Sections (`resultSections`)**
 
@@ -196,7 +198,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         "rsbh-273d9ef6": {
         "type": "heading",
         "content": "<p>Here's what your skin wants!</p>"
-        }       
+        }
         ```
 
         A lookup table of rendered content for each block (used in external templates like email).
@@ -388,7 +390,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
+    ![The Emails to self settings, with the template and the preview](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
 
     **Email template**
 
@@ -398,9 +400,11 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email subject:` - Add the title of the notification email.
 
-    `Email liquid template` - Add liquid email template. The template can be built based on the Metadata provided.
+    `Email Liquid template:` - The Liquid template for the email. Build it from the metadata below.
 
     `Reset` - Resets the email template to the default template.
+
+    `Edit with AI` - Rewrites the template from a prompt, instead of editing the Liquid by hand.
 
     `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 
@@ -422,8 +426,8 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     !!! info "Quiz response metadata structure"
 
-        ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        
+        ![The quiz response metadata, expanded](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
+
         This object contains all the data generated when a customer completes a quiz, including responses, product recommendations and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
@@ -469,7 +473,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         `choicesRefs` - List of selected choice references (used internally)
 
         Example: `qbc-485600ce` → `type: picture_choice`, `value: "Dry and tight all over"`, `choicesRefs: ["qbcc-30928613"]`
-    
+
         ---
 
         **Tags**
@@ -516,7 +520,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
 
-        --- 
+        ---
 
         **Result Sections (`resultSections`)**
 
@@ -549,7 +553,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         "rsbh-273d9ef6": {
         "type": "heading",
         "content": "<p>Here's what your skin wants!</p>"
-        }       
+        }
         ```
 
         A lookup table of rendered content for each block (used in external templates like email).
@@ -627,15 +631,8 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Results Page](/reference/quiz-builder/results-page/)
-Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)
 Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →

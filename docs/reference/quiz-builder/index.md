@@ -8,13 +8,13 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
+    ![The Quiz builder](/images/manual_shopifyV2_quizbuilder.png)
 
-    Quiz builder is composed of different sections: 
+    Quiz builder is composed of different sections:
 
     **Quiz builder menu**
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
+    ![The Quiz builder section menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
 
     From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Results pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
 
@@ -24,13 +24,13 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     **Quiz preview**
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
+    ![The interactive quiz preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
 
     All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
+    ![The preview toolbar, with the inspector and device controls](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
 
-    `▷ / ❚❚`- Enable or disable the custom code execution.
+    `▷ / ❚❚` - Enable or disable the custom code execution.
 
     `˙⟡` - Click the stars icon to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window and ask for help in analyzing the quiz. You will have some pre-determined options such as `Analyze quiz logic`, `Analyze product recommendations`, `Analyze quiz flow`, `Improve engagement`, `Improve quiz completion rate` and once you reply it will provide a detailed analysis of the quiz, help you identify the root cause of the issue and suggest improvements.
 
@@ -47,20 +47,20 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     **Top menu**
 
-    ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
+    ![The three dots menu in the top bar](/images/manual_shopifyV2_quizbuilder_preview.png)
 
     From the `...` menu you can:
-        
-    `˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
 
-    ![manual_shopifyV2_quizbuilder_analyzequiz_copilotchat](/images/manual_shopifyV2_quizbuilder_analyzequiz_copilotchat.png){width="300"}
+    `˙⟡ Quiz Copilot` - open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
 
-    `Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
+    ![The Quiz Copilot chat window](/images/manual_shopifyV2_quizbuilder_analyzequiz_copilotchat.png){width="300"}
 
-    `Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#responses) section.
+    `Quiz settings` - open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
+
+    `Quiz responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#responses) section.
 
     `Analytics` - open the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
-        
+
     To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
 
 === "Shopify (Legacy)"
@@ -71,7 +71,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
 
-    `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).  
+    `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
@@ -105,9 +105,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Conditional Logic` - Opens the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Quiz Design` - Opens the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
     `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
@@ -123,11 +123,11 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 === "WooCommerce"
 
-    ![manual_woo_quizbuilder](/images/manual_woo_quizbuilder.png)
+    ![The Quiz Builder on WooCommerce](/images/manual_woo_quizbuilder.png)
 
     The Quiz Builder is divided into several sections.
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
 
@@ -143,10 +143,10 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
@@ -165,9 +165,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Conditional Logic` - Opens the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Quiz Design` - Opens the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
     `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
@@ -181,7 +181,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The Quiz Builder is divided into several sections.
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
 
@@ -197,17 +197,17 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
@@ -219,9 +219,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Conditional Logic` - Opens the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Quiz Design` - Opens the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
     `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
@@ -235,7 +235,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The Quiz Builder is divided into several sections.
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
 
@@ -251,17 +251,17 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
@@ -273,9 +273,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Conditional Logic` - Opens the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Quiz Design` - Opens the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
     `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
@@ -289,7 +289,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The Quiz Builder is divided into several sections.
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
 
@@ -305,17 +305,17 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
@@ -327,9 +327,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Conditional Logic` - Opens the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Quiz Design` - Opens the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
     `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
@@ -341,9 +341,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
+    ![The Save and Discard buttons on unsaved changes](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
 
-    Click `Save` at the top to keep your changes and move to the next section of the quiz builder. Click `Discard` to throw them away.    
+    Click `Save` at the top to keep your changes and move to the next section of the quiz builder. Click `Discard` to throw them away.
 
 === "Shopify (Legacy)"
 
@@ -353,25 +353,25 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 === "WooCommerce"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "Magento"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "BigCommerce"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "Standalone"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
@@ -380,14 +380,14 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
-      
+    ![The three dots menu in the top bar](/images/manual_shopifyV2_quizbuilder_preview.png)
+
     To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
 
     !!! tip "Previewing the quiz"
- 
-        In the quiz Preview you can test different answering paths and see what gets recommended on the results page. 
-        
+
+        In the quiz Preview you can test different answering paths and see what gets recommended on the results page.
+
         You can also preview the results page for different markets and languages. To understand why the quiz showed these particular results, see [Analytics](/reference/quiz-builder/metrics/#analytics).
 
         ![preview quiz example results page](/images/manual_shopifyv2_quiz_preview_example.png)
@@ -405,53 +405,54 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 === "WooCommerce"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
 
 === "Magento"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
 === "BigCommerce"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
 === "Standalone"
 
-    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+    ![The Quiz Builder top menu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Test Quiz` - Opens the quiz preview in a new tab. 
-    
+    `Test Quiz` - Opens the quiz preview in a new tab.
+
     !!! tip
-    
+
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
 
 ## Contents
+
 - [Questions](/reference/quiz-builder/questions/)
 - [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 - [Link Products](/reference/quiz-builder/link-products/)
 - [Customer Tags](/reference/quiz-builder/customer-tags/)
-- [Conditional logic](/reference/quiz-builder/conditional-logic/)
-- [Quiz design](/reference/quiz-builder/quiz-design/)
+- [Conditional Logic](/reference/quiz-builder/conditional-logic/)
+- [Quiz Design](/reference/quiz-builder/quiz-design/)
 - [Results Page](/reference/quiz-builder/results-page/)
 - [Notifications](/reference/quiz-builder/notifications/)
 - [Quiz Settings](/reference/quiz-builder/quiz-settings/)
@@ -460,4 +461,11 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 - [Metrics](/reference/quiz-builder/metrics/)
 
 ---
-This is the RevenueHunt App Manual - Section: Quiz Builder.
+
+This is the RevenueHunt App Manual, section Quiz Builder.
+
+← [Back to the App Manual](/reference/)
+
+
+← Previous: [Glossary](/reference/glossary/)
+Next: [Questions](/reference/quiz-builder/questions/) →

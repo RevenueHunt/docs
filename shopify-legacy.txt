@@ -15804,13 +15804,6 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 
 ← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
-Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
 Next: [Quiz Design](/reference/quiz-builder/quiz-design/) →
 
 --- Shopify (Legacy) Specific Content ---
@@ -15841,7 +15834,7 @@ Jump Logic routes customers to a different question based on their answers.
     All the Jump Logic rules follow the same format:
     - **IF response to** pick the question from a dropdown list
     - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN go to:** pick a slide from the dropdown list or add a URL 
+    - **THEN go to:** pick a slide from the dropdown list or add a URL
 !!! example
     ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
     ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
@@ -15892,17 +15885,21 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 ← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
 Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
 
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
-Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
-
 --- Shopify (Legacy) Specific Content ---
 
 ![quiz builder connect](/images/manual_quizbuilder_connect.png)
-In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the services RevenueHunt connects to.
+!!! info "Currently integrated with"
+    - [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/)
+    - [Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+    - [Omnisend](/how-to-guides/send-leads-to-omnisend/)
+    - [HubSpot](/how-to-guides/send-leads-to-hubspot/)
+    - [ActiveCampaign](/how-to-guides/send-leads-to-activecampaign/)
+    - [Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
+    - [Google Analytics](/how-to-guides/integrate-google-analytics/)
+    - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
+    - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
+    - [Zapier](/how-to-guides/send-leads-to-zapier/)
 To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 
@@ -15920,19 +15917,20 @@ description: "Create and manage custom customer tags in RevenueHunt for segmenti
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
+
 
 ← Previous: [Link Products](/reference/quiz-builder/link-products/)
-Next: [Conditional logic](/reference/quiz-builder/conditional-logic/) →
+Next: [Conditional Logic](/reference/quiz-builder/conditional-logic/) →
 
 --- Shopify (Legacy) Specific Content ---
 
-![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-Created tag will then show as an available option whenever you select another choice.
-![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+![The Customer Tags section in the legacy app](/images/manual_quizbuilder_customertags.png)
+In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing. See [how to add and use customer tags](/how-to-guides/use-customer-tags/) for the full walkthrough.
+![Adding a tag next to a choice](/images/manual_quizbuilder_customertags_addtag.png)
+To add a new tag, type its name in the white bar next to one of the choices. Confirm it by clicking `Add this as a new customer tag`.
+The new tag then shows as an available option whenever you select another choice.
+![A tag linked to a choice](/images/manual_quizbuilder_customertags_tagadded.png)
 You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
 
@@ -15955,12 +15953,13 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 ## Preview the quiz
 
 ## Contents
+
 - [Questions](/reference/quiz-builder/questions/)
 - [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 - [Link Products](/reference/quiz-builder/link-products/)
 - [Customer Tags](/reference/quiz-builder/customer-tags/)
-- [Conditional logic](/reference/quiz-builder/conditional-logic/)
-- [Quiz design](/reference/quiz-builder/quiz-design/)
+- [Conditional Logic](/reference/quiz-builder/conditional-logic/)
+- [Quiz Design](/reference/quiz-builder/quiz-design/)
 - [Results Page](/reference/quiz-builder/results-page/)
 - [Notifications](/reference/quiz-builder/notifications/)
 - [Quiz Settings](/reference/quiz-builder/quiz-settings/)
@@ -15969,14 +15968,21 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 - [Metrics](/reference/quiz-builder/metrics/)
 
 ---
-This is the RevenueHunt App Manual - Section: Quiz Builder.
+
+This is the RevenueHunt App Manual, section Quiz Builder.
+
+← [Back to the App Manual](/reference/)
+
+
+← Previous: [Glossary](/reference/glossary/)
+Next: [Questions](/reference/quiz-builder/questions/) →
 
 --- Shopify (Legacy) Specific Content ---
 
 ![quiz builder](/images/manual_quizbuilder.png)
 The Quiz Builder is divided into several sections.
 `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
-`Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).  
+`Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
@@ -15993,8 +15999,8 @@ The top Success Checklist shows the progress you have made in building your quiz
 `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
 `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
 `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
-`Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
-`Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+`Conditional Logic` - Opens the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+`Quiz Design` - Opens the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
 `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
@@ -16023,15 +16029,8 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Questions](/reference/quiz-builder/questions/)
-Next: [Link Products](/reference/quiz-builder/link-products/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Questions](/reference/quiz-builder/questions/)
 Next: [Link Products](/reference/quiz-builder/link-products/) →
@@ -16043,7 +16042,7 @@ In the Link Collections tab, you can link entire collections of products from yo
 Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 upvote.
 To link a collection to a choice click on the white dropdown bar and start typing the name.
 ![quiz builder link collections search](/images/manual_quizbuilder_linkcollections_search.png)
-Select a collection and it will be automatically added to the choice. 
+Select a collection and it will be automatically added to the choice.
 `Moisturizers(1)` - The number in brackets is how many product variants are in that collection.
 You can link several collections to the same choice, but be careful. A product in two collections linked to the same choice gets 2 upvotes, one from each collection.
 ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
@@ -16068,18 +16067,19 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
+
 
 ← Previous: [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 Next: [Customer Tags](/reference/quiz-builder/customer-tags/) →
 
 --- Shopify (Legacy) Specific Content ---
 
-![manual_quizbuilder_linkproducts](/images/manual_quizbuilder_linkproducts.png)
+![The Link Products tab in the legacy app](/images/manual_quizbuilder_linkproducts.png)
 In the Link Products tab, you can link individual product variants from your store to choices.
 Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one upvote.
 To link a product to a choice, click the white dropdown bar and start typing the name.
-![manual_quizbuilder_linkproducts_search](/images/manual_quizbuilder_linkproducts_search.png)
+![Searching for a product to link to a choice](/images/manual_quizbuilder_linkproducts_search.png)
 Select a product variant and it is added to the choice. You can link several product variants to the same choice.
 ![manual_quizbuilder_linkproducts_linked](/images/manual_quizbuilder_linkproducts_linked.png)
 To remove a linked product, click `x` next to the product name.
@@ -16087,7 +16087,8 @@ To remove a linked product, click `x` next to the product name.
 ![manual_quizbuilder_linkproducts_exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 !!! warning "Be careful with exclusions"
     Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
-**Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+!!! info "Missing products?"
+    Run a [catalog sync](/how-to-guides/sync-catalog/) to bring new products and variants into the app.
 
 
 
@@ -16152,13 +16153,13 @@ On the left-hand side menu, you will find the most recent 100 responses the quiz
 `recalculate recommendations` - Recalculate the responses according to the current quiz setup.
 `resend notifications` - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
-The data in the graphs are totals in a selected period of time for a selected quiz. 
+The data in the graphs are totals in a selected period of time for a selected quiz.
 ![quiz builder metrics analytics dates](/images/manual_quizbuilder_metrics_analytics_dates.png)
 To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
-**Compare:** - Choose how you want to compare the data in the graphs. 
+**Compare:** - Choose how you want to compare the data in the graphs.
 `Part Period` - Presents data against the values from previous 30 days.
 `Quiz` - Choose a quiz name against which you want to compare the metrics against.
-**Quiz Starts** / **Starts** - Number of people who engaged with the quiz and passed the first slide. That is, they clicked `start quiz` or answered the first question. 
+**Quiz Starts** / **Starts** - Number of people who engaged with the quiz and passed the first slide. That is, they clicked `start quiz` or answered the first question.
 ![quiz builder metrics analytics starts](/images/manual_quizbuilder_metrics_analytics_starts.png)
 `Quiz Responses` / `Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
 ![quiz builder metrics analytics responses](/images/manual_quizbuilder_metrics_analytics_responses.png)
@@ -16206,15 +16207,8 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Results Page](/reference/quiz-builder/results-page/)
-Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)
 Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
@@ -16269,17 +16263,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 ## Block settings
 
-
-
-
 ## Choice settings
 
-
-
-
 ## Dynamic content & JavaScript reference
-
-
 
 
 <!--
@@ -16289,16 +16275,20 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+    ![A recalled answer placed in the block](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
 -->
 
-
+    Add your own JavaScript to the quiz with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 
 ---
 
@@ -16324,8 +16314,7 @@ quiz
 | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
 | **choice** | One of the alternatives a customer can pick. |
 | **slide** | Another word for a question, used in the API and in merge tags. |
-!!! note "Blocks are a Built for Shopify feature"
-    Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+| **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 `+`/ `Add new question` - Opens a menu of quiz questions to add.
 ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [how to add a welcome screen](/how-to-guides/add-welcome-screen/).
@@ -16374,6 +16363,21 @@ quiz
 - *+ add question below* - Adds a new blank question of the same type below.
 - *Duplicate* - Duplicate this slide. Creates a copy slide below.
 - *Delete* - Delete this slide.
+Set a question's type, its text, its image and its options in
+[Question settings](#question-settings).
+A slide holds one question by default. To put several questions on the same
+slide, use `Join next question`, as
+[how to join questions](/how-to-guides/join-questions/) describes.
+Set what a choice does from the Quiz Builder side menu.
+[Link Collections](/reference/quiz-builder/link-collections/) and
+[Link Products](/reference/quiz-builder/link-products/) control the products
+a choice upvotes. [Customer Tags](/reference/quiz-builder/customer-tags/)
+controls the tags it applies to the customer.
+Add your own JavaScript to the quiz with
+[how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+[how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+To show a customer's own answers back to them, see
+[how to use information recalls](/how-to-guides/use-information-recalls/).
 
 
 

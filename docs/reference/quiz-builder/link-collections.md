@@ -6,9 +6,9 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 === "Shopify"
 
-    To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
+    To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice settings`](/reference/quiz-builder/questions/#choice-settings).
 
-    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+    ![Opening the Choice settings for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
     Choose the weight of this choice:
 
@@ -16,51 +16,51 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     **Upvote**
 
-    ![manual_shopifyV2_linkcollections_upvote](/images/manual_shopifyV2_linkcollections_upvote.png)
+    ![The Upvotes section of the Choice settings](/images/manual_shopifyV2_linkcollections_upvote.png)
 
     Use the Upvotes section to choose which collections to link to this choice:
 
-    `Upvotes` - lists all the collections, tags, variants collections or vendors that are linked to this choice.
+    `Upvotes` - Lists everything linked to this choice: products, product variants, collections, tags, variants and vendors.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+    ![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 
-    `+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. A new section then opens, where you pick collections, tags, variants or vendors from your Shopify catalog.
+    `+ Add upvote type` - Click to choose what to upvote. The menu offers `Products`, `Product variants`, `Collections`, `Tags`, `Variants` and `Vendors`. A new section then opens, where you pick the items from your Shopify catalog. For individual products and variants, see [Link Products](/reference/quiz-builder/link-products/).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+    ![The Add upvote type menu, with its six types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
-    ![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
+    ![Toggling collections on to link them to a choice](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
 
     Toggle the collections to be upvoted to add them to the upvoted list.
 
     Upvoted collections will be listed in the upvoted section.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
+    ![Upvoted collections listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 
     !!! note
 
         You can upvote entire collections, and also recommend a whole collection to the customer.
-    
+
     **Exclude**
 
-    ![manual_shopifyV2_linkcollections_exclude](/images/manual_shopifyV2_linkcollections_exclude.png)
+    ![The Exclude section of the Choice settings](/images/manual_shopifyV2_linkcollections_exclude.png)
 
     Use the Exclude section to choose which collections to exclude from this choice:
 
-    `Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
+    `Exclude` - Lists everything excluded from this choice: products, product variants, collections, tags, variants and vendors.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+    ![The list of excluded items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
 
-    `+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. A new section then opens, where you pick the items to exclude from your Shopify catalog.
+    `+ Add exclude type` - Click to choose what to exclude. The menu offers the same six types as `+ Add upvote type`. A new section then opens, where you pick the items to exclude from your Shopify catalog.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+    ![The Add exclude type menu, with its six types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 
     Toggle the collections to be excluded to add them to the excluded list.
 
-    ![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
+    ![Toggling collections on to link them to a choice](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
 
     Excluded collections will be listed in the excluded section.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
+    ![Excluded collections listed under the choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
 
     !!! warning
 
@@ -79,7 +79,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![quiz builder link collections search](/images/manual_quizbuilder_linkcollections_search.png)
 
-    Select a collection and it will be automatically added to the choice. 
+    Select a collection and it will be automatically added to the choice.
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that collection.
 
@@ -109,7 +109,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![quiz builder link collections search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
 
-    Select a category and it will be automatically added to the choice. 
+    Select a category and it will be automatically added to the choice.
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
@@ -139,7 +139,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
 
-    Select a category and it will be automatically added to the choice. 
+    Select a category and it will be automatically added to the choice.
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
@@ -169,7 +169,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
 
-    Select a category and it will be automatically added to the choice. 
+    Select a category and it will be automatically added to the choice.
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
@@ -203,7 +203,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
 
-    Select a category and it will be automatically added to the choice. 
+    Select a category and it will be automatically added to the choice.
 
     `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
@@ -224,15 +224,8 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Questions](/reference/quiz-builder/questions/)
-Next: [Link Products](/reference/quiz-builder/link-products/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Questions](/reference/quiz-builder/questions/)
 Next: [Link Products](/reference/quiz-builder/link-products/) →
