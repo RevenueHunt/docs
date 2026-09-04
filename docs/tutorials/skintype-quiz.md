@@ -49,6 +49,8 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     ## Build the quiz
 
+    ![The Add question menu, listing every question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
+
     Now build the quiz.
 
     1. **Go to the [Quiz builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).**
@@ -83,7 +85,9 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     Now assign variables and scores to each choice.
 
     1. **Click on a choice to open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).**
-    2. **Scroll to `Scores & Calculations` and add a new variable.**
+    2. **Scroll to `Scores and calculations` and add a new variable.**
+
+        ![The Scores and calculations section of the Choice settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
     3. **Click the `Search or create variable` search bar and type a variable name, for example `dry_skin`, `normal_skin` or `oily_skin`.** A dropdown then offers `Create a new variable "xxx"`. Click it to add the variable.
     4. **Assign a score of 1 to the matching variable.**
     5. **Repeat the process for each choice in that question and move on to the next question in your quiz.**
@@ -113,6 +117,8 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     ## Add sections to results page
 
+    ![The Add block menu, listing every block type](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
+
     Now edit the Results page.
 
     1. **Go to the [Results page](/reference/quiz-builder/results-page/).**
@@ -129,6 +135,8 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     ## Add display logic
+
+    ![The Display logic panel for a section](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
     Now tell the app *when* to show each section.
 
@@ -163,6 +171,8 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     ## Troubleshoot results
 
+    ![A response analysis page](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
+
     If you see the wrong result, double-check your variables and scoring in the [Questions](/reference/quiz-builder/questions/) tab. Two variables finishing level is a common cause, so check the scores before the logic.
 
     If you need help debugging, go to the [Responses](/reference/quiz-builder/metrics/#responses) tab and open [Analysis](/reference/quiz-builder/metrics/#response-analysis).
@@ -179,6 +189,8 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     ## Publish the quiz as link button
+
+    ![The Publish tab, listing the publishing options](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
     In Shopify, link a button or a menu item to `#quiz` to make the quiz open as a popup.
 

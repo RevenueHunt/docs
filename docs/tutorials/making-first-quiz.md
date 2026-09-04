@@ -148,6 +148,8 @@ The most successful quizzes have two things in common. They are **short** and th
     1. **Add a new quiz from your [dashboard](/reference/dashboard/) by clicking `Create new quiz`.**
     2. **Open the [Quiz builder](/reference/quiz-builder/).** This is where you create your quiz.
     3. **Click on the `+ Add Question` button and select the question type you want to add.**
+
+        ![The Add question menu, listing every question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
     4. **Edit the question and see how it looks in the preview.**
     5. **To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the question card and use the settings panel on the right.** Here, you can change things like adding a question description or an image.
     6. **To make the quiz more personal, add a `Name question`.** You can then recall the answer elsewhere in the quiz with a [content dynamic source](/how-to-guides/use-information-recalls/).
@@ -163,6 +165,8 @@ The most successful quizzes have two things in common. They are **short** and th
     1. **Add a new quiz from your [dashboard](/reference/dashboard/).**
     2. **Open the [Quiz Builder](/reference/quiz-builder/).** This is where you create your quiz.
     3. **Click on the `+` plus sign and choose a question type.**
+
+        ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
     4. **Edit the question and see how it looks in the preview.**
     5. **To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon.** Here, you can change things like adding a question description or an image.
     6. **To make the quiz more personal, add a `Name question`.** You can then recall the answer elsewhere in the quiz with an [information recall (@)](/how-to-guides/use-information-recalls/).
@@ -177,6 +181,8 @@ The most successful quizzes have two things in common. They are **short** and th
     1. **Add a new quiz from your [dashboard](/reference/dashboard/).**
     2. **Open the [Quiz Builder](/reference/quiz-builder/).** This is where you create your quiz.
     3. **Click on the `+` plus sign and choose a question type.**
+
+        ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
     4. **Edit the question and see how it looks in the preview.**
     5. **To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon.** Here, you can change things like adding a question description or an image.
     6. **To make the quiz more personal, add a `Name question`.** You can then recall the answer elsewhere in the quiz with an [information recall (@)](/how-to-guides/use-information-recalls/).
@@ -191,6 +197,8 @@ The most successful quizzes have two things in common. They are **short** and th
     1. **Add a new quiz from your [dashboard](/reference/dashboard/).**
     2. **Open the [Quiz Builder](/reference/quiz-builder/).** This is where you create your quiz.
     3. **Click on the `+` plus sign and choose a question type.**
+
+        ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
     4. **Edit the question and see how it looks in the preview.**
     5. **To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon.** Here, you can change things like adding a question description or an image.
     6. **To make the quiz more personal, add a `Name question`.** You can then recall the answer elsewhere in the quiz with an [information recall (@)](/how-to-guides/use-information-recalls/).
@@ -205,6 +213,8 @@ The most successful quizzes have two things in common. They are **short** and th
     1. **Add a new quiz from your [dashboard](/reference/dashboard/).**
     2. **Open the [Quiz Builder](/reference/quiz-builder/).** This is where you create your quiz.
     3. **Click on the `+` plus sign and choose a question type.**
+
+        ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
     4. **Edit the question and see how it looks in the preview.**
     5. **To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon.** Here, you can change things like adding a question description or an image.
     6. **To make the quiz more personal, add a `Name question`.** You can then recall the answer elsewhere in the quiz with an [information recall (@)](/how-to-guides/use-information-recalls/).
@@ -219,6 +229,8 @@ The most successful quizzes have two things in common. They are **short** and th
     1. **Add a new quiz from your [dashboard](/reference/dashboard/).**
     2. **Open the [Quiz Builder](/reference/quiz-builder/).** This is where you create your quiz.
     3. **Click on the `+` plus sign and choose a question type.**
+
+        ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
     4. **Edit the question and see how it looks in the preview.**
     5. **To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon.** Here, you can change things like adding a question description or an image.
     6. **To make the quiz more personal, add a `Name question`.** You can then recall the answer elsewhere in the quiz with an [information recall (@)](/how-to-guides/use-information-recalls/).
@@ -234,6 +246,8 @@ Now style the quiz.
 
 === "Shopify"
 
+    ![The Quiz design section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+
     1. **Open the [Quiz design](/reference/quiz-builder/quiz-design/) tab.**
     2. **Pick a theme under [`Color scheme`](/reference/quiz-builder/quiz-design/#my-themes).** It holds a set of ready-made themes.
     3. **Or you can create your own design by clicking on different elements in the editing panel.**
@@ -247,6 +261,8 @@ Now style the quiz.
 
 
 === "Shopify (Legacy)"
+
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
 
     1. **Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.**
     2. **In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.**
@@ -262,6 +278,8 @@ Now style the quiz.
 
 === "WooCommerce"
 
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
+
     1. **Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.**
     2. **In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.**
     3. **Or you can create your own design by clicking [Edit Theme](/reference/quiz-builder/quiz-design/#edit-theme).**
@@ -275,6 +293,8 @@ Now style the quiz.
     7. **Once you are done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes).** You can then apply it to other quizzes that you create.
 
 === "Magento"
+
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
 
     1. **Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.**
     2. **In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.**
@@ -290,6 +310,8 @@ Now style the quiz.
 
 === "BigCommerce"
 
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
+
     1. **Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.**
     2. **In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.**
     3. **Or you can create your own design by clicking [Edit Theme](/reference/quiz-builder/quiz-design/#edit-theme).**
@@ -303,6 +325,8 @@ Now style the quiz.
     7. **Once you are done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes).** You can then apply it to other quizzes that you create.
 
 === "Standalone"
+
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
 
     1. **Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.**
     2. **In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you see some premade themes that you can choose from.**
@@ -322,6 +346,8 @@ Once you are happy with the design, add products to each question. This step mat
 
 === "Shopify"
 
+    ![The Upvotes section of the Choice settings](/images/manual_shopifyV2_linkproducts.png)
+
     1. **Check the dashboard.** It tells you when answers have no products linked to them.
     2. **To add a product, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and click on the [Upvote](/reference/quiz-builder/link-products/) section.**
     3. **Pick products from the list**, by scrolling or by typing a name. The list holds your synced store products.
@@ -337,6 +363,8 @@ Once you are happy with the design, add products to each question. This step mat
 
 === "Shopify (Legacy)"
 
+    ![The Link Products tab](/images/manual_quizbuilder_linkproducts.png)
+
     1. **Check the [success checklist](/reference/dashboard/#success-checklist).** It tells you when answers have no products linked to them.
     2. **To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.**
     3. **Pick products from the list**, by scrolling or by typing a name. The list holds your synced store products.
@@ -350,6 +378,8 @@ Once you are happy with the design, add products to each question. This step mat
     7. **Click `Publish` to update the preview and the live quiz.** Then click `Preview` to test different answering routes and results.
 
 === "WooCommerce"
+
+    ![The Link Products tab](/images/manual_wooquizbuilder_linkproducts.png)
 
     1. **Check the [success checklist](/reference/dashboard/#success-checklist).** It tells you when answers have no products linked to them.
     2. **To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.**
@@ -365,6 +395,8 @@ Once you are happy with the design, add products to each question. This step mat
 
 === "Magento"
 
+    ![The Link Products tab](/images/manual_quizbuilder_linkproducts.png)
+
     1. **Check the [success checklist](/reference/dashboard/#success-checklist).** It tells you when answers have no products linked to them.
     2. **To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.**
     3. **Pick products from the list**, by scrolling or by typing a name. The list holds your synced store products.
@@ -379,6 +411,8 @@ Once you are happy with the design, add products to each question. This step mat
 
 === "BigCommerce"
 
+    ![The Link Products tab](/images/manual_quizbuilder_linkproducts.png)
+
     1. **Check the [success checklist](/reference/dashboard/#success-checklist).** It tells you when answers have no products linked to them.
     2. **To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.**
     3. **Pick products from the list**, by scrolling or by typing a name. The list holds your synced store products.
@@ -392,6 +426,8 @@ Once you are happy with the design, add products to each question. This step mat
     7. **Click `Publish` to update the preview and the live quiz.** Then click `Preview` to test different answering routes and results.
 
 === "Standalone"
+
+    ![The Link Products tab](/images/manual_standalone_quizbuilder_linkproducts.png)
 
     1. **Check the [success checklist](/reference/dashboard/#success-checklist).** It tells you when answers have no products linked to them.
     2. **To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.**
@@ -413,6 +449,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
     1. **As in the Quiz builder, you can add multiple sections to your [Results page](/reference/quiz-builder/results-page/) by clicking on the `Results Page` tab.**
     2. **Click on the `+ Add Block` button to select a block type.**
+
+        ![The Add block menu, listing every block type](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
         - In `text blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `button block`, you can add a button to a custom URL.
@@ -423,6 +461,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
     1. **Add sections to your [Results Page](/reference/quiz-builder/results-page/)**, the same way you do in the Quiz Builder.
     2. **Click on a `+` plus sign to select a block type.**
+
+        ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
@@ -433,6 +473,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
     1. **Add sections to your [Results Page](/reference/quiz-builder/results-page/)**, the same way you do in the Quiz Builder.
     2. **Click on a `+` plus sign to select a block type.**
+
+        ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
@@ -443,6 +485,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
     1. **Add sections to your [Results Page](/reference/quiz-builder/results-page/)**, the same way you do in the Quiz Builder.
     2. **Click on a `+` plus sign to select a block type.**
+
+        ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
@@ -453,6 +497,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
     1. **Add sections to your [Results Page](/reference/quiz-builder/results-page/)**, the same way you do in the Quiz Builder.
     2. **Click on a `+` plus sign to select a block type.**
+
+        ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
@@ -463,6 +509,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
     1. **Add sections to your [Results Page](/reference/quiz-builder/results-page/)**, the same way you do in the Quiz Builder.
     2. **Click on a `+` plus sign to select a block type.**
+
+        ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended.
@@ -472,6 +520,8 @@ Speaking of results. Make sure to also edit the Results Page.
 ## Publishing the quiz
 
 === "Shopify"
+
+    ![The Publish tab, listing the publishing options](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
     1. **Once your quiz is set up, go to your [Dashboard](/reference/dashboard/) and click `Make default`.**
     2. **Go to the [`Publish`](/reference/quiz-builder/share-publish/) section to see all the publishing options.**
@@ -489,6 +539,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
 === "Shopify (Legacy)"
 
+    ![The Share tab, listing the publishing options](/images/manual_quizbuilder_share.png)
+
     1. **Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner.** It shows every publishing option.
     2. **For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).**
     3. **Adjust the quiz's width and height and generate a code.**
@@ -497,6 +549,8 @@ Speaking of results. Make sure to also edit the Results Page.
     You have created your first Product Recommendation Quiz.
 
 === "WooCommerce"
+
+    ![The Share tab, listing the publishing options](/images/manual_woo_quizbuilder_share.png)
 
     1. **Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner.** It shows every publishing option.
     2. **For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).**
@@ -507,6 +561,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
 === "Magento"
 
+    ![The Share tab, listing the publishing options](/images/manual_standalone_quizbuilder_share.png)
+
     1. **Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner.** It shows every publishing option.
     2. **For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).**
     3. **Adjust the quiz's width and height and generate a code.**
@@ -516,6 +572,8 @@ Speaking of results. Make sure to also edit the Results Page.
 
 === "BigCommerce"
 
+    ![The Share tab, listing the publishing options](/images/manual_standalone_quizbuilder_share.png)
+
     1. **Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner.** It shows every publishing option.
     2. **For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).**
     3. **Adjust the quiz's width and height and generate a code.**
@@ -524,6 +582,8 @@ Speaking of results. Make sure to also edit the Results Page.
     You have created your first Product Recommendation Quiz.
 
 === "Standalone"
+
+    ![The Share tab, listing the publishing options](/images/manual_standalone_quizbuilder_share.png)
 
     1. **Once your quiz is set up, click [`Share`](/reference/quiz-builder/share-publish/) in the top right corner.** It shows every publishing option.
     2. **For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu).**

@@ -329,6 +329,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify (Legacy)"
 
+    ![The Public API Key in Klaviyo account settings](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
+
     To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
@@ -349,6 +351,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
 === "WooCommerce"
+
+    ![The Public API Key in Klaviyo account settings](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
 
     To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
@@ -371,6 +375,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Magento"
 
+    ![The Public API Key in Klaviyo account settings](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
+
     To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
@@ -392,6 +398,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "BigCommerce"
 
+    ![The Public API Key in Klaviyo account settings](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
+
     To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
     The Public API Key is what lets the app send information to Klaviyo Profiles.
@@ -412,6 +420,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
 === "Standalone"
+
+    ![The Public API Key in Klaviyo account settings](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
 
     To connect the quiz to Klaviyo, provide your Klaviyo `Public API Key`.
 
@@ -639,6 +649,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
+    ![The Klaviyo template button in the app](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+
     1. **Grab the `Email` action and drop it below the last step.**
     2. **In `Email details` section edit the Subject.**
     3. **Click `Select template`.** Klaviyo opens the Templates section.
@@ -649,7 +661,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
         !!! info "Klaviyo Template"
 
-            ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
+            ![Copying the template code](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
 
             The code holds ready-to-use snippets that display:
 
@@ -685,6 +697,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify (Legacy)"
 
+    ![The Klaviyo template button in the app](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+
     1. **Grab the `EMAIL` action and drop it below the flow trigger.**
     2. **Click on the `...` three dots and `edit the email`.**
     3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
@@ -701,6 +715,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
 === "WooCommerce"
+
+    ![The Klaviyo template button in the app](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
 
     1. **Grab the `EMAIL` action and drop it below the flow trigger.**
     2. **Click on the `...` three dots and `edit the email`.**
@@ -719,6 +735,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Magento"
 
+    ![The Klaviyo template button in the app](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+
     1. **Grab the `EMAIL` action and drop it below the flow trigger.**
     2. **Click on the `...` three dots and `edit the email`.**
     3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
@@ -736,6 +754,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "BigCommerce"
 
+    ![The Klaviyo template button in the app](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+
     1. **Grab the `EMAIL` action and drop it below the flow trigger.**
     2. **Click on the `...` three dots and `edit the email`.**
     3. **Edit the `name/subject/email` to your liking and select the `HTML email template`.**
@@ -752,6 +772,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
 === "Standalone"
+
+    ![The Klaviyo template button in the app](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
 
     1. **Grab the `EMAIL` action and drop it below the flow trigger.**
     2. **Click on the `...` three dots and `edit the email`.**
@@ -772,6 +794,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
+    ![Allowing reentry so a retake sends the email](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
+
     The easiest way to send an email with each quiz retake is to set the **reentry criteria** when you configure the flow trigger:
 
     1. **Open the flow trigger (`Added to a segment`).**
@@ -785,6 +809,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 
 === "Shopify (Legacy)"
+
+    ![Allowing reentry so a retake sends the email](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
 
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
@@ -805,6 +831,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "WooCommerce"
 
+    ![Allowing reentry so a retake sends the email](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
     1. **Add a `Profile property update` action at the end of the flow.**
@@ -820,6 +848,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
 === "Magento"
+
+    ![Allowing reentry so a retake sends the email](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -837,6 +867,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "BigCommerce"
 
+    ![Allowing reentry so a retake sends the email](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
     1. **Add a `Profile property update` action at the end of the flow.**
@@ -852,6 +884,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     Each time a customer takes the quiz again, they are added back to the segment and trigger the email flow again.
 
 === "Standalone"
+
+    ![Allowing reentry so a retake sends the email](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
 
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
@@ -873,6 +907,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
+    ![The Klaviyo list setting on the email block](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
+
     With the OAuth connection in place, you can add quiz contacts straight to a Klaviyo list. No extra API keys are needed, and the list selector sits inside the email question block.
 
     1. **Have a Klaviyo list ready.** To create one, go to `Klaviyo > Audience > Lists & Segments` and set it to `Single Opt-in` in the list settings.
@@ -893,6 +929,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify (Legacy)"
 
+    ![Creating a Private API Key in Klaviyo](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
+
     The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
     1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
@@ -910,6 +948,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 === "WooCommerce"
+
+    ![Creating a Private API Key in Klaviyo](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
@@ -929,6 +969,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Magento"
 
+    ![Creating a Private API Key in Klaviyo](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
+
     The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
     1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
@@ -947,6 +989,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "BigCommerce"
 
+    ![Creating a Private API Key in Klaviyo](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
+
     The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 
     1. **Create a `Private API Key` in Klaviyo.** The app needs it to write to a list.
@@ -964,6 +1008,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. **Take the quiz with a sample email from `Preview`, then check the list in Klaviyo.**
 
 === "Standalone"
+
+    ![Creating a Private API Key in Klaviyo](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     The RevenueHunt app can add quiz contacts straight to a Klaviyo list. This needs a `Private API Key`.
 

@@ -463,6 +463,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
+    ![The Add question menu, listing every question type](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
+
     Now you can build your quiz.
 
     1. **Start from scratch, or use one of the [pre-designed Skincare templates](/reference/dashboard/#new-quiz).**
@@ -478,6 +480,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "Shopify (Legacy)"
+
+    ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
 
     Now you can build your quiz.
 
@@ -495,6 +499,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "WooCommerce"
+
+    ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
 
 
     Now you can build your quiz.
@@ -515,6 +521,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Magento"
 
+    ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
+
 
     Now you can build your quiz.
 
@@ -533,6 +541,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "BigCommerce"
 
+    ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
+
 
     Now you can build your quiz.
 
@@ -550,6 +560,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "Standalone"
+
+    ![The Add question menu, listing every question type](/images/manual_quizbuilder_quizbuilder_addquestions.png)
 
 
     Now you can build your quiz.
@@ -573,6 +585,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
+    ![The Quiz design section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+
 
     1. **In the [Quiz design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.**
     2. **You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.**
@@ -580,10 +594,14 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
+
     1. **In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.**
     2. **You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.**
 
 === "WooCommerce"
+
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
 
 
     1. **In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.**
@@ -591,17 +609,23 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Magento"
 
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
+
 
     1. **In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.**
     2. **You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.**
 
 === "BigCommerce"
 
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
+
 
     1. **In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.**
     2. **You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#advanced-customizations-css) to make it pop.**
 
 === "Standalone"
+
+    ![The Quiz Design section](/images/manual_quizbuilder_quizdesign.png)
 
 
     1. **In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.**
@@ -612,6 +636,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 ## Upvote collections/categories
 
 === "Shopify"
+
+    ![The Upvotes section of the Choice settings](/images/manual_shopifyV2_linkcollections_upvote.png)
 
 
     Once your quiz is built and styled, you should add products or collections to individual choices.
@@ -641,6 +667,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
+    ![The tab where collections are linked to choices](/images/manual_quizbuilder_linkcollections.png)
+
     Once your quiz is built and styled, you should add products and collections to individual choices.
 
     1. **To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.**
@@ -660,6 +688,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "WooCommerce"
+
+    ![The tab where collections are linked to choices](/images/manual_woo_quizbuilder_linkcategories.png)
 
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
@@ -683,6 +713,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Magento"
 
+    ![The tab where collections are linked to choices](/images/manual_standalone_quizbuilder_linkcategories.png)
+
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
 
@@ -705,6 +737,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "BigCommerce"
 
+    ![The tab where collections are linked to choices](/images/manual_standalone_quizbuilder_linkcategories.png)
+
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
 
@@ -726,6 +760,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "Standalone"
+
+    ![The tab where collections are linked to choices](/images/manual_standalone_quizbuilder_linkcategories.png)
 
 
     Once your quiz is built and styled, you should add products and categories to individual choices.
@@ -753,10 +789,14 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
+    ![The Exclude section of the Choice settings](/images/manual_shopifyV2_linkcollections_exclude.png)
+
     No need to exclude products. The product matrix will recommend the correct products based on the customer's answers.
 
 
 === "Shopify (Legacy)"
+
+    ![Excluding collections from a choice](/images/manual_quizbuilder_linkcollections_exclude.png)
 
     Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
@@ -771,6 +811,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
         Be careful with exclusions. Once a product is excluded it does not show on the results page, even if another question upvoted it.
 
 === "WooCommerce"
+
+    ![Excluding collections from a choice](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
 
 
 
@@ -789,6 +831,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Magento"
 
+    ![Excluding collections from a choice](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
+
 
     Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
@@ -805,6 +849,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "BigCommerce"
 
+    ![Excluding collections from a choice](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
+
 
     Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
 
@@ -820,6 +866,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "Standalone"
+
+    ![Excluding collections from a choice](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
 
     Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/set-up-funnel-quiz/#exclusion) feature.
@@ -840,6 +888,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
+    ![The Add block menu, listing every block type](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
+
 
     Now edit the [Results page](/reference/quiz-builder/results-page/).
 
@@ -852,6 +902,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "Shopify (Legacy)"
+
+    ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
     Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -867,6 +919,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "WooCommerce"
 
+    ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
 
     Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -880,6 +934,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     The page is almost done.
 
 === "Magento"
+
+    ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
 
     Now edit the [Results Page](/reference/quiz-builder/results-page/).
@@ -895,6 +951,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "BigCommerce"
 
+    ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
 
     Now edit the [Results Page](/reference/quiz-builder/results-page/).
 
@@ -908,6 +966,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     The page is almost done.
 
 === "Standalone"
+
+    ![The Add block menu, listing every block type](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
 
     Now edit the [Results Page](/reference/quiz-builder/results-page/).
@@ -931,6 +991,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
+    ![The settings for a single product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
+
 
     Now sort the recommended products into clear steps. A skincare routine is a cleanser, a toner, a serum and a moisturizer.
 
@@ -953,6 +1015,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
+    ![The product block settings, where slots are added](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
     Now add a space for products.
 
     1. **A skincare routine is a cleanser, a toner, a serum and a moisturizer.**
@@ -971,6 +1035,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     You have created a dynamic results page for your beauty quiz.
 
 === "WooCommerce"
+
+    ![The product block settings, where slots are added](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
 
     Now add a space for products.
@@ -994,6 +1060,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Magento"
 
+    ![The product block settings, where slots are added](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
 
     Now add a space for products.
 
@@ -1016,6 +1084,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "BigCommerce"
 
+    ![The product block settings, where slots are added](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
 
     Now add a space for products.
 
@@ -1037,6 +1107,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 === "Standalone"
+
+    ![The product block settings, where slots are added](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
 
     Now add a space for products.
@@ -1106,6 +1178,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
+    ![The Publish tab, listing the publishing options](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
+
 
     Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
@@ -1130,6 +1204,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
+    ![The Share tab, listing the publishing options](/images/manual_quizbuilder_share.png)
+
     Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
     1. **To do that, go to the [`Share`](/reference/quiz-builder/share-publish/) tab and select the `Inline` publish option.**
@@ -1141,6 +1217,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     7. **Make sure to `save` the changes.**
 
 === "WooCommerce"
+
+    ![The Share tab, listing the publishing options](/images/manual_woo_quizbuilder_share.png)
 
 
     Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
@@ -1154,6 +1232,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     7. **From now on, the inline quiz will be visible on that page.**
 
 === "Magento"
+
+    ![The Share tab, listing the publishing options](/images/manual_standalone_quizbuilder_share.png)
 
 
     Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
@@ -1176,6 +1256,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "BigCommerce"
 
+    ![The Share tab, listing the publishing options](/images/manual_standalone_quizbuilder_share.png)
+
 
     Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
 
@@ -1192,6 +1274,8 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     7. **From now on, the inline quiz will be visible on that page.**
 
 === "Standalone"
+
+    ![The Share tab, listing the publishing options](/images/manual_standalone_quizbuilder_share.png)
 
 
     Now publish the quiz on your website. Add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page).
