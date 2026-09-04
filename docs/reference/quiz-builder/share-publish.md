@@ -6,11 +6,11 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
 === "Shopify"
 
-    ![/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
+    ![Opening Publish from the app side menu](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
 
     To add the quiz to your store, go the `Publish` tab from your [Dashboard](/reference/dashboard/) side menu.
-    
-    ![manual_shopifyV2_quizbuilder_share_publish_publishpage](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
+
+    ![The Publish tab, listing the publishing options](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
     `Theme extensions usage` - Tells you whether the RevenueHunt theme extension is active, and where it is installed in your Shopify theme.
 
@@ -19,7 +19,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     Below, you will find step-by-step instructions on how to publish the default quiz onto your website. Click on the option tiles to see instructions and extra settings.
 
     !!! tip
-    
+
         See [how to publish the quiz](/how-to-guides/publish-quiz/) for detailed instructions.
 
 
@@ -28,46 +28,46 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     ![quiz builder share](/images/manual_quizbuilder_share.png)
 
-    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings.
 
     For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "WooCommerce"
 
-    ![manual_woo_quizbuilder_share](/images/manual_woo_quizbuilder_share.png)
+    ![The Share tab on WooCommerce](/images/manual_woo_quizbuilder_share.png)
 
-    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings.
 
     For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "Magento"
 
-    ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
+    ![The Share tab](/images/manual_standalone_quizbuilder_share.png)
 
-    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings.
 
     For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "BigCommerce"
 
-    ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
+    ![The Share tab](/images/manual_standalone_quizbuilder_share.png)
 
-    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings.
 
     For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 === "Standalone"
 
-    ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
+    ![The Share tab](/images/manual_standalone_quizbuilder_share.png)
 
-    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings.
 
     For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 
 ## Link
 
 
-=== "Shopify" 
+=== "Shopify"
 
     !!! info "What is a Link Popup?"
 
@@ -75,14 +75,14 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     **On every page**{ #link-on-every-page }
 
-    1. To add a link popup to your website, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
-    2. Open `App Embeds` and toggle the button to activate the `Link Popup Quiz`.
+    1. **To add a link popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.**
+    2. **Open `App Embeds` and toggle the button to activate the `Link Popup Quiz`.**
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+        ![The Link Popup Quiz app embed in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
-    3. You can adjust the popup options:
+    3. **Adjust the popup options:**
 
-        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+        ![The link popup options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
 
         `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
 
@@ -94,30 +94,30 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    4. Click `Save`.
-    5. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
+    4. **Click `Save`.**
+    5. **Add `#quiz` to any element of your website to trigger the link popup.** For example, you can add it to a button, link or a menu item.
 
     !!! tip "Step-by-step instructions"
-        
+
         See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+        ![A link popup on a storefront](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
 
     **On a specific page**{ #link-on-a-specific-page }
 
-    1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-    2. From the `Home page` menu at the top, go to `Pages`.
-    3. Open the page template you want to add the link popup to, or create a new one.
-    4. Once in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Link Popup Quiz`.
+    1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+    2. **From the `Home page` menu at the top, go to `Pages`.**
+    3. **Open the page template you want to add the link popup to, or create a new one.**
+    4. **Once in the page template editor, click `+ Add section`, then `Apps`.** From the list, pick the `Link Popup Quiz`.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup_specificpage](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
+        ![Adding the Link Popup Quiz section to a page template](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
 
-    5. In the `Link Popup Quiz` section, you can adjust the link popup settings.
+    5. **In the `Link Popup Quiz` section, adjust the link popup settings.**
 
-        ![manual_shopifyV2_pagelevel_linkpopup_added](/images/manual_shopifyv2_pagelevel_linkpopup_added.png)
+        ![The Link Popup Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_linkpopup_added.png)
 
-        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+        ![The link popup options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
 
         `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
 
@@ -129,16 +129,16 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    6. Click `Save`.
-    7. Remember to apply the new page template to the page you want to add the link popup to.
-    8. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
-    
+    6. **Click `Save`.**
+    7. **Remember to apply the new page template to the page you want to add the link popup to.**
+    8. **Add `#quiz` to any element of your website to trigger the link popup.** For example, you can add it to a button, link or a menu item.
+
     !!! tip "Step-by-step instructions"
-        
+
         See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
-    
-        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
-    
+
+        ![A link popup on a storefront](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+
 
 === "Shopify (Legacy)"
 
@@ -231,18 +231,18 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     **On every page**{ #inline-on-every-page }
 
-    !!! warning 
+    !!! warning
 
         Most merchants place the inline quiz on one specific page. To do that, see [On a Specific Page](#inline-on-a-specific-page).
 
-    1. To add an inline quiz to your website, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
-    2. From the `Home page` menu on top, select the `Default page` template. This is a template applied by default to most pages in your store.
-    3. When in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
+    1. **To add an inline quiz to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.**
+    2. **From the `Home page` menu on top, select the `Default page` template.** This is a template applied by default to most pages in your store.
+    3. **When in the page template editor, click `+ Add section`, then `Apps`.** From the list, pick the `Inline Quiz`.
 
-        ![manual_shopifyv2_pagelevel_inline_add](/images/manual_shopifyv2_pagelevel_inline_add.png)
+        ![Adding the Inline Quiz section to a page template](/images/manual_shopifyv2_pagelevel_inline_add.png)
 
-    4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+    4. **In the `Inline Quiz` section, adjust the inline quiz settings.**
+        ![The inline quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
         `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
 
@@ -250,7 +250,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
 
-        `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
+        `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
 
         `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
 
@@ -260,24 +260,24 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    5. Click `Save`. From now on, the inline quiz will be visible on all the pages that use the `Default page` template.
-    
+    5. **Click `Save`.** From now on, the inline quiz will be visible on all the pages that use the `Default page` template.
+
     !!! tip "Step-by-step instructions"
-        
+
         Follow the step by step instructions provided in the `Add the quiz to your home page` section, or in [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
-    
+
     **On a specific page**{ #inline-on-a-specific-page }
 
-    1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-    2. From the `Home page` menu at the top, go to `Pages`.
-    3. Open the page template you want to add the inline quiz to, or create a new one.
-    4. Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
+    1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+    2. **From the `Home page` menu at the top, go to `Pages`.**
+    3. **Open the page template you want to add the inline quiz to, or create a new one.**
+    4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Inline Quiz`.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
+        ![The Inline Quiz section in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
 
-    5. In the `Inline Quiz` section, you can adjust the inline quiz settings.
+    5. **In the `Inline Quiz` section, adjust the inline quiz settings.**
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+        ![The inline quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
         `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
 
@@ -285,7 +285,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
 
-        `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
+        `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
 
         `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
 
@@ -295,11 +295,11 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    6. Remember to apply the new page template to the page you want to add the inline quiz to.  
-    7. Click `Save`. From now on, the inline quiz will be visible on that page.
+    6. **Remember to apply the new page template to the page you want to add the inline quiz to.**
+    7. **Click `Save`.** From now on, the inline quiz will be visible on that page.
 
     !!! tip "Step-by-step instructions"
-        
+
         Follow the step by step instructions provided in the `Add the quiz to a dedicated landing page` section, or in [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 
 
@@ -321,7 +321,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate.
 
 === "WooCommerce"
 
@@ -341,7 +341,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate.
 
 === "Magento"
 
@@ -361,7 +361,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate.
 
 === "BigCommerce"
 
@@ -381,7 +381,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate.
 
 === "Standalone"
 
@@ -401,7 +401,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate.
 
 ## Automatic
 
@@ -413,13 +413,13 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     **On every page**{ #automatic-on-every-page }
 
-    1. To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
+    1. **To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.** Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+        ![The Automatic Popup Quiz app embed in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
 
-    2. You can adjust the popup options:
+    2. **Adjust the popup options:**
 
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+        ![The automatic popup options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
         `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
 
@@ -430,10 +430,10 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
         `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
-        
+
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
-    3. Click `Save`. From now on, the automatic popup will be triggered on all the pages.
+    3. **Click `Save`.** From now on, the automatic popup will be triggered on all the pages.
 
     !!! tip "Step-by-step instructions"
 
@@ -446,18 +446,18 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     **On a specific page**{ #automatic-on-a-specific-page }
 
-    1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-    2. From the `Home page` menu at the top, go to `Pages`.
-    3. Open the page template you want to add the automatic popup to, or create a new one.
-    4. Then, `+ Add section`, click the `Apps`. From the list, pick the `Automatic Popup Quiz`.
+    1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+    2. **From the `Home page` menu at the top, go to `Pages`.**
+    3. **Open the page template you want to add the automatic popup to, or create a new one.**
+    4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Automatic Popup Quiz`.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
+        ![Adding the Automatic Popup Quiz section to a page template](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
 
-    5. In the `Automatic Popup Quiz` section, you can adjust the automatic popup settings.
+    5. **In the `Automatic Popup Quiz` section, adjust the automatic popup settings.**
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
+        ![The Automatic Popup Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
 
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+        ![The automatic popup options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
         `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
 
@@ -471,8 +471,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
-    6. Click `Save`. From now on, the automatic popup will be triggered on that page or any page that uses the same template.
-    7. Remember to apply the new page template to the page you want to add the automatic popup to.
+    6. **Click `Save`.** From now on, the automatic popup will be triggered on that page or any page that uses the same template.
+    7. **Remember to apply the new page template to the page you want to add the automatic popup to.**
 
     !!! tip "Step-by-step instructions"
 
@@ -481,35 +481,11 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     !!! warning "Note"
 
         By default, the popup is only shown once per session unless `Exit Intent` is enabled.
-    
-    
 
 
-=== "Shopify (Legacy)" 
 
-    !!! info "What is an Automatic Popup?"
 
-        A quiz popup that appears after X seconds.
-
-    By default, the popup is only shown once per session.
-
-    ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
-
-    `Instructions for legacy themes` - Opens extra settings menu.
-
-    ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
-
-    **POPUP OPTIONS**
-
-    `Popup width` - Adjust the width of the quiz by typing the percentage number.
-
-    `Popup height` - Adjust the width of the quiz by typing the percentage number.
-
-    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
-
-    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
-
-=== "WooCommerce" 
+=== "Shopify (Legacy)"
 
     !!! info "What is an Automatic Popup?"
 
@@ -533,7 +509,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-=== "Magento" 
+=== "WooCommerce"
 
     !!! info "What is an Automatic Popup?"
 
@@ -557,7 +533,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-=== "BigCommerce" 
+=== "Magento"
 
     !!! info "What is an Automatic Popup?"
 
@@ -581,7 +557,31 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-=== "Standalone" 
+=== "BigCommerce"
+
+    !!! info "What is an Automatic Popup?"
+
+        A quiz popup that appears after X seconds.
+
+    By default, the popup is only shown once per session.
+
+    ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
+
+    `Instructions for legacy themes` - Opens extra settings menu.
+
+    ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
+
+    **POPUP OPTIONS**
+
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
+
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
+
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
+
+=== "Standalone"
 
     !!! info "What is an Automatic Popup?"
 
@@ -736,7 +736,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         For step by step instructions, check [Link Popup on Every Page](/reference/quiz-builder/share-publish/#link-on-every-page).
 
 
-=== "Shopify (Legacy)" 
+=== "Shopify (Legacy)"
 
     !!! info "What is an Email Link?"
 
@@ -750,7 +750,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "WooCommerce" 
+=== "WooCommerce"
 
     !!! info "What is an Email Link?"
 
@@ -764,7 +764,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "Magento" 
+=== "Magento"
 
     !!! info "What is an Email Link?"
 
@@ -778,7 +778,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "BigCommerce" 
+=== "BigCommerce"
 
     !!! info "What is an Email Link?"
 
@@ -792,7 +792,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "Standalone" 
+=== "Standalone"
 
     !!! info "What is an Email Link?"
 
@@ -817,13 +817,13 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     **On every page**{ #chat-on-every-page }
 
-    1. To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
+    1. **To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.** Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+        ![The Chat Button Quiz app embed in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
 
-    2. You can adjust the chat button options:
+    2. **Adjust the chat button options:**
 
-        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+        ![The chat button options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
         `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
@@ -840,12 +840,12 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-        
+
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    3. Click `Save`. From now on, the chat popup will show up on every page.
+    3. **Click `Save`.** From now on, the chat popup will show up on every page.
 
     !!! tip "Step-by-step instructions"
 
@@ -854,18 +854,18 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     **On a specific page**{ #chat-on-a-specific-page }
 
-    1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-    2. From the `Home page` menu at the top, go to `Pages`.
-    3. Open the page template you want to add the chat popup to, or create a new one.
-    4. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
+    1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+    2. **From the `Home page` menu at the top, go to `Pages`.**
+    3. **Open the page template you want to add the chat popup to, or create a new one.**
+    4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Chat Button Quiz`.
 
-        ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
+        ![Adding the Chat Button Quiz section to a page template](/images/manual_shopifyv2_pagelevel_chat_add.png)
 
-    5. You can adjust the chat button options:
+    5. **Adjust the chat button options:**
 
-        ![manual_shopifyv2_pagelevel_chat_added](/images/manual_shopifyv2_pagelevel_chat_added.png)
+        ![The Chat Button Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_chat_added.png)
 
-        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+        ![The chat button options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
         `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
@@ -876,18 +876,18 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
         `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
-        
+
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
-    6. Click `Save`. From now on, the chat popup will show up on that page or any page that uses the same template.  
-    7. Remember to apply the new page template to the page you want to add the chat popup to.
+    6. **Click `Save`.** From now on, the chat popup will show up on that page or any page that uses the same template.
+    7. **Remember to apply the new page template to the page you want to add the chat popup to.**
 
     !!! tip "Step-by-step instructions"
 
         Follow the step by step instructions in [how to set up chat button popups on a specific page](/how-to-guides/publish-quiz-chat-button/#chat-button-on-a-specific-page) to add a chat popup to your website.
 
 
-=== "Shopify (Legacy)" 
+=== "Shopify (Legacy)"
 
     !!! info "What is a Chat Popup?"
 
@@ -917,7 +917,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
-=== "WooCommerce" 
+=== "WooCommerce"
 
     !!! info "What is a Chat Popup?"
 
@@ -947,7 +947,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
-=== "Magento" 
+=== "Magento"
 
     !!! info "What is a Chat Popup?"
 
@@ -977,7 +977,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
-=== "BigCommerce" 
+=== "BigCommerce"
 
     !!! info "What is a Chat Popup?"
 
@@ -1007,7 +1007,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
-=== "Standalone" 
+=== "Standalone"
 
     !!! info "What is a Chat Popup?"
 
@@ -1042,13 +1042,6 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
-Next: [Metrics](/reference/quiz-builder/metrics/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 Next: [Metrics](/reference/quiz-builder/metrics/) →

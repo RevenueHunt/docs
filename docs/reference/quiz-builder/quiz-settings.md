@@ -6,7 +6,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+    ![The Quiz settings panel, with its side menu](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
     In Quiz settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also set up integrations, notification emails to yourself, and result emails to customers. It is also where you restore a previously published version of the quiz.
 
@@ -90,7 +90,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
+    `Set revenuehunt/quiz as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
@@ -118,7 +118,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
+    `Set revenuehunt/quiz as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
@@ -128,7 +128,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 === "Magento"
 
-    ![manual_magento_quizbuilder_quizsettings_general](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
+    ![The General tab of Quiz Settings](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
 
     `Quiz name` - Click on the field to edit the quiz name.
 
@@ -142,7 +142,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
+    `Set revenuehunt/quiz as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
@@ -164,7 +164,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
+    `Set revenuehunt/quiz as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
@@ -174,7 +174,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 === "Standalone"
 
-    ![manual_magento_quizbuilder_quizsettings_general](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
+    ![The General tab of Quiz Settings](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
 
     `Quiz name` - Click on the field to edit the quiz name.
 
@@ -188,7 +188,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
+    `Set revenuehunt/quiz as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
@@ -198,15 +198,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+    ![The Quiz content tab](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
-    **Default quiz content** 
+    **Default quiz content**
 
     `Filter items` - Search the messages for a specific one to edit.
 
     `Reset messages(en)` - Select a language from the list to change the default app translations. Each individual content can be edited below.
 
-    **Buttons** 
+    **Buttons**
 
     `Next` - Default text on the buttons that move the user to the next slide. | Quiz
 
@@ -232,9 +232,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
         The variable {{count}} will be replaced with the number of items in the cart.
 
-    **Helpers** 
+    **Helpers**
 
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
+    ![The Helpers section of Quiz content](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
 
     `Select variant` - Default placeholder text on variants dropdown | Results page
 
@@ -278,7 +278,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Accessibility**
 
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
+    ![The Accessibility section of Quiz content](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
 
     `Quiz complete` - Default text on the quiz complete slide. | Quiz
 
@@ -769,7 +769,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+    ![The Version history tab, listing saved versions](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
     The Version History tab lets you track all changes made to your quiz over time. Each entry lists what was added, removed or modified, including questions, results, design elements and preferences.
 
@@ -885,7 +885,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 === "Magento"
 
-    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.  
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 
 === "BigCommerce"
 
@@ -953,15 +953,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Notifications](/reference/quiz-builder/notifications/)
-Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)
 Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →

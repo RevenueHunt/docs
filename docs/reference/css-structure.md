@@ -804,6 +804,7 @@ them to customize how your quizzes look.
     | `.navigation-bar__progress-bar-fill` | Progress bar fill |
     | `.navigation-bar__buttons` | Navigation buttons container |
     | `.navigation-bar__button` | Navigation button |
+    | `.quiz-next-button` | The Next button. Reachable with `window.quiz.querySelector` |
 
     **Examples**
 
@@ -838,6 +839,8 @@ them to customize how your quizzes look.
     | `.lq-progress-bar` | Progress bar background |
     | `.lq-progress-fill` | Active part of the progress bar |
     | `.lq-poweredby` | The `Powered by RevenueHunt` branding |
+    | `.lq-bg-img` | The background image layer on a slide |
+    | `.lq-bg-img-only` | The background image layer when the slide has no background color over it |
 
     **Examples**
 
@@ -868,6 +871,8 @@ them to customize how your quizzes look.
     | `.lq-progress-bar` | Progress bar background |
     | `.lq-progress-fill` | Active part of the progress bar |
     | `.lq-poweredby` | The `Powered by RevenueHunt` branding |
+    | `.lq-bg-img` | The background image layer on a slide |
+    | `.lq-bg-img-only` | The background image layer when the slide has no background color over it |
 
     **Examples**
 
@@ -898,6 +903,8 @@ them to customize how your quizzes look.
     | `.lq-progress-bar` | Progress bar background |
     | `.lq-progress-fill` | Active part of the progress bar |
     | `.lq-poweredby` | The `Powered by RevenueHunt` branding |
+    | `.lq-bg-img` | The background image layer on a slide |
+    | `.lq-bg-img-only` | The background image layer when the slide has no background color over it |
 
     **Examples**
 
@@ -928,6 +935,8 @@ them to customize how your quizzes look.
     | `.lq-progress-bar` | Progress bar background |
     | `.lq-progress-fill` | Active part of the progress bar |
     | `.lq-poweredby` | The `Powered by RevenueHunt` branding |
+    | `.lq-bg-img` | The background image layer on a slide |
+    | `.lq-bg-img-only` | The background image layer when the slide has no background color over it |
 
     **Examples**
 
@@ -958,6 +967,8 @@ them to customize how your quizzes look.
     | `.lq-progress-bar` | Progress bar background |
     | `.lq-progress-fill` | Active part of the progress bar |
     | `.lq-poweredby` | The `Powered by RevenueHunt` branding |
+    | `.lq-bg-img` | The background image layer on a slide |
+    | `.lq-bg-img-only` | The background image layer when the slide has no background color over it |
 
     **Examples**
 
@@ -1044,6 +1055,7 @@ them to customize how your quizzes look.
     | `.lq-results` | The Results Page container |
     | `.lq-results-box` | Wrapper for the results content |
     | `.lq-retake-quiz` | Button that restarts the quiz |
+    | `.lq-block` | One content block on the Results Page, in the order they appear |
 
     **Examples**
 
@@ -1063,6 +1075,7 @@ them to customize how your quizzes look.
     | `.lq-results` | The Results Page container |
     | `.lq-results-box` | Wrapper for the results content |
     | `.lq-retake-quiz` | Button that restarts the quiz |
+    | `.lq-block` | One content block on the Results Page, in the order they appear |
 
     **Examples**
 
@@ -1082,6 +1095,7 @@ them to customize how your quizzes look.
     | `.lq-results` | The Results Page container |
     | `.lq-results-box` | Wrapper for the results content |
     | `.lq-retake-quiz` | Button that restarts the quiz |
+    | `.lq-block` | One content block on the Results Page, in the order they appear |
 
     **Examples**
 
@@ -1101,6 +1115,7 @@ them to customize how your quizzes look.
     | `.lq-results` | The Results Page container |
     | `.lq-results-box` | Wrapper for the results content |
     | `.lq-retake-quiz` | Button that restarts the quiz |
+    | `.lq-block` | One content block on the Results Page, in the order they appear |
 
     **Examples**
 
@@ -1120,6 +1135,7 @@ them to customize how your quizzes look.
     | `.lq-results` | The Results Page container |
     | `.lq-results-box` | Wrapper for the results content |
     | `.lq-retake-quiz` | Button that restarts the quiz |
+    | `.lq-block` | One content block on the Results Page, in the order they appear |
 
     **Examples**
 
@@ -1202,6 +1218,8 @@ them to customize how your quizzes look.
     | Selector | Description |
     |----------|-------------|
     | `.lq-slot` | Container for recommended products |
+    | `.lq-product` | One recommended product inside a slot. Its `id` is the product ID |
+    | `.lq-hcont` | The heading container inside a product, holding the product title |
     | `.lq-price` | Product price display |
     | `.lq-product-description` | Product description text |
     | `.lq-variants-dropdown` | Product variant dropdown |
@@ -1249,6 +1267,8 @@ them to customize how your quizzes look.
     | Selector | Description |
     |----------|-------------|
     | `.lq-slot` | Container for recommended products |
+    | `.lq-product` | One recommended product inside a slot. Its `id` is the product ID |
+    | `.lq-hcont` | The heading container inside a product, holding the product title |
     | `.lq-price` | Product price display |
     | `.lq-product-description` | Product description text |
     | `.lq-variants-dropdown` | Product variant dropdown |
@@ -1296,6 +1316,8 @@ them to customize how your quizzes look.
     | Selector | Description |
     |----------|-------------|
     | `.lq-slot` | Container for recommended products |
+    | `.lq-product` | One recommended product inside a slot. Its `id` is the product ID |
+    | `.lq-hcont` | The heading container inside a product, holding the product title |
     | `.lq-price` | Product price display |
     | `.lq-product-description` | Product description text |
     | `.lq-variants-dropdown` | Product variant dropdown |
@@ -1343,6 +1365,8 @@ them to customize how your quizzes look.
     | Selector | Description |
     |----------|-------------|
     | `.lq-slot` | Container for recommended products |
+    | `.lq-product` | One recommended product inside a slot. Its `id` is the product ID |
+    | `.lq-hcont` | The heading container inside a product, holding the product title |
     | `.lq-price` | Product price display |
     | `.lq-product-description` | Product description text |
     | `.lq-variants-dropdown` | Product variant dropdown |
@@ -1390,6 +1414,8 @@ them to customize how your quizzes look.
     | Selector | Description |
     |----------|-------------|
     | `.lq-slot` | Container for recommended products |
+    | `.lq-product` | One recommended product inside a slot. Its `id` is the product ID |
+    | `.lq-hcont` | The heading container inside a product, holding the product title |
     | `.lq-price` | Product price display |
     | `.lq-product-description` | Product description text |
     | `.lq-variants-dropdown` | Product variant dropdown |

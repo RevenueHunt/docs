@@ -6,19 +6,19 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+    ![The Quiz design section, with the preview and the theme panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
     In the Quiz design section of the quiz builder, you can change how the quiz questions and the results page look. Customize the colors, fonts, sections and slots that customers see.
 
     `Questions/Results` - Toggle between the preview of the quiz questions and the results page.
-    
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
+
+    ![The Questions and Results toggle above the preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
 
     `Color scheme` - Choose one of the pre-determined color schemes for your quiz.
 
     Click `Change` to pick another color scheme.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
+    ![The color scheme picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
 
 
 === "Shopify (Legacy)"
@@ -127,41 +127,41 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     **Basic**
 
-    `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
+    `Basic` - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
+    ![The Basic tab, with its seven sections](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
 
     `Typography` - Pick a font for your quiz from the list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
+    ![The Typography section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
 
     !!! info
 
         When the font is set to `Inherit`, the quiz takes its heading and body fonts from your Shopify theme.
 
-    `Primary Colors` - Click on the color to change it.
+    `Primary colors` - Click on the color to change it.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
+    ![The Primary colors section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
 
     Select a color from the picker to change it.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker.png)
+    ![The color picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker.png)
 
     `Choices` - Click the color to change it.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices.png)
+    ![The Choices section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices.png)
 
     `Inputs` - Click the color to change it.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
+    ![The Inputs section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
 
     `Background` - Change the background color by clicking on the color. Adjust the background opacity with the slider or upload a background image by clicking `Select image`.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
+    ![The Background section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
 
     Once the background image is uploaded, you can adjust the opacity with the slider.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
+    ![The Background section with an image uploaded](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
 
     `Change` - Click to change the background image.
 
@@ -169,9 +169,9 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     `Opacity` - Adjust the opacity of the background image.
 
-    `Navigation` - Change the colors of the Navigation bar background, text and border by clicking the color. 
+    `Navigation` - Change the colors of the Navigation bar background, text and border by clicking the color.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
+    ![The Navigation section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
 
     `Show progress bar` - Uncheck to hide the progress bar.
 
@@ -179,11 +179,11 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     !!! tip
 
-        Change the navigation bar text in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+        Change the navigation bar text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
     `Transitions` - Choose the transition effect for the quiz.
 
-    ![manual_shopifyv2_quizdesign_transitions](/images/manual_shopifyv2_quizdesign_transitions.png)
+    ![The Transitions section](/images/manual_shopifyv2_quizdesign_transitions.png)
 
     `Slide up/down` - Select this option to make the quiz slide up and down.
 
@@ -193,13 +193,13 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     `Advanced` - Add your own CSS code in the box to override the default quiz's styles.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
+    ![The Advanced tab, where custom CSS goes](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 
     !!! tip "App CSS structure"
 
         For the CSS structure of the app and worked examples, see the [CSS Structure Reference Guide](/reference/css-structure/).
 
-    `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.	
+    `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 
 
 
@@ -327,9 +327,8 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 === "Shopify"
 
-    !!! note "One theme per quiz"
-
-        This version of the app uses a single theme for each quiz, so there is no theme gallery.
+    A quiz has one theme. Set its fonts, colors, background, navigation and
+    transitions in [Edit theme](#edit-theme).
 
 
 === "Shopify (Legacy)"
@@ -425,15 +424,8 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
-Next: [Results Page](/reference/quiz-builder/results-page/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
+← Previous: [Conditional Logic](/reference/quiz-builder/conditional-logic/)
 Next: [Results Page](/reference/quiz-builder/results-page/) →

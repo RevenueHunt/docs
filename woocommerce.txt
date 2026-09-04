@@ -14966,6 +14966,8 @@ li.lq-selected .lq-letter {
 | `.lq-progress-bar` | Progress bar background |
 | `.lq-progress-fill` | Active part of the progress bar |
 | `.lq-poweredby` | The `Powered by RevenueHunt` branding |
+| `.lq-bg-img` | The background image layer on a slide |
+| `.lq-bg-img-only` | The background image layer when the slide has no background color over it |
 **Examples**
 ```css
 /* Hide Progress Bar in the footer */
@@ -14986,6 +14988,7 @@ li.lq-selected .lq-letter {
 | `.lq-results` | The Results Page container |
 | `.lq-results-box` | Wrapper for the results content |
 | `.lq-retake-quiz` | Button that restarts the quiz |
+| `.lq-block` | One content block on the Results Page, in the order they appear |
 **Examples**
 ```css
 /* Change the color of the Retake Quiz text */
@@ -14997,6 +15000,8 @@ li.lq-selected .lq-letter {
 | Selector | Description |
 |----------|-------------|
 | `.lq-slot` | Container for recommended products |
+| `.lq-product` | One recommended product inside a slot. Its `id` is the product ID |
+| `.lq-hcont` | The heading container inside a product, holding the product title |
 | `.lq-price` | Product price display |
 | `.lq-product-description` | Product description text |
 | `.lq-variants-dropdown` | Product variant dropdown |
@@ -15268,8 +15273,7 @@ quiz
 | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
 | **choice** | One of the alternatives a customer can pick. |
 | **slide** | Another word for a question, used in the API and in merge tags. |
-!!! note "Blocks are a Built for Shopify feature"
-    Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+| **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 The Results Page is built from blocks. There are no sections.
 ```
 Results Page
@@ -15286,8 +15290,9 @@ One system. Choices give upvotes to products, and the Results Page shows the mos
 |---|---|
 | **upvote** | The signal a choice gives a product, variant or category. The Product Block sorts by upvote count, most upvoted first. |
 | **Minimum number of votes** | A setting that hides products which did not receive enough upvotes. |
-!!! note "Variables and scores are a Built for Shopify feature"
-    To show different content to different customers in this version, use Display Logic and Jump Logic based on their answers.
+To show different content to different customers, build rules on their answers with
+[Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic)
+and [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic).
 Jump Logic and Skip Logic are triggered by an **IF** condition based on an answer. Display Logic acts on individual blocks.
 | Term | What it means |
 |---|---|
@@ -16045,17 +16050,10 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
-Next: [Results Page](/reference/quiz-builder/results-page/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
+← Previous: [Conditional Logic](/reference/quiz-builder/conditional-logic/)
 Next: [Results Page](/reference/quiz-builder/results-page/) →
 
 --- WooCommerce Specific Content ---
@@ -16116,15 +16114,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Notifications](/reference/quiz-builder/notifications/)
-Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)
 Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
@@ -16140,7 +16131,7 @@ In Quiz Settings you can change the quiz language and currency, and edit button 
 `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 `Separators` - Choose from a dropdown how the currency number should be displayed.
 `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
-`Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
+`Set revenuehunt/quiz as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 `Quiz ID` - Displays the current quiz ID.
@@ -16242,20 +16233,10 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 ## Dynamic content & JavaScript reference
 
-
-
-
 ---
 
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Quiz design](/reference/quiz-builder/quiz-design/)
-Next: [Notifications](/reference/quiz-builder/notifications/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Quiz Design](/reference/quiz-builder/quiz-design/)
 Next: [Notifications](/reference/quiz-builder/notifications/) →
@@ -16320,8 +16301,8 @@ With Display Logic you can make blocks visible or hidden based on customer's res
 `Title` - Type a title to be displayed above the recommended products.
 `Description` - Add a description to be displayed above the recommended products.
 `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
-`Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
-**Slot Block Settings** 
+`Hide block when no products are recommended` - Tick this to hide the product block when a customer gets no recommendations. Left off, the block shows the default message instead: `Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.` Edit that text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+**Slot Block Settings**
 ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
@@ -16333,7 +16314,7 @@ With Display Logic you can make blocks visible or hidden based on customer's res
 `Slot ID` - Displays the current slot ID.
 `⚙️ / gear icon` - Opens the results page settings.
 ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
-![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+![The checkout settings for the results page](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page.
 `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 `Cart URL:` - Type the cart URL that the customer is sent to after they add a product to the cart.
@@ -16356,7 +16337,7 @@ With Display Logic you can make blocks visible or hidden based on customer's res
     ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
     And paste the `<!--more-->` code after the introductory blurb:
     ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
-    This should cut the description on the quiz results page:
+    This should cut the description on the quiz results page:
     ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
     Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
 `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
@@ -16365,7 +16346,7 @@ With Display Logic you can make blocks visible or hidden based on customer's res
 `Show metafields/attributes` - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafields in the quiz](/how-to-guides/add-product-metafields/).
 **Style Settings**
 ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
-`Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+`Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 **Recommendation Settings**
@@ -16381,7 +16362,7 @@ With Display Logic you can make blocks visible or hidden based on customer's res
 **Multiple Results Pages**
 `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
-**Results Page 1** 
+**Results Page 1**
 `Edit this page` - Click "edit" to switch to this results page and edit its content.
 `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 **Results Page 2**
@@ -16398,7 +16379,7 @@ With Display Logic you can make blocks visible or hidden based on customer's res
 **Dynamic Discounts Settings**
 `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
-**Discount [A]** 
+**Discount [A]**
 `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
@@ -16406,6 +16387,11 @@ With Display Logic you can make blocks visible or hidden based on customer's res
 `bin` / `delete this discount` - deletes this dynamic discount.
 `add a discount` - Adds a new dynamic discount below (Discount [B]).
 `deactivate` - Deactivates dynamic discounts.
+Add your own JavaScript to the results page with
+[how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+[how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+To show a customer's own answers back to them, see
+[how to use information recalls](/how-to-guides/use-information-recalls/).
 
 
 
@@ -16441,17 +16427,10 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 ← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 Next: [Metrics](/reference/quiz-builder/metrics/) →
 
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
-Next: [Metrics](/reference/quiz-builder/metrics/) →
-
 --- WooCommerce Specific Content ---
 
-![manual_woo_quizbuilder_share](/images/manual_woo_quizbuilder_share.png)
-In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+![The Share tab on WooCommerce](/images/manual_woo_quizbuilder_share.png)
+In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings.
 For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publish-quiz/).
 !!! info "What is a Link Popup?"
     A link that opens the quiz as a popup over your page.
@@ -16468,7 +16447,7 @@ For step-by-step instructions, see [how to publish the quiz](/how-to-guides/publ
 **EMBEDDED QUIZ OPTIONS**
 `Width` - Adjust the width of the quiz by typing the percentage number or px value.
 `Height` - Adjust the width of the quiz by typing the percentage number or px value.
-`Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+`Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate.
 !!! info "What is an Automatic Popup?"
     A quiz popup that appears after X seconds.
 By default, the popup is only shown once per session.

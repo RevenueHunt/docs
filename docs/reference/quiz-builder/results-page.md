@@ -6,13 +6,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
+    ![The Results page section of the quiz builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
     In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and preview how the page looks. Customize the blocks, sections and slots that customers see.
 
     `Results Page` - the menu where all your results pages are nested.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
+    ![The Results Page](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
 
     `Results page 1` - the first results page, currently editing.
 
@@ -247,75 +247,75 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png){width="500"}
+    ![The Add block menu, listing every block type](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png){width="500"}
 
     Content
 
     `Heading` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading.png){width="500"}
+    ![The Heading block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading.png){width="500"}
 
     `Text` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text.png){width="500"}
+    ![The Text block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text.png){width="500"}
 
     `Image` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image.png){width="500"}
+    ![The Image block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image.png){width="500"}
 
     `Video` - Adds a video block to the results page. You can upload your own video.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video.png){width="500"}
+    ![The Video block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video.png){width="500"}
 
     `Custom HTML` - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml.png){width="500"} 
+    ![The Custom HTML block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml.png){width="500"}
 
     Slots
 
     `Products` - Adds a block specifically designed for displaying a list of recommended products.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
+    ![The Products block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
 
     `Product variants` - Adds a block specifically designed for displaying a list of recommended product variants.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productsvariants](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
+    ![The Product variants block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
 
     `Collections` - Adds a block specifically designed for displaying a list of recommended collections.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collection](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}   
+    ![The Collections block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}
 
     Charts
 
     `Gauge chart` - Adds a gauge chart to the results page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart.png){width="500"}
+    ![The Gauge chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart.png){width="500"}
 
     `Radar chart` - Adds a radar chart to the results page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart.png){width="500"}
+    ![The Radar chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart.png){width="500"}
 
     `Bar chart` - Adds a bar chart to the results page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart.png){width="500"}
+    ![The Bar chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart.png){width="500"}
 
     `Rating display` - Adds a rating display to the results page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating.png){width="500"}
+    ![The Rating display block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating.png){width="500"}
 
     `Custom chart` - Adds a custom chart to the results page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart.png){width="500"}
+    ![The Custom chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart.png){width="500"}
 
     Button
 
     `Button` - Adds a button to the results page. You can add any URL to the button.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button.png){width="500"}
+    ![The Button block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button.png){width="500"}
 
     `Cart/Checkout` - Adds a Proceed to cart or Proceed to checkout button to the results page.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout.png){width="500"} 
+    ![The Cart/Checkout block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout.png){width="500"}
 
     `bin` - Click on the bin icon to remove the block.
 
@@ -425,7 +425,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+    ![The Display logic panel for a section](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
     With Display logic you can make **sections** visible or hidden based on customer's responses.
 
@@ -436,7 +436,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `+ Add condtion (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     `bin` - Delete the current Logic rule.
-    
+
     `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
 
     `Default` - Select whether this section should be `Shown` or `Hidden` by default.
@@ -453,12 +453,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     - **IF response to** pick the question from a dropdown list
     - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN section is Visible** 
+    - **THEN section is Visible**
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
     !!! example "Example 1"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+        ![The Display logic panel for a section](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
         In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
 
@@ -468,7 +468,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Then the Display logic rules follow the following format:
 
-    - **IF The score of the variable** 
+    - **IF The score of the variable**
     - **score** pick the variable from a dropdown list
     - pick the comparison from the dropdown list:
         - **is equal to** / **is not equal to**
@@ -476,7 +476,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         - **is greater than or equal to** / **is less than or equal to**
     - **Number** / **Another variable** pick a choice from the dropdown list
     - **0** / **1** / **2** / **other numerical value** type a value in the input field
-    - **THEN section is Visible** 
+    - **THEN section is Visible**
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
 
@@ -487,7 +487,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! example "Example 2"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
+        ![The Example 2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
 
         In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
 
@@ -497,7 +497,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Then the Display logic rules follow the following format:
 
-    - **IF the variable with the highest score** 
+    - **IF the variable with the highest score**
     - **score** pick the variable from a dropdown list
     - **THEN section is Visible**
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
@@ -509,7 +509,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! example "Example 3"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
+        ![The Example 3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
 
         In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 
@@ -721,7 +721,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Adds a new heading to your page, ideal for titles or section breaks.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
+    ![The heading block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
 
     Edit the heading text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the heading.
 
@@ -733,13 +733,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ---
 
-    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon.
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
-    
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
     ---
 
@@ -747,9 +747,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Remove block` - Deletes the current block from the results page.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -760,7 +760,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
+    ![The new content block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
 
     Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block.
 
@@ -772,13 +772,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ---
 
-    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon.
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
-    
+    ![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+
     A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+    ![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
     ---
 
@@ -786,9 +786,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Remove block` - Deletes the current block from the results page.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -797,10 +797,10 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 
     #### Image
-    
+
     Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
+    ![The image block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
 
     To add an image click `Select image`. You can upload an image from your device or select from the in-app uploaded image gallery.
 
@@ -815,9 +815,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Remove block` - Deletes the current block from the results page.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -828,7 +828,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Adds a video to the results page. You can upload your own video or select from the in-app uploaded video gallery.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video.png)
+    ![The video settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video.png)
 
     To add a video click `Select video`. You can upload a video from your device or select from the in-app uploaded video gallery.
 
@@ -843,9 +843,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Remove block` - Deletes the current block from the results page.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -857,7 +857,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Adds a block where you can input custom HTML code for advanced content and styling.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
+    ![The custom HTML block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
     !!! tip "Liquid templates and JavaScript supported"
 
@@ -892,7 +892,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -902,14 +902,14 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ### Slots
 
     #### Product | product variants | collections
-    
+
     Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
+    ![The product block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
     `Duplicate` - Duplicates the current block.
 
@@ -941,15 +941,15 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Select which elements of the product slot should be displayed. Click and drag an element to change its position within the slot.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+    ![Choosing which elements of a product slot are shown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
     `+ Add block` - add an extra block to the product slot. Below you can find a list of available product components. All the data are synced directly from your Shopify catalog.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
+    ![The + Add block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 
     `Image` - Adds the product image.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
+    ![The Image settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 
     `Shape` - Choose the shape of the image from `Square` or `Original`.
 
@@ -970,37 +970,37 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         How to Fix It:
 
-        Go to **Shopify Admin > Settings > Markets > Preferences**. Check that compare-at prices are enabled for that market, for example Germany or the EEA. 
+        Go to **Shopify Admin > Settings > Markets > Preferences**. Check that compare-at prices are enabled for that market, for example Germany or the EEA.
 
-        ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
-        
+        ![The compare-at price setting in Shopify Markets preferences](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
+
         You can test this by previewing the quiz on your live store while simulating a customer from the affected country.
 
     `Add to cart button` - Adds an "Add to cart" button.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_addtocartbutton](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
+    ![The Add to cart button settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
 
     `Text` - Adds an extra text block. Opens a text block menu where you add your own text or a link. You can also add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall an answer from the quiz.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
+    ![The Text settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
 
     `Description` - Adds the product description as set up in Shopify Products.
 
-    `Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume. 
+    `Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume.
 
     `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They do not open in quiz preview or on password-protected stores.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
+    ![The Link to product settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
 
     `Vendor` - Adds the product vendor as set up in Shopify Products.
 
     `Variants dropdown` - Adds a dropdown that displays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
+    ![The Variants dropdown settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
 
     `Metafield` - Adds a metafield to the product block. Select a metafield to display from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafield](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
+    ![The Metafield settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
 
     !!! info "Supported metafields"
 
@@ -1010,16 +1010,16 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Reviews` - Adds a product reviews block as star rating and review count.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
+    ![The Reviews settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
 
     `Review app` - Select the review app to display the reviews from. Once you select the review app, save the changes with the top-right `Save` button.
 
     !!! info "Supported review apps"
-    
+
         The app supports these review apps for Shopify:
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
-    
+        ![The review apps the product block supports](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
+
         - Judge.me,
         - Yotpo,
         - Stamped,
@@ -1027,16 +1027,16 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Subscription` - Adds an option to subscribe to the product for a specific duration.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
+    ![The Subscription settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
 
     `Subscription app` - Select the subscription app to display the subscription from. Once you select the subscription app, save the changes with the top-right `Save` button.
 
     !!! info "Supported subscription apps"
-    
+
         Support for these subscription apps for Shopify is being added:
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
-    
+        ![The subscription apps the product block supports](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
+
         - Shopify Subscriptions,
         - ReCharge Subscriptions (Pro plan only).
 
@@ -1044,15 +1044,15 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ##### Results slot
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
+    ![The Results slot settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
 
-    `Slot 1` - Slots let you recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
-    
+    `Slot 1` - Slots let you recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...).
+
     ??? info "How slots work"
 
-        Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
-        
-        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+        Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+
+        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections.
 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
 
@@ -1062,7 +1062,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ---
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
+    ![The settings for a single product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
 
     `Heading` - Adds a custom heading to the slot block. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content.
 
@@ -1074,17 +1074,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Add segments` - Click `+ Add include type` to select products, collections, tags, variants or vendors from which items will be shown in this slot block.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1.png)
+    ![The Add segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2.png)
+    ![The Add segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)    
+    ![Segments added to a product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)
 
     ??? info "How slots work"
 
-        Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
-        
-        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+        Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+
+        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections.
 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
 
@@ -1092,27 +1092,27 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! warning "Filtering"
 
-        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. 
+        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices.
 
         If you add a segment, the slot will be able to display the most upvoted items from the linked products/collections.
-        
-        Unless you add a filter, the slot will display a list of upvoted items. 
+
+        Unless you add a filter, the slot will display a list of upvoted items.
 
     `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors must never be shown in this slot block. You can exclude by tag, vendor or variant, not only by collection. Shopify only.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
+    ![The Exclude segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2.png)
+    ![The Exclude segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3.png)
+    ![Segments excluded from a product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3.png)
 
     ### Charts
 
     #### Gauge chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart.png)
+    ![The Gauge chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1150,9 +1150,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     #### Radar chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart.png)
+    ![The Radar chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1160,7 +1160,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Category 1` - Set the category name for the first axis.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+    ![The Category 1 settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 
     `Label` - Set the label for the first axis.
 
@@ -1204,9 +1204,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     #### Bar chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart.png)
+    ![The Bar chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1214,7 +1214,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Category 1` - Set the category name for the first axis.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+    ![The Category 1 settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 
     `Label` - Set the label for the first axis.
 
@@ -1258,9 +1258,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     #### Rating display
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating.png)
+    ![The Rating display settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
@@ -1286,15 +1286,15 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     #### Custom chart
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart.png)
+    ![The Custom chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart.png)
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    ![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Load template` - Select a chart template code from the dropdown list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
+    ![The chart template dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
 
     Layout
 
@@ -1309,27 +1309,27 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ### Buttons
 
     #### Button
-    
+
     Adds a button to the results page. You can add any URL to the button.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
+    ![The button settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
 
     `Button text` - Type the text displayed ont eh button.
 
-    `Button URL` - Add a URL to the button. 
+    `Button URL` - Add a URL to the button.
 
     `Open in new tab` - Select this option to open the link in a new tab.
 
     `Button alignment` - Select the button alignment left, right or center.
 
-    
+
     `Block ID` - Displays the current block ID.
 
     `Remove block` - Deletes the current block from the results page.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -1338,7 +1338,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     #### Cart/checkout
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
+    ![The Cart/checkout settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
 
     `Next destination for customers` - Select either Checkout or Cart as the next destination for customers.
 
@@ -1346,9 +1346,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+    ![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
 
     `Duplicate` - Duplicates the current block.
@@ -1370,9 +1370,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
-    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Tick this to hide the product block when a customer gets no recommendations. Left off, the block shows the default message instead: `Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.` Edit that text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
-    **Slot Block Settings** 
+    **Slot Block Settings**
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
@@ -1406,9 +1406,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
-    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Tick this to hide the product block when a customer gets no recommendations. Left off, the block shows the default message instead: `Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.` Edit that text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
-    **Slot Block Settings** 
+    **Slot Block Settings**
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
@@ -1442,9 +1442,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
-    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Tick this to hide the product block when a customer gets no recommendations. Left off, the block shows the default message instead: `Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.` Edit that text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
-    **Slot Block Settings** 
+    **Slot Block Settings**
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
@@ -1478,9 +1478,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
-    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Tick this to hide the product block when a customer gets no recommendations. Left off, the block shows the default message instead: `Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.` Edit that text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
-    **Slot Block Settings** 
+    **Slot Block Settings**
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
@@ -1514,9 +1514,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
-    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Tick this to hide the product block when a customer gets no recommendations. Left off, the block shows the default message instead: `Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us.` Edit that text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
-    **Slot Block Settings** 
+    **Slot Block Settings**
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
@@ -1540,17 +1540,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+    ![The Results page settings panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
     `...` - Opens the results page settings. Click `Duplicate` to duplicate the results page or `Remove` to delete it.
 
-    ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
+    ![The results page options menu, with Duplicate and Remove](/images/manual_shoopifyV2_remove.png)
 
     `Results page name` - Type the name of the results page.
 
     `Background image` - Click `Select image` to upload a background image or select one from the in-app image gallery.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage.png)
+    ![The Background image setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage.png)
 
     `Background opacity` - Use the slider to change the background image opacity percentage.
 
@@ -1569,7 +1569,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Show cart/checkout options` - Select the settings of the cart/checkout options.
 
     Cart/checkout options
-    
+
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
 
     `Next destination for customers` - Choose where customers go after the results page either Checkout or Cart.
@@ -1578,7 +1578,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Discount code` - Add a discount code to the results page. The discount code will be applied at checkout. The code must be a valid discount code in your Shopify store.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+    ![The Discount code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
 
     ??? tip "How to add a discount code"
 
@@ -1588,7 +1588,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Custom CSS code` - Add custom CSS code to this results page only. To add custom CSS code to your entire quiz, go to [quiz design](/reference/quiz-builder/quiz-design/).
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
+    ![The Custom CSS code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
 
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 
@@ -1600,7 +1600,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Custom JS code` - Add custom JavaScript to this results page only. Custom JS will not work in the quiz builder, it will only work in the preview or live quiz.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
+    ![The Custom JS code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
 
     `✨Get help with custom JavaScript` - Opens a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
@@ -1683,7 +1683,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
 
     `🗑 Remove results page` - Deletes the current results page.
-    
+
     `r-dcc49e7e` -  Click to copy the results page ID. Displays the current results page ID.
 
 
@@ -1740,7 +1740,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "WooCommerce"
 
-    ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    ![The checkout settings for the results page](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
     `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page.
 
@@ -1754,7 +1754,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Magento"
 
-    ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    ![The checkout settings for the results page](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
     `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
 
@@ -1762,7 +1762,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "BigCommerce"
 
-    ![manual_bigcommerce_quizbuilder_resultspage_checkoutsettings](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    ![The checkout settings for the results page](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
     `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
 
@@ -1770,14 +1770,14 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Standalone"
 
-    ![manual_standalone_quizbuilder_resultspage_checkoutsettings](/images/manual_standalone_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+    ![The checkout settings for the results page](/images/manual_standalone_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
     !!! note "Not available on Standalone"
 
         `Add product to cart` is not available in the Standalone version of the app.
-    
+
     !!! tip
 
         To add a product to the cart, set up your own results page in your store. Send the quiz data to it with the [Callback function](/how-to-guides/use-callback-function/).
@@ -1786,6 +1786,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
+    These settings sit in the [Results page settings](#results-page-settings) panel, described at the top of this section.
 
 === "Shopify (Legacy)"
 
@@ -1814,12 +1815,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
-        
+
         And paste the `<!--more-->` code after the introductory blurb:
 
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-        This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
@@ -1842,7 +1843,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
     `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
@@ -1877,18 +1878,18 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
-        
+
         And paste the `<!--more-->` code after the introductory blurb:
 
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-        This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
         Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
- 
- 
+
+
     `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
     !!! info
@@ -1901,13 +1902,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
     `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "Magento"
 
-    ![manual_magento_quizbuilder_resultspage_individualproductsettings](/images/manual_magento_quizbuilder_resultspage_individualproductsettings.png){width="500"}
+    ![The settings for an individual product on the results page](/images/manual_magento_quizbuilder_resultspage_individualproductsettings.png){width="500"}
 
     `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
@@ -1930,12 +1931,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
-        
+
         And paste the `<!--more-->` code after the introductory blurb:
 
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-        This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
@@ -1945,13 +1946,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
     `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "BigCommerce"
 
-    ![manual_bigcommerce_quizbuilder_resultspage_individualproductsettings](/images/manual_bigcommerce_quizbuilder_resultspage_individualproductsettings.png){width="500"}
+    ![The settings for an individual product on the results page](/images/manual_bigcommerce_quizbuilder_resultspage_individualproductsettings.png){width="500"}
 
     `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
@@ -1972,12 +1973,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
-        
+
         And paste the `<!--more-->` code after the introductory blurb:
 
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-        This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
@@ -1987,13 +1988,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
     `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "Standalone"
 
-    ![manual_standalone_quizbuilder_resultspage_individualproductsettings](/images/manual_standalone_quizbuilder_resultspage_individualproductsettings.png){width="500"}
+    ![The settings for an individual product on the results page](/images/manual_standalone_quizbuilder_resultspage_individualproductsettings.png){width="500"}
 
     `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
@@ -2012,12 +2013,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
-        
+
         And paste the `<!--more-->` code after the introductory blurb:
 
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-        This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
@@ -2027,7 +2028,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
     `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
@@ -2035,6 +2036,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
+    These settings sit in the [Results page settings](#results-page-settings) panel, described at the top of this section.
 
 === "Shopify (Legacy)"
 
@@ -2180,7 +2182,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
+    ![Several results pages listed in the quiz builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
     `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
 
@@ -2195,7 +2197,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    **Results Page 1** 
+    **Results Page 1**
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
@@ -2207,13 +2209,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
-    `Create new Results Page` - add a new results page to your quiz. 
+    `Create new Results Page` - add a new results page to your quiz.
 
 === "WooCommerce"
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    **Results Page 1** 
+    **Results Page 1**
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
@@ -2231,7 +2233,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    **Results Page 1** 
+    **Results Page 1**
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
@@ -2249,7 +2251,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    **Results Page 1** 
+    **Results Page 1**
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
@@ -2267,7 +2269,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-    **Results Page 1** 
+    **Results Page 1**
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
@@ -2288,7 +2290,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     1. To add a discount code to the results page, open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+        ![The Discount code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
 
     !!! tip "How to add a discount code"
 
@@ -2317,7 +2319,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-    **Discount [A]** 
+    **Discount [A]**
 
     `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
@@ -2355,7 +2357,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-    **Discount [A]** 
+    **Discount [A]**
 
     `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
@@ -2393,7 +2395,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-    **Discount [A]** 
+    **Discount [A]**
 
     `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
@@ -2431,45 +2433,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-    **Discount [A]** 
-
-    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-
-    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
-
-    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
-
-    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
-
-    `bin` / `delete this discount` - deletes this dynamic discount.
-
-    `add a discount` - Adds a new dynamic discount below (Discount [B]).
-
-    `deactivate` - Deactivates dynamic discounts.
-
-=== "BigCommerce"
-
-    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-
-    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
-
-    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
-
-    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
-
-    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-
-    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
-
-    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
-
-    **Dynamic Discounts Settings**
-
-    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
-
-    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
-
-    **Discount [A]** 
+    **Discount [A]**
 
     `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
@@ -2507,7 +2471,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-    **Discount [A]** 
+    **Discount [A]**
 
     `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
@@ -2754,26 +2718,40 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ```
 
 === "Shopify (Legacy)"
-
+    Add your own JavaScript to the results page with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "WooCommerce"
-
+    Add your own JavaScript to the results page with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "Magento"
-
+    Add your own JavaScript to the results page with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "BigCommerce"
-
+    Add your own JavaScript to the results page with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 === "Standalone"
+    Add your own JavaScript to the results page with
+    [how to add JavaScript](/how-to-guides/add-javascript/), and your own CSS with
+    [how to customize the quiz design](/how-to-guides/customize-quiz-design/).
+    To show a customer's own answers back to them, see
+    [how to use information recalls](/how-to-guides/use-information-recalls/).
 
 ---
 
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Quiz design](/reference/quiz-builder/quiz-design/)
-Next: [Notifications](/reference/quiz-builder/notifications/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Quiz Design](/reference/quiz-builder/quiz-design/)
 Next: [Notifications](/reference/quiz-builder/notifications/) →

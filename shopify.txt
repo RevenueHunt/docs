@@ -17197,6 +17197,7 @@ Next: [Glossary](/reference/glossary/) →
 | `.navigation-bar__progress-bar-fill` | Progress bar fill |
 | `.navigation-bar__buttons` | Navigation buttons container |
 | `.navigation-bar__button` | Navigation button |
+| `.quiz-next-button` | The Next button. Reachable with `window.quiz.querySelector` |
 **Examples**
 ```css
 /* Customize navigation bar */
@@ -19532,68 +19533,61 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
-Next: [Results Page](/reference/quiz-builder/results-page/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
+← Previous: [Conditional Logic](/reference/quiz-builder/conditional-logic/)
 Next: [Results Page](/reference/quiz-builder/results-page/) →
 
 --- Shopify Specific Content ---
 
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+![The Quiz design section, with the preview and the theme panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 In the Quiz design section of the quiz builder, you can change how the quiz questions and the results page look. Customize the colors, fonts, sections and slots that customers see.
 `Questions/Results` - Toggle between the preview of the quiz questions and the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
+![The Questions and Results toggle above the preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
 `Color scheme` - Choose one of the pre-determined color schemes for your quiz.
 Click `Change` to pick another color scheme.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
+![The color scheme picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
 **Basic**
-`Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
+`Basic` - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
+![The Basic tab, with its seven sections](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
 `Typography` - Pick a font for your quiz from the list.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
+![The Typography section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
 !!! info
     When the font is set to `Inherit`, the quiz takes its heading and body fonts from your Shopify theme.
-`Primary Colors` - Click on the color to change it.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
+`Primary colors` - Click on the color to change it.
+![The Primary colors section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
 Select a color from the picker to change it.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker.png)
+![The color picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker.png)
 `Choices` - Click the color to change it.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices.png)
+![The Choices section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices.png)
 `Inputs` - Click the color to change it.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
+![The Inputs section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
 `Background` - Change the background color by clicking on the color. Adjust the background opacity with the slider or upload a background image by clicking `Select image`.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
+![The Background section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
 Once the background image is uploaded, you can adjust the opacity with the slider.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
+![The Background section with an image uploaded](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
 `Change` - Click to change the background image.
 `Remove` - Click to remove the background image.
 `Opacity` - Adjust the opacity of the background image.
-`Navigation` - Change the colors of the Navigation bar background, text and border by clicking the color. 
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
+`Navigation` - Change the colors of the Navigation bar background, text and border by clicking the color.
+![The Navigation section](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
 `Show progress bar` - Uncheck to hide the progress bar.
 `Show progress percentage` - Uncheck to hide the % text from the progress bar.
 !!! tip
-    Change the navigation bar text in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+    Change the navigation bar text in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 `Transitions` - Choose the transition effect for the quiz.
-![manual_shopifyv2_quizdesign_transitions](/images/manual_shopifyv2_quizdesign_transitions.png)
+![The Transitions section](/images/manual_shopifyv2_quizdesign_transitions.png)
 `Slide up/down` - Select this option to make the quiz slide up and down.
 `Slide left/right` - Select this option to make the quiz slide left and right.
 **Advanced**
 `Advanced` - Add your own CSS code in the box to override the default quiz's styles.
-![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
+![The Advanced tab, where custom CSS goes](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 !!! tip "App CSS structure"
     For the CSS structure of the app and worked examples, see the [CSS Structure Reference Guide](/reference/css-structure/).
-`✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.	
-!!! note "One theme per quiz"
-    This version of the app uses a single theme for each quiz, so there is no theme gallery.
+`✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
+A quiz has one theme. Set its fonts, colors, background, navigation and
+transitions in [Edit theme](#edit-theme).
 
 
 
@@ -19622,22 +19616,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
 ---
 
-← [Back to Quiz Builder](/reference/quiz-builder/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Notifications](/reference/quiz-builder/notifications/)
-Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)
 Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
 
 --- Shopify Specific Content ---
 
-![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+![The Quiz settings panel, with its side menu](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 In Quiz settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also set up integrations, notification emails to yourself, and result emails to customers. It is also where you restore a previously published version of the quiz.
 `Quiz name` - Click on the field to edit the quiz name.
 **Quiz behavior settings**
@@ -19653,11 +19640,11 @@ In Quiz settings you can change the quiz language and currency, and edit button 
 **Quiz migration**
 `Export quiz to another store` - Click `Copy quiz code` to generate a JSON code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.
-![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
-**Default quiz content** 
+![The Quiz content tab](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+**Default quiz content**
 `Filter items` - Search the messages for a specific one to edit.
 `Reset messages(en)` - Select a language from the list to change the default app translations. Each individual content can be edited below.
-**Buttons** 
+**Buttons**
 `Next` - Default text on the buttons that move the user to the next slide. | Quiz
 `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results page
 `Sold out` - Default text on the product CTA button when a product or selected variant is out of stock. | Results page
@@ -19670,8 +19657,8 @@ In Quiz settings you can change the quiz language and currency, and edit button 
 `{{count}} in cart` - Default text on the product CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results page
 !!! info
     The variable {{count}} will be replaced with the number of items in the cart.
-**Helpers** 
-![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
+**Helpers**
+![The Helpers section of Quiz content](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
 `Select variant` - Default placeholder text on variants dropdown | Results page
 `No variants` - Default text on the product tile if the product has variants grouped but the product has no variants. | Results page
 `Dropdown "select" placeholder` - Default placeholder text on the dropdowns. | Quiz
@@ -19693,7 +19680,7 @@ In Quiz settings you can change the quiz language and currency, and edit button 
 !!! info
     The variable `{{percent}}` will be replaced with the percentage of the quiz that has been completed.
 **Accessibility**
-![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
+![The Accessibility section of Quiz content](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
 `Quiz complete` - Default text on the quiz complete slide. | Quiz
 `No previous question` - Default text on the quiz navigation buttons. | Quiz
 `Previous question` - Default text on the quiz navigation buttons. | Quiz
@@ -19701,7 +19688,7 @@ In Quiz settings you can change the quiz language and currency, and edit button 
 `Next question` - Default text on the quiz navigation buttons. | Quiz
 `Quiz navigation buttons` - Default text on the quiz navigation buttons. | Quiz
 `Results bottom bar` - Default text on the results bottom bar. | Results page
-![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+![The Version history tab, listing saved versions](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 The Version History tab lets you track all changes made to your quiz over time. Each entry lists what was added, removed or modified, including questions, results, design elements and preferences.
 Each version includes:
 - A Version ID (unique identifier)
@@ -19760,30 +19747,20 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 ## Dynamic content & JavaScript reference
 
-
-
-
 ---
 
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
-
-← Previous: [Quiz design](/reference/quiz-builder/quiz-design/)
-Next: [Notifications](/reference/quiz-builder/notifications/) →
-
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
 
 ← Previous: [Quiz Design](/reference/quiz-builder/quiz-design/)
 Next: [Notifications](/reference/quiz-builder/notifications/) →
 
 --- Shopify Specific Content ---
 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
+![The Results page section of the quiz builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and preview how the page looks. Customize the blocks, sections and slots that customers see.
 `Results Page` - the menu where all your results pages are nested.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
+![The Results Page](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
 `Results page 1` - the first results page, currently editing.
 `Λ` / `V` - Click to expand or collapse all the blocks in the results page at once . Only shown when the results page has more than one section..
 `⚙️` - Click to open the results page settings.
@@ -19817,43 +19794,43 @@ Settings sit at three levels:
 - **Block settings** decide how one block looks and behaves
 - **Display logic** shows or hides a whole section
 `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png){width="500"}
+![The Add block menu, listing every block type](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png){width="500"}
 Content
 `Heading` - Adds a new heading to your page, ideal for titles or section breaks.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading.png){width="500"}
+![The Heading block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading.png){width="500"}
 `Text` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text.png){width="500"}
+![The Text block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text.png){width="500"}
 `Image` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image.png){width="500"}
+![The Image block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image.png){width="500"}
 `Video` - Adds a video block to the results page. You can upload your own video.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video.png){width="500"}
+![The Video block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video.png){width="500"}
 `Custom HTML` - Adds a block where you can input custom HTML code for advanced content and styling.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml.png){width="500"} 
+![The Custom HTML block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml.png){width="500"}
 Slots
 `Products` - Adds a block specifically designed for displaying a list of recommended products.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
+![The Products block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
 `Product variants` - Adds a block specifically designed for displaying a list of recommended product variants.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productsvariants](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
+![The Product variants block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
 `Collections` - Adds a block specifically designed for displaying a list of recommended collections.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collection](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}   
+![The Collections block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}
 Charts
 `Gauge chart` - Adds a gauge chart to the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart.png){width="500"}
+![The Gauge chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart.png){width="500"}
 `Radar chart` - Adds a radar chart to the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart.png){width="500"}
+![The Radar chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart.png){width="500"}
 `Bar chart` - Adds a bar chart to the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart.png){width="500"}
+![The Bar chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart.png){width="500"}
 `Rating display` - Adds a rating display to the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating.png){width="500"}
+![The Rating display block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating.png){width="500"}
 `Custom chart` - Adds a custom chart to the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart.png){width="500"}
+![The Custom chart block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart.png){width="500"}
 Button
 `Button` - Adds a button to the results page. You can add any URL to the button.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button.png){width="500"}
+![The Button block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button.png){width="500"}
 `Cart/Checkout` - Adds a Proceed to cart or Proceed to checkout button to the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout.png){width="500"} 
+![The Cart/Checkout block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout.png){width="500"}
 `bin` - Click on the bin icon to remove the block.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+![The Display logic panel for a section](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 With Display logic you can make **sections** visible or hidden based on customer's responses.
 **Display logic**
 `+ Add condition (OR)` - Adds a new OR display logic rule.
@@ -19868,15 +19845,15 @@ There are three types of Display logic rules you can choose from:
 Then the Display logic rules follow the following format:
 - **IF response to** pick the question from a dropdown list
 - **is**/ **is not** pick a choice from the dropdown list
-- **THEN section is Visible** 
+- **THEN section is Visible**
 - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 !!! example "Example 1"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+    ![The Display logic panel for a section](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
     In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
 ---
 ### Type 2: IF the score of the variable...
 Then the Display logic rules follow the following format:
-- **IF The score of the variable** 
+- **IF The score of the variable**
 - **score** pick the variable from a dropdown list
 - pick the comparison from the dropdown list:
     - **is equal to** / **is not equal to**
@@ -19884,94 +19861,94 @@ Then the Display logic rules follow the following format:
     - **is greater than or equal to** / **is less than or equal to**
 - **Number** / **Another variable** pick a choice from the dropdown list
 - **0** / **1** / **2** / **other numerical value** type a value in the input field
-- **THEN section is Visible** 
+- **THEN section is Visible**
 - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 !!! info
     Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 2"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
+    ![The Example 2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
     In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
 ---
 ### Type 3: IF the variable with the highest score...
 Then the Display logic rules follow the following format:
-- **IF the variable with the highest score** 
+- **IF the variable with the highest score**
 - **score** pick the variable from a dropdown list
 - **THEN section is Visible**
 - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 !!! info
     Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 !!! example "Example 3"
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
+    ![The Example 3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
     In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 Each building block of your results page has individual block settings.
 ### Content
 #### Heading
 Adds a new heading to your page, ideal for titles or section breaks.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
+![The heading block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
 Edit the heading text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the heading.
 Choose the heading size and alignment.
 !!! tip "Liquid templates supported"
     Heading blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or `{{ quiz.variables.highest }}` to show the winning variable. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 ---
-`Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
-![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+`Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon.
+![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
-![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 ---
 `Block ID` - Displays the current block ID.
 `Remove block` - Deletes the current block from the results page.
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 #### Text
 Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
+![The new content block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
 Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block.
 Choose the text size and alignment.
 !!! tip "Liquid templates supported"
     Text blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or use conditional logic with `{% if %}` statements. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 ---
-`Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
-![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+`Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon.
+![The dynamic content source icon on a text block](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
-![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+![The dropdown of information you can recall](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 ---
 `Block ID` - Displays the current block ID.
 `Remove block` - Deletes the current block from the results page.
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 #### Image
 Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
+![The image block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
 To add an image click `Select image`. You can upload an image from your device or select from the in-app uploaded image gallery.
 `Alt text` - Add an alternative text for this image.
 `Image height` - Select the size of the image.
 `Image alignment` - Select the image alignment left, right or center.
 `Block ID` - Displays the current block ID.
 `Remove block` - Deletes the current block from the results page.
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 #### Video
 Adds a video to the results page. You can upload your own video or select from the in-app uploaded video gallery.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video.png)
+![The video settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video.png)
 To add a video click `Select video`. You can upload a video from your device or select from the in-app uploaded video gallery.
 `Alt text` - Add an alternative text for this video.
 `Video aspect ratio` - Select the aspect ratio of the video.
 `Video alignment` - Select the video alignment left, right or center.
 `Block ID` - Displays the current block ID.
 `Remove block` - Deletes the current block from the results page.
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 #### Custom HTML
 Adds a block where you can input custom HTML code for advanced content and styling.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
+![The custom HTML block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 !!! tip "Liquid templates and JavaScript supported"
     Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) and JavaScript. Use Liquid for dynamic content and JavaScript in `<script>` tags for advanced logic. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
     **Example with Liquid:**
@@ -19998,15 +19975,15 @@ Adds a block where you can input custom HTML code for advanced content and styli
 `Block ID` - Displays the current block ID.
 `Remove block` - Deletes the current block from the results page.
 Click `...` to open the more options menu.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 ### Slots
 #### Product | product variants | collections
 Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+![The product block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 `Recommendation system` - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
@@ -20022,11 +19999,11 @@ Click `...` to open the more options menu.
 `🗑 Remove block` - Deletes the current block from the results page.
 ##### Slot item composition
 Select which elements of the product slot should be displayed. Click and drag an element to change its position within the slot.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+![Choosing which elements of a product slot are shown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 `+ Add block` - add an extra block to the product slot. Below you can find a list of available product components. All the data are synced directly from your Shopify catalog.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
+![The + Add block settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 `Image` - Adds the product image.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
+![The Image settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 `Shape` - Choose the shape of the image from `Square` or `Original`.
 `Source` - Choose the source of the image from `Variant` or `Product`. Choose whether to display the variant-specific image or the main product image. Select `Variant` to show the image associated with the selected variant (falls back to main product image if the variant has no image). Select `Product` to always display the main product image regardless of the variant selection.
 `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
@@ -20037,80 +20014,80 @@ Select which elements of the product slot should be displayed. Click and drag an
 ??? warning "Why the compare-at price may not show on the results page"
     If the **compare-at price** is missing or showing as `null` on the quiz results page, this is usually a **Shopify Markets** setting. Shopify can hide compare-at prices for customers in some regions, in particular the **European Economic Area (EEA)**, because of local pricing or legal rules.
     How to Fix It:
-    Go to **Shopify Admin > Settings > Markets > Preferences**. Check that compare-at prices are enabled for that market, for example Germany or the EEA. 
-    ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
+    Go to **Shopify Admin > Settings > Markets > Preferences**. Check that compare-at prices are enabled for that market, for example Germany or the EEA.
+    ![The compare-at price setting in Shopify Markets preferences](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
     You can test this by previewing the quiz on your live store while simulating a customer from the affected country.
 `Add to cart button` - Adds an "Add to cart" button.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_addtocartbutton](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
+![The Add to cart button settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
 `Text` - Adds an extra text block. Opens a text block menu where you add your own text or a link. You can also add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall an answer from the quiz.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
+![The Text settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
 `Description` - Adds the product description as set up in Shopify Products.
-`Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume. 
+`Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume.
 `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They do not open in quiz preview or on password-protected stores.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
+![The Link to product settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
 `Vendor` - Adds the product vendor as set up in Shopify Products.
 `Variants dropdown` - Adds a dropdown that displays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
+![The Variants dropdown settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
 `Metafield` - Adds a metafield to the product block. Select a metafield to display from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafield](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
+![The Metafield settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
 !!! info "Supported metafields"
     The app can only sync and show the *string*, *single_line_text_field*, *multi_line_text_field*, *date*, and *number* product metafields. *Rich_text_fields* metafields are not currently supported.
     In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
 `Reviews` - Adds a product reviews block as star rating and review count.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
+![The Reviews settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
 `Review app` - Select the review app to display the reviews from. Once you select the review app, save the changes with the top-right `Save` button.
 !!! info "Supported review apps"
     The app supports these review apps for Shopify:
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
+    ![The review apps the product block supports](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
     - Judge.me,
     - Yotpo,
     - Stamped,
     - Loox.
 `Subscription` - Adds an option to subscribe to the product for a specific duration.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
+![The Subscription settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
 `Subscription app` - Select the subscription app to display the subscription from. Once you select the subscription app, save the changes with the top-right `Save` button.
 !!! info "Supported subscription apps"
     Support for these subscription apps for Shopify is being added:
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
+    ![The subscription apps the product block supports](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
     - Shopify Subscriptions,
     - ReCharge Subscriptions (Pro plan only).
     To request support for another subscription app, [contact customer support](/how-to-guides/contact-customer-support/).
 ##### Results slot
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
-`Slot 1` - Slots let you recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
+![The Results slot settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
+`Slot 1` - Slots let you recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...).
 ??? info "How slots work"
-    Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
-    If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+    Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+    If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections.
     If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 `+ Add slot` - Adds a new slot to the product/collection block.
 ---
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
+![The settings for a single product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
 `Heading` - Adds a custom heading to the slot block. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content.
 `Description` - Adds a custom description to the slot block. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates). Use Liquid to personalize descriptions based on quiz answers (e.g., `Perfect for your {{ quiz.variables.highest }} skin type`).
 `Slot width` - Select the default slot width from small, medium or large.
 `Max. recommended items` - The maximum number of items allowed to be displayed in the slot block.
 `Add segments` - Click `+ Add include type` to select products, collections, tags, variants or vendors from which items will be shown in this slot block.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1.png)
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2.png)
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)    
+![The Add segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1.png)
+![The Add segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2.png)
+![Segments added to a product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)
 ??? info "How slots work"
-    Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
-    If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+    Slots display products based on the `Recommendation system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+    If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections.
     If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Filtering"
-    If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. 
+    If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices.
     If you add a segment, the slot will be able to display the most upvoted items from the linked products/collections.
-    Unless you add a filter, the slot will display a list of upvoted items. 
+    Unless you add a filter, the slot will display a list of upvoted items.
 `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors must never be shown in this slot block. You can exclude by tag, vendor or variant, not only by collection. Shopify only.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2.png)
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3.png)
+![The Exclude segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
+![The Exclude segments settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2.png)
+![Segments excluded from a product slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3.png)
 ### Charts
 #### Gauge chart
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Gauge chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
@@ -20129,12 +20106,12 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `rsbgc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Radar chart
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Radar chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Category 1` - Set the category name for the first axis.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+![The Category 1 settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 `Label` - Set the label for the first axis.
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 `Value` - If you select `Fixed`, set the value to be displayed in the chart.
@@ -20156,12 +20133,12 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Bar chart
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Bar chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Category 1` - Set the category name for the first axis.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+![The Category 1 settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
 `Label` - Set the label for the first axis.
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 `Value` - If you select `Fixed`, set the value to be displayed in the chart.
@@ -20183,8 +20160,8 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Rating display
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Rating display settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 Data
 `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
@@ -20197,11 +20174,11 @@ Layout
 `🗑 Remove block` - Click to delete this block.
 `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 #### Custom chart
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart.png)
-![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+![The Custom chart settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart.png)
+![The block management menu behind the three dots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 `Load template` - Select a chart template code from the dropdown list.
-![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
+![The chart template dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
 Layout
 `Height` - Set the height of the chart.
 `Alignment` - Set the alignment of the chart between Left, Center or Right.
@@ -20210,32 +20187,32 @@ Layout
 ### Buttons
 #### Button
 Adds a button to the results page. You can add any URL to the button.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
+![The button settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
 `Button text` - Type the text displayed ont eh button.
-`Button URL` - Add a URL to the button. 
+`Button URL` - Add a URL to the button.
 `Open in new tab` - Select this option to open the link in a new tab.
 `Button alignment` - Select the button alignment left, right or center.
 `Block ID` - Displays the current block ID.
 `Remove block` - Deletes the current block from the results page.
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
 #### Cart/checkout
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
+![The Cart/checkout settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
 `Next destination for customers` - Select either Checkout or Cart as the next destination for customers.
 Cart/checkout options
 `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
-Click `...` to open the more options menu. 
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+Click `...` to open the more options menu.
+![The more options menu behind the three dots](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 `Duplicate` - Duplicates the current block.
 `Remove` - Deletes the current block from the results page.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+![The Results page settings panel](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 `...` - Opens the results page settings. Click `Duplicate` to duplicate the results page or `Remove` to delete it.
-![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
+![The results page options menu, with Duplicate and Remove](/images/manual_shoopifyV2_remove.png)
 `Results page name` - Type the name of the results page.
 `Background image` - Click `Select image` to upload a background image or select one from the in-app image gallery.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage.png)
+![The Background image setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage.png)
 `Background opacity` - Use the slider to change the background image opacity percentage.
 `Allow duplicated recommendations` - Check this option to allow products to be shown in more than one product/slot blocks.
 `Bar options` - Select the settings of the checkout bar.
@@ -20249,18 +20226,18 @@ Cart/checkout options
 `Next destination for customers` - Choose where customers go after the results page either Checkout or Cart.
 ### Discount code
 `Discount code` - Add a discount code to the results page. The discount code will be applied at checkout. The code must be a valid discount code in your Shopify store.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+![The Discount code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
 ??? tip "How to add a discount code"
     The code must be a valid discount code in your store. Check this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 ### Custom CSS code
 `Custom CSS code` - Add custom CSS code to this results page only. To add custom CSS code to your entire quiz, go to [quiz design](/reference/quiz-builder/quiz-design/).
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
+![The Custom CSS code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
 `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 !!! tip "App CSS structure"
     For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure reference](/reference/css-structure/).
 ### Custom JS code
 `Custom JS code` - Add custom JavaScript to this results page only. Custom JS will not work in the quiz builder, it will only work in the preview or live quiz.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
+![The Custom JS code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
 `✨Get help with custom JavaScript` - Opens a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 ??? info "Available JavaScript data and functions"
     Custom JavaScript code receives two parameters: `quiz` (data context) and `actions` (methods). See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for full documentation.
@@ -20331,14 +20308,16 @@ Cart/checkout options
 `🗑 Remove results page` - Deletes the current results page.
 `r-dcc49e7e` -  Click to copy the results page ID. Displays the current results page ID.
 Check [Results page settings](#results-page-settings) > `Checkout options`.
-![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
+These settings sit in the [Results page settings](#results-page-settings) panel, described at the top of this section.
+These settings sit in the [Results page settings](#results-page-settings) panel, described at the top of this section.
+![Several results pages listed in the quiz builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
 !!! info "Jump logic is required"
     The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
     See [how to set up multiple results pages](/how-to-guides/set-multiple-result-pages/) for how to set up multiple results pages and use Jump logic.
 1. To add a discount code to the results page, open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
 2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+    ![The Discount code setting](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
 !!! tip "How to add a discount code"
     See [how to add a discount to your quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
 This section provides a complete reference for dynamic content using Liquid templates and JavaScript on results pages.
@@ -20555,18 +20534,11 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 ← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 Next: [Metrics](/reference/quiz-builder/metrics/) →
 
----
-
-← [Back to Quiz Builder](/reference/quiz-builder/)
-
-← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
-Next: [Metrics](/reference/quiz-builder/metrics/) →
-
 --- Shopify Specific Content ---
 
-![/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
+![Opening Publish from the app side menu](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
 To add the quiz to your store, go the `Publish` tab from your [Dashboard](/reference/dashboard/) side menu.
-![manual_shopifyV2_quizbuilder_share_publish_publishpage](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
+![The Publish tab, listing the publishing options](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 `Theme extensions usage` - Tells you whether the RevenueHunt theme extension is active, and where it is installed in your Shopify theme.
 `Refresh`- Refresh the theme extension usage status.
 Below, you will find step-by-step instructions on how to publish the default quiz onto your website. Click on the option tiles to see instructions and extra settings.
@@ -20575,118 +20547,118 @@ Below, you will find step-by-step instructions on how to publish the default qui
 !!! info "What is a Link Popup?"
     A link that opens the quiz as a popup over your page.
 **On every page**{ #link-on-every-page }
-1. To add a link popup to your website, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
-2. Open `App Embeds` and toggle the button to activate the `Link Popup Quiz`.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
-3. You can adjust the popup options:
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+1. **To add a link popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.**
+2. **Open `App Embeds` and toggle the button to activate the `Link Popup Quiz`.**
+    ![The Link Popup Quiz app embed in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+3. **Adjust the popup options:**
+    ![The link popup options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
     `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-4. Click `Save`.
-5. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
+4. **Click `Save`.**
+5. **Add `#quiz` to any element of your website to trigger the link popup.** For example, you can add it to a button, link or a menu item.
 !!! tip "Step-by-step instructions"
     See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+    ![A link popup on a storefront](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 **On a specific page**{ #link-on-a-specific-page }
-1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-2. From the `Home page` menu at the top, go to `Pages`.
-3. Open the page template you want to add the link popup to, or create a new one.
-4. Once in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Link Popup Quiz`.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup_specificpage](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
-5. In the `Link Popup Quiz` section, you can adjust the link popup settings.
-    ![manual_shopifyV2_pagelevel_linkpopup_added](/images/manual_shopifyv2_pagelevel_linkpopup_added.png)
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+2. **From the `Home page` menu at the top, go to `Pages`.**
+3. **Open the page template you want to add the link popup to, or create a new one.**
+4. **Once in the page template editor, click `+ Add section`, then `Apps`.** From the list, pick the `Link Popup Quiz`.
+    ![Adding the Link Popup Quiz section to a page template](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
+5. **In the `Link Popup Quiz` section, adjust the link popup settings.**
+    ![The Link Popup Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_linkpopup_added.png)
+    ![The link popup options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
     `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-6. Click `Save`.
-7. Remember to apply the new page template to the page you want to add the link popup to.
-8. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
+6. **Click `Save`.**
+7. **Remember to apply the new page template to the page you want to add the link popup to.**
+8. **Add `#quiz` to any element of your website to trigger the link popup.** For example, you can add it to a button, link or a menu item.
 !!! tip "Step-by-step instructions"
     See [how to set up a quiz link popup on your store](/how-to-guides/publish-quiz-link/), or the `Add the quiz as a link-triggered popup` section in the app.
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+    ![A link popup on a storefront](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 !!! info "What is an Inline Quiz?"
     A quiz embedded inline with a page.
 **On every page**{ #inline-on-every-page }
-!!! warning 
+!!! warning
     Most merchants place the inline quiz on one specific page. To do that, see [On a Specific Page](#inline-on-a-specific-page).
-1. To add an inline quiz to your website, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
-2. From the `Home page` menu on top, select the `Default page` template. This is a template applied by default to most pages in your store.
-3. When in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
-    ![manual_shopifyv2_pagelevel_inline_add](/images/manual_shopifyv2_pagelevel_inline_add.png)
-4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+1. **To add an inline quiz to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.**
+2. **From the `Home page` menu on top, select the `Default page` template.** This is a template applied by default to most pages in your store.
+3. **When in the page template editor, click `+ Add section`, then `Apps`.** From the list, pick the `Inline Quiz`.
+    ![Adding the Inline Quiz section to a page template](/images/manual_shopifyv2_pagelevel_inline_add.png)
+4. **In the `Inline Quiz` section, adjust the inline quiz settings.**
+    ![The inline quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
     `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
     `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
     `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
-    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
+    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
     `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
     `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-5. Click `Save`. From now on, the inline quiz will be visible on all the pages that use the `Default page` template.
+5. **Click `Save`.** From now on, the inline quiz will be visible on all the pages that use the `Default page` template.
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions provided in the `Add the quiz to your home page` section, or in [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 **On a specific page**{ #inline-on-a-specific-page }
-1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-2. From the `Home page` menu at the top, go to `Pages`.
-3. Open the page template you want to add the inline quiz to, or create a new one.
-4. Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
-5. In the `Inline Quiz` section, you can adjust the inline quiz settings.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+2. **From the `Home page` menu at the top, go to `Pages`.**
+3. **Open the page template you want to add the inline quiz to, or create a new one.**
+4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Inline Quiz`.
+    ![The Inline Quiz section in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
+5. **In the `Inline Quiz` section, adjust the inline quiz settings.**
+    ![The inline quiz settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
     `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
     `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
     `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
-    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
+    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
     `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
     `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-6. Remember to apply the new page template to the page you want to add the inline quiz to.  
-7. Click `Save`. From now on, the inline quiz will be visible on that page.
+6. **Remember to apply the new page template to the page you want to add the inline quiz to.**
+7. **Click `Save`.** From now on, the inline quiz will be visible on that page.
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions provided in the `Add the quiz to a dedicated landing page` section, or in [how to embed an inline quiz on your store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 !!! info "What is an Automatic Popup?"
     A quiz popup that appears after X seconds. It is shown once per session, unless `Exit Intent` is enabled in the popup settings.
 **On every page**{ #automatic-on-every-page }
-1. To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-2. You can adjust the popup options:
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+1. **To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.** Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
+    ![The Automatic Popup Quiz app embed in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+2. **Adjust the popup options:**
+    ![The automatic popup options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
     `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
     `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-3. Click `Save`. From now on, the automatic popup will be triggered on all the pages.
+3. **Click `Save`.** From now on, the automatic popup will be triggered on all the pages.
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions in [how to set up automatic popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
 !!! warning "Note"
     By default, the popup is only shown once per session unless `Exit Intent` is enabled.
 **On a specific page**{ #automatic-on-a-specific-page }
-1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-2. From the `Home page` menu at the top, go to `Pages`.
-3. Open the page template you want to add the automatic popup to, or create a new one.
-4. Then, `+ Add section`, click the `Apps`. From the list, pick the `Automatic Popup Quiz`.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
-5. In the `Automatic Popup Quiz` section, you can adjust the automatic popup settings.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+2. **From the `Home page` menu at the top, go to `Pages`.**
+3. **Open the page template you want to add the automatic popup to, or create a new one.**
+4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Automatic Popup Quiz`.
+    ![Adding the Automatic Popup Quiz section to a page template](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
+5. **In the `Automatic Popup Quiz` section, adjust the automatic popup settings.**
+    ![The Automatic Popup Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
+    ![The automatic popup options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
     `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
     `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-6. Click `Save`. From now on, the automatic popup will be triggered on that page or any page that uses the same template.
-7. Remember to apply the new page template to the page you want to add the automatic popup to.
+6. **Click `Save`.** From now on, the automatic popup will be triggered on that page or any page that uses the same template.
+7. **Remember to apply the new page template to the page you want to add the automatic popup to.**
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions in [how to set up automatic popups on a specific page](/how-to-guides/publish-quiz-automatic-popup/#auto-popup-on-a-specific-page) to add an automatic popup to your website.
 !!! warning "Note"
@@ -20720,10 +20692,10 @@ This method involves activating the `Link Popup Quiz` app embed in your store th
 !!! info "What is a Chat Popup?"
     A quiz popup that opens when a customer clicks a chat-like button.
 **On every page**{ #chat-on-every-page }
-1. To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
-2. You can adjust the chat button options:
-    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+1. **To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`.** Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
+    ![The Chat Button Quiz app embed in the theme editor](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+2. **Adjust the chat button options:**
+    ![The chat button options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
     `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
     `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
     `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
@@ -20734,26 +20706,26 @@ This method involves activating the `Link Popup Quiz` app embed in your store th
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
-3. Click `Save`. From now on, the chat popup will show up on every page.
+3. **Click `Save`.** From now on, the chat popup will show up on every page.
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions in [how to set up chat button popups](/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
 **On a specific page**{ #chat-on-a-specific-page }
-1. In Shopify, go to `Online Store > Theme` and click `Customize`.
-2. From the `Home page` menu at the top, go to `Pages`.
-3. Open the page template you want to add the chat popup to, or create a new one.
-4. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
-    ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
-5. You can adjust the chat button options:
-    ![manual_shopifyv2_pagelevel_chat_added](/images/manual_shopifyv2_pagelevel_chat_added.png)
-    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
+2. **From the `Home page` menu at the top, go to `Pages`.**
+3. **Open the page template you want to add the chat popup to, or create a new one.**
+4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Chat Button Quiz`.
+    ![Adding the Chat Button Quiz section to a page template](/images/manual_shopifyv2_pagelevel_chat_add.png)
+5. **Adjust the chat button options:**
+    ![The Chat Button Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_chat_added.png)
+    ![The chat button options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
     `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
     `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
     `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
     `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
-6. Click `Save`. From now on, the chat popup will show up on that page or any page that uses the same template.  
-7. Remember to apply the new page template to the page you want to add the chat popup to.
+6. **Click `Save`.** From now on, the chat popup will show up on that page or any page that uses the same template.
+7. **Remember to apply the new page template to the page you want to add the chat popup to.**
 !!! tip "Step-by-step instructions"
     Follow the step by step instructions in [how to set up chat button popups on a specific page](/how-to-guides/publish-quiz-chat-button/#chat-button-on-a-specific-page) to add a chat popup to your website.
 

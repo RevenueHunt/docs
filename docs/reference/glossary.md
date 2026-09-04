@@ -143,10 +143,7 @@ The words this documentation uses, and what each one means.
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "WooCommerce"
 
@@ -165,10 +162,7 @@ The words this documentation uses, and what each one means.
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "Magento"
 
@@ -187,10 +181,7 @@ The words this documentation uses, and what each one means.
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "BigCommerce"
 
@@ -209,10 +200,7 @@ The words this documentation uses, and what each one means.
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 === "Standalone"
 
@@ -231,10 +219,7 @@ The words this documentation uses, and what each one means.
     | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
     | **choice** | One of the alternatives a customer can pick. |
     | **slide** | Another word for a question, used in the API and in merge tags. |
-
-    !!! note "Blocks are a Built for Shopify feature"
-
-        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+    | **block** | A piece of content on the [Results Page](/reference/quiz-builder/results-page/), such as a heading, a text block or a product block. |
 
 ## Results page structure
 
@@ -363,9 +348,9 @@ The words this documentation uses, and what each one means.
     | **upvote** | The signal a choice gives a product, variant or collection. The Product Block sorts by upvote count, most upvoted first. |
     | **Minimum number of votes** | A setting that hides products which did not receive enough upvotes. |
 
-    !!! note "Variables and scores are a Built for Shopify feature"
-
-        To show different content to different customers in this version, use Display Logic and Jump Logic based on their answers.
+    To show different content to different customers, build rules on their answers with
+    [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic)
+    and [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic).
 
 === "WooCommerce"
 
@@ -376,9 +361,9 @@ The words this documentation uses, and what each one means.
     | **upvote** | The signal a choice gives a product, variant or category. The Product Block sorts by upvote count, most upvoted first. |
     | **Minimum number of votes** | A setting that hides products which did not receive enough upvotes. |
 
-    !!! note "Variables and scores are a Built for Shopify feature"
-
-        To show different content to different customers in this version, use Display Logic and Jump Logic based on their answers.
+    To show different content to different customers, build rules on their answers with
+    [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic)
+    and [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic).
 
 === "Magento"
 
@@ -389,9 +374,9 @@ The words this documentation uses, and what each one means.
     | **upvote** | The signal a choice gives a product, variant or category. The Product Block sorts by upvote count, most upvoted first. |
     | **Minimum number of votes** | A setting that hides products which did not receive enough upvotes. |
 
-    !!! note "Variables and scores are a Built for Shopify feature"
-
-        To show different content to different customers in this version, use Display Logic and Jump Logic based on their answers.
+    To show different content to different customers, build rules on their answers with
+    [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic)
+    and [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic).
 
 === "BigCommerce"
 
@@ -402,9 +387,9 @@ The words this documentation uses, and what each one means.
     | **upvote** | The signal a choice gives a product, variant or category. The Product Block sorts by upvote count, most upvoted first. |
     | **Minimum number of votes** | A setting that hides products which did not receive enough upvotes. |
 
-    !!! note "Variables and scores are a Built for Shopify feature"
-
-        To show different content to different customers in this version, use Display Logic and Jump Logic based on their answers.
+    To show different content to different customers, build rules on their answers with
+    [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic)
+    and [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic).
 
 === "Standalone"
 
@@ -415,9 +400,9 @@ The words this documentation uses, and what each one means.
     | **upvote** | The signal a choice gives a product, variant or collection. The Product Block sorts by upvote count, most upvoted first. |
     | **Minimum number of votes** | A setting that hides products which did not receive enough upvotes. |
 
-    !!! note "Variables and scores are a Built for Shopify feature"
-
-        To show different content to different customers in this version, use Display Logic and Jump Logic based on their answers.
+    To show different content to different customers, build rules on their answers with
+    [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic)
+    and [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic).
 
 ## Conditional logic
 
