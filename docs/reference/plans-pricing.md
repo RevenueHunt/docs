@@ -8,25 +8,29 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
 === "Shopify"
 
-    ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
+    ![The Plans and pricing tab in App settings](/images/manual_shopifyv2_plans.png)
 
-    `Your current plan` - Displays the current plan you are on.
+    `Your current plan` - The plan you are on, its response allowance, and how many responses your quizzes collected in the last 30 days.
 
-    `Manage ▼` - Click to open the menu to cancel your current plan.
+    `Manage v` - Opens the menu for cancelling your current plan.
 
-    `Billing period` - Choose between `Monthly` or `Annual` billing.
+    `Billing period` - Choose `Monthly` or `Annual (save 20%)`.
 
-    `Plan details` - Click to see every pricing plan, with its fee, response limit and cost per response.
+    `Plan details` - Lists every plan with its `Monthly fee`, `Max. responses` and `Cost per response`. The plan you are on is marked `Current`.
 
-    `Upgrade` - Click to upgrade to a paid plan.
+    `Upgrade` - Moves you to that plan.
 
-    `Newsletter code` - Enter the newsletter code to redeem a discount or to get advanced features. Click `Redeem` to apply the code.
+    `Newsletter code` - Enter a promotional code to redeem a discount or to switch on advanced features. Click `Redeem` to apply it.
+
+    !!! info "30 day money back guarantee"
+
+        If a paid plan is not right for you, request a refund within the first 30 days of your subscription and RevenueHunt returns the payment.
 
 === "Shopify (Legacy)"
 
-    ![manual_plans_pricing](/images/manual_plans_pricing.png)
+    ![The Plans and pricing screen in the legacy app](/images/manual_plans_pricing.png)
 
-    `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
+    `Your quizzes received 1,049 responses during the past 30 days` - How many responses your quizzes collected in the last 30 days.
 
     `view larger plans` - Opens a list of larger plans offered in the app.
 
@@ -42,9 +46,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
 === "WooCommerce"
 
-    ![manual_woo_plans_pricing](/images/manual_woo_plans_pricing.png)
+    ![The Plans and pricing screen on WooCommerce](/images/manual_woo_plans_pricing.png)
 
-    `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
+    `Your quizzes received 1,049 responses during the past 30 days` - How many responses your quizzes collected in the last 30 days.
 
     `view larger plans` - Opens a list of larger plans offered in the app.
 
@@ -56,7 +60,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
-    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    ![The Invoices tab, listing past payments](/images/manual_woo_plans_pricing_invoices.png)
 
     `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
@@ -66,9 +70,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
 === "Magento"
 
-    ![manual_standalone_plans_pricing](/images/manual_standalone_plans_pricing.png)
+    ![The Plans and pricing screen](/images/manual_standalone_plans_pricing.png)
 
-    `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
+    `Your quizzes received 1,049 responses during the past 30 days` - How many responses your quizzes collected in the last 30 days.
 
     `view larger plans` - Opens a list of larger plans offered in the app.
 
@@ -80,7 +84,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
-    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    ![The Invoices tab, listing past payments](/images/manual_woo_plans_pricing_invoices.png)
 
     `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
@@ -90,9 +94,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
 === "BigCommerce"
 
-    ![manual_standalone_plans_pricing](/images/manual_standalone_plans_pricing.png)
+    ![The Plans and pricing screen](/images/manual_standalone_plans_pricing.png)
 
-    `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
+    `Your quizzes received 1,049 responses during the past 30 days` - How many responses your quizzes collected in the last 30 days.
 
     `view larger plans` - Opens a list of larger plans offered in the app.
 
@@ -104,19 +108,19 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
-    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    ![The Invoices tab, listing past payments](/images/manual_woo_plans_pricing_invoices.png)
 
     `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
     !!! info
 
-        Stripe, the payment processor, handles app payments.
+        Stripe, the payment processor, handles app payments. You can also download your invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 
 === "Standalone"
 
-    ![manual_standalone_plans_pricing](/images/manual_standalone_plans_pricing.png)
+    ![The Plans and pricing screen](/images/manual_standalone_plans_pricing.png)
 
-    `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
+    `Your quizzes received 1,049 responses during the past 30 days` - How many responses your quizzes collected in the last 30 days.
 
     `view larger plans` - Opens a list of larger plans offered in the app.
 
@@ -128,13 +132,13 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
-    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    ![The Invoices tab, listing past payments](/images/manual_woo_plans_pricing_invoices.png)
 
     `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
     !!! info
 
-        Stripe, the payment processor, handles app payments.
+        Stripe, the payment processor, handles app payments. You can also download your invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 
 !!! tip "Plans and pricing FAQ"
 
@@ -148,16 +152,16 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
 === "Shopify (Legacy)"
 
-    Shopify handles the payments. Change your billing details directly in your Shopify payments.
+    Shopify handles the payments. Change your billing details directly on your [Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments) page.
 
 === "WooCommerce"
 
     Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. Log in with your email address and the two-factor authentication code sent to your inbox.
+    1. **Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).**
+    2. **Log in with your email address and the two-factor authentication code sent to your inbox.**
 
-        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![The Stripe billing portal login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
         !!! info
 
@@ -165,7 +169,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
+    ![The Stripe billing portal, with the card and invoice details](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
     !!! tip
 
@@ -173,9 +177,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     To change your card from inside the app instead:
 
-    1. In the app, go to the Plans & Pricing screen.
-    2. Click `GET FREE` to downgrade to the Free Plan.
-    3. Upgrade to the Basic Plan again with your new credit card details.
+    1. **In the app, open `Plans and pricing`.**
+    2. **Click `GET FREE` to downgrade to the Free Plan.**
+    3. **Upgrade to the Basic Plan again with your new credit card details.**
 
     Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
 
@@ -185,10 +189,10 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. Log in with your email address and the two-factor authentication code sent to your inbox.
+    1. **Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).**
+    2. **Log in with your email address and the two-factor authentication code sent to your inbox.**
 
-        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![The Stripe billing portal login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
         !!! info
 
@@ -196,7 +200,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
+    ![The Stripe billing portal, with the card and invoice details](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
     !!! tip
 
@@ -204,9 +208,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     To change your card from inside the app instead:
 
-    1. In the app, go to the Plans & Pricing screen.
-    2. Click `GET FREE` to downgrade to the Free Plan.
-    3. Upgrade to the Basic Plan again with your new credit card details.
+    1. **In the app, open `Plans and pricing`.**
+    2. **Click `GET FREE` to downgrade to the Free Plan.**
+    3. **Upgrade to the Basic Plan again with your new credit card details.**
 
     Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
 
@@ -216,10 +220,10 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. Log in with your email address and the two-factor authentication code sent to your inbox.
+    1. **Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).**
+    2. **Log in with your email address and the two-factor authentication code sent to your inbox.**
 
-        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![The Stripe billing portal login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
         !!! info
 
@@ -227,7 +231,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
+    ![The Stripe billing portal, with the card and invoice details](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
     !!! tip
 
@@ -235,9 +239,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     To change your card from inside the app instead:
 
-    1. In the app, go to the Plans & Pricing screen.
-    2. Click `GET FREE` to downgrade to the Free Plan.
-    3. Upgrade to the Basic Plan again with your new credit card details.
+    1. **In the app, open `Plans and pricing`.**
+    2. **Click `GET FREE` to downgrade to the Free Plan.**
+    3. **Upgrade to the Basic Plan again with your new credit card details.**
 
     Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
 
@@ -247,10 +251,10 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. Log in with your email address and the two-factor authentication code sent to your inbox.
+    1. **Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).**
+    2. **Log in with your email address and the two-factor authentication code sent to your inbox.**
 
-        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![The Stripe billing portal login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
         !!! info
 
@@ -258,7 +262,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
+    ![The Stripe billing portal, with the card and invoice details](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
     !!! tip
 
@@ -266,9 +270,9 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     To change your card from inside the app instead:
 
-    1. In the app, go to the Plans & Pricing screen.
-    2. Click `GET FREE` to downgrade to the Free Plan.
-    3. Upgrade to the Basic Plan again with your new credit card details.
+    1. **In the app, open `Plans and pricing`.**
+    2. **Click `GET FREE` to downgrade to the Free Plan.**
+    3. **Upgrade to the Basic Plan again with your new credit card details.**
 
     Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
 

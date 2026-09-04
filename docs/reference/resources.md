@@ -10,15 +10,15 @@ The Resources page collects the tools, reports and templates that help you plan 
 
     Open `Resources` from the app side menu.
 
-    ![manual_shopifyV2_resources](/images/manual_shopifyV2_resources.png)
+    ![The Resources page, with the tools, reports and recommended apps](/images/manual_shopifyV2_resources.png)
 
     **Tools & reports**
 
-    `Quiz ROI calculator` - Estimates the extra monthly revenue a product quiz could add to your store. Enter your traffic, your conversion rate and your average order value. The calculator then shows the projected return, based on benchmark data. Click `Open calculator` to open it.
+    `Quiz ROI calculator` - Estimates the extra monthly revenue a product quiz could add to your store. Enter your traffic, your conversion rate and your average order value. The calculator then shows the projected return, based on benchmark data. Click `Open calculator` to open the [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/).
 
-    `Shopify quizzes benchmark report` - Shows how product quizzes perform across millions of real quiz responses. The report covers which product categories convert highest, and how long a quiz keeps earning. Click `Read the report` to open it.
+    `Shopify quizzes benchmark report` - Shows how product quizzes perform across millions of real quiz responses. The report covers which product categories convert highest, and how long a quiz keeps earning. Click `Read the report` to open [The State of Product Recommendation Quizzes](https://revenuehunt.com/state-of-product-recommendation-quizzes/).
 
-    `Quiz templates inspiration` - Opens a library of free quiz templates for skincare, beauty, supplements, pet food and other categories. Every template comes with its questions, conditional logic and recommendation rules already set up. Click `Browse templates` to open the library.
+    `Quiz templates inspiration` - Opens a library of free quiz templates for skincare, beauty, supplements, pet food and other categories. Every template comes with its questions, conditional logic and recommendation rules already set up. Click `Browse templates` to open the [template library](https://revenuehunt.com/templates/).
 
     **Recommended apps**
 
@@ -34,31 +34,31 @@ The Resources page collects the tools, reports and templates that help you plan 
 
     !!! note "Resources is a Built for Shopify feature"
 
-        The legacy app has a Help menu on the Dashboard instead.
+        The legacy app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. The [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/), the [benchmark report](https://revenuehunt.com/state-of-product-recommendation-quizzes/) and the [template library](https://revenuehunt.com/templates/) are on the RevenueHunt website, and work for any platform.
 
 === "WooCommerce"
 
     !!! note "Resources is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. The [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/), the [benchmark report](https://revenuehunt.com/state-of-product-recommendation-quizzes/) and the [template library](https://revenuehunt.com/templates/) are on the RevenueHunt website, and work for any platform.
 
 === "Magento"
 
     !!! note "Resources is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. The [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/), the [benchmark report](https://revenuehunt.com/state-of-product-recommendation-quizzes/) and the [template library](https://revenuehunt.com/templates/) are on the RevenueHunt website, and work for any platform.
 
 === "BigCommerce"
 
     !!! note "Resources is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. The [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/), the [benchmark report](https://revenuehunt.com/state-of-product-recommendation-quizzes/) and the [template library](https://revenuehunt.com/templates/) are on the RevenueHunt website, and work for any platform.
 
 === "Standalone"
 
     !!! note "Resources is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. The [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/), the [benchmark report](https://revenuehunt.com/state-of-product-recommendation-quizzes/) and the [template library](https://revenuehunt.com/templates/) are on the RevenueHunt website, and work for any platform.
 
 ---
 

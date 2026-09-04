@@ -791,7 +791,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Link Products](/reference/quiz-builder/link-products/)
+← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
 Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
 
 ---

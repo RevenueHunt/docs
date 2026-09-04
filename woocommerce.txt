@@ -14641,7 +14641,7 @@ Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NV
 
 Give every choice a meaningful text label, not only an image. If you use image choices, keep a text label so screen readers can describe the option.
 
-[:fontawesome-solid-arrow-right: Quiz Builder - Questions](/reference/quiz-builder/questions/)
+[:fontawesome-solid-arrow-right: Questions](/reference/quiz-builder/questions/)
 
 ## Focus management
 
@@ -14691,7 +14691,7 @@ Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 | Choice options | 44px (meets Level AAA) |
 | Buttons & inputs | 48px (exceeds Level AAA) |
 
-All interactive elements meet or exceed the WCAG 2.5.5 Level AAA requirement of 44px minimum. Adequate spacing between targets prevents accidental taps.
+Spacing between targets is wide enough to prevent accidental taps.
 
 ## Motion & animation
 
@@ -14713,13 +14713,15 @@ Quizzes support 11+ languages with proper text direction.
 
 ## Customizable accessibility text
 
-Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**:
+Customize the text a screen reader reads out in [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content), under `Accessibility`:
 
 | Setting | Purpose |
 |---------|---------|
-| Quiz Complete | Announced when quiz is finished |
-| Previous/Next Question | Labels for navigation buttons |
-| Answer Before Proceeding | Prompt when answer is required |
+| `Quiz complete` | Read out on the quiz complete slide |
+| `Previous question` | Label for the back button |
+| `No previous question` | Read out when there is no earlier question to go back to |
+| `Next question` | Label for the forward button |
+| `Answer before proceeding` | Read out when an answer is required |
 
 ## Testing your quiz
 
@@ -14743,19 +14745,11 @@ The RevenueHunt quiz renderer follows:
 
 If you find an accessibility problem, report it to customer support.
 
-[:fontawesome-solid-arrow-right: Contact Customer Support](/how-to-guides/contact-customer-support/)
+[:fontawesome-solid-arrow-right: Contact support](/how-to-guides/contact-customer-support/)
 
 !!! info "VPAT documentation"
 
     RevenueHunt does not provide a formal VPAT document. To review a specific accessibility concern with your live quiz, [contact customer support](/how-to-guides/contact-customer-support/).
-
----
-
-**Related articles:**
-
-- [Quiz Builder - Questions](/reference/quiz-builder/questions/)
-- [Quiz Design](/reference/quiz-builder/quiz-design/)
-- [Change Quiz Language](/how-to-guides/change-quiz-language/)
 
 ---
 
@@ -14781,13 +14775,13 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 ## Shopify Markets
 
-## Shopify customers
+## Shopify Customers
 
 ## Catalog
 
 ## SMTP settings { #smtp }
 
-## Plans & pricing
+## Plans and pricing { #plans-pricing }
 
 ## Newsletter
 
@@ -14803,7 +14797,7 @@ Next: [Resources](/reference/resources/) →
 ![app settings general](/images/manual_appsettings_general.png)
 **Your Profile**
 `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
-`Your best email` -  Provide your best email (not your store email) for communication in case of issues.
+`Your best email` - Provide your best email (not your store email) for communication in case of issues.
 `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 **Data & GDPR**
 `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
@@ -14817,15 +14811,15 @@ Next: [Resources](/reference/resources/) →
 `Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to add product metafields](/how-to-guides/add-product-metafields/).
 `Use attributes as categories` - Lets you use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 ![app settings smtp](/images/manual_appsettings_smtp.png)
-**SMTP Settings** 
+**SMTP Settings**
 SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
-When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
-!!! tip 
+When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead.
+!!! tip
     Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 `SMTP Server` - Set your server URL.
 `SMTP Username` - Set your SMTP Username.
-`SMTP Password`  - Provide the password associated with the username.
+`SMTP Password` - Provide the password associated with the username.
 `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
 `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
@@ -15084,13 +15078,13 @@ Next: [Plans & Pricing](/reference/plans-pricing/) →
 
 --- WooCommerce Specific Content ---
 
-![manual_woo_dashboard](/images/manual_woo_dashboard.png)
+![The WooCommerce dashboard](/images/manual_woo_dashboard.png)
 `Plans & Pricing` - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL: https://admin.revenuehunt.com/plans)
 `App Settings` - Opens the [App Settings](/reference/app-settings/) menu.
 `Help` - Opens the Help menu.
-![manual_woo_help_menu](/images/manual_woo_help_menu.png)
+![The Help menu](/images/manual_woo_help_menu.png)
 - `Frequently Asked Questions` - Opens the FAQ page with the app documentation.
-- `Video Tutorials` - Opens the video tutorials page. 
+- `Video Tutorials` - Opens the video tutorials page.
 - `App Status & Uptime` - Opens the page where you can check for known technical issues.
 - `Plans & Pricing` - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL: https://admin.revenuehunt.com/plans)
 - `Contact Support` - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
@@ -15101,7 +15095,7 @@ Next: [Plans & Pricing](/reference/plans-pricing/) →
 `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 Check the [Success Checklist](#success-checklist) for the setup guide.
 ![manual_woo_setupguide](/images/manual_succes_checklist.png){width="300"}
-![manual_woo_myquizzes](/images/manual_woo_myquizzes.png)
+![The quiz list on WooCommerce](/images/manual_woo_myquizzes.png)
 `+ new quiz` - Opens the [New quiz](#new-quiz) setup menu.
 `Demo Quiz (copy)` - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
 `4096 leads` - Indicates the total number of quiz responses the quiz received.
@@ -15129,7 +15123,7 @@ To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 ❓ - Opens the Getting Started section of the Success Checklist.
 ❗ - Opens the To Do section of the Success Checklist. The number indicates the number of tasks to be completed.
 ✅ - Opens the To Do section of the Success Checklist. The number indicates the number of tasks to be completed.
-🔄 - Opens the Sync section of the Success Checklist. 
+🔄 - Opens the Sync section of the Success Checklist.
 ![dashboard woocommerce success checklist sync app](/images/manual_woo_succcesschecklist_products.png){width="500"}
 `run manual sync` - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. A full sync of your catalog runs every 24 hours.
 ![new quiz page](/images/manual_standalone_newquiz.png)
@@ -15139,7 +15133,7 @@ To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 `Select from one of our Quiz Templates`  - Lets you use one of the pre-designed templates.
 ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
 `live preview` - Opens a live preview of the quiz templates.
-`use this template` - Adds the template to your dashboard. 
+`use this template` - Adds the template to your dashboard.
 !!! note "Get support is a Built for Shopify feature"
     The legacy app has a Help menu on the Dashboard instead.
 !!! note "Switching app versions applies to Shopify only"
@@ -15171,7 +15165,7 @@ Next: [Accessibility](/reference/accessibility/) →
 --- WooCommerce Specific Content ---
 
 !!! note "Feedback is a Built for Shopify feature"
-    This version of the app has a Help menu on the Dashboard instead.
+    This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. To send a bug report or a feature request, [contact customer support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -15321,18 +15315,19 @@ This manual explains every screen, button and setting in the RevenueHunt app.
 
 ## [Dashboard](/reference/dashboard/)
 
-The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success Checklist, or create a new quiz.
+The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success checklist, or create a new quiz.
 
 ## [Quiz builder](/reference/quiz-builder/)
 
-The Quiz Builder is where you build a quiz.
+The Quiz builder holds every screen you use to build a quiz, from the first question to the results page.
 
 ### Build the quiz
 
 - **[Questions](/reference/quiz-builder/questions/)** - Add and edit the questions in your quiz
-- **[Link products and collections](/reference/quiz-builder/link-collections/)** - Link individual products, whole collections, or product tags to individual choices
+- **[Link Collections](/reference/quiz-builder/link-collections/)** - Link whole collections, categories or product tags to individual choices
+- **[Link Products](/reference/quiz-builder/link-products/)** - Link individual products to individual choices
 - **[Customer tags](/reference/quiz-builder/customer-tags/)** - Create the tags that a choice applies to a customer
-- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump Logic and Skip Logic
+- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump logic and Skip logic
 
 ### Design what the customer sees
 
@@ -15356,7 +15351,7 @@ See the details of every pricing plan, and upgrade or downgrade your account.
 
 ## [App settings](/reference/app-settings/)
 
-Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
+Adjust your contact details, set up Shopify Markets, sync your product catalog, change GDPR settings, or connect your SMTP server.
 
 ## [Resources](/reference/resources/)
 
@@ -15379,8 +15374,6 @@ The CSS classes and selectors you can target when you style a quiz with your own
 The name this documentation uses for every product term, and what each one means on your platform.
 
 ---
-
-← [Back to the App Manual](/reference/)
 
 Next: [Dashboard](/reference/dashboard/) →
 
@@ -15414,31 +15407,31 @@ Next: [App Settings](/reference/app-settings/) →
 
 --- WooCommerce Specific Content ---
 
-![manual_woo_plans_pricing](/images/manual_woo_plans_pricing.png)
-`Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
+![The Plans and pricing screen on WooCommerce](/images/manual_woo_plans_pricing.png)
+`Your quizzes received 1,049 responses during the past 30 days` - How many responses your quizzes collected in the last 30 days.
 `view larger plans` - Opens a list of larger plans offered in the app.
 `Pricing FAQs` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 `check out this FAQs article` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 `Get Basic/Pro` - Click to upgrade your plan to Basic or Pro. The payment page then opens, where you approve the subscription.
 `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
-![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+![The Invoices tab, listing past payments](/images/manual_woo_plans_pricing_invoices.png)
 `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 !!! info
     Stripe, the payment processor, handles app payments. You can also download your invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
-1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-2. Log in with your email address and the two-factor authentication code sent to your inbox.
-    ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
+1. **Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).**
+2. **Log in with your email address and the two-factor authentication code sent to your inbox.**
+    ![The Stripe billing portal login](/images/manual_woo_plans_pricing_change_billing_details.png)
     !!! info
         The login is the email address you used when you first gave your credit card details.
 The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
-![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
+![The Stripe billing portal, with the card and invoice details](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 !!! tip
     To add your VAT number to an invoice, put it on the first line of your name or address. For example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
 To change your card from inside the app instead:
-1. In the app, go to the Plans & Pricing screen.
-2. Click `GET FREE` to downgrade to the Free Plan.
-3. Upgrade to the Basic Plan again with your new credit card details.
+1. **In the app, open `Plans and pricing`.**
+2. **Click `GET FREE` to downgrade to the Free Plan.**
+3. **Upgrade to the Basic Plan again with your new credit card details.**
 Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
 If you cannot downgrade to the Free Plan because you are above your usage limit, [contact customer support](/how-to-guides/contact-customer-support/).
 
@@ -15464,7 +15457,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Link Products](/reference/quiz-builder/link-products/)
+← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
 Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
 
 ---
@@ -16536,7 +16529,7 @@ Next: [Feedback](/reference/feedback/) →
 --- WooCommerce Specific Content ---
 
 !!! note "Resources is a Built for Shopify feature"
-    This version of the app has a Help menu on the Dashboard instead.
+    This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. The [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/), the [benchmark report](https://revenuehunt.com/state-of-product-recommendation-quizzes/) and the [template library](https://revenuehunt.com/templates/) are on the RevenueHunt website, and work for any platform.
 
 
 

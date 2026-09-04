@@ -39,7 +39,7 @@ Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NV
 
 Give every choice a meaningful text label, not only an image. If you use image choices, keep a text label so screen readers can describe the option.
 
-[:fontawesome-solid-arrow-right: Quiz Builder - Questions](/reference/quiz-builder/questions/)
+[:fontawesome-solid-arrow-right: Questions](/reference/quiz-builder/questions/)
 
 ## Focus management
 
@@ -89,7 +89,7 @@ Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 | Choice options | 44px (meets Level AAA) |
 | Buttons & inputs | 48px (exceeds Level AAA) |
 
-All interactive elements meet or exceed the WCAG 2.5.5 Level AAA requirement of 44px minimum. Adequate spacing between targets prevents accidental taps.
+Spacing between targets is wide enough to prevent accidental taps.
 
 ## Motion & animation
 
@@ -111,13 +111,15 @@ Quizzes support 11+ languages with proper text direction.
 
 ## Customizable accessibility text
 
-Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**:
+Customize the text a screen reader reads out in [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content), under `Accessibility`:
 
 | Setting | Purpose |
 |---------|---------|
-| Quiz Complete | Announced when quiz is finished |
-| Previous/Next Question | Labels for navigation buttons |
-| Answer Before Proceeding | Prompt when answer is required |
+| `Quiz complete` | Read out on the quiz complete slide |
+| `Previous question` | Label for the back button |
+| `No previous question` | Read out when there is no earlier question to go back to |
+| `Next question` | Label for the forward button |
+| `Answer before proceeding` | Read out when an answer is required |
 
 ## Testing your quiz
 
@@ -141,19 +143,11 @@ The RevenueHunt quiz renderer follows:
 
 If you find an accessibility problem, report it to customer support.
 
-[:fontawesome-solid-arrow-right: Contact Customer Support](/how-to-guides/contact-customer-support/)
+[:fontawesome-solid-arrow-right: Contact support](/how-to-guides/contact-customer-support/)
 
 !!! info "VPAT documentation"
 
     RevenueHunt does not provide a formal VPAT document. To review a specific accessibility concern with your live quiz, [contact customer support](/how-to-guides/contact-customer-support/).
-
----
-
-**Related articles:**
-
-- [Quiz Builder - Questions](/reference/quiz-builder/questions/)
-- [Quiz Design](/reference/quiz-builder/quiz-design/)
-- [Change Quiz Language](/how-to-guides/change-quiz-language/)
 
 ---
 

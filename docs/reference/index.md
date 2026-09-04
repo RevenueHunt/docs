@@ -8,18 +8,19 @@ This manual explains every screen, button and setting in the RevenueHunt app.
 
 ## [Dashboard](/reference/dashboard/)
 
-The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success Checklist, or create a new quiz.
+The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success checklist, or create a new quiz.
 
 ## [Quiz builder](/reference/quiz-builder/)
 
-The Quiz Builder is where you build a quiz.
+The Quiz builder holds every screen you use to build a quiz, from the first question to the results page.
 
 ### Build the quiz
 
 - **[Questions](/reference/quiz-builder/questions/)** - Add and edit the questions in your quiz
-- **[Link products and collections](/reference/quiz-builder/link-collections/)** - Link individual products, whole collections, or product tags to individual choices
+- **[Link Collections](/reference/quiz-builder/link-collections/)** - Link whole collections, categories or product tags to individual choices
+- **[Link Products](/reference/quiz-builder/link-products/)** - Link individual products to individual choices
 - **[Customer tags](/reference/quiz-builder/customer-tags/)** - Create the tags that a choice applies to a customer
-- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump Logic and Skip Logic
+- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump logic and Skip logic
 
 ### Design what the customer sees
 
@@ -43,7 +44,7 @@ See the details of every pricing plan, and upgrade or downgrade your account.
 
 ## [App settings](/reference/app-settings/)
 
-Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
+Adjust your contact details, set up Shopify Markets, sync your product catalog, change GDPR settings, or connect your SMTP server.
 
 ## [Resources](/reference/resources/)
 
@@ -66,7 +67,5 @@ The CSS classes and selectors you can target when you style a quiz with your own
 The name this documentation uses for every product term, and what each one means on your platform.
 
 ---
-
-← [Back to the App Manual](/reference/)
 
 Next: [Dashboard](/reference/dashboard/) →

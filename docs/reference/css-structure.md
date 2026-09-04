@@ -20,7 +20,7 @@ them to customize how your quizzes look.
     !!! note "Theme variables are a legacy feature"
 
         The Built for Shopify version does not use this variable system. Set
-        colors and fonts in Quiz design.
+        colors and fonts in [Quiz design](/reference/quiz-builder/quiz-design/).
 
 === "Shopify (Legacy)"
 
@@ -1189,8 +1189,8 @@ them to customize how your quizzes look.
         border: none;
     }
 
-    /* Responsive slot widths */
-    .results-slot_half {
+    /* Two slots per row */
+    .results-slot_list-side_by_side .results-slot {
         width: calc(50% - 0.5rem);
     }
     ```
@@ -1436,6 +1436,10 @@ them to customize how your quizzes look.
 
     **Animation classes**
 
+    The app adds one of these to a slide while it moves. `forward` runs when the
+    customer advances, `backward` when they go back. `enter` is on the slide
+    coming in, `exit` on the one leaving.
+
     | Selector | Description |
     |----------|-------------|
     | `.horizontal-forward.enter` | Horizontal forward enter animation |
@@ -1496,7 +1500,9 @@ them to customize how your quizzes look.
 
 === "Shopify"
 
-    Use these patterns to target specific elements in your quiz:
+    Use these patterns to target specific elements in your quiz. Right-click the
+    element in your browser and inspect it to read the `quizId` or `ref` that the
+    app generated for it.
 
     | Pattern | Description |
     |---------|-------------|
@@ -1638,10 +1644,6 @@ them to customize how your quizzes look.
         height: 100%;
     }
     ```
-
-    ---
-
-    This article explains the CSS structure of the Built for Shopify RevenueHunt quiz app.
 
 === "Shopify (Legacy)"
 

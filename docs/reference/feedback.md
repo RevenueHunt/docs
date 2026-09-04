@@ -10,11 +10,15 @@ The Feedback page sends a message straight to the RevenueHunt product team. Use 
 
     Open `Feedback` from the app side menu.
 
-    ![manual_shopifyV2_feedback](/images/manual_shopifyV2_feedback.png)
+    ![The Feedback form](/images/manual_shopifyV2_feedback.png)
 
-    `What's this about?` - Choose the topic of your message.
+    `Ask Quiz Copilot` - Opens the Quiz Copilot chat. Use it first when something is broken and blocking you, because it answers most questions on the spot.
 
-    ![manual_shopifyV2_feedback_topic](/images/manual_shopifyV2_feedback_topic.png)
+    `support team` - Opens a [support request](/how-to-guides/contact-customer-support/) for anything Quiz Copilot cannot answer.
+
+    `What's this about?` - Choose the topic of your message. `Feature request` is selected by default.
+
+    ![The topic dropdown, open](/images/manual_shopifyV2_feedback_topic.png)
 
     - `Bug report` - Something in the app does not work the way it should.
     - `Feature request` - Something you want the app to do that it does not do yet.
@@ -29,37 +33,37 @@ The Feedback page sends a message straight to the RevenueHunt product team. Use 
 
     !!! tip "For a problem that blocks you now, use Quiz Copilot"
 
-        Feedback goes to the product team, not to the support queue, so an answer can take time. When something is broken and blocks you right now, use `Chat with Quiz Copilot` in the [Support](/reference/dashboard/#support) menu. It answers most questions on the spot. When it cannot, [contact customer support](/how-to-guides/contact-customer-support/).
+        Feedback goes to the product team, not to the support queue, so an answer can take time. When something is broken and blocks you right now, use the `Ask Quiz Copilot` link at the top of this page, or `Chat with Quiz Copilot` in the [Support](/reference/dashboard/#support) menu. When neither answers your question, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 
     !!! note "Feedback is a Built for Shopify feature"
 
-        The legacy app has a Help menu on the Dashboard instead.
+        The legacy app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. To send a bug report or a feature request, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "WooCommerce"
 
     !!! note "Feedback is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. To send a bug report or a feature request, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Magento"
 
     !!! note "Feedback is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. To send a bug report or a feature request, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "BigCommerce"
 
     !!! note "Feedback is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. To send a bug report or a feature request, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Standalone"
 
     !!! note "Feedback is a Built for Shopify feature"
 
-        This version of the app has a Help menu on the Dashboard instead.
+        This version of the app has a [Help menu](/reference/dashboard/#success-checklist) on the Dashboard instead. To send a bug report or a feature request, [contact customer support](/how-to-guides/contact-customer-support/).
 
 ---
 

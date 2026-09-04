@@ -16712,7 +16712,7 @@ Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NV
 
 Give every choice a meaningful text label, not only an image. If you use image choices, keep a text label so screen readers can describe the option.
 
-[:fontawesome-solid-arrow-right: Quiz Builder - Questions](/reference/quiz-builder/questions/)
+[:fontawesome-solid-arrow-right: Questions](/reference/quiz-builder/questions/)
 
 ## Focus management
 
@@ -16762,7 +16762,7 @@ Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 | Choice options | 44px (meets Level AAA) |
 | Buttons & inputs | 48px (exceeds Level AAA) |
 
-All interactive elements meet or exceed the WCAG 2.5.5 Level AAA requirement of 44px minimum. Adequate spacing between targets prevents accidental taps.
+Spacing between targets is wide enough to prevent accidental taps.
 
 ## Motion & animation
 
@@ -16784,13 +16784,15 @@ Quizzes support 11+ languages with proper text direction.
 
 ## Customizable accessibility text
 
-Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**:
+Customize the text a screen reader reads out in [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content), under `Accessibility`:
 
 | Setting | Purpose |
 |---------|---------|
-| Quiz Complete | Announced when quiz is finished |
-| Previous/Next Question | Labels for navigation buttons |
-| Answer Before Proceeding | Prompt when answer is required |
+| `Quiz complete` | Read out on the quiz complete slide |
+| `Previous question` | Label for the back button |
+| `No previous question` | Read out when there is no earlier question to go back to |
+| `Next question` | Label for the forward button |
+| `Answer before proceeding` | Read out when an answer is required |
 
 ## Testing your quiz
 
@@ -16814,19 +16816,11 @@ The RevenueHunt quiz renderer follows:
 
 If you find an accessibility problem, report it to customer support.
 
-[:fontawesome-solid-arrow-right: Contact Customer Support](/how-to-guides/contact-customer-support/)
+[:fontawesome-solid-arrow-right: Contact support](/how-to-guides/contact-customer-support/)
 
 !!! info "VPAT documentation"
 
     RevenueHunt does not provide a formal VPAT document. To review a specific accessibility concern with your live quiz, [contact customer support](/how-to-guides/contact-customer-support/).
-
----
-
-**Related articles:**
-
-- [Quiz Builder - Questions](/reference/quiz-builder/questions/)
-- [Quiz Design](/reference/quiz-builder/quiz-design/)
-- [Change Quiz Language](/how-to-guides/change-quiz-language/)
 
 ---
 
@@ -16852,13 +16846,13 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 ## Shopify Markets
 
-## Shopify customers
+## Shopify Customers
 
 ## Catalog
 
 ## SMTP settings { #smtp }
 
-## Plans & pricing
+## Plans and pricing { #plans-pricing }
 
 ## Newsletter
 
@@ -16872,29 +16866,31 @@ Next: [Resources](/reference/resources/) →
 --- Shopify Specific Content ---
 
 ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
-From the Store settings menu you can:
+The `App settings` menu holds these tabs:
 `General` - Add a contact email for support to get notified about quiz issues, improvements or important updates (support only, no marketing emails).
 !!! tip
     You can add multiple contact emails by separating them with a comma.
 `Shopify Markets` - Assign quizzes to different markets and languages via the [Shopify Markets](#shopify-markets) tab.
 `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
-`Catalog` - Import tags, collections, vendors, and metafields from the [Catalog](#catalog) tab or check the import status.
+`Catalog` - Import tags, vendors, variants and metafields from the [Catalog](#catalog) tab, or check the import status.
 `SMTP settings` - Provide your email [SMTP settings](#smtp) to send result emails from your email provider.
-`Plans and pricing` - Manage your current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
-`Newsletter` - Subscribe to the newsletter to get notified about new features, updates and important announcements.
+`Plans and pricing` - Manage your current subscription and plan details from the [Plans and pricing](#plans-pricing) tab.
+`Newsletter` - Subscribe to the [Newsletter](#newsletter) to get notified about new features, updates and important announcements.
 ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 Tailor your customer experience by assigning specific quizzes to each of your store's Shopify Markets. Customize product recommendations, content, and language to meet the unique preferences of your global audience.
 Click the `dropdown list` to select a quiz that will be shown by default to customers on that Markets version of your store.
 ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-`▶` -  Click to display a list of all markets, languages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
+`>` - Click to expand a market and show its languages and its currency format. You can then pick a different default quiz for each language in that market.
 ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
-`▼` - Click to return to a simplified view of all Markets, without language distinction.
+`v` - Click to collapse the market again, back to the view without languages.
 `Default` - Select the default quiz for a specific region.
 `Language` - Select a default quiz for a specific language in this region.
 `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
 ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)
 Enable automatic syncing of quiz leads to your Shopify Customers list. When enabled, every quiz completion that captures an email will create or update a customer profile in Shopify.
-`Enable pushing quiz leads to Shopify Customers` - Toggle to enable/disable syncing quiz leads to Shopify Customers. This is a global setting that applies to all quizzes.
+`Enable pushing quiz leads to Shopify Customers` - Tick to sync quiz leads to Shopify Customers. This is a global setting that applies to all quizzes.
+!!! note "Consent defaults to subscribed"
+    New contacts are created with the email and SMS marketing consent status set to subscribed, with confirmed opt-in. To change it, open the email or phone question settings in the [Quiz builder](/reference/quiz-builder/questions/).
 **What data is sent:**
 - Email address (required)
 - First name and last name (if collected in quiz)
@@ -16905,7 +16901,7 @@ Enable automatic syncing of quiz leads to your Shopify Customers list. When enab
 !!! tip
     Check [how to send quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
 **Shopify Flow**
-The `Shopify Flow` card sits directly below the checkbox. It lets you automate actions after an identified customer completes a quiz, using the **Quiz Completed** trigger from Product Recommendation Quiz.
+The `Shopify Flow` card sits directly below the `Shopify Customers` card. It lets you automate actions after an identified customer completes a quiz, using the **Quiz Completed** trigger from Product Recommendation Quiz.
 The label next to the heading shows the current status:
 - `Flow active` - a workflow using the trigger is turned on.
 - `Flow inactive` - a workflow was detected but is not turned on.
@@ -16918,19 +16914,19 @@ The label next to the heading shows the current status:
 ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 Product names, descriptions, prices and images shown in your quiz results are pulled live from Shopify, so they are always up to date.
 The catalog import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
-**Import tags, collections, vendors & metafields** - Shows the current import status and how many items were imported. It also holds the `Import now` button. Expand the import history to see past imports.
+**Import tags, vendors, variants & metafields** - Shows the current import status and how many items were imported. It also holds the `Import now` button. Open `Import history` to see past imports, with the tag, vendor, variant and metafield counts for each.
 `Import now` - Start a new catalog import. This typically takes a few minutes depending on your catalog size.
 `Refresh` - Refresh the import status and tag/vendors/variants/metafields quantities.
-`Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
-**When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
-**When checked:** If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations entirely. This prevents customers from seeing products that are unavailable to purchase. Once checked, the **`Minimum stock level`** option will become available. You can set the minimum stock level for products to be eligible for recommendations.
+`Low inventory filter` - Controls which products are eligible to be recommended in the quiz results, based on stock levels.
+**When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz settings > Quiz content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
+**When checked:** If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations entirely. This prevents customers from seeing products that are unavailable to purchase. Once checked, the `Minimum stock level` field becomes available. Set the stock level a product has to reach to stay eligible for recommendations. The value can be negative.
 !!! info "How products with multiple variants are handled"
     A product is only hidden from recommendations when **all** of its variants are below the minimum stock threshold. If a product has at least one variant above the threshold, the product remains eligible for recommendations.
-`Draft products` - this setting lets you control which products are eligible to be recommended in the quiz results based on draft status.
+`Draft products` - Controls whether products in draft status are eligible to be recommended in the quiz results.
 `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products can be recommended, and they appear in the `Quiz preview` and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). Use this to build and test a quiz with draft products before you publish them. Draft products are not shown in the live quiz until they are published.
 `Collection product order` - Control how products are ordered within collections for recommendations.
-`Catalog mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
-`Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalog faster. 
+`Catalog mode` - Choose between `Default (faster imports)` and `Preserve collection order`.
+`Default (faster imports)` - When products have equal upvotes, they appear in random order. This mode imports your catalog faster.
 `Preserve collection order` - When products have equal upvotes, they appear in the same order as arranged in your Shopify collections. Products placed earlier in your collection appear first in recommendations.
 !!! warning "After changing this setting"
     You must click `Import now` to apply the change. The new ordering takes effect only after a fresh import.
@@ -16945,22 +16941,25 @@ The catalog import updates the lists of **tags, collections, vendors, variants a
     - **With Default mode**: Either could appear first (random)
     - **With Preserve collection order**: Product A appears first (position 1 beats position 3)
 ![app settings smtp](/images/manual_shopifyV2_appsettings_smtp.png)
-**SMTP Settings** 
+**SMTP Settings**
 SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
-When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
+When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead.
 !!! tip
     Check [how to send result emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 `SMTP From` - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
 `SMTP Server` - Set your server URL. The "Server" field must be in format: `smtp.example.com`.
 `SMTP Username` - Set your SMTP Username.
-`SMTP Password`  - Provide the password associated with the username.
+`SMTP Password` - Provide the password associated with the username.
 `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-`SMTP Authentication`  - Select from the dropdown your SMTP email authentication method.
-`Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS upgrades an existing insecure connection to an encrypted one, using TLS. It usually runs over port 587.* This option is on by default. Untick it if your SMTP server does not support STARTTLS, because it can otherwise block the connection.
-`Enable SSL` - Check to enable SSL. *SSL is an older protocol for encrypting connections. The connection starts secure, rather than being upgraded after connecting as STARTTLS does. It usually runs on port 465.* Enable SSL only if your SMTP provider asks for it. Untick it for servers that do not use SSL.
+`SMTP Authentication` - Select the method your provider uses from the dropdown. The choices are `plain`, `login` and `cram-md5`, and `plain` is the default. Most providers use `plain`.
+`Encryption` - Pick the encryption your provider asks for. The two are exclusive, so selecting one clears the other.
+- `STARTTLS` - Opens an insecure connection and upgrades it to an encrypted one. It usually runs on port 587, and it is selected by default.
+- `SSL/TLS` - Starts the connection encrypted rather than upgrading it afterwards. It usually runs on port 465.
+`Test connection` - Send a test email with the credentials above. The app reports `SMTP connection successful`, with the subject, the recipient and the timestamp.
+`Enable sending emails using your own SMTP server` - Switches the app over to your server. It stays greyed out until a connection test passes, so run `Test connection` first.
 !!! tip "Troubleshooting"
     If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
-Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
+Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
 ![app settings newsletter](/images/manual_shopifyv2_newsletter.png)
 `Email address` - Enter an email address to subscribe to the newsletter.
 
@@ -17019,7 +17018,7 @@ Next: [Glossary](/reference/glossary/) →
 
 !!! note "Theme variables are a legacy feature"
     The Built for Shopify version does not use this variable system. Set
-    colors and fonts in Quiz design.
+    colors and fonts in [Quiz design](/reference/quiz-builder/quiz-design/).
 **Main selectors**
 | Selector | Description |
 |----------|-------------|
@@ -17305,12 +17304,15 @@ Next: [Glossary](/reference/glossary/) →
     color: white;
     border: none;
 }
-/* Responsive slot widths */
-.results-slot_half {
+/* Two slots per row */
+.results-slot_list-side_by_side .results-slot {
     width: calc(50% - 0.5rem);
 }
 ```
 **Animation classes**
+The app adds one of these to a slide while it moves. `forward` runs when the
+customer advances, `backward` when they go back. `enter` is on the slide
+coming in, `exit` on the one leaving.
 | Selector | Description |
 |----------|-------------|
 | `.horizontal-forward.enter` | Horizontal forward enter animation |
@@ -17333,7 +17335,9 @@ Next: [Glossary](/reference/glossary/) →
     animation: none !important;
 }
 ```
-Use these patterns to target specific elements in your quiz:
+Use these patterns to target specific elements in your quiz. Right-click the
+element in your browser and inspect it to read the `quizId` or `ref` that the
+app generated for it.
 | Pattern | Description |
 |---------|-------------|
 | `#quiz-{quizId}` | Target entire quiz instance |
@@ -17425,8 +17429,6 @@ Use these patterns to target specific elements in your quiz:
     height: 100%;
 }
 ```
----
-This article explains the CSS structure of the Built for Shopify RevenueHunt quiz app.
 
 
 
@@ -17483,65 +17485,76 @@ The RevenueHunt Quizzes `Dashboard` is where you view, manage and optimize every
 `Feedback` - Opens the [Feedback](/reference/feedback/) page, where you send a bug report, a feature request or an app idea to the team.
 `Switch to legacy app` - Click to [switch to the legacy version of the app](/reference/dashboard/#switch-to-legacy). All your progress will be saved when you switch versions.
 The Analytics Overview is a summary of the most important metrics for your quizzes.
-![manual_shopifyV2_topanalytics_folded](/images/manual_shopifyV2_topanalytics_folded.png)
+![The analytics overview, collapsed](/images/manual_shopifyV2_topanalytics_folded.png)
 `Skincare Quiz (Morning & Night)` - The default quiz for which the data is displayed. Click on the quiz name to switch to another quiz.
 `Last 30 days` - The period for which the data is displayed. Click on the period to switch to another period.
-![manual_shopifyV2_topanalytics_folded_datepicker](/images/manual_shopifyV2_topanalytics_folded_datepicker.png)
+![The date range picker in the analytics overview](/images/manual_shopifyV2_topanalytics_folded_datepicker.png)
 `Quiz responses` - The number of responses the current default quiz received.
 `Drop-off rate` - The percentage of responses that dropped off at each question.
 `Number of orders` - The number of orders the current default quiz generated.
 `Total orders value` - The total value of orders the current default quiz generated.
 `▼` - click to expand the analytics overview.
-![manual_shopifyV2_topanalytics_unfolded](/images/manual_shopifyV2_topanalytics_unfolded.png)
-`▲` - click to collapse the analytics overview.	
-Quick start checklist to get your first quiz up and running.
-![manual_shopifyV2_setupguide](/images/manual_shopifyV2_setupguide.png)
+![The analytics overview, expanded](/images/manual_shopifyV2_topanalytics_unfolded.png)
+`▲` - click to collapse the analytics overview.
+A short checklist that covers the three steps to your first working quiz.
+![The Setup guide checklist](/images/manual_shopifyV2_setupguide.png)
+`3/3 completed` - How many of the three steps are done, with a progress bar.
+`Create your first quiz` - Marked complete once a quiz exists on the dashboard.
+`Link products and collections to choices` - Explains the upvote system, and the fixed recommendations you can use instead. See [Link Collections](/reference/quiz-builder/link-collections/) and [Link Products](/reference/quiz-builder/link-products/).
+`Publish your quiz` - Reminds you to make the quiz visible on your storefront. See [Publish](/reference/quiz-builder/share-publish/).
+`Refresh` - Rechecks whether the quiz is published, and updates the step.
 `X` - Closes the setup guide.
-For the full setup guide, see the [Success checklist](#success-checklist).
-`Default Quiz` - The main quiz set up for the main Shopify market in your store.
-![manual_shopifyV2_defaultquiz](/images/manual_shopifyV2_defaultquiz.png)
+For the longer checklist, see the [Success checklist](#success-checklist).
+`Default quiz` - The main quiz set up for the main Shopify market in your store.
+![The default quiz, with its response count and optimization score](/images/manual_shopifyV2_defaultquiz.png)
 `4.5K Responses` - Shows the number of responses the current default quiz received.
 `6/9 Quiz optimizations` - Shows the quiz building progress based on the [Success checklist](#success-checklist).
-`Skincare Quiz (Morning & Night)` - Current quiz title. 
-`Last saved: 11 December 2025, 11:41 AM` - Specifies when the last changes to the quiz were saved. 
-`🌎 United States, International, Spanish` - Specifies what markets are the default for this quiz.
-![manual_shopifyV2_allquizzes](/images/manual_shopifyV2_allquizzes.png)
+`Skincare Quiz (Morning & Night)` - Current quiz title.
+`Last saved: 11 Dec 2025, 11:41 AM` - When the quiz was last saved.
+`🌎 United States, International, Spain` - Lists the markets this quiz is the default for.
+![The quiz list with the market filter tabs](/images/manual_shopifyV2_allquizzes.png)
 `All quizzes` - Displays a list of all the quizzes created with this account.
 `Assigned market` - Displays a list of all the quizzes that are assigned to any market in your Shopify Markets.
 `No assigned market` - Displays a list of all the quizzes that are not assigned to any market in your Shopify Markets.
 `Create new quiz` - Opens the [New Quiz](#new-quiz) creation menu.
 `...` - Opens quiz actions menu.
-![manual_shopifyV2_quizmanagementoptions.png](/images/manual_shopifyV2_quizmanagementoptions.png)
+![The quiz actions menu behind the three dots](/images/manual_shopifyV2_quizmanagementoptions.png)
+Under `Quiz actions`:
 - `Preview` - Opens the Quiz Preview for testing.
 - `How to publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions that explain how to put the quiz on the website.
-- `Make default quiz` - Sets the quiz as default quiz and makes it the default quiz for the main shop market. 
-    !!! info "Make default quiz"	
-        After clicking the `Make default quiz` button, the following message will appear:
-        ![manual_shopifyV2_allquizzes_publish](/images/manual_shopifyV2_allquizzes_publish.png)
-        Clicking `Cancel` cancels the operation. Clicking `Set as default` will confirm the action.
-- `Analyze Quiz` - Opens the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. It asks the Copilot to *"Analyze my quiz and give me insights on how to improve it"*. Quiz Copilot will process the request and provide insights on how to improve the quiz.
+- `Make default quiz` - Sets the quiz as default quiz and makes it the default quiz for the main shop market.
+    !!! info "Make default quiz"
+        After clicking the `Make default quiz` button, the `Set as default quiz` dialog appears. It names the quiz that is about to be replaced.
+        ![The Set as default quiz confirmation dialog](/images/manual_shopifyV2_dashboard_setasdefaultquiz_dialog.png)
+        `Cancel` - Closes the dialog and leaves the current default quiz in place.
+        `Set as default` - Confirms the change.
+        !!! warning "This also changes the quiz in your Shop app channel"
+            If your store sells through the Shop app, the new default quiz replaces the current one there as well.
+- `Analyze quiz` - Opens the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. It asks the Copilot to *"Analyze my quiz and give me insights on how to improve it"*. Quiz Copilot will process the request and provide insights on how to improve the quiz.
+Under `Analytics`:
 - `Responses` - Opens the [Responses](/reference/quiz-builder/metrics/#responses) page, where you can view, download and troubleshoot the responses for that quiz.
 - `Analytics` - Opens the [Analytics](/reference/quiz-builder/metrics/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
+Under `Management`:
 - `Copy quiz ID: JZN98V` - Copies the current quiz ID to clipboard.
 - `Rename` - Lets you rename the current quiz.
 - `Duplicate` - Create a copy of this quiz on the dashboard.
 - `Remove` - Deletes the current quiz.
 !!! warning "Remove default quiz"
-    On the default quiz, the `Remove` option is disabled. This prevents you from removing the default quiz. 
+    On the default quiz, the `Remove` option is disabled. This prevents you from removing the default quiz.
     To delete it, first set another quiz as default with `...` > `Make default quiz`. The `Remove` option then becomes available.
 `Settings` - Opens the [Quiz settings](/reference/quiz-builder/quiz-settings/) menu.
 `Customize` - Opens the [Quiz builder](/reference/quiz-builder/questions/).
-![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
+![The notifications area of the dashboard](/images/manual_shopifyV2_notifications.png)
 `x` - Archives a notification.
 `Get support` - Opens the [Support](#support) menu.
 `Read more` - Opens the notification.
 *Theme extensions status* - Tells you whether the RevenueHunt theme extension is active, and where it is installed in your Shopify theme.
-![manual_shopifyv2_dashboard_notifications_themeextensionstatus.png](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
-`Edit` - Opens the Theme Extension Status page. 
-![manual_shopifyV2_tipstricks](/images/manual_shopifyV2_tipstricks.png)
+![The theme extensions status card](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
+`Edit` - Opens the Theme Extension Status page.
+![The tips and tricks panel](/images/manual_shopifyV2_tipstricks.png)
 `x` - Archives a notification.
 `Read more` - Opens the tip.
-![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
+![The success checklist](/images/manual_shopifyV2_successchecklist.png)
 The Success checklist guides you through the setup steps that improve quiz performance, lead generation and visibility.
 Click the `checkmark ⃝` to mark a task as complete. Click the `archive icon 🗂️` to ignore a check.
 !!! example "Success checklist steps"
@@ -17558,29 +17571,29 @@ Click the `checkmark ⃝` to mark a task as complete. Click the `archive icon �
     - `Tracking with Google Analytics` - Track quiz behavior for deeper insights.
     - `Tracking with Meta Pixel` - Add Meta tracking for ad optimization.
     - `Follow up email not being sent via SMTP` - Check whether the email is sent through SMTP, your own email server, or through the app. The `SMTP settings` are in the [App settings](/reference/app-settings/#smtp) section.
-![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png){width="300"}
+![The Create new quiz menu](/images/manual_shopifyV2_createquiz.png){width="300"}
 `Generate with AI` - Generate a quiz with [Quiz Copilot](/how-to-guides/use-quiz-copilot/). Opens a Copilot AI chat window.
-![manual_shopifyV2_dashboard_createquiz_copilotAI](/images/manual_shopifyV2_dashboard_createquiz_copilotAI.png){width="300"}
+![The Quiz Copilot prompt for generating a quiz](/images/manual_shopifyV2_dashboard_createquiz_copilotAI.png){width="300"}
 `From scratch` - Start with a blank quiz. A popup will show asking for the Quiz name.
-![manual_shopifyV2_createquiz_fromscratch](/images/manual_shopifyV2_createquiz_fromscratch.png){width="500"}
+![The quiz name prompt when starting from scratch](/images/manual_shopifyV2_createquiz_fromscratch.png){width="500"}
 Click `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new blank quiz.
-![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
+![The color scheme picker for a new quiz](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz builder](/reference/quiz-builder/questions/) of the new blank quiz.
 `From template`  - Start a new quiz by selecting a pre-made template and color scheme.
-![manual_shopifyV2_createquiz_templates](/images/manual_shopifyV2_createquiz_templates.png){width="300"}
+![The quiz template gallery](/images/manual_shopifyV2_createquiz_templates.png){width="300"}
 Click `Select` to confirm the template choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
-![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
+![The color scheme picker for a new quiz](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz builder](/reference/quiz-builder/questions/) of the new quiz.
 `Import quiz` - Import a quiz by pasting the quiz JSON in the popup.
-![manual_shopifyV2_createquiz_importquiz](/images/manual_shopifyV2_createquiz_importquiz.png){width="500"}
+![The Import quiz popup](/images/manual_shopifyV2_createquiz_importquiz.png){width="500"}
 Click `Cancel` to return to the Quizzes or `Import` to open the new quiz.
 !!! note "Import quiz instructions"
     For how to export and import a quiz in JSON format, see [how to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 `Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the Built for Shopify app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
-![manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png){width="500"}
+![The dialog listing quizzes from the legacy app](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png){width="500"}
 !!! tip "Migration guide"
     For full details on what migrates and what may need manual follow-up, check [how to migrate a legacy quiz to the Built for Shopify app](/how-to-guides/migrate-shopify-legacy-quiz/).
-![manual_shopifyV2_dashboard_support](/images/manual_shopifyV2_dashboard_support.png)
+![The Support menu](/images/manual_shopifyV2_dashboard_support.png)
 The `Get Support` section helps you find answers, resolve issues and contact the support team.
 !!! tip
     The fastest way to get help is the Quiz Copilot AI chatbot. It is available 24 hours a day and answers most questions about the app.
@@ -17588,13 +17601,13 @@ The `Get Support` section helps you find answers, resolve issues and contact the
 `Frequently Asked Questions` - Browse common issues and solutions.
 `Video Tutorials` - Watch walkthroughs and how-tos on using features.
 `Plans and Pricing` - Review available plans and their features or compare pricing tiers.
-`Latest releases and upcoming features` - Check the latest updates and upcoming features.   
+`Latest releases and upcoming features` - Check the latest updates and upcoming features.
 `App Status & Uptime` - Check if the app is currently operational or if there are any known outages.
 `Contact Support` - Submit a support request or send an email to the team.
-![manual_shopifyV2_sidemenu](/images/manual_shopifyV2_sidemenu.png)
+![The app side menu](/images/manual_shopifyV2_sidemenu.png)
 You can switch back to the legacy version of the RevenueHunt app at any time. RevenueHunt continues to maintain that version, so you keep a reliable option while you explore the Built for Shopify version.
 You can switch between the two versions whenever you want. Your progress is saved in both versions, so you can try the new interface without losing access to the legacy one.
-`Switch to legacy app` - Click this option to switch to the legacy version of our Shopify app.
+`Switch to legacy app` - Click to switch to the legacy version of the Shopify app.
 !!! warning "Switch to legacy app"
     If you need help during the switch, [contact customer support](/how-to-guides/contact-customer-support/).
 
@@ -17623,9 +17636,11 @@ Next: [Accessibility](/reference/accessibility/) →
 --- Shopify Specific Content ---
 
 Open `Feedback` from the app side menu.
-![manual_shopifyV2_feedback](/images/manual_shopifyV2_feedback.png)
-`What's this about?` - Choose the topic of your message.
-![manual_shopifyV2_feedback_topic](/images/manual_shopifyV2_feedback_topic.png)
+![The Feedback form](/images/manual_shopifyV2_feedback.png)
+`Ask Quiz Copilot` - Opens the Quiz Copilot chat. Use it first when something is broken and blocking you, because it answers most questions on the spot.
+`support team` - Opens a [support request](/how-to-guides/contact-customer-support/) for anything Quiz Copilot cannot answer.
+`What's this about?` - Choose the topic of your message. `Feature request` is selected by default.
+![The topic dropdown, open](/images/manual_shopifyV2_feedback_topic.png)
 - `Bug report` - Something in the app does not work the way it should.
 - `Feature request` - Something you want the app to do that it does not do yet.
 - `New app idea` - A product idea for RevenueHunt to build.
@@ -17634,7 +17649,7 @@ Open `Feedback` from the app side menu.
 `Your email` - The address the team replies to. The app fills in your account email, and you can change it.
 `Send feedback` - Click to send the message to the team.
 !!! tip "For a problem that blocks you now, use Quiz Copilot"
-    Feedback goes to the product team, not to the support queue, so an answer can take time. When something is broken and blocks you right now, use `Chat with Quiz Copilot` in the [Support](/reference/dashboard/#support) menu. It answers most questions on the spot. When it cannot, [contact customer support](/how-to-guides/contact-customer-support/).
+    Feedback goes to the product team, not to the support queue, so an answer can take time. When something is broken and blocks you right now, use the `Ask Quiz Copilot` link at the top of this page, or `Chat with Quiz Copilot` in the [Support](/reference/dashboard/#support) menu. When neither answers your question, [contact customer support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -17790,18 +17805,19 @@ This manual explains every screen, button and setting in the RevenueHunt app.
 
 ## [Dashboard](/reference/dashboard/)
 
-The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success Checklist, or create a new quiz.
+The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success checklist, or create a new quiz.
 
 ## [Quiz builder](/reference/quiz-builder/)
 
-The Quiz Builder is where you build a quiz.
+The Quiz builder holds every screen you use to build a quiz, from the first question to the results page.
 
 ### Build the quiz
 
 - **[Questions](/reference/quiz-builder/questions/)** - Add and edit the questions in your quiz
-- **[Link products and collections](/reference/quiz-builder/link-collections/)** - Link individual products, whole collections, or product tags to individual choices
+- **[Link Collections](/reference/quiz-builder/link-collections/)** - Link whole collections, categories or product tags to individual choices
+- **[Link Products](/reference/quiz-builder/link-products/)** - Link individual products to individual choices
 - **[Customer tags](/reference/quiz-builder/customer-tags/)** - Create the tags that a choice applies to a customer
-- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump Logic and Skip Logic
+- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump logic and Skip logic
 
 ### Design what the customer sees
 
@@ -17825,7 +17841,7 @@ See the details of every pricing plan, and upgrade or downgrade your account.
 
 ## [App settings](/reference/app-settings/)
 
-Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
+Adjust your contact details, set up Shopify Markets, sync your product catalog, change GDPR settings, or connect your SMTP server.
 
 ## [Resources](/reference/resources/)
 
@@ -17848,8 +17864,6 @@ The CSS classes and selectors you can target when you style a quiz with your own
 The name this documentation uses for every product term, and what each one means on your platform.
 
 ---
-
-← [Back to the App Manual](/reference/)
 
 Next: [Dashboard](/reference/dashboard/) →
 
@@ -17883,13 +17897,15 @@ Next: [App Settings](/reference/app-settings/) →
 
 --- Shopify Specific Content ---
 
-![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
-`Your current plan` - Displays the current plan you are on.
-`Manage ▼` - Click to open the menu to cancel your current plan.
-`Billing period` - Choose between `Monthly` or `Annual` billing.
-`Plan details` - Click to see every pricing plan, with its fee, response limit and cost per response.
-`Upgrade` - Click to upgrade to a paid plan.
-`Newsletter code` - Enter the newsletter code to redeem a discount or to get advanced features. Click `Redeem` to apply the code.
+![The Plans and pricing tab in App settings](/images/manual_shopifyv2_plans.png)
+`Your current plan` - The plan you are on, its response allowance, and how many responses your quizzes collected in the last 30 days.
+`Manage v` - Opens the menu for cancelling your current plan.
+`Billing period` - Choose `Monthly` or `Annual (save 20%)`.
+`Plan details` - Lists every plan with its `Monthly fee`, `Max. responses` and `Cost per response`. The plan you are on is marked `Current`.
+`Upgrade` - Moves you to that plan.
+`Newsletter code` - Enter a promotional code to redeem a discount or to switch on advanced features. Click `Redeem` to apply it.
+!!! info "30 day money back guarantee"
+    If a paid plan is not right for you, request a refund within the first 30 days of your subscription and RevenueHunt returns the payment.
 Shopify handles the payments. Change your billing details directly on your [Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments) page.
 
 
@@ -17914,7 +17930,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Link Products](/reference/quiz-builder/link-products/)
+← Previous: [Customer Tags](/reference/quiz-builder/customer-tags/)
 Next: [Quiz design](/reference/quiz-builder/quiz-design/) →
 
 ---
@@ -20772,11 +20788,11 @@ Next: [Feedback](/reference/feedback/) →
 --- Shopify Specific Content ---
 
 Open `Resources` from the app side menu.
-![manual_shopifyV2_resources](/images/manual_shopifyV2_resources.png)
+![The Resources page, with the tools, reports and recommended apps](/images/manual_shopifyV2_resources.png)
 **Tools & reports**
-`Quiz ROI calculator` - Estimates the extra monthly revenue a product quiz could add to your store. Enter your traffic, your conversion rate and your average order value. The calculator then shows the projected return, based on benchmark data. Click `Open calculator` to open it.
-`Shopify quizzes benchmark report` - Shows how product quizzes perform across millions of real quiz responses. The report covers which product categories convert highest, and how long a quiz keeps earning. Click `Read the report` to open it.
-`Quiz templates inspiration` - Opens a library of free quiz templates for skincare, beauty, supplements, pet food and other categories. Every template comes with its questions, conditional logic and recommendation rules already set up. Click `Browse templates` to open the library.
+`Quiz ROI calculator` - Estimates the extra monthly revenue a product quiz could add to your store. Enter your traffic, your conversion rate and your average order value. The calculator then shows the projected return, based on benchmark data. Click `Open calculator` to open the [quiz ROI calculator](https://revenuehunt.com/quiz-roi-calculator/).
+`Shopify quizzes benchmark report` - Shows how product quizzes perform across millions of real quiz responses. The report covers which product categories convert highest, and how long a quiz keeps earning. Click `Read the report` to open [The State of Product Recommendation Quizzes](https://revenuehunt.com/state-of-product-recommendation-quizzes/).
+`Quiz templates inspiration` - Opens a library of free quiz templates for skincare, beauty, supplements, pet food and other categories. Every template comes with its questions, conditional logic and recommendation rules already set up. Click `Browse templates` to open the [template library](https://revenuehunt.com/templates/).
 **Recommended apps**
 This section lists Shopify apps that pair well with a quiz, grouped by what they do. `Upsell & recommendations` is one such group. It holds apps that raise average order value with cart upsells, wishlists and pre-orders.
 Each card describes one app. Click `Install app` to open its listing in the Shopify App Store.
