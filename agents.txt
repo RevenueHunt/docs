@@ -1,0 +1,101 @@
+# RevenueHunt Documentation - agents.txt
+# Spec: https://agentstxt.dev/
+
+name: RevenueHunt Documentation
+description: Documentation for RevenueHunt product recommendation quiz builder. Agents can retrieve setup guides, integration instructions, and troubleshooting information for e-commerce quiz implementations.
+website: https://docs.revenuehunt.com
+main_product: https://revenuehunt.com
+
+# Content negotiation - single URL, multiple formats
+content_negotiation:
+  supported: true
+  formats:
+    - type: text/html
+      description: Human-readable HTML with navigation, styling, and interactive elements
+      default: true
+    - type: text/markdown
+      description: Raw markdown source for AI agents and programmatic access
+      header: "Accept: text/markdown"
+      query_param: "?format=md"
+  example: |
+    # Request markdown format:
+    curl -H "Accept: text/markdown" https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot
+    # Or use query parameter:
+    curl https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot?format=md
+
+# Discovery resources
+discovery:
+  sitemap: https://docs.revenuehunt.com/sitemap.xml
+  llms_txt: https://docs.revenuehunt.com/llms.txt
+  robots_txt: https://docs.revenuehunt.com/robots.txt
+
+# Supported e-commerce platforms
+platforms:
+  - name: Shopify
+    type: native_app
+    app_store: https://apps.shopify.com/product-recommendation-quiz-revenuehunt
+    install_guide: https://docs.revenuehunt.com/how-to-guides/install-app
+  - name: WooCommerce
+    type: wordpress_plugin
+    plugin_url: https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/
+    install_guide: https://docs.revenuehunt.com/how-to-guides/install-app
+  - name: BigCommerce
+    type: marketplace_app
+    install_guide: https://docs.revenuehunt.com/how-to-guides/install-app
+  - name: Magento
+    type: module
+    install_guide: https://docs.revenuehunt.com/how-to-guides/install-app
+  - name: Standalone
+    type: embed_code
+    install_guide: https://docs.revenuehunt.com/how-to-guides/install-app
+
+# Key resources for agents
+resources:
+  getting_started: https://docs.revenuehunt.com/
+  install_guide: https://docs.revenuehunt.com/how-to-guides/install-app
+  create_quiz: https://docs.revenuehunt.com/how-to-guides/create-first-quiz
+  recommend_products: https://docs.revenuehunt.com/how-to-guides/recommend-products
+  publish_quiz: https://docs.revenuehunt.com/how-to-guides/publish-quiz
+  integrations: https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm
+  pricing: https://docs.revenuehunt.com/reference/plans-pricing
+  support: https://docs.revenuehunt.com/how-to-guides/contact-customer-support
+  troubleshooting: https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results
+
+# CRM integrations documented
+integrations:
+  - name: HubSpot
+    doc: https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot
+    status: available
+    platforms: [WooCommerce, Magento, BigCommerce, Standalone, Shopify Legacy]
+  - name: Klaviyo
+    doc: https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo
+    status: available
+  - name: Mailchimp
+    doc: https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailchimp
+    status: available
+  - name: Google Analytics
+    doc: https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics
+    status: available
+  - name: Meta Pixel
+    doc: https://docs.revenuehunt.com/how-to-guides/integrate-meta-pixel
+    status: available
+  - name: Zapier
+    doc: https://docs.revenuehunt.com/how-to-guides/send-leads-to-zapier
+    status: available
+
+# Pricing information
+pricing:
+  currency: USD
+  billing_cycle: monthly
+  free_plan:
+    available: true
+    limit: 100 quiz responses/month
+    branding: "Powered by RevenueHunt"
+  paid_plans:
+    starting_price: 39
+    url: https://docs.revenuehunt.com/reference/plans-pricing
+
+# Contact
+contact:
+  support: https://docs.revenuehunt.com/how-to-guides/contact-customer-support
+  website: https://revenuehunt.com
