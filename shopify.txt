@@ -18273,6 +18273,7 @@ Use the Upvotes section to choose which collections to link to this choice:
 `Upvotes` - Lists everything linked to this choice: products, product variants, collections, tags, variants and vendors.
 ![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 `+ Add upvote type` - Click to choose what to upvote. The menu offers `Products`, `Product variants`, `Collections`, `Tags`, `Variants` and `Vendors`. A new section then opens, where you pick the items from your Shopify catalog. For individual products and variants, see [Link Products](/reference/quiz-builder/link-products/).
+`Variants` upvotes an option value, for example Color: Pink. Every variant in your catalog with that value gets the upvote, in all products. To upvote one exact variant of one product, use `Product variants` instead.
 ![The Add upvote type menu, with its six types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 ![Toggling collections on to link them to a choice](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
 Toggle the collections to be upvoted to add them to the upvoted list.
@@ -18328,6 +18329,12 @@ Use the Upvotes section to choose which products or variants to link to this cho
 ![The list of upvoted items for a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 `+ Add upvote type` - Click to choose what to upvote. For this page, pick `Products` or `Product variants`. A new section then opens, where you pick items from your Shopify catalog. The menu also offers `Collections`, `Tags`, `Variants` and `Vendors`, covered in [Link Collections](/reference/quiz-builder/link-collections/).
 ![The Add upvote type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+!!! tip "Products, Product variants or Variants?"
+    These three types look similar but upvote different things:
+    - `Products` upvotes a product and all of its variants.
+    - `Product variants` upvotes one variant of one product, for example the Large / Pink version of a dog bed.
+    - `Variants` upvotes an option value, for example Color: Pink. Every variant in your catalog with that value gets the upvote, in all products.
+    Use `Product variants` when a choice must point to one exact variant. Use `Variants` when one upvote must cover many products that share an option value.
 Toggle the products or variants to be upvoted to add them to the upvoted list.
 ![Toggling products on to link them to a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
 Upvoted products or variants are listed in the upvoted section.

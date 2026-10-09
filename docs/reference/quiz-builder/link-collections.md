@@ -26,6 +26,8 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     `+ Add upvote type` - Click to choose what to upvote. The menu offers `Products`, `Product variants`, `Collections`, `Tags`, `Variants` and `Vendors`. A new section then opens, where you pick the items from your Shopify catalog. For individual products and variants, see [Link Products](/reference/quiz-builder/link-products/).
 
+    `Variants` upvotes an option value, for example Color: Pink. Every variant in your catalog with that value gets the upvote, in all products. To upvote one exact variant of one product, use `Product variants` instead.
+
     ![The Add upvote type menu, with its six types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
     ![Toggling collections on to link them to a choice](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)

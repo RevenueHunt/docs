@@ -28,6 +28,16 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     ![The Add upvote type menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
+    !!! tip "Products, Product variants or Variants?"
+
+        These three types look similar but upvote different things:
+
+        - `Products` upvotes a product and all of its variants.
+        - `Product variants` upvotes one variant of one product, for example the Large / Pink version of a dog bed.
+        - `Variants` upvotes an option value, for example Color: Pink. Every variant in your catalog with that value gets the upvote, in all products.
+
+        Use `Product variants` when a choice must point to one exact variant. Use `Variants` when one upvote must cover many products that share an option value.
+
     Toggle the products or variants to be upvoted to add them to the upvoted list.
 
     ![Toggling products on to link them to a choice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
