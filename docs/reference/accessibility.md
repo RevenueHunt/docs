@@ -17,9 +17,10 @@ Customers can complete the whole quiz with only a keyboard:
 - **Tab / Shift+Tab** - Move between interactive elements
 - **Arrow keys** - Navigate between quiz choices
 - **Enter / Space** - Select choices and submit answers
+- **Escape** - Close a popup quiz. If a dropdown is open, Escape closes the dropdown first.
 - **Logical tab order** - Focus moves in a natural, predictable order
 
-Every question type is navigable with a keyboard, including dropdowns, sliders, date pickers and number inputs.
+Every question type is navigable with a keyboard, including dropdowns, sliders, date pickers, number inputs and file uploads. On the results page, the product buttons and the cart buttons also work with a keyboard.
 
 !!! tip "Avoiding focus issues"
 
@@ -34,6 +35,8 @@ Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NV
 - Validation errors are announced immediately when they occur
 - Selection states are communicated clearly
 - Progress is indicated, for example "Question 2 of 6"
+- Changes to the progress and to the cart count are announced
+- Each heading on the results page is read once
 
 ### Best practice: use text labels
 
@@ -45,7 +48,16 @@ Give every choice a meaningful text label, not only an image. If you use image c
 
 - **Visible focus indicators** - Clear outline on all interactive elements
 - **Logical focus order** - Matches the visual layout
-- **No keyboard traps** - The customer can always move focus away
+- **No keyboard traps** - The customer can always move focus away. In a popup quiz, the customer leaves by closing the popup.
+
+### Popup quizzes
+
+A popup quiz keeps the keyboard focus inside the popup while it is open:
+
+- When the popup opens, focus starts on the close button.
+- Tab and Shift+Tab move focus only between the elements inside the popup, never to the page behind it.
+- Escape closes the popup. If a dropdown is open, Escape closes the dropdown first.
+- When the popup closes, focus returns to the button or link that opened it.
 
 ## Form accessibility
 

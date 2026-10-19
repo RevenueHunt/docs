@@ -636,7 +636,7 @@ description: "Known bugs and limitations in RevenueHunt app with status and work
 
 # Known Bugs & Limitations
 
-We’re constantly improving the RevenueHunt app. Below you’ll find a list of known bugs (unresolved issues) and current limitations (expected behaviors by design).
+The RevenueHunt app is always improving. This page lists known bugs (unresolved issues) and current limitations (expected behavior by design).
 
 ## 🐞 Known bugs
 
@@ -644,20 +644,20 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 !!! info "Support"
 
-    We’ll continue to update this page as fixes roll out or limitations are lifted.
+    This page is updated as fixes roll out and limitations are lifted.
 
-    If you encounter an issue not listed here, please [contact our support team](/how-to-guides/contact-customer-support/).
+    If you find an issue that is not listed here, [contact customer support](/how-to-guides/contact-customer-support/).
 
 ---
 This article explains the known bugs and limitations of the RevenueHunt app.
 
 --- Shopify (Legacy) Specific Content ---
 
-These are the known bugs that we are aware of and are working to fix:
+These are the known bugs. The RevenueHunt team is working to fix them:
 - **GA4 Tracking**: GA4 tracking is not working properly.
     !!! note "Status"
         Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        If this happens, **contact Google Support**, because the issue is likely on their side.
 - **Thank You and Order Status Pages Script**: The script settings for these pages have been updated. Contact support to implement the latest version of the script on your Thank You and Order Status pages.
     !!! note "Status"
         Manual fix required. [Contact support](/how-to-guides/contact-customer-support/) to fix.
@@ -666,13 +666,13 @@ These are the known bugs that we are aware of and are working to fix:
         Under investigation.
 - **Klaviyo Data Appended**: Recommended product data gets added to Klaviyo profile as custom properties every time a quiz is taken, the data is not replaced every time.
     !!! note "Status"
-        Fixed in Built for Shopify version of the RevenueHunt app; not backported to v1.
+        Fixed in the Built for Shopify version of the RevenueHunt app. The fix was not added to the legacy app.
 These are not bugs but important to know:
 - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
 - **Email Delivery via AWS SES**: Emails are one-off transactional messages triggered by quiz submissions. The app does not support newsletters or recurring campaigns.
-- **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but doesn’t override merchant settings.
+- **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but does not override merchant settings.
 - **Single Language**: No native multi-language support. Merchants have to manually duplicate quizzes for different locales.
-- **No Market Assignment**: Can’t automatically assign quizzes to different markets or currencies. Merchants have to manually duplicate quizzes for different locales.
+- **No Market Assignment**: Quizzes cannot be assigned automatically to different markets or currencies. Merchants have to manually duplicate quizzes for different locales.
 - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
 - **Shop Minis Deprecation**: Shopify is sunsetting Shop Minis integrations, impacting merchants who used the app within Shop.
 
@@ -13952,6 +13952,12 @@ These expose cart sections, so the app refreshes the drawer and then opens it.
 
 A paid theme built on one of these also works, as long as it keeps the cart drawer its parent theme ships.
 
+### Other supported themes
+
+The app refreshes the drawer and the cart count in the header, then opens the drawer. The drawer's close button and the Escape key keep working.
+
+- Atlas - The theme that the Atlas store builder app installs. It is not in the Shopify Theme Store.
+
 To find your theme name, go to **Online Store > Themes** in Shopify Admin.
 
 !!! warning "Theme versions are not updated for you"
@@ -14987,9 +14993,10 @@ Customers can complete the whole quiz with only a keyboard:
 - **Tab / Shift+Tab** - Move between interactive elements
 - **Arrow keys** - Navigate between quiz choices
 - **Enter / Space** - Select choices and submit answers
+- **Escape** - Close a popup quiz. If a dropdown is open, Escape closes the dropdown first.
 - **Logical tab order** - Focus moves in a natural, predictable order
 
-Every question type is navigable with a keyboard, including dropdowns, sliders, date pickers and number inputs.
+Every question type is navigable with a keyboard, including dropdowns, sliders, date pickers, number inputs and file uploads. On the results page, the product buttons and the cart buttons also work with a keyboard.
 
 !!! tip "Avoiding focus issues"
 
@@ -15004,6 +15011,8 @@ Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NV
 - Validation errors are announced immediately when they occur
 - Selection states are communicated clearly
 - Progress is indicated, for example "Question 2 of 6"
+- Changes to the progress and to the cart count are announced
+- Each heading on the results page is read once
 
 ### Best practice: use text labels
 
@@ -15015,7 +15024,16 @@ Give every choice a meaningful text label, not only an image. If you use image c
 
 - **Visible focus indicators** - Clear outline on all interactive elements
 - **Logical focus order** - Matches the visual layout
-- **No keyboard traps** - The customer can always move focus away
+- **No keyboard traps** - The customer can always move focus away. In a popup quiz, the customer leaves by closing the popup.
+
+### Popup quizzes
+
+A popup quiz keeps the keyboard focus inside the popup while it is open:
+
+- When the popup opens, focus starts on the close button.
+- Tab and Shift+Tab move focus only between the elements inside the popup, never to the page behind it.
+- Escape closes the popup. If a dropdown is open, Escape closes the dropdown first.
+- When the popup closes, focus returns to the button or link that opened it.
 
 ## Form accessibility
 

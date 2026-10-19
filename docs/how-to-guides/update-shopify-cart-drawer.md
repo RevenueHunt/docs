@@ -80,6 +80,12 @@ These expose cart sections, so the app refreshes the drawer and then opens it.
 
 A paid theme built on one of these also works, as long as it keeps the cart drawer its parent theme ships.
 
+### Other supported themes
+
+The app refreshes the drawer and the cart count in the header, then opens the drawer. The drawer's close button and the Escape key keep working.
+
+- Atlas - The theme that the Atlas store builder app installs. It is not in the Shopify Theme Store.
+
 To find your theme name, go to **Online Store > Themes** in Shopify Admin.
 
 !!! warning "Theme versions are not updated for you"

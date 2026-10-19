@@ -636,7 +636,7 @@ description: "Known bugs and limitations in RevenueHunt app with status and work
 
 # Known Bugs & Limitations
 
-We’re constantly improving the RevenueHunt app. Below you’ll find a list of known bugs (unresolved issues) and current limitations (expected behaviors by design).
+The RevenueHunt app is always improving. This page lists known bugs (unresolved issues) and current limitations (expected behavior by design).
 
 ## 🐞 Known bugs
 
@@ -644,46 +644,43 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 !!! info "Support"
 
-    We’ll continue to update this page as fixes roll out or limitations are lifted.
+    This page is updated as fixes roll out and limitations are lifted.
 
-    If you encounter an issue not listed here, please [contact our support team](/how-to-guides/contact-customer-support/).
+    If you find an issue that is not listed here, [contact customer support](/how-to-guides/contact-customer-support/).
 
 ---
 This article explains the known bugs and limitations of the RevenueHunt app.
 
 --- Shopify Specific Content ---
 
-These are the known bugs that we are aware of and are working to fix:
-- **Omnisend email template**: The generated email template is not working as expected.
-    !!! note "Status"
-        Under investigation.
+These are the known bugs. The RevenueHunt team is working to fix them:
 - **Words/characters index changing while writing (scrambled text)**: Sometimes, while writing on the text inputs of the quiz builder (header, title, text block…) the words or individual characters can “lose” the index continuity and get scrambled.
     !!! note "Status"
         Under investigation.
 - **GA4 Tracking**: GA4 tracking is not working properly.
     !!! note "Status"
         Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
-        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+        If this happens, **contact Google Support**, because the issue is likely on their side.
 - **iPad 10th gen not scrolling properly**: Scrolling is not acting correctly on iPad10th gen (safari) navigation.
     !!! note "Status"
         Under investigation.
 - **Product Quantity Display Issue**: When a product is removed from the cart drawer, the product quantity displayed on the quiz results page is not updated accordingly.
     !!! note "Status"
         Under investigation.
-- **User Name Display Issue in Email**: Instead of showing the name of the person who completed the quiz, it’s displaying the question reference like: "Hey Q2: BEFORE WE BEGIN___".
+- **User Name Display Issue in Email**: Instead of showing the name of the person who completed the quiz, the email shows the question reference, for example `Hey Q2: BEFORE WE BEGIN___`.
     !!! note "Status"
         Under investigation.
 - **Quiz Completion Behavior**: Closing a popup quiz before finishing can cause the website background to turn white, requiring a manual refresh.
     !!! note "Status"
         Likely theme/cart conflict. Under investigation.
-- **Error on Results page**: In some cases, users encounter an error when responses are saved and they’re redirected to the results page.
+- **Error on Results page**: In some cases, customers see an error when their responses are saved and they are redirected to the results page.
     !!! note "Status"
         Intermittent, under investigation.
 These are not bugs but important to know:
 - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
 - **Shopify Markets Integration**: Quizzes can be assigned to different markets, but merchants must configure them manually. Automatic detection per market is not yet supported.
 - **Email Delivery via AWS SES**: Emails are one-off transactional messages triggered by quiz submissions. The app does not support newsletters or recurring campaigns.
-- **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but doesn’t override merchant settings.
+- **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but does not override merchant settings.
 
 
 
@@ -12577,6 +12574,7 @@ Property names use the quiz **Short ID** (`[SQID]`) and the internal **reference
     `title`, `handle`, `id`, `price`, `url`, `image`, `vendor` and `currency`. `[TYPE]` is `product`, `variant` or `collection`, and `[INDEX]` starts at `0`.
 !!! info "Identifiers and consent"
     The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
+    The app asks Omnisend not to send its welcome message when it adds or updates the email address or the phone number. This does not stop an automation you built in Omnisend. Check your welcome automations to decide which ones quiz contacts trigger.
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=zJTtTF4AcwpfJ18y&amp;start=135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 You can set up a post-quiz email campaign in Omnisend. It sends the product recommendations, or any other offer, to everyone who finished the quiz.
 The instructions below cover building the segment, setting up an automation workflow, and putting the quiz results into the email.
@@ -12607,8 +12605,8 @@ The instructions below cover building the segment, setting up an automation work
     - Copy the generated code and paste it into the HTML block of your email template in Omnisend.
         ![Generating the Omnisend email template in the app](/images/how_to_shopifyv2_omnisend_template_copy.png)
     - The code builds a ready-made email holding the quiz results and the recommended products. Edit it as you like.
-    !!! warning "Omnisend email template"
-        Some merchants have reported that the generated email template does not work as expected. If this happens, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+    !!! info "Older generated templates"
+        The generated template uses Omnisend personalization tags for the quiz answers and the recommended products. An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
 6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
 7. **Save and start the workflow**: save your changes, then start the workflow.
 Use the `custom properties` the quiz sends to Omnisend to personalize your email templates.
@@ -12638,9 +12636,9 @@ In the [Integrations](/reference/quiz-builder/connect-integrations/) section, un
 ![The Omnisend template button in the Integrations section](/images/how_to_shopifyv2_omnisend_template.png)
 Click on the button to receive and copy an HTML email template specifically tailored for the quiz.
 ![Copying the generated Omnisend template](/images/how_to_shopifyv2_omnisend_template_copy.png)
-You can use this template as a reference to create your own.
-!!! warning "Omnisend email template"
-    Some merchants have reported that the generated email template does not work as expected. If this happens, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+The template uses Omnisend personalization tags for the quiz answers and the recommended products, in a layout built for email. You can use it as is, or as a reference to create your own.
+!!! info "Older generated templates"
+    An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
 
 
 
@@ -15604,6 +15602,12 @@ These expose cart sections, so the app refreshes the drawer and then opens it.
 
 A paid theme built on one of these also works, as long as it keeps the cart drawer its parent theme ships.
 
+### Other supported themes
+
+The app refreshes the drawer and the cart count in the header, then opens the drawer. The drawer's close button and the Escape key keep working.
+
+- Atlas - The theme that the Atlas store builder app installs. It is not in the Shopify Theme Store.
+
 To find your theme name, go to **Online Store > Themes** in Shopify Admin.
 
 !!! warning "Theme versions are not updated for you"
@@ -16690,9 +16694,10 @@ Customers can complete the whole quiz with only a keyboard:
 - **Tab / Shift+Tab** - Move between interactive elements
 - **Arrow keys** - Navigate between quiz choices
 - **Enter / Space** - Select choices and submit answers
+- **Escape** - Close a popup quiz. If a dropdown is open, Escape closes the dropdown first.
 - **Logical tab order** - Focus moves in a natural, predictable order
 
-Every question type is navigable with a keyboard, including dropdowns, sliders, date pickers and number inputs.
+Every question type is navigable with a keyboard, including dropdowns, sliders, date pickers, number inputs and file uploads. On the results page, the product buttons and the cart buttons also work with a keyboard.
 
 !!! tip "Avoiding focus issues"
 
@@ -16707,6 +16712,8 @@ Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NV
 - Validation errors are announced immediately when they occur
 - Selection states are communicated clearly
 - Progress is indicated, for example "Question 2 of 6"
+- Changes to the progress and to the cart count are announced
+- Each heading on the results page is read once
 
 ### Best practice: use text labels
 
@@ -16718,7 +16725,16 @@ Give every choice a meaningful text label, not only an image. If you use image c
 
 - **Visible focus indicators** - Clear outline on all interactive elements
 - **Logical focus order** - Matches the visual layout
-- **No keyboard traps** - The customer can always move focus away
+- **No keyboard traps** - The customer can always move focus away. In a popup quiz, the customer leaves by closing the popup.
+
+### Popup quizzes
+
+A popup quiz keeps the keyboard focus inside the popup while it is open:
+
+- When the popup opens, focus starts on the close button.
+- Tab and Shift+Tab move focus only between the elements inside the popup, never to the page behind it.
+- Escape closes the popup. If a dropdown is open, Escape closes the dropdown first.
+- When the popup closes, focus returns to the button or link that opened it.
 
 ## Form accessibility
 

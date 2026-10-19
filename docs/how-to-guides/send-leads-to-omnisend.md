@@ -307,6 +307,8 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     !!! info "Identifiers and consent"
         The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
 
+        The app asks Omnisend not to send its welcome message when it adds or updates the email address or the phone number. This does not stop an automation you built in Omnisend. Check your welcome automations to decide which ones quiz contacts trigger.
+
 === "Shopify (Legacy)"
 
     Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
@@ -528,8 +530,8 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
             ![Generating the Omnisend email template in the app](/images/how_to_shopifyv2_omnisend_template_copy.png)
         - The code builds a ready-made email holding the quiz results and the recommended products. Edit it as you like.
 
-        !!! warning "Omnisend email template"
-            Some merchants have reported that the generated email template does not work as expected. If this happens, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+        !!! info "Older generated templates"
+            The generated template uses Omnisend personalization tags for the quiz answers and the recommended products. An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
 
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
@@ -1069,10 +1071,10 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     ![Copying the generated Omnisend template](/images/how_to_shopifyv2_omnisend_template_copy.png)
 
-    You can use this template as a reference to create your own.
+    The template uses Omnisend personalization tags for the quiz answers and the recommended products, in a layout built for email. You can use it as is, or as a reference to create your own.
 
-    !!! warning "Omnisend email template"
-        Some merchants have reported that the generated email template does not work as expected. If this happens, [contact the RevenueHunt support team](/how-to-guides/contact-customer-support/).
+    !!! info "Older generated templates"
+        An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
 
 
 === "Shopify (Legacy)"
