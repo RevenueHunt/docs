@@ -302,7 +302,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `quiz_[SQID]_slot_[SLOT_REF]_[TYPE]_[INDEX]_[FIELD]` | The details of each recommended item, one property per field. |
 
     !!! info "Item `[FIELD]` values"
-        `title`, `handle`, `id`, `price`, `url`, `image`, `vendor` and `currency`. `[TYPE]` is `product`, `variant` or `collection`, and `[INDEX]` starts at `0`.
+        `title`, `handle`, `id`, `price`, `url`, `image`, `vendor` and `currency`. `[TYPE]` is `products`, `products_variants` or `collections`. `[INDEX]` starts at `0`.
 
     !!! info "Identifiers and consent"
         The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [how to ask for marketing consent](/how-to-guides/ask-for-marketing-consent/).
@@ -514,24 +514,26 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the email template**: putting the quiz results and product recommendations into an email takes HTML, CSS and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/). Start from one of Omnisend's templates, add the quiz data as custom properties, and restyle it to match your brand.
+    4. **Customize the email template**: putting the quiz results and product recommendations into an email takes HTML, CSS and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend). Start from one of Omnisend's templates, add the quiz data as custom properties, and restyle it to match your brand.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. **Include the quiz results**: add an `HTML` element to the email builder.
+    5. **Include the quiz results**: add a **Custom HTML** item to the Omnisend email builder.
 
         - In the quiz builder, go to `Quiz settings > Integrations` and generate an Omnisend email template.
 
             ![Generating the Omnisend email template in the app](/images/how_to_shopifyv2_omnisend_template.png){width="500"}
-        - Copy the generated code and paste it into the HTML block of your email template in Omnisend.
+        - Copy the generated code and paste it into the **Custom HTML** item of your email template in Omnisend.
 
             ![Generating the Omnisend email template in the app](/images/how_to_shopifyv2_omnisend_template_copy.png)
         - The code builds a ready-made email holding the quiz results and the recommended products. Edit it as you like.
 
         !!! info "Older generated templates"
-            The generated template uses Omnisend personalization tags for the quiz answers and the recommended products. An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
+            Paste the generated template into a **Custom HTML** item in the Omnisend email builder. The template uses Omnisend personalization tags such as `[[ contact.custom_properties.quiz_QUIZID_quiz_name | default: '' ]]`. Preview it with a contact who completed the quiz. Test emails show the raw tags.
+
+            An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
 
     6. **Preview and test the email**: preview it as one of the segment subscribers. Then finish any remaining steps in the workflow.
     7. **Save and start the workflow**: save your changes, then start the workflow.
@@ -571,7 +573,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
@@ -616,7 +618,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
@@ -662,7 +664,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
@@ -707,7 +709,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
@@ -753,7 +755,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
+    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
         - Set the email subject, for example `Your Quiz Results`, and add a subheading.
@@ -963,16 +965,16 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
 === "Shopify"
 
-    Use `quiz_QUIZID_response_id` to build a link to the quiz results page. Add `#response-{{ contact.custom.quiz_QUIZID_response_id }}` to the end of the `href` on any link to that page.
+    Use `quiz_QUIZID_response_id` to build a link to the quiz results page. Add `#response-[[ contact.custom_properties.quiz_QUIZID_response_id ]]` to the end of the `href` on any link to that page.
 
 
     !!! example
 
-        `<a href="https://yourwebsite.com/#response-{{ contact.custom.quiz_lBJ9bk_response_id }}">View your quiz results</a>`
+        `<a href="https://yourwebsite.com/#response-[[ contact.custom_properties.quiz_lBJ9bk_response_id ]]">View your quiz results</a>`
 
         where `lBJ9bk` is the quiz ID and
 
-        - `{{ contact.custom.quiz_lBJ9bk_response_id }}` fetches the response ID, for example `eVgV0Y`.
+        - `[[ contact.custom_properties.quiz_lBJ9bk_response_id ]]` fetches the response ID, for example `eVgV0Y`.
 
 
 === "Shopify (Legacy)"
@@ -981,7 +983,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     !!! example
 
-        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+        `<a href="[[ contact.custom_properties.permalink_koHP8VA ]]">View your quiz results</a>`
 
 
 === "WooCommerce"
@@ -990,7 +992,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     !!! example
 
-        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+        `<a href="[[ contact.custom_properties.permalink_koHP8VA ]]">View your quiz results</a>`
 
 === "Magento"
 
@@ -998,7 +1000,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     !!! example
 
-        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+        `<a href="[[ contact.custom_properties.permalink_koHP8VA ]]">View your quiz results</a>`
 
 === "BigCommerce"
 
@@ -1006,7 +1008,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     !!! example
 
-        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+        `<a href="[[ contact.custom_properties.permalink_koHP8VA ]]">View your quiz results</a>`
 
 === "Standalone"
 
@@ -1014,7 +1016,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     !!! example
 
-        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+        `<a href="[[ contact.custom_properties.permalink_koHP8VA ]]">View your quiz results</a>`
 
 
 
@@ -1074,6 +1076,8 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
     The template uses Omnisend personalization tags for the quiz answers and the recommended products, in a layout built for email. You can use it as is, or as a reference to create your own.
 
     !!! info "Older generated templates"
+        Paste the generated template into a **Custom HTML** item in the Omnisend email builder. The template uses Omnisend personalization tags such as `[[ contact.custom_properties.quiz_QUIZID_quiz_name | default: '' ]]`. Preview it with a contact who completed the quiz. Test emails show the raw tags.
+
         An older template can show raw placeholder text or wrong product links. If this happens, generate the template again and replace the old code.
 
 

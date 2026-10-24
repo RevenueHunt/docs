@@ -11610,7 +11610,7 @@ The instructions below cover building the segment, setting up an automation work
     - Explore existing workflows or create a new workflow from scratch.
     - Set a trigger for the workflow: select `When someone enters the segment` and choose the segment you created, for example `Skincare Quiz Basic Segment`.
     - Save the changes to initiate the workflow when users enter the segment.
-4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/stable/ref/templates/builtins/) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
+4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Omnisend personalization tags](https://support.omnisend.com/en/articles/1061845-use-personalization-in-omnisend) knowledge. Use Omnisend's existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand's style guide.
     - Drag and drop an email action below the trigger in the workflow.
     - Set the email subject, for example `Your Quiz Results`, and add a subheading.
     - Edit the email content as needed, then save changes to access the email editor.
@@ -11635,7 +11635,7 @@ Pull a customer answer into an email template with the `custom properties` the q
 9. **Save the email template.**
 Use the `permalink_koHP8VA` in your email template. This property already holds the full URL of the quiz results page.
 !!! example
-    `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+    `<a href="[[ contact.custom_properties.permalink_koHP8VA ]]">View your quiz results</a>`
 A contact profile is updated on every quiz take, with the new answers and product recommendations. Omnisend does not clear the tags from earlier sessions, so its own `tags` field mixes old and new.
 The `tags_[ID]` property holds the customer tags as a comma-separated string, so build your segments on that one.
 Here are some email templates that you can use as a reference:
