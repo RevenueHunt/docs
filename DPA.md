@@ -174,7 +174,7 @@ collectively referred to as the "Parties" and each a "Party".
 
 **10.2 Audit Methods.** The Customer's audit rights may be satisfied through:
 - (a) RevenueHunt's completion of a security questionnaire or similar documentation upon reasonable request;
-- (b) Review of RevenueHunt's certifications and third-party audit reports (such as SOC 2, penetration testing reports, or similar);
+- (b) Review of any third-party audit or penetration testing reports RevenueHunt holds at the time of the request. RevenueHunt does not currently hold SOC 2 or ISO 27001 certification;
 - (c) An on-site audit, subject to the conditions in Section 10.3.
 
 **10.3 On-Site Audits.** On-site audits shall be subject to the following conditions:
@@ -190,7 +190,7 @@ collectively referred to as the "Parties" and each a "Party".
 |---------|-----|
 | **Security Questionnaire Completion** | Charged at professional services rates (minimum $1,200) |
 | **Custom Security Documentation** | Charged at professional services rates based on scope |
-| **Third-Party Audit Report Access** | Available upon request; administrative fee may apply |
+| **Third-Party Audit Report Access** | Where such a report exists, available upon request; administrative fee may apply |
 | **On-Site Audit Coordination** | Charged at professional services rates plus travel and accommodation expenses |
 | **Expedited Requests** | Requests requiring response within 5 business days incur a 50% expedite fee |
 
