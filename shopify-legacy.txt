@@ -10490,6 +10490,30 @@ This version of the app cannot overwrite your quiz with an earlier version. The 
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/reward-quiz-completions-with-growave/
+================================================================================
+
+---
+description: "Give customers Growave loyalty points when they complete your RevenueHunt quiz, using Shopify Flow and a customer metafield."
+icon: material/gift-outline
+---
+
+# How to Reward Quiz Completions with Growave
+
+---
+This article explains how to give customers Growave loyalty points when they complete your quiz.
+
+--- Shopify (Legacy) Specific Content ---
+
+!!! note "This version has no Quiz Completed trigger"
+    The Growave setup uses the **Quiz Completed** trigger, which only the `💎Built for Shopify` version of the RevenueHunt app sends.
+    In the legacy app, a Flow workflow can start on Shopify's `Customer created` trigger and check customer tags instead. See the **Shopify (Legacy)** tab of [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
+    To use the setup on this page, see [Migrate a Legacy Quiz to Built for Shopify](/how-to-guides/migrate-shopify-legacy-quiz/).
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/how-to-guides/send-klaviyo-post-quiz-email-flows/
 ================================================================================
 

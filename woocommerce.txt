@@ -10277,6 +10277,28 @@ This version of the app cannot overwrite your quiz with an earlier version. The 
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/reward-quiz-completions-with-growave/
+================================================================================
+
+---
+description: "Give customers Growave loyalty points when they complete your RevenueHunt quiz, using Shopify Flow and a customer metafield."
+icon: material/gift-outline
+---
+
+# How to Reward Quiz Completions with Growave
+
+---
+This article explains how to give customers Growave loyalty points when they complete your quiz.
+
+--- WooCommerce Specific Content ---
+
+!!! note "This integration needs Shopify Flow"
+    This integration is not available in this version.
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/how-to-guides/send-klaviyo-post-quiz-email-flows/
 ================================================================================
 

@@ -175,6 +175,8 @@ nav:
         - Use Customer Tags: how-to-guides/use-customer-tags.md
         - Use Custom Fields as Tags (BigCommerce): how-to-guides/use-custom-fields-as-tags.md
         - Show Quiz Answers in Shopify Orders: how-to-guides/show-quiz-answers-in-orders.md
+      - Loyalty & Rewards:
+        - Reward Quiz Completions with Growave: how-to-guides/reward-quiz-completions-with-growave.md
       - Download Quiz Responses: how-to-guides/download-quiz-responses.md
       - Delete Personal Data: how-to-guides/delete-personal-data.md
     - Troubleshooting & Maintenance:
