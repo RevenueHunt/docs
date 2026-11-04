@@ -1,10 +1,12 @@
 ---
-description: "RevenueHunt quizzes follow WCAG 2.1 Level AAA accessibility guidelines for keyboard navigation and inclusive design."
+description: "RevenueHunt quizzes are built to meet WCAG 2.2 Level AA, covering keyboard navigation, screen readers, focus, contrast and touch targets."
 ---
 
 # Accessibility
 
-RevenueHunt quizzes follow **WCAG 2.1 Level AAA** guidelines.
+RevenueHunt quizzes are built to meet **WCAG 2.2 Level AA**. Content that conforms to WCAG 2.2 also conforms to WCAG 2.1.
+
+This page covers the 💎 Built for Shopify app, where all accessibility work happens. The legacy RevenueHunt app does not receive accessibility updates. To move a quiz across, see [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 !!! info "Shared responsibility"
 
@@ -70,17 +72,19 @@ A popup quiz keeps the keyboard focus inside the popup while it is open:
 
 ### Color contrast
 
-All eight built-in color schemes meet contrast requirements:
+WCAG 2.2 Level AA sets these minimum contrast ratios:
 
 | Element | Minimum contrast |
 |---------|-----------------|
-| Body text | 4.5:1 |
-| Headings | 4.5:1 |
-| Buttons | 3:1 |
+| Text, including button text, answers and placeholders | 4.5:1 |
+| Large text (18pt, or 14pt bold) | 3:1 |
+| Focus outline, checkboxes and other control borders | 3:1 |
+
+The keyboard focus outline uses the `Choice selected background` color, under `Choices` in Quiz Design. Pick a color with at least 3:1 contrast against your quiz background so the outline stays visible.
 
 !!! warning "Custom colors"
 
-    If you customize quiz colors, use a [contrast checker](https://webaim.org/resources/contrastchecker/) to confirm that text meets the 4.5:1 ratio.
+    If you customize quiz colors, use a [contrast checker](https://webaim.org/resources/contrastchecker/) to confirm that each text color meets 4.5:1 against the color behind it.
 
 [:fontawesome-solid-arrow-right: Quiz Design](/reference/quiz-builder/quiz-design/)
 
@@ -94,12 +98,12 @@ Quiz text scales with browser zoom and system font preferences:
 
 ### Touch targets
 
-Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
+Interactive elements are larger than the 24px minimum in WCAG 2.2 Level AA:
 
-| Element | Minimum size |
+| Element | Minimum height |
 |---------|-------------|
-| Choice options | 44px (meets Level AAA) |
-| Buttons & inputs | 48px (exceeds Level AAA) |
+| Choice options | 44px |
+| Buttons | 48px |
 
 Spacing between targets is wide enough to prevent accidental taps.
 
@@ -117,7 +121,7 @@ Quizzes automatically adjust layout for RTL languages including Arabic, Hebrew, 
 
 ### Multiple languages
 
-Quizzes support 11+ languages with proper text direction.
+A quiz can be shown in each language your store publishes, with the right text direction for each.
 
 [:fontawesome-solid-arrow-right: Change Quiz Language](/how-to-guides/change-quiz-language/)
 
@@ -145,11 +149,10 @@ Test your quiz in five ways:
 
 ## Standards
 
-The RevenueHunt quiz renderer follows:
+The RevenueHunt quiz is built to meet **WCAG 2.2 Level AA**, the Web Content Accessibility Guidelines. Content that conforms to WCAG 2.2 also conforms to WCAG 2.1. Two US requirements point to WCAG:
 
-- **WCAG 2.1 Level AAA** - Web Content Accessibility Guidelines
-- **Section 508** - US federal accessibility requirements
-- **ADA** - Americans with Disabilities Act guidelines
+- **Section 508** - US federal accessibility requirements, which require WCAG 2.0 Level A and Level AA
+- **ADA** - The US Department of Justice names WCAG as helpful guidance for making websites accessible under the Americans with Disabilities Act
 
 ## Need help?
 
