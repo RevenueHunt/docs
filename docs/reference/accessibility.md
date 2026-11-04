@@ -4,9 +4,9 @@ description: "RevenueHunt quizzes are built to meet WCAG 2.2 Level AA, covering 
 
 # Accessibility
 
-RevenueHunt quizzes are built to meet **WCAG 2.2 Level AA**. Content that conforms to WCAG 2.2 also conforms to WCAG 2.1.
+The quiz in the `💎Built for Shopify` version of the RevenueHunt app is built to meet **WCAG 2.2 Level AA**. Content that conforms to WCAG 2.2 also conforms to WCAG 2.1. The [Accessibility Conformance Report](/reference/accessibility-conformance-report/) rates each criterion, including the ones the quiz only partially supports.
 
-This page covers the 💎 Built for Shopify app, where all accessibility work happens. The legacy RevenueHunt app does not receive accessibility updates. To move a quiz across, see [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
+This page covers the `💎Built for Shopify` version of the RevenueHunt app, where all accessibility work happens. The legacy app does not receive accessibility updates. To move a quiz across, see [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 !!! info "Shared responsibility"
 
@@ -17,7 +17,7 @@ This page covers the 💎 Built for Shopify app, where all accessibility work ha
 Customers can complete the whole quiz with only a keyboard:
 
 - **Tab / Shift+Tab** - Move between interactive elements
-- **Arrow keys** - Navigate between quiz choices
+- **Arrow keys** - Navigate between quiz choices. In a dropdown, arrow keys move between options. In a single-select dropdown on Windows, an arrow key also chooses the option and moves to the next question.
 - **Enter / Space** - Select choices and submit answers
 - **Escape** - Close a popup quiz. If a dropdown is open, Escape closes the dropdown first.
 - **Logical tab order** - Focus moves in a natural, predictable order
@@ -30,10 +30,10 @@ Every question type is navigable with a keyboard, including dropdowns, sliders, 
 
 ## Screen reader support
 
-Quizzes work with common screen readers, including VoiceOver (macOS and iOS), NVDA (Windows) and TalkBack (Android):
+Quizzes give screen readers, such as VoiceOver, NVDA and TalkBack, what they need to read the quiz:
 
 - All interactive elements have descriptive labels
-- Dynamic content changes, such as errors and selections, are announced automatically
+- Errors, progress and cart changes are announced automatically
 - Validation errors are announced immediately when they occur
 - Selection states are communicated clearly
 - Progress is indicated, for example "Question 2 of 6"
@@ -64,15 +64,15 @@ A popup quiz keeps the keyboard focus inside the popup while it is open:
 ## Form accessibility
 
 - All form fields have associated labels
-- Validation errors are linked to their inputs
-- Required fields are indicated to assistive technology
+- Field errors are linked to their field
+- Required text, email, number, phone and date fields are indicated to assistive technology
 - Standard inputs support browser autofill
 
 ## Visual accessibility
 
 ### Color contrast
 
-WCAG 2.2 Level AA sets these minimum contrast ratios:
+All eight built-in color schemes meet the WCAG 2.2 Level AA minimum contrast ratios:
 
 | Element | Minimum contrast |
 |---------|-----------------|
@@ -86,24 +86,25 @@ The keyboard focus outline uses the `Choice selected background` color, under `C
 
     If you customize quiz colors, use a [contrast checker](https://webaim.org/resources/contrastchecker/) to confirm that each text color meets 4.5:1 against the color behind it.
 
+    A quiz keeps the colors it was saved with. Check any quiz created before November 2026 and any quiz migrated from the legacy app.
+
 [:fontawesome-solid-arrow-right: Quiz Design](/reference/quiz-builder/quiz-design/)
 
 ### Text scaling
 
-Quiz text scales with browser zoom and system font preferences:
+Quiz text scales with browser zoom:
 
 - Works at 200% browser zoom
-- Respects system font size preferences
-- Uses relative units for proper scaling
+- Fits a screen 320 pixels wide without scrolling sideways
 
 ### Touch targets
 
-Interactive elements are larger than the 24px minimum in WCAG 2.2 Level AA:
+Every interactive element meets the 24 by 24 pixel minimum in WCAG 2.2 Level AA, or has an equivalent control that does:
 
 | Element | Minimum height |
 |---------|-------------|
 | Choice options | 44px |
-| Buttons | 48px |
+| Most buttons | 48px |
 
 Spacing between targets is wide enough to prevent accidental taps.
 
@@ -131,11 +132,16 @@ Customize the text a screen reader reads out in [`Quiz settings > Quiz content`]
 
 | Setting | Purpose |
 |---------|---------|
-| `Quiz complete` | Read out on the quiz complete slide |
 | `Previous question` | Label for the back button |
 | `No previous question` | Read out when there is no earlier question to go back to |
 | `Next question` | Label for the forward button |
 | `Answer before proceeding` | Read out when an answer is required |
+| `Quiz navigation buttons` | Name of the navigation bar |
+| `Results bottom bar` | Name of the bar at the bottom of the results page |
+| `Quiz progress` | Name of the progress bar |
+| `Question choices` | Name of an answer list when its question has no heading |
+| `Remove {{label}}` | Label for the button that removes a selected option from a dropdown |
+| `Remove one {{label}}` | Label for the button that removes one product from the cart |
 
 ## Testing your quiz
 
@@ -160,13 +166,13 @@ If you find an accessibility problem, report it to customer support.
 
 [:fontawesome-solid-arrow-right: Contact support](/how-to-guides/contact-customer-support/)
 
-!!! info "VPAT documentation"
+!!! tip "VPAT® and Accessibility Conformance Report"
 
-    RevenueHunt does not provide a formal VPAT document. To review a specific accessibility concern with your live quiz, [contact customer support](/how-to-guides/contact-customer-support/).
+    For a VPAT®, see the [Accessibility Conformance Report](/reference/accessibility-conformance-report/). It follows VPAT® 2.5Rev, WCAG edition, and rates the quiz against every WCAG 2.2 Level A and AA criterion.
 
 ---
 
 ← [Back to the App Manual](/reference/)
 
 ← Previous: [Feedback](/reference/feedback/)
-Next: [CSS Structure](/reference/css-structure/) →
+Next: [Accessibility Conformance Report](/reference/accessibility-conformance-report/) →

@@ -42,6 +42,7 @@ ceramide
 chatbot
 chatgpt
 checkbox
+checkboxes
 checkmark
 checkout
 cloudflare
@@ -201,6 +202,7 @@ vue
 walkthrough
 wcag
 webhook
+webkit
 webp
 whitelist
 whitelisting

@@ -200,6 +200,7 @@ nav:
     - Resources: reference/resources.md
     - Feedback: reference/feedback.md
     - Accessibility: reference/accessibility.md
+    - Accessibility Conformance Report: reference/accessibility-conformance-report.md
     - CSS Structure: reference/css-structure.md
     - Glossary: reference/glossary.md
     - Quiz Builder:

@@ -1710,5 +1710,5 @@ them to customize how your quizzes look.
 
 ← [Back to the App Manual](/reference/)
 
-← Previous: [Accessibility](/reference/accessibility/)
+← Previous: [Accessibility Conformance Report](/reference/accessibility-conformance-report/)
 Next: [Glossary](/reference/glossary/) →
