@@ -15094,7 +15094,7 @@ The criteria are scoped for full pages, complete processes and accessibility-sup
 | 3.3.2 Labels or Instructions (2.0, 2.1, 2.2) | Supports | Every field, answer list, dropdown and slider is named after its question. Required text, email, number, phone and date fields are indicated to assistive technology. |
 | 3.3.7 Redundant Entry (2.2) | Supports | Answers are kept when the customer goes back. By default, the customer's previous answers are pre-filled when they retake the quiz. |
 | 4.1.1 Parsing (2.0, 2.1) | Supports | For WCAG 2.0 and 2.1, the September 2023 errata update indicates this criterion is always supported. In WCAG 2.2, this criterion is obsolete and removed. |
-| 4.1.2 Name, Role, Value (2.0, 2.1, 2.2) | Supports | Choices, dropdowns, fields, sliders and buttons expose their name, role and state. A slider announces the chosen label, and the selected rating or button is announced as selected. An open dropdown is linked to its list of options. |
+| 4.1.2 Name, Role, Value (2.0, 2.1, 2.2) | Supports | Choices, dropdowns, fields, sliders and buttons expose their name, role and state. A slider announces the chosen label, and the selected rating or button is announced as selected. An open dropdown is linked to its list of options. The list renders outside the quiz's shadow DOM, so the link uses ARIA element reflection instead of an ID. Some older testing tools, such as axe-core 4.10, report a missing `aria-controls` attribute. axe-core 4.14 reads the link correctly. |
 
 ## Table 2: success criteria, level AA
 
