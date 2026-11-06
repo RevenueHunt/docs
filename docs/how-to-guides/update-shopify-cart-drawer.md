@@ -82,9 +82,12 @@ A paid theme built on one of these also works, as long as it keeps the cart draw
 
 ### Other supported themes
 
-The app refreshes the drawer and the cart count in the header, then opens the drawer. The drawer's close button and the Escape key keep working.
+When a customer adds a product from the quiz, the app opens or refreshes the theme's own cart drawer. The customer stays in the quiz and is not sent to the `/cart` page.
 
-- Atlas - The theme that the Atlas store builder app installs. It is not in the Shopify Theme Store.
+- Atlas - The theme that the Atlas store builder app installs. It is not in the Shopify Theme Store. The app also refreshes the cart count in the header, and the drawer's close button and the Escape key keep working.
+- Be Yours
+- Broadcast
+- Symmetry
 
 To find your theme name, go to **Online Store > Themes** in Shopify Admin.
 

@@ -14,7 +14,7 @@ description: "RevenueHunt plans and pricing: response limits, billing period, in
 
     `Manage v` - Opens the menu for cancelling your current plan.
 
-    `Billing period` - Choose `Monthly` or `Annual (save 20%)`.
+    `Billing period` - Choose `Monthly` or `Annual (save 20%)`. If you are on an annual plan, this page shows your price as annual.
 
     `Plan details` - Lists every plan with its `Monthly fee`, `Max. responses` and `Cost per response`. The plan you are on is marked `Current`.
 

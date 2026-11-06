@@ -629,14 +629,14 @@ This means that, if you upgrade immediately to a Pro plan (allows 1000 responses
 
 In other words: if the Basic plan accepts around ~16 responses each day, the Pro plan will accept ~33 responses every day, without ever crossing the 1000 responses limit / rolling 30 days (16 * 30 = 500, 33 * 30 = 1000)
 
-## Monthy vs yearly plan
+## Monthly vs yearly plan
 
 === "Shopify"
     
 
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
-    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select the `Billing Period` to `Annualy`.
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and set `Billing period` to `Annual (save 20%)`.
 
 === "Shopify (Legacy)"
 

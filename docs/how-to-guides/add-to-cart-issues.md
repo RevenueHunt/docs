@@ -89,7 +89,7 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
     !!! tip "Report your theme"
 
-        If the drawer cart does not update on your theme, contact support with your theme name and version. See [how to contact customer support](/how-to-guides/contact-customer-support/).
+        If the drawer cart does not update on your theme, or the customer is sent to the `/cart` page mid-quiz, contact support with your theme name and version. See [how to contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Shopify (Legacy)"
 
