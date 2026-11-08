@@ -135,37 +135,37 @@ This article explains how to read a single quiz response, and how to download al
 
 === "WooCommerce"
 
-    You can download every response from the past 90 days as a `.CSV file`.
+    You can download your responses as a `.CSV file`. Pick how far back the export goes: 1, 3 or 6 months.
 
     1. **Open the [Metrics > Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.**
-    2. **Click `Export all as CSV`.**
+    2. **Click the button for the period you need.** The choices are `Export CSV - 1 month`, `Export CSV - 3 months` and `Export CSV - 6 months`.
     3. **Wait for the download link to appear on your [dashboard](/reference/dashboard/).**
     4. **Click the link to save the file.**
 
 === "Magento"
 
-    You can download every response from the past 90 days as a `.CSV file`.
+    You can download your responses as a `.CSV file`. Pick how far back the export goes: 1, 3 or 6 months.
 
     1. **Open the [Metrics > Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.**
-    2. **Click `Export all as CSV`.**
+    2. **Click the button for the period you need.** The choices are `Export CSV - 1 month`, `Export CSV - 3 months` and `Export CSV - 6 months`.
     3. **Wait for the download link to appear on your [dashboard](/reference/dashboard/).**
     4. **Click the link to save the file.**
 
 === "BigCommerce"
 
-    You can download every response from the past 90 days as a `.CSV file`.
+    You can download your responses as a `.CSV file`. Pick how far back the export goes: 1, 3 or 6 months.
 
     1. **Open the [Metrics > Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.**
-    2. **Click `Export all as CSV`.**
+    2. **Click the button for the period you need.** The choices are `Export CSV - 1 month`, `Export CSV - 3 months` and `Export CSV - 6 months`.
     3. **Wait for the download link to appear on your [dashboard](/reference/dashboard/).**
     4. **Click the link to save the file.**
 
 === "Standalone"
 
-    You can download every response from the past 90 days as a `.CSV file`.
+    You can download your responses as a `.CSV file`. Pick how far back the export goes: 1, 3 or 6 months.
 
     1. **Open the [Metrics > Responses](/reference/quiz-builder/metrics/#responses) tab in your dashboard.**
-    2. **Click `Export all as CSV`.**
+    2. **Click the button for the period you need.** The choices are `Export CSV - 1 month`, `Export CSV - 3 months` and `Export CSV - 6 months`.
     3. **Wait for the download link to appear on your [dashboard](/reference/dashboard/).**
     4. **Click the link to save the file.**
 
