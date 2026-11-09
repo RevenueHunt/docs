@@ -131,7 +131,7 @@ The strategy above is identical on every platform. A few build mechanics differ 
 
 === "Shopify"
 
-    - **Subscriptions:** recommend [Recharge](/how-to-guides/recommend-subscription-products/) products on the results page for recurring orders.
+    - **Subscriptions:** show [subscription plans](/how-to-guides/recommend-subscription-products/) from Shopify Subscriptions, Recharge, Seal or a similar app on the results page, for recurring orders.
     - **Discounts:** sync your store's [automatic discount codes](/how-to-guides/add-discount/) so they apply at checkout for quiz finishers.
     - **Post-purchase:** use Shopify's native post-purchase offer page (or a post-purchase upsell app) for the one-click cross-sell.
     - **Multiple markets:** [Shopify Markets handles language and currency](/customer-success/adapt-quizzes-to-markets/).

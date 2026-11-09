@@ -217,6 +217,7 @@ For the credentials to enter, see [this Google documentation](https://support.go
 
 - **Test your credentials with a third-party tool**: check your SMTP settings with a tool such as [GMass SMTP Test](https://www.gmass.co/smtp-test). Credentials that work there work in the RevenueHunt app too. If they fail there, ask your developer or your SMTP provider.
 - **Office 365 is blocking the email**: add `3.14.55.225` to the `IP Allow List`. See [Outlook and Office 365](#outlook-and-office-365).
+- **The legacy app cannot connect to your server**: the legacy app connects only to an SMTP server with a valid SSL certificate. A self-signed or expired certificate fails the test. Ask your SMTP provider or your developer to install a valid certificate.
 - **Google Workspace SMTP fails**: check that 2FA is on and that you used the app password. Port 587 or 465 should work. If neither does, try again or check Google's support pages.
 
 

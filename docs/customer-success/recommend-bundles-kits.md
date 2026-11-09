@@ -44,7 +44,7 @@ The quiz is the perfect place to do this. You've just learned exactly what the s
 | **Routine** | A sequence used together (step 1, 2, 3) | Skincare, haircare, supplements | One [slot](/how-to-guides/recommend-skincare-routine-slots/) per step, each ranked by fit |
 | **Kit or bundle** | A fixed set sold as one item at one price | Starter kits, gift sets, "the essentials" | Recommend the bundle product or a [collection](/how-to-guides/set-up-recommendations/) |
 | **Build-your-own** | The shopper assembles a set from matched options | Variety packs, mix-and-match, coffee | Multiple slots with alternatives ranked by [upvotes](/how-to-guides/recommend-products/) |
-| **Subscription** | A recurring order of the recommended set | Consumables, refills | [Recharge or WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/) |
+| **Subscription** | A recurring order of the recommended set | Consumables, refills | [Any Shopify subscription app or WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/) |
 
 !!! tip "Cross-sell and upsell both raise AOV"
     Cross-sell adds complementary items (the rest of the routine); upsell moves the shopper to a bigger or better version (the larger size, the pro tier). The quiz powers both, because it already knows what the shopper needs and how committed they are.
@@ -87,7 +87,7 @@ When your catalog is broad, split shoppers before you recommend. A **[funnel qui
 
 ## Turn one purchase into recurring revenue
 
-For consumables, recommend a **subscription** instead of a one-time buy. The app supports [Recharge (Shopify) and WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/), so the results page can offer the subscription option right where the shopper is most convinced. Recurring orders lift lifetime value far beyond the first sale.
+For consumables, recommend a **subscription** instead of a one-time buy. The app supports [Shopify subscription apps such as Recharge, Seal and Shopify Subscriptions, and WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/), so the results page can offer the subscription option right where the shopper is most convinced. Recurring orders lift lifetime value far beyond the first sale.
 
 If subscriptions are your whole model, this is your home base: lead the quiz toward the recurring option, and re-quiz subscribers periodically to refresh their recommendation as their needs change, which keeps the subscription relevant and reduces churn.
 

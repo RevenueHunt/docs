@@ -188,7 +188,7 @@ Keep a product on the Results Page whatever the customer answers.
 
 === "Shopify"
 
-    Add the `Subscription` component to the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) on your results page, then pick your subscription app. Shopify Subscriptions and Recharge Subscriptions (Plus plan only) are supported.
+    Add the `Subscription` component to the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) on your results page. It shows the plans from any subscription app that adds its plans to your Shopify products, such as Shopify Subscriptions, Recharge and Seal.
 
     [How to recommend subscription products](/how-to-guides/recommend-subscription-products/)
 

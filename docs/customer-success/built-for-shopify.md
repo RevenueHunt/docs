@@ -77,7 +77,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 |-------------------------------|------------|---------------------------|
 | Shopify Discounts             | ✅         | ✅               |
 | Product Metafields Sync       | ✅         | ✅                        |
-| Recharge Subscriptions        | ✅         | ✅                            |
+| Subscriptions (Recharge)      | ✅         | ✅ (any subscription app)     |
 | Google Analytics 4 (GA4)      | ✅         | ✅                        |
 | Meta (Facebook) Pixel         | ✅         | ✅                        |
 | Klaviyo Integration           | ✅         | ✅                        |

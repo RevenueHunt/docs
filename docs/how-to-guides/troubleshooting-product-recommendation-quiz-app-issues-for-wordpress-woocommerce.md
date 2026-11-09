@@ -27,7 +27,7 @@ Work through these in order.
 
 1. **Outdated WooCommerce.** The store needs a version later than WooCommerce 3.5.
 2. **Outdated plugin.** Download the latest version of the app.
-3. **No HTTPS or SSL certificate.** Install and activate a valid certificate, so the API can communicate securely.
+3. **No valid HTTPS or SSL certificate.** The app connects only to a store with a valid certificate. A self-signed, expired or mismatched certificate blocks the connection. Install and activate a valid certificate for your store's domain.
 4. **Site not publicly reachable.** Remove password protection, and any coming soon plugin that blocks public access.
 5. **Caching plugin.** Disable your caching plugins one at a time to find the one at fault.
 6. **Server configuration.** If nothing above helps, your server may be stripping the `Authorization` header.

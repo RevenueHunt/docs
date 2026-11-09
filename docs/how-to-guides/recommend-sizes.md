@@ -105,7 +105,7 @@ See [how to add JavaScript to the quiz](/how-to-guides/add-javascript/) for the 
 
     !!! info "Custom JavaScript needs a paid plan"
 
-        Custom JavaScript does not run on a live quiz on the Free plan. You can still test it in the preview and inside the quiz builder. See [Feature availability for paid-only options](/customer-success/plans-pricing-faq/#feature-availability-for-paid-only-options), or [view the pricing and plans](https://revenuehunt.com/pricing/).
+        Custom JavaScript does not run on a live quiz on the Free plan. You can still test it in the preview. See [Feature availability for paid-only options](/customer-success/plans-pricing-faq/#feature-availability-for-paid-only-options), or [view the pricing and plans](https://revenuehunt.com/pricing/).
 
     ??? tip "On a paid plan? Quiz Copilot can write the code"
 

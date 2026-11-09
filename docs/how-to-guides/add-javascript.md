@@ -1048,6 +1048,87 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
     // dbqHqN is the quiz ID
     ```
 
+### Run your code in the dashboard
+
+=== "Shopify"
+
+    Your code runs on the live quiz as usual. In the preview, it runs only after you start it. It never runs in the Quiz builder.
+
+    1. **Open the `Custom JavaScript` field of the question or results page that holds your code.**
+    2. **Click the `▷ / ❚❚` button to run the code.**
+    3. **Open the preview, take the quiz and check that your code works.**
+    4. **Click `▷ / ❚❚` again to pause the code.**
+
+=== "Shopify (Legacy)"
+
+    The app pauses custom JavaScript inside the dashboard. On the live quiz in your store, the code runs as usual.
+
+    When a quiz has custom JavaScript, the dashboard shows the bar `This quiz has custom JavaScript, paused here`. It appears in the Quiz Builder preview, in the response view, and in the `Preview` tab.
+
+    1. **Click `▶ Run custom code` in the bar.** The code now runs in the dashboard.
+    2. **Take the quiz and check that your code works.**
+    3. **Click `Stop` to pause the code again.** The page reloads.
+
+    !!! info "Switching sections reloads the page"
+
+        While the code runs, opening another section of the dashboard reloads the page. Your edits are saved before the page reloads.
+
+=== "WooCommerce"
+
+    The app pauses custom JavaScript inside the dashboard. On the live quiz in your store, the code runs as usual.
+
+    When a quiz has custom JavaScript, the dashboard shows the bar `This quiz has custom JavaScript, paused here`. It appears in the Quiz Builder preview, in the response view, and in the `Preview` tab.
+
+    1. **Click `▶ Run custom code` in the bar.** The code now runs in the dashboard.
+    2. **Take the quiz and check that your code works.**
+    3. **Click `Stop` to pause the code again.** The page reloads.
+
+    !!! info "Switching sections reloads the page"
+
+        While the code runs, opening another section of the dashboard reloads the page. Your edits are saved before the page reloads.
+
+=== "Magento"
+
+    The app pauses custom JavaScript inside the dashboard. On the live quiz in your store, the code runs as usual.
+
+    When a quiz has custom JavaScript, the dashboard shows the bar `This quiz has custom JavaScript, paused here`. It appears in the Quiz Builder preview, in the response view, and in the `Preview` tab.
+
+    1. **Click `▶ Run custom code` in the bar.** The code now runs in the dashboard.
+    2. **Take the quiz and check that your code works.**
+    3. **Click `Stop` to pause the code again.** The page reloads.
+
+    !!! info "Switching sections reloads the page"
+
+        While the code runs, opening another section of the dashboard reloads the page. Your edits are saved before the page reloads.
+
+=== "BigCommerce"
+
+    The app pauses custom JavaScript inside the dashboard. On the live quiz in your store, the code runs as usual.
+
+    When a quiz has custom JavaScript, the dashboard shows the bar `This quiz has custom JavaScript, paused here`. It appears in the Quiz Builder preview, in the response view, and in the `Preview` tab.
+
+    1. **Click `▶ Run custom code` in the bar.** The code now runs in the dashboard.
+    2. **Take the quiz and check that your code works.**
+    3. **Click `Stop` to pause the code again.** The page reloads.
+
+    !!! info "Switching sections reloads the page"
+
+        While the code runs, opening another section of the dashboard reloads the page. Your edits are saved before the page reloads.
+
+=== "Standalone"
+
+    The app pauses custom JavaScript inside the dashboard. On the live quiz in your store, the code runs as usual.
+
+    When a quiz has custom JavaScript, the dashboard shows the bar `This quiz has custom JavaScript, paused here`. It appears in the Quiz Builder preview, in the response view, and in the `Preview` tab.
+
+    1. **Click `▶ Run custom code` in the bar.** The code now runs in the dashboard.
+    2. **Take the quiz and check that your code works.**
+    3. **Click `Stop` to pause the code again.** The page reloads.
+
+    !!! info "Switching sections reloads the page"
+
+        While the code runs, opening another section of the dashboard reloads the page. Your edits are saved before the page reloads.
+
 ### Debug your code
 
 === "Shopify"

@@ -185,9 +185,13 @@ If the quiz does not put a product in the cart, one of these three causes is usu
 
 === "Shopify"
 
-    The app syncs and recommends subscription products from Shopify Subscriptions and from Recharge Subscriptions. See [how to recommend subscription products](/how-to-guides/recommend-subscription-products/) for the setup.
+    The `Subscription` component shows the plans from any subscription app that adds its plans to your Shopify products, such as Shopify Subscriptions, Recharge and Seal. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for the setup.
 
-    For any other subscription app, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
+    !!! warning "Real plans appear only on your storefront"
+
+        The Quiz builder and the quiz preview cannot show your real subscription plans. Test the cart on a published quiz.
+
+    If your subscription app does not add its plans to your Shopify products, a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) still points the customer at your subscription options.
 
 === "Shopify (Legacy)"
 

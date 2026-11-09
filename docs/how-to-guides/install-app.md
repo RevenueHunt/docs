@@ -61,6 +61,10 @@ The app installs from a different place on each platform. Pick yours below.
 
     The quiz runs as a WordPress plugin that connects your store to RevenueHunt.
 
+    !!! warning "Your store needs a valid SSL certificate"
+
+        The app connects only to a store served over HTTPS, with a valid certificate. A self-signed or expired certificate blocks the connection.
+
     1. **Install and activate [WooCommerce](https://woocommerce.com/), if it is not already running.**
 
     2. **Install and activate the Product Recommendation Quiz plugin.** It is on the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) and on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free.

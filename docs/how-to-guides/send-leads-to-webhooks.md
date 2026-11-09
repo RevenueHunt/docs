@@ -34,6 +34,10 @@ This article explains how to link your quiz to a custom webhook, so another syst
 
         ![how to webhook add](/images/how_to_shopifyv2_webhooks_connection.png)
 
+        !!! warning "Use a public address"
+
+            Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked. The URL must be reachable from the internet.
+
     5. **Configure the webhook**. Toggle the options to choose which quiz data to send. You can also add HTTP headers as key-value pairs.
 
     6. **Save your changes**. Click `Save`.
@@ -63,6 +67,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
     6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
+        - Check that the URL is a public address. Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
@@ -91,6 +96,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
     6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
+        - Check that the URL is a public address. Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
@@ -119,6 +125,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
     6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
+        - Check that the URL is a public address. Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
@@ -147,6 +154,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
     6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
+        - Check that the URL is a public address. Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 
@@ -175,6 +183,7 @@ This article explains how to link your quiz to a custom webhook, so another syst
     6. **If the test fails, work through the checks below.**
         - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
         - Check that the webhook URL is correct and active.
+        - Check that the URL is a public address. Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked.
 
     7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
 

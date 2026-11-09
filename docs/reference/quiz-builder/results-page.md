@@ -1025,22 +1025,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         - Stamped,
         - Loox.
 
-    `Subscription` - Adds an option to subscribe to the product for a specific duration.
+    `Subscription` - Shows the product's subscription plans, so the customer can subscribe from the results page. The plans are read from Shopify. The component works with any subscription app that adds its plans to your Shopify products, such as Shopify Subscriptions, Recharge and Seal. Each variant shows its own plans and subscription price. The component has no settings.
 
-    ![The Subscription settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
+    ![The Subscription component, with no settings to configure](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
 
-    `Subscription app` - Select the subscription app to display the subscription from. Once you select the subscription app, save the changes with the top-right `Save` button.
+    !!! info "Real plans appear only on your storefront"
 
-    !!! info "Supported subscription apps"
-
-        Support for these subscription apps for Shopify is being added:
-
-        ![The subscription apps the product block supports](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
-
-        - Shopify Subscriptions,
-        - ReCharge Subscriptions (Pro plan only).
-
-        To request support for another subscription app, [contact customer support](/how-to-guides/contact-customer-support/).
+        The Quiz builder shows two sample plans, and the quiz preview shows a note instead of plans. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/).
 
     ##### Results slot
 

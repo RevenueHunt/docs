@@ -954,7 +954,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 |-------------------------------|------------|---------------------------|
 | Shopify Discounts             | ✅         | ✅               |
 | Product Metafields Sync       | ✅         | ✅                        |
-| Recharge Subscriptions        | ✅         | ✅                            |
+| Subscriptions (Recharge)      | ✅         | ✅ (any subscription app)     |
 | Google Analytics 4 (GA4)      | ✅         | ✅                        |
 | Meta (Facebook) Pixel         | ✅         | ✅                        |
 | Klaviyo Integration           | ✅         | ✅                        |
@@ -4606,7 +4606,7 @@ The quiz is the perfect place to do this. You've just learned exactly what the s
 | **Routine** | A sequence used together (step 1, 2, 3) | Skincare, haircare, supplements | One [slot](/how-to-guides/recommend-skincare-routine-slots/) per step, each ranked by fit |
 | **Kit or bundle** | A fixed set sold as one item at one price | Starter kits, gift sets, "the essentials" | Recommend the bundle product or a [collection](/how-to-guides/set-up-recommendations/) |
 | **Build-your-own** | The shopper assembles a set from matched options | Variety packs, mix-and-match, coffee | Multiple slots with alternatives ranked by [upvotes](/how-to-guides/recommend-products/) |
-| **Subscription** | A recurring order of the recommended set | Consumables, refills | [Recharge or WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/) |
+| **Subscription** | A recurring order of the recommended set | Consumables, refills | [Any Shopify subscription app or WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/) |
 
 !!! tip "Cross-sell and upsell both raise AOV"
     Cross-sell adds complementary items (the rest of the routine); upsell moves the shopper to a bigger or better version (the larger size, the pro tier). The quiz powers both, because it already knows what the shopper needs and how committed they are.
@@ -4649,7 +4649,7 @@ When your catalog is broad, split shoppers before you recommend. A **[funnel qui
 
 ## Turn one purchase into recurring revenue
 
-For consumables, recommend a **subscription** instead of a one-time buy. The app supports [Recharge (Shopify) and WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/), so the results page can offer the subscription option right where the shopper is most convinced. Recurring orders lift lifetime value far beyond the first sale.
+For consumables, recommend a **subscription** instead of a one-time buy. The app supports [Shopify subscription apps such as Recharge, Seal and Shopify Subscriptions, and WooCommerce Subscriptions](/how-to-guides/recommend-subscription-products/), so the results page can offer the subscription option right where the shopper is most convinced. Recurring orders lift lifetime value far beyond the first sale.
 
 If subscriptions are your whole model, this is your home base: lead the quiz toward the recurring option, and re-quiz subscribers periodically to refresh their recommendation as their needs change, which keeps the subscription relevant and reduces churn.
 
@@ -6192,6 +6192,8 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 ### What your code receives
 
+### Run your code in the dashboard
+
 ### Debug your code
 
 ## Examples
@@ -6294,6 +6296,13 @@ prq.closeQuiz();
 window.openQuizPopup('dbqHqN');
 // dbqHqN is the quiz ID
 ```
+The app pauses custom JavaScript inside the dashboard. On the live quiz in your store, the code runs as usual.
+When a quiz has custom JavaScript, the dashboard shows the bar `This quiz has custom JavaScript, paused here`. It appears in the Quiz Builder preview, in the response view, and in the `Preview` tab.
+1. **Click `▶ Run custom code` in the bar.** The code now runs in the dashboard.
+2. **Take the quiz and check that your code works.**
+3. **Click `Stop` to pause the code again.** The page reloads.
+!!! info "Switching sections reloads the page"
+    While the code runs, opening another section of the dashboard reloads the page. Your edits are saved before the page reloads.
 Start by logging the quiz response object to the console:
 ```javascript
 console.log(prq);
@@ -8136,6 +8145,8 @@ This article explains how to install the RevenueHunt app on each platform, and h
 --- WooCommerce Specific Content ---
 
 The quiz runs as a WordPress plugin that connects your store to RevenueHunt.
+!!! warning "Your store needs a valid SSL certificate"
+    The app connects only to a store served over HTTPS, with a valid certificate. A self-signed or expired certificate blocks the connection.
 1. **Install and activate [WooCommerce](https://woocommerce.com/), if it is not already running.**
 2. **Install and activate the Product Recommendation Quiz plugin.** It is on the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) and on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free.
 3. **In your WordPress admin, open the `Product Quiz` tab.**
@@ -10131,7 +10142,7 @@ This article explains how to recommend subscription products, so a customer can 
 
 ## Other subscriptions
 
-Any other subscription app can still be recommended, by sending the customer to the product page instead of adding the product to the cart. They subscribe on the product page, in whatever app you use.
+If the quiz cannot add your subscriptions to the cart, you can still recommend them. Send the customer to the product page instead of adding the product to the cart. They subscribe on the product page, in whatever app you use.
 
 ---
 
@@ -11551,6 +11562,7 @@ To initiate the integration:
 6. **If the test fails, work through the checks below.**
     - Check `Metrics -> Responses` for at least one response. If there are none, generate one by clicking `Preview`.
     - Check that the webhook URL is correct and active.
+    - Check that the URL is a public address. Webhooks to private or internal addresses, such as `localhost` or `192.168.x.x`, are blocked.
 7. **Configuring HTTP headers (optional)**: add HTTP headers when the receiving system expects them, or when you need them for security.
     1. **Click `+add new header`** once the connection test has passed.
     2. **Enter your HTTP headers.** They are sent with the quiz data in the POST request.
@@ -11947,6 +11959,7 @@ For the credentials to enter, see [this Google documentation](https://support.go
 
 - **Test your credentials with a third-party tool**: check your SMTP settings with a tool such as [GMass SMTP Test](https://www.gmass.co/smtp-test). Credentials that work there work in the RevenueHunt app too. If they fail there, ask your developer or your SMTP provider.
 - **Office 365 is blocking the email**: add `3.14.55.225` to the `IP Allow List`. See [Outlook and Office 365](#outlook-and-office-365).
+- **The legacy app cannot connect to your server**: the legacy app connects only to an SMTP server with a valid SSL certificate. A self-signed or expired certificate fails the test. Ask your SMTP provider or your developer to install a valid certificate.
 - **Google Workspace SMTP fails**: check that 2FA is on and that you used the app password. Port 587 or 465 should work. If neither does, try again or check Google's support pages.
 
 
@@ -13426,7 +13439,7 @@ Work through these in order.
 
 1. **Outdated WooCommerce.** The store needs a version later than WooCommerce 3.5.
 2. **Outdated plugin.** Download the latest version of the app.
-3. **No HTTPS or SSL certificate.** Install and activate a valid certificate, so the API can communicate securely.
+3. **No valid HTTPS or SSL certificate.** The app connects only to a store with a valid certificate. A self-signed, expired or mismatched certificate blocks the connection. Install and activate a valid certificate for your store's domain.
 4. **Site not publicly reachable.** Remove password protection, and any coming soon plugin that blocks public access.
 5. **Caching plugin.** Disable your caching plugins one at a time to find the one at fault.
 6. **Server configuration.** If nothing above helps, your server may be stripping the `Authorization` header.

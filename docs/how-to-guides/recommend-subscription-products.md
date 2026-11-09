@@ -13,60 +13,42 @@ This article explains how to recommend subscription products, so a customer can 
 
 === "Shopify"
 
-    The app works with Shopify Subscriptions and [Recharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign).
+    The `Subscription` component reads the subscription plans straight from Shopify. It works with any subscription app that adds its plans to your Shopify products, such as Shopify Subscriptions, Recharge and Seal. There is nothing to connect and no subscription app to choose in the quiz.
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X_beZcbcwG4?si=CSBT9I08vEh0Cs4U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    !!! info "What the customer sees"
 
-    !!! warning "Before you start"
+        - Each variant shows its own subscription plans and its own subscription price.
+        - A product card that lets the customer choose a variant can also show subscription plans.
 
-        - Recharge exposes the Storefront API on the [Recharge Plus plan](https://getrecharge.com/pricing/) only. On any other plan, contact [Recharge support](https://support.getrecharge.com/hc/en-us#).
-        - Set Recharge up on your Shopify store first, as the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/) describes.
+    1. **Go to the [Results page](/reference/quiz-builder/results-page/) tab and open the settings of your [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections).**
 
-    1. **Open your online store themes and click `Edit Code`.**
-
-    2. **Open the `layout/theme.liquid` file.**
-
-    3. **Add the Recharge Storefront SDK in the `<head>` section, before the RevenueHunt quiz renderer script.**
-
-        ```html
-        <script src="https://static.rechargecdn.com/assets/storefront/recharge-client-2.0.0.min.js"></script>
-        ```
-
-        !!! warning "The legacy Recharge script is not the same file"
-
-            `https://static.rechargecdn.com/static/js/recharge.js` is not the Storefront SDK the quiz needs. If your theme loads that legacy script, replace it with `recharge-client-2.0.0.min.js`.
-
-    4. **Save the theme.**
-
-    5. **Go to the [Results page](/reference/quiz-builder/results-page/) tab and open the settings of your [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections).**
-
-    6. **Add the `Subscription` option to `Product components layout`.**
+    2. **Add the `Subscription` option to `Product components layout`.**
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 
-    7. **Select your subscription app under `Subscription`.**
+        The component has no settings to configure.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
+        ![The Subscription component, with no settings to configure](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
 
-        !!! info "Supported subscription apps"
+        !!! info "The Quiz builder shows sample plans"
 
-            The `Subscription` component supports Shopify Subscriptions, and Recharge Subscriptions on the Plus plan.
+            The Quiz builder shows two sample plans in the `Subscription` component, not your real plans. The quiz preview shows a note instead of plans.
 
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
+    3. **Click the top-right `Save` button.**
 
-            To ask about an app that is not on the list, [contact support](/how-to-guides/contact-customer-support/).
+    4. **[Publish the quiz on a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) and take it through to the results page.**
 
-    8. **Click the top-right `Save` button.**
+        !!! warning "Your real plans appear only on your storefront"
 
-    9. **[Publish the quiz on a new page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) and take it through to the results page.**
+            Test on a published quiz on a page of your website. The Quiz builder and the quiz preview cannot show your real subscription plans.
 
-        !!! warning "The subscription options never appear in the preview"
+    5. **Add a subscription product to the cart, then check that the cart holds the plan you chose.**
 
-            Testing this needs a published quiz on a page of your website. The quiz preview cannot show the subscription options.
+    !!! note "Quizzes created before November 2026"
 
-    10. **Add a subscription product to the cart, then check the cart holds it correctly.**
+        If a quiz never had a subscription app selected in the old `Subscription app` setting, its `Subscription` component stays hidden. [Contact support](/how-to-guides/contact-customer-support/) to show it.
 
 === "Shopify (Legacy)"
 
@@ -124,9 +106,13 @@ This article explains how to recommend subscription products, so a customer can 
 
 ## Other subscriptions
 
-Any other subscription app can still be recommended, by sending the customer to the product page instead of adding the product to the cart. They subscribe on the product page, in whatever app you use.
+If the quiz cannot add your subscriptions to the cart, you can still recommend them. Send the customer to the product page instead of adding the product to the cart. They subscribe on the product page, in whatever app you use.
 
 === "Shopify"
+
+    !!! tip "Most stores do not need this workaround"
+
+        Use it only if your subscription app does not add its plans to your Shopify products. Otherwise, add the `Subscription` component as [Set up subscriptions](#set-up-subscriptions) describes.
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
