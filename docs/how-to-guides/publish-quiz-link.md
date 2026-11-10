@@ -89,6 +89,9 @@ The menu item then opens the quiz over any page in your store.
         |---|---|
         | `Popup width (% of screen)` | How wide the popup opens |
         | `Popup height (% of screen)` | How tall the popup opens |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Manage app` | Opens the RevenueHunt dashboard |
@@ -259,6 +262,9 @@ The menu item then opens the quiz over one page only. Any other page built on th
         |---|---|
         | `Popup width (% of screen)` | How wide the popup opens |
         | `Popup height (% of screen)` | How tall the popup opens |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Manage app` | Opens the RevenueHunt dashboard |
@@ -417,6 +423,9 @@ The button sits on your home page. The app embed makes `#quiz` work across the s
         |---|---|
         | `Popup width (% of screen)` | How wide the popup opens |
         | `Popup height (% of screen)` | How tall the popup opens |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Manage app` | Opens the RevenueHunt dashboard |
@@ -583,6 +592,9 @@ The button opens the quiz over one page only. Any other page built on the same t
         |---|---|
         | `Popup width (% of screen)` | How wide the popup opens |
         | `Popup height (% of screen)` | How tall the popup opens |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Manage app` | Opens the RevenueHunt dashboard |

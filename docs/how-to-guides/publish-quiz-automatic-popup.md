@@ -42,7 +42,10 @@ An automatic popup opens the quiz on its own, a few seconds after the customer a
         | Setting | What it does |
         |---|---|
         | `Popup Delay` | How many seconds to wait before the popup opens |
-        | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+        | `Popup width (% of screen)` and `Popup height (% of screen)` | The size of the popup, as a percentage of the screen |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
@@ -200,7 +203,10 @@ An automatic popup opens the quiz on its own, a few seconds after the customer a
         | Setting | What it does |
         |---|---|
         | `Popup Delay` | How many seconds to wait before the popup opens |
-        | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+        | `Popup width (% of screen)` and `Popup height (% of screen)` | The size of the popup, as a percentage of the screen |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
@@ -338,7 +344,10 @@ An automatic popup opens the quiz on its own, a few seconds after the customer a
         | Setting | What it does |
         |---|---|
         | `Popup Delay` | How many seconds to wait before the popup opens |
-        | `Popup Width` and `Height` | The size of the popup, as a percentage of the screen |
+        | `Popup width (% of screen)` and `Popup height (% of screen)` | The size of the popup, as a percentage of the screen |
+        | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
+        | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
+        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
         | `Popup z-index` | Which other elements the popup sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
         | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
