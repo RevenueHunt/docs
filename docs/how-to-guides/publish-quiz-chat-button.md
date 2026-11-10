@@ -45,9 +45,8 @@ Unlike an [automatic popup](/how-to-guides/publish-quiz-automatic-popup/), it wa
         | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
         | `Popup width (% of screen)` | How wide the quiz opens |
         | `Popup height (% of screen)` | How tall the quiz opens |
-        | `Mobile popup width` | How wide the quiz opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-        | `Mobile popup height` | How tall the quiz opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+        | `Mobile popup width (% of screen)` | How wide the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+        | `Mobile popup height (% of screen)` | How tall the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
         | `Popup z-index` | Which other elements the quiz sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
 
@@ -209,9 +208,8 @@ Unlike an [automatic popup](/how-to-guides/publish-quiz-automatic-popup/), it wa
         | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
         | `Popup width (% of screen)` | How wide the quiz opens |
         | `Popup height (% of screen)` | How tall the quiz opens |
-        | `Mobile popup width` | How wide the quiz opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-        | `Mobile popup height` | How tall the quiz opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+        | `Mobile popup width (% of screen)` | How wide the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+        | `Mobile popup height (% of screen)` | How tall the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
         | `Popup z-index` | Which other elements the quiz sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
 
@@ -353,9 +351,8 @@ Unlike an [automatic popup](/how-to-guides/publish-quiz-automatic-popup/), it wa
         | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
         | `Popup width (% of screen)` | How wide the quiz opens |
         | `Popup height (% of screen)` | How tall the quiz opens |
-        | `Mobile popup width` | How wide the quiz opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-        | `Mobile popup height` | How tall the quiz opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-        | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+        | `Mobile popup width (% of screen)` | How wide the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+        | `Mobile popup height (% of screen)` | How tall the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
         | `Popup z-index` | Which other elements the quiz sits in front of |
         | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
 

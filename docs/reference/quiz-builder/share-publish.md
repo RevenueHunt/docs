@@ -88,11 +88,9 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
 
-        `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
+        `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
 
-        `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-
-        `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+        `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
@@ -129,11 +127,9 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
 
-        `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
+        `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
 
-        `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-
-        `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+        `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
@@ -439,11 +435,9 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
 
-        `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
+        `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
 
-        `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-
-        `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+        `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
@@ -483,11 +477,9 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
 
-        `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
+        `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
 
-        `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-
-        `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+        `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
@@ -863,11 +855,9 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
 
-        `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
+        `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
 
-        `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-
-        `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+        `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 

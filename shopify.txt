@@ -9419,9 +9419,8 @@ This article explains how to open a quiz as an automatic popup, where to run it,
     |---|---|
     | `Popup Delay` | How many seconds to wait before the popup opens |
     | `Popup width (% of screen)` and `Popup height (% of screen)` | The size of the popup, as a percentage of the screen |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
@@ -9446,9 +9445,8 @@ This article explains how to open a quiz as an automatic popup, where to run it,
     |---|---|
     | `Popup Delay` | How many seconds to wait before the popup opens |
     | `Popup width (% of screen)` and `Popup height (% of screen)` | The size of the popup, as a percentage of the screen |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
@@ -9474,9 +9472,8 @@ This article explains how to open a quiz as an automatic popup, where to run it,
     |---|---|
     | `Popup Delay` | How many seconds to wait before the popup opens |
     | `Popup width (% of screen)` and `Popup height (% of screen)` | The size of the popup, as a percentage of the screen |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Trigger Popup on Exit Intent` | Opens the popup when the customer moves to leave the page |
@@ -9576,9 +9573,8 @@ This article explains how to add a chat button that opens your quiz. It also cov
     | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
     | `Popup width (% of screen)` | How wide the quiz opens |
     | `Popup height (% of screen)` | How tall the quiz opens |
-    | `Mobile popup width` | How wide the quiz opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the quiz opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the quiz sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
 4. **Click `Save`.**
@@ -9606,9 +9602,8 @@ This article explains how to add a chat button that opens your quiz. It also cov
     | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
     | `Popup width (% of screen)` | How wide the quiz opens |
     | `Popup height (% of screen)` | How tall the quiz opens |
-    | `Mobile popup width` | How wide the quiz opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the quiz opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the quiz sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
 4. **Click `Save`.**
@@ -9639,9 +9634,8 @@ The button now runs on every page that uses this theme.
     | `Greeting message` | The line shown beside the icon. Leave it empty to hide it |
     | `Popup width (% of screen)` | How wide the quiz opens |
     | `Popup height (% of screen)` | How tall the quiz opens |
-    | `Mobile popup width` | How wide the quiz opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the quiz opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the quiz opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the quiz sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
 5. **Click `Save`.** The button now shows on every page using this template.
@@ -10108,9 +10102,8 @@ Two things make a link popup work here.
     |---|---|
     | `Popup width (% of screen)` | How wide the popup opens |
     | `Popup height (% of screen)` | How tall the popup opens |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Manage app` | Opens the RevenueHunt dashboard |
@@ -10142,9 +10135,8 @@ A `Link Popup Quiz` section on one page template keeps the popup to that page, a
     |---|---|
     | `Popup width (% of screen)` | How wide the popup opens |
     | `Popup height (% of screen)` | How tall the popup opens |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Manage app` | Opens the RevenueHunt dashboard |
@@ -10175,9 +10167,8 @@ A `Link Popup Quiz` section on one page template keeps the popup to that page, a
     |---|---|
     | `Popup width (% of screen)` | How wide the popup opens |
     | `Popup height (% of screen)` | How tall the popup opens |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Manage app` | Opens the RevenueHunt dashboard |
@@ -10207,9 +10198,8 @@ A `Link Popup Quiz` section on one page template keeps the popup to that page, a
     |---|---|
     | `Popup width (% of screen)` | How wide the popup opens |
     | `Popup height (% of screen)` | How tall the popup opens |
-    | `Mobile popup width` | How wide the popup opens on screens 768px wide or less. Leave it empty to use `Popup width (% of screen)` |
-    | `Mobile popup height` | How tall the popup opens on screens 768px wide or less. Leave it empty to use `Popup height (% of screen)` |
-    | `Mobile size unit` | Whether the two mobile sizes are a % of the screen or pixels (px) |
+    | `Mobile popup width (% of screen)` | How wide the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)` |
+    | `Mobile popup height (% of screen)` | How tall the popup opens on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)` |
     | `Popup z-index` | Which other elements the popup sits in front of |
     | `Quiz ID (optional)` | The quiz to open. Leave it empty for your default quiz |
     | `Manage app` | Opens the RevenueHunt dashboard |
@@ -20855,9 +20845,8 @@ Below, you will find step-by-step instructions on how to publish the default qui
     ![The link popup options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
     `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
-    `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
-    `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-    `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+    `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
+    `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
@@ -20877,9 +20866,8 @@ Below, you will find step-by-step instructions on how to publish the default qui
     ![The link popup options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
     `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
-    `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
-    `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-    `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+    `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
+    `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
@@ -20941,9 +20929,8 @@ Below, you will find step-by-step instructions on how to publish the default qui
     `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
     `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
-    `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
-    `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-    `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+    `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
+    `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
@@ -20964,9 +20951,8 @@ Below, you will find step-by-step instructions on how to publish the default qui
     `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
     `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
-    `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
-    `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-    `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+    `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
+    `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
@@ -21016,9 +21002,8 @@ This method involves activating the `Link Popup Quiz` app embed in your store th
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
     `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
     `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
-    `Mobile popup width` - The popup width on screens 768px wide or less. Leave empty to use `Popup width (% of screen)`.
-    `Mobile popup height` - The popup height on screens 768px wide or less. Leave empty to use `Popup height (% of screen)`.
-    `Mobile size unit` - Whether the mobile width and height are a percentage of the screen or pixels (px).
+    `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
+    `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
     `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
     `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
