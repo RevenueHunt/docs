@@ -897,6 +897,14 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
 
+        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.
+
+        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the customer's screen height.
+
+        `Mobile popup width (% of screen)` - The popup width on screens 768px wide or less. `Same as desktop`, the default, uses `Popup width (% of screen)`.
+
+        `Mobile popup height (% of screen)` - The popup height on screens 768px wide or less. `Same as desktop`, the default, uses `Popup height (% of screen)`.
+
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     6. **Click `Save`.** From now on, the chat popup will show up on that page or any page that uses the same template.
