@@ -121,7 +121,7 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
     2. **Check that the code uses `actions.updateCartAttributes({...})`.** It has to run before the customer leaves for the cart or the checkout.
 
-    3. **Open the live storefront quiz in another browser, or in an incognito window.** Do not test on the preview or on admin.revenuehunt.com.
+    3. **Open the live storefront quiz in another browser, or in an incognito window.** Do not test on the preview, preview.revenuehunt.com or admin.revenuehunt.com.
 
     4. **Add a temporary `console.log('tagging cart')` line and watch the browser console.** It tells you whether the script runs at all.
 
@@ -150,7 +150,7 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
     4. **Click `Publish` again.** That resets the connection.
 
-    5. **Open the live quiz on your site in another browser, or in an incognito window.** Do not test on the preview or on admin.revenuehunt.com.
+    5. **Open the live quiz on your site in another browser, or in an incognito window.** Do not test on the preview, preview.revenuehunt.com or admin.revenuehunt.com.
 
     6. **Take the quiz through to the results, giving the email address you will use at the checkout.** An address such as `yourname+test1@example.com` keeps the test out of your real inbox.
 

@@ -461,13 +461,13 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
     2. **From the `Home page` menu at the top, go to `Pages`.**
     3. **Open the page template you want to add the automatic popup to, or create a new one.**
-    4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Automatic Popup Quiz`.
+    4. **Click `+ Add section`, then `Apps`.** From the list, pick `Auto Popup Quiz`.
 
-        ![Adding the Automatic Popup Quiz section to a page template](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
+        ![Adding the Auto Popup Quiz block to a page template](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
 
-    5. **In the `Automatic Popup Quiz` section, adjust the automatic popup settings.**
+    5. **In the `Auto Popup Quiz` block, adjust the automatic popup settings.**
 
-        ![The Automatic Popup Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
+        ![The Auto Popup Quiz block added to a page template](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
 
         ![The automatic popup options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 

@@ -301,7 +301,7 @@ This article explains how to change the language a quiz is written in, and how t
           });
 
           // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          const quizIframes = document.querySelectorAll('iframe[src*="revenuehunt.com/public/quiz/"]');
           quizIframes.forEach(iframe => {
             const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
             iframe.src = newSrc;
@@ -383,7 +383,7 @@ This article explains how to change the language a quiz is written in, and how t
           });
 
           // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          const quizIframes = document.querySelectorAll('iframe[src*="revenuehunt.com/public/quiz/"]');
           quizIframes.forEach(iframe => {
             const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
             iframe.src = newSrc;
@@ -465,7 +465,7 @@ This article explains how to change the language a quiz is written in, and how t
           });
 
           // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          const quizIframes = document.querySelectorAll('iframe[src*="revenuehunt.com/public/quiz/"]');
           quizIframes.forEach(iframe => {
             const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
             iframe.src = newSrc;
@@ -547,7 +547,7 @@ This article explains how to change the language a quiz is written in, and how t
           });
 
           // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          const quizIframes = document.querySelectorAll('iframe[src*="revenuehunt.com/public/quiz/"]');
           quizIframes.forEach(iframe => {
             const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
             iframe.src = newSrc;
@@ -629,7 +629,7 @@ This article explains how to change the language a quiz is written in, and how t
           });
 
           // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-          const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+          const quizIframes = document.querySelectorAll('iframe[src*="revenuehunt.com/public/quiz/"]');
           quizIframes.forEach(iframe => {
             const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
             iframe.src = newSrc;

@@ -107,9 +107,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     3. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
 
-        !!! tip "Run the custom code"
+        !!! info "Test the code in the preview"
 
-            `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+            Custom code does not run in the Quiz builder. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 
         !!! tip "Get help with custom JavaScript"
 
@@ -181,9 +181,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
 
-        !!! tip "Run the custom code"
+        !!! info "Test the code in the preview"
 
-            `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+            Custom code does not run in the Quiz builder. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 
         !!! tip "Get help with custom JavaScript"
 
@@ -271,9 +271,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     5. **Click `Save` to update the preview/live quiz.**
 
-    !!! tip "Run the custom code"
+    !!! info "Test the code in the preview"
 
-        `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+        In the Quiz builder, a custom HTML block shows a placeholder instead of running your code. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 
     **In a question**
 
@@ -303,9 +303,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     5. **Click `Save` to update the preview/live quiz.**
 
-    !!! tip "Run the custom code"
+    !!! info "Test the code in the preview"
 
-        `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+        In the Quiz builder, a custom HTML block shows a placeholder instead of running your code. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 
 
 
@@ -343,9 +343,9 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
     6. **Click `Save` to update the preview/live quiz.**
 
-    !!! tip "Run the custom code"
+    !!! info "Test the code in the preview"
 
-        `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+        In the Quiz builder, a custom HTML block shows a placeholder instead of running your code. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 
 === "Shopify (Legacy)"
 
@@ -1052,12 +1052,10 @@ You can add custom JavaScript to the quiz results page and to the quiz questions
 
 === "Shopify"
 
-    Your code runs on the live quiz as usual. In the preview, it runs only after you start it. It never runs in the Quiz builder.
+    Your code runs in the preview and on the live quiz. It does not run in the Quiz builder. There, a custom HTML block shows a placeholder instead.
 
-    1. **Open the `Custom JavaScript` field of the question or results page that holds your code.**
-    2. **Click the `▷ / ❚❚` button to run the code.**
-    3. **Open the preview, take the quiz and check that your code works.**
-    4. **Click `▷ / ❚❚` again to pause the code.**
+    1. **Click `Preview` in the top right corner of the Quiz builder.** The preview opens in a new tab.
+    2. **Take the quiz and check that your code works.**
 
 === "Shopify (Legacy)"
 

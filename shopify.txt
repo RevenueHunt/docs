@@ -6253,8 +6253,8 @@ Reach for Liquid when the value is known before the page loads, such as a produc
 2. **Scroll down to `Custom JavaScript` and open it.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
 3. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
-    !!! tip "Run the custom code"
-        `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+    !!! info "Test the code in the preview"
+        Custom code does not run in the Quiz builder. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
     !!! tip "Get help with custom JavaScript"
         Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 4. **Click the `Save` button** to update the preview and the live quiz.
@@ -6271,8 +6271,8 @@ Reach for Liquid when the value is known before the page loads, such as a produc
 3. **Scroll down to `Custom JavaScript` and open it.**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
 4. **Write custom scripts here to change how the quiz behaves, based on what the customer does and on their results.**
-    !!! tip "Run the custom code"
-        `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+    !!! info "Test the code in the preview"
+        Custom code does not run in the Quiz builder. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
     !!! tip "Get help with custom JavaScript"
         Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 5. **Click the `Save` button** to update the preview and the live quiz.
@@ -6302,8 +6302,8 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     </script>
     ```
 5. **Click `Save` to update the preview/live quiz.**
-!!! tip "Run the custom code"
-    `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+!!! info "Test the code in the preview"
+    In the Quiz builder, a custom HTML block shows a placeholder instead of running your code. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 **In a question**
 1. **Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.**
 2. **Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.**
@@ -6326,8 +6326,8 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     </script>
     ```
 5. **Click `Save` to update the preview/live quiz.**
-!!! tip "Run the custom code"
-    `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+!!! info "Test the code in the preview"
+    In the Quiz builder, a custom HTML block shows a placeholder instead of running your code. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 **In a slot item composition**
 1. **Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.**
 2. **Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.**
@@ -6353,8 +6353,8 @@ You can also add custom JavaScript directly in HTML blocks throughout your quiz.
     | `itemType` | `'product'`, `'variant'` or `'collection'` |
     `itemType` tells you which kind of object `item` is, so one block can render all three.
 6. **Click `Save` to update the preview/live quiz.**
-!!! tip "Run the custom code"
-    `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
+!!! info "Test the code in the preview"
+    In the Quiz builder, a custom HTML block shows a placeholder instead of running your code. To test it, click `Preview` in the top right corner of the Quiz builder and take the quiz.
 Custom JavaScript needs the IDs, also called references, of your questions and blocks. They are how the code reaches a specific answer or element.
 !!! info "How to Find Block and Question IDs"
     **Method 1: Copy from Quiz builder (Recommended)**
@@ -6474,11 +6474,9 @@ window.quiz.onChange = (event) => {
   // event.selectedLabel - Label of selected choice
 };
 ```
-Your code runs on the live quiz as usual. In the preview, it runs only after you start it. It never runs in the Quiz builder.
-1. **Open the `Custom JavaScript` field of the question or results page that holds your code.**
-2. **Click the `▷ / ❚❚` button to run the code.**
-3. **Open the preview, take the quiz and check that your code works.**
-4. **Click `▷ / ❚❚` again to pause the code.**
+Your code runs in the preview and on the live quiz. It does not run in the Quiz builder. There, a custom HTML block shows a placeholder instead.
+1. **Click `Preview` in the top right corner of the Quiz builder.** The preview opens in a new tab.
+2. **Take the quiz and check that your code works.**
 To explore available data, you can add a `debugger` statement to your JavaScript code:
 ```javascript
 debugger;
@@ -14988,7 +14986,7 @@ In the Built for Shopify version, quiz data reaches Shopify orders through **cus
 Work through these when the cart or order tagging does not behave.
 1. **Open the question or results page holding your custom JavaScript, and confirm the code is saved.**
 2. **Check that the code uses `actions.updateCartAttributes({...})`.** It has to run before the customer leaves for the cart or the checkout.
-3. **Open the live storefront quiz in another browser, or in an incognito window.** Do not test on the preview or on admin.revenuehunt.com.
+3. **Open the live storefront quiz in another browser, or in an incognito window.** Do not test on the preview, preview.revenuehunt.com or admin.revenuehunt.com.
 4. **Add a temporary `console.log('tagging cart')` line and watch the browser console.** It tells you whether the script runs at all.
 5. **Take the quiz and add the products to the cart.**
 6. **Place a valid [Shopify test order](https://help.shopify.com/en/manual/checkout-settings/test-orders).**
@@ -18387,6 +18385,7 @@ In the Integrations tab of the Quiz builder, you can connect your quiz to third-
     - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
     - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
     - [Zapier](/how-to-guides/send-leads-to-zapier/)
+    - [Growave (through Shopify Flow)](/how-to-guides/reward-quiz-completions-with-growave/)
 To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
 ![Opening Quiz settings from the dashboard](/images/manual_shopifyv2_quizbuilder_integrations_opensettings.png)
 Then navigate to the `Integrations` tab.
@@ -18401,7 +18400,7 @@ Each service has its own card. Find the service, then follow the instructions on
 `Disconnect` - Appears once a service is connected. Click it to disconnect.
 Use the filter tabs above the cards to narrow the list:
 `All` - Every integration, the view the tab opens on.
-`Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) and redirect your quiz data anywhere.
+`Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/), [Webhooks](/how-to-guides/send-leads-to-webhooks/) or [Growave](/how-to-guides/reward-quiz-completions-with-growave/) and redirect your quiz data anywhere.
 ![The Automations filter, showing Webhooks and Zapier](/images/manual_shopifyV2_quizbuilder_integrations_automations.png)
 `Analytics & tracking` - Integrate with platforms like [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) to track quiz events, measure conversions, and understand customer behavior.
 ![The Analytics and tracking filter, showing Google Analytics and Meta Pixel](/images/manual_shopifyV2_quizbuilder_integrations_analytics.png)
@@ -18503,8 +18502,8 @@ Use the [`Questions`](/reference/quiz-builder/questions/) section to add, edit a
 **Quiz preview**
 ![The interactive quiz preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
 All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
+Custom code does not run in the interactive Quiz Preview. A custom HTML block shows a placeholder here instead. To test custom code, click `Preview` in the top right corner of the Quiz builder.
 ![The preview toolbar, with the inspector and device controls](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
-`▷ / ❚❚` - Enable or disable the custom code execution.
 `˙⟡` - Click the stars icon to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window and ask for help in analyzing the quiz. You will have some pre-determined options such as `Analyze quiz logic`, `Analyze product recommendations`, `Analyze quiz flow`, `Improve engagement`, `Improve quiz completion rate` and once you reply it will provide a detailed analysis of the quiz, help you identify the root cause of the issue and suggest improvements.
 `🔍 Activate Inspector` / `Deactivate Inspector` - Click the `Activate Inspector` / `Deactivate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open its [Question/Editing Settings](/reference/quiz-builder/questions/#question-settings).
 You can toggle between the `🖥️ Desktop` and the `📱 Mobile` quiz preview with the top menu.
@@ -20943,10 +20942,10 @@ Below, you will find step-by-step instructions on how to publish the default qui
 1. **In Shopify, go to `Online Store > Theme` and click `Customize`.**
 2. **From the `Home page` menu at the top, go to `Pages`.**
 3. **Open the page template you want to add the automatic popup to, or create a new one.**
-4. **Click `+ Add section`, then `Apps`.** From the list, pick the `Automatic Popup Quiz`.
-    ![Adding the Automatic Popup Quiz section to a page template](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
-5. **In the `Automatic Popup Quiz` section, adjust the automatic popup settings.**
-    ![The Automatic Popup Quiz section added to a page template](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
+4. **Click `+ Add section`, then `Apps`.** From the list, pick `Auto Popup Quiz`.
+    ![Adding the Auto Popup Quiz block to a page template](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
+5. **In the `Auto Popup Quiz` block, adjust the automatic popup settings.**
+    ![The Auto Popup Quiz block added to a page template](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
     ![The automatic popup options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
     `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
     `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the customer's screen width.

@@ -19,6 +19,7 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
         - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
         - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
         - [Zapier](/how-to-guides/send-leads-to-zapier/)
+        - [Growave (through Shopify Flow)](/how-to-guides/reward-quiz-completions-with-growave/)
 
     To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
 
@@ -48,7 +49,7 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 
     `All` - Every integration, the view the tab opens on.
 
-    `Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) and redirect your quiz data anywhere.
+    `Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/), [Webhooks](/how-to-guides/send-leads-to-webhooks/) or [Growave](/how-to-guides/reward-quiz-completions-with-growave/) and redirect your quiz data anywhere.
 
     ![The Automations filter, showing Webhooks and Zapier](/images/manual_shopifyV2_quizbuilder_integrations_automations.png)
 

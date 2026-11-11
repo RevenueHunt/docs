@@ -166,6 +166,10 @@ The app installs from a different place on each platform. Pick yours below.
 
     4. **Check that the app opens on its [Dashboard](/reference/dashboard/).** That is where your quizzes are listed.
 
+    !!! info "If the app says its link has expired"
+
+        BigCommerce opens the app through a link that expires. If the app shows a message that this link has expired, go to `Apps` in your BigCommerce admin and open Product Recommendation Quiz again.
+
     Work through the [Success Checklist](/reference/dashboard/#success-checklist) next, to build and publish your first quiz.
 
 === "Standalone"

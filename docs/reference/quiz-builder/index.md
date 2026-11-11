@@ -28,9 +28,9 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
 
-    ![The preview toolbar, with the inspector and device controls](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
+    Custom code does not run in the interactive Quiz Preview. A custom HTML block shows a placeholder here instead. To test custom code, click `Preview` in the top right corner of the Quiz builder.
 
-    `▷ / ❚❚` - Enable or disable the custom code execution.
+    ![The preview toolbar, with the inspector and device controls](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
 
     `˙⟡` - Click the stars icon to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window and ask for help in analyzing the quiz. You will have some pre-determined options such as `Analyze quiz logic`, `Analyze product recommendations`, `Analyze quiz flow`, `Improve engagement`, `Improve quiz completion rate` and once you reply it will provide a detailed analysis of the quiz, help you identify the root cause of the issue and suggest improvements.
 
