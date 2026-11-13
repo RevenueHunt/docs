@@ -13556,7 +13556,7 @@ A Shopify Flow workflow can add an order tag to every quiz order. It looks for t
 11. **Open the live quiz on your storefront in an incognito window, and complete it.** Do not test on the preview.
 12. **Add the products to the cart from the results page, then place a [Shopify test order](https://help.shopify.com/en/manual/checkout-settings/test-orders).**
 13. **Open the Shopify Orders list and check the `Tags` column of the test order.**
-    ![Shopify Orders list with a quiz order showing the Revenuehunt tag in the Tags column](/images/how_to_tag_quiz_orders_with_shopify_flow_tag.png)
+    ![Shopify Orders list where the quiz order shows the Revenuehunt tag in the Tags column, next to an order with no tag](/images/how_to_tag_quiz_orders_with_shopify_flow_tag_legacy.png)
 If the tag is missing, open the test order and look for `__prq_response_id` under `Additional details`, in the `Notes` card. If they do not, see [Testing the connection](/how-to-guides/show-quiz-answers-in-orders/#testing-the-connection). If they do, open the workflow in Shopify Flow and review its recent runs.
 !!! note "Only new orders are tagged"
     The workflow tags orders created after you turn it on. Orders placed before that do not get the tag.
