@@ -31,9 +31,18 @@ See how many orders your quiz produced, and what they were worth. The app attrib
 
         ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
 
-    Every order that came from a quiz response is also marked in the Shopify Orders tab.
+    !!! info "How the app links orders to the quiz"
 
-    ![how to show quiz answers on orders example1](/images/how_to_show_quiz_answers_on_orders_example1.png)
+        The app never changes your orders. When the customer reaches the results page, or goes to the cart or checkout after the quiz, the app saves two hidden cart attributes. Shopify copies them to the order at checkout:
+
+        - `__quiz_response_id`: the ID of the quiz response
+        - `__quiz_id`: the ID of the quiz
+
+        The app reads these attributes to count the orders and revenue in Analytics. They show under `Additional details`, in the `Notes` card of the order.
+
+        ![Shopify order with Additional details showing __quiz_response_id and __quiz_id](/images/how_to_tag_quiz_orders_shopify_additional_details.png)
+
+        These attributes are not order tags. To add a tag you can filter the Shopify Orders list by, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
 
     !!! tip "The same revenue in Google Analytics"
 

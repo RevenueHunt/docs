@@ -12893,6 +12893,10 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
 ## Pass the answers to Shopify
 
+!!! note "Order tags"
+
+    The RevenueHunt app does not add tags to orders yet. For possible workarounds, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
+
 ## Testing the connection
 
 ---
@@ -13139,6 +13143,44 @@ That keeps the quiz fast, and keeps a large catalog out of technical trouble.
 4. **Click `run manual sync`.**
     !!! info "What happens from then on"
         The app refreshes the products in the synced categories once a day, so the quiz keeps current prices and availability.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/tag-quiz-orders/
+================================================================================
+
+---
+description: "Learn how the RevenueHunt app attributes orders and revenue to your quiz, and how to tag the orders that came from it."
+icon: material/tag-outline
+---
+
+# How to Tag Quiz Orders
+
+This article explains how the RevenueHunt app attributes orders and revenue to your quiz. It also explains how to tag the orders that came from the quiz, so you can find, filter and export them. What is possible depends on your platform.
+
+## What the app does on its own
+
+## Tag quiz orders
+
+---
+
+This article explains how RevenueHunt links orders to your quiz on each platform, and how to tag quiz orders with Shopify Flow.
+
+--- WooCommerce Specific Content ---
+
+The app does not save any quiz data to WooCommerce orders. It adds no order notes, order meta or tags. The app cannot tell which orders came from the quiz.
+For other ways to link orders to the quiz, see [Tag quiz orders](#tag-quiz-orders).
+Order tagging is available in the Shopify versions of the app only. On WooCommerce, you can link orders to the quiz in these ways instead:
+- **Track quiz revenue in Google Analytics.** Compare the purchases of customers who started the quiz with everyone else. See [How to Track Quiz Revenue](/how-to-guides/track-quiz-revenue/).
+- **Match orders by email address in another tool.** Send quiz responses to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), [Zapier](/how-to-guides/send-leads-to-zapier/) or a [webhook](/how-to-guides/send-leads-to-webhooks/). If that tool also receives your WooCommerce orders, you can find the customers who took the quiz and then ordered.
+- **Match orders by hand with CSV files.** Download your quiz responses as a CSV file. See [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/). Export your WooCommerce orders with the customer email addresses, for example with an order export plugin. Then match the two files by email address, for example in Google Sheets or Excel. This is a lot of manual work, so it suits an occasional check, not daily use.
+- **Build a custom integration.** A developer can write a WordPress plugin that receives the quiz webhook. It can then add an order note or order meta to the matching WooCommerce order.
+!!! warning "Email matching is less precise"
+    These options match the order by email address, not by the cart. An order placed with a different email address is missed. A later order from the same customer can also be matched, even if it did not come from the quiz.
+!!! note "Custom development is your responsibility"
+    The RevenueHunt app does not provide a custom integration, and the support team cannot build one for you.
 
 
 

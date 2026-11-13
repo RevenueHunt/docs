@@ -13,6 +13,15 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
     In the Built for Shopify version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
 
+    !!! info "What the app saves on its own"
+
+        When the customer reaches the results page, or goes to the cart or checkout after the quiz, the app saves two hidden cart attributes. Shopify copies them to the order at checkout:
+
+        - `__quiz_response_id`: the ID of the quiz response
+        - `__quiz_id`: the ID of the quiz
+
+        They show under `Additional details`, in the `Notes` card of the order. The app uses them to count quiz orders and revenue in Analytics. The code example below also writes `__quiz_response_id`, which does no harm. For more, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
+
     !!! info "You choose exactly what to save"
 
         This version does **not** write every quiz answer into Shopify order notes on its own.
@@ -110,6 +119,10 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
     !!! note "Not available on this platform"
 
         Quiz answers reach orders in the Shopify versions of the app only.
+
+!!! note "Order tags"
+
+    The RevenueHunt app does not add tags to orders yet. For possible workarounds, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
 
 ## Testing the connection
 

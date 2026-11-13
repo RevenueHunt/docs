@@ -14948,6 +14948,10 @@ You can see exactly which orders in your Shopify Orders tab came from the quiz, 
 
 ## Pass the answers to Shopify
 
+!!! note "Order tags"
+
+    The RevenueHunt app does not add tags to orders yet. For possible workarounds, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
+
 ## Testing the connection
 
 ---
@@ -14957,6 +14961,11 @@ This article explains how to show quiz answers in Shopify Orders.
 --- Shopify Specific Content ---
 
 In the Built for Shopify version, quiz data reaches Shopify orders through **custom JavaScript**. You control which values are saved to the cart and carried through to the order.
+!!! info "What the app saves on its own"
+    When the customer reaches the results page, or goes to the cart or checkout after the quiz, the app saves two hidden cart attributes. Shopify copies them to the order at checkout:
+    - `__quiz_response_id`: the ID of the quiz response
+    - `__quiz_id`: the ID of the quiz
+    They show under `Additional details`, in the `Notes` card of the order. The app uses them to count quiz orders and revenue in Analytics. The code example below also writes `__quiz_response_id`, which does no harm. For more, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
 !!! info "You choose exactly what to save"
     This version does **not** write every quiz answer into Shopify order notes on its own.
     You pass the values you want instead. That suits saving a result name, a score, a response ID, a campaign tag, or a handful of answers.
@@ -15237,6 +15246,70 @@ This article explains how to sync only the collections or categories your quiz n
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/tag-quiz-orders/
+================================================================================
+
+---
+description: "Learn how the RevenueHunt app attributes orders and revenue to your quiz, and how to tag the orders that came from it."
+icon: material/tag-outline
+---
+
+# How to Tag Quiz Orders
+
+This article explains how the RevenueHunt app attributes orders and revenue to your quiz. It also explains how to tag the orders that came from the quiz, so you can find, filter and export them. What is possible depends on your platform.
+
+## What the app does on its own
+
+## Tag quiz orders
+
+---
+
+This article explains how RevenueHunt links orders to your quiz on each platform, and how to tag quiz orders with Shopify Flow.
+
+--- Shopify Specific Content ---
+
+The app never changes your orders. It saves quiz data to the Shopify cart instead, and Shopify copies it to the order at checkout.
+When the customer reaches the results page, or goes to the cart or checkout after the quiz, the app saves two hidden cart attributes:
+- `__quiz_response_id`: the ID of the quiz response
+- `__quiz_id`: the ID of the quiz
+In Shopify, the attributes show under `Additional details`, in the `Notes` card of the order.
+![Shopify order with Additional details showing __quiz_response_id and __quiz_id](/images/how_to_tag_quiz_orders_shopify_additional_details.png)
+The app reads these attributes to count quiz orders and revenue in [Analytics](/how-to-guides/track-quiz-revenue/). You do not need to set anything up.
+The quiz answers are not saved to the order on their own. To save answers or other values, add custom JavaScript. See [How to Show Quiz Answers in Shopify Orders](/how-to-guides/show-quiz-answers-in-orders/).
+!!! warning "Attribution needs an unbroken flow"
+    The customer has to add products to the cart from the results page, then complete the checkout in the same session. Set the Checkout settings on your results page to `proceed to cart`. See [how to change checkout settings on your results page](/how-to-guides/change-checkout-settings/).
+!!! info "The app does not add Shopify order tags"
+    Cart attributes are not order tags. You cannot filter the Shopify Orders list by them. To add a real order tag, use the Shopify Flow workflow in [Tag quiz orders](#tag-quiz-orders).
+!!! tip "The Quiz Completed trigger in Shopify Flow"
+    The app also sends a `Quiz Completed` trigger to Shopify Flow, with the answers, customer tags and recommended products. It runs on the customer, before any order exists, so it cannot tag an order. Use it for customer automations instead. See [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
+A Shopify Flow workflow can add an order tag to every quiz order. It looks for the `__quiz_response_id` cart attribute the app already saves. No code is needed.
+1. **In Shopify admin, go to `Apps > Flow`.** If your store does not have [Shopify Flow](https://apps.shopify.com/flow), install it. It is free.
+2. **Click `Create workflow`.**
+3. **Click `Select a trigger` and choose `Order created`.** This is a Shopify trigger, not a RevenueHunt trigger.
+4. **Under the trigger, add a `Condition`.**
+5. **Click `Add criteria` and choose the order's custom attributes `Key`.** Flow shows `At least one of order / custom attributes`, and the field `customAttributes_item.key`.
+    !!! warning "Choose the custom attributes key"
+        Other order properties also have a `key` field. The condition works only on `customAttributes_item.key`.
+6. **Set the operator to `Equal to`, and type `__quiz_response_id` in the value field.**
+    ![Shopify Flow condition set to At least one of order / custom attributes, with customAttributes_item.key Equal to __quiz_response_id](/images/how_to_tag_quiz_orders_with_shopify_flow_condition.png)
+7. **On the `True` branch, add the action `Add order tags`.**
+8. **Type the tag you want, for example `RevenueHunt Quiz`.**
+    ![Shopify Flow workflow with the Order created trigger, a condition on the custom attributes key equal to __quiz_response_id, and an Add order tags action on the True branch](/images/how_to_tag_quiz_orders_with_shopify_flow_workflow.png)
+9. **Give the workflow a name, then click `Turn on workflow`.**
+10. **Open the live quiz on your storefront in an incognito window, and complete it.** Do not test on the preview.
+11. **Add the products to the cart from the results page, then place a [Shopify test order](https://help.shopify.com/en/manual/checkout-settings/test-orders).**
+12. **Open the Shopify Orders list and check the `Tags` column of the test order.**
+    ![Shopify Orders list with a quiz order showing the Revenuehunt tag in the Tags column](/images/how_to_tag_quiz_orders_with_shopify_flow_tag.png)
+If the tag is missing, open the test order and look for `__quiz_response_id` under `Additional details`. If it is not there, the order has no quiz data. Check the warning about an unbroken flow above. If it is there, open the workflow in Shopify Flow and review its recent runs.
+!!! note "Only new orders are tagged"
+    The workflow tags orders created after you turn it on. Orders placed before that do not get the tag.
+!!! tip "Match orders by hand with CSV files"
+    You can also match orders without Shopify Flow. Download your quiz responses as a CSV file. See [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/). Export your orders from `Orders > Export` in Shopify admin. Then match the two files by email address, for example in Google Sheets or Excel. This is a lot of manual work, so it suits an occasional check, not daily use.
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/how-to-guides/track-ad-to-purchase-funnel/
 ================================================================================
 
@@ -15434,8 +15507,13 @@ The app connects to Shopify orders the moment it is installed. There is nothing 
         `Average order value`, `Number of carts` and others are available. See [how to customize the analytics dashboard](/reference/quiz-builder/metrics/#customize).
 4. **Read the orders and their total value in [Quiz Analytics](/reference/quiz-builder/metrics/#analytics).**
     ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
-Every order that came from a quiz response is also marked in the Shopify Orders tab.
-![how to show quiz answers on orders example1](/images/how_to_show_quiz_answers_on_orders_example1.png)
+!!! info "How the app links orders to the quiz"
+    The app never changes your orders. When the customer reaches the results page, or goes to the cart or checkout after the quiz, the app saves two hidden cart attributes. Shopify copies them to the order at checkout:
+    - `__quiz_response_id`: the ID of the quiz response
+    - `__quiz_id`: the ID of the quiz
+    The app reads these attributes to count the orders and revenue in Analytics. They show under `Additional details`, in the `Notes` card of the order.
+    ![Shopify order with Additional details showing __quiz_response_id and __quiz_id](/images/how_to_tag_quiz_orders_shopify_additional_details.png)
+    These attributes are not order tags. To add a tag you can filter the Shopify Orders list by, see [How to Tag Quiz Orders](/how-to-guides/tag-quiz-orders/).
 !!! tip "The same revenue in Google Analytics"
     Quiz revenue can sit alongside your other metrics in GA4. See [how to track quiz performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
     ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
