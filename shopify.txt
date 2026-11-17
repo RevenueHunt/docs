@@ -10087,7 +10087,7 @@ This article explains how to open a quiz from a link, in a menu or on a button. 
 Two things make a link popup work here.
 1. **Turn on the `Link Popup Quiz` app embed in your theme**, for every page. For one page only, add a `Link Popup Quiz` section to that page template instead.
 2. **Use `#quiz` as the link.** It goes in a menu item, a button, a banner, a page or a blog post.
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NYwDShgRQEs?si=-7q-Mcf1NmiOQDVp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/n2Yy0nNxsso?si=alkSLpmFSFGQPpsq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 themes cannot run this"
     A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
     Upgrade to an Online Store 2.0 theme to use them.
