@@ -10152,7 +10152,7 @@ A `Link Popup Quiz` section on one page template keeps the popup to that page, a
     `#quiz` opens your default quiz.
     With [Shopify Markets](/reference/app-settings/#shopify-markets) set up, the default quiz for that market opens instead.
     To open a particular quiz, see [Open a specific quiz](#open-a-specific-quiz).
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XFUhM7R_tiI?si=0ufaftEbDL5TEFRS" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 !!! warning "Shopify 1.0 themes cannot run this"
     A quiz built in the Built for Shopify version needs an app embed or an app section, and both are Online Store 2.0 features. A Shopify 1.0 theme supports neither.
     Upgrade to an Online Store 2.0 theme to use them.

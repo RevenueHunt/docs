@@ -399,7 +399,7 @@ The button sits on your home page. The app embed makes `#quiz` work across the s
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XFUhM7R_tiI?si=0ufaftEbDL5TEFRS" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 themes cannot run this"
 
